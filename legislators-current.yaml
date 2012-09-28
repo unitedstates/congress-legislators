@@ -61,22 +61,26 @@
     start: '1990-05-16'
     end: '1994-12-01'
     state: HI
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: HI
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: HI
+    class: 1
     party: Democrat
     url: http://akaka.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: HI
+    class: 1
     party: Democrat
     url: http://akaka.senate.gov
     address: '141 HART SENATE OFFICE BUILDING WASHINGTON DC 20510 '
@@ -100,27 +104,32 @@
     start: '1983-01-03'
     end: '1988-10-22'
     state: NM
+    class: 1
     party: Democrat
   - type: sen
     start: '1989-01-03'
     end: '1994-12-01'
     state: NM
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: NM
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: NM
+    class: 1
     party: Democrat
     url: http://bingaman.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: NM
+    class: 1
     party: Democrat
     url: http://bingaman.senate.gov
     address: 703 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -187,6 +196,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: OH
+    class: 1
     party: Democrat
     url: http://brown.senate.gov/
     address: 713 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -215,12 +225,14 @@
     start: '2001-01-03'
     end: '2006-12-09'
     state: WA
+    class: 1
     party: Democrat
     url: http://cantwell.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: WA
+    class: 1
     party: Democrat
     url: http://cantwell.senate.gov
     address: 511 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -307,6 +319,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: MD
+    class: 1
     party: Democrat
     url: http://cardin.senate.gov/
     address: 509 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -361,12 +374,14 @@
     start: '2001-01-03'
     end: '2006-12-09'
     state: DE
+    class: 1
     party: Democrat
     url: http://carper.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: DE
+    class: 1
     party: Democrat
     url: http://carper.senate.gov
     address: 513 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -389,6 +404,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: PA
+    class: 1
     party: Democrat
     url: http://casey.senate.gov/
     address: 393 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -413,27 +429,32 @@
     start: '1987-01-06'
     end: '1992-10-09'
     state: ND
+    class: 3
     party: Democrat
   - type: sen
     start: '1992-12-14'
     end: '1994-12-01'
     state: ND
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: ND
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: ND
+    class: 1
     party: Democrat
     url: http://conrad.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: ND
+    class: 1
     party: Democrat
     url: http://conrad.senate.gov
     address: '530 HART SENATE OFFICE BUILDING WASHINGTON DC 20510 '
@@ -455,6 +476,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: TN
+    class: 1
     party: Republican
     url: http://corker.senate.gov/
     address: 185 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -477,22 +499,26 @@
     start: '1992-01-01'
     end: '1994-12-01'
     state: CA
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: CA
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: CA
+    class: 1
     party: Democrat
     url: http://feinstein.senate.gov
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: CA
+    class: 1
     party: Democrat
     url: http://feinstein.senate.gov
     address: 331 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -517,32 +543,38 @@
     start: '1977-01-04'
     end: '1982-12-23'
     state: UT
+    class: 1
     party: Republican
   - type: sen
     start: '1983-01-03'
     end: '1988-10-22'
     state: UT
+    class: 1
     party: Republican
   - type: sen
     start: '1989-01-03'
     end: '1994-12-01'
     state: UT
+    class: 1
     party: Republican
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: UT
+    class: 1
     party: Republican
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: UT
+    class: 1
     party: Republican
     url: http://hatch.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: UT
+    class: 1
     party: Republican
     url: http://hatch.senate.gov/
     address: 104 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -566,22 +598,26 @@
     start: '1993-01-05'
     end: '1994-12-01'
     state: TX
+    class: 1
     party: Republican
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: TX
+    class: 1
     party: Republican
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: TX
+    class: 1
     party: Republican
     url: http://hutchison.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: TX
+    class: 1
     party: Republican
     url: http://hutchison.senate.gov/
     address: 284 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -603,6 +639,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: MN
+    class: 1
     party: Democrat
     url: http://klobuchar.senate.gov/
     address: 302 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -628,22 +665,26 @@
     start: '1989-01-03'
     end: '1994-12-01'
     state: WI
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: WI
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: WI
+    class: 1
     party: Democrat
     url: http://kohl.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: WI
+    class: 1
     party: Democrat
     url: http://kohl.senate.gov/
     address: 330 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -691,17 +732,20 @@
     start: '1995-01-04'
     end: '2000-12-15'
     state: AZ
+    class: 1
     party: Republican
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: AZ
+    class: 1
     party: Republican
     url: http://kyl.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: AZ
+    class: 1
     party: Republican
     url: http://kyl.senate.gov/
     address: 730 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -726,22 +770,26 @@
     start: '1989-01-03'
     end: '1994-12-01'
     state: CT
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: CT
+    class: 1
     party: Democrat
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: CT
+    class: 1
     party: Democrat
     url: http://lieberman.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: CT
+    class: 1
     party: Independent
     url: http://lieberman.senate.gov/
     address: 706 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -766,32 +814,38 @@
     start: '1977-01-04'
     end: '1982-12-23'
     state: IN
+    class: 1
     party: Republican
   - type: sen
     start: '1983-01-03'
     end: '1988-10-22'
     state: IN
+    class: 1
     party: Republican
   - type: sen
     start: '1989-01-03'
     end: '1994-12-01'
     state: IN
+    class: 1
     party: Republican
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: IN
+    class: 1
     party: Republican
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: IN
+    class: 1
     party: Republican
     url: http://lugar.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: IN
+    class: 1
     party: Republican
     url: http://lugar.senate.gov/
     address: 306 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -813,6 +867,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: MO
+    class: 1
     party: Democrat
     url: http://mccaskill.senate.gov/
     address: 506 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -880,12 +935,14 @@
     start: '2006-01-18'
     end: '2006-12-09'
     state: NJ
+    class: 1
     party: Democrat
     url: http://menendez.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: NJ
+    class: 1
     party: Democrat
     url: http://menendez.senate.gov/
     address: 528 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -909,12 +966,14 @@
     start: '2001-01-03'
     end: '2006-12-09'
     state: NE
+    class: 1
     party: Democrat
     url: http://bennelson.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: NE
+    class: 1
     party: Democrat
     url: http://bennelson.senate.gov/
     address: 720 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -974,12 +1033,14 @@
     start: '2001-01-03'
     end: '2006-12-09'
     state: FL
+    class: 1
     party: Democrat
     url: http://billnelson.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: FL
+    class: 1
     party: Democrat
     url: http://billnelson.senate.gov/
     address: 716 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1053,6 +1114,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: VT
+    class: 1
     party: Independent
     url: http://sanders.senate.gov/
     address: 332 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1125,17 +1187,20 @@
     start: '1995-01-04'
     end: '2000-12-15'
     state: ME
+    class: 1
     party: Republican
   - type: sen
     start: '2001-01-03'
     end: '2006-12-09'
     state: ME
+    class: 1
     party: Republican
     url: http://snowe.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: ME
+    class: 1
     party: Republican
     url: http://snowe.senate.gov/
     address: 154 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1170,12 +1235,14 @@
     start: '2001-01-03'
     end: '2006-12-09'
     state: MI
+    class: 1
     party: Democrat
     url: http://stabenow.senate.gov/
   - type: sen
     start: '2007-01-04'
     end: '2012-12-31'
     state: MI
+    class: 1
     party: Democrat
     url: http://stabenow.senate.gov/
     address: 133 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1197,6 +1264,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: MT
+    class: 1
     party: Democrat
     url: http://tester.senate.gov/
     address: 724 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1218,6 +1286,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: VA
+    class: 1
     party: Democrat
     url: http://webb.senate.gov/
     address: 248 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1238,6 +1307,7 @@
     start: '2007-01-04'
     end: '2012-12-31'
     state: RI
+    class: 1
     party: Democrat
     url: http://whitehouse.senate.gov/
     address: 502 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1260,6 +1330,7 @@
     start: '2007-06-25'
     end: '2012-12-31'
     state: WY
+    class: 1
     party: Republican
     url: http://barrasso.senate.gov
     address: 307 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1328,6 +1399,7 @@
     start: '2007-12-31'
     end: '2012-12-31'
     state: MS
+    class: 1
     party: Republican
     url: http://wicker.senate.gov/
     address: 555 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1350,12 +1422,14 @@
     start: '2003-01-07'
     end: '2009-01-03'
     state: TN
+    class: 2
     party: Republican
     url: http://alexander.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: TN
+    class: 2
     party: Republican
     url: http://alexander.senate.gov/
     address: 455 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1392,37 +1466,44 @@
     start: '1978-01-01'
     end: '1978-10-15'
     state: MT
+    class: 2
     party: Democrat
   - type: sen
     start: '1979-01-15'
     end: '1984-10-12'
     state: MT
+    class: 2
     party: Democrat
   - type: sen
     start: '1985-01-03'
     end: '1990-10-28'
     state: MT
+    class: 2
     party: Democrat
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: MT
+    class: 2
     party: Democrat
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: MT
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: MT
+    class: 2
     party: Democrat
     url: http://baucus.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: MT
+    class: 2
     party: Democrat
     url: http://baucus.senate.gov
     address: 511 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1444,6 +1525,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: AK
+    class: 2
     party: Democrat
     url: http://begich.senate.gov
     address: '144 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510 '
@@ -1490,12 +1572,14 @@
     start: '2003-01-07'
     end: '2009-01-03'
     state: GA
+    class: 2
     party: Republican
     url: http://chambliss.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: GA
+    class: 2
     party: Republican
     url: http://chambliss.senate.gov
     address: 416 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1537,37 +1621,44 @@
     start: '1978-01-01'
     end: '1978-10-15'
     state: MS
+    class: 2
     party: Republican
   - type: sen
     start: '1979-01-15'
     end: '1984-10-12'
     state: MS
+    class: 2
     party: Republican
   - type: sen
     start: '1985-01-03'
     end: '1990-10-28'
     state: MS
+    class: 2
     party: Republican
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: MS
+    class: 2
     party: Republican
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: MS
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: MS
+    class: 2
     party: Republican
     url: http://cochran.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: MS
+    class: 2
     party: Republican
     url: http://cochran.senate.gov
     address: 113 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1591,17 +1682,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: ME
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: ME
+    class: 2
     party: Republican
     url: http://collins.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: ME
+    class: 2
     party: Republican
     url: http://collins.senate.gov
     address: 413 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1624,17 +1718,20 @@
     start: '2002-01-01'
     end: '2002-11-22'
     state: TX
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: TX
+    class: 2
     party: Republican
     url: http://cornyn.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: TX
+    class: 2
     party: Republican
     url: http://cornyn.senate.gov/
     address: '517 HART SENATE OFFICE BUILDING WASHINGTON DC 20510 '
@@ -1701,17 +1798,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: IL
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: IL
+    class: 2
     party: Democrat
     url: http://durbin.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: IL
+    class: 2
     party: Democrat
     url: http://durbin.senate.gov
     address: 711 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1735,17 +1835,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: WY
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: WY
+    class: 2
     party: Republican
     url: http://enzi.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: WY
+    class: 2
     party: Republican
     url: http://enzi.senate.gov
     address: 379A RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1793,12 +1896,14 @@
     start: '2003-01-07'
     end: '2009-01-03'
     state: SC
+    class: 2
     party: Republican
     url: http://lgraham.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: SC
+    class: 2
     party: Republican
     url: http://lgraham.senate.gov/
     address: 290 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1820,6 +1925,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: NC
+    class: 2
     party: Democrat
     url: http://hagan.senate.gov
     address: 521 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1874,27 +1980,32 @@
     start: '1985-01-03'
     end: '1990-10-28'
     state: IA
+    class: 2
     party: Democrat
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: IA
+    class: 2
     party: Democrat
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: IA
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: IA
+    class: 2
     party: Democrat
     url: http://harkin.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: IA
+    class: 2
     party: Democrat
     url: http://harkin.senate.gov/
     address: 731 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1944,22 +2055,26 @@
     start: '1994-01-01'
     end: '1996-10-04'
     state: OK
+    class: 2
     party: Republican
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: OK
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: OK
+    class: 2
     party: Republican
     url: http://inhofe.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: OK
+    class: 2
     party: Republican
     url: http://inhofe.senate.gov/
     address: 205 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -1981,6 +2096,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: NE
+    class: 2
     party: Republican
     url: http://johanns.senate.gov
     address: 404 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2035,17 +2151,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: SD
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: SD
+    class: 2
     party: Democrat
     url: http://johnson.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: SD
+    class: 2
     party: Democrat
     url: http://johnson.senate.gov/
     address: 136 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2070,27 +2189,32 @@
     start: '1985-01-03'
     end: '1990-10-28'
     state: MA
+    class: 2
     party: Democrat
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: MA
+    class: 2
     party: Democrat
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: MA
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: MA
+    class: 2
     party: Democrat
     url: http://kerry.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: MA
+    class: 2
     party: Democrat
     url: http://kerry.senate.gov/
     address: 218 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2114,17 +2238,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: LA
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: LA
+    class: 2
     party: Democrat
     url: http://landrieu.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: LA
+    class: 2
     party: Democrat
     url: http://landrieu.senate.gov/
     address: 431 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2149,27 +2276,32 @@
     start: '1982-01-01'
     end: '1988-10-22'
     state: NJ
+    class: 1
     party: Democrat
   - type: sen
     start: '1989-01-03'
     end: '1994-12-01'
     state: NJ
+    class: 1
     party: Democrat
   - type: sen
     start: '1995-01-04'
     end: '2000-12-15'
     state: NJ
+    class: 1
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: NJ
+    class: 2
     party: Democrat
     url: http://lautenberg.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: NJ
+    class: 2
     party: Democrat
     url: http://lautenberg.senate.gov/
     address: 324 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2193,32 +2325,38 @@
     start: '1979-01-15'
     end: '1984-10-12'
     state: MI
+    class: 2
     party: Democrat
   - type: sen
     start: '1985-01-03'
     end: '1990-10-28'
     state: MI
+    class: 2
     party: Democrat
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: MI
+    class: 2
     party: Democrat
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: MI
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: MI
+    class: 2
     party: Democrat
     url: http://levin.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: MI
+    class: 2
     party: Democrat
     url: http://levin.senate.gov/
     address: 269 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2242,27 +2380,32 @@
     start: '1985-01-03'
     end: '1990-10-28'
     state: KY
+    class: 2
     party: Republican
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: KY
+    class: 2
     party: Republican
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: KY
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: KY
+    class: 2
     party: Republican
     url: http://mcconnell.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: KY
+    class: 2
     party: Republican
     url: http://mcconnell.senate.gov/
     address: 361A RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2284,6 +2427,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: OR
+    class: 2
     party: Democrat
     url: http://merkley.senate.gov
     address: 107 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2306,12 +2450,14 @@
     start: '2003-01-07'
     end: '2009-01-03'
     state: AR
+    class: 2
     party: Democrat
     url: http://pryor.senate.gov
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: AR
+    class: 2
     party: Democrat
     url: http://pryor.senate.gov
     address: 255 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2354,17 +2500,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: RI
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: RI
+    class: 2
     party: Democrat
     url: http://reed.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: RI
+    class: 2
     party: Democrat
     url: http://reed.senate.gov/
     address: 728 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2386,6 +2535,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: ID
+    class: 2
     party: Republican
     url: http://risch.senate.gov
     address: 483 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2457,17 +2607,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: KS
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: KS
+    class: 2
     party: Republican
     url: http://roberts.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: KS
+    class: 2
     party: Republican
     url: http://roberts.senate.gov/
     address: 109 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2494,27 +2647,32 @@
     start: '1985-01-03'
     end: '1990-10-28'
     state: WV
+    class: 2
     party: Democrat
   - type: sen
     start: '1991-01-03'
     end: '1996-10-04'
     state: WV
+    class: 2
     party: Democrat
   - type: sen
     start: '1997-01-07'
     end: '2002-11-22'
     state: WV
+    class: 2
     party: Democrat
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: WV
+    class: 2
     party: Democrat
     url: http://rockefeller.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: WV
+    class: 2
     party: Democrat
     url: http://rockefeller.senate.gov/
     address: 531 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2539,17 +2697,20 @@
     start: '1997-01-07'
     end: '2002-11-22'
     state: AL
+    class: 2
     party: Republican
   - type: sen
     start: '2003-01-07'
     end: '2009-01-03'
     state: AL
+    class: 2
     party: Republican
     url: http://sessions.senate.gov/
   - type: sen
     start: '2009-01-06'
     end: '2014-12-31'
     state: AL
+    class: 2
     party: Republican
     url: http://sessions.senate.gov/
     address: 326 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2570,6 +2731,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: NH
+    class: 2
     party: Democrat
     url: http://shaheen.senate.gov
     address: 520 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2625,6 +2787,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: CO
+    class: 2
     party: Democrat
     url: http://markudall.senate.gov
     address: 328 Hart Senate Office Building; Washington DC, 20510
@@ -2681,6 +2844,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: NM
+    class: 2
     party: Democrat
     url: http://tomudall.senate.gov/
     address: 110 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2701,6 +2865,7 @@
     start: '2009-01-06'
     end: '2014-12-31'
     state: VA
+    class: 2
     party: Democrat
     url: http://warner.senate.gov
     address: 459A RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2723,6 +2888,7 @@
     start: '2005-01-04'
     end: '2008-11-16'
     state: IL
+    class: 3
     party: Democrat
     url: http://obama.senate.gov/
   - type: prez
@@ -2762,6 +2928,7 @@
     start: '2009-01-27'
     end: '2012-12-31'
     state: NY
+    class: 1
     party: Democrat
     url: http://gillibrand.senate.gov/
     address: 478 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2783,6 +2950,7 @@
     start: '2009-07-07'
     end: '2014-12-31'
     state: MN
+    class: 2
     party: Democrat
     url: http://franken.senate.gov
     address: 309 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2804,6 +2972,7 @@
     start: '2010-02-04'
     end: '2012-12-31'
     state: MA
+    class: 1
     party: Republican
     url: http://scottbrown.senate.gov
     address: 317 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2826,6 +2995,7 @@
     start: '2010-11-15'
     end: '2014-12-31'
     state: DE
+    class: 2
     party: Democrat
     url: http://coons.senate.gov/
     address: 383 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -2848,6 +3018,7 @@
     start: '2010-11-15'
     end: '2012-12-31'
     state: WV
+    class: 1
     party: Democrat
     url: http://manchin.senate.gov/
     address: 311 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -3355,6 +3526,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: NH
+    class: 3
     party: Republican
     url: http://ayotte.senate.gov/
     address: 188 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -4048,12 +4220,14 @@
     start: '2009-01-22'
     end: '2010-12-22'
     state: CO
+    class: 3
     party: Democrat
     url: http://bennet.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: CO
+    class: 3
     party: Democrat
     url: http://bennet.senate.gov/
     address: 458 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -4756,6 +4930,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: CT
+    class: 3
     party: Democrat
     url: http://blumenthal.senate.gov/
     address: G55 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -4824,6 +4999,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: MO
+    class: 3
     party: Republican
     url: http://blunt.senate.gov/public/
     address: B40C DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -5084,6 +5260,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: AR
+    class: 3
     party: Republican
     url: http://boozman.senate.gov/
     address: 1 RUSSELL COURTYARD WASHINGTON DC 20510
@@ -5341,23 +5518,27 @@
     start: '1993-01-05'
     end: '1998-12-19'
     state: CA
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: CA
+    class: 3
     party: Democrat
     url: http://boxer.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: CA
+    class: 3
     party: Democrat
     url: http://boxer.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: CA
+    class: 3
     party: Democrat
     url: http://boxer.senate.gov
     address: '112 HART SENATE OFFICE BUILDING WASHINGTON DC 20510 '
@@ -5851,12 +6032,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: NC
+    class: 3
     party: Republican
     url: http://burr.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: NC
+    class: 3
     party: Republican
     url: http://burr.senate.gov
     address: 217 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -7262,16 +7445,19 @@
     start: '1989-01-03'
     end: '1992-10-09'
     state: IN
+    class: 3
     party: Republican
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: IN
+    class: 3
     party: Republican
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: IN
+    class: 3
     party: Republican
     url: http://coats.senate.gov/
     address: B40E DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -7417,12 +7603,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: OK
+    class: 3
     party: Republican
     url: http://coburn.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: OK
+    class: 3
     party: Republican
     url: http://coburn.senate.gov
     address: 172 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -8077,18 +8265,21 @@
     start: '1999-01-06'
     end: '2004-12-09'
     state: ID
+    class: 3
     party: Republican
     url: http://crapo.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: ID
+    class: 3
     party: Republican
     url: http://crapo.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: ID
+    class: 3
     party: Republican
     url: http://crapo.senate.gov
     address: 239 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -8877,12 +9068,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: SC
+    class: 3
     party: Republican
     url: http://demint.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: SC
+    class: 3
     party: Republican
     url: http://demint.senate.gov
     address: 167 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -11802,33 +11995,39 @@
     start: '1981-01-05'
     end: '1986-10-18'
     state: IA
+    class: 3
     party: Republican
   - type: sen
     start: '1987-01-06'
     end: '1992-10-09'
     state: IA
+    class: 3
     party: Republican
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: IA
+    class: 3
     party: Republican
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: IA
+    class: 3
     party: Republican
     url: http://grassley.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: IA
+    class: 3
     party: Republican
     url: http://grassley.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: IA
+    class: 3
     party: Republican
     url: http://grassley.senate.gov
     address: 135 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -13184,6 +13383,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: ND
+    class: 3
     party: Republican
     url: http://hoeven.senate.gov/
     address: G11 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -13652,48 +13852,57 @@
     start: '1963-01-09'
     end: '1968-10-14'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1969-01-03'
     end: '1974-12-20'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1975-01-14'
     end: '1980-12-16'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1981-01-05'
     end: '1986-10-18'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1987-01-06'
     end: '1992-10-09'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: HI
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: HI
+    class: 3
     party: Democrat
     url: http://inouye.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: HI
+    class: 3
     party: Democrat
     url: http://inouye.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: HI
+    class: 3
     party: Democrat
     url: http://inouye.senate.gov/
     address: 722 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -13737,12 +13946,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: GA
+    class: 3
     party: Republican
     url: http://isakson.senate.gov
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: GA
+    class: 3
     party: Republican
     url: http://isakson.senate.gov
     address: 131 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -14192,6 +14403,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: WI
+    class: 3
     party: Republican
     url: http://ronjohnson.senate.gov/public/
     address: 2 RUSSELL COURTYARD WASHINGTON DC 20510
@@ -15090,11 +15302,13 @@
     start: '2010-11-29'
     end: '2010-12-22'
     state: IL
+    class: 3
     party: Republican
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: IL
+    class: 3
     party: Republican
     url: http://kirk.senate.gov/
     address: 524 Hart Senate Office Building; Washington DC, 20510
@@ -15755,38 +15969,45 @@
     start: '1975-01-14'
     end: '1980-12-16'
     state: VT
+    class: 3
     party: Democrat
   - type: sen
     start: '1981-01-05'
     end: '1986-10-18'
     state: VT
+    class: 3
     party: Democrat
   - type: sen
     start: '1987-01-06'
     end: '1992-10-09'
     state: VT
+    class: 3
     party: Democrat
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: VT
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: VT
+    class: 3
     party: Democrat
     url: http://leahy.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: VT
+    class: 3
     party: Democrat
     url: http://leahy.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: VT
+    class: 3
     party: Democrat
     url: http://leahy.senate.gov/
     address: 433 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -15876,6 +16097,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: UT
+    class: 3
     party: Republican
     url: http://lee.senate.gov/
     address: 825 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -17384,28 +17606,33 @@
     start: '1987-01-06'
     end: '1992-10-09'
     state: AZ
+    class: 3
     party: Republican
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: AZ
+    class: 3
     party: Republican
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: AZ
+    class: 3
     party: Republican
     url: http://mccain.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: AZ
+    class: 3
     party: Republican
     url: http://mccain.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: AZ
+    class: 3
     party: Republican
     url: http://mccain.senate.gov/
     address: 241 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -18365,28 +18592,33 @@
     start: '1987-01-06'
     end: '1992-10-09'
     state: MD
+    class: 3
     party: Democrat
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: MD
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: MD
+    class: 3
     party: Democrat
     url: http://mikulski.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: MD
+    class: 3
     party: Democrat
     url: http://mikulski.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: MD
+    class: 3
     party: Democrat
     url: http://mikulski.senate.gov/
     address: 503 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -18941,6 +19173,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: KS
+    class: 3
     party: Republican
     url: http://moran.senate.gov/public/
     address: 354 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -18985,18 +19218,21 @@
     start: '2002-12-20'
     end: '2004-12-09'
     state: AK
+    class: 3
     party: Republican
     url: http://murkowski.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: AK
+    class: 3
     party: Republican
     url: http://murkowski.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: AK
+    class: 3
     party: Republican
     url: http://murkowski.senate.gov/
     address: 709 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -19105,23 +19341,27 @@
     start: '1993-01-05'
     end: '1998-12-19'
     state: WA
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: WA
+    class: 3
     party: Democrat
     url: http://murray.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: WA
+    class: 3
     party: Democrat
     url: http://murray.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: WA
+    class: 3
     party: Democrat
     url: http://murray.senate.gov/
     address: 448 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -20136,6 +20376,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: KY
+    class: 3
     party: Republican
     url: http://paul.senate.gov/
     address: 5 RUSSELL COURTYARD WASHINGTON DC 20510
@@ -21073,6 +21314,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: OH
+    class: 3
     party: Republican
     url: http://portman.senate.gov/public/
     address: 338 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -21728,28 +21970,33 @@
     start: '1987-01-06'
     end: '1992-10-09'
     state: NV
+    class: 3
     party: Democrat
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: NV
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: NV
+    class: 3
     party: Democrat
     url: http://reid.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: NV
+    class: 3
     party: Democrat
     url: http://reid.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: NV
+    class: 3
     party: Democrat
     url: http://reid.senate.gov/
     address: 522 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -22834,6 +23081,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: FL
+    class: 3
     party: Republican
     url: http://rubio.senate.gov/public/
     address: 317 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -23587,18 +23835,21 @@
     start: '1999-01-06'
     end: '2004-12-09'
     state: NY
+    class: 3
     party: Democrat
     url: http://schumer.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: NY
+    class: 3
     party: Democrat
     url: http://schumer.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: NY
+    class: 3
     party: Democrat
     url: http://schumer.senate.gov/
     address: 322 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -24194,28 +24445,33 @@
     start: '1987-01-06'
     end: '1992-10-09'
     state: AL
+    class: 3
     party: Democrat
   - type: sen
     start: '1993-01-05'
     end: '1998-12-19'
     state: AL
+    class: 3
     party: Republican
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: AL
+    class: 3
     party: Republican
     url: http://shelby.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: AL
+    class: 3
     party: Republican
     url: http://shelby.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: AL
+    class: 3
     party: Republican
     url: http://shelby.senate.gov/
     address: 304 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -25809,12 +26065,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: SD
+    class: 3
     party: Republican
     url: http://thune.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: SD
+    class: 3
     party: Republican
     url: http://thune.senate.gov/
     address: 493 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -26032,6 +26290,7 @@
     start: '2011-01-05'
     end: '2016-12-31'
     state: PA
+    class: 3
     party: Republican
     url: http://toomey.senate.gov/
     address: 502 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -26611,12 +26870,14 @@
     start: '2005-01-04'
     end: '2010-12-22'
     state: LA
+    class: 3
     party: Republican
     url: http://vitter.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: LA
+    class: 3
     party: Republican
     url: http://vitter.senate.gov/
     address: 516 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -27732,23 +27993,27 @@
     start: '1996-01-01'
     end: '1998-12-19'
     state: OR
+    class: 3
     party: Democrat
   - type: sen
     start: '1999-01-06'
     end: '2004-12-09'
     state: OR
+    class: 3
     party: Democrat
     url: http://wyden.senate.gov/
   - type: sen
     start: '2005-01-04'
     end: '2010-12-22'
     state: OR
+    class: 3
     party: Democrat
     url: http://wyden.senate.gov/
   - type: sen
     start: '2011-01-05'
     end: '2016-12-31'
     state: OR
+    class: 3
     party: Democrat
     url: http://wyden.senate.gov/
     address: 223 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
@@ -28161,6 +28426,7 @@
     start: '2011-05-09'
     end: '2012-12-31'
     state: NV
+    class: 1
     party: Republican
     address: 361-A Russell Senate Office Building; Washington, DC 20510
 - id:

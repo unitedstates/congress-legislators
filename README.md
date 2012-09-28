@@ -26,30 +26,30 @@ YAML is a serialization format similar in structure to JSON but typically writte
 
 Each legislator record is grouped into four parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
 
-- id:
-    bioguide: R000570
-    thomas: '01560'
-    govtrack: 400351
-  name:
-    first: Paul
-    middle: D.
-    last: Ryan
-  bio:
-    gender: M
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: WI
-    district: 1
-    party: Republican
-    url: http://www.house.gov/ryan
-    address: 1233 Longworth House Office Building;  20515-4901
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: WI
-    ...
+	- id:
+		bioguide: R000570
+		thomas: '01560'
+		govtrack: 400351
+	  name:
+		first: Paul
+		middle: D.
+		last: Ryan
+	  bio:
+		gender: M
+	  terms:
+	  - type: rep
+		start: '2011-01-05'
+		end: '2012-12-31'
+		state: WI
+		district: 1
+		party: Republican
+		url: http://www.house.gov/ryan
+		address: 1233 Longworth House Office Building;  20515-4901
+	  - type: rep
+		start: '2009-01-06'
+		end: '2010-12-22'
+		state: WI
+		...
     
 The split between legislators-current.yaml and legislators-historical.yaml is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
     
@@ -89,6 +89,7 @@ legislators-current.yaml and legislators-historical.yaml
 	* end: The date the term ended (because the Congress adjourned, the legislator died or resigned, etc.). For terms that end in the future, this value is typically a rough guess at the end date of the Congressional session (currently 2012-12-31). This is the last date on which the legislator served this term.
 	* state: The two-letter, uppercase USPS abbreviation for the state that the legislator is serving from. See below.
 	* district: For representatives, the district number they are serving from. At-large districts are district 0. In historical data, unknown district numbers are recorded as -1.
+	* class: For senators, their election class (1, 2, or 3). Note that this is unrelated to seniority.
 	* party: The political party of the legislator. If the legislator changed parties, it is typically the most recent party held during the term.
 	* url: The official website URL of the legislator (only valid if the term is current).
 	* address: The mailing address of the legislator (only valid if the term is current).
@@ -121,72 +122,72 @@ Although you can find the USPS abbreviations for the 50 states anywhere, non-vot
 
 The 50 States:
 
-AK Alaska
-AL Alabama
-AR Arkansas
-AZ Arizona
-CA California
-CO Colorado
-CT Connecticut
-DE Delaware
-FL Florida
-GA Georgia
-HI Hawaii
-IA Iowa
-ID Idaho
-IL Illinois
-IN Indiana
-KS Kansas
-KY Kentucky
-LA Louisiana
-MA Massachusetts
-MD Maryland
-ME Maine
-MI Michigan
-MN Minnesota
-MO Missouri
-MS Mississippi
-MT Montana
-NC North Carolina
-ND North Dakota
-NE Nebraska
-NH New Hampshire
-NJ New Jersey
-NM New Mexico
-NV Nevada
-NY New York
-OH Ohio
-OK Oklahoma
-OR Oregon
-PA Pennsylvania
-RI Rhode Island
-SC South Carolina
-SD South Dakota
-TN Tennessee
-TX Texas
-UT Utah
-VA Virginia
-VT Vermont
-WA Washington
-WI Wisconsin
-WV West Virginia
-WY Wyoming
+	AK Alaska
+	AL Alabama
+	AR Arkansas
+	AZ Arizona
+	CA California
+	CO Colorado
+	CT Connecticut
+	DE Delaware
+	FL Florida
+	GA Georgia
+	HI Hawaii
+	IA Iowa
+	ID Idaho
+	IL Illinois
+	IN Indiana
+	KS Kansas
+	KY Kentucky
+	LA Louisiana
+	MA Massachusetts
+	MD Maryland
+	ME Maine
+	MI Michigan
+	MN Minnesota
+	MO Missouri
+	MS Mississippi
+	MT Montana
+	NC North Carolina
+	ND North Dakota
+	NE Nebraska
+	NH New Hampshire
+	NJ New Jersey
+	NM New Mexico
+	NV Nevada
+	NY New York
+	OH Ohio
+	OK Oklahoma
+	OR Oregon
+	PA Pennsylvania
+	RI Rhode Island
+	SC South Carolina
+	SD South Dakota
+	TN Tennessee
+	TX Texas
+	UT Utah
+	VA Virginia
+	VT Vermont
+	WA Washington
+	WI Wisconsin
+	WV West Virginia
+	WY Wyoming
 
 Current Territories:
 
 Legislators serving in the House from these territories are called delegates, except for the so-called "Resident Commissioner" from Puerto Rico.
 
-AS American Samoa
-DC District of Columbia
-GU Guam
-MP Northern Mariana Islands
-PR Puerto Rico
-VI Virgin Islands
+	AS American Samoa
+	DC District of Columbia
+	GU Guam
+	MP Northern Mariana Islands
+	PR Puerto Rico
+	VI Virgin Islands
 
 Historical Territories:
 
 These territories no longer exist.
 
-DK Dakota Territory
-OL Territory of Orleans
-PI Philippines Territory/Commonwealth
+	DK Dakota Territory
+	OL Territory of Orleans
+	PI Philippines Territory/Commonwealth
