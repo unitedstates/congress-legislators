@@ -20,11 +20,11 @@ The YAML files are currently maintained by hand.
 File Structure
 ---------------
 
-legislators-current.yaml and legislators-historical.yaml are YAML (http://www.yaml.org/) files containing biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases. 
+legislators-current.yaml and legislators-historical.yaml are YAML (http://www.yaml.org/) files containing biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
 
 YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
-Each legislator record is grouped into four parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
+Each legislator record is grouped into four guaranteed parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
 
 	- id:
 		bioguide: R000570
@@ -50,9 +50,28 @@ Each legislator record is grouped into four parts: id's which relate the record 
 		end: '2010-12-22'
 		state: WI
 		...
-    
+
+An optional fifth part, other_names, will list other names the legislator has gone by officially. This is helpful in cases where a Legislator's legal name has changed. These listings will only include the name attributes which differ from the current name, and a start or end date where applicable. An excerpted example:
+
+	- id:
+		bioguide: B001228
+		thomas: '01465'
+		govtrack: 400039
+		opensecrets: N00007068
+		votesmart: 1434
+	  name:
+		first: Mary
+		middle: Whitaker
+		last: Bono Mack
+	  other_names:
+	  - last: Bono
+		end: '2007-12-17'
+	  ...
+
+Where multiple names exist, other names are listed chronologically by end date.
+
 The split between legislators-current.yaml and legislators-historical.yaml is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
-    
+
 Legislators are listed in order of the start date of their earliest term.
 
 A separate file legislators-social-media.yaml stores social media account information. Its structure is similar but includes different fields.
@@ -70,7 +89,7 @@ legislators-current.yaml and legislators-historical.yaml
 	* opensecrets: The alphanumeric ID for this legislator on OpenSecrets.org.
 	* votesmart: The numeric ID for this legislator on VoteSmart.org.
 	* icpsr: The numeric ID for this legislator in Interuniversity Consortium for Political and Social Research databases.
-	
+
 * name
 	* first: The legislator's first name. Sometimes a first initial and period (e.g. in W. Todd Akin), in which case it is suggested to not use the first name for display purposes.
 	* middle: The legislator's middle name or middle initial (with period).
@@ -93,7 +112,7 @@ legislators-current.yaml and legislators-historical.yaml
 	* party: The political party of the legislator. If the legislator changed parties, it is typically the most recent party held during the term.
 	* url: The official website URL of the legislator (only valid if the term is current).
 	* address: The mailing address of the legislator (only valid if the term is current).
-	
+
 Except where noted, fields are omitted when their value is empty or unknown.
 
 In most cases, a legislator has a single term on any given date. In some cases a legislator resigned from one chamber and was sworn in in the other chamber on the same day.
@@ -114,7 +133,7 @@ Each record has two sections: id and social. The id section identifies the legis
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
 
 The file is in lexical order by bioguide ID for convenience. Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
-		
+
 State Abbreviations
 -------------------
 
