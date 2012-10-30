@@ -4,7 +4,7 @@ congress-legislators
 Members of the United States Congress, 1789-Present, in YAML.
 
 * legislators-current.yaml: Currently serving Members of Congress (as of last update).
-* legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except in the current file).
+* legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
 * legislators-social-media.yaml: Current social media accounts for Members of Congress.
 
 This database has been collected from a variety of sources:
@@ -96,6 +96,7 @@ legislators-current.yaml and legislators-historical.yaml
 	* last: The legislator's last name. Many last names include non-ASCII characters. When building search systems, it is advised to index both the raw value as well as a value with extended characters replaced with their ASCII equivalents (in Python that's: u"".join(c for c in unicodedata.normalize('NFKD', lastname) if not unicodedata.combining(c))).
 	* suffix: A suffix on the legislator's name, such as "Jr." or "III".
 	* nickname: The legislator's nick name when used as a common alternative to his first name.
+	* official_full: The full name of the legislator according to the House or Senate (usually first, middle initial, nickname, last, and suffix). Present for those serving on 2012-10-30 and later.
 
 * bio
 	* birthday: The legislator's birthday, in YYYY-MM-DD format.
