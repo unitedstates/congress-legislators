@@ -17,6 +17,8 @@ This database has been collected from a variety of sources:
 
 The YAML files are currently maintained by hand.
 
+See the repository at https://github.com/unitedstates/congress-legislators-scripts for tools to help maintain this database.
+
 File Structure
 ---------------
 
