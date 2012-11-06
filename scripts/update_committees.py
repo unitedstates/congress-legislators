@@ -6,12 +6,10 @@
 
 import re, urllib, itertools
 from collections import OrderedDict
-from utils import yaml_load, yaml_dump
+from utils import yaml_load, yaml_dump, CURRENT_CONGRESS
 
 committees_historical = yaml_load(open("../committees-historical.yaml"))
 committees_current = yaml_load(open("../committees-current.yaml"))
-
-CURRENT_CONGRESS = 112
 
 # map thomas_id's to their dicts
 committees_historical_ref = { }

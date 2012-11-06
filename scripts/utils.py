@@ -8,6 +8,8 @@ import yaml
 from collections import OrderedDict
 from datetime import datetime
 
+CURRENT_CONGRESS = 112
+
 def construct_odict(load, node):
     omap = OrderedDict()
     yield omap
