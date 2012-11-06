@@ -7,7 +7,7 @@ from utils import yaml_load, yaml_dump, parse_date
 
 today = datetime.now().date()
 
-y = yaml_load(open("../congress-legislators/legislators-current.yaml"))
+y = yaml_load(open("../legislators-current.yaml"))
 
 # Map bioguide IDs to dicts. Reference the same dicts
 # in y so we are updating y when we update biogiude.
@@ -60,5 +60,5 @@ for node in dom.getroot():
 	
 	# TODO there is also an "email" field with a URL to a contact form (is it always a URL?)
 
-yaml_dump(y, open("../congress-legislators/legislators-current.yaml", "w"))
+yaml_dump(y, open("../legislators-current.yaml", "w"))
 

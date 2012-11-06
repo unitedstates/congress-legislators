@@ -8,8 +8,8 @@ import re, urllib, itertools
 from collections import OrderedDict
 from utils import yaml_load, yaml_dump
 
-committees_historical = yaml_load(open("../congress-legislators/committees-historical.yaml"))
-committees_current = yaml_load(open("../congress-legislators/committees-current.yaml"))
+committees_historical = yaml_load(open("../committees-historical.yaml"))
+committees_current = yaml_load(open("../committees-current.yaml"))
 
 CURRENT_CONGRESS = 112
 
@@ -113,6 +113,6 @@ for cx in itertools.chain(committees_historical, committees_current):
     if "congresses" in sx: sx["congresses"] = ",".join(sx["congresses"])
     if "names" in sx: sx["names"] = format_name_info(sx["names"])
 
-yaml_dump(committees_historical, open("../congress-legislators/committees-historical.yaml", "w"))
-yaml_dump(committees_current, open("../congress-legislators/committees-current.yaml", "w"))
+yaml_dump(committees_historical, open("../committees-historical.yaml", "w"))
+yaml_dump(committees_current, open("../committees-current.yaml", "w"))
 
