@@ -1,11 +1,15 @@
 congress-legislators
 ====================
 
-Members of the United States Congress, 1789-Present, in YAML.
+Members of the United States Congress (1789-Present) and congressional committees (93rd Congress-Present) in YAML.
+
+This repository contains the following files:
 
 * legislators-current.yaml: Currently serving Members of Congress (as of last update).
 * legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
 * legislators-social-media.yaml: Current social media accounts for Members of Congress.
+* committees-current.yaml: Current committees of the Congress, with subcommittees.
+* committees-historical.yaml: Historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
 
 This database has been collected from a variety of sources:
 
@@ -14,13 +18,12 @@ This database has been collected from a variety of sources:
 * Congressional Committees, Historical Standing Committees data set by Garrison Nelson and Charles Stewart (http://web.mit.edu/17.251/www/data_page.html).
 * Martis’s “The Historical Atlas of Political Parties in the United States Congress”, via Rosenthal, Howard L., and Keith T. Poole. United States Congressional Roll Call Voting Records, 1789-1990 (http://voteview.com/dwnl.htm).
 * The Sunlight Labs Congress API (http://services.sunlightlabs.com/docs/Sunlight_Congress_API/).
+* The Library of Congress's THOMAS website (http://thomas.loc.gov). 
 
-The YAML files are currently maintained by hand.
+The YAML files are currently maintained by hand and by scripts in the git repository at https://github.com/unitedstates/congress-legislators-scripts.
 
-See the repository at https://github.com/unitedstates/congress-legislators-scripts for tools to help maintain this database.
-
-File Structure
----------------
+Legislators File Structure and Overview
+---------------------------------------
 
 legislators-current.yaml and legislators-historical.yaml are YAML (http://www.yaml.org/) files containing biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
 
@@ -78,8 +81,8 @@ Legislators are listed in order of the start date of their earliest term.
 
 A separate file legislators-social-media.yaml stores social media account information. Its structure is similar but includes different fields.
 
-Data Dictionary
----------------
+Legislators Data Dictionary
+---------------------------
 
 legislators-current.yaml and legislators-historical.yaml
 
@@ -136,6 +139,39 @@ Each record has two sections: id and social. The id section identifies the legis
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
 
 The file is in lexical order by bioguide ID for convenience. Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
+
+Committees Data Dictionary
+--------------------------
+
+The committees-current.yaml file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. The committees-historical.yaml file is a possibly partial list of committees that are no longer in effect, based on scraping committees to which bills have been referred to on THOMAS. A committee will only appear in one file.
+
+The basic structure of a committee entry looks like the following:
+
+	- type: house
+	  name: House Committee on Agriculture
+	  url: http://agriculture.house.gov/
+	  thomas_id: HSAG
+	  house_committee_id: AG
+	  subcommittees:
+	     (... subcommittee list ...)
+
+The files contain a possibly partial list of subcommittees. However, please take note that the committees-current.yaml file will list disbanded subcommittees. It is not currently possible from this file to accurately determine whether a subcommittee is current.
+
+The two files are structured each as a list of committees, each entry an associative array of key/value pairs of committee metadata. The fields are as follows:
+
+* type: 'house', 'senate', or 'joint' indicating the type of commmittee
+* name: The current (or most recent) official name of the committee.
+* url: For current committees, their website URL.
+* thomas_id: The four-letter code used for the committee on the THOMAS advanced search page.
+* senate_committee_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm. Currently the same as the thomas_id.
+* house_committee_id: For House committees, the two-letter code used on http://clerk.house.gov/committee_info/index.aspx. Currently always the same as the last two letters of the thomas_id.
+* congresses: A comma-separated list of Congress numbers in which this committee appears on the THOMAS advanced search page. It is roughly an indication of the time period during which the committee was in use. However, if a committee was not referred any bills it may not appear on THOMAS's list and therefore would not appear here.
+* names: A list of past names for the committee. This is an associative array from *either* a Congress number or a string in the form of XXX-YYY indicating a range of Congress numbers, to the name of a committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
+* subcommittees: A list of subcommittees, with the following fields:
+	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names.
+	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
+	* congresses: Same meaning as for full committees. Note that a subcommittee may currently be disbanded. This field gives a rough approximation to whether a subcommittee is current. But because a Congress may not be listed if no bills were referred to the subcommittee, a subcommittee that does not appear to be current may in fact be current.
+	* names: Same meaning as for full committees.
 
 State Abbreviations
 -------------------

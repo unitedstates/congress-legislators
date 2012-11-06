@@ -1,0 +1,3079 @@
+- type: house
+  name: House Committee on Agriculture
+  url: http://agriculture.house.gov/
+  thomas_id: HSAG
+  house_committee_id: AG
+  subcommittees:
+  - name: Conservation, Energy, and Forestry
+    thomas_id: '15'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Conservation, Credit, Rural Development, and Research
+      110-111: Conservation, Credit, Energy, and Research
+      112: Conservation, Energy, and Forestry
+  - name: Department Operations, Oversight, and Credit
+    thomas_id: '22'
+    congresses: 106,107,108,109,110,111,112
+    names:
+      106-108: Department Operations, Oversight, Nutrition, and Forestry
+      109: Department Operations, Oversight, Dairy, Nutrition, and Forestry
+      110-111: Department Operations, Oversight, Nutrition and Forestry
+      112: Department Operations, Oversight, and Credit
+  - name: General Farm Commodities and Risk Management
+    thomas_id: '16'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-112: General Farm Commodities and Risk Management
+  - name: Nutrition and Horticulture
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-102: Livestock, Dairy and Poultry
+      103: Livestock
+      104-105: Livestock, Dairy and Poultry
+      106-109: Livestock and Horticulture
+      110-111: Horticulture and Organic Agriculture
+      112: Nutrition and Horticulture
+  - name: Livestock, Dairy, and Poultry
+    thomas_id: '29'
+    congresses: 110,111,112
+    names:
+      110-112: Livestock, Dairy, and Poultry
+  - name: Rural Development, Research, Biotechnology, and Foreign Agriculture
+    thomas_id: '14'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Specialty Crops and Foreign Agriculture Programs
+      110: Specialty Crops, Rural Development, and Foreign Agriculture
+      111: Rural Development, Biotechnology, Specialty Crops, and Foreign Agriculture
+      112: Rural Development, Research, Biotechnology, and Foreign Agriculture
+  - name: Conservation, Credit, and Rural Development
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-102: Conservation, Credit, and Rural Development
+      103: Environment, Credit and Rural Development
+  - name: Cotton, Rice, and Sugar
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Cotton, Rice, and Sugar
+  - name: Department Operations, Research, and Foreign Agriculture
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Department Operations, Research, and Foreign Agriculture
+  - name: Domestic Marketing, Consumer Relations, and Nutrition
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Domestic Marketing, Consumer Relations, and Nutrition
+  - name: Forests, Family Farms, and Energy
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Forests, Family Farms, and Energy
+  - name: Tobacco and Peanuts
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-101: Tobacco and Peanuts
+      102: Peanuts and Tobacco
+  - name: Wheat, Soybeans, and Feed Grains
+    thomas_id: 08
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Wheat, Soybeans, and Feed Grains
+  - name: Department Operations and Nutrition
+    thomas_id: '20'
+    congresses: '103'
+    names:
+      103: Department Operations and Nutrition
+  - name: Foreign Agriculture and Hunger
+    thomas_id: '21'
+    congresses: '103'
+    names:
+      103: Foreign Agriculture and Hunger
+  - name: General Farm Commodities
+    thomas_id: '25'
+    congresses: 103,104,105
+    names:
+      103-105: General Farm Commodities
+  - name: Specialty Crops and Natural Resources
+    thomas_id: '24'
+    congresses: 103,104,105
+    names:
+      103: Specialty Crops and Natural Resources
+      104-105: Risk Management and Specialty Crops
+  - name: Department Operations, Nutrition and Foreign Agriculture
+    thomas_id: '26'
+    congresses: 104,105
+    names:
+      104-105: Department Operations, Nutrition and Foreign Agriculture
+  - name: Resource Conservation, Research and Forestry
+    thomas_id: '27'
+    congresses: 104,105
+    names:
+      104: Resource Conservation, Research and Forestry
+      105: Forestry, Resource Conservation and Research
+  - name: General Farm Commodities, Resource Conservation and Credit
+    thomas_id: '23'
+    congresses: '106'
+    names:
+      106: General Farm Commodities, Resource Conservation and Credit
+  - name: Risk Management, Research and Specialty Crops
+    thomas_id: '28'
+    congresses: '106'
+    names:
+      106: Risk Management, Research and Specialty Crops
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Agriculture
+- type: house
+  name: House Committee on Appropriations
+  url: http://appropriations.house.gov/
+  thomas_id: HSAP
+  house_committee_id: AP
+  subcommittees:
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
+      Agencies
+    thomas_id: '01'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-99: Agriculture, Rural Development and Related Agencies
+      100: Rural Development, Agriculture and Related Agencies
+      102: Rural Development, Agriculture and Related Agencies
+      103-105: Agriculture, Rural Development, Food and Drug Administration, and Related
+        Agencies
+  - name: Commerce, Justice, Science, and Related Agencies
+    thomas_id: '19'
+  - name: Defense
+    thomas_id: '02'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: Defense
+      102-103: Defense
+      104-105: National Security
+  - name: Energy and Water Development, and Related Agencies
+    thomas_id: '10'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97: Energy and Water
+      98-100: Energy and Water Development
+      102-105: Energy and Water Development
+  - name: Financial Services and General Government
+    thomas_id: '23'
+  - name: Homeland Security
+    thomas_id: '15'
+  - name: Interior, Environment, and Related Agencies
+    thomas_id: '06'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-99: Interior
+      100: Interior and Related Agencies
+      102-105: Interior
+  - name: Labor, Health and Human Services, Education, and Related Agencies
+    thomas_id: '07'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97: Labor-Health and Human Services
+      98-99: Labor-Health and Human Services-Education
+      100: Labor, Health and Human Services, Education, and Related Agencies
+      102-105: Labor, Health and Human Services, and Education
+  - name: Legislative Branch
+    thomas_id: '24'
+  - name: Military Construction, Veterans Affairs, and Related Agencies
+    thomas_id: '18'
+  - name: State, Foreign Operations, and Related Programs
+    thomas_id: '04'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: Foreign Operations
+      102-105: Foreign Operations, Export Financing, and Related Programs
+  - name: Transportation, and Housing and Urban Development, and Related Agencies
+    thomas_id: '20'
+  - name: Commerce, Justice, State, and the Judiciary
+    thomas_id: '11'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97: Commerce, Justice, State, and the Judiciary
+      98-99: Commerce, Justice, State, and Judiciary
+      100: Commerce, Justice, State, the Judiciary, and Related Agencies
+      102-105: Commerce, Justice, State, and Judiciary
+  - name: District of Columbia
+    thomas_id: '03'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: District of Columbia
+      102-105: District of Columbia
+  - name: HUD-Independent Agencies
+    thomas_id: '05'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: HUD-Independent Agencies
+      102-105: VA, HUD, and Independent Agencies
+  - name: Legislative
+    thomas_id: 08
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: Legislative
+      102-105: Legislative
+  - name: Military Construction
+    thomas_id: 09
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: Military Construction
+      102-105: Military Construction
+  - name: Transportation
+    thomas_id: '12'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-99: Transportation
+      100: Transportation and Related Agencies
+      102-105: Transportation
+  - name: Treasury-Postal Service-General Government
+    thomas_id: '13'
+    congresses: 97,98,99,100,102,103,104,105
+    names:
+      97-100: Treasury-Postal Service-General Government
+      102-105: Treasury, Postal Service, and General Government
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Appropriations
+- type: house
+  name: House Committee on Armed Services
+  url: http://armedservices.house.gov/
+  thomas_id: HSAS
+  house_committee_id: AS
+  subcommittees:
+  - name: Tactical Air and Land Forces
+    thomas_id: '25'
+    congresses: 108,109,110,111,112
+    names:
+      108-109: Tactical Air and Land Forces
+      110-111: Air and Land Forces
+      112: Tactical Air and Land Forces
+  - name: Military Personnel
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,109,110,111,112
+    names:
+      97-102: Military Personnel and Compensation
+      103: Military Forces and Personnel
+      104-107: Military Personnel
+      109-112: Military Personnel
+  - name: Oversight and Investigations
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-102: Investigations
+      103: Oversight and Investigations
+  - name: Readiness
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-103: Readiness
+      104-107: Military Readiness
+      108-112: Readiness
+  - name: Seapower and Projection Forces
+    thomas_id: '28'
+    congresses: 110,111,112
+    names:
+      110-111: Seapower and Expeditionary Forces
+      112: Seapower and Projection Forces
+  - name: Strategic Forces
+    thomas_id: '29'
+    congresses: 108,109,110,111,112
+    names:
+      108-112: Strategic Forces
+  - name: Emerging Threats and Capabilities
+    thomas_id: '26'
+    congresses: 108,109,110,111,112
+    names:
+      108-111: Terrorism, Unconventional Threats and Capabilities
+      112: Emerging Threats and Capabilities
+  - name: Military Installations and Facilities
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    names:
+      97-107: Military Installations and Facilities
+  - name: Procurement and Military Nuclear Systems
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Procurement and Military Nuclear Systems
+  - name: Research and Development
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    names:
+      97-102: Research and Development
+      103: Research and Technology
+      104-107: Military Research and Development
+  - name: Seapower and Strategic and Critical Materials
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Seapower and Strategic and Critical Materials
+  - name: Military Acquisition
+    thomas_id: '20'
+    congresses: 103,104,105,106,107
+    names:
+      103: Military Acquisition
+      104-107: Military Procurement
+  - name: Projection Forces
+    thomas_id: '30'
+    congresses: 108,109
+    names:
+      108-109: Projection Forces
+  - name: Total Force
+    thomas_id: '27'
+    congresses: '108'
+    names:
+      108: Total Force
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-103: Armed Services
+    104-105: National Security
+    106-112: Armed Services
+- type: house
+  name: House Committee on Financial Services
+  url: http://financialservices.house.gov/
+  thomas_id: HSBA
+  house_committee_id: BA
+  subcommittees:
+  - name: Capital Markets and Government Sponsored Enterprises
+    thomas_id: '16'
+    congresses: 104,105,106,107,108,109,110,112
+    names:
+      104: Capital Markets, Insurance and Government-Sponsored Enterprises
+      105-106: Capital Markets, Securities and Government Sponsored Enterprises
+      107-110: Capital Markets, Insurance and Government Sponsored Enterprises
+      112: Capital Markets and Government Sponsored Enterprises
+  - name: Domestic Monetary Policy and Technology
+    thomas_id: '19'
+    congresses: 108,109,110,112
+    names:
+      108-110: Domestic and International Monetary Policy, Trade, and Technology
+      112: Domestic Monetary Policy and Technology
+  - name: Financial Institutions and Consumer Credit
+    thomas_id: '15'
+    congresses: 104,105,106,107,108,109,110,111,112
+    names:
+      104-112: Financial Institutions and Consumer Credit
+  - name: Insurance, Housing and Community Opportunity
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-103: Housing and Community Development
+      104-111: Housing and Community Opportunity
+      112: Insurance, Housing and Community Opportunity
+  - name: International Monetary Policy and Trade
+    thomas_id: '20'
+    congresses: 111,112
+    names:
+      111-112: International Monetary Policy and Trade
+  - name: Oversight and Investigations
+    thomas_id: 09
+    congresses: 97,98,99,100
+    names:
+      97-98: General Oversight and Renegotiation
+      99-100: General Oversight and Investigations
+  - name: Consumer Affairs and Coinage
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Consumer Affairs and Coinage
+  - name: Domestic Monetary Policy
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Domestic Monetary Policy
+  - name: Economic Stabilization
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Economic Stabilization
+  - name: Financial Institutions Supervision, Regulation and Insurance
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-102: Financial Institutions Supervision, Regulation and Insurance
+      103: Financial Institutions Supervision, Regulation and Deposit Insurance
+  - name: International Development Institutions and Finance
+    thomas_id: '06'
+    congresses: 97,98,99,100
+    names:
+      97-100: International Development Institutions and Finance
+  - name: International Trade, Investment and Monetary Policy
+    thomas_id: 08
+    congresses: 97,98,99,100,101,102,103,104,105,106
+    names:
+      97-98: International Trade, Investment and Monetary Policy
+      99-100: International Finance, Trade and Monetary Policy
+      101-103: International Development, Finance, Trade and Monetary Policy
+      104-106: Domestic and International Monetary Policy
+  - name: Policy Research and Insurance
+    thomas_id: '11'
+    congresses: 101,102
+    names:
+      101-102: Policy Research and Insurance
+  - name: Consumer Credit and Insurance
+    thomas_id: '13'
+    congresses: '103'
+    names:
+      103: Consumer Credit and Insurance
+  - name: Economic Growth and Credit Formation
+    thomas_id: '14'
+    congresses: '103'
+    names:
+      103: Economic Growth and Credit Formation
+  - name: Domestic Monetary Policy, Technology, and Economic Growth
+    thomas_id: '18'
+    congresses: '107'
+    names:
+      107: Domestic Monetary Policy, Technology, and Economic Growth
+  - name: International Monetary Policy and Trade
+    thomas_id: '17'
+    congresses: '107'
+    names:
+      107: International Monetary Policy and Trade
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93: Banking and Currency
+    94: Banking, Currency, and Housing
+    95-103: Banking, Finance, and Urban Affairs
+    104-106: Banking and Financial Services
+    107-112: Financial Services
+- type: house
+  name: House Committee on the Budget
+  url: http://budget.house.gov/
+  thomas_id: HSBU
+  house_committee_id: BU
+  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    94-112: Budget
+- type: house
+  name: House Committee on Education and the Workforce
+  url: http://edlabor.house.gov/
+  thomas_id: HSED
+  house_committee_id: ED
+  subcommittees:
+  - name: Early Childhood, Elementary, and Secondary Education
+    thomas_id: '14'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Education Reform
+      110-112: Early Childhood, Elementary, and Secondary Education
+  - name: Health, Employment, Labor, and Pensions
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-103: Labor-Management Relations
+      104-109: Employer-Employee Relations
+      110-112: Health, Employment, Labor, and Pensions
+  - name: Healthy Families and Communities
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,107,108,109,110,111
+    names:
+      97-102: Select Education
+      103: Select Education and Civil Rights
+      107-109: Select Education
+      110-111: Healthy Families and Communities
+  - name: Higher Education and Workforce Training
+    thomas_id: '13'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: 21st Century Competitiveness
+      110-111: Higher Education, Lifelong Learning, and Competitiveness
+      112: Higher Education and Workforce Training
+  - name: Workforce Protections
+    thomas_id: '10'
+    congresses: 103,104,105,106,107,108,109,110,111,112
+    names:
+      103: Labor Standards, Occupational Health and Safety
+      104-112: Workforce Protections
+  - name: Elementary, Secondary, and Vocational Education
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Elementary, Secondary, and Vocational Education
+  - name: Employment Opportunities
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Employment Opportunities
+  - name: Health and Safety
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Health and Safety
+  - name: Human Resources
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Human Resources
+  - name: Labor Standards
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Labor Standards
+  - name: Postsecondary Education
+    thomas_id: 08
+    congresses: 97,98,99,100,101,102,103,104,105,106
+    names:
+      97-102: Postsecondary Education
+      103: Postsecondary Education and Training
+      104-106: Postsecondary Education, Training and Life-Long Learning
+  - name: Early Childhood, Youth and Families
+    thomas_id: '11'
+    congresses: 104,105,106
+    names:
+      104-106: Early Childhood, Youth and Families
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-103: Education and Labor
+    104: Economic and Educational Opportunities
+    105-109: Education and the Workforce
+    110-111: Education and Labor
+    112: Education and the Workforce
+- type: house
+  name: House Committee on Foreign Affairs
+  url: http://foreignaffairs.house.gov/
+  thomas_id: HSFA
+  house_committee_id: FA
+  subcommittees:
+  - name: Africa, Global Health, and Human Rights
+    thomas_id: '16'
+    congresses: 109,110,112
+    names:
+      109: Africa, Global Human Rights and International Operations
+      110: Africa and Global Health
+      112: Africa, Global Health, and Human Rights
+  - name: Asia and the Pacific
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-102: Asian and Pacific Affairs
+      103-106: Asia and the Pacific
+      107: East Asia and the Pacific
+      108-109: Asia and the Pacific
+      110-111: Asia, the Pacific, and the Global Environment
+      112: Asia and the Pacific
+  - name: Europe and Eurasia
+    thomas_id: '14'
+    congresses: 107,108,109,110,112
+    names:
+      107-108: Europe
+      109: Europe and Emerging Threats
+      110: Europe
+      112: Europe and Eurasia
+  - name: International Organizations, Human Rights, and Oversight
+    thomas_id: '17'
+    congresses: '110'
+    names:
+      110: International Organizations, Human Rights, and Oversight
+  - name: Terrorism, Nonproliferation, and Trade
+    thomas_id: '18'
+    congresses: 109,110,112
+    names:
+      109: International Terrorism and Nonproliferation
+      110: Terrorism, Nonproliferation, and Trade
+      112: Terrorism, Nonproliferation, and Trade
+  - name: Middle East and South Asia
+    thomas_id: '13'
+    congresses: 107,108,109,110,112
+    names:
+      107: Middle East and South Asia
+      108-109: Middle East and Central Asia
+      110: Middle East and South Asia
+      112: Middle East and South Asia
+  - name: Western Hemisphere
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97: Inter-American Affairs
+      98-103: Western Hemisphere Affairs
+      104-112: Western Hemisphere
+  - name: Africa
+    thomas_id: 08
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    names:
+      97-108: Africa
+  - name: Europe and the Middle East
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Europe and the Middle East
+  - name: Human Rights and International Organizations
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Human Rights and International Organizations
+  - name: International Economic Policy and Trade
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,106
+    names:
+      97-102: International Economic Policy and Trade
+      103: Economic Policy, Trade, and Environment
+      104-106: International Economic Policy and Trade
+  - name: International Operations
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: International Operations
+  - name: International Security and Scientific Affairs
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-98: International Security and Scientific Affairs
+      99-102: Arms Control, International Security and Science
+  - name: International Security, International Organizations, and Human Rights
+    thomas_id: '11'
+    congresses: '103'
+    names:
+      103: International Security, International Organizations, and Human Rights
+  - name: International Operations and Human Rights
+    thomas_id: '12'
+    congresses: 104,105,106,107
+    names:
+      104-107: International Operations and Human Rights
+  - name: International Terrorism, Nonproliferation and Human Rights
+    thomas_id: '15'
+    congresses: '108'
+    names:
+      108: International Terrorism, Nonproliferation and Human Rights
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93: Foreign Affairs
+    94-95: International Relations
+    96-103: Foreign Affairs
+    104-109: International Relations
+    110-112: Foreign Affairs
+- type: house
+  name: House Committee on Oversight and Government Reform
+  url: http://oversight.house.gov/
+  thomas_id: HSGO
+  house_committee_id: GO
+  subcommittees:
+  - name: Domestic Policy
+    thomas_id: '26'
+  - name: Federal Workforce, U.S. Postal Service, and Labor Policy
+    thomas_id: '25'
+    congresses: 109,110,111,112
+    names:
+      109: Federal Workforce and Agency Organization
+      110-111: Federal Workforce, Post Office, and the District of Columbia
+      112: Federal Workforce, U.S. Postal Service, and Labor Policy
+  - name: Government Organization, Efficiency, and Financial Management
+    thomas_id: '24'
+    congresses: 109,110,111,112
+    names:
+      109: Government Management, Finance, and Accountability
+      110-111: Government Management, Organization, and Procurement
+      112: Government Organization, Efficiency, and Financial Management
+  - name: Information Policy, Census, and National Archives
+    thomas_id: '23'
+    congresses: 109,110,111
+    names:
+      109: Federalism and the Census
+      110-111: Information Policy, Census, and National Archives
+  - name: National Security and Foreign Affairs
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103,104,105,107
+    names:
+      97-103: Legislation and National Security
+      104-105: National Security, International Affairs and Criminal Justice
+      107: National Security, Veterans Affairs and International Relations
+  - name: Health Care, District of Columbia, Census and the National Archives
+    thomas_id: '27'
+    congresses: '112'
+    names:
+      112: Health Care, District of Columbia, Census and the National Archives
+  - name: Regulatory Affairs, Stimulus Oversight and Government Spending
+    thomas_id: '28'
+    congresses: '112'
+    names:
+      112: Regulatory Affairs, Stimulus Oversight and Government Spending
+  - name: TARP, Financial Services and Bailouts of Public and Private Programs Subcommittee
+    thomas_id: '29'
+  - name: Technology, Information Policy, Intergovernmental Relations and Procurement
+      Reform
+    thomas_id: '30'
+    congresses: '112'
+    names:
+      112: Technology, Information Policy, Intergovernmental Relations and Procurement
+        Reform
+  - name: Commerce, Consumer, and Monetary Affairs
+    thomas_id: '05'
+    congresses: 97,100
+    names:
+      97: Commerce, Consumer, and Monetary Affairs
+      100: Commerce, Consumer, and Monetary Affairs
+  - name: Government Activities and Transportation
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Government Activities and Transportation
+  - name: Government Information and Individual Rights
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97: Government Information and Individual Rights
+      98-102: Government Information, Justice, and Agriculture
+      103: Information, Justice, Transportation, and Agriculture
+  - name: Intergovernmental Relations and Human Resources
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105
+    names:
+      97-99: Intergovernmental Relations and Human Resources
+      100-104: Human Resources and Intergovernmental Relations
+      105: Human Resources
+  - name: Manpower and Housing
+    thomas_id: '07'
+    congresses: '97'
+    names:
+      97: Manpower and Housing
+  - name: Environment, Energy, and Natural Resources
+    thomas_id: '01'
+    congresses: 102,103,104,105,106,107,108
+    names:
+      102-103: Environment, Energy, and Natural Resources
+      104-106: National Economic Growth, Natural Resources and Regulatory Affairs
+      107-108: Energy Policy, Natural Resources and Regulatory Affairs
+  - name: Civil Service
+    thomas_id: 09
+    congresses: 104,105,106,107
+    names:
+      104-106: Civil Service
+      107: Civil Service and Agency Organization
+  - name: District of Columbia
+    thomas_id: '10'
+    congresses: 104,105,106,107
+    names:
+      104-107: District of Columbia
+  - name: Government Management, Information and Technology
+    thomas_id: '12'
+    congresses: 104,105,106
+    names:
+      104-106: Government Management, Information and Technology
+  - name: Postal Service
+    thomas_id: '11'
+    congresses: 104,105,106
+    names:
+      104-106: Postal Service
+  - name: Census
+    thomas_id: '13'
+    congresses: 105,106,107
+    names:
+      105-107: Census
+  - name: Criminal Justice, Drug Policy and Human Resources
+    thomas_id: '14'
+    congresses: 106,107,108
+    names:
+      106-108: Criminal Justice, Drug Policy and Human Resources
+  - name: Government Efficiency, Financial Management and Intergovernmental Relations
+    thomas_id: '16'
+    congresses: '107'
+    names:
+      107: Government Efficiency, Financial Management and Intergovernmental Relations
+  - name: Technology and Procurement Policy
+    thomas_id: '15'
+    congresses: '107'
+    names:
+      107: Technology and Procurement Policy
+  - name: Civil Service and Agency Organization
+    thomas_id: '18'
+    congresses: '108'
+    names:
+      108: Civil Service and Agency Organization
+  - name: Government Efficiency and Financial Management
+    thomas_id: '19'
+    congresses: '108'
+    names:
+      108: Government Efficiency and Financial Management
+  - name: Technology, Information Policy, Intergovernmental Relations and the Census
+    thomas_id: '20'
+    congresses: '108'
+    names:
+      108: Technology, Information Policy, Intergovernmental Relations and the Census
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-103: Government Operations
+    104-105: Government Reform and Oversight
+    106-109: Government Reform
+    110-112: Oversight and Government Reform
+- type: house
+  name: House Select Committee on Energy Independence and Global Warming
+  thomas_id: HSGW
+  house_committee_id: GW
+- type: house
+  name: House Committee on House Administration
+  url: http://cha.house.gov/
+  thomas_id: HSHA
+  house_committee_id: HA
+  subcommittees:
+  - name: Capitol Security
+    thomas_id: '04'
+  - name: Oversight Subcommittee
+    thomas_id: '06'
+  - name: Elections
+    thomas_id: 08
+    congresses: 99,100,101,102,103,110,112
+    names:
+      99-103: Elections
+      110: Elections
+      112: Elections
+  - name: Accounts
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Accounts
+  - name: Contracts and Printing
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-98: Contracts and Printing
+      99-102: Procurement and Printing
+  - name: Office Systems
+    thomas_id: '07'
+    congresses: 97,100,101,102,103
+    names:
+      97: Office Systems
+      100-103: Office Systems
+  - name: Personnel and Police
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Personnel and Police
+  - name: Services
+    thomas_id: '03'
+    congresses: 97,98,99
+    names:
+      97-99: Services
+  - name: Libraries and Memorials
+    thomas_id: 09
+    congresses: 100,101,102,103
+    names:
+      100-103: Libraries and Memorials
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-103: House Administration
+    104-105: Oversight
+    106-112: House Administration
+- type: house
+  name: House Committee on Homeland Security
+  url: http://homeland.house.gov/
+  thomas_id: HSHM
+  house_committee_id: HM
+  subcommittees:
+  - name: Border and Maritime Security
+    thomas_id: '11'
+    congresses: 110,111,112
+    names:
+      110-111: Border, Maritime, and Global Counterterrorism
+      112: Border and Maritime Security
+  - name: Emergency Preparedness, Response, and Communications
+    thomas_id: '12'
+    congresses: 110,111,112
+    names:
+      110-111: Emergency Communications, Preparedness, and Response
+      112: Emergency Preparedness, Response, and Communications
+  - name: Cybersecurity, Infrastructure Protection, and Security Technologies
+    thomas_id: 08
+    congresses: 109,110,111,112
+    names:
+      109: Emergency Preparedness, Science, and Technology
+      110-111: Emerging Threats, Cybersecurity, and Science and Technology
+      112: Cybersecurity, Infrastructure Protection, and Security Technologies
+  - name: Counteterrorism and Intelligence
+    thomas_id: '05'
+    congresses: 108,109,110,111,112
+    names:
+      108: Intelligence and Counterterrorism
+      109-111: Intelligence, Information Sharing, and Terrorism Risk Assessment
+      112: Counteterrorism and Intelligence
+  - name: Oversight, Investigations, and Management
+    thomas_id: 09
+    congresses: 109,110,111,112
+    names:
+      109: Management, Integration, and Oversight
+      110-111: Management, Investigations, and Oversight
+      112: Oversight, Investigations, and Management
+  - name: Transportation Security
+    thomas_id: '07'
+    congresses: 109,110,111,112
+    names:
+      109: Economic Security, Infrastructure Protection, and Cybersecurity
+      110-111: Transportation Security and Infrastructure Protection
+      112: Transportation Security
+  - name: Cybersecurity, Science, and Research and Development
+    thomas_id: '04'
+    congresses: '108'
+    names:
+      108: Cybersecurity, Science, and Research and Development
+  - name: Emergency Preparedness and Response
+    thomas_id: '03'
+    congresses: '108'
+    names:
+      108: Emergency Preparedness and Response
+  - name: Infrastructure and Border Security
+    thomas_id: '01'
+    congresses: '108'
+    names:
+      108: Infrastructure and Border Security
+  - name: Prevention of Nuclear and Biological Attack
+    thomas_id: '06'
+    congresses: '109'
+    names:
+      109: Prevention of Nuclear and Biological Attack
+  congresses: 107,108,109,110,111,112
+  names:
+    107-108: Homeland Security (Select)
+    109-112: Homeland Security
+- type: house
+  name: House Committee on Energy and Commerce
+  url: http://energycommerce.house.gov/
+  thomas_id: HSIF
+  house_committee_id: IF
+  subcommittees:
+  - name: Commerce, Manufacturing, and Trade
+    thomas_id: '17'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-111: Commerce, Trade and Consumer Protection
+      112: Commerce, Manufacturing, and Trade
+  - name: Communications and Technology
+    thomas_id: '16'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-110: Telecommunications and the Internet
+      111: Communications, Technology, and the Internet
+      112: Communications and Technology
+  - name: Energy and Power
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-99: Energy Conservation and Power
+      100-106: Energy and Power
+      107-110: Energy and Air Quality
+      111: Energy and Environment
+      112: Energy and Power
+  - name: Health
+    thomas_id: '14'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-112: Health
+  - name: Oversight and Investigations
+    thomas_id: '02'
+    congresses: 97,99,111
+    names:
+      97: Oversight and Investigations
+      99: Oversight and Investigations
+      111: Oversight and Investigations
+  - name: Environment and the Economy
+    thomas_id: '18'
+    congresses: '112'
+    names:
+      112: Environment and the Economy
+  - name: Commerce, Transportation and Tourism
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Commerce, Transportation and Tourism
+      100-103: Commerce, Consumer Protection, and Competitiveness
+  - name: Fossil and Synthetic Fuels
+    thomas_id: '07'
+    congresses: 97,98,99,100
+    names:
+      97-99: Fossil and Synthetic Fuels
+      100: Transportation, Tourism, and Hazardous Materials
+  - name: Health and Environment
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,106
+    names:
+      97-106: Health and Environment
+  - name: Telecommunications, Consumer Protection and Finance
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104
+    names:
+      97-99: Telecommunications, Consumer Protection and Finance
+      100-104: Telecommunications and Finance
+  - name: Transportation and Hazardous Materials
+    thomas_id: '10'
+    congresses: 101,102,103
+    names:
+      101-103: Transportation and Hazardous Materials
+  - name: Commerce, Trade, and Hazardous Materials
+    thomas_id: '11'
+    congresses: '104'
+    names:
+      104: Commerce, Trade, and Hazardous Materials
+  - name: Finance and Hazardous Materials
+    thomas_id: '13'
+    congresses: 105,106
+    names:
+      105-106: Finance and Hazardous Materials
+  - name: Telecommunications, Trade, and Consumer Protection
+    thomas_id: '12'
+    congresses: 105,106
+    names:
+      105-106: Telecommunications, Trade, and Consumer Protection
+  - name: Environment and Hazardous Materials
+    thomas_id: '15'
+    congresses: 107,108,109,110
+    names:
+      107-110: Environment and Hazardous Materials
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-96: Interstate and Foreign Commerce
+    97-103: Energy and Commerce
+    104-106: Commerce
+    107-112: Energy and Commerce
+- type: house
+  name: House Committee on Natural Resources
+  url: http://naturalresources.house.gov/
+  thomas_id: HSII
+  house_committee_id: II
+  subcommittees:
+  - name: Energy and Mineral Resources
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-102: Energy and the Environment
+      103-112: Energy and Mineral Resources
+  - name: Insular Affairs, Oceans and Wildlife
+    thomas_id: '15'
+    congresses: 104,105,106,107,108,109,110
+    names:
+      104: Fisheries, Wildlife and Oceans
+      105-109: Fisheries Conservation, Wildlife, and Oceans
+      110: Fisheries, Wildlife, and Oceans
+  - name: National Parks, Forests and Public Lands
+    thomas_id: '10'
+    congresses: 101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      101-102: National Parks and Public Lands
+      103: National Parks, Forests, and Public Lands
+      104: National Parks, Forests, and Lands
+      105-106: National Parks and Public Lands
+      107-109: National Parks, Recreation, and Public Lands
+      110-112: National Parks, Forests and Public Lands
+  - name: Water and Power
+    thomas_id: '13'
+    congresses: 104,105,106,107,108,109,110,111,112
+    names:
+      104: Water and Power Resources
+      105-112: Water and Power
+  - name: Fisheries, Wildlife, Oceans, and Insular Affairs
+    thomas_id: '22'
+    congresses: 110,111,112
+    names:
+      110: Insular Affairs
+      111: Insular Affairs, Oceans and Wildlife
+      112: Fisheries, Wildlife, Oceans, and Insular Affairs
+  - name: Indian and Alaska Native Affairs
+    thomas_id: '24'
+    congresses: '112'
+    names:
+      112: Indian and Alaska Native Affairs
+  - name: Insular Affairs
+    thomas_id: '07'
+    congresses: 97,98,100
+    names:
+      97-98: Insular Affairs
+      100: Insular and International Affairs
+  - name: Mines and Mining
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97: Mines and Mining
+      98: Mining, Forest Management and Bonneville Power Administration
+      99-102: Mining and Natural Resources
+  - name: Public Lands and National Parks
+    thomas_id: '01'
+    congresses: 97,98,99,100
+    names:
+      97-98: Public Lands and National Parks
+      99: Public Lands
+      100: National Parks and Public Lands
+  - name: Water and Power Resources
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-100: Water and Power Resources
+      101-102: Water, Power and Offshore Energy Resources
+  - name: General Oversight, Northwest Power, and Forest Management
+    thomas_id: '03'
+    congresses: '99'
+    names:
+      99: General Oversight, Northwest Power, and Forest Management
+  - name: National Parks and Recreation
+    thomas_id: 08
+    congresses: '99'
+    names:
+      99: National Parks and Recreation
+  - name: Insular and International Affairs
+    thomas_id: 09
+    congresses: 101,102,103
+    names:
+      101-103: Insular and International Affairs
+  - name: General Oversight and California Desert Lands
+    thomas_id: '11'
+    congresses: 102,103
+    names:
+      102: General Oversight and California Desert Lands
+      103: Oversight and Investigations
+  - name: Native American Affairs
+    thomas_id: '04'
+    congresses: '103'
+    names:
+      103: Native American Affairs
+  - name: Native American and Insular Affairs
+    thomas_id: '14'
+    congresses: '104'
+    names:
+      104: Native American and Insular Affairs
+  - name: Forests and Forest Health
+    thomas_id: '20'
+    congresses: 105,106,107,108,109
+    names:
+      105-109: Forests and Forest Health
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-102: Interior and Insular Affairs
+    103: Natural Resources
+    104-109: Resources
+    110-112: Natural Resources
+- type: house
+  name: House Permanent Select Committee on Intelligence
+  thomas_id: HLIG
+  house_committee_id: IG
+  subcommittees:
+  - name: Intelligence Community Management
+    thomas_id: '06'
+  - name: Oversight and Investigations
+    thomas_id: 09
+  - name: Technical and Tactical Intelligence
+    thomas_id: '05'
+  - name: Terrorism, Human Intelligence, Analysis and Counterintelligence
+    thomas_id: 08
+  - name: Legislation
+    thomas_id: '02'
+    congresses: 97,98,100,103
+    names:
+      97-98: Legislation
+      100: Legislation
+      103: Legislation
+  - name: Program and Budget Authorization
+    thomas_id: '01'
+    congresses: 97,103
+    names:
+      97: Program and Budget Authorization
+      103: Program and Budget Authorization
+  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    95-112: Intelligence (Permanent Select)
+- type: house
+  name: House Committee on the Judiciary
+  url: http://judiciary.house.gov/
+  thomas_id: HSJU
+  house_committee_id: JU
+  subcommittees:
+  - name: Commercial and Administrative Law
+    thomas_id: 09
+    congresses: 104,105,106,107,108,109,110,111
+    names:
+      104-111: Commercial and Administrative Law
+  - name: Constitution
+    thomas_id: '10'
+    congresses: 104,105,106,107,108,109,110,111,112
+    names:
+      104-109: Constitution
+      110-111: Constitution, Civil Rights, and Civil Liberties
+      112: Constitution
+  - name: Courts, Commercial and Administrative Law
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-100: Courts, Civil Liberties, and the Administration of Justice
+      101: Courts, Intellectual Property, and the Administration of Justice
+      102-103: Intellectual Property and Judicial Administration
+      104-106: Courts and Intellectual Property
+      107-110: Courts, the Internet, and Intellectual Property
+      111: Courts and Competition Policy
+      112: Courts, Commercial and Administrative Law
+  - name: Crime, Terrorism, and Homeland Security
+    thomas_id: 08
+    congresses: 102,103,104,105,106,107,108,109,110,111,112
+    names:
+      102-103: Crime and Criminal Justice
+      104-107: Crime
+      108-112: Crime, Terrorism, and Homeland Security
+  - name: Immigration Policy and Enforcement
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-101: Immigration, Refugees, and International Law
+      102-103: International Law, Immigration, and Refugees
+      104-107: Immigration and Claims
+      108-109: Immigration, Border Security, and Claims
+      110-111: Immigration, Citizenship, Refugees, Border Security, and International
+        Law
+      112: Immigration Policy and Enforcement
+  - name: Intellectual Property, Competition and the Internet
+    thomas_id: '12'
+    congresses: '112'
+    names:
+      112: Intellectual Property, Competition and the Internet
+  - name: Administrative Law and Governmental Relations
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Administrative Law and Governmental Relations
+  - name: Civil and Constitutional Rights
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Civil and Constitutional Rights
+  - name: Crime
+    thomas_id: '06'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Crime
+  - name: Criminal Justice
+    thomas_id: '07'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Criminal Justice
+  - name: Monopolies and Commercial Law
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-100: Monopolies and Commercial Law
+      101-103: Economic and Commercial Law
+  - name: Antitrust (Full Committee Task Force)
+    thomas_id: '11'
+    congresses: '108'
+    names:
+      108: Antitrust (Full Committee Task Force)
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Judiciary
+- type: house
+  name: House Committee on Transportation and Infrastructure
+  url: http://transportation.house.gov/
+  thomas_id: HSPW
+  house_committee_id: PW
+  subcommittees:
+  - name: Aviation
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-112: Aviation
+  - name: Coast Guard and Maritime Transportation
+    thomas_id: '07'
+    congresses: 104,105,106,107,108,109,110,111,112
+    names:
+      104-112: Coast Guard and Maritime Transportation
+  - name: Economic Development, Public Buildings and Emergency Management
+    thomas_id: '13'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-112: Economic Development, Public Buildings and Emergency Management
+  - name: Highways and Transit
+    thomas_id: '12'
+    congresses: 107,108,109,110,111,112
+    names:
+      107: Highways and Transit
+      108-109: Highways, Transit and Pipelines
+      110-112: Highways and Transit
+  - name: Railroads, Pipelines, and Hazardous Materials
+    thomas_id: '14'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Railroads
+      110-112: Railroads, Pipelines, and Hazardous Materials
+  - name: Water Resources and Environment
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-102: Water Resources
+      103-112: Water Resources and Environment
+  - name: Economic Development
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Economic Development
+  - name: Public Buildings and Grounds
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Public Buildings and Grounds
+  - name: Surface Transportation
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105
+    names:
+      97-105: Surface Transportation
+  - name: Investigations and Oversight
+    thomas_id: '01'
+    congresses: '98'
+    names:
+      98: Investigations and Oversight
+  - name: Public Buildings and Economic Development
+    thomas_id: 08
+    congresses: 104,105,106
+    names:
+      104-105: Public Buildings and Economic Development
+      106: Economic Development, Public Buildings, Hazardous Materials and Pipeline
+        Transportation
+  - name: Railroads
+    thomas_id: 09
+    congresses: 104,105
+    names:
+      104-105: Railroads
+  - name: Ground Transportation
+    thomas_id: '10'
+    congresses: '106'
+    names:
+      106: Ground Transportation
+  - name: Oversight, Investigations and Emergency Management
+    thomas_id: '11'
+    congresses: '106'
+    names:
+      106: Oversight, Investigations and Emergency Management
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93: Public Works
+    94-103: Public Works and Transportation
+    104-112: Transportation and Infrastructure
+- type: house
+  name: House Committee on Rules
+  url: http://www.rules.house.gov/
+  thomas_id: HSRU
+  house_committee_id: RU
+  subcommittees:
+  - name: Legislative and Budget Process
+    thomas_id: '02'
+    congresses: 97,98,99,101,102,103,104,105,108,112
+    names:
+      97-99: Legislative Process
+      101-104: Legislative Process
+      105: Legislative and Budget Process
+      108: Legislative and Budget Process
+      112: Legislative and Budget Process
+  - name: Rules and Organization of the House
+    thomas_id: '04'
+    congresses: '111'
+    names:
+      111: Rules and Organization of the House
+  - name: Rules of the House
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,108
+    names:
+      97-104: Rules of the House
+      105: Rules and Organization of the House
+      108: Technology and the House
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Rules
+- type: house
+  name: House Committee on Small Business
+  url: http://www.house.gov/smbiz/
+  thomas_id: HSSM
+  house_committee_id: SM
+  subcommittees:
+  - name: Contracting and Technology
+    thomas_id: '23'
+    congresses: '111'
+    names:
+      111: Contracting and Technology
+  - name: Finance and Tax
+    thomas_id: '19'
+    congresses: '111'
+    names:
+      111: Finance and Tax
+  - name: Investigations and Oversight
+    thomas_id: '24'
+    congresses: '111'
+    names:
+      111: Investigations and Oversight
+  - name: Regulations and Healthcare
+    thomas_id: '17'
+    congresses: '111'
+    names:
+      111: Regulations and Healthcare
+  - name: Rural Development, Entrepreneurship and Trade
+    thomas_id: '21'
+    congresses: '111'
+    names:
+      111: Rural Development, Entrepreneurship and Trade
+  - name: Agriculture, Energy and Trade Subcommittee
+    thomas_id: '25'
+  - name: Healthcare and Technology Subcommittee
+    thomas_id: '26'
+  - name: Economic Growth, Tax and Capital Access Subcommittee
+    thomas_id: '27'
+  - name: Energy, Environment, and Safety Issues Affecting Small Business
+    thomas_id: '04'
+    congresses: 97,98,99,100
+    names:
+      97-99: Energy, Environment, and Safety Issues Affecting Small Business
+      100: Energy and Agriculture
+  - name: Export Opportunities & Special Small Business Problems
+    thomas_id: '06'
+    congresses: 97,98,99,100
+    names:
+      97-99: Export Opportunities & Special Small Business Problems
+      100: Exports, Tourism and Special Problems
+  - name: General Oversight
+    thomas_id: '02'
+    congresses: 97,98,99,100
+    names:
+      97: General Oversight
+      98-99: General Oversight and the Economy
+      100: SBA, and the General Economy
+  - name: SBA and SBIC Authority, Minority Enterprise, and General Small Business
+    thomas_id: '01'
+    congresses: 97,98,99,100
+    names:
+      97-99: SBA and SBIC Authority, Minority Enterprise, and General Small Business
+      100: Procurement, Innovation and Minority Enterprise Development
+  - name: Tax, Access to Equity Capital and Business Opportunities
+    thomas_id: '05'
+    congresses: 97,98,99
+    names:
+      97-99: Tax, Access to Equity Capital and Business Opportunities
+  - name: Antitrust and Restraint of Trade Activities Affecting Small Business
+    thomas_id: '03'
+    congresses: 98,99
+    names:
+      98-99: Antitrust and Restraint of Trade Activities Affecting Small Business
+  - name: Procurement, Tourism, and Rural Development
+    thomas_id: 09
+    congresses: 101,102
+    names:
+      101-102: Procurement, Tourism, and Rural Development
+  - name: Regulation, Business Opportunity, and Energy
+    thomas_id: '11'
+    congresses: 101,102
+    names:
+      101: Regulation, Business Opportunity, and Energy
+      102: Regulation, Business Opportunities, and Energy
+  - name: SBA, the General Economy and Minority Enterprise Development
+    thomas_id: '07'
+    congresses: 101,102,103
+    names:
+      101-102: SBA, the General Economy and Minority Enterprise Development
+      103: SBA Legislation and the General Economy
+  - name: Government Programs
+    thomas_id: '15'
+    congresses: '104'
+    names:
+      104: Government Programs
+  - name: Workforce, Empowerment, and Government Programs
+    thomas_id: '22'
+    congresses: '107'
+    names:
+      107: Workforce, Empowerment, and Government Programs
+  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    94-112: Small Business
+- type: house
+  name: House Committee on Ethics (Select)
+  url: http://ethics.house.gov/
+  thomas_id: HSSO
+  house_committee_id: SO
+  congresses: 93,94,95,96,98,100,101,102,103,104,105,107,108,109,110,111,112
+  names:
+    93-96: Standards of Official Conduct
+    98: Standards of Official Conduct
+    100-105: Standards of Official Conduct
+    107-111: Standards of Official Conduct
+    112: Ethics
+- type: house
+  name: House Committee on Science, Space, and Technology
+  url: http://science.house.gov/
+  thomas_id: HSSY
+  house_committee_id: SY
+  subcommittees:
+  - name: Energy and Environment
+    thomas_id: '20'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Energy
+      110-112: Energy and Environment
+  - name: Investigations and Oversight
+    thomas_id: '21'
+    congresses: '110'
+    names:
+      110: Investigations and Oversight
+  - name: Research and Science Education
+    thomas_id: '14'
+    congresses: 102,103,104,105,106,107,108,109,110,111,112
+    names:
+      102-103: Science
+      104-106: Basic Research
+      107-109: Research
+      110-112: Research and Science Education
+  - name: Space and Aeronautics
+    thomas_id: '16'
+    congresses: 104,105,106,107,108,109,110,111,112
+    names:
+      104-112: Space and Aeronautics
+  - name: Technology and Innovation
+    thomas_id: '19'
+    congresses: 107,108,109,110,111,112
+    names:
+      107-109: Environment, Technology, and Standards
+      110-112: Technology and Innovation
+  - name: Energy Development and Applications
+    thomas_id: '01'
+    congresses: 97,98,99,100
+    names:
+      97-99: Energy Development and Applications
+      100: International Scientific Cooperation
+  - name: Energy Research and Production
+    thomas_id: '06'
+    congresses: 97,98,99,100
+    names:
+      97-99: Energy Research and Production
+      100: Energy Research and Development
+  - name: Natural Resources, Agricultural Research and Environment
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-100: Natural Resources, Agricultural Research and Environment
+      101: Natural Resources, Agriculture Research and Environment
+      102: Environment
+  - name: Science, Research and Technology
+    thomas_id: '03'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Science, Research and Technology
+  - name: Space Science Applications
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Space Science Applications
+      100-101: Space Science and Applications
+      102-103: Space
+  - name: Transportation, Aviation and Materials
+    thomas_id: '07'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Transportation, Aviation and Materials
+  - name: Task Force on Science Policy
+    thomas_id: 08
+    congresses: '100'
+    names:
+      100: Task Force on Science Policy
+  - name: Energy Research and Development
+    thomas_id: '10'
+    congresses: 101,102,103
+    names:
+      101: Energy Research and Development
+      102-103: Energy
+  - name: International Scientific Cooperation
+    thomas_id: '11'
+    congresses: '101'
+    names:
+      101: International Scientific Cooperation
+  - name: Technology and Competitiveness
+    thomas_id: '13'
+    congresses: '102'
+    names:
+      102: Technology and Competitiveness
+  - name: Technology, Environment and Aviation
+    thomas_id: '15'
+    congresses: '103'
+    names:
+      103: Technology, Environment and Aviation
+  - name: Energy and Environment
+    thomas_id: '18'
+    congresses: 104,105,106
+    names:
+      104-106: Energy and Environment
+  - name: Technology
+    thomas_id: '17'
+    congresses: 104,105,106
+    names:
+      104-106: Technology
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93: Science and Astronautics
+    94-99: Science and Technology
+    100-103: Science, Space and Technology
+    104-109: Science
+    110-111: Science and Technology
+    112: Science, Space, and Technology
+- type: house
+  name: House Committee on Veterans' Affairs
+  url: http://veterans.house.gov/
+  thomas_id: HSVR
+  house_committee_id: VR
+  subcommittees:
+  - name: Disability Assistance and Memorial Affairs
+    thomas_id: 09
+    congresses: 109,110,111,112
+    names:
+      109-112: Disability Assistance and Memorial Affairs
+  - name: Economic Opportunity
+    thomas_id: '10'
+    congresses: 109,110,111,112
+    names:
+      109-112: Economic Opportunity
+  - name: Health
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-104: Hospitals and Health Care
+      105-112: Health
+  - name: Oversight and Investigations
+    thomas_id: 08
+    congresses: 109,110,112
+    names:
+      109-110: Oversight and Investigations
+      112: Oversight and Investigations
+  - name: Compensation, Pension and Insurance
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Compensation, Pension and Insurance
+  - name: Education, Training and Employment
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Education, Training and Employment
+  - name: Housing and Memorial Affairs
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Housing and Memorial Affairs
+  - name: Oversight and Investigations
+    thomas_id: '05'
+    congresses: '102'
+    names:
+      102: Oversight and Investigations
+  - name: Compensation, Pension, Insurance, and Memorial Affairs
+    thomas_id: '06'
+    congresses: 104,105,106,107,108
+    names:
+      104: Compensation, Pension, Insurance, and Memorial Affairs
+      105-108: Benefits
+  - name: Education, Training, Employment and Housing
+    thomas_id: '07'
+    congresses: '104'
+    names:
+      104: Education, Training, Employment and Housing
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Veterans' Affairs
+- type: house
+  name: House Committee on Ways and Means
+  url: http://waysandmeans.house.gov/
+  thomas_id: HSWM
+  house_committee_id: WM
+  subcommittees:
+  - name: Health
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-112: Health
+  - name: Human Resources
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-100: Public Assistance and Unemployment Compensation
+      101-109: Human Resources
+      110-111: Income Security and Family Support
+      112: Human Resources
+  - name: Oversight
+    thomas_id: '06'
+    congresses: 105,106
+    names:
+      105-106: Oversight
+  - name: Select Revenue Measures
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103,107
+    names:
+      97-103: Select Revenue Measures
+      107: Select Revenue Measures
+  - name: Social Security
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-112: Social Security
+  - name: Trade
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-112: Trade
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Ways and Means
+- type: joint
+  name: Commission on Security and Cooperation in Europe
+  thomas_id: JCSE
+  senate_committee_id: JCSE
+  congresses: '112'
+  names:
+    112: Commission on Security and Cooperation in Europe (Helsinki Commission)
+- type: joint
+  name: Joint Select Committee on Deficit Reduction
+  thomas_id: JSDF
+  senate_committee_id: JSDF
+- type: joint
+  name: Joint Economic Committee
+  url: http://jec.senate.gov/
+  thomas_id: JSEC
+  senate_committee_id: JSEC
+- type: joint
+  name: Joint Committee on the Library
+  thomas_id: JSLC
+  senate_committee_id: JSLC
+- type: joint
+  name: Joint Committee on Printing
+  thomas_id: JSPR
+  senate_committee_id: JSPR
+- type: joint
+  name: Joint Committee on Taxation
+  thomas_id: JSTX
+  senate_committee_id: JSTX
+- type: senate
+  name: United States Senate Caucus on International Narcotics Control
+  thomas_id: SCNC
+  senate_committee_id: SCNC
+  congresses: '112'
+  names:
+    112: Caucus on International Narcotics Control
+- type: senate
+  name: Senate Select Committee on Ethics
+  url: http://ethics.senate.gov/
+  thomas_id: SLET
+  senate_committee_id: SLET
+  congresses: 94,95,96,97,101,103,104
+  names:
+    94: Standards and Conduct (Select)
+    95-97: Ethics (Select)
+    101: Ethics (Select)
+    103-104: Ethics (Select)
+- type: senate
+  name: Senate Committee on Indian Affairs
+  url: http://indian.senate.gov/
+  thomas_id: SLIA
+  senate_committee_id: SLIA
+  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    95-97: Indian Affairs (Select)
+    98-102: Indian Affairs (Permanent Select)
+    103-112: Indian Affairs
+- type: senate
+  name: Senate Select Committee on Intelligence
+  url: http://intelligence.senate.gov/
+  thomas_id: SLIN
+  senate_committee_id: SLIN
+  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    94-112: Intelligence (Select)
+- type: senate
+  name: Senate Special Committee on Aging
+  thomas_id: SPAG
+  senate_committee_id: SPAG
+  congresses: 93,97,98,99,100,101,102,105,106,107,108,109,110,111,112
+  names:
+    93: Aging (Special)
+    97-102: Aging (Special)
+    105-112: Aging (Special)
+- type: senate
+  name: Senate Committee on Agriculture, Nutrition, and Forestry
+  url: http://agriculture.senate.gov/
+  thomas_id: SSAF
+  senate_committee_id: SSAF
+  subcommittees:
+  - name: Domestic and Foreign Marketing, Inspection, and Plant and Animal Health
+    thomas_id: '8'
+  - name: Energy, Science and Technology
+    thomas_id: '9'
+  - name: Hunger, Nutrition, and Family Farms
+    thomas_id: '10'
+  - name: Production, Income Protection and Price Support
+    thomas_id: '11'
+  - name: Rural Revitalization, Conservation, Forestry, and Credit
+    thomas_id: '12'
+  - name: Commodities, Markets, Trade and Risk Management
+    thomas_id: '13'
+  - name: Conservation, Forestry and Natural Resources
+    thomas_id: '14'
+  - name: Jobs, Rural Economic Growth and Energy Innovation
+    thomas_id: '15'
+  - name: Nutrition, Specialty Crops, Food and Agricultural Research
+    thomas_id: '16'
+  - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
+    thomas_id: '17'
+  - name: Agricultural Credit and Rural Electrification
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Agricultural Credit and Rural Electrification
+      100-103: Domestic and Foreign Marketing and Product Promotion
+  - name: Agricultural Production, Marketing, and Stabilization of Prices
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Agricultural Production, Marketing, and Stabilization of Prices
+      100-103: Agricultural Credit
+  - name: Agricultural Research and General Legislation
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-98: Agricultural Research and General Legislation
+      99: Agricultural Research, Conservation, Forestry and General Legislation
+      100-102: Agricultural Research and General Legislation
+      103: Agricultural Research, Conservation, Forestry and General Legislation
+  - name: Foreign Agricultural Policy
+    thomas_id: '06'
+    congresses: 97,98,100,101,102,103
+    names:
+      97-98: Foreign Agricultural Policy
+      100-103: Nutrition and Investigations
+  - name: Forestry, Water Resources, and Environment
+    thomas_id: 08
+    congresses: '97'
+    names:
+      97: Forestry, Water Resources, and Environment
+  - name: Nutrition
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-99: Nutrition
+      100-102: Conservation and Forestry
+  - name: Soil and Water Conservation
+    thomas_id: '01'
+    congresses: 97,98,100,101,102,103,107,108
+    names:
+      97: Soil and Water Conservation
+      98: Soil and Water Conservation, Forestry and Environment
+      100-103: Agricultural Production and Stabilization of Prices
+      107-108: Production and Price Competitiveness
+  - name: Rural Development, Oversight, and Investigations
+    thomas_id: '05'
+    congresses: 99,100,101,102,103,104,105,106,109
+    names:
+      99: Rural Development, Oversight, and Investigations
+      100-103: Rural Development and Rural Electrification
+      104-106: Forestry, Conservation, and Rural Revitalization
+      109: Forestry, Conservation, and Rural Revitalization
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Agriculture and Forestry
+    95-112: Agriculture, Nutrition, and Forestry
+- type: senate
+  name: Senate Committee on Appropriations
+  url: http://appropriations.senate.gov/
+  thomas_id: SSAP
+  senate_committee_id: SSAP
+  subcommittees:
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
+      Agencies
+    thomas_id: '1'
+  - name: Commerce, Justice, Science, and Related Agencies
+    thomas_id: '16'
+    congresses: 109,110,111,112
+    names:
+      109: Commerce, Justice, and Science and Related Agencies
+      110-112: Commerce, Justice, Science, and Related Agencies
+  - name: Defense
+    thomas_id: '2'
+  - name: Energy and Water Development
+    thomas_id: '22'
+    congresses: 109,110,111
+    names:
+      109: Energy and Water, and Related Agencies
+      110-111: Energy and Water Development
+  - name: Financial Service and General Government
+    thomas_id: '23'
+    congresses: 110,111,112
+    names:
+      110-112: Financial Service and General Government
+  - name: Homeland Security
+    thomas_id: '14'
+    congresses: 108,109,110,111
+    names:
+      108-111: Department of Homeland Security
+  - name: Interior, Environment, and Related Agencies
+    thomas_id: '17'
+    congresses: 109,110
+    names:
+      109: Interior and Related Agencies
+      110: Department of the Interior, Environment, and Related Agencies
+  - name: Departments of Labor, Health and Human Services, and Education, and Related
+      Agencies
+    thomas_id: '18'
+    congresses: 109,110,112
+    names:
+      109-110: Departments of Labor, Health and Human Services, and Education, and
+        Related Agencies
+      112: Departments of Labor, Health and Human Services, and Education, and Related
+        Agencies
+  - name: Legislative Branch
+    thomas_id: '8'
+  - name: Military Construction and Veterans Affairs, and Related Agencies
+    thomas_id: '19'
+    congresses: 109,110,111
+    names:
+      109-111: Military Construction and Veterans Affairs, and Related Agencies
+  - name: State, Foreign Operations, and Related Programs
+    thomas_id: '20'
+    congresses: 109,110,111,112
+    names:
+      109-112: State, Foreign Operations, and Related Programs
+  - name: Transportation, Housing and Urban Development, and Related Agencies
+    thomas_id: '24'
+    congresses: 110,111
+    names:
+      110-111: Transportation, Housing and Urban Development, and Related Agencies
+  - name: District of Columbia
+    thomas_id: '03'
+    congresses: 97,98,99,100,102,105,106,107,108,109
+    names:
+      97-100: District of Columbia
+      102: District of Columbia
+      105-109: District of Columbia
+  - name: Energy and Water Development
+    thomas_id: '10'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    names:
+      97-108: Energy and Water Development
+  - name: Interior
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    names:
+      97-99: Interior
+      100-104: Interior and Related Agencies
+      105-108: Interior
+  - name: Military Construction
+    thomas_id: 09
+    congresses: 97,98,99,100,101,102,104,105,106,107,108
+    names:
+      97-102: Military Construction
+      104-108: Military Construction
+  - name: State, Justice, Commerce, the Judiciary
+    thomas_id: '11'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    names:
+      97: State, Justice, Commerce, the Judiciary
+      98-99: Commerce, Justice, State, and the Judiciary
+      100: Commerce, Justice, State, the Judiciary, and Related Agencies
+      101-108: Commerce, Justice, State, and the Judiciary
+  - name: Transportation
+    thomas_id: '12'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    names:
+      97-99: Transportation
+      100-103: Transportation and Related Agencies
+      104-107: Transportation
+  - name: Agriculture and Related Agencies
+    thomas_id: '01'
+    congresses: 98,99,101,103,104,105,106,107,108,109,110,111
+    names:
+      98-99: Agriculture and Related Agencies
+      101: Agriculture and Related Agencies
+      103-109: Agriculture, Rural Development, and Related Agencies
+      110-111: Agriculture, Rural Development, Food and Drug Administration, and Related
+        Agencies
+  - name: Defense
+    thomas_id: '02'
+    congresses: 98,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      98: Defense
+      101-112: Defense
+  - name: Foreign Operations
+    thomas_id: '04'
+    congresses: 98,100,101,102,103,104,105,106,107,108
+    names:
+      98: Foreign Operations
+      100-108: Foreign Operations
+  - name: HUD and Independent Agencies
+    thomas_id: '05'
+    congresses: 98,99,100,101,102,103,104,105,106,107,108
+    names:
+      98-101: HUD and Independent Agencies
+      102-108: VA, HUD, and Independent Agencies
+  - name: Labor, Health and Human Services, Education
+    thomas_id: '07'
+    congresses: 98,99,100,101,102,103,104,105,106,107,108
+    names:
+      98-99: Labor, Health and Human Services, Education
+      100-102: Labor, Health and Human Services, Education, and Related Agencies
+      103-108: Labor, Health and Human Services, and Education
+  - name: Legislative Branch
+    thomas_id: 08
+    congresses: 98,99,100,102,105,106,107,108,110,111
+    names:
+      98-100: Legislative Branch
+      102: Legislative Branch
+      105-108: Legislative Branch
+      110-111: Legislative Branch
+  - name: Treasury, Postal Service, General Government
+    thomas_id: '13'
+    congresses: 98,99,100,101,102,103,104,105,106,107
+    names:
+      98-104: Treasury, Postal Service, General Government
+      105-107: Treasury and General Government
+  - name: Transportation, Treasury and General Government
+    thomas_id: '15'
+    congresses: '108'
+    names:
+      108: Transportation, Treasury and General Government
+  - name: Transportation, Treasury, the Judiciary, and Housing and Urban Development,
+      and Related Agencies
+    thomas_id: '21'
+    congresses: '109'
+    names:
+      109: Transportation, Treasury, the Judiciary, and Housing and Urban Development,
+        and Related Agencies
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Appropriations
+- type: senate
+  name: Senate Committee on Armed Services
+  url: http://armed-services.senate.gov/
+  thomas_id: SSAS
+  senate_committee_id: SSAS
+  subcommittees:
+  - name: Airland
+    thomas_id: '14'
+    congresses: 104,105,106
+    names:
+      104-105: Airland Forces
+      106: Airland
+  - name: Emerging Threats and Capabilities
+    thomas_id: '20'
+    congresses: 99,106
+    names:
+      99: Defense Acquisition Policy
+      106: Emerging Threats and Capabilities
+  - name: Personnel
+    thomas_id: '17'
+    congresses: 97,98,99,104,105
+    names:
+      97-99: Strategic and Theater Nuclear Forces
+      104-105: Personnel
+  - name: Readiness and Management Support
+    thomas_id: '15'
+    congresses: 104,105,106
+    names:
+      104-105: Readiness
+      106: Readiness and Management Support
+  - name: SeaPower
+    thomas_id: '13'
+    congresses: 104,105,106
+    names:
+      104-106: SeaPower
+  - name: Strategic Forces
+    thomas_id: '16'
+    congresses: 97,98,104,105,106
+    names:
+      97-98: Tactical Warfare
+      104-105: Strategic Forces
+      106: Strategic
+  - name: Manpower and Personnel
+    thomas_id: 09
+    congresses: 97,98,99,103
+    names:
+      97-99: Manpower and Personnel
+      103: Force Requirements and Personnel
+  - name: Military Construction
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-99: Military Construction
+      100-102: Readiness, Sustainability and Support
+  - name: Preparedness
+    thomas_id: '18'
+    congresses: 97,98,99,104,105
+    names:
+      97-99: Preparedness
+      104-105: Acquisition and Technology
+  - name: Sea Power and Force Projection
+    thomas_id: '19'
+    congresses: 97,98,99
+    names:
+      97-99: Sea Power and Force Projection
+  - name: Conventional Forces and Alliance Defense
+    thomas_id: '02'
+    congresses: 100,101,102
+    names:
+      100-102: Conventional Forces and Alliance Defense
+  - name: Defense Industry and Technology
+    thomas_id: '06'
+    congresses: 100,101,102
+    names:
+      100-102: Defense Industry and Technology
+  - name: Manpower and Personnel
+    thomas_id: '05'
+    congresses: 100,101,102
+    names:
+      100-102: Manpower and Personnel
+  - name: Projection Forces and Regional Defense
+    thomas_id: '03'
+    congresses: 100,101,102
+    names:
+      100-102: Projection Forces and Regional Defense
+  - name: Strategic Forces and Nuclear Deterrence
+    thomas_id: '01'
+    congresses: 100,101,102
+    names:
+      100-102: Strategic Forces and Nuclear Deterrence
+  - name: Coalition Defense and Reinforcing Forces
+    thomas_id: '11'
+    congresses: '103'
+    names:
+      103: Coalition Defense and Reinforcing Forces
+  - name: Defense Technology, Acquisition, and Industrial Base
+    thomas_id: '07'
+    congresses: '103'
+    names:
+      103: Defense Technology, Acquisition, and Industrial Base
+  - name: Military Readiness and Defense Infrastructure
+    thomas_id: 08
+    congresses: '103'
+    names:
+      103: Military Readiness and Defense Infrastructure
+  - name: Nuclear Deterrence, Arms Control, and Defense Intelligence
+    thomas_id: '10'
+    congresses: '103'
+    names:
+      103: Nuclear Deterrence, Arms Control, and Defense Intelligence
+  - name: Regional Defense and Contingency Forces
+    thomas_id: '12'
+    congresses: '103'
+    names:
+      103: Regional Defense and Contingency Forces
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Armed Services
+- type: senate
+  name: Senate Committee on Banking, Housing, and Urban Affairs
+  url: http://banking.senate.gov/
+  thomas_id: SSBK
+  senate_committee_id: SSBK
+  subcommittees:
+  - name: Economic Policy
+    thomas_id: '12'
+    congresses: 98,106,108,112
+    names:
+      98: Federal Credit Programs
+      106: Economic Policy
+      108: Economic Policy
+      112: Economic Policy
+  - name: Financial Institutions
+    thomas_id: '8'
+  - name: Housing, Transportation and Community Development
+    thomas_id: '9'
+  - name: Securities, Insurance and Investment
+    thomas_id: '4'
+  - name: Security and International Trade and Finance
+    thomas_id: '5'
+  - name: Consumer Affairs
+    thomas_id: '07'
+    congresses: 97,98
+    names:
+      97-98: Consumer Affairs
+  - name: Financial Institutions
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-98: Financial Institutions
+      99: Financial Institutions and Consumer Affairs
+      100: Consumer Affairs
+      101-102: Consumer and Regulatory Affairs
+  - name: Housing and Urban Affairs
+    thomas_id: '02'
+    congresses: 97,98,99,101,102,103
+    names:
+      97-99: Housing and Urban Affairs
+      101-103: Housing and Urban Affairs
+  - name: International Finance and Monetary Policy
+    thomas_id: '05'
+    congresses: 97,98,99,101,102,103,105
+    names:
+      97-99: International Finance and Monetary Policy
+      101-103: International Finance and Monetary Policy
+      105: International Finance
+  - name: Securities, Insurance and Investment
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103,104,105,107,112
+    names:
+      97-105: Securities
+      107: Securities and Investment
+      112: Securities, Insurance and Investment
+  - name: Insurance
+    thomas_id: '11'
+    congresses: 98,105
+    names:
+      98: Insurance
+      105: Financial Services and Technology
+  - name: Housing, Transportation and Community Development
+    thomas_id: 09
+    congresses: 98,105,106,107,109,110,111,112
+    names:
+      98: Rural Housing and Development
+      105: Housing Opportunity and Community Development
+      106-107: Housing and Transportation
+      109: Housing and Transportation
+      110-112: Housing, Transportation and Community Development
+  - name: Financial Institutions and Regulatory Relief
+    thomas_id: 08
+    congresses: 104,105,106
+    names:
+      104-105: Financial Institutions and Regulatory Relief
+      106: Financial Institutions
+  - name: HUD Oversight and Structure
+    thomas_id: '10'
+    congresses: '104'
+    names:
+      104: HUD Oversight and Structure
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Banking, Housing, and Urban Affairs
+- type: senate
+  name: Senate Committee on the Budget
+  url: http://budget.senate.gov/
+  thomas_id: SSBU
+  senate_committee_id: SSBU
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Budget
+- type: senate
+  name: Senate Committee on Commerce, Science, and Transportation
+  url: http://commerce.senate.gov/
+  thomas_id: SSCM
+  senate_committee_id: SSCM
+  subcommittees:
+  - name: Aviation Operations, Safety, and Security
+    thomas_id: '1'
+  - name: Communications and Technology
+    thomas_id: '26'
+    congresses: '111'
+    names:
+      111: Communications and Technology
+  - name: Competitiveness, Innovation, and Export Promotion
+    thomas_id: '27'
+  - name: Consumer Protection, Product Safety, and Insurance
+    thomas_id: '20'
+    congresses: 110,111
+    names:
+      110-111: Consumer Protection, Product Safety, and Insurance
+  - name: Oceans, Atmosphere, Fisheries, and Coast Guard
+    thomas_id: '22'
+    congresses: 110,111
+    names:
+      110-111: Oceans, Atmosphere, Fisheries, and Coast Guard
+  - name: Science and Space
+    thomas_id: '24'
+  - name: Surface Transportation and Merchant Marine
+    thomas_id: '25'
+    congresses: 110,111
+    names:
+      110: Surface Transportation and Merchant Marine Infrastructure, Safety and Security
+      111: Surface Transportation and Merchant Marine
+  - name: Aviation
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,107
+    names:
+      97-105: Aviation
+      107: Aviation
+  - name: Business, Trade, and Tourism
+    thomas_id: '15'
+    congresses: 97,98,99
+    names:
+      97-99: Business, Trade, and Tourism
+  - name: Communications
+    thomas_id: '02'
+    congresses: 97,98,100,101,102,103,105,106,108
+    names:
+      97-98: Communications
+      100-103: Communications
+      105-106: Communications
+      108: Communications
+  - name: Consumer
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,106,107
+    names:
+      97-103: Consumer
+      104: Consumer Affairs, Foreign Commerce, and Tourism
+      106-107: Consumer Affairs, Foreign Commerce, and Tourism
+  - name: Merchant Marine
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Merchant Marine
+  - name: Surface Transportation
+    thomas_id: 08
+    congresses: 97,98,99,100,101,102,103,104,105,106,108
+    names:
+      97-103: Surface Transportation
+      104-106: Surface Transportation and Merchant Marine
+      108: Surface Transportation and Merchant Marine
+  - name: National Ocean Policy Study
+    thomas_id: '30'
+    congresses: 98,99
+    names:
+      98-99: National Ocean Policy Study
+  - name: Science, Technology, and Space
+    thomas_id: 09
+    congresses: 98,99,104,105,106,108
+    names:
+      98-99: Science, Technology, and Space
+      104-106: Oceans and Fisheries
+      108: Oceans, Fisheries and Coast Guard
+  - name: National Ocean Policy Study
+    thomas_id: '07'
+    congresses: 100,102
+    names:
+      100: National Ocean Policy Study
+      102: National Ocean Policy Study
+  - name: Science, Technology, and Space
+    thomas_id: '05'
+    congresses: 101,102,103,104,105,106,107,108
+    names:
+      101-108: Science, Technology, and Space
+  - name: Foreign Commerce and Tourism
+    thomas_id: '04'
+    congresses: '102'
+    names:
+      102: Foreign Commerce and Tourism
+  - name: Competition, Foreign Commerce, and Infrastructure
+    thomas_id: '11'
+    congresses: '108'
+    names:
+      108: Competition, Foreign Commerce, and Infrastructure
+  - name: Consumer Affairs, Product Safety, and Insurance
+    thomas_id: '12'
+    congresses: '109'
+    names:
+      109: Consumer Affairs, Product Safety, and Insurance
+  - name: Science and Space
+    thomas_id: '17'
+    congresses: '109'
+    names:
+      109: Science and Space
+  - name: Trade, Tourism, and Economic Development
+    thomas_id: '19'
+    congresses: '109'
+    names:
+      109: Trade, Tourism, and Economic Development
+  - name: Interstate Commerce, Trade, and Tourism
+    thomas_id: '21'
+    congresses: '110'
+    names:
+      110: Interstate Commerce, Trade, and Tourism
+  - name: Science, Technology, and Innovation
+    thomas_id: '23'
+    congresses: '110'
+    names:
+      110: Science, Technology, and Innovation
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Commerce
+    95-112: Commerce, Science, and Transportation
+- type: senate
+  name: Senate Committee on Energy and Natural Resources
+  url: http://energy.senate.gov/
+  thomas_id: SSEG
+  senate_committee_id: SSEG
+  subcommittees:
+  - name: Energy
+    thomas_id: '1'
+  - name: National Parks
+    thomas_id: '4'
+  - name: Public Lands and Forests
+    thomas_id: '3'
+  - name: Water and Power
+    thomas_id: '7'
+  - name: Water and Power
+    thomas_id: '07'
+    congresses: 97,98,105,106,107,108,109,110,111,112
+    names:
+      97-98: Energy and Mineral Resources
+      105-112: Water and Power
+  - name: National Parks
+    thomas_id: '04'
+    congresses: 97,98,100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      97-98: Energy Conservation and Supply
+      100-103: Public Lands, National Parks and Forests
+      104: Parks, Historic Preservation, and Recreation
+      105-106: National Parks, Historic Preservation and Recreation
+      107-112: National Parks
+  - name: Energy Regulation
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103,104
+    names:
+      97-98: Energy Regulation
+      99: Energy Regulation and Conservation
+      100-103: Mineral Resources Development and Production
+      104: Energy Production and Regulation
+  - name: Energy
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103,104,105,106,108,110,111,112
+    names:
+      97-99: Energy Research and Development
+      100: Research and Development
+      101-104: Energy Research and Development
+      105-106: Energy Research, Development, Production and Regulation
+      108: Energy
+      110-112: Energy
+  - name: Public Lands, Reserved Water and Resource Conservation
+    thomas_id: 09
+    congresses: 97,98,99
+    names:
+      97-99: Public Lands, Reserved Water and Resource Conservation
+  - name: Water and Power
+    thomas_id: 08
+    congresses: 97,98,99
+    names:
+      97-99: Water and Power
+  - name: Natural Resources Development and Production
+    thomas_id: '10'
+    congresses: '99'
+    names:
+      99: Natural Resources Development and Production
+  - name: Energy Regulation and Conservation
+    thomas_id: '02'
+    congresses: 100,101,102,103
+    names:
+      100-102: Energy Regulation and Conservation
+      103: Renewable Energy, Energy Efficiency, and Competitiveness
+  - name: Public Lands and Forests
+    thomas_id: '03'
+    congresses: 100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      100-103: Water and Power
+      104-106: Forests and Public Land Management
+      107-112: Public Lands and Forests
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Interior and Insular Affairs
+    95-112: Energy and Natural Resources
+- type: senate
+  name: Senate Committee on Environment and Public Works
+  url: http://epw.senate.gov/
+  thomas_id: SSEV
+  senate_committee_id: SSEV
+  subcommittees:
+  - name: Environmental Pollution
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Environmental Pollution
+      100-102: Water Resources, Transportation and Infrastructure
+      103: Water Resources, Transportation, Public Buildings, and Economic Development
+  - name: Nuclear Regulation
+    thomas_id: '06'
+    congresses: 97,98,99,103
+    names:
+      97-99: Nuclear Regulation
+      103: Clean Water, Fisheries and Wildlife
+  - name: Regional and Community Development
+    thomas_id: '04'
+    congresses: 97,98,100,101,102,103
+    names:
+      97-98: Regional and Community Development
+      100: Superfund and Environmental Oversight
+      101-102: Superfund, Ocean and Water Protection
+      103: Superfund, Recycling, and Solid Waste Management
+  - name: Toxic Substances and Environmental Oversight
+    thomas_id: '07'
+    congresses: 97,98,99,103
+    names:
+      97-99: Toxic Substances and Environmental Oversight
+      103: Clean Air and Nuclear Regulation
+  - name: Transportation
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-99: Transportation
+      100: Hazardous Wastes and Toxic Substances
+      101-102: Toxic Substances, Environmental Oversight, Research and Development
+      103: Toxic Substances, Research and Development
+  - name: Water Resources
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-99: Water Resources
+      100-102: Environmental Protection
+  - name: Nuclear Regulation
+    thomas_id: '05'
+    congresses: 100,101
+    names:
+      100-101: Nuclear Regulation
+  - name: Clean Air, Wetlands, Private Property, and Nuclear Safety
+    thomas_id: '10'
+    congresses: 104,105,107,108,109,111
+    names:
+      104-105: Clean Air, Wetlands, Private Property, and Nuclear Safety
+      107: Clean Air, Wetlands, and Climate Change
+      108-109: Clean Air, Climate Change, and Nuclear Safety
+      111: Clean Air and Nuclear Safety
+  - name: Drinking Water, Fisheries, and Wildlife
+    thomas_id: '11'
+    congresses: 104,106,107,108
+    names:
+      104: Drinking Water, Fisheries, and Wildlife
+      106: Fisheries, Wildlife, and Drinking Water
+      107-108: Fisheries, Wildlife, and Water
+  - name: Superfund, Waste Control, and Risk Assessment
+    thomas_id: 09
+    congresses: 104,105,106,107,109
+    names:
+      104-106: Superfund, Waste Control, and Risk Assessment
+      107: Superfund, Toxics, Risk, and Waste Management
+      109: Superfund and Waste Management
+  - name: Transportation and Infrastructure
+    thomas_id: 08
+    congresses: 104,105,106,108
+    names:
+      104-106: Transportation and Infrastructure
+      108: Transportation and Infrastructure
+  - name: Private Sector and Consumer Solutions to Global Warming and Wildlife Protection
+    thomas_id: '13'
+    congresses: '110'
+    names:
+      110: Private Sector and Consumer Solutions to Global Warming and Wildlife Protection
+  - name: Water and Wildlife
+    thomas_id: '15'
+    congresses: 111,112
+    names:
+      111-112: Water and Wildlife
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Public Works
+    95-112: Environment and Public Works
+- type: senate
+  name: Senate Committee on Finance
+  url: http://finance.senate.gov/
+  thomas_id: SSFI
+  senate_committee_id: SSFI
+  subcommittees:
+  - name: Energy, Natural Resources, and Infrastructure
+    thomas_id: '12'
+    congresses: 97,98,99
+    names:
+      97-99: Taxation and Debt Management
+  - name: Health Care
+    thomas_id: '10'
+    congresses: 105,106
+    names:
+      105-106: Health Care
+  - name: International Trade, Customs, and Global Competitiveness
+    thomas_id: '13'
+    congresses: 98,99
+    names:
+      98-99: Social Security and Income Maintenance Programs
+  - name: Fiscal Responsibility and Economic Growth
+    thomas_id: '14'
+  - name: Social Security, Pensions and Family Policy
+    thomas_id: '2'
+  - name: Taxation, IRS Oversight, and Long-term Growth
+    thomas_id: '11'
+  - name: Energy and Agricultural Taxation
+    thomas_id: '07'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Energy and Agricultural Taxation
+  - name: Estate and Gift Taxation
+    thomas_id: '21'
+    congresses: 97,98
+    names:
+      97-98: Estate and Gift Taxation
+  - name: Health
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-100: Health
+      101-103: Health for Families and the Uninsured
+  - name: International Trade
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105
+    names:
+      97-105: International Trade
+  - name: Oversight of the Internal Revenue Service
+    thomas_id: '16'
+    congresses: 97,98
+    names:
+      97-98: Oversight of the Internal Revenue Service
+  - name: Savings, Pensions and Investment Policy
+    thomas_id: '19'
+    congresses: 97,98,99
+    names:
+      97-99: Savings, Pensions and Investment Policy
+  - name: Economic Growth, Employment and Revenue Sharing
+    thomas_id: '20'
+    congresses: '98'
+    names:
+      98: Economic Growth, Employment and Revenue Sharing
+  - name: Private Retirement Plans and Oversight of the Internal Revenue Service
+    thomas_id: '05'
+    congresses: 100,101,102
+    names:
+      100-102: Private Retirement Plans and Oversight of the Internal Revenue Service
+  - name: Social Security and Family Policy
+    thomas_id: '02'
+    congresses: 100,101,102,104,105,107
+    names:
+      100-102: Social Security and Family Policy
+      104-105: Social Security and Family Policy
+      107: Social Security and Family Policy
+  - name: Taxation and Debt Management
+    thomas_id: '06'
+    congresses: 100,101,102,104,105
+    names:
+      100-101: Taxation and Debt Management
+      102: Taxation
+      104-105: Taxation and IRS Oversight
+  - name: Medicare and Long-Term Care
+    thomas_id: 08
+    congresses: 101,102
+    names:
+      101-102: Medicare and Long-Term Care
+  - name: Long-Term Growth and Debt Reduction
+    thomas_id: 09
+    congresses: '106'
+    names:
+      106: Long-Term Growth and Debt Reduction
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Finance
+- type: senate
+  name: Senate Committee on Foreign Relations
+  url: http://foreign.senate.gov/
+  thomas_id: SSFR
+  senate_committee_id: SSFR
+  subcommittees:
+  - name: African Affairs
+    thomas_id: '9'
+  - name: East Asian and Pacific Affairs
+    thomas_id: '2'
+  - name: European Affairs
+    thomas_id: '1'
+  - name: International Development and Foreign Assistance, Economic Affairs and International
+      Environmental Protection
+    thomas_id: '12'
+  - name: International Operations and Organizations, Human Rights, Democracy and
+      Global Women's Issues
+    thomas_id: '13'
+  - name: Near Eastern and South and Central Asian Affairs
+    thomas_id: '7'
+  - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
+    thomas_id: '6'
+  - name: European Affairs
+    thomas_id: '01'
+    congresses: 97,98,99,108
+    names:
+      97-99: European Affairs
+      108: European Affairs
+  - name: African Affairs
+    thomas_id: 09
+    congresses: 98,99,102,103,104,106,112
+    names:
+      98-99: African Affairs
+      102-104: African Affairs
+      106: African Affairs
+      112: African Affairs
+  - name: East Asian and Pacific Affairs
+    thomas_id: '02'
+    congresses: 98,99,100,105,108
+    names:
+      98-100: East Asian and Pacific Affairs
+      105: East Asian and Pacific Affairs
+      108: East Asian and Pacific Affairs
+  - name: International Economic Policy
+    thomas_id: '03'
+    congresses: 98,99,100,102,103,105
+    names:
+      98: International Economic Policy
+      99: International Economic Policy, Oceans and Environment
+      100: International Economic Policy, Trade, Oceans and Environment
+      102-103: International Economic Policy, Trade, Oceans and Environment
+      105: International Economic Policy, Export and Trade Promotion
+  - name: Near Eastern and South Asian Affairs
+    thomas_id: '07'
+    congresses: 98,99,100,104,106
+    names:
+      98-100: Near Eastern and South Asian Affairs
+      104: Near Eastern and South Asian Affairs
+      106: Near Eastern and South Asian Affairs
+  - name: Western Hemisphere Affairs
+    thomas_id: '06'
+    congresses: 98,99,100,102,104,105,107,110
+    names:
+      98-99: Western Hemisphere Affairs
+      100: Western Hemisphere and Peace Corps Affairs
+      102: Western Hemisphere and Peace Corps Affairs
+      104: Western Hemisphere and Peace Corps Affairs
+      105: Western Hemisphere, Peace Corps, Narcotics and Terrorism
+      107: Western Hemisphere, Peace Corps and Narcotics Affairs
+      110: Western Hemisphere, Peace Corps and Narcotics Affairs
+  - name: Terrorism, Narcotics and International Communications
+    thomas_id: '04'
+    congresses: 100,103
+    names:
+      100: Terrorism, Narcotics and International Communications
+      103: Terrorism, Narcotics and International Operations
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Foreign Relations
+- type: senate
+  name: Senate Committee on Homeland Security and Governmental Affairs
+  url: http://hsgac.senate.gov/
+  thomas_id: SSGA
+  senate_committee_id: SSGA
+  subcommittees:
+  - name: Contracting Oversight (Ad Hoc)
+    thomas_id: '13'
+    congresses: 111,112
+    names:
+      111-112: Contracting Oversight (Ad Hoc)
+  - name: Ad Hoc Subcommittee on Disaster Recovery and Intergovernmental Affairs
+    thomas_id: '14'
+  - name: Ad Hoc Subcommittee on Disaster Recovery
+    thomas_id: '11'
+    congresses: 110,111
+    names:
+      110-111: Disaster Recovery (Ad Hoc)
+  - name: Ad Hoc Subcommittee on State, Local, and Private Sector Preparedness and
+      Integration
+    thomas_id: '10'
+    congresses: 97,98,110
+    names:
+      97: Federal Expenditures
+      98: Information Management and Regulatory Affairs
+      110: State, Local, and Private Sector Preparedness and Integration (Ad Hoc)
+  - name: Investigations
+    thomas_id: '1'
+  - name: Federal Financial Management, Government Information, Federal Services,
+      and International Security
+    thomas_id: '9'
+  - name: Oversight of Government Management, the Federal Workforce, and the District
+      of Columbia
+    thomas_id: '3'
+  - name: Civil Service, Post Office, and General Services
+    thomas_id: '07'
+    congresses: 97,98,99,105,106,107
+    names:
+      97-99: Civil Service, Post Office, and General Services
+      105-107: International Security, Proliferation and Federal Services
+  - name: Energy, Nuclear Proliferation and Government Processes
+    thomas_id: '06'
+    congresses: 97,98,99,104
+    names:
+      97-99: Energy, Nuclear Proliferation and Government Processes
+      104: Financial Management and Accountability
+  - name: Governmental Efficiency and the District of Columbia
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,104
+    names:
+      97-99: Governmental Efficiency and the District of Columbia
+      100-102: Federal Services, Post Office, and Civil Service
+      104: Post Office and Civil Service
+  - name: Intergovernmental Relations
+    thomas_id: '02'
+    congresses: 97,98,99,100,102
+    names:
+      97-99: Intergovernmental Relations
+      100: Federal Spending, Budget, and Accounting
+      102: Government Information and Regulation
+  - name: Oversight of Government Management
+    thomas_id: 08
+    congresses: 97,98,99
+    names:
+      97-99: Oversight of Government Management
+  - name: Government Efficiency, Federalism, and the District of Columbia
+    thomas_id: '04'
+    congresses: 100,101,102
+    names:
+      100: Government Efficiency, Federalism, and the District of Columbia
+      101-102: General Services, Federalism, and the District of Columbia
+  - name: Oversight of Government Management, the Federal Workforce, and the District
+      of Columbia
+    thomas_id: '03'
+    congresses: 100,101,102,103,104,105,106,107,108,109,110,111,112
+    names:
+      100-103: Oversight of Government Management
+      104: Oversight of Government Management and the District of Columbia
+      105-106: Oversight of Government Management, Restructuring and the District
+        of Columbia
+      107-112: Oversight of Government Management, the Federal Workforce, and the
+        District of Columbia
+  - name: Federal Financial Management, Government Information, Federal Services,
+      and International Security
+    thomas_id: 09
+    congresses: 108,109,110,111,112
+    names:
+      108: Financial Management, the Budget and International Security
+      109-112: Federal Financial Management, Government Information, Federal Services,
+        and International Security
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Government Operations
+    95-108: Governmental Affairs
+    109-112: Homeland Security and Governmental Affairs
+- type: senate
+  name: Senate Committee on Health, Education, Labor, and Pensions
+  url: http://help.senate.gov/
+  thomas_id: SSHR
+  senate_committee_id: SSHR
+  subcommittees:
+  - name: Children and Families
+    thomas_id: '9'
+  - name: Employment and Workplace Safety
+    thomas_id: '11'
+    congresses: 98,99,111
+    names:
+      98-99: Aging
+      111: Employment and Workplace Safety
+  - name: Primary Health and Aging
+    thomas_id: '12'
+    congresses: '112'
+    names:
+      112: Primary Health and Aging
+  - name: Aging, Family, and Human Services
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103,105
+    names:
+      97: Aging, Family, and Human Services
+      98: Family and Human Services
+      99-103: Children, Family, Drugs and Alcoholism
+      105: Children and Families
+  - name: Alcoholism and Drug Abuse
+    thomas_id: '07'
+    congresses: 97,98,105,107
+    names:
+      97-98: Alcoholism and Drug Abuse
+      105: Public Health and Safety
+      107: Public Health
+  - name: Education, Arts, and Humanities
+    thomas_id: 08
+    congresses: 97,98,99,105,106
+    names:
+      97-99: Education, Arts, and Humanities
+      105: Employment and Training
+      106: Employment, Safety, and Training
+  - name: Employment and Productivity
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Employment and Productivity
+  - name: Handicapped
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-101: Handicapped
+      102-103: Disability Policy
+  - name: Labor
+    thomas_id: '10'
+    congresses: 97,98,99,109
+    names:
+      97-99: Labor
+      109: Bioterrorism and Public Health Preparedness
+  - name: Aging
+    thomas_id: '05'
+    congresses: 100,101,102,103,104,107
+    names:
+      100-104: Aging
+      107: Aging
+  - name: Education, Arts and Humanities
+    thomas_id: '01'
+    congresses: 100,101,102,103,104
+    names:
+      100-104: Education, Arts and Humanities
+  - name: Labor
+    thomas_id: '03'
+    congresses: 100,101,102,103
+    names:
+      100-103: Labor
+  - name: Education and Early Childhood Development
+    thomas_id: 09
+    congresses: '109'
+    names:
+      109: Education and Early Childhood Development
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-94: Labor and Public Welfare
+    95: Human Resources
+    96-105: Labor and Human Resources
+    106-112: Health, Education, Labor, and Pensions
+- type: senate
+  name: Senate Committee on the Judiciary
+  url: http://judiciary.senate.gov/
+  thomas_id: SSJU
+  senate_committee_id: SSJU
+  subcommittees:
+  - name: Administrative Oversight and the Courts
+    thomas_id: '2'
+  - name: Antitrust, Competition Policy and Consumer Rights
+    thomas_id: '1'
+  - name: Crime and Drugs
+    thomas_id: '15'
+    congresses: 110,111
+    names:
+      110-111: Crime and Drugs
+  - name: Human Rights and the Law
+    thomas_id: '20'
+    congresses: 97,98,99,111
+    names:
+      97-99: Courts
+      111: Human Rights and the Law
+  - name: Immigration, Refugees and Border Security
+    thomas_id: '4'
+  - name: Terrorism and Homeland Security
+    thomas_id: '9'
+  - name: the Constitution
+    thomas_id: '18'
+    congresses: 110,111
+    names:
+      110-111: Constitution
+  - name: Constitution, Civil Rights and Human Rights
+    thomas_id: '21'
+    congresses: 97,98,99,112
+    names:
+      97-99: Immigration and Refugee Policy
+      112: Constitution, Civil Rights and Human Rights
+  - name: Crime and Terrorism
+    thomas_id: '22'
+    congresses: 97,98,112
+    names:
+      97-98: Separation of Powers
+      112: Crime and Terrorism
+  - name: Privacy, Technology and the Law
+    thomas_id: '23'
+    congresses: 97,112
+    names:
+      97: Agency Administration
+      112: Privacy, Technology and the Law
+  - name: Constitution
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109
+    names:
+      97-103: Constitution
+      104-105: Constitution, Federalism, and Property Rights
+      106-107: Constitution
+      108-109: Constitution, Civil Rights and Property Rights
+  - name: Criminal Law
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102,103,104
+    names:
+      97-99: Criminal Law
+      100-103: Technology and the Law
+      104: Terrorism, Technology, and Government Information
+  - name: Juvenile Justice
+    thomas_id: '25'
+    congresses: 97,98,99
+    names:
+      97-99: Juvenile Justice
+  - name: Regulatory Reform
+    thomas_id: '19'
+    congresses: '97'
+    names:
+      97: Regulatory Reform
+  - name: Security and Terrorism
+    thomas_id: '24'
+    congresses: 97,98,99
+    names:
+      97-99: Security and Terrorism
+  - name: Administrative Practice and Procedure
+    thomas_id: '27'
+    congresses: 98,99
+    names:
+      98-99: Administrative Practice and Procedure
+  - name: Patents, Copyrights and Trademarks
+    thomas_id: '26'
+    congresses: 98,99
+    names:
+      98-99: Patents, Copyrights and Trademarks
+  - name: Antitrust, Monopolies and Business Rights
+    thomas_id: '01'
+    congresses: 100,101,102,103,104,105,106,107,110
+    names:
+      100-103: Antitrust, Monopolies and Business Rights
+      104-106: Antitrust, Business Rights and Competition
+      107: Antitrust, Competition and Business and Consumer Rights
+      110: Antitrust, Competition Policy and Consumer Rights
+  - name: Administrative Oversight and the Courts
+    thomas_id: '02'
+    congresses: 100,101,102,103,104,105,106,108,109,112
+    names:
+      100-103: Courts and Administrative Practice
+      104-106: Administrative Oversight and the Courts
+      108-109: Administrative Oversight and the Courts
+      112: Administrative Oversight and the Courts
+  - name: Immigration, Refugees and Border Security
+    thomas_id: '04'
+    congresses: 100,101,102,103,104,105,106,107,112
+    names:
+      100-103: Immigration and Refugee Affairs
+      104-107: Immigration
+      112: Immigration, Refugees and Border Security
+  - name: Patents, Copyrights and Trademarks
+    thomas_id: '06'
+    congresses: 100,101,102,103
+    names:
+      100-103: Patents, Copyrights and Trademarks
+  - name: Juvenile Justice
+    thomas_id: '07'
+    congresses: 102,103,104,105
+    names:
+      102-103: Juvenile Justice
+      104-105: Youth Violence
+  - name: Technology, Terrorism, and Government Information
+    thomas_id: 09
+    congresses: 105,106,107,108,109,110
+    names:
+      105-107: Technology, Terrorism, and Government Information
+      108-110: Terrorism, Technology and Homeland Security
+  - name: Crime and Drugs
+    thomas_id: '12'
+    congresses: '107'
+    names:
+      107: Crime and Drugs
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Judiciary
+- type: senate
+  name: Senate Committee on Rules and Administration
+  url: http://rules.senate.gov/
+  thomas_id: SSRA
+  senate_committee_id: SSRA
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Rules and Administration
+- type: senate
+  name: Senate Committee on Small Business and Entrepreneurship
+  url: http://sbc.senate.gov/
+  thomas_id: SSSB
+  senate_committee_id: SSSB
+  subcommittees:
+  - name: Innovation and Technology
+    thomas_id: '06'
+    congresses: '97'
+    names:
+      97: Innovation and Technology
+  - name: Rural Economy and Family Farming
+    thomas_id: '03'
+    congresses: '101'
+    names:
+      101: Rural Economy and Family Farming
+  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    95-96: Small Business (Select)
+    97-106: Small Business
+    107-112: Small Business and Entrepreneurship
+- type: senate
+  name: Senate Committee on Veterans' Affairs
+  url: http://veterans.senate.gov/
+  thomas_id: SSVA
+  senate_committee_id: SSVA
+  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  names:
+    93-112: Veterans' Affairs

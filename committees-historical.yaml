@@ -1,0 +1,234 @@
+- type: house
+  name: House Committee on Energy (Ad Hoc)
+  thomas_id: HHAH
+  house_committee_id: AH
+  congresses: '95'
+  names:
+    95: Energy (Ad Hoc)
+- type: house
+  name: House Committee on Committees (Select)
+  thomas_id: HLCQ
+  house_committee_id: CQ
+  congresses: 93,96
+  names:
+    93: Committees (Select)
+    96: Committees (Select)
+- type: house
+  name: House Committee on Outer Continental Shelf (Select)
+  thomas_id: HLOC
+  house_committee_id: OC
+  congresses: 94,95
+  names:
+    94-95: Outer Continental Shelf (Select)
+- type: house
+  name: House Committee on Joint Atomic Energy
+  thomas_id: HSAT
+  house_committee_id: AT
+  congresses: 93,94
+  names:
+    93-94: Joint Atomic Energy
+- type: house
+  name: House Committee on District of Columbia
+  thomas_id: HSDT
+  house_committee_id: DT
+  subcommittees:
+  - name: Fiscal Affairs and Health
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Fiscal Affairs and Health
+  - name: Government Operations and Metropolitan Affairs
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Government Operations and Metropolitan Affairs
+  - name: Judiciary and Education
+    thomas_id: '03'
+    congresses: 98,99,100,101,102,103
+    names:
+      98-103: Judiciary and Education
+  congresses: 93,94,95,96,97,98,99,100,101,102,103
+  names:
+    93-103: District of Columbia
+- type: house
+  name: House Committee on Merchant Marine and Fisheries
+  thomas_id: HSMM
+  house_committee_id: MM
+  subcommittees:
+  - name: Coast Guard and Navigation
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Coast Guard and Navigation
+  - name: Fisheries and Wildlife Conservation and the Environment
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Fisheries and Wildlife Conservation and the Environment
+  - name: Merchant Marine
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Merchant Marine
+  - name: Oceanography
+    thomas_id: '04'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Oceanography
+  - name: Panama Canal and Outer Continental Shelf
+    thomas_id: '05'
+    congresses: 97,98,99,100,101
+    names:
+      97-101: Panama Canal and Outer Continental Shelf
+  - name: Oceanography, Great Lakes and the Outer Continental Shelf
+    thomas_id: 08
+    congresses: 102,103
+    names:
+      102: Oceanography, Great Lakes and the Outer Continental Shelf
+      103: Oceanography, Gulf of Mexico and the Outer Continental Shelf
+  - name: Environment and Natural Resources
+    thomas_id: '22'
+    congresses: '103'
+    names:
+      103: Environment and Natural Resources
+  - name: Fisheries Management
+    thomas_id: '23'
+    congresses: '103'
+    names:
+      103: Fisheries Management
+  congresses: 93,94,95,96,97,98,99,100,101,102,103
+  names:
+    93-103: Merchant Marine and Fisheries
+- type: house
+  name: House Committee on Post Office and Civil Service
+  thomas_id: HSPO
+  house_committee_id: PO
+  subcommittees:
+  - name: Census and Population
+    thomas_id: '01'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Census and Population
+  - name: Civil Service
+    thomas_id: '03'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Civil Service
+  - name: Compensation and Employee Benefits
+    thomas_id: '02'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Compensation and Employee Benefits
+  - name: Human Resources
+    thomas_id: '04'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Human Resources
+  - name: Postal Operations and Services
+    thomas_id: '06'
+    congresses: 97,98,99,100,101,102,103
+    names:
+      97-103: Postal Operations and Services
+  - name: Postal Personnel and Modernization
+    thomas_id: '05'
+    congresses: 97,98,99,100,101,102
+    names:
+      97-102: Postal Personnel and Modernization
+  - name: Ad Hoc Task Force on Presidential Pay Recommendation
+    thomas_id: 08
+    congresses: '100'
+    names:
+      100: Ad Hoc Task Force on Presidential Pay Recommendation
+  - name: Census, Statistics and Postal Personnel
+    thomas_id: 09
+    congresses: '103'
+    names:
+      103: Census, Statistics and Postal Personnel
+  congresses: 93,94,95,96,97,98,99,100,101,102,103
+  names:
+    93-103: Post Office and Civil Service
+- type: house
+  name: House Committee on Standards of Official Conduct
+  thomas_id: HSSO
+  house_committee_id: SO
+- type: house
+  name: House Committee on Internal Security
+  thomas_id: HSUA
+  house_committee_id: UA
+  congresses: '93'
+  names:
+    93: Internal Security
+- type: house
+  name: Temporary Joint Committee on Deficit Reduction
+  thomas_id: HTDE
+  house_committee_id: DE
+  congresses: '99'
+  names:
+    99: Temporary Joint Committee on Deficit Reduction
+- type: senate
+  name: Senate Committee on POW/MIA Affairs
+  thomas_id: SLPO
+  senate_committee_id: SLPO
+  congresses: '102'
+  names:
+    102: POW/MIA Affairs
+- type: senate
+  name: Senate Committee on Impeachment (Special) (Hastings)
+  thomas_id: SPIM
+  senate_committee_id: SPIM
+  congresses: '101'
+  names:
+    101: Impeachment (Special) (Hastings)
+- type: senate
+  name: Senate Committee on Official Conduct (Special)
+  thomas_id: SPOC
+  senate_committee_id: SPOC
+  congresses: '95'
+  names:
+    95: Official Conduct (Special)
+- type: senate
+  name: Senate Committee on Whitewater Dev Corp Investigation (Special)
+  thomas_id: SPWW
+  senate_committee_id: SPWW
+  congresses: '104'
+  names:
+    104: Whitewater Dev Corp Investigation (Special)
+- type: senate
+  name: Senate Committee on Aeronautical and Space Sciences
+  thomas_id: SSAE
+  senate_committee_id: SSAE
+  congresses: 93,94,95
+  names:
+    93-95: Aeronautical and Space Sciences
+- type: senate
+  name: Senate Committee on District of Columbia
+  thomas_id: SSDT
+  senate_committee_id: SSDT
+  congresses: 93,94
+  names:
+    93-94: District of Columbia
+- type: senate
+  name: Senate Committee on Post Office and Civil Service
+  thomas_id: SSPO
+  senate_committee_id: SSPO
+  congresses: 93,94
+  names:
+    93-94: Post Office and Civil Service
+- type: senate
+  name: Joint Atomic Energy
+  thomas_id: JSAT
+  congresses: 93,94,95
+  names:
+    93-95: Joint Atomic Energy
+- type: house
+  name: House Committee on Ethics (Select)
+  thomas_id: HLET
+  congresses: '95'
+  names:
+    95: Ethics (Select)
+- type: senate
+  name: Temporary Joint Committee on Deficit Reduction
+  thomas_id: JTDR
+  congresses: 99,100
+  names:
+    99-100: Temporary Joint Committee on Deficit Reduction
