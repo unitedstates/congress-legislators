@@ -2061,14 +2061,19 @@
     thomas_id: '12'
   - name: Commodities, Markets, Trade and Risk Management
     thomas_id: '13'
+    congresses: '112'
   - name: Conservation, Forestry and Natural Resources
     thomas_id: '14'
+    congresses: '112'
   - name: Jobs, Rural Economic Growth and Energy Innovation
     thomas_id: '15'
+    congresses: '112'
   - name: Nutrition, Specialty Crops, Food and Agricultural Research
     thomas_id: '16'
+    congresses: '112'
   - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
     thomas_id: '17'
+    congresses: '112'
   - name: Agricultural Credit and Rural Electrification
     thomas_id: '02'
     congresses: 97,98,99,100,101,102,103
@@ -2145,7 +2150,7 @@
     thomas_id: '2'
   - name: Energy and Water Development
     thomas_id: '22'
-    congresses: 109,110,111
+    congresses: 109,110,111,112
     names:
       109: Energy and Water, and Related Agencies
       110-111: Energy and Water Development
@@ -2154,14 +2159,14 @@
     congresses: 110,111,112
     names:
       110-112: Financial Service and General Government
-  - name: Homeland Security
+  - name: Department of Homeland Security
     thomas_id: '14'
-    congresses: 108,109,110,111
+    congresses: 108,109,110,111,112
     names:
       108-111: Department of Homeland Security
-  - name: Interior, Environment, and Related Agencies
+  - name: Department of the Interior, Environment, and Related Agencies
     thomas_id: '17'
-    congresses: 109,110
+    congresses: 109,110,112
     names:
       109: Interior and Related Agencies
       110: Department of the Interior, Environment, and Related Agencies
@@ -2178,7 +2183,7 @@
     thomas_id: '8'
   - name: Military Construction and Veterans Affairs, and Related Agencies
     thomas_id: '19'
-    congresses: 109,110,111
+    congresses: 109,110,111,112
     names:
       109-111: Military Construction and Veterans Affairs, and Related Agencies
   - name: State, Foreign Operations, and Related Programs
@@ -2186,9 +2191,9 @@
     congresses: 109,110,111,112
     names:
       109-112: State, Foreign Operations, and Related Programs
-  - name: Transportation, Housing and Urban Development, and Related Agencies
+  - name: Transportation and Housing and Urban Development, and Related Agencies
     thomas_id: '24'
-    congresses: 110,111
+    congresses: 110,111,112
     names:
       110-111: Transportation, Housing and Urban Development, and Related Agencies
   - name: District of Columbia
@@ -2231,16 +2236,17 @@
       97-99: Transportation
       100-103: Transportation and Related Agencies
       104-107: Transportation
-  - name: Agriculture and Related Agencies
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
+      Agencies
     thomas_id: '01'
-    congresses: 98,99,101,103,104,105,106,107,108,109,110,111
+    congresses: 98,99,101,103,104,105,106,107,108,109,110,111,112
     names:
       98-99: Agriculture and Related Agencies
       101: Agriculture and Related Agencies
       103-109: Agriculture, Rural Development, and Related Agencies
       110-111: Agriculture, Rural Development, Food and Drug Administration, and Related
         Agencies
-  - name: Defense
+  - name: Department of Defense
     thomas_id: '02'
     congresses: 98,101,102,103,104,105,106,107,108,109,110,111,112
     names:
@@ -2267,7 +2273,7 @@
       103-108: Labor, Health and Human Services, and Education
   - name: Legislative Branch
     thomas_id: 08
-    congresses: 98,99,100,102,105,106,107,108,110,111
+    congresses: 98,99,100,102,105,106,107,108,110,111,112
     names:
       98-100: Legislative Branch
       102: Legislative Branch
@@ -2302,36 +2308,36 @@
   subcommittees:
   - name: Airland
     thomas_id: '14'
-    congresses: 104,105,106
+    congresses: 104,105,106,112
     names:
       104-105: Airland Forces
       106: Airland
   - name: Emerging Threats and Capabilities
     thomas_id: '20'
-    congresses: 99,106
+    congresses: 99,106,112
     names:
       99: Defense Acquisition Policy
       106: Emerging Threats and Capabilities
   - name: Personnel
     thomas_id: '17'
-    congresses: 97,98,99,104,105
+    congresses: 97,98,99,104,105,112
     names:
       97-99: Strategic and Theater Nuclear Forces
       104-105: Personnel
   - name: Readiness and Management Support
     thomas_id: '15'
-    congresses: 104,105,106
+    congresses: 104,105,106,112
     names:
       104-105: Readiness
       106: Readiness and Management Support
   - name: SeaPower
     thomas_id: '13'
-    congresses: 104,105,106
+    congresses: 104,105,106,112
     names:
       104-106: SeaPower
   - name: Strategic Forces
     thomas_id: '16'
-    congresses: 97,98,104,105,106
+    congresses: 97,98,104,105,106,112
     names:
       97-98: Tactical Warfare
       104-105: Strategic Forces
@@ -2453,9 +2459,9 @@
     names:
       97-99: Housing and Urban Affairs
       101-103: Housing and Urban Affairs
-  - name: International Finance and Monetary Policy
+  - name: Security and International Trade and Finance
     thomas_id: '05'
-    congresses: 97,98,99,101,102,103,105
+    congresses: 97,98,99,101,102,103,105,112
     names:
       97-99: International Finance and Monetary Policy
       101-103: International Finance and Monetary Policy
@@ -2482,9 +2488,9 @@
       106-107: Housing and Transportation
       109: Housing and Transportation
       110-112: Housing, Transportation and Community Development
-  - name: Financial Institutions and Regulatory Relief
+  - name: Financial Institutions and Consumer Protection
     thomas_id: 08
-    congresses: 104,105,106
+    congresses: 104,105,106,112
     names:
       104-105: Financial Institutions and Regulatory Relief
       106: Financial Institutions
@@ -2512,34 +2518,36 @@
   subcommittees:
   - name: Aviation Operations, Safety, and Security
     thomas_id: '1'
-  - name: Communications and Technology
+  - name: Communications, Technology, and the Internet
     thomas_id: '26'
-    congresses: '111'
+    congresses: 111,112
     names:
       111: Communications and Technology
   - name: Competitiveness, Innovation, and Export Promotion
     thomas_id: '27'
+    congresses: '112'
   - name: Consumer Protection, Product Safety, and Insurance
     thomas_id: '20'
-    congresses: 110,111
+    congresses: 110,111,112
     names:
       110-111: Consumer Protection, Product Safety, and Insurance
   - name: Oceans, Atmosphere, Fisheries, and Coast Guard
     thomas_id: '22'
-    congresses: 110,111
+    congresses: 110,111,112
     names:
       110-111: Oceans, Atmosphere, Fisheries, and Coast Guard
   - name: Science and Space
     thomas_id: '24'
-  - name: Surface Transportation and Merchant Marine
+    congresses: '112'
+  - name: Surface Transportation and Merchant Marine Infrastructure, Safety, and Security
     thomas_id: '25'
-    congresses: 110,111
+    congresses: 110,111,112
     names:
       110: Surface Transportation and Merchant Marine Infrastructure, Safety and Security
       111: Surface Transportation and Merchant Marine
-  - name: Aviation
+  - name: Aviation Operations, Safety, and Security
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104,105,107
+    congresses: 97,98,99,100,101,102,103,104,105,107,112
     names:
       97-105: Aviation
       107: Aviation
@@ -2818,25 +2826,27 @@
   subcommittees:
   - name: Energy, Natural Resources, and Infrastructure
     thomas_id: '12'
-    congresses: 97,98,99
+    congresses: 97,98,99,112
     names:
       97-99: Taxation and Debt Management
   - name: Health Care
     thomas_id: '10'
-    congresses: 105,106
+    congresses: 105,106,112
     names:
       105-106: Health Care
   - name: International Trade, Customs, and Global Competitiveness
     thomas_id: '13'
-    congresses: 98,99
+    congresses: 98,99,112
     names:
       98-99: Social Security and Income Maintenance Programs
   - name: Fiscal Responsibility and Economic Growth
     thomas_id: '14'
+    congresses: '112'
   - name: Social Security, Pensions and Family Policy
     thomas_id: '2'
-  - name: Taxation, IRS Oversight, and Long-term Growth
+  - name: Taxation and IRS Oversight
     thomas_id: '11'
+    congresses: '112'
   - name: Energy and Agricultural Taxation
     thomas_id: '07'
     congresses: 97,98,99,100,101,102,103
@@ -2878,9 +2888,9 @@
     congresses: 100,101,102
     names:
       100-102: Private Retirement Plans and Oversight of the Internal Revenue Service
-  - name: Social Security and Family Policy
+  - name: Social Security, Pensions and Family Policy
     thomas_id: '02'
-    congresses: 100,101,102,104,105,107
+    congresses: 100,101,102,104,105,107,112
     names:
       100-102: Social Security and Family Policy
       104-105: Social Security and Family Policy
@@ -2920,16 +2930,18 @@
   - name: International Development and Foreign Assistance, Economic Affairs and International
       Environmental Protection
     thomas_id: '12'
+    congresses: '112'
   - name: International Operations and Organizations, Human Rights, Democracy and
       Global Women's Issues
     thomas_id: '13'
+    congresses: '112'
   - name: Near Eastern and South and Central Asian Affairs
     thomas_id: '7'
   - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
     thomas_id: '6'
   - name: European Affairs
     thomas_id: '01'
-    congresses: 97,98,99,108
+    congresses: 97,98,99,108,112
     names:
       97-99: European Affairs
       108: European Affairs
@@ -2943,7 +2955,7 @@
       112: African Affairs
   - name: East Asian and Pacific Affairs
     thomas_id: '02'
-    congresses: 98,99,100,105,108
+    congresses: 98,99,100,105,108,112
     names:
       98-100: East Asian and Pacific Affairs
       105: East Asian and Pacific Affairs
@@ -2957,16 +2969,16 @@
       100: International Economic Policy, Trade, Oceans and Environment
       102-103: International Economic Policy, Trade, Oceans and Environment
       105: International Economic Policy, Export and Trade Promotion
-  - name: Near Eastern and South Asian Affairs
+  - name: Near Eastern and South and Central Asian Affairs
     thomas_id: '07'
-    congresses: 98,99,100,104,106
+    congresses: 98,99,100,104,106,112
     names:
       98-100: Near Eastern and South Asian Affairs
       104: Near Eastern and South Asian Affairs
       106: Near Eastern and South Asian Affairs
-  - name: Western Hemisphere Affairs
+  - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
     thomas_id: '06'
-    congresses: 98,99,100,102,104,105,107,110
+    congresses: 98,99,100,102,104,105,107,110,112
     names:
       98-99: Western Hemisphere Affairs
       100: Western Hemisphere and Peace Corps Affairs
@@ -3089,7 +3101,7 @@
     thomas_id: '9'
   - name: Employment and Workplace Safety
     thomas_id: '11'
-    congresses: 98,99,111
+    congresses: 98,99,111,112
     names:
       98-99: Aging
       111: Employment and Workplace Safety
@@ -3153,9 +3165,9 @@
     congresses: 100,101,102,103
     names:
       100-103: Labor
-  - name: Education and Early Childhood Development
+  - name: Children and Families
     thomas_id: 09
-    congresses: '109'
+    congresses: 109,112
     names:
       109: Education and Early Childhood Development
   congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
@@ -3194,7 +3206,7 @@
     congresses: 110,111
     names:
       110-111: Constitution
-  - name: Constitution, Civil Rights and Human Rights
+  - name: the Constitution, Civil Rights and Human Rights
     thomas_id: '21'
     congresses: 97,98,99,112
     names:
@@ -3252,9 +3264,9 @@
     congresses: 98,99
     names:
       98-99: Patents, Copyrights and Trademarks
-  - name: Antitrust, Monopolies and Business Rights
+  - name: Antitrust, Competition Policy and Consumer Rights
     thomas_id: '01'
-    congresses: 100,101,102,103,104,105,106,107,110
+    congresses: 100,101,102,103,104,105,106,107,110,112
     names:
       100-103: Antitrust, Monopolies and Business Rights
       104-106: Antitrust, Business Rights and Competition

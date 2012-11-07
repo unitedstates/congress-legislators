@@ -1,6 +1,8 @@
 # Scrape house.gov and senate.gov for current committee membership,
 # and updates the committees-current.yaml file with metadata including
-# name, address, and phone number.
+# name, url, address, and phone number. While the Senate has XML for
+# full committee membership, we're still scraping the old way in
+# order to get subcommittee membership.
 
 import re, urllib, lxml.html, StringIO, datetime
 from collections import OrderedDict
@@ -139,9 +141,69 @@ def scrape_house_committee(cx, output_code, house_code):
       sx['thomas_id'] = m.group(2)
       cx['subcommittees'].append(sx)
     scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
-  
-scrape_house()
+ 
+def scrape_senate():
+  body = urllib.urlopen("http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm").read()
 
+  for id, name in re.findall(r'value="/general/committee_membership/committee_memberships_(....).htm">(.*?)</option>', body, re.I |  re.S):
+    if id not in senate_ref:
+      print "Unrecognized committee:", id, name
+      continue
+      
+    print id, name
+    
+    cx = senate_ref[id]
+    seen_committees.add(cx["thomas_id"])
+    #scrape_senate_committee(cx, cx["thomas_id"], id)
+
+    url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
+    body2 = urllib.urlopen(url).read()
+    
+    m = re.search(r"<committee_name>(.*)</committee_name>", body2)
+    if not m:
+      print "\tcommittee page not good:", url
+      continue
+     
+    cx["name"] = m.group(1)
+    if id[0] != "J" and id[0:2] != 'SC':
+      cx["name"] = "Senate " + cx["name"]
+ 
+    m = re.search(r'<span class="contenttext"><a href="(http://(.*?).senate.gov/)">', body2, re.I)
+    if m:
+      cx["url"] = m.group(1)
+      
+    # scan subcommittee links
+    for id, name in re.findall(r'<a href="#' + id + '(\d\d)">Subcommittee on (.*?)</a></span>', body2):
+      for sx in cx['subcommittees']:
+        if sx["thomas_id"] == id:
+          break
+      else:
+        print "Subcommittee not found, creating it", id, name
+        sx = OrderedDict()
+        sx['thomas_id'] = id
+        cx['subcommittees'].append(sx)
+        
+      # update metadata
+      sx["name"] = name.strip()
+      sx["name"] = re.sub(r"^\s*Subcommittee on\s*", "", sx["name"])
+      sx["name"] = re.sub(r"\s+", " ", sx["name"])
+
+      # make the committee metadata file indicate this committee is current if it doesn't already
+      if "congresses" in sx:
+        if str(CURRENT_CONGRESS) not in sx["congresses"].split(","):
+          sx["congresses"] += "," + str(CURRENT_CONGRESS)
+      else:
+        sx["congresses"] = str(CURRENT_CONGRESS)
+
+# MAIN
+
+scrape_house()
+scrape_senate()
+
+# Check that we got data for all committees.
+# TODO: Make sure we have data from both chambers for the joint committees,
+# but unfortunately the House did not publish joint committee membership in
+# the 112th Congress!
 for cx in committees_current:
   if not cx["thomas_id"] in seen_committees:
     print "Missing data for", cx["name"]
