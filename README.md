@@ -170,7 +170,7 @@ The two files are structured each as a list of committees, each entry an associa
 * address: The mailing address for the committee, for current committees only.
 * phone: The phone number of the committee, for current committees only.
 * subcommittees: A list of subcommittees, with the following fields:
-	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names.
+	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
 	* congresses: Same meaning as for full committees. Note that a subcommittee may currently be disbanded. This field gives a rough approximation to whether a subcommittee is current. But because a Congress may not be listed if no bills were referred to the subcommittee, a subcommittee that does not appear to be current may in fact be current.
 	* names: Same meaning as for full committees.
