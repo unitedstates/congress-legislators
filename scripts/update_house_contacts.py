@@ -1,14 +1,22 @@
+#!/usr/bin/env python
+
 # Update current congressmen's mailing address from clerk.house.gov. 
 
 import lxml.html, StringIO
-import urllib
 import re
 from datetime import date, datetime
-from utils import yaml_load, yaml_dump, parse_date
+import utils
+from utils import download, load_data, save_data, parse_date
 
 today = datetime.now().date()
 
-y = yaml_load(open("../legislators-current.yaml"))
+
+# default to not caching
+cache = utils.flags().get('cache', False)
+force = not cache
+
+
+y = load_data("legislators-current.yaml")
 
 for moc in y:
 	try:
@@ -26,9 +34,11 @@ for moc in y:
 	if "class" in term: del term["class"]
 
 	url = "http://clerk.house.gov/member_info/mem_contact_info.aspx?statdis=%s%02d" % (term["state"], term["district"])
+	cache = "legislators/house/%s%02d.html" % (term["state"], term["district"])
 	try:
 		# the meta tag say it's iso-8859-1, but... names are actually in utf8...
-		dom = lxml.html.parse(StringIO.StringIO(urllib.urlopen(url).read().decode("utf-8"))).getroot()
+		body = download(url, cache, force)
+		dom = lxml.html.parse(StringIO.StringIO(body.decode("utf-8"))).getroot()
 	except lxml.etree.XMLSyntaxError:
 		print "Error parsing: ", url
 		continue
@@ -54,5 +64,4 @@ for moc in y:
 	moc["name"]["official_full"] = name
 	term["address"] = address
 
-yaml_dump(y, open("../legislators-current.yaml", "w"))
-
+save_data(y, "legislators-current.yaml")
