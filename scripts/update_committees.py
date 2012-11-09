@@ -1,15 +1,18 @@
+#!/usr/bin/env python
+
 # Parse the THOMAS advanced search page for a list of all committees
 # and subcommittees. While we surely have comprehensive info on current
 # committees, we may not have comprehensive information on historical
 # committees/subcommittees or current subcommittees (because there are
 # so many). The THOMAS pages do not list joint committees, however.
 
-import re, urllib, itertools
+import re, itertools
 from collections import OrderedDict
-from utils import yaml_load, yaml_dump
+from utils import download, load_data, save_data
 
-committees_historical = yaml_load(open("../congress-legislators/committees-historical.yaml"))
-committees_current = yaml_load(open("../congress-legislators/committees-current.yaml"))
+
+committees_historical = load_data("committees-historical.yaml")
+committees_current = load_data("committees-current.yaml")
 
 CURRENT_CONGRESS = 112
 
@@ -29,7 +32,9 @@ for cx in itertools.chain(committees_historical, committees_current):
 
 for congress in range(93, CURRENT_CONGRESS+1):
   print congress, '...'
-  body = urllib.urlopen("http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress).read()
+
+  url = "http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress
+  body = download(url, "committees/structure/%d.html" % congress)
 
   for chamber, options in re.findall('>Choose (House|Senate) Committees</option>(.*?)</select>', body, re.I | re.S):
     for name, id in re.findall(r'<option value="(.*?)\{(.*?)}">', options, re.I | re.S):
@@ -106,6 +111,7 @@ def format_name_info(names):
       prev = [c, c, names[c]]
       ret.append(prev)
   return OrderedDict((d1 if d1 == d2 else "%d-%d" % (d1, d2), name) for (d1, d2, name) in ret)
+
 for cx in itertools.chain(committees_historical, committees_current):
   if "congresses" in cx: cx["congresses"] = ",".join(cx["congresses"])
   if "names" in cx: cx["names"] = format_name_info(cx["names"])
@@ -113,6 +119,5 @@ for cx in itertools.chain(committees_historical, committees_current):
     if "congresses" in sx: sx["congresses"] = ",".join(sx["congresses"])
     if "names" in sx: sx["names"] = format_name_info(sx["names"])
 
-yaml_dump(committees_historical, open("../congress-legislators/committees-historical.yaml", "w"))
-yaml_dump(committees_current, open("../congress-legislators/committees-current.yaml", "w"))
-
+save_data(committees_historical, "committees-historical.yaml")
+save_data(committees_current, "committees-current.yaml")

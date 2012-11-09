@@ -1,13 +1,16 @@
 congress-legislators
 ====================
 
-Members of the United States Congress (1789-Present) and congressional committees (93rd Congress-Present) in YAML.
+Members of the United States Congress (1789-Present) and congressional committees (1973-Present) in YAML.
 
-This repository contains the following files:
+This repository contains data about legislators:
 
 * legislators-current.yaml: Currently serving Members of Congress (as of last update).
 * legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
 * legislators-social-media.yaml: Current social media accounts for Members of Congress.
+
+And about committees:
+
 * committees-current.yaml: Current committees of the Congress, with subcommittees.
 * committees-historical.yaml: Historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
 
@@ -20,7 +23,7 @@ This database has been collected from a variety of sources:
 * The Sunlight Labs Congress API (http://services.sunlightlabs.com/docs/Sunlight_Congress_API/).
 * The Library of Congress's THOMAS website (http://thomas.loc.gov). 
 
-The YAML files are currently maintained by hand and by scripts in the git repository at https://github.com/unitedstates/congress-legislators-scripts.
+The data is currently maintained both by hand and by some scripts in the `scripts` directory.
 
 Legislators File Structure and Overview
 ---------------------------------------
@@ -249,3 +252,32 @@ These territories no longer exist.
 	DK Dakota Territory
 	OL Territory of Orleans
 	PI Philippines Territory/Commonwealth
+
+Running Scripts
+---------------
+
+(Recommended) First, create a virtualenv in the scripts directory:
+
+```bash
+cd scripts
+virtualenv virt
+source virt/bin/activate
+```
+
+Install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+Try updating the latest committee data:
+
+```bash
+python update_committees.py
+```
+
+Check whether and how the data has changed:
+
+```bash
+git diff ../*.yaml
+```

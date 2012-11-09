@@ -1,3 +1,112 @@
+import os, errno
+import re, htmlentitydefs
+import pprint
+from datetime import datetime
+
+def parse_date(date):
+  return datetime.strptime(date, "%Y-%m-%d").date()
+
+def log(object):
+  if isinstance(object, (str, unicode)):
+    print object
+  else:
+    pprint.pprint(object)
+
+
+##### Data management
+
+def data_dir():
+  return ".."
+
+def load_data(path):
+  return yaml_load(os.path.join(data_dir(), path))
+
+def save_data(data, path):
+  return yaml_dump(data, os.path.join(data_dir(), path))
+
+
+##### Downloading 
+
+import scrapelib
+scraper = scrapelib.Scraper(requests_per_minute=120, follow_robots=False, retry_attempts=3)
+
+def cache_dir():
+  return "cache"
+
+def download(url, destination, force=False):
+  cache = os.path.join(cache_dir(), destination)
+
+  if not force and os.path.exists(cache):
+    log("Cached: (%s, %s)" % (cache, url))
+    with open(cache, 'r') as f:
+      body = f.read()
+  else:
+    try:
+      log("Downloading: %s" % url)
+      response = scraper.urlopen(url)
+      body = str(response)
+    except scrapelib.HTTPError as e:
+      log("Error downloading %s:\n\n%s" % (url, format_exception(e)))
+      return None
+
+    # don't allow 0-byte files
+    if (not body) or (not body.strip()):
+      return None
+
+    # cache content to disk
+    write(body, cache)
+
+  return unescape(body)
+
+def write(content, destination):
+  mkdir_p(os.path.dirname(destination))
+  f = open(destination, 'w')
+  f.write(content)
+  f.close()
+
+# mkdir -p in python, from:
+# http://stackoverflow.com/questions/600268/mkdir-p-functionality-in-python
+def mkdir_p(path):
+  try:
+    os.makedirs(path)
+  except OSError as exc: # Python >2.5
+    if exc.errno == errno.EEXIST:
+      pass
+    else: 
+      raise
+
+# taken from http://effbot.org/zone/re-sub.htm#unescape-html
+def unescape(text):
+
+  def remove_unicode_control(str):
+    remove_re = re.compile(u'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]')
+    return remove_re.sub('', str)
+
+  def fixup(m):
+    text = m.group(0)
+    if text[:2] == "&#":
+      # character reference
+      try:
+        if text[:3] == "&#x":
+          return unichr(int(text[3:-1], 16))
+        else:
+          return unichr(int(text[2:-1]))
+      except ValueError:
+        pass
+    else:
+      # named entity
+      try:
+        text = unichr(htmlentitydefs.name2codepoint[text[1:-1]])
+      except KeyError:
+        pass
+    return text # leave as is
+
+  text = re.sub("&#?\w+;", fixup, text)
+  text = remove_unicode_control(text)
+  return text
+
+##### YAML serialization ######
+
 # In order to preserve the order of attributes, YAML must be
 # hooked to load mappings as OrderedDicts. Adapted from:
 # https://gist.github.com/317164
@@ -6,7 +115,6 @@
 
 import yaml
 from collections import OrderedDict
-from datetime import datetime
 
 def construct_odict(load, node):
     omap = OrderedDict()
@@ -24,19 +132,13 @@ def construct_odict(load, node):
 
 yaml.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
 
-def yaml_load(stream):
-	return yaml.load(stream)
+def yaml_load(path):
+    return yaml.load(open(path))
 
 def ordered_dict_serializer(self, data):
-	return self.represent_mapping('tag:yaml.org,2002:map', data.items())
+    return self.represent_mapping('tag:yaml.org,2002:map', data.items())
 yaml.add_representer(OrderedDict, ordered_dict_serializer)
 yaml.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'tag:yaml.org,2002:str', value))
 
-def yaml_dump(data, stream):
-	yaml.dump(data, stream, default_flow_style=False, allow_unicode=True)
-	
-# Other utilities
-
-def parse_date(date):
-	return datetime.strptime(date, "%Y-%m-%d").date()
-
+def yaml_dump(data, path):
+    yaml.dump(data, open(path, "w"), default_flow_style=False, allow_unicode=True)
