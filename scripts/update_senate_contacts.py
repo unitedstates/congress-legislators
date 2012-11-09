@@ -1,13 +1,20 @@
+#!/usr/bin/env python
+
 # Update current senator's website and address from www.senate.gov. 
 
-import lxml.etree
+import lxml.etree, StringIO
 import urllib
 from datetime import date, datetime
-from utils import yaml_load, yaml_dump, parse_date
+import utils
+from utils import download, load_data, save_data, parse_date
 
 today = datetime.now().date()
 
-y = yaml_load(open("../legislators-current.yaml"))
+# default to not caching
+cache = utils.flags().get('cache', False)
+force = not cache
+
+y = load_data("legislators-current.yaml")
 
 # Map bioguide IDs to dicts. Reference the same dicts
 # in y so we are updating y when we update biogiude.
@@ -15,9 +22,12 @@ bioguide = { }
 for m in y:
 	bioguide[m["id"]["bioguide"]] = m
 
-dom = lxml.etree.parse(urllib.urlopen("http://www.senate.gov/general/contact_information/senators_cfm.xml"))
+url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
+body = download(url, "legislators/senate.xml", force)
+dom = lxml.etree.parse(StringIO.StringIO(body))
 for node in dom.getroot():
 	bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
+	print "[%s] Processing Senator..." % bioguide_id
 	
 	if not bioguide_id in bioguide:
 		print "Missing member", bioguide_id
@@ -60,5 +70,4 @@ for node in dom.getroot():
 	
 	# TODO there is also an "email" field with a URL to a contact form (is it always a URL?)
 
-yaml_dump(y, open("../legislators-current.yaml", "w"))
-
+save_data(y, "legislators-current.yaml")
