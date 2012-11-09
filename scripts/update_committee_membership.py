@@ -1,15 +1,25 @@
+#!/usr/bin/env python
+
 # Scrape house.gov and senate.gov for current committee membership,
 # and updates the committees-current.yaml file with metadata including
 # name, url, address, and phone number. While the Senate has XML for
 # full committee membership, we're still scraping the old way in
 # order to get subcommittee membership.
 
-import re, urllib, lxml.html, StringIO, datetime
+import re, lxml.html, StringIO, datetime
 from collections import OrderedDict
-from utils import yaml_load, yaml_dump, CURRENT_CONGRESS, parse_date
+import utils
+from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
+
 
 committee_membership = { }
-committees_current = yaml_load(open("../committees-current.yaml"))
+committees_current = load_data("committees-current.yaml")
+
+
+# default to not caching
+cache = utils.flags().get('cache', False)
+force = not cache
+
 
 # map house/senate's to their dicts
 house_ref = { }
@@ -23,7 +33,8 @@ for cx in committees_current:
 
 # map state/district to current congressmen
 today = datetime.datetime.now().date()
-legislators_current = yaml_load(open("../legislators-current.yaml"))
+legislators_current = load_data("legislators-current.yaml")
+
 congressmen = { }
 for moc in legislators_current:
   term = moc["terms"][-1]
@@ -37,7 +48,8 @@ seen_committees = set()
 
 # Scrape clerk.house.gov...
 def scrape_house():
-  body = urllib.urlopen("http://clerk.house.gov/committee_info/index.aspx").read()
+  url = "http://clerk.house.gov/committee_info/index.aspx"
+  body = download(url, "committees/membership/house.html", force)
 
   for id, name in re.findall(r'<a href="/committee_info/index.aspx\?comcode=(..)00">(.*)</a>', body, re.I):
     if id not in house_ref:
@@ -63,7 +75,8 @@ def scrape_house_committee(cx, output_code, house_code):
   # while we don't really care, it helps our sanity check that compares
   # names)
   url = "http://clerk.house.gov/committee_info/index.aspx?%s=%s" % ('comcode' if house_code[-2:] == '00' else 'subcomcode', house_code)
-  dom = lxml.html.parse(StringIO.StringIO(urllib.urlopen(url).read().decode("utf-8"))).getroot()
+  body = download(url, "committees/membership/house/%s.html" % house_code, force)
+  dom = lxml.html.parse(StringIO.StringIO(body.decode('utf-8'))).getroot()
   
   # update official name metadata
   if house_code[-2:] == "00":
@@ -143,7 +156,8 @@ def scrape_house_committee(cx, output_code, house_code):
     scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
  
 def scrape_senate():
-  body = urllib.urlopen("http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm").read()
+  url = "http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm"
+  body = download(url, "committees/membership/senate.html", force)
 
   for id, name in re.findall(r'value="/general/committee_membership/committee_memberships_(....).htm">(.*?)</option>', body, re.I |  re.S):
     if id not in senate_ref:
@@ -156,12 +170,14 @@ def scrape_senate():
     seen_committees.add(cx["thomas_id"])
     #scrape_senate_committee(cx, cx["thomas_id"], id)
 
-    url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
-    body2 = urllib.urlopen(url).read()
+    committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
+    body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
     
-    m = re.search(r"<committee_name>(.*)</committee_name>", body2)
-    if not m:
-      print "\tcommittee page not good:", url
+    if body2:
+      m = re.search(r"<committee_name>(.*)</committee_name>", body2)
+      
+    if not body2 or not m:
+      print "\tcommittee page not good:", committee_url
       continue
      
     cx["name"] = m.group(1)
@@ -208,6 +224,5 @@ for cx in committees_current:
   if not cx["thomas_id"] in seen_committees:
     print "Missing data for", cx["name"]
 
-yaml_dump(committee_membership, open("../committee-membership-current.yaml", "w"))
-yaml_dump(committees_current, open("../committees-current.yaml", "w"))
-
+save_data(committee_membership, "committee-membership-current.yaml")
+save_data(committees_current, "committees-current.yaml")

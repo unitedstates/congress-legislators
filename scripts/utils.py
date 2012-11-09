@@ -3,7 +3,7 @@
 CURRENT_CONGRESS = 112
 
 
-import os, errno, sys
+import os, errno, sys, traceback
 import re, htmlentitydefs
 import pprint
 from datetime import datetime
@@ -64,9 +64,9 @@ def download(url, destination, force=False):
     try:
       log("Downloading: %s" % url)
       response = scraper.urlopen(url)
-      body = str(response)
+      body = response.encode('utf-8')
     except scrapelib.HTTPError as e:
-      log("Error downloading %s:\n\n%s" % (url, format_exception(e)))
+      log("Error downloading %s" % url)
       return None
 
     # don't allow 0-byte files
@@ -76,7 +76,7 @@ def download(url, destination, force=False):
     # cache content to disk
     write(body, cache)
 
-  return unescape(body)
+  return body
 
 def write(content, destination):
   mkdir_p(os.path.dirname(destination))
@@ -94,6 +94,10 @@ def mkdir_p(path):
       pass
     else: 
       raise
+
+def format_exception(exception):
+  exc_type, exc_value, exc_traceback = sys.exc_info()
+  return "\n".join(traceback.format_exception(exc_type, exc_value, exc_traceback))
 
 # taken from http://effbot.org/zone/re-sub.htm#unescape-html
 def unescape(text):
