@@ -9,13 +9,11 @@
 import re, itertools
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data
+from utils import download, load_data, save_data, CURRENT_CONGRESS
 
 
 committees_historical = load_data("committees-historical.yaml")
 committees_current = load_data("committees-current.yaml")
-
-CURRENT_CONGRESS = 112
 
 
 # default to not caching

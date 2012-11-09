@@ -8,7 +8,7 @@ from utils import yaml_load, yaml_dump, parse_date
 
 today = datetime.now().date()
 
-y = yaml_load(open("../congress-legislators/legislators-current.yaml"))
+y = yaml_load(open("../legislators-current.yaml"))
 
 for moc in y:
 	try:
@@ -54,5 +54,5 @@ for moc in y:
 	moc["name"]["official_full"] = name
 	term["address"] = address
 
-yaml_dump(y, open("../congress-legislators/legislators-current.yaml", "w"))
+yaml_dump(y, open("../legislators-current.yaml", "w"))
 

@@ -1,3 +1,8 @@
+# Helpful functions for finding data about members and committees
+
+CURRENT_CONGRESS = 112
+
+
 import os, errno, sys
 import re, htmlentitydefs
 import pprint
