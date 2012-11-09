@@ -12,7 +12,10 @@ This repository contains data about legislators:
 And about committees:
 
 * committees-current.yaml: Current committees of the Congress, with subcommittees.
+* committee-membership-current.yaml: Current committee/subcommittee assignments as of the date of last update.
 * committees-historical.yaml: Historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+
+The files are in YAML (http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
 This database has been collected from a variety of sources:
 
@@ -28,9 +31,7 @@ The data is currently maintained both by hand and by some scripts in the `script
 Legislators File Structure and Overview
 ---------------------------------------
 
-legislators-current.yaml and legislators-historical.yaml are YAML (http://www.yaml.org/) files containing biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
-
-YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
+legislators-current.yaml and legislators-historical.yaml contain biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
 
 Each legislator record is grouped into four guaranteed parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
 
@@ -178,6 +179,39 @@ The two files are structured each as a list of committees, each entry an associa
 	* congresses: Same meaning as for full committees. Note that a subcommittee may currently be disbanded. This field gives a rough approximation to whether a subcommittee is current. But because a Congress may not be listed if no bills were referred to the subcommittee, a subcommittee that does not appear to be current may in fact be current.
 	* names: Same meaning as for full committees.
 
+Committee Membership Data Dictionary
+------------------------------------
+
+The committee-membership-current.yaml file contains current committee assignments, as of the date of the last update of this file. The file is structured as a mapping from committee IDs to a list of committee members. The basic structure looks like this:
+
+	HSAG:
+	- name: Frank D. Lucas
+	  party: majority
+	  rank: 1
+	  title: Chair
+	  bioguide: L000491
+	  thomas: '00711'
+	  govtrack: 400247
+	- name: Bob Goodlatte
+	  party: majority
+	  rank: 2
+	(...snip...)
+	HSAG03:
+	- name: Jean Schmidt
+	  party: majority
+	  rank: 1
+	  title: Chair
+
+The committee IDs in this file are the thomas_id's from the committees-current.yaml file, or for subcommittees the concatentation of the thomas_id of the parent committee and the thomas_id of the subcommittee.
+
+Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
+
+* name: The name of the Member of Congress. This field is intended for debugging. Instead, use the id fields.
+* Any ID field: Any of the id fields used in the legislators YAML files may appear here, such as bioguide, lis, and govtrack.
+* party: Either "majority" or "minority." Committee work is divided strictly by party.
+* rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member).
+* title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
+  
 State Abbreviations
 -------------------
 
