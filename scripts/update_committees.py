@@ -8,6 +8,7 @@
 
 import re, itertools
 from collections import OrderedDict
+import utils
 from utils import download, load_data, save_data
 
 
@@ -15,6 +16,11 @@ committees_historical = load_data("committees-historical.yaml")
 committees_current = load_data("committees-current.yaml")
 
 CURRENT_CONGRESS = 112
+
+
+# default to not caching
+cache = utils.flags().get('cache', False)
+force = not cache
 
 # map thomas_id's to their dicts
 committees_historical_ref = { }
@@ -34,7 +40,7 @@ for congress in range(93, CURRENT_CONGRESS+1):
   print congress, '...'
 
   url = "http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress
-  body = download(url, "committees/structure/%d.html" % congress)
+  body = download(url, "committees/structure/%d.html" % congress, force)
 
   for chamber, options in re.findall('>Choose (House|Senate) Committees</option>(.*?)</select>', body, re.I | re.S):
     for name, id in re.findall(r'<option value="(.*?)\{(.*?)}">', options, re.I | re.S):

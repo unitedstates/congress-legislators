@@ -1,4 +1,4 @@
-import os, errno
+import os, errno, sys
 import re, htmlentitydefs
 import pprint
 from datetime import datetime
@@ -12,6 +12,21 @@ def log(object):
   else:
     pprint.pprint(object)
 
+def flags():
+  options = {}
+  for arg in sys.argv[1:]:
+    if arg.startswith("--"):
+
+      if "=" in arg:
+        key, value = arg.split('=')
+      else:
+        key, value = arg, True
+      
+      key = key.split("--")[1]
+      if value == 'True': value = True
+      elif value == 'False': value = False
+      options[key.lower()] = value
+  return options
 
 ##### Data management
 
