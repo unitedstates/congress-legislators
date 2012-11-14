@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
-# Update current congressmen's mailing address from clerk.house.gov. 
+# Update current congressmen's mailing address from clerk.house.gov.
+#
+# Specify districts e.g. WA-02 on the command line to only update those.
 
 import lxml.html, StringIO
-import re
+import re, sys
 from datetime import date, datetime
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -14,7 +16,6 @@ today = datetime.now().date()
 # default to not caching
 cache = utils.flags().get('cache', False)
 force = not cache
-
 
 y = load_data("legislators-current.yaml")
 
@@ -30,7 +31,9 @@ for moc in y:
 	if today < parse_date(term["start"]) or today > parse_date(term["end"]):
 		print "Member's last listed term is not current", moc, term["start"]
 		continue
-	
+
+	if len(sys.argv) > 1 and ("%s-%02d" % (term["state"], term["district"])) not in sys.argv: continue
+
 	if "class" in term: del term["class"]
 
 	url = "http://clerk.house.gov/member_info/mem_contact_info.aspx?statdis=%s%02d" % (term["state"], term["district"])
