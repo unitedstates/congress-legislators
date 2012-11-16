@@ -69,5 +69,6 @@ for moc in y:
 	moc["name"]["official_full"] = name
 	term["address"] = address
 	term["office"] = office
+	term["phone"] = phone
 
 save_data(y, "legislators-current.yaml")
