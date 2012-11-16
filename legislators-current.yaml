@@ -6,7 +6,8 @@
     opensecrets: N00007653
     votesmart: 53286
     icpsr: 14400
-    fec_id: S0HI00084
+    fec:
+    - S0HI00084
   name:
     first: Daniel
     middle: Kahikina
@@ -98,7 +99,8 @@
     opensecrets: N00006518
     votesmart: 53326
     icpsr: 14912
-    fec_id: S2NM00021
+    fec:
+    - S2NM00021
   name:
     first: Jeff
     last: Bingaman
@@ -152,7 +154,8 @@
     govtrack: 400050
     opensecrets: N00003535
     votesmart: 27018
-    fec_id: H2OH13033
+    fec:
+    - H2OH13033
   name:
     first: Sherrod
     last: Brown
@@ -225,7 +228,8 @@
     govtrack: 300018
     opensecrets: N00007836
     votesmart: 27122
-    fec_id: S8WA00194
+    fec:
+    - S8WA00194
   name:
     first: Maria
     last: Cantwell
@@ -268,7 +272,8 @@
     opensecrets: N00001955
     votesmart: 26888
     icpsr: 15408
-    fec_id: H6MD03177
+    fec:
+    - H6MD03177
   name:
     first: Benjamin
     middle: L.
@@ -361,7 +366,8 @@
     opensecrets: N00012508
     votesmart: 22421
     icpsr: 15015
-    fec_id: S8DE00079
+    fec:
+    - S8DE00079
   name:
     first: Thomas
     middle: Richard
@@ -428,11 +434,13 @@
     govtrack: 412246
     opensecrets: N00027503
     votesmart: 2541
-    fec_id: S6PA00217
+    fec:
+    - S6PA00217
   name:
     first: Robert
     middle: P.
     last: Casey
+    nickname: Bob
     suffix: Jr.
     official_full: Robert P. Casey, Jr.
   bio:
@@ -458,7 +466,8 @@
     opensecrets: N00004613
     votesmart: 53331
     icpsr: 15502
-    fec_id: S6ND00058
+    fec:
+    - S6ND00058
   name:
     first: Kent
     middle: Kent
@@ -513,7 +522,8 @@
     govtrack: 412248
     opensecrets: N00027441
     votesmart: 65905
-    fec_id: S6TN00216
+    fec:
+    - S6TN00216
   name:
     first: Bob
     last: Corker
@@ -541,7 +551,8 @@
     govtrack: 300043
     opensecrets: N00007364
     votesmart: 53273
-    fec_id: S0CA00199
+    fec:
+    - S0CA00199
   name:
     first: Dianne
     last: Feinstein
@@ -590,7 +601,8 @@
     opensecrets: N00009869
     votesmart: 53352
     icpsr: 14503
-    fec_id: S6UT00063
+    fec:
+    - S6UT00063
   name:
     first: Orrin
     middle: G.
@@ -651,7 +663,8 @@
     govtrack: 300054
     opensecrets: N00005675
     votesmart: 53349
-    fec_id: S4TX00086
+    fec:
+    - S4TX00086
   name:
     first: Kay
     middle: Bailey
@@ -700,7 +713,8 @@
     govtrack: 412242
     opensecrets: N00027500
     votesmart: 65092
-    fec_id: S6MN00267
+    fec:
+    - S6MN00267
   name:
     first: Amy
     last: Klobuchar
@@ -729,7 +743,8 @@
     opensecrets: N00004309
     votesmart: 53362
     icpsr: 15703
-    fec_id: S6WI00061
+    fec:
+    - S6WI00061
   name:
     first: Herbert
     middle: H.
@@ -780,7 +795,8 @@
     opensecrets: N00006406
     votesmart: 26721
     icpsr: 15429
-    fec_id: S4AZ00030
+    fec:
+    - S4AZ00030
   name:
     first: Jon
     last: Kyl
@@ -847,7 +863,8 @@
     opensecrets: N00000616
     votesmart: 53278
     icpsr: 15704
-    fec_id: S8CT00022
+    fec:
+    - S8CT00022
   name:
     first: Joseph
     middle: I.
@@ -897,7 +914,8 @@
     opensecrets: N00001764
     votesmart: 53292
     icpsr: 14506
-    fec_id: S4IN00014
+    fec:
+    - S4IN00014
   name:
     first: Richard
     middle: G.
@@ -958,7 +976,8 @@
     govtrack: 412243
     opensecrets: N00027694
     votesmart: 2109
-    fec_id: S6MO00305
+    fec:
+    - S6MO00305
   name:
     first: Claire
     last: McCaskill
@@ -986,7 +1005,8 @@
     govtrack: 400272
     opensecrets: N00000699
     votesmart: 26961
-    fec_id: H2NJ13075
+    fec:
+    - H2NJ13075
   name:
     first: Robert
     last: Menéndez
@@ -1069,7 +1089,8 @@
     govtrack: 300077
     opensecrets: N00005329
     votesmart: 21744
-    fec_id: S6NE00095
+    fec:
+    - S6NE00095
   name:
     first: Ben
     middle: E.
@@ -1107,7 +1128,8 @@
     opensecrets: N00009926
     votesmart: 30880
     icpsr: 14651
-    fec_id: S8FL00166
+    fec:
+    - S8FL00166
   name:
     first: Bill
     last: Nelson
@@ -1179,7 +1201,8 @@
     govtrack: 400357
     opensecrets: N00000528
     votesmart: 27110
-    fec_id: H8VT01016
+    fec:
+    - H8VT01016
   name:
     first: Bernard
     last: Sanders
@@ -1260,7 +1283,8 @@
     opensecrets: N00000480
     votesmart: 26885
     icpsr: 14661
-    fec_id: S4ME00055
+    fec:
+    - S4ME00055
   name:
     first: Olympia
     middle: J.
@@ -1351,9 +1375,11 @@
     govtrack: 300093
     opensecrets: N00004118
     votesmart: 515
-    fec_id: S8MI00281
+    fec:
+    - S8MI00281
   name:
-    first: Debbie Ann
+    first: Debbie
+    middle: Ann
     last: Stabenow
     official_full: Debbie Stabenow
   bio:
@@ -1399,7 +1425,8 @@
     govtrack: 412244
     opensecrets: N00027605
     votesmart: 20928
-    fec_id: S6MT00162
+    fec:
+    - S6MT00162
   name:
     first: Jon
     last: Tester
@@ -1427,7 +1454,8 @@
     govtrack: 412249
     opensecrets: N00028058
     votesmart: 60043
-    fec_id: S6VA00127
+    fec:
+    - S6VA00127
   name:
     first: Jim
     last: Webb
@@ -1455,7 +1483,8 @@
     govtrack: 412247
     opensecrets: N00027533
     votesmart: 2572
-    fec_id: S6RI00221
+    fec:
+    - S6RI00221
   name:
     first: Sheldon
     last: Whitehouse
@@ -1482,7 +1511,8 @@
     govtrack: 412251
     opensecrets: N00006236
     votesmart: 52662
-    fec_id: S6WY00068
+    fec:
+    - S6WY00068
   name:
     first: John
     middle: A.
@@ -1511,7 +1541,8 @@
     govtrack: 400432
     opensecrets: N00003280
     votesmart: 21926
-    fec_id: H4MS01078
+    fec:
+    - H4MS01078
   name:
     first: Roger
     middle: F.
@@ -1586,7 +1617,8 @@
     govtrack: 300002
     opensecrets: N00009888
     votesmart: 15691
-    fec_id: S2TN00058
+    fec:
+    - S2TN00058
   name:
     first: Lamar
     last: Alexander
@@ -1623,7 +1655,8 @@
     opensecrets: N00004643
     votesmart: 53315
     icpsr: 14203
-    fec_id: S8MT00010
+    fec:
+    - S8MT00010
   name:
     first: Max
     middle: S.
@@ -1702,7 +1735,8 @@
     govtrack: 412326
     opensecrets: N00029901
     votesmart: 79426
-    fec_id: S8AK00090
+    fec:
+    - S8AK00090
   name:
     first: Mark
     last: Begich
@@ -1730,7 +1764,8 @@
     govtrack: 300021
     opensecrets: N00002685
     votesmart: 22029
-    fec_id: S2GA00118
+    fec:
+    - S2GA00118
   name:
     first: Saxby
     last: Chambliss
@@ -1791,7 +1826,8 @@
     opensecrets: N00003328
     votesmart: 53312
     icpsr: 14009
-    fec_id: S8MS00055
+    fec:
+    - S8MS00055
   name:
     first: Thad
     last: Cochran
@@ -1875,7 +1911,8 @@
     govtrack: 300025
     opensecrets: N00000491
     votesmart: 379
-    fec_id: S6ME00159
+    fec:
+    - S6ME00159
   name:
     first: Susan
     middle: M.
@@ -1918,7 +1955,8 @@
     govtrack: 300027
     opensecrets: N00024852
     votesmart: 15375
-    fec_id: S2TX00106
+    fec:
+    - S2TX00106
   name:
     first: John
     last: Cornyn
@@ -1961,7 +1999,8 @@
     opensecrets: N00004981
     votesmart: 26847
     icpsr: 15021
-    fec_id: S6IL00151
+    fec:
+    - S6IL00151
   name:
     first: Richard
     middle: J.
@@ -2046,7 +2085,8 @@
     govtrack: 300041
     opensecrets: N00006249
     votesmart: 558
-    fec_id: S6WY00126
+    fec:
+    - S6WY00126
   name:
     first: Michael
     middle: B.
@@ -2089,7 +2129,8 @@
     govtrack: 300047
     opensecrets: N00009975
     votesmart: 21992
-    fec_id: S0SC00149
+    fec:
+    - S0SC00149
   name:
     first: Lindsey
     middle: O.
@@ -2150,7 +2191,8 @@
     govtrack: 412324
     opensecrets: N00029617
     votesmart: 21082
-    fec_id: S8NC00239
+    fec:
+    - S8NC00239
   name:
     first: Kay
     last: Hagan
@@ -2179,7 +2221,8 @@
     opensecrets: N00004207
     votesmart: 53294
     icpsr: 14230
-    fec_id: S4IA00020
+    fec:
+    - S4IA00020
   name:
     first: Thomas
     last: Harkin
@@ -2265,7 +2308,8 @@
     opensecrets: N00005582
     votesmart: 27027
     icpsr: 15424
-    fec_id: S4OK00083
+    fec:
+    - S4OK00083
   name:
     first: James
     middle: M.
@@ -2339,7 +2383,8 @@
     govtrack: 412320
     opensecrets: N00029444
     votesmart: 21309
-    fec_id: S8NE00117
+    fec:
+    - S8NE00117
   name:
     first: Mike
     last: Johanns
@@ -2368,7 +2413,8 @@
     opensecrets: N00010084
     votesmart: 27067
     icpsr: 15425
-    fec_id: S6SD00051
+    fec:
+    - S6SD00051
   name:
     first: Tim
     middle: P.
@@ -2442,7 +2488,8 @@
     opensecrets: N00000245
     votesmart: 53306
     icpsr: 14920
-    fec_id: S4MA00069
+    fec:
+    - S4MA00069
   name:
     first: John
     middle: Forbes
@@ -2497,7 +2544,8 @@
     govtrack: 300063
     opensecrets: N00005395
     votesmart: 661
-    fec_id: S6LA00227
+    fec:
+    - S6LA00227
   name:
     first: Mary
     middle: L.
@@ -2541,7 +2589,8 @@
     opensecrets: N00000659
     votesmart: 53324
     icpsr: 14914
-    fec_id: S2NJ00080
+    fec:
+    - S2NJ00080
   name:
     first: Frank
     middle: R.
@@ -2597,7 +2646,8 @@
     opensecrets: N00001691
     votesmart: 53307
     icpsr: 14709
-    fec_id: S8MI00158
+    fec:
+    - S8MI00158
   name:
     first: Carl
     last: Levin
@@ -2658,7 +2708,8 @@
     opensecrets: N00003389
     votesmart: 53298
     icpsr: 14921
-    fec_id: S2KY00012
+    fec:
+    - S2KY00012
   name:
     first: Mitch
     last: McConnell
@@ -2712,7 +2763,8 @@
     govtrack: 412325
     opensecrets: N00029303
     votesmart: 23644
-    fec_id: S8OR00207
+    fec:
+    - S8OR00207
   name:
     first: Jeff
     last: Merkley
@@ -2740,7 +2792,8 @@
     govtrack: 300080
     opensecrets: N00013823
     votesmart: 35
-    fec_id: S0AR00028
+    fec:
+    - S0AR00028
   name:
     first: Mark
     last: Pryor
@@ -2776,7 +2829,8 @@
     govtrack: 300081
     opensecrets: N00000362
     votesmart: 27060
-    fec_id: S6RI00163
+    fec:
+    - S6RI00163
   name:
     first: John
     middle: F.
@@ -2838,7 +2892,8 @@
     govtrack: 412322
     opensecrets: N00029441
     votesmart: 2919
-    fec_id: S8ID00092
+    fec:
+    - S8ID00092
   name:
     first: James
     last: Risch
@@ -2867,7 +2922,8 @@
     opensecrets: N00005285
     votesmart: 26866
     icpsr: 14852
-    fec_id: S6KS00080
+    fec:
+    - S6KS00080
   name:
     first: Pat
     last: Roberts
@@ -2958,7 +3014,8 @@
     opensecrets: N00001685
     votesmart: 53360
     icpsr: 14922
-    fec_id: S4WV00027
+    fec:
+    - S4WV00027
   name:
     first: John
     middle: D.
@@ -3015,7 +3072,8 @@
     govtrack: 300088
     opensecrets: N00003062
     votesmart: 443
-    fec_id: S6AL00195
+    fec:
+    - S6AL00195
   name:
     first: Jefferson
     middle: B.
@@ -3059,7 +3117,8 @@
     govtrack: 412323
     opensecrets: N00024790
     votesmart: 1663
-    fec_id: S0NH00219
+    fec:
+    - S0NH00219
   name:
     first: Jeanne
     last: Shaheen
@@ -3085,7 +3144,8 @@
     govtrack: 400412
     opensecrets: N00008051
     votesmart: 12329
-    fec_id: H8CO02087
+    fec:
+    - H8CO02087
   name:
     first: Mark
     middle: E.
@@ -3147,7 +3207,8 @@
     govtrack: 400413
     opensecrets: N00006561
     votesmart: 22658
-    fec_id: H8NM03097
+    fec:
+    - H8NM03097
   name:
     first: Tom
     middle: S.
@@ -3210,7 +3271,8 @@
     govtrack: 412321
     opensecrets: N00002097
     votesmart: 535
-    fec_id: S6VA00093
+    fec:
+    - S6VA00093
   name:
     first: Mark
     last: Warner
@@ -3237,7 +3299,8 @@
     govtrack: 400629
     opensecrets: N00009638
     votesmart: 9490
-    fec_id: S4IL00180
+    fec:
+    - S4IL00180
   name:
     first: Barack
     last: Obama
@@ -3265,7 +3328,8 @@
     govtrack: 412223
     opensecrets: N00027658
     votesmart: 65147
-    fec_id: H6NY20167
+    fec:
+    - H6NY20167
   name:
     first: Kirsten
     middle: E.
@@ -3307,7 +3371,8 @@
     govtrack: 412378
     opensecrets: N00029016
     votesmart: 108924
-    fec_id: S8MN00438
+    fec:
+    - S8MN00438
   name:
     first: Al
     last: Franken
@@ -3334,7 +3399,8 @@
     govtrack: 412384
     opensecrets: N00031174
     votesmart: 18919
-    fec_id: S0MA00109
+    fec:
+    - S0MA00109
   name:
     first: Scott
     last: Brown
@@ -3361,7 +3427,8 @@
     govtrack: 412390
     opensecrets: N00031820
     votesmart: 122834
-    fec_id: S0DE00092
+    fec:
+    - S0DE00092
   name:
     first: Chris
     middle: Andrew
@@ -3389,7 +3456,8 @@
     govtrack: 412391
     opensecrets: N00032838
     votesmart: 7547
-    fec_id: S0WV00090
+    fec:
+    - S0WV00090
   name:
     first: Joe
     last: Manchin
@@ -3417,7 +3485,8 @@
     opensecrets: N00001143
     votesmart: 26970
     icpsr: 15000
-    fec_id: H4NY07011
+    fec:
+    - H4NY07011
   name:
     first: Gary
     middle: L.
@@ -3534,7 +3603,8 @@
     govtrack: 412414
     opensecrets: N00030926
     votesmart: 31041
-    fec_id: H0FL24049
+    fec:
+    - H0FL24049
   name:
     first: Sandy
     last: Adams
@@ -3560,7 +3630,8 @@
     govtrack: 400004
     opensecrets: N00003028
     votesmart: 441
-    fec_id: H6AL04098
+    fec:
+    - H6AL04098
   name:
     first: Robert
     last: Aderholt
@@ -3634,7 +3705,8 @@
     govtrack: 400005
     opensecrets: N00009677
     votesmart: 9301
-    fec_id: H0MO02148
+    fec:
+    - H0MO02148
   name:
     first: W.
     middle: Todd
@@ -3697,7 +3769,8 @@
     govtrack: 400006
     opensecrets: N00025464
     votesmart: 4545
-    fec_id: H2LA05084
+    fec:
+    - H2LA05084
   name:
     first: Rodney
     middle: M.
@@ -3753,7 +3826,8 @@
     govtrack: 412231
     opensecrets: N00027664
     votesmart: 59999
-    fec_id: H6PA04110
+    fec:
+    - H6PA04110
   name:
     first: Jason
     last: Altmire
@@ -3794,7 +3868,8 @@
     govtrack: 412438
     opensecrets: N00031938
     votesmart: 105566
-    fec_id: H0MI03126
+    fec:
+    - H0MI03126
   name:
     first: Justin
     last: Amash
@@ -3820,7 +3895,8 @@
     govtrack: 400008
     opensecrets: N00000826
     votesmart: 26949
-    fec_id: H0NJ01066
+    fec:
+    - H0NJ01066
   name:
     first: Robert
     middle: E.
@@ -3919,7 +3995,8 @@
     govtrack: 412265
     opensecrets: N00029412
     votesmart: 23398
-    fec_id: H8OH07065
+    fec:
+    - H8OH07065
   name:
     first: Steve
     last: Austria
@@ -3954,7 +4031,8 @@
     govtrack: 412493
     opensecrets: N00030980
     votesmart: 42352
-    fec_id: S0NH00235
+    fec:
+    - S0NH00235
   name:
     first: Kelly
     last: Ayotte
@@ -3980,7 +4058,8 @@
     govtrack: 400009
     opensecrets: N00007089
     votesmart: 8039
-    fec_id: H6CA42099
+    fec:
+    - H6CA42099
   name:
     first: Joe
     last: Baca
@@ -4047,7 +4126,8 @@
     govtrack: 412216
     opensecrets: N00027493
     votesmart: 54675
-    fec_id: H6MN06074
+    fec:
+    - H6MN06074
   name:
     first: Michele
     last: Bachmann
@@ -4088,7 +4168,8 @@
     govtrack: 400010
     opensecrets: N00008091
     votesmart: 26715
-    fec_id: H2AL06035
+    fec:
+    - H2AL06035
   name:
     first: Spencer
     middle: Thomas
@@ -4176,7 +4257,8 @@
     govtrack: 400013
     opensecrets: N00004367
     votesmart: 3470
-    fec_id: H8WI00018
+    fec:
+    - H8WI00018
   name:
     first: Tammy
     last: Baldwin
@@ -4243,7 +4325,8 @@
     govtrack: 412469
     opensecrets: N00025495
     votesmart: 47143
-    fec_id: H2PA11098
+    fec:
+    - H2PA11098
   name:
     first: Lou
     last: Barletta
@@ -4269,7 +4352,8 @@
     govtrack: 400628
     opensecrets: N00026080
     votesmart: 31780
-    fec_id: H4GA12010
+    fec:
+    - H4GA12010
   name:
     first: John
     last: Barrow
@@ -4316,7 +4400,8 @@
     govtrack: 400017
     opensecrets: N00002017
     votesmart: 26891
-    fec_id: H2MD06054
+    fec:
+    - H2MD06054
   name:
     first: Roscoe
     middle: G.
@@ -4404,7 +4489,8 @@
     opensecrets: N00005656
     votesmart: 27082
     icpsr: 15085
-    fec_id: H4TX06117
+    fec:
+    - H4TX06117
   name:
     first: Joe
     middle: Linus
@@ -4515,7 +4601,8 @@
     govtrack: 400019
     opensecrets: N00000423
     votesmart: 22216
-    fec_id: H0NH02017
+    fec:
+    - H0NH02017
   name:
     first: Charles
     middle: F.
@@ -4582,7 +4669,8 @@
     govtrack: 412404
     opensecrets: N00031877
     votesmart: 28963
-    fec_id: H0CA33117
+    fec:
+    - H0CA33117
   name:
     first: Karen
     last: Bass
@@ -4608,7 +4696,8 @@
     govtrack: 400021
     opensecrets: N00009774
     votesmart: 26754
-    fec_id: H2CA30143
+    fec:
+    - H2CA30143
   name:
     first: Xavier
     last: Becerra
@@ -4694,7 +4783,8 @@
     govtrack: 412436
     opensecrets: N00031934
     votesmart: 123056
-    fec_id: H0MI01088
+    fec:
+    - H0MI01088
   name:
     first: Dan
     last: Benishek
@@ -4721,7 +4811,8 @@
     govtrack: 412330
     opensecrets: N00030608
     votesmart: 110942
-    fec_id: S0CO00211
+    fec:
+    - S0CO00211
   name:
     first: Michael
     middle: F.
@@ -4755,7 +4846,8 @@
     govtrack: 412458
     opensecrets: N00031629
     votesmart: 7693
-    fec_id: H0ND00135
+    fec:
+    - H0ND00135
   name:
     first: Rick
     last: Berg
@@ -4781,7 +4873,8 @@
     govtrack: 400024
     opensecrets: N00009818
     votesmart: 22744
-    fec_id: H8NV01071
+    fec:
+    - H8NV01071
   name:
     first: Shelley
     last: Berkley
@@ -4850,7 +4943,8 @@
     opensecrets: N00008094
     votesmart: 26756
     icpsr: 15005
-    fec_id: H2CA26026
+    fec:
+    - H2CA26026
   name:
     first: Howard
     middle: L.
@@ -4967,7 +5061,8 @@
     govtrack: 400027
     opensecrets: N00004762
     votesmart: 6298
-    fec_id: H8IL13069
+    fec:
+    - H8IL13069
   name:
     first: Judy
     last: Biggert
@@ -5035,7 +5130,8 @@
     govtrack: 400570
     opensecrets: N00006981
     votesmart: 21916
-    fec_id: H4CA49032
+    fec:
+    - H4CA49032
   name:
     first: Brian
     middle: P.
@@ -5102,7 +5198,8 @@
     govtrack: 412250
     opensecrets: N00027462
     votesmart: 17318
-    fec_id: H6FL09070
+    fec:
+    - H6FL09070
   name:
     first: Gus
     last: Bilirakis
@@ -5143,7 +5240,8 @@
     govtrack: 400029
     opensecrets: N00025292
     votesmart: 50544
-    fec_id: H2UT01094
+    fec:
+    - H2UT01094
   name:
     first: Rob
     last: Bishop
@@ -5199,7 +5297,8 @@
     govtrack: 400030
     opensecrets: N00002674
     votesmart: 26817
-    fec_id: H2GA02031
+    fec:
+    - H2GA02031
   name:
     first: Sanford
     middle: D.
@@ -5287,7 +5386,8 @@
     govtrack: 400031
     opensecrets: N00025413
     votesmart: 44518
-    fec_id: H2NY01067
+    fec:
+    - H2NY01067
   name:
     first: Timothy
     middle: H.
@@ -5344,7 +5444,8 @@
     govtrack: 412478
     opensecrets: N00031539
     votesmart: 25292
-    fec_id: H0TN06257
+    fec:
+    - H0TN06257
   name:
     first: Diane
     last: Black
@@ -5370,7 +5471,8 @@
     govtrack: 400032
     opensecrets: N00003105
     votesmart: 25186
-    fec_id: H2TN06030
+    fec:
+    - H2TN06030
   name:
     first: Marsha
     middle: W.
@@ -5427,7 +5529,8 @@
     govtrack: 400033
     opensecrets: N00007727
     votesmart: 367
-    fec_id: H6OR03064
+    fec:
+    - H6OR03064
   name:
     first: Earl
     last: Blumenauer
@@ -5507,7 +5610,8 @@
     govtrack: 412490
     opensecrets: N00031685
     votesmart: 1568
-    fec_id: S0CT00177
+    fec:
+    - S0CT00177
   name:
     first: Richard
     last: Blumenthal
@@ -5534,7 +5638,8 @@
     govtrack: 400034
     opensecrets: N00005195
     votesmart: 418
-    fec_id: H6MO07128
+    fec:
+    - H6MO07128
   name:
     first: Roy
     last: Blunt
@@ -5607,7 +5712,8 @@
     govtrack: 400036
     opensecrets: N00003675
     votesmart: 27015
-    fec_id: H0OH08029
+    fec:
+    - H0OH08029
   name:
     first: John
     middle: A.
@@ -5700,7 +5806,8 @@
     govtrack: 400038
     opensecrets: N00025330
     votesmart: 27522
-    fec_id: H2AL01077
+    fec:
+    - H2AL01077
   name:
     first: Jo
     last: Bonner
@@ -5756,7 +5863,8 @@
     govtrack: 400039
     opensecrets: N00007068
     votesmart: 1434
-    fec_id: H8CA44034
+    fec:
+    - H8CA44034
   name:
     first: Mary
     middle: Whitaker
@@ -5834,7 +5942,8 @@
     govtrack: 400040
     opensecrets: N00013873
     votesmart: 27958
-    fec_id: H2AR03176
+    fec:
+    - H2AR03176
   name:
     first: John
     last: Boozman
@@ -5894,7 +6003,8 @@
     govtrack: 400041
     opensecrets: N00024866
     votesmart: 1751
-    fec_id: H2GU00033
+    fec:
+    - H2GU00033
   name:
     first: Madeleine
     middle: Z.
@@ -5951,7 +6061,8 @@
     govtrack: 400645
     opensecrets: N00026481
     votesmart: 46182
-    fec_id: H4OK02089
+    fec:
+    - H4OK02089
   name:
     first: Dan
     last: Boren
@@ -5998,7 +6109,8 @@
     govtrack: 400042
     opensecrets: N00004208
     votesmart: 384
-    fec_id: H6IA03144
+    fec:
+    - H6IA03144
   name:
     first: Leonard
     middle: L.
@@ -6073,7 +6185,8 @@
     govtrack: 400636
     opensecrets: N00026595
     votesmart: 35514
-    fec_id: H4LA07029
+    fec:
+    - H4LA07029
   name:
     first: Charles
     middle: W.
@@ -6124,7 +6237,8 @@
     opensecrets: N00006692
     votesmart: 53274
     icpsr: 15011
-    fec_id: S2CA00286
+    fec:
+    - S2CA00286
   name:
     first: Barbara
     last: Boxer
@@ -6202,7 +6316,8 @@
     govtrack: 400046
     opensecrets: N00005883
     votesmart: 361
-    fec_id: H6TX08100
+    fec:
+    - H6TX08100
   name:
     first: Kevin
     middle: P.
@@ -6277,7 +6392,8 @@
     govtrack: 400047
     opensecrets: N00001619
     votesmart: 2519
-    fec_id: H8PA01153
+    fec:
+    - H8PA01153
   name:
     first: Robert
     middle: A.
@@ -6351,7 +6467,8 @@
     govtrack: 412208
     opensecrets: N00027464
     votesmart: 57382
-    fec_id: H6IA01098
+    fec:
+    - H6IA01098
   name:
     first: Bruce
     middle: L.
@@ -6393,7 +6510,8 @@
     govtrack: 412395
     opensecrets: N00030910
     votesmart: 121610
-    fec_id: H0AL05163
+    fec:
+    - H0AL05163
   name:
     first: Mo
     last: Brooks
@@ -6419,7 +6537,8 @@
     govtrack: 412252
     opensecrets: N00028986
     votesmart: 70001
-    fec_id: H8GA10049
+    fec:
+    - H8GA10049
   name:
     first: Paul
     middle: C.
@@ -6463,7 +6582,8 @@
     govtrack: 400048
     opensecrets: N00002713
     votesmart: 26797
-    fec_id: H4FL03060
+    fec:
+    - H4FL03060
   name:
     first: Corrine
     last: Brown
@@ -6549,7 +6669,8 @@
     govtrack: 412196
     opensecrets: N00027626
     votesmart: 66247
-    fec_id: H6FL13148
+    fec:
+    - H6FL13148
   name:
     first: Vern
     last: Buchanan
@@ -6589,7 +6710,8 @@
     govtrack: 412427
     opensecrets: N00031227
     votesmart: 120335
-    fec_id: H0IN08114
+    fec:
+    - H0IN08114
   name:
     first: Larry
     last: Bucshon
@@ -6615,7 +6737,8 @@
     govtrack: 412456
     opensecrets: N00031640
     votesmart: 127047
-    fec_id: H0NY25078
+    fec:
+    - H0NY25078
   name:
     first: Ann Marie
     last: Buerkle
@@ -6641,7 +6764,8 @@
     govtrack: 400052
     opensecrets: N00025219
     votesmart: 50120
-    fec_id: H2TX26093
+    fec:
+    - H2TX26093
   name:
     first: Michael
     middle: C.
@@ -6699,7 +6823,8 @@
     govtrack: 400054
     opensecrets: N00002221
     votesmart: 21787
-    fec_id: S4NC00089
+    fec:
+    - S4NC00089
   name:
     first: Richard
     middle: M.
@@ -6767,7 +6892,8 @@
     opensecrets: N00000010
     votesmart: 26855
     icpsr: 15014
-    fec_id: H2IN06023
+    fec:
+    - H2IN06023
   name:
     first: Dan
     middle: L.
@@ -6884,7 +7010,8 @@
     govtrack: 400616
     opensecrets: N00027035
     votesmart: 41077
-    fec_id: H4NC01046
+    fec:
+    - H4NC01046
   name:
     first: George
     middle: K.
@@ -6942,7 +7069,8 @@
     govtrack: 400057
     opensecrets: N00007099
     votesmart: 26777
-    fec_id: H2CA37023
+    fec:
+    - H2CA37023
   name:
     first: Ken
     middle: S.
@@ -7029,7 +7157,8 @@
     govtrack: 400058
     opensecrets: N00008086
     votesmart: 26911
-    fec_id: H0MI10071
+    fec:
+    - H0MI10071
   name:
     first: David
     middle: Lee
@@ -7123,7 +7252,8 @@
     govtrack: 412011
     opensecrets: N00027565
     votesmart: 29368
-    fec_id: H6CA48039
+    fec:
+    - H6CA48039
   name:
     first: John
     middle: Bayard Taylor
@@ -7173,7 +7303,8 @@
     govtrack: 412481
     opensecrets: N00026722
     votesmart: 50146
-    fec_id: H4TX28046
+    fec:
+    - H4TX28046
   name:
     first: Francisco
     last: Canseco
@@ -7200,7 +7331,8 @@
     govtrack: 400060
     opensecrets: N00013131
     votesmart: 5121
-    fec_id: H0VA07042
+    fec:
+    - H0VA07042
   name:
     first: Eric
     middle: I.
@@ -7263,7 +7395,8 @@
     govtrack: 400061
     opensecrets: N00009771
     votesmart: 11701
-    fec_id: H0WV02138
+    fec:
+    - H0WV02138
   name:
     first: Shelley
     middle: Moore
@@ -7326,7 +7459,8 @@
     govtrack: 400062
     opensecrets: N00007232
     votesmart: 16886
-    fec_id: H8CA22089
+    fec:
+    - H8CA22089
   name:
     first: Lois
     last: Capps
@@ -7400,7 +7534,8 @@
     govtrack: 400063
     opensecrets: N00000267
     votesmart: 18883
-    fec_id: H8MA08071
+    fec:
+    - H8MA08071
   name:
     first: Michael
     middle: E.
@@ -7469,7 +7604,8 @@
     govtrack: 400638
     opensecrets: N00005181
     votesmart: 39948
-    fec_id: H0MO00019
+    fec:
+    - H0MO00019
   name:
     first: Russ
     last: Carnahan
@@ -7516,7 +7652,8 @@
     govtrack: 412407
     opensecrets: N00030736
     votesmart: 53658
-    fec_id: H0DE01017
+    fec:
+    - H0DE01017
   name:
     first: John
     last: Carney
@@ -7543,7 +7680,8 @@
     govtrack: 412258
     opensecrets: N00029513
     votesmart: 84917
-    fec_id: H8IN07184
+    fec:
+    - H8IN07184
   name:
     first: André
     last: Carson
@@ -7584,7 +7722,8 @@
     govtrack: 400068
     opensecrets: N00025095
     votesmart: 49296
-    fec_id: H2TX31044
+    fec:
+    - H2TX31044
   name:
     first: John
     middle: R.
@@ -7641,7 +7780,8 @@
     govtrack: 412269
     opensecrets: N00030245
     votesmart: 69494
-    fec_id: H8LA00017
+    fec:
+    - H8LA00017
   name:
     first: Bill
     last: Cassidy
@@ -7674,7 +7814,8 @@
     govtrack: 412195
     opensecrets: N00027514
     votesmart: 53825
-    fec_id: H6FL11126
+    fec:
+    - H6FL11126
   name:
     first: Kathy
     last: Castor
@@ -7714,7 +7855,8 @@
     govtrack: 400071
     opensecrets: N00003689
     votesmart: 21790
-    fec_id: H8OH01043
+    fec:
+    - H8OH01043
   name:
     first: Steven
     middle: J.
@@ -7788,7 +7930,8 @@
     govtrack: 412270
     opensecrets: N00028958
     votesmart: 103482
-    fec_id: H8UT03089
+    fec:
+    - H8UT03089
   name:
     first: Jason
     last: Chaffetz
@@ -7822,7 +7965,8 @@
     govtrack: 400442
     opensecrets: N00026591
     votesmart: 1891
-    fec_id: H4KY06072
+    fec:
+    - H4KY06072
   name:
     first: Ben
     last: Chandler
@@ -7878,7 +8022,8 @@
     govtrack: 400073
     opensecrets: N00000133
     votesmart: 1032
-    fec_id: H4VI00054
+    fec:
+    - H4VI00054
   name:
     first: Donna
     middle: M.
@@ -7953,7 +8098,8 @@
     govtrack: 412379
     opensecrets: N00030600
     votesmart: 16539
-    fec_id: H0CA32101
+    fec:
+    - H0CA32101
   name:
     first: Judy
     middle: M.
@@ -7988,7 +8134,8 @@
     govtrack: 412470
     opensecrets: N00032019
     votesmart: 7349
-    fec_id: H0RI01073
+    fec:
+    - H0RI01073
   name:
     first: David
     last: Cicilline
@@ -8014,7 +8161,8 @@
     govtrack: 412440
     opensecrets: N00031945
     votesmart: 19913
-    fec_id: H0MI13398
+    fec:
+    - H0MI13398
   name:
     first: Hansen
     last: Clarke
@@ -8040,7 +8188,8 @@
     govtrack: 412221
     opensecrets: N00026961
     votesmart: 44741
-    fec_id: H4NY11138
+    fec:
+    - H4NY11138
   name:
     first: Yvette
     middle: D.
@@ -8082,7 +8231,8 @@
     govtrack: 400074
     opensecrets: N00012460
     votesmart: 8967
-    fec_id: H0MO01066
+    fec:
+    - H0MO01066
   name:
     first: William
     middle: Lacy
@@ -8146,7 +8296,8 @@
     govtrack: 400639
     opensecrets: N00026790
     votesmart: 39507
-    fec_id: H4MO05234
+    fec:
+    - H4MO05234
   name:
     first: Emanuel
     last: Cleaver
@@ -8194,7 +8345,8 @@
     govtrack: 400075
     opensecrets: N00002408
     votesmart: 27066
-    fec_id: H2SC02042
+    fec:
+    - H2SC02042
   name:
     first: James
     middle: E.
@@ -8284,7 +8436,8 @@
     opensecrets: N00003845
     votesmart: 53291
     icpsr: 14806
-    fec_id: S0IN00053
+    fec:
+    - S0IN00053
   name:
     first: Daniel
     middle: Ray
@@ -8340,7 +8493,7 @@
     address: "493 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC \n      20510"
     phone: 202-224-5623
     contact_form: http://www.coats.senate.gov/contact/
-    office: 493 Russell Senate Office Building
+    office: 493 Russell Senate Office Bui
 - id:
     bioguide: C000556
     thomas: '00211'
@@ -8348,7 +8501,8 @@
     opensecrets: N00002247
     votesmart: 27001
     icpsr: 15092
-    fec_id: H4NC06011
+    fec:
+    - H4NC06011
   name:
     first: Howard
     last: Coble
@@ -8459,7 +8613,8 @@
     govtrack: 400576
     opensecrets: N00005601
     votesmart: 22085
-    fec_id: S4OK00174
+    fec:
+    - S4OK00174
   name:
     first: Thomas
     middle: A.
@@ -8512,7 +8667,8 @@
     govtrack: 412271
     opensecrets: N00024753
     votesmart: 1535
-    fec_id: H2CO00019
+    fec:
+    - H2CO00019
   name:
     first: Mike
     last: Coffman
@@ -8545,7 +8701,8 @@
     govtrack: 412236
     opensecrets: N00003225
     votesmart: 24340
-    fec_id: H6TN09068
+    fec:
+    - H6TN09068
   name:
     first: Steve
     last: Cohen
@@ -8586,7 +8743,8 @@
     govtrack: 400077
     opensecrets: N00025726
     votesmart: 46034
-    fec_id: H2OK04055
+    fec:
+    - H2OK04055
   name:
     first: Tom
     last: Cole
@@ -8642,7 +8800,8 @@
     govtrack: 400655
     opensecrets: N00026041
     votesmart: 49935
-    fec_id: H4TX19136
+    fec:
+    - H4TX19136
   name:
     first: K.
     middle: Michael
@@ -8691,7 +8850,8 @@
     govtrack: 412272
     opensecrets: N00029891
     votesmart: 95078
-    fec_id: H8VA11062
+    fec:
+    - H8VA11062
   name:
     first: Gerald
     middle: E.
@@ -8727,7 +8887,8 @@
     opensecrets: N00004029
     votesmart: 26904
     icpsr: 10713
-    fec_id: H6MI01028
+    fec:
+    - H6MI01028
   name:
     first: John
     last: Conyers
@@ -8899,7 +9060,8 @@
     opensecrets: N00003132
     votesmart: 48891
     icpsr: 15019
-    fec_id: H2TN05131
+    fec:
+    - H2TN05131
   name:
     first: Jim
     last: Cooper
@@ -8991,7 +9153,8 @@
     govtrack: 400618
     opensecrets: N00026341
     votesmart: 3577
-    fec_id: H4CA20082
+    fec:
+    - H4CA20082
   name:
     first: Jim
     last: Costa
@@ -9039,7 +9202,8 @@
     opensecrets: N00004956
     votesmart: 26849
     icpsr: 15453
-    fec_id: H8IL21021
+    fec:
+    - H8IL21021
   name:
     first: Jerry
     middle: F.
@@ -9144,7 +9308,8 @@
     govtrack: 412193
     opensecrets: N00024842
     votesmart: 30333
-    fec_id: H2CT02112
+    fec:
+    - H2CT02112
   name:
     first: Joe
     last: Courtney
@@ -9186,7 +9351,8 @@
     govtrack: 300030
     opensecrets: N00006267
     votesmart: 26830
-    fec_id: S8ID00027
+    fec:
+    - S8ID00027
   name:
     first: Michael
     middle: D.
@@ -9247,7 +9413,8 @@
     govtrack: 412441
     opensecrets: N00031623
     votesmart: 122953
-    fec_id: H0MN08115
+    fec:
+    - H0MN08115
   name:
     first: Chip
     last: Cravaack
@@ -9273,7 +9440,8 @@
     govtrack: 412400
     opensecrets: N00030770
     votesmart: 119208
-    fec_id: H0AR01083
+    fec:
+    - H0AR01083
   name:
     first: Rick
     middle: A.
@@ -9300,7 +9468,8 @@
     govtrack: 400086
     opensecrets: N00012739
     votesmart: 31130
-    fec_id: H0FL04066
+    fec:
+    - H0FL04066
   name:
     first: Ander
     last: Crenshaw
@@ -9362,7 +9531,8 @@
     govtrack: 412386
     opensecrets: N00032014
     votesmart: 119481
-    fec_id: H0PA12132
+    fec:
+    - H0PA12132
   name:
     first: Mark
     middle: S.
@@ -9397,7 +9567,8 @@
     govtrack: 400087
     opensecrets: N00001127
     votesmart: 4295
-    fec_id: H8NY07046
+    fec:
+    - H8NY07046
   name:
     first: Joseph
     last: Crowley
@@ -9465,7 +9636,8 @@
     govtrack: 400657
     opensecrets: N00024978
     votesmart: 5486
-    fec_id: H2TX23082
+    fec:
+    - H2TX23082
   name:
     first: Henry
     last: Cuellar
@@ -9513,7 +9685,8 @@
     govtrack: 400089
     opensecrets: N00009738
     votesmart: 5488
-    fec_id: H0TX07055
+    fec:
+    - H0TX07055
   name:
     first: John
     middle: A.
@@ -9576,7 +9749,8 @@
     govtrack: 400090
     opensecrets: N00001971
     votesmart: 345
-    fec_id: H6MD07160
+    fec:
+    - H6MD07160
   name:
     first: Elijah
     middle: Eugene
@@ -9657,7 +9831,8 @@
     govtrack: 400093
     opensecrets: N00004884
     votesmart: 233
-    fec_id: H4IL07037
+    fec:
+    - H4IL07037
   name:
     first: Danny
     middle: K.
@@ -9732,7 +9907,8 @@
     govtrack: 400097
     opensecrets: N00009604
     votesmart: 8168
-    fec_id: H0CA49055
+    fec:
+    - H0CA49055
   name:
     first: Susan
     middle: A.
@@ -9796,7 +9972,8 @@
     opensecrets: N00007781
     votesmart: 27037
     icpsr: 15410
-    fec_id: H6OR04047
+    fec:
+    - H6OR04047
   name:
     first: Peter
     middle: A.
@@ -9901,7 +10078,8 @@
     govtrack: 400101
     opensecrets: N00006134
     votesmart: 561
-    fec_id: H6CO01141
+    fec:
+    - H6CO01141
   name:
     first: Diana
     middle: L.
@@ -9976,7 +10154,8 @@
     govtrack: 400103
     opensecrets: N00000615
     votesmart: 26788
-    fec_id: H0CT03072
+    fec:
+    - H0CT03072
   name:
     first: Rosa
     middle: L.
@@ -10070,7 +10249,8 @@
     govtrack: 400105
     opensecrets: N00002472
     votesmart: 25026
-    fec_id: S4SC00083
+    fec:
+    - S4SC00083
   name:
     first: Jim
     middle: W.
@@ -10125,7 +10305,8 @@
     govtrack: 412403
     opensecrets: N00031593
     votesmart: 28769
-    fec_id: H0CA19173
+    fec:
+    - H0CA19173
   name:
     first: Jeff
     last: Denham
@@ -10151,7 +10332,8 @@
     govtrack: 400648
     opensecrets: N00026171
     votesmart: 9121
-    fec_id: H4PA15087
+    fec:
+    - H4PA15087
   name:
     first: Charles
     middle: Wieder
@@ -10199,7 +10381,8 @@
     govtrack: 412477
     opensecrets: N00030957
     votesmart: 123473
-    fec_id: H0TN04195
+    fec:
+    - H0TN04195
   name:
     first: Scott
     last: DesJarlais
@@ -10225,7 +10408,8 @@
     govtrack: 412385
     opensecrets: N00031317
     votesmart: 67151
-    fec_id: H0FL19080
+    fec:
+    - H0FL19080
   name:
     first: Ted
     middle: E.
@@ -10260,7 +10444,8 @@
     govtrack: 400108
     opensecrets: N00025337
     votesmart: 24312
-    fec_id: H2FL25018
+    fec:
+    - H2FL25018
   name:
     first: Mario
     last: Diaz-Balart
@@ -10317,7 +10502,8 @@
     opensecrets: N00007918
     votesmart: 27127
     icpsr: 14413
-    fec_id: H6WA06021
+    fec:
+    - H6WA06021
   name:
     first: Norman
     middle: D.
@@ -10454,7 +10640,8 @@
     opensecrets: N00001783
     votesmart: 26917
     icpsr: 2605
-    fec_id: H6MI16034
+    fec:
+    - H6MI16034
   name:
     first: John
     middle: D.
@@ -10655,7 +10842,8 @@
     govtrack: 400111
     opensecrets: N00006023
     votesmart: 21689
-    fec_id: H4TX10028
+    fec:
+    - H4TX10028
   name:
     first: Lloyd
     middle: A.
@@ -10736,7 +10924,8 @@
     govtrack: 412420
     opensecrets: N00031103
     votesmart: 116548
-    fec_id: H0IL10302
+    fec:
+    - H0IL10302
   name:
     first: Bob
     last: Dold
@@ -10762,7 +10951,8 @@
     govtrack: 412205
     opensecrets: N00026586
     votesmart: 34212
-    fec_id: H4IN02101
+    fec:
+    - H4IN02101
   name:
     first: Joe
     last: Donnelly
@@ -10802,7 +10992,8 @@
     govtrack: 400114
     opensecrets: N00001373
     votesmart: 21853
-    fec_id: H4PA18131
+    fec:
+    - H4PA18131
   name:
     first: Michael
     middle: F.
@@ -10886,7 +11077,8 @@
     opensecrets: N00006932
     votesmart: 26765
     icpsr: 14813
-    fec_id: H8CA35032
+    fec:
+    - H8CA35032
   name:
     first: David
     middle: T.
@@ -11009,7 +11201,8 @@
     govtrack: 412488
     opensecrets: N00030967
     votesmart: 126238
-    fec_id: H0WI07051
+    fec:
+    - H0WI07051
   name:
     first: Sean
     last: Duffy
@@ -11034,7 +11227,8 @@
     govtrack: 412472
     opensecrets: N00030752
     votesmart: 47967
-    fec_id: H0SC03077
+    fec:
+    - H0SC03077
   name:
     first: Jeff
     last: Duncan
@@ -11061,7 +11255,8 @@
     opensecrets: N00003209
     votesmart: 27069
     icpsr: 15455
-    fec_id: H8TN02069
+    fec:
+    - H8TN02069
   name:
     first: John
     middle: James
@@ -11168,7 +11363,8 @@
     govtrack: 412263
     opensecrets: N00028249
     votesmart: 65085
-    fec_id: H6MD04183
+    fec:
+    - H6MD04183
   name:
     first: Donna
     middle: F.
@@ -11210,7 +11406,8 @@
     govtrack: 412215
     opensecrets: N00028257
     votesmart: 38982
-    fec_id: H6MN05183
+    fec:
+    - H6MN05183
   name:
     first: Keith
     last: Ellison
@@ -11251,7 +11448,8 @@
     govtrack: 412457
     opensecrets: N00031513
     votesmart: 120897
-    fec_id: H0NC02059
+    fec:
+    - H0NC02059
   name:
     first: Renee
     last: Ellmers
@@ -11277,7 +11475,8 @@
     govtrack: 400121
     opensecrets: N00005090
     votesmart: 903
-    fec_id: H6MO08084
+    fec:
+    - H6MO08084
   name:
     first: Jo Ann
     middle: H.
@@ -11353,7 +11552,8 @@
     opensecrets: N00001003
     votesmart: 26972
     icpsr: 15603
-    fec_id: H8NY19058
+    fec:
+    - H8NY19058
   name:
     first: Eliot
     middle: L.
@@ -11452,7 +11652,8 @@
     govtrack: 400124
     opensecrets: N00007335
     votesmart: 26741
-    fec_id: H8CA12098
+    fec:
+    - H8CA12098
   name:
     first: Anna
     middle: G.
@@ -11539,7 +11740,8 @@
     govtrack: 400128
     opensecrets: N00007632
     votesmart: 774
-    fec_id: H0AS00018
+    fec:
+    - H0AS00018
   name:
     first: Eni
     middle: F.H.
@@ -11638,7 +11840,8 @@
     govtrack: 412482
     opensecrets: N00031672
     votesmart: 116919
-    fec_id: H0TX27061
+    fec:
+    - H0TX27061
   name:
     first: Blake
     last: Farenthold
@@ -11664,7 +11867,8 @@
     govtrack: 400129
     opensecrets: N00007312
     votesmart: 26745
-    fec_id: H4CA17021
+    fec:
+    - H4CA17021
   name:
     first: Sam
     last: Farr
@@ -11750,7 +11954,8 @@
     govtrack: 400130
     opensecrets: N00001746
     votesmart: 21850
-    fec_id: H2PA02055
+    fec:
+    - H2PA02055
   name:
     first: Chaka
     last: Fattah
@@ -11830,7 +12035,8 @@
     govtrack: 400133
     opensecrets: N00007033
     votesmart: 26774
-    fec_id: H2CA50034
+    fec:
+    - H2CA50034
   name:
     first: Bob
     last: Filner
@@ -11916,7 +12122,8 @@
     govtrack: 412479
     opensecrets: N00031141
     votesmart: 124659
-    fec_id: H0TN08246
+    fec:
+    - H0TN08246
   name:
     first: Stephen
     last: Fincher
@@ -11942,7 +12149,8 @@
     govtrack: 400646
     opensecrets: N00027229
     votesmart: 46971
-    fec_id: H4PA08074
+    fec:
+    - H4PA08074
   name:
     first: Michael
     middle: G.
@@ -11975,7 +12183,8 @@
     govtrack: 400134
     opensecrets: N00009573
     votesmart: 28128
-    fec_id: H0AZ01184
+    fec:
+    - H0AZ01184
   name:
     first: Jeff
     last: Flake
@@ -12037,7 +12246,8 @@
     govtrack: 412476
     opensecrets: N00030815
     votesmart: 123456
-    fec_id: H0TN03254
+    fec:
+    - H0TN03254
   name:
     first: Chuck
     last: Fleischmann
@@ -12063,7 +12273,8 @@
     govtrack: 412275
     opensecrets: N00029679
     votesmart: 108811
-    fec_id: H8LA04225
+    fec:
+    - H8LA04225
   name:
     first: John
     last: Fleming
@@ -12096,7 +12307,8 @@
     govtrack: 412480
     opensecrets: N00031545
     votesmart: 116906
-    fec_id: H0TX17104
+    fec:
+    - H0TX17104
   name:
     first: Bill
     last: Flores
@@ -12122,7 +12334,8 @@
     govtrack: 400137
     opensecrets: N00013799
     votesmart: 5146
-    fec_id: H2VA04052
+    fec:
+    - H2VA04052
   name:
     first: J.
     middle: Randy
@@ -12185,7 +12398,8 @@
     govtrack: 400640
     opensecrets: N00026631
     votesmart: 41929
-    fec_id: H4NE01064
+    fec:
+    - H4NE01064
   name:
     first: Jeffrey
     middle: Lane
@@ -12232,7 +12446,8 @@
     govtrack: 400643
     opensecrets: N00026166
     votesmart: 6051
-    fec_id: H4NC05146
+    fec:
+    - H4NC05146
   name:
     first: Virginia
     last: Foxx
@@ -12281,7 +12496,8 @@
     opensecrets: N00000275
     votesmart: 26897
     icpsr: 14824
-    fec_id: H0MA04036
+    fec:
+    - H0MA04036
   name:
     first: Barney
     last: Frank
@@ -12403,7 +12619,8 @@
     govtrack: 400141
     opensecrets: N00006423
     votesmart: 28399
-    fec_id: H4AZ04024
+    fec:
+    - H4AZ04024
   name:
     first: Trent
     last: Franks
@@ -12459,7 +12676,8 @@
     govtrack: 400142
     opensecrets: N00000684
     votesmart: 22177
-    fec_id: H2NJ05014
+    fec:
+    - H2NJ05014
   name:
     first: Rodney
     middle: P.
@@ -12540,7 +12758,8 @@
     govtrack: 412327
     opensecrets: N00030490
     votesmart: 110640
-    fec_id: H8OH11141
+    fec:
+    - H8OH11141
   name:
     first: Marcia
     last: Fudge
@@ -12581,7 +12800,8 @@
     opensecrets: N00007231
     votesmart: 26750
     icpsr: 15413
-    fec_id: H6CA21028
+    fec:
+    - H6CA21028
   name:
     first: Elton
     middle: W.
@@ -12686,7 +12906,8 @@
     govtrack: 412382
     opensecrets: N00030856
     votesmart: 29664
-    fec_id: H0CA10149
+    fec:
+    - H0CA10149
   name:
     first: John
     last: Garamendi
@@ -12720,7 +12941,8 @@
     govtrack: 412406
     opensecrets: N00030780
     votesmart: 30004
-    fec_id: H0CO04122
+    fec:
+    - H0CO04122
   name:
     first: Cory
     last: Gardner
@@ -12745,7 +12967,8 @@
     govtrack: 400145
     opensecrets: N00000743
     votesmart: 4430
-    fec_id: H8NJ05052
+    fec:
+    - H8NJ05052
   name:
     first: Scott
     last: Garrett
@@ -12800,7 +13023,8 @@
     govtrack: 400147
     opensecrets: N00025025
     votesmart: 5226
-    fec_id: H2PA06114
+    fec:
+    - H2PA06114
   name:
     first: Jim
     last: Gerlach
@@ -12856,7 +13080,8 @@
     govtrack: 412463
     opensecrets: N00031128
     votesmart: 45466
-    fec_id: H0OH18077
+    fec:
+    - H0OH18077
   name:
     first: Bob
     last: Gibbs
@@ -12882,7 +13107,8 @@
     govtrack: 412453
     opensecrets: N00031998
     votesmart: 127042
-    fec_id: H0NY20095
+    fec:
+    - H0NY20095
   name:
     first: Chris
     middle: P.
@@ -12909,7 +13135,8 @@
     govtrack: 400151
     opensecrets: N00024760
     votesmart: 17644
-    fec_id: H2GA11149
+    fec:
+    - H2GA11149
   name:
     first: John
     middle: Philip
@@ -12967,7 +13194,8 @@
     govtrack: 400651
     opensecrets: N00026148
     votesmart: 50029
-    fec_id: H4TX04039
+    fec:
+    - H4TX04039
   name:
     first: Louis
     middle: B.
@@ -13017,7 +13245,8 @@
     govtrack: 400152
     opensecrets: N00005960
     votesmart: 25445
-    fec_id: H8TX20077
+    fec:
+    - H8TX20077
   name:
     first: Charles
     middle: A.
@@ -13087,7 +13316,8 @@
     govtrack: 400154
     opensecrets: N00009154
     votesmart: 27116
-    fec_id: H2VA06115
+    fec:
+    - H2VA06115
   name:
     first: Robert
     middle: W.
@@ -13175,7 +13405,8 @@
     govtrack: 412397
     opensecrets: N00030771
     votesmart: 123491
-    fec_id: H0AZ01259
+    fec:
+    - H0AZ01259
   name:
     first: Paul
     last: Gosar
@@ -13201,7 +13432,8 @@
     govtrack: 412473
     opensecrets: N00030880
     votesmart: 121782
-    fec_id: H0SC04257
+    fec:
+    - H0SC04257
   name:
     first: Trey
     last: Gowdy
@@ -13227,7 +13459,8 @@
     govtrack: 400157
     opensecrets: N00008799
     votesmart: 334
-    fec_id: H6TX12060
+    fec:
+    - H6TX12060
   name:
     first: Kay
     last: Granger
@@ -13303,7 +13536,8 @@
     opensecrets: N00001758
     votesmart: 53293
     icpsr: 14226
-    fec_id: S0IA00028
+    fec:
+    - S0IA00028
   name:
     first: Charles
     middle: E.
@@ -13383,7 +13617,8 @@
     govtrack: 400158
     opensecrets: N00013323
     votesmart: 9425
-    fec_id: H0MO06073
+    fec:
+    - H0MO06073
   name:
     first: Samuel
     middle: B.
@@ -13447,7 +13682,8 @@
     govtrack: 412388
     opensecrets: N00030788
     votesmart: 31969
-    fec_id: H0GA09030
+    fec:
+    - H0GA09030
   name:
     first: Tom
     last: Graves
@@ -13481,7 +13717,8 @@
     govtrack: 400653
     opensecrets: N00026686
     votesmart: 49680
-    fec_id: H4TX09095
+    fec:
+    - H4TX09095
   name:
     first: Al
     last: Green
@@ -13529,7 +13766,8 @@
     govtrack: 400160
     opensecrets: N00005870
     votesmart: 27100
-    fec_id: H2TX29030
+    fec:
+    - H2TX29030
   name:
     first: Raymond
     middle: Eugene
@@ -13617,7 +13855,8 @@
     govtrack: 412401
     opensecrets: N00031297
     votesmart: 119213
-    fec_id: H0AR02107
+    fec:
+    - H0AR02107
   name:
     first: Tim
     last: Griffin
@@ -13643,7 +13882,8 @@
     govtrack: 412485
     opensecrets: N00032029
     votesmart: 5148
-    fec_id: H0VA09055
+    fec:
+    - H0VA09055
   name:
     first: H.
     middle: Morgan
@@ -13670,7 +13910,8 @@
     govtrack: 400162
     opensecrets: N00025284
     votesmart: 28253
-    fec_id: H2AZ07070
+    fec:
+    - H2AZ07070
   name:
     first: Raul
     middle: M.
@@ -13727,7 +13968,8 @@
     govtrack: 412451
     opensecrets: N00031401
     votesmart: 127075
-    fec_id: H0NY13074
+    fec:
+    - H0NY13074
   name:
     first: Michael
     last: Grimm
@@ -13753,7 +13995,8 @@
     govtrack: 412447
     opensecrets: N00030801
     votesmart: 42946
-    fec_id: H0NH01217
+    fec:
+    - H0NH01217
   name:
     first: Frank
     last: Guinta
@@ -13779,7 +14022,8 @@
     govtrack: 412278
     opensecrets: N00029675
     votesmart: 18829
-    fec_id: H8KY02031
+    fec:
+    - H8KY02031
   name:
     first: Brett
     last: Guthrie
@@ -13812,7 +14056,8 @@
     govtrack: 400163
     opensecrets: N00004874
     votesmart: 26841
-    fec_id: H2IL08039
+    fec:
+    - H2IL08039
   name:
     first: Luis
     middle: V.
@@ -13900,7 +14145,8 @@
     opensecrets: N00005645
     votesmart: 27080
     icpsr: 14828
-    fec_id: H0TX04037
+    fec:
+    - H0TX04037
   name:
     first: Ralph
     middle: Moody
@@ -14023,7 +14269,8 @@
     govtrack: 412418
     opensecrets: N00025881
     votesmart: 17745
-    fec_id: H2HI02110
+    fec:
+    - H2HI02110
   name:
     first: Colleen
     last: Hanabusa
@@ -14049,7 +14296,8 @@
     govtrack: 412454
     opensecrets: N00030197
     votesmart: 110344
-    fec_id: H8NY24066
+    fec:
+    - H8NY24066
   name:
     first: Richard
     last: Hanna
@@ -14075,7 +14323,8 @@
     govtrack: 412280
     opensecrets: N00029632
     votesmart: 101985
-    fec_id: H8MS03067
+    fec:
+    - H8MS03067
   name:
     first: Gregg
     last: Harper
@@ -14109,7 +14358,8 @@
     govtrack: 412434
     opensecrets: N00029147
     votesmart: 19157
-    fec_id: H8MD01094
+    fec:
+    - H8MD01094
   name:
     first: Andy
     last: Harris
@@ -14135,7 +14385,8 @@
     govtrack: 412444
     opensecrets: N00031005
     votesmart: 8783
-    fec_id: H0MO04086
+    fec:
+    - H0MO04086
   name:
     first: Vicky
     last: Hartzler
@@ -14161,7 +14412,8 @@
     govtrack: 400170
     opensecrets: N00002884
     votesmart: 26798
-    fec_id: H2FL23021
+    fec:
+    - H2FL23021
   name:
     first: Alcee
     middle: L.
@@ -14248,7 +14500,8 @@
     govtrack: 400171
     opensecrets: N00009157
     votesmart: 22318
-    fec_id: H2WA04041
+    fec:
+    - H2WA04041
   name:
     first: Doc
     last: Hastings
@@ -14327,7 +14580,8 @@
     govtrack: 412452
     opensecrets: N00031124
     votesmart: 127041
-    fec_id: H0NY19139
+    fec:
+    - H0NY19139
   name:
     first: Nan
     last: Hayworth
@@ -14353,7 +14607,8 @@
     govtrack: 412446
     opensecrets: N00031244
     votesmart: 44082
-    fec_id: H0NV03058
+    fec:
+    - H0NV03058
   name:
     first: Joe
     last: Heck
@@ -14379,7 +14634,8 @@
     govtrack: 412281
     opensecrets: N00029835
     votesmart: 74517
-    fec_id: H8NM01224
+    fec:
+    - H8NM01224
   name:
     first: Martin
     last: Heinrich
@@ -14412,7 +14668,8 @@
     govtrack: 400175
     opensecrets: N00024922
     votesmart: 49827
-    fec_id: H2TX05121
+    fec:
+    - H2TX05121
   name:
     first: Jeb
     last: Hensarling
@@ -14469,7 +14726,8 @@
     opensecrets: N00007584
     votesmart: 26728
     icpsr: 15420
-    fec_id: H6CA02010
+    fec:
+    - H6CA02010
   name:
     first: Walter
     last: Herger
@@ -14574,7 +14832,8 @@
     govtrack: 412486
     opensecrets: N00031559
     votesmart: 101907
-    fec_id: H0WA03187
+    fec:
+    - H0WA03187
   name:
     first: Jaime
     last: Herrera Beutler
@@ -14600,7 +14859,8 @@
     govtrack: 400641
     opensecrets: N00027060
     votesmart: 23127
-    fec_id: H4NY27076
+    fec:
+    - H4NY27076
   name:
     first: Brian
     middle: M.
@@ -14648,7 +14908,8 @@
     govtrack: 412282
     opensecrets: N00029070
     votesmart: 106744
-    fec_id: H8CT04172
+    fec:
+    - H8CT04172
   name:
     first: James
     middle: A.
@@ -14683,7 +14944,8 @@
     govtrack: 400178
     opensecrets: N00001222
     votesmart: 26989
-    fec_id: H2NY26080
+    fec:
+    - H2NY26080
   name:
     first: Maurice
     middle: D.
@@ -14770,7 +15032,8 @@
     govtrack: 400179
     opensecrets: N00006008
     votesmart: 291
-    fec_id: H6TX15055
+    fec:
+    - H6TX15055
   name:
     first: Rubén
     middle: E.
@@ -14845,7 +15108,8 @@
     govtrack: 412200
     opensecrets: N00028139
     votesmart: 1677
-    fec_id: H6HI02251
+    fec:
+    - H6HI02251
   name:
     first: Mazie
     middle: K.
@@ -14887,7 +15151,8 @@
     govtrack: 412494
     opensecrets: N00031688
     votesmart: 41788
-    fec_id: S0ND00093
+    fec:
+    - S0ND00093
   name:
     first: John
     last: Hoeven
@@ -14913,7 +15178,8 @@
     govtrack: 400183
     opensecrets: N00001469
     votesmart: 27042
-    fec_id: H2PA06080
+    fec:
+    - H2PA06080
   name:
     first: Tim
     last: Holden
@@ -14999,7 +15265,8 @@
     govtrack: 400184
     opensecrets: N00000860
     votesmart: 22574
-    fec_id: H6NJ12144
+    fec:
+    - H6NJ12144
   name:
     first: Rush
     middle: Dew
@@ -15068,7 +15335,8 @@
     govtrack: 400185
     opensecrets: N00012611
     votesmart: 9674
-    fec_id: H0CA15148
+    fec:
+    - H0CA15148
   name:
     first: Michael
     middle: M.
@@ -15133,7 +15401,8 @@
     opensecrets: N00001821
     votesmart: 26890
     icpsr: 14873
-    fec_id: H2MD05155
+    fec:
+    - H2MD05155
   name:
     first: Steny
     middle: H.
@@ -15256,7 +15525,8 @@
     govtrack: 412429
     opensecrets: N00027649
     votesmart: 12571
-    fec_id: H6KS01146
+    fec:
+    - H6KS01146
   name:
     first: Tim
     last: Huelskamp
@@ -15282,7 +15552,8 @@
     govtrack: 412437
     opensecrets: N00030673
     votesmart: 38351
-    fec_id: H0MI02094
+    fec:
+    - H0MI02094
   name:
     first: Bill
     last: Huizenga
@@ -15308,7 +15579,8 @@
     govtrack: 412422
     opensecrets: N00031104
     votesmart: 18199
-    fec_id: H0IL14080
+    fec:
+    - H0IL14080
   name:
     first: Randy
     last: Hultgren
@@ -15334,7 +15606,8 @@
     govtrack: 412283
     opensecrets: N00029258
     votesmart: 104308
-    fec_id: H8CA52052
+    fec:
+    - H8CA52052
   name:
     first: Duncan
     middle: D.
@@ -15369,7 +15642,8 @@
     govtrack: 412484
     opensecrets: N00031265
     votesmart: 50895
-    fec_id: H0VA05095
+    fec:
+    - H0VA05095
   name:
     first: Robert
     last: Hurt
@@ -15397,7 +15671,8 @@
     opensecrets: N00001762
     votesmart: 53285
     icpsr: 4812
-    fec_id: S4HI00011
+    fec:
+    - S4HI00011
   name:
     first: Daniel
     middle: K.
@@ -15489,7 +15764,8 @@
     govtrack: 400194
     opensecrets: N00002593
     votesmart: 1721
-    fec_id: S6GA00119
+    fec:
+    - S6GA00119
   name:
     first: John
     middle: H.
@@ -15545,7 +15821,8 @@
     govtrack: 400195
     opensecrets: N00013345
     votesmart: 55440
-    fec_id: H0NY02085
+    fec:
+    - H0NY02085
   name:
     first: Steve
     middle: J.
@@ -15608,7 +15885,8 @@
     govtrack: 400196
     opensecrets: N00007017
     votesmart: 16553
-    fec_id: H0CA48024
+    fec:
+    - H0CA48024
   name:
     first: Darrell
     last: Issa
@@ -15669,7 +15947,8 @@
     govtrack: 400198
     opensecrets: N00012457
     votesmart: 72
-    fec_id: H6IL02124
+    fec:
+    - H6IL02124
   name:
     first: Jesse
     middle: Louis
@@ -15751,7 +16030,8 @@
     govtrack: 400199
     opensecrets: N00005818
     votesmart: 21692
-    fec_id: H4TX18054
+    fec:
+    - H4TX18054
   name:
     first: Sheila
     last: Jackson-Lee
@@ -15831,7 +16111,8 @@
     govtrack: 412284
     opensecrets: N00029077
     votesmart: 18594
-    fec_id: H8KS02090
+    fec:
+    - H8KS02090
   name:
     first: Lynn
     last: Jenkins
@@ -15864,7 +16145,8 @@
     govtrack: 412460
     opensecrets: N00032088
     votesmart: 120649
-    fec_id: H0OH06189
+    fec:
+    - H0OH06189
   name:
     first: Bill
     last: Johnson
@@ -15890,7 +16172,8 @@
     govtrack: 400204
     opensecrets: N00008122
     votesmart: 27098
-    fec_id: H2TX00015
+    fec:
+    - H2TX00015
   name:
     first: Eddie
     middle: Bernice
@@ -15977,7 +16260,8 @@
     govtrack: 412199
     opensecrets: N00027848
     votesmart: 68070
-    fec_id: H6GA04129
+    fec:
+    - H6GA04129
   name:
     first: Henry
     middle: C.
@@ -16021,7 +16305,8 @@
     govtrack: 412496
     opensecrets: N00032546
     votesmart: 126217
-    fec_id: S0WI00197
+    fec:
+    - S0WI00197
   name:
     first: Ron
     last: Johnson
@@ -16047,7 +16332,8 @@
     govtrack: 400206
     opensecrets: N00008028
     votesmart: 27079
-    fec_id: H2TX03118
+    fec:
+    - H2TX03118
   name:
     first: Samuel
     middle: Robert
@@ -16141,7 +16427,8 @@
     govtrack: 400207
     opensecrets: N00012890
     votesmart: 6338
-    fec_id: H0IL15053
+    fec:
+    - H0IL15053
   name:
     first: Timothy
     middle: V.
@@ -16204,7 +16491,8 @@
     govtrack: 400209
     opensecrets: N00002299
     votesmart: 21785
-    fec_id: H2NC01081
+    fec:
+    - H2NC01081
   name:
     first: Walter
     middle: Beaman
@@ -16286,7 +16574,8 @@
     govtrack: 412226
     opensecrets: N00027894
     votesmart: 8158
-    fec_id: H6OH04082
+    fec:
+    - H6OH04082
   name:
     first: Jim
     last: Jordan
@@ -16327,7 +16616,8 @@
     opensecrets: N00003522
     votesmart: 27016
     icpsr: 15029
-    fec_id: H2OH09031
+    fec:
+    - H2OH09031
   name:
     first: Marcy
     last: Kaptur
@@ -16443,7 +16733,8 @@
     govtrack: 412435
     opensecrets: N00031933
     votesmart: 4743
-    fec_id: H0MA10082
+    fec:
+    - H0MA10082
   name:
     first: William
     last: Keating
@@ -16469,7 +16760,8 @@
     govtrack: 412465
     opensecrets: N00031647
     votesmart: 119463
-    fec_id: H0PA03271
+    fec:
+    - H0PA03271
   name:
     first: Mike
     last: Kelly
@@ -16496,7 +16788,8 @@
     opensecrets: N00004070
     votesmart: 26909
     icpsr: 14430
-    fec_id: H6MI07108
+    fec:
+    - H6MI07108
   name:
     first: Dale
     middle: E.
@@ -16631,7 +16924,8 @@
     govtrack: 400218
     opensecrets: N00004403
     votesmart: 630
-    fec_id: H6WI03099
+    fec:
+    - H6WI03099
   name:
     first: Ronald
     middle: James
@@ -16707,7 +17001,8 @@
     govtrack: 400219
     opensecrets: N00001193
     votesmart: 26968
-    fec_id: H2NY03089
+    fec:
+    - H2NY03089
   name:
     first: Peter
     middle: T.
@@ -16795,7 +17090,8 @@
     govtrack: 400220
     opensecrets: N00025237
     votesmart: 10853
-    fec_id: H2IA05072
+    fec:
+    - H2IA05072
   name:
     first: Steve
     middle: A.
@@ -16852,7 +17148,8 @@
     govtrack: 400221
     opensecrets: N00002656
     votesmart: 26816
-    fec_id: H2GA01157
+    fec:
+    - H2GA01157
   name:
     first: Jack
     last: Kingston
@@ -16938,7 +17235,8 @@
     govtrack: 412421
     opensecrets: N00030667
     votesmart: 116559
-    fec_id: H0IL11052
+    fec:
+    - H0IL11052
   name:
     first: Adam
     last: Kinzinger
@@ -16965,7 +17263,8 @@
     govtrack: 400222
     opensecrets: N00012539
     votesmart: 33502
-    fec_id: H0IL10120
+    fec:
+    - H0IL10120
   name:
     first: Mark
     middle: Steven
@@ -17032,7 +17331,8 @@
     govtrack: 412287
     opensecrets: N00028859
     votesmart: 57769
-    fec_id: H6NC08111
+    fec:
+    - H6NC08111
   name:
     first: Larry
     last: Kissell
@@ -17066,7 +17366,8 @@
     govtrack: 400224
     opensecrets: N00004436
     votesmart: 20311
-    fec_id: H8MN06047
+    fec:
+    - H8MN06047
   name:
     first: John
     middle: P.
@@ -17123,7 +17424,8 @@
     govtrack: 400227
     opensecrets: N00003572
     votesmart: 318
-    fec_id: H6OH23033
+    fec:
+    - H6OH23033
   name:
     first: Dennis
     middle: J.
@@ -17198,7 +17500,8 @@
     govtrack: 400235
     opensecrets: N00003545
     votesmart: 21798
-    fec_id: H4OH19036
+    fec:
+    - H4OH19036
   name:
     first: Steven
     middle: C.
@@ -17279,7 +17582,8 @@
     govtrack: 412419
     opensecrets: N00031377
     votesmart: 57391
-    fec_id: H0ID01253
+    fec:
+    - H0ID01253
   name:
     first: Raúl
     last: Labrador
@@ -17305,7 +17609,8 @@
     govtrack: 412191
     opensecrets: N00028133
     votesmart: 2698
-    fec_id: H6CO05159
+    fec:
+    - H6CO05159
   name:
     first: Doug
     last: Lamborn
@@ -17346,7 +17651,8 @@
     govtrack: 412290
     opensecrets: N00000898
     votesmart: 4443
-    fec_id: H6NJ12136
+    fec:
+    - H6NJ12136
   name:
     first: Leonard
     last: Lance
@@ -17380,7 +17686,8 @@
     govtrack: 412433
     opensecrets: N00031503
     votesmart: 93509
-    fec_id: H0LA03141
+    fec:
+    - H0LA03141
   name:
     first: Jeff
     middle: M.
@@ -17407,7 +17714,8 @@
     govtrack: 400230
     opensecrets: N00009724
     votesmart: 55787
-    fec_id: H0RI02139
+    fec:
+    - H0RI02139
   name:
     first: James
     middle: R.
@@ -17470,7 +17778,8 @@
     govtrack: 412464
     opensecrets: N00031129
     votesmart: 124938
-    fec_id: H0OK05114
+    fec:
+    - H0OK05114
   name:
     first: James
     last: Lankford
@@ -17496,7 +17805,8 @@
     govtrack: 400232
     opensecrets: N00009759
     votesmart: 56231
-    fec_id: H0WA02080
+    fec:
+    - H0WA02080
   name:
     first: Rick
     last: Larsen
@@ -17557,7 +17867,8 @@
     govtrack: 400233
     opensecrets: N00000575
     votesmart: 17188
-    fec_id: H8CT01046
+    fec:
+    - H8CT01046
   name:
     first: John
     middle: B.
@@ -17625,7 +17936,8 @@
     govtrack: 400234
     opensecrets: N00004227
     votesmart: 22175
-    fec_id: H4IA05102
+    fec:
+    - H4IA05102
   name:
     first: Thomas
     middle: P.
@@ -17707,7 +18019,8 @@
     govtrack: 412256
     opensecrets: N00012233
     votesmart: 9926
-    fec_id: H8OH05036
+    fec:
+    - H8OH05036
   name:
     first: Robert
     middle: E.
@@ -17751,7 +18064,8 @@
     opensecrets: N00009918
     votesmart: 53353
     icpsr: 14307
-    fec_id: S4VT00017
+    fec:
+    - S4VT00017
   name:
     first: Patrick
     middle: J.
@@ -17818,7 +18132,8 @@
     govtrack: 400237
     opensecrets: N00008046
     votesmart: 8315
-    fec_id: H8CA09060
+    fec:
+    - H8CA09060
   name:
     first: Barbara
     last: Lee
@@ -17893,7 +18208,8 @@
     govtrack: 412495
     opensecrets: N00031696
     votesmart: 66395
-    fec_id: S0UT00165
+    fec:
+    - S0UT00165
   name:
     first: Mike
     last: Lee
@@ -17920,7 +18236,8 @@
     opensecrets: N00003950
     votesmart: 26918
     icpsr: 15033
-    fec_id: H2MI17023
+    fec:
+    - H2MI17023
   name:
     first: Sander
     middle: M.
@@ -18038,7 +18355,8 @@
     opensecrets: N00007087
     votesmart: 26769
     icpsr: 14644
-    fec_id: H8CA37079
+    fec:
+    - H8CA37079
   name:
     first: Jerry
     last: Lewis
@@ -18167,7 +18485,8 @@
     opensecrets: N00002577
     votesmart: 26820
     icpsr: 15431
-    fec_id: H6GA05217
+    fec:
+    - H6GA05217
   name:
     first: John
     middle: R.
@@ -18272,7 +18591,8 @@
     govtrack: 400630
     opensecrets: N00027239
     votesmart: 33692
-    fec_id: H4IL03077
+    fec:
+    - H4IL03077
   name:
     first: Daniel
     middle: William
@@ -18320,7 +18640,8 @@
     govtrack: 400244
     opensecrets: N00000851
     votesmart: 21890
-    fec_id: H2NJ02037
+    fec:
+    - H2NJ02037
   name:
     first: Frank
     middle: A.
@@ -18401,7 +18722,8 @@
     govtrack: 412209
     opensecrets: N00027741
     votesmart: 68964
-    fec_id: H6IA02146
+    fec:
+    - H6IA02146
   name:
     first: David
     last: Loebsack
@@ -18442,7 +18764,8 @@
     govtrack: 400245
     opensecrets: N00007479
     votesmart: 21899
-    fec_id: H4CA16049
+    fec:
+    - H4CA16049
   name:
     first: Zoe
     last: Lofgren
@@ -18522,7 +18845,8 @@
     govtrack: 412445
     opensecrets: N00030676
     votesmart: 123401
-    fec_id: H0MO07113
+    fec:
+    - H0MO07113
   name:
     first: Billy
     last: Long
@@ -18549,7 +18873,8 @@
     opensecrets: N00001024
     votesmart: 26982
     icpsr: 15612
-    fec_id: H8NY20056
+    fec:
+    - H8NY20056
   name:
     first: Nita
     middle: M.
@@ -18648,7 +18973,8 @@
     govtrack: 400247
     opensecrets: N00005559
     votesmart: 27032
-    fec_id: H4OK06056
+    fec:
+    - H4OK06056
   name:
     first: Frank
     middle: D.
@@ -18735,7 +19061,8 @@
     govtrack: 412292
     opensecrets: N00030026
     votesmart: 20400
-    fec_id: H8MO09153
+    fec:
+    - H8MO09153
   name:
     first: Blaine
     last: Luetkemeyer
@@ -18768,7 +19095,8 @@
     govtrack: 412293
     opensecrets: N00029562
     votesmart: 102842
-    fec_id: H8NM03196
+    fec:
+    - H8NM03196
   name:
     first: Ben
     middle: Ray
@@ -18802,7 +19130,8 @@
     govtrack: 412294
     opensecrets: N00029788
     votesmart: 15546
-    fec_id: H8WY00148
+    fec:
+    - H8WY00148
   name:
     first: Cynthia
     middle: M.
@@ -18837,7 +19166,8 @@
     opensecrets: N00011971
     votesmart: 16730
     icpsr: 14647
-    fec_id: H6CA34112
+    fec:
+    - H6CA34112
   name:
     first: Daniel
     middle: E.
@@ -18915,7 +19245,8 @@
     govtrack: 400249
     opensecrets: N00013855
     votesmart: 4844
-    fec_id: H2MA09072
+    fec:
+    - H2MA09072
   name:
     first: Stephen
     middle: F.
@@ -18977,7 +19308,8 @@
     govtrack: 400622
     opensecrets: N00026425
     votesmart: 53996
-    fec_id: H4FL14059
+    fec:
+    - H4FL14059
   name:
     first: Connie
     last: Mack
@@ -19025,7 +19357,8 @@
     govtrack: 400251
     opensecrets: N00000078
     votesmart: 26978
-    fec_id: H2NY14037
+    fec:
+    - H2NY14037
   name:
     first: Carolyn
     middle: B.
@@ -19112,7 +19445,8 @@
     govtrack: 400252
     opensecrets: N00004905
     votesmart: 26843
-    fec_id: H0IL16085
+    fec:
+    - H0IL16085
   name:
     first: Donald
     middle: A.
@@ -19199,7 +19533,8 @@
     govtrack: 400656
     opensecrets: N00026710
     votesmart: 5549
-    fec_id: H4TX24094
+    fec:
+    - H4TX24094
   name:
     first: Kenny
     middle: Ewell
@@ -19248,7 +19583,8 @@
     govtrack: 412468
     opensecrets: N00031777
     votesmart: 119478
-    fec_id: H0PA10078
+    fec:
+    - H0PA10078
   name:
     first: Thomas
     last: Marino
@@ -19275,7 +19611,8 @@
     opensecrets: N00000270
     votesmart: 26900
     icpsr: 14435
-    fec_id: H6MA07101
+    fec:
+    - H6MA07101
   name:
     first: Edward
     middle: J.
@@ -19417,7 +19754,8 @@
     govtrack: 400255
     opensecrets: N00009753
     votesmart: 50722
-    fec_id: H0UT02096
+    fec:
+    - H0UT02096
   name:
     first: Jim
     last: Matheson
@@ -19479,7 +19817,8 @@
     govtrack: 400663
     opensecrets: N00027459
     votesmart: 28593
-    fec_id: H6CA05195
+    fec:
+    - H6CA05195
   name:
     first: Doris
     middle: O.
@@ -19529,7 +19868,8 @@
     opensecrets: N00006424
     votesmart: 53270
     icpsr: 15039
-    fec_id: S6AZ00019
+    fec:
+    - S6AZ00019
   name:
     first: John
     middle: S.
@@ -19596,7 +19936,8 @@
     govtrack: 400257
     opensecrets: N00001148
     votesmart: 693
-    fec_id: H6NY04112
+    fec:
+    - H6NY04112
   name:
     first: Carolyn
     last: McCarthy
@@ -19670,7 +20011,8 @@
     govtrack: 412190
     opensecrets: N00028152
     votesmart: 28918
-    fec_id: H6CA22125
+    fec:
+    - H6CA22125
   name:
     first: Kevin
     last: McCarthy
@@ -19711,7 +20053,8 @@
     govtrack: 400654
     opensecrets: N00026460
     votesmart: 49210
-    fec_id: H4TX10093
+    fec:
+    - H4TX10093
   name:
     first: Michael
     middle: T.
@@ -19760,7 +20103,8 @@
     govtrack: 412295
     opensecrets: N00006863
     votesmart: 9715
-    fec_id: H8CA04152
+    fec:
+    - H8CA04152
   name:
     first: Tom
     last: McClintock
@@ -19794,7 +20138,8 @@
     govtrack: 400259
     opensecrets: N00012942
     votesmart: 3812
-    fec_id: H0MN04049
+    fec:
+    - H0MN04049
   name:
     first: Betty
     last: McCollum
@@ -19857,7 +20202,8 @@
     opensecrets: N00009829
     votesmart: 27128
     icpsr: 15613
-    fec_id: H8WA07132
+    fec:
+    - H8WA07132
   name:
     first: James
     middle: A.
@@ -19957,7 +20303,8 @@
     govtrack: 400263
     opensecrets: N00000179
     votesmart: 552
-    fec_id: H4MA03022
+    fec:
+    - H4MA03022
   name:
     first: James
     middle: P.
@@ -20033,7 +20380,8 @@
     govtrack: 400644
     opensecrets: N00026627
     votesmart: 21031
-    fec_id: H4NC10047
+    fec:
+    - H4NC10047
   name:
     first: Patrick
     middle: T.
@@ -20081,7 +20429,8 @@
     govtrack: 400266
     opensecrets: N00002356
     votesmart: 153
-    fec_id: H8NC07044
+    fec:
+    - H8NC07044
   name:
     first: Mike
     last: McIntyre
@@ -20155,7 +20504,8 @@
     govtrack: 400267
     opensecrets: N00006882
     votesmart: 26755
-    fec_id: H2CA25036
+    fec:
+    - H2CA25036
   name:
     first: Howard
     middle: P.
@@ -20243,7 +20593,8 @@
     govtrack: 412487
     opensecrets: N00031681
     votesmart: 117396
-    fec_id: H0WV01072
+    fec:
+    - H0WV01072
   name:
     first: David
     last: McKinley
@@ -20269,7 +20620,8 @@
     govtrack: 400659
     opensecrets: N00026314
     votesmart: 3217
-    fec_id: H4WA05077
+    fec:
+    - H4WA05077
   name:
     first: Cathy
     last: McMorris Rodgers
@@ -20316,7 +20668,8 @@
     govtrack: 412189
     opensecrets: N00026926
     votesmart: 29474
-    fec_id: H4CA11081
+    fec:
+    - H4CA11081
   name:
     first: Jerry
     last: McNerney
@@ -20356,7 +20709,8 @@
     govtrack: 412466
     opensecrets: N00031134
     votesmart: 119474
-    fec_id: H0PA07082
+    fec:
+    - H0PA07082
   name:
     first: Patrick
     last: Meehan
@@ -20382,7 +20736,8 @@
     govtrack: 400271
     opensecrets: N00001171
     votesmart: 4360
-    fec_id: H8NY06048
+    fec:
+    - H8NY06048
   name:
     first: Gregory
     middle: W.
@@ -20457,7 +20812,8 @@
     govtrack: 400273
     opensecrets: N00002793
     votesmart: 26805
-    fec_id: H2FL08055
+    fec:
+    - H2FL08055
   name:
     first: John
     middle: L.
@@ -20544,7 +20900,8 @@
     govtrack: 400274
     opensecrets: N00024770
     votesmart: 6582
-    fec_id: H2ME02097
+    fec:
+    - H2ME02097
   name:
     first: Michael
     middle: H.
@@ -20603,7 +20960,8 @@
     opensecrets: N00001945
     votesmart: 53304
     icpsr: 14440
-    fec_id: S6MD00140
+    fec:
+    - S6MD00140
   name:
     first: Barbara
     middle: A.
@@ -20688,7 +21046,8 @@
     govtrack: 400276
     opensecrets: N00009795
     votesmart: 2062
-    fec_id: H6MI12181
+    fec:
+    - H6MI12181
   name:
     first: Candice
     last: Miller
@@ -20744,7 +21103,8 @@
     govtrack: 400277
     opensecrets: N00006954
     votesmart: 8346
-    fec_id: H8CA41063
+    fec:
+    - H8CA41063
   name:
     first: Gary
     middle: Gene
@@ -20814,7 +21174,8 @@
     opensecrets: N00007390
     votesmart: 26734
     icpsr: 14256
-    fec_id: H6CA07043
+    fec:
+    - H6CA07043
   name:
     first: George
     last: Miller
@@ -20954,7 +21315,8 @@
     govtrack: 400279
     opensecrets: N00013846
     votesmart: 17276
-    fec_id: H2FL01100
+    fec:
+    - H2FL01100
   name:
     first: Jeff
     last: Miller
@@ -21016,7 +21378,8 @@
     govtrack: 400280
     opensecrets: N00025093
     votesmart: 10205
-    fec_id: H2NC13029
+    fec:
+    - H2NC13029
   name:
     first: R.
     middle: Bradley
@@ -21073,7 +21436,8 @@
     govtrack: 400661
     opensecrets: N00026914
     votesmart: 3457
-    fec_id: H4WI04183
+    fec:
+    - H4WI04183
   name:
     first: Gwen
     last: Moore
@@ -21121,7 +21485,8 @@
     govtrack: 400283
     opensecrets: N00002083
     votesmart: 27118
-    fec_id: H0VA08040
+    fec:
+    - H0VA08040
   name:
     first: James
     middle: P.
@@ -21217,7 +21582,8 @@
     govtrack: 400284
     opensecrets: N00005282
     votesmart: 542
-    fec_id: H6KS01096
+    fec:
+    - H6KS01096
   name:
     first: Jerry
     last: Moran
@@ -21290,7 +21656,8 @@
     govtrack: 412474
     opensecrets: N00031412
     votesmart: 60348
-    fec_id: H0SC05031
+    fec:
+    - H0SC05031
   name:
     first: Mick
     last: Mulvaney
@@ -21317,7 +21684,8 @@
     govtrack: 300075
     opensecrets: N00026050
     votesmart: 15841
-    fec_id: S4AK00099
+    fec:
+    - S4AK00099
   name:
     first: Lisa
     middle: A.
@@ -21360,7 +21728,8 @@
     govtrack: 412194
     opensecrets: N00027566
     votesmart: 17189
-    fec_id: H6CT05124
+    fec:
+    - H6CT05124
   name:
     first: Christopher
     middle: S.
@@ -21402,7 +21771,8 @@
     govtrack: 400285
     opensecrets: N00024992
     votesmart: 9794
-    fec_id: H2PA18143
+    fec:
+    - H2PA18143
   name:
     first: Tim
     last: Murphy
@@ -21459,7 +21829,8 @@
     govtrack: 300076
     opensecrets: N00007876
     votesmart: 53358
-    fec_id: S2WA00189
+    fec:
+    - S2WA00189
   name:
     first: Patty
     last: Murray
@@ -21507,7 +21878,8 @@
     govtrack: 400288
     opensecrets: N00002327
     votesmart: 21789
-    fec_id: H4NC09106
+    fec:
+    - H4NC09106
   name:
     first: Sue
     middle: W.
@@ -21588,7 +21960,8 @@
     govtrack: 400289
     opensecrets: N00000939
     votesmart: 26980
-    fec_id: H2NY17071
+    fec:
+    - H2NY17071
   name:
     first: Jerrold
     middle: L.
@@ -21681,7 +22054,8 @@
     govtrack: 400290
     opensecrets: N00006789
     votesmart: 8393
-    fec_id: H8CA34068
+    fec:
+    - H8CA34068
   name:
     first: Grace
     middle: Flores
@@ -21751,7 +22125,8 @@
     opensecrets: N00000153
     votesmart: 26895
     icpsr: 15616
-    fec_id: H8MA02041
+    fec:
+    - H8MA02041
   name:
     first: Richard
     middle: E.
@@ -21850,7 +22225,8 @@
     govtrack: 400441
     opensecrets: N00026043
     votesmart: 49522
-    fec_id: H4TX19102
+    fec:
+    - H4TX19102
   name:
     first: Randy
     last: Neugebauer
@@ -21906,7 +22282,8 @@
     govtrack: 412475
     opensecrets: N00032022
     votesmart: 58189
-    fec_id: H0SD00054
+    fec:
+    - H0SD00054
   name:
     first: Kristi
     last: Noem
@@ -21932,7 +22309,8 @@
     govtrack: 400295
     opensecrets: N00001692
     votesmart: 775
-    fec_id: H0DC00058
+    fec:
+    - H0DC00058
   name:
     first: Eleanor
     middle: Holmes
@@ -22025,7 +22403,8 @@
     govtrack: 412409
     opensecrets: N00032441
     votesmart: 124333
-    fec_id: H0FL05139
+    fec:
+    - H0FL05139
   name:
     first: Richard
     last: Nugent
@@ -22051,7 +22430,8 @@
     govtrack: 400297
     opensecrets: N00007248
     votesmart: 16725
-    fec_id: H8CA20059
+    fec:
+    - H8CA20059
   name:
     first: Devin
     middle: G.
@@ -22108,7 +22488,8 @@
     govtrack: 412442
     opensecrets: N00031006
     votesmart: 8326
-    fec_id: H0MS01043
+    fec:
+    - H0MS01043
   name:
     first: Alan
     last: Nunnelee
@@ -22134,7 +22515,8 @@
     govtrack: 412302
     opensecrets: N00029285
     votesmart: 102008
-    fec_id: H8TX22107
+    fec:
+    - H8TX22107
   name:
     first: Pete
     last: Olson
@@ -22168,7 +22550,8 @@
     govtrack: 400301
     opensecrets: N00000143
     votesmart: 26894
-    fec_id: H2MA01020
+    fec:
+    - H2MA01020
   name:
     first: John
     middle: W.
@@ -22260,7 +22643,8 @@
     govtrack: 412383
     opensecrets: N00031011
     votesmart: 116354
-    fec_id: H0NY23081
+    fec:
+    - H0NY23081
   name:
     first: William
     middle: L.
@@ -22295,7 +22679,8 @@
     govtrack: 412443
     opensecrets: N00031958
     votesmart: 69521
-    fec_id: H0MS04120
+    fec:
+    - H0MS04120
   name:
     first: Steven
     last: Palazzo
@@ -22322,7 +22707,8 @@
     opensecrets: N00000781
     votesmart: 26951
     icpsr: 15454
-    fec_id: H8NJ03073
+    fec:
+    - H8NJ03073
   name:
     first: Frank
     middle: J.
@@ -22428,7 +22814,8 @@
     govtrack: 400309
     opensecrets: N00000751
     votesmart: 478
-    fec_id: H6NJ08118
+    fec:
+    - H6NJ08118
   name:
     first: William
     middle: J.
@@ -22505,7 +22892,8 @@
     govtrack: 400310
     opensecrets: N00006397
     votesmart: 26719
-    fec_id: H2AZ02055
+    fec:
+    - H2AZ02055
   name:
     first: Edward
     last: Pastor
@@ -22599,7 +22987,8 @@
     govtrack: 412492
     opensecrets: N00030836
     votesmart: 117285
-    fec_id: S0KY00156
+    fec:
+    - S0KY00156
   name:
     first: Rand
     last: Paul
@@ -22626,7 +23015,8 @@
     opensecrets: N00005906
     votesmart: 296
     icpsr: 14290
-    fec_id: H6TX22101
+    fec:
+    - H6TX22101
   name:
     first: Ronald
     middle: E.
@@ -22726,7 +23116,8 @@
     govtrack: 412303
     opensecrets: N00029391
     votesmart: 3833
-    fec_id: H8MN03077
+    fec:
+    - H8MN03077
   name:
     first: Erik
     last: Paulsen
@@ -22760,7 +23151,8 @@
     govtrack: 400313
     opensecrets: N00012672
     votesmart: 10655
-    fec_id: H2NM02126
+    fec:
+    - H2NM02126
   name:
     first: Steven
     middle: E.
@@ -22809,7 +23201,8 @@
     opensecrets: N00007360
     votesmart: 26732
     icpsr: 15448
-    fec_id: H8CA05035
+    fec:
+    - H8CA05035
   name:
     first: Nancy
     last: Pelosi
@@ -22913,7 +23306,8 @@
     govtrack: 400315
     opensecrets: N00003765
     votesmart: 34024
-    fec_id: H8IN02060
+    fec:
+    - H8IN02060
   name:
     first: Mike
     last: Pence
@@ -22975,7 +23369,8 @@
     govtrack: 412192
     opensecrets: N00027510
     votesmart: 2653
-    fec_id: H6CO07023
+    fec:
+    - H6CO07023
   name:
     first: Ed
     last: Perlmutter
@@ -23016,7 +23411,8 @@
     govtrack: 412305
     opensecrets: N00029277
     votesmart: 8749
-    fec_id: H8MI09068
+    fec:
+    - H8MI09068
   name:
     first: Gary
     middle: C.
@@ -23050,7 +23446,8 @@
     govtrack: 400316
     opensecrets: N00004558
     votesmart: 26926
-    fec_id: H2MN07014
+    fec:
+    - H2MN07014
   name:
     first: Collin
     middle: C.
@@ -23144,7 +23541,8 @@
     opensecrets: N00004426
     votesmart: 27139
     icpsr: 14675
-    fec_id: H0WI06061
+    fec:
+    - H0WI06061
   name:
     first: Thomas
     middle: E.
@@ -23274,7 +23672,8 @@
     govtrack: 412306
     opensecrets: N00029168
     votesmart: 110894
-    fec_id: H8PR00062
+    fec:
+    - H8PR00062
   name:
     first: Pedro
     middle: R.
@@ -23308,7 +23707,8 @@
     govtrack: 412307
     opensecrets: N00013817
     votesmart: 6586
-    fec_id: H8ME01120
+    fec:
+    - H8ME01120
   name:
     first: Chellie
     last: Pingree
@@ -23342,7 +23742,8 @@
     govtrack: 400320
     opensecrets: N00001633
     votesmart: 265
-    fec_id: H6PA16197
+    fec:
+    - H6PA16197
   name:
     first: Joseph
     middle: R.
@@ -23417,7 +23818,8 @@
     govtrack: 400321
     opensecrets: N00009719
     votesmart: 9211
-    fec_id: H0PA19053
+    fec:
+    - H0PA19053
   name:
     first: Todd
     middle: R.
@@ -23480,7 +23882,8 @@
     govtrack: 400652
     opensecrets: N00026457
     votesmart: 49198
-    fec_id: H4TX02108
+    fec:
+    - H4TX02108
   name:
     first: Ted
     last: Poe
@@ -23528,7 +23931,8 @@
     govtrack: 412308
     opensecrets: N00029127
     votesmart: 106220
-    fec_id: H8CO02137
+    fec:
+    - H8CO02137
   name:
     first: Jared
     last: Polis
@@ -23561,7 +23965,8 @@
     govtrack: 412431
     opensecrets: N00030744
     votesmart: 125023
-    fec_id: H0KS0405
+    fec:
+    - H0KS0405
   name:
     first: Mike
     last: Pompeo
@@ -23588,7 +23993,8 @@
     govtrack: 400325
     opensecrets: N00003682
     votesmart: 27008
-    fec_id: S0OH00133
+    fec:
+    - S0OH00133
   name:
     first: Robert
     middle: J.
@@ -23661,7 +24067,8 @@
     govtrack: 412309
     opensecrets: N00029662
     votesmart: 24280
-    fec_id: H8FL15107
+    fec:
+    - H8FL15107
   name:
     first: Bill
     last: Posey
@@ -23696,7 +24103,8 @@
     opensecrets: N00002260
     votesmart: 119
     icpsr: 15438
-    fec_id: H6NC04037
+    fec:
+    - H6NC04037
   name:
     first: David
     middle: Eugene
@@ -23795,7 +24203,8 @@
     govtrack: 400626
     opensecrets: N00026160
     votesmart: 11853
-    fec_id: H4GA06087
+    fec:
+    - H4GA06087
   name:
     first: Tom
     last: Price
@@ -23842,7 +24251,8 @@
     govtrack: 412398
     opensecrets: N00031723
     votesmart: 123506
-    fec_id: H0AZ03362
+    fec:
+    - H0AZ03362
   name:
     first: Ben
     last: Quayle
@@ -23868,7 +24278,8 @@
     govtrack: 412331
     opensecrets: N00030581
     votesmart: 83310
-    fec_id: H0IL05096
+    fec:
+    - H0IL05096
   name:
     first: Mike
     last: Quigley
@@ -23903,7 +24314,8 @@
     opensecrets: N00002198
     votesmart: 27133
     icpsr: 14448
-    fec_id: H6WV04057
+    fec:
+    - H6WV04057
   name:
     first: Nick
     middle: Joe
@@ -24040,7 +24452,8 @@
     opensecrets: N00000964
     votesmart: 26979
     icpsr: 13035
-    fec_id: H6NY19029
+    fec:
+    - H6NY19029
   name:
     first: Charles
     middle: B.
@@ -24193,7 +24606,8 @@
     govtrack: 412393
     opensecrets: N00030949
     votesmart: 127046
-    fec_id: H0NY29054
+    fec:
+    - H0NY29054
   name:
     first: Tom
     middle: W.
@@ -24227,7 +24641,8 @@
     govtrack: 400335
     opensecrets: N00004645
     votesmart: 404
-    fec_id: H0MT00033
+    fec:
+    - H0MT00033
   name:
     first: Dennis
     last: Rehberg
@@ -24290,7 +24705,8 @@
     govtrack: 400660
     opensecrets: N00026885
     votesmart: 51346
-    fec_id: H4WA08071
+    fec:
+    - H4WA08071
   name:
     first: Dave
     middle: G.
@@ -24340,7 +24756,8 @@
     opensecrets: N00009922
     votesmart: 53320
     icpsr: 15054
-    fec_id: S6NV00028
+    fec:
+    - S6NV00028
   name:
     first: Harry
     middle: M.
@@ -24407,7 +24824,8 @@
     govtrack: 412462
     opensecrets: N00031127
     votesmart: 120678
-    fec_id: H0OH16097
+    fec:
+    - H0OH16097
   name:
     first: Jim
     last: Renacci
@@ -24433,7 +24851,8 @@
     govtrack: 400337
     opensecrets: N00006067
     votesmart: 292
-    fec_id: H6TX00115
+    fec:
+    - H6TX00115
   name:
     first: Silvestre
     last: Reyes
@@ -24507,7 +24926,8 @@
     govtrack: 412489
     opensecrets: N00030968
     votesmart: 126240
-    fec_id: H0WI08075
+    fec:
+    - H0WI08075
   name:
     first: Reid
     last: Ribble
@@ -24533,7 +24953,8 @@
     govtrack: 412253
     opensecrets: N00029112
     votesmart: 69508
-    fec_id: H8CA37137
+    fec:
+    - H8CA37137
   name:
     first: Laura
     last: Richardson
@@ -24574,7 +24995,8 @@
     govtrack: 412432
     opensecrets: N00030184
     votesmart: 35384
-    fec_id: H8LA02054
+    fec:
+    - H8LA02054
   name:
     first: Cedric
     last: Richmond
@@ -24600,7 +25022,8 @@
     govtrack: 412483
     opensecrets: N00030962
     votesmart: 121807
-    fec_id: H0VA02084
+    fec:
+    - H0VA02084
   name:
     first: E.
     middle: Scott
@@ -24627,7 +25050,8 @@
     govtrack: 412415
     opensecrets: N00031887
     votesmart: 31234
-    fec_id: H0FL25038
+    fec:
+    - H0FL25038
   name:
     first: David
     last: Rivera
@@ -24653,7 +25077,8 @@
     govtrack: 412394
     opensecrets: N00030768
     votesmart: 71604
-    fec_id: H0AL02087
+    fec:
+    - H0AL02087
   name:
     first: Martha
     last: Roby
@@ -24679,7 +25104,8 @@
     govtrack: 412310
     opensecrets: N00028463
     votesmart: 65306
-    fec_id: H6TN01388
+    fec:
+    - H6TN01388
   name:
     first: Phil
     middle: P.
@@ -24714,7 +25140,8 @@
     opensecrets: N00003473
     votesmart: 26875
     icpsr: 14854
-    fec_id: H0KY05015
+    fec:
+    - H0KY05015
   name:
     first: Harold
     last: Rogers
@@ -24837,7 +25264,8 @@
     govtrack: 400342
     opensecrets: N00009668
     votesmart: 8751
-    fec_id: H0MI08042
+    fec:
+    - H0MI08042
   name:
     first: Michael
     last: Rogers
@@ -24899,7 +25327,8 @@
     govtrack: 400341
     opensecrets: N00024759
     votesmart: 5705
-    fec_id: H2AL03032
+    fec:
+    - H2AL03032
   name:
     first: Michael
     last: Rogers
@@ -24956,7 +25385,8 @@
     opensecrets: N00007151
     votesmart: 26763
     icpsr: 15621
-    fec_id: H8CA42061
+    fec:
+    - H8CA42061
   name:
     first: Dana
     middle: T.
@@ -25055,7 +25485,8 @@
     govtrack: 412426
     opensecrets: N00031741
     votesmart: 34167
-    fec_id: H0IN04170
+    fec:
+    - H0IN04170
   name:
     first: Todd
     last: Rokita
@@ -25080,7 +25511,8 @@
     govtrack: 412311
     opensecrets: N00029018
     votesmart: 107800
-    fec_id: H8FL16022
+    fec:
+    - H8FL16022
   name:
     first: Thomas
     middle: J.
@@ -25116,7 +25548,8 @@
     opensecrets: N00002858
     votesmart: 26815
     icpsr: 15634
-    fec_id: H0FL18025
+    fec:
+    - H0FL18025
   name:
     first: Ileana
     last: Ros-Lehtinen
@@ -25214,7 +25647,8 @@
     govtrack: 412202
     opensecrets: N00004719
     votesmart: 6382
-    fec_id: H6IL06117
+    fec:
+    - H6IL06117
   name:
     first: Peter
     middle: J.
@@ -25256,7 +25690,8 @@
     govtrack: 412411
     opensecrets: N00030645
     votesmart: 12813
-    fec_id: H0FL12101
+    fec:
+    - H0FL12101
   name:
     first: Dennis
     last: Ross
@@ -25282,7 +25717,8 @@
     govtrack: 400345
     opensecrets: N00009571
     votesmart: 24571
-    fec_id: H0AR04038
+    fec:
+    - H0AR04038
   name:
     first: Mike
     last: Ross
@@ -25344,7 +25780,8 @@
     govtrack: 400346
     opensecrets: N00008619
     votesmart: 481
-    fec_id: H6NJ09165
+    fec:
+    - H6NJ09165
   name:
     first: Steven
     middle: R.
@@ -25419,7 +25856,8 @@
     govtrack: 400347
     opensecrets: N00006671
     votesmart: 26766
-    fec_id: H2CA33048
+    fec:
+    - H2CA33048
   name:
     first: Lucille
     last: Roybal-Allard
@@ -25505,7 +25943,8 @@
     govtrack: 400348
     opensecrets: N00008264
     votesmart: 26772
-    fec_id: H6CA39020
+    fec:
+    - H6CA39020
   name:
     first: Edward
     middle: R.
@@ -25594,7 +26033,8 @@
     govtrack: 412491
     opensecrets: N00030612
     votesmart: 1601
-    fec_id: S0FL00338
+    fec:
+    - S0FL00338
   name:
     first: Marco
     last: Rubio
@@ -25621,7 +26061,8 @@
     govtrack: 412449
     opensecrets: N00031988
     votesmart: 121117
-    fec_id: H0NJ03153
+    fec:
+    - H0NJ03153
   name:
     first: Jon
     last: Runyan
@@ -25647,7 +26088,8 @@
     govtrack: 400349
     opensecrets: N00025482
     votesmart: 36130
-    fec_id: H2MD02160
+    fec:
+    - H2MD02160
   name:
     first: C.A.
     middle: Dutch
@@ -25704,7 +26146,8 @@
     govtrack: 400350
     opensecrets: N00004887
     votesmart: 26831
-    fec_id: H2IL01042
+    fec:
+    - H2IL01042
   name:
     first: Bobby
     middle: Lee
@@ -25791,7 +26234,8 @@
     govtrack: 400351
     opensecrets: N00004357
     votesmart: 26344
-    fec_id: H8WI01024
+    fec:
+    - H8WI01024
   name:
     first: Paul
     middle: D.
@@ -25860,7 +26304,8 @@
     govtrack: 400352
     opensecrets: N00025280
     votesmart: 45638
-    fec_id: H2OH17109
+    fec:
+    - H2OH17109
   name:
     first: Timothy
     middle: J.
@@ -25917,7 +26362,8 @@
     govtrack: 412312
     opensecrets: N00030418
     votesmart: 110903
-    fec_id: H8MP00041
+    fec:
+    - H8MP00041
   name:
     first: Gregorio
     last: Sablan
@@ -25950,7 +26396,8 @@
     govtrack: 400356
     opensecrets: N00008274
     votesmart: 203
-    fec_id: H6CA46033
+    fec:
+    - H6CA46033
   name:
     first: Loretta
     middle: B.
@@ -26025,7 +26472,8 @@
     govtrack: 412212
     opensecrets: N00027751
     votesmart: 66575
-    fec_id: H6MD03292
+    fec:
+    - H6MD03292
   name:
     first: John
     middle: P.
@@ -26067,7 +26515,8 @@
     govtrack: 412261
     opensecrets: N00009660
     votesmart: 9026
-    fec_id: H0LA01087
+    fec:
+    - H0LA01087
   name:
     first: Steve
     middle: Joseph
@@ -26109,7 +26558,8 @@
     govtrack: 400360
     opensecrets: N00004724
     votesmart: 6387
-    fec_id: H8IL09067
+    fec:
+    - H8IL09067
   name:
     first: Janice
     middle: D.
@@ -26179,7 +26629,8 @@
     govtrack: 400361
     opensecrets: N00009585
     votesmart: 9489
-    fec_id: H0CA27085
+    fec:
+    - H0CA27085
   name:
     first: Adam
     middle: B.
@@ -26241,7 +26692,8 @@
     govtrack: 412423
     opensecrets: N00030668
     votesmart: 116570
-    fec_id: H0IL17059
+    fec:
+    - H0IL17059
   name:
     first: Robert
     middle: T.
@@ -26269,7 +26721,8 @@
     govtrack: 412010
     opensecrets: N00027526
     votesmart: 45475
-    fec_id: H6OH02086
+    fec:
+    - H6OH02086
   name:
     first: Jean
     last: Schmidt
@@ -26317,7 +26770,8 @@
     govtrack: 412314
     opensecrets: N00029273
     votesmart: 33428
-    fec_id: H8IL18043
+    fec:
+    - H8IL18043
   name:
     first: Aaron
     last: Schock
@@ -26350,7 +26804,8 @@
     govtrack: 412315
     opensecrets: N00030071
     votesmart: 10813
-    fec_id: H8OR05107
+    fec:
+    - H8OR05107
   name:
     first: Kurt
     last: Schrader
@@ -26386,7 +26841,8 @@
     opensecrets: N00001093
     votesmart: 26976
     icpsr: 14858
-    fec_id: S8NY00082
+    fec:
+    - S8NY00082
   name:
     first: Charles
     middle: E.
@@ -26483,7 +26939,8 @@
     govtrack: 400647
     opensecrets: N00001579
     votesmart: 5239
-    fec_id: H4PA13124
+    fec:
+    - H4PA13124
   name:
     first: Allyson
     middle: Y.
@@ -26531,7 +26988,8 @@
     govtrack: 412399
     opensecrets: N00006460
     votesmart: 106387
-    fec_id: H4AZ06045
+    fec:
+    - H4AZ06045
   name:
     first: David
     last: Schweikert
@@ -26556,7 +27014,8 @@
     govtrack: 412417
     opensecrets: N00032457
     votesmart: 11812
-    fec_id: H0GA08099
+    fec:
+    - H0GA08099
   name:
     first: Austin
     last: Scott
@@ -26582,7 +27041,8 @@
     govtrack: 400363
     opensecrets: N00024871
     votesmart: 7826
-    fec_id: H2GA13012
+    fec:
+    - H2GA13012
   name:
     first: David
     last: Scott
@@ -26638,7 +27098,8 @@
     govtrack: 400364
     opensecrets: N00002147
     votesmart: 27117
-    fec_id: H6VA01117
+    fec:
+    - H6VA01117
   name:
     first: Robert
     middle: C.
@@ -26726,7 +27187,8 @@
     govtrack: 412471
     opensecrets: N00031782
     votesmart: 11940
-    fec_id: H0SC01279
+    fec:
+    - H0SC01279
   name:
     first: Tim
     last: Scott
@@ -26753,7 +27215,8 @@
     opensecrets: N00004291
     votesmart: 27142
     icpsr: 14657
-    fec_id: H8WI09050
+    fec:
+    - H8WI09050
   name:
     first: F.
     middle: James
@@ -26884,7 +27347,8 @@
     opensecrets: N00001813
     votesmart: 26981
     icpsr: 29134
-    fec_id: H0NY18065
+    fec:
+    - H0NY18065
   name:
     first: José
     middle: E.
@@ -26983,7 +27447,8 @@
     govtrack: 400367
     opensecrets: N00005681
     votesmart: 288
-    fec_id: H2TX03126
+    fec:
+    - H2TX03126
   name:
     first: Peter
     middle: A.
@@ -27059,7 +27524,8 @@
     govtrack: 412396
     opensecrets: N00030622
     votesmart: 121621
-    fec_id: H0AL07086
+    fec:
+    - H0AL07086
   name:
     first: Terri
     last: Sewell
@@ -27087,7 +27553,8 @@
     opensecrets: N00009920
     votesmart: 53266
     icpsr: 14659
-    fec_id: S6AL00013
+    fec:
+    - S6AL00013
   name:
     first: Richard
     middle: C.
@@ -27166,7 +27633,8 @@
     govtrack: 400371
     opensecrets: N00006897
     votesmart: 142
-    fec_id: H6CA24113
+    fec:
+    - H6CA24113
   name:
     first: Brad
     middle: J.
@@ -27241,7 +27709,8 @@
     govtrack: 400373
     opensecrets: N00004961
     votesmart: 246
-    fec_id: H2IL20042
+    fec:
+    - H2IL20042
   name:
     first: John
     middle: M.
@@ -27316,7 +27785,8 @@
     govtrack: 412225
     opensecrets: N00027655
     votesmart: 57781
-    fec_id: H6NC11172
+    fec:
+    - H6NC11172
   name:
     first: Heath
     last: Shuler
@@ -27356,7 +27826,8 @@
     govtrack: 409888
     opensecrets: N00013770
     votesmart: 55693
-    fec_id: H2PA09035
+    fec:
+    - H2PA09035
   name:
     first: William
     last: Shuster
@@ -27419,7 +27890,8 @@
     govtrack: 400376
     opensecrets: N00006263
     votesmart: 2917
-    fec_id: H8ID02064
+    fec:
+    - H8ID02064
   name:
     first: Michael
     middle: K.
@@ -27489,7 +27961,8 @@
     govtrack: 412186
     opensecrets: N00027523
     votesmart: 22510
-    fec_id: H6NJ13191
+    fec:
+    - H6NJ13191
   name:
     first: Albio
     last: Sires
@@ -27537,7 +28010,8 @@
     opensecrets: N00001311
     votesmart: 26991
     icpsr: 15444
-    fec_id: H6NY03031
+    fec:
+    - H6NY03031
   name:
     first: Louise
     middle: McIntosh
@@ -27642,7 +28116,8 @@
     govtrack: 400379
     opensecrets: N00007833
     votesmart: 845
-    fec_id: H6WA09025
+    fec:
+    - H6WA09025
   name:
     first: Adam
     last: Smith
@@ -27716,7 +28191,8 @@
     govtrack: 412217
     opensecrets: N00027623
     votesmart: 21284
-    fec_id: H6NE03115
+    fec:
+    - H6NE03115
   name:
     first: Adrian
     last: Smith
@@ -27758,7 +28234,8 @@
     opensecrets: N00009816
     votesmart: 26952
     icpsr: 14863
-    fec_id: H8NJ04014
+    fec:
+    - H8NJ04014
   name:
     first: Christopher
     middle: H.
@@ -27883,7 +28360,8 @@
     opensecrets: N00001811
     votesmart: 27097
     icpsr: 15445
-    fec_id: H6TX21012
+    fec:
+    - H6TX21012
   name:
     first: Lamar
     middle: S.
@@ -27988,7 +28466,8 @@
     govtrack: 412408
     opensecrets: N00031204
     votesmart: 124329
-    fec_id: H0FL02110
+    fec:
+    - H0FL02110
   name:
     first: Steve
     last: Southerland
@@ -28014,7 +28493,8 @@
     govtrack: 412259
     opensecrets: N00029649
     votesmart: 8425
-    fec_id: H8CA12171
+    fec:
+    - H8CA12171
   name:
     first: Jackie
     last: Speier
@@ -28056,7 +28536,8 @@
     opensecrets: N00007397
     votesmart: 26736
     icpsr: 14053
-    fec_id: H6CA09023
+    fec:
+    - H6CA09023
   name:
     first: Fortney
     middle: H.
@@ -28205,7 +28686,8 @@
     opensecrets: N00002782
     votesmart: 26803
     icpsr: 15627
-    fec_id: H8FL06056
+    fec:
+    - H8FL06056
   name:
     first: Clifford
     middle: B.
@@ -28305,7 +28787,8 @@
     govtrack: 412461
     opensecrets: N00029574
     votesmart: 45333
-    fec_id: H8OH15076
+    fec:
+    - H8OH15076
   name:
     first: Steve
     last: Stivers
@@ -28331,7 +28814,8 @@
     govtrack: 412392
     opensecrets: N00030891
     votesmart: 34230
-    fec_id: H0IN03198
+    fec:
+    - H0IN03198
   name:
     first: Marlin
     middle: A.
@@ -28365,7 +28849,8 @@
     govtrack: 400392
     opensecrets: N00013847
     votesmart: 24559
-    fec_id: H2OK01093
+    fec:
+    - H2OK01093
   name:
     first: John
     middle: A.
@@ -28428,7 +28913,8 @@
     govtrack: 412228
     opensecrets: N00027901
     votesmart: 8394
-    fec_id: H6OH13133
+    fec:
+    - H6OH13133
   name:
     first: Betty
     last: Sutton
@@ -28468,7 +28954,8 @@
     govtrack: 400355
     opensecrets: N00024870
     votesmart: 29674
-    fec_id: H2CA39078
+    fec:
+    - H2CA39078
   name:
     first: Linda
     middle: T.
@@ -28525,7 +29012,8 @@
     govtrack: 400400
     opensecrets: N00005321
     votesmart: 21276
-    fec_id: H8NE02139
+    fec:
+    - H8NE02139
   name:
     first: Lee
     middle: R.
@@ -28594,7 +29082,8 @@
     govtrack: 400402
     opensecrets: N00003288
     votesmart: 26929
-    fec_id: H4MS02068
+    fec:
+    - H4MS02068
   name:
     first: Bennie
     middle: G.
@@ -28681,7 +29170,8 @@
     govtrack: 400403
     opensecrets: N00007419
     votesmart: 3564
-    fec_id: H8CA01109
+    fec:
+    - H8CA01109
   name:
     first: C.
     middle: Michael
@@ -28751,7 +29241,8 @@
     govtrack: 412317
     opensecrets: N00029736
     votesmart: 24046
-    fec_id: H8PA05071
+    fec:
+    - H8PA05071
   name:
     first: Glenn
     last: Thompson
@@ -28785,7 +29276,8 @@
     govtrack: 400404
     opensecrets: N00006052
     votesmart: 21706
-    fec_id: H4TX13014
+    fec:
+    - H4TX13014
   name:
     first: William
     middle: M.
@@ -28868,7 +29360,8 @@
     govtrack: 400546
     opensecrets: N00004572
     votesmart: 398
-    fec_id: S2SD00068
+    fec:
+    - S2SD00068
   name:
     first: John
     last: Thune
@@ -28920,7 +29413,8 @@
     govtrack: 400406
     opensecrets: N00009699
     votesmart: 8404
-    fec_id: H0OH12062
+    fec:
+    - H0OH12062
   name:
     first: Patrick
     middle: J.
@@ -28984,7 +29478,8 @@
     govtrack: 400407
     opensecrets: N00000226
     votesmart: 553
-    fec_id: H4MA06033
+    fec:
+    - H4MA06033
   name:
     first: John
     middle: F.
@@ -29058,7 +29553,8 @@
     govtrack: 412405
     opensecrets: N00027509
     votesmart: 65403
-    fec_id: H6CO03139
+    fec:
+    - H6CO03139
   name:
     first: Scott
     last: Tipton
@@ -29084,7 +29580,8 @@
     govtrack: 412319
     opensecrets: N00030196
     votesmart: 4403
-    fec_id: H8NY21203
+    fec:
+    - H8NY21203
   name:
     first: Paul
     last: Tonko
@@ -29119,7 +29616,8 @@
     govtrack: 400408
     opensecrets: N00001489
     votesmart: 24096
-    fec_id: S4PA00121
+    fec:
+    - S4PA00121
   name:
     first: Patrick
     middle: J.
@@ -29167,7 +29665,8 @@
     opensecrets: N00001082
     votesmart: 26973
     icpsr: 15072
-    fec_id: H2NY11017
+    fec:
+    - H2NY11017
   name:
     first: Edolphus
     last: Towns
@@ -29284,7 +29783,8 @@
     govtrack: 412254
     opensecrets: N00029026
     votesmart: 89417
-    fec_id: H8MA05143
+    fec:
+    - H8MA05143
   name:
     first: Niki
     middle: S.
@@ -29326,7 +29826,8 @@
     govtrack: 400411
     opensecrets: N00025175
     votesmart: 45519
-    fec_id: H2OH03067
+    fec:
+    - H2OH03067
   name:
     first: Michael
     middle: R.
@@ -29383,7 +29884,8 @@
     opensecrets: N00004133
     votesmart: 26906
     icpsr: 15446
-    fec_id: H6MI04113
+    fec:
+    - H6MI04113
   name:
     first: Frederick
     middle: Stephen
@@ -29489,7 +29991,8 @@
     govtrack: 400415
     opensecrets: N00013820
     votesmart: 6098
-    fec_id: H2MD08126
+    fec:
+    - H2MD08126
   name:
     first: Christopher
     last: Van Hollen
@@ -29547,7 +30050,8 @@
     govtrack: 400416
     opensecrets: N00001102
     votesmart: 26975
-    fec_id: H2NY00010
+    fec:
+    - H2NY00010
   name:
     first: Nydia
     middle: M.
@@ -29635,7 +30139,8 @@
     opensecrets: N00003813
     votesmart: 26851
     icpsr: 15124
-    fec_id: H4IN01012
+    fec:
+    - H4IN01012
   name:
     first: Peter
     middle: J.
@@ -29747,7 +30252,8 @@
     govtrack: 400418
     opensecrets: N00009659
     votesmart: 4615
-    fec_id: S4LA00057
+    fec:
+    - S4LA00057
   name:
     first: David
     last: Vitter
@@ -29801,7 +30307,8 @@
     govtrack: 412213
     opensecrets: N00026368
     votesmart: 8618
-    fec_id: H4MI07103
+    fec:
+    - H4MI07103
   name:
     first: Timothy
     last: Walberg
@@ -29833,7 +30340,8 @@
     govtrack: 400419
     opensecrets: N00007690
     votesmart: 2979
-    fec_id: H6OR02116
+    fec:
+    - H6OR02116
   name:
     first: Greg
     middle: P.
@@ -29902,7 +30410,8 @@
     govtrack: 412424
     opensecrets: N00004723
     votesmart: 116545
-    fec_id: H0IL08090
+    fec:
+    - H0IL08090
   name:
     first: Joe
     last: Walsh
@@ -29929,7 +30438,8 @@
     govtrack: 412214
     opensecrets: N00027467
     votesmart: 65443
-    fec_id: H6MN01174
+    fec:
+    - H6MN01174
   name:
     first: Timothy
     middle: J.
@@ -29971,7 +30481,8 @@
     govtrack: 400623
     opensecrets: N00026106
     votesmart: 24301
-    fec_id: H4FL20023
+    fec:
+    - H4FL20023
   name:
     first: Debbie
     middle: Wasserman
@@ -30020,7 +30531,8 @@
     govtrack: 400422
     opensecrets: N00006690
     votesmart: 26759
-    fec_id: H4CA23011
+    fec:
+    - H4CA23011
   name:
     first: Maxine
     last: Waters
@@ -30112,7 +30624,8 @@
     govtrack: 400424
     opensecrets: N00002328
     votesmart: 26997
-    fec_id: H2NC12021
+    fec:
+    - H2NC12021
   name:
     first: Melvin
     middle: Luther
@@ -30201,7 +30714,8 @@
     opensecrets: N00001861
     votesmart: 26753
     icpsr: 14280
-    fec_id: H6CA24048
+    fec:
+    - H6CA24048
   name:
     first: Henry
     middle: A.
@@ -30342,7 +30856,8 @@
     govtrack: 412410
     opensecrets: N00026335
     votesmart: 24302
-    fec_id: H0FL08208
+    fec:
+    - H0FL08208
   name:
     first: Daniel
     last: Webster
@@ -30368,7 +30883,8 @@
     govtrack: 412239
     opensecrets: N00000515
     votesmart: 51272
-    fec_id: H6VT00160
+    fec:
+    - H6VT00160
   name:
     first: Peter
     last: Welch
@@ -30408,7 +30924,8 @@
     govtrack: 412413
     opensecrets: N00029131
     votesmart: 124348
-    fec_id: H8FL22038
+    fec:
+    - H8FL22038
   name:
     first: Allen
     last: West
@@ -30434,7 +30951,8 @@
     govtrack: 400627
     opensecrets: N00026163
     votesmart: 8001
-    fec_id: H4GA08067
+    fec:
+    - H4GA08067
   name:
     first: Lynn
     middle: A.
@@ -30482,7 +31000,8 @@
     govtrack: 400431
     opensecrets: N00003467
     votesmart: 21873
-    fec_id: H4KY01040
+    fec:
+    - H4KY01040
   name:
     first: Edward
     last: Whitfield
@@ -30563,7 +31082,8 @@
     govtrack: 400433
     opensecrets: N00024809
     votesmart: 3985
-    fec_id: H2SC02059
+    fec:
+    - H2SC02059
   name:
     first: Addison
     middle: G.
@@ -30627,7 +31147,8 @@
     govtrack: 412412
     opensecrets: N00030650
     votesmart: 17319
-    fec_id: H0FL17068
+    fec:
+    - H0FL17068
   name:
     first: Frederica
     last: Wilson
@@ -30653,7 +31174,8 @@
     govtrack: 412255
     opensecrets: N00029459
     votesmart: 58133
-    fec_id: H8VA01147
+    fec:
+    - H8VA01147
   name:
     first: Rob
     middle: J.
@@ -30697,7 +31219,8 @@
     opensecrets: N00002073
     votesmart: 27120
     icpsr: 14869
-    fec_id: H6VA10050
+    fec:
+    - H6VA10050
   name:
     first: Frank
     middle: Rudolph
@@ -30820,7 +31343,8 @@
     govtrack: 412402
     opensecrets: N00031857
     votesmart: 71815
-    fec_id: H0AR03055
+    fec:
+    - H0AR03055
   name:
     first: Steve
     last: Womack
@@ -30846,7 +31370,8 @@
     govtrack: 412416
     opensecrets: N00032416
     votesmart: 122251
-    fec_id: H0GA07133
+    fec:
+    - H0GA07133
   name:
     first: Rob
     last: Woodall
@@ -30872,7 +31397,8 @@
     govtrack: 400436
     opensecrets: N00007458
     votesmart: 26733
-    fec_id: H2CA01045
+    fec:
+    - H2CA01045
   name:
     first: Lynn
     middle: C.
@@ -30961,7 +31487,8 @@
     opensecrets: N00007724
     votesmart: 27036
     icpsr: 14871
-    fec_id: S6OR00110
+    fec:
+    - S6OR00110
   name:
     first: Ron
     last: Wyden
@@ -31050,14 +31577,15 @@
     phone: 202-224-5244
     fax: 202-228-2717
     contact_form: http://www.wyden.senate.gov/contact/
-    office: 221 Dirksen Senate Office Building
+    office: 223 Dirksen Senate Office Building
 - id:
     bioguide: Y000062
     thomas: 01853
     govtrack: 412211
     opensecrets: N00028073
     votesmart: 58579
-    fec_id: H6KY03124
+    fec:
+    - H6KY03124
   name:
     first: John
     middle: A.
@@ -31099,7 +31627,8 @@
     govtrack: 412430
     opensecrets: N00031502
     votesmart: 34433
-    fec_id: H0KS03137
+    fec:
+    - H0KS03137
   name:
     first: Kevin
     last: Yoder
@@ -31126,7 +31655,8 @@
     opensecrets: N00001817
     votesmart: 26802
     icpsr: 13047
-    fec_id: H6FL06035
+    fec:
+    - H6FL06035
   name:
     first: C. W.
     middle: Bill
@@ -31280,7 +31810,8 @@
     opensecrets: N00007999
     votesmart: 26717
     icpsr: 14066
-    fec_id: H6AK00045
+    fec:
+    - H6AK00045
   name:
     first: Donald
     middle: E.
@@ -31428,7 +31959,8 @@
     govtrack: 412428
     opensecrets: N00030670
     votesmart: 120345
-    fec_id: H0IN09070
+    fec:
+    - H0IN09070
   name:
     first: Todd
     last: Young
@@ -31455,7 +31987,8 @@
     govtrack: 412218
     opensecrets: N00027522
     votesmart: 2291
-    fec_id: H6NV02164
+    fec:
+    - H6NV02164
   name:
     first: Dean
     last: Heller
@@ -31503,7 +32036,8 @@
     govtrack: 412497
     opensecrets: N00033055
     votesmart: 129238
-    fec_id: H2NY00036
+    fec:
+    - H2NY00036
   name:
     first: Kathleen
     middle: C.
@@ -31529,7 +32063,8 @@
     govtrack: 412498
     opensecrets: N00006806
     votesmart: 70502
-    fec_id: H8CA36097
+    fec:
+    - H8CA36097
   name:
     first: Janice
     last: Hahn
@@ -31556,7 +32091,8 @@
     govtrack: 412500
     opensecrets: N00031177
     votesmart: 12537
-    fec_id: H2NV02395
+    fec:
+    - H2NV02395
   name:
     first: Mark
     middle: E.
@@ -31584,7 +32120,8 @@
     govtrack: 412499
     opensecrets: N00032601
     votesmart: 45519
-    fec_id: H0NY09072
+    fec:
+    - H0NY09072
   name:
     first: Robert
     middle: L.
@@ -31612,7 +32149,8 @@
     govtrack: 412501
     opensecrets: N00033474
     votesmart: 59641
-    fec_id: H2OR01133
+    fec:
+    - H2OR01133
   name:
     first: Suzanne
     last: Bonamici
@@ -31637,7 +32175,8 @@
     govtrack: 412502
     opensecrets: N00033981
     votesmart: 137292
-    fec_id: H2AZ08094
+    fec:
+    - H2AZ08094
   name:
     first: Ron
     last: Barber

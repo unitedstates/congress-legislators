@@ -32,7 +32,9 @@ def update_legislator(bioguide_id, row):
     exit(1)
 
   # New ID: FEC
-  legislator['id']['fec_id'] = row[18]
+  if legislator['id'].has_key('fec_id'):
+    del legislator['id']['fec_id']
+  legislator['id']['fec'] = [row[18]]
 
   # Other contact information, but only if active
   if active:
@@ -78,6 +80,7 @@ def update_social(bioguide_id, row):
 
   return True
 
+print "Reading Sunlight CSV..."
 count = 0
 with open("cache/sunlight/legislators.csv", "rb") as csvfile:
   reader = csv.reader(csvfile)
