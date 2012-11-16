@@ -4,6 +4,7 @@
 
 import lxml.etree, StringIO
 import urllib
+import string
 from datetime import date, datetime
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -67,6 +68,7 @@ for node in dom.getroot():
 	url = str(node.xpath("string(website)")).strip().replace("http://www.", "http://")
 	term["url"] = url
 	term["address"] = str(node.xpath("string(address)")).strip()
+	term["office"] = string.capwords(term["address"].split(" WASHINGTON ")[0])
 	
 	# TODO there is also an "email" field with a URL to a contact form (is it always a URL?)
 

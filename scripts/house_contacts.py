@@ -63,8 +63,12 @@ for moc in y:
 	
 	address = m.group(4)
 	phone = m.group(5)
+
+	office = address.split(";")[0]
 	
 	moc["name"]["official_full"] = name
 	term["address"] = address
+	term["office"] = office
+	term["phone"] = phone
 
 save_data(y, "legislators-current.yaml")
