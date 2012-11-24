@@ -8,7 +8,7 @@
     thomas_id: '15'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Conservation, Credit, Rural Development, and Research
       110-111: Conservation, Credit, Energy, and Research
@@ -17,7 +17,7 @@
     thomas_id: '22'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 106,107,108,109,110,111,112
+    congresses: "106,107,108,109,110,111,112"
     names:
       106-108: Department Operations, Oversight, Nutrition, and Forestry
       109: Department Operations, Oversight, Dairy, Nutrition, and Forestry
@@ -27,14 +27,14 @@
     thomas_id: '16'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-112: General Farm Commodities and Risk Management
   - name: Nutrition and Horticulture
     thomas_id: '03'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-102: Livestock, Dairy and Poultry
       103: Livestock
@@ -46,14 +46,14 @@
     thomas_id: '29'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110-112: Livestock, Dairy, and Poultry
   - name: Rural Development, Research, Biotechnology, and Foreign Agriculture
     thomas_id: '14'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Specialty Crops and Foreign Agriculture Programs
       110: Specialty Crops, Rural Development, and Foreign Agriculture
@@ -61,39 +61,39 @@
       112: Rural Development, Research, Biotechnology, and Foreign Agriculture
   - name: Conservation, Credit, and Rural Development
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-102: Conservation, Credit, and Rural Development
       103: Environment, Credit and Rural Development
   - name: Cotton, Rice, and Sugar
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Cotton, Rice, and Sugar
   - name: Department Operations, Research, and Foreign Agriculture
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Department Operations, Research, and Foreign Agriculture
   - name: Domestic Marketing, Consumer Relations, and Nutrition
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Domestic Marketing, Consumer Relations, and Nutrition
   - name: Forests, Family Farms, and Energy
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Forests, Family Farms, and Energy
   - name: Tobacco and Peanuts
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-101: Tobacco and Peanuts
       102: Peanuts and Tobacco
   - name: Wheat, Soybeans, and Feed Grains
     thomas_id: 08
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Wheat, Soybeans, and Feed Grains
   - name: Department Operations and Nutrition
@@ -108,23 +108,23 @@
       103: Foreign Agriculture and Hunger
   - name: General Farm Commodities
     thomas_id: '25'
-    congresses: 103,104,105
+    congresses: "103,104,105"
     names:
       103-105: General Farm Commodities
   - name: Specialty Crops and Natural Resources
     thomas_id: '24'
-    congresses: 103,104,105
+    congresses: "103,104,105"
     names:
       103: Specialty Crops and Natural Resources
       104-105: Risk Management and Specialty Crops
   - name: Department Operations, Nutrition and Foreign Agriculture
     thomas_id: '26'
-    congresses: 104,105
+    congresses: "104,105"
     names:
       104-105: Department Operations, Nutrition and Foreign Agriculture
   - name: Resource Conservation, Research and Forestry
     thomas_id: '27'
-    congresses: 104,105
+    congresses: "104,105"
     names:
       104: Resource Conservation, Research and Forestry
       105: Forestry, Resource Conservation and Research
@@ -140,7 +140,7 @@
       106: Risk Management, Research and Specialty Crops
   address: 1301 LHOB; Washington, DC 20515
   phone: (202) 225-2171
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Agriculture
 - type: house
@@ -154,7 +154,7 @@
     thomas_id: '01'
     address: 2362A RHOB; Washington, DC 20515-6016
     phone: (202) 225-2638
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-99: Agriculture, Rural Development and Related Agencies
       100: Rural Development, Agriculture and Related Agencies
@@ -169,7 +169,7 @@
     thomas_id: '02'
     address: H405 CAPITOL; Washington, DC 20515-6018
     phone: (202) 225-2847
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: Defense
       102-103: Defense
@@ -178,7 +178,7 @@
     thomas_id: '10'
     address: 2362B RHOB; Washington, DC 20515-6020
     phone: (202) 225-3421
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97: Energy and Water
       98-100: Energy and Water Development
@@ -195,7 +195,7 @@
     thomas_id: '06'
     address: B308 RHOB; Washington, DC 20515-6023
     phone: (202) 225-3081
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-99: Interior
       100: Interior and Related Agencies
@@ -204,7 +204,7 @@
     thomas_id: '07'
     address: 2358B RHOB; Washington, DC 20515-6024
     phone: (202) 225-3508
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97: Labor-Health and Human Services
       98-99: Labor-Health and Human Services-Education
@@ -222,7 +222,7 @@
     thomas_id: '04'
     address: HT2 CAPITOL; Washington, DC 20515-6021
     phone: (202) 225-2041
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: Foreign Operations
       102-105: Foreign Operations, Export Financing, and Related Programs
@@ -232,7 +232,7 @@
     phone: (202) 225-2141
   - name: Commerce, Justice, State, and the Judiciary
     thomas_id: '11'
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97: Commerce, Justice, State, and the Judiciary
       98-99: Commerce, Justice, State, and Judiciary
@@ -240,44 +240,44 @@
       102-105: Commerce, Justice, State, and Judiciary
   - name: District of Columbia
     thomas_id: '03'
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: District of Columbia
       102-105: District of Columbia
   - name: HUD-Independent Agencies
     thomas_id: '05'
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: HUD-Independent Agencies
       102-105: VA, HUD, and Independent Agencies
   - name: Legislative
     thomas_id: 08
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: Legislative
       102-105: Legislative
   - name: Military Construction
     thomas_id: 09
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: Military Construction
       102-105: Military Construction
   - name: Transportation
     thomas_id: '12'
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-99: Transportation
       100: Transportation and Related Agencies
       102-105: Transportation
   - name: Treasury-Postal Service-General Government
     thomas_id: '13'
-    congresses: 97,98,99,100,102,103,104,105
+    congresses: "97,98,99,100,102,103,104,105"
     names:
       97-100: Treasury-Postal Service-General Government
       102-105: Treasury, Postal Service, and General Government
   address: H307 CAPITOL; Washington, DC 20515-6015
   phone: (202) 225-2771
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Appropriations
 - type: house
@@ -290,7 +290,7 @@
     thomas_id: '25'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-4440
-    congresses: 108,109,110,111,112
+    congresses: "108,109,110,111,112"
     names:
       108-109: Tactical Air and Land Forces
       110-111: Air and Land Forces
@@ -299,7 +299,7 @@
     thomas_id: '02'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-7560
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,109,110,111,112"
     names:
       97-102: Military Personnel and Compensation
       103: Military Forces and Personnel
@@ -309,7 +309,7 @@
     thomas_id: '06'
     address: 2117 RHOB; Washington, DC 20515
     phone: (202) 226-5048
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-102: Investigations
       103: Oversight and Investigations
@@ -317,7 +317,7 @@
     thomas_id: '03'
     address: 2340 RHOB; Washington, DC 20515-6040
     phone: (202) 226-8979
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-103: Readiness
       104-107: Military Readiness
@@ -326,7 +326,7 @@
     thomas_id: '28'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2211
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110-111: Seapower and Expeditionary Forces
       112: Seapower and Projection Forces
@@ -334,48 +334,48 @@
     thomas_id: '29'
     address: 2216 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-    congresses: 108,109,110,111,112
+    congresses: "108,109,110,111,112"
     names:
       108-112: Strategic Forces
   - name: Emerging Threats and Capabilities
     thomas_id: '26'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
-    congresses: 108,109,110,111,112
+    congresses: "108,109,110,111,112"
     names:
       108-111: Terrorism, Unconventional Threats and Capabilities
       112: Emerging Threats and Capabilities
   - name: Military Installations and Facilities
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    congresses: "97,98,99,100,101,102,103,104,105,106,107"
     names:
       97-107: Military Installations and Facilities
   - name: Procurement and Military Nuclear Systems
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Procurement and Military Nuclear Systems
   - name: Research and Development
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    congresses: "97,98,99,100,101,102,103,104,105,106,107"
     names:
       97-102: Research and Development
       103: Research and Technology
       104-107: Military Research and Development
   - name: Seapower and Strategic and Critical Materials
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Seapower and Strategic and Critical Materials
   - name: Military Acquisition
     thomas_id: '20'
-    congresses: 103,104,105,106,107
+    congresses: "103,104,105,106,107"
     names:
       103: Military Acquisition
       104-107: Military Procurement
   - name: Projection Forces
     thomas_id: '30'
-    congresses: 108,109
+    congresses: "108,109"
     names:
       108-109: Projection Forces
   - name: Total Force
@@ -385,7 +385,7 @@
       108: Total Force
   address: 2120 RHOB; Washington, DC 20515-6035
   phone: (202) 225-4151
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-103: Armed Services
     104-105: National Security
@@ -400,7 +400,7 @@
     thomas_id: '16'
     address: 2129 RHOB; Washington, DC 20515-6053
     phone: (202) 225-7502
-    congresses: 104,105,106,107,108,109,110,112
+    congresses: "104,105,106,107,108,109,110,112"
     names:
       104: Capital Markets, Insurance and Government-Sponsored Enterprises
       105-106: Capital Markets, Securities and Government Sponsored Enterprises
@@ -410,7 +410,7 @@
     thomas_id: '19'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-    congresses: 108,109,110,112
+    congresses: "108,109,110,112"
     names:
       108-110: Domestic and International Monetary Policy, Trade, and Technology
       112: Domestic Monetary Policy and Technology
@@ -418,14 +418,14 @@
     thomas_id: '15'
     address: 2129 RHOB; Washington, DC 20515-6051
     phone: (202) 225-7502
-    congresses: 104,105,106,107,108,109,110,111,112
+    congresses: "104,105,106,107,108,109,110,111,112"
     names:
       104-112: Financial Institutions and Consumer Credit
   - name: Insurance, Housing and Community Opportunity
     thomas_id: '04'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-103: Housing and Community Development
       104-111: Housing and Community Opportunity
@@ -434,46 +434,46 @@
     thomas_id: '20'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-    congresses: 111,112
+    congresses: "111,112"
     names:
       111-112: International Monetary Policy and Trade
   - name: Oversight and Investigations
     thomas_id: 09
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-98: General Oversight and Renegotiation
       99-100: General Oversight and Investigations
   - name: Consumer Affairs and Coinage
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Consumer Affairs and Coinage
   - name: Domestic Monetary Policy
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Domestic Monetary Policy
   - name: Economic Stabilization
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Economic Stabilization
   - name: Financial Institutions Supervision, Regulation and Insurance
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-102: Financial Institutions Supervision, Regulation and Insurance
       103: Financial Institutions Supervision, Regulation and Deposit Insurance
   - name: International Development Institutions and Finance
     thomas_id: '06'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-100: International Development Institutions and Finance
   - name: International Trade, Investment and Monetary Policy
     thomas_id: 08
-    congresses: 97,98,99,100,101,102,103,104,105,106
+    congresses: "97,98,99,100,101,102,103,104,105,106"
     names:
       97-98: International Trade, Investment and Monetary Policy
       99-100: International Finance, Trade and Monetary Policy
@@ -481,7 +481,7 @@
       104-106: Domestic and International Monetary Policy
   - name: Policy Research and Insurance
     thomas_id: '11'
-    congresses: 101,102
+    congresses: "101,102"
     names:
       101-102: Policy Research and Insurance
   - name: Consumer Credit and Insurance
@@ -506,7 +506,7 @@
       107: International Monetary Policy and Trade
   address: 2129 RHOB; Washington, DC 20515-6050
   phone: (202) 225-7502
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93: Banking and Currency
     94: Banking, Currency, and Housing
@@ -520,7 +520,7 @@
   house_committee_id: BU
   address: 207 CHOB; Washington, DC 20515-6065
   phone: (202) 226-7270
-  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     94-112: Budget
 - type: house
@@ -533,7 +533,7 @@
     thomas_id: '14'
     address: 2181 RHOB; Washington, DC 20515-9998
     phone: (202) 225-4527
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Education Reform
       110-112: Early Childhood, Elementary, and Secondary Education
@@ -541,14 +541,14 @@
     thomas_id: '02'
     address: 2181 RHOB; Washington, DC 20515-6104
     phone: (202) 225-4527
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-103: Labor-Management Relations
       104-109: Employer-Employee Relations
       110-112: Health, Employment, Labor, and Pensions
   - name: Healthy Families and Communities
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,107,108,109,110,111
+    congresses: "97,98,99,100,101,102,103,107,108,109,110,111"
     names:
       97-102: Select Education
       103: Select Education and Civil Rights
@@ -558,7 +558,7 @@
     thomas_id: '13'
     address: 2181 RHOB; Washington, DC 20515-9998
     phone: (202) 225-4527
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: 21st Century Competitiveness
       110-111: Higher Education, Lifelong Learning, and Competitiveness
@@ -567,50 +567,50 @@
     thomas_id: '10'
     address: 2181 RHOB; Washington, DC 20515-6103
     phone: (202) 225-4527
-    congresses: 103,104,105,106,107,108,109,110,111,112
+    congresses: "103,104,105,106,107,108,109,110,111,112"
     names:
       103: Labor Standards, Occupational Health and Safety
       104-112: Workforce Protections
   - name: Elementary, Secondary, and Vocational Education
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Elementary, Secondary, and Vocational Education
   - name: Employment Opportunities
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Employment Opportunities
   - name: Health and Safety
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Health and Safety
   - name: Human Resources
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Human Resources
   - name: Labor Standards
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Labor Standards
   - name: Postsecondary Education
     thomas_id: 08
-    congresses: 97,98,99,100,101,102,103,104,105,106
+    congresses: "97,98,99,100,101,102,103,104,105,106"
     names:
       97-102: Postsecondary Education
       103: Postsecondary Education and Training
       104-106: Postsecondary Education, Training and Life-Long Learning
   - name: Early Childhood, Youth and Families
     thomas_id: '11'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: Early Childhood, Youth and Families
   address: 2181 RHOB; Washington, DC 20515-6100
   phone: (202) 225-4527
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-103: Education and Labor
     104: Economic and Educational Opportunities
@@ -627,7 +627,7 @@
     thomas_id: '16'
     address: H2-259A FHOB; Washington, DC 20515
     phone: (202) 226-7812
-    congresses: 109,110,112
+    congresses: "109,110,112"
     names:
       109: Africa, Global Human Rights and International Operations
       110: Africa and Global Health
@@ -636,7 +636,7 @@
     thomas_id: '05'
     address: H2-255 FHOB; Washington, DC 20515
     phone: (202) 226-7825
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-102: Asian and Pacific Affairs
       103-106: Asia and the Pacific
@@ -648,7 +648,7 @@
     thomas_id: '14'
     address: H2-256 FHOB; Washington, DC 20515
     phone: (202) 226-6434
-    congresses: 107,108,109,110,112
+    congresses: "107,108,109,110,112"
     names:
       107-108: Europe
       109: Europe and Emerging Threats
@@ -665,7 +665,7 @@
     thomas_id: '18'
     address: H2-340 FHOB; Washington, DC 20515
     phone: (202) 226-1500
-    congresses: 109,110,112
+    congresses: "109,110,112"
     names:
       109: International Terrorism and Nonproliferation
       110: Terrorism, Nonproliferation, and Trade
@@ -674,7 +674,7 @@
     thomas_id: '13'
     address: B358 RHOB; Washington, DC 20515
     phone: (202) 225-3345
-    congresses: 107,108,109,110,112
+    congresses: "107,108,109,110,112"
     names:
       107: Middle East and South Asia
       108-109: Middle East and Central Asia
@@ -684,41 +684,41 @@
     thomas_id: '07'
     address: H2-257 FHOB; Washington, DC 20515
     phone: (202) 226-9980
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97: Inter-American Affairs
       98-103: Western Hemisphere Affairs
       104-112: Western Hemisphere
   - name: Africa
     thomas_id: 08
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108"
     names:
       97-108: Africa
   - name: Europe and the Middle East
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Europe and the Middle East
   - name: Human Rights and International Organizations
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Human Rights and International Organizations
   - name: International Economic Policy and Trade
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,104,105,106
+    congresses: "97,98,99,100,101,102,103,104,105,106"
     names:
       97-102: International Economic Policy and Trade
       103: Economic Policy, Trade, and Environment
       104-106: International Economic Policy and Trade
   - name: International Operations
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: International Operations
   - name: International Security and Scientific Affairs
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-98: International Security and Scientific Affairs
       99-102: Arms Control, International Security and Science
@@ -729,7 +729,7 @@
       103: International Security, International Organizations, and Human Rights
   - name: International Operations and Human Rights
     thomas_id: '12'
-    congresses: 104,105,106,107
+    congresses: "104,105,106,107"
     names:
       104-107: International Operations and Human Rights
   - name: International Terrorism, Nonproliferation and Human Rights
@@ -739,7 +739,7 @@
       108: International Terrorism, Nonproliferation and Human Rights
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93: Foreign Affairs
     94-95: International Relations
@@ -758,7 +758,7 @@
     thomas_id: '25'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Federal Workforce and Agency Organization
       110-111: Federal Workforce, Post Office, and the District of Columbia
@@ -767,14 +767,14 @@
     thomas_id: '24'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Government Management, Finance, and Accountability
       110-111: Government Management, Organization, and Procurement
       112: Government Organization, Efficiency, and Financial Management
   - name: Information Policy, Census, and National Archives
     thomas_id: '23'
-    congresses: 109,110,111
+    congresses: "109,110,111"
     names:
       109: Federalism and the Census
       110-111: Information Policy, Census, and National Archives
@@ -782,7 +782,7 @@
     thomas_id: '06'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-    congresses: 97,98,99,100,101,102,103,104,105,107
+    congresses: "97,98,99,100,101,102,103,104,105,107"
     names:
       97-103: Legislation and National Security
       104-105: National Security, International Affairs and Criminal Justice
@@ -816,25 +816,25 @@
         Reform
   - name: Commerce, Consumer, and Monetary Affairs
     thomas_id: '05'
-    congresses: 97,100
+    congresses: "97,100"
     names:
       97: Commerce, Consumer, and Monetary Affairs
       100: Commerce, Consumer, and Monetary Affairs
   - name: Government Activities and Transportation
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-102: Government Activities and Transportation
   - name: Government Information and Individual Rights
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97: Government Information and Individual Rights
       98-102: Government Information, Justice, and Agriculture
       103: Information, Justice, Transportation, and Agriculture
   - name: Intergovernmental Relations and Human Resources
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,104,105
+    congresses: "97,98,99,100,101,102,103,104,105"
     names:
       97-99: Intergovernmental Relations and Human Resources
       100-104: Human Resources and Intergovernmental Relations
@@ -846,40 +846,40 @@
       97: Manpower and Housing
   - name: Environment, Energy, and Natural Resources
     thomas_id: '01'
-    congresses: 102,103,104,105,106,107,108
+    congresses: "102,103,104,105,106,107,108"
     names:
       102-103: Environment, Energy, and Natural Resources
       104-106: National Economic Growth, Natural Resources and Regulatory Affairs
       107-108: Energy Policy, Natural Resources and Regulatory Affairs
   - name: Civil Service
     thomas_id: 09
-    congresses: 104,105,106,107
+    congresses: "104,105,106,107"
     names:
       104-106: Civil Service
       107: Civil Service and Agency Organization
   - name: District of Columbia
     thomas_id: '10'
-    congresses: 104,105,106,107
+    congresses: "104,105,106,107"
     names:
       104-107: District of Columbia
   - name: Government Management, Information and Technology
     thomas_id: '12'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: Government Management, Information and Technology
   - name: Postal Service
     thomas_id: '11'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: Postal Service
   - name: Census
     thomas_id: '13'
-    congresses: 105,106,107
+    congresses: "105,106,107"
     names:
       105-107: Census
   - name: Criminal Justice, Drug Policy and Human Resources
     thomas_id: '14'
-    congresses: 106,107,108
+    congresses: "106,107,108"
     names:
       106-108: Criminal Justice, Drug Policy and Human Resources
   - name: Government Efficiency, Financial Management and Intergovernmental Relations
@@ -909,7 +909,7 @@
       108: Technology, Information Policy, Intergovernmental Relations and the Census
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-103: Government Operations
     104-105: Government Reform and Oversight
@@ -931,46 +931,46 @@
     thomas_id: 08
     address: 1309 LHOB; Washington, DC 20515-6157
     phone: (202) 225-8281
-    congresses: 99,100,101,102,103,110,112
+    congresses: "99,100,101,102,103,110,112"
     names:
       99-103: Elections
       110: Elections
       112: Elections
   - name: Accounts
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Accounts
   - name: Contracts and Printing
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-98: Contracts and Printing
       99-102: Procurement and Printing
   - name: Office Systems
     thomas_id: '07'
-    congresses: 97,100,101,102,103
+    congresses: "97,100,101,102,103"
     names:
       97: Office Systems
       100-103: Office Systems
   - name: Personnel and Police
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Personnel and Police
   - name: Services
     thomas_id: '03'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Services
   - name: Libraries and Memorials
     thomas_id: 09
-    congresses: 100,101,102,103
+    congresses: "100,101,102,103"
     names:
       100-103: Libraries and Memorials
   address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-8281
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-103: House Administration
     104-105: Oversight
@@ -985,7 +985,7 @@
     thomas_id: '11'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110-111: Border, Maritime, and Global Counterterrorism
       112: Border and Maritime Security
@@ -993,7 +993,7 @@
     thomas_id: '12'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110-111: Emergency Communications, Preparedness, and Response
       112: Emergency Preparedness, Response, and Communications
@@ -1001,7 +1001,7 @@
     thomas_id: 08
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Emergency Preparedness, Science, and Technology
       110-111: Emerging Threats, Cybersecurity, and Science and Technology
@@ -1010,7 +1010,7 @@
     thomas_id: '05'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 108,109,110,111,112
+    congresses: "108,109,110,111,112"
     names:
       108: Intelligence and Counterterrorism
       109-111: Intelligence, Information Sharing, and Terrorism Risk Assessment
@@ -1019,7 +1019,7 @@
     thomas_id: 09
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Management, Integration, and Oversight
       110-111: Management, Investigations, and Oversight
@@ -1028,7 +1028,7 @@
     thomas_id: '07'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Economic Security, Infrastructure Protection, and Cybersecurity
       110-111: Transportation Security and Infrastructure Protection
@@ -1055,7 +1055,7 @@
       109: Prevention of Nuclear and Biological Attack
   address: H2-176 FHOB; Washington, DC 20515-6480
   phone: (202) 226-8417
-  congresses: 107,108,109,110,111,112
+  congresses: "107,108,109,110,111,112"
   names:
     107-108: Homeland Security (Select)
     109-112: Homeland Security
@@ -1069,7 +1069,7 @@
     thomas_id: '17'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-111: Commerce, Trade and Consumer Protection
       112: Commerce, Manufacturing, and Trade
@@ -1077,7 +1077,7 @@
     thomas_id: '16'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-110: Telecommunications and the Internet
       111: Communications, Technology, and the Internet
@@ -1086,7 +1086,7 @@
     thomas_id: '03'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-99: Energy Conservation and Power
       100-106: Energy and Power
@@ -1097,14 +1097,14 @@
     thomas_id: '14'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-112: Health
   - name: Oversight and Investigations
     thomas_id: '02'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-    congresses: 97,99,111
+    congresses: "97,99,111"
     names:
       97: Oversight and Investigations
       99: Oversight and Investigations
@@ -1118,30 +1118,30 @@
       112: Environment and the Economy
   - name: Commerce, Transportation and Tourism
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Commerce, Transportation and Tourism
       100-103: Commerce, Consumer Protection, and Competitiveness
   - name: Fossil and Synthetic Fuels
     thomas_id: '07'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: Fossil and Synthetic Fuels
       100: Transportation, Tourism, and Hazardous Materials
   - name: Health and Environment
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,104,105,106
+    congresses: "97,98,99,100,101,102,103,104,105,106"
     names:
       97-106: Health and Environment
   - name: Telecommunications, Consumer Protection and Finance
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104
+    congresses: "97,98,99,100,101,102,103,104"
     names:
       97-99: Telecommunications, Consumer Protection and Finance
       100-104: Telecommunications and Finance
   - name: Transportation and Hazardous Materials
     thomas_id: '10'
-    congresses: 101,102,103
+    congresses: "101,102,103"
     names:
       101-103: Transportation and Hazardous Materials
   - name: Commerce, Trade, and Hazardous Materials
@@ -1151,22 +1151,22 @@
       104: Commerce, Trade, and Hazardous Materials
   - name: Finance and Hazardous Materials
     thomas_id: '13'
-    congresses: 105,106
+    congresses: "105,106"
     names:
       105-106: Finance and Hazardous Materials
   - name: Telecommunications, Trade, and Consumer Protection
     thomas_id: '12'
-    congresses: 105,106
+    congresses: "105,106"
     names:
       105-106: Telecommunications, Trade, and Consumer Protection
   - name: Environment and Hazardous Materials
     thomas_id: '15'
-    congresses: 107,108,109,110
+    congresses: "107,108,109,110"
     names:
       107-110: Environment and Hazardous Materials
   address: 2125 RHOB; Washington, DC 20515
   phone: (202) 225-2927
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-96: Interstate and Foreign Commerce
     97-103: Energy and Commerce
@@ -1182,13 +1182,13 @@
     thomas_id: '06'
     address: 1333 LHOB; Washington, DC 20515-6208
     phone: (202) 225-9297
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-102: Energy and the Environment
       103-112: Energy and Mineral Resources
   - name: Insular Affairs, Oceans and Wildlife
     thomas_id: '15'
-    congresses: 104,105,106,107,108,109,110
+    congresses: "104,105,106,107,108,109,110"
     names:
       104: Fisheries, Wildlife and Oceans
       105-109: Fisheries Conservation, Wildlife, and Oceans
@@ -1197,7 +1197,7 @@
     thomas_id: '10'
     address: 1017 LHOB; Washington, DC 20515
     phone: (202) 226-7736
-    congresses: 101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       101-102: National Parks and Public Lands
       103: National Parks, Forests, and Public Lands
@@ -1209,7 +1209,7 @@
     thomas_id: '13'
     address: 1522 LHOB; Washington, DC 20515-6204
     phone: (202) 225-8331
-    congresses: 104,105,106,107,108,109,110,111,112
+    congresses: "104,105,106,107,108,109,110,111,112"
     names:
       104: Water and Power Resources
       105-112: Water and Power
@@ -1217,7 +1217,7 @@
     thomas_id: '22'
     address: 140 CHOB; Washington, DC 20515
     phone: (202) 226-0200
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110: Insular Affairs
       111: Insular Affairs, Oceans and Wildlife
@@ -1231,27 +1231,27 @@
       112: Indian and Alaska Native Affairs
   - name: Insular Affairs
     thomas_id: '07'
-    congresses: 97,98,100
+    congresses: "97,98,100"
     names:
       97-98: Insular Affairs
       100: Insular and International Affairs
   - name: Mines and Mining
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97: Mines and Mining
       98: Mining, Forest Management and Bonneville Power Administration
       99-102: Mining and Natural Resources
   - name: Public Lands and National Parks
     thomas_id: '01'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-98: Public Lands and National Parks
       99: Public Lands
       100: National Parks and Public Lands
   - name: Water and Power Resources
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-100: Water and Power Resources
       101-102: Water, Power and Offshore Energy Resources
@@ -1267,12 +1267,12 @@
       99: National Parks and Recreation
   - name: Insular and International Affairs
     thomas_id: 09
-    congresses: 101,102,103
+    congresses: "101,102,103"
     names:
       101-103: Insular and International Affairs
   - name: General Oversight and California Desert Lands
     thomas_id: '11'
-    congresses: 102,103
+    congresses: "102,103"
     names:
       102: General Oversight and California Desert Lands
       103: Oversight and Investigations
@@ -1288,12 +1288,12 @@
       104: Native American and Insular Affairs
   - name: Forests and Forest Health
     thomas_id: '20'
-    congresses: 105,106,107,108,109
+    congresses: "105,106,107,108,109"
     names:
       105-109: Forests and Forest Health
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-102: Interior and Insular Affairs
     103: Natural Resources
@@ -1320,20 +1320,20 @@
     phone: (202) 225-4121
   - name: Legislation
     thomas_id: '02'
-    congresses: 97,98,100,103
+    congresses: "97,98,100,103"
     names:
       97-98: Legislation
       100: Legislation
       103: Legislation
   - name: Program and Budget Authorization
     thomas_id: '01'
-    congresses: 97,103
+    congresses: "97,103"
     names:
       97: Program and Budget Authorization
       103: Program and Budget Authorization
   address: HVC304 CAPITOL; Washington, DC 20515-6415
   phone: (202) 225-4121
-  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     95-112: Intelligence (Permanent Select)
 - type: house
@@ -1344,14 +1344,14 @@
   subcommittees:
   - name: Commercial and Administrative Law
     thomas_id: 09
-    congresses: 104,105,106,107,108,109,110,111
+    congresses: "104,105,106,107,108,109,110,111"
     names:
       104-111: Commercial and Administrative Law
   - name: The Constitution
     thomas_id: '10'
     address: H2-362 FHOB; Washington, DC 20515-6220
     phone: (202) 225-2825
-    congresses: 104,105,106,107,108,109,110,111,112
+    congresses: "104,105,106,107,108,109,110,111,112"
     names:
       104-109: Constitution
       110-111: Constitution, Civil Rights, and Civil Liberties
@@ -1360,7 +1360,7 @@
     thomas_id: '03'
     address: 517 CHOB; Washington, DC 20515-6219
     phone: (202) 226-7680
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-100: Courts, Civil Liberties, and the Administration of Justice
       101: Courts, Intellectual Property, and the Administration of Justice
@@ -1373,7 +1373,7 @@
     thomas_id: 08
     address: B370B RHOB; Washington, DC 20515-6223
     phone: (202) 225-5727
-    congresses: 102,103,104,105,106,107,108,109,110,111,112
+    congresses: "102,103,104,105,106,107,108,109,110,111,112"
     names:
       102-103: Crime and Criminal Justice
       104-107: Crime
@@ -1382,7 +1382,7 @@
     thomas_id: '01'
     address: B353 RHOB; Washington, DC 20515-6217
     phone: (202) 225-3926
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-101: Immigration, Refugees, and International Law
       102-103: International Law, Immigration, and Refugees
@@ -1400,27 +1400,27 @@
       112: Intellectual Property, Competition and the Internet
   - name: Administrative Law and Governmental Relations
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Administrative Law and Governmental Relations
   - name: Civil and Constitutional Rights
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Civil and Constitutional Rights
   - name: Crime
     thomas_id: '06'
-    congresses: 97,98,99,100,101
+    congresses: "97,98,99,100,101"
     names:
       97-101: Crime
   - name: Criminal Justice
     thomas_id: '07'
-    congresses: 97,98,99,100,101
+    congresses: "97,98,99,100,101"
     names:
       97-101: Criminal Justice
   - name: Monopolies and Commercial Law
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-100: Monopolies and Commercial Law
       101-103: Economic and Commercial Law
@@ -1431,7 +1431,7 @@
       108: Antitrust (Full Committee Task Force)
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Judiciary
 - type: house
@@ -1444,28 +1444,28 @@
     thomas_id: '05'
     address: 2251 RHOB; Washington, DC 20515-6257
     phone: (202) 226-3220
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-112: Aviation
   - name: Coast Guard and Maritime Transportation
     thomas_id: '07'
     address: H2-507 FHOB; Washington, DC 20515-6231
     phone: (202) 226-3552
-    congresses: 104,105,106,107,108,109,110,111,112
+    congresses: "104,105,106,107,108,109,110,111,112"
     names:
       104-112: Coast Guard and Maritime Transportation
   - name: Economic Development, Public Buildings, and Emergency Management
     thomas_id: '13'
     address: H2-585 FHOB; Washington, DC 20515-6260
     phone: (202) 225-3014
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-112: Economic Development, Public Buildings and Emergency Management
   - name: Highways and Transit
     thomas_id: '12'
     address: B376 RHOB; Washington, DC 20515-6263
     phone: (202) 225-6715
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107: Highways and Transit
       108-109: Highways, Transit and Pipelines
@@ -1474,7 +1474,7 @@
     thomas_id: '14'
     address: B376 RHOB; Washington, DC 20515-6263
     phone: (202) 226-0727
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Railroads
       110-112: Railroads, Pipelines, and Hazardous Materials
@@ -1482,23 +1482,23 @@
     thomas_id: '02'
     address: B370A RHOB; Washington, DC 20515-6262
     phone: (202) 225-4360
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-102: Water Resources
       103-112: Water Resources and Environment
   - name: Economic Development
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Economic Development
   - name: Public Buildings and Grounds
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Public Buildings and Grounds
   - name: Surface Transportation
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103,104,105
+    congresses: "97,98,99,100,101,102,103,104,105"
     names:
       97-105: Surface Transportation
   - name: Investigations and Oversight
@@ -1508,14 +1508,14 @@
       98: Investigations and Oversight
   - name: Public Buildings and Economic Development
     thomas_id: 08
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-105: Public Buildings and Economic Development
       106: Economic Development, Public Buildings, Hazardous Materials and Pipeline
         Transportation
   - name: Railroads
     thomas_id: 09
-    congresses: 104,105
+    congresses: "104,105"
     names:
       104-105: Railroads
   - name: Ground Transportation
@@ -1530,7 +1530,7 @@
       106: Oversight, Investigations and Emergency Management
   address: 2165 RHOB; Washington, DC 20515-6256
   phone: (202) 225-9446
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93: Public Works
     94-103: Public Works and Transportation
@@ -1545,7 +1545,7 @@
     thomas_id: '02'
     address: 2233 RHOB; Washington, DC 20515
     phone: (202) 225-2231
-    congresses: 97,98,99,101,102,103,104,105,108,112
+    congresses: "97,98,99,101,102,103,104,105,108,112"
     names:
       97-99: Legislative Process
       101-104: Legislative Process
@@ -1561,14 +1561,14 @@
       111: Rules and Organization of the House
   - name: Rules of the House
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104,105,108
+    congresses: "97,98,99,100,101,102,103,104,105,108"
     names:
       97-104: Rules of the House
       105: Rules and Organization of the House
       108: Technology and the House
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9191
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Rules
 - type: house
@@ -1620,53 +1620,53 @@
     phone: (202) 225-5821
   - name: Energy, Environment, and Safety Issues Affecting Small Business
     thomas_id: '04'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: Energy, Environment, and Safety Issues Affecting Small Business
       100: Energy and Agriculture
   - name: Export Opportunities & Special Small Business Problems
     thomas_id: '06'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: Export Opportunities & Special Small Business Problems
       100: Exports, Tourism and Special Problems
   - name: General Oversight
     thomas_id: '02'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97: General Oversight
       98-99: General Oversight and the Economy
       100: SBA, and the General Economy
   - name: SBA and SBIC Authority, Minority Enterprise, and General Small Business
     thomas_id: '01'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: SBA and SBIC Authority, Minority Enterprise, and General Small Business
       100: Procurement, Innovation and Minority Enterprise Development
   - name: Tax, Access to Equity Capital and Business Opportunities
     thomas_id: '05'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Tax, Access to Equity Capital and Business Opportunities
   - name: Antitrust and Restraint of Trade Activities Affecting Small Business
     thomas_id: '03'
-    congresses: 98,99
+    congresses: "98,99"
     names:
       98-99: Antitrust and Restraint of Trade Activities Affecting Small Business
   - name: Procurement, Tourism, and Rural Development
     thomas_id: 09
-    congresses: 101,102
+    congresses: "101,102"
     names:
       101-102: Procurement, Tourism, and Rural Development
   - name: Regulation, Business Opportunity, and Energy
     thomas_id: '11'
-    congresses: 101,102
+    congresses: "101,102"
     names:
       101: Regulation, Business Opportunity, and Energy
       102: Regulation, Business Opportunities, and Energy
   - name: SBA, the General Economy and Minority Enterprise Development
     thomas_id: '07'
-    congresses: 101,102,103
+    congresses: "101,102,103"
     names:
       101-102: SBA, the General Economy and Minority Enterprise Development
       103: SBA Legislation and the General Economy
@@ -1682,7 +1682,7 @@
       107: Workforce, Empowerment, and Government Programs
   address: 2361 RHOB; Washington, DC 20515-6315
   phone: (202) 225-5821
-  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     94-112: Small Business
 - type: house
@@ -1692,7 +1692,7 @@
   house_committee_id: SO
   address: 1015 LHOB; Washington, DC 20515-6328
   phone: (202) 225-7103
-  congresses: 93,94,95,96,98,100,101,102,103,104,105,107,108,109,110,111,112
+  congresses: "93,94,95,96,98,100,101,102,103,104,105,107,108,109,110,111,112"
   names:
     93-96: Standards of Official Conduct
     98: Standards of Official Conduct
@@ -1709,7 +1709,7 @@
     thomas_id: '20'
     address: 2319 RHOB; Washington, DC 20515-6301
     phone: (202) 225-8844
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Energy
       110-112: Energy and Environment
@@ -1724,7 +1724,7 @@
     thomas_id: '14'
     address: B374 RHOB; Washington, DC 20515-6301
     phone: (202) 225-9644
-    congresses: 102,103,104,105,106,107,108,109,110,111,112
+    congresses: "102,103,104,105,106,107,108,109,110,111,112"
     names:
       102-103: Science
       104-106: Basic Research
@@ -1734,51 +1734,51 @@
     thomas_id: '16'
     address: B374 RHOB; Washington, DC 20515-6301
     phone: (202) 225-7858
-    congresses: 104,105,106,107,108,109,110,111,112
+    congresses: "104,105,106,107,108,109,110,111,112"
     names:
       104-112: Space and Aeronautics
   - name: Technology and Innovation
     thomas_id: '19'
     address: 2321 RHOB; Washington, DC 20515-6301
     phone: (202) 225-9662
-    congresses: 107,108,109,110,111,112
+    congresses: "107,108,109,110,111,112"
     names:
       107-109: Environment, Technology, and Standards
       110-112: Technology and Innovation
   - name: Energy Development and Applications
     thomas_id: '01'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: Energy Development and Applications
       100: International Scientific Cooperation
   - name: Energy Research and Production
     thomas_id: '06'
-    congresses: 97,98,99,100
+    congresses: "97,98,99,100"
     names:
       97-99: Energy Research and Production
       100: Energy Research and Development
   - name: Natural Resources, Agricultural Research and Environment
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-100: Natural Resources, Agricultural Research and Environment
       101: Natural Resources, Agriculture Research and Environment
       102: Environment
   - name: Science, Research and Technology
     thomas_id: '03'
-    congresses: 97,98,99,100,101
+    congresses: "97,98,99,100,101"
     names:
       97-101: Science, Research and Technology
   - name: Space Science Applications
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Space Science Applications
       100-101: Space Science and Applications
       102-103: Space
   - name: Transportation, Aviation and Materials
     thomas_id: '07'
-    congresses: 97,98,99,100,101
+    congresses: "97,98,99,100,101"
     names:
       97-101: Transportation, Aviation and Materials
   - name: Task Force on Science Policy
@@ -1788,7 +1788,7 @@
       100: Task Force on Science Policy
   - name: Energy Research and Development
     thomas_id: '10'
-    congresses: 101,102,103
+    congresses: "101,102,103"
     names:
       101: Energy Research and Development
       102-103: Energy
@@ -1809,17 +1809,17 @@
       103: Technology, Environment and Aviation
   - name: Energy and Environment
     thomas_id: '18'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: Energy and Environment
   - name: Technology
     thomas_id: '17'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: Technology
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6371
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93: Science and Astronautics
     94-99: Science and Technology
@@ -1837,21 +1837,21 @@
     thomas_id: 09
     address: 337 CHOB; Washington, DC 20515
     phone: (202) 225-9164
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109-112: Disability Assistance and Memorial Affairs
   - name: Economic Opportunity
     thomas_id: '10'
     address: 335 CHOB; Washington, DC 20515
     phone: (202) 226-5491
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109-112: Economic Opportunity
   - name: Health
     thomas_id: '03'
     address: 338 CHOB; Washington, DC 20515-6340
     phone: (202) 225-9154
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-104: Hospitals and Health Care
       105-112: Health
@@ -1859,23 +1859,23 @@
     thomas_id: 08
     address: 337A CHOB; Washington, DC 20515-6339
     phone: (202) 225-3569
-    congresses: 109,110,112
+    congresses: "109,110,112"
     names:
       109-110: Oversight and Investigations
       112: Oversight and Investigations
   - name: Compensation, Pension and Insurance
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Compensation, Pension and Insurance
   - name: Education, Training and Employment
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Education, Training and Employment
   - name: Housing and Memorial Affairs
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Housing and Memorial Affairs
   - name: Oversight and Investigations
@@ -1885,7 +1885,7 @@
       102: Oversight and Investigations
   - name: Compensation, Pension, Insurance, and Memorial Affairs
     thomas_id: '06'
-    congresses: 104,105,106,107,108
+    congresses: "104,105,106,107,108"
     names:
       104: Compensation, Pension, Insurance, and Memorial Affairs
       105-108: Benefits
@@ -1896,7 +1896,7 @@
       104: Education, Training, Employment and Housing
   address: 335 CHOB; Washington, DC 20515-6335
   phone: (202) 225-3527
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Veterans' Affairs
 - type: house
@@ -1909,14 +1909,14 @@
     thomas_id: '02'
     address: 1135 LHOB; Washington, DC 20515-6349
     phone: (202) 225-3943
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-112: Health
   - name: Human Resources
     thomas_id: '03'
     address: 1129 LHOB; Washington, DC 20515-6351
     phone: (202) 225-1025
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-100: Public Assistance and Unemployment Compensation
       101-109: Human Resources
@@ -1926,14 +1926,14 @@
     thomas_id: '06'
     address: 1136 LHOB; Washington, DC 20515-6352
     phone: (202) 225-5522
-    congresses: 105,106
+    congresses: "105,106"
     names:
       105-106: Oversight
   - name: Select Revenue Measures
     thomas_id: '05'
     address: 1136 LHOB; Washington, DC 20515-6348
     phone: (202) 225-5522
-    congresses: 97,98,99,100,101,102,103,107
+    congresses: "97,98,99,100,101,102,103,107"
     names:
       97-103: Select Revenue Measures
       107: Select Revenue Measures
@@ -1941,19 +1941,19 @@
     thomas_id: '01'
     address: B317 RHOB; Washington, DC 20515-6353
     phone: (202) 225-9263
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-112: Social Security
   - name: Trade
     thomas_id: '04'
     address: 1104 LHOB; Washington, DC 20515-6354
     phone: (202) 225-6649
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-112: Trade
   address: 1102 LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Ways and Means
 - type: joint
@@ -1996,7 +1996,7 @@
   url: http://ethics.senate.gov/
   thomas_id: SLET
   senate_committee_id: SLET
-  congresses: 94,95,96,97,101,103,104
+  congresses: "94,95,96,97,101,103,104"
   names:
     94: Standards and Conduct (Select)
     95-97: Ethics (Select)
@@ -2007,7 +2007,7 @@
   url: http://indian.senate.gov/
   thomas_id: SLIA
   senate_committee_id: SLIA
-  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     95-97: Indian Affairs (Select)
     98-102: Indian Affairs (Permanent Select)
@@ -2017,14 +2017,14 @@
   url: http://intelligence.senate.gov/
   thomas_id: SLIN
   senate_committee_id: SLIN
-  congresses: 94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     94-112: Intelligence (Select)
 - type: senate
   name: Senate Special Committee on Aging
   thomas_id: SPAG
   senate_committee_id: SPAG
-  congresses: 93,97,98,99,100,101,102,105,106,107,108,109,110,111,112
+  congresses: "93,97,98,99,100,101,102,105,106,107,108,109,110,111,112"
   names:
     93: Aging (Special)
     97-102: Aging (Special)
@@ -2057,19 +2057,19 @@
     thomas_id: '17'
   - name: Agricultural Credit and Rural Electrification
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Agricultural Credit and Rural Electrification
       100-103: Domestic and Foreign Marketing and Product Promotion
   - name: Agricultural Production, Marketing, and Stabilization of Prices
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Agricultural Production, Marketing, and Stabilization of Prices
       100-103: Agricultural Credit
   - name: Agricultural Research and General Legislation
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-98: Agricultural Research and General Legislation
       99: Agricultural Research, Conservation, Forestry and General Legislation
@@ -2077,7 +2077,7 @@
       103: Agricultural Research, Conservation, Forestry and General Legislation
   - name: Foreign Agricultural Policy
     thomas_id: '06'
-    congresses: 97,98,100,101,102,103
+    congresses: "97,98,100,101,102,103"
     names:
       97-98: Foreign Agricultural Policy
       100-103: Nutrition and Investigations
@@ -2088,13 +2088,13 @@
       97: Forestry, Water Resources, and Environment
   - name: Nutrition
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-99: Nutrition
       100-102: Conservation and Forestry
   - name: Soil and Water Conservation
     thomas_id: '01'
-    congresses: 97,98,100,101,102,103,107,108
+    congresses: "97,98,100,101,102,103,107,108"
     names:
       97: Soil and Water Conservation
       98: Soil and Water Conservation, Forestry and Environment
@@ -2102,13 +2102,13 @@
       107-108: Production and Price Competitiveness
   - name: Rural Development, Oversight, and Investigations
     thomas_id: '05'
-    congresses: 99,100,101,102,103,104,105,106,109
+    congresses: "99,100,101,102,103,104,105,106,109"
     names:
       99: Rural Development, Oversight, and Investigations
       100-103: Rural Development and Rural Electrification
       104-106: Forestry, Conservation, and Rural Revitalization
       109: Forestry, Conservation, and Rural Revitalization
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Agriculture and Forestry
     95-112: Agriculture, Nutrition, and Forestry
@@ -2123,7 +2123,7 @@
     thomas_id: '1'
   - name: Commerce, Justice, Science, and Related Agencies
     thomas_id: '16'
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109: Commerce, Justice, and Science and Related Agencies
       110-112: Commerce, Justice, Science, and Related Agencies
@@ -2131,30 +2131,30 @@
     thomas_id: '2'
   - name: Energy and Water Development
     thomas_id: '22'
-    congresses: 109,110,111
+    congresses: "109,110,111"
     names:
       109: Energy and Water, and Related Agencies
       110-111: Energy and Water Development
   - name: Financial Service and General Government
     thomas_id: '23'
-    congresses: 110,111,112
+    congresses: "110,111,112"
     names:
       110-112: Financial Service and General Government
   - name: Department of Homeland Security
     thomas_id: '14'
-    congresses: 108,109,110,111
+    congresses: "108,109,110,111"
     names:
       108-111: Department of Homeland Security
   - name: Department of the Interior, Environment, and Related Agencies
     thomas_id: '17'
-    congresses: 109,110
+    congresses: "109,110"
     names:
       109: Interior and Related Agencies
       110: Department of the Interior, Environment, and Related Agencies
   - name: Departments of Labor, Health and Human Services, and Education, and Related
       Agencies
     thomas_id: '18'
-    congresses: 109,110,112
+    congresses: "109,110,112"
     names:
       109-110: Departments of Labor, Health and Human Services, and Education, and
         Related Agencies
@@ -2164,47 +2164,47 @@
     thomas_id: '8'
   - name: Military Construction and Veterans Affairs, and Related Agencies
     thomas_id: '19'
-    congresses: 109,110,111
+    congresses: "109,110,111"
     names:
       109-111: Military Construction and Veterans Affairs, and Related Agencies
   - name: State, Foreign Operations, and Related Programs
     thomas_id: '20'
-    congresses: 109,110,111,112
+    congresses: "109,110,111,112"
     names:
       109-112: State, Foreign Operations, and Related Programs
   - name: Transportation and Housing and Urban Development, and Related Agencies
     thomas_id: '24'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Transportation, Housing and Urban Development, and Related Agencies
   - name: District of Columbia
     thomas_id: '03'
-    congresses: 97,98,99,100,102,105,106,107,108,109
+    congresses: "97,98,99,100,102,105,106,107,108,109"
     names:
       97-100: District of Columbia
       102: District of Columbia
       105-109: District of Columbia
   - name: Energy and Water Development
     thomas_id: '10'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108"
     names:
       97-108: Energy and Water Development
   - name: Interior
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108"
     names:
       97-99: Interior
       100-104: Interior and Related Agencies
       105-108: Interior
   - name: Military Construction
     thomas_id: 09
-    congresses: 97,98,99,100,101,102,104,105,106,107,108
+    congresses: "97,98,99,100,101,102,104,105,106,107,108"
     names:
       97-102: Military Construction
       104-108: Military Construction
   - name: State, Justice, Commerce, the Judiciary
     thomas_id: '11'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108"
     names:
       97: State, Justice, Commerce, the Judiciary
       98-99: Commerce, Justice, State, and the Judiciary
@@ -2212,7 +2212,7 @@
       101-108: Commerce, Justice, State, and the Judiciary
   - name: Transportation
     thomas_id: '12'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107
+    congresses: "97,98,99,100,101,102,103,104,105,106,107"
     names:
       97-99: Transportation
       100-103: Transportation and Related Agencies
@@ -2220,7 +2220,7 @@
   - name: Agriculture, Rural Development, Food and Drug Administration, and Related
       Agencies
     thomas_id: '01'
-    congresses: 98,99,101,103,104,105,106,107,108,109,110,111
+    congresses: "98,99,101,103,104,105,106,107,108,109,110,111"
     names:
       98-99: Agriculture and Related Agencies
       101: Agriculture and Related Agencies
@@ -2229,32 +2229,32 @@
         Agencies
   - name: Department of Defense
     thomas_id: '02'
-    congresses: 98,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "98,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       98: Defense
       101-112: Defense
   - name: Foreign Operations
     thomas_id: '04'
-    congresses: 98,100,101,102,103,104,105,106,107,108
+    congresses: "98,100,101,102,103,104,105,106,107,108"
     names:
       98: Foreign Operations
       100-108: Foreign Operations
   - name: HUD and Independent Agencies
     thomas_id: '05'
-    congresses: 98,99,100,101,102,103,104,105,106,107,108
+    congresses: "98,99,100,101,102,103,104,105,106,107,108"
     names:
       98-101: HUD and Independent Agencies
       102-108: VA, HUD, and Independent Agencies
   - name: Labor, Health and Human Services, Education
     thomas_id: '07'
-    congresses: 98,99,100,101,102,103,104,105,106,107,108
+    congresses: "98,99,100,101,102,103,104,105,106,107,108"
     names:
       98-99: Labor, Health and Human Services, Education
       100-102: Labor, Health and Human Services, Education, and Related Agencies
       103-108: Labor, Health and Human Services, and Education
   - name: Legislative Branch
     thomas_id: 08
-    congresses: 98,99,100,102,105,106,107,108,110,111
+    congresses: "98,99,100,102,105,106,107,108,110,111"
     names:
       98-100: Legislative Branch
       102: Legislative Branch
@@ -2262,7 +2262,7 @@
       110-111: Legislative Branch
   - name: Treasury, Postal Service, General Government
     thomas_id: '13'
-    congresses: 98,99,100,101,102,103,104,105,106,107
+    congresses: "98,99,100,101,102,103,104,105,106,107"
     names:
       98-104: Treasury, Postal Service, General Government
       105-107: Treasury and General Government
@@ -2278,7 +2278,7 @@
     names:
       109: Transportation, Treasury, the Judiciary, and Housing and Urban Development,
         and Related Agencies
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Appropriations
 - type: senate
@@ -2289,86 +2289,86 @@
   subcommittees:
   - name: Airland
     thomas_id: '14'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-105: Airland Forces
       106: Airland
   - name: Emerging Threats and Capabilities
     thomas_id: '20'
-    congresses: 99,106
+    congresses: "99,106"
     names:
       99: Defense Acquisition Policy
       106: Emerging Threats and Capabilities
   - name: Personnel
     thomas_id: '17'
-    congresses: 97,98,99,104,105
+    congresses: "97,98,99,104,105"
     names:
       97-99: Strategic and Theater Nuclear Forces
       104-105: Personnel
   - name: Readiness and Management Support
     thomas_id: '15'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-105: Readiness
       106: Readiness and Management Support
   - name: SeaPower
     thomas_id: '13'
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-106: SeaPower
   - name: Strategic Forces
     thomas_id: '16'
-    congresses: 97,98,104,105,106
+    congresses: "97,98,104,105,106"
     names:
       97-98: Tactical Warfare
       104-105: Strategic Forces
       106: Strategic
   - name: Manpower and Personnel
     thomas_id: 09
-    congresses: 97,98,99,103
+    congresses: "97,98,99,103"
     names:
       97-99: Manpower and Personnel
       103: Force Requirements and Personnel
   - name: Military Construction
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-99: Military Construction
       100-102: Readiness, Sustainability and Support
   - name: Preparedness
     thomas_id: '18'
-    congresses: 97,98,99,104,105
+    congresses: "97,98,99,104,105"
     names:
       97-99: Preparedness
       104-105: Acquisition and Technology
   - name: Sea Power and Force Projection
     thomas_id: '19'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Sea Power and Force Projection
   - name: Conventional Forces and Alliance Defense
     thomas_id: '02'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Conventional Forces and Alliance Defense
   - name: Defense Industry and Technology
     thomas_id: '06'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Defense Industry and Technology
   - name: Manpower and Personnel
     thomas_id: '05'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Manpower and Personnel
   - name: Projection Forces and Regional Defense
     thomas_id: '03'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Projection Forces and Regional Defense
   - name: Strategic Forces and Nuclear Deterrence
     thomas_id: '01'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Strategic Forces and Nuclear Deterrence
   - name: Coalition Defense and Reinforcing Forces
@@ -2396,7 +2396,7 @@
     congresses: '103'
     names:
       103: Regional Defense and Contingency Forces
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Armed Services
 - type: senate
@@ -2407,7 +2407,7 @@
   subcommittees:
   - name: Economic Policy
     thomas_id: '12'
-    congresses: 98,106,108,112
+    congresses: "98,106,108,112"
     names:
       98: Federal Credit Programs
       106: Economic Policy
@@ -2423,12 +2423,12 @@
     thomas_id: '5'
   - name: Consumer Affairs
     thomas_id: '07'
-    congresses: 97,98
+    congresses: "97,98"
     names:
       97-98: Consumer Affairs
   - name: Financial Institutions
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-98: Financial Institutions
       99: Financial Institutions and Consumer Affairs
@@ -2436,33 +2436,33 @@
       101-102: Consumer and Regulatory Affairs
   - name: Housing and Urban Affairs
     thomas_id: '02'
-    congresses: 97,98,99,101,102,103
+    congresses: "97,98,99,101,102,103"
     names:
       97-99: Housing and Urban Affairs
       101-103: Housing and Urban Affairs
   - name: Security and International Trade and Finance
     thomas_id: '05'
-    congresses: 97,98,99,101,102,103,105
+    congresses: "97,98,99,101,102,103,105"
     names:
       97-99: International Finance and Monetary Policy
       101-103: International Finance and Monetary Policy
       105: International Finance
   - name: Securities, Insurance and Investment
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103,104,105,107,112
+    congresses: "97,98,99,100,101,102,103,104,105,107,112"
     names:
       97-105: Securities
       107: Securities and Investment
       112: Securities, Insurance and Investment
   - name: Insurance
     thomas_id: '11'
-    congresses: 98,105
+    congresses: "98,105"
     names:
       98: Insurance
       105: Financial Services and Technology
   - name: Housing, Transportation and Community Development
     thomas_id: 09
-    congresses: 98,105,106,107,109,110,111,112
+    congresses: "98,105,106,107,109,110,111,112"
     names:
       98: Rural Housing and Development
       105: Housing Opportunity and Community Development
@@ -2471,7 +2471,7 @@
       110-112: Housing, Transportation and Community Development
   - name: Financial Institutions and Consumer Protection
     thomas_id: 08
-    congresses: 104,105,106
+    congresses: "104,105,106"
     names:
       104-105: Financial Institutions and Regulatory Relief
       106: Financial Institutions
@@ -2480,7 +2480,7 @@
     congresses: '104'
     names:
       104: HUD Oversight and Structure
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Banking, Housing, and Urban Affairs
 - type: senate
@@ -2488,7 +2488,7 @@
   url: http://budget.senate.gov/
   thomas_id: SSBU
   senate_committee_id: SSBU
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Budget
 - type: senate
@@ -2508,36 +2508,36 @@
     thomas_id: '27'
   - name: Consumer Protection, Product Safety, and Insurance
     thomas_id: '20'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Consumer Protection, Product Safety, and Insurance
   - name: Oceans, Atmosphere, Fisheries, and Coast Guard
     thomas_id: '22'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Oceans, Atmosphere, Fisheries, and Coast Guard
   - name: Science and Space
     thomas_id: '24'
   - name: Surface Transportation and Merchant Marine Infrastructure, Safety, and Security
     thomas_id: '25'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110: Surface Transportation and Merchant Marine Infrastructure, Safety and Security
       111: Surface Transportation and Merchant Marine
   - name: Aviation Operations, Safety, and Security
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104,105,107
+    congresses: "97,98,99,100,101,102,103,104,105,107"
     names:
       97-105: Aviation
       107: Aviation
   - name: Business, Trade, and Tourism
     thomas_id: '15'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Business, Trade, and Tourism
   - name: Communications
     thomas_id: '02'
-    congresses: 97,98,100,101,102,103,105,106,108
+    congresses: "97,98,100,101,102,103,105,106,108"
     names:
       97-98: Communications
       100-103: Communications
@@ -2545,44 +2545,44 @@
       108: Communications
   - name: Consumer
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103,104,106,107
+    congresses: "97,98,99,100,101,102,103,104,106,107"
     names:
       97-103: Consumer
       104: Consumer Affairs, Foreign Commerce, and Tourism
       106-107: Consumer Affairs, Foreign Commerce, and Tourism
   - name: Merchant Marine
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Merchant Marine
   - name: Surface Transportation
     thomas_id: 08
-    congresses: 97,98,99,100,101,102,103,104,105,106,108
+    congresses: "97,98,99,100,101,102,103,104,105,106,108"
     names:
       97-103: Surface Transportation
       104-106: Surface Transportation and Merchant Marine
       108: Surface Transportation and Merchant Marine
   - name: National Ocean Policy Study
     thomas_id: '30'
-    congresses: 98,99
+    congresses: "98,99"
     names:
       98-99: National Ocean Policy Study
   - name: Science, Technology, and Space
     thomas_id: 09
-    congresses: 98,99,104,105,106,108
+    congresses: "98,99,104,105,106,108"
     names:
       98-99: Science, Technology, and Space
       104-106: Oceans and Fisheries
       108: Oceans, Fisheries and Coast Guard
   - name: National Ocean Policy Study
     thomas_id: '07'
-    congresses: 100,102
+    congresses: "100,102"
     names:
       100: National Ocean Policy Study
       102: National Ocean Policy Study
   - name: Science, Technology, and Space
     thomas_id: '05'
-    congresses: 101,102,103,104,105,106,107,108
+    congresses: "101,102,103,104,105,106,107,108"
     names:
       101-108: Science, Technology, and Space
   - name: Foreign Commerce and Tourism
@@ -2620,7 +2620,7 @@
     congresses: '110'
     names:
       110: Science, Technology, and Innovation
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Commerce
     95-112: Commerce, Science, and Transportation
@@ -2640,13 +2640,13 @@
     thomas_id: '7'
   - name: Water and Power
     thomas_id: '07'
-    congresses: 97,98,105,106,107,108,109,110,111,112
+    congresses: "97,98,105,106,107,108,109,110,111,112"
     names:
       97-98: Energy and Mineral Resources
       105-112: Water and Power
   - name: National Parks
     thomas_id: '04'
-    congresses: 97,98,100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "97,98,100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       97-98: Energy Conservation and Supply
       100-103: Public Lands, National Parks and Forests
@@ -2655,7 +2655,7 @@
       107-112: National Parks
   - name: Energy Regulation
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102,103,104
+    congresses: "97,98,99,100,101,102,103,104"
     names:
       97-98: Energy Regulation
       99: Energy Regulation and Conservation
@@ -2663,7 +2663,7 @@
       104: Energy Production and Regulation
   - name: Energy
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103,104,105,106,108,110,111,112
+    congresses: "97,98,99,100,101,102,103,104,105,106,108,110,111,112"
     names:
       97-99: Energy Research and Development
       100: Research and Development
@@ -2673,12 +2673,12 @@
       110-112: Energy
   - name: Public Lands, Reserved Water and Resource Conservation
     thomas_id: 09
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Public Lands, Reserved Water and Resource Conservation
   - name: Water and Power
     thomas_id: 08
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Water and Power
   - name: Natural Resources Development and Production
@@ -2688,18 +2688,18 @@
       99: Natural Resources Development and Production
   - name: Energy Regulation and Conservation
     thomas_id: '02'
-    congresses: 100,101,102,103
+    congresses: "100,101,102,103"
     names:
       100-102: Energy Regulation and Conservation
       103: Renewable Energy, Energy Efficiency, and Competitiveness
   - name: Public Lands and Forests
     thomas_id: '03'
-    congresses: 100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       100-103: Water and Power
       104-106: Forests and Public Land Management
       107-112: Public Lands and Forests
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Interior and Insular Affairs
     95-112: Energy and Natural Resources
@@ -2711,20 +2711,20 @@
   subcommittees:
   - name: Environmental Pollution
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Environmental Pollution
       100-102: Water Resources, Transportation and Infrastructure
       103: Water Resources, Transportation, Public Buildings, and Economic Development
   - name: Nuclear Regulation
     thomas_id: '06'
-    congresses: 97,98,99,103
+    congresses: "97,98,99,103"
     names:
       97-99: Nuclear Regulation
       103: Clean Water, Fisheries and Wildlife
   - name: Regional and Community Development
     thomas_id: '04'
-    congresses: 97,98,100,101,102,103
+    congresses: "97,98,100,101,102,103"
     names:
       97-98: Regional and Community Development
       100: Superfund and Environmental Oversight
@@ -2732,13 +2732,13 @@
       103: Superfund, Recycling, and Solid Waste Management
   - name: Toxic Substances and Environmental Oversight
     thomas_id: '07'
-    congresses: 97,98,99,103
+    congresses: "97,98,99,103"
     names:
       97-99: Toxic Substances and Environmental Oversight
       103: Clean Air and Nuclear Regulation
   - name: Transportation
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-99: Transportation
       100: Hazardous Wastes and Toxic Substances
@@ -2746,18 +2746,18 @@
       103: Toxic Substances, Research and Development
   - name: Water Resources
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102
+    congresses: "97,98,99,100,101,102"
     names:
       97-99: Water Resources
       100-102: Environmental Protection
   - name: Nuclear Regulation
     thomas_id: '05'
-    congresses: 100,101
+    congresses: "100,101"
     names:
       100-101: Nuclear Regulation
   - name: Clean Air, Wetlands, Private Property, and Nuclear Safety
     thomas_id: '10'
-    congresses: 104,105,107,108,109,111
+    congresses: "104,105,107,108,109,111"
     names:
       104-105: Clean Air, Wetlands, Private Property, and Nuclear Safety
       107: Clean Air, Wetlands, and Climate Change
@@ -2765,21 +2765,21 @@
       111: Clean Air and Nuclear Safety
   - name: Drinking Water, Fisheries, and Wildlife
     thomas_id: '11'
-    congresses: 104,106,107,108
+    congresses: "104,106,107,108"
     names:
       104: Drinking Water, Fisheries, and Wildlife
       106: Fisheries, Wildlife, and Drinking Water
       107-108: Fisheries, Wildlife, and Water
   - name: Superfund, Waste Control, and Risk Assessment
     thomas_id: 09
-    congresses: 104,105,106,107,109
+    congresses: "104,105,106,107,109"
     names:
       104-106: Superfund, Waste Control, and Risk Assessment
       107: Superfund, Toxics, Risk, and Waste Management
       109: Superfund and Waste Management
   - name: Transportation and Infrastructure
     thomas_id: 08
-    congresses: 104,105,106,108
+    congresses: "104,105,106,108"
     names:
       104-106: Transportation and Infrastructure
       108: Transportation and Infrastructure
@@ -2790,10 +2790,10 @@
       110: Private Sector and Consumer Solutions to Global Warming and Wildlife Protection
   - name: Water and Wildlife
     thomas_id: '15'
-    congresses: 111,112
+    congresses: "111,112"
     names:
       111-112: Water and Wildlife
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Public Works
     95-112: Environment and Public Works
@@ -2805,17 +2805,17 @@
   subcommittees:
   - name: Energy, Natural Resources, and Infrastructure
     thomas_id: '12'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Taxation and Debt Management
   - name: Health Care
     thomas_id: '10'
-    congresses: 105,106
+    congresses: "105,106"
     names:
       105-106: Health Care
   - name: International Trade, Customs, and Global Competitiveness
     thomas_id: '13'
-    congresses: 98,99
+    congresses: "98,99"
     names:
       98-99: Social Security and Income Maintenance Programs
   - name: Fiscal Responsibility and Economic Growth
@@ -2826,33 +2826,33 @@
     thomas_id: '11'
   - name: Energy and Agricultural Taxation
     thomas_id: '07'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Energy and Agricultural Taxation
   - name: Estate and Gift Taxation
     thomas_id: '21'
-    congresses: 97,98
+    congresses: "97,98"
     names:
       97-98: Estate and Gift Taxation
   - name: Health
     thomas_id: '01'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-100: Health
       101-103: Health for Families and the Uninsured
   - name: International Trade
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103,104,105
+    congresses: "97,98,99,100,101,102,103,104,105"
     names:
       97-105: International Trade
   - name: Oversight of the Internal Revenue Service
     thomas_id: '16'
-    congresses: 97,98
+    congresses: "97,98"
     names:
       97-98: Oversight of the Internal Revenue Service
   - name: Savings, Pensions and Investment Policy
     thomas_id: '19'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Savings, Pensions and Investment Policy
   - name: Economic Growth, Employment and Revenue Sharing
@@ -2862,26 +2862,26 @@
       98: Economic Growth, Employment and Revenue Sharing
   - name: Private Retirement Plans and Oversight of the Internal Revenue Service
     thomas_id: '05'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100-102: Private Retirement Plans and Oversight of the Internal Revenue Service
   - name: Social Security, Pensions and Family Policy
     thomas_id: '02'
-    congresses: 100,101,102,104,105,107
+    congresses: "100,101,102,104,105,107"
     names:
       100-102: Social Security and Family Policy
       104-105: Social Security and Family Policy
       107: Social Security and Family Policy
   - name: Taxation and Debt Management
     thomas_id: '06'
-    congresses: 100,101,102,104,105
+    congresses: "100,101,102,104,105"
     names:
       100-101: Taxation and Debt Management
       102: Taxation
       104-105: Taxation and IRS Oversight
   - name: Medicare and Long-Term Care
     thomas_id: 08
-    congresses: 101,102
+    congresses: "101,102"
     names:
       101-102: Medicare and Long-Term Care
   - name: Long-Term Growth and Debt Reduction
@@ -2889,7 +2889,7 @@
     congresses: '106'
     names:
       106: Long-Term Growth and Debt Reduction
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Finance
 - type: senate
@@ -2916,13 +2916,13 @@
     thomas_id: '6'
   - name: European Affairs
     thomas_id: '01'
-    congresses: 97,98,99,108
+    congresses: "97,98,99,108"
     names:
       97-99: European Affairs
       108: European Affairs
   - name: African Affairs
     thomas_id: 09
-    congresses: 98,99,102,103,104,106,112
+    congresses: "98,99,102,103,104,106,112"
     names:
       98-99: African Affairs
       102-104: African Affairs
@@ -2930,14 +2930,14 @@
       112: African Affairs
   - name: East Asian and Pacific Affairs
     thomas_id: '02'
-    congresses: 98,99,100,105,108
+    congresses: "98,99,100,105,108"
     names:
       98-100: East Asian and Pacific Affairs
       105: East Asian and Pacific Affairs
       108: East Asian and Pacific Affairs
   - name: International Economic Policy
     thomas_id: '03'
-    congresses: 98,99,100,102,103,105
+    congresses: "98,99,100,102,103,105"
     names:
       98: International Economic Policy
       99: International Economic Policy, Oceans and Environment
@@ -2946,14 +2946,14 @@
       105: International Economic Policy, Export and Trade Promotion
   - name: Near Eastern and South and Central Asian Affairs
     thomas_id: '07'
-    congresses: 98,99,100,104,106
+    congresses: "98,99,100,104,106"
     names:
       98-100: Near Eastern and South Asian Affairs
       104: Near Eastern and South Asian Affairs
       106: Near Eastern and South Asian Affairs
   - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
     thomas_id: '06'
-    congresses: 98,99,100,102,104,105,107,110
+    congresses: "98,99,100,102,104,105,107,110"
     names:
       98-99: Western Hemisphere Affairs
       100: Western Hemisphere and Peace Corps Affairs
@@ -2964,11 +2964,11 @@
       110: Western Hemisphere, Peace Corps and Narcotics Affairs
   - name: Terrorism, Narcotics and International Communications
     thomas_id: '04'
-    congresses: 100,103
+    congresses: "100,103"
     names:
       100: Terrorism, Narcotics and International Communications
       103: Terrorism, Narcotics and International Operations
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Foreign Relations
 - type: senate
@@ -2979,20 +2979,20 @@
   subcommittees:
   - name: Contracting Oversight (Ad Hoc)
     thomas_id: '13'
-    congresses: 111,112
+    congresses: "111,112"
     names:
       111-112: Contracting Oversight (Ad Hoc)
   - name: Ad Hoc Subcommittee on Disaster Recovery and Intergovernmental Affairs
     thomas_id: '14'
   - name: Ad Hoc Subcommittee on Disaster Recovery
     thomas_id: '11'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Disaster Recovery (Ad Hoc)
   - name: Ad Hoc Subcommittee on State, Local, and Private Sector Preparedness and
       Integration
     thomas_id: '10'
-    congresses: 97,98,110
+    congresses: "97,98,110"
     names:
       97: Federal Expenditures
       98: Information Management and Regulatory Affairs
@@ -3007,45 +3007,45 @@
     thomas_id: '3'
   - name: Civil Service, Post Office, and General Services
     thomas_id: '07'
-    congresses: 97,98,99,105,106,107
+    congresses: "97,98,99,105,106,107"
     names:
       97-99: Civil Service, Post Office, and General Services
       105-107: International Security, Proliferation and Federal Services
   - name: Energy, Nuclear Proliferation and Government Processes
     thomas_id: '06'
-    congresses: 97,98,99,104
+    congresses: "97,98,99,104"
     names:
       97-99: Energy, Nuclear Proliferation and Government Processes
       104: Financial Management and Accountability
   - name: Governmental Efficiency and the District of Columbia
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102,104
+    congresses: "97,98,99,100,101,102,104"
     names:
       97-99: Governmental Efficiency and the District of Columbia
       100-102: Federal Services, Post Office, and Civil Service
       104: Post Office and Civil Service
   - name: Intergovernmental Relations
     thomas_id: '02'
-    congresses: 97,98,99,100,102
+    congresses: "97,98,99,100,102"
     names:
       97-99: Intergovernmental Relations
       100: Federal Spending, Budget, and Accounting
       102: Government Information and Regulation
   - name: Oversight of Government Management
     thomas_id: 08
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Oversight of Government Management
   - name: Government Efficiency, Federalism, and the District of Columbia
     thomas_id: '04'
-    congresses: 100,101,102
+    congresses: "100,101,102"
     names:
       100: Government Efficiency, Federalism, and the District of Columbia
       101-102: General Services, Federalism, and the District of Columbia
   - name: Oversight of Government Management, the Federal Workforce, and the District
       of Columbia
     thomas_id: '03'
-    congresses: 100,101,102,103,104,105,106,107,108,109,110,111,112
+    congresses: "100,101,102,103,104,105,106,107,108,109,110,111,112"
     names:
       100-103: Oversight of Government Management
       104: Oversight of Government Management and the District of Columbia
@@ -3056,12 +3056,12 @@
   - name: Federal Financial Management, Government Information, Federal Services,
       and International Security
     thomas_id: 09
-    congresses: 108,109,110,111,112
+    congresses: "108,109,110,111,112"
     names:
       108: Financial Management, the Budget and International Security
       109-112: Federal Financial Management, Government Information, Federal Services,
         and International Security
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Government Operations
     95-108: Governmental Affairs
@@ -3076,7 +3076,7 @@
     thomas_id: '9'
   - name: Employment and Workplace Safety
     thomas_id: '11'
-    congresses: 98,99,111
+    congresses: "98,99,111"
     names:
       98-99: Aging
       111: Employment and Workplace Safety
@@ -3087,7 +3087,7 @@
       112: Primary Health and Aging
   - name: Aging, Family, and Human Services
     thomas_id: '06'
-    congresses: 97,98,99,100,101,102,103,105
+    congresses: "97,98,99,100,101,102,103,105"
     names:
       97: Aging, Family, and Human Services
       98: Family and Human Services
@@ -3095,49 +3095,49 @@
       105: Children and Families
   - name: Alcoholism and Drug Abuse
     thomas_id: '07'
-    congresses: 97,98,105,107
+    congresses: "97,98,105,107"
     names:
       97-98: Alcoholism and Drug Abuse
       105: Public Health and Safety
       107: Public Health
   - name: Education, Arts, and Humanities
     thomas_id: 08
-    congresses: 97,98,99,105,106
+    congresses: "97,98,99,105,106"
     names:
       97-99: Education, Arts, and Humanities
       105: Employment and Training
       106: Employment, Safety, and Training
   - name: Employment and Productivity
     thomas_id: '04'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-103: Employment and Productivity
   - name: Handicapped
     thomas_id: '02'
-    congresses: 97,98,99,100,101,102,103
+    congresses: "97,98,99,100,101,102,103"
     names:
       97-101: Handicapped
       102-103: Disability Policy
   - name: Labor
     thomas_id: '10'
-    congresses: 97,98,99,109
+    congresses: "97,98,99,109"
     names:
       97-99: Labor
       109: Bioterrorism and Public Health Preparedness
   - name: Aging
     thomas_id: '05'
-    congresses: 100,101,102,103,104,107
+    congresses: "100,101,102,103,104,107"
     names:
       100-104: Aging
       107: Aging
   - name: Education, Arts and Humanities
     thomas_id: '01'
-    congresses: 100,101,102,103,104
+    congresses: "100,101,102,103,104"
     names:
       100-104: Education, Arts and Humanities
   - name: Labor
     thomas_id: '03'
-    congresses: 100,101,102,103
+    congresses: "100,101,102,103"
     names:
       100-103: Labor
   - name: Children and Families
@@ -3145,7 +3145,7 @@
     congresses: '109'
     names:
       109: Education and Early Childhood Development
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-94: Labor and Public Welfare
     95: Human Resources
@@ -3163,12 +3163,12 @@
     thomas_id: '1'
   - name: Crime and Drugs
     thomas_id: '15'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Crime and Drugs
   - name: Human Rights and the Law
     thomas_id: '20'
-    congresses: 97,98,99,111
+    congresses: "97,98,99,111"
     names:
       97-99: Courts
       111: Human Rights and the Law
@@ -3178,30 +3178,30 @@
     thomas_id: '9'
   - name: the Constitution
     thomas_id: '18'
-    congresses: 110,111
+    congresses: "110,111"
     names:
       110-111: Constitution
   - name: the Constitution, Civil Rights and Human Rights
     thomas_id: '21'
-    congresses: 97,98,99,112
+    congresses: "97,98,99,112"
     names:
       97-99: Immigration and Refugee Policy
       112: Constitution, Civil Rights and Human Rights
   - name: Crime and Terrorism
     thomas_id: '22'
-    congresses: 97,98,112
+    congresses: "97,98,112"
     names:
       97-98: Separation of Powers
       112: Crime and Terrorism
   - name: Privacy, Technology and the Law
     thomas_id: '23'
-    congresses: 97,112
+    congresses: "97,112"
     names:
       97: Agency Administration
       112: Privacy, Technology and the Law
   - name: Constitution
     thomas_id: '03'
-    congresses: 97,98,99,100,101,102,103,104,105,106,107,108,109
+    congresses: "97,98,99,100,101,102,103,104,105,106,107,108,109"
     names:
       97-103: Constitution
       104-105: Constitution, Federalism, and Property Rights
@@ -3209,14 +3209,14 @@
       108-109: Constitution, Civil Rights and Property Rights
   - name: Criminal Law
     thomas_id: '05'
-    congresses: 97,98,99,100,101,102,103,104
+    congresses: "97,98,99,100,101,102,103,104"
     names:
       97-99: Criminal Law
       100-103: Technology and the Law
       104: Terrorism, Technology, and Government Information
   - name: Juvenile Justice
     thomas_id: '25'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Juvenile Justice
   - name: Regulatory Reform
@@ -3226,22 +3226,22 @@
       97: Regulatory Reform
   - name: Security and Terrorism
     thomas_id: '24'
-    congresses: 97,98,99
+    congresses: "97,98,99"
     names:
       97-99: Security and Terrorism
   - name: Administrative Practice and Procedure
     thomas_id: '27'
-    congresses: 98,99
+    congresses: "98,99"
     names:
       98-99: Administrative Practice and Procedure
   - name: Patents, Copyrights and Trademarks
     thomas_id: '26'
-    congresses: 98,99
+    congresses: "98,99"
     names:
       98-99: Patents, Copyrights and Trademarks
   - name: Antitrust, Competition Policy and Consumer Rights
     thomas_id: '01'
-    congresses: 100,101,102,103,104,105,106,107,110
+    congresses: "100,101,102,103,104,105,106,107,110"
     names:
       100-103: Antitrust, Monopolies and Business Rights
       104-106: Antitrust, Business Rights and Competition
@@ -3249,7 +3249,7 @@
       110: Antitrust, Competition Policy and Consumer Rights
   - name: Administrative Oversight and the Courts
     thomas_id: '02'
-    congresses: 100,101,102,103,104,105,106,108,109,112
+    congresses: "100,101,102,103,104,105,106,108,109,112"
     names:
       100-103: Courts and Administrative Practice
       104-106: Administrative Oversight and the Courts
@@ -3257,25 +3257,25 @@
       112: Administrative Oversight and the Courts
   - name: Immigration, Refugees and Border Security
     thomas_id: '04'
-    congresses: 100,101,102,103,104,105,106,107,112
+    congresses: "100,101,102,103,104,105,106,107,112"
     names:
       100-103: Immigration and Refugee Affairs
       104-107: Immigration
       112: Immigration, Refugees and Border Security
   - name: Patents, Copyrights and Trademarks
     thomas_id: '06'
-    congresses: 100,101,102,103
+    congresses: "100,101,102,103"
     names:
       100-103: Patents, Copyrights and Trademarks
   - name: Juvenile Justice
     thomas_id: '07'
-    congresses: 102,103,104,105
+    congresses: "102,103,104,105"
     names:
       102-103: Juvenile Justice
       104-105: Youth Violence
   - name: Technology, Terrorism, and Government Information
     thomas_id: 09
-    congresses: 105,106,107,108,109,110
+    congresses: "105,106,107,108,109,110"
     names:
       105-107: Technology, Terrorism, and Government Information
       108-110: Terrorism, Technology and Homeland Security
@@ -3284,7 +3284,7 @@
     congresses: '107'
     names:
       107: Crime and Drugs
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Judiciary
 - type: senate
@@ -3292,7 +3292,7 @@
   url: http://rules.senate.gov/
   thomas_id: SSRA
   senate_committee_id: SSRA
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Rules and Administration
 - type: senate
@@ -3311,7 +3311,7 @@
     congresses: '101'
     names:
       101: Rural Economy and Family Farming
-  congresses: 95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     95-96: Small Business (Select)
     97-106: Small Business
@@ -3321,6 +3321,6 @@
   url: http://veterans.senate.gov/
   thomas_id: SSVA
   senate_committee_id: SSVA
-  congresses: 93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112
+  congresses: "93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112"
   names:
     93-112: Veterans' Affairs
