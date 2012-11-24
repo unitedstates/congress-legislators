@@ -104,24 +104,13 @@ for congress in range(93, CURRENT_CONGRESS+1):
       cx.setdefault('congresses', []).append(str(congress))
       cx.setdefault('names', {})[congress] = name
 
-# format some fields
-def format_name_info(names):
-  ret = []
-  prev = None
-  for c in sorted(names.keys()):
-    if prev and prev[1] == c-1 and prev[2] == names[c]:
-      prev[1] = c
-    else:
-      prev = [c, c, names[c]]
-      ret.append(prev)
-  return OrderedDict((d1 if d1 == d2 else "%d-%d" % (d1, d2), name) for (d1, d2, name) in ret)
 
 for cx in itertools.chain(committees_historical, committees_current):
-  if "congresses" in cx: cx["congresses"] = ",".join(cx["congresses"])
-  if "names" in cx: cx["names"] = format_name_info(cx["names"])
+  if "congresses" in cx: cx["congresses"] = ", ".join(cx["congresses"])
+  
   for sx in cx.get('subcommittees', []):
-    if "congresses" in sx: sx["congresses"] = ",".join(sx["congresses"])
-    if "names" in sx: sx["names"] = format_name_info(sx["names"])
+    if "congresses" in sx: sx["congresses"] = ", ".join(sx["congresses"])
+    
 
 save_data(committees_historical, "committees-historical.yaml")
 save_data(committees_current, "committees-current.yaml")
