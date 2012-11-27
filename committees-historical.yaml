@@ -2,33 +2,47 @@
   name: House Committee on Energy (Ad Hoc)
   thomas_id: HHAH
   house_committee_id: AH
-  congresses: '95'
   names:
     95: Energy (Ad Hoc)
+  congresses:
+  - 95
+  95: Energy (Ad Hoc)
 - type: house
   name: House Committee on Committees (Select)
   thomas_id: HLCQ
   house_committee_id: CQ
-  congresses: 93, 96
   names:
     93: Committees (Select)
     96: Committees (Select)
+  congresses:
+  - 93
+  - 96
+  93: Committees (Select)
+  96: Committees (Select)
 - type: house
   name: House Committee on Outer Continental Shelf (Select)
   thomas_id: HLOC
   house_committee_id: OC
-  congresses: 94, 95
   names:
     94: Outer Continental Shelf (Select)
     95: Outer Continental Shelf (Select)
+  congresses:
+  - 94
+  - 95
+  94: Outer Continental Shelf (Select)
+  95: Outer Continental Shelf (Select)
 - type: house
   name: House Committee on Joint Atomic Energy
   thomas_id: HSAT
   house_committee_id: AT
-  congresses: 93, 94
   names:
     93: Joint Atomic Energy
     94: Joint Atomic Energy
+  congresses:
+  - 93
+  - 94
+  93: Joint Atomic Energy
+  94: Joint Atomic Energy
 - type: house
   name: House Committee on District of Columbia
   thomas_id: HSDT
@@ -36,7 +50,6 @@
   subcommittees:
   - name: Fiscal Affairs and Health
     thomas_id: '01'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Fiscal Affairs and Health
       98: Fiscal Affairs and Health
@@ -45,9 +58,23 @@
       101: Fiscal Affairs and Health
       102: Fiscal Affairs and Health
       103: Fiscal Affairs and Health
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Fiscal Affairs and Health
+    98: Fiscal Affairs and Health
+    99: Fiscal Affairs and Health
+    100: Fiscal Affairs and Health
+    101: Fiscal Affairs and Health
+    102: Fiscal Affairs and Health
+    103: Fiscal Affairs and Health
   - name: Government Operations and Metropolitan Affairs
     thomas_id: '02'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Government Operations and Metropolitan Affairs
       98: Government Operations and Metropolitan Affairs
@@ -56,9 +83,23 @@
       101: Government Operations and Metropolitan Affairs
       102: Government Operations and Metropolitan Affairs
       103: Government Operations and Metropolitan Affairs
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Government Operations and Metropolitan Affairs
+    98: Government Operations and Metropolitan Affairs
+    99: Government Operations and Metropolitan Affairs
+    100: Government Operations and Metropolitan Affairs
+    101: Government Operations and Metropolitan Affairs
+    102: Government Operations and Metropolitan Affairs
+    103: Government Operations and Metropolitan Affairs
   - name: Judiciary and Education
     thomas_id: '03'
-    congresses: 98, 99, 100, 101, 102, 103
     names:
       98: Judiciary and Education
       99: Judiciary and Education
@@ -66,7 +107,19 @@
       101: Judiciary and Education
       102: Judiciary and Education
       103: Judiciary and Education
-  congresses: 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103
+    congresses:
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    98: Judiciary and Education
+    99: Judiciary and Education
+    100: Judiciary and Education
+    101: Judiciary and Education
+    102: Judiciary and Education
+    103: Judiciary and Education
   names:
     93: District of Columbia
     94: District of Columbia
@@ -79,6 +132,29 @@
     101: District of Columbia
     102: District of Columbia
     103: District of Columbia
+  congresses:
+  - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  93: District of Columbia
+  94: District of Columbia
+  95: District of Columbia
+  96: District of Columbia
+  97: District of Columbia
+  98: District of Columbia
+  99: District of Columbia
+  100: District of Columbia
+  101: District of Columbia
+  102: District of Columbia
+  103: District of Columbia
 - type: house
   name: House Select Committee on Energy Independence and Global Warming
   thomas_id: HSGW
@@ -90,7 +166,6 @@
   subcommittees:
   - name: Coast Guard and Navigation
     thomas_id: '01'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Coast Guard and Navigation
       98: Coast Guard and Navigation
@@ -99,9 +174,23 @@
       101: Coast Guard and Navigation
       102: Coast Guard and Navigation
       103: Coast Guard and Navigation
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Coast Guard and Navigation
+    98: Coast Guard and Navigation
+    99: Coast Guard and Navigation
+    100: Coast Guard and Navigation
+    101: Coast Guard and Navigation
+    102: Coast Guard and Navigation
+    103: Coast Guard and Navigation
   - name: Fisheries and Wildlife Conservation and the Environment
     thomas_id: '02'
-    congresses: 97, 98, 99, 100, 101, 102
     names:
       97: Fisheries and Wildlife Conservation and the Environment
       98: Fisheries and Wildlife Conservation and the Environment
@@ -109,9 +198,21 @@
       100: Fisheries and Wildlife Conservation and the Environment
       101: Fisheries and Wildlife Conservation and the Environment
       102: Fisheries and Wildlife Conservation and the Environment
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    97: Fisheries and Wildlife Conservation and the Environment
+    98: Fisheries and Wildlife Conservation and the Environment
+    99: Fisheries and Wildlife Conservation and the Environment
+    100: Fisheries and Wildlife Conservation and the Environment
+    101: Fisheries and Wildlife Conservation and the Environment
+    102: Fisheries and Wildlife Conservation and the Environment
   - name: Merchant Marine
     thomas_id: '06'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Merchant Marine
       98: Merchant Marine
@@ -120,41 +221,83 @@
       101: Merchant Marine
       102: Merchant Marine
       103: Merchant Marine
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Merchant Marine
+    98: Merchant Marine
+    99: Merchant Marine
+    100: Merchant Marine
+    101: Merchant Marine
+    102: Merchant Marine
+    103: Merchant Marine
   - name: Oceanography
     thomas_id: '04'
-    congresses: 97, 98, 99, 100, 101
     names:
       97: Oceanography
       98: Oceanography
       99: Oceanography
       100: Oceanography
       101: Oceanography
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    97: Oceanography
+    98: Oceanography
+    99: Oceanography
+    100: Oceanography
+    101: Oceanography
   - name: Panama Canal and Outer Continental Shelf
     thomas_id: '05'
-    congresses: 97, 98, 99, 100, 101
     names:
       97: Panama Canal and Outer Continental Shelf
       98: Panama Canal and Outer Continental Shelf
       99: Panama Canal and Outer Continental Shelf
       100: Panama Canal and Outer Continental Shelf
       101: Panama Canal and Outer Continental Shelf
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    97: Panama Canal and Outer Continental Shelf
+    98: Panama Canal and Outer Continental Shelf
+    99: Panama Canal and Outer Continental Shelf
+    100: Panama Canal and Outer Continental Shelf
+    101: Panama Canal and Outer Continental Shelf
   - name: Oceanography, Great Lakes and the Outer Continental Shelf
     thomas_id: 08
-    congresses: 102, 103
     names:
       102: Oceanography, Great Lakes and the Outer Continental Shelf
       103: Oceanography, Gulf of Mexico and the Outer Continental Shelf
+    congresses:
+    - 102
+    - 103
+    102: Oceanography, Great Lakes and the Outer Continental Shelf
+    103: Oceanography, Gulf of Mexico and the Outer Continental Shelf
   - name: Environment and Natural Resources
     thomas_id: '22'
-    congresses: '103'
     names:
       103: Environment and Natural Resources
+    congresses:
+    - 103
+    103: Environment and Natural Resources
   - name: Fisheries Management
     thomas_id: '23'
-    congresses: '103'
     names:
       103: Fisheries Management
-  congresses: 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103
+    congresses:
+    - 103
+    103: Fisheries Management
   names:
     93: Merchant Marine and Fisheries
     94: Merchant Marine and Fisheries
@@ -167,6 +310,29 @@
     101: Merchant Marine and Fisheries
     102: Merchant Marine and Fisheries
     103: Merchant Marine and Fisheries
+  congresses:
+  - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  93: Merchant Marine and Fisheries
+  94: Merchant Marine and Fisheries
+  95: Merchant Marine and Fisheries
+  96: Merchant Marine and Fisheries
+  97: Merchant Marine and Fisheries
+  98: Merchant Marine and Fisheries
+  99: Merchant Marine and Fisheries
+  100: Merchant Marine and Fisheries
+  101: Merchant Marine and Fisheries
+  102: Merchant Marine and Fisheries
+  103: Merchant Marine and Fisheries
 - type: house
   name: House Committee on Post Office and Civil Service
   thomas_id: HSPO
@@ -174,7 +340,6 @@
   subcommittees:
   - name: Census and Population
     thomas_id: '01'
-    congresses: 97, 98, 99, 100, 101, 102
     names:
       97: Census and Population
       98: Census and Population
@@ -182,9 +347,21 @@
       100: Census and Population
       101: Census and Population
       102: Census and Population
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    97: Census and Population
+    98: Census and Population
+    99: Census and Population
+    100: Census and Population
+    101: Census and Population
+    102: Census and Population
   - name: Civil Service
     thomas_id: '03'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Civil Service
       98: Civil Service
@@ -193,9 +370,23 @@
       101: Civil Service
       102: Civil Service
       103: Civil Service
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Civil Service
+    98: Civil Service
+    99: Civil Service
+    100: Civil Service
+    101: Civil Service
+    102: Civil Service
+    103: Civil Service
   - name: Compensation and Employee Benefits
     thomas_id: '02'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Compensation and Employee Benefits
       98: Compensation and Employee Benefits
@@ -204,9 +395,23 @@
       101: Compensation and Employee Benefits
       102: Compensation and Employee Benefits
       103: Compensation and Employee Benefits
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Compensation and Employee Benefits
+    98: Compensation and Employee Benefits
+    99: Compensation and Employee Benefits
+    100: Compensation and Employee Benefits
+    101: Compensation and Employee Benefits
+    102: Compensation and Employee Benefits
+    103: Compensation and Employee Benefits
   - name: Human Resources
     thomas_id: '04'
-    congresses: 97, 98, 99, 100, 101, 102
     names:
       97: Human Resources
       98: Human Resources
@@ -214,9 +419,21 @@
       100: Human Resources
       101: Human Resources
       102: Human Resources
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    97: Human Resources
+    98: Human Resources
+    99: Human Resources
+    100: Human Resources
+    101: Human Resources
+    102: Human Resources
   - name: Postal Operations and Services
     thomas_id: '06'
-    congresses: 97, 98, 99, 100, 101, 102, 103
     names:
       97: Postal Operations and Services
       98: Postal Operations and Services
@@ -225,9 +442,23 @@
       101: Postal Operations and Services
       102: Postal Operations and Services
       103: Postal Operations and Services
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    97: Postal Operations and Services
+    98: Postal Operations and Services
+    99: Postal Operations and Services
+    100: Postal Operations and Services
+    101: Postal Operations and Services
+    102: Postal Operations and Services
+    103: Postal Operations and Services
   - name: Postal Personnel and Modernization
     thomas_id: '05'
-    congresses: 97, 98, 99, 100, 101, 102
     names:
       97: Postal Personnel and Modernization
       98: Postal Personnel and Modernization
@@ -235,17 +466,33 @@
       100: Postal Personnel and Modernization
       101: Postal Personnel and Modernization
       102: Postal Personnel and Modernization
+    congresses:
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    97: Postal Personnel and Modernization
+    98: Postal Personnel and Modernization
+    99: Postal Personnel and Modernization
+    100: Postal Personnel and Modernization
+    101: Postal Personnel and Modernization
+    102: Postal Personnel and Modernization
   - name: Ad Hoc Task Force on Presidential Pay Recommendation
     thomas_id: 08
-    congresses: '100'
     names:
       100: Ad Hoc Task Force on Presidential Pay Recommendation
+    congresses:
+    - 100
+    100: Ad Hoc Task Force on Presidential Pay Recommendation
   - name: Census, Statistics and Postal Personnel
     thomas_id: 09
-    congresses: '103'
     names:
       103: Census, Statistics and Postal Personnel
-  congresses: 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103
+    congresses:
+    - 103
+    103: Census, Statistics and Postal Personnel
   names:
     93: Post Office and Civil Service
     94: Post Office and Civil Service
@@ -258,6 +505,29 @@
     101: Post Office and Civil Service
     102: Post Office and Civil Service
     103: Post Office and Civil Service
+  congresses:
+  - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  93: Post Office and Civil Service
+  94: Post Office and Civil Service
+  95: Post Office and Civil Service
+  96: Post Office and Civil Service
+  97: Post Office and Civil Service
+  98: Post Office and Civil Service
+  99: Post Office and Civil Service
+  100: Post Office and Civil Service
+  101: Post Office and Civil Service
+  102: Post Office and Civil Service
+  103: Post Office and Civil Service
 - type: house
   name: House Committee on Standards of Official Conduct
   thomas_id: HSSO
@@ -266,87 +536,125 @@
   name: House Committee on Internal Security
   thomas_id: HSUA
   house_committee_id: UA
-  congresses: '93'
   names:
     93: Internal Security
+  congresses:
+  - 93
+  93: Internal Security
 - type: house
   name: Temporary Joint Committee on Deficit Reduction
   thomas_id: HTDE
   house_committee_id: DE
-  congresses: '99'
   names:
     99: Temporary Joint Committee on Deficit Reduction
+  congresses:
+  - 99
+  99: Temporary Joint Committee on Deficit Reduction
 - type: senate
   name: Senate Committee on POW/MIA Affairs
   thomas_id: SLPO
   senate_committee_id: SLPO
-  congresses: '102'
   names:
     102: POW/MIA Affairs
+  congresses:
+  - 102
+  102: POW/MIA Affairs
 - type: senate
   name: Senate Committee on Impeachment (Special) (Hastings)
   thomas_id: SPIM
   senate_committee_id: SPIM
-  congresses: '101'
   names:
     101: Impeachment (Special) (Hastings)
+  congresses:
+  - 101
+  101: Impeachment (Special) (Hastings)
 - type: senate
   name: Senate Committee on Official Conduct (Special)
   thomas_id: SPOC
   senate_committee_id: SPOC
-  congresses: '95'
   names:
     95: Official Conduct (Special)
+  congresses:
+  - 95
+  95: Official Conduct (Special)
 - type: senate
   name: Senate Committee on Whitewater Dev Corp Investigation (Special)
   thomas_id: SPWW
   senate_committee_id: SPWW
-  congresses: '104'
   names:
     104: Whitewater Dev Corp Investigation (Special)
+  congresses:
+  - 104
+  104: Whitewater Dev Corp Investigation (Special)
 - type: senate
   name: Senate Committee on Aeronautical and Space Sciences
   thomas_id: SSAE
   senate_committee_id: SSAE
-  congresses: 93, 94, 95
   names:
     93: Aeronautical and Space Sciences
     94: Aeronautical and Space Sciences
     95: Aeronautical and Space Sciences
+  congresses:
+  - 93
+  - 94
+  - 95
+  93: Aeronautical and Space Sciences
+  94: Aeronautical and Space Sciences
+  95: Aeronautical and Space Sciences
 - type: senate
   name: Senate Committee on District of Columbia
   thomas_id: SSDT
   senate_committee_id: SSDT
-  congresses: 93, 94
   names:
     93: District of Columbia
     94: District of Columbia
+  congresses:
+  - 93
+  - 94
+  93: District of Columbia
+  94: District of Columbia
 - type: senate
   name: Senate Committee on Post Office and Civil Service
   thomas_id: SSPO
   senate_committee_id: SSPO
-  congresses: 93, 94
   names:
     93: Post Office and Civil Service
     94: Post Office and Civil Service
+  congresses:
+  - 93
+  - 94
+  93: Post Office and Civil Service
+  94: Post Office and Civil Service
 - type: senate
   name: Joint Atomic Energy
   thomas_id: JSAT
-  congresses: 93, 94, 95
   names:
     93: Joint Atomic Energy
     94: Joint Atomic Energy
     95: Joint Atomic Energy
+  congresses:
+  - 93
+  - 94
+  - 95
+  93: Joint Atomic Energy
+  94: Joint Atomic Energy
+  95: Joint Atomic Energy
 - type: house
   name: House Committee on Ethics (Select)
   thomas_id: HLET
-  congresses: '95'
   names:
     95: Ethics (Select)
+  congresses:
+  - 95
+  95: Ethics (Select)
 - type: senate
   name: Temporary Joint Committee on Deficit Reduction
   thomas_id: JTDR
-  congresses: 99, 100
   names:
     99: Temporary Joint Committee on Deficit Reduction
     100: Temporary Joint Committee on Deficit Reduction
+  congresses:
+  - 99
+  - 100
+  99: Temporary Joint Committee on Deficit Reduction
+  100: Temporary Joint Committee on Deficit Reduction
