@@ -17,8 +17,10 @@ committees_current = load_data("committees-current.yaml")
 
 
 # default to not caching
-cache = utils.flags().get('cache', False)
+flags = utils.flags()
+cache = flags.get('cache', False)
 force = not cache
+
 
 # map thomas_id's to their dicts
 committees_historical_ref = { }
@@ -26,15 +28,18 @@ for cx in committees_historical: committees_historical_ref[cx["thomas_id"]] = cx
 committees_current_ref = { }
 for cx in committees_current: committees_current_ref[cx["thomas_id"]] = cx
 
-# clear out some fields that we'll set again
-for cx in itertools.chain(committees_historical, committees_current):
-  if "congresses" in cx: del cx["congresses"]
-  if "names" in cx: del cx["names"]
-  for sx in cx.get('subcommittees', []):
-    if "congresses" in sx: del sx["congresses"]
-    if "names" in sx: del sx["names"]
 
-for congress in range(93, CURRENT_CONGRESS+1):
+# pick the range of committees to get
+single_congress = flags.get('congress', False)
+if single_congress:
+  start_congress = int(single_congress)
+  end_congress = int(single_congress) + 1
+else:
+  start_congress = 93
+  end_congress = CURRENT_CONGRESS + 1
+
+
+for congress in range(start_congress, end_congress):
   print congress, '...'
 
   url = "http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress
@@ -101,15 +106,12 @@ for congress in range(93, CURRENT_CONGRESS+1):
           cx['subcommittees'].append(sx)
           cx = sx
           
-      cx.setdefault('congresses', []).append(str(congress))
-      cx.setdefault('names', {})[congress] = name
+      cx.setdefault('congresses', [])
+      cx.setdefault('names', {})
 
-
-for cx in itertools.chain(committees_historical, committees_current):
-  if "congresses" in cx: cx["congresses"] = ", ".join(cx["congresses"])
-  
-  for sx in cx.get('subcommittees', []):
-    if "congresses" in sx: sx["congresses"] = ", ".join(sx["congresses"])
+      if congress not in cx:
+        cx['congresses'].append(congress)
+      cx[congress] = name
     
 
 save_data(committees_historical, "committees-historical.yaml")
