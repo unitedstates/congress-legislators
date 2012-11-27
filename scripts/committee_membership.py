@@ -112,7 +112,9 @@ def scrape_house_committee(cx, output_code, house_code):
       moc = lnk[0].get('href')
       m = re.search(r"statdis=([A-Z][A-Z]\d\d)", moc)
       if not m: raise ValueError("Failed to parse member link: " + moc)
-      if not m.group(1) in congressmen: raise ValueError("Vacancy discrepancy? " + m.group(1))
+      if not m.group(1) in congressmen: 
+        print "Vacancy discrepancy? " + m.group(1)
+        continue
       moc = congressmen[m.group(1)]
       if node.cssselect('a')[0].text_content().replace(", ", "") != moc['name']['official_full']:
         print "Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())
@@ -123,7 +125,7 @@ def scrape_house_committee(cx, output_code, house_code):
       entry["rank"] = rank+1
       if rank == 0:
         entry["title"] = "Chair" if entry["party"] == "majority" else "Ranking Member" # not explicit, frown
-      entry.update(moc["id"])
+      entry.update(ids_from(moc["id"]))
       
       committee_membership.setdefault(output_code, []).append(entry)
       
@@ -238,10 +240,23 @@ def scrape_senate():
           entry["party"] = party
           entry["rank"] = rank+1
           if title: entry["title"] = title
-          entry.update(moc["id"])
+          entry.update(ids_from(moc["id"]))
             
           committee_membership.setdefault(output_code, []).append(entry)
       
+
+# stick to a specific small set of official IDs to cross-link members
+# this limits the IDs from going out of control in this file, while
+# preserving us flexibility to be inclusive of IDs in the main leg files
+def ids_from(moc):
+  ids = {}
+  for id in ["bioguide", "thomas"]:
+    if moc.has_key(id):
+      ids[id] = moc[id]
+  if len(ids) == 0:
+    raise ValueError("Missing an official ID for this legislator, won't be able to link back")
+  return ids
+
 
 # MAIN
 
