@@ -121,9 +121,13 @@ legislators-current.yaml and legislators-historical.yaml
 	* class: For senators, their election class (1, 2, or 3). Note that this is unrelated to seniority.
 	* party: The political party of the legislator. If the legislator changed parties, it is typically the most recent party held during the term.
 	* url: The official website URL of the legislator (only valid if the term is current).
-	* address: The mailing address of the legislator (only valid if the term is current).
+	* address: The mailing address of the legislator's Washington, D.C. office (only valid if the term is current).
+	* phone: The phone number of the legislator's Washington, D.C. office (only valid if the term is current).
+	* fax: The fax number of the legislator's Washington, D.C. office (only valid if the term is current).
+	* contact_form: The website URL of the contact page on the legislator's official website (only valid if the term is current).
+	* office: Similar to the address field, this is just the room and building number, suitable for display (only valid if the term is current).
 
-Except where noted, fields are omitted when their value is empty or unknown.
+Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
 
 In most cases, a legislator has a single term on any given date. In some cases a legislator resigned from one chamber and was sworn in in the other chamber on the same day.
 
