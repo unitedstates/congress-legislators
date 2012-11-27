@@ -108,7 +108,7 @@ for congress in range(start_congress, end_congress):
       cx.setdefault('congresses', [])
       cx.setdefault('names', {})
 
-      print "[%s] %s (%s)" % (cx['thomas_id'], cx['name'], congress)
+      # print "[%s] %s (%s)" % (cx['thomas_id'], cx['name'], congress)
 
       if congress not in cx['congresses']:
         cx['congresses'].append(congress)

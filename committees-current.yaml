@@ -5124,10 +5124,6 @@
   thomas_id: SSAF
   senate_committee_id: SSAF
   subcommittees:
-  - name: Domestic and Foreign Marketing, Inspection, and Plant and Animal Health
-    thomas_id: '8'
-  - name: Energy, Science and Technology
-    thomas_id: '9'
   - name: Hunger, Nutrition, and Family Farms
     thomas_id: '10'
   - name: Production, Income Protection and Price Support
@@ -5326,9 +5322,6 @@
   thomas_id: SSAP
   senate_committee_id: SSAP
   subcommittees:
-  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
-      Agencies
-    thomas_id: '1'
   - name: Commerce, Justice, Science, and Related Agencies
     thomas_id: '16'
     names:
@@ -5341,8 +5334,6 @@
     - 110
     - 111
     - 112
-  - name: Defense
-    thomas_id: '2'
   - name: Energy and Water Development
     thomas_id: '22'
     names:
@@ -5397,8 +5388,6 @@
     - 109
     - 110
     - 112
-  - name: Legislative Branch
-    thomas_id: '8'
   - name: Military Construction and Veterans Affairs, and Related Agencies
     thomas_id: '19'
     names:
@@ -6094,14 +6083,6 @@
     - 106
     - 108
     - 112
-  - name: Financial Institutions
-    thomas_id: '8'
-  - name: Housing, Transportation and Community Development
-    thomas_id: '9'
-  - name: Securities, Insurance and Investment
-    thomas_id: '4'
-  - name: Security and International Trade and Finance
-    thomas_id: '5'
   - name: Consumer Affairs
     thomas_id: '07'
     names:
@@ -6325,8 +6306,6 @@
   thomas_id: SSCM
   senate_committee_id: SSCM
   subcommittees:
-  - name: Aviation Operations, Safety, and Security
-    thomas_id: '1'
   - name: Communications, Technology, and the Internet
     thomas_id: '26'
     names:
@@ -6627,14 +6606,6 @@
   thomas_id: SSEG
   senate_committee_id: SSEG
   subcommittees:
-  - name: Energy
-    thomas_id: '1'
-  - name: National Parks
-    thomas_id: '4'
-  - name: Public Lands and Forests
-    thomas_id: '3'
-  - name: Water and Power
-    thomas_id: '7'
   - name: Water and Power
     thomas_id: '07'
     names:
@@ -7105,8 +7076,6 @@
     - 99
   - name: Fiscal Responsibility and Economic Growth
     thomas_id: '14'
-  - name: Social Security, Pensions and Family Policy
-    thomas_id: '2'
   - name: Taxation and IRS Oversight
     thomas_id: '11'
   - name: Energy and Agricultural Taxation
@@ -7301,22 +7270,12 @@
   thomas_id: SSFR
   senate_committee_id: SSFR
   subcommittees:
-  - name: African Affairs
-    thomas_id: '9'
-  - name: East Asian and Pacific Affairs
-    thomas_id: '2'
-  - name: European Affairs
-    thomas_id: '1'
   - name: International Development and Foreign Assistance, Economic Affairs and International
       Environmental Protection
     thomas_id: '12'
   - name: International Operations and Organizations, Human Rights, Democracy and
       Global Women's Issues
     thomas_id: '13'
-  - name: Near Eastern and South and Central Asian Affairs
-    thomas_id: '7'
-  - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
-    thomas_id: '6'
   - name: European Affairs
     thomas_id: '01'
     names:
@@ -7496,14 +7455,6 @@
     - 97
     - 98
     - 110
-  - name: Investigations
-    thomas_id: '1'
-  - name: Federal Financial Management, Government Information, Federal Services,
-      and International Security
-    thomas_id: '9'
-  - name: Oversight of Government Management, the Federal Workforce, and the District
-      of Columbia
-    thomas_id: '3'
   - name: Civil Service, Post Office, and General Services
     thomas_id: '07'
     names:
@@ -7688,8 +7639,6 @@
   thomas_id: SSHR
   senate_committee_id: SSHR
   subcommittees:
-  - name: Children and Families
-    thomas_id: '9'
   - name: Employment and Workplace Safety
     thomas_id: '11'
     names:
@@ -7896,10 +7845,6 @@
   thomas_id: SSJU
   senate_committee_id: SSJU
   subcommittees:
-  - name: Administrative Oversight and the Courts
-    thomas_id: '2'
-  - name: Antitrust, Competition Policy and Consumer Rights
-    thomas_id: '1'
   - name: Crime and Drugs
     thomas_id: '15'
     names:
@@ -7920,10 +7865,6 @@
     - 98
     - 99
     - 111
-  - name: Immigration, Refugees and Border Security
-    thomas_id: '4'
-  - name: Terrorism and Homeland Security
-    thomas_id: '9'
   - name: the Constitution
     thomas_id: '18'
     names:
