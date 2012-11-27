@@ -11,7 +11,6 @@ from collections import OrderedDict
 import utils
 from utils import download, load_data, save_data, CURRENT_CONGRESS
 
-
 committees_historical = load_data("committees-historical.yaml")
 committees_current = load_data("committees-current.yaml")
 
@@ -109,9 +108,12 @@ for congress in range(start_congress, end_congress):
       cx.setdefault('congresses', [])
       cx.setdefault('names', {})
 
-      if congress not in cx:
+      print "[%s] %s (%s)" % (cx['thomas_id'], cx['name'], congress)
+
+      if congress not in cx['congresses']:
         cx['congresses'].append(congress)
-      cx[congress] = name
+      
+      cx['names'][congress] = name
     
 
 save_data(committees_historical, "committees-historical.yaml")
