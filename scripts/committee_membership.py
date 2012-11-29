@@ -2,9 +2,7 @@
 
 # Scrape house.gov and senate.gov for current committee membership,
 # and updates the committees-current.yaml file with metadata including
-# name, url, address, and phone number. While the Senate has XML for
-# full committee membership, we're still scraping the old way in
-# order to get subcommittee membership.
+# name, url, address, and phone number.
 
 import re, lxml.html, StringIO, datetime
 from collections import OrderedDict
@@ -31,7 +29,19 @@ for cx in committees_current:
   if "senate_committee_id" in cx:
     senate_ref[cx["senate_committee_id"]] = cx
 
+# REMOVE ME
+# During the transition to the new committee files, clean up redundant data
+# and dissolved subcommittees.
+seen_subcommittees = set()
+for cx in committees_current:
+  if "names" in cx: del cx["names"]
+  if "congresses" in cx: del cx["congresses"]
+  for sx in cx.get("subcommittees", []):
+    if "names" in sx: del sx["names"]
+    if "congresses" in sx: del sx["congresses"]
+
 # map state/district to current representatives and state/lastname to current senators
+# since the House/Senate pages do not provide IDs for Members of Congress
 today = datetime.datetime.now().date()
 legislators_current = load_data("legislators-current.yaml")
 congressmen = { }
@@ -64,13 +74,6 @@ def scrape_house():
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
     
 def scrape_house_committee(cx, output_code, house_code):
-  ## make the committee metadata file indicate this committee is current if it doesn't already
-  #if "congresses" in cx:
-  #  if str(CURRENT_CONGRESS) not in cx["congresses"].split(","):
-  #    cx["congresses"] += "," + str(CURRENT_CONGRESS)
-  #else:
-  #  cx["congresses"] = str(CURRENT_CONGRESS)
-  
   # load the House Clerk's committee membership page for the committee
   # (it is encoded in utf-8 even though the page indicates otherwise, and
   # while we don't really care, it helps our sanity check that compares
@@ -156,6 +159,7 @@ def scrape_house_committee(cx, output_code, house_code):
       sx['name'] = "[not initialized]" # will be set inside of scrape_house_committee
       sx['thomas_id'] = m.group(2)
       cx['subcommittees'].append(sx)
+    seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
     scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
 
 # Scrape senate.gov....
@@ -205,14 +209,8 @@ def scrape_senate():
       sx["name"] = name.strip()
       sx["name"] = re.sub(r"^\s*Subcommittee on\s*", "", sx["name"])
       sx["name"] = re.sub(r"\s+", " ", sx["name"])
+      seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
 
-      ## make the committee metadata file indicate this committee is current if it doesn't already
-      #if "congresses" in sx:
-      #  if str(CURRENT_CONGRESS) not in sx["congresses"].split(","):
-      #    sx["congresses"] += "," + str(CURRENT_CONGRESS)
-      #else:
-      #  sx["congresses"] = str(CURRENT_CONGRESS)
-        
     # scan membership
     for issubcom, subcom, members_majority, members_minority in re.findall(r"""(<a NAME="(....\d\d)">.*?)?<td valign="top" nowrap>(.*?)</td><td valign="top" nowrap>(.*?)</td>""", body2, re.I | re.S):
       output_code = id
@@ -262,6 +260,13 @@ def ids_from(moc):
 
 scrape_house()
 scrape_senate()
+
+# REMOVE ME
+# Delete dissolved subcommittees from the old-format committee file.
+for cx in committees_current:
+  for sx in cx.get("subcommittees", []):
+    if (cx["thomas_id"], sx["thomas_id"]) not in seen_subcommittees:
+      cx["subcommittees"].remove(sx)
 
 # Check that we got data for all committees.
 # TODO: Make sure we have data from both chambers for the joint committees,
