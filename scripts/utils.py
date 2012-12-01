@@ -162,7 +162,25 @@ def construct_odict(load, node):
 yaml.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
 
 def yaml_load(path):
-    return yaml.load(open(path))
+    # Loading YAML is ridiculously slow, so cache the YAML data
+    # in a pickled file which loads much faster.
+
+    # Check if the .pickle file exists and a hash stored inside it
+    # matches the hash of the YAML file, and if so unpickle it.
+    import cPickle as pickle, os.path, hashlib
+    h = hashlib.sha1(open(path).read()).hexdigest()
+    if os.path.exists(path + ".pickle"):
+        store = pickle.load(open(path + ".pickle"))
+        if store["hash"] == h:
+            return store["data"]
+	
+	# No cached pickled data exists, so load the YAML file.
+    data = yaml.load(open(path))
+    
+    # Store in a pickled file for fast access later.
+    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
+    
+    return data
 
 def ordered_dict_serializer(self, data):
     return self.represent_mapping('tag:yaml.org,2002:map', data.items())
