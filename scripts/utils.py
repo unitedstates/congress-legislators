@@ -189,3 +189,12 @@ yaml.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'ta
 
 def yaml_dump(data, path):
     yaml.dump(data, open(path, "w"), default_flow_style=False, allow_unicode=True)
+
+    # Store in a pickled file for fast access later.
+    import cPickle as pickle, hashlib
+    h = hashlib.sha1(open(path).read()).hexdigest()
+    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
+
+def pprint(data):
+    yaml.dump(data, sys.stdout, default_flow_style=False, allow_unicode=True)
+
