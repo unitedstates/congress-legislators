@@ -13,7 +13,7 @@ And about committees:
 
 * committees-current.yaml: Current committees of the Congress, with subcommittees.
 * committee-membership-current.yaml: Current committee/subcommittee assignments as of the date of last update.
-* committees-historical.yaml: Historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+* committees-historical.yaml: Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
 
 The files are in YAML (http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
@@ -151,7 +151,9 @@ The file is in lexical order by bioguide ID for convenience. Legislators are onl
 Committees Data Dictionary
 --------------------------
 
-The committees-current.yaml file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. The committees-historical.yaml file is a possibly partial list of committees that are no longer in effect, based on scraping committees to which bills have been referred to on THOMAS. A committee will only appear in one file.
+The committees-current.yaml file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. It is based on data scraped from House.gov and Senate.gov.
+
+The committees-historical.yaml file is a possibly partial list of current and historical committees and subcommittees referred to in the unitedstates/congress project bill data, as scraped from THOMAS.gov. Only committees/subcommmittees that have had bills referred to them are included.
 
 The basic structure of a committee entry looks like the following:
 
@@ -163,25 +165,30 @@ The basic structure of a committee entry looks like the following:
 	  subcommittees:
 	     (... subcommittee list ...)
 
-The files contain a possibly partial list of subcommittees. However, please take note that the committees-current.yaml file will list disbanded subcommittees. It is not currently possible from this file to accurately determine whether a subcommittee is current.
+The two files are structured each as a list of committees, each entry an associative array of key/value pairs of committee metadata.
 
-The two files are structured each as a list of committees, each entry an associative array of key/value pairs of committee metadata. The fields are as follows:
+The fields available in both files are as follows:
 
 * type: 'house', 'senate', or 'joint' indicating the type of commmittee
 * name: The current (or most recent) official name of the committee.
-* url: For current committees, their website URL.
 * thomas_id: The four-letter code used for the committee on the THOMAS advanced search page.
 * senate_committee_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm. Currently the same as the thomas_id.
 * house_committee_id: For House committees, the two-letter code used on http://clerk.house.gov/committee_info/index.aspx. Currently always the same as the last two letters of the thomas_id.
-* congresses: A comma-separated list of Congress numbers in which this committee appears on the THOMAS advanced search page. It is roughly an indication of the time period during which the committee was in use. However, if a committee was not referred any bills it may not appear on THOMAS's list and therefore would not appear here.
-* names: A list of past names for the committee. This is an associative array from *either* a Congress number or a string in the form of XXX-YYY indicating a range of Congress numbers, to the name of a committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
-* address: The mailing address for the committee, for current committees only.
-* phone: The phone number of the committee, for current committees only.
 * subcommittees: A list of subcommittees, with the following fields:
 	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
-	* congresses: Same meaning as for full committees. Note that a subcommittee may currently be disbanded. This field gives a rough approximation to whether a subcommittee is current. But because a Congress may not be listed if no bills were referred to the subcommittee, a subcommittee that does not appear to be current may in fact be current.
-	* names: Same meaning as for full committees.
+
+Additional fields are present on committee entries (but not subcommittee entries) in the committees-current.yaml file:
+
+* url: The current website URL of the committee.
+* address: The mailing address for the committee.
+* phone: The phone number of the committee.
+
+Two additional fields are present on committees and subcommmittees in the committees-historical.yaml file:
+
+* congresses: A list of Congress numbers in which this committee appears on the THOMAS advanced search page. It is roughly an indication of the time period during which the committee was in use. However, if a committee was not referred any bills it may not appear on THOMAS's list and therefore would not appear here.
+* names: A list of past names for the committee. This is an associative array from a Congress number to the name of the committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
+
 
 Committee Membership Data Dictionary
 ------------------------------------
@@ -195,7 +202,6 @@ The committee-membership-current.yaml file contains current committee assignment
 	  title: Chair
 	  bioguide: L000491
 	  thomas: '00711'
-	  govtrack: 400247
 	- name: Bob Goodlatte
 	  party: majority
 	  rank: 2
@@ -211,9 +217,9 @@ The committee IDs in this file are the thomas_id's from the committees-current.y
 Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
 
 * name: The name of the Member of Congress. This field is intended for debugging. Instead, use the id fields.
-* Any ID field: Any of the id fields used in the legislators YAML files may appear here, such as bioguide, lis, and govtrack.
+* Some of the id fields used in the legislators YAML files, such as bioguide and thomas.
 * party: Either "majority" or "minority." Committee work is divided strictly by party.
-* rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member).
+* rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member). The rank is essentially approximate, because the House/Senate pages don't necessarily make a committment that the order on the page precisely indicates actual rank (if such a concept even applies). But if you want to preserve the order as displayed by the House and Senate, you can use this attribute.
 * title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
   
 State Abbreviations

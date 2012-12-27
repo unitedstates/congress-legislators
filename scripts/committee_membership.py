@@ -2,11 +2,9 @@
 
 # Scrape house.gov and senate.gov for current committee membership,
 # and updates the committees-current.yaml file with metadata including
-# name, url, address, and phone number. While the Senate has XML for
-# full committee membership, we're still scraping the old way in
-# order to get subcommittee membership.
+# name, url, address, and phone number.
 
-import re, lxml.html, StringIO, datetime
+import re, lxml.html, lxml.etree, StringIO, datetime
 from collections import OrderedDict
 import utils
 from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
@@ -31,7 +29,19 @@ for cx in committees_current:
   if "senate_committee_id" in cx:
     senate_ref[cx["senate_committee_id"]] = cx
 
+# REMOVE ME
+# During the transition to the new committee files, clean up redundant data
+# and dissolved subcommittees.
+seen_subcommittees = set()
+for cx in committees_current:
+  if "names" in cx: del cx["names"]
+  if "congresses" in cx: del cx["congresses"]
+  for sx in cx.get("subcommittees", []):
+    if "names" in sx: del sx["names"]
+    if "congresses" in sx: del sx["congresses"]
+
 # map state/district to current representatives and state/lastname to current senators
+# since the House/Senate pages do not provide IDs for Members of Congress
 today = datetime.datetime.now().date()
 legislators_current = load_data("legislators-current.yaml")
 congressmen = { }
@@ -64,13 +74,6 @@ def scrape_house():
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
     
 def scrape_house_committee(cx, output_code, house_code):
-  ## make the committee metadata file indicate this committee is current if it doesn't already
-  #if "congresses" in cx:
-  #  if str(CURRENT_CONGRESS) not in cx["congresses"].split(","):
-  #    cx["congresses"] += "," + str(CURRENT_CONGRESS)
-  #else:
-  #  cx["congresses"] = str(CURRENT_CONGRESS)
-  
   # load the House Clerk's committee membership page for the committee
   # (it is encoded in utf-8 even though the page indicates otherwise, and
   # while we don't really care, it helps our sanity check that compares
@@ -147,8 +150,6 @@ def scrape_house_committee(cx, output_code, house_code):
     
     for sx in cx['subcommittees']:
       if sx["thomas_id"] == m.group(2):
-        sx["name"] = subcom.text_content()
-        sx["name"] = re.sub(r"\s+Subcommittee$", "", sx["name"])
         break
     else:
       print "Subcommittee not found, creating it", output_code, m.group(1)
@@ -156,6 +157,7 @@ def scrape_house_committee(cx, output_code, house_code):
       sx['name'] = "[not initialized]" # will be set inside of scrape_house_committee
       sx['thomas_id'] = m.group(2)
       cx['subcommittees'].append(sx)
+    seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
     scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
 
 # Scrape senate.gov....
@@ -170,80 +172,83 @@ def scrape_senate():
       
     cx = senate_ref[id]
     seen_committees.add(cx["thomas_id"])
-    #scrape_senate_committee(cx, cx["thomas_id"], id)
+   
+    # Scrape some metadata on the HTML page first.
 
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
     body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
     
-    if body2:
-      m = re.search(r"<committee_name>(.*)</committee_name>", body2)
-      
-    if not body2 or not m:
+    if not body2:
       print "\tcommittee page not good:", committee_url
       continue
-     
-    cx["name"] = m.group(1)
-    if id[0] != "J" and id[0:2] != 'SC':
-      cx["name"] = "Senate " + cx["name"]
- 
+      
     m = re.search(r'<span class="contenttext"><a href="(http://(.*?).senate.gov/)">', body2, re.I)
     if m:
       cx["url"] = m.group(1)
       
-    # scan subcommittee links
-    for scid, name in re.findall(r'<a href="#' + id + '(\d\d)">Subcommittee on (.*?)</a></span>', body2):
-      for sx in cx['subcommittees']:
+    m = re.search(r"<committee_name>(.*)</committee_name>", body2)
+    cx["name"] = m.group(1)
+    if id[0] != "J" and id[0:2] != 'SC':
+      cx["name"] = "Senate " + cx["name"]
+ 
+    # Use the XML for the rest.
+
+    committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
+    body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
+    dom = lxml.etree.fromstring(body3)
+    majority_party = dom.xpath("committees/majority_party")[0].text
+    
+    # update full committee members
+    committee_membership[id] = []
+    for member in dom.xpath("committees/members/member"):
+      scrape_senate_member(committee_membership[id], member, majority_party)
+    
+    # update subcommittees
+    for subcom in dom.xpath("committees/subcommittee"):
+      scid = subcom.xpath("committee_code")[0].text[4:]
+      for sx in cx.get('subcommittees', []):
         if sx["thomas_id"] == scid:
           break
       else:
         print "Subcommittee not found, creating it", scid, name
         sx = OrderedDict()
         sx['thomas_id'] = scid
-        cx['subcommittees'].append(sx)
+        cx.setdefault('subcommittees', []).append(sx)
         
       # update metadata
+      name = subcom.xpath("subcommittee_name")[0].text
       sx["name"] = name.strip()
       sx["name"] = re.sub(r"^\s*Subcommittee on\s*", "", sx["name"])
       sx["name"] = re.sub(r"\s+", " ", sx["name"])
+      seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
 
-      ## make the committee metadata file indicate this committee is current if it doesn't already
-      #if "congresses" in sx:
-      #  if str(CURRENT_CONGRESS) not in sx["congresses"].split(","):
-      #    sx["congresses"] += "," + str(CURRENT_CONGRESS)
-      #else:
-      #  sx["congresses"] = str(CURRENT_CONGRESS)
-        
-    # scan membership
-    for issubcom, subcom, members_majority, members_minority in re.findall(r"""(<a NAME="(....\d\d)">.*?)?<td valign="top" nowrap>(.*?)</td><td valign="top" nowrap>(.*?)</td>""", body2, re.I | re.S):
-      output_code = id
-      if subcom: output_code = subcom
-        
-      for party, members in (('majority', members_majority), ('minority', members_minority)):
-        for rank, member in enumerate(members.split("<br>")):
-          # majority party members in the full committee have weird formatting (XML showing through)
-          member = re.sub(r"</?[a-z_]+>", "", member)
-          member = re.sub(r"\s+", " ", member).strip()
-          if member == "": continue
+      committee_membership[id + scid] = []
+      for member in subcom.xpath("members/member"):
+        scrape_senate_member(committee_membership[id + scid], member, majority_party)
+
+def scrape_senate_member(output_list, membernode, majority_party):
+  last_name = membernode.xpath("name/last")[0].text
+  state = membernode.xpath("state")[0].text
+  party = "majority" if membernode.xpath("party")[0].text == majority_party else "minority"
+  title = membernode.xpath("position")[0].text
+  if title == "Member": title = None
+  if title == "Ranking": title = "Ranking Member"
           
-          m = re.match(r"(.*), .* \((..)\)(?:\s*,\s*([\w\s]+))?$", member, re.I)
-          if not m:
-            print "Failed to parse line:", member
-            continue
-            
-          last_name, state, title = m.groups()
-          
-          # look up senator by state and last name
-          moc = senators[(state, last_name)]
-          
-          entry = OrderedDict()
-          entry["name"] = moc['name']['official_full']
-          entry["party"] = party
-          entry["rank"] = rank+1
-          if title: entry["title"] = title
-          entry.update(ids_from(moc["id"]))
-            
-          committee_membership.setdefault(output_code, []).append(entry)
-      
+  # look up senator by state and last name
+  moc = senators[(state, last_name)]
+  
+  entry = OrderedDict()
+  entry["name"] = moc['name']['official_full']
+  entry["party"] = party
+  entry["rank"] = len([e for e in output_list if e["party"] == entry["party"]]) + 1 # how many have we seen so far in this party, +1
+  if title: entry["title"] = title
+  entry.update(ids_from(moc["id"]))
+    
+  output_list.append(entry)
+  
+  # sort by party, then by rank, since we get the nodes in the XML in a rough seniority order that ignores party
+  # should be done once at the end, but cleaner to do it here
+  output_list.sort(key = lambda e : (e["party"] != "majority", e["rank"]))
 
 # stick to a specific small set of official IDs to cross-link members
 # this limits the IDs from going out of control in this file, while
@@ -262,6 +267,15 @@ def ids_from(moc):
 
 scrape_house()
 scrape_senate()
+
+# REMOVE ME
+# Delete dissolved subcommittees from the old-format committee file.
+for cx in committees_current:
+  for sx in list(cx.get("subcommittees", [])):
+    if (cx["thomas_id"], sx["thomas_id"]) not in seen_subcommittees:
+      cx["subcommittees"].remove(sx)
+  if cx.get("subcommittees", None) == []:
+    del cx["subcommittees"]
 
 # Check that we got data for all committees.
 # TODO: Make sure we have data from both chambers for the joint committees,
