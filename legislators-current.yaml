@@ -1364,6 +1364,43 @@
     contact_form: http://www.wicker.senate.gov/public/index.cfm?FuseAction=Contact.EMailSenatorWicker
     office: 555 Dirksen Senate Office Building
 - id:
+    bioguide: A000360
+    thomas: 01695
+    lis: S289
+    govtrack: 300002
+    opensecrets: N00009888
+    votesmart: 15691
+    fec:
+    - S2TN00058
+  name:
+    first: Lamar
+    last: Alexander
+    official_full: Lamar Alexander
+  bio:
+    birthday: '1940-07-03'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: TN
+    class: 2
+    party: Republican
+    url: http://alexander.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: TN
+    class: 2
+    party: Republican
+    url: http://alexander.senate.gov/
+    address: 455 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4944
+    fax: 202-228-3398
+    contact_form: http://www.alexander.senate.gov/public/index.cfm?p=Email
+    office: 455 Dirksen Senate Office Building
+- id:
     bioguide: B000243
     thomas: '00066'
     lis: S127
@@ -1445,6 +1482,35 @@
     contact_form: http://www.baucus.senate.gov/contact/emailForm.cfm?subj=issue
     office: 511 Hart Senate Office Building
 - id:
+    bioguide: B001265
+    thomas: 01898
+    lis: S319
+    govtrack: 412326
+    opensecrets: N00029901
+    votesmart: 79426
+    fec:
+    - S8AK00090
+  name:
+    first: Mark
+    last: Begich
+    official_full: Mark Begich
+  bio:
+    birthday: '1962-03-30'
+    gender: M
+  terms:
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: AK
+    class: 2
+    party: Democrat
+    url: http://begich.senate.gov
+    address: 111 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3004
+    fax: 202-224-2354
+    contact_form: http://www.begich.senate.gov/public/index.cfm?p=EmailSenator
+    office: 111 Russell Senate Office Building
+- id:
     bioguide: C000286
     thomas: 00188
     lis: S290
@@ -1506,6 +1572,92 @@
     contact_form: http://www.chambliss.senate.gov/public/index.cfm?p=Email
     office: 416 Russell Senate Office Building
 - id:
+    bioguide: C000567
+    thomas: '00213'
+    lis: S136
+    govtrack: 300023
+    opensecrets: N00003328
+    votesmart: 53312
+    icpsr: 14009
+    fec:
+    - S8MS00055
+  name:
+    first: Thad
+    last: Cochran
+    official_full: Thad Cochran
+  bio:
+    birthday: '1937-12-07'
+    gender: M
+    religion: Baptist
+  terms:
+  - type: rep
+    start: '1973-01-03'
+    end: '1974-12-20'
+    state: MS
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1975-01-14'
+    end: '1976-10-01'
+    state: MS
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1977-01-04'
+    end: '1978-10-15'
+    state: MS
+    district: 4
+    party: Republican
+  - type: sen
+    start: '1978-01-01'
+    end: '1978-10-15'
+    state: MS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '1979-01-15'
+    end: '1984-10-12'
+    state: MS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '1985-01-03'
+    end: '1990-10-28'
+    state: MS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '1991-01-03'
+    end: '1996-10-04'
+    state: MS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: MS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: MS
+    class: 2
+    party: Republican
+    url: http://cochran.senate.gov
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: MS
+    class: 2
+    party: Republican
+    url: http://cochran.senate.gov
+    address: 113 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5054
+    fax: 202-224-9450
+    contact_form: http://www.cochran.senate.gov/email.html
+    office: 113 Dirksen Senate Office Building
+- id:
     bioguide: C001035
     thomas: '01541'
     lis: S252
@@ -1549,6 +1701,49 @@
     fax: 202-224-2693
     contact_form: http://www.collins.senate.gov/public/continue.cfm?FuseAction=ContactSenatorCollins.EmailIssue
     office: 413 Dirksen Senate Office Building
+- id:
+    bioguide: C001056
+    thomas: 01692
+    lis: S287
+    govtrack: 300027
+    opensecrets: N00024852
+    votesmart: 15375
+    fec:
+    - S2TX00106
+  name:
+    first: John
+    last: Cornyn
+    official_full: John Cornyn
+  bio:
+    birthday: '1952-02-02'
+    gender: M
+    religion: Church of Christ
+  terms:
+  - type: sen
+    start: '2002-01-01'
+    end: '2002-11-22'
+    state: TX
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: TX
+    class: 2
+    party: Republican
+    url: http://cornyn.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: TX
+    class: 2
+    party: Republican
+    url: http://cornyn.senate.gov/
+    address: 517 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2934
+    fax: 202-228-2856
+    contact_form: http://www.cornyn.senate.gov/public/index.cfm?p=ContactForm
+    office: 517 Hart Senate Office Building
 - id:
     bioguide: D000563
     thomas: '00326'
@@ -1637,6 +1832,50 @@
     contact_form: http://www.durbin.senate.gov/public/index.cfm/contact
     office: 711 Hart Senate Office Building
 - id:
+    bioguide: E000285
+    thomas: '01542'
+    lis: S254
+    govtrack: 300041
+    opensecrets: N00006249
+    votesmart: 558
+    fec:
+    - S6WY00126
+  name:
+    first: Michael
+    middle: B.
+    last: Enzi
+    official_full: Michael B. Enzi
+  bio:
+    birthday: '1944-02-01'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: WY
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: WY
+    class: 2
+    party: Republican
+    url: http://enzi.senate.gov
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: WY
+    class: 2
+    party: Republican
+    url: http://enzi.senate.gov
+    address: 379A RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3424
+    fax: 202-228-0359
+    contact_form: http://www.enzi.senate.gov/public/index.cfm/contact?p=e-mail-senator-enzi
+    office: 379a Russell Senate Office Building
+- id:
     bioguide: G000359
     thomas: '00452'
     lis: S293
@@ -1698,6 +1937,35 @@
     fax: 202-224-3808
     contact_form: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Contact.EmailSenatorGraham
     office: 290 Russell Senate Office Building
+- id:
+    bioguide: H001049
+    thomas: 01902
+    lis: S320
+    govtrack: 412324
+    opensecrets: N00029617
+    votesmart: 21082
+    fec:
+    - S8NC00239
+  name:
+    first: Kay
+    last: Hagan
+    official_full: Kay R. Hagan
+  bio:
+    birthday: '1953-05-26'
+    gender: F
+  terms:
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: NC
+    class: 2
+    party: Democrat
+    url: http://hagan.senate.gov
+    address: 521 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6342
+    fax: 202-228-2563
+    contact_form: http://www.hagan.senate.gov/?p=contact
+    office: 521 Dirksen Senate Office Building
 - id:
     bioguide: H000206
     thomas: '00501'
@@ -1786,6 +2054,82 @@
     contact_form: http://www.harkin.senate.gov/contact.cfm
     office: 731 Hart Senate Office Building
 - id:
+    bioguide: I000024
+    thomas: 00583
+    lis: S236
+    govtrack: 300055
+    opensecrets: N00005582
+    votesmart: 27027
+    icpsr: 15424
+    fec:
+    - S4OK00083
+  name:
+    first: James
+    middle: M.
+    last: Inhofe
+    nickname: Jim
+    official_full: James M. Inhofe
+  bio:
+    birthday: '1934-11-17'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: OK
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: OK
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: OK
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-11-15'
+    state: OK
+    district: 1
+    party: Republican
+  - type: sen
+    start: '1994-01-01'
+    end: '1996-10-04'
+    state: OK
+    class: 2
+    party: Republican
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: OK
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: OK
+    class: 2
+    party: Republican
+    url: http://inhofe.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: OK
+    class: 2
+    party: Republican
+    url: http://inhofe.senate.gov/
+    address: 205 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4721
+    fax: 202-228-0380
+    contact_form: http://www.inhofe.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
+    office: 205 Russell Senate Office Building
+- id:
     bioguide: J000291
     thomas: 01899
     lis: S321
@@ -1814,6 +2158,81 @@
     fax: 202-228-0436
     contact_form: http://www.johanns.senate.gov/public/?p=ContactSenatorJohanns
     office: 404 Russell Senate Office Building
+- id:
+    bioguide: J000177
+    thomas: '00604'
+    lis: S257
+    govtrack: 300058
+    opensecrets: N00010084
+    votesmart: 27067
+    icpsr: 15425
+    fec:
+    - S6SD00051
+  name:
+    first: Tim
+    middle: P.
+    last: Johnson
+    official_full: Tim Johnson
+  bio:
+    birthday: '1946-12-28'
+    gender: M
+    religion: Lutheran
+  terms:
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: SD
+    district: 1
+    party: Democrat
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: SD
+    district: 1
+    party: Democrat
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: SD
+    district: 1
+    party: Democrat
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: SD
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: SD
+    district: 0
+    party: Democrat
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: SD
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: SD
+    class: 2
+    party: Democrat
+    url: http://johnson.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: SD
+    class: 2
+    party: Democrat
+    url: http://johnson.senate.gov/
+    address: 136 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5842
+    fax: 202-228-5765
+    contact_form: http://www.johnson.senate.gov/public/index.cfm?p=Contact
+    office: 136 Hart Senate Office Building
 - id:
     bioguide: K000148
     thomas: 01379
@@ -1872,6 +2291,50 @@
     contact_form: http://www.kerry.senate.gov/contact/
     office: 218 Russell Senate Office Building
 - id:
+    bioguide: L000550
+    thomas: '01546'
+    lis: S258
+    govtrack: 300063
+    opensecrets: N00005395
+    votesmart: 661
+    fec:
+    - S6LA00227
+  name:
+    first: Mary
+    middle: L.
+    last: Landrieu
+    official_full: Mary L. Landrieu
+  bio:
+    birthday: '1955-11-23'
+    gender: F
+    religion: Roman Catholic
+  terms:
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: LA
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: LA
+    class: 2
+    party: Democrat
+    url: http://landrieu.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: LA
+    class: 2
+    party: Democrat
+    url: http://landrieu.senate.gov/
+    address: 431 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5824
+    fax: 202-224-9735
+    contact_form: http://www.landrieu.senate.gov/about/contact.cfm
+    office: 431 Dirksen Senate Office Building
+- id:
     bioguide: L000123
     thomas: 01381
     lis: S166
@@ -1929,6 +2392,68 @@
     contact_form: http://www.lautenberg.senate.gov/contact/routing.cfm
     office: 324 Hart Senate Office Building
 - id:
+    bioguide: L000261
+    thomas: 01384
+    lis: S131
+    govtrack: 300066
+    opensecrets: N00001691
+    votesmart: 53307
+    icpsr: 14709
+    fec:
+    - S8MI00158
+  name:
+    first: Carl
+    last: Levin
+    official_full: Carl Levin
+  bio:
+    birthday: '1934-06-28'
+    gender: M
+    religion: Jewish
+  terms:
+  - type: sen
+    start: '1979-01-15'
+    end: '1984-10-12'
+    state: MI
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '1985-01-03'
+    end: '1990-10-28'
+    state: MI
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '1991-01-03'
+    end: '1996-10-04'
+    state: MI
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: MI
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: MI
+    class: 2
+    party: Democrat
+    url: http://levin.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: MI
+    class: 2
+    party: Democrat
+    url: http://levin.senate.gov/
+    address: 269 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6221
+    fax: 202-224-1388
+    contact_form: http://www.levin.senate.gov/contact/
+    office: 269 Russell Senate Office Building
+- id:
     bioguide: M000355
     thomas: 01395
     lis: S174
@@ -1985,6 +2510,35 @@
     contact_form: http://www.mcconnell.senate.gov/public/index.cfm?p=contact
     office: 317 Russell Senate Office Building
 - id:
+    bioguide: M001176
+    thomas: 01900
+    lis: S322
+    govtrack: 412325
+    opensecrets: N00029303
+    votesmart: 23644
+    fec:
+    - S8OR00207
+  name:
+    first: Jeff
+    last: Merkley
+    official_full: Jeff Merkley
+  bio:
+    birthday: '1956-10-24'
+    gender: M
+  terms:
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: OR
+    class: 2
+    party: Democrat
+    url: http://merkley.senate.gov
+    address: 313 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3753
+    fax: 202-228-3997
+    contact_form: http://www.merkley.senate.gov/contact/
+    office: 313 Hart Senate Office Building
+- id:
     bioguide: P000590
     thomas: '01701'
     lis: S295
@@ -2022,6 +2576,69 @@
     contact_form: http://www.pryor.senate.gov/public/index.cfm?p=ContactMe
     office: 255 Dirksen Senate Office Building
 - id:
+    bioguide: R000122
+    thomas: 00949
+    lis: S259
+    govtrack: 300081
+    opensecrets: N00000362
+    votesmart: 27060
+    fec:
+    - S6RI00163
+  name:
+    first: John
+    middle: F.
+    last: Reed
+    nickname: Jack
+    official_full: Jack Reed
+  bio:
+    birthday: '1949-11-12'
+    gender: M
+    religion: Roman Catholic
+  terms:
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: RI
+    district: 2
+    party: Democrat
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: RI
+    district: 2
+    party: Democrat
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: RI
+    district: 2
+    party: Democrat
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: RI
+    class: 2
+    party: Democrat
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: RI
+    class: 2
+    party: Democrat
+    url: http://reed.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: RI
+    class: 2
+    party: Democrat
+    url: http://reed.senate.gov/
+    address: 728 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4642
+    fax: 202-224-4680
+    contact_form: http://www.reed.senate.gov/contact/
+    office: 728 Hart Senate Office Building
+- id:
     bioguide: R000584
     thomas: 01896
     lis: S323
@@ -2050,6 +2667,98 @@
     fax: 202-224-2573
     contact_form: http://www.risch.senate.gov/public/index.cfm?p=Email
     office: 483 Russell Senate Office Building
+- id:
+    bioguide: R000307
+    thomas: 00968
+    lis: S260
+    govtrack: 300083
+    opensecrets: N00005285
+    votesmart: 26866
+    icpsr: 14852
+    fec:
+    - S6KS00080
+  name:
+    first: Pat
+    last: Roberts
+    official_full: Pat Roberts
+  bio:
+    birthday: '1936-04-20'
+    gender: M
+    religion: Methodist
+  terms:
+  - type: rep
+    start: '1981-01-05'
+    end: '1982-12-23'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: KS
+    district: 1
+    party: Republican
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: KS
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: KS
+    class: 2
+    party: Republican
+    url: http://roberts.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: KS
+    class: 2
+    party: Republican
+    url: http://roberts.senate.gov/
+    address: 109 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4774
+    fax: 202-224-3514
+    contact_form: http://www.roberts.senate.gov/public/index.cfm?p=EmailPat
+    office: 109 Hart Senate Office Building
 - id:
     bioguide: R000361
     thomas: '01424'
@@ -2110,6 +2819,51 @@
     contact_form: http://www.rockefeller.senate.gov/contact/email.cfm
     office: 531 Hart Senate Office Building
 - id:
+    bioguide: S001141
+    thomas: 01548
+    lis: S261
+    govtrack: 300088
+    opensecrets: N00003062
+    votesmart: 443
+    fec:
+    - S6AL00195
+  name:
+    first: Jefferson
+    middle: B.
+    last: Sessions
+    nickname: Jeff
+    official_full: Jeff Sessions
+  bio:
+    birthday: '1946-12-24'
+    gender: M
+    religion: Methodist
+  terms:
+  - type: sen
+    start: '1997-01-07'
+    end: '2002-11-22'
+    state: AL
+    class: 2
+    party: Republican
+  - type: sen
+    start: '2003-01-07'
+    end: '2009-01-03'
+    state: AL
+    class: 2
+    party: Republican
+    url: http://sessions.senate.gov/
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: AL
+    class: 2
+    party: Republican
+    url: http://sessions.senate.gov/
+    address: 326 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4124
+    fax: 202-224-3149
+    contact_form: http://www.sessions.senate.gov/public/index.cfm?FuseAction=ConstituentServices.ContactMe
+    office: 326 Russell Senate Office Building
+- id:
     bioguide: S001181
     thomas: 01901
     lis: S324
@@ -2136,6 +2890,69 @@
     phone: 202-224-2841
     contact_form: http://www.shaheen.senate.gov/contact/
     office: 520 Hart Senate Office Building
+- id:
+    bioguide: U000038
+    thomas: 01595
+    lis: S325
+    govtrack: 400412
+    opensecrets: N00008051
+    votesmart: 12329
+    fec:
+    - H8CO02087
+  name:
+    first: Mark
+    middle: E.
+    last: Udall
+    official_full: Mark Udall
+  bio:
+    birthday: '1950-07-18'
+    gender: M
+  terms:
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: CO
+    district: 2
+    party: Democrat
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: CO
+    district: 2
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: CO
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/markudall
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: CO
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/markudall
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: CO
+    district: 2
+    party: Democrat
+    url: http://markudall.house.gov/HoR/CO02/Home.htm
+  - type: sen
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: CO
+    class: 2
+    party: Democrat
+    url: http://markudall.senate.gov
+    address: 328 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5941
+    fax: 202-226-7840
+    contact_form: http://www.markudall.senate.gov/?p=contact
+    office: 328 Hart Senate Office Building
 - id:
     bioguide: U000039
     thomas: '01567'
@@ -2201,34 +3018,33 @@
     contact_form: http://www.tomudall.senate.gov/?p=contact
     office: 110 Hart Senate Office Building
 - id:
-    bioguide: O000167
-    thomas: '01763'
-    lis: S298
-    govtrack: 400629
-    opensecrets: N00009638
-    votesmart: 9490
+    bioguide: W000805
+    thomas: 01897
+    lis: S327
+    govtrack: 412321
+    opensecrets: N00002097
+    votesmart: 535
     fec:
-    - S4IL00180
+    - S6VA00093
   name:
-    first: Barack
-    last: Obama
+    first: Mark
+    last: Warner
+    official_full: Mark R. Warner
   bio:
-    birthday: '1961-08-04'
     gender: M
-    religion: United Church of Christ
   terms:
   - type: sen
-    start: '2005-01-04'
-    end: '2008-11-16'
-    state: IL
-    class: 3
+    start: '2009-01-06'
+    end: '2014-12-31'
+    state: VA
+    class: 2
     party: Democrat
-    url: http://obama.senate.gov/
-  - type: prez
-    start: '2009-01-20'
-    end: '2013-01-20'
-    party: Democrat
-    url: http://www.whitehouse.gov
+    url: http://warner.senate.gov
+    address: 475 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2023
+    fax: 202-224-6295
+    contact_form: http://www.warner.senate.gov/public/index.cfm?p=Contact
+    office: 475 Russell Senate Office Building
 - id:
     bioguide: G000555
     thomas: 01866
@@ -2285,33 +3101,62 @@
     contact_form: http://www.gillibrand.senate.gov/contact/
     office: 478 Russell Senate Office Building
 - id:
-    bioguide: B001268
-    thomas: 01975
-    lis: S335
-    govtrack: 412384
-    opensecrets: N00031174
-    votesmart: 18919
+    bioguide: F000457
+    thomas: 01969
+    lis: S332
+    govtrack: 412378
+    opensecrets: N00029016
+    votesmart: 108924
     fec:
-    - S0MA00109
+    - S8MN00438
   name:
-    first: Scott
-    last: Brown
-    official_full: Scott P. Brown
+    first: Al
+    last: Franken
+    official_full: Al Franken
   bio:
-    birthday: '1959-09-12'
+    birthday: '1951-05-21'
     gender: M
   terms:
   - type: sen
-    start: '2010-02-04'
-    end: '2012-12-31'
-    state: MA
-    class: 1
-    party: Republican
-    url: http://scottbrown.senate.gov
-    address: 359 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-4543
-    contact_form: http://www.scottbrown.senate.gov/public/index.cfm/emailscottbrown
-    office: 359 Dirksen Senate Office Building
+    start: '2009-07-07'
+    end: '2014-12-31'
+    state: MN
+    class: 2
+    party: Democrat
+    url: http://franken.senate.gov
+    address: 309 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5641
+    contact_form: http://www.franken.senate.gov/?p=contact
+    office: 309 Hart Senate Office Building
+- id:
+    bioguide: C001088
+    thomas: 01984
+    lis: S337
+    govtrack: 412390
+    opensecrets: N00031820
+    votesmart: 122834
+    fec:
+    - S0DE00092
+  name:
+    first: Chris
+    middle: Andrew
+    last: Coons
+    official_full: Christopher A. Coons
+  bio:
+    birthday: '1963-09-09'
+    gender: M
+  terms:
+  - type: sen
+    start: '2010-11-15'
+    end: '2014-12-31'
+    state: DE
+    class: 2
+    party: Democrat
+    url: http://coons.senate.gov/
+    address: 127A RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5042
+    contact_form: http://www.coons.senate.gov/contact/
+    office: 127a Russell Senate Office Building
 - id:
     bioguide: M001183
     thomas: 01983
@@ -3346,219 +4191,179 @@
     fax: 202- 225-4744
     office: 514 Cannon House Office Building
 - id:
-    bioguide: B001272
-    thomas: '02037'
-    govtrack: 412458
-    opensecrets: N00031629
-    votesmart: 7693
+    bioguide: B001267
+    thomas: 01965
+    lis: S330
+    govtrack: 412330
+    opensecrets: N00030608
+    votesmart: 110942
     fec:
-    - H0ND00135
+    - S0CO00211
   name:
-    first: Rick
-    last: Berg
-    official_full: Rick Berg
+    first: Michael
+    middle: F.
+    last: Bennet
+    official_full: Michael F. Bennet
   bio:
-    birthday: '1959-08-16'
     gender: M
   terms:
-  - type: rep
+  - type: sen
+    start: '2009-01-22'
+    end: '2010-12-22'
+    state: CO
+    class: 3
+    party: Democrat
+    url: http://bennet.senate.gov/
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: ND
-    district: 0
-    party: Republican
-    url: http://berg.house.gov/
-    address: 323 Cannon HOB; Washington DC 20515-3401
-    phone: 202-225-2611
-    fax: 202-226-0893
-    office: 323 Cannon House Office Building
+    end: '2016-12-31'
+    state: CO
+    class: 3
+    party: Democrat
+    url: http://bennet.senate.gov
+    address: 458 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5852
+    fax: 202-228-5036
+    contact_form: http://www.bennet.senate.gov/contact/
+    office: 458 Russell Senate Office Building
 - id:
-    bioguide: B000410
-    thomas: 00082
-    govtrack: 400025
-    opensecrets: N00008094
-    votesmart: 26756
-    icpsr: 15005
+    bioguide: B001231
+    thomas: '01576'
+    govtrack: 400024
+    opensecrets: N00009818
+    votesmart: 22744
     fec:
-    - H2CA26026
+    - H8NV01071
   name:
-    first: Howard
-    middle: L.
-    last: Berman
-    official_full: Howard L. Berman
+    first: Shelley
+    last: Berkley
+    official_full: Shelley Berkley
   bio:
-    birthday: '1941-04-15'
-    gender: M
+    birthday: '1951-01-20'
+    gender: F
     religion: Jewish
   terms:
   - type: rep
-    start: '1983-01-03'
-    end: '1984-10-12'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1985-01-03'
-    end: '1986-10-18'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1987-01-06'
-    end: '1988-10-22'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: CA
-    district: 26
-    party: Democrat
-  - type: rep
     start: '1999-01-06'
     end: '2000-12-15'
-    state: CA
-    district: 26
+    state: NV
+    district: 1
     party: Democrat
   - type: rep
     start: '2001-01-03'
     end: '2002-11-22'
-    state: CA
-    district: 26
+    state: NV
+    district: 1
     party: Democrat
   - type: rep
     start: '2003-01-07'
     end: '2004-12-09'
-    state: CA
-    district: 28
+    state: NV
+    district: 1
     party: Democrat
-    url: http://www.house.gov/berman
+    url: http://www.house.gov/berkley
   - type: rep
     start: '2005-01-04'
     end: '2006-12-09'
-    state: CA
-    district: 28
+    state: NV
+    district: 1
     party: Democrat
-    url: http://www.house.gov/berman
+    url: http://www.house.gov/berkley
   - type: rep
     start: '2007-01-04'
     end: '2009-01-03'
-    state: CA
-    district: 28
+    state: NV
+    district: 1
     party: Democrat
-    url: http://www.house.gov/berman
+    url: http://www.house.gov/berkley
   - type: rep
     start: '2009-01-06'
     end: '2010-12-22'
-    state: CA
-    district: 28
+    state: NV
+    district: 1
     party: Democrat
-    url: http://www.house.gov/berman
+    url: http://berkley.house.gov
   - type: rep
     start: '2011-01-05'
     end: '2012-12-31'
-    state: CA
-    district: 28
+    state: NV
+    district: 1
     party: Democrat
-    url: http://www.house.gov/berman
-    address: 2221 Rayburn HOB; Washington DC 20515-0528
-    phone: 202-225-4695
-    fax: 202-225-3196
-    contact_form: http://www.house.gov/berman/contact/
-    office: 2221 Rayburn House Office Building
+    url: http://berkley.house.gov
+    address: 405 Cannon HOB; Washington DC 20515-2801
+    phone: 202-225-5965
+    fax: 202-225-3119
+    contact_form: http://berkley.house.gov/contact/email.html
+    office: 405 Cannon House Office Building
 - id:
-    bioguide: B000461
-    thomas: 00087
-    govtrack: 400570
-    opensecrets: N00006981
-    votesmart: 21916
+    bioguide: B001232
+    thomas: '01577'
+    govtrack: 400027
+    opensecrets: N00004762
+    votesmart: 6298
     fec:
-    - H4CA49032
+    - H8IL13069
   name:
-    first: Brian
-    middle: P.
-    last: Bilbray
-    official_full: Brian P. Bilbray
+    first: Judy
+    last: Biggert
+    official_full: Judy Biggert
   bio:
-    birthday: '1951-01-28'
-    gender: M
-    religion: Catholic
+    birthday: '1937-08-15'
+    gender: F
+    religion: Episcopalian
   terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: CA
-    district: 49
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: CA
-    district: 49
-    party: Republican
   - type: rep
     start: '1999-01-06'
     end: '2000-12-15'
-    state: CA
-    district: 49
+    state: IL
+    district: 13
     party: Republican
   - type: rep
-    start: '2006-06-13'
-    end: '2006-12-09'
-    state: CA
-    district: 50
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: IL
+    district: 13
     party: Republican
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: IL
+    district: 13
+    party: Republican
+    url: http://www.house.gov/biggert
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: IL
+    district: 13
+    party: Republican
+    url: http://www.house.gov/biggert
   - type: rep
     start: '2007-01-04'
     end: '2009-01-03'
-    state: CA
-    district: 50
+    state: IL
+    district: 13
     party: Republican
-    url: http://www.house.gov/bilbray
+    url: http://www.house.gov/biggert
   - type: rep
     start: '2009-01-06'
     end: '2010-12-22'
-    state: CA
-    district: 50
+    state: IL
+    district: 13
     party: Republican
-    url: http://www.house.gov/bilbray
+    url: http://judybiggert.house.gov
   - type: rep
     start: '2011-01-05'
     end: '2012-12-31'
-    state: CA
-    district: 50
+    state: IL
+    district: 13
     party: Republican
-    url: http://www.house.gov/bilbray
-    address: 2410 Rayburn HOB; Washington DC 20515-0550
-    phone: 202-225-0508
-    fax: 202-225-2558
-    contact_form: http://www.house.gov/bilbray/contact.shtml
-    office: 2410 Rayburn House Office Building
+    url: http://judybiggert.house.gov
+    address: 2113 Rayburn HOB; Washington DC 20515-1313
+    phone: 202-225-3515
+    fax: 202-225-9420
+    contact_form: http://judybiggert.house.gov/ContactJudy.aspx
+    office: 2113 Rayburn House Office Building
 - id:
     bioguide: B001257
     thomas: 01838
@@ -3600,7 +4405,7 @@
     phone: 202-225-5755
     fax: 202-225-4085
     contact_form: http://bilirakis.house.gov/index.php?option=com_content&task=view&id=212&Itemid=44
-    office: 1124 Longworth House Office Building
+    office: 407 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -3612,7 +4417,7 @@
     phone: 202-225-5755
     fax: 202-225-4085
     contact_form: http://bilirakis.house.gov/index.php?option=com_content&task=view&id=212&Itemid=44
-    office: 1124 Longworth House Office Building
+    office: 407 Cannon House Office Building
 - id:
     bioguide: B001250
     thomas: '01753'
@@ -4054,6 +4859,34 @@
     contact_form: http://blumenauer.house.gov/index.php?option=com_email_form&Itemid=206
     office: 1502 Longworth House Office Building
 - id:
+    bioguide: B001277
+    thomas: '02076'
+    lis: S341
+    govtrack: 412490
+    opensecrets: N00031685
+    votesmart: 1568
+    fec:
+    - S0CT00177
+  name:
+    first: Richard
+    last: Blumenthal
+    official_full: Richard Blumenthal
+  bio:
+    birthday: '1946-02-13'
+    gender: M
+  terms:
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: CT
+    class: 3
+    party: Democrat
+    url: http://blumenthal.senate.gov
+    address: 702 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2823
+    contact_form: http://www.blumenthal.senate.gov/contact/
+    office: 702 Hart Senate Office Building
+- id:
     bioguide: B000575
     thomas: '01464'
     lis: S342
@@ -4463,6 +5296,87 @@
     fax: 202-225-5724
     contact_form: http://boustany.house.gov/ContactCharles.asp
     office: 1431 Longworth House Office Building
+- id:
+    bioguide: B000711
+    thomas: '00116'
+    lis: S223
+    govtrack: 300011
+    opensecrets: N00006692
+    votesmart: 53274
+    icpsr: 15011
+    fec:
+    - S2CA00286
+  name:
+    first: Barbara
+    last: Boxer
+    official_full: Barbara Boxer
+  bio:
+    birthday: '1940-11-11'
+    gender: F
+    religion: Jewish
+  terms:
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: CA
+    district: 6
+    party: Democrat
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: CA
+    district: 6
+    party: Democrat
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: CA
+    district: 6
+    party: Democrat
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: CA
+    district: 6
+    party: Democrat
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: CA
+    district: 6
+    party: Democrat
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: CA
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: CA
+    class: 3
+    party: Democrat
+    url: http://boxer.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: CA
+    class: 3
+    party: Democrat
+    url: http://boxer.senate.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: CA
+    class: 3
+    party: Democrat
+    url: http://boxer.senate.gov
+    address: 112 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3553
+    fax: 202-224-0454
+    contact_form: http://www.boxer.senate.gov/en/contact/
+    office: 112 Hart Senate Office Building
 - id:
     bioguide: B000755
     thomas: 01468
@@ -5049,124 +5963,74 @@
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2241 Rayburn House Office Building
 - id:
-    bioguide: B001149
-    thomas: '00154'
-    govtrack: 400055
-    opensecrets: N00000010
-    votesmart: 26855
-    icpsr: 15014
+    bioguide: B001135
+    thomas: '00153'
+    lis: S300
+    govtrack: 400054
+    opensecrets: N00002221
+    votesmart: 21787
     fec:
-    - H2IN06023
+    - S4NC00089
   name:
-    first: Dan
-    middle: L.
-    last: Burton
-    official_full: Dan Burton
+    first: Richard
+    middle: M.
+    last: Burr
+    official_full: Richard Burr
   bio:
-    birthday: '1938-06-21'
+    birthday: '1955-11-30'
     gender: M
-    religion: Protestant
+    religion: Methodist
   terms:
-  - type: rep
-    start: '1983-01-03'
-    end: '1984-10-12'
-    state: IN
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1985-01-03'
-    end: '1986-10-18'
-    state: IN
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1987-01-06'
-    end: '1988-10-22'
-    state: IN
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: IN
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: IN
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: IN
-    district: 6
-    party: Republican
   - type: rep
     start: '1995-01-04'
     end: '1996-10-04'
-    state: IN
-    district: 6
+    state: NC
+    district: 5
     party: Republican
   - type: rep
     start: '1997-01-07'
     end: '1998-12-19'
-    state: IN
-    district: 6
+    state: NC
+    district: 5
     party: Republican
   - type: rep
     start: '1999-01-06'
     end: '2000-12-15'
-    state: IN
-    district: 6
+    state: NC
+    district: 5
     party: Republican
   - type: rep
     start: '2001-01-03'
     end: '2002-11-22'
-    state: IN
-    district: 6
+    state: NC
+    district: 5
     party: Republican
   - type: rep
     start: '2003-01-07'
     end: '2004-12-09'
-    state: IN
+    state: NC
     district: 5
     party: Republican
-    url: http://www.house.gov/burton
-  - type: rep
+    url: http://www.house.gov/burr
+  - type: sen
     start: '2005-01-04'
-    end: '2006-12-09'
-    state: IN
-    district: 5
-    party: Republican
-    url: http://www.house.gov/burton
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: IN
-    district: 5
-    party: Republican
-    url: http://www.house.gov/burton
-  - type: rep
-    start: '2009-01-06'
     end: '2010-12-22'
-    state: IN
-    district: 5
+    state: NC
+    class: 3
     party: Republican
-    url: http://burton.house.gov
-  - type: rep
+    url: http://burr.senate.gov
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: IN
-    district: 5
+    end: '2016-12-31'
+    state: NC
+    class: 3
     party: Republican
-    url: http://burton.house.gov
-    address: 2308 Rayburn HOB; Washington DC 20515-1405
-    phone: 202-225-2276
-    fax: 202-225-0016
-    contact_form: http://burton.house.gov/contacts/new
-    office: 2308 Rayburn House Office Building
+    url: http://burr.senate.gov
+    address: 217 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3154
+    fax: 202-228-2981
+    contact_form: http://www.burr.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
+    office: 217 Russell Senate Office Building
 - id:
     bioguide: B001251
     thomas: '01761'
@@ -5225,7 +6089,7 @@
     phone: 202-225-3101
     fax: 202-225-3354
     contact_form: http://butterfield.house.gov/contactinfo.asp
-    office: 2305 Rayburn Cannon House Office Building
+    office: 2305 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -5237,7 +6101,7 @@
     phone: 202-225-3101
     fax: 202-225-3354
     contact_form: http://butterfield.house.gov/contactinfo.asp
-    office: 2305 Rayburn Cannon House Office Building
+    office: 2305 Rayburn House Office Building
 - id:
     bioguide: C000059
     thomas: '00165'
@@ -6026,7 +6890,7 @@
     phone: 202-225-3901
     fax: 202-225-7313
     contact_form: https://forms.house.gov/cassidy/contact-form.shtml
-    office: 1535 Longworth Cannon House Office Building
+    office: 1535 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -6038,7 +6902,7 @@
     phone: 202-225-3901
     fax: 202-225-7313
     contact_form: https://forms.house.gov/cassidy/contact-form.shtml
-    office: 1535 Longworth Cannon House Office Building
+    office: 1535 Longworth House Office Building
 - id:
     bioguide: C001066
     thomas: 01839
@@ -6682,6 +7546,72 @@
     contact_form: http://clyburn.house.gov/contact.cfm
     office: 2135 Rayburn House Office Building
 - id:
+    bioguide: C000542
+    thomas: 00209
+    lis: S212
+    govtrack: 402675
+    opensecrets: N00003845
+    votesmart: 53291
+    icpsr: 14806
+    fec:
+    - S0IN00053
+  name:
+    first: Daniel
+    middle: Ray
+    last: Coats
+    official_full: Daniel Coats
+  bio:
+    birthday: '1943-05-16'
+    gender: M
+  terms:
+  - type: rep
+    start: '1981-01-05'
+    end: '1982-12-23'
+    state: IN
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: IN
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: IN
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: IN
+    district: 4
+    party: Republican
+  - type: sen
+    start: '1989-01-03'
+    end: '1992-10-09'
+    state: IN
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: IN
+    class: 3
+    party: Republican
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: IN
+    class: 3
+    party: Republican
+    url: http://coats.senate.gov
+    address: "493 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC \n      20510"
+    phone: 202-224-5623
+    contact_form: http://www.coats.senate.gov/contact/
+    office: 493 Russell Senate Office Building
+- id:
     bioguide: C000556
     thomas: '00211'
     govtrack: 400076
@@ -6805,6 +7735,61 @@
     fax: 202-225-8611
     contact_form: http://www.house.gov/writerep
     office: 2188 Rayburn House Office Building
+- id:
+    bioguide: C000560
+    thomas: '00212'
+    lis: S301
+    govtrack: 400576
+    opensecrets: N00005601
+    votesmart: 22085
+    fec:
+    - S4OK00174
+  name:
+    first: Thomas
+    middle: A.
+    last: Coburn
+    official_full: Tom Coburn
+  bio:
+    birthday: '1948-03-14'
+    gender: M
+  terms:
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: OK
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: OK
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: OK
+    district: 2
+    party: Republican
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: OK
+    class: 3
+    party: Republican
+    url: http://coburn.senate.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: OK
+    class: 3
+    party: Republican
+    url: http://coburn.senate.gov
+    address: 172 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5754
+    fax: 202-224-6008
+    contact_form: http://www.coburn.senate.gov/public/index.cfm/contactsenatorcoburn?p=ContactForm
+    office: 172 Russell Senate Office Building
 - id:
     bioguide: C001077
     thomas: 01912
@@ -7023,7 +8008,7 @@
     phone: 202-225-3605
     fax: 202-225-1783
     contact_form: http://conaway.house.gov/Contact/default.aspx#email
-    office: 2430 Longworth House Office Building
+    office: 2430 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -7035,7 +8020,7 @@
     phone: 202-225-3605
     fax: 202-225-1783
     contact_form: http://conaway.house.gov/Contact/default.aspx#email
-    office: 2430 Longworth House Office Building
+    office: 2430 Rayburn House Office Building
 - id:
     bioguide: C001078
     thomas: 01959
@@ -7490,32 +8475,68 @@
     contact_form: http://courtney.house.gov/email/
     office: 215 Cannon House Office Building
 - id:
-    bioguide: C001086
-    thomas: '02031'
-    govtrack: 412441
-    opensecrets: N00031623
-    votesmart: 122953
+    bioguide: C000880
+    thomas: '00250'
+    lis: S266
+    govtrack: 300030
+    opensecrets: N00006267
+    votesmart: 26830
     fec:
-    - H0MN08115
+    - S8ID00027
   name:
-    first: Chip
-    last: Cravaack
-    official_full: Chip Cravaack
+    first: Michael
+    middle: D.
+    last: Crapo
+    official_full: Mike Crapo
   bio:
-    birthday: '1959-12-29'
+    birthday: '1951-05-20'
     gender: M
+    religion: Latter Day Saints
   terms:
   - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: MN
-    district: 8
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: ID
+    district: 2
     party: Republican
-    url: http://cravaack.house.gov/
-    address: 508 Cannon HOB; Washington DC 20515-2308
-    phone: 202-225-6211
-    fax: 202- 225-6211
-    office: 508 Cannon House Office Building
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: ID
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: ID
+    district: 2
+    party: Republican
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: ID
+    class: 3
+    party: Republican
+    url: http://crapo.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: ID
+    class: 3
+    party: Republican
+    url: http://crapo.senate.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: ID
+    class: 3
+    party: Republican
+    url: http://crapo.senate.gov
+    address: 239 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6142
+    fax: 202-228-1375
+    contact_form: http://www.crapo.senate.gov/contact/email.cfm
+    office: 239 Dirksen Senate Office Building
 - id:
     bioguide: C001087
     thomas: 01989
@@ -7759,7 +8780,7 @@
     phone: 202-225-1640
     fax: 202-225-1641
     contact_form: http://cuellar.house.gov/Contact/SendMeAnEmail.htm
-    office: 2463 Rayburn Office Building
+    office: 2463 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -7771,7 +8792,7 @@
     phone: 202-225-1640
     fax: 202-225-1641
     contact_form: http://cuellar.house.gov/Contact/SendMeAnEmail.htm
-    office: 2463 Rayburn Office Building
+    office: 2463 Rayburn House Office Building
 - id:
     bioguide: C001048
     thomas: '01670'
@@ -8419,6 +9440,63 @@
     fax: 202-225-4890
     contact_form: http://delauro.house.gov/contact_form_email.cfm
     office: 2413 Rayburn House Office Building
+- id:
+    bioguide: D000595
+    thomas: '01605'
+    lis: S302
+    govtrack: 400105
+    opensecrets: N00002472
+    votesmart: 25026
+    fec:
+    - S4SC00083
+  name:
+    first: Jim
+    middle: W.
+    last: DeMint
+    official_full: Jim DeMint
+  bio:
+    birthday: '1951-09-02'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: SC
+    district: 4
+    party: Republican
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: SC
+    district: 4
+    party: Republican
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: SC
+    district: 4
+    party: Republican
+    url: http://www.demint.house.gov
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: SC
+    class: 3
+    party: Republican
+    url: http://demint.senate.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: SC
+    class: 3
+    party: Republican
+    url: http://demint.senate.gov
+    address: 167 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6121
+    fax: 202-228-5143
+    contact_form: http://www.demint.senate.gov/public/index.cfm?p=ContactInformation
+    office: 167 Russell Senate Office Building
 - id:
     bioguide: D000612
     thomas: 01995
@@ -9191,7 +10269,7 @@
     party: Republican
     url: http://jeffduncan.house.gov/
     address: 116 Cannon HOB; Washington DC 20515-4003
-    phone: 202-225-3365
+    phone: 202-225-5301
     fax: 202- 225-3216
     office: 116 Cannon House Office Building
   - type: rep
@@ -9202,7 +10280,7 @@
     district: 3
     url: http://jeffduncan.house.gov/
     address: 116 Cannon HOB; Washington DC 20515-4003
-    phone: 202-225-3365
+    phone: 202-225-5301
     fax: 202- 225-3216
     office: 116 Cannon House Office Building
 - id:
@@ -10835,7 +11913,7 @@
     phone: 202-225-4465
     fax: 202-225-9048
     contact_form: http://www.house.gov/formgarrett/contact.shtml
-    office: 2444 Rayburn House Office Building
+    office: 2244 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -10847,7 +11925,7 @@
     phone: 202-225-4465
     fax: 202-225-9048
     contact_form: http://www.house.gov/formgarrett/contact.shtml
-    office: 2444 Rayburn House Office Building
+    office: 2244 Rayburn House Office Building
 - id:
     bioguide: G000549
     thomas: '01743'
@@ -11392,6 +12470,89 @@
     fax: 202-225-5683
     contact_form: http://kaygranger.house.gov/?sectionid=46&sectiontree=46
     office: 320 Cannon House Office Building
+- id:
+    bioguide: G000386
+    thomas: '00457'
+    lis: S153
+    govtrack: 300048
+    opensecrets: N00001758
+    votesmart: 53293
+    icpsr: 14226
+    fec:
+    - S0IA00028
+  name:
+    first: Charles
+    middle: E.
+    last: Grassley
+    nickname: Chuck
+    official_full: Chuck Grassley
+  bio:
+    birthday: '1933-09-17'
+    gender: M
+    religion: Baptist
+  terms:
+  - type: rep
+    start: '1975-01-14'
+    end: '1976-10-01'
+    state: IA
+    district: 3
+    party: Republican
+  - type: rep
+    start: '1977-01-04'
+    end: '1978-10-15'
+    state: IA
+    district: 3
+    party: Republican
+  - type: rep
+    start: '1979-01-15'
+    end: '1980-12-16'
+    state: IA
+    district: 3
+    party: Republican
+  - type: sen
+    start: '1981-01-05'
+    end: '1986-10-18'
+    state: IA
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: IA
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: IA
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: IA
+    class: 3
+    party: Republican
+    url: http://grassley.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: IA
+    class: 3
+    party: Republican
+    url: http://grassley.senate.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: IA
+    class: 3
+    party: Republican
+    url: http://grassley.senate.gov
+    address: 135 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3744
+    fax: 202-224-6020
+    contact_form: http://www.grassley.senate.gov/contact.cfm
+    office: 135 Hart Senate Office Building
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -12980,92 +14141,33 @@
     contact_form: http://hirono.house.gov/IMA/issue_subscribe.htm
     office: 1410 Longworth House Office Building
 - id:
-    bioguide: H000712
-    thomas: '00550'
-    govtrack: 400183
-    opensecrets: N00001469
-    votesmart: 27042
+    bioguide: H001061
+    thomas: 02079
+    lis: S344
+    govtrack: 412494
+    opensecrets: N00031688
+    votesmart: 41788
     fec:
-    - H2PA06080
+    - S0ND00093
   name:
-    first: Tim
-    last: Holden
-    official_full: Tim Holden
+    first: John
+    last: Hoeven
+    official_full: John Hoeven
   bio:
-    birthday: '1957-03-05'
+    birthday: '1957-03-13'
     gender: M
-    religion: Roman Catholic
   terms:
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: PA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: PA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: PA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: PA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: PA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: PA
-    district: 17
-    party: Democrat
-    url: http://www.house.gov/holden
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: PA
-    district: 17
-    party: Democrat
-    url: http://www.house.gov/holden
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: PA
-    district: 17
-    party: Democrat
-    url: http://www.holden.house.gov
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: PA
-    district: 17
-    party: Democrat
-    url: http://www.holden.house.gov
-  - type: rep
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: PA
-    district: 17
-    party: Democrat
-    url: http://www.holden.house.gov
-    address: 2417 Rayburn HOB; Washington DC 20515-3817
-    phone: 202-225-5546
-    fax: 202-226-0996
-    contact_form: http://www.holden.house.gov/contactform_zipcheck.shtml
-    office: 2417 Rayburn House Office Building
+    end: '2016-12-31'
+    state: ND
+    class: 3
+    party: Republican
+    url: http://hoeven.senate.gov
+    address: 120 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2551
+    contact_form: http://www.hoeven.senate.gov/public/index.cfm/email-the-senator
+    office: 120 Russell Senate Office Building
 - id:
     bioguide: H001032
     thomas: 01580
@@ -14104,6 +15206,34 @@
     contact_form: http://hankjohnson.house.gov/contact_hank_write.shtml
     office: 1427 Longworth House Office Building
 - id:
+    bioguide: J000293
+    thomas: 02086
+    lis: S345
+    govtrack: 412496
+    opensecrets: N00032546
+    votesmart: 126217
+    fec:
+    - S0WI00197
+  name:
+    first: Ron
+    last: Johnson
+    official_full: Ron Johnson
+  bio:
+    birthday: '1955-04-08'
+    gender: M
+  terms:
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: WI
+    class: 3
+    party: Republican
+    url: http://ronjohnson.senate.gov/
+    address: 386 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5323
+    contact_form: http://www.ronjohnson.senate.gov/public/index.cfm/contact
+    office: 386 Russell Senate Office Building
+- id:
     bioguide: J000174
     thomas: '00603'
     govtrack: 400206
@@ -14962,40 +16092,74 @@
     fax: 202- 225-3521
     office: 1218 Longworth House Office Building
 - id:
-    bioguide: K000369
-    thomas: 01934
-    govtrack: 412287
-    opensecrets: N00028859
-    votesmart: 57769
+    bioguide: K000360
+    thomas: '01647'
+    lis: S339
+    govtrack: 400222
+    opensecrets: N00012539
+    votesmart: 33502
     fec:
-    - H6NC08111
+    - H0IL10120
   name:
-    first: Larry
-    last: Kissell
-    official_full: Larry Kissell
+    first: Mark
+    middle: Steven
+    last: Kirk
+    official_full: Mark Kirk
   bio:
-    birthday: '1951-01-31'
+    birthday: '1959-09-15'
     gender: M
   terms:
   - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NC
-    district: 8
-    party: Democrat
-    url: http://kissell.house.gov
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: IL
+    district: 10
+    party: Republican
   - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: IL
+    district: 10
+    party: Republican
+    url: http://www.house.gov/kirk
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: IL
+    district: 10
+    party: Republican
+    url: http://www.house.gov/kirk
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: IL
+    district: 10
+    party: Republican
+    url: http://www.house.gov/kirk
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-11-29'
+    state: IL
+    district: 10
+    party: Republican
+    url: http://www.house.gov/kirk
+  - type: sen
+    start: '2010-11-29'
+    end: '2010-12-22'
+    state: IL
+    class: 3
+    party: Republican
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: NC
-    district: 8
-    party: Democrat
-    url: http://kissell.house.gov
-    address: 1632 Longworth HOB; Washington DC 20515-3308
-    phone: 202-225-3715
-    fax: 202-225-4036
-    contact_form: https://forms.house.gov/kissell/contact-form.shtml
-    office: 1632 Longworth House Office Building
+    end: '2016-12-31'
+    state: IL
+    class: 3
+    party: Republican
+    url: http://kirk.senate.gov
+    address: 524 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2854
+    contact_form: http://www.kirk.senate.gov/?p=contact
+    office: 524 Hart Senate Office Building
 - id:
     bioguide: K000363
     thomas: '01733'
@@ -15707,6 +16871,76 @@
     contact_form: http://latta.house.gov/contactform_zipcheck.shtml
     office: 1323 Longworth House Office Building
 - id:
+    bioguide: L000174
+    thomas: 01383
+    lis: S057
+    govtrack: 300065
+    opensecrets: N00009918
+    votesmart: 53353
+    icpsr: 14307
+    fec:
+    - S4VT00017
+  name:
+    first: Patrick
+    middle: J.
+    last: Leahy
+    official_full: Patrick J. Leahy
+  bio:
+    birthday: '1940-03-31'
+    gender: M
+    religion: Roman Catholic
+  terms:
+  - type: sen
+    start: '1975-01-14'
+    end: '1980-12-16'
+    state: VT
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1981-01-05'
+    end: '1986-10-18'
+    state: VT
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: VT
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: VT
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: VT
+    class: 3
+    party: Democrat
+    url: http://leahy.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: VT
+    class: 3
+    party: Democrat
+    url: http://leahy.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: VT
+    class: 3
+    party: Democrat
+    url: http://leahy.senate.gov/
+    address: 437 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4242
+    fax: 202-224-3479
+    contact_form: http://www.leahy.senate.gov/contact/
+    office: 437 Russell Senate Office Building
+- id:
     bioguide: L000551
     thomas: '01501'
     govtrack: 400237
@@ -15793,6 +17027,34 @@
     fax: 202-225-9817
     contact_form: http://lee.house.gov/?sectionid=44&sectiontree=18,44
     office: 2267 Rayburn House Office Building
+- id:
+    bioguide: L000577
+    thomas: 02080
+    lis: S346
+    govtrack: 412495
+    opensecrets: N00031696
+    votesmart: 66395
+    fec:
+    - S0UT00165
+  name:
+    first: Mike
+    last: Lee
+    official_full: Mike Lee
+  bio:
+    birthday: '1971-06-04'
+    gender: M
+  terms:
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: UT
+    class: 3
+    party: Republican
+    url: http://lee.senate.gov/
+    address: 316 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5444
+    contact_form: http://www.lee.senate.gov/public/index.cfm/contact
+    office: 316 Hart Senate Office Building
 - id:
     bioguide: L000263
     thomas: 00683
@@ -16483,7 +17745,7 @@
     phone: 202-225-6506
     fax: 202-225-0546
     contact_form: http://lowey.house.gov/?sectionid=56&sectiontree=56
-    office: 2329 Rayburn House Office Building
+    office: 2365 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -16495,7 +17757,7 @@
     phone: 202-225-6506
     fax: 202-225-0546
     contact_form: http://lowey.house.gov/?sectionid=56&sectiontree=56
-    office: 2329 Rayburn House Office Building
+    office: 2365 Rayburn House Office Building
 - id:
     bioguide: L000491
     thomas: '00711'
@@ -17228,6 +18490,76 @@
     fax: 202-225-0566
     contact_form: https://forms.house.gov/matsui/webforms/issue_subscribe.htm
     office: 222 Cannon House Office Building
+- id:
+    bioguide: M000303
+    thomas: '00754'
+    lis: S197
+    govtrack: 300071
+    opensecrets: N00006424
+    votesmart: 53270
+    icpsr: 15039
+    fec:
+    - S6AZ00019
+  name:
+    first: John
+    middle: S.
+    last: McCain
+    official_full: John McCain
+  bio:
+    birthday: '1936-08-29'
+    gender: M
+    religion: Episcopalian
+  terms:
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: AZ
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: AZ
+    district: 1
+    party: Republican
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: AZ
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: AZ
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: AZ
+    class: 3
+    party: Republican
+    url: http://mccain.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: AZ
+    class: 3
+    party: Republican
+    url: http://mccain.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: AZ
+    class: 3
+    party: Republican
+    url: http://mccain.senate.gov/
+    address: 241 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2235
+    fax: 202-228-2862
+    contact_form: http://www.mccain.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
+    office: 241 Russell Senate Office Building
 - id:
     bioguide: M000309
     thomas: '01503'
@@ -18366,6 +19698,94 @@
     contact_form: https://forms.house.gov/michaud/webforms/issue_subscribe.htm
     office: 1724 Longworth House Office Building
 - id:
+    bioguide: M000702
+    thomas: 00802
+    lis: S182
+    govtrack: 300073
+    opensecrets: N00001945
+    votesmart: 53304
+    icpsr: 14440
+    fec:
+    - S6MD00140
+  name:
+    first: Barbara
+    middle: A.
+    last: Mikulski
+    official_full: Barbara A. Mikulski
+  bio:
+    birthday: '1936-07-20'
+    gender: F
+    religion: Roman Catholic
+  terms:
+  - type: rep
+    start: '1977-01-04'
+    end: '1978-10-15'
+    state: MD
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '1979-01-15'
+    end: '1980-12-16'
+    state: MD
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '1981-01-05'
+    end: '1982-12-23'
+    state: MD
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: MD
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: MD
+    district: 3
+    party: Democrat
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: MD
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: MD
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: MD
+    class: 3
+    party: Democrat
+    url: http://mikulski.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: MD
+    class: 3
+    party: Democrat
+    url: http://mikulski.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: MD
+    class: 3
+    party: Democrat
+    url: http://mikulski.senate.gov/
+    address: 503 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4654
+    fax: 202-224-8858
+    contact_form: http://www.mikulski.senate.gov/contact/
+    office: 503 Hart Senate Office Building
+- id:
     bioguide: M001150
     thomas: '01731'
     govtrack: 400276
@@ -18915,6 +20335,81 @@
     contact_form: http://moran.house.gov/zipauth.shtml
     office: 2239 Rayburn House Office Building
 - id:
+    bioguide: M000934
+    thomas: '01507'
+    lis: S347
+    govtrack: 400284
+    opensecrets: N00005282
+    votesmart: 542
+    fec:
+    - H6KS01096
+  name:
+    first: Jerry
+    last: Moran
+    official_full: Jerry Moran
+  bio:
+    birthday: '1954-05-29'
+    gender: M
+    religion: Methodist
+  terms:
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: KS
+    district: 1
+    party: Republican
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: KS
+    district: 1
+    party: Republican
+    url: http://www.house.gov/moranks01
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: KS
+    district: 1
+    party: Republican
+    url: http://www.house.gov/moranks01
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: KS
+    district: 1
+    party: Republican
+    url: http://www.jerrymoran.house.gov
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: KS
+    district: 1
+    party: Republican
+    url: http://www.jerrymoran.house.gov
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: KS
+    class: 3
+    party: Republican
+    url: http://moran.senate.gov
+    address: 354 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6521
+    contact_form: http://www.moran.senate.gov/public/index.cfm?p=e-mail-jerry
+    office: 354 Russell Senate Office Building
+- id:
     bioguide: M001182
     thomas: 02059
     govtrack: 412474
@@ -18952,6 +20447,51 @@
     phone: 202-225-5501
     fax: 202-225-0464
     office: 1004 Longworth House Office Building
+- id:
+    bioguide: M001153
+    thomas: 01694
+    lis: S288
+    govtrack: 300075
+    opensecrets: N00026050
+    votesmart: 15841
+    fec:
+    - S4AK00099
+  name:
+    first: Lisa
+    middle: A.
+    last: Murkowski
+    official_full: Lisa Murkowski
+  bio:
+    birthday: '1957-05-22'
+    gender: F
+    religion: Roman Catholic
+  terms:
+  - type: sen
+    start: '2002-12-20'
+    end: '2004-12-09'
+    state: AK
+    class: 3
+    party: Republican
+    url: http://murkowski.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: AK
+    class: 3
+    party: Republican
+    url: http://murkowski.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: AK
+    class: 3
+    party: Republican
+    url: http://murkowski.senate.gov/
+    address: 709 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6665
+    fax: 202-224-5301
+    contact_form: http://www.murkowski.senate.gov/public/index.cfm?p=Contact
+    office: 709 Hart Senate Office Building
 - id:
     bioguide: M001169
     thomas: 01837
@@ -19077,87 +20617,55 @@
     contact_form: http://murphy.house.gov/Contact/zipauth.htm
     office: 322 Cannon House Office Building
 - id:
-    bioguide: M001134
-    thomas: 00849
-    govtrack: 400288
-    opensecrets: N00002327
-    votesmart: 21789
+    bioguide: M001111
+    thomas: 01409
+    lis: S229
+    govtrack: 300076
+    opensecrets: N00007876
+    votesmart: 53358
     fec:
-    - H4NC09106
+    - S2WA00189
   name:
-    first: Sue
-    middle: W.
-    last: Myrick
-    official_full: Sue Wilkins Myrick
+    first: Patty
+    last: Murray
+    official_full: Patty Murray
   bio:
-    birthday: '1941-08-01'
+    birthday: '1950-10-11'
     gender: F
-    religion: Methodist
+    religion: Roman Catholic
   terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: NC
-    district: 9
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
+  - type: sen
+    start: '1993-01-05'
     end: '1998-12-19'
-    state: NC
-    district: 9
-    party: Republican
-  - type: rep
+    state: WA
+    class: 3
+    party: Democrat
+  - type: sen
     start: '1999-01-06'
-    end: '2000-12-15'
-    state: NC
-    district: 9
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: NC
-    district: 9
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
     end: '2004-12-09'
-    state: NC
-    district: 9
-    party: Republican
-    url: http://www.house.gov/myrick
-  - type: rep
+    state: WA
+    class: 3
+    party: Democrat
+    url: http://murray.senate.gov/
+  - type: sen
     start: '2005-01-04'
-    end: '2006-12-09'
-    state: NC
-    district: 9
-    party: Republican
-    url: http://www.house.gov/myrick
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NC
-    district: 9
-    party: Republican
-    url: http://www.house.gov/myrick
-  - type: rep
-    start: '2009-01-06'
     end: '2010-12-22'
-    state: NC
-    district: 9
-    party: Republican
-    url: http://www.house.gov/myrick
-  - type: rep
+    state: WA
+    class: 3
+    party: Democrat
+    url: http://murray.senate.gov/
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: NC
-    district: 9
-    party: Republican
-    url: http://www.house.gov/myrick
-    address: 230 Cannon HOB; Washington DC 20515-3309
-    phone: 202-225-1976
-    fax: 202-225-3389
-    contact_form: http://myrick.house.gov/zipauth.shtml
-    office: 230 Cannon House Office Building
+    end: '2016-12-31'
+    state: WA
+    class: 3
+    party: Democrat
+    url: http://murray.senate.gov/
+    address: 448 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2621
+    fax: 202-224-0238
+    contact_form: http://www.murray.senate.gov/email/index.cfm
+    office: 448 Russell Senate Office Building
 - id:
     bioguide: N000002
     thomas: 00850
@@ -20162,107 +21670,33 @@
     contact_form: http://www.house.gov/writerep
     office: 2465 Rayburn House Office Building
 - id:
-    bioguide: P000583
-    thomas: 00900
-    govtrack: 400311
-    opensecrets: N00005906
-    votesmart: 296
-    icpsr: 14290
+    bioguide: P000603
+    thomas: 02082
+    lis: S348
+    govtrack: 412492
+    opensecrets: N00030836
+    votesmart: 117285
     fec:
-    - H6TX22101
+    - S0KY00156
   name:
-    first: Ronald
-    middle: E.
+    first: Rand
     last: Paul
-    nickname: Ron
-    official_full: Ron Paul
+    official_full: Rand Paul
   bio:
-    birthday: '1935-08-20'
+    birthday: '1963-01-07'
     gender: M
-    religion: Protestant
   terms:
-  - type: rep
-    start: '1975-01-14'
-    end: '1976-10-01'
-    state: TX
-    district: 22
-    party: Republican
-  - type: rep
-    start: '1979-01-15'
-    end: '1980-12-16'
-    state: TX
-    district: 22
-    party: Republican
-  - type: rep
-    start: '1981-01-05'
-    end: '1982-12-23'
-    state: TX
-    district: 22
-    party: Republican
-  - type: rep
-    start: '1983-01-03'
-    end: '1984-10-12'
-    state: TX
-    district: 22
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: TX
-    district: 14
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: TX
-    district: 14
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: TX
-    district: 14
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: TX
-    district: 14
-    party: Republican
-    url: http://www.house.gov/paul
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: TX
-    district: 14
-    party: Republican
-    url: http://www.house.gov/paul
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: TX
-    district: 14
-    party: Republican
-    url: http://www.house.gov/paul
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: TX
-    district: 14
-    party: Republican
-    url: http://www.house.gov/paul
-  - type: rep
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: TX
-    district: 14
+    end: '2016-12-31'
+    state: KY
+    class: 3
     party: Republican
-    url: http://www.house.gov/paul
-    address: 203 Cannon HOB; Washington DC 20515-4314
-    phone: 202-225-2831
-    fax: 202-226-6553
-    contact_form: http://www.house.gov/paul/contact.shtml
-    office: 203 Cannon House Office Building
+    url: http://paul.senate.gov
+    address: 208 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4343
+    contact_form: http://www.paul.senate.gov/?p=contact
+    office: 208 Russell Senate Office Building
 - id:
     bioguide: P000594
     thomas: 01930
@@ -21119,6 +22553,81 @@
     fax: 202-225-3489
     office: 107 Cannon House Office Building
 - id:
+    bioguide: P000449
+    thomas: 00924
+    lis: S349
+    govtrack: 400325
+    opensecrets: N00003682
+    votesmart: 27008
+    fec:
+    - S0OH00133
+  name:
+    first: Robert
+    middle: J.
+    last: Portman
+    nickname: Rob
+    official_full: Rob Portman
+  bio:
+    birthday: '1955-12-19'
+    gender: M
+    religion: Methodist
+  terms:
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: OH
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: OH
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: OH
+    district: 2
+    party: Republican
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: OH
+    district: 2
+    party: Republican
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: OH
+    district: 2
+    party: Republican
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: OH
+    district: 2
+    party: Republican
+    url: http://www.house.gov/portman
+  - type: rep
+    start: '2005-01-04'
+    end: '2005-04-29'
+    state: OH
+    district: 2
+    party: Republican
+    url: http://www.house.gov/portman
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: OH
+    class: 3
+    party: Republican
+    url: http://portman.senate.gov
+    address: 338 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3353
+    contact_form: http://www.portman.senate.gov/public/index.cfm/contact?p=contact-form
+    office: 338 Russell Senate Office Building
+- id:
     bioguide: P000599
     thomas: 01915
     govtrack: 412309
@@ -21809,6 +23318,76 @@
     fax: 202-225-4282
     contact_form: http://reichert.house.gov/Contact/ZipAuth.htm
     office: 1730 Longworth House Office Building
+- id:
+    bioguide: R000146
+    thomas: 00952
+    lis: S198
+    govtrack: 300082
+    opensecrets: N00009922
+    votesmart: 53320
+    icpsr: 15054
+    fec:
+    - S6NV00028
+  name:
+    first: Harry
+    middle: M.
+    last: Reid
+    official_full: Harry Reid
+  bio:
+    birthday: '1939-12-02'
+    gender: M
+    religion: Latter Day Saints
+  terms:
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: NV
+    district: 1
+    party: Democrat
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: NV
+    district: 1
+    party: Democrat
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: NV
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: NV
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: NV
+    class: 3
+    party: Democrat
+    url: http://reid.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: NV
+    class: 3
+    party: Democrat
+    url: http://reid.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: NV
+    class: 3
+    party: Democrat
+    url: http://reid.senate.gov/
+    address: 522 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3542
+    fax: 202-224-7327
+    contact_form: http://www.reid.senate.gov/contact/index.cfm
+    office: 522 Hart Senate Office Building
 - id:
     bioguide: R000586
     thomas: 02048
@@ -22624,7 +24203,7 @@
     phone: 202-225-3931
     fax: 202-225-5620
     contact_form: http://www.house.gov/writerep
-    office: 2470 Rayburn House Office Building
+    office: 2206 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -22636,7 +24215,7 @@
     phone: 202-225-3931
     fax: 202-225-5620
     contact_form: http://www.house.gov/writerep
-    office: 2470 Rayburn House Office Building
+    office: 2206 Rayburn House Office Building
 - id:
     bioguide: R000580
     thomas: 01848
@@ -23006,6 +24585,35 @@
     fax: 202-226-0335
     contact_form: http://www.house.gov/writerep
     office: 2185 Rayburn House Office Building
+- id:
+    bioguide: R000595
+    thomas: 02084
+    lis: S350
+    govtrack: 412491
+    opensecrets: N00030612
+    votesmart: 1601
+    fec:
+    - S0FL00338
+  name:
+    first: Marco
+    last: Rubio
+    official_full: Marco Rubio
+  bio:
+    birthday: '1971-05-28'
+    gender: M
+  terms:
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: FL
+    class: 3
+    party: Republican
+    url: http://rubio.senate.gov
+    address: 317 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3041
+    fax: 202-224-3041
+    contact_form: http://www.rubio.senate.gov/public/index.cfm/contact
+    office: 317 Hart Senate Office Building
 - id:
     bioguide: R000594
     thomas: 02039
@@ -23770,7 +25378,7 @@
     phone: 202-225-3164
     fax: 202-225-1992
     contact_form: http://www.house.gov/schmidt/contact.shtml
-    office: 2466 Rayburn House Office Building
+    office: 2464 Rayburn House Office Building
 - id:
     bioguide: S001179
     thomas: 01920
@@ -23864,6 +25472,106 @@
     fax: 202-225-5699
     contact_form: https://forms.house.gov/schrader/contact-form.shtml
     office: 314 Cannon House Office Building
+- id:
+    bioguide: S000148
+    thomas: '01036'
+    lis: S270
+    govtrack: 300087
+    opensecrets: N00001093
+    votesmart: 26976
+    icpsr: 14858
+    fec:
+    - S8NY00082
+  name:
+    first: Charles
+    middle: E.
+    last: Schumer
+    official_full: Charles E. Schumer
+  bio:
+    birthday: '1950-11-23'
+    gender: M
+    religion: Jewish
+  terms:
+  - type: rep
+    start: '1981-01-05'
+    end: '1982-12-23'
+    state: NY
+    district: 16
+    party: Democrat
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: NY
+    district: 10
+    party: Democrat
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: NY
+    district: 10
+    party: Democrat
+  - type: rep
+    start: '1987-01-06'
+    end: '1988-10-22'
+    state: NY
+    district: 10
+    party: Democrat
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: NY
+    district: 10
+    party: Democrat
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: NY
+    district: 10
+    party: Democrat
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: NY
+    district: 9
+    party: Democrat
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: NY
+    district: 9
+    party: Democrat
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: NY
+    district: 9
+    party: Democrat
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: NY
+    class: 3
+    party: Democrat
+    url: http://schumer.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: NY
+    class: 3
+    party: Democrat
+    url: http://schumer.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: NY
+    class: 3
+    party: Democrat
+    url: http://schumer.senate.gov/
+    address: 322 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-6542
+    fax: 202-228-3027
+    contact_form: http://www.schumer.senate.gov/Contact/contact_chuck.cfm
+    office: 322 Hart Senate Office Building
 - id:
     bioguide: S001162
     thomas: 01798
@@ -24591,6 +26299,88 @@
     phone: 202-225-2665
     fax: 202-226-9567
     office: 1133 Longworth House Office Building
+- id:
+    bioguide: S000320
+    thomas: 01049
+    lis: S184
+    govtrack: 300089
+    opensecrets: N00009920
+    votesmart: 53266
+    icpsr: 14659
+    fec:
+    - S6AL00013
+  name:
+    first: Richard
+    middle: C.
+    last: Shelby
+    official_full: Richard C. Shelby
+  bio:
+    birthday: '1934-05-06'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: rep
+    start: '1979-01-15'
+    end: '1980-12-16'
+    state: AL
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '1981-01-05'
+    end: '1982-12-23'
+    state: AL
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '1983-01-03'
+    end: '1984-10-12'
+    state: AL
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '1985-01-03'
+    end: '1986-10-18'
+    state: AL
+    district: 7
+    party: Democrat
+  - type: sen
+    start: '1987-01-06'
+    end: '1992-10-09'
+    state: AL
+    class: 3
+    party: Democrat
+  - type: sen
+    start: '1993-01-05'
+    end: '1998-12-19'
+    state: AL
+    class: 3
+    party: Republican
+  - type: sen
+    start: '1999-01-06'
+    end: '2004-12-09'
+    state: AL
+    class: 3
+    party: Republican
+    url: http://shelby.senate.gov/
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: AL
+    class: 3
+    party: Republican
+    url: http://shelby.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: AL
+    class: 3
+    party: Republican
+    url: http://shelby.senate.gov/
+    address: 304 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-5744
+    fax: 202-224-3416
+    contact_form: http://www.shelby.senate.gov/public/index.cfm/emailsenatorshelby
+    office: 304 Russell Senate Office Building
 - id:
     bioguide: S000344
     thomas: '01526'
@@ -25769,7 +27559,7 @@
     address: 1728 Longworth HOB; Washington DC 20515-1403
     phone: 202-225-4436
     fax: 202-225-3479
-    office: 1728 Rayburn House Office Building
+    office: 1728 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -25780,7 +27570,7 @@
     address: 1728 Longworth HOB; Washington DC 20515-1403
     phone: 202-225-4436
     fax: 202-225-3479
-    office: 1728 Rayburn House Office Building
+    office: 1728 Longworth House Office Building
 - id:
     bioguide: S001174
     thomas: 01870
@@ -25879,7 +27669,7 @@
     phone: 202-225-6676
     fax: 202-226-1012
     contact_form: http://www.house.gov/writerep
-    office: 2423 Longworth House Office Building
+    office: 2423 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -25891,7 +27681,7 @@
     phone: 202-225-6676
     fax: 202-226-1012
     contact_form: http://www.house.gov/writerep
-    office: 2423 Longworth House Office Building
+    office: 2423 Rayburn House Office Building
 - id:
     bioguide: T000459
     thomas: '01566'
@@ -26300,6 +28090,60 @@
     contact_form: http://www.house.gov/writerep
     office: 2209 Rayburn House Office Building
 - id:
+    bioguide: T000250
+    thomas: '01534'
+    lis: S303
+    govtrack: 400546
+    opensecrets: N00004572
+    votesmart: 398
+    fec:
+    - S2SD00068
+  name:
+    first: John
+    last: Thune
+    official_full: John Thune
+  bio:
+    birthday: '1961-01-07'
+    gender: M
+  terms:
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: SD
+    district: 0
+    party: Republican
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: SD
+    district: 0
+    party: Republican
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: SD
+    district: 0
+    party: Republican
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: SD
+    class: 3
+    party: Republican
+    url: http://thune.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: SD
+    class: 3
+    party: Republican
+    url: http://thune.senate.gov/
+    address: 511 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-2321
+    fax: 202-228-5429
+    contact_form: http://www.thune.senate.gov/public/index.cfm/contact
+    office: 511 Dirksen Senate Office Building
+- id:
     bioguide: T000462
     thomas: '01664'
     govtrack: 400406
@@ -26549,124 +28393,54 @@
     contact_form: https://forms.house.gov/tonko/contact-form.shtml
     office: 422 Cannon House Office Building
 - id:
-    bioguide: T000326
-    thomas: '01165'
-    govtrack: 400409
-    opensecrets: N00001082
-    votesmart: 26973
-    icpsr: 15072
+    bioguide: T000461
+    thomas: 02085
+    lis: S351
+    govtrack: 400408
+    opensecrets: N00001489
+    votesmart: 24096
     fec:
-    - H2NY11017
+    - S4PA00121
   name:
-    first: Edolphus
-    last: Towns
-    nickname: Ed
-    official_full: Edolphus Towns
+    first: Patrick
+    middle: J.
+    last: Toomey
+    nickname: Pat
+    official_full: Patrick J. Toomey
   bio:
-    birthday: '1934-07-21'
+    birthday: '1961-11-17'
     gender: M
-    religion: Baptist
   terms:
-  - type: rep
-    start: '1983-01-03'
-    end: '1984-10-12'
-    state: NY
-    district: 11
-    party: Democrat
-  - type: rep
-    start: '1985-01-03'
-    end: '1986-10-18'
-    state: NY
-    district: 11
-    party: Democrat
-  - type: rep
-    start: '1987-01-06'
-    end: '1988-10-22'
-    state: NY
-    district: 11
-    party: Democrat
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: NY
-    district: 11
-    party: Democrat
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: NY
-    district: 11
-    party: Democrat
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: NY
-    district: 10
-    party: Democrat
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: NY
-    district: 10
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: NY
-    district: 10
-    party: Democrat
   - type: rep
     start: '1999-01-06'
     end: '2000-12-15'
-    state: NY
-    district: 10
-    party: Democrat
+    state: PA
+    district: 15
+    party: Republican
   - type: rep
     start: '2001-01-03'
     end: '2002-11-22'
-    state: NY
-    district: 10
-    party: Democrat
+    state: PA
+    district: 15
+    party: Republican
   - type: rep
     start: '2003-01-07'
     end: '2004-12-09'
-    state: NY
-    district: 10
-    party: Democrat
-    url: http://www.house.gov/towns
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: NY
-    district: 10
-    party: Democrat
-    url: http://www.house.gov/towns
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NY
-    district: 10
-    party: Democrat
-    url: http://www.house.gov/towns
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NY
-    district: 10
-    party: Democrat
-    url: http://www.house.gov/towns
-  - type: rep
+    state: PA
+    district: 15
+    party: Republican
+    url: http://www.house.gov/toomey
+  - type: sen
     start: '2011-01-05'
-    end: '2012-12-31'
-    state: NY
-    district: 10
-    party: Democrat
-    url: http://www.house.gov/towns
-    address: 2232 Rayburn HOB; Washington DC 20515-3210
-    phone: 202-225-5936
-    fax: 202-225-1018
-    contact_form: http://www.house.gov/towns/contact_form_zipcheck.shtml
-    office: 2232 Rayburn House Office Building
+    end: '2016-12-31'
+    state: PA
+    class: 3
+    party: Republican
+    url: http://toomey.senate.gov/
+    address: 502 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4254
+    contact_form: http://www.toomey.senate.gov/?p=contact
+    office: 502 Hart Senate Office Building
 - id:
     bioguide: T000465
     thomas: 01884
@@ -27207,6 +28981,62 @@
     fax: 202-225-2493
     contact_form: http://www.house.gov/writerep
     office: 2256 Rayburn House Office Building
+- id:
+    bioguide: V000127
+    thomas: 01609
+    lis: S299
+    govtrack: 400418
+    opensecrets: N00009659
+    votesmart: 4615
+    fec:
+    - S4LA00057
+  name:
+    first: David
+    last: Vitter
+    official_full: David Vitter
+  bio:
+    birthday: '1961-05-03'
+    gender: M
+    religion: Catholic
+  terms:
+  - type: rep
+    start: '1999-06-08'
+    end: '2000-12-15'
+    state: LA
+    district: 1
+    party: Republican
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: LA
+    district: 1
+    party: Republican
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: LA
+    district: 1
+    party: Republican
+    url: http://vitter.house.gov
+  - type: sen
+    start: '2005-01-04'
+    end: '2010-12-22'
+    state: LA
+    class: 3
+    party: Republican
+    url: http://vitter.senate.gov/
+  - type: sen
+    start: '2011-01-05'
+    end: '2016-12-31'
+    state: LA
+    class: 3
+    party: Republican
+    url: http://vitter.senate.gov/
+    address: 516 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4623
+    fax: 202-228-5061
+    contact_form: http://www.vitter.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
+    office: 516 Hart Senate Office Building
 - id:
     bioguide: W000798
     thomas: 01855
@@ -28160,7 +29990,7 @@
     address: 208 Cannon HOB; Washington DC 20515-0917
     phone: 202-225-4506
     fax: 202-226-0777
-    office: 2229 Rayburn House Office Building
+    office: 208 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -28171,7 +30001,7 @@
     address: 208 Cannon HOB; Washington DC 20515-0917
     phone: 202-225-4506
     fax: 202-226-0777
-    office: 2229 Rayburn House Office Building
+    office: 208 Cannon House Office Building
 - id:
     bioguide: W000804
     thomas: 01886
@@ -28539,7 +30369,7 @@
     phone: 202-224-5244
     fax: 202-228-2717
     contact_form: http://www.wyden.senate.gov/contact/
-    office: 223 Dirksen Senate Office Building
+    office: 221 Dirksen Senate Office Building
 - id:
     bioguide: Y000062
     thomas: 01853
@@ -29168,6 +30998,7 @@
     address: 2338 Rayburn HOB; Washington DC 20515-3701
     contact_form: https://bonamici.house.gov/contact-me
     office: 2338 Rayburn House Office Building
+    phone: 202-225-0855
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -29176,6 +31007,7 @@
     district: 1
     url: http://bonamici.house.gov/
     address: 2338 Rayburn HOB; Washington DC 20515-3701
+    phone: 202-225-0855
     contact_form: https://bonamici.house.gov/contact-me
     office: 2338 Rayburn House Office Building
 - id:
@@ -29228,6 +31060,7 @@
     middle: K.
     last: DelBene
     official_full: Suzan K. DelBene
+    thomas: 02096
   bio:
     birthday: '1962-02-17'
     gender: F
@@ -29239,7 +31072,7 @@
     district: 1
     party: Democrat
     address: 2329 Rayburn HOB; Washington DC 20515-4701
-    office: 2329 Rayburn HOB
+    office: 2329 Rayburn House Office Building
     phone: 202-225-6311
     url: http://delbene.house.gov
   - type: rep
@@ -29251,12 +31084,13 @@
     url: http://delbene.house.gov
     address: 2329 Rayburn HOB; Washington DC 20515-4701
     phone: 202-225-6311
-    office: 2329 Rayburn HOB
+    office: 2329 Rayburn House Office Building
 - id:
     bioguide: M001184
     govtrack: 412503
     opensecrets: N00034041
     votesmart: 132068
+    thomas: 02094
   name:
     first: Thomas
     last: Massie
@@ -29273,7 +31107,7 @@
     party: Republican
     address: 1119 Longworth HOB; Washington DC 20515-1704
     phone: 202-225-3465
-    office: 1119 Longworth HOB
+    office: 1119 Longworth House Office Building
     url: http://massie.house.gov
   - type: rep
     start: '2013-01-03'
@@ -29284,12 +31118,13 @@
     url: http://massie.house.gov
     address: 1119 Longworth HOB; Washington DC 20515-1704
     phone: 202-225-3465
-    office: 1119 Longworth HOB
+    office: 1119 Longworth House Office Building
 - id:
     bioguide: P000604
     govtrack: 412506
     opensecrets: N00034639
     votesmart: 90668
+    thomas: 02097
   name:
     first: Donald
     middle: M.
@@ -29307,8 +31142,8 @@
     district: 10
     party: Democrat
     address: 2310 Rayburn HOB; Washington DC 20515-3010
-    office: 2310 Rayburn HOB
-    phone: (202) 225-3436
+    office: 2310 Rayburn House Office Building
+    phone: 202-225-3436
   - type: rep
     start: '2013-01-03'
     end: '2014-12-31'
@@ -29316,8 +31151,31 @@
     party: Democrat
     district: 10
     address: 2310 Rayburn HOB; Washington DC 20515-3010
-    phone: (202) 225-3436
-    office: 2310 Rayburn HOB
+    phone: 202-225-3436
+    office: 2310 Rayburn House Office Building
+- id:
+    opensecrets: N00028138
+    votesmart: 17852
+    bioguide: S001194
+    govtrack: 412507
+  name:
+    first: Brian
+    middle: Emanuel
+    last: Schatz
+  bio:
+    birthday: '1972-10-20'
+    gender: M
+  terms:
+  - type: sen
+    start: '2012-12-27'
+    end: '2016-12-31'
+    state: HI
+    class: 3
+    party: Democrat
+    address: 722 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-3934
+    fax: 202-224-6747
+    office: 722 Hart Senate Office Building
 - id:
     bioguide: S000018
     thomas: 01009
@@ -29562,18 +31420,6 @@
     url: http://titus.house.gov
 - id: {}
   name:
-    first: Tom
-    last: Cotton
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: AR
-    party: Republican
-    district: 4
-- id: {}
-  name:
     first: Kyrsten
     last: Sinema
   bio: {}
@@ -29584,18 +31430,6 @@
     state: AZ
     party: Democrat
     district: 9
-- id: {}
-  name:
-    first: Doug
-    last: La Malfa
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Republican
-    district: 1
 - id: {}
   name:
     first: Jared
@@ -29610,18 +31444,6 @@
     district: 2
 - id: {}
   name:
-    first: Ami
-    last: Bera
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 7
-- id: {}
-  name:
     first: Paul
     last: Cook
   bio: {}
@@ -29632,18 +31454,6 @@
     state: CA
     party: Republican
     district: 8
-- id: {}
-  name:
-    first: Eric
-    last: Swalwell
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 15
 - id: {}
   name:
     first: David
@@ -29658,18 +31468,6 @@
     district: 21
 - id: {}
   name:
-    first: Julia
-    last: Brownley
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 26
-- id: {}
-  name:
     first: Tony
     last: Cardenas
   bio: {}
@@ -29680,18 +31478,6 @@
     state: CA
     party: Democrat
     district: 29
-- id: {}
-  name:
-    first: Gloria
-    last: McLeod
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 35
 - id: {}
   name:
     first: Raul
@@ -29706,18 +31492,6 @@
     district: 36
 - id: {}
   name:
-    first: Mark
-    last: Takano
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 41
-- id: {}
-  name:
     first: Alan
     last: Lowenthal
   bio: {}
@@ -29728,18 +31502,6 @@
     state: CA
     party: Democrat
     district: 47
-- id: {}
-  name:
-    first: Juan
-    last: Vargas
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CA
-    party: Democrat
-    district: 51
 - id: {}
   name:
     first: Scott
@@ -29754,18 +31516,6 @@
     district: 52
 - id: {}
   name:
-    first: Elizabeth
-    last: Esty
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: CT
-    party: Democrat
-    district: 5
-- id: {}
-  name:
     first: Ted
     last: Yoho
   bio: {}
@@ -29776,18 +31526,6 @@
     state: FL
     party: Republican
     district: 3
-- id: {}
-  name:
-    first: Ron
-    last: DeSantis
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: FL
-    party: Republican
-    district: 6
 - id: {}
   name:
     first: Patrick
@@ -29802,18 +31540,6 @@
     district: 18
 - id: {}
   name:
-    first: Trey
-    last: Radel
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: FL
-    party: Republican
-    district: 19
-- id: {}
-  name:
     first: Lois
     last: Frankel
   bio: {}
@@ -29824,18 +31550,6 @@
     state: FL
     party: Democrat
     district: 22
-- id: {}
-  name:
-    first: Joe
-    last: Garcia
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: FL
-    party: Democrat
-    district: 26
 - id: {}
   name:
     first: Doug
@@ -29850,18 +31564,6 @@
     district: 9
 - id: {}
   name:
-    first: Tulsi
-    last: Gabbard
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: HI
-    party: Democrat
-    district: 2
-- id: {}
-  name:
     first: Tammy
     last: Duckworth
   bio: {}
@@ -29872,18 +31574,6 @@
     state: IL
     party: Democrat
     district: 8
-- id: {}
-  name:
-    first: Brad
-    last: Schneider
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: IL
-    party: Democrat
-    district: 10
 - id: {}
   name:
     first: William
@@ -29898,18 +31588,6 @@
     district: 12
 - id: {}
   name:
-    first: Rodney
-    last: Davis
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: IL
-    party: Republican
-    district: 13
-- id: {}
-  name:
     first: Cheri
     last: Bustos
   bio: {}
@@ -29920,18 +31598,6 @@
     state: IL
     party: Democrat
     district: 17
-- id: {}
-  name:
-    first: Jackie
-    last: Walorski
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: IN
-    party: Republican
-    district: 2
 - id: {}
   name:
     first: Susan
@@ -29946,18 +31612,6 @@
     district: 5
 - id: {}
   name:
-    first: Luke
-    last: Messer
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: IN
-    party: Republican
-    district: 6
-- id: {}
-  name:
     first: Andy
     last: Barr
   bio: {}
@@ -29968,18 +31622,6 @@
     state: KY
     party: Republican
     district: 6
-- id: {}
-  name:
-    first: Elizabeth
-    last: Warren
-  bio: {}
-  terms:
-  - type: sen
-    start: '2013-01-03'
-    end: '2018-12-31'
-    state: MA
-    party: Democrat
-    class: 1
 - id: {}
   name:
     first: Joe
@@ -29996,18 +31638,6 @@
     district: 4
 - id: {}
   name:
-    first: John
-    last: Delaney
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: MD
-    party: Democrat
-    district: 6
-- id: {}
-  name:
     first: Angus
     last: King
   bio: {}
@@ -30018,18 +31648,6 @@
     state: ME
     party: Independent
     class: 1
-- id: {}
-  name:
-    first: Daniel
-    last: Kildee
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: MI
-    party: Democrat
-    district: 5
 - id: {}
   name:
     first: Kerry
@@ -30081,18 +31699,6 @@
     district: 8
 - id: {}
   name:
-    first: Ann
-    last: Wagner
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: MO
-    party: Republican
-    district: 2
-- id: {}
-  name:
     first: Steve
     last: Daines
   bio: {}
@@ -30103,18 +31709,6 @@
     state: MT
     party: Republican
     district: 0
-- id: {}
-  name:
-    first: Richard
-    last: Hudson
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: NC
-    party: Republican
-    district: 8
 - id: {}
   name:
     first: Robert
@@ -30129,18 +31723,6 @@
     district: 9
 - id: {}
   name:
-    first: Mark
-    last: Meadows
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: NC
-    party: Republican
-    district: 11
-- id: {}
-  name:
     first: George
     last: Holding
   bio: {}
@@ -30151,18 +31733,6 @@
     state: NC
     party: Republican
     district: 13
-- id: {}
-  name:
-    first: Heidi
-    last: Heitkamp
-  bio: {}
-  terms:
-  - type: sen
-    start: '2013-01-03'
-    end: '2018-12-31'
-    state: ND
-    party: Democrat
-    class: 1
 - id: {}
   name:
     first: Kevin
@@ -30177,18 +31747,6 @@
     district: 0
 - id: {}
   name:
-    first: Deb
-    last: Fischer
-  bio: {}
-  terms:
-  - type: sen
-    start: '2013-01-03'
-    end: '2018-12-31'
-    state: NE
-    party: Republican
-    class: 1
-- id: {}
-  name:
     first: Ann
     last: Kuster
   bio: {}
@@ -30199,18 +31757,6 @@
     state: NH
     party: Democrat
     district: 2
-- id: {}
-  name:
-    first: Michelle
-    last: Grisham
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: NM
-    party: Democrat
-    district: 1
 - id: {}
   name:
     first: Steven
@@ -30225,18 +31771,6 @@
     district: 4
 - id: {}
   name:
-    first: Grace
-    last: Meng
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: NY
-    party: Democrat
-    district: 6
-- id: {}
-  name:
     first: Hakeem
     last: Jeffries
   bio: {}
@@ -30247,18 +31781,6 @@
     state: NY
     party: Democrat
     district: 8
-- id: {}
-  name:
-    first: Sean
-    last: Maloney
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: NY
-    party: Democrat
-    district: 18
 - id: {}
   name:
     first: Chris
@@ -30273,18 +31795,6 @@
     district: 27
 - id: {}
   name:
-    first: Brad
-    last: Wenstrup
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: OH
-    party: Republican
-    district: 2
-- id: {}
-  name:
     first: Joyce
     last: Beatty
   bio: {}
@@ -30295,18 +31805,6 @@
     state: OH
     party: Democrat
     district: 3
-- id: {}
-  name:
-    first: David
-    last: Joyce
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: OH
-    party: Republican
-    district: 14
 - id: {}
   name:
     first: Jim
@@ -30321,18 +31819,6 @@
     district: 1
 - id: {}
   name:
-    first: Markwayne
-    last: Mullin
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: OK
-    party: Republican
-    district: 2
-- id: {}
-  name:
     first: Scott
     last: Perry
   bio: {}
@@ -30343,18 +31829,6 @@
     state: PA
     party: Republican
     district: 4
-- id: {}
-  name:
-    first: Keith
-    last: Rothfus
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: PA
-    party: Republican
-    district: 12
 - id: {}
   name:
     first: Matthew
@@ -30369,18 +31843,6 @@
     district: 17
 - id: {}
   name:
-    first: Tom
-    last: Rice
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: SC
-    party: Republican
-    district: 7
-- id: {}
-  name:
     first: Ted
     last: Cruz
   bio: {}
@@ -30391,18 +31853,6 @@
     state: TX
     party: Republican
     class: 1
-- id: {}
-  name:
-    first: Randy
-    last: Weber
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: TX
-    party: Republican
-    district: 14
 - id: {}
   name:
     first: Beto
@@ -30417,18 +31867,6 @@
     district: 16
 - id: {}
   name:
-    first: Joaquin
-    last: Castro
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: TX
-    party: Democrat
-    district: 20
-- id: {}
-  name:
     first: Pete
     last: Gallego
   bio: {}
@@ -30439,18 +31877,6 @@
     state: TX
     party: Democrat
     district: 23
-- id: {}
-  name:
-    first: Roger
-    last: Williams
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: TX
-    party: Republican
-    district: 25
 - id: {}
   name:
     first: Marc
@@ -30465,18 +31891,6 @@
     district: 33
 - id: {}
   name:
-    first: Filemon
-    last: Vela
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: TX
-    party: Democrat
-    district: 34
-- id: {}
-  name:
     first: Chris
     last: Stewart
   bio: {}
@@ -30489,18 +31903,6 @@
     district: 2
 - id: {}
   name:
-    first: Timothy
-    last: Kaine
-  bio: {}
-  terms:
-  - type: sen
-    start: '2013-01-03'
-    end: '2018-12-31'
-    state: VA
-    party: Democrat
-    class: 1
-- id: {}
-  name:
     first: Derek
     last: Kilmer
   bio: {}
@@ -30511,18 +31913,6 @@
     state: WA
     party: Democrat
     district: 6
-- id: {}
-  name:
-    first: Denny
-    last: Heck
-  bio: {}
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2014-12-31'
-    state: WA
-    party: Democrat
-    district: 10
 - id: {}
   name:
     first: Mark
