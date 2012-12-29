@@ -48,7 +48,9 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 				("first", rec["first"]),
 				("last", rec["last"]),
 				])),
-			("bio", {}),
+			("bio", OrderedDict([
+				("gender", rec["gender"]),
+				])),
 			("terms", []),
 		])
 		for k in ('suffix', 'middle'):
@@ -59,10 +61,13 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 			
 	# Create a new term for this individual.
 	
+	term_end = "2018-12-31" if int(rec["seat"]) == 0 else "2014-12-31"
+	if rec["state"] == "PR": term_end = "2016-12-31"
+	
 	term =  OrderedDict([
 		("type", "sen" if int(rec["seat"]) == 0 else "rep"),
 		("start", "2013-01-03"),
-		("end", "2018-12-31" if int(rec["seat"]) == 0 else "2014-12-31"),
+		("end", term_end),
 		("state", rec["state"]),
 		("party", rec["party"]),
 	])
@@ -84,6 +89,8 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 	m["terms"].append(term)
 	
 # Move incumbents that are not in the election results to the historical file.
+# TODO: In the next election, the resident commissioner from Puerto Rico is
+# not up for election. Don't remove him from the -current file.
 for m in y:
 	# skip senators not in the election class for this year
 	if m["terms"][-1]["type"] == "sen" and m["terms"][-1]["class"] != senate_election_class:

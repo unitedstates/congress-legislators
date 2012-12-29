@@ -5199,103 +5199,151 @@
     contact_form: http://www.boozman.senate.gov/public/index.cfm/e-mail-me
     office: 320 Hart Senate Office Building
 - id:
-    bioguide: B001254
-    thomas: 01796
-    govtrack: 400645
-    opensecrets: N00026481
-    votesmart: 46182
+    bioguide: B001245
+    thomas: '01723'
+    govtrack: 400041
+    opensecrets: N00024866
+    votesmart: 1751
     fec:
-    - H4OK02089
+    - H2GU00033
   name:
-    first: Dan
-    last: Boren
-    official_full: Dan Boren
+    first: Madeleine
+    middle: Z.
+    last: Bordallo
+    official_full: Madeleine Z. Bordallo
   bio:
-    birthday: '1973-08-02'
-    gender: M
+    birthday: '1933-05-31'
+    gender: F
+    religion: Catholic
   terms:
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: GU
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/bordallo
   - type: rep
     start: '2005-01-04'
     end: '2006-12-09'
-    state: OK
-    district: 2
+    state: GU
+    district: 0
     party: Democrat
+    url: http://www.house.gov/bordallo
   - type: rep
     start: '2007-01-04'
     end: '2009-01-03'
-    state: OK
-    district: 2
+    state: GU
+    district: 0
     party: Democrat
-    url: http://www.house.gov/boren
+    url: http://www.house.gov/bordallo
   - type: rep
     start: '2009-01-06'
     end: '2010-12-22'
-    state: OK
-    district: 2
+    state: GU
+    district: 0
     party: Democrat
-    url: http://www.house.gov/boren
+    url: http://www.house.gov/bordallo
   - type: rep
     start: '2011-01-05'
     end: '2012-12-31'
-    state: OK
-    district: 2
+    state: GU
+    district: 0
     party: Democrat
-    url: http://www.house.gov/boren
-    address: 2447 Rayburn HOB; Washington DC 20515-3602
-    phone: 202-225-2701
-    fax: 202-225-3038
-    contact_form: http://www.house.gov/boren/emailsignup.shtml
-    office: 2447 Rayburn House Office Building
+    url: http://www.house.gov/bordallo
+    address: 2441 Rayburn HOB; Washington DC 20515-5301
+    phone: 202-225-1188
+    fax: 202-226-0341
+    contact_form: http://www.house.gov/bordallo/IMA/issue.htm
+    office: 2441 Rayburn House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2014-12-31'
+    state: GU
+    party: Democrat
+    district: 0
+    url: http://www.house.gov/bordallo
+    address: 2441 Rayburn HOB; Washington DC 20515-5301
+    phone: 202-225-1188
+    fax: 202-226-0341
+    contact_form: http://www.house.gov/bordallo/IMA/issue.htm
+    office: 2441 Rayburn House Office Building
 - id:
-    bioguide: B001255
-    thomas: 01787
-    govtrack: 400636
-    opensecrets: N00026595
-    votesmart: 35514
+    bioguide: B000652
+    thomas: '01466'
+    govtrack: 400042
+    opensecrets: N00004208
+    votesmart: 384
     fec:
-    - H4LA07029
+    - H6IA03144
   name:
-    first: Charles
-    middle: W.
-    last: Boustany
-    suffix: Jr.
-    official_full: Charles W. Boustany Jr.
+    first: Leonard
+    middle: L.
+    last: Boswell
+    official_full: Leonard L. Boswell
   bio:
-    birthday: '1956-02-21'
+    birthday: '1934-01-10'
     gender: M
+    religion: Reformed Latter Day Saint
   terms:
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: IA
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: IA
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: IA
+    district: 3
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: IA
+    district: 3
+    party: Democrat
+    url: http://www.house.gov/boswell
   - type: rep
     start: '2005-01-04'
     end: '2006-12-09'
-    state: LA
-    district: 7
-    party: Republican
+    state: IA
+    district: 3
+    party: Democrat
+    url: http://www.house.gov/boswell
   - type: rep
     start: '2007-01-04'
     end: '2009-01-03'
-    state: LA
-    district: 7
-    party: Republican
-    url: 'http://www.house.gov/boustany '
+    state: IA
+    district: 3
+    party: Democrat
+    url: http://boswell.house.gov
   - type: rep
     start: '2009-01-06'
     end: '2010-12-22'
-    state: LA
-    district: 7
-    party: Republican
-    url: 'http://www.house.gov/boustany '
+    state: IA
+    district: 3
+    party: Democrat
+    url: http://boswell.house.gov
   - type: rep
     start: '2011-01-05'
     end: '2012-12-31'
-    state: LA
-    district: 7
-    party: Republican
-    url: 'http://www.house.gov/boustany '
-    address: 1431 Longworth HOB; Washington DC 20515-1807
-    phone: 202-225-2031
-    fax: 202-225-5724
-    contact_form: http://boustany.house.gov/ContactCharles.asp
-    office: 1431 Longworth House Office Building
+    state: IA
+    district: 3
+    party: Democrat
+    url: http://boswell.house.gov
+    address: 1026 Longworth HOB; Washington DC 20515-1503
+    phone: 202-225-3806
+    fax: 202-225-5608
+    contact_form: http://boswell.house.gov/messageform.htm
+    office: 1026 Longworth House Office Building
 - id:
     bioguide: B000711
     thomas: '00116'
@@ -7159,6 +7207,18 @@
     state: VI
     district: 0
     party: Democrat
+    url: http://www.donnachristensen.house.gov/
+    address: 1510 Longworth HOB; Washington DC 20515-5501
+    phone: 202-225-1790
+    fax: 202-225-5517
+    contact_form: http://www.house.gov/writerep/
+    office: 1510 Longworth House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2014-12-31'
+    state: VI
+    party: Democrat
+    district: 0
     url: http://www.donnachristensen.house.gov/
     address: 1510 Longworth HOB; Washington DC 20515-5501
     phone: 202-225-1790
@@ -10852,6 +10912,118 @@
     fax: 202-225-8890
     contact_form: https://forms.house.gov/eshoo/webforms/issue_subscribe.htm
     office: 205 Cannon House Office Building
+- id:
+    bioguide: F000010
+    thomas: '00367'
+    govtrack: 400128
+    opensecrets: N00007632
+    votesmart: 774
+    fec:
+    - H0AS00018
+  name:
+    first: Eni
+    middle: F.H.
+    last: Faleomavaega
+    official_full: Eni F. H. Faleomavaega
+  bio:
+    birthday: '1943-08-15'
+    gender: M
+    religion: Latter Day Saints
+  terms:
+  - type: rep
+    start: '1989-01-03'
+    end: '1990-10-28'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: AS
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: AS
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/faleomavaega
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: AS
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/faleomavaega
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: AS
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/faleomavaega
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: AS
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/faleomavaega
+  - type: rep
+    start: '2011-01-05'
+    end: '2012-12-31'
+    state: AS
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/faleomavaega
+    address: 2422 Rayburn HOB; Washington DC 20515-5201
+    phone: 202-225-8577
+    fax: 202-225-8757
+    contact_form: http://www.house.gov/writerep
+    office: 2422 Rayburn House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2014-12-31'
+    state: AS
+    party: Democrat
+    district: 0
+    url: http://www.house.gov/faleomavaega
+    address: 2422 Rayburn HOB; Washington DC 20515-5201
+    phone: 202-225-8577
+    fax: 202-225-8757
+    contact_form: http://www.house.gov/writerep
+    office: 2422 Rayburn House Office Building
 - id:
     bioguide: F000460
     thomas: '02067'
@@ -21075,6 +21247,112 @@
     fax: 202-225-5823
     office: 226 Cannon House Office Building
 - id:
+    bioguide: N000147
+    thomas: 00868
+    govtrack: 400295
+    opensecrets: N00001692
+    votesmart: 775
+    fec:
+    - H0DC00058
+  name:
+    first: Eleanor
+    middle: Holmes
+    last: Norton
+    official_full: Eleanor Holmes Norton
+  bio:
+    birthday: '1937-06-13'
+    gender: F
+    religion: Episcopalian
+  terms:
+  - type: rep
+    start: '1991-01-03'
+    end: '1992-10-09'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1993-01-05'
+    end: '1994-12-01'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1995-01-04'
+    end: '1996-10-04'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: DC
+    district: 0
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: DC
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/norton
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: DC
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/norton
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: DC
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/norton
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: DC
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/norton
+  - type: rep
+    start: '2011-01-05'
+    end: '2012-12-31'
+    state: DC
+    district: 0
+    party: Democrat
+    url: http://www.house.gov/norton
+    address: 2136 Rayburn HOB; Washington DC 20515-5100
+    phone: 202-225-8050
+    fax: 202-225-3002
+    contact_form: http://www.norton.house.gov/forms/contact.html
+    office: 2136 Rayburn House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2014-12-31'
+    state: DC
+    party: Democrat
+    district: 0
+    url: http://www.house.gov/norton
+    address: 2136 Rayburn HOB; Washington DC 20515-5100
+    phone: 202-225-8050
+    fax: 202-225-3002
+    contact_form: http://www.norton.house.gov/forms/contact.html
+    office: 2136 Rayburn House Office Building
+- id:
     bioguide: N000185
     thomas: '02001'
     govtrack: 412409
@@ -22272,6 +22550,46 @@
     fax: 202-225-2356
     contact_form: https://forms.house.gov/petri/zip_authen.shtml
     office: 2462 Rayburn House Office Building
+- id:
+    bioguide: P000596
+    thomas: 01953
+    govtrack: 412306
+    opensecrets: N00029168
+    votesmart: 110894
+    fec:
+    - H8PR00062
+  name:
+    first: Pedro
+    middle: R.
+    last: Pierluisi
+    official_full: Pedro R. Pierluisi
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2009-01-06'
+    end: '2012-12-31'
+    state: PR
+    district: 0
+    party: Democrat
+    url: http://pierluisi.house.gov
+    address: 1213 Longworth HOB; Washington DC 20515-5401
+    phone: 202-225-2615
+    fax: 202-225-2154
+    contact_form: https://forms.house.gov/pierluisi/contact-form.shtml
+    office: 1213 Longworth House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2016-12-31'
+    state: PR
+    party: Democrat
+    district: 0
+    url: http://pierluisi.house.gov
+    address: 1213 Longworth HOB; Washington DC 20515-5401
+    phone: 202-225-2615
+    fax: 202-225-2154
+    contact_form: https://forms.house.gov/pierluisi/contact-form.shtml
+    office: 1213 Longworth House Office Building
 - id:
     bioguide: P000597
     thomas: 01927
@@ -24974,6 +25292,52 @@
     fax: 202-225-3719
     contact_form: http://timryan.house.gov/index.php?option=com_content&task=view&id=129&Itemid=42
     office: 1421 Longworth House Office Building
+- id:
+    bioguide: S001177
+    thomas: 01962
+    govtrack: 412312
+    opensecrets: N00030418
+    votesmart: 110903
+    fec:
+    - H8MP00041
+  name:
+    first: Gregorio
+    last: Sablan
+    official_full: Gregorio Kilili Camacho Sablan
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: MP
+    district: 0
+    party: Democrat
+    url: http://sablan.house.gov
+  - type: rep
+    start: '2011-01-05'
+    end: '2012-12-31'
+    state: MP
+    district: 0
+    party: Democrat
+    url: http://sablan.house.gov
+    address: 423 Cannon HOB; Washington DC 20515-5201
+    phone: 202-225-2646
+    fax: 202-226-4249
+    contact_form: https://forms.house.gov/sablan/contact-form.shtml
+    office: 423 Cannon House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2014-12-31'
+    state: MP
+    party: Democrat
+    district: 0
+    url: http://sablan.house.gov
+    address: 423 Cannon HOB; Washington DC 20515-5201
+    phone: 202-225-2646
+    fax: 202-226-4249
+    contact_form: https://forms.house.gov/sablan/contact-form.shtml
+    office: 423 Cannon House Office Building
 - id:
     bioguide: S000030
     thomas: '01522'
@@ -31422,7 +31786,8 @@
   name:
     first: Kyrsten
     last: Sinema
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31434,7 +31799,8 @@
   name:
     first: Jared
     last: Huffman
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31446,7 +31812,8 @@
   name:
     first: Paul
     last: Cook
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31458,7 +31825,8 @@
   name:
     first: David
     last: Valadao
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31470,7 +31838,8 @@
   name:
     first: Tony
     last: Cardenas
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31482,7 +31851,8 @@
   name:
     first: Raul
     last: Ruiz
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31494,7 +31864,8 @@
   name:
     first: Alan
     last: Lowenthal
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31506,7 +31877,8 @@
   name:
     first: Scott
     last: Peters
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31518,7 +31890,8 @@
   name:
     first: Ted
     last: Yoho
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31530,7 +31903,8 @@
   name:
     first: Patrick
     last: Murphy
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31542,7 +31916,8 @@
   name:
     first: Lois
     last: Frankel
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31554,7 +31929,8 @@
   name:
     first: Doug
     last: Collins
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31566,7 +31942,8 @@
   name:
     first: Tammy
     last: Duckworth
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31578,7 +31955,8 @@
   name:
     first: William
     last: Enyart
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31590,7 +31968,8 @@
   name:
     first: Cheri
     last: Bustos
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31602,7 +31981,8 @@
   name:
     first: Susan
     last: Brooks
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31614,7 +31994,8 @@
   name:
     first: Andy
     last: Barr
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31628,7 +32009,8 @@
     last: Kennedy
     suffix: III
     middle: Patrick
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31640,7 +32022,8 @@
   name:
     first: Angus
     last: King
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: sen
     start: '2013-01-03'
@@ -31652,7 +32035,8 @@
   name:
     first: Kerry
     last: Bentivolio
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31701,7 +32085,8 @@
   name:
     first: Steve
     last: Daines
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31713,7 +32098,8 @@
   name:
     first: Robert
     last: Pittenger
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31725,7 +32111,8 @@
   name:
     first: George
     last: Holding
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31737,7 +32124,8 @@
   name:
     first: Kevin
     last: Cramer
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31749,7 +32137,8 @@
   name:
     first: Ann
     last: Kuster
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31761,7 +32150,8 @@
   name:
     first: Steven
     last: Horsford
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31773,7 +32163,8 @@
   name:
     first: Hakeem
     last: Jeffries
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31785,7 +32176,8 @@
   name:
     first: Chris
     last: Collins
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31797,7 +32189,8 @@
   name:
     first: Joyce
     last: Beatty
-  bio: {}
+  bio:
+    gender: F
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31809,7 +32202,8 @@
   name:
     first: Jim
     last: Bridenstine
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31821,7 +32215,8 @@
   name:
     first: Scott
     last: Perry
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31833,7 +32228,8 @@
   name:
     first: Matthew
     last: Cartwright
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31845,7 +32241,8 @@
   name:
     first: Ted
     last: Cruz
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: sen
     start: '2013-01-03'
@@ -31857,7 +32254,8 @@
   name:
     first: Beto
     last: O'Rourke
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31869,7 +32267,8 @@
   name:
     first: Pete
     last: Gallego
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31881,7 +32280,8 @@
   name:
     first: Marc
     last: Veasey
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31893,7 +32293,8 @@
   name:
     first: Chris
     last: Stewart
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31905,7 +32306,8 @@
   name:
     first: Derek
     last: Kilmer
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
@@ -31917,7 +32319,8 @@
   name:
     first: Mark
     last: Pocan
-  bio: {}
+  bio:
+    gender: M
   terms:
   - type: rep
     start: '2013-01-03'
