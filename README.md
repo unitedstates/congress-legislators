@@ -131,7 +131,9 @@ legislators-current.yaml and legislators-historical.yaml
 
 Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
 
+Notes:
 In most cases, a legislator has a single term on any given date. In some cases a legislator resigned from one chamber and was sworn in in the other chamber on the same day.
+Terms for senators list each six-year term, so the terms span three Congresses. For representatives and delegates, each two-year term is listed, each corresponding to a single Congress. But Puerto Rico's Resident Commissioner serves four-year terms, and so the Resident Commissioner will have a single term covering two Congresses (this has not been updated in historical data).
 
 Historically, some states sending at-large representatives actually sent multiple at-large representatives. Thus, state and district may not be a unique key.
 
