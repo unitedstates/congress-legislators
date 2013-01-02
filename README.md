@@ -23,9 +23,9 @@ This database has been collected from a variety of sources:
 
 * GovTrack.us (http://www.govtrack.us).
 * The Congressional Biographical Directory (http://bioguide.congress.gov).
-* Congressional Committees, Historical Standing Committees data set by Garrison Nelson and Charles Stewart (http://web.mit.edu/17.251/www/data\_page.html).
+* Congressional Committees, Historical Standing Committees data set by Garrison Nelson and Charles Stewart (http://web.mit.edu/17.251/www/data_page.html).
 * Martis’s “The Historical Atlas of Political Parties in the United States Congress”, via Rosenthal, Howard L., and Keith T. Poole. United States Congressional Roll Call Voting Records, 1789-1990 (http://voteview.com/dwnl.htm).
-* The Sunlight Labs Congress API (http://services.sunlightlabs.com/docs/Sunlight\_Congress\_API/).
+* The Sunlight Labs Congress API (http://services.sunlightlabs.com/docs/Sunlight_Congress_API/).
 * The Library of Congress's THOMAS website (http://thomas.loc.gov). 
 
 The data is currently maintained both by hand and by some scripts in the `scripts` directory.
@@ -62,7 +62,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		state: WI
 		...
 
-An optional fifth part, other\_names, will list other names the legislator has gone by officially. This is helpful in cases where a Legislator's legal name has changed. These listings will only include the name attributes which differ from the current name, and a start or end date where applicable. An excerpted example:
+An optional fifth part, other_names, will list other names the legislator has gone by officially. This is helpful in cases where a Legislator's legal name has changed. These listings will only include the name attributes which differ from the current name, and a start or end date where applicable. An excerpted example:
 
 	- id:
 		bioguide: B001228
@@ -146,7 +146,7 @@ Each record has two sections: id and social. The id section identifies the legis
 
 * twitter: The current official Twitter handle of the legislator.
 * youtube: The current official YouTube handle of the legislator.
-* facebook\_graph: The numeric ID of the current official Facebook Page of the legislator in the Facebook Graph.
+* facebook_graph: The numeric ID of the current official Facebook Page of the legislator in the Facebook Graph.
 
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
 
@@ -175,9 +175,9 @@ The fields available in both files are as follows:
 
 * type: 'house', 'senate', or 'joint' indicating the type of commmittee
 * name: The current (or most recent) official name of the committee.
-* thomas\_id: The four-letter code used for the committee on the THOMAS advanced search page.
-* senate\_committee\_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b\_three\_sections\_with\_teasers/membership.htm. Currently the same as the thomas\_id.
-* house\_committee\_id: For House committees, the two-letter code used on http://clerk.house.gov/committee\_info/index.aspx. Currently always the same as the last two letters of the thomas\_id.
+* thomas_id: The four-letter code used for the committee on the THOMAS advanced search page.
+* senate_committee_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm. Currently the same as the thomas_id.
+* house_committee_id: For House committees, the two-letter code used on http://clerk.house.gov/committee_info/index.aspx. Currently always the same as the last two letters of the thomas_id.
 * subcommittees: A list of subcommittees, with the following fields:
 	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
@@ -216,7 +216,7 @@ The committee-membership-current.yaml file contains current committee assignment
 	  rank: 1
 	  title: Chair
 
-The committee IDs in this file are the thomas\_id's from the committees-current.yaml file, or for subcommittees the concatentation of the thomas\_id of the parent committee and the thomas\_id of the subcommittee.
+The committee IDs in this file are the thomas_id's from the committees-current.yaml file, or for subcommittees the concatentation of the thomas_id of the parent committee and the thomas_id of the subcommittee.
 
 Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
 
