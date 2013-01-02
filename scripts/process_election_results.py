@@ -8,6 +8,8 @@ from collections import OrderedDict
 from utils import load_data, save_data
 
 senate_election_class = 1
+new_term_end_years = (2015, 2019, 2017) # House, Senate, Puerto Rico
+current_term_end_date = "2012-12-31" # sanity checking
 at_large_districts = ['AK', 'AS', 'DC', 'DE', 'GU', 'MP', 'MT', 'ND', 'PR', 'SD', 'VI', 'VT', 'WY']
 
 y = load_data("legislators-current.yaml")
@@ -34,7 +36,7 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 			
 		else:
 			# This person is in the current file. They must be continuing from a term that ends at the end.
-			if m["terms"][-1]["end"] != '2012-12-31':
+			if m["terms"][-1]["end"] != current_term_end_date:
 				raise ValueError("Most recent term doesn't end on December 31 of this year: %d" % int(rec["id"]))
 			
 	else:
@@ -61,8 +63,8 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 			
 	# Create a new term for this individual.
 	
-	term_end = "2018-12-31" if int(rec["seat"]) == 0 else "2014-12-31"
-	if rec["state"] == "PR": term_end = "2016-12-31"
+	term_end = "%d-01-03" % (new_term_end_years[1] if int(rec["seat"]) == 0 else new_term_end_years[0])
+	if rec["state"] == "PR": term_end = "%d-01-03" % new_term_end_years[2]
 	
 	term =  OrderedDict([
 		("type", "sen" if int(rec["seat"]) == 0 else "rep"),
@@ -91,13 +93,17 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 # Move incumbents that are not in the election results to the historical file.
 # TODO: In the next election, the resident commissioner from Puerto Rico is
 # not up for election. Don't remove him from the -current file.
-for m in y:
+for m in list(y): # clone before modifying
 	# skip senators not in the election class for this year
-	if m["terms"][-1]["type"] == "sen" and m["terms"][-1]["class"] != senate_election_class:
+	if m["terms"][-1]["type"] == "sen" and int(m["terms"][-1]["class"]) != senate_election_class:
 		continue
 	
+	# skip those with missing IDs, which are the new members
+	if "govtrack" not in m["id"]:
+		continue
+		
 	# skip IDs present in the seen_members set, which is re-elected incumbents
-	if m.get('id', {}).get('govtrack') in seen_members:
+	if m["id"]["govtrack"] in seen_members:
 		continue
 		
 	y.remove(m)

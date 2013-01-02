@@ -1,60 +1,4 @@
 - id:
-    bioguide: B000468
-    thomas: 01285
-    lis: S167
-    govtrack: 300009
-    opensecrets: N00006518
-    votesmart: 53326
-    icpsr: 14912
-    fec:
-    - S2NM00021
-  name:
-    first: Jeff
-    last: Bingaman
-    official_full: Jeff Bingaman
-  bio:
-    birthday: '1943-10-03'
-    gender: M
-    religion: Methodist
-  terms:
-  - type: sen
-    start: '1983-01-03'
-    end: '1988-10-22'
-    state: NM
-    class: 1
-    party: Democrat
-  - type: sen
-    start: '1989-01-03'
-    end: '1994-12-01'
-    state: NM
-    class: 1
-    party: Democrat
-  - type: sen
-    start: '1995-01-04'
-    end: '2000-12-15'
-    state: NM
-    class: 1
-    party: Democrat
-  - type: sen
-    start: '2001-01-03'
-    end: '2006-12-09'
-    state: NM
-    class: 1
-    party: Democrat
-    url: http://bingaman.senate.gov
-  - type: sen
-    start: '2007-01-04'
-    end: '2012-12-31'
-    state: NM
-    class: 1
-    party: Democrat
-    url: http://bingaman.senate.gov
-    address: 703 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-5521
-    fax: 202-224-2852
-    contact_form: http://www.bingaman.senate.gov/contact/
-    office: 703 Hart Senate Office Building
-- id:
     bioguide: B000944
     thomas: '00136'
     lis: S307
@@ -130,7 +74,7 @@
     office: 713 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: OH
     party: Democrat
     class: 1
@@ -185,7 +129,7 @@
     office: 311 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: WA
     party: Democrat
     class: 1
@@ -291,7 +235,7 @@
     office: 509 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MD
     party: Democrat
     class: 1
@@ -372,7 +316,7 @@
     office: 513 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: DE
     party: Democrat
     class: 1
@@ -415,7 +359,7 @@
     office: 393 Russell Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: PA
     party: Democrat
     class: 1
@@ -456,7 +400,7 @@
     office: 185 Dirksen Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: TN
     party: Republican
     class: 1
@@ -517,7 +461,7 @@
     office: 331 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: CA
     party: Democrat
     class: 1
@@ -592,7 +536,7 @@
     office: 104 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: UT
     party: Republican
     class: 1
@@ -633,7 +577,7 @@
     office: 302 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MN
     party: Democrat
     class: 1
@@ -643,137 +587,6 @@
     fax: 202-228-2186
     contact_form: http://www.klobuchar.senate.gov/emailamy.cfm
     office: 302 Hart Senate Office Building
-- id:
-    bioguide: K000352
-    thomas: '00655'
-    lis: S243
-    govtrack: 300062
-    opensecrets: N00006406
-    votesmart: 26721
-    icpsr: 15429
-    fec:
-    - S4AZ00030
-  name:
-    first: Jon
-    last: Kyl
-    official_full: Jon Kyl
-  bio:
-    birthday: '1942-04-25'
-    gender: M
-    religion: Presbyterian
-  terms:
-  - type: rep
-    start: '1987-01-06'
-    end: '1988-10-22'
-    state: AZ
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: AZ
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: AZ
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: AZ
-    district: 4
-    party: Republican
-  - type: sen
-    start: '1995-01-04'
-    end: '2000-12-15'
-    state: AZ
-    class: 1
-    party: Republican
-  - type: sen
-    start: '2001-01-03'
-    end: '2006-12-09'
-    state: AZ
-    class: 1
-    party: Republican
-    url: http://kyl.senate.gov/
-  - type: sen
-    start: '2007-01-04'
-    end: '2012-12-31'
-    state: AZ
-    class: 1
-    party: Republican
-    url: http://kyl.senate.gov/
-    address: 730 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-4521
-    fax: 202-224-2207
-    contact_form: http://www.kyl.senate.gov/contact.cfm
-    office: 730 Hart Senate Office Building
-- id:
-    bioguide: L000504
-    thomas: 01387
-    lis: S105
-    govtrack: 300070
-    opensecrets: N00001764
-    votesmart: 53292
-    icpsr: 14506
-    fec:
-    - S4IN00014
-  name:
-    first: Richard
-    middle: G.
-    last: Lugar
-    official_full: Richard G. Lugar
-  bio:
-    birthday: '1932-04-04'
-    gender: M
-    religion: Methodist
-  terms:
-  - type: sen
-    start: '1977-01-04'
-    end: '1982-12-23'
-    state: IN
-    class: 1
-    party: Republican
-  - type: sen
-    start: '1983-01-03'
-    end: '1988-10-22'
-    state: IN
-    class: 1
-    party: Republican
-  - type: sen
-    start: '1989-01-03'
-    end: '1994-12-01'
-    state: IN
-    class: 1
-    party: Republican
-  - type: sen
-    start: '1995-01-04'
-    end: '2000-12-15'
-    state: IN
-    class: 1
-    party: Republican
-  - type: sen
-    start: '2001-01-03'
-    end: '2006-12-09'
-    state: IN
-    class: 1
-    party: Republican
-    url: http://lugar.senate.gov/
-  - type: sen
-    start: '2007-01-04'
-    end: '2012-12-31'
-    state: IN
-    class: 1
-    party: Republican
-    url: http://lugar.senate.gov/
-    address: 306 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-4814
-    fax: 202-228-0360
-    contact_form: http://www.lugar.senate.gov/contact/
-    office: 306 Hart Senate Office Building
 - id:
     bioguide: M001170
     thomas: 01820
@@ -805,7 +618,7 @@
     office: 506 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MO
     party: Democrat
     class: 1
@@ -901,7 +714,7 @@
     office: 528 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: NJ
     party: Democrat
     class: 1
@@ -987,7 +800,7 @@
     office: 716 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: FL
     party: Democrat
     class: 1
@@ -1080,7 +893,7 @@
     office: 332 Dirksen Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: VT
     party: Independent
     class: 1
@@ -1142,7 +955,7 @@
     office: 133 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MI
     party: Democrat
     class: 1
@@ -1183,7 +996,7 @@
     office: 724 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MT
     party: Democrat
     class: 1
@@ -1223,7 +1036,7 @@
     office: 717 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: RI
     party: Democrat
     class: 1
@@ -1265,7 +1078,7 @@
     office: 307 Dirksen Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: WY
     party: Republican
     class: 1
@@ -1353,7 +1166,7 @@
     office: 555 Dirksen Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: MS
     party: Republican
     class: 1
@@ -3090,7 +2903,7 @@
     office: 478 Russell Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: NY
     party: Democrat
     class: 1
@@ -3188,7 +3001,7 @@
     office: 303 Hart Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: WV
     party: Democrat
     class: 1
@@ -3197,33 +3010,6 @@
     phone: 202-224-3954
     contact_form: http://www.manchin.senate.gov/contact_form.cfm
     office: 303 Hart Senate Office Building
-- id:
-    bioguide: A000366
-    thomas: '02006'
-    govtrack: 412414
-    opensecrets: N00030926
-    votesmart: 31041
-    fec:
-    - H0FL24049
-  name:
-    first: Sandy
-    last: Adams
-    official_full: Sandy Adams
-  bio:
-    birthday: '1956-12-14'
-    gender: F
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: FL
-    district: 24
-    party: Republican
-    url: http://adams.house.gov/
-    address: 216 Cannon HOB; Washington DC 20515-0924
-    phone: 202-225-2706
-    fax: 202-226-6299
-    office: 216 Cannon House Office Building
 - id:
     bioguide: A000055
     thomas: '01460'
@@ -3301,7 +3087,7 @@
     office: 2264 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 4
@@ -3370,7 +3156,7 @@
     office: 316 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: LA
     party: Republican
     district: 5
@@ -3409,7 +3195,7 @@
     office: 114 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 3
@@ -3520,7 +3306,7 @@
     office: 2265 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 1
@@ -3601,7 +3387,7 @@
     office: 103 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Republican
     district: 6
@@ -3702,7 +3488,7 @@
     office: 2246 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 6
@@ -3782,7 +3568,7 @@
     office: 2446 Rayburn House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: WI
     party: Democrat
     class: 1
@@ -3821,7 +3607,7 @@
     office: 510 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 11
@@ -3880,7 +3666,7 @@
     office: 2202 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Democrat
     district: 12
@@ -4005,7 +3791,7 @@
     office: 2109 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 6
@@ -4044,7 +3830,7 @@
     office: 408 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 37
@@ -4142,7 +3928,7 @@
     office: 1226 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 34
@@ -4181,7 +3967,7 @@
     office: 514 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 1
@@ -4227,144 +4013,6 @@
     contact_form: http://www.bennet.senate.gov/contact/
     office: 458 Russell Senate Office Building
 - id:
-    bioguide: B001231
-    thomas: '01576'
-    govtrack: 400024
-    opensecrets: N00009818
-    votesmart: 22744
-    fec:
-    - H8NV01071
-  name:
-    first: Shelley
-    last: Berkley
-    official_full: Shelley Berkley
-  bio:
-    birthday: '1951-01-20'
-    gender: F
-    religion: Jewish
-  terms:
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: NV
-    district: 1
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: NV
-    district: 1
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: NV
-    district: 1
-    party: Democrat
-    url: http://www.house.gov/berkley
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: NV
-    district: 1
-    party: Democrat
-    url: http://www.house.gov/berkley
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NV
-    district: 1
-    party: Democrat
-    url: http://www.house.gov/berkley
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NV
-    district: 1
-    party: Democrat
-    url: http://berkley.house.gov
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: NV
-    district: 1
-    party: Democrat
-    url: http://berkley.house.gov
-    address: 405 Cannon HOB; Washington DC 20515-2801
-    phone: 202-225-5965
-    fax: 202-225-3119
-    contact_form: http://berkley.house.gov/contact/email.html
-    office: 405 Cannon House Office Building
-- id:
-    bioguide: B001232
-    thomas: '01577'
-    govtrack: 400027
-    opensecrets: N00004762
-    votesmart: 6298
-    fec:
-    - H8IL13069
-  name:
-    first: Judy
-    last: Biggert
-    official_full: Judy Biggert
-  bio:
-    birthday: '1937-08-15'
-    gender: F
-    religion: Episcopalian
-  terms:
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: IL
-    district: 13
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: IL
-    district: 13
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: IL
-    district: 13
-    party: Republican
-    url: http://www.house.gov/biggert
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: IL
-    district: 13
-    party: Republican
-    url: http://www.house.gov/biggert
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: IL
-    district: 13
-    party: Republican
-    url: http://www.house.gov/biggert
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: IL
-    district: 13
-    party: Republican
-    url: http://judybiggert.house.gov
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: IL
-    district: 13
-    party: Republican
-    url: http://judybiggert.house.gov
-    address: 2113 Rayburn HOB; Washington DC 20515-1313
-    phone: 202-225-3515
-    fax: 202-225-9420
-    contact_form: http://judybiggert.house.gov/ContactJudy.aspx
-    office: 2113 Rayburn House Office Building
-- id:
     bioguide: B001257
     thomas: 01838
     govtrack: 412250
@@ -4408,7 +4056,7 @@
     office: 407 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 12
@@ -4477,7 +4125,7 @@
     office: 123 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: UT
     party: Republican
     district: 1
@@ -4578,7 +4226,7 @@
     office: 2429 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Democrat
     district: 2
@@ -4648,7 +4296,7 @@
     office: 306 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 1
@@ -4687,7 +4335,7 @@
     office: 1531 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 6
@@ -4756,7 +4404,7 @@
     office: 217 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 7
@@ -4848,7 +4496,7 @@
     office: 1502 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OR
     party: Democrat
     district: 3
@@ -5057,7 +4705,7 @@
     office: 1011 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 8
@@ -5126,7 +4774,7 @@
     office: 2236 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 1
@@ -5258,7 +4906,7 @@
     office: 2441 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GU
     party: Democrat
     district: 0
@@ -5269,81 +4917,67 @@
     contact_form: http://www.house.gov/bordallo/IMA/issue.htm
     office: 2441 Rayburn House Office Building
 - id:
-    bioguide: B000652
-    thomas: '01466'
-    govtrack: 400042
-    opensecrets: N00004208
-    votesmart: 384
+    bioguide: B001255
+    thomas: 01787
+    govtrack: 400636
+    opensecrets: N00026595
+    votesmart: 35514
     fec:
-    - H6IA03144
+    - H4LA07029
   name:
-    first: Leonard
-    middle: L.
-    last: Boswell
-    official_full: Leonard L. Boswell
+    first: Charles
+    middle: W.
+    last: Boustany
+    suffix: Jr.
+    official_full: Charles W. Boustany Jr.
   bio:
-    birthday: '1934-01-10'
+    birthday: '1956-02-21'
     gender: M
-    religion: Reformed Latter Day Saint
   terms:
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: IA
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: IA
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: IA
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: IA
-    district: 3
-    party: Democrat
-    url: http://www.house.gov/boswell
   - type: rep
     start: '2005-01-04'
     end: '2006-12-09'
-    state: IA
-    district: 3
-    party: Democrat
-    url: http://www.house.gov/boswell
+    state: LA
+    district: 7
+    party: Republican
   - type: rep
     start: '2007-01-04'
     end: '2009-01-03'
-    state: IA
-    district: 3
-    party: Democrat
-    url: http://boswell.house.gov
+    state: LA
+    district: 7
+    party: Republican
+    url: http://www.house.gov/boustany
   - type: rep
     start: '2009-01-06'
     end: '2010-12-22'
-    state: IA
-    district: 3
-    party: Democrat
-    url: http://boswell.house.gov
+    state: LA
+    district: 7
+    party: Republican
+    url: http://www.house.gov/boustany
   - type: rep
     start: '2011-01-05'
     end: '2012-12-31'
-    state: IA
+    state: LA
+    district: 7
+    party: Republican
+    url: http://www.house.gov/boustany
+    address: 1431 Longworth HOB; Washington DC 20515-1807
+    phone: 202-225-2031
+    fax: 202-225-5724
+    contact_form: http://boustany.house.gov/ContactCharles.asp
+    office: 1431 Longworth House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: LA
+    party: Republican
     district: 3
-    party: Democrat
-    url: http://boswell.house.gov
-    address: 1026 Longworth HOB; Washington DC 20515-1503
-    phone: 202-225-3806
-    fax: 202-225-5608
-    contact_form: http://boswell.house.gov/messageform.htm
-    office: 1026 Longworth House Office Building
+    url: http://www.house.gov/boustany
+    address: 1431 Longworth HOB; Washington DC 20515-1807
+    phone: 202-225-2031
+    fax: 202-225-5724
+    contact_form: http://boustany.house.gov/ContactCharles.asp
+    office: 1431 Longworth House Office Building
 - id:
     bioguide: B000711
     thomas: '00116'
@@ -5503,7 +5137,7 @@
     office: 301 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 8
@@ -5590,7 +5224,7 @@
     office: 102 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Democrat
     district: 1
@@ -5645,7 +5279,7 @@
     office: 1727 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IA
     party: Democrat
     district: 1
@@ -5684,7 +5318,7 @@
     office: 1641 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 5
@@ -5740,7 +5374,7 @@
     office: 325 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 10
@@ -5839,7 +5473,7 @@
     office: 2336 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 5
@@ -5892,7 +5526,7 @@
     office: 221 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 16
@@ -5931,7 +5565,7 @@
     office: 1123 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Republican
     district: 8
@@ -6000,7 +5634,7 @@
     office: 2241 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 26
@@ -6140,7 +5774,7 @@
     office: 2305 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Democrat
     district: 1
@@ -6240,7 +5874,7 @@
     office: 2269 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 42
@@ -6347,7 +5981,7 @@
     office: 341 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 4
@@ -6410,7 +6044,7 @@
     office: 1507 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 45
@@ -6486,7 +6120,7 @@
     office: 303 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 7
@@ -6562,7 +6196,7 @@
     office: 2443 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WV
     party: Republican
     district: 2
@@ -6649,7 +6283,7 @@
     office: 2231 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 24
@@ -6731,7 +6365,7 @@
     office: 1414 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 7
@@ -6771,7 +6405,7 @@
     office: 1429 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: DE
     party: Democrat
     district: 0
@@ -6825,7 +6459,7 @@
     office: 425 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Democrat
     district: 7
@@ -6895,7 +6529,7 @@
     office: 409 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 31
@@ -6941,7 +6575,7 @@
     office: 1535 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: LA
     party: Republican
     district: 6
@@ -6994,7 +6628,7 @@
     office: 137 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 14
@@ -7081,7 +6715,7 @@
     office: 2351 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 1
@@ -7127,7 +6761,7 @@
     office: 1032 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: UT
     party: Republican
     district: 3
@@ -7215,7 +6849,7 @@
     office: 1510 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VI
     party: Democrat
     district: 0
@@ -7263,7 +6897,7 @@
     office: 1520 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 27
@@ -7302,7 +6936,7 @@
     office: 128 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: RI
     party: Democrat
     district: 1
@@ -7356,7 +6990,7 @@
     office: 1029 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 9
@@ -7433,7 +7067,7 @@
     office: 2418 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Democrat
     district: 1
@@ -7494,7 +7128,7 @@
     office: 1433 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Democrat
     district: 5
@@ -7595,7 +7229,7 @@
     office: 2135 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Democrat
     district: 6
@@ -7785,7 +7419,7 @@
     office: 2188 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 6
@@ -7886,7 +7520,7 @@
     office: 1222 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Republican
     district: 6
@@ -7940,7 +7574,7 @@
     office: 1005 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Democrat
     district: 9
@@ -8009,7 +7643,7 @@
     office: 2458 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OK
     party: Republican
     district: 4
@@ -8071,7 +7705,7 @@
     office: 2430 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 11
@@ -8119,7 +7753,7 @@
     office: 424 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Democrat
     district: 11
@@ -8304,7 +7938,7 @@
     office: 2426 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Democrat
     district: 13
@@ -8410,7 +8044,7 @@
     office: 1536 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Democrat
     district: 5
@@ -8470,7 +8104,7 @@
     office: 1314 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 16
@@ -8524,7 +8158,7 @@
     office: 215 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CT
     party: Democrat
     district: 2
@@ -8627,7 +8261,7 @@
     office: 1408 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AR
     party: Republican
     district: 1
@@ -8701,7 +8335,7 @@
     office: 440 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 4
@@ -8782,7 +8416,7 @@
     office: 2404 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 14
@@ -8843,7 +8477,7 @@
     office: 2463 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 28
@@ -8919,7 +8553,7 @@
     office: 2352 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 7
@@ -9013,7 +8647,7 @@
     office: 2235 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 7
@@ -9101,7 +8735,7 @@
     office: 2159 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 7
@@ -9177,7 +8811,7 @@
     office: 1526 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 53
@@ -9296,7 +8930,7 @@
     office: 2134 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OR
     party: Democrat
     district: 4
@@ -9384,7 +9018,7 @@
     office: 2335 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Democrat
     district: 1
@@ -9490,7 +9124,7 @@
     office: 2413 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CT
     party: Democrat
     district: 3
@@ -9586,7 +9220,7 @@
     office: 1605 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 10
@@ -9646,7 +9280,7 @@
     office: 1009 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 15
@@ -9685,7 +9319,7 @@
     office: 413 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 4
@@ -9732,7 +9366,7 @@
     office: 1024 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 21
@@ -9801,7 +9435,7 @@
     office: 436 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 25
@@ -10016,7 +9650,7 @@
     office: 2328 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Democrat
     district: 12
@@ -10110,7 +9744,7 @@
     office: 201 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 35
@@ -10163,7 +9797,7 @@
     office: 1530 Longworth House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: IN
     party: Democrat
     class: 1
@@ -10259,7 +9893,7 @@
     office: 401 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Democrat
     district: 14
@@ -10297,7 +9931,7 @@
     office: 1208 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Republican
     district: 7
@@ -10334,7 +9968,7 @@
     office: 116 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Republican
     district: 3
@@ -10454,7 +10088,7 @@
     office: 2207 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 2
@@ -10509,7 +10143,7 @@
     office: 318 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 4
@@ -10563,7 +10197,7 @@
     office: 1027 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Democrat
     district: 5
@@ -10602,7 +10236,7 @@
     office: 1533 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 2
@@ -10689,7 +10323,7 @@
     office: 2230 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Republican
     district: 8
@@ -10802,7 +10436,7 @@
     office: 2161 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 16
@@ -10902,7 +10536,7 @@
     office: 205 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 18
@@ -11014,7 +10648,7 @@
     office: 2422 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AS
     party: Democrat
     district: 0
@@ -11053,7 +10687,7 @@
     office: 2110 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 27
@@ -11151,7 +10785,7 @@
     office: 1126 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 20
@@ -11244,7 +10878,7 @@
     office: 2301 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Democrat
     district: 2
@@ -11283,7 +10917,7 @@
     office: 1118 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 8
@@ -11328,7 +10962,7 @@
     office: 1224 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 8
@@ -11402,7 +11036,7 @@
     office: 240 Cannon House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: AZ
     party: Republican
     class: 1
@@ -11441,7 +11075,7 @@
     office: 511 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 3
@@ -11486,7 +11120,7 @@
     office: 416 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: LA
     party: Republican
     district: 4
@@ -11525,7 +11159,7 @@
     office: 1505 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 17
@@ -11600,7 +11234,7 @@
     office: 2438 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 4
@@ -11660,7 +11294,7 @@
     office: 1514 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NE
     party: Republican
     district: 1
@@ -11721,7 +11355,7 @@
     office: 1230 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 5
@@ -11790,7 +11424,7 @@
     office: 2435 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Republican
     district: 8
@@ -11884,7 +11518,7 @@
     office: 2369 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 11
@@ -11937,7 +11571,7 @@
     office: 1019 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Democrat
     district: 11
@@ -11984,7 +11618,7 @@
     office: 228 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 3
@@ -12022,7 +11656,7 @@
     office: 213 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Republican
     district: 4
@@ -12088,7 +11722,7 @@
     office: 2244 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 5
@@ -12157,7 +11791,7 @@
     office: 2442 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 6
@@ -12196,7 +11830,7 @@
     office: 329 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 7
@@ -12235,7 +11869,7 @@
     office: 502 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 19
@@ -12305,7 +11939,7 @@
     office: 442 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 11
@@ -12368,7 +12002,7 @@
     office: 2440 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 1
@@ -12469,7 +12103,7 @@
     office: 2240 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 6
@@ -12508,7 +12142,7 @@
     office: 504 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Republican
     district: 4
@@ -12546,7 +12180,7 @@
     office: 1237 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Republican
     district: 4
@@ -12632,7 +12266,7 @@
     office: 320 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 12
@@ -12792,7 +12426,7 @@
     office: 1415 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Republican
     district: 6
@@ -12839,7 +12473,7 @@
     office: 1113 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 14
@@ -12900,7 +12534,7 @@
     office: 2201 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 9
@@ -13001,7 +12635,7 @@
     office: 2470 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 29
@@ -13040,7 +12674,7 @@
     office: 1232 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AR
     party: Republican
     district: 2
@@ -13079,7 +12713,7 @@
     office: 1108 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 9
@@ -13148,7 +12782,7 @@
     office: 1511 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Democrat
     district: 3
@@ -13187,7 +12821,7 @@
     office: 512 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 11
@@ -13232,7 +12866,7 @@
     office: 308 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Republican
     district: 2
@@ -13332,7 +12966,7 @@
     office: 2266 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 4
@@ -13469,7 +13103,7 @@
     office: 2405 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 4
@@ -13508,7 +13142,7 @@
     office: 238 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: HI
     party: Democrat
     district: 1
@@ -13546,7 +13180,7 @@
     office: 319 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 22
@@ -13592,7 +13226,7 @@
     office: 307 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MS
     party: Republican
     district: 3
@@ -13631,7 +13265,7 @@
     office: 506 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Republican
     district: 1
@@ -13669,7 +13303,7 @@
     office: 1023 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Republican
     district: 4
@@ -13768,7 +13402,7 @@
     office: 2353 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 20
@@ -13860,7 +13494,7 @@
     office: 1203 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Republican
     district: 4
@@ -13899,7 +13533,7 @@
     office: 132 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NV
     party: Republican
     district: 3
@@ -13944,7 +13578,7 @@
     office: 336 Cannon House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: NM
     party: Democrat
     class: 1
@@ -14013,7 +13647,7 @@
     office: 129 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 5
@@ -14052,7 +13686,7 @@
     office: 1130 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Republican
     district: 3
@@ -14112,7 +13746,7 @@
     office: 2459 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 26
@@ -14160,7 +13794,7 @@
     office: 119 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CT
     party: Democrat
     district: 4
@@ -14248,7 +13882,7 @@
     office: 2262 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 15
@@ -14302,7 +13936,7 @@
     office: 1410 Longworth House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: HI
     party: Democrat
     class: 1
@@ -14412,7 +14046,7 @@
     office: 1214 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 12
@@ -14489,7 +14123,7 @@
     office: 1713 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 17
@@ -14626,7 +14260,7 @@
     office: 1705 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 5
@@ -14665,7 +14299,7 @@
     office: 126 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KS
     party: Republican
     district: 1
@@ -14703,7 +14337,7 @@
     office: 1217 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 2
@@ -14741,7 +14375,7 @@
     office: 427 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Republican
     district: 14
@@ -14788,7 +14422,7 @@
     office: 223 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 50
@@ -14827,7 +14461,7 @@
     office: 1516 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 5
@@ -14960,7 +14594,7 @@
     office: 2457 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 3
@@ -15034,7 +14668,7 @@
     office: 2347 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 49
@@ -15127,7 +14761,7 @@
     office: 2160 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 18
@@ -15173,7 +14807,7 @@
     office: 1122 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KS
     party: Republican
     district: 2
@@ -15212,7 +14846,7 @@
     office: 317 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 6
@@ -15311,7 +14945,7 @@
     office: 2468 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 30
@@ -15367,7 +15001,7 @@
     office: 1427 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Democrat
     district: 4
@@ -15502,7 +15136,7 @@
     office: 1211 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 3
@@ -15597,7 +15231,7 @@
     office: 2333 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 3
@@ -15650,7 +15284,7 @@
     office: 1524 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 4
@@ -15780,7 +15414,7 @@
     office: 2186 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Democrat
     district: 9
@@ -15819,7 +15453,7 @@
     office: 315 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 9
@@ -15857,7 +15491,7 @@
     office: 515 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 3
@@ -15945,7 +15579,7 @@
     office: 1406 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Democrat
     district: 3
@@ -16046,7 +15680,7 @@
     office: 339 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 2
@@ -16116,7 +15750,7 @@
     office: 1131 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IA
     party: Republican
     district: 4
@@ -16215,7 +15849,7 @@
     office: 2372 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 1
@@ -16254,7 +15888,7 @@
     office: 1218 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Republican
     district: 16
@@ -16392,7 +16026,7 @@
     office: 2439 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Republican
     district: 2
@@ -16402,88 +16036,6 @@
     fax: 202-225-2595
     contact_form: http://kline.house.gov/index.cfm?FuseAction=ContactInformation.ContactForm&To=mn02hwyr@housemail.house.gov&CFID=22307054&CFTOKEN=28173710
     office: 2439 Rayburn House Office Building
-- id:
-    bioguide: L000553
-    thomas: '00667'
-    govtrack: 400235
-    opensecrets: N00003545
-    votesmart: 21798
-    fec:
-    - H4OH19036
-  name:
-    first: Steven
-    middle: C.
-    last: LaTourette
-    official_full: Steven C. LaTourette
-  bio:
-    birthday: '1954-07-22'
-    gender: M
-    religion: Methodist
-  terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: OH
-    district: 19
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: OH
-    district: 19
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: OH
-    district: 19
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: OH
-    district: 19
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: OH
-    district: 14
-    party: Republican
-    url: http://www.house.gov/latourette
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: OH
-    district: 14
-    party: Republican
-    url: http://www.house.gov/latourette
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: OH
-    district: 14
-    party: Republican
-    url: http://www.house.gov/latourette
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: OH
-    district: 14
-    party: Republican
-    url: http://www.house.gov/latourette
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: OH
-    district: 14
-    party: Republican
-    url: http://www.house.gov/latourette
-    address: 2371 Rayburn HOB; Washington DC 20515-3514
-    phone: 202-225-5731
-    fax: 202-225-3307
-    contact_form: http://latourette.house.gov/ContactSteve.aspx
-    office: 2371 Rayburn House Office Building
 - id:
     bioguide: L000573
     thomas: '02011'
@@ -16513,7 +16065,7 @@
     office: 1523 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: ID
     party: Republican
     district: 1
@@ -16566,7 +16118,7 @@
     office: 437 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Republican
     district: 5
@@ -16613,7 +16165,7 @@
     office: 426 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 7
@@ -16689,7 +16241,7 @@
     office: 109 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: RI
     party: Democrat
     district: 2
@@ -16728,7 +16280,7 @@
     office: 509 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OK
     party: Republican
     district: 5
@@ -16801,7 +16353,7 @@
     office: 108 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Democrat
     district: 2
@@ -16882,7 +16434,7 @@
     office: 1501 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CT
     party: Democrat
     district: 1
@@ -16977,7 +16529,7 @@
     office: 2217 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IA
     party: Republican
     district: 3
@@ -17032,7 +16584,7 @@
     office: 1323 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 5
@@ -17189,7 +16741,7 @@
     office: 2267 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 13
@@ -17348,7 +16900,7 @@
     office: 1236 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Democrat
     district: 9
@@ -17467,7 +17019,7 @@
     office: 343 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Democrat
     district: 5
@@ -17528,7 +17080,7 @@
     office: 1717 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 3
@@ -17622,7 +17174,7 @@
     office: 2427 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 2
@@ -17676,7 +17228,7 @@
     office: 1527 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IA
     party: Democrat
     district: 2
@@ -17769,7 +17321,7 @@
     office: 1401 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 19
@@ -17808,7 +17360,7 @@
     office: 1541 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Republican
     district: 7
@@ -17920,7 +17472,7 @@
     office: 2365 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 17
@@ -18020,7 +17572,7 @@
     office: 2311 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OK
     party: Republican
     district: 3
@@ -18066,7 +17618,7 @@
     office: 1740 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MO
     party: Republican
     district: 3
@@ -18113,7 +17665,7 @@
     office: 330 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NM
     party: Democrat
     district: 3
@@ -18160,7 +17712,7 @@
     office: 113 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WY
     party: Republican
     district: 0
@@ -18235,7 +17787,7 @@
     office: 2348 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 8
@@ -18335,7 +17887,7 @@
     office: 2332 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 12
@@ -18397,7 +17949,7 @@
     office: 1110 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 24
@@ -18436,7 +17988,7 @@
     office: 410 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 10
@@ -18591,7 +18143,7 @@
     office: 2108 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 5
@@ -18601,6 +18153,81 @@
     fax: 202-226-0092
     contact_form: http://markey.house.gov/index.php?option=com_email_form&Itemid=124
     office: 2108 Rayburn House Office Building
+- id:
+    bioguide: M001142
+    thomas: '01671'
+    govtrack: 400255
+    opensecrets: N00009753
+    votesmart: 50722
+    fec:
+    - H0UT02096
+  name:
+    first: Jim
+    last: Matheson
+    official_full: Jim Matheson
+  bio:
+    birthday: '1960-03-21'
+    gender: M
+    religion: Latter Day Saints
+  terms:
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: UT
+    district: 2
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: UT
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/matheson
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: UT
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/matheson
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: UT
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/matheson
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: UT
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/matheson
+  - type: rep
+    start: '2011-01-05'
+    end: '2012-12-31'
+    state: UT
+    district: 2
+    party: Democrat
+    url: http://www.house.gov/matheson
+    address: 2434 Rayburn HOB; Washington DC 20515-4402
+    phone: 202-225-3011
+    fax: 202-225-5638
+    contact_form: https://forms.house.gov/matheson/contact.shtml
+    office: 2434 Rayburn House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: UT
+    party: Democrat
+    district: 4
+    url: http://www.house.gov/matheson
+    address: 2434 Rayburn HOB; Washington DC 20515-4402
+    phone: 202-225-3011
+    fax: 202-225-5638
+    contact_form: https://forms.house.gov/matheson/contact.shtml
+    office: 2434 Rayburn House Office Building
 - id:
     bioguide: M001163
     thomas: 01814
@@ -18652,7 +18279,7 @@
     office: 222 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 6
@@ -18809,7 +18436,7 @@
     office: 2346 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 4
@@ -18863,7 +18490,7 @@
     office: 326 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 23
@@ -18925,7 +18552,7 @@
     office: 131 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 10
@@ -18972,7 +18599,7 @@
     office: 428 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 4
@@ -19047,7 +18674,7 @@
     office: 1714 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Democrat
     district: 4
@@ -19161,7 +18788,7 @@
     office: 1035 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Democrat
     district: 7
@@ -19250,7 +18877,7 @@
     office: 438 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 2
@@ -19311,7 +18938,7 @@
     office: 224 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 10
@@ -19321,6 +18948,93 @@
     fax: 202-225-0316
     contact_form: http://mchenry.house.gov/zipauth.htm
     office: 224 Cannon House Office Building
+- id:
+    bioguide: M000485
+    thomas: '01505'
+    govtrack: 400266
+    opensecrets: N00002356
+    votesmart: 153
+    fec:
+    - H8NC07044
+  name:
+    first: Mike
+    last: McIntyre
+    official_full: Mike McIntyre
+  bio:
+    birthday: '1956-08-06'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: rep
+    start: '1997-01-07'
+    end: '1998-12-19'
+    state: NC
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '1999-01-06'
+    end: '2000-12-15'
+    state: NC
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '2001-01-03'
+    end: '2002-11-22'
+    state: NC
+    district: 7
+    party: Democrat
+  - type: rep
+    start: '2003-01-07'
+    end: '2004-12-09'
+    state: NC
+    district: 7
+    party: Democrat
+    url: http://www.house.gov/mcintyre
+  - type: rep
+    start: '2005-01-04'
+    end: '2006-12-09'
+    state: NC
+    district: 7
+    party: Democrat
+    url: http://www.house.gov/mcintyre
+  - type: rep
+    start: '2007-01-04'
+    end: '2009-01-03'
+    state: NC
+    district: 7
+    party: Democrat
+    url: http://www.house.gov/mcintyre
+  - type: rep
+    start: '2009-01-06'
+    end: '2010-12-22'
+    state: NC
+    district: 7
+    party: Democrat
+    url: http://www.house.gov/mcintyre
+  - type: rep
+    start: '2011-01-05'
+    end: '2012-12-31'
+    state: NC
+    district: 7
+    party: Democrat
+    url: http://www.house.gov/mcintyre
+    address: 2133 Rayburn HOB; Washington DC 20515-3307
+    phone: 202-225-2731
+    fax: 202-225-5773
+    contact_form: http://www.house.gov/mcintyre/IMA/issue.htm
+    office: 2133 Rayburn House Office Building
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NC
+    party: '-'
+    district: 7
+    url: http://www.house.gov/mcintyre
+    address: 2133 Rayburn HOB; Washington DC 20515-3307
+    phone: 202-225-2731
+    fax: 202-225-5773
+    contact_form: http://www.house.gov/mcintyre/IMA/issue.htm
+    office: 2133 Rayburn House Office Building
 - id:
     bioguide: M000508
     thomas: 00778
@@ -19412,7 +19126,7 @@
     office: 2184 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 25
@@ -19451,7 +19165,7 @@
     office: 313 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WV
     party: Republican
     district: 1
@@ -19510,7 +19224,7 @@
     office: 2421 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Republican
     district: 5
@@ -19563,7 +19277,7 @@
     office: 1210 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 9
@@ -19602,7 +19316,7 @@
     office: 513 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 7
@@ -19689,7 +19403,7 @@
     office: 2234 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 5
@@ -19789,7 +19503,7 @@
     office: 2187 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 7
@@ -19859,7 +19573,7 @@
     office: 1724 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: ME
     party: Democrat
     district: 2
@@ -20016,7 +19730,7 @@
     office: 1034 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 10
@@ -20098,7 +19812,7 @@
     office: 2349 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 31
@@ -20252,7 +19966,7 @@
     office: 2205 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 11
@@ -20327,7 +20041,7 @@
     office: 2416 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 1
@@ -20388,7 +20102,7 @@
     office: 2245 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Democrat
     district: 4
@@ -20496,7 +20210,7 @@
     office: 2239 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Democrat
     district: 8
@@ -20610,7 +20324,7 @@
     office: 1004 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Republican
     district: 5
@@ -20709,7 +20423,7 @@
     office: 412 Cannon House Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: CT
     party: Democrat
     class: 1
@@ -20778,7 +20492,7 @@
     office: 322 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 18
@@ -20934,7 +20648,7 @@
     office: 2334 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 10
@@ -21016,7 +20730,7 @@
     office: 1610 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 32
@@ -21129,7 +20843,7 @@
     office: 2208 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 1
@@ -21198,7 +20912,7 @@
     office: 1424 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 19
@@ -21237,7 +20951,7 @@
     office: 226 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SD
     party: Republican
     district: 0
@@ -21342,7 +21056,7 @@
     office: 2136 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: DC
     party: Democrat
     district: 0
@@ -21381,7 +21095,7 @@
     office: 1517 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 11
@@ -21450,7 +21164,7 @@
     office: 1013 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 22
@@ -21489,7 +21203,7 @@
     office: 1432 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MS
     party: Republican
     district: 1
@@ -21535,7 +21249,7 @@
     office: 312 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 22
@@ -21583,7 +21297,7 @@
     office: 431 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 21
@@ -21622,7 +21336,7 @@
     office: 331 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MS
     party: Republican
     district: 4
@@ -21741,7 +21455,7 @@
     office: 237 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 6
@@ -21831,7 +21545,7 @@
     office: 2370 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 9
@@ -21937,7 +21651,7 @@
     office: 2465 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Democrat
     district: 7
@@ -22012,7 +21726,7 @@
     office: 127 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Republican
     district: 3
@@ -22073,7 +21787,7 @@
     office: 2432 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NM
     party: Republican
     district: 2
@@ -22189,7 +21903,7 @@
     office: 235 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 12
@@ -22243,7 +21957,7 @@
     office: 1221 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Democrat
     district: 7
@@ -22290,7 +22004,7 @@
     office: 1609 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Democrat
     district: 14
@@ -22396,7 +22110,7 @@
     office: 2211 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Democrat
     district: 7
@@ -22540,7 +22254,7 @@
     office: 2462 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Republican
     district: 6
@@ -22580,7 +22294,7 @@
     office: 1213 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2016-12-31'
+    end: '2017-01-03'
     state: PR
     party: Democrat
     district: 0
@@ -22627,7 +22341,7 @@
     office: 1318 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: ME
     party: Democrat
     district: 1
@@ -22715,7 +22429,7 @@
     office: 420 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 16
@@ -22776,7 +22490,7 @@
     office: 430 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 2
@@ -22822,7 +22536,7 @@
     office: 501 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Democrat
     district: 2
@@ -22861,7 +22575,7 @@
     office: 107 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KS
     party: Republican
     district: 4
@@ -22982,7 +22696,7 @@
     office: 120 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 8
@@ -23095,7 +22809,7 @@
     office: 2162 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Democrat
     district: 4
@@ -23155,7 +22869,7 @@
     office: 403 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 6
@@ -23202,7 +22916,7 @@
     office: 1124 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 5
@@ -23352,7 +23066,7 @@
     office: 2307 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WV
     party: Democrat
     district: 3
@@ -23519,7 +23233,7 @@
     office: 2354 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 13
@@ -23566,7 +23280,7 @@
     office: 1037 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 23
@@ -23626,7 +23340,7 @@
     office: 1730 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Republican
     district: 8
@@ -23735,7 +23449,7 @@
     office: 130 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 16
@@ -23773,7 +23487,7 @@
     office: 1513 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Republican
     district: 8
@@ -23811,7 +23525,7 @@
     office: 415 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: LA
     party: Democrat
     district: 2
@@ -23850,7 +23564,7 @@
     office: 327 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 2
@@ -23888,7 +23602,7 @@
     office: 414 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 2
@@ -23934,7 +23648,7 @@
     office: 419 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TN
     party: Republican
     district: 1
@@ -24071,7 +23785,7 @@
     office: 2406 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Republican
     district: 5
@@ -24146,7 +23860,7 @@
     office: 133 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 8
@@ -24215,7 +23929,7 @@
     office: 324 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Republican
     district: 3
@@ -24328,7 +24042,7 @@
     office: 2300 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 48
@@ -24366,7 +24080,7 @@
     office: 236 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Republican
     district: 4
@@ -24412,7 +24126,7 @@
     office: 1529 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 17
@@ -24524,7 +24238,7 @@
     office: 2206 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 27
@@ -24579,7 +24293,7 @@
     office: 227 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Republican
     district: 6
@@ -24618,7 +24332,7 @@
     office: 404 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 15
@@ -24627,82 +24341,6 @@
     phone: 202-225-1252
     fax: 202- 226-0585
     office: 404 Cannon House Office Building
-- id:
-    bioguide: R000462
-    thomas: '01520'
-    govtrack: 400346
-    opensecrets: N00008619
-    votesmart: 481
-    fec:
-    - H6NJ09165
-  name:
-    first: Steven
-    middle: R.
-    last: Rothman
-    official_full: Steven R. Rothman
-  bio:
-    birthday: '1952-10-14'
-    gender: M
-    religion: Jewish
-  terms:
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: NJ
-    district: 9
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: NJ
-    district: 9
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: NJ
-    district: 9
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: NJ
-    district: 9
-    party: Democrat
-    url: http://rothman.house.gov
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: NJ
-    district: 9
-    party: Democrat
-    url: http://rothman.house.gov
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NJ
-    district: 9
-    party: Democrat
-    url: http://rothman.house.gov
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NJ
-    district: 9
-    party: Democrat
-    url: http://rothman.house.gov
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: NJ
-    district: 9
-    party: Democrat
-    url: http://rothman.house.gov
-    address: 2303 Rayburn HOB; Washington DC 20515-3009
-    phone: 202-225-5061
-    fax: 202-225-5851
-    contact_form: https://forms.house.gov/rothman/webforms/issue_subscribe.htm
-    office: 2303 Rayburn House Office Building
 - id:
     bioguide: R000486
     thomas: 00997
@@ -24792,7 +24430,7 @@
     office: 2330 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 40
@@ -24893,7 +24531,7 @@
     office: 2185 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 39
@@ -24961,7 +24599,7 @@
     office: 1239 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 3
@@ -25030,7 +24668,7 @@
     office: 2453 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 2
@@ -25130,7 +24768,7 @@
     office: 2268 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 1
@@ -25212,7 +24850,7 @@
     office: 1233 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Republican
     district: 1
@@ -25282,7 +24920,7 @@
     office: 1421 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Democrat
     district: 13
@@ -25328,7 +24966,7 @@
     office: 423 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MP
     party: Democrat
     district: 0
@@ -25416,7 +25054,7 @@
     office: 1114 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 46
@@ -25471,7 +25109,7 @@
     office: 2444 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 3
@@ -25526,7 +25164,7 @@
     office: 429 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: LA
     party: Republican
     district: 1
@@ -25609,7 +25247,7 @@
     office: 2367 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 9
@@ -25684,7 +25322,7 @@
     office: 2411 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 28
@@ -25694,55 +25332,6 @@
     fax: 202-225-5828
     contact_form: http://schiff.house.gov/HoR/CA29/Contact+Information/Contact+Form.htm
     office: 2411 Rayburn House Office Building
-- id:
-    bioguide: S001164
-    thomas: 01815
-    govtrack: 412010
-    opensecrets: N00027526
-    votesmart: 45475
-    fec:
-    - H6OH02086
-  name:
-    first: Jean
-    last: Schmidt
-    official_full: Jean Schmidt
-  bio:
-    birthday: '1951-11-29'
-    gender: F
-  terms:
-  - type: rep
-    start: '2005-09-06'
-    end: '2006-12-09'
-    state: OH
-    district: 2
-    party: Republican
-    url: http://www.house.gov/schmidt/
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: OH
-    district: 2
-    party: Republican
-    url: http://www.house.gov/schmidt
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: OH
-    district: 2
-    party: Republican
-    url: http://www.house.gov/schmidt
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: OH
-    district: 2
-    party: Republican
-    url: http://www.house.gov/schmidt
-    address: 2464 Rayburn HOB; Washington DC 20515-3502
-    phone: 202-225-3164
-    fax: 202-225-1992
-    contact_form: http://www.house.gov/schmidt/contact.shtml
-    office: 2464 Rayburn House Office Building
 - id:
     bioguide: S001179
     thomas: 01920
@@ -25779,7 +25368,7 @@
     office: 328 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Republican
     district: 18
@@ -25826,7 +25415,7 @@
     office: 314 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OR
     party: Democrat
     district: 5
@@ -25987,7 +25576,7 @@
     office: 1227 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Democrat
     district: 13
@@ -26025,7 +25614,7 @@
     office: 1205 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Republican
     district: 6
@@ -26062,7 +25651,7 @@
     office: 516 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 8
@@ -26130,7 +25719,7 @@
     office: 225 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Democrat
     district: 13
@@ -26231,7 +25820,7 @@
     office: 1201 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Democrat
     district: 3
@@ -26270,7 +25859,7 @@
     office: 1117 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Republican
     district: 1
@@ -26413,7 +26002,7 @@
     office: 2449 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Republican
     district: 5
@@ -26526,7 +26115,7 @@
     office: 2227 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 15
@@ -26615,7 +26204,7 @@
     office: 2233 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 32
@@ -26654,7 +26243,7 @@
     office: 1133 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AL
     party: Democrat
     district: 7
@@ -26823,7 +26412,7 @@
     office: 2242 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 30
@@ -26911,7 +26500,7 @@
     office: 2452 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Republican
     district: 15
@@ -26987,7 +26576,7 @@
     office: 204 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 9
@@ -27070,7 +26659,7 @@
     office: 2312 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: ID
     party: Republican
     district: 2
@@ -27130,7 +26719,7 @@
     office: 2342 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 8
@@ -27249,7 +26838,7 @@
     office: 2469 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 25
@@ -27336,7 +26925,7 @@
     office: 2402 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Democrat
     district: 9
@@ -27390,7 +26979,7 @@
     office: 503 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NE
     party: Republican
     district: 3
@@ -27528,7 +27117,7 @@
     office: 2373 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Republican
     district: 4
@@ -27647,7 +27236,7 @@
     office: 2409 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 21
@@ -27686,7 +27275,7 @@
     office: 1229 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 2
@@ -27739,7 +27328,7 @@
     office: 211 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 14
@@ -27749,108 +27338,6 @@
     fax: 202-347-0956
     contact_form: http://speier.house.gov/IMA/issue_subscribe.htm
     office: 211 Cannon House Office Building
-- id:
-    bioguide: S000822
-    thomas: '01103'
-    govtrack: 400388
-    opensecrets: N00002782
-    votesmart: 26803
-    icpsr: 15627
-    fec:
-    - H8FL06056
-  name:
-    first: Clifford
-    middle: B.
-    last: Stearns
-    nickname: Cliff
-    official_full: Cliff Stearns
-  bio:
-    birthday: '1941-04-16'
-    gender: M
-    religion: Presbyterian
-  terms:
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: FL
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: FL
-    district: 6
-    party: Republican
-    url: http://www.house.gov/stearns
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: FL
-    district: 6
-    party: Republican
-    url: http://www.house.gov/stearns
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: FL
-    district: 6
-    party: Republican
-    url: http://www.house.gov/stearns
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: FL
-    district: 6
-    party: Republican
-    url: http://www.house.gov/stearns
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: FL
-    district: 6
-    party: Republican
-    url: http://www.house.gov/stearns
-    address: 2306 Rayburn HOB; Washington DC 20515-0906
-    phone: 202-225-5744
-    fax: 202-225-3973
-    contact_form: http://www.house.gov/writerep
-    office: 2306 Rayburn House Office Building
 - id:
     bioguide: S001187
     thomas: '02047'
@@ -27880,7 +27367,7 @@
     office: 1007 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 15
@@ -27926,7 +27413,7 @@
     office: 1728 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Republican
     district: 3
@@ -27935,47 +27422,6 @@
     phone: 202-225-4436
     fax: 202-225-3479
     office: 1728 Longworth House Office Building
-- id:
-    bioguide: S001174
-    thomas: 01870
-    govtrack: 412228
-    opensecrets: N00027901
-    votesmart: 8394
-    fec:
-    - H6OH13133
-  name:
-    first: Betty
-    last: Sutton
-    official_full: Betty Sutton
-  bio:
-    gender: F
-  terms:
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: OH
-    district: 13
-    party: Democrat
-    url: http://sutton.house.gov
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: OH
-    district: 13
-    party: Democrat
-    url: http://sutton.house.gov
-  - type: rep
-    start: '2011-01-05'
-    end: '2012-12-31'
-    state: OH
-    district: 13
-    party: Democrat
-    url: http://sutton.house.gov
-    address: 1519 Longworth HOB; Washington DC 20515-3513
-    phone: 202-225-3401
-    fax: 202-225-2266
-    contact_form: http://sutton.house.gov/about/emailform.cfm
-    office: 1519 Longworth House Office Building
 - id:
     bioguide: S001156
     thomas: '01757'
@@ -28036,7 +27482,7 @@
     office: 2423 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 38
@@ -28118,7 +27564,7 @@
     office: 2331 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NE
     party: Republican
     district: 2
@@ -28218,7 +27664,7 @@
     office: 2466 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MS
     party: Democrat
     district: 2
@@ -28301,7 +27747,7 @@
     office: 231 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 5
@@ -28348,7 +27794,7 @@
     office: 124 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 5
@@ -28443,7 +27889,7 @@
     office: 2209 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 13
@@ -28574,7 +28020,7 @@
     office: 106 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 12
@@ -28661,7 +28107,7 @@
     office: 2238 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 6
@@ -28700,7 +28146,7 @@
     office: 218 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CO
     party: Republican
     district: 3
@@ -28746,7 +28192,7 @@
     office: 422 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 20
@@ -28850,7 +28296,7 @@
     office: 1607 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 3
@@ -28919,7 +28365,7 @@
     office: 2454 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Republican
     district: 10
@@ -29039,7 +28485,7 @@
     office: 2183 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 6
@@ -29110,7 +28556,7 @@
     office: 1707 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MD
     party: Democrat
     district: 8
@@ -29210,7 +28656,7 @@
     office: 2302 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 7
@@ -29335,7 +28781,7 @@
     office: 2256 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Democrat
     district: 1
@@ -29436,7 +28882,7 @@
     office: 418 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 7
@@ -29517,7 +28963,7 @@
     office: 2182 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OR
     party: Republican
     district: 2
@@ -29572,7 +29018,7 @@
     office: 1722 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Democrat
     district: 1
@@ -29634,7 +29080,7 @@
     office: 118 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 23
@@ -29739,7 +29185,7 @@
     office: 2344 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 43
@@ -29840,7 +29286,7 @@
     office: 2304 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Democrat
     district: 12
@@ -29995,7 +29441,7 @@
     office: 2204 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 33
@@ -30034,7 +29480,7 @@
     office: 1039 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 10
@@ -30086,7 +29532,7 @@
     office: 1404 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VT
     party: Democrat
     district: 0
@@ -30147,7 +29593,7 @@
     office: 2433 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 3
@@ -30241,7 +29687,7 @@
     office: 2368 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Republican
     district: 1
@@ -30318,7 +29764,7 @@
     office: 2229 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: SC
     party: Republican
     district: 2
@@ -30357,7 +29803,7 @@
     office: 208 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 24
@@ -30412,7 +29858,7 @@
     office: 1317 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 1
@@ -30549,7 +29995,7 @@
     office: 241 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: VA
     party: Republican
     district: 10
@@ -30588,7 +30034,7 @@
     office: 1508 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AR
     party: Republican
     district: 3
@@ -30626,7 +30072,7 @@
     office: 1725 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 7
@@ -30779,7 +30225,7 @@
     office: 435 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Democrat
     district: 3
@@ -30818,7 +30264,7 @@
     office: 214 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KS
     party: Republican
     district: 3
@@ -30984,7 +30430,7 @@
     office: 2407 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 13
@@ -31146,7 +30592,7 @@
     office: 2314 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AK
     party: Republican
     district: 0
@@ -31185,7 +30631,7 @@
     office: 1721 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Republican
     district: 9
@@ -31246,7 +30692,7 @@
     office: 361a Russell Senate Office Building
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: NV
     party: Republican
     class: 1
@@ -31285,7 +30731,7 @@
     office: 2400 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 44
@@ -31326,7 +30772,7 @@
     office: 125 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NV
     party: Republican
     district: 2
@@ -31365,7 +30811,7 @@
     phone: 202-225-0855
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OR
     party: Democrat
     district: 1
@@ -31404,7 +30850,7 @@
     office: 1030 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Democrat
     district: 2
@@ -31441,7 +30887,7 @@
     url: http://delbene.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Democrat
     district: 1
@@ -31475,7 +30921,7 @@
     url: http://massie.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Republican
     district: 4
@@ -31510,7 +30956,7 @@
     phone: 202-225-3436
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NJ
     party: Democrat
     district: 10
@@ -31518,6 +30964,7 @@
     phone: 202-225-3436
     office: 2310 Rayburn House Office Building
 - id:
+    lis: S353
     opensecrets: N00028138
     votesmart: 17852
     bioguide: S001194
@@ -31526,6 +30973,7 @@
     first: Brian
     middle: Emanuel
     last: Schatz
+    official_full: Brian Schatz
   bio:
     birthday: '1972-10-20'
     gender: M
@@ -31536,10 +30984,11 @@
     state: HI
     class: 3
     party: Democrat
-    address: 722 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    address: G11 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-3934
     fax: 202-224-6747
-    office: 722 Hart Senate Office Building
+    office: G11 Dirksen Senate Office Building
+    url: http://schatz.senate.gov
 - id:
     bioguide: S000018
     thomas: 01009
@@ -31570,7 +31019,7 @@
     party: Republican
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Republican
     district: 5
@@ -31592,7 +31041,7 @@
     party: Republican
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Republican
     district: 36
@@ -31626,7 +31075,7 @@
     url: http://shea-porter.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NH
     party: Democrat
     district: 1
@@ -31662,7 +31111,7 @@
     url: http://foster.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 11
@@ -31691,7 +31140,7 @@
     url: http://grayson.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 9
@@ -31719,7 +31168,7 @@
     url: http://kirkpatrick.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Democrat
     district: 1
@@ -31749,7 +31198,7 @@
     url: http://maffei.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 24
@@ -31777,11 +31226,24 @@
     url: http://titus.house.gov
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NV
     party: Democrat
     district: 1
     url: http://titus.house.gov
+- id: {}
+  name:
+    first: Tom
+    last: Cotton
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: AR
+    party: Republican
+    district: 4
 - id: {}
   name:
     first: Kyrsten
@@ -31791,10 +31253,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: AZ
     party: Democrat
     district: 9
+- id: {}
+  name:
+    first: Doug
+    last: La Malfa
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Republican
+    district: 1
 - id: {}
   name:
     first: Jared
@@ -31804,10 +31279,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 2
+- id: {}
+  name:
+    first: Ami
+    last: Bera
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 7
 - id: {}
   name:
     first: Paul
@@ -31817,10 +31305,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 8
+- id: {}
+  name:
+    first: Eric
+    last: Swalwell
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 15
 - id: {}
   name:
     first: David
@@ -31830,10 +31331,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Republican
     district: 21
+- id: {}
+  name:
+    first: Julia
+    last: Brownley
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 26
 - id: {}
   name:
     first: Tony
@@ -31843,10 +31357,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 29
+- id: {}
+  name:
+    first: Gloria
+    last: McLeod
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 35
 - id: {}
   name:
     first: Raul
@@ -31856,10 +31383,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 36
+- id: {}
+  name:
+    first: Mark
+    last: Takano
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 41
 - id: {}
   name:
     first: Alan
@@ -31869,10 +31409,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 47
+- id: {}
+  name:
+    first: Juan
+    last: Vargas
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CA
+    party: Democrat
+    district: 51
 - id: {}
   name:
     first: Scott
@@ -31882,10 +31435,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: CA
     party: Democrat
     district: 52
+- id: {}
+  name:
+    first: Elizabeth
+    last: Esty
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: CT
+    party: Democrat
+    district: 5
 - id: {}
   name:
     first: Ted
@@ -31895,10 +31461,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Republican
     district: 3
+- id: {}
+  name:
+    first: Ron
+    last: DeSantis
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: FL
+    party: Republican
+    district: 6
 - id: {}
   name:
     first: Patrick
@@ -31908,10 +31487,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 18
+- id: {}
+  name:
+    first: Trey
+    last: Radel
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: FL
+    party: Republican
+    district: 19
 - id: {}
   name:
     first: Lois
@@ -31921,10 +31513,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: FL
     party: Democrat
     district: 22
+- id: {}
+  name:
+    first: Joe
+    last: Garcia
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: FL
+    party: Democrat
+    district: 26
 - id: {}
   name:
     first: Doug
@@ -31934,10 +31539,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: GA
     party: Republican
     district: 9
+- id: {}
+  name:
+    first: Tulsi
+    last: Gabbard
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: HI
+    party: Democrat
+    district: 2
 - id: {}
   name:
     first: Tammy
@@ -31947,10 +31565,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 8
+- id: {}
+  name:
+    first: Brad
+    last: Schneider
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: IL
+    party: Democrat
+    district: 10
 - id: {}
   name:
     first: William
@@ -31960,10 +31591,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 12
+- id: {}
+  name:
+    first: Rodney
+    last: Davis
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: IL
+    party: Republican
+    district: 13
 - id: {}
   name:
     first: Cheri
@@ -31973,10 +31617,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IL
     party: Democrat
     district: 17
+- id: {}
+  name:
+    first: Jackie
+    last: Walorski
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: IN
+    party: Republican
+    district: 2
 - id: {}
   name:
     first: Susan
@@ -31986,10 +31643,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: IN
     party: Republican
     district: 5
+- id: {}
+  name:
+    first: Luke
+    last: Messer
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: IN
+    party: Republican
+    district: 6
 - id: {}
   name:
     first: Andy
@@ -31999,10 +31669,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: KY
     party: Republican
     district: 6
+- id: {}
+  name:
+    first: Elizabeth
+    last: Warren
+  bio:
+    gender: F
+  terms:
+  - type: sen
+    start: '2013-01-03'
+    end: '2019-01-03'
+    state: MA
+    party: Democrat
+    class: 1
 - id: {}
   name:
     first: Joe
@@ -32014,10 +31697,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MA
     party: Democrat
     district: 4
+- id: {}
+  name:
+    first: John
+    last: Delaney
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: MD
+    party: Democrat
+    district: 6
 - id: {}
   name:
     first: Angus
@@ -32027,10 +31723,23 @@
   terms:
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: ME
     party: Independent
     class: 1
+- id: {}
+  name:
+    first: Daniel
+    last: Kildee
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: MI
+    party: Democrat
+    district: 5
 - id: {}
   name:
     first: Kerry
@@ -32040,7 +31749,7 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MI
     party: Republican
     district: 11
@@ -32077,10 +31786,23 @@
     party: Democrat
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MN
     party: Democrat
     district: 8
+- id: {}
+  name:
+    first: Ann
+    last: Wagner
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: MO
+    party: Republican
+    district: 2
 - id: {}
   name:
     first: Steve
@@ -32090,10 +31812,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: MT
     party: Republican
     district: 0
+- id: {}
+  name:
+    first: Richard
+    last: Hudson
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NC
+    party: Republican
+    district: 8
 - id: {}
   name:
     first: Robert
@@ -32103,10 +31838,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 9
+- id: {}
+  name:
+    first: Mark
+    last: Meadows
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NC
+    party: Republican
+    district: 11
 - id: {}
   name:
     first: George
@@ -32116,10 +31864,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NC
     party: Republican
     district: 13
+- id: {}
+  name:
+    first: Heidi
+    last: Heitkamp
+  bio:
+    gender: F
+  terms:
+  - type: sen
+    start: '2013-01-03'
+    end: '2019-01-03'
+    state: ND
+    party: Democrat
+    class: 1
 - id: {}
   name:
     first: Kevin
@@ -32129,10 +31890,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: ND
     party: Republican
     district: 0
+- id: {}
+  name:
+    first: Deb
+    last: Fischer
+  bio:
+    gender: F
+  terms:
+  - type: sen
+    start: '2013-01-03'
+    end: '2019-01-03'
+    state: NE
+    party: Republican
+    class: 1
 - id: {}
   name:
     first: Ann
@@ -32142,10 +31916,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NH
     party: Democrat
     district: 2
+- id: {}
+  name:
+    first: Michelle
+    last: Grisham
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NM
+    party: Democrat
+    district: 1
 - id: {}
   name:
     first: Steven
@@ -32155,10 +31942,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NV
     party: Democrat
     district: 4
+- id: {}
+  name:
+    first: Grace
+    last: Meng
+  bio:
+    gender: F
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NY
+    party: Democrat
+    district: 6
 - id: {}
   name:
     first: Hakeem
@@ -32168,10 +31968,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Democrat
     district: 8
+- id: {}
+  name:
+    first: Sean
+    last: Maloney
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: NY
+    party: Democrat
+    district: 18
 - id: {}
   name:
     first: Chris
@@ -32181,10 +31994,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: NY
     party: Republican
     district: 27
+- id: {}
+  name:
+    first: Brad
+    last: Wenstrup
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: OH
+    party: Republican
+    district: 2
 - id: {}
   name:
     first: Joyce
@@ -32194,10 +32020,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OH
     party: Democrat
     district: 3
+- id: {}
+  name:
+    first: David
+    last: Joyce
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: OH
+    party: Republican
+    district: 14
 - id: {}
   name:
     first: Jim
@@ -32207,10 +32046,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: OK
     party: Republican
     district: 1
+- id: {}
+  name:
+    first: Markwayne
+    last: Mullin
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: OK
+    party: Republican
+    district: 2
 - id: {}
   name:
     first: Scott
@@ -32220,10 +32072,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Republican
     district: 4
+- id: {}
+  name:
+    first: Keith
+    last: Rothfus
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: PA
+    party: Republican
+    district: 12
 - id: {}
   name:
     first: Matthew
@@ -32233,10 +32098,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: PA
     party: Democrat
     district: 17
+- id: {}
+  name:
+    first: Tom
+    last: Rice
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: SC
+    party: Republican
+    district: 7
 - id: {}
   name:
     first: Ted
@@ -32246,10 +32124,23 @@
   terms:
   - type: sen
     start: '2013-01-03'
-    end: '2018-12-31'
+    end: '2019-01-03'
     state: TX
     party: Republican
     class: 1
+- id: {}
+  name:
+    first: Randy
+    last: Weber
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: TX
+    party: Republican
+    district: 14
 - id: {}
   name:
     first: Beto
@@ -32259,10 +32150,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 16
+- id: {}
+  name:
+    first: Joaquin
+    last: Castro
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: TX
+    party: Democrat
+    district: 20
 - id: {}
   name:
     first: Pete
@@ -32272,10 +32176,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 23
+- id: {}
+  name:
+    first: Roger
+    last: Williams
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: TX
+    party: Republican
+    district: 25
 - id: {}
   name:
     first: Marc
@@ -32285,10 +32202,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: TX
     party: Democrat
     district: 33
+- id: {}
+  name:
+    first: Filemon
+    last: Vela
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: TX
+    party: Democrat
+    district: 34
 - id: {}
   name:
     first: Chris
@@ -32298,10 +32228,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: UT
     party: Republican
     district: 2
+- id: {}
+  name:
+    first: Timothy
+    last: Kaine
+  bio:
+    gender: M
+  terms:
+  - type: sen
+    start: '2013-01-03'
+    end: '2019-01-03'
+    state: VA
+    party: Democrat
+    class: 1
 - id: {}
   name:
     first: Derek
@@ -32311,10 +32254,23 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WA
     party: Democrat
     district: 6
+- id: {}
+  name:
+    first: Denny
+    last: Heck
+  bio:
+    gender: M
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: WA
+    party: Democrat
+    district: 10
 - id: {}
   name:
     first: Mark
@@ -32324,7 +32280,7 @@
   terms:
   - type: rep
     start: '2013-01-03'
-    end: '2014-12-31'
+    end: '2015-01-03'
     state: WI
     party: Democrat
     district: 2
