@@ -29,7 +29,10 @@ for rec in csv.DictReader(open(house_labels)):
 
   # empty seat - IL-02
   if not by_district.has_key(full_district):
-    continue
+    if full_district == "IL02":
+      continue
+    else:
+      raise "No!!"
 
   by_district[full_district]['terms'][-1]['office'] = rec["ADDRESS"]
   by_district[full_district]["name"]["first"] = rec["FIRST"]
