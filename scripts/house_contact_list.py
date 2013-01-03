@@ -4,7 +4,7 @@
 
 # Assumes state and district are already present.
 
-import csv
+import csv, re
 import utils
 from utils import download, load_data, save_data, parse_date
 
@@ -34,11 +34,20 @@ for rec in csv.DictReader(open(house_labels)):
     else:
       raise "No!!"
 
+  rec["MIDDLE"] = rec["MIDDLE"].decode("utf8")
+  rec["NICK"] = None
+  m = re.match(u'^(.*) \u201c(.*)\u201d$', rec["MIDDLE"])
+  if m:
+    rec["MIDDLE"] = m.group(1)
+    rec["NICK"] = m.group(2)
+
   by_district[full_district]['terms'][-1]['office'] = rec["ADDRESS"]
-  by_district[full_district]["name"]["first"] = rec["FIRST"]
+  by_district[full_district]["name"]["first"] = rec["FIRST"].decode("utf8")
   if rec["MIDDLE"]:
     by_district[full_district]["name"]["middle"] = rec["MIDDLE"]
-  by_district[full_district]["name"]["last"] = rec["LAST"]
+  if rec["NICK"]:
+    by_district[full_district]["name"]["nickname"] = rec["NICK"]
+  by_district[full_district]["name"]["last"] = rec["LAST"].decode("utf8")
   by_district[full_district]["id"]["bioguide"] = rec["BIOGUIDE ID"]
   print "[%s] Saved" % full_district
 

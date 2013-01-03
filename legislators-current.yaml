@@ -6427,7 +6427,7 @@
     fec:
     - H8IN07184
   name:
-    first: !!python/str 'André'
+    first: André
     last: Carson
     official_full: André Carson
   bio:
@@ -8245,9 +8245,10 @@
     - H0AR01083
   name:
     first: Eric
-    middle: !!python/str 'A. “Rick”'
+    middle: A.
     last: Crawford
     official_full: Eric A. "Rick" Crawford
+    nickname: Rick
   bio:
     birthday: '1966-01-22'
     gender: M
@@ -11065,7 +11066,8 @@
     first: Charles
     last: Fleischmann
     official_full: Charles J. "Chuck" Fleischmann
-    middle: !!python/str 'J. “Chuck”'
+    middle: J.
+    nickname: Chuck
   bio:
     birthday: '1962-10-12'
     gender: M
@@ -12741,7 +12743,7 @@
     fec:
     - H2AZ07070
   name:
-    first: !!python/str 'Raúl'
+    first: Raúl
     middle: M.
     last: Grijalva
     official_full: Raúl M. Grijalva
@@ -13827,7 +13829,7 @@
     fec:
     - H6TX15055
   name:
-    first: !!python/str 'Rubén'
+    first: Rubén
     middle: E.
     last: Hinojosa
     official_full: Rubén Hinojosa
@@ -14980,7 +14982,7 @@
     - H6GA04129
   name:
     first: Henry
-    middle: !!python/str 'C. “Hank”'
+    middle: C.
     last: Johnson
     suffix: Jr.
     nickname: Hank
@@ -16061,7 +16063,7 @@
     fec:
     - H0ID01253
   name:
-    first: !!python/str 'Raúl'
+    first: Raúl
     last: Labrador
     official_full: Raúl R. Labrador
     middle: R.
@@ -17656,7 +17658,7 @@
   name:
     first: Ben
     middle: Ray
-    last: !!python/str 'Luján'
+    last: Luján
     official_full: Ben Ray Luján
   bio:
     gender: M
@@ -19062,7 +19064,7 @@
     - H2CA25036
   name:
     first: Howard
-    middle: !!python/str 'P. “Buck”'
+    middle: P.
     last: McKeon
     nickname: Buck
     official_full: Howard P. "Buck" McKeon
@@ -25766,7 +25768,7 @@
     - H6VA01117
   name:
     first: Robert
-    middle: !!python/str 'C. “Bobby”'
+    middle: C.
     last: Scott
     nickname: Bobby
     official_full: Robert C. "Bobby" Scott
@@ -26049,7 +26051,7 @@
     fec:
     - H0NY18065
   name:
-    first: !!python/str 'José'
+    first: José
     middle: E.
     last: Serrano
     official_full: José E. Serrano
@@ -27461,7 +27463,7 @@
   name:
     first: Linda
     middle: T.
-    last: !!python/str 'Sánchez'
+    last: Sánchez
     official_full: Linda T. Sánchez
   bio:
     birthday: '1969-01-28'
@@ -28606,7 +28608,7 @@
   name:
     first: Nydia
     middle: M.
-    last: !!python/str 'Velázquez'
+    last: Velázquez
     official_full: Nydia M. Velázquez
   bio:
     birthday: '1953-03-28'
@@ -31420,7 +31422,7 @@
     bioguide: C001097
   name:
     first: Tony
-    last: !!python/str 'Cárdenas'
+    last: Cárdenas
   bio:
     gender: M
   terms:
