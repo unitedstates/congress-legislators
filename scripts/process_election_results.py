@@ -9,7 +9,7 @@ from utils import load_data, save_data
 
 senate_election_class = 1
 new_term_end_years = (2015, 2019, 2017) # House, Senate, Puerto Rico
-current_term_end_date = "2012-12-31" # sanity checking
+current_term_end_date = "2013-01-03" # sanity checking
 at_large_districts = ['AK', 'AS', 'DC', 'DE', 'GU', 'MP', 'MT', 'ND', 'PR', 'SD', 'VI', 'VT', 'WY']
 
 y = load_data("legislators-current.yaml")
@@ -37,7 +37,7 @@ for rec in csv.DictReader(open("election_results_2012.csv")):
 		else:
 			# This person is in the current file. They must be continuing from a term that ends at the end.
 			if m["terms"][-1]["end"] != current_term_end_date:
-				raise ValueError("Most recent term doesn't end on December 31 of this year: %d" % int(rec["id"]))
+				raise ValueError("Most recent term doesn't end on %s: %d" % (current_term_end_date, int(rec["id"])))
 			
 	else:
 		# This is a new individual. Create a new record for them.
