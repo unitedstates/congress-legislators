@@ -50,7 +50,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 	  terms:
 	  - type: rep
 		start: '2011-01-05'
-		end: '2012-12-31'
+		end: '2013-01-03'
 		state: WI
 		district: 1
 		party: Republican
@@ -116,8 +116,8 @@ legislators-current.yaml and legislators-historical.yaml
 
 * terms (one entry for each election)
 	* type: The type of the term. Either "sen" for senators or "rep" for representatives.
-	* start: The date the term began (i.e. typically a swearing in), in YYYY-MM-DD format.
-	* end: The date the term ended (because the Congress adjourned, the legislator died or resigned, etc.). For terms that end in the future, this value is typically a rough guess at the end date of the Congressional session (currently 2012-12-31). This is the last date on which the legislator served this term.
+	* start: The date the term began (i.e. typically a swearing in), in YYYY-MM-DD format. In contemporary data (>1940), it may be Jan. 3 on odd-numbered years or later if Congress does not meet immediately.
+	* end: The date the term ended (because the Congress ended, the legislator died or resigned, etc.). For Members of Congress that served their whole term, starting with the 112th Congress end dates follow the Constitutional end of a Congress, Jan. 3 on odd-numbered years (which is unfortunately the same date the next Congress begins), but prior to the 112th Congress end dates were set to the last date of adjournment of Congress. The end date is the last date on which the legislator served this term.
 	* state: The two-letter, uppercase USPS abbreviation for the state that the legislator is serving from. See below.
 	* district: For representatives, the district number they are serving from. At-large districts are district 0. In historical data, unknown district numbers are recorded as -1.
 	* class: For senators, their election class (1, 2, or 3). Note that this is unrelated to seniority.
