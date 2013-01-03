@@ -32,7 +32,7 @@ for moc in y:
 		print "Member's last listed term is not current", moc, term["start"]
 		continue
 
-	if len(sys.argv) > 1 and ("%s-%02d" % (term["state"], term["district"])) not in sys.argv: continue
+	#if len(sys.argv) > 1 and ("%s-%02d" % (term["state"], term["district"])) not in sys.argv: continue
 
 	if "class" in term: del term["class"]
 
@@ -62,9 +62,9 @@ for moc in y:
 		continue
 	
 	address = m.group(4)
-	phone = m.group(5)
+	phone = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", m.group(5)) # replace (XXX) area code with XXX- for compatibility w/ existing format
 
-	office = address.split(";")[0]
+	office = address.split(";")[0].replace("HOB", "House Office Building")
 	
 	moc["name"]["official_full"] = name
 	term["address"] = address

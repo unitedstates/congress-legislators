@@ -1,0 +1,696 @@
+- id:
+    bioguide: W000178
+    govtrack: 411351
+  name:
+    first: George
+    last: Washington
+  bio:
+    birthday: '1732-02-22'
+    gender: M
+  terms:
+  - type: prez
+    start: '1789-04-30'
+    end: '1793-03-04'
+    party: no party
+  - type: prez
+    start: '1793-03-04'
+    end: '1797-03-04'
+    party: no party
+- id:
+    bioguide: A000039
+    govtrack: 400699
+  name:
+    first: John
+    last: Adams
+  bio:
+    birthday: '1735-10-19'
+    gender: M
+  terms:
+  - type: prez
+    start: '1797-03-04'
+    end: '1801-03-04'
+    party: Federalist
+- id:
+    bioguide: J000069
+    govtrack: 405974
+  name:
+    first: Thomas
+    last: Jefferson
+  bio:
+    birthday: '1743-04-13'
+    gender: M
+  terms:
+  - type: prez
+    start: '1801-03-04'
+    end: '1805-03-04'
+    party: Democratic - Republican
+  - type: prez
+    start: '1805-03-04'
+    end: '1809-03-04'
+    party: Democratic - Republican
+- id:
+    bioguide: M000043
+    govtrack: 407071
+    icpsr: 5903
+  name:
+    first: James
+    last: Madison
+  bio:
+    birthday: '1751-03-16'
+    gender: M
+  terms:
+  - type: prez
+    start: '1809-03-04'
+    end: '1813-03-04'
+    party: Democratic-Republican
+  - type: prez
+    start: '1813-03-04'
+    end: '1817-03-04'
+    party: Democratic-Republican
+- id:
+    bioguide: M000858
+    govtrack: 407829
+    icpsr: 6594
+  name:
+    first: James
+    last: Monroe
+  bio:
+    birthday: '1758-04-28'
+    gender: M
+  terms:
+  - type: prez
+    start: '1817-03-04'
+    end: '1821-03-05'
+    party: Democratic-Republican
+  - type: prez
+    start: '1821-03-05'
+    end: '1825-03-04'
+    party: Democratic-Republican
+- id:
+    bioguide: A000041
+    govtrack: 400702
+    icpsr: 34
+  name:
+    first: John
+    middle: Quincy
+    last: Adams
+  bio:
+    birthday: '1767-07-11'
+    gender: M
+  terms:
+  - type: prez
+    start: '1825-03-04'
+    end: '1829-03-04'
+    party: Democratic-Republican
+- id:
+    bioguide: J000005
+    govtrack: 405913
+    icpsr: 4843
+  name:
+    first: Andrew
+    last: Jackson
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1829-03-04'
+    end: '1833-03-04'
+    party: Democratic
+  - type: prez
+    start: '1833-03-04'
+    end: '1837-03-04'
+    party: Democratic
+- id:
+    bioguide: V000009
+    govtrack: 411074
+    icpsr: 9595
+  name:
+    first: Martin
+    last: Van Buren
+  bio:
+    birthday: '1782-12-05'
+    gender: M
+  terms:
+  - type: prez
+    start: '1837-03-04'
+    end: '1841-03-04'
+    party: Democratic
+- id:
+    bioguide: H000279
+    govtrack: 405153
+    icpsr: 4138
+  name:
+    first: William
+    middle: Henry
+    last: Harrison
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1841-03-04'
+    end: '1841-04-04'
+    party: Whig
+- id:
+    bioguide: T000450
+    govtrack: 411018
+    icpsr: 9542
+  name:
+    first: John
+    last: Tyler
+  bio:
+    birthday: '1790-03-29'
+    gender: M
+  terms:
+  - type: prez
+    start: '1841-04-04'
+    end: '1845-03-04'
+    party: Whig
+- id:
+    bioguide: P000409
+    govtrack: 408802
+    icpsr: 7507
+  name:
+    first: James
+    middle: Knox
+    last: Polk
+  bio:
+    birthday: '1795-11-02'
+    gender: M
+  terms:
+  - type: prez
+    start: '1845-03-04'
+    end: '1849-03-03'
+    party: Democratic
+- id:
+    govtrack: 412344
+  name:
+    first: Zachary
+    last: Taylor
+  bio:
+    birthday: '1784-11-24'
+    gender: M
+  terms:
+  - type: prez
+    start: '1849-03-05'
+    end: '1850-07-09'
+    party: Whig
+- id:
+    bioguide: F000115
+    govtrack: 404072
+    icpsr: 3140
+  name:
+    first: Millard
+    last: Fillmore
+  bio:
+    birthday: '1800-01-07'
+  terms:
+  - type: prez
+    start: '1850-07-09'
+    end: '1853-03-04'
+    party: Whig
+- id:
+    bioguide: P000333
+    govtrack: 408730
+    icpsr: 7435
+  name:
+    first: Franklin
+    last: Pierce
+  bio:
+    birthday: '1804-11-23'
+    gender: M
+  terms:
+  - type: prez
+    start: '1853-03-04'
+    end: '1857-03-04'
+    party: Democratic
+- id:
+    bioguide: B001005
+    govtrack: 401954
+    icpsr: 1186
+  name:
+    first: James
+    last: Buchanan
+  bio:
+    birthday: '1791-04-23'
+    gender: M
+  terms:
+  - type: prez
+    start: '1857-03-04'
+    end: '1861-03-04'
+    party: Democratic
+- id:
+    bioguide: L000313
+    govtrack: 406807
+    icpsr: 5666
+  name:
+    first: Abraham
+    last: Lincoln
+  bio:
+    birthday: '1809-02-12'
+    gender: M
+  terms:
+  - type: prez
+    start: '1861-03-04'
+    end: '1865-04-15'
+    party: Republican
+- id:
+    bioguide: J000116
+    govtrack: 406017
+    icpsr: 4940
+  name:
+    first: Andrew
+    last: Johnson
+  bio:
+    birthday: '1808-12-29'
+    gender: M
+  terms:
+  - type: prez
+    start: '1865-04-15'
+    end: '1869-03-04'
+    party: Republican
+- id:
+    govtrack: 412350
+  name:
+    first: Ulysses
+    middle: Simpson
+    last: Grant
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1869-03-04'
+    end: '1873-03-04'
+    party: Republican
+  - type: prez
+    start: '1873-03-04'
+    end: '1877-03-04'
+    party: Republican
+- id:
+    bioguide: H000393
+    govtrack: 405261
+    icpsr: 4232
+  name:
+    first: Rutherford
+    middle: Birchard
+    last: Hayes
+  bio:
+    birthday: '1822-10-04'
+  terms:
+  - type: prez
+    start: '1877-03-04'
+    end: '1881-03-04'
+    party: Republican
+- id:
+    bioguide: G000063
+    govtrack: 404436
+    icpsr: 3473
+  name:
+    first: James
+    middle: Abram
+    last: Garfield
+  bio:
+    birthday: '1831-11-19'
+    gender: M
+  terms:
+  - type: prez
+    start: '1881-03-04'
+    end: '1881-09-19'
+    party: Republican
+- id:
+    bioguide: A000303
+    govtrack: 400945
+  name:
+    first: Chester
+    middle: Alan
+    last: Arthur
+  bio:
+    birthday: '1829-10-05'
+    gender: M
+  terms:
+  - type: prez
+    start: '1881-09-20'
+    end: '1885-03-04'
+    party: Republican
+- id:
+    bioguide: H000263
+    govtrack: 405139
+    icpsr: 4124
+  name:
+    first: Benjamin
+    last: Harrison
+  bio:
+    birthday: '1833-08-20'
+    gender: M
+  terms:
+  - type: prez
+    start: '1889-03-04'
+    end: '1893-03-04'
+    party: Republican
+- id:
+    govtrack: 412354
+  name:
+    first: Grover
+    last: Cleveland
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1885-03-04'
+    end: '1889-03-04'
+    party: Democratic
+  - type: prez
+    start: '1893-03-04'
+    end: '1897-03-04'
+    party: Democratic
+- id:
+    bioguide: M000522
+    govtrack: 407515
+    icpsr: 6312
+  name:
+    first: William
+    last: McKinley
+    suffix: Jr.
+  bio:
+    birthday: '1843-01-29'
+    gender: M
+  terms:
+  - type: prez
+    start: '1897-03-04'
+    end: '1901-09-14'
+    party: Republican
+- id:
+    bioguide: R000429
+    govtrack: 409394
+  name:
+    first: Theodore
+    last: Roosevelt
+  bio:
+    birthday: '1858-10-27'
+    gender: M
+  terms:
+  - type: prez
+    start: '1901-09-14'
+    end: '1905-03-04'
+    party: Republican
+  - type: prez
+    start: '1905-03-04'
+    end: '1909-03-04'
+    party: Republican
+- id:
+    govtrack: 412359
+  name:
+    first: William
+    middle: Howard
+    last: Taft
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1909-03-04'
+    end: '1913-03-04'
+    party: Republican
+- id:
+    govtrack: 412360
+  name:
+    first: Woodrow
+    last: Wilson
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1913-03-04'
+    end: '1917-03-04'
+    party: Democratic
+  - type: prez
+    start: '1917-03-04'
+    end: '1921-03-04'
+    party: Democratic
+- id:
+    bioguide: H000192
+    govtrack: 405073
+    icpsr: 4059
+  name:
+    first: Warren
+    middle: Gamaliel
+    last: Harding
+  bio:
+    birthday: '1865-11-02'
+    gender: M
+  terms:
+  - type: prez
+    start: '1921-03-04'
+    end: '1923-08-02'
+    party: Republican
+- id:
+    bioguide: C000738
+    govtrack: 402859
+  name:
+    first: Calvin
+    last: Coolidge
+  terms:
+  - type: prez
+    start: '1923-08-03'
+    end: '1929-03-04'
+    party: Republican
+- id:
+    govtrack: 412363
+  name:
+    first: Herbert
+    middle: Clark
+    last: Hoover
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1929-03-04'
+    end: '1933-03-04'
+    party: Republican
+- id:
+    govtrack: 412364
+  name:
+    first: Franklin
+    middle: Delano
+    last: Roosevelt
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1933-03-04'
+    end: '1937-01-20'
+    party: Democratic
+  - type: prez
+    start: '1937-01-20'
+    end: '1941-01-20'
+    party: Democratic
+  - type: prez
+    start: '1941-01-20'
+    end: '1945-04-12'
+    party: Democratic
+- id:
+    bioguide: T000387
+    govtrack: 410956
+    icpsr: 9487
+  name:
+    first: Harry
+    middle: S.
+    last: Truman
+  bio:
+    birthday: '1884-05-08'
+    gender: M
+  terms:
+  - type: prez
+    start: '1945-04-12'
+    end: '1949-01-20'
+    party: Democratic
+  - type: prez
+    start: '1949-01-20'
+    end: '1953-01-20'
+    party: Democratic
+- id:
+    govtrack: 412366
+  name:
+    first: Dwight
+    middle: David
+    last: Eisenhower
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1953-01-20'
+    end: '1957-01-20'
+    party: Republican
+  - type: prez
+    start: '1957-01-20'
+    end: '1961-01-20'
+    party: Republican
+- id:
+    bioguide: K000107
+    govtrack: 406274
+    icpsr: 5180
+  name:
+    first: John
+    middle: Fitzgerald
+    last: Kennedy
+  bio:
+    birthday: '1917-05-29'
+    gender: M
+  terms:
+  - type: prez
+    start: '1961-01-20'
+    end: '1963-11-22'
+    party: Democratic
+- id:
+    bioguide: J000160
+    govtrack: 406058
+    icpsr: 4979
+  name:
+    first: Lyndon
+    middle: Baines
+    last: Johnson
+  terms:
+  - type: prez
+    start: '1963-11-22'
+    end: '1969-01-20'
+    party: Democratic
+- id:
+    bioguide: N000116
+    govtrack: 408200
+    icpsr: 6939
+  name:
+    first: Richard
+    middle: Milhous
+    last: Nixon
+  bio:
+    birthday: '1913-01-09'
+    gender: M
+  terms:
+  - type: prez
+    start: '1969-01-20'
+    end: '1973-01-20'
+    party: Republican
+  - type: prez
+    start: '1973-01-20'
+    end: '1974-08-09'
+    party: Republican
+- id:
+    bioguide: F000260
+    thomas: 00399
+    govtrack: 404212
+    icpsr: 3268
+  name:
+    first: Gerald
+    middle: Rudolph
+    last: Ford
+    suffix: Jr.
+  bio:
+    birthday: '1913-07-14'
+  terms:
+  - type: prez
+    start: '1974-08-09'
+    end: '1977-01-20'
+    party: Republican
+- id:
+    govtrack: 412371
+  name:
+    first: James
+    middle: Earl
+    last: Carter
+    nickname: Jimmy
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1977-01-20'
+    end: '1981-01-20'
+    party: Democratic
+- id:
+    govtrack: 412372
+  name:
+    first: Ronald
+    middle: Wilson
+    last: Reagan
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1981-01-20'
+    end: '1985-01-20'
+    party: Republican
+  - type: prez
+    start: '1985-01-20'
+    end: '1989-01-20'
+    party: Republican
+- id:
+    bioguide: B001166
+    govtrack: 402108
+    icpsr: 11008
+  name:
+    first: George
+    middle: Herbert Walker
+    last: Bush
+  bio:
+    birthday: '1924-06-12'
+    gender: M
+  terms:
+  - type: prez
+    start: '1989-01-20'
+    end: '1993-01-20'
+    party: Republican
+- id:
+    govtrack: 412374
+  name:
+    first: William
+    middle: Jefferson
+    last: Clinton
+    nickname: Bill
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '1993-01-20'
+    end: '1997-01-20'
+    party: Democrat
+  - type: prez
+    start: '1997-01-20'
+    end: '2001-01-20'
+    party: Democrat
+- id:
+    govtrack: 412375
+  name:
+    first: George
+    middle: Walker
+    last: Bush
+  bio:
+    gender: M
+  terms:
+  - type: prez
+    start: '2001-01-20'
+    end: '2005-01-20'
+    party: Republican
+  - type: prez
+    start: '2005-01-20'
+    end: '2009-01-20'
+    party: Republican
+- id:
+    bioguide: O000167
+    thomas: '01763'
+    lis: S298
+    govtrack: 400629
+    opensecrets: N00009638
+    votesmart: 9490
+  name:
+    first: Barack
+    last: Obama
+  bio:
+    birthday: '1961-08-04'
+    gender: M
+  terms:
+  - type: prez
+    start: '2009-01-20'
+    end: '2013-01-20'
+    party: Democrat
+  - type: prez
+    start: '2013-01-20'
+    end: '2017-01-20'
+    party: Democrat
+
