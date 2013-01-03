@@ -48,6 +48,9 @@ for rec in csv.DictReader(open(house_labels)):
   if rec["NICK"]:
     by_district[full_district]["name"]["nickname"] = rec["NICK"]
   by_district[full_district]["name"]["last"] = rec["LAST"].decode("utf8").strip()
+  if rec["BIOGUIDE ID"] == "G000574":
+    # The Clerk has the wrong ID for Alan Grayson!
+    rec["BIOGUIDE ID"] = "G000556"
   by_district[full_district]["id"]["bioguide"] = rec["BIOGUIDE ID"]
   print "[%s] Saved" % full_district
 
