@@ -15,7 +15,7 @@ def log(object):
   if isinstance(object, (str, unicode)):
     print object
   else:
-    pprint.pprint(object)
+    pprint(object)
 
 def uniq(seq):
   seen = set()
@@ -58,16 +58,22 @@ scraper = scrapelib.Scraper(requests_per_minute=120, follow_robots=False, retry_
 def cache_dir():
   return "cache"
 
-def download(url, destination, force=False):
+def download(url, destination, force=False, options=None):
+  if not options:
+    options = {}
+
   cache = os.path.join(cache_dir(), destination)
 
   if not force and os.path.exists(cache):
-    log("Cached: (%s, %s)" % (cache, url))
+    if options.get('debug', False):
+      log("Cached: (%s, %s)" % (cache, url))
+
     with open(cache, 'r') as f:
       body = f.read()
   else:
     try:
-      log("Downloading: %s" % url)
+      if options.get('debug', False):
+        log("Downloading: %s" % url)
       response = scraper.urlopen(url)
       body = response.encode('utf-8')
     except scrapelib.HTTPError as e:
