@@ -14,6 +14,7 @@ house_labels = "labels-113.csv"
 # default to not caching
 cache = utils.flags().get('cache', False)
 force = not cache
+names = utils.flags().get('names', False)
 
 y = load_data("legislators-current.yaml")
 by_district = { }
@@ -42,16 +43,22 @@ for rec in csv.DictReader(open(house_labels)):
     rec["NICK"] = m.group(2)
 
   by_district[full_district]['terms'][-1]['office'] = rec["ADDRESS"].strip()
-  by_district[full_district]["name"]["first"] = rec["FIRST"].decode("utf8").strip()
-  if rec["MIDDLE"]:
-    by_district[full_district]["name"]["middle"] = rec["MIDDLE"]
-  if rec["NICK"]:
-    by_district[full_district]["name"]["nickname"] = rec["NICK"]
-  by_district[full_district]["name"]["last"] = rec["LAST"].decode("utf8").strip()
+
+  # only set name fields if we've been asked to (as a stopgap)
+  if names:
+    by_district[full_district]["name"]["first"] = rec["FIRST"].decode("utf8").strip()
+    if rec["MIDDLE"]:
+      by_district[full_district]["name"]["middle"] = rec["MIDDLE"]
+    if rec["NICK"]:
+      by_district[full_district]["name"]["nickname"] = rec["NICK"]
+    by_district[full_district]["name"]["last"] = rec["LAST"].decode("utf8").strip()
+
   if rec["BIOGUIDE ID"] == "G000574":
     # The Clerk has the wrong ID for Alan Grayson!
     rec["BIOGUIDE ID"] = "G000556"
+
   by_district[full_district]["id"]["bioguide"] = rec["BIOGUIDE ID"]
+
   print "[%s] Saved" % full_district
 
 save_data(y, "legislators-current.yaml")
