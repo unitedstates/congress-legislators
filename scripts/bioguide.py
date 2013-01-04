@@ -10,11 +10,17 @@
 #  --historical: do *only* historical legislators (default: false)
 
 import lxml.html, StringIO
-import time
+import datetime
 import csv, re
 import utils
 from utils import download, load_data, save_data, parse_date
 
+def birthday_for(string):
+  pattern = "born(.+?)((?:January|February|March|April|May|June|July|August|September|October|November|December),? \\d{1,2},? \\d{4})"
+  match = re.search(pattern, string, re.I)
+  if match:
+    if len(re.findall(";", match.group(1))) <= 1:
+      return match.group(2).strip()
 
 debug = utils.flags().get('debug', False)
 
@@ -23,13 +29,11 @@ cache = utils.flags().get('cache', True)
 force = not cache
 
 # pick either current or historical
-current_flag = utils.flags().get('current', True)
-historical_flag = utils.flags().get('historical', False)
-
-if current_flag:
-  filename = "legislators-current.yaml"
-elif historical_flag:
+# order is important here, since current defaults to true
+if utils.flags().get('historical', False):
   filename = "legislators-historical.yaml"
+elif utils.flags().get('current', True):
+  filename = "legislators-current.yaml"
 else:
   print "No legislators selected."
   exit(0)
@@ -54,6 +58,8 @@ else:
   bioguides = by_bioguide.keys()
 
 warnings = []
+missing = []
+count = 0
 
 for bioguide in bioguides:
   url = "http://bioguide.congress.gov/scripts/biodisplay.pl?index=%s" % bioguide
@@ -65,10 +71,15 @@ for bioguide in bioguides:
     print "Error parsing: ", url
     continue
 
-  name = dom.cssselect("p font")[0]
-  main = dom.cssselect("p")[0]
+  if len(dom.cssselect("title")) == 0:
+    print "[%s] No page for this bioguide!" % bioguide
+    missing.append(bioguide)
+    continue
 
-  if (name is None) or (main is None):
+  try:
+    name = dom.cssselect("p font")[0]
+    main = dom.cssselect("p")[0]
+  except IndexError:
     print "[%s] Missing name or content!" % bioguide
     exit(0)
 
@@ -76,22 +87,40 @@ for bioguide in bioguides:
   main = main.text_content().strip().replace("\n", " ").replace("\r", " ")
   main = re.sub("\s+", " ", main)
 
-  birthday_matches = re.search("born.+?((?:January|February|March|April|May|June|July|August|September|October|November|December) .+?\\d{4})", main, re.I)
-  if not birthday_matches:
+  birthday = birthday_for(main)
+  if not birthday:
     print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main)
     warnings.append(bioguide)
     continue
 
-  birthday = birthday_matches.group(1).strip()
   if debug:
     print "[%s] Found birthday: %s" % (bioguide, birthday)
 
-  birthday = time.strftime("%Y-%m-%d", time.strptime(birthday, "%B %d, %Y"))
+  try:
+    birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
+  except ValueError:
+    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main)
+    warnings.append(bioguide)
+    continue
+
+  birthday = "%04d-%02d-%02d" % (birthday.year, birthday.month, birthday.day)
+  
+  # some older legislators may not have a bio section yet
+  if not by_bioguide[bioguide].has_key("bio"):
+    by_bioguide[bioguide]["bio"] = {}
+
   by_bioguide[bioguide]["bio"]["birthday"] = birthday
+  count = count + 1
 
 print "Saving data to %s..." % filename
 save_data(legislators, filename)
 
 
+print
 if warnings:
-  print "\nMissed %d birthdays: %s" % (len(warnings), str.join(", ", warnings))
+  print "Missed %d birthdays: %s" % (len(warnings), str.join(", ", warnings))
+
+if missing:
+  print "Missing a page for %d bioguides: %s" % (len(missing), str.join(", ", warnings))
+
+print "Saved %d legislators to %s" % (count, filename)
