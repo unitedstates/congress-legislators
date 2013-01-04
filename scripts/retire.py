@@ -21,7 +21,9 @@ except:
 	print "Invalid date: ", sys.argv[2]
 	sys.exit()
 
+print "Loading current YAML..."
 y = load_data("legislators-current.yaml")
+print "Loading historical YAML..."
 y1 = load_data("legislators-historical.yaml")
 
 for moc in y:
@@ -41,5 +43,6 @@ for moc in y:
 	
 	break
 	
+print "Saving changes..."
 save_data(y, "legislators-current.yaml")
 save_data(y1, "legislators-historical.yaml")
