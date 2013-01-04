@@ -10,6 +10,7 @@
 #  --historical: do *only* historical legislators (default: false)
 
 import lxml.html, StringIO
+import time
 import csv, re
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -33,6 +34,7 @@ else:
   print "No legislators selected."
   exit(0)
 
+print "Loading %s..." % filename
 legislators = load_data(filename)
 
 
@@ -75,12 +77,20 @@ for bioguide in bioguides:
   main = re.sub("\s+", " ", main)
 
   birthday_matches = re.search("born.+?((?:January|February|March|April|May|June|July|August|September|October|November|December) .+?\\d{4})", main, re.I)
-  if birthday_matches:
-    if debug:
-      print "[%s] Found birthday: %s" % (bioguide, birthday_matches.group(1))
-  else:
+  if not birthday_matches:
     print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main)
     warnings.append(bioguide)
+    continue
+
+  birthday = birthday_matches.group(1).strip()
+  if debug:
+    print "[%s] Found birthday: %s" % (bioguide, birthday)
+
+  birthday = time.strftime("%Y-%m-%d", time.strptime(birthday, "%B %d, %Y"))
+  by_bioguide[bioguide]["bio"]["birthday"] = birthday
+
+print "Saving data to %s..." % filename
+save_data(legislators, filename)
 
 
 if warnings:
