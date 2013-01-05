@@ -112,15 +112,29 @@ for bioguide in bioguides:
   by_bioguide[bioguide]["bio"]["birthday"] = birthday
   count = count + 1
 
-print "Saving data to %s..." % filename
-save_data(legislators, filename)
-
 
 print
 if warnings:
   print "Missed %d birthdays: %s" % (len(warnings), str.join(", ", warnings))
 
 if missing:
-  print "Missing a page for %d bioguides: %s" % (len(missing), str.join(", ", warnings))
+  print "Missing a page for %d bioguides: %s" % (len(missing), str.join(", ", missing))
+
+print "Saving data to %s..." % filename
+save_data(legislators, filename)
 
 print "Saved %d legislators to %s" % (count, filename)
+
+# Some testing code to help isolate and fix issued:
+# f
+# none = "PEARSON, Joseph, a Representative from North Carolina; born in Rowan County, N.C., in 1776; completed preparatory studies; studied law; was admitted to the bar and commenced practice in Salisbury, N.C.; member of the State house of commons; elected as a Federalist to the Eleventh, Twelfth, and Thirteenth Congresses (March 4, 1809-March 3, 1815); while in Congress fought a duel with John George Jackson, of Virginia, and on the second fire wounded his opponent in the hip; died in Salisbury, N.C., October 27, 1834."
+# print "Pearson (none): %s" % birthday_for(none)
+
+# owens = "OWENS, William, a Representative from New York; born in Brooklyn, Kings County, N.Y., January, 20, 1949; B.S., Manhattan College, Riverdale, N.Y., 1971; J.D., Fordham University, New York, N.Y., 1974; United States Air Force; lawyer, private practice; faculty, State University of New York, Plattsburgh, N.Y., 1978-1986; elected as a Democrat to the One Hundred Eleventh Congress, by special election to fill the vacancy caused by the resignation of United States Representative John McHugh, and reelected to the two succeeding Congresses (November 3, 2009-present)."
+# print "Owens (January, 20, 1949): %s" % birthday_for(owens)
+
+# shea = "SHEA-PORTER, Carol, a Representative from New Hampshire; born in New York City, New York County, N.Y., December, 1952; graduated from Oyster River High School, Durham, N.H., 1971; B.A., University of New Hampshire, Durham, N.H., 1975; M.P.A., University of New Hampshire, Durham, N.H., 1979; social worker; professor; elected as a Democrat to the One Hundred Tenth Congress and to the succeeding Congress (January 3, 2007-January 3, 2011); unsuccessful candidate for reelection to the One Hundred Twelfth Congress in 2010; elected as a Democrat to the One Hundred Thirteenth Congress (January 3, 2013-present)."
+# print "Shea (none): %s" % birthday_for(shea)
+
+# control = "PEARSON, Richmond, a Representative from North Carolina; born at Richmond Hill, Yadkin County, N.C., January 26, 1852; attended Horner's School, Oxford, N.C., and was graduated from Princeton College in 1872; studied law; was admitted to the bar in 1874; in the same year was appointed United States consul to Verviers and Liege, Belgium; resigned in 1877; member of the State house of representatives 1884-1886; elected as a Republican to the Fifty-fourth and Fifty-fifth Congresses (March 4, 1895-March 3, 1899); successfully contested the election of William T. Crawford to the Fifty-sixth Congress and served from May 10, 1900, to March 3, 1901; appointed by President Theodore Roosevelt as United States consul to Genoa, Italy, December 11, 1901, as Envoy Extraordinary and Minister Plenipotentiary to Persia in 1902, and as Minister to Greece and Montenegro in 1907; resigned from the diplomatic service in 1909; died at Richmond Hill, Asheville, N.C., September 12, 1923; interment in Riverside Cemetery."
+# print "\nControl (January 26, 1852): %s" % birthday_for(control)
