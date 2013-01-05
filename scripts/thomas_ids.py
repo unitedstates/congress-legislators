@@ -32,6 +32,7 @@ for m in y:
     if "thomas" in m["id"]:
       existing_senator_ids.add(m["id"]["thomas"])
 
+seen_ids = set()
 for chamber in ("House of Representatives", "Senate"):
   url = "http://beta.congress.gov/members?pageSize=500&Legislative_Source=Member+Profiles&Congress=%s&Chamber_of_Congress=%s" % (
     urllib.quote_plus(CONGRESS_ID), urllib.quote_plus(chamber))
@@ -65,6 +66,10 @@ for chamber in ("House of Representatives", "Senate"):
       if state + district not in by_district:
         print state + district + "'s", name, "appears on Congress.gov but the office is vacant in our data."
         continue
+      
+      if state + district in seen_ids:
+        print "Congress.gov lists two people for %s%s!" % (state, district)
+      seen_ids.add(state+district)
       
       by_district[state + district]["id"]["thomas"] = thomas_id
       
