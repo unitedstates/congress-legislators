@@ -83,8 +83,6 @@ Where multiple names exist, other names are listed chronologically by end date.
 
 The split between legislators-current.yaml and legislators-historical.yaml is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
 
-Legislators are listed in order of the start date of their earliest term.
-
 A separate file legislators-social-media.yaml stores social media account information. Its structure is similar but includes different fields.
 
 Legislators Data Dictionary
