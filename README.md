@@ -329,3 +329,12 @@ Check whether and how the data has changed:
 ```bash
 git diff ../*.yaml
 ```
+
+Who's Using This Data
+---------------------
+
+No one's under any obligation to **tell** us when they're using this data, but here are the ones we know about:
+
+* [GovTrack.us](http://govtrack.us) 
+* [Sunlight Labs Congress API](http://services.sunlightlabs.com/docs/Sunlight_Congress_API/)
+* [Scout](https://scout.sunlightfoundation.com/)
