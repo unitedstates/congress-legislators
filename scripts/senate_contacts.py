@@ -28,7 +28,6 @@ for m in y:
 	state = m["terms"][-1]["state"]
 	last_name = m["name"]["last"]
 	member_full = "%s (%s-%s)" % (last_name, party, state)
-	print member_full
 	by_name[member_full] = m
 
 url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
@@ -87,6 +86,9 @@ for node in dom.getroot():
 	term["url"] = url
 	term["address"] = str(node.xpath("string(address)")).strip()
 	term["office"] = string.capwords(term["address"].split(" WASHINGTON ")[0])
+
+	phone = str(node.xpath("string(phone)")).strip()
+	term["phone"] = phone.replace("(", "").replace(")", "").replace(" ", "-")
 	
 	contact_form = str(node.xpath("string(email)")).strip()
 	if contact_form: # can be blank
