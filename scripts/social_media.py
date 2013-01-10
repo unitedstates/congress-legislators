@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# run with --sweep:
+# run with --sweep (or by default):
 #   given a service, looks through current members for those missing an account on that service,
 #   and checks that member's official website's source code for mentions of that service.
 #   A CSV of "leads" is produced for manual review.
@@ -38,13 +38,6 @@ def main():
     "twitter": "http://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"']+)"
   }
 
-  print "Loading blacklist..."
-  blacklist = {
-    'twitter': [], 'facebook': [], 'services': []
-  }
-  for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
-    blacklist[rec["service"]].append(rec["pattern"])
-
   # load in members, orient by bioguide ID
   print "Loading current legislators..."
   current = load_data("legislators-current.yaml")
@@ -77,10 +70,20 @@ def main():
         to_check.append(bioguide)
       else:
         pass
+
+
+    print "Loading blacklist..."
+    blacklist = {
+      'twitter': [], 'facebook': [], 'services': []
+    }
+    for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
+      blacklist[rec["service"]].append(rec["pattern"])
     
+
     utils.mkdir_p("cache/social_media")
     writer = csv.writer(open("cache/social_media/%s_candidates.csv" % service, 'w'))
     writer.writerow(["bioguide", "official_full", "website", "service", "candidate"])
+
 
     for bioguide in to_check:
       url = current_bioguide[bioguide]["terms"][-1].get("url", None)
@@ -110,22 +113,25 @@ def main():
         print "\tWrote: %s" % candidate
 
   def update():
-    if bioguide:
-      bioguides = [bioguide]
-    else:
-      bioguides = by_bioguide.keys()
+    for rec in csv.DictReader(open("cache/social_media/%s_candidates.csv" % service)):
+      bioguide = rec["bioguide"]
+      candidate = rec["candidate"]
 
-    warnings = []
-    count = 0
+      if media_bioguide.has_key(bioguide):
+        media_bioguide[bioguide]['social'][service] = candidate
+      else:
+        new_media = {'id': {}, 'social': {}}
 
-    for bioguide in bioguides:
-      
-      count = count + 1
+        new_media['id']['bioguide'] = bioguide
+        thomas_id = current_bioguide[bioguide]['id'].get("thomas", None)
+        if thomas_id:
+          new_media['id']['thomas'] = thomas_id
 
-    print "Saving data..."
-    save_data(legislators, "legislators-current.yaml")
+        new_media['social'][service] = candidate
+        media.append(new_media)
 
-    print "Saved %d legislators" % count
+    print "Saving social media..."
+    save_data(media, "legislators-social-media.yaml")
 
   if do_update:
     update()
