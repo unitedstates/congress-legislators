@@ -8,10 +8,11 @@
 #  --cache: load from cache if present on disk (default: true)
 #  --current: do *only* current legislators (default: true)
 #  --historical: do *only* historical legislators (default: false)
+#  --bioguide: do *only* a single legislator
 
 import lxml.html, StringIO
 import datetime
-import csv, re
+import re
 import utils
 from utils import download, load_data, save_data, parse_date
 
