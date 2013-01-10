@@ -126,7 +126,7 @@ def main():
       url = current_bioguide[bioguide]['terms'][-1].get('url')
 
       if current.lower() != candidate.lower():
-        print "[%s] mismatch on %s, %s -> %s" % (bioguide, url, current, candidate)
+        print "[%s] mismatch on %s - %s -> %s" % (bioguide, url, current, candidate)
 
   def update():
     for rec in csv.DictReader(open("cache/social_media/%s_candidates.csv" % service)):
