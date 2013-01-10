@@ -38,14 +38,6 @@
     facebook_graph: CongressmanBillYoung
     youtube: CongressmanBillYoung
 - id:
-    bioguide: W000811
-    thomas: '02012'
-    govtrack: 412424
-  social:
-    twitter: RepJoeWalsh
-    youtube: RepJoeWalsh
-    facebook_graph: 126241104108023
-- id:
     bioguide: W000810
     thomas: 02008
     govtrack: 412416
@@ -67,14 +59,6 @@
     facebook_graph: 162327487151626
     twitter: RepWilson
     youtube: repfredericawilson
-- id:
-    bioguide: W000807
-    thomas: '02005'
-    govtrack: 412413
-  social:
-    twitter: AllenWest
-    youtube: AllenWestFl
-    facebook_graph: AllenWestFL
 - id:
     bioguide: W000806
     thomas: '02002'
@@ -99,13 +83,6 @@
     twitter: RobWittman
     youtube: RobWittman
     facebook_graph: RepRobWittman
-- id:
-    bioguide: W000803
-    thomas: 01822
-    govtrack: 412249
-  social:
-    youtube: SenatorWebb
-    facebook_graph: jimwebb
 - id:
     bioguide: W000802
     thomas: 01823
@@ -161,14 +138,6 @@
     youtube: RepJoeWilson
     facebook_graph: JoeWilson
 - id:
-    bioguide: W000792
-    thomas: 01597
-    govtrack: 400426
-  social:
-    twitter: repweiner
-    youtube: AskAnthonyWeiner
-    facebook_graph: AnthonyDWeiner
-- id:
     bioguide: W000791
     thomas: 01596
     govtrack: 400419
@@ -184,14 +153,6 @@
     twitter: RonWyden
     youtube: SenRonWyden
     facebook_graph: wyden
-- id:
-    bioguide: W000738
-    thomas: '01242'
-    govtrack: 400436
-  social:
-    twitter: RepLynnWoolsey
-    youtube: RepLynnWoolsey
-    facebook_graph: RepLynnWoolsey
 - id:
     bioguide: W000672
     thomas: 01238
@@ -239,13 +200,6 @@
     youtube: MaxineWaters
     facebook_graph: MaxineWaters
 - id:
-    bioguide: W000119
-    thomas: 01199
-    govtrack: 400421
-  social:
-    twitter: zachwamp
-    youtube: repzachwamp
-- id:
     bioguide: V000128
     thomas: 01729
     govtrack: 400415
@@ -261,12 +215,6 @@
     twitter: DavidVitter
     youtube: SenatorVitter
     facebook_graph: DavidVitter
-- id:
-    bioguide: V000126
-    thomas: '01575'
-    govtrack: 300098
-  social:
-    youtube: SenVoinovich
 - id:
     bioguide: V000108
     thomas: 01188
@@ -308,14 +256,6 @@
     youtube: RepFredUpton
     facebook_graph: RepFredUpton
 - id:
-    bioguide: T000471
-    thomas: 02091
-    govtrack: 412499
-  social:
-    twitter: USRepBobTurner
-    youtube: CongressmanBobTurner
-    facebook_graph: 9275036647
-- id:
     bioguide: T000470
     thomas: 01997
     govtrack: 412405
@@ -345,12 +285,6 @@
     twitter: CongressmanGT
     youtube: CongressmanGT
     facebook_graph: CongressmanGT
-- id:
-    bioguide: T000466
-    thomas: 01938
-    govtrack: 412316
-  social:
-    youtube: RepresentativeTeague
 - id:
     bioguide: T000465
     thomas: 01884
@@ -403,14 +337,6 @@
     youtube: NebraskaTerry
     facebook_graph: leeterry
 - id:
-    bioguide: T000326
-    thomas: '01165'
-    govtrack: 400409
-  social:
-    youtube: CongressmanEdTowns
-    facebook_graph: EdTowns
-    twitter: edtowns
-- id:
     bioguide: T000266
     thomas: '01535'
     govtrack: 400407
@@ -418,13 +344,6 @@
     youtube: CongressmanTierney
     twitter: RepTierney
     facebook_graph: '120477644524'
-- id:
-    bioguide: T000260
-    thomas: 01158
-    govtrack: 400405
-  social:
-    twitter: RepToddTiahrt
-    youtube: CongressmanTiahrt
 - id:
     bioguide: T000250
     thomas: '01534'
@@ -449,18 +368,6 @@
     youtube: RepBennieThompson
     facebook_graph: '99445089418'
     twitter: BennieGThompson
-- id:
-    bioguide: T000074
-    thomas: '01142'
-    govtrack: 400399
-  social:
-    youtube: repgenetaylor
-- id:
-    bioguide: T000057
-    thomas: '01533'
-    govtrack: 400396
-  social:
-    youtube: RepEllenTauscher
 - id:
     bioguide: S001189
     thomas: 02009
@@ -517,14 +424,6 @@
     youtube: RepDavidSchweikert
     facebook_graph: '150338151681908'
 - id:
-    bioguide: S001182
-    thomas: '02016'
-    govtrack: 412423
-  social:
-    twitter: RepSchilling
-    youtube: repbobbyschilling
-    facebook_graph: 128585410538393
-- id:
     bioguide: S001181
     thomas: 01901
     govtrack: 412323
@@ -549,12 +448,6 @@
     youtube: repaaronschock
     facebook_graph: '70882853544'
 - id:
-    bioguide: S001178
-    thomas: 01928
-    govtrack: 412313
-  social:
-    youtube: RepMarkSchauer
-- id:
     bioguide: S001177
     thomas: 01962
     govtrack: 412312
@@ -577,13 +470,6 @@
     youtube: JackieSpeierCA12
     facebook_graph: JackieSpeier
 - id:
-    bioguide: S001174
-    thomas: 01870
-    govtrack: 412228
-  social:
-    youtube: RepBettySutton
-    facebook_graph: 6871203036
-- id:
     bioguide: S001172
     thomas: 01860
     govtrack: 412217
@@ -592,25 +478,11 @@
     facebook_graph: 5962789983
     twitter: RepAdrianSmith
 - id:
-    bioguide: S001171
-    thomas: 01859
-    govtrack: 412225
-  social:
-    facebook_graph: CongressmanShuler
-    youtube: RepHeathShuler
-- id:
     bioguide: S001170
     thomas: 01861
     govtrack: 412219
   social:
     youtube: RepCarolSheaPorter
-- id:
-    bioguide: S001169
-    thomas: 01874
-    govtrack: 412232
-  social:
-    twitter: JoeSestak
-    youtube: Sestak07
 - id:
     bioguide: S001168
     thomas: 01854
@@ -626,18 +498,6 @@
     twitter: Rep_Albio_Sires
     youtube: RepSiresNJ13
     facebook_graph: '81058818750'
-- id:
-    bioguide: S001164
-    thomas: 01815
-    govtrack: 412010
-  social:
-    facebook_graph: '108130217090'
-- id:
-    bioguide: S001163
-    thomas: '01762'
-    govtrack: 400619
-  social:
-    youtube: SenatorSalazar
 - id:
     bioguide: S001162
     thomas: 01798
@@ -661,14 +521,6 @@
     youtube: LindaTSanchez
     facebook_graph: '29921386086'
     twitter: replindasanchez
-- id:
-    bioguide: S001155
-    thomas: 01689
-    govtrack: 400392
-  social:
-    twitter: USRepSullivan
-    youtube: SullivanOK01
-    facebook_graph: '170752815378'
 - id:
     bioguide: S001154
     thomas: 01681
@@ -702,12 +554,6 @@
     youtube: JanSchakowsky
     facebook_graph: janschakowsky
 - id:
-    bioguide: S001144
-    thomas: 01048
-    govtrack: 400370
-  social:
-    twitter: ShaysCongress
-- id:
     bioguide: S001141
     thomas: 01548
     govtrack: 300088
@@ -716,28 +562,6 @@
     youtube: SenatorSessions
     facebook_graph: jeffsessions
 - id:
-    bioguide: S001045
-    thomas: '01123'
-    govtrack: 400391
-  social:
-    youtube: BartStupak
-- id:
-    bioguide: S000822
-    thomas: '01103'
-    govtrack: 400388
-  social:
-    twitter: RepCliffStearns
-    youtube: Repcliffstearns
-    facebook_graph: RepCliffStearns
-- id:
-    bioguide: S000810
-    thomas: '01101'
-    govtrack: 400387
-  social:
-    youtube: repstark
-    facebook_graph: repstark
-    twitter: petestark
-- id:
     bioguide: S000770
     thomas: '01531'
     govtrack: 300093
@@ -745,33 +569,6 @@
     twitter: StabenowPress
     youtube: SenatorStabenow
     facebook_graph: stabenow
-- id:
-    bioguide: S000749
-    thomas: 01092
-    govtrack: 400386
-  social:
-    youtube: JohnMSpratt
-- id:
-    bioguide: S000709
-    thomas: '01437'
-    govtrack: 300092
-  social:
-    twitter: SenArlenSpecter
-    youtube: SenatorArlenSpecter
-- id:
-    bioguide: S000672
-    thomas: '01530'
-    govtrack: 400383
-  social:
-    youtube: VicSnyderAR02
-- id:
-    bioguide: S000663
-    thomas: 01085
-    govtrack: 300091
-  social:
-    twitter: SenatorSnowe
-    youtube: senatorolympiasnowe
-    facebook_graph: 165865453427287
 - id:
     bioguide: S000583
     thomas: '01075'
@@ -825,13 +622,6 @@
     twitter: SenShelbyPress
     youtube: SenatorRichardShelby
     facebook_graph: RichardShelby
-- id:
-    bioguide: S000275
-    thomas: '01043'
-    govtrack: 400368
-  social:
-    twitter: RepJohnShadegg
-    youtube: JohnShadegg
 - id:
     bioguide: S000250
     thomas: '01525'
@@ -928,14 +718,6 @@
     facebook_graph: '174519582574426'
     youtube: RepMarthaRoby
 - id:
-    bioguide: R000590
-    thomas: '02007'
-    govtrack: 412415
-  social:
-    facebook_graph: 174136165957653
-    twitter: RepRivera
-    youtube: RepRivera
-- id:
     bioguide: R000589
     thomas: 02068
     govtrack: 412483
@@ -998,14 +780,6 @@
     youtube: amandarlittle288
     facebook_graph: '130725126985966'
 - id:
-    bioguide: R000581
-    thomas: 01883
-    govtrack: 412253
-  social:
-    facebook_graph: RepresentativeLauraRichardson
-    twitter: replrichardson
-    youtube: RepLRichardson
-- id:
     bioguide: R000580
     thomas: 01848
     govtrack: 412202
@@ -1045,14 +819,6 @@
     twitter: RepMikeRogersAL
     youtube: MikeRogersAL03
 - id:
-    bioguide: R000573
-    thomas: '01632'
-    govtrack: 400345
-  social:
-    twitter: RepMikeRoss
-    youtube: MikeRossArkansas04
-    facebook_graph: RepMikeRoss
-- id:
     bioguide: R000572
     thomas: '01651'
     govtrack: 400342
@@ -1060,14 +826,6 @@
     youtube: RepMikeRogers
     facebook_graph: '168209963203416'
     twitter: RepMikeRogers
-- id:
-    bioguide: R000571
-    thomas: '01657'
-    govtrack: 400335
-  social:
-    twitter: DennyRehberg
-    youtube: DennyRehberg
-    facebook_graph: denny.rehberg.mt
 - id:
     bioguide: R000570
     thomas: '01560'
@@ -1137,14 +895,6 @@
     youtube: SenPatRoberts
     facebook_graph: SenPatRoberts
 - id:
-    bioguide: R000170
-    thomas: '01516'
-    govtrack: 400337
-  social:
-    youtube: RepReyes
-    facebook_graph: '105434391510'
-    twitter: silvestrereyes
-- id:
     bioguide: R000146
     thomas: 00952
     govtrack: 300082
@@ -1174,21 +924,6 @@
   social:
     youtube: NRAHALLWV03
     facebook_graph: NickRahall
-- id:
-    bioguide: R000004
-    thomas: 00939
-    govtrack: 400330
-  social:
-    twitter: RepRadanovich
-    youtube: RadanovichCA19
-- id:
-    bioguide: Q000024
-    thomas: 01993
-    govtrack: 412398
-  social:
-    twitter: benquayle
-    youtube: repbenquayle
-    facebook_graph: 119939744741668
 - id:
     bioguide: Q000023
     thomas: 01967
@@ -1220,13 +955,6 @@
     facebook_graph: 186908658003781
     twitter: StevenPalazzo
     youtube: CongressmanPalazzo
-- id:
-    bioguide: P000600
-    thomas: 01958
-    govtrack: 412304
-  social:
-    twitter: tomperriello
-    youtube: TomPerriello
 - id:
     bioguide: P000599
     thomas: 01915
@@ -1316,35 +1044,6 @@
     youtube: NMStevePearce
     facebook_graph: 180280568662135
 - id:
-    bioguide: P000587
-    thomas: 01649
-    govtrack: 400315
-  social:
-    twitter: RepMikePence
-    youtube: CongressmanMikePence
-    facebook_graph: mikepence
-- id:
-    bioguide: P000586
-    thomas: '01645'
-    govtrack: 400328
-  social:
-    youtube: FL12Putnam
-- id:
-    bioguide: P000585
-    thomas: '01667'
-    govtrack: 400321
-  social:
-    youtube: RepToddPlatts
-    facebook_graph: 7894694121
-- id:
-    bioguide: P000583
-    thomas: 00900
-    govtrack: 400311
-  social:
-    twitter: RepRonPaul
-    youtube: CongressmanRonPaul
-    facebook_graph: ronpaul
-- id:
     bioguide: P000523
     thomas: 00930
     govtrack: 400326
@@ -1360,12 +1059,6 @@
     twitter: robportman
     youtube: SenRobPortman
     facebook_graph: robportman
-- id:
-    bioguide: P000422
-    thomas: 00922
-    govtrack: 400323
-  social:
-    youtube: earlpomeroy
 - id:
     bioguide: P000373
     thomas: '01514'
@@ -1395,12 +1088,6 @@
     twitter: NancyPelosi
     youtube: nancypelosi
     facebook_graph: NancyPelosi
-- id:
-    bioguide: P000149
-    thomas: 00902
-    govtrack: 400312
-  social:
-    youtube: CongressmanPayne
 - id:
     bioguide: P000096
     thomas: '01510'
@@ -1433,33 +1120,6 @@
     youtube: PeteOlsonTX22
     facebook_graph: '20718168936'
 - id:
-    bioguide: O000167
-    thomas: '01763'
-    govtrack: 400629
-  social:
-    twitter: BarackObama
-- id:
-    bioguide: O000085
-    thomas: 00879
-    govtrack: 400301
-  social:
-    facebook_graph: CongressmanJohnOlver
-    twitter: RepJohnOlver
-    youtube: CongressmanOlver
-- id:
-    bioguide: O000007
-    thomas: 00877
-    govtrack: 400300
-  social:
-    youtube: CongressmanDaveObey
-- id:
-    bioguide: O000006
-    thomas: 00876
-    govtrack: 400299
-  social:
-    twitter: JimOberstar
-    youtube: RepOberstar
-- id:
     bioguide: N000186
     thomas: '02034'
     govtrack: 412442
@@ -1483,13 +1143,6 @@
     youtube: RepKristiNoem
     facebook_graph: '118670721538023'
 - id:
-    bioguide: N000183
-    thomas: 01957
-    govtrack: 412301
-  social:
-    twitter: GlennNye
-    youtube: GlennNye
-- id:
     bioguide: N000182
     thomas: 01758
     govtrack: 400441
@@ -1505,14 +1158,6 @@
     youtube: RepDevinNunes
     facebook_graph: 1693459598
     twitter: devinnunes
-- id:
-    bioguide: N000180
-    thomas: '01627'
-    govtrack: 300077
-  social:
-    twitter: SenBenNelson
-    youtube: SenBenNelson
-    facebook_graph: senatorbennelson
 - id:
     bioguide: N000179
     thomas: '01602'
@@ -1607,32 +1252,6 @@
     youtube: senatorjeffmerkley
     facebook_graph: jeffmerkley
 - id:
-    bioguide: M001175
-    thomas: 01918
-    govtrack: 412300
-  social:
-    twitter: WaltMinnick
-    youtube: CongressmanMinnick
-- id:
-    bioguide: M001174
-    thomas: 01941
-    govtrack: 412296
-  social:
-    twitter: RepMikeMcMahon
-    youtube: McMahonNY13
-- id:
-    bioguide: M001173
-    thomas: 01945
-    govtrack: 412299
-  social:
-    twitter: EricMassa
-- id:
-    bioguide: M001172
-    thomas: 01911
-    govtrack: 412298
-  social:
-    youtube: RepBetsyMarkey
-- id:
     bioguide: M001170
     thomas: 01820
     govtrack: 412243
@@ -1646,13 +1265,6 @@
     govtrack: 412194
   social:
     youtube: RepChrisMurphy
-- id:
-    bioguide: M001167
-    thomas: 01830
-    govtrack: 412187
-  social:
-    twitter: HarryEMitchell
-    youtube: RepHarryMitchell
 - id:
     bioguide: M001166
     thomas: 01832
@@ -1677,19 +1289,6 @@
     youtube: RepDorisMatsui
     twitter: DorisMatsui
     facebook_graph: doris.matsui
-- id:
-    bioguide: M001162
-    thomas: 01769
-    govtrack: 400621
-  social:
-    twitter: melmartinez
-    youtube: SenMartinezdotgov
-- id:
-    bioguide: M001161
-    thomas: 01786
-    govtrack: 400635
-  social:
-    youtube: RepCharlieMelancon
 - id:
     bioguide: M001160
     thomas: 01811
@@ -1731,22 +1330,6 @@
     youtube: CongressmanMcHenry
     facebook_graph: CongressmanMcHenry
 - id:
-    bioguide: M001155
-    thomas: '01776'
-    govtrack: 400622
-  social:
-    twitter: RepConnieMack
-    youtube: RepConnieMack
-    facebook_graph: RepConnieMack
-- id:
-    bioguide: M001154
-    thomas: '01735'
-    govtrack: 400280
-  social:
-    youtube: MillerNC13
-    facebook_graph: repbradmiller
-    twitter: RepBradMiller
-- id:
     bioguide: M001153
     thomas: 01694
     govtrack: 300075
@@ -1779,27 +1362,6 @@
     facebook_graph: '131279995382'
     youtube: repmikemichaud
 - id:
-    bioguide: M001148
-    thomas: '01715'
-    govtrack: 400270
-  social:
-    twitter: kendrickbmeek
-    youtube: KendrickBMeek
-- id:
-    bioguide: M001147
-    thomas: '01732'
-    govtrack: 400260
-  social:
-    twitter: ThadMcCotter
-    youtube: RepMcCotter
-    facebook_graph: thaddeusmccotter
-- id:
-    bioguide: M001146
-    thomas: 01718
-    govtrack: 400254
-  social:
-    youtube: RepJimMarshall
-- id:
     bioguide: M001144
     thomas: 01685
     govtrack: 400279
@@ -1823,12 +1385,6 @@
     youtube: RepJimMatheson
     facebook_graph: '131888123517015'
 - id:
-    bioguide: M001140
-    thomas: '01561'
-    govtrack: 400282
-  social:
-    youtube: RepDennisMoore
-- id:
     bioguide: M001139
     thomas: 01584
     govtrack: 400277
@@ -1837,34 +1393,12 @@
     youtube: GaryGMiller
     facebook_graph: RepGaryMiller
 - id:
-    bioguide: M001138
-    thomas: '00733'
-    govtrack: 400252
-  social:
-    twitter: donmanzullo
-    youtube: repmanzullo
-    facebook_graph: donmanzullo
-- id:
     bioguide: M001137
     thomas: '01506'
     govtrack: 400271
   social:
     twitter: GregoryMeeks
     facebook_graph: gregory.meeks
-- id:
-    bioguide: M001134
-    thomas: 00849
-    govtrack: 400288
-  social:
-    twitter: SueMyrick
-    youtube: SueMyrickNC09
-    facebook_graph: SueMyrickNC
-- id:
-    bioguide: M001120
-    thomas: 00844
-    govtrack: 400286
-  social:
-    youtube: JohnMurtha
 - id:
     bioguide: M001111
     thomas: 01409
@@ -1936,12 +1470,6 @@
     twitter: repmikemcintyre
     youtube: RepMikeMcIntyre
     facebook_graph: mikemcintyre
-- id:
-    bioguide: M000472
-    thomas: '00773'
-    govtrack: 400264
-  social:
-    youtube: RepJohnMcHugh
 - id:
     bioguide: M000404
     thomas: '00766'
@@ -2022,14 +1550,6 @@
     youtube: replankford
     facebook_graph: RepLankford
 - id:
-    bioguide: L000574
-    thomas: '02024'
-    govtrack: 412433
-  social:
-    twitter: repjefflandry
-    youtube: repjefflandry
-    facebook_graph: repjefflandry
-- id:
     bioguide: L000573
     thomas: '02011'
     govtrack: 412419
@@ -2037,12 +1557,6 @@
     facebook_graph: 180970951936493
     twitter: Raul_Labrador
     youtube: RepLabrador
-- id:
-    bioguide: L000572
-    thomas: 01971
-    govtrack: 412380
-  social:
-    twitter: George_LeMieux
 - id:
     bioguide: L000571
     thomas: 01960
@@ -2066,14 +1580,6 @@
   social:
     youtube: BLuetkemeyer
     facebook_graph: BlaineLuetkemeyer
-- id:
-    bioguide: L000568
-    thomas: 01944
-    govtrack: 412291
-  social:
-    twitter: chrislee_ny26
-    youtube: congressmanlee
-    facebook_graph: RepChrisLee
 - id:
     bioguide: L000567
     thomas: 01936
@@ -2150,14 +1656,6 @@
     youtube: USRepFrankLoBiondo
     facebook_graph: FrankLoBiondo
 - id:
-    bioguide: L000553
-    thomas: '00667'
-    govtrack: 400235
-  social:
-    twitter: SteveLaTourette
-    youtube: StevenLatourette
-    facebook_graph: stevenlatourette
-- id:
     bioguide: L000551
     thomas: '01501'
     govtrack: 400237
@@ -2174,22 +1672,6 @@
     facebook_graph: senatormarylandrieu
     twitter: senlandrieu
 - id:
-    bioguide: L000517
-    thomas: '00717'
-    govtrack: 400617
-  social:
-    youtube: RepLungrenCA03
-    facebook_graph: Dan.Lungren
-    twitter: RepDanLungren
-- id:
-    bioguide: L000504
-    thomas: 01387
-    govtrack: 300070
-  social:
-    twitter: senatorlugar
-    youtube: senatorlugar
-    facebook_graph: senatorlugar
-- id:
     bioguide: L000491
     thomas: '00711'
     govtrack: 400247
@@ -2205,32 +1687,12 @@
     youtube: nitalowey
     facebook_graph: '158290607551599'
 - id:
-    bioguide: L000447
-    thomas: '00707'
-    govtrack: 300069
-  social:
-    youtube: SenatorLincoln
-- id:
     bioguide: L000397
     thomas: '00701'
     govtrack: 400245
   social:
     facebook_graph: zoelofgren
     twitter: RepZoeLofgren
-- id:
-    bioguide: L000321
-    thomas: 00693
-    govtrack: 400242
-  social:
-    youtube: linderje
-- id:
-    bioguide: L000304
-    thomas: 01385
-    govtrack: 300067
-  social:
-    twitter: JoeLieberman
-    youtube: SenatorJoeLieberman
-    facebook_graph: joelieberman
 - id:
     bioguide: L000287
     thomas: 00688
@@ -2239,14 +1701,6 @@
     youtube: RepJohnLewis
     facebook_graph: 82737208404
     twitter: RepJohnLewis
-- id:
-    bioguide: L000274
-    thomas: 00687
-    govtrack: 400239
-  social:
-    twitter: RepJerryLewis
-    youtube: RepJerryLewis1
-    facebook_graph: '141850062373'
 - id:
     bioguide: L000263
     thomas: 00683
@@ -2288,18 +1742,6 @@
     youtube: CongressmanTomLatham
     facebook_graph: '700499667'
 - id:
-    bioguide: L000043
-    thomas: '01500'
-    govtrack: 400229
-  social:
-    youtube: CongressmanLampson
-- id:
-    bioguide: L000035
-    thomas: '01570'
-    govtrack: 300068
-  social:
-    youtube: SenatorLincoln
-- id:
     bioguide: K000378
     thomas: '02014'
     govtrack: 412421
@@ -2323,58 +1765,12 @@
     twitter: USRep_Keating
     youtube: RepBillKeating
 - id:
-    bioguide: K000373
-    thomas: 01964
-    govtrack: 412329
-  social:
-    youtube: SenatorTed
-- id:
-    bioguide: K000372
-    thomas: 01948
-    govtrack: 412285
-  social:
-    twitter: RepMaryJoKilroy
-    youtube: RepMaryJoKilroy
-- id:
-    bioguide: K000370
-    thomas: 01917
-    govtrack: 412288
-  social:
-    youtube: CongresswomanKosmas
-- id:
-    bioguide: K000369
-    thomas: 01934
-    govtrack: 412287
-  social:
-    facebook_graph: '11156132835'
-    twitter: RepLarryKissell
-    youtube: RepLarryKissell
-- id:
     bioguide: K000367
     thomas: 01826
     govtrack: 412242
   social:
     youtube: senatorklobuchar
     facebook_graph: '7606381190'
-- id:
-    bioguide: K000366
-    thomas: 01842
-    govtrack: 412198
-  social:
-    youtube: RepRonKlein
-    twitter: RepRonKlein
-- id:
-    bioguide: K000365
-    thomas: 01880
-    govtrack: 412240
-  social:
-    youtube: CongressmanKagen
-- id:
-    bioguide: K000364
-    thomas: 01795
-    govtrack: 400642
-  social:
-    twitter: RandyKuhl
 - id:
     bioguide: K000363
     thomas: '01733'
@@ -2400,29 +1796,6 @@
     youtube: SenatorKirk
     facebook_graph: SenatorKirk
 - id:
-    bioguide: K000352
-    thomas: '00655'
-    govtrack: 300062
-  social:
-    twitter: senjonkyl
-    youtube: SenJonKyl
-    facebook_graph: jonkyl
-- id:
-    bioguide: K000336
-    thomas: 01499
-    govtrack: 400227
-  social:
-    twitter: Dennis_Kucinich
-    youtube: djkucinich
-    facebook_graph: 147050393077
-- id:
-    bioguide: K000305
-    thomas: 01380
-    govtrack: 300061
-  social:
-    youtube: SenatorKohl
-    facebook_graph: herbkohl
-- id:
     bioguide: K000220
     thomas: '00636'
     govtrack: 400221
@@ -2447,20 +1820,6 @@
     twitter: repronkind
     facebook_graph: repronkind
 - id:
-    bioguide: K000180
-    thomas: 01497
-    govtrack: 400217
-  social:
-    twitter: RepKilpatrick
-    youtube: repkilpatrick
-- id:
-    bioguide: K000172
-    thomas: '00631'
-    govtrack: 400216
-  social:
-    youtube: repdalekildee
-    facebook_graph: '107229849424'
-- id:
     bioguide: K000148
     thomas: 01379
     govtrack: 300060
@@ -2469,12 +1828,6 @@
     youtube: senatorkerry
     facebook_graph: johnkerry
 - id:
-    bioguide: K000113
-    thomas: '00627'
-    govtrack: 400215
-  social:
-    youtube: RepPatrickKennedy
-- id:
     bioguide: K000009
     thomas: '00616'
     govtrack: 400211
@@ -2482,13 +1835,6 @@
     youtube: RepKaptur
     facebook_graph: 6225522279
     twitter: RepMarcyKaptur
-- id:
-    bioguide: K000008
-    thomas: '00615'
-    govtrack: 400210
-  social:
-    youtube: CongressmanKanjorski
-    twitter: PaulKanjorski
 - id:
     bioguide: J000293
     thomas: 02086
@@ -2537,22 +1883,6 @@
     twitter: RepHankJohnson
     youtube: RepHankJohnson
     facebook_graph: '115356957005'
-- id:
-    bioguide: J000285
-    thomas: 01648
-    govtrack: 400207
-  social:
-    youtube: RepTimVJohnson
-    facebook_graph: 111124328962250
-    twitter: RepTimJohnson
-- id:
-    bioguide: J000283
-    thomas: 00587
-    govtrack: 400198
-  social:
-    youtube: JesseJrTube
-    facebook_graph: '16250110021'
-    twitter: RepJJJr
 - id:
     bioguide: J000255
     thomas: '00612'
@@ -2617,14 +1947,6 @@
     youtube: SenatorIsakson
     facebook_graph: 86611900672
 - id:
-    bioguide: I000026
-    thomas: 00584
-    govtrack: 400193
-  social:
-    twitter: RepInsleeNews
-    youtube: jayinslee
-    facebook_graph: jayinslee
-- id:
     bioguide: I000024
     thomas: 00583
     govtrack: 300055
@@ -2633,13 +1955,6 @@
     youtube: JimInhofePressOffice
     facebook_graph: jiminhofe
 - id:
-    bioguide: I000023
-    thomas: 00582
-    govtrack: 400649
-  social:
-    twitter: bobinglis
-    youtube: CongressmanInglis
-- id:
     bioguide: H001063
     thomas: 02089
     govtrack: 412498
@@ -2647,14 +1962,6 @@
     facebook_graph: Congresswoman-Janice-Hahn
     twitter: Rep_JaniceHahn
     youtube: RepJaniceHahn
-- id:
-    bioguide: H001062
-    thomas: 02088
-    govtrack: 412497
-  social:
-    facebook_graph: 173600989370112
-    twitter: RepKathyHochul
-    youtube: RepKathyHochul
 - id:
     bioguide: H001061
     thomas: 02079
@@ -2709,14 +2016,6 @@
     twitter: heck4nevada
     youtube: repjoeheck
     facebook_graph: '155211751194624'
-- id:
-    bioguide: H001054
-    thomas: '02042'
-    govtrack: 412452
-  social:
-    twitter: RepNanHayworth
-    youtube: Repnanhayworth
-    facebook_graph: RepNanHayworth
 - id:
     bioguide: H001053
     thomas: '02032'
@@ -2781,19 +2080,6 @@
     youtube: congressmanharper
     facebook_graph: GreggHarper
 - id:
-    bioguide: H001044
-    thomas: 01919
-    govtrack: 412279
-  social:
-    twitter: debbiehalvorson
-    youtube: repdebbiehalvorson
-- id:
-    bioguide: H001043
-    thomas: 01862
-    govtrack: 412220
-  social:
-    twitter: PaulHodes
-- id:
     bioguide: H001042
     thomas: 01844
     govtrack: 412200
@@ -2810,18 +2096,6 @@
     youtube: CongressmanHeller
     facebook_graph: '325751330177'
 - id:
-    bioguide: H001040
-    thomas: 01849
-    govtrack: 412204
-  social:
-    youtube: philhareil17
-- id:
-    bioguide: H001039
-    thomas: 01865
-    govtrack: 412222
-  social:
-    youtube: RepJohnHall
-- id:
     bioguide: H001038
     thomas: 01794
     govtrack: 400641
@@ -2829,12 +2103,6 @@
     twitter: RepBrianHiggins
     youtube: CongressmanHiggins
     facebook_graph: RepBrianHiggins
-- id:
-    bioguide: H001037
-    thomas: '01760'
-    govtrack: 400443
-  social:
-    youtube: hersethsandlin
 - id:
     bioguide: H001036
     thomas: 01749
@@ -2860,26 +2128,6 @@
     facebook_graph: 8059450778
     twitter: rushholt
 - id:
-    bioguide: H001030
-    thomas: 01578
-    govtrack: 400177
-  social:
-    youtube: CongressmanBaronHill
-- id:
-    bioguide: H001016
-    thomas: 01368
-    govtrack: 300054
-  social:
-    twitter: kaybaileyhutch
-    youtube: SenatorHutchison
-    facebook_graph: kaybaileyhutchison
-- id:
-    bioguide: H000981
-    thomas: '00575'
-    govtrack: 400191
-  social:
-    twitter: 'duncanhunter '
-- id:
     bioguide: H000874
     thomas: '00566'
     govtrack: 400189
@@ -2888,26 +2136,6 @@
     youtube: LeaderHoyer
     facebook_graph: stenyhoyer
 - id:
-    bioguide: H000762
-    thomas: 01491
-    govtrack: 400186
-  social:
-    youtube: DarleneHooley
-- id:
-    bioguide: H000712
-    thomas: '00550'
-    govtrack: 400183
-  social:
-    facebook_graph: CongressmanTimHolden
-    twitter: RepTimHolden
-- id:
-    bioguide: H000676
-    thomas: '00547'
-    govtrack: 400182
-  social:
-    twitter: petehoekstra
-    youtube: HoekstraPress
-- id:
     bioguide: H000636
     thomas: 01490
     govtrack: 400179
@@ -2915,21 +2143,6 @@
     twitter: USRepRHinojosa
     youtube: RepRubenHinojosa
     facebook_graph: CongressmanRubenHinojosa
-- id:
-    bioguide: H000627
-    thomas: '00541'
-    govtrack: 400178
-  social:
-    twitter: mauricehinchey
-    youtube: RepMauriceHinchey
-    facebook_graph: MauriceHinchey
-- id:
-    bioguide: H000528
-    thomas: '00533'
-    govtrack: 400176
-  social:
-    youtube: RepWallyHerger
-    facebook_graph: '106290861103'
 - id:
     bioguide: H000338
     thomas: '01351'
@@ -2954,14 +2167,6 @@
     youtube: RepAlceeHastings
     facebook_graph: '95696782238'
 - id:
-    bioguide: H000213
-    thomas: '00502'
-    govtrack: 400166
-  social:
-    twitter: RepJaneHarman
-    youtube: RepJaneHarman
-    facebook_graph: '20180373000'
-- id:
     bioguide: H000206
     thomas: '00501'
     govtrack: 300051
@@ -2975,14 +2180,6 @@
     govtrack: 400165
   social:
     facebook_graph: '6311458773'
-- id:
-    bioguide: G000570
-    thomas: 02038
-    govtrack: 412447
-  social:
-    twitter: frankguinta
-    youtube: FrankGuintaNH01
-    facebook_graph: repfrankguinta
 - id:
     bioguide: G000568
     thomas: '02070'
@@ -3078,14 +2275,6 @@
     youtube: KirstenEGillibrand
     facebook_graph: KirstenGillibrand
 - id:
-    bioguide: G000554
-    thomas: 01831
-    govtrack: 412188
-  social:
-    twitter: Rep_Giffords
-    youtube: giffords2
-    facebook_graph: GabrielleGiffords
-- id:
     bioguide: G000553
     thomas: 01803
     govtrack: 400653
@@ -3140,14 +2329,6 @@
   social:
     facebook_graph: 118514606128
 - id:
-    bioguide: G000544
-    thomas: '01555'
-    govtrack: 400152
-  social:
-    youtube: charlesagonzalez
-    facebook_graph: '55174583605'
-    twitter: TX20CharlieG
-- id:
     bioguide: G000535
     thomas: 00478
     govtrack: 400163
@@ -3187,12 +2368,6 @@
     youtube: USSenLindseyGraham
     facebook_graph: USSenatorLindseyGraham
 - id:
-    bioguide: G000309
-    thomas: 00448
-    govtrack: 400155
-  social:
-    youtube: repbartgordon
-- id:
     bioguide: G000289
     thomas: '00446'
     govtrack: 400154
@@ -3200,14 +2375,6 @@
     twitter: RepGoodlatte
     youtube: RepBobGoodlatte
     facebook_graph: BobGoodlatte
-- id:
-    bioguide: G000021
-    thomas: '00425'
-    govtrack: 400144
-  social:
-    twitter: eltongallegly24
-    youtube: usrepeltongallegly
-    facebook_graph: eltongallegly
 - id:
     bioguide: F000461
     thomas: '02065'
@@ -3265,13 +2432,6 @@
     youtube: marcialfudge
     facebook_graph: RepMarciaLFudge
 - id:
-    bioguide: F000453
-    thomas: 01872
-    govtrack: 412230
-  social:
-    twitter: RepMaryFallin
-    youtube: RepMaryFallin
-- id:
     bioguide: F000451
     thomas: 01797
     govtrack: 400646
@@ -3327,21 +2487,6 @@
     facebook_graph: 20158179584
     twitter: RodneyforNJ
 - id:
-    bioguide: F000339
-    thomas: '00407'
-    govtrack: 400140
-  social:
-    youtube: barneyfrank
-    facebook_graph: barneyfrank
-- id:
-    bioguide: F000116
-    thomas: 00381
-    govtrack: 400133
-  social:
-    twitter: CongBobFilner
-    facebook_graph: bobfilner
-    youtube: bobfilnerca51
-- id:
     bioguide: F000062
     thomas: '01332'
     govtrack: 300043
@@ -3349,13 +2494,6 @@
     youtube: SenatorFeinstein
     facebook_graph: DianneFeinstein
     twitter: senfeinstein
-- id:
-    bioguide: F000061
-    thomas: '01331'
-    govtrack: 300042
-  social:
-    twitter: russfeingold
-    youtube: SenRussFeingold
 - id:
     bioguide: F000043
     thomas: '00371'
@@ -3389,12 +2527,6 @@
     facebook_graph: '107297211756'
     twitter: repdonnaedwards
 - id:
-    bioguide: E000289
-    thomas: 01851
-    govtrack: 412206
-  social:
-    youtube: RepBradEllsworth
-- id:
     bioguide: E000288
     thomas: 01857
     govtrack: 412215
@@ -3419,14 +2551,6 @@
     youtube: RepAnnaEshoo
     facebook_graph: RepAnnaEshoo
 - id:
-    bioguide: E000194
-    thomas: 00348
-    govtrack: 300040
-  social:
-    twitter: SenEnsign
-    youtube: SenatorEnsign
-    facebook_graph: johnensign
-- id:
     bioguide: E000179
     thomas: '00344'
     govtrack: 400122
@@ -3442,18 +2566,6 @@
     twitter: joannemerson
     youtube: USRepJoAnnEmerson
     facebook_graph: 7912365134
-- id:
-    bioguide: E000092
-    thomas: 00339
-    govtrack: 400119
-  social:
-    youtube: CongressmanEhlers
-- id:
-    bioguide: E000063
-    thomas: '00335'
-    govtrack: 400118
-  social:
-    youtube: ChetEdwardsTexas
 - id:
     bioguide: D000616
     thomas: '02062'
@@ -3479,14 +2591,6 @@
     youtube: RepSeanDuffy
     facebook_graph: RepSeanDuffy
 - id:
-    bioguide: D000613
-    thomas: '02013'
-    govtrack: 412420
-  social:
-    twitter: RepDold
-    youtube: RepDold
-    facebook_graph: '131680867001'
-- id:
     bioguide: D000612
     thomas: 01995
     govtrack: 412403
@@ -3503,13 +2607,6 @@
     youtube: congressmanteddeutch
     facebook_graph: '112179098816942'
 - id:
-    bioguide: D000609
-    thomas: 01946
-    govtrack: 412274
-  social:
-    twitter: SteveDriehaus1
-    youtube: SteveDriehausOH01
-- id:
     bioguide: D000607
     thomas: 01850
     govtrack: 412205
@@ -3525,20 +2622,6 @@
     youtube: CongressmanDent
     facebook_graph: '6770045221'
 - id:
-    bioguide: D000603
-    thomas: 01784
-    govtrack: 400633
-  social:
-    youtube: CongressmanDavis
-    facebook_graph: 6442966307
-    twitter: RepGeoffDavis
-- id:
-    bioguide: D000602
-    thomas: '01705'
-    govtrack: 400092
-  social:
-    twitter: ArturDavis
-- id:
     bioguide: D000600
     thomas: '01717'
     govtrack: 400108
@@ -3552,14 +2635,6 @@
     govtrack: 400097
   social:
     facebook_graph: '103767526332478'
-- id:
-    bioguide: D000595
-    thomas: '01605'
-    govtrack: 400105
-  social:
-    twitter: JimDeMint
-    youtube: SenJimDeMint
-    facebook_graph: senatordemint
 - id:
     bioguide: D000563
     thomas: '00326'
@@ -3576,12 +2651,6 @@
     youtube: repjohnduncan
     facebook_graph: CongressmanDuncan
 - id:
-    bioguide: D000492
-    thomas: '00317'
-    govtrack: 400115
-  social:
-    youtube: RepDavidDreier
-- id:
     bioguide: D000482
     thomas: '00316'
     govtrack: 400114
@@ -3589,12 +2658,6 @@
     twitter: USRepMikeDoyle
     youtube: CongressmanDoyle
     facebook_graph: usrepmikedoyle
-- id:
-    bioguide: D000432
-    thomas: 00308
-    govtrack: 300037
-  social:
-    youtube: senatordorgan
 - id:
     bioguide: D000399
     thomas: '00303'
@@ -3604,13 +2667,6 @@
     facebook_graph: lloyddoggett
     twitter: RepLloydDoggett
 - id:
-    bioguide: D000388
-    thomas: '00302'
-    govtrack: 300034
-  social:
-    twitter: SenChrisDodd
-    youtube: SenChrisDodd
-- id:
     bioguide: D000355
     thomas: 00299
     govtrack: 400110
@@ -3619,14 +2675,6 @@
     youtube: DingellMI15
     facebook_graph: johndingell
 - id:
-    bioguide: D000327
-    thomas: 00297
-    govtrack: 400109
-  social:
-    twitter: RepNormDicks
-    youtube: RepNormDicks
-    facebook_graph: NormDicks
-- id:
     bioguide: D000216
     thomas: 00281
     govtrack: 400103
@@ -3634,12 +2682,6 @@
     twitter: rosadelauro
     youtube: RosaDeLauro
     facebook_graph: RosaDelauro
-- id:
-    bioguide: D000210
-    thomas: 01480
-    govtrack: 400102
-  social:
-    youtube: repdelahunt
 - id:
     bioguide: D000197
     thomas: 01479
@@ -3679,22 +2721,6 @@
     twitter: RepRickCrawford
     youtube: RepRickCrawford
 - id:
-    bioguide: C001086
-    thomas: '02031'
-    govtrack: 412441
-  social:
-    twitter: RepChipCravaack
-    youtube: RepChipCravaack
-    facebook_graph: RepChipCravaack
-- id:
-    bioguide: C001085
-    thomas: '02030'
-    govtrack: 412440
-  social:
-    facebook_graph: '184181851603316'
-    twitter: RepHansenClarke
-    youtube: rephansenclarke
-- id:
     bioguide: C001084
     thomas: '02055'
     govtrack: 412470
@@ -3703,22 +2729,6 @@
     facebook_graph: mayorcicilline
     twitter: repcicilline
 - id:
-    bioguide: C001082
-    thomas: '02066'
-    govtrack: 412481
-  social:
-    twitter: RepCanseco
-    youtube: CongressmanCanseco
-    facebook_graph: RepCanseco
-- id:
-    bioguide: C001081
-    thomas: 01977
-    govtrack: 412386
-  social:
-    twitter: RepMarkCritz
-    youtube: RepMarkCritz
-    facebook_graph: '124105914288036'
-- id:
     bioguide: C001080
     thomas: 01970
     govtrack: 412379
@@ -3726,13 +2736,6 @@
     facebook_graph: RepJudyChu
     twitter: RepJudyChu
     youtube: RepJudyChu
-- id:
-    bioguide: C001079
-    thomas: 01923
-    govtrack: 412268
-  social:
-    twitter: AnhJosephCao
-    youtube: AnhJosephCao
 - id:
     bioguide: C001078
     thomas: 01959
@@ -3765,12 +2768,6 @@
     twitter: DrCassidy
     youtube: repbillcassidy
     facebook_graph: RepBillCassidy
-- id:
-    bioguide: C001074
-    thomas: 01893
-    govtrack: 412262
-  social:
-    youtube: CongressmanChilders
 - id:
     bioguide: C001072
     thomas: 01889
@@ -3858,14 +2855,6 @@
     facebook_graph: emanuelcleaverii
     twitter: repcleaver
 - id:
-    bioguide: C001060
-    thomas: 01789
-    govtrack: 400638
-  social:
-    twitter: RepCarnahan
-    youtube: congressmancarnahan
-    facebook_graph: congressmancarnahan
-- id:
     bioguide: C001059
     thomas: '01774'
     govtrack: 400618
@@ -3895,14 +2884,6 @@
     twitter: JudgeCarter
     youtube: RepJohnCarter
     facebook_graph: judgecarter
-- id:
-    bioguide: C001050
-    thomas: 01709
-    govtrack: 400065
-  social:
-    twitter: RepCardoza
-    youtube: congressmancardoza
-    facebook_graph: RepDennisCardoza
 - id:
     bioguide: C001049
     thomas: '01654'
@@ -3941,12 +2922,6 @@
     twitter: AnderCrenshaw
     youtube: RepAnderCrenshaw
     facebook_graph: '200388204657'
-- id:
-    bioguide: C001041
-    thomas: '01631'
-    govtrack: 300022
-  social:
-    twitter: hillaryclinton
 - id:
     bioguide: C001038
     thomas: '01604'
@@ -3992,14 +2967,6 @@
     youtube: senatorcrapo
     facebook_graph: mikecrapo
 - id:
-    bioguide: C000794
-    thomas: 00238
-    govtrack: 400082
-  social:
-    twitter: jerrycostello
-    youtube: repjerrycostello
-    facebook_graph: '115552205154936'
-- id:
     bioguide: C000754
     thomas: '00231'
     govtrack: 400081
@@ -4015,13 +2982,6 @@
     twitter: repjohnconyers
     youtube: JCMI14
     facebook_graph: CongressmanConyers
-- id:
-    bioguide: C000705
-    thomas: '01307'
-    govtrack: 300026
-  social:
-    youtube: SenatorConrad
-    facebook_graph: kentconrad
 - id:
     bioguide: C000560
     thomas: '00212'
@@ -4077,13 +3037,6 @@
     facebook_graph: '69362317921'
     youtube: congressmanchabot
 - id:
-    bioguide: C000243
-    thomas: 00183
-    govtrack: 400070
-  social:
-    twitter: repmikecastle
-    youtube: mncastle
-- id:
     bioguide: C000174
     thomas: 00179
     govtrack: 300019
@@ -4138,14 +3091,6 @@
     twitter: SenBlumenthal
     youtube: SenatorBlumenthal
 - id:
-    bioguide: B001276
-    thomas: '02045'
-    govtrack: 412456
-  social:
-    twitter: RepBuerkle
-    youtube: RepBuerkle
-    facebook_graph: 112695845462513
-- id:
     bioguide: B001275
     thomas: 02018
     govtrack: 412427
@@ -4170,14 +3115,6 @@
     youtube: RepDianeBlack
     facebook_graph: 186436274719648
 - id:
-    bioguide: B001272
-    thomas: '02037'
-    govtrack: 412458
-  social:
-    twitter: RepRickBerg
-    youtube: reprickberg
-    facebook_graph: RepRickBerg
-- id:
     bioguide: B001271
     thomas: '02027'
     govtrack: 412436
@@ -4201,14 +3138,6 @@
     youtube: RepLouBarletta
     facebook_graph: loujbarletta
 - id:
-    bioguide: B001268
-    thomas: 01975
-    govtrack: 412384
-  social:
-    twitter: USSenScottBrown
-    youtube: ussenatorscottbrown
-    facebook_graph: '141799555838816'
-- id:
     bioguide: B001267
     thomas: 01965
     govtrack: 412330
@@ -4216,12 +3145,6 @@
     twitter: SenBennetCo
     youtube: senatorbennet
     facebook_graph: senatorbennet
-- id:
-    bioguide: B001266
-    thomas: 01963
-    govtrack: 412328
-  social:
-    twitter: rolandwburris
 - id:
     bioguide: B001265
     thomas: 01898
@@ -4287,12 +3210,6 @@
     youtube: boustanyla07
     facebook_graph: '6377009769'
 - id:
-    bioguide: B001254
-    thomas: 01796
-    govtrack: 400645
-  social:
-    youtube: CongressmanBoren
-- id:
     bioguide: B001252
     thomas: 01780
     govtrack: 400628
@@ -4324,12 +3241,6 @@
     youtube: MichaelCBurgessMD
     facebook_graph: michaelcburgess
 - id:
-    bioguide: B001247
-    thomas: '01713'
-    govtrack: 400051
-  social:
-    youtube: RepGinnyBrownWaite
-- id:
     bioguide: B001244
     thomas: '01703'
     govtrack: 400038
@@ -4354,13 +3265,6 @@
     facebook_graph: 7940339401
     twitter: timbishopny
 - id:
-    bioguide: B001239
-    thomas: '01745'
-    govtrack: 400016
-  social:
-    twitter: greshambarrett
-    youtube: Repgreshambarrett
-- id:
     bioguide: B001236
     thomas: 01687
     govtrack: 400040
@@ -4368,42 +3272,6 @@
     twitter: JohnBoozman
     youtube: BoozmanPressOffice
     facebook_graph: JohnBoozman
-- id:
-    bioguide: B001235
-    thomas: 01669
-    govtrack: 400049
-  social:
-    youtube: CongressmanBrown
-- id:
-    bioguide: B001234
-    thomas: '01614'
-    govtrack: 400009
-  social:
-    twitter: RepJoeBaca
-    youtube: RepJoeBaca
-    facebook_graph: BacaCA43
-- id:
-    bioguide: B001233
-    thomas: '01572'
-    govtrack: 300006
-  social:
-    youtube: SenEvanBayh
-- id:
-    bioguide: B001232
-    thomas: '01577'
-    govtrack: 400027
-  social:
-    twitter: JudyBiggert
-    youtube: JudyBiggert
-    facebook_graph: JudyBiggert
-- id:
-    bioguide: B001231
-    thomas: '01576'
-    govtrack: 400024
-  social:
-    twitter: repberkley
-    youtube: ShelleyBerkley
-    facebook_graph: shelleyberkley
 - id:
     bioguide: B001230
     thomas: 01558
@@ -4413,14 +3281,6 @@
     youtube: RepTammyBaldwin
     facebook_graph: TammyBaldwin
 - id:
-    bioguide: B001228
-    thomas: '01465'
-    govtrack: 400039
-  social:
-    twitter: MaryBonoMack
-    youtube: BonoMackCA45
-    facebook_graph: mary.b.mack
-- id:
     bioguide: B001227
     thomas: 01469
     govtrack: 400047
@@ -4429,20 +3289,6 @@
     youtube: BradyPA01
     facebook_graph: '118845109487'
 - id:
-    bioguide: B001203
-    thomas: '00160'
-    govtrack: 400056
-  social:
-    youtube: sbuyer
-- id:
-    bioguide: B001149
-    thomas: '00154'
-    govtrack: 400055
-  social:
-    twitter: RepDanBurton
-    youtube: CongressmanDanBurton
-    facebook_graph: congressmandanburton
-- id:
     bioguide: B001135
     thomas: '00153'
     govtrack: 400054
@@ -4450,19 +3296,6 @@
     twitter: senatorburr
     youtube: senatorrichardburr
     facebook_graph: senatorburr
-- id:
-    bioguide: B001066
-    thomas: '00146'
-    govtrack: 300014
-  social:
-    youtube: SenJimBunning
-- id:
-    bioguide: B000953
-    thomas: '00137'
-    govtrack: 300013
-  social:
-    twitter: SenSamBrownback
-    youtube: SenatorSamBrownback
 - id:
     bioguide: B000944
     thomas: '00136'
@@ -4487,20 +3320,6 @@
     twitter: senatorboxer
     youtube: SenatorBoxer
     facebook_graph: barbaraboxer
-- id:
-    bioguide: B000652
-    thomas: '01466'
-    govtrack: 400042
-  social:
-    twitter: LeonardBoswell
-    youtube: RepLeonardBoswell
-    facebook_graph: leonard.boswell
-- id:
-    bioguide: B000611
-    thomas: 01286
-    govtrack: 300010
-  social:
-    youtube: CSBondMO
 - id:
     bioguide: B000589
     thomas: '00102'
@@ -4534,47 +3353,6 @@
     youtube: RepSanfordBishop
     facebook_graph: '366739521606'
 - id:
-    bioguide: B000468
-    thomas: 01285
-    govtrack: 300009
-  social:
-    youtube: SenJeffBingaman
-    facebook_graph: jeffbingaman
-- id:
-    bioguide: B000461
-    thomas: 00087
-    govtrack: 400570
-  social:
-    twitter: BilbrayCA50
-    youtube: CongressmanBilbray
-    facebook_graph: CongressmanBilbray
-- id:
-    bioguide: B000444
-    thomas: 01284
-    govtrack: 300008
-  social:
-    twitter: joebiden
-- id:
-    bioguide: B000420
-    thomas: '01462'
-    govtrack: 400026
-  social:
-    youtube: CongressmanBerry
-- id:
-    bioguide: B000410
-    thomas: 00082
-    govtrack: 400025
-  social:
-    youtube: RepHowardBerman
-    facebook_graph: RepHowardBerman
-    twitter: RepHowardBerman
-- id:
-    bioguide: B000382
-    thomas: 01280
-    govtrack: 300007
-  social:
-    youtube: SenatorBennett
-- id:
     bioguide: B000287
     thomas: '00070'
     govtrack: 400021
@@ -4590,14 +3368,6 @@
     youtube: SenatorBaucus
     facebook_graph: 107825889238762
 - id:
-    bioguide: B000220
-    thomas: '00063'
-    govtrack: 400019
-  social:
-    twitter: RepCharlesBass
-    youtube: RepCharlesBass
-    facebook_graph: 120969677973134
-- id:
     bioguide: B000213
     thomas: '00062'
     govtrack: 400018
@@ -4605,13 +3375,6 @@
     twitter: RepJoeBarton
     facebook_graph: RepJoeBarton
     youtube: RepJoeBarton
-- id:
-    bioguide: B000208
-    thomas: '00060'
-    govtrack: 400017
-  social:
-    youtube: RepRoscoeBartlett
-    facebook_graph: roscoebartlett
 - id:
     bioguide: B000013
     thomas: 00038
@@ -4636,36 +3399,6 @@
     facebook_graph: repjustinamash
     youtube: AmashMI03
 - id:
-    bioguide: A000366
-    thomas: '02006'
-    govtrack: 412414
-  social:
-    facebook_graph: 172898846062893
-    twitter: RepSandyAdams
-    youtube: RepSandyAdams
-- id:
-    bioguide: A000365
-    thomas: 01947
-    govtrack: 412265
-  social:
-    twitter: SteveAustria
-    youtube: CongressmanAustria
-    facebook_graph: '186083068071784'
-- id:
-    bioguide: A000363
-    thomas: 01867
-    govtrack: 412224
-  social:
-    youtube: RepArcuri
-- id:
-    bioguide: A000362
-    thomas: 01873
-    govtrack: 412231
-  social:
-    youtube: congressmanaltmire
-    twitter: RepJasonAltmire
-    facebook_graph: '1258677943'
-- id:
     bioguide: A000361
     thomas: '01727'
     govtrack: 400006
@@ -4682,21 +3415,6 @@
     youtube: lamaralexander
     facebook_graph: lamaralexander
 - id:
-    bioguide: A000358
-    thomas: '01655'
-    govtrack: 400005
-  social:
-    twitter: ToddAkin
-    youtube: RepToddAkin
-    facebook_graph: CongressmanToddAkin
-- id:
-    bioguide: A000069
-    thomas: '00007'
-    govtrack: 300001
-  social:
-    youtube: senatorakaka
-    facebook_graph: danielakaka
-- id:
     bioguide: A000055
     thomas: '01460'
     govtrack: 400004
@@ -4704,21 +3422,6 @@
     twitter: Robert_Aderholt
     youtube: RobertAderholt
     facebook_graph: RobertAderholt
-- id:
-    bioguide: A000022
-    thomas: '00004'
-    govtrack: 400003
-  social:
-    youtube: RepAckerman
-    facebook_graph: RepAcherman
-    twitter: repgaryackerman
-- id:
-    bioguide: A000014
-    thomas: '00002'
-    govtrack: 400001
-  social:
-    twitter: neilabercrombie
-    youtube: hawaiirep1
 - id:
     bioguide: B000911
     thomas: '00132'
