@@ -4,7 +4,7 @@
 
 import lxml.etree, StringIO
 import urllib
-import string
+import string, re
 from datetime import date, datetime
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -83,6 +83,10 @@ for node in dom.getroot():
 	term["party"] = { "D": "Democrat", "R": "Republican", "I": "Independent", "ID": "Independent"}[ node.xpath("string(party)") ]
 	
 	url = str(node.xpath("string(website)")).strip()
+	
+	# kill trailing slashes
+	url = re.sub("/$", "", url)
+
 	term["url"] = url
 	term["address"] = str(node.xpath("string(address)")).strip()
 	term["office"] = string.capwords(term["address"].split(" WASHINGTON ")[0])
