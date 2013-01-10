@@ -7,6 +7,9 @@
 #
 # run with --update:
 #   reads the CSV produced by --sweep back in and updates the YAML accordingly.
+#
+# run with --clean:
+#   removes legislators from the social media file who are no longer current
 
 # other options:
 #  --service (required): "twitter", "youtube", or "facebook"
@@ -22,37 +25,26 @@ def main():
   debug = utils.flags().get('debug', False)
   bioguide = utils.flags().get('bioguide', None)
   do_update = utils.flags().get('update', False)
+  do_clean = utils.flags().get('clean', False)
 
   # default to not caching
   cache = utils.flags().get('cache', False)
   force = not cache
 
-  service = utils.flags().get('service', None)
-  if service not in ["twitter", "youtube", "facebook"]:
-    print "--service must be one of twitter, youtube, or facebook"
-    exit(0)
+  if not do_clean:
+    service = utils.flags().get('service', None)
+    if service not in ["twitter", "youtube", "facebook"]:
+      print "--service must be one of twitter, youtube, or facebook"
+      exit(0)
 
-  regexes = {
-    "youtube": "http://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
-    "facebook": "http://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
-    "twitter": "http://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"']+)"
-  }
-
-  # load in members, orient by bioguide ID
-  print "Loading current legislators..."
-  current = load_data("legislators-current.yaml")
-  # print "Loading historical legislators..."
-  # historical = load_data("legislators-historical.yaml")
-
-  current_bioguide = { }
-  for m in current:
-    if m["id"].has_key("bioguide"):
-      current_bioguide[m["id"]["bioguide"]] = m
-
-  # historical_bioguide = {}
-  # for m in historical:
-  #   if m["id"].has_key("bioguide"):
-  #     historical_bioguide[m["id"]["bioguide"]] = m
+    # load in members, orient by bioguide ID
+    print "Loading current legislators..."
+    current = load_data("legislators-current.yaml")
+    
+    current_bioguide = { }
+    for m in current:
+      if m["id"].has_key("bioguide"):
+        current_bioguide[m["id"]["bioguide"]] = m
 
   # reorient currently known social media by ID
   print "Loading social media..."
@@ -62,6 +54,12 @@ def main():
     media_bioguide[m["id"]["bioguide"]] = m
 
   def sweep():
+    regexes = {
+      "youtube": "http://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
+      "facebook": "http://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
+      "twitter": "http://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"']+)"
+    }
+    
     to_check = []
     for bioguide in current_bioguide.keys():
       if media_bioguide.get(bioguide, None) is None:
@@ -133,8 +131,25 @@ def main():
     print "Saving social media..."
     save_data(media, "legislators-social-media.yaml")
 
+  def clean():
+    print "Loading historical legislators..."
+    historical = load_data("legislators-historical.yaml")
+
+    count = 0
+    for m in historical:
+      if media_bioguide.has_key(m["id"]["bioguide"]):
+        media.remove(media_bioguide[m["id"]["bioguide"]])
+        count += 1
+    print "Removed %i out of office legislators from social media file..." % count
+
+    print "Saving historical legislators..."
+    save_data(media, "legislators-social-media.yaml")
+
+
   if do_update:
     update()
+  elif do_clean:
+    clean()
   else:
     sweep()
 
