@@ -22,10 +22,16 @@ import utils
 from utils import download, load_data, save_data, parse_date
 
 def main():
+  regexes = {
+    "youtube": "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
+    "facebook": "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
+    "twitter": "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)"
+  }
+
   debug = utils.flags().get('debug', False)
-  bioguide = utils.flags().get('bioguide', None)
   do_update = utils.flags().get('update', False)
   do_clean = utils.flags().get('clean', False)
+  do_verify = utils.flags().get('verify', False)
 
   # default to not caching
   cache = utils.flags().get('cache', False)
@@ -46,6 +52,13 @@ def main():
       if m["id"].has_key("bioguide"):
         current_bioguide[m["id"]["bioguide"]] = m
 
+    print "Loading blacklist..."
+    blacklist = {
+      'twitter': [], 'facebook': [], 'services': []
+    }
+    for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
+      blacklist[rec["service"]].append(rec["pattern"])
+
   # reorient currently known social media by ID
   print "Loading social media..."
   media = load_data("legislators-social-media.yaml")
@@ -54,14 +67,15 @@ def main():
     media_bioguide[m["id"]["bioguide"]] = m
 
   def sweep():
-    regexes = {
-      "youtube": "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
-      "facebook": "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
-      "twitter": "https?://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"'/]+)"
-    }
-    
     to_check = []
-    for bioguide in current_bioguide.keys():
+
+    bioguide = utils.flags().get('bioguide', None)
+    if bioguide:
+      possibles = [bioguide]
+    else:
+      possibles = current_bioguide.keys()
+
+    for bioguide in possibles:
       if media_bioguide.get(bioguide, None) is None:
         to_check.append(bioguide)
       elif media_bioguide[bioguide]["social"].get(service, None) is None:
@@ -69,46 +83,40 @@ def main():
       else:
         pass
 
-
-    print "Loading blacklist..."
-    blacklist = {
-      'twitter': [], 'facebook': [], 'services': []
-    }
-    for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
-      blacklist[rec["service"]].append(rec["pattern"])
-    
-
     utils.mkdir_p("cache/social_media")
     writer = csv.writer(open("cache/social_media/%s_candidates.csv" % service, 'w'))
     writer.writerow(["bioguide", "official_full", "website", "service", "candidate"])
 
-
     for bioguide in to_check:
-      url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-      if not url:
-        if debug:
-          print "[%s] No official website, skipping" % bioguide
-        continue
-
-      if debug:
-        print "[%s] Downloading..." % bioguide
-      cache = "congress/%s.html" % bioguide
-      body = utils.download(url, cache, force)
-      match = re.search(regexes[service], body, re.I)
-      if match:
-        candidate = match.group(1)
-        passed = True
-        for blacked in blacklist[service]:
-          if re.search(blacked, candidate, re.I):
-            passed = False
-        
-        if not passed:
-          if debug:
-            print "\tBlacklisted: %s" % candidate
-          continue
-
+      candidate = candidate_for(bioguide)
+      if candidate:
+        url = current_bioguide[bioguide]["terms"][-1].get("url", None)
         writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'], url, service, candidate])
         print "\tWrote: %s" % candidate
+
+  def verify():
+    bioguide = utils.flags().get('bioguide', None)
+    if bioguide:
+      to_check = [bioguide]
+    else:
+      to_check = media_bioguide.keys()
+
+    for bioguide in to_check:
+      entry = media_bioguide[bioguide]
+      current = entry['social'].get(service, None)
+      if not current:
+        continue
+
+      bioguide = entry['id']['bioguide']
+
+      candidate = candidate_for(bioguide)
+      if not candidate:
+        candidate = ""
+
+      url = current_bioguide[bioguide]['terms'][-1].get('url')
+
+      if current.lower() != candidate.lower():
+        print "[%s] mismatch on %s, %s -> %s" % (bioguide, url, current, candidate)
 
   def update():
     for rec in csv.DictReader(open("cache/social_media/%s_candidates.csv" % service)):
@@ -145,11 +153,39 @@ def main():
     print "Saving historical legislators..."
     save_data(media, "legislators-social-media.yaml")
 
+  def candidate_for(bioguide):
+    url = current_bioguide[bioguide]["terms"][-1].get("url", None)
+    if not url:
+      if debug:
+        print "[%s] No official website, skipping" % bioguide
+      return None
+
+    if debug:
+      print "[%s] Downloading..." % bioguide
+    cache = "congress/%s.html" % bioguide
+    body = utils.download(url, cache, force)
+    matches = re.findall(regexes[service], body, re.I)
+    if matches:
+      for candidate in matches:
+        passed = True
+        for blacked in blacklist[service]:
+          if re.search(blacked, candidate, re.I):
+            passed = False
+        
+        if not passed:
+          if debug:
+            print "\tBlacklisted: %s" % candidate
+          continue
+
+        return candidate
+      return None
 
   if do_update:
     update()
   elif do_clean:
     clean()
+  elif do_verify:
+    verify()
   else:
     sweep()
 
