@@ -63,7 +63,7 @@ def main():
     'twitter': [], 'facebook': [], 'services': []
   }
   for rec in csv.DictReader(open("data/social_media_whitelist.csv")):
-    whitelist[rec["service"]].append(rec["account"])
+    whitelist[rec["service"]].append(rec["account"].lower())
 
   # reorient currently known social media by ID
   print "Loading social media..."
@@ -118,7 +118,7 @@ def main():
       candidate = candidate_for(bioguide)
       if not candidate:
         # if current is in whitelist, and none is on the page, that's okay
-        if current in whitelist[service]:
+        if current.lower() in whitelist[service]:
           continue
         else:
           candidate = ""
