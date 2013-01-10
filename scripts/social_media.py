@@ -55,9 +55,9 @@ def main():
 
   def sweep():
     regexes = {
-      "youtube": "http://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
-      "facebook": "http://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
-      "twitter": "http://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"']+)"
+      "youtube": "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
+      "facebook": "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
+      "twitter": "https?://(?:www\\.)?twitter.com/(?:#!/)?@?([^\\s\"'/]+)"
     }
     
     to_check = []
