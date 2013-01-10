@@ -37,27 +37,33 @@ def main():
   cache = utils.flags().get('cache', False)
   force = not cache
 
-  if not do_clean:
-    service = utils.flags().get('service', None)
-    if service not in ["twitter", "youtube", "facebook"]:
-      print "--service must be one of twitter, youtube, or facebook"
-      exit(0)
+  service = utils.flags().get('service', None)
+  if service not in ["twitter", "youtube", "facebook"]:
+    print "--service must be one of twitter, youtube, or facebook"
+    exit(0)
 
-    # load in members, orient by bioguide ID
-    print "Loading current legislators..."
-    current = load_data("legislators-current.yaml")
-    
-    current_bioguide = { }
-    for m in current:
-      if m["id"].has_key("bioguide"):
-        current_bioguide[m["id"]["bioguide"]] = m
+  # load in members, orient by bioguide ID
+  print "Loading current legislators..."
+  current = load_data("legislators-current.yaml")
+  
+  current_bioguide = { }
+  for m in current:
+    if m["id"].has_key("bioguide"):
+      current_bioguide[m["id"]["bioguide"]] = m
 
-    print "Loading blacklist..."
-    blacklist = {
-      'twitter': [], 'facebook': [], 'services': []
-    }
-    for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
-      blacklist[rec["service"]].append(rec["pattern"])
+  print "Loading blacklist..."
+  blacklist = {
+    'twitter': [], 'facebook': [], 'services': []
+  }
+  for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
+    blacklist[rec["service"]].append(rec["pattern"])
+
+  print "Loading whitelist..."
+  whitelist = {
+    'twitter': [], 'facebook': [], 'services': []
+  }
+  for rec in csv.DictReader(open("data/social_media_whitelist.csv")):
+    whitelist[rec["service"]].append(rec["account"])
 
   # reorient currently known social media by ID
   print "Loading social media..."
@@ -111,7 +117,11 @@ def main():
 
       candidate = candidate_for(bioguide)
       if not candidate:
-        candidate = ""
+        # if current is in whitelist, and none is on the page, that's okay
+        if current in whitelist[service]:
+          continue
+        else:
+          candidate = ""
 
       url = current_bioguide[bioguide]['terms'][-1].get('url')
 
