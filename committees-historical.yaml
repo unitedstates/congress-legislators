@@ -207,7 +207,7 @@
     - 100
     - 101
   - name: Oceanography, Great Lakes and the Outer Continental Shelf
-    thomas_id: 08
+    thomas_id: '08'
     names:
       102: Oceanography, Great Lakes and the Outer Continental Shelf
       103: Oceanography, Gulf of Mexico and the Outer Continental Shelf
@@ -358,13 +358,13 @@
     - 101
     - 102
   - name: Ad Hoc Task Force on Presidential Pay Recommendation
-    thomas_id: 08
+    thomas_id: '08'
     names:
       100: Ad Hoc Task Force on Presidential Pay Recommendation
     congresses:
     - 100
   - name: Census, Statistics and Postal Personnel
-    thomas_id: 09
+    thomas_id: '09'
     names:
       103: Census, Statistics and Postal Personnel
     congresses:
@@ -721,7 +721,7 @@
       101: Tobacco and Peanuts
       102: Peanuts and Tobacco
   - name: Wheat, Soybeans, and Feed Grains
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -1102,7 +1102,7 @@
       104: Labor, Health and Human Services, and Education
       105: Labor, Health and Human Services, and Education
   - name: Legislative
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -1122,7 +1122,7 @@
       104: Legislative
       105: Legislative
   - name: Military Construction
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 97
     - 98
@@ -1592,7 +1592,7 @@
       102: Financial Institutions Supervision, Regulation and Insurance
       103: Financial Institutions Supervision, Regulation and Deposit Insurance
   - name: General Oversight and Renegotiation
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 97
     - 98
@@ -1652,7 +1652,7 @@
       99: International Development Institutions and Finance
       100: International Development Institutions and Finance
   - name: International Trade, Investment and Monetary Policy
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -1936,7 +1936,7 @@
       111: Health, Employment, Labor, and Pensions
       112: Health, Employment, Labor, and Pensions
   - name: Postsecondary Education
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -2100,7 +2100,7 @@
     112: Foreign Affairs
   subcommittees:
   - name: Africa
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -2528,7 +2528,7 @@
       107: Energy Policy, Natural Resources and Regulatory Affairs
       108: Energy Policy, Natural Resources and Regulatory Affairs
   - name: Civil Service
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 104
     - 105
@@ -2798,7 +2798,7 @@
       98: Services
       99: Services
   - name: Elections
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 99
     - 100
@@ -2816,7 +2816,7 @@
       110: Elections
       112: Elections
   - name: Libraries and Memorials
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 100
     - 101
@@ -2970,13 +2970,13 @@
     names:
       99: General Oversight, Northwest Power, and Forest Management
   - name: National Parks and Recreation
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 99
     names:
       99: National Parks and Recreation
   - name: Insular and International Affairs
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 101
     - 102
@@ -3570,7 +3570,7 @@
       102: Economic and Commercial Law
       103: Economic and Commercial Law
   - name: Crime and Criminal Justice
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 102
     - 103
@@ -3596,7 +3596,7 @@
       111: Crime, Terrorism, and Homeland Security
       112: Crime, Terrorism, and Homeland Security
   - name: Commercial and Administrative Law
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 104
     - 105
@@ -3854,7 +3854,7 @@
       111: Coast Guard and Maritime Transportation
       112: Coast Guard and Maritime Transportation
   - name: Public Buildings and Economic Development
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 104
     - 105
@@ -3865,7 +3865,7 @@
       106: Economic Development, Public Buildings, Hazardous Materials and Pipeline
         Transportation
   - name: Railroads
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 104
     - 105
@@ -4165,7 +4165,7 @@
       100: Transportation, Aviation and Materials
       101: Transportation, Aviation and Materials
   - name: Task Force on Science Policy
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 100
     names:
@@ -4467,7 +4467,7 @@
     names:
       104: Education, Training, Employment and Housing
   - name: Disability Assistance and Memorial Affairs
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 109
     - 110
@@ -4491,7 +4491,7 @@
       111: Economic Opportunity
       112: Economic Opportunity
   - name: Oversight and Investigations
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 109
     - 110
@@ -4870,7 +4870,7 @@
       102: Nutrition and Investigations
       103: Nutrition and Investigations
   - name: Forestry, Water Resources, and Environment
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     names:
@@ -5060,7 +5060,7 @@
       107: Interior
       108: Interior
   - name: Military Construction
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 97
     - 98
@@ -5276,7 +5276,7 @@
       107: Labor, Health and Human Services, and Education
       108: Labor, Health and Human Services, and Education
   - name: Legislative Branch
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 98
     - 99
@@ -5480,7 +5480,7 @@
     112: Armed Services
   subcommittees:
   - name: Manpower and Personnel
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 97
     - 98
@@ -5630,7 +5630,7 @@
     names:
       103: Defense Technology, Acquisition, and Industrial Base
   - name: Military Readiness and Defense Infrastructure
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 103
     names:
@@ -5828,7 +5828,7 @@
       98: Insurance
       105: Financial Services and Technology
   - name: Rural Housing and Development
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 98
     - 105
@@ -5848,7 +5848,7 @@
       111: Housing, Transportation and Community Development
       112: Housing, Transportation and Community Development
   - name: Financial Institutions and Regulatory Relief
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 104
     - 105
@@ -6053,7 +6053,7 @@
       102: Merchant Marine
       103: Merchant Marine
   - name: Surface Transportation
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -6087,7 +6087,7 @@
       98: National Ocean Policy Study
       99: National Ocean Policy Study
   - name: Science, Technology, and Space
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 98
     - 99
@@ -6397,7 +6397,7 @@
       104: Taxation and IRS Oversight
       105: Taxation and IRS Oversight
   - name: Medicare and Long-Term Care
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 101
     - 102
@@ -6413,7 +6413,7 @@
       105: Health Care
       106: Health Care
   - name: Long-Term Growth and Debt Reduction
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 106
     names:
@@ -6477,7 +6477,7 @@
       99: European Affairs
       108: European Affairs
   - name: African Affairs
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 98
     - 99
@@ -6683,7 +6683,7 @@
       100: Federal Spending, Budget, and Accounting
       102: Government Information and Regulation
   - name: Oversight of Government Management
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -6739,7 +6739,7 @@
       112: Oversight of Government Management, the Federal Workforce, and the District
         of Columbia
   - name: Financial Management, the Budget and International Security
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 108
     - 109
@@ -6929,7 +6929,7 @@
       111: Energy
       112: Energy
   - name: Public Lands, Reserved Water and Resource Conservation
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 97
     - 98
@@ -6939,7 +6939,7 @@
       98: Public Lands, Reserved Water and Resource Conservation
       99: Public Lands, Reserved Water and Resource Conservation
   - name: Water and Power
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -7269,7 +7269,7 @@
       104: Youth Violence
       105: Youth Violence
   - name: Technology, Terrorism, and Government Information
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 105
     - 106
@@ -7385,7 +7385,7 @@
       105: Public Health and Safety
       107: Public Health
   - name: Education, Arts, and Humanities
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 97
     - 98
@@ -7499,7 +7499,7 @@
       102: Labor
       103: Labor
   - name: Education and Early Childhood Development
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 109
     names:
@@ -7685,7 +7685,7 @@
       107: Fisheries, Wildlife, and Water
       108: Fisheries, Wildlife, and Water
   - name: Superfund, Waste Control, and Risk Assessment
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 104
     - 105
@@ -7699,7 +7699,7 @@
       107: Superfund, Toxics, Risk, and Waste Management
       109: Superfund and Waste Management
   - name: Transportation and Infrastructure
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 104
     - 105
@@ -7968,7 +7968,7 @@
       98: Antitrust and Restraint of Trade Activities Affecting Small Business
       99: Antitrust and Restraint of Trade Activities Affecting Small Business
   - name: Procurement, Tourism, and Rural Development
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 101
     - 102
@@ -8317,7 +8317,7 @@
       111: Transportation Security and Infrastructure Protection
       112: Transportation Security
   - name: Emergency Preparedness, Science, and Technology
-    thomas_id: 08
+    thomas_id: '08'
     congresses:
     - 109
     - 110
@@ -8329,7 +8329,7 @@
       111: Emerging Threats, Cybersecurity, and Science and Technology
       112: Cybersecurity, Infrastructure Protection, and Security Technologies
   - name: Management, Integration, and Oversight
-    thomas_id: 09
+    thomas_id: '09'
     congresses:
     - 109
     - 110

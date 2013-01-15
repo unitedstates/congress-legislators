@@ -145,8 +145,6 @@ def unescape(text):
 # In order to preserve the order of attributes, YAML must be
 # hooked to load mappings as OrderedDicts. Adapted from:
 # https://gist.github.com/317164
-# Additionally, we need to set default output parameters
-# controlling formatting.
 
 import yaml
 from collections import OrderedDict
@@ -166,8 +164,39 @@ def construct_odict(load, node):
         omap[key] = value
 
 yaml.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
+def ordered_dict_serializer(self, data):
+    return self.represent_mapping('tag:yaml.org,2002:map', data.items())
+yaml.add_representer(OrderedDict, ordered_dict_serializer)
 
-def yaml_load(path):
+# Likewise, when we store unicode objects make sure we don't write
+# them with weird YAML tags indicating the Python data type. The
+# standard string type is fine. We should do this:
+#   yaml.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'tag:yaml.org,2002:str', value))
+#
+# However, the standard PyYAML representer for strings does something
+# weird: if a value cannot be parsed as an integer quotes are omitted.
+#
+# This is incredibly odd when the value is an integer with a leading
+# zero. These values are typically parsed as octal integers, meaning
+# quotes would normally be required (that's good). But when the value
+# has an '8' or '9' in it, this would make it an invalid octal number
+# and so quotes would no longer be required (that's confusing).
+# We will override str and unicode output to choose the quotation
+# style with our own logic. (According to PyYAML, style can be one of
+# the empty string, ', ", |, or >, or None to, presumably, choose
+# automatically.
+def our_string_representer(dumper, value):
+	# If it looks like an octal number, force '-quote style.
+	style = None
+	if re.match(r"^0\d*$", value): style = "'"
+	return dumper.represent_scalar(u'tag:yaml.org,2002:str', value, style=style)
+yaml.add_representer(str, our_string_representer)
+yaml.add_representer(unicode, our_string_representer)
+        
+# Apply some common settings for loading/dumping YAML and cache the
+# data in pickled format which is a LOT faster than YAML.
+
+def yaml_load(path, use_cache=True):
     # Loading YAML is ridiculously slow, so cache the YAML data
     # in a pickled file which loads much faster.
 
@@ -175,23 +204,18 @@ def yaml_load(path):
     # matches the hash of the YAML file, and if so unpickle it.
     import cPickle as pickle, os.path, hashlib
     h = hashlib.sha1(open(path).read()).hexdigest()
-    if os.path.exists(path + ".pickle"):
+    if use_cache and os.path.exists(path + ".pickle"):
         store = pickle.load(open(path + ".pickle"))
         if store["hash"] == h:
             return store["data"]
-	
-	# No cached pickled data exists, so load the YAML file.
+    
+    # No cached pickled data exists, so load the YAML file.
     data = yaml.load(open(path))
     
     # Store in a pickled file for fast access later.
     pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
     
     return data
-
-def ordered_dict_serializer(self, data):
-    return self.represent_mapping('tag:yaml.org,2002:map', data.items())
-yaml.add_representer(OrderedDict, ordered_dict_serializer)
-yaml.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'tag:yaml.org,2002:str', value))
 
 def yaml_dump(data, path):
     yaml.dump(data, open(path, "w"), default_flow_style=False, allow_unicode=True)
