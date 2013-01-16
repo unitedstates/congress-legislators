@@ -31,7 +31,7 @@ def main():
     ],
     "twitter": [
       "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
-      "\\.render\\(\\)\\.setUser\\('(.*?)'\\)\\.start\\(\\)"
+      "\\.render\\(\\)\\.setUser\\('@?(.*?)'\\)\\.start\\(\\)"
     ]
   }
 
@@ -186,10 +186,10 @@ def main():
     for regex in regexes[service]:
       matches = re.findall(regex, body, re.I)
       if matches:
-        all_matches.append(matches)
+        all_matches.extend(matches)
 
     if all_matches:
-      for candidate in matches:
+      for candidate in all_matches:
         passed = True
         for blacked in blacklist[service]:
           if re.search(blacked, candidate, re.I):
