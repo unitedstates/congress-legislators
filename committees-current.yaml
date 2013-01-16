@@ -150,7 +150,7 @@
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
   - name: Oversight and Investigations
-    thomas_id: 09
+    thomas_id: '09'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
   address: 2129 RHOB; Washington, DC 20515-6050
@@ -270,7 +270,7 @@
     address: 1309 LHOB; Washington, DC 20515
     phone: (202) 225-8281
   - name: Elections
-    thomas_id: 08
+    thomas_id: '08'
     address: 1309 LHOB; Washington, DC 20515-6157
     phone: (202) 225-8281
   address: 1309 LHOB; Washington, DC 20515-6157
@@ -290,7 +290,7 @@
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
   - name: Cybersecurity, Infrastructure Protection, and Security Technologies
-    thomas_id: 08
+    thomas_id: '08'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
   - name: Counterterrorism and Intelligence
@@ -298,7 +298,7 @@
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
   - name: Oversight, Investigations, and Management
-    thomas_id: 09
+    thomas_id: '09'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
   - name: Transportation Security
@@ -373,7 +373,7 @@
   house_committee_id: IG
   subcommittees:
   - name: Oversight and Investigations
-    thomas_id: 09
+    thomas_id: '09'
     address: HVC304 CAPITOL; Washington, DC 20515
     phone: (202) 225-4121
   - name: Technical and Tactical Intelligence
@@ -381,7 +381,7 @@
     address: HVC304 CAPITOL; Washington, DC 20515
     phone: (202) 225-4121
   - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
-    thomas_id: 08
+    thomas_id: '08'
     address: HVC304 CAPITOL; Washington, DC 20515
     phone: (202) 225-4121
   address: HVC304 CAPITOL; Washington, DC 20515-6415
@@ -401,7 +401,7 @@
     address: 517 CHOB; Washington, DC 20515-6219
     phone: (202) 226-7680
   - name: Crime, Terrorism, and Homeland Security
-    thomas_id: 08
+    thomas_id: '08'
     address: B370B RHOB; Washington, DC 20515-6223
     phone: (202) 225-5727
   - name: Immigration Policy and Enforcement
@@ -532,7 +532,7 @@
   house_committee_id: VR
   subcommittees:
   - name: Disability Assistance and Memorial Affairs
-    thomas_id: 09
+    thomas_id: '09'
     address: 337 CHOB; Washington, DC 20515
     phone: (202) 225-9164
   - name: Economic Opportunity
@@ -544,7 +544,7 @@
     address: 338 CHOB; Washington, DC 20515-6340
     phone: (202) 225-9154
   - name: Oversight and Investigations
-    thomas_id: 08
+    thomas_id: '08'
     address: 337A CHOB; Washington, DC 20515-6339
     phone: (202) 225-3569
   address: 335 CHOB; Washington, DC 20515-6335
@@ -676,7 +676,7 @@
   - name: Department of Defense
     thomas_id: '02'
   - name: Legislative Branch
-    thomas_id: 08
+    thomas_id: '08'
 - type: senate
   name: Senate Committee on Armed Services
   url: http://armed-services.senate.gov/
@@ -708,9 +708,9 @@
   - name: Securities, Insurance and Investment
     thomas_id: '04'
   - name: Housing, Transportation and Community Development
-    thomas_id: 09
+    thomas_id: '09'
   - name: Financial Institutions and Consumer Protection
-    thomas_id: 08
+    thomas_id: '08'
 - type: senate
   name: Senate Committee on the Budget
   url: http://budget.senate.gov/
@@ -759,14 +759,14 @@
   - name: Clean Air and Nuclear Safety
     thomas_id: '10'
   - name: Superfund, Toxics and Environmental Health
-    thomas_id: 09
+    thomas_id: '09'
   - thomas_id: '17'
     name: Children's Health and Environmental Responsibility
   - thomas_id: '16'
     name: Green Jobs and the New Economy
   - thomas_id: '18'
     name: Oversight
-  - thomas_id: 08
+  - thomas_id: '08'
     name: Transportation and Infrastructure
   - thomas_id: '15'
     name: Water and Wildlife
@@ -803,7 +803,7 @@
   - name: European Affairs
     thomas_id: '01'
   - name: African Affairs
-    thomas_id: 09
+    thomas_id: '09'
   - name: East Asian and Pacific Affairs
     thomas_id: '02'
   - name: Near Eastern and South and Central Asian Affairs
@@ -823,7 +823,7 @@
     thomas_id: '03'
   - name: Federal Financial Management, Government Information, Federal Services,
       and International Security
-    thomas_id: 09
+    thomas_id: '09'
   - thomas_id: '13'
     name: Ad Hoc Subcommittee on Contracting Oversight
   - thomas_id: '01'
@@ -839,7 +839,7 @@
   - name: Primary Health and Aging
     thomas_id: '12'
   - name: Children and Families
-    thomas_id: 09
+    thomas_id: '09'
 - type: senate
   name: Senate Committee on the Judiciary
   url: http://judiciary.senate.gov/
