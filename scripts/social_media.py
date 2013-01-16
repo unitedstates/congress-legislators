@@ -23,9 +23,16 @@ from utils import download, load_data, save_data, parse_date
 
 def main():
   regexes = {
-    "youtube": "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)",
-    "facebook": "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)",
-    "twitter": "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)"
+    "youtube": [
+      "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)"
+    ],
+    "facebook": [
+      "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)"
+    ],
+    "twitter": [
+      "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
+      "\\.render\\(\\)\\.setUser\\('(.*?)'\\)\\.start\\(\\)"
+    ]
   }
 
   debug = utils.flags().get('debug', False)
@@ -174,8 +181,14 @@ def main():
       print "[%s] Downloading..." % bioguide
     cache = "congress/%s.html" % bioguide
     body = utils.download(url, cache, force)
-    matches = re.findall(regexes[service], body, re.I)
-    if matches:
+
+    all_matches = []
+    for regex in regexes[service]:
+      matches = re.findall(regex, body, re.I)
+      if matches:
+        all_matches.append(matches)
+
+    if all_matches:
       for candidate in matches:
         passed = True
         for blacked in blacklist[service]:
