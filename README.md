@@ -338,3 +338,4 @@ No one's under any obligation to **tell** us when they're using this data, but h
 * [GovTrack.us](http://govtrack.us) 
 * [Sunlight Labs Congress API](http://services.sunlightlabs.com/docs/Sunlight_Congress_API/)
 * [Scout](https://scout.sunlightfoundation.com/)
+* [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
