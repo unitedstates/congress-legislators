@@ -30,6 +30,9 @@ for m in y:
 	member_full = "%s (%s-%s)" % (last_name, party, state)
 	by_name[member_full] = m
 
+
+print "Fetching general Senate information from senators_cfm.xml..."
+
 url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
 body = download(url, "legislators/senate.xml", force)
 dom = lxml.etree.parse(StringIO.StringIO(body))
@@ -98,4 +101,53 @@ for node in dom.getroot():
 	if contact_form: # can be blank
 		term["contact_form"] = contact_form
 
+
+
+print "\n\nUpdating Senate stateRank and LIS ID from cvc_member_data.xml..."
+
+url = "http://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
+body = download(url, "legislators/senate_cvc.xml", force)
+dom = lxml.etree.parse(StringIO.StringIO(body))
+for node in dom.getroot():
+	if node.tag == "lastUpdate":
+		date, time = node.getchildren()
+		print "Last updated: %s, %s" % (date.text, time.text)
+		continue
+
+	bioguide_id = str(node.xpath("string(bioguideId)")).strip()
+	last_name = node.xpath("string(name/last)")
+	party = node.xpath("string(party)")
+	state = node.xpath("string(state)")
+	member_full = "%s (%s-%s)" % (last_name, party, state)
+
+	print "[%s] Processing Senator %s..." % (bioguide_id, member_full)
+	
+	# find member record in our YAML, either by bioguide_id or member_full
+	if bioguide.has_key(bioguide_id):
+		member = bioguide[bioguide_id]
+	else:
+		if by_name.has_key(member_full):
+			member = by_name[member_full]
+		else:
+			print "Missing member", bioguide_id, member_full
+			exit(0)
+
+	try:
+		term = member["terms"][-1]
+	except IndexError:
+		print "Member has no terms", bioguide_id, member_full
+		continue
+
+	if not member.has_key("id"):
+		member["id"] = {}
+
+	member["id"]["lis"] = node.attrib["lis_member_id"]
+	state_rank = node.xpath("string(stateRank)")
+	if state_rank == '1':
+		term["state_rank"] = "senior"
+	elif state_rank == '2':
+		term["state_rank"] = "junior"
+
+
+print "Saving data..."
 save_data(y, "legislators-current.yaml")
