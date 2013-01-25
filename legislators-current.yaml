@@ -85,6 +85,7 @@
     fax: 202-228-6321
     contact_form: http://www.brown.senate.gov/contact/
     office: 713 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C000127
     thomas: '00172'
@@ -141,6 +142,7 @@
     fax: 202-228-0514
     contact_form: http://www.cantwell.senate.gov/public/index.cfm/email-maria
     office: 311 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: C000141
     thomas: '00174'
@@ -248,6 +250,7 @@
     fax: 202-224-1651
     contact_form: http://www.cardin.senate.gov/contact/
     office: 509 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: C000174
     thomas: '00179'
@@ -330,6 +333,7 @@
     fax: 202-228-2190
     contact_form: http://carper.senate.gov/public/index.cfm/email-senator-carper
     office: 513 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C001070
     thomas: '01828'
@@ -375,6 +379,7 @@
     fax: 202-228-0604
     contact_form: http://www.casey.senate.gov/contact/
     office: 393 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C001071
     thomas: '01825'
@@ -417,6 +422,7 @@
     fax: 202-228-0566
     contact_form: http://www.corker.senate.gov/public/index.cfm?p=ContactMe
     office: 185 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: F000062
     thomas: '01332'
@@ -479,6 +485,7 @@
     fax: 202-228-3954
     contact_form: http://www.feinstein.senate.gov/public/index.cfm/e-mail-me
     office: 331 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: H000338
     thomas: '01351'
@@ -555,6 +562,7 @@
     fax: 202-224-6331
     contact_form: http://www.hatch.senate.gov/public/index.cfm/contact?p=Email-Orrin
     office: 104 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: K000367
     thomas: '01826'
@@ -597,6 +605,7 @@
     fax: 202-228-2186
     contact_form: http://www.klobuchar.senate.gov/emailamy.cfm
     office: 302 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M001170
     thomas: '01820'
@@ -639,6 +648,7 @@
     fax: 202-228-6326
     contact_form: http://www.mccaskill.senate.gov/?p=contact
     office: 506 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M000639
     thomas: '00791'
@@ -736,6 +746,7 @@
     fax: 202-228-2197
     contact_form: http://menendez.senate.gov/contact/
     office: 528 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: N000032
     thomas: '00859'
@@ -823,6 +834,7 @@
     fax: 202-228-2183
     contact_form: http://www.billnelson.senate.gov/contact/index.cfm
     office: 716 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: S000033
     thomas: '01010'
@@ -917,6 +929,7 @@
     fax: 202-228-0776
     contact_form: http://www.sanders.senate.gov/contact/
     office: 332 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: S000770
     thomas: '01531'
@@ -980,6 +993,7 @@
     fax: 202-228-0325
     contact_form: http://www.stabenow.senate.gov/?p=contact
     office: 133 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: T000464
     thomas: '01829'
@@ -1022,6 +1036,7 @@
     fax: 202-224-8594
     contact_form: http://www.tester.senate.gov/Contact/index.cfm
     office: 724 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: W000802
     thomas: '01823'
@@ -1064,6 +1079,7 @@
     fax: 202-228-6362
     contact_form: http://www.whitehouse.senate.gov/contact/
     office: 717 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B001261
     thomas: '01881'
@@ -1101,12 +1117,13 @@
     state: WY
     party: Republican
     class: 1
-    url: http://barrasso.senate.gov/public/
+    url: http://www.barrasso.senate.gov
     address: 307 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-6441
     fax: 202-224-1724
     contact_form: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=ContactUs.ContactForm
     office: 307 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: W000437
     thomas: '01226'
@@ -1196,6 +1213,7 @@
     fax: 202-228-0378
     contact_form: http://www.wicker.senate.gov/public/index.cfm?FuseAction=Contact.EMailSenatorWicker
     office: 555 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: A000360
     thomas: '01695'
@@ -1234,6 +1252,7 @@
     fax: 202-228-3398
     contact_form: http://www.alexander.senate.gov/public/index.cfm?p=Email
     office: 455 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: B000243
     thomas: '00066'
@@ -1316,6 +1335,7 @@
     fax: 202-224-0515
     contact_form: http://www.baucus.senate.gov/contact/emailForm.cfm?subj=issue
     office: 511 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: B001265
     thomas: '01898'
@@ -1346,6 +1366,7 @@
     fax: 202-224-2354
     contact_form: http://www.begich.senate.gov/public/index.cfm?p=EmailSenator
     office: 111 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: C000286
     thomas: '00188'
@@ -1408,6 +1429,7 @@
     fax: 202-224-0103
     contact_form: http://www.chambliss.senate.gov/public/index.cfm?p=Email
     office: 416 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C000567
     thomas: '00213'
@@ -1495,6 +1517,7 @@
     fax: 202-224-9450
     contact_form: http://www.cochran.senate.gov/public/index.cfm/email-me
     office: 113 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C001035
     thomas: '01541'
@@ -1534,12 +1557,13 @@
     state: ME
     class: 2
     party: Republican
-    url: http://collins.senate.gov/public/
+    url: http://www.collins.senate.gov
     address: 413 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-2523
     fax: 202-224-2693
     contact_form: http://www.collins.senate.gov/public/continue.cfm?FuseAction=ContactSenatorCollins.EmailIssue
     office: 413 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C001056
     thomas: '01692'
@@ -1584,6 +1608,7 @@
     fax: 202-228-2856
     contact_form: http://www.cornyn.senate.gov/public/index.cfm?p=ContactForm
     office: 517 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: D000563
     thomas: '00326'
@@ -1672,6 +1697,7 @@
     fax: 202-228-0400
     contact_form: http://www.durbin.senate.gov/public/index.cfm/contact
     office: 711 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: E000285
     thomas: '01542'
@@ -1717,6 +1743,7 @@
     fax: 202-228-0359
     contact_form: http://www.enzi.senate.gov/public/index.cfm/contact?p=e-mail-senator-enzi
     office: 379a Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: G000359
     thomas: '00452'
@@ -1780,6 +1807,7 @@
     fax: 202-224-3808
     contact_form: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Contact.EmailSenatorGraham
     office: 290 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: H001049
     thomas: '01902'
@@ -1810,6 +1838,7 @@
     fax: 202-228-2563
     contact_form: http://www.hagan.senate.gov/?p=contact
     office: 521 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: H000206
     thomas: '00501'
@@ -1898,6 +1927,7 @@
     fax: 202-224-9369
     contact_form: http://www.harkin.senate.gov/contact.cfm
     office: 731 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: I000024
     thomas: '00583'
@@ -1975,6 +2005,7 @@
     fax: 202-228-0380
     contact_form: http://www.inhofe.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 205 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: J000291
     thomas: '01899'
@@ -1999,12 +2030,13 @@
     state: NE
     class: 2
     party: Republican
-    url: http://www.johanns.senate.gov/public/index.cfm
+    url: http://www.johanns.senate.gov
     address: 404 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-4224
     fax: 202-228-0436
     contact_form: http://www.johanns.senate.gov/public/?p=ContactSenatorJohanns
     office: 404 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: J000177
     thomas: '00604'
@@ -2081,6 +2113,7 @@
     fax: 202-228-5765
     contact_form: http://www.johnson.senate.gov/public/index.cfm?p=Contact
     office: 136 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: K000148
     thomas: '01379'
@@ -2139,6 +2172,7 @@
     fax: 202-224-8525
     contact_form: http://www.kerry.senate.gov/contact/
     office: 218 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: L000550
     thomas: '01546'
@@ -2184,6 +2218,7 @@
     fax: 202-224-9735
     contact_form: http://www.landrieu.senate.gov/?p=contact
     office: 431 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: L000123
     thomas: '01381'
@@ -2242,6 +2277,7 @@
     fax: 202-228-4054
     contact_form: http://www.lautenberg.senate.gov/contact/routing.cfm
     office: 324 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: L000261
     thomas: '01384'
@@ -2305,6 +2341,7 @@
     fax: 202-224-1388
     contact_form: http://www.levin.senate.gov/contact/
     office: 269 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M000355
     thomas: '01395'
@@ -2362,6 +2399,7 @@
     fax: 202-224-2499
     contact_form: http://www.mcconnell.senate.gov/public/index.cfm?p=contact
     office: 317 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M001176
     thomas: '01900'
@@ -2392,6 +2430,7 @@
     fax: 202-228-3997
     contact_form: http://www.merkley.senate.gov/contact/
     office: 313 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: P000590
     thomas: '01701'
@@ -2430,6 +2469,7 @@
     fax: 202-228-0908
     contact_form: http://www.pryor.senate.gov/public/index.cfm?p=ContactMe
     office: 255 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: R000122
     thomas: '00949'
@@ -2494,6 +2534,7 @@
     fax: 202-224-4680
     contact_form: http://www.reed.senate.gov/contact/
     office: 728 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: R000584
     thomas: '01896'
@@ -2524,6 +2565,7 @@
     fax: 202-224-2573
     contact_form: http://www.risch.senate.gov/public/index.cfm?p=Email
     office: 483 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: R000307
     thomas: '00968'
@@ -2617,6 +2659,7 @@
     fax: 202-224-3514
     contact_form: http://www.roberts.senate.gov/public/index.cfm?p=EmailPat
     office: 109 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: R000361
     thomas: '01424'
@@ -2677,6 +2720,7 @@
     fax: 202-224-7665
     contact_form: http://www.rockefeller.senate.gov/public/index.cfm/email-jay
     office: 531 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: S001141
     thomas: '01548'
@@ -2723,6 +2767,7 @@
     fax: 202-224-3149
     contact_form: http://www.sessions.senate.gov/public/index.cfm?FuseAction=ConstituentServices.ContactMe
     office: 326 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: S001181
     thomas: '01901'
@@ -2752,6 +2797,7 @@
     phone: 202-224-2841
     contact_form: http://www.shaheen.senate.gov/contact/
     office: 520 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: U000038
     thomas: '01595'
@@ -2816,6 +2862,7 @@
     fax: 202-226-7840
     contact_form: http://www.markudall.senate.gov/?p=contact
     office: 328 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: U000039
     thomas: '01567'
@@ -2881,6 +2928,7 @@
     fax: 202-226-1331
     contact_form: http://www.tomudall.senate.gov/?p=contact
     office: 110 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: W000805
     thomas: '01897'
@@ -2911,6 +2959,7 @@
     fax: 202-224-6295
     contact_form: http://www.warner.senate.gov/public/index.cfm?p=Contact
     office: 475 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: G000555
     thomas: '01866'
@@ -2968,6 +3017,7 @@
     fax: 202-225-1168
     contact_form: http://www.gillibrand.senate.gov/contact/
     office: 478 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: F000457
     thomas: '01969'
@@ -2997,6 +3047,7 @@
     phone: 202-224-5641
     contact_form: http://www.franken.senate.gov/?p=contact
     office: 309 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: C001088
     thomas: '01984'
@@ -3027,6 +3078,7 @@
     phone: 202-224-5042
     contact_form: http://www.coons.senate.gov/contact/
     office: 127a Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: M001183
     thomas: '01983'
@@ -3068,6 +3120,7 @@
     phone: 202-224-3954
     contact_form: http://www.manchin.senate.gov/public/index.cfm/contact-form
     office: 303 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: A000055
     thomas: '01460'
@@ -3407,6 +3460,7 @@
     phone: 202-224-3324
     contact_form: http://www.ayotte.senate.gov/?p=contact
     office: 144 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B001256
     thomas: '01858'
@@ -3573,6 +3627,7 @@
     fec:
     - H8WI00018
     cspan: 57884
+    lis: S354
   name:
     first: Tammy
     last: Baldwin
@@ -3645,6 +3700,7 @@
     fax: 202-225-6942
     contact_form: http://www.house.gov/formbaldwin/IMA/get_address.htm
     office: 1 Russell Courtyard
+    state_rank: junior
 - id:
     bioguide: B001269
     thomas: '02054'
@@ -4087,6 +4143,7 @@
     fax: 202-228-5036
     contact_form: http://www.bennet.senate.gov/contact/
     office: 458 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B001257
     thomas: '01838'
@@ -4618,6 +4675,7 @@
     phone: 202-224-2823
     contact_form: http://www.blumenthal.senate.gov/contact/
     office: 702 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: B000575
     thomas: '01464'
@@ -4694,6 +4752,7 @@
     phone: 202-224-5721
     contact_form: http://www.blunt.senate.gov/public/index.cfm/contact-form?p=contact-roy
     office: 260 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B000589
     thomas: '00102'
@@ -4934,6 +4993,7 @@
     phone: 202-224-4843
     contact_form: http://www.boozman.senate.gov/public/index.cfm/e-mail-me
     office: 320 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B001245
     thomas: '01723'
@@ -5150,6 +5210,7 @@
     fax: 202-224-0454
     contact_form: http://www.boxer.senate.gov/en/contact/
     office: 112 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: B000755
     thomas: '01468'
@@ -5815,6 +5876,7 @@
     fax: 202-228-2981
     contact_form: http://www.burr.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 217 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: B001251
     thomas: '01761'
@@ -7431,6 +7493,7 @@
     phone: 202-224-5623
     contact_form: http://www.coats.senate.gov/contact/
     office: 493 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C000556
     thomas: '00211'
@@ -7612,6 +7675,7 @@
     fax: 202-224-6008
     contact_form: http://www.coburn.senate.gov/public/index.cfm/contactsenatorcoburn?p=ContactForm
     office: 172 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: C001077
     thomas: '01912'
@@ -8370,6 +8434,7 @@
     fax: 202-228-1375
     contact_form: http://www.crapo.senate.gov/contact/email.cfm
     office: 239 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: C001087
     thomas: '01989'
@@ -9864,6 +9929,7 @@
     fec:
     - H4IN02101
     cspan: 1012000
+    lis: S356
   name:
     first: Joe
     last: Donnelly
@@ -9910,6 +9976,7 @@
     fax: 202-225-6798
     contact_form: http://donnelly.house.gov/issue_subscribe.shtml
     office: B33 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: D000482
     thomas: '00316'
@@ -11102,6 +11169,7 @@
     fec:
     - H0AZ01184
     cspan: 87582
+    lis: S358
   name:
     first: Jeff
     last: Flake
@@ -11169,6 +11237,7 @@
     fax: 202-226-4386
     contact_form: http://www.house.gov/writerep
     office: B85 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: F000459
     thomas: '02061'
@@ -12508,6 +12577,7 @@
     fax: 202-224-6020
     contact_form: http://www.grassley.senate.gov/contact.cfm
     office: 135 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -13722,6 +13792,7 @@
     fec:
     - H8NM01224
     cspan: 1030686
+    lis: S359
   name:
     first: Martin
     last: Heinrich
@@ -13761,6 +13832,7 @@
     fax: 202-225-4975
     contact_form: https://forms.house.gov/heinrich/contact-form.shtml
     office: B40d Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: H001036
     thomas: '01749'
@@ -14079,6 +14151,7 @@
     fec:
     - H6HI02251
     cspan: 91216
+    lis: S361
   name:
     first: Mazie
     middle: K.
@@ -14126,6 +14199,7 @@
     fax: 202-225-4987
     contact_form: http://hirono.house.gov/IMA/issue_subscribe.htm
     office: B40e Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: H001061
     thomas: '02079'
@@ -14155,6 +14229,7 @@
     phone: 202-224-2551
     contact_form: http://www.hoeven.senate.gov/public/index.cfm/email-the-senator
     office: 120 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: H001032
     thomas: '01580'
@@ -14718,6 +14793,7 @@
     fax: 202-228-0724
     contact_form: http://www.isakson.senate.gov/contact.cfm
     office: 131 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: I000057
     thomas: '01663'
@@ -15240,6 +15316,7 @@
     phone: 202-224-5323
     contact_form: http://www.ronjohnson.senate.gov/public/index.cfm/contact
     office: 386 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: J000174
     thomas: '00603'
@@ -16179,6 +16256,7 @@
     phone: 202-224-2854
     contact_form: http://www.kirk.senate.gov/?p=contact
     office: 524 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: K000363
     thomas: '01733'
@@ -16888,6 +16966,7 @@
     fax: 202-224-3479
     contact_form: http://www.leahy.senate.gov/contact/
     office: 437 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: L000551
     thomas: '01501'
@@ -17005,6 +17084,7 @@
     phone: 202-224-5444
     contact_form: http://www.lee.senate.gov/public/index.cfm/contact
     office: 316 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: L000263
     thomas: '00683'
@@ -18608,6 +18688,7 @@
     fax: 202-228-2862
     contact_form: http://www.mccain.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 241 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M000309
     thomas: '01503'
@@ -19939,6 +20020,7 @@
     fax: 202-224-8858
     contact_form: http://www.mikulski.senate.gov/contact/
     office: 503 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M001150
     thomas: '01731'
@@ -20566,11 +20648,12 @@
     state: KS
     class: 3
     party: Republican
-    url: http://moran.senate.gov/public/
+    url: http://www.moran.senate.gov
     address: 354 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-6521
     contact_form: http://www.moran.senate.gov/public/index.cfm?p=e-mail-jerry
     office: 354 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: M001182
     thomas: '02059'
@@ -20656,6 +20739,7 @@
     fax: 202-224-5301
     contact_form: http://www.murkowski.senate.gov/public/index.cfm?p=Contact
     office: 709 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: M001169
     thomas: '01837'
@@ -20665,6 +20749,7 @@
     fec:
     - H6CT05124
     cspan: 1021270
+    lis: S364
   name:
     first: Christopher
     middle: S.
@@ -20712,6 +20797,7 @@
     fax: 202-225-5933
     contact_form: http://www.house.gov/formchrismurphy/ic_zip_auth.htm
     office: B40a Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: M001151
     thomas: '01744'
@@ -20833,6 +20919,7 @@
     fax: 202-224-0238
     contact_form: http://www.murray.senate.gov/email/index.cfm
     office: 448 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: N000002
     thomas: '00850'
@@ -21987,6 +22074,7 @@
     phone: 202-224-4343
     contact_form: http://www.paul.senate.gov/?p=contact
     office: 208 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: P000594
     thomas: '01930'
@@ -22974,6 +23062,7 @@
     phone: 202-224-3353
     contact_form: http://www.portman.senate.gov/public/index.cfm/contact?p=contact-form
     office: 338 Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: P000599
     thomas: '01915'
@@ -23744,6 +23833,7 @@
     fax: 202-224-7327
     contact_form: http://www.reid.senate.gov/contact/index.cfm
     office: 522 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: R000586
     thomas: '02048'
@@ -24909,12 +24999,13 @@
     state: FL
     class: 3
     party: Republican
-    url: http://www.rubio.senate.gov/public/
+    url: http://www.rubio.senate.gov
     address: 317 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-3041
     fax: 202-224-3041
     contact_form: http://www.rubio.senate.gov/public/index.cfm/contact
     office: 317 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: R000594
     thomas: '02039'
@@ -25887,6 +25978,7 @@
     fax: 202-228-3027
     contact_form: http://www.schumer.senate.gov/Contact/contact_chuck.cfm
     office: 322 Hart Senate Office Building
+    state_rank: senior
 - id:
     bioguide: S001162
     thomas: '01798'
@@ -26206,6 +26298,7 @@
     fec:
     - H0SC01279
     cspan: 623506
+    lis: S365
   name:
     first: Tim
     last: Scott
@@ -26236,6 +26329,7 @@
     phone: 202-224-6121
     fax: 202-225-3407
     office: 113 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: S000244
     thomas: '01041'
@@ -26707,6 +26801,7 @@
     fax: 202-224-3416
     contact_form: http://www.shelby.senate.gov/public/index.cfm/emailsenatorshelby
     office: 304 Russell Senate Office Building
+    state_rank: senior
 - id:
     bioguide: S000344
     thomas: '01526'
@@ -28343,6 +28438,7 @@
     fax: 202-228-5429
     contact_form: http://www.thune.senate.gov/public/index.cfm/contact
     office: 511 Dirksen Senate Office Building
+    state_rank: junior
 - id:
     bioguide: T000462
     thomas: '01664'
@@ -28647,6 +28743,7 @@
     phone: 202-224-4254
     contact_form: http://www.toomey.senate.gov/?p=contact
     office: 502 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: T000465
     thomas: '01884'
@@ -29248,6 +29345,7 @@
     fax: 202-228-5061
     contact_form: http://www.vitter.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 516 Hart Senate Office Building
+    state_rank: junior
 - id:
     bioguide: W000798
     thomas: '01855'
@@ -30600,6 +30698,7 @@
     fax: 202-228-2717
     contact_form: http://www.wyden.senate.gov/contact/
     office: 221 Dirksen Senate Office Building
+    state_rank: senior
 - id:
     bioguide: Y000062
     thomas: '01853'
@@ -31127,6 +31226,7 @@
     phone: 202-224-6244
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
     office: 361a Russell Senate Office Building
+    state_rank: junior
 - id:
     bioguide: H001063
     thomas: '02089'
@@ -31426,6 +31526,7 @@
     fax: 202-224-6747
     office: G11 Dirksen Senate Office Building
     url: http://www.schatz.senate.gov
+    state_rank: senior
 - id:
     bioguide: S000018
     thomas: '01009'
@@ -32507,6 +32608,7 @@
     bioguide: W000817
     thomas: '02182'
     cspan: 1023023
+    lis: S366
   name:
     first: Elizabeth
     last: Warren
@@ -32525,6 +32627,7 @@
     address: 2 RUSSELL COURTYARD WASHINGTON DC 20510
     office: 2 Russell Courtyard
     phone: 202-224-4543
+    state_rank: junior
 - id:
     govtrack: 412543
     bioguide: K000379
@@ -32579,6 +32682,7 @@
     bioguide: K000383
     thomas: '02185'
     cspan: 37413
+    lis: S363
   name:
     first: Angus
     last: King
@@ -32597,6 +32701,7 @@
     address: 188 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     office: 188 Russell Senate Office Building
     phone: 202-224-5344
+    state_rank: junior
 - id:
     govtrack: 412546
     bioguide: K000380
@@ -32831,6 +32936,7 @@
     bioguide: H001069
     thomas: '02174'
     cspan: 95414
+    lis: S360
   name:
     first: Heidi
     last: Heitkamp
@@ -32849,6 +32955,7 @@
     address: G55 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     office: G55 Dirksen Senate Office Building
     phone: 202-224-2043
+    state_rank: junior
 - id:
     govtrack: 412555
     bioguide: C001096
@@ -32877,6 +32984,7 @@
     bioguide: F000463
     thomas: '02179'
     cspan: 1034067
+    lis: S357
   name:
     first: Deb
     last: Fischer
@@ -32895,6 +33003,7 @@
     address: 825 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     office: 825 Hart Senate Office Building
     phone: 202-224-6551
+    state_rank: junior
 - id:
     govtrack: 412557
     bioguide: K000382
@@ -33276,6 +33385,7 @@
     bioguide: C001098
     thomas: '02175'
     cspan: 1019953
+    lis: S355
   name:
     first: Ted
     last: Cruz
@@ -33294,6 +33404,7 @@
     address: B40B DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     office: B40b Dirksen Senate Office Building
     phone: 202-224-5922
+    state_rank: junior
 - id:
     govtrack: 412574
     bioguide: W000814
@@ -33486,6 +33597,7 @@
     bioguide: K000384
     thomas: '02176'
     cspan: 49219
+    lis: S362
   name:
     first: Timothy
     last: Kaine
@@ -33504,6 +33616,7 @@
     address: B40C DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     office: B40c Dirksen Senate Office Building
     phone: 202-224-4024
+    state_rank: junior
 - id:
     govtrack: 412583
     bioguide: K000381
