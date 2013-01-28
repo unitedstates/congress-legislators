@@ -29,16 +29,7 @@ for cx in committees_current:
   if "senate_committee_id" in cx:
     senate_ref[cx["senate_committee_id"]] = cx
 
-# REMOVE ME
-# During the transition to the new committee files, clean up redundant data
-# and dissolved subcommittees.
-seen_subcommittees = set()
-for cx in committees_current:
-  if "names" in cx: del cx["names"]
-  if "congresses" in cx: del cx["congresses"]
-  for sx in cx.get("subcommittees", []):
-    if "names" in sx: del sx["names"]
-    if "congresses" in sx: del sx["congresses"]
+
 
 # map state/district to current representatives and state/lastname to current senators
 # since the House/Senate pages do not provide IDs for Members of Congress
@@ -56,8 +47,6 @@ for moc in legislators_current:
     for n in [moc["name"]] + moc.get("other_names", []):
       senators[(term["state"], n["last"])] = moc
 
-# track which committees we've seen so we can check that we saw them all
-seen_committees = set()
 
 # Scrape clerk.house.gov...
 def scrape_house():
@@ -70,7 +59,6 @@ def scrape_house():
       continue
     
     cx = house_ref[id]
-    seen_committees.add(cx["thomas_id"])
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
     
 def scrape_house_committee(cx, output_code, house_code):
@@ -157,7 +145,6 @@ def scrape_house_committee(cx, output_code, house_code):
       sx['name'] = "[not initialized]" # will be set inside of scrape_house_committee
       sx['thomas_id'] = m.group(2)
       cx['subcommittees'].append(sx)
-    seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
     scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
 
 # Scrape senate.gov....
@@ -169,12 +156,14 @@ def scrape_senate():
     if id not in senate_ref:
       print "Unrecognized committee:", id, name
       continue
-      
-    cx = senate_ref[id]
-    seen_committees.add(cx["thomas_id"])
-   
-    # Scrape some metadata on the HTML page first.
+    
+    print "[%s] Fetching members for %s" % (id, name)
 
+    cx = senate_ref[id]
+    
+    # Scrape some metadata on the HTML page first.
+    
+    print "\tDownloading HTML..."
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
     body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
     
@@ -191,9 +180,12 @@ def scrape_senate():
     if id[0] != "J" and id[0:2] != 'SC':
       cx["name"] = "Senate " + cx["name"]
  
+    
     # Use the XML for the rest.
 
+    print "\tDownloading XML..."
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
+
     body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
     dom = lxml.etree.fromstring(body3)
     majority_party = dom.xpath("committees/majority_party")[0].text
@@ -220,8 +212,7 @@ def scrape_senate():
       sx["name"] = name.strip()
       sx["name"] = re.sub(r"^\s*Subcommittee on\s*", "", sx["name"])
       sx["name"] = re.sub(r"\s+", " ", sx["name"])
-      seen_subcommittees.add((cx["thomas_id"], sx["thomas_id"]))
-
+      
       committee_membership[id + scid] = []
       for member in subcom.xpath("members/member"):
         scrape_senate_member(committee_membership[id + scid], member, majority_party)
@@ -235,6 +226,10 @@ def scrape_senate_member(output_list, membernode, majority_party):
   if title == "Ranking": title = "Ranking Member"
           
   # look up senator by state and last name
+  if not senators.has_key((state, last_name)):
+    print "\t[%s] Unknown member: %s" % (state, last_name)
+    return None
+
   moc = senators[(state, last_name)]
   
   entry = OrderedDict()
@@ -265,25 +260,8 @@ def ids_from(moc):
 
 # MAIN
 
-scrape_house()
+# scrape_house()
 scrape_senate()
-
-# REMOVE ME
-# Delete dissolved subcommittees from the old-format committee file.
-for cx in committees_current:
-  for sx in list(cx.get("subcommittees", [])):
-    if (cx["thomas_id"], sx["thomas_id"]) not in seen_subcommittees:
-      cx["subcommittees"].remove(sx)
-  if cx.get("subcommittees", None) == []:
-    del cx["subcommittees"]
-
-# Check that we got data for all committees.
-# TODO: Make sure we have data from both chambers for the joint committees,
-# but unfortunately the House did not publish joint committee membership in
-# the 112th Congress!
-for cx in committees_current:
-  if not cx["thomas_id"] in seen_committees:
-    print "Missing data for", cx["name"]
 
 save_data(committee_membership, "committee-membership-current.yaml")
 save_data(committees_current, "committees-current.yaml")
