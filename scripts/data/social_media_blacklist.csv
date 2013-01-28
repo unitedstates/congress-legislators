@@ -3,11 +3,11 @@ twitter,housedemocrats,house dem caucus
 twitter,search\?q=,search links
 twitter,SmallBizGOP,some house republican caucus
 facebook,likebox\.php,like buttons
-twitter,kellyayotte,"CHECK LATER – no link on her homepage, twitter button is conspicuously absent"
+twitter,^kellyayotte$,"CHECK LATER – no link on her homepage, twitter button is conspicuously absent"
 twitter,elizabethforma,campaign account
 twitter,heinrich4nm,campaign account
 twitter,gopconference,some house republican caucus
-twitter,petegallego,campaign account
+twitter,^petegallego$,campaign account
 twitter,^share$,not the share url
 twitter,javascripts,probably not real
 twitter,user_timeline,probably not real
@@ -15,11 +15,11 @@ twitter,statuses,probably not real
 twitter,WaysandMeansGOP,some house republican caucus
 twitter,congjeffmiller,abandoned
 twitter,Daniel_Inouye,mentioned on some people's sites
-twitter,SydneyFreedberg,appears somewhere
-twitter,kyledeb,appears somewhere
+twitter,^SydneyFreedberg$,appears somewhere
+twitter,^kyledeb$,appears somewhere
 twitter,nbcnews,appears somewhere
-twitter,MarcoRubio,accidentally linked to campaign account
-twitter,TedCruz,accidentally linked to campaign account
+twitter,^MarcoRubio$,accidentally linked to campaign account
+twitter,^TedCruz$,accidentally linked to campaign account
 twitter,^NRO$,appears somewhere
 twitter,20515507227,commented out embed on peter roskam's site
-twitter,tammybaldwin,campaign account
+twitter,^tammybaldwin$,campaign account
