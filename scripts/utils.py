@@ -147,6 +147,10 @@ def unescape(text):
 # https://gist.github.com/317164
 
 import yaml
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
 from collections import OrderedDict
 
 def construct_odict(load, node):
@@ -163,15 +167,15 @@ def construct_odict(load, node):
         value = load.construct_object(value)
         omap[key] = value
 
-yaml.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
+Loader.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
 def ordered_dict_serializer(self, data):
     return self.represent_mapping('tag:yaml.org,2002:map', data.items())
-yaml.add_representer(OrderedDict, ordered_dict_serializer)
+Dumper.add_representer(OrderedDict, ordered_dict_serializer)
 
 # Likewise, when we store unicode objects make sure we don't write
 # them with weird YAML tags indicating the Python data type. The
 # standard string type is fine. We should do this:
-#   yaml.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'tag:yaml.org,2002:str', value))
+#   Dumper.add_representer(unicode, lambda dumper, value: dumper.represent_scalar(u'tag:yaml.org,2002:str', value))
 #
 # However, the standard PyYAML representer for strings does something
 # weird: if a value cannot be parsed as an integer quotes are omitted.
@@ -190,8 +194,8 @@ def our_string_representer(dumper, value):
 	style = None
 	if re.match(r"^0\d*$", value): style = "'"
 	return dumper.represent_scalar(u'tag:yaml.org,2002:str', value, style=style)
-yaml.add_representer(str, our_string_representer)
-yaml.add_representer(unicode, our_string_representer)
+Dumper.add_representer(str, our_string_representer)
+Dumper.add_representer(unicode, our_string_representer)
         
 # Apply some common settings for loading/dumping YAML and cache the
 # data in pickled format which is a LOT faster than YAML.
@@ -210,7 +214,7 @@ def yaml_load(path, use_cache=True):
             return store["data"]
     
     # No cached pickled data exists, so load the YAML file.
-    data = yaml.load(open(path))
+    data = yaml.load(open(path), Loader=Loader)
     
     # Store in a pickled file for fast access later.
     pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
@@ -218,7 +222,7 @@ def yaml_load(path, use_cache=True):
     return data
 
 def yaml_dump(data, path):
-    yaml.dump(data, open(path, "w"), default_flow_style=False, allow_unicode=True)
+    yaml.dump(data, open(path, "w"), default_flow_style=False, allow_unicode=True, Dumper=Dumper)
 
     # Store in a pickled file for fast access later.
     import cPickle as pickle, hashlib
