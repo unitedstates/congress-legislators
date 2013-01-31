@@ -337,6 +337,6 @@ Who's Using This Data
 No one's under any obligation to **tell** us when they're using this data, but here are the ones we know about:
 
 * [GovTrack.us](http://govtrack.us) 
-* [Sunlight Labs Congress API](http://services.sunlightlabs.com/docs/Sunlight_Congress_API/)
+* [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
 * [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
