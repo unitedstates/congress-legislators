@@ -148,9 +148,9 @@ def unescape(text):
 
 import yaml
 try:
-    from yaml import CLoader as Loader, CDumper as Dumper
+    from yaml import CSafeLoader as Loader, CDumper as Dumper
 except ImportError:
-    from yaml import Loader, Dumper
+    from yaml import SafeLoader as Loader, Dumper
 from collections import OrderedDict
 
 def construct_odict(load, node):
