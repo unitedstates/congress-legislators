@@ -334,7 +334,7 @@ git diff ../*.yaml
 Who's Using This Data
 ---------------------
 
-No one's under any obligation to **tell** us when they're using this data, but here are the ones we know about:
+Here are the ones we know about:
 
 * [GovTrack.us](http://govtrack.us) 
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
