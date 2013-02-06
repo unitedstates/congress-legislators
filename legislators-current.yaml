@@ -2115,65 +2115,6 @@
     office: 136 Hart Senate Office Building
     state_rank: senior
 - id:
-    bioguide: K000148
-    thomas: '01379'
-    lis: S173
-    govtrack: 300060
-    opensecrets: N00000245
-    votesmart: 53306
-    icpsr: 14920
-    fec:
-    - S4MA00069
-    cspan: 1485
-  name:
-    first: John
-    middle: Forbes
-    last: Kerry
-    official_full: John F. Kerry
-  bio:
-    birthday: '1943-12-11'
-    gender: M
-    religion: Roman Catholic
-  terms:
-  - type: sen
-    start: '1985-01-03'
-    end: '1990-10-28'
-    state: MA
-    class: 2
-    party: Democrat
-  - type: sen
-    start: '1991-01-03'
-    end: '1996-10-04'
-    state: MA
-    class: 2
-    party: Democrat
-  - type: sen
-    start: '1997-01-07'
-    end: '2002-11-22'
-    state: MA
-    class: 2
-    party: Democrat
-  - type: sen
-    start: '2003-01-07'
-    end: '2009-01-03'
-    state: MA
-    class: 2
-    party: Democrat
-    url: http://kerry.senate.gov/
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: MA
-    class: 2
-    party: Democrat
-    url: http://www.kerry.senate.gov
-    address: 218 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-2742
-    fax: 202-224-8525
-    contact_form: http://www.kerry.senate.gov/contact/
-    office: 218 Russell Senate Office Building
-    state_rank: senior
-- id:
     bioguide: L000550
     thomas: '01546'
     lis: S258
@@ -33597,3 +33538,19 @@
     address: 313 Cannon HOB; Washington DC 20515-0925
     phone: 202-225-2906
     url: http://pocan.house.gov
+- id:
+    bioguide: C001099
+  name:
+    first: William
+    last: Cowan
+    nickname: Mo
+  bio:
+    gender: M
+    birthday: '1969-04-04'
+  terms:
+  - type: sen
+    start: '2013-02-06'
+    end: '2015-01-03'
+    state: MA
+    class: 2
+    party: Democrat
