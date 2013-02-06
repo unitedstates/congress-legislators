@@ -90,7 +90,7 @@ for node in dom.getroot():
 	# kill trailing slashes
 	url = re.sub("/$", "", url)
 
-	term["url"] = url
+	if not url.startswith("/"): term["url"] = url # temporary home pages for new senators
 	term["address"] = str(node.xpath("string(address)")).strip()
 	term["office"] = string.capwords(term["address"].split(" WASHINGTON ")[0])
 

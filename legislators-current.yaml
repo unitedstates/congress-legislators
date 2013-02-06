@@ -2154,11 +2154,11 @@
     class: 2
     party: Democrat
     url: http://www.landrieu.senate.gov
-    address: 431 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    address: 703 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-5824
     fax: 202-224-9735
     contact_form: http://www.landrieu.senate.gov/?p=contact
-    office: 431 Dirksen Senate Office Building
+    office: 703 Hart Senate Office Building
     state_rank: senior
 - id:
     bioguide: L000123
@@ -3639,7 +3639,7 @@
     address: 1 RUSSELL COURTYARD WASHINGTON DC 20510
     phone: 202-224-5653
     fax: 202-225-6942
-    contact_form: http://www.house.gov/formbaldwin/IMA/get_address.htm
+    contact_form: http://www.baldwin.senate.gov/contact.cfm
     office: 1 Russell Courtyard
     state_rank: junior
 - id:
@@ -9915,7 +9915,7 @@
     address: B33 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-4814
     fax: 202-225-6798
-    contact_form: http://donnelly.house.gov/issue_subscribe.shtml
+    contact_form: http://www.donnelly.senate.gov/contact.cfm
     office: B33 Russell Senate Office Building
     state_rank: junior
 - id:
@@ -11087,7 +11087,7 @@
     address: B85 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-4521
     fax: 202-226-4386
-    contact_form: http://www.house.gov/writerep
+    contact_form: http://www.flake.senate.gov/contact.cfm
     office: B85 Russell Senate Office Building
     state_rank: junior
 - id:
@@ -12427,7 +12427,7 @@
     address: 135 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-3744
     fax: 202-224-6020
-    contact_form: http://www.grassley.senate.gov/contact.cfm
+    contact_form: http://www.grassley.senate.gov/contact/contact.cfm
     office: 135 Hart Senate Office Building
     state_rank: senior
 - id:
@@ -13682,7 +13682,7 @@
     address: B40D DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-5521
     fax: 202-225-4975
-    contact_form: https://forms.house.gov/heinrich/contact-form.shtml
+    contact_form: http://www.heinrich.senate.gov/contact.cfm
     office: B40d Dirksen Senate Office Building
     state_rank: junior
 - id:
@@ -14049,7 +14049,7 @@
     address: B40E DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-6361
     fax: 202-225-4987
-    contact_form: http://hirono.house.gov/IMA/issue_subscribe.htm
+    contact_form: http://www.hirono.senate.gov/contact.cfm
     office: B40e Dirksen Senate Office Building
     state_rank: junior
 - id:
@@ -14643,7 +14643,7 @@
     address: 131 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-3643
     fax: 202-228-0724
-    contact_form: http://www.isakson.senate.gov/contact.cfm
+    contact_form: http://www.isakson.senate.gov/public/index.cfm/email-me
     office: 131 Russell Senate Office Building
     state_rank: junior
 - id:
@@ -20503,7 +20503,7 @@
     url: http://www.moran.senate.gov
     address: 354 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-6521
-    contact_form: http://www.moran.senate.gov/public/index.cfm?p=e-mail-jerry
+    contact_form: http://moran.senate.gov/public/index.cfm/e-mail-jerry
     office: 354 Russell Senate Office Building
     state_rank: junior
 - id:
@@ -20647,7 +20647,7 @@
     address: B40A DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-4041
     fax: 202-225-5933
-    contact_form: http://www.house.gov/formchrismurphy/ic_zip_auth.htm
+    contact_form: http://www.murphy.senate.gov/contact.cfm
     office: B40a Dirksen Senate Office Building
     state_rank: junior
 - id:
@@ -20766,11 +20766,11 @@
     class: 3
     party: Democrat
     url: http://www.murray.senate.gov
-    address: 448 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
+    address: 154 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-2621
     fax: 202-224-0238
-    contact_form: http://www.murray.senate.gov/email/index.cfm
-    office: 448 Russell Senate Office Building
+    contact_form: http://www.murray.senate.gov/public/index.cfm/contactme
+    office: 154 Russell Senate Office Building
     state_rank: senior
 - id:
     bioguide: N000002
@@ -26177,11 +26177,12 @@
     party: Republican
     class: 3
     url: http://www.scott.senate.gov
-    address: 113 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    address: 117 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-6121
     fax: 202-225-3407
-    office: 113 Hart Senate Office Building
+    office: 117 Hart Senate Office Building
     state_rank: junior
+    contact_form: http://www.scott.senate.gov/contact.cfm
 - id:
     bioguide: S000244
     thomas: '01041'
@@ -31379,6 +31380,7 @@
     office: G11 Dirksen Senate Office Building
     url: http://www.schatz.senate.gov
     state_rank: senior
+    contact_form: http://www.schatz.senate.gov/contact.cfm
 - id:
     bioguide: S000018
     thomas: '01009'
@@ -32479,7 +32481,8 @@
     address: 2 RUSSELL COURTYARD WASHINGTON DC 20510
     office: 2 Russell Courtyard
     phone: 202-224-4543
-    state_rank: junior
+    state_rank: senior
+    contact_form: http://www.warren.senate.gov/contact.cfm
 - id:
     govtrack: 412543
     bioguide: K000379
@@ -32554,6 +32557,7 @@
     office: 188 Russell Senate Office Building
     phone: 202-224-5344
     state_rank: junior
+    contact_form: http://www.king.senate.gov/contact.cfm
 - id:
     govtrack: 412546
     bioguide: K000380
@@ -32808,6 +32812,7 @@
     office: G55 Dirksen Senate Office Building
     phone: 202-224-2043
     state_rank: junior
+    contact_form: http://www.heitkamp.senate.gov/contact.cfm
 - id:
     govtrack: 412555
     bioguide: C001096
@@ -32856,6 +32861,7 @@
     office: 825 Hart Senate Office Building
     phone: 202-224-6551
     state_rank: junior
+    contact_form: http://www.fischer.senate.gov/contact.cfm
 - id:
     govtrack: 412557
     bioguide: K000382
@@ -33257,6 +33263,7 @@
     office: B40b Dirksen Senate Office Building
     phone: 202-224-5922
     state_rank: junior
+    contact_form: http://www.cruz.senate.gov/contact.cfm
 - id:
     govtrack: 412574
     bioguide: W000814
@@ -33469,6 +33476,7 @@
     office: B40c Dirksen Senate Office Building
     phone: 202-224-4024
     state_rank: junior
+    contact_form: http://www.kaine.senate.gov/contact.cfm
 - id:
     govtrack: 412583
     bioguide: K000381
@@ -33544,6 +33552,7 @@
     first: William
     last: Cowan
     nickname: Mo
+    official_full: William M. Cowan
   bio:
     gender: M
     birthday: '1969-04-04'
@@ -33554,3 +33563,6 @@
     state: MA
     class: 2
     party: Democrat
+    address: 359 DIRKSEN SENATE OFFICE BUILDING WASHINGTON DC 20510
+    office: 359 Dirksen Senate Office Building
+    phone: 202-224-2742
