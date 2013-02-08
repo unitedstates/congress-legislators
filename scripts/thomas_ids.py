@@ -45,7 +45,7 @@ for chamber in ("House of Representatives", "Senate"):
     continue
     
   for node in dom.xpath("//ul[@class='results_list']/li"):
-    thomas_id = "%05d" % int(re.match("/member/.*/(\d+)$", node.xpath('h2/a')[0].get('href')).group(1))
+    thomas_id = "%05d" % int(re.search("/member/.*/(\d+)$", node.xpath('h2/a')[0].get('href')).group(1))
     
     # THOMAS misassigned these 'new' IDs to existing individuals.
     if thomas_id in ('02139', '02132'):
