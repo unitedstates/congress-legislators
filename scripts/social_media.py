@@ -27,8 +27,9 @@ def main():
       "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)"
     ],
     "facebook": [
-      "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?pages/[^/]+/([\\d]+)",
-      "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)"
+      "\\('facebook.com/([^']+)'\\)",
+      "https?://(?:www\\.)?facebook.com/(?:home\\.php)?(?:business/dashboard/#/)?(?:government)?(?:#!/)?(?:#%21/)?(?:#/)?pages/[^/]+/(\\d+)",
+      "https?://(?:www\\.)?facebook.com/(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
     ],
     "twitter": [
       "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
@@ -89,6 +90,11 @@ def main():
     else:
       possibles = current_bioguide.keys()
 
+    if service == "facebook":
+      service_entry = "facebook_graph"
+    else:
+      service_entry = service
+
     for bioguide in possibles:
       if media_bioguide.get(bioguide, None) is None:
         to_check.append(bioguide)
@@ -116,9 +122,14 @@ def main():
     else:
       to_check = media_bioguide.keys()
 
+    if service == "facebook":
+      service_entry = "facebook_graph"
+    else:
+      service_entry = service
+
     for bioguide in to_check:
       entry = media_bioguide[bioguide]
-      current = entry['social'].get(service, None)
+      current = entry['social'].get(service_entry, None)
       if not current:
         continue
 
@@ -142,8 +153,13 @@ def main():
       bioguide = rec["bioguide"]
       candidate = rec["candidate"]
 
+      if service == "facebook":
+        service_entry = "facebook_graph"
+      else:
+        service_entry = service
+
       if media_bioguide.has_key(bioguide):
-        media_bioguide[bioguide]['social'][service] = candidate
+        media_bioguide[bioguide]['social'][service_entry] = candidate
       else:
         new_media = {'id': {}, 'social': {}}
 
@@ -152,7 +168,7 @@ def main():
         if thomas_id:
           new_media['id']['thomas'] = thomas_id
 
-        new_media['social'][service] = candidate
+        new_media['social'][service_entry] = candidate
         media.append(new_media)
 
     print "Saving social media..."
