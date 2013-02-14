@@ -27,6 +27,7 @@ def main():
       "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)"
     ],
     "facebook": [
+      "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?pages/[^/]+/([\\d]+)",
       "https?://(?:www\\.)?facebook.com/(?:home\\.php#!)?(?:#!)?(?:people/)?/?([^\\s\"']+)"
     ],
     "twitter": [
@@ -98,13 +99,14 @@ def main():
 
     utils.mkdir_p("cache/social_media")
     writer = csv.writer(open("cache/social_media/%s_candidates.csv" % service, 'w'))
-    writer.writerow(["bioguide", "official_full", "website", "service", "candidate"])
+    writer.writerow(["bioguide", "official_full", "website", "service", "candidate", "candidate_url"])
 
     for bioguide in to_check:
       candidate = candidate_for(bioguide)
       if candidate:
         url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-        writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'], url, service, candidate])
+        candidate_url = "http://%s.com/%s" % (service, candidate)
+        writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url])
         print "\tWrote: %s" % candidate
 
   def verify():
