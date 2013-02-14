@@ -748,7 +748,7 @@
     thomas_id: '04'
   - name: Energy
     thomas_id: '01'
-  - name: Public Lands and Forests
+  - name: Public Lands, Forests, and Mining
     thomas_id: '03'
 - type: senate
   name: Senate Committee on Environment and Public Works
@@ -858,6 +858,10 @@
     thomas_id: '02'
   - name: Immigration, Refugees and Border Security
     thomas_id: '04'
+  - thomas_id: '24'
+    name: Bankruptcy and the Courts
+  - thomas_id: '25'
+    name: Oversight, Federal Rights and Agency Action
 - type: senate
   name: Senate Committee on Rules and Administration
   url: http://rules.senate.gov/

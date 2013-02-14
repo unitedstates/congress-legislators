@@ -11,8 +11,9 @@ from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
 
 
 committee_membership = { }
-committees_current = load_data("committees-current.yaml")
 
+committees_current = load_data("committees-current.yaml")
+memberships_current = load_data("committee-membership-current.yaml")
 
 # default to not caching
 cache = utils.flags().get('cache', False)
@@ -28,7 +29,6 @@ senate_ref = { }
 for cx in committees_current:
   if "senate_committee_id" in cx:
     senate_ref[cx["senate_committee_id"]] = cx
-
 
 
 # map state/district to current representatives and state/lastname to current senators
@@ -260,6 +260,11 @@ def ids_from(moc):
 
 # MAIN
 
+# TEMPORARY: keep old House data as is
+for id in memberships_current:
+  if id.startswith("H"):
+    committee_membership[id] = memberships_current[id]
+    
 # scrape_house()
 scrape_senate()
 
