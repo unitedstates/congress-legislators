@@ -149,9 +149,9 @@ Each record has two sections: id and social. The id section identifies the legis
 
 All values can be turned into URLs by preceding them with the domain name of the service in question:
 
-* http://twitter.com/[username]
-* http://youtube.com/[username]
-* http://facebook.com/[username or ID]
+* `http://twitter.com/[username]`
+* `http://youtube.com/[username]`
+* `http://facebook.com/[username or ID]`
 
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
 
