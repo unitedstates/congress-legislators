@@ -24,7 +24,8 @@ from utils import download, load_data, save_data, parse_date
 def main():
   regexes = {
     "youtube": [
-      "https?://(?:www\\.)?youtube.com/(?:user/)?([^\\s\"']+)"
+      "https?://(?:www\\.)?youtube.com/(channel/[^\\s\"/\\?#']+)",
+      "https?://(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
     ],
     "facebook": [
       "\\('facebook.com/([^']+)'\\)",
@@ -62,14 +63,14 @@ def main():
 
   print "Loading blacklist..."
   blacklist = {
-    'twitter': [], 'facebook': [], 'services': []
+    'twitter': [], 'facebook': [], 'youtube': []
   }
   for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
     blacklist[rec["service"]].append(rec["pattern"])
 
   print "Loading whitelist..."
   whitelist = {
-    'twitter': [], 'facebook': [], 'services': []
+    'twitter': [], 'facebook': [], 'youtube': []
   }
   for rec in csv.DictReader(open("data/social_media_whitelist.csv")):
     whitelist[rec["service"]].append(rec["account"].lower())
