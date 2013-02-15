@@ -152,7 +152,7 @@ A few legislators use YouTube "channels" instead of user accounts. These channel
 All values can be turned into URLs by preceding them with the domain name of the service in question:
 
 * `http://twitter.com/[username]`
-* `http://youtube.com/[username or channel id]`
+* `http://youtube.com/[username or channel ID]`
 * `http://facebook.com/[username or ID]`
 
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
