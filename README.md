@@ -144,15 +144,15 @@ The social media file legislators-social-media.yaml stores current social media 
 Each record has two sections: id and social. The id section identifies the legislator using biogiude, thomas, and govtrack IDs (where available). The social section has social media account identifiers:
 
 * twitter: The current official Twitter handle of the legislator.
-* youtube: The current official YouTube handle **or** channel ID, of the legislator.
+* youtube: The current official YouTube handle **or** channel value, of the legislator.
 * facebook: The username **or** numeric ID of the current official Facebook presence of the legislator.
 
-A few legislators use YouTube "channels" instead of user accounts. These channel values will be of the form `channel/[id]`.
+A few legislators use YouTube "channels" instead of user accounts. These channel values will be of the form `channel/[ID]`.
 
 All values can be turned into URLs by preceding them with the domain name of the service in question:
 
 * `http://twitter.com/[username]`
-* `http://youtube.com/[username or channel ID]`
+* `http://youtube.com/[username or channel value]`
 * `http://facebook.com/[username or ID]`
 
 When a legislator leaves office, their social media account information is left in this file for historical preservation.
