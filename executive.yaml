@@ -179,7 +179,7 @@
   terms:
   - type: prez
     start: '1845-03-04'
-    end: '1849-03-03'
+    end: '1849-03-04'
     party: Democratic
 - id:
     govtrack: 412344
@@ -191,7 +191,7 @@
     gender: M
   terms:
   - type: prez
-    start: '1849-03-05'
+    start: '1849-03-04'
     end: '1850-07-09'
     party: Whig
 - id:
@@ -251,6 +251,10 @@
   terms:
   - type: prez
     start: '1861-03-04'
+    end: '1865-03-04'
+    party: Republican
+  - type: prez
+    start: '1865-03-04'
     end: '1865-04-15'
     party: Republican
 - id:
@@ -328,7 +332,7 @@
     gender: M
   terms:
   - type: prez
-    start: '1881-09-20'
+    start: '1881-09-19'
     end: '1885-03-04'
     party: Republican
 - id:
@@ -376,6 +380,10 @@
   terms:
   - type: prez
     start: '1897-03-04'
+    end: '1901-03-04'
+    party: Republican
+  - type: prez
+    start: '1901-03-04'
     end: '1901-09-14'
     party: Republican
 - id:
@@ -449,7 +457,11 @@
     last: Coolidge
   terms:
   - type: prez
-    start: '1923-08-03'
+    start: '1923-08-02'
+    end: '1925-03-04'
+    party: Republican
+  - type: prez
+    start: '1925-03-04'
     end: '1929-03-04'
     party: Republican
 - id:
@@ -484,6 +496,10 @@
     party: Democratic
   - type: prez
     start: '1941-01-20'
+    end: '1945-01-20'
+    party: Democratic
+  - type: prez
+    start: '1945-01-20'
     end: '1945-04-12'
     party: Democratic
 - id:
@@ -550,6 +566,10 @@
   terms:
   - type: prez
     start: '1963-11-22'
+    end: '1965-01-20'
+    party: Democratic
+  - type: prez
+    start: '1965-01-20'
     end: '1969-01-20'
     party: Democratic
 - id:
