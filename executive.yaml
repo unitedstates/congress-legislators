@@ -77,6 +77,23 @@
     end: '1805-03-04'
     party: Democratic-Republican
 - id:
+    bioguide: C000527
+  name:
+    first: George
+    last: Clinton
+  bio:
+    birthday: '1739-07-26'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1805-03-04'
+    end: '1809-03-04'
+    party: Democratic-Republican
+  - type: viceprez
+    start: '1809-03-04'
+    end: '1812-04-20'
+    party: Democratic-Republican
+- id:
     bioguide: G000139
     govtrack: 404507
     icpsr: 3541
@@ -109,6 +126,24 @@
   - type: prez
     start: '1813-03-04'
     end: '1817-03-04'
+    party: Democratic-Republican
+- id:
+    bioguide: T000306
+  name:
+    first: Daniel
+    middle: D.
+    last: Tompkins
+  bio:
+    birthday: '1774-06-21'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1817-03-04'
+    end: '1821-03-05'
+    party: Democratic-Republican
+  - type: viceprez
+    start: '1821-03-05'
+    end: '1825-03-04'
     party: Democratic-Republican
 - id:
     bioguide: M000858
@@ -482,6 +517,22 @@
     end: '1877-03-04'
     party: Republican
 - id:
+    bioguide: W000341
+    govtrack: 411503
+    icpsr: 9995
+  name:
+    first: William
+    middle: Almon
+    last: Wheeler
+  bio:
+    birthday: '1819-06-30'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1877-03-04'
+    end: '1881-03-04'
+    party: Republican
+- id:
     bioguide: H000393
     govtrack: 405261
     icpsr: 4232
@@ -613,6 +664,20 @@
     end: '1897-03-04'
     party: Democratic
 - id:
+    bioguide: H000660
+  name:
+    first: Garret
+    middle: Augustus
+    last: Hobart
+  bio:
+    birthday: '1844-06-03'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1897-03-04'
+    end: '1899-11-21'
+    party: Republican
+- id:
     bioguide: M000522
     govtrack: 407515
     icpsr: 6312
@@ -701,6 +766,24 @@
     end: '1913-03-04'
     party: Republican
 - id:
+    bioguide: M000164
+  name:
+    first: Thomas
+    middle: Riley
+    last: Marshall
+  bio:
+    birthday: '1854-03-14'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1913-03-04'
+    end: '1917-03-04'
+    party: Democratic
+  - type: viceprez
+    start: '1917-03-04'
+    end: '1921-03-04'
+    party: Democratic
+- id:
     govtrack: 412360
   name:
     first: Woodrow
@@ -732,6 +815,20 @@
   - type: prez
     start: '1921-03-04'
     end: '1923-08-02'
+    party: Republican
+- id:
+    bioguide: D000147
+  name:
+    first: Charles
+    middle: Gates
+    last: Dawes
+  bio:
+    birthday: '1865-08-27'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1925-03-04'
+    end: '1929-03-04'
     party: Republican
 - id:
     bioguide: C000738
@@ -802,6 +899,20 @@
   - type: viceprez
     start: '1937-01-20'
     end: '1941-01-20'
+    party: Democratic
+- id:
+    bioguide: W000077
+  name:
+    first: Henry
+    middle: Agard
+    last: Wallace
+  bio:
+    birthday: '1888-10-07'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1941-01-20'
+    end: '1945-01-20'
     party: Democratic
 - id:
     govtrack: 412364
@@ -945,6 +1056,24 @@
     end: '1969-01-20'
     party: Democratic
 - id:
+    bioguide: A000059
+  name:
+    first: Spiro
+    middle: Theodore
+    last: Agnew
+  bio:
+    birthday: '1918-11-09'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '1969-01-20'
+    end: '1973-01-20'
+    party: Republican
+  - type: prez
+    start: '1973-01-20'
+    end: '1973-10-10'
+    party: Republican
+- id:
     bioguide: N000116
     govtrack: 408200
     icpsr: 6939
@@ -991,6 +1120,19 @@
     party: Republican
   - type: prez
     start: '1974-08-09'
+    end: '1977-01-20'
+    party: Republican
+- id:
+    bioguide: R000363
+  name:
+    first: Nelson
+    middle: Aldrich
+    last: Rockefeller
+  bio:
+    birthday: '1908-07-08'
+  terms:
+  - type: viceprez
+    start: '1974-12-19'
     end: '1977-01-20'
     party: Republican
 - id:
@@ -1168,6 +1310,35 @@
     end: '2009-01-20'
     party: Republican
 - id:
+    bioguide: B000444
+    thomas: '01284'
+    lis: S010
+    govtrack: 300008
+    opensecrets: N00001669
+    votesmart: 53279
+    icpsr: 14101
+    fec:
+    - S8DE00012
+  name:
+    first: Joseph
+    middle: Robinette
+    last: Biden
+    suffix: Jr.
+    nickname: Joe
+  bio:
+    birthday: '1942-11-20'
+    gender: M
+    religion: Roman Catholic
+  terms:
+  - type: viceprez
+    start: '2009-01-20'
+    end: '2013-01-20'
+    party: Democrat
+  - type: viceprez
+    start: '2013-01-20'
+    end: '2017-01-20'
+    party: Democrat
+- id:
     bioguide: O000167
     thomas: '01763'
     lis: S298
@@ -1176,7 +1347,9 @@
     votesmart: 9490
   name:
     first: Barack
+    middle: Hussein
     last: Obama
+    suffix: II
   bio:
     birthday: '1961-08-04'
     gender: M
