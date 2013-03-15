@@ -26,6 +26,14 @@
     birthday: '1735-10-19'
     gender: M
   terms:
+  - type: viceprez
+    start: '1789-04-21'
+    end: '1793-03-04'
+    party: Federalist
+  - type: viceprez
+    start: '1793-03-04'
+    end: '1797-03-04'
+    party: Federalist
   - type: prez
     start: '1797-03-04'
     end: '1801-03-04'
@@ -40,14 +48,18 @@
     birthday: '1743-04-13'
     gender: M
   terms:
+  - type: viceprez
+    start: '1797-03-04'
+    end: '1801-03-04'
+    party: Democratic-Republican
   - type: prez
     start: '1801-03-04'
     end: '1805-03-04'
-    party: Democratic - Republican
+    party: Democratic-Republican
   - type: prez
     start: '1805-03-04'
     end: '1809-03-04'
-    party: Democratic - Republican
+    party: Democratic-Republican
 - id:
     bioguide: M000043
     govtrack: 407071
@@ -131,6 +143,10 @@
     birthday: '1782-12-05'
     gender: M
   terms:
+  - type: viceprez
+    start: '1833-03-04'
+    end: '1837-03-04'
+    party: Democratic
   - type: prez
     start: '1837-03-04'
     end: '1841-03-04'
@@ -161,6 +177,10 @@
     birthday: '1790-03-29'
     gender: M
   terms:
+  - type: viceprez
+    start: '1841-03-04'
+    end: '1841-04-04'
+    party: Whig
   - type: prez
     start: '1841-04-04'
     end: '1845-03-04'
@@ -204,6 +224,10 @@
   bio:
     birthday: '1800-01-07'
   terms:
+  - type: viceprez
+    start: '1849-03-04'
+    end: '1850-07-09'
+    party: Whig
   - type: prez
     start: '1850-07-09'
     end: '1853-03-04'
@@ -268,10 +292,14 @@
     birthday: '1808-12-29'
     gender: M
   terms:
+  - type: viceprez
+    start: '1865-03-04'
+    end: '1865-04-15'
+    party: Democratic
   - type: prez
     start: '1865-04-15'
     end: '1869-03-04'
-    party: Republican
+    party: Democratic
 - id:
     govtrack: 412350
   name:
@@ -331,6 +359,10 @@
     birthday: '1829-10-05'
     gender: M
   terms:
+  - type: viceprez
+    start: '1881-03-04'
+    end: '1881-09-19'
+    party: Republican
   - type: prez
     start: '1881-09-19'
     end: '1885-03-04'
@@ -396,6 +428,10 @@
     birthday: '1858-10-27'
     gender: M
   terms:
+  - type: viceprez
+    start: '1901-03-04'
+    end: '1901-09-14'
+    party: Republican
   - type: prez
     start: '1901-09-14'
     end: '1905-03-04'
@@ -456,6 +492,10 @@
     first: Calvin
     last: Coolidge
   terms:
+  - type: viceprez
+    start: '1921-03-04'
+    end: '1923-08-02'
+    party: Republican
   - type: prez
     start: '1923-08-02'
     end: '1925-03-04'
@@ -514,6 +554,10 @@
     birthday: '1884-05-08'
     gender: M
   terms:
+  - type: viceprez
+    start: '1945-01-20'
+    end: '1945-04-12'
+    party: Democratic
   - type: prez
     start: '1945-04-12'
     end: '1949-01-20'
@@ -564,6 +608,10 @@
     middle: Baines
     last: Johnson
   terms:
+  - type: viceprez
+    start: '1961-01-20'
+    end: '1963-11-22'
+    party: Democratic
   - type: prez
     start: '1963-11-22'
     end: '1965-01-20'
@@ -584,6 +632,14 @@
     birthday: '1913-01-09'
     gender: M
   terms:
+  - type: viceprez
+    start: '1953-01-20'
+    end: '1957-01-20'
+    party: Republican
+  - type: viceprez
+    start: '1957-01-20'
+    end: '1961-01-20'
+    party: Republican
   - type: prez
     start: '1969-01-20'
     end: '1973-01-20'
@@ -605,6 +661,10 @@
   bio:
     birthday: '1913-07-14'
   terms:
+  - type: viceprez
+    start: '1973-12-06'
+    end: '1974-08-09'
+    party: Republican
   - type: prez
     start: '1974-08-09'
     end: '1977-01-20'
@@ -652,6 +712,14 @@
     birthday: '1924-06-12'
     gender: M
   terms:
+  - type: viceprez
+    start: '1981-01-20'
+    end: '1985-01-20'
+    party: Republican
+  - type: viceprez
+    start: '1985-01-20'
+    end: '1989-01-20'
+    party: Republican
   - type: prez
     start: '1989-01-20'
     end: '1993-01-20'
