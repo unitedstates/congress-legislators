@@ -32,10 +32,12 @@
     start: '1789-04-21'
     end: '1793-03-04'
     party: Federalist
+    how: election
   - type: viceprez
     start: '1793-03-04'
     end: '1797-03-04'
     party: Federalist
+    how: election
   - type: prez
     start: '1797-03-04'
     end: '1801-03-04'
@@ -55,6 +57,7 @@
     start: '1797-03-04'
     end: '1801-03-04'
     party: Democratic-Republican
+    how: election
   - type: prez
     start: '1801-03-04'
     end: '1805-03-04'
@@ -81,6 +84,7 @@
     start: '1801-03-04'
     end: '1805-03-04'
     party: Democratic-Republican
+    how: election
 - id:
     bioguide: C000527
     govtrack: 412587
@@ -95,10 +99,12 @@
     start: '1805-03-04'
     end: '1809-03-04'
     party: Democratic-Republican
+    how: election
   - type: viceprez
     start: '1809-03-04'
     end: '1812-04-20'
     party: Democratic-Republican
+    how: election
 - id:
     bioguide: G000139
     govtrack: 404507
@@ -114,6 +120,7 @@
     start: '1813-03-04'
     end: '1814-11-23'
     party: Democratic-Republican
+    how: election
 - id:
     bioguide: M000043
     govtrack: 407071
@@ -150,10 +157,12 @@
     start: '1817-03-04'
     end: '1821-03-05'
     party: Democratic-Republican
+    how: election
   - type: viceprez
     start: '1821-03-05'
     end: '1825-03-04'
     party: Democratic-Republican
+    how: election
 - id:
     bioguide: M000858
     govtrack: 407829
@@ -208,10 +217,12 @@
     start: '1825-03-04'
     end: '1829-03-04'
     party: Democratic-Republican
+    how: election
   - type: viceprez
     start: '1829-03-04'
     end: '1832-12-28'
     party: Democratic
+    how: election
 - id:
     bioguide: J000005
     govtrack: 405913
@@ -249,6 +260,7 @@
     start: '1837-03-04'
     end: '1841-03-04'
     party: Democratic
+    how: election
 - id:
     bioguide: V000009
     govtrack: 411074
@@ -264,6 +276,7 @@
     start: '1833-03-04'
     end: '1837-03-04'
     party: Democratic
+    how: election
   - type: prez
     start: '1837-03-04'
     end: '1841-03-04'
@@ -301,6 +314,7 @@
     start: '1841-03-04'
     end: '1841-04-04'
     party: Whig
+    how: election
   - type: prez
     start: '1841-04-04'
     end: '1845-03-04'
@@ -322,6 +336,7 @@
     start: '1845-03-04'
     end: '1849-03-04'
     party: Democratic
+    how: election
 - id:
     bioguide: P000409
     govtrack: 408802
@@ -368,6 +383,7 @@
     start: '1849-03-04'
     end: '1850-07-09'
     party: Whig
+    how: election
   - type: prez
     start: '1850-07-09'
     end: '1853-03-04'
@@ -389,6 +405,7 @@
     start: '1853-03-04'
     end: '1853-04-18'
     party: Democratic
+    how: election
 - id:
     bioguide: P000333
     govtrack: 408730
@@ -421,6 +438,7 @@
     start: '1857-03-04'
     end: '1861-03-04'
     party: Democratic
+    how: election
 - id:
     bioguide: B001005
     govtrack: 401954
@@ -452,6 +470,7 @@
     start: '1861-03-04'
     end: '1865-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: L000313
     govtrack: 406807
@@ -488,10 +507,12 @@
     start: '1865-03-04'
     end: '1865-04-15'
     party: Democratic
+    how: election
   - type: prez
     start: '1865-04-15'
     end: '1869-03-04'
     party: Democratic
+    how: succession
 - id:
     bioguide: C000626
     govtrack: 402755
@@ -507,6 +528,7 @@
     start: '1869-03-04'
     end: '1873-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: W000585
     govtrack: 411739
@@ -522,7 +544,7 @@
     start: '1873-03-04'
     end: '1875-11-22'
     party: Republican
-    how: succession
+    how: election
 - id:
     govtrack: 412350
   name:
@@ -559,6 +581,7 @@
     start: '1877-03-04'
     end: '1881-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: H000393
     govtrack: 405261
@@ -608,6 +631,7 @@
     start: '1881-03-04'
     end: '1881-09-19'
     party: Republican
+    how: election
   - type: prez
     start: '1881-09-19'
     end: '1885-03-04'
@@ -629,6 +653,7 @@
     start: '1885-03-04'
     end: '1885-11-25'
     party: Democratic
+    how: election
 - id:
     bioguide: M001018
     govtrack: 407985
@@ -645,6 +670,7 @@
     start: '1889-03-04'
     end: '1893-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: H000263
     govtrack: 405139
@@ -677,6 +703,7 @@
     start: '1893-03-04'
     end: '1897-03-04'
     party: Democratic
+    how: election
 - id:
     govtrack: 412354
   name:
@@ -711,6 +738,7 @@
     start: '1897-03-04'
     end: '1899-11-21'
     party: Republican
+    how: election
 - id:
     bioguide: M000522
     govtrack: 407515
@@ -749,6 +777,7 @@
     start: '1905-03-04'
     end: '1909-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: R000429
     govtrack: 409394
@@ -763,6 +792,7 @@
     start: '1901-03-04'
     end: '1901-09-14'
     party: Republican
+    how: election
   - type: prez
     start: '1901-09-14'
     end: '1905-03-04'
@@ -789,6 +819,7 @@
     start: '1909-03-04'
     end: '1912-10-30'
     party: Republican
+    how: election
 - id:
     govtrack: 412359
   name:
@@ -819,10 +850,12 @@
     start: '1913-03-04'
     end: '1917-03-04'
     party: Democratic
+    how: election
   - type: viceprez
     start: '1917-03-04'
     end: '1921-03-04'
     party: Democratic
+    how: election
 - id:
     govtrack: 412360
   name:
@@ -874,6 +907,7 @@
     start: '1925-03-04'
     end: '1929-03-04'
     party: Republican
+    how: election
 - id:
     bioguide: C000738
     govtrack: 402859
@@ -888,6 +922,7 @@
     start: '1921-03-04'
     end: '1923-08-02'
     party: Republican
+    how: election
   - type: prez
     start: '1923-08-02'
     end: '1925-03-04'
@@ -913,6 +948,7 @@
     start: '1929-03-04'
     end: '1933-03-04'
     party: Republican
+    how: election
 - id:
     govtrack: 412363
   name:
@@ -943,10 +979,12 @@
     start: '1933-03-04'
     end: '1937-01-20'
     party: Democratic
+    how: election
   - type: viceprez
     start: '1937-01-20'
     end: '1941-01-20'
     party: Democratic
+    how: election
 - id:
     bioguide: W000077
     govtrack: 412592
@@ -962,6 +1000,7 @@
     start: '1941-01-20'
     end: '1945-01-20'
     party: Democratic
+    how: election
 - id:
     govtrack: 412364
   name:
@@ -1008,6 +1047,7 @@
     start: '1949-01-20'
     end: '1953-01-20'
     party: Democratic
+    how: election
 - id:
     bioguide: T000387
     govtrack: 410956
@@ -1024,6 +1064,7 @@
     start: '1945-01-20'
     end: '1945-04-12'
     party: Democratic
+    how: election
   - type: prez
     start: '1945-04-12'
     end: '1949-01-20'
@@ -1088,6 +1129,7 @@
     start: '1965-01-20'
     end: '1969-01-20'
     party: Democratic
+    how: election
 - id:
     bioguide: J000160
     govtrack: 406058
@@ -1104,6 +1146,7 @@
     start: '1961-01-20'
     end: '1963-11-22'
     party: Democratic
+    how: election
   - type: prez
     start: '1963-11-22'
     end: '1965-01-20'
@@ -1129,10 +1172,12 @@
     start: '1969-01-20'
     end: '1973-01-20'
     party: Republican
+    how: election
   - type: viceprez
     start: '1973-01-20'
     end: '1973-10-10'
     party: Republican
+    how: election
 - id:
     bioguide: N000116
     govtrack: 408200
@@ -1149,10 +1194,12 @@
     start: '1953-01-20'
     end: '1957-01-20'
     party: Republican
+    how: election
   - type: viceprez
     start: '1957-01-20'
     end: '1961-01-20'
     party: Republican
+    how: election
   - type: prez
     start: '1969-01-20'
     end: '1973-01-20'
@@ -1180,6 +1227,7 @@
     start: '1973-12-06'
     end: '1974-08-09'
     party: Republican
+    how: appointment
   - type: prez
     start: '1974-08-09'
     end: '1977-01-20'
@@ -1199,6 +1247,7 @@
     start: '1974-12-19'
     end: '1977-01-20'
     party: Republican
+    how: appointment
 - id:
     bioguide: M000851
     thomas: '01402'
@@ -1216,6 +1265,7 @@
     start: '1977-01-20'
     end: '1981-01-20'
     party: Democratic
+    how: election
 - id:
     govtrack: 412371
   name:
@@ -1270,6 +1320,7 @@
     start: '1989-01-20'
     end: '1993-01-20'
     party: Republican
+    how: election
 - id:
     bioguide: B001166
     govtrack: 402108
@@ -1286,10 +1337,12 @@
     start: '1981-01-20'
     end: '1985-01-20'
     party: Republican
+    how: election
   - type: viceprez
     start: '1985-01-20'
     end: '1989-01-20'
     party: Republican
+    how: election
   - type: prez
     start: '1989-01-20'
     end: '1993-01-20'
@@ -1315,10 +1368,12 @@
     start: '1993-01-20'
     end: '1997-01-20'
     party: Democrat
+    how: election
   - type: viceprez
     start: '1997-01-20'
     end: '2001-01-20'
     party: Democrat
+    how: election
 - id:
     govtrack: 412374
   name:
@@ -1358,10 +1413,12 @@
     start: '2001-01-20'
     end: '2005-01-20'
     party: Republican
+    how: election
   - type: viceprez
     start: '2005-01-20'
     end: '2009-01-20'
     party: Republican
+    how: election
 - id:
     govtrack: 412375
   name:
@@ -1407,10 +1464,12 @@
     start: '2009-01-20'
     end: '2013-01-20'
     party: Democrat
+    how: election
   - type: viceprez
     start: '2013-01-20'
     end: '2017-01-20'
     party: Democrat
+    how: election
 - id:
     bioguide: O000167
     thomas: '01763'
