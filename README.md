@@ -15,7 +15,7 @@ And about committees:
 * committee-membership-current.yaml: Current committee/subcommittee assignments as of the date of last update.
 * committees-historical.yaml: Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
 
-For the moment, this repository also contains a database of presidents in executive.yaml. We may add vice presidents in the future, owning to their tie-breaker role in the legislative process.
+This repository also contains a database of presidents and vice presidents in executive.yaml. Recall that vice presidents are also president of the Senate and cast tie-breaking votes.
 
 The files are in YAML (http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
