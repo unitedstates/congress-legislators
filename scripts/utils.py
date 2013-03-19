@@ -196,6 +196,11 @@ def our_string_representer(dumper, value):
 	return dumper.represent_scalar(u'tag:yaml.org,2002:str', value, style=style)
 Dumper.add_representer(str, our_string_representer)
 Dumper.add_representer(unicode, our_string_representer)
+
+# Add a representer for nulls too. YAML accepts "~" for None, but the
+# default output converts that to "null".
+Dumper.add_representer(type(None), lambda dumper, value : \
+	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
         
 # Apply some common settings for loading/dumping YAML and cache the
 # data in pickled format which is a LOT faster than YAML.
