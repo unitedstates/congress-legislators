@@ -1,6 +1,6 @@
 # Helpful functions for finding data about members and committees
 
-CURRENT_CONGRESS = 112
+CURRENT_CONGRESS = 113
 
 
 import os, errno, sys, traceback
