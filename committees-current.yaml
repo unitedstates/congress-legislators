@@ -655,7 +655,7 @@
     thomas_id: '16'
   - name: Energy and Water Development
     thomas_id: '22'
-  - name: Financial Service and General Government
+  - name: Financial Services and General Government
     thomas_id: '23'
   - name: Department of Homeland Security
     thomas_id: '14'
@@ -703,7 +703,7 @@
   subcommittees:
   - name: Economic Policy
     thomas_id: '12'
-  - name: Security and International Trade and Finance
+  - name: National Security and International Trade and Finance
     thomas_id: '05'
   - name: Securities, Insurance and Investment
     thomas_id: '04'
@@ -794,8 +794,8 @@
   thomas_id: SSFR
   senate_committee_id: SSFR
   subcommittees:
-  - name: International Development and Foreign Assistance, Economic Affairs and International
-      Environmental Protection
+  - name: International Development and Foreign Assistance, Economic Affairs, International
+      Environmental Protection, and Peace Corps
     thomas_id: '12'
   - name: International Operations and Organizations, Human Rights, Democracy and
       Global Women's Issues
@@ -808,7 +808,7 @@
     thomas_id: '02'
   - name: Near Eastern and South and Central Asian Affairs
     thomas_id: '07'
-  - name: Western Hemisphere, Peace Corps and Global Narcotics Affairs
+  - name: Western Hemisphere and Global Narcotics Affairs
     thomas_id: '06'
 - type: senate
   name: Senate Committee on Homeland Security and Governmental Affairs
@@ -828,6 +828,12 @@
     name: Ad Hoc Subcommittee on Contracting Oversight
   - thomas_id: '01'
     name: Permanent Subcommittee on Investigations
+  - thomas_id: '17'
+    name: Emergency Management, Intergovernmental Relations, and the District of Columbia
+  - thomas_id: '15'
+    name: Financial and Contracting Oversight
+  - thomas_id: '16'
+    name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
 - type: senate
   name: Senate Committee on Health, Education, Labor, and Pensions
   url: http://help.senate.gov/

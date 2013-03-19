@@ -10020,43 +10020,27 @@ JCSE:
   rank: 5
   bioguide: B001277
   thomas: '02076'
+- name: Kelly Ayotte
+  party: minority
+  rank: 1
+  bioguide: A000368
+  thomas: '02075'
 - name: Saxby Chambliss
   party: minority
-  rank: 1
+  rank: 2
   bioguide: C000286
   thomas: '00188'
-- name: Richard Burr
-  party: minority
-  rank: 2
-  bioguide: B001135
-  thomas: '00153'
-- name: Roger F. Wicker
+- name: Marco Rubio
   party: minority
   rank: 3
+  bioguide: R000595
+  thomas: '02084'
+- name: Roger F. Wicker
+  party: minority
+  rank: 4
   bioguide: W000437
   thomas: '01226'
-JSDF:
-- name: Patty Murray
-  party: majority
-  rank: 1
-  title: Cochairman
-  bioguide: M001111
-  thomas: '01409'
-- name: Max Baucus
-  party: majority
-  rank: 2
-  bioguide: B000243
-  thomas: '00066'
-- name: Rob Portman
-  party: minority
-  rank: 1
-  bioguide: P000449
-  thomas: '00924'
-- name: Patrick J. Toomey
-  party: minority
-  rank: 2
-  bioguide: T000461
-  thomas: '02085'
+JSDF: []
 JSEC:
 - name: Amy Klobuchar
   party: majority
@@ -10175,6 +10159,11 @@ JSTX:
   rank: 2
   bioguide: R000361
   thomas: '01424'
+- name: Ron Wyden
+  party: majority
+  rank: 3
+  bioguide: W000779
+  thomas: '01247'
 - name: Orrin G. Hatch
   party: minority
   rank: 1
@@ -10637,29 +10626,40 @@ SSAF:
   bioguide: T000250
   thomas: '01534'
 SSAF13:
-- name: Max Baucus
+- name: Joe Donnelly
   party: majority
   rank: 1
-  bioguide: B000243
-  thomas: '00066'
-- name: Sherrod Brown
+  title: Chairman
+  bioguide: D000607
+  thomas: '01850'
+- name: Max Baucus
   party: majority
   rank: 2
-  bioguide: B000944
-  thomas: '00136'
-- name: Michael F. Bennet
+  bioguide: B000243
+  thomas: '00066'
+- name: Heidi Heitkamp
   party: majority
   rank: 3
-  bioguide: B001267
-  thomas: '01965'
-- name: Kirsten E. Gillibrand
+  bioguide: H001069
+  thomas: '02174'
+- name: Tom Harkin
   party: majority
   rank: 4
+  bioguide: H000206
+  thomas: '00501'
+- name: Sherrod Brown
+  party: majority
+  rank: 5
+  bioguide: B000944
+  thomas: '00136'
+- name: Kirsten E. Gillibrand
+  party: majority
+  rank: 6
   bioguide: G000555
   thomas: '01866'
 - name: Debbie Stabenow
   party: majority
-  rank: 5
+  rank: 7
   title: Ex Officio
   bioguide: S000770
   thomas: '01531'
@@ -10669,32 +10669,32 @@ SSAF13:
   title: Ranking Member
   bioguide: C000286
   thomas: '00188'
-- name: Thad Cochran
+- name: Pat Roberts
   party: minority
   rank: 2
-  bioguide: C000567
-  thomas: '00213'
-- name: Mike Johanns
-  party: minority
-  rank: 3
-  bioguide: J000291
-  thomas: '01899'
+  bioguide: R000307
+  thomas: '00968'
 - name: John Boozman
   party: minority
-  rank: 4
+  rank: 3
   bioguide: B001236
   thomas: '01687'
-- name: Chuck Grassley
+- name: John Hoeven
+  party: minority
+  rank: 4
+  bioguide: H001061
+  thomas: '02079'
+- name: Mike Johanns
   party: minority
   rank: 5
-  bioguide: G000386
-  thomas: '00457'
-- name: Pat Roberts
+  bioguide: J000291
+  thomas: '01899'
+- name: Thad Cochran
   party: minority
   rank: 6
   title: Ex Officio
-  bioguide: R000307
-  thomas: '00968'
+  bioguide: C000567
+  thomas: '00213'
 SSAF14:
 - name: Michael F. Bennet
   party: majority
@@ -10702,29 +10702,34 @@ SSAF14:
   title: Chairman
   bioguide: B001267
   thomas: '01965'
-- name: Patrick J. Leahy
-  party: majority
-  rank: 2
-  bioguide: L000174
-  thomas: '01383'
 - name: Tom Harkin
   party: majority
-  rank: 3
+  rank: 2
   bioguide: H000206
   thomas: '00501'
-- name: Max Baucus
-  party: majority
-  rank: 4
-  bioguide: B000243
-  thomas: '00066'
 - name: Amy Klobuchar
   party: majority
-  rank: 5
+  rank: 3
   bioguide: K000367
   thomas: '01826'
-- name: Debbie Stabenow
+- name: Patrick J. Leahy
+  party: majority
+  rank: 4
+  bioguide: L000174
+  thomas: '01383'
+- name: Max Baucus
+  party: majority
+  rank: 5
+  bioguide: B000243
+  thomas: '00066'
+- name: Heidi Heitkamp
   party: majority
   rank: 6
+  bioguide: H001069
+  thomas: '02174'
+- name: Debbie Stabenow
+  party: majority
+  rank: 7
   title: Ex Officio
   bioguide: S000770
   thomas: '01531'
@@ -10734,135 +10739,166 @@ SSAF14:
   title: Ranking Member
   bioguide: B001236
   thomas: '01687'
-- name: Thad Cochran
-  party: minority
-  rank: 2
-  bioguide: C000567
-  thomas: '00213'
 - name: Mitch McConnell
   party: minority
-  rank: 3
+  rank: 2
   bioguide: M000355
   thomas: '01395'
 - name: Saxby Chambliss
   party: minority
-  rank: 4
+  rank: 3
   bioguide: C000286
   thomas: '00188'
+- name: John Thune
+  party: minority
+  rank: 4
+  bioguide: T000250
+  thomas: '01534'
 - name: Pat Roberts
   party: minority
   rank: 5
-  title: Ex Officio
   bioguide: R000307
   thomas: '00968'
 SSAF15:
-- name: Sherrod Brown
+- name: Heidi Heitkamp
   party: majority
   rank: 1
   title: Chairman
-  bioguide: B000944
-  thomas: '00136'
-- name: Tom Harkin
+  bioguide: H001069
+  thomas: '02174'
+- name: Sherrod Brown
   party: majority
   rank: 2
-  bioguide: H000206
-  thomas: '00501'
+  bioguide: B000944
+  thomas: '00136'
 - name: Amy Klobuchar
   party: majority
   rank: 3
   bioguide: K000367
   thomas: '01826'
-- name: Debbie Stabenow
-  party: majority
-  rank: 4
-  title: Ex Officio
-  bioguide: S000770
-  thomas: '01531'
-- name: John Thune
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: T000250
-  thomas: '01534'
-- name: Saxby Chambliss
-  party: minority
-  rank: 2
-  bioguide: C000286
-  thomas: '00188'
-- name: Chuck Grassley
-  party: minority
-  rank: 3
-  bioguide: G000386
-  thomas: '00457'
-- name: John Hoeven
-  party: minority
-  rank: 4
-  bioguide: H001061
-  thomas: '02079'
-- name: Pat Roberts
-  party: minority
-  rank: 5
-  title: Ex Officio
-  bioguide: R000307
-  thomas: '00968'
-SSAF16:
-- name: Patrick J. Leahy
-  party: majority
-  rank: 1
-  bioguide: L000174
-  thomas: '01383'
-- name: Tom Harkin
-  party: majority
-  rank: 2
-  bioguide: H000206
-  thomas: '00501'
-- name: Sherrod Brown
-  party: majority
-  rank: 3
-  bioguide: B000944
-  thomas: '00136'
 - name: Michael F. Bennet
   party: majority
   rank: 4
   bioguide: B001267
   thomas: '01965'
+- name: Joe Donnelly
+  party: majority
+  rank: 5
+  bioguide: D000607
+  thomas: '01850'
+- name: William M. Cowan
+  party: majority
+  rank: 6
+  bioguide: C001099
+  thomas: '02189'
+- name: Debbie Stabenow
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: S000770
+  thomas: '01531'
+- name: Mike Johanns
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: J000291
+  thomas: '01899'
+- name: John Hoeven
+  party: minority
+  rank: 2
+  bioguide: H001061
+  thomas: '02079'
+- name: Chuck Grassley
+  party: minority
+  rank: 3
+  bioguide: G000386
+  thomas: '00457'
+- name: John Thune
+  party: minority
+  rank: 4
+  bioguide: T000250
+  thomas: '01534'
+- name: John Boozman
+  party: minority
+  rank: 5
+  bioguide: B001236
+  thomas: '01687'
+- name: Thad Cochran
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: C000567
+  thomas: '00213'
+SSAF16:
+- name: William M. Cowan
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: C001099
+  thomas: '02189'
+- name: Patrick J. Leahy
+  party: majority
+  rank: 2
+  bioguide: L000174
+  thomas: '01383'
+- name: Tom Harkin
+  party: majority
+  rank: 3
+  bioguide: H000206
+  thomas: '00501'
+- name: Sherrod Brown
+  party: majority
+  rank: 4
+  bioguide: B000944
+  thomas: '00136'
 - name: Kirsten E. Gillibrand
   party: majority
   rank: 5
   bioguide: G000555
   thomas: '01866'
-- name: Debbie Stabenow
+- name: Michael F. Bennet
   party: majority
   rank: 6
+  bioguide: B001267
+  thomas: '01965'
+- name: Debbie Stabenow
+  party: majority
+  rank: 7
   title: Ex Officio
   bioguide: S000770
   thomas: '01531'
-- name: Thad Cochran
+- name: John Hoeven
   party: minority
   rank: 1
-  bioguide: C000567
-  thomas: '00213'
+  title: Ranking Member
+  bioguide: H001061
+  thomas: '02079'
 - name: Mitch McConnell
   party: minority
   rank: 2
   bioguide: M000355
   thomas: '01395'
-- name: Mike Johanns
+- name: Saxby Chambliss
   party: minority
   rank: 3
-  bioguide: J000291
-  thomas: '01899'
-- name: John Hoeven
+  bioguide: C000286
+  thomas: '00188'
+- name: Chuck Grassley
   party: minority
   rank: 4
-  bioguide: H001061
-  thomas: '02079'
-- name: Pat Roberts
+  bioguide: G000386
+  thomas: '00457'
+- name: John Thune
   party: minority
   rank: 5
+  bioguide: T000250
+  thomas: '01534'
+- name: Thad Cochran
+  party: minority
+  rank: 6
   title: Ex Officio
-  bioguide: R000307
-  thomas: '00968'
+  bioguide: C000567
+  thomas: '00213'
 SSAF17:
 - name: Kirsten E. Gillibrand
   party: majority
@@ -10885,18 +10921,28 @@ SSAF17:
   rank: 4
   bioguide: K000367
   thomas: '01826'
-- name: Debbie Stabenow
+- name: Joe Donnelly
   party: majority
   rank: 5
+  bioguide: D000607
+  thomas: '01850'
+- name: William M. Cowan
+  party: majority
+  rank: 6
+  bioguide: C001099
+  thomas: '02189'
+- name: Debbie Stabenow
+  party: majority
+  rank: 7
   title: Ex Officio
   bioguide: S000770
   thomas: '01531'
-- name: Mike Johanns
+- name: Pat Roberts
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: J000291
-  thomas: '01899'
+  bioguide: R000307
+  thomas: '00968'
 - name: Mitch McConnell
   party: minority
   rank: 2
@@ -10907,22 +10953,22 @@ SSAF17:
   rank: 3
   bioguide: B001236
   thomas: '01687'
-- name: Chuck Grassley
+- name: Mike Johanns
   party: minority
   rank: 4
-  bioguide: G000386
-  thomas: '00457'
-- name: John Thune
+  bioguide: J000291
+  thomas: '01899'
+- name: Chuck Grassley
   party: minority
   rank: 5
-  bioguide: T000250
-  thomas: '01534'
-- name: Pat Roberts
+  bioguide: G000386
+  thomas: '00457'
+- name: Thad Cochran
   party: minority
   rank: 6
   title: Ex Officio
-  bioguide: R000307
-  thomas: '00968'
+  bioguide: C000567
+  thomas: '00213'
 SSAP:
 - name: Barbara A. Mikulski
   party: majority
@@ -12176,76 +12222,53 @@ SSAS13:
   title: Chairman
   bioguide: R000122
   thomas: '00949'
-- name: Kay R. Hagan
+- name: Bill Nelson
   party: majority
   rank: 2
-  bioguide: H001049
-  thomas: '01902'
-- name: Richard Blumenthal
+  bioguide: N000032
+  thomas: '00859'
+- name: Kay R. Hagan
   party: majority
   rank: 3
-  bioguide: B001277
-  thomas: '02076'
-- name: Carl Levin
+  bioguide: H001049
+  thomas: '01902'
+- name: Jeanne Shaheen
   party: majority
   rank: 4
+  bioguide: S001181
+  thomas: '01901'
+- name: Richard Blumenthal
+  party: majority
+  rank: 5
+  bioguide: B001277
+  thomas: '02076'
+- name: Mazie K. Hirono
+  party: majority
+  rank: 6
+  bioguide: H001042
+  thomas: '01844'
+- name: Tim Kaine
+  party: majority
+  rank: 7
+  bioguide: K000384
+  thomas: '02176'
+- name: Angus S. King, Jr.
+  party: majority
+  rank: 8
+  bioguide: K000383
+  thomas: '02185'
+- name: Carl Levin
+  party: majority
+  rank: 9
   title: Ex Officio
   bioguide: L000261
   thomas: '01384'
-- name: Roger F. Wicker
+- name: John McCain
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: W000437
-  thomas: '01226'
-- name: Jeff Sessions
-  party: minority
-  rank: 2
-  bioguide: S001141
-  thomas: '01548'
-- name: Kelly Ayotte
-  party: minority
-  rank: 3
-  bioguide: A000368
-  thomas: '02075'
-- name: John McCain
-  party: minority
-  rank: 4
-  title: Ex Officio
   bioguide: M000303
   thomas: '00754'
-SSAS14:
-- name: Claire McCaskill
-  party: majority
-  rank: 1
-  bioguide: M001170
-  thomas: '01820'
-- name: Joe Manchin, III
-  party: majority
-  rank: 2
-  bioguide: M001183
-  thomas: '01983'
-- name: Kirsten E. Gillibrand
-  party: majority
-  rank: 3
-  bioguide: G000555
-  thomas: '01866'
-- name: Richard Blumenthal
-  party: majority
-  rank: 4
-  bioguide: B001277
-  thomas: '02076'
-- name: Carl Levin
-  party: majority
-  rank: 5
-  title: Ex Officio
-  bioguide: L000261
-  thomas: '01384'
-- name: James M. Inhofe
-  party: minority
-  rank: 1
-  bioguide: I000024
-  thomas: '00583'
 - name: Jeff Sessions
   party: minority
   rank: 2
@@ -12256,42 +12279,142 @@ SSAS14:
   rank: 3
   bioguide: W000437
   thomas: '01226'
-- name: David Vitter
+- name: Kelly Ayotte
   party: minority
   rank: 4
-  bioguide: V000127
-  thomas: '01609'
-- name: John McCain
+  bioguide: A000368
+  thomas: '02075'
+- name: Lindsey Graham
   party: minority
   rank: 5
+  bioguide: G000359
+  thomas: '00452'
+- name: David Vitter
+  party: minority
+  rank: 6
+  bioguide: V000127
+  thomas: '01609'
+- name: Ted Cruz
+  party: minority
+  rank: 7
+  bioguide: C001098
+  thomas: '02175'
+- name: James M. Inhofe
+  party: minority
+  rank: 8
   title: Ex Officio
-  bioguide: M000303
-  thomas: '00754'
-SSAS15:
-- name: Claire McCaskill
+  bioguide: I000024
+  thomas: '00583'
+SSAS14:
+- name: Joe Manchin, III
   party: majority
   rank: 1
   title: Chairman
+  bioguide: M001183
+  thomas: '01983'
+- name: Bill Nelson
+  party: majority
+  rank: 2
+  bioguide: N000032
+  thomas: '00859'
+- name: Claire McCaskill
+  party: majority
+  rank: 3
+  bioguide: M001170
+  thomas: '01820'
+- name: Kirsten E. Gillibrand
+  party: majority
+  rank: 4
+  bioguide: G000555
+  thomas: '01866'
+- name: Richard Blumenthal
+  party: majority
+  rank: 5
+  bioguide: B001277
+  thomas: '02076'
+- name: Joe Donnelly
+  party: majority
+  rank: 6
+  bioguide: D000607
+  thomas: '01850'
+- name: Carl Levin
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: L000261
+  thomas: '01384'
+- name: Roger F. Wicker
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000437
+  thomas: '01226'
+- name: John McCain
+  party: minority
+  rank: 2
+  bioguide: M000303
+  thomas: '00754'
+- name: Jeff Sessions
+  party: minority
+  rank: 3
+  bioguide: S001141
+  thomas: '01548'
+- name: Saxby Chambliss
+  party: minority
+  rank: 4
+  bioguide: C000286
+  thomas: '00188'
+- name: Roy Blunt
+  party: minority
+  rank: 5
+  bioguide: B000575
+  thomas: '01464'
+- name: James M. Inhofe
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: I000024
+  thomas: '00583'
+SSAS15:
+- name: Jeanne Shaheen
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: S001181
+  thomas: '01901'
+- name: Claire McCaskill
+  party: majority
+  rank: 2
   bioguide: M001170
   thomas: '01820'
 - name: Mark Udall
   party: majority
-  rank: 2
+  rank: 3
   bioguide: U000038
   thomas: '01595'
 - name: Joe Manchin, III
   party: majority
-  rank: 3
+  rank: 4
   bioguide: M001183
   thomas: '01983'
-- name: Jeanne Shaheen
-  party: majority
-  rank: 4
-  bioguide: S001181
-  thomas: '01901'
-- name: Carl Levin
+- name: Joe Donnelly
   party: majority
   rank: 5
+  bioguide: D000607
+  thomas: '01850'
+- name: Mazie K. Hirono
+  party: majority
+  rank: 6
+  bioguide: H001042
+  thomas: '01844'
+- name: Tim Kaine
+  party: majority
+  rank: 7
+  bioguide: K000384
+  thomas: '02176'
+- name: Carl Levin
+  party: majority
+  rank: 8
   title: Ex Officio
   bioguide: L000261
   thomas: '01384'
@@ -12301,51 +12424,67 @@ SSAS15:
   title: Ranking Member
   bioguide: A000368
   thomas: '02075'
-- name: James M. Inhofe
-  party: minority
-  rank: 2
-  bioguide: I000024
-  thomas: '00583'
 - name: Saxby Chambliss
   party: minority
-  rank: 3
+  rank: 2
   bioguide: C000286
   thomas: '00188'
-- name: Lindsey Graham
+- name: Deb Fischer
+  party: minority
+  rank: 3
+  bioguide: F000463
+  thomas: '02179'
+- name: Roy Blunt
   party: minority
   rank: 4
-  bioguide: G000359
-  thomas: '00452'
-- name: John McCain
+  bioguide: B000575
+  thomas: '01464'
+- name: Mike Lee
   party: minority
   rank: 5
+  bioguide: L000577
+  thomas: '02080'
+- name: Ted Cruz
+  party: minority
+  rank: 6
+  bioguide: C001098
+  thomas: '02175'
+- name: James M. Inhofe
+  party: minority
+  rank: 7
   title: Ex Officio
-  bioguide: M000303
-  thomas: '00754'
+  bioguide: I000024
+  thomas: '00583'
 SSAS16:
-- name: Jack Reed
-  party: majority
-  rank: 1
-  bioguide: R000122
-  thomas: '00949'
 - name: Mark Udall
   party: majority
-  rank: 2
+  rank: 1
+  title: Chairman
   bioguide: U000038
   thomas: '01595'
-- name: Jeanne Shaheen
+- name: Jack Reed
+  party: majority
+  rank: 2
+  bioguide: R000122
+  thomas: '00949'
+- name: Claire McCaskill
   party: majority
   rank: 3
-  bioguide: S001181
-  thomas: '01901'
-- name: Kirsten E. Gillibrand
+  bioguide: M001170
+  thomas: '01820'
+- name: Joe Donnelly
   party: majority
   rank: 4
-  bioguide: G000555
-  thomas: '01866'
-- name: Carl Levin
+  bioguide: D000607
+  thomas: '01850'
+- name: Angus S. King, Jr.
   party: majority
   rank: 5
+  bioguide: K000383
+  thomas: '02185'
+- name: Carl Levin
+  party: majority
+  rank: 6
   title: Ex Officio
   bioguide: L000261
   thomas: '01384'
@@ -12355,33 +12494,34 @@ SSAS16:
   title: Ranking Member
   bioguide: S001141
   thomas: '01548'
-- name: James M. Inhofe
+- name: Deb Fischer
   party: minority
   rank: 2
-  bioguide: I000024
-  thomas: '00583'
-- name: Roger F. Wicker
-  party: minority
-  rank: 3
-  bioguide: W000437
-  thomas: '01226'
+  bioguide: F000463
+  thomas: '02179'
 - name: David Vitter
   party: minority
-  rank: 4
+  rank: 3
   bioguide: V000127
   thomas: '01609'
-- name: John McCain
+- name: Mike Lee
+  party: minority
+  rank: 4
+  bioguide: L000577
+  thomas: '02080'
+- name: James M. Inhofe
   party: minority
   rank: 5
   title: Ex Officio
-  bioguide: M000303
-  thomas: '00754'
+  bioguide: I000024
+  thomas: '00583'
 SSAS17:
-- name: Claire McCaskill
+- name: Kirsten E. Gillibrand
   party: majority
   rank: 1
-  bioguide: M001170
-  thomas: '01820'
+  title: Chairman
+  bioguide: G000555
+  thomas: '01866'
 - name: Kay R. Hagan
   party: majority
   rank: 2
@@ -12392,9 +12532,24 @@ SSAS17:
   rank: 3
   bioguide: B001277
   thomas: '02076'
-- name: Carl Levin
+- name: Mazie K. Hirono
   party: majority
   rank: 4
+  bioguide: H001042
+  thomas: '01844'
+- name: Tim Kaine
+  party: majority
+  rank: 5
+  bioguide: K000384
+  thomas: '02176'
+- name: Angus S. King, Jr.
+  party: majority
+  rank: 6
+  bioguide: K000383
+  thomas: '02185'
+- name: Carl Levin
+  party: majority
+  rank: 7
   title: Ex Officio
   bioguide: L000261
   thomas: '01384'
@@ -12414,17 +12569,22 @@ SSAS17:
   rank: 3
   bioguide: A000368
   thomas: '02075'
-- name: David Vitter
+- name: Roy Blunt
   party: minority
   rank: 4
-  bioguide: V000127
-  thomas: '01609'
-- name: John McCain
+  bioguide: B000575
+  thomas: '01464'
+- name: Mike Lee
   party: minority
   rank: 5
+  bioguide: L000577
+  thomas: '02080'
+- name: James M. Inhofe
+  party: minority
+  rank: 6
   title: Ex Officio
-  bioguide: M000303
-  thomas: '00754'
+  bioguide: I000024
+  thomas: '00583'
 SSAS20:
 - name: Kay R. Hagan
   party: majority
@@ -12437,48 +12597,74 @@ SSAS20:
   rank: 2
   bioguide: R000122
   thomas: '00949'
-- name: Mark Udall
+- name: Bill Nelson
   party: majority
   rank: 3
+  bioguide: N000032
+  thomas: '00859'
+- name: Mark Udall
+  party: majority
+  rank: 4
   bioguide: U000038
   thomas: '01595'
 - name: Joe Manchin, III
   party: majority
-  rank: 4
+  rank: 5
   bioguide: M001183
   thomas: '01983'
 - name: Jeanne Shaheen
   party: majority
-  rank: 5
+  rank: 6
   bioguide: S001181
   thomas: '01901'
 - name: Kirsten E. Gillibrand
   party: majority
-  rank: 6
+  rank: 7
   bioguide: G000555
   thomas: '01866'
 - name: Carl Levin
   party: majority
-  rank: 7
+  rank: 8
   title: Ex Officio
   bioguide: L000261
   thomas: '01384'
-- name: Saxby Chambliss
+- name: Deb Fischer
   party: minority
   rank: 1
-  bioguide: C000286
-  thomas: '00188'
-- name: Lindsey Graham
-  party: minority
-  rank: 2
-  bioguide: G000359
-  thomas: '00452'
+  title: Ranking Member
+  bioguide: F000463
+  thomas: '02179'
 - name: John McCain
   party: minority
-  rank: 3
-  title: Ex Officio
+  rank: 2
   bioguide: M000303
   thomas: '00754'
+- name: Roger F. Wicker
+  party: minority
+  rank: 3
+  bioguide: W000437
+  thomas: '01226'
+- name: Lindsey Graham
+  party: minority
+  rank: 4
+  bioguide: G000359
+  thomas: '00452'
+- name: David Vitter
+  party: minority
+  rank: 5
+  bioguide: V000127
+  thomas: '01609'
+- name: Ted Cruz
+  party: minority
+  rank: 6
+  bioguide: C001098
+  thomas: '02175'
+- name: James M. Inhofe
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: I000024
+  thomas: '00583'
 SSBK:
 - name: Tim Johnson
   party: majority
@@ -12593,79 +12779,95 @@ SSBK:
   bioguide: H001041
   thomas: '01863'
 SSBK04:
-- name: Jack Reed
+- name: Jon Tester
   party: majority
   rank: 1
   title: Chairman
+  bioguide: T000464
+  thomas: '01829'
+- name: Jack Reed
+  party: majority
+  rank: 2
   bioguide: R000122
   thomas: '00949'
 - name: Charles E. Schumer
   party: majority
-  rank: 2
+  rank: 3
   bioguide: S000148
   thomas: '01036'
 - name: Robert Menendez
   party: majority
-  rank: 3
+  rank: 4
   bioguide: M000639
   thomas: '00791'
 - name: Mark R. Warner
   party: majority
-  rank: 4
+  rank: 5
   bioguide: W000805
   thomas: '01897'
-- name: Jeff Merkley
-  party: majority
-  rank: 5
-  bioguide: M001176
-  thomas: '01900'
 - name: Kay R. Hagan
   party: majority
   rank: 6
   bioguide: H001049
   thomas: '01902'
-- name: Tim Johnson
+- name: Elizabeth Warren
   party: majority
   rank: 7
+  bioguide: W000817
+  thomas: '02182'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 8
+  bioguide: H001069
+  thomas: '02174'
+- name: Tim Johnson
+  party: majority
+  rank: 9
+  title: Ex Officio
   bioguide: J000177
   thomas: '00604'
-- name: Mike Crapo
+- name: Mike Johanns
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: C000880
-  thomas: '00250'
-- name: Patrick J. Toomey
+  bioguide: J000291
+  thomas: '01899'
+- name: Bob Corker
   party: minority
   rank: 2
+  bioguide: C001071
+  thomas: '01825'
+- name: Richard C. Shelby
+  party: minority
+  rank: 3
+  bioguide: S000320
+  thomas: '01049'
+- name: David Vitter
+  party: minority
+  rank: 4
+  bioguide: V000127
+  thomas: '01609'
+- name: Patrick J. Toomey
+  party: minority
+  rank: 5
   bioguide: T000461
   thomas: '02085'
 - name: Mark Kirk
   party: minority
-  rank: 3
+  rank: 6
   bioguide: K000360
   thomas: '01647'
-- name: Bob Corker
-  party: minority
-  rank: 4
-  bioguide: C001071
-  thomas: '01825'
-- name: David Vitter
-  party: minority
-  rank: 5
-  bioguide: V000127
-  thomas: '01609'
-- name: Jerry Moran
-  party: minority
-  rank: 6
-  bioguide: M000934
-  thomas: '01507'
-- name: Richard C. Shelby
+- name: Tom Coburn
   party: minority
   rank: 7
+  bioguide: C000560
+  thomas: '00212'
+- name: Mike Crapo
+  party: minority
+  rank: 8
   title: Ex Officio
-  bioguide: S000320
-  thomas: '01049'
+  bioguide: C000880
+  thomas: '00250'
 SSBK05:
 - name: Mark R. Warner
   party: majority
@@ -12678,28 +12880,34 @@ SSBK05:
   rank: 2
   bioguide: B000944
   thomas: '00136'
-- name: Tim Johnson
+- name: Joe Manchin, III
   party: majority
   rank: 3
+  bioguide: M001183
+  thomas: '01983'
+- name: Tim Johnson
+  party: majority
+  rank: 4
+  title: Ex Officio
   bioguide: J000177
   thomas: '00604'
-- name: Mike Johanns
+- name: Mark Kirk
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: J000291
-  thomas: '01899'
-- name: Mark Kirk
-  party: minority
-  rank: 2
   bioguide: K000360
   thomas: '01647'
-- name: Richard C. Shelby
+- name: Jerry Moran
+  party: minority
+  rank: 2
+  bioguide: M000934
+  thomas: '01507'
+- name: Mike Crapo
   party: minority
   rank: 3
   title: Ex Officio
-  bioguide: S000320
-  thomas: '01049'
+  bioguide: C000880
+  thomas: '00250'
 SSBK08:
 - name: Sherrod Brown
   party: majority
@@ -12737,49 +12945,59 @@ SSBK08:
   rank: 7
   bioguide: H001049
   thomas: '01902'
-- name: Tim Johnson
+- name: Elizabeth Warren
   party: majority
   rank: 8
+  bioguide: W000817
+  thomas: '02182'
+- name: Tim Johnson
+  party: majority
+  rank: 9
   title: Ex Officio
   bioguide: J000177
   thomas: '00604'
-- name: Bob Corker
+- name: Patrick J. Toomey
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: C001071
-  thomas: '01825'
-- name: Jerry Moran
+  bioguide: T000461
+  thomas: '02085'
+- name: Richard C. Shelby
   party: minority
   rank: 2
-  bioguide: M000934
-  thomas: '01507'
-- name: Mike Crapo
+  bioguide: S000320
+  thomas: '01049'
+- name: David Vitter
   party: minority
   rank: 3
-  bioguide: C000880
-  thomas: '00250'
+  bioguide: V000127
+  thomas: '01609'
 - name: Mike Johanns
   party: minority
   rank: 4
   bioguide: J000291
   thomas: '01899'
-- name: Patrick J. Toomey
+- name: Jerry Moran
   party: minority
   rank: 5
-  bioguide: T000461
-  thomas: '02085'
-- name: David Vitter
+  bioguide: M000934
+  thomas: '01507'
+- name: Dean Heller
   party: minority
   rank: 6
-  bioguide: V000127
-  thomas: '01609'
-- name: Richard C. Shelby
+  bioguide: H001041
+  thomas: '01863'
+- name: Bob Corker
   party: minority
   rank: 7
+  bioguide: C001071
+  thomas: '01825'
+- name: Mike Crapo
+  party: minority
+  rank: 8
   title: Ex Officio
-  bioguide: S000320
-  thomas: '01049'
+  bioguide: C000880
+  thomas: '00250'
 SSBK09:
 - name: Robert Menendez
   party: majority
@@ -12802,27 +13020,38 @@ SSBK09:
   rank: 4
   bioguide: B000944
   thomas: '00136'
-- name: Jon Tester
-  party: majority
-  rank: 5
-  bioguide: T000464
-  thomas: '01829'
 - name: Jeff Merkley
   party: majority
-  rank: 6
+  rank: 5
   bioguide: M001176
   thomas: '01900'
-- name: Tim Johnson
+- name: Joe Manchin, III
+  party: majority
+  rank: 6
+  bioguide: M001183
+  thomas: '01983'
+- name: Elizabeth Warren
   party: majority
   rank: 7
+  bioguide: W000817
+  thomas: '02182'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 8
+  bioguide: H001069
+  thomas: '02174'
+- name: Tim Johnson
+  party: majority
+  rank: 9
   title: Ex Officio
   bioguide: J000177
   thomas: '00604'
-- name: Mike Crapo
+- name: Jerry Moran
   party: minority
   rank: 1
-  bioguide: C000880
-  thomas: '00250'
+  title: Ranking Member
+  bioguide: M000934
+  thomas: '01507'
 - name: Bob Corker
   party: minority
   rank: 2
@@ -12838,56 +13067,91 @@ SSBK09:
   rank: 4
   bioguide: K000360
   thomas: '01647'
-- name: Jerry Moran
+- name: Tom Coburn
   party: minority
   rank: 5
-  bioguide: M000934
-  thomas: '01507'
-- name: Richard C. Shelby
+  bioguide: C000560
+  thomas: '00212'
+- name: Dean Heller
   party: minority
   rank: 6
-  title: Ex Officio
+  bioguide: H001041
+  thomas: '01863'
+- name: Richard C. Shelby
+  party: minority
+  rank: 7
   bioguide: S000320
   thomas: '01049'
+- name: Mike Crapo
+  party: minority
+  rank: 8
+  title: Ex Officio
+  bioguide: C000880
+  thomas: '00250'
 SSBK12:
-- name: Jon Tester
+- name: Jeff Merkley
   party: majority
   rank: 1
   title: Chairman
+  bioguide: M001176
+  thomas: '01900'
+- name: Jon Tester
+  party: majority
+  rank: 2
   bioguide: T000464
   thomas: '01829'
 - name: Mark R. Warner
   party: majority
-  rank: 2
+  rank: 3
   bioguide: W000805
   thomas: '01897'
 - name: Kay R. Hagan
   party: majority
-  rank: 3
+  rank: 4
   bioguide: H001049
   thomas: '01902'
+- name: Joe Manchin, III
+  party: majority
+  rank: 5
+  bioguide: M001183
+  thomas: '01983'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 6
+  bioguide: H001069
+  thomas: '02174'
 - name: Tim Johnson
   party: majority
-  rank: 4
+  rank: 7
+  title: Ex Officio
   bioguide: J000177
   thomas: '00604'
-- name: David Vitter
+- name: Dean Heller
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: H001041
+  thomas: '01863'
+- name: Tom Coburn
+  party: minority
+  rank: 2
+  bioguide: C000560
+  thomas: '00212'
+- name: David Vitter
+  party: minority
+  rank: 3
   bioguide: V000127
   thomas: '01609'
 - name: Mike Johanns
   party: minority
-  rank: 2
+  rank: 4
   bioguide: J000291
   thomas: '01899'
-- name: Richard C. Shelby
+- name: Mike Crapo
   party: minority
-  rank: 3
-  title: Ex Officio
-  bioguide: S000320
-  thomas: '01049'
+  rank: 5
+  bioguide: C000880
+  thomas: '00250'
 SSBU:
 - name: Patty Murray
   party: majority
@@ -13146,33 +13410,48 @@ SSCM01:
   rank: 4
   bioguide: L000123
   thomas: '01381'
-- name: Amy Klobuchar
+- name: Mark L. Pryor
   party: majority
   rank: 5
+  bioguide: P000590
+  thomas: '01701'
+- name: Amy Klobuchar
+  party: majority
+  rank: 6
   bioguide: K000367
   thomas: '01826'
 - name: Mark R. Warner
   party: majority
-  rank: 6
+  rank: 7
   bioguide: W000805
   thomas: '01897'
 - name: Mark Begich
   party: majority
-  rank: 7
+  rank: 8
   bioguide: B001265
   thomas: '01898'
+- name: Brian Schatz
+  party: majority
+  rank: 9
+  bioguide: S001194
+  thomas: '02173'
+- name: William M. Cowan
+  party: majority
+  rank: 10
+  bioguide: C001099
+  thomas: '02189'
 - name: John D. Rockefeller, IV
   party: majority
-  rank: 8
+  rank: 11
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: John Thune
+- name: Kelly Ayotte
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: T000250
-  thomas: '01534'
+  bioguide: A000368
+  thomas: '02075'
 - name: Roger F. Wicker
   party: minority
   rank: 2
@@ -13183,54 +13462,122 @@ SSCM01:
   rank: 3
   bioguide: B000575
   thomas: '01464'
-- name: Dean Heller
+- name: Marco Rubio
   party: minority
   rank: 4
+  bioguide: R000595
+  thomas: '02084'
+- name: Dean Heller
+  party: minority
+  rank: 5
   bioguide: H001041
   thomas: '01863'
+- name: Tim Scott
+  party: minority
+  rank: 6
+  bioguide: S001184
+  thomas: '02056'
+- name: Ted Cruz
+  party: minority
+  rank: 7
+  bioguide: C001098
+  thomas: '02175'
+- name: Deb Fischer
+  party: minority
+  rank: 8
+  bioguide: F000463
+  thomas: '02179'
+- name: Ron Johnson
+  party: minority
+  rank: 9
+  bioguide: J000293
+  thomas: '02086'
+- name: John Thune
+  party: minority
+  rank: 10
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM20:
-- name: Mark L. Pryor
+- name: Claire McCaskill
   party: majority
   rank: 1
   title: Chairman
-  bioguide: P000590
-  thomas: '01701'
+  bioguide: M001170
+  thomas: '01820'
 - name: Barbara Boxer
   party: majority
   rank: 2
   bioguide: B000711
   thomas: '00116'
-- name: Claire McCaskill
+- name: Mark L. Pryor
   party: majority
   rank: 3
-  bioguide: M001170
-  thomas: '01820'
+  bioguide: P000590
+  thomas: '01701'
 - name: Amy Klobuchar
   party: majority
   rank: 4
   bioguide: K000367
   thomas: '01826'
-- name: John D. Rockefeller, IV
+- name: Richard Blumenthal
   party: majority
   rank: 5
+  bioguide: B001277
+  thomas: '02076'
+- name: Brian Schatz
+  party: majority
+  rank: 6
+  bioguide: S001194
+  thomas: '02173'
+- name: William M. Cowan
+  party: majority
+  rank: 7
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 8
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: John Thune
-  party: minority
-  rank: 1
-  bioguide: T000250
-  thomas: '01534'
-- name: Roger F. Wicker
-  party: minority
-  rank: 2
-  bioguide: W000437
-  thomas: '01226'
 - name: Dean Heller
   party: minority
-  rank: 3
+  rank: 1
+  title: Ranking Member
   bioguide: H001041
   thomas: '01863'
+- name: Roy Blunt
+  party: minority
+  rank: 2
+  bioguide: B000575
+  thomas: '01464'
+- name: Kelly Ayotte
+  party: minority
+  rank: 3
+  bioguide: A000368
+  thomas: '02075'
+- name: Daniel Coats
+  party: minority
+  rank: 4
+  bioguide: C000542
+  thomas: '00209'
+- name: Ted Cruz
+  party: minority
+  rank: 5
+  bioguide: C001098
+  thomas: '02175'
+- name: Deb Fischer
+  party: minority
+  rank: 6
+  bioguide: F000463
+  thomas: '02179'
+- name: John Thune
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM22:
 - name: Mark Begich
   party: majority
@@ -13253,42 +13600,64 @@ SSCM22:
   rank: 4
   bioguide: L000123
   thomas: '01381'
-- name: Amy Klobuchar
+- name: Richard Blumenthal
   party: majority
   rank: 5
-  bioguide: K000367
-  thomas: '01826'
-- name: Mark R. Warner
+  bioguide: B001277
+  thomas: '02076'
+- name: Brian Schatz
   party: majority
   rank: 6
-  bioguide: W000805
-  thomas: '01897'
-- name: John D. Rockefeller, IV
+  bioguide: S001194
+  thomas: '02173'
+- name: William M. Cowan
   party: majority
   rank: 7
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 8
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: Roger F. Wicker
-  party: minority
-  rank: 1
-  bioguide: W000437
-  thomas: '01226'
 - name: Marco Rubio
   party: minority
-  rank: 2
+  rank: 1
+  title: Ranking Member
   bioguide: R000595
   thomas: '02084'
+- name: Roger F. Wicker
+  party: minority
+  rank: 2
+  bioguide: W000437
+  thomas: '01226'
 - name: Kelly Ayotte
   party: minority
   rank: 3
   bioguide: A000368
   thomas: '02075'
-- name: Dean Heller
+- name: Daniel Coats
   party: minority
   rank: 4
-  bioguide: H001041
-  thomas: '01863'
+  bioguide: C000542
+  thomas: '00209'
+- name: Tim Scott
+  party: minority
+  rank: 5
+  bioguide: S001184
+  thomas: '02056'
+- name: Ted Cruz
+  party: minority
+  rank: 6
+  bioguide: C001098
+  thomas: '02175'
+- name: John Thune
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM24:
 - name: Bill Nelson
   party: majority
@@ -13296,47 +13665,79 @@ SSCM24:
   title: Chairman
   bioguide: N000032
   thomas: '00859'
-- name: Maria Cantwell
+- name: Barbara Boxer
   party: majority
   rank: 2
-  bioguide: C000127
-  thomas: '00172'
+  bioguide: B000711
+  thomas: '00116'
 - name: Mark L. Pryor
   party: majority
   rank: 3
   bioguide: P000590
   thomas: '01701'
-- name: Mark R. Warner
+- name: Amy Klobuchar
   party: majority
   rank: 4
-  bioguide: W000805
-  thomas: '01897'
-- name: John D. Rockefeller, IV
+  bioguide: K000367
+  thomas: '01826'
+- name: Mark R. Warner
   party: majority
   rank: 5
+  bioguide: W000805
+  thomas: '01897'
+- name: Richard Blumenthal
+  party: majority
+  rank: 6
+  bioguide: B001277
+  thomas: '02076'
+- name: William M. Cowan
+  party: majority
+  rank: 7
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 8
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: Roger F. Wicker
+- name: Ted Cruz
   party: minority
   rank: 1
+  title: Ranking Member
+  bioguide: C001098
+  thomas: '02175'
+- name: Roger F. Wicker
+  party: minority
+  rank: 2
   bioguide: W000437
   thomas: '01226'
 - name: Marco Rubio
   party: minority
-  rank: 2
+  rank: 3
   bioguide: R000595
   thomas: '02084'
-- name: Kelly Ayotte
-  party: minority
-  rank: 3
-  bioguide: A000368
-  thomas: '02075'
 - name: Dean Heller
   party: minority
   rank: 4
   bioguide: H001041
   thomas: '01863'
+- name: Daniel Coats
+  party: minority
+  rank: 5
+  bioguide: C000542
+  thomas: '00209'
+- name: Ron Johnson
+  party: minority
+  rank: 6
+  bioguide: J000293
+  thomas: '02086'
+- name: John Thune
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM25:
 - name: Frank R. Lautenberg
   party: majority
@@ -13379,69 +13780,111 @@ SSCM25:
   rank: 8
   bioguide: B001265
   thomas: '01898'
-- name: John D. Rockefeller, IV
+- name: Richard Blumenthal
   party: majority
   rank: 9
+  bioguide: B001277
+  thomas: '02076'
+- name: Brian Schatz
+  party: majority
+  rank: 10
+  bioguide: S001194
+  thomas: '02173'
+- name: William M. Cowan
+  party: majority
+  rank: 11
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 12
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: Roger F. Wicker
+- name: Roy Blunt
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: W000437
-  thomas: '01226'
-- name: John Thune
-  party: minority
-  rank: 2
-  bioguide: T000250
-  thomas: '01534'
-- name: Roy Blunt
-  party: minority
-  rank: 3
   bioguide: B000575
   thomas: '01464'
+- name: Roger F. Wicker
+  party: minority
+  rank: 2
+  bioguide: W000437
+  thomas: '01226'
 - name: Marco Rubio
   party: minority
-  rank: 4
+  rank: 3
   bioguide: R000595
   thomas: '02084'
 - name: Kelly Ayotte
   party: minority
-  rank: 5
+  rank: 4
   bioguide: A000368
   thomas: '02075'
 - name: Dean Heller
   party: minority
-  rank: 6
+  rank: 5
   bioguide: H001041
   thomas: '01863'
+- name: Daniel Coats
+  party: minority
+  rank: 6
+  bioguide: C000542
+  thomas: '00209'
+- name: Tim Scott
+  party: minority
+  rank: 7
+  bioguide: S001184
+  thomas: '02056'
+- name: Ted Cruz
+  party: minority
+  rank: 8
+  bioguide: C001098
+  thomas: '02175'
+- name: Deb Fischer
+  party: minority
+  rank: 9
+  bioguide: F000463
+  thomas: '02179'
+- name: Ron Johnson
+  party: minority
+  rank: 10
+  bioguide: J000293
+  thomas: '02086'
+- name: John Thune
+  party: minority
+  rank: 11
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM26:
-- name: Barbara Boxer
+- name: Mark L. Pryor
   party: majority
   rank: 1
+  title: Chairman
+  bioguide: P000590
+  thomas: '01701'
+- name: Barbara Boxer
+  party: majority
+  rank: 2
   bioguide: B000711
   thomas: '00116'
 - name: Bill Nelson
   party: majority
-  rank: 2
+  rank: 3
   bioguide: N000032
   thomas: '00859'
 - name: Maria Cantwell
   party: majority
-  rank: 3
+  rank: 4
   bioguide: C000127
   thomas: '00172'
 - name: Frank R. Lautenberg
   party: majority
-  rank: 4
+  rank: 5
   bioguide: L000123
   thomas: '01381'
-- name: Mark L. Pryor
-  party: majority
-  rank: 5
-  bioguide: P000590
-  thomas: '01701'
 - name: Claire McCaskill
   party: majority
   rank: 6
@@ -13462,42 +13905,84 @@ SSCM26:
   rank: 9
   bioguide: B001265
   thomas: '01898'
-- name: John D. Rockefeller, IV
+- name: Richard Blumenthal
   party: majority
   rank: 10
+  bioguide: B001277
+  thomas: '02076'
+- name: Brian Schatz
+  party: majority
+  rank: 11
+  bioguide: S001194
+  thomas: '02173'
+- name: William M. Cowan
+  party: majority
+  rank: 12
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 13
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: John Thune
-  party: minority
-  rank: 1
-  bioguide: T000250
-  thomas: '01534'
 - name: Roger F. Wicker
   party: minority
-  rank: 2
+  rank: 1
+  title: Ranking Member
   bioguide: W000437
   thomas: '01226'
 - name: Roy Blunt
   party: minority
-  rank: 3
+  rank: 2
   bioguide: B000575
   thomas: '01464'
 - name: Marco Rubio
   party: minority
-  rank: 4
+  rank: 3
   bioguide: R000595
   thomas: '02084'
 - name: Kelly Ayotte
   party: minority
-  rank: 5
+  rank: 4
   bioguide: A000368
   thomas: '02075'
 - name: Dean Heller
   party: minority
-  rank: 6
+  rank: 5
   bioguide: H001041
   thomas: '01863'
+- name: Daniel Coats
+  party: minority
+  rank: 6
+  bioguide: C000542
+  thomas: '00209'
+- name: Tim Scott
+  party: minority
+  rank: 7
+  bioguide: S001184
+  thomas: '02056'
+- name: Ted Cruz
+  party: minority
+  rank: 8
+  bioguide: C001098
+  thomas: '02175'
+- name: Deb Fischer
+  party: minority
+  rank: 9
+  bioguide: F000463
+  thomas: '02179'
+- name: Ron Johnson
+  party: minority
+  rank: 10
+  bioguide: J000293
+  thomas: '02086'
+- name: John Thune
+  party: minority
+  rank: 11
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSCM27:
 - name: Amy Klobuchar
   party: majority
@@ -13505,53 +13990,69 @@ SSCM27:
   title: Chairman
   bioguide: K000367
   thomas: '01826'
-- name: Maria Cantwell
-  party: majority
-  rank: 2
-  bioguide: C000127
-  thomas: '00172'
 - name: Mark L. Pryor
   party: majority
-  rank: 3
+  rank: 2
   bioguide: P000590
   thomas: '01701'
 - name: Mark R. Warner
   party: majority
-  rank: 4
+  rank: 3
   bioguide: W000805
   thomas: '01897'
 - name: Mark Begich
   party: majority
-  rank: 5
+  rank: 4
   bioguide: B001265
   thomas: '01898'
-- name: John D. Rockefeller, IV
+- name: Richard Blumenthal
+  party: majority
+  rank: 5
+  bioguide: B001277
+  thomas: '02076'
+- name: William M. Cowan
   party: majority
   rank: 6
+  bioguide: C001099
+  thomas: '02189'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 7
   title: Ex Officio
   bioguide: R000361
   thomas: '01424'
-- name: Roy Blunt
+- name: Tim Scott
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: B000575
-  thomas: '01464'
-- name: John Thune
+  bioguide: S001184
+  thomas: '02056'
+- name: Roy Blunt
   party: minority
   rank: 2
-  bioguide: T000250
-  thomas: '01534'
-- name: Kelly Ayotte
+  bioguide: B000575
+  thomas: '01464'
+- name: Daniel Coats
   party: minority
   rank: 3
-  bioguide: A000368
-  thomas: '02075'
-- name: Dean Heller
+  bioguide: C000542
+  thomas: '00209'
+- name: Deb Fischer
   party: minority
   rank: 4
-  bioguide: H001041
-  thomas: '01863'
+  bioguide: F000463
+  thomas: '02179'
+- name: Ron Johnson
+  party: minority
+  rank: 5
+  bioguide: J000293
+  thomas: '02086'
+- name: John Thune
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: T000250
+  thomas: '01534'
 SSEG:
 - name: Ron Wyden
   party: majority
@@ -13900,6 +14401,7 @@ SSEG04:
 - name: Rob Portman
   party: minority
   rank: 1
+  title: Ranking Member
   bioguide: P000449
   thomas: '00924'
 - name: John Barrasso
@@ -14128,33 +14630,33 @@ SSEV08:
   rank: 5
   bioguide: S000033
   thomas: '01010'
-- name: Sheldon Whitehouse
-  party: majority
-  rank: 6
-  bioguide: W000802
-  thomas: '01823'
 - name: Tom Udall
   party: majority
-  rank: 7
+  rank: 6
   bioguide: U000039
   thomas: '01567'
+- name: Kirsten E. Gillibrand
+  party: majority
+  rank: 7
+  bioguide: G000555
+  thomas: '01866'
 - name: Barbara Boxer
   party: majority
   rank: 8
   title: Ex Officio
   bioguide: B000711
   thomas: '00116'
-- name: David Vitter
+- name: John Barrasso
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: V000127
-  thomas: '01609'
-- name: John Barrasso
-  party: minority
-  rank: 2
   bioguide: B001261
   thomas: '01881'
+- name: James M. Inhofe
+  party: minority
+  rank: 2
+  bioguide: I000024
+  thomas: '00583'
 - name: Jeff Sessions
   party: minority
   rank: 3
@@ -14165,34 +14667,39 @@ SSEV08:
   rank: 4
   bioguide: C000880
   thomas: '00250'
-- name: John Boozman
+- name: Roger F. Wicker
   party: minority
   rank: 5
-  bioguide: B001236
-  thomas: '01687'
-- name: James M. Inhofe
+  bioguide: W000437
+  thomas: '01226'
+- name: Deb Fischer
   party: minority
   rank: 6
+  bioguide: F000463
+  thomas: '02179'
+- name: David Vitter
+  party: minority
+  rank: 7
   title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
+  bioguide: V000127
+  thomas: '01609'
 SSEV09:
-- name: Frank R. Lautenberg
+- name: Tom Udall
   party: majority
   rank: 1
   title: Chairman
-  bioguide: L000123
-  thomas: '01381'
+  bioguide: U000039
+  thomas: '01567'
 - name: Max Baucus
   party: majority
   rank: 2
   bioguide: B000243
   thomas: '00066'
-- name: Thomas R. Carper
+- name: Frank R. Lautenberg
   party: majority
   rank: 3
-  bioguide: C000174
-  thomas: '00179'
+  bioguide: L000123
+  thomas: '01381'
 - name: Jeff Merkley
   party: majority
   rank: 4
@@ -14215,17 +14722,27 @@ SSEV09:
   title: Ranking Member
   bioguide: C000880
   thomas: '00250'
-- name: John Boozman
-  party: minority
-  rank: 2
-  bioguide: B001236
-  thomas: '01687'
 - name: James M. Inhofe
   party: minority
-  rank: 3
-  title: Ex Officio
+  rank: 2
   bioguide: I000024
   thomas: '00583'
+- name: Roger F. Wicker
+  party: minority
+  rank: 3
+  bioguide: W000437
+  thomas: '01226'
+- name: Deb Fischer
+  party: minority
+  rank: 4
+  bioguide: F000463
+  thomas: '02179'
+- name: David Vitter
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: V000127
+  thomas: '01609'
 SSEV10:
 - name: Thomas R. Carper
   party: majority
@@ -14238,54 +14755,64 @@ SSEV10:
   rank: 2
   bioguide: B000243
   thomas: '00066'
-- name: Frank R. Lautenberg
-  party: majority
-  rank: 3
-  bioguide: L000123
-  thomas: '01381'
 - name: Benjamin L. Cardin
   party: majority
-  rank: 4
+  rank: 3
   bioguide: C000141
   thomas: '00174'
 - name: Bernard Sanders
   party: majority
-  rank: 5
+  rank: 4
   bioguide: S000033
   thomas: '01010'
-- name: Jeff Merkley
+- name: Sheldon Whitehouse
+  party: majority
+  rank: 5
+  bioguide: W000802
+  thomas: '01823'
+- name: Tom Udall
   party: majority
   rank: 6
-  bioguide: M001176
-  thomas: '01900'
+  bioguide: U000039
+  thomas: '01567'
 - name: Barbara Boxer
   party: majority
   rank: 7
   title: Ex Officio
   bioguide: B000711
   thomas: '00116'
-- name: John Barrasso
+- name: Jeff Sessions
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: B001261
-  thomas: '01881'
-- name: David Vitter
-  party: minority
-  rank: 2
-  bioguide: V000127
-  thomas: '01609'
-- name: Jeff Sessions
-  party: minority
-  rank: 3
   bioguide: S001141
   thomas: '01548'
-- name: James M. Inhofe
+- name: John Barrasso
+  party: minority
+  rank: 2
+  bioguide: B001261
+  thomas: '01881'
+- name: Mike Crapo
+  party: minority
+  rank: 3
+  bioguide: C000880
+  thomas: '00250'
+- name: Roger F. Wicker
   party: minority
   rank: 4
+  bioguide: W000437
+  thomas: '01226'
+- name: John Boozman
+  party: minority
+  rank: 5
+  bioguide: B001236
+  thomas: '01687'
+- name: David Vitter
+  party: minority
+  rank: 6
   title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
+  bioguide: V000127
+  thomas: '01609'
 SSEV15:
 - name: Benjamin L. Cardin
   party: majority
@@ -14293,6 +14820,109 @@ SSEV15:
   title: Chairman
   bioguide: C000141
   thomas: '00174'
+- name: Thomas R. Carper
+  party: majority
+  rank: 2
+  bioguide: C000174
+  thomas: '00179'
+- name: Frank R. Lautenberg
+  party: majority
+  rank: 3
+  bioguide: L000123
+  thomas: '01381'
+- name: Sheldon Whitehouse
+  party: majority
+  rank: 4
+  bioguide: W000802
+  thomas: '01823'
+- name: Jeff Merkley
+  party: majority
+  rank: 5
+  bioguide: M001176
+  thomas: '01900'
+- name: Kirsten E. Gillibrand
+  party: majority
+  rank: 6
+  bioguide: G000555
+  thomas: '01866'
+- name: Barbara Boxer
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B000711
+  thomas: '00116'
+- name: John Boozman
+  party: minority
+  rank: 1
+  bioguide: B001236
+  thomas: '01687'
+- name: James M. Inhofe
+  party: minority
+  rank: 2
+  bioguide: I000024
+  thomas: '00583'
+- name: John Barrasso
+  party: minority
+  rank: 3
+  bioguide: B001261
+  thomas: '01881'
+- name: Jeff Sessions
+  party: minority
+  rank: 4
+  bioguide: S001141
+  thomas: '01548'
+- name: Deb Fischer
+  party: minority
+  rank: 5
+  bioguide: F000463
+  thomas: '02179'
+- name: David Vitter
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: V000127
+  thomas: '01609'
+SSEV16:
+- name: Jeff Merkley
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001176
+  thomas: '01900'
+- name: Thomas R. Carper
+  party: majority
+  rank: 2
+  bioguide: C000174
+  thomas: '00179'
+- name: Bernard Sanders
+  party: majority
+  rank: 3
+  bioguide: S000033
+  thomas: '01010'
+- name: Barbara Boxer
+  party: majority
+  rank: 4
+  title: Ex Officio
+  bioguide: B000711
+  thomas: '00116'
+- name: Roger F. Wicker
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000437
+  thomas: '01226'
+- name: Jeff Sessions
+  party: minority
+  rank: 2
+  bioguide: S001141
+  thomas: '01548'
+SSEV18:
+- name: Sheldon Whitehouse
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: W000802
+  thomas: '01823'
 - name: Max Baucus
   party: majority
   rank: 2
@@ -14303,162 +14933,29 @@ SSEV15:
   rank: 3
   bioguide: L000123
   thomas: '01381'
-- name: Sheldon Whitehouse
-  party: majority
-  rank: 4
-  bioguide: W000802
-  thomas: '01823'
-- name: Tom Udall
-  party: majority
-  rank: 5
-  bioguide: U000039
-  thomas: '01567'
-- name: Kirsten E. Gillibrand
-  party: majority
-  rank: 6
-  bioguide: G000555
-  thomas: '01866'
 - name: Barbara Boxer
   party: majority
-  rank: 7
+  rank: 4
   title: Ex Officio
   bioguide: B000711
   thomas: '00116'
-- name: Jeff Sessions
+- name: James M. Inhofe
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: S001141
-  thomas: '01548'
-- name: John Barrasso
+  bioguide: I000024
+  thomas: '00583'
+- name: John Boozman
   party: minority
   rank: 2
-  bioguide: B001261
-  thomas: '01881'
+  bioguide: B001236
+  thomas: '01687'
 - name: David Vitter
   party: minority
   rank: 3
+  title: Ex Officio
   bioguide: V000127
   thomas: '01609'
-- name: Mike Crapo
-  party: minority
-  rank: 4
-  bioguide: C000880
-  thomas: '00250'
-- name: James M. Inhofe
-  party: minority
-  rank: 5
-  title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
-SSEV16:
-- name: Bernard Sanders
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: S000033
-  thomas: '01010'
-- name: Thomas R. Carper
-  party: majority
-  rank: 2
-  bioguide: C000174
-  thomas: '00179'
-- name: Jeff Merkley
-  party: majority
-  rank: 3
-  bioguide: M001176
-  thomas: '01900'
-- name: Barbara Boxer
-  party: majority
-  rank: 4
-  title: Ex Officio
-  bioguide: B000711
-  thomas: '00116'
-- name: John Boozman
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001236
-  thomas: '01687'
-- name: Jeff Sessions
-  party: minority
-  rank: 2
-  bioguide: S001141
-  thomas: '01548'
-- name: James M. Inhofe
-  party: minority
-  rank: 3
-  title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
-SSEV17:
-- name: Tom Udall
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: U000039
-  thomas: '01567'
-- name: Sheldon Whitehouse
-  party: majority
-  rank: 2
-  bioguide: W000802
-  thomas: '01823'
-- name: Kirsten E. Gillibrand
-  party: majority
-  rank: 3
-  bioguide: G000555
-  thomas: '01866'
-- name: Barbara Boxer
-  party: majority
-  rank: 4
-  title: Ex Officio
-  bioguide: B000711
-  thomas: '00116'
-- name: David Vitter
-  party: minority
-  rank: 1
-  bioguide: V000127
-  thomas: '01609'
-- name: James M. Inhofe
-  party: minority
-  rank: 2
-  title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
-SSEV18:
-- name: Sheldon Whitehouse
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: W000802
-  thomas: '01823'
-- name: Benjamin L. Cardin
-  party: majority
-  rank: 2
-  bioguide: C000141
-  thomas: '00174'
-- name: Bernard Sanders
-  party: majority
-  rank: 3
-  bioguide: S000033
-  thomas: '01010'
-- name: Barbara Boxer
-  party: majority
-  rank: 4
-  title: Ex Officio
-  bioguide: B000711
-  thomas: '00116'
-- name: John Boozman
-  party: minority
-  rank: 1
-  bioguide: B001236
-  thomas: '01687'
-- name: James M. Inhofe
-  party: minority
-  rank: 2
-  title: Ex Officio
-  bioguide: I000024
-  thomas: '00583'
 SSFI:
 - name: Max Baucus
   party: majority
@@ -14583,12 +15080,12 @@ SSFI:
   bioguide: T000461
   thomas: '02085'
 SSFI02:
-- name: Debbie Stabenow
+- name: Sherrod Brown
   party: majority
   rank: 1
   title: Chairman
-  bioguide: S000770
-  thomas: '01531'
+  bioguide: B000944
+  thomas: '00136'
 - name: John D. Rockefeller, IV
   party: majority
   rank: 2
@@ -14599,20 +15096,47 @@ SSFI02:
   rank: 3
   bioguide: S000148
   thomas: '01036'
-- name: Benjamin L. Cardin
+- name: Bill Nelson
   party: majority
   rank: 4
+  bioguide: N000032
+  thomas: '00859'
+- name: Benjamin L. Cardin
+  party: majority
+  rank: 5
   bioguide: C000141
   thomas: '00174'
 - name: Max Baucus
   party: majority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: B000243
   thomas: '00066'
-- name: Orrin G. Hatch
+- name: Patrick J. Toomey
   party: minority
   rank: 1
+  title: Ranking Member
+  bioguide: T000461
+  thomas: '02085'
+- name: Mike Crapo
+  party: minority
+  rank: 2
+  bioguide: C000880
+  thomas: '00250'
+- name: Johnny Isakson
+  party: minority
+  rank: 3
+  bioguide: I000055
+  thomas: '01608'
+- name: Rob Portman
+  party: minority
+  rank: 4
+  bioguide: P000449
+  thomas: '00924'
+- name: Orrin G. Hatch
+  party: minority
+  rank: 5
+  title: Ex Officio
   bioguide: H000338
   thomas: '01351'
 SSFI10:
@@ -14622,21 +15146,21 @@ SSFI10:
   title: Chairman
   bioguide: R000361
   thomas: '01424'
-- name: Ron Wyden
-  party: majority
-  rank: 2
-  bioguide: W000779
-  thomas: '01247'
 - name: Debbie Stabenow
   party: majority
-  rank: 3
+  rank: 2
   bioguide: S000770
   thomas: '01531'
 - name: Maria Cantwell
   party: majority
-  rank: 4
+  rank: 3
   bioguide: C000127
   thomas: '00172'
+- name: Bill Nelson
+  party: majority
+  rank: 4
+  bioguide: N000032
+  thomas: '00859'
 - name: Robert Menendez
   party: majority
   rank: 5
@@ -14652,143 +15176,173 @@ SSFI10:
   rank: 7
   bioguide: C000141
   thomas: '00174'
-- name: Max Baucus
+- name: Robert P. Casey, Jr.
   party: majority
   rank: 8
+  bioguide: C001070
+  thomas: '01828'
+- name: Max Baucus
+  party: majority
+  rank: 9
   title: Ex Officio
   bioguide: B000243
   thomas: '00066'
-- name: Chuck Grassley
+- name: Pat Roberts
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: G000386
-  thomas: '00457'
-- name: Pat Roberts
-  party: minority
-  rank: 2
   bioguide: R000307
   thomas: '00968'
-- name: Michael B. Enzi
+- name: Orrin G. Hatch
+  party: minority
+  rank: 2
+  bioguide: H000338
+  thomas: '01351'
+- name: Chuck Grassley
   party: minority
   rank: 3
+  bioguide: G000386
+  thomas: '00457'
+- name: Michael B. Enzi
+  party: minority
+  rank: 4
   bioguide: E000285
   thomas: '01542'
 - name: John Cornyn
   party: minority
-  rank: 4
+  rank: 5
   bioguide: C001056
   thomas: '01692'
 - name: Richard Burr
   party: minority
-  rank: 5
+  rank: 6
   bioguide: B001135
   thomas: '00153'
-- name: Orrin G. Hatch
+- name: Patrick J. Toomey
   party: minority
-  rank: 6
-  title: Ex Officio
-  bioguide: H000338
-  thomas: '01351'
+  rank: 7
+  bioguide: T000461
+  thomas: '02085'
 SSFI11:
-- name: Max Baucus
+- name: Michael F. Bennet
   party: majority
   rank: 1
-  bioguide: B000243
-  thomas: '00066'
-- name: Charles E. Schumer
+  title: Chairman
+  bioguide: B001267
+  thomas: '01965'
+- name: Max Baucus
   party: majority
   rank: 2
-  bioguide: S000148
-  thomas: '01036'
+  bioguide: B000243
+  thomas: '00066'
 - name: Ron Wyden
   party: majority
   rank: 3
   bioguide: W000779
   thomas: '01247'
-- name: Maria Cantwell
+- name: Charles E. Schumer
   party: majority
   rank: 4
+  bioguide: S000148
+  thomas: '01036'
+- name: Robert Menendez
+  party: majority
+  rank: 5
+  bioguide: M000639
+  thomas: '00791'
+- name: Thomas R. Carper
+  party: majority
+  rank: 6
+  bioguide: C000174
+  thomas: '00179'
+- name: Benjamin L. Cardin
+  party: majority
+  rank: 7
+  bioguide: C000141
+  thomas: '00174'
+- name: Robert P. Casey, Jr.
+  party: majority
+  rank: 8
+  bioguide: C001070
+  thomas: '01828'
+- name: Michael B. Enzi
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: E000285
+  thomas: '01542'
+- name: Orrin G. Hatch
+  party: minority
+  rank: 2
+  bioguide: H000338
+  thomas: '01351'
+- name: Mike Crapo
+  party: minority
+  rank: 3
+  bioguide: C000880
+  thomas: '00250'
+- name: Pat Roberts
+  party: minority
+  rank: 4
+  bioguide: R000307
+  thomas: '00968'
+- name: John Cornyn
+  party: minority
+  rank: 5
+  bioguide: C001056
+  thomas: '01692'
+- name: John Thune
+  party: minority
+  rank: 6
+  bioguide: T000250
+  thomas: '01534'
+- name: Patrick J. Toomey
+  party: minority
+  rank: 7
+  bioguide: T000461
+  thomas: '02085'
+SSFI12:
+- name: Debbie Stabenow
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: S000770
+  thomas: '01531'
+- name: Max Baucus
+  party: majority
+  rank: 2
+  bioguide: B000243
+  thomas: '00066'
+- name: John D. Rockefeller, IV
+  party: majority
+  rank: 3
+  bioguide: R000361
+  thomas: '01424'
+- name: Ron Wyden
+  party: majority
+  rank: 4
+  bioguide: W000779
+  thomas: '01247'
+- name: Maria Cantwell
+  party: majority
+  rank: 5
   bioguide: C000127
   thomas: '00172'
 - name: Bill Nelson
   party: majority
-  rank: 5
+  rank: 6
   bioguide: N000032
   thomas: '00859'
-- name: Robert Menendez
-  party: majority
-  rank: 6
-  bioguide: M000639
-  thomas: '00791'
 - name: Thomas R. Carper
   party: majority
   rank: 7
   bioguide: C000174
   thomas: '00179'
-- name: Benjamin L. Cardin
+- name: Michael F. Bennet
   party: majority
   rank: 8
-  bioguide: C000141
-  thomas: '00174'
-- name: Mike Crapo
-  party: minority
-  rank: 1
-  bioguide: C000880
-  thomas: '00250'
-- name: Pat Roberts
-  party: minority
-  rank: 2
-  bioguide: R000307
-  thomas: '00968'
-- name: Michael B. Enzi
-  party: minority
-  rank: 3
-  bioguide: E000285
-  thomas: '01542'
-- name: John Cornyn
-  party: minority
-  rank: 4
-  bioguide: C001056
-  thomas: '01692'
-- name: John Thune
-  party: minority
-  rank: 5
-  bioguide: T000250
-  thomas: '01534'
-- name: Orrin G. Hatch
-  party: minority
-  rank: 6
-  title: Ex Officio
-  bioguide: H000338
-  thomas: '01351'
-SSFI12:
-- name: John D. Rockefeller, IV
-  party: majority
-  rank: 1
-  bioguide: R000361
-  thomas: '01424'
-- name: Maria Cantwell
-  party: majority
-  rank: 2
-  bioguide: C000127
-  thomas: '00172'
-- name: Bill Nelson
-  party: majority
-  rank: 3
-  bioguide: N000032
-  thomas: '00859'
-- name: Thomas R. Carper
-  party: majority
-  rank: 4
-  bioguide: C000174
-  thomas: '00179'
-- name: Max Baucus
-  party: majority
-  rank: 5
-  title: Ex Officio
-  bioguide: B000243
-  thomas: '00066'
+  bioguide: B001267
+  thomas: '01965'
 - name: John Cornyn
   party: minority
   rank: 1
@@ -14800,11 +15354,11 @@ SSFI12:
   rank: 2
   bioguide: G000386
   thomas: '00457'
-- name: Pat Roberts
+- name: Mike Crapo
   party: minority
   rank: 3
-  bioguide: R000307
-  thomas: '00968'
+  bioguide: C000880
+  thomas: '00250'
 - name: Michael B. Enzi
   party: minority
   rank: 4
@@ -14820,9 +15374,14 @@ SSFI12:
   rank: 6
   bioguide: B001135
   thomas: '00153'
-- name: Orrin G. Hatch
+- name: Johnny Isakson
   party: minority
   rank: 7
+  bioguide: I000055
+  thomas: '01608'
+- name: Orrin G. Hatch
+  party: minority
+  rank: 8
   title: Ex Officio
   bioguide: H000338
   thomas: '01351'
@@ -14848,28 +15407,38 @@ SSFI13:
   rank: 4
   bioguide: S000770
   thomas: '01531'
-- name: Bill Nelson
+- name: Maria Cantwell
   party: majority
   rank: 5
-  bioguide: N000032
-  thomas: '00859'
+  bioguide: C000127
+  thomas: '00172'
 - name: Robert Menendez
   party: majority
   rank: 6
   bioguide: M000639
   thomas: '00791'
-- name: Max Baucus
+- name: Sherrod Brown
   party: majority
   rank: 7
+  bioguide: B000944
+  thomas: '00136'
+- name: Michael F. Bennet
+  party: majority
+  rank: 8
+  bioguide: B001267
+  thomas: '01965'
+- name: Max Baucus
+  party: majority
+  rank: 9
   title: Ex Officio
   bioguide: B000243
   thomas: '00066'
-- name: John Thune
+- name: Johnny Isakson
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: T000250
-  thomas: '01534'
+  bioguide: I000055
+  thomas: '01608'
 - name: Orrin G. Hatch
   party: minority
   rank: 2
@@ -14880,34 +15449,44 @@ SSFI13:
   rank: 3
   bioguide: G000386
   thomas: '00457'
-- name: Mike Crapo
-  party: minority
-  rank: 4
-  bioguide: C000880
-  thomas: '00250'
 - name: Pat Roberts
   party: minority
-  rank: 5
+  rank: 4
   bioguide: R000307
   thomas: '00968'
+- name: John Thune
+  party: minority
+  rank: 5
+  bioguide: T000250
+  thomas: '01534'
+- name: Rob Portman
+  party: minority
+  rank: 6
+  bioguide: P000449
+  thomas: '00924'
 SSFI14:
-- name: Bill Nelson
+- name: Robert P. Casey, Jr.
   party: majority
   rank: 1
   title: Chairman
-  bioguide: N000032
-  thomas: '00859'
+  bioguide: C001070
+  thomas: '01828'
 - name: Max Baucus
   party: majority
   rank: 2
   bioguide: B000243
   thomas: '00066'
-- name: Mike Crapo
+- name: Sherrod Brown
+  party: majority
+  rank: 3
+  bioguide: B000944
+  thomas: '00136'
+- name: Rob Portman
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: C000880
-  thomas: '00250'
+  bioguide: P000449
+  thomas: '00924'
 - name: Richard Burr
   party: minority
   rank: 2
@@ -15013,44 +15592,12 @@ SSFR:
   bioguide: P000603
   thomas: '02082'
 SSFR01:
-- name: Jeanne Shaheen
+- name: Christopher Murphy
   party: majority
   rank: 1
   title: Chairman
-  bioguide: S001181
-  thomas: '01901'
-- name: Benjamin L. Cardin
-  party: majority
-  rank: 2
-  bioguide: C000141
-  thomas: '00174'
-- name: Robert P. Casey, Jr.
-  party: majority
-  rank: 3
-  bioguide: C001070
-  thomas: '01828'
-- name: John Barrasso
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001261
-  thomas: '01881'
-- name: James E. Risch
-  party: minority
-  rank: 2
-  bioguide: R000584
-  thomas: '01896'
-- name: Bob Corker
-  party: minority
-  rank: 3
-  bioguide: C001071
-  thomas: '01825'
-SSFR02:
-- name: Barbara Boxer
-  party: majority
-  rank: 1
-  bioguide: B000711
-  thomas: '00116'
+  bioguide: M001169
+  thomas: '01837'
 - name: Robert P. Casey, Jr.
   party: majority
   rank: 2
@@ -15066,54 +15613,159 @@ SSFR02:
   rank: 4
   bioguide: C001088
   thomas: '01984'
-- name: James E. Risch
+- name: Richard J. Durbin
+  party: majority
+  rank: 5
+  bioguide: D000563
+  thomas: '00326'
+- name: Robert Menendez
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
+- name: Ron Johnson
   party: minority
   rank: 1
-  bioguide: R000584
-  thomas: '01896'
-- name: John Barrasso
+  title: Ranking Member
+  bioguide: J000293
+  thomas: '02086'
+- name: James E. Risch
   party: minority
   rank: 2
-  bioguide: B001261
-  thomas: '01881'
-- name: Marco Rubio
+  bioguide: R000584
+  thomas: '01896'
+- name: Jeff Flake
   party: minority
   rank: 3
-  bioguide: R000595
-  thomas: '02084'
-SSFR06:
-- name: Robert Menendez
+  bioguide: F000444
+  thomas: '01633'
+- name: John Barrasso
+  party: minority
+  rank: 4
+  bioguide: B001261
+  thomas: '01881'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C001071
+  thomas: '01825'
+SSFR02:
+- name: Benjamin L. Cardin
   party: majority
   rank: 1
   title: Chairman
-  bioguide: M000639
-  thomas: '00791'
+  bioguide: C000141
+  thomas: '00174'
 - name: Barbara Boxer
   party: majority
   rank: 2
   bioguide: B000711
   thomas: '00116'
-- name: Jeanne Shaheen
+- name: Robert P. Casey, Jr.
   party: majority
   rank: 3
-  bioguide: S001181
-  thomas: '01901'
+  bioguide: C001070
+  thomas: '01828'
 - name: Tom Udall
   party: majority
   rank: 4
   bioguide: U000039
   thomas: '01567'
+- name: Christopher Murphy
+  party: majority
+  rank: 5
+  bioguide: M001169
+  thomas: '01837'
+- name: Robert Menendez
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
 - name: Marco Rubio
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: R000595
   thomas: '02084'
-- name: John Barrasso
+- name: Ron Johnson
   party: minority
   rank: 2
+  bioguide: J000293
+  thomas: '02086'
+- name: Jeff Flake
+  party: minority
+  rank: 3
+  bioguide: F000444
+  thomas: '01633'
+- name: John McCain
+  party: minority
+  rank: 4
+  bioguide: M000303
+  thomas: '00754'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C001071
+  thomas: '01825'
+SSFR06:
+- name: Tom Udall
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: U000039
+  thomas: '01567'
+- name: Barbara Boxer
+  party: majority
+  rank: 2
+  bioguide: B000711
+  thomas: '00116'
+- name: Christopher Murphy
+  party: majority
+  rank: 3
+  bioguide: M001169
+  thomas: '01837'
+- name: Tim Kaine
+  party: majority
+  rank: 4
+  bioguide: K000384
+  thomas: '02176'
+- name: Robert Menendez
+  party: majority
+  rank: 5
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
+- name: John McCain
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: M000303
+  thomas: '00754'
+- name: Marco Rubio
+  party: minority
+  rank: 2
+  bioguide: R000595
+  thomas: '02084'
+- name: John Barrasso
+  party: minority
+  rank: 3
   bioguide: B001261
   thomas: '01881'
+- name: Rand Paul
+  party: minority
+  rank: 4
+  bioguide: P000603
+  thomas: '02082'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C001071
+  thomas: '01825'
 SSFR07:
 - name: Robert P. Casey, Jr.
   party: majority
@@ -15126,42 +15778,54 @@ SSFR07:
   rank: 2
   bioguide: B000711
   thomas: '00116'
-- name: Robert Menendez
-  party: majority
-  rank: 3
-  bioguide: M000639
-  thomas: '00791'
 - name: Benjamin L. Cardin
   party: majority
-  rank: 4
+  rank: 3
   bioguide: C000141
   thomas: '00174'
+- name: Jeanne Shaheen
+  party: majority
+  rank: 4
+  bioguide: S001181
+  thomas: '01901'
 - name: Christopher A. Coons
   party: majority
   rank: 5
   bioguide: C001088
   thomas: '01984'
-- name: Tom Udall
+- name: Robert Menendez
   party: majority
   rank: 6
-  bioguide: U000039
-  thomas: '01567'
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
 - name: James E. Risch
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: R000584
   thomas: '01896'
-- name: Bob Corker
-  party: minority
-  rank: 2
-  bioguide: C001071
-  thomas: '01825'
 - name: Marco Rubio
   party: minority
-  rank: 3
+  rank: 2
   bioguide: R000595
   thomas: '02084'
+- name: Ron Johnson
+  party: minority
+  rank: 3
+  bioguide: J000293
+  thomas: '02086'
+- name: John McCain
+  party: minority
+  rank: 4
+  bioguide: M000303
+  thomas: '00754'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C001071
+  thomas: '01825'
 SSFR09:
 - name: Christopher A. Coons
   party: majority
@@ -15174,44 +15838,153 @@ SSFR09:
   rank: 2
   bioguide: C000141
   thomas: '00174'
-- name: Tom Udall
+- name: Jeanne Shaheen
   party: majority
   rank: 3
+  bioguide: S001181
+  thomas: '01901'
+- name: Richard J. Durbin
+  party: majority
+  rank: 4
+  bioguide: D000563
+  thomas: '00326'
+- name: Tom Udall
+  party: majority
+  rank: 5
   bioguide: U000039
   thomas: '01567'
-- name: Bob Corker
+- name: Robert Menendez
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
+- name: Jeff Flake
   party: minority
   rank: 1
+  title: Ranking Member
+  bioguide: F000444
+  thomas: '01633'
+- name: John McCain
+  party: minority
+  rank: 2
+  bioguide: M000303
+  thomas: '00754'
+- name: John Barrasso
+  party: minority
+  rank: 3
+  bioguide: B001261
+  thomas: '01881'
+- name: Rand Paul
+  party: minority
+  rank: 4
+  bioguide: P000603
+  thomas: '02082'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
   bioguide: C001071
   thomas: '01825'
 SSFR12:
-- name: Benjamin L. Cardin
+- name: Tim Kaine
   party: majority
   rank: 1
   title: Chairman
-  bioguide: C000141
-  thomas: '00174'
-- name: Robert Menendez
-  party: majority
-  rank: 2
-  bioguide: M000639
-  thomas: '00791'
+  bioguide: K000384
+  thomas: '02176'
 - name: Christopher A. Coons
   party: majority
-  rank: 3
+  rank: 2
   bioguide: C001088
   thomas: '01984'
+- name: Richard J. Durbin
+  party: majority
+  rank: 3
+  bioguide: D000563
+  thomas: '00326'
 - name: Tom Udall
   party: majority
   rank: 4
   bioguide: U000039
   thomas: '01567'
-- name: Bob Corker
+- name: Christopher Murphy
+  party: majority
+  rank: 5
+  bioguide: M001169
+  thomas: '01837'
+- name: Robert Menendez
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
+- name: John Barrasso
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: B001261
+  thomas: '01881'
+- name: James E. Risch
+  party: minority
+  rank: 2
+  bioguide: R000584
+  thomas: '01896'
+- name: Jeff Flake
+  party: minority
+  rank: 3
+  bioguide: F000444
+  thomas: '01633'
+- name: Rand Paul
+  party: minority
+  rank: 4
+  bioguide: P000603
+  thomas: '02082'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
   bioguide: C001071
   thomas: '01825'
+SSFR13:
+- name: Barbara Boxer
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: B000711
+  thomas: '00116'
+- name: Robert P. Casey, Jr.
+  party: majority
+  rank: 2
+  bioguide: C001070
+  thomas: '01828'
+- name: Jeanne Shaheen
+  party: majority
+  rank: 3
+  bioguide: S001181
+  thomas: '01901'
+- name: Richard J. Durbin
+  party: majority
+  rank: 4
+  bioguide: D000563
+  thomas: '00326'
+- name: Tim Kaine
+  party: majority
+  rank: 5
+  bioguide: K000384
+  thomas: '02176'
+- name: Robert Menendez
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: M000639
+  thomas: '00791'
+- name: Rand Paul
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: P000603
+  thomas: '02082'
 - name: Marco Rubio
   party: minority
   rank: 2
@@ -15222,33 +15995,17 @@ SSFR12:
   rank: 3
   bioguide: R000584
   thomas: '01896'
-SSFR13:
-- name: Barbara Boxer
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: B000711
-  thomas: '00116'
-- name: Robert Menendez
-  party: majority
-  rank: 2
-  bioguide: M000639
-  thomas: '00791'
-- name: Robert P. Casey, Jr.
-  party: majority
-  rank: 3
-  bioguide: C001070
-  thomas: '01828'
-- name: Jeanne Shaheen
-  party: majority
-  rank: 4
-  bioguide: S001181
-  thomas: '01901'
-- name: John Barrasso
+- name: Ron Johnson
   party: minority
-  rank: 1
-  bioguide: B001261
-  thomas: '01881'
+  rank: 4
+  bioguide: J000293
+  thomas: '02086'
+- name: Bob Corker
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C001071
+  thomas: '01825'
 SSGA:
 - name: Thomas R. Carper
   party: majority
@@ -15339,11 +16096,11 @@ SSGA01:
   title: Chairman
   bioguide: L000261
   thomas: '01384'
-- name: Thomas R. Carper
+- name: Mark L. Pryor
   party: majority
   rank: 2
-  bioguide: C000174
-  thomas: '00179'
+  bioguide: P000590
+  thomas: '01701'
 - name: Mary L. Landrieu
   party: majority
   rank: 3
@@ -15359,77 +16116,61 @@ SSGA01:
   rank: 5
   bioguide: T000464
   thomas: '01829'
-- name: Mark Begich
+- name: Tammy Baldwin
   party: majority
   rank: 6
-  bioguide: B001265
-  thomas: '01898'
-- name: Tom Coburn
+  bioguide: B001230
+  thomas: '01558'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 7
+  bioguide: H001069
+  thomas: '02174'
+- name: Thomas R. Carper
+  party: majority
+  rank: 8
+  title: Ex Officio
+  bioguide: C000174
+  thomas: '00179'
+- name: John McCain
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: C000560
-  thomas: '00212'
-- name: Susan M. Collins
-  party: minority
-  rank: 2
-  bioguide: C001035
-  thomas: '01541'
-- name: John McCain
-  party: minority
-  rank: 3
   bioguide: M000303
   thomas: '00754'
+- name: Ron Johnson
+  party: minority
+  rank: 2
+  bioguide: J000293
+  thomas: '02086'
+- name: Rob Portman
+  party: minority
+  rank: 3
+  bioguide: P000449
+  thomas: '00924'
 - name: Rand Paul
   party: minority
   rank: 4
   bioguide: P000603
   thomas: '02082'
-SSGA03:
-- name: Carl Levin
-  party: majority
-  rank: 1
-  bioguide: L000261
-  thomas: '01384'
-- name: Mary L. Landrieu
-  party: majority
-  rank: 2
-  bioguide: L000550
-  thomas: '01546'
-- name: Mark Begich
-  party: majority
-  rank: 3
-  bioguide: B001265
-  thomas: '01898'
-- name: Ron Johnson
+- name: Kelly Ayotte
   party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: J000293
-  thomas: '02086'
+  rank: 5
+  bioguide: A000368
+  thomas: '02075'
 - name: Tom Coburn
   party: minority
-  rank: 2
+  rank: 6
+  title: Ex Officio
   bioguide: C000560
   thomas: '00212'
-- name: Jerry Moran
-  party: minority
-  rank: 3
-  bioguide: M000934
-  thomas: '01507'
-- name: Susan M. Collins
-  party: minority
-  rank: 4
-  title: Ex Officio
-  bioguide: C001035
-  thomas: '01541'
-SSGA09:
-- name: Thomas R. Carper
+SSGA15:
+- name: Claire McCaskill
   party: majority
   rank: 1
   title: Chairman
-  bioguide: C000174
-  thomas: '00179'
+  bioguide: M001170
+  thomas: '01820'
 - name: Carl Levin
   party: majority
   rank: 2
@@ -15440,124 +16181,184 @@ SSGA09:
   rank: 3
   bioguide: P000590
   thomas: '01701'
-- name: Claire McCaskill
+- name: Mary L. Landrieu
   party: majority
   rank: 4
-  bioguide: M001170
-  thomas: '01820'
+  bioguide: L000550
+  thomas: '01546'
 - name: Mark Begich
   party: majority
   rank: 5
   bioguide: B001265
   thomas: '01898'
-- name: Tom Coburn
+- name: Tammy Baldwin
+  party: majority
+  rank: 6
+  bioguide: B001230
+  thomas: '01558'
+- name: Thomas R. Carper
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: C000174
+  thomas: '00179'
+- name: Ron Johnson
   party: minority
   rank: 1
-  bioguide: C000560
-  thomas: '00212'
+  title: Ranking Member
+  bioguide: J000293
+  thomas: '02086'
 - name: John McCain
   party: minority
   rank: 2
   bioguide: M000303
   thomas: '00754'
-- name: Ron Johnson
+- name: Michael B. Enzi
   party: minority
   rank: 3
-  bioguide: J000293
-  thomas: '02086'
-- name: Rob Portman
+  bioguide: E000285
+  thomas: '01542'
+- name: Kelly Ayotte
   party: minority
   rank: 4
-  bioguide: P000449
-  thomas: '00924'
-- name: Susan M. Collins
+  bioguide: A000368
+  thomas: '02075'
+- name: Tom Coburn
   party: minority
   rank: 5
   title: Ex Officio
-  bioguide: C001035
-  thomas: '01541'
-SSGA13:
-- name: Claire McCaskill
+  bioguide: C000560
+  thomas: '00212'
+SSGA16:
+- name: Jon Tester
   party: majority
   rank: 1
   title: Chairman
-  bioguide: M001170
-  thomas: '01820'
-- name: Thomas R. Carper
-  party: majority
-  rank: 2
-  bioguide: C000174
-  thomas: '00179'
-- name: Mark L. Pryor
-  party: majority
-  rank: 3
-  bioguide: P000590
-  thomas: '01701'
-- name: Jon Tester
-  party: majority
-  rank: 4
   bioguide: T000464
   thomas: '01829'
+- name: Mark L. Pryor
+  party: majority
+  rank: 2
+  bioguide: P000590
+  thomas: '01701'
+- name: Claire McCaskill
+  party: majority
+  rank: 3
+  bioguide: M001170
+  thomas: '01820'
 - name: Mark Begich
   party: majority
-  rank: 5
+  rank: 4
   bioguide: B001265
   thomas: '01898'
+- name: Tammy Baldwin
+  party: majority
+  rank: 5
+  bioguide: B001230
+  thomas: '01558'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 6
+  bioguide: H001069
+  thomas: '02174'
+- name: Thomas R. Carper
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: C000174
+  thomas: '00179'
 - name: Rob Portman
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: P000449
   thomas: '00924'
-- name: Susan M. Collins
+- name: Ron Johnson
   party: minority
   rank: 2
-  bioguide: C001035
-  thomas: '01541'
-- name: John McCain
+  bioguide: J000293
+  thomas: '02086'
+- name: Rand Paul
   party: minority
   rank: 3
-  bioguide: M000303
-  thomas: '00754'
-- name: Jerry Moran
+  bioguide: P000603
+  thomas: '02082'
+- name: Michael B. Enzi
   party: minority
   rank: 4
-  bioguide: M000934
-  thomas: '01507'
-SSGA14:
-- name: Mark L. Pryor
+  bioguide: E000285
+  thomas: '01542'
+- name: Tom Coburn
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C000560
+  thomas: '00212'
+SSGA17:
+- name: Mark Begich
   party: majority
   rank: 1
   title: Chairman
+  bioguide: B001265
+  thomas: '01898'
+- name: Carl Levin
+  party: majority
+  rank: 2
+  bioguide: L000261
+  thomas: '01384'
+- name: Mark L. Pryor
+  party: majority
+  rank: 3
   bioguide: P000590
   thomas: '01701'
 - name: Mary L. Landrieu
   party: majority
-  rank: 2
+  rank: 4
   bioguide: L000550
   thomas: '01546'
 - name: Jon Tester
   party: majority
-  rank: 3
+  rank: 5
   bioguide: T000464
   thomas: '01829'
+- name: Heidi Heitkamp
+  party: majority
+  rank: 6
+  bioguide: H001069
+  thomas: '02174'
+- name: Thomas R. Carper
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: C000174
+  thomas: '00179'
 - name: Rand Paul
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: P000603
   thomas: '02082'
-- name: Ron Johnson
+- name: John McCain
   party: minority
   rank: 2
-  bioguide: J000293
-  thomas: '02086'
-- name: Susan M. Collins
+  bioguide: M000303
+  thomas: '00754'
+- name: Rob Portman
   party: minority
   rank: 3
+  bioguide: P000449
+  thomas: '00924'
+- name: Michael B. Enzi
+  party: minority
+  rank: 4
+  bioguide: E000285
+  thomas: '01542'
+- name: Tom Coburn
+  party: minority
+  rank: 5
   title: Ex Officio
-  bioguide: C001035
-  thomas: '01541'
+  bioguide: C000560
+  thomas: '00212'
 SSHR:
 - name: Tom Harkin
   party: majority
@@ -15727,7 +16528,7 @@ SSHR09:
 - name: Michael B. Enzi
   party: minority
   rank: 1
-  title: Chairman
+  title: Ranking Member
   bioguide: E000285
   thomas: '01542'
 - name: Mark Kirk
@@ -15828,6 +16629,7 @@ SSHR11:
 - name: Lamar Alexander
   party: minority
   rank: 5
+  title: Ex Officio
   bioguide: A000360
   thomas: '01695'
 - name: Michael B. Enzi
