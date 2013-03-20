@@ -760,8 +760,6 @@
     thomas_id: '10'
   - name: Superfund, Toxics and Environmental Health
     thomas_id: '09'
-  - thomas_id: '17'
-    name: Children's Health and Environmental Responsibility
   - thomas_id: '16'
     name: Green Jobs and the New Economy
   - thomas_id: '18'
@@ -816,16 +814,6 @@
   thomas_id: SSGA
   senate_committee_id: SSGA
   subcommittees:
-  - name: Ad Hoc Subcommittee on Disaster Recovery and Intergovernmental Affairs
-    thomas_id: '14'
-  - name: Oversight of Government Management, the Federal Workforce, and the District
-      of Columbia
-    thomas_id: '03'
-  - name: Federal Financial Management, Government Information, Federal Services,
-      and International Security
-    thomas_id: '09'
-  - thomas_id: '13'
-    name: Ad Hoc Subcommittee on Contracting Oversight
   - thomas_id: '01'
     name: Permanent Subcommittee on Investigations
   - thomas_id: '17'
@@ -860,8 +848,6 @@
     thomas_id: '23'
   - name: Antitrust, Competition Policy and Consumer Rights
     thomas_id: '01'
-  - name: Administrative Oversight and the Courts
-    thomas_id: '02'
   - name: Immigration, Refugees and Border Security
     thomas_id: '04'
   - thomas_id: '24'
