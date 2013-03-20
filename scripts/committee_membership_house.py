@@ -61,14 +61,14 @@ for committee in committees:
 
   committee_party = committee['chair_party']
 
-  committee_body = download(committee_url, "committees/membership/house/%s.json" % committee_id)
+  committee_body = download(committee_url, "committees/membership/house/%s.json" % committee_id, force)
   members = json.loads(committee_body)['results'][0]['current_members']
 
   committee_membership[committee_id] = []
   for member in members:
     bioguide_id = member['id']
 
-    # print "[%s] %s" % (committee_id, bioguide_id)
+    print "[%s] %s" % (committee_id, bioguide_id)
     
     if bioguide_id not in by_bioguide:
       continue

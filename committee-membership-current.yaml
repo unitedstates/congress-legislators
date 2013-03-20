@@ -164,11 +164,6 @@ HSAG:
   party: majority
   rank: 6
   thomas: '01805'
-- bioguide: O000169
-  name: William L. Owens
-  party: minority
-  rank: 7
-  thomas: '01974'
 - bioguide: F000455
   name: Marcia L. Fudge
   party: minority
@@ -214,11 +209,6 @@ HSAG:
   party: minority
   rank: 11
   thomas: '02167'
-- bioguide: S001186
-  name: Steve Southerland II
-  party: majority
-  rank: 11
-  thomas: '02000'
 - bioguide: L000580
   name: Michelle Lujan Grisham
   party: minority
@@ -422,195 +412,185 @@ HSAP:
   party: minority
   rank: 8
   thomas: '00930'
+- bioguide: G000377
+  name: Kay Granger
+  party: majority
+  rank: 8
+  thomas: '01487'
 - bioguide: R000486
   name: Lucille Roybal-Allard
   party: minority
   rank: 9
   thomas: '00997'
-- bioguide: G000377
-  name: Kay Granger
+- bioguide: S001148
+  name: Michael K. Simpson
   party: majority
   rank: 9
-  thomas: '01487'
+  thomas: '01590'
 - bioguide: F000030
   name: Sam Farr
   party: minority
   rank: 10
   thomas: '00368'
-- bioguide: S001148
-  name: Michael K. Simpson
+- bioguide: C001048
+  name: John Abney Culberson
   party: majority
   rank: 10
-  thomas: '01590'
+  thomas: '01670'
 - bioguide: F000043
   name: Chaka Fattah
   party: minority
   rank: 11
   thomas: '00371'
-- bioguide: C001048
-  name: John Abney Culberson
+- bioguide: C001045
+  name: Ander Crenshaw
   party: majority
   rank: 11
-  thomas: '01670'
+  thomas: '01643'
 - bioguide: B000490
   name: Sanford D. Bishop Jr.
   party: minority
   rank: 12
   thomas: '00091'
-- bioguide: C001045
-  name: Ander Crenshaw
+- bioguide: C001051
+  name: John R. Carter
   party: majority
   rank: 12
-  thomas: '01643'
+  thomas: '01752'
 - bioguide: L000551
   name: Barbara Lee
   party: minority
   rank: 13
   thomas: '01501'
-- bioguide: C001051
-  name: John R. Carter
+- bioguide: A000361
+  name: Rodney Alexander
   party: majority
   rank: 13
-  thomas: '01752'
+  thomas: '01727'
 - bioguide: S001150
   name: Adam B. Schiff
   party: minority
   rank: 14
   thomas: '01635'
-- bioguide: A000361
-  name: Rodney Alexander
+- bioguide: C000059
+  name: Ken Calvert
   party: majority
   rank: 14
-  thomas: '01727'
+  thomas: '00165'
 - bioguide: H001034
   name: Michael M. Honda
   party: minority
   rank: 15
   thomas: '01634'
-- bioguide: C000059
-  name: Ken Calvert
+- bioguide: B001244
+  name: Jo Bonner
   party: majority
   rank: 15
-  thomas: '00165'
+  thomas: '01703'
 - bioguide: M001143
   name: Betty McCollum
   party: minority
   rank: 16
   thomas: '01653'
-- bioguide: B001244
-  name: Jo Bonner
+- bioguide: C001053
+  name: Tom Cole
   party: majority
   rank: 16
-  thomas: '01703'
-- bioguide: I000057
-  name: Steve Israel
-  party: minority
-  rank: 17
-  thomas: '01663'
+  thomas: '01742'
 - bioguide: R000577
   name: Tim Ryan
   party: minority
   rank: 17
   thomas: '01756'
-- bioguide: C001053
-  name: Tom Cole
-  party: majority
-  rank: 17
-  thomas: '01742'
 - bioguide: D000600
   name: Mario Diaz-Balart
   party: majority
-  rank: 18
+  rank: 17
   thomas: '01717'
-- bioguide: R000576
-  name: C. A. Dutch Ruppersberger
-  party: minority
-  rank: 19
-  thomas: '01728'
+- bioguide: D000604
+  name: Charles W. Dent
+  party: majority
+  rank: 18
+  thomas: '01799'
 - bioguide: W000797
   name: Debbie Wasserman Schultz
   party: minority
   rank: 19
   thomas: '01777'
-- bioguide: D000604
-  name: Charles W. Dent
+- bioguide: G000560
+  name: Tom Graves
   party: majority
   rank: 19
-  thomas: '01799'
+  thomas: '01979'
 - bioguide: C001063
   name: Henry Cuellar
   party: minority
   rank: 20
   thomas: '01807'
-- bioguide: G000560
-  name: Tom Graves
+- bioguide: Y000063
+  name: Kevin Yoder
   party: majority
   rank: 20
-  thomas: '01979'
+  thomas: '02021'
 - bioguide: P000597
   name: Chellie Pingree
   party: minority
   rank: 21
   thomas: '01927'
-- bioguide: Y000063
-  name: Kevin Yoder
+- bioguide: W000809
+  name: Steve Womack
   party: majority
   rank: 21
-  thomas: '02021'
+  thomas: '01991'
 - bioguide: Q000023
   name: Mike Quigley
   party: minority
   rank: 22
   thomas: '01967'
-- bioguide: W000809
-  name: Steve Womack
+- bioguide: N000186
+  name: Alan Nunnelee
   party: majority
   rank: 22
-  thomas: '01991'
+  thomas: '02034'
 - bioguide: O000169
   name: William L. Owens
   party: minority
   rank: 23
   thomas: '01974'
-- bioguide: N000186
-  name: Alan Nunnelee
-  party: majority
-  rank: 23
-  thomas: '02034'
 - bioguide: F000449
   name: Jeff Fortenberry
   party: majority
-  rank: 24
+  rank: 23
   thomas: '01793'
 - bioguide: R000583
   name: Thomas J. Rooney
   party: majority
-  rank: 25
+  rank: 24
   thomas: '01916'
 - bioguide: F000459
   name: Charles J. "Chuck" Fleischmann
   party: majority
-  rank: 26
+  rank: 25
   thomas: '02061'
 - bioguide: H001056
   name: Jaime Herrera Beutler
   party: majority
-  rank: 27
+  rank: 26
   thomas: '02071'
 - bioguide: J000295
   name: David P. Joyce
   party: majority
-  rank: 28
+  rank: 27
   thomas: '02154'
 - bioguide: V000129
   name: David G. Valadao
   party: majority
-  rank: 29
+  rank: 28
   thomas: '02105'
 - bioguide: H001052
   name: Andy Harris
   party: majority
-  rank: 30
+  rank: 29
   thomas: '02026'
 HSAS:
 - bioguide: M000508
@@ -953,11 +933,6 @@ HSBA:
   party: majority
   rank: 2
   thomas: '00038'
-- bioguide: G000535
-  name: Luis V. Gutierrez
-  party: minority
-  rank: 3
-  thomas: '00478'
 - bioguide: V000081
   name: Nydia M. Velázquez
   party: minority
@@ -1143,11 +1118,6 @@ HSBA:
   party: minority
   rank: 21
   thomas: '01988'
-- bioguide: R000586
-  name: James B. Renacci
-  party: majority
-  rank: 21
-  thomas: '02048'
 - bioguide: F000454
   name: Bill Foster
   party: minority
@@ -1301,11 +1271,6 @@ HSBU:
   party: majority
   rank: 6
   thomas: '01778'
-- bioguide: W000797
-  name: Debbie Wasserman Schultz
-  party: minority
-  rank: 6
-  thomas: '01777'
 - bioguide: M001160
   name: Gwen Moore
   party: minority
@@ -1361,11 +1326,6 @@ HSBU:
   party: minority
   rank: 11
   thomas: '02149'
-- bioguide: H001064
-  name: Denny Heck
-  party: minority
-  rank: 11
-  thomas: '02170'
 - bioguide: R000592
   name: Todd Rokita
   party: majority
@@ -1391,11 +1351,6 @@ HSBU:
   party: majority
   rank: 14
   thomas: '01748'
-- bioguide: R000586
-  name: James B. Renacci
-  party: majority
-  rank: 14
-  thomas: '02048'
 - bioguide: H001068
   name: Jared Huffman
   party: minority
@@ -2226,11 +2181,6 @@ HSHM:
   party: majority
   rank: 7
   thomas: '02052'
-- bioguide: H001063
-  name: Janice Hahn
-  party: minority
-  rank: 8
-  thomas: '02089'
 - bioguide: B001279
   name: Ron Barber
   party: minority
@@ -3700,11 +3650,6 @@ HSSY:
   party: minority
   rank: 11
   thomas: '02113'
-- bioguide: H001052
-  name: Andy Harris
-  party: majority
-  rank: 11
-  thomas: '02026'
 - bioguide: K000381
   name: Derek Kilmer
   party: minority
