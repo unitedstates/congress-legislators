@@ -49,12 +49,18 @@ committees = json.loads(body)['results'][0]['committees']
 
 for committee in committees:
   committee_id = committee['id']
+
+  committee_url = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/%i/house/committees/%s.json?api-key=%s" % (congress, committee_id, api_key)
+  
+  # current disagreement between THOMAS and NYT (but use HSIG in URL above)
+  if committee_id == "HSIG":
+    committee_id = "HLIG"
+
   if committee_id not in all_ids:
     continue
 
   committee_party = committee['chair_party']
 
-  committee_url = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/%i/house/committees/%s.json?api-key=%s" % (congress, committee_id, api_key)
   committee_body = download(committee_url, "committees/membership/house/%s.json" % committee_id)
   members = json.loads(committee_body)['results'][0]['current_members']
 
