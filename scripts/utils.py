@@ -58,11 +58,15 @@ scraper = scrapelib.Scraper(requests_per_minute=60, follow_robots=False, retry_a
 def cache_dir():
   return "cache"
 
-def download(url, destination, force=False, options=None):
+def download(url, destination=None, force=False, options=None):
+  if not destination and not force:
+    raise TypeError("destination must not be None if force is False.")
+  
   if not options:
     options = {}
 
-  cache = os.path.join(cache_dir(), destination)
+  # get the path to cache the file, or None if destination is None
+  cache = os.path.join(cache_dir(), destination) if destination else None
 
   if not force and os.path.exists(cache):
     if options.get('debug', False):
@@ -85,7 +89,7 @@ def download(url, destination, force=False, options=None):
       return None
 
     # cache content to disk
-    write(body, cache)
+    if cache: write(body, cache)
 
   return body
 
