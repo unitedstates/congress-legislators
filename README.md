@@ -99,6 +99,7 @@ legislators-current.yaml and legislators-historical.yaml
 	* opensecrets: The alphanumeric ID for this legislator on OpenSecrets.org.
 	* votesmart: The numeric ID for this legislator on VoteSmart.org.
 	* icpsr: The numeric ID for this legislator in Interuniversity Consortium for Political and Social Research databases.
+	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745.
 
 * name
 	* first: The legislator's first name. Sometimes a first initial and period (e.g. in W. Todd Akin), in which case it is suggested to not use the first name for display purposes.
