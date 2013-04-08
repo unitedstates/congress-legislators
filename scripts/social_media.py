@@ -107,7 +107,7 @@ def main():
       candidate = candidate_for(bioguide)
       if candidate:
         url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-        candidate_url = "http://%s.com/%s" % (service, candidate)
+        candidate_url = "https://%s.com/%s" % (service, candidate)
         writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url])
         print "\tWrote: %s" % candidate
 
