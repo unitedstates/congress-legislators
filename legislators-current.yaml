@@ -87,6 +87,7 @@
     contact_form: http://www.brown.senate.gov/contact/
     office: 713 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.brown.senate.gov/rss/feeds/?type=all&amp;
 - id:
     bioguide: C000127
     thomas: '00172'
@@ -145,6 +146,7 @@
     contact_form: http://www.cantwell.senate.gov/public/index.cfm/email-maria
     office: 311 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.cantwell.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: C000141
     thomas: '00174'
@@ -254,6 +256,7 @@
     contact_form: http://www.cardin.senate.gov/contact/
     office: 509 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.cardin.senate.gov/rss/feeds/?type=all
 - id:
     bioguide: C000174
     thomas: '00179'
@@ -338,6 +341,7 @@
     contact_form: http://carper.senate.gov/public/index.cfm/email-senator-carper
     office: 513 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.carper.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: C001070
     thomas: '01828'
@@ -385,6 +389,7 @@
     contact_form: http://www.casey.senate.gov/contact/
     office: 393 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.casey.senate.gov/rss/feeds/?all
 - id:
     bioguide: C001071
     thomas: '01825'
@@ -429,6 +434,7 @@
     contact_form: http://www.corker.senate.gov/public/index.cfm?p=ContactMe
     office: 425 Dirksen Senate Office Building
     state_rank: junior
+    rss_url: http://www.corker.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: F000062
     thomas: '01332'
@@ -493,6 +499,7 @@
     contact_form: http://www.feinstein.senate.gov/public/index.cfm/e-mail-me
     office: 331 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.feinstein.senate.gov/public/?a=rss.feed
 - id:
     bioguide: H000338
     thomas: '01351'
@@ -571,6 +578,7 @@
     contact_form: http://www.hatch.senate.gov/public/index.cfm/contact?p=Email-Orrin
     office: 104 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.hatch.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: K000367
     thomas: '01826'
@@ -660,6 +668,7 @@
     contact_form: http://www.mccaskill.senate.gov/?p=contact
     office: 506 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://mccaskill.senate.gov/rss/?p=news
 - id:
     bioguide: M000639
     thomas: '00791'
@@ -758,6 +767,7 @@
     contact_form: http://menendez.senate.gov/contact/
     office: 528 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.menendez.senate.gov/rss/feeds/index.cfm?type=news
 - id:
     bioguide: N000032
     thomas: '00859'
@@ -943,6 +953,7 @@
     contact_form: http://www.sanders.senate.gov/contact/
     office: 332 Dirksen Senate Office Building
     state_rank: junior
+    rss_url: http://www.sanders.senate.gov/rss/newsroom.xml
 - id:
     bioguide: S000770
     thomas: '01531'
@@ -1008,6 +1019,7 @@
     contact_form: http://www.stabenow.senate.gov/?p=contact
     office: 133 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://stabenow.senate.gov/rss/?p=news
 - id:
     bioguide: T000464
     thomas: '01829'
@@ -1052,6 +1064,7 @@
     contact_form: http://www.tester.senate.gov/Contact/index.cfm
     office: 706 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.tester.senate.gov/rss/?p=hot_topic
 - id:
     bioguide: W000802
     thomas: '01823'
@@ -1096,6 +1109,7 @@
     contact_form: http://www.whitehouse.senate.gov/contact/
     office: 530 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.whitehouse.senate.gov/rss/feeds/?type=all&amp;cachebuster=1
 - id:
     bioguide: B001261
     thomas: '01881'
@@ -1141,6 +1155,7 @@
     contact_form: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=ContactUs.ContactForm
     office: 307 Dirksen Senate Office Building
     state_rank: junior
+    rss_url: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=Rss.Feed
 - id:
     bioguide: W000437
     thomas: '01226'
@@ -1271,6 +1286,7 @@
     contact_form: http://www.alexander.senate.gov/public/index.cfm?p=Email
     office: 455 Dirksen Senate Office Building
     state_rank: senior
+    rss_url: http://www.alexander.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: B000243
     thomas: '00066'
@@ -1355,6 +1371,7 @@
     contact_form: http://www.baucus.senate.gov/contact/emailForm.cfm?subj=issue
     office: 511 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.baucus.senate.gov/rss/?p=pressreleases
 - id:
     bioguide: B001265
     thomas: '01898'
@@ -1387,6 +1404,7 @@
     contact_form: http://www.begich.senate.gov/public/index.cfm?p=EmailSenator
     office: 111 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.begich.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: C000286
     thomas: '00188'
@@ -3004,6 +3022,7 @@
     contact_form: http://www.gillibrand.senate.gov/contact/
     office: 478 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.gillibrand.senate.gov/rss/feeds/index.cfm
 - id:
     bioguide: F000457
     thomas: '01969'
@@ -3112,6 +3131,7 @@
     contact_form: http://www.manchin.senate.gov/public/index.cfm/contact-form
     office: 303 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.manchin.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: A000055
     thomas: '01460'
@@ -3202,6 +3222,7 @@
     fax: 202-225-5587
     contact_form: http://aderholt.house.gov/?sectionid=195&sectiontree=195
     office: 2369 Rayburn House Office Building
+    rss_url: http://aderholt.house.gov/common/rss//index.cfm?rss=20
 - id:
     bioguide: A000361
     thomas: '01727'
@@ -3273,6 +3294,7 @@
     fax: 202-225-5639
     contact_form: http://www.house.gov/alexander/content/webform/zipauth.htm
     office: 316 Cannon House Office Building
+    rss_url: http://alexander.house.gov/common/rss/?rss=24
 - id:
     bioguide: A000367
     thomas: '02029'
@@ -3313,6 +3335,7 @@
     phone: 202-225-3831
     fax: 202-225-5144
     office: 114 Cannon House Office Building
+    rss_url: http://amash.house.gov/rss.xml
 - id:
     bioguide: A000210
     thomas: '00021'
@@ -3426,6 +3449,7 @@
     phone: 202-225-6501
     contact_form: http://www.house.gov/andrews/contact_form_za.shtml
     office: 2265 Rayburn House Office Building
+    rss_url: http://andrews.house.gov/rss.xml
 - id:
     bioguide: A000368
     thomas: '02075'
@@ -3513,6 +3537,7 @@
     fax: 202-225-6475
     contact_form: http://bachmann.house.gov/Email_zip.htm
     office: 2417 Rayburn House Office Building
+    rss_url: http://bachmann.house.gov/rss.xml
 - id:
     bioguide: B000013
     thomas: '00038'
@@ -3616,6 +3641,7 @@
     fax: 202-225-2082
     contact_form: http://www.house.gov/writerep/
     office: 2246 Rayburn House Office Building
+    rss_url: http://bachus.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: B001230
     thomas: '01558'
@@ -3739,6 +3765,7 @@
     phone: 202-225-6511
     fax: 202-225-0764
     office: 115 Cannon House Office Building
+    rss_url: http://barletta.house.gov/common/rss//index.cfm?rss=25
 - id:
     bioguide: B001252
     thomas: '01780'
@@ -3801,6 +3828,7 @@
     fax: 202-225-3377
     contact_form: https://forms.house.gov/barrow/webforms/issue_subscribe.htm
     office: 2202 Rayburn House Office Building
+    rss_url: http://barrow.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: B000213
     thomas: '00062'
@@ -3928,6 +3956,7 @@
     fax: 202-225-3052
     contact_form: http://joebarton.house.gov/ContactJoe.aspx?Type=Email
     office: 2107 Rayburn House Office Building
+    rss_url: http://joebarton.house.gov/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=27&amp;format=feed&amp;type=rss
 - id:
     bioguide: B001270
     thomas: '01996'
@@ -3968,6 +3997,7 @@
     phone: 202-225-7084
     fax: 202- 225-2422
     office: 408 Cannon House Office Building
+    rss_url: http://bass.house.gov/rss-press-releases.xml
 - id:
     bioguide: B000287
     thomas: '00070'
@@ -4069,6 +4099,7 @@
     fax: 202-225-2202
     contact_form: http://becerra.house.gov/HoR/CA31/Hidden+Content/Email+Signup+Form.htm
     office: 1226 Longworth House Office Building
+    rss_url: http://becerra.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=2
 - id:
     bioguide: B001271
     thomas: '02027'
@@ -4109,6 +4140,7 @@
     phone: 202-225-4735
     fax: 202- 225-4744
     office: 514 Cannon House Office Building
+    rss_url: http://benishek.house.gov/rss.xml
 - id:
     bioguide: B001267
     thomas: '01965'
@@ -4149,6 +4181,7 @@
     contact_form: http://www.bennet.senate.gov/contact/
     office: 458 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
 - id:
     bioguide: B001257
     thomas: '01838'
@@ -4206,6 +4239,7 @@
     fax: 202-225-4085
     contact_form: http://bilirakis.house.gov/index.php?option=com_content&task=view&id=212&Itemid=44
     office: 2313 Rayburn House Office Building
+    rss_url: http://bilirakis.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: B001250
     thomas: '01753'
@@ -4277,6 +4311,7 @@
     fax: 202-225-5857
     contact_form: http://robbishop.house.gov/ZipAuth.aspx
     office: 123 Cannon House Office Building
+    rss_url: http://robbishop.house.gov/news/rss.aspx
 - id:
     bioguide: B000490
     thomas: '00091'
@@ -4380,6 +4415,7 @@
     fax: 202-225-2203
     contact_form: http://bishop.house.gov/display.cfm?section_id=13
     office: 2429 Rayburn House Office Building
+    rss_url: http://bishop.house.gov/rss.xml
 - id:
     bioguide: B001242
     thomas: '01740'
@@ -4452,6 +4488,7 @@
     fax: 202-225-3143
     contact_form: http://timbishop.house.gov/?sectionid=96&sectiontree=7,96
     office: 306 Cannon House Office Building
+    rss_url: http://timbishop.house.gov/rss/latest-news.xml
 - id:
     bioguide: B001273
     thomas: '02063'
@@ -4492,6 +4529,7 @@
     phone: 202-225-4231
     fax: 202- 225-6887
     office: 1531 Longworth House Office Building
+    rss_url: http://black.house.gov/rss.xml
 - id:
     bioguide: B001243
     thomas: '01748'
@@ -4564,6 +4602,7 @@
     fax: 202-225-3004
     contact_form: http://blackburn.house.gov/contactform/
     office: 217 Cannon House Office Building
+    rss_url: http://blackburn.house.gov/news/rss.aspx
 - id:
     bioguide: B000574
     thomas: '00099'
@@ -4658,6 +4697,7 @@
     fax: 202-225-8941
     contact_form: http://blumenauer.house.gov/index.php?option=com_email_form&Itemid=206
     office: 1111 Longworth House Office Building
+    rss_url: http://blumenauer.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: B001277
     thomas: '02076'
@@ -4875,6 +4915,7 @@
     fax: 202-225-0704
     contact_form: http://www.johnboehner.house.gov/Contact/
     office: 1011 Longworth House Office Building
+    rss_url: http://boehner.house.gov/News/Rss.aspx
 - id:
     bioguide: B001244
     thomas: '01703'
@@ -4946,6 +4987,7 @@
     fax: 202-225-0562
     contact_form: https://forms.house.gov/bonner/webforms/issue_subscribe.html
     office: 2236 Rayburn House Office Building
+    rss_url: http://bonner.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: B001236
     thomas: '01687'
@@ -5083,6 +5125,7 @@
     fax: 202-226-0341
     contact_form: http://www.house.gov/bordallo/IMA/issue.htm
     office: 2441 Rayburn House Office Building
+    rss_url: http://bordallo.house.gov/rss.xml
 - id:
     bioguide: B001255
     thomas: '01787'
@@ -5147,6 +5190,7 @@
     fax: 202-225-5724
     contact_form: http://boustany.house.gov/ContactCharles.asp
     office: 1431 Longworth House Office Building
+    rss_url: http://boustany.house.gov/common/rss/index.cfm?rss=82
 - id:
     bioguide: B000711
     thomas: '00116'
@@ -5320,6 +5364,7 @@
     fax: 202-225-5524
     contact_form: http://www.house.gov/brady/contact_page.html
     office: 301 Cannon House Office Building
+    rss_url: http://kevinbrady.house.gov/common/rss/index.cfm?rss=49
 - id:
     bioguide: B001227
     thomas: '01469'
@@ -5409,6 +5454,7 @@
     fax: 202-225-0088
     contact_form: http://www.house.gov/formrobertbrady/issue.htm
     office: 102 Cannon House Office Building
+    rss_url: http://brady.house.gov/rss.xml
 - id:
     bioguide: B001259
     thomas: '01845'
@@ -5466,6 +5512,7 @@
     fax: 202-225-6666
     contact_form: https://forms.house.gov/braley/webforms/issue_subscribe.html
     office: 2263 Rayburn House Office Building
+    rss_url: http://braley.house.gov/rss.xml
 - id:
     bioguide: B001274
     thomas: '01987'
@@ -5506,6 +5553,7 @@
     phone: 202-225-4801
     fax: 202-225-4392
     office: 1230 Longworth House Office Building
+    rss_url: http://brooks.house.gov/rss/press-releases.xml
 - id:
     bioguide: B001262
     thomas: '01882'
@@ -5565,6 +5613,7 @@
     fax: 202-226-0776
     contact_form: http://broun.house.gov/email.shtml
     office: 2437 Rayburn House Office Building
+    rss_url: http://broun.house.gov/news/rss.aspx
 - id:
     bioguide: B000911
     thomas: '00132'
@@ -5666,6 +5715,7 @@
     fax: 202-225-2256
     contact_form: http://www.house.gov/corrinebrown/IMA/issue.shtml
     office: 2111 Rayburn House Office Building
+    rss_url: http://corrinebrown.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: B001260
     thomas: '01840'
@@ -5762,6 +5812,7 @@
     phone: 202-225-4636
     fax: 202-225-3284
     office: 1005 Longworth House Office Building
+    rss_url: http://bucshon.house.gov/rss.xml
 - id:
     bioguide: B001248
     thomas: '01751'
@@ -5834,6 +5885,7 @@
     fax: 202-225-2919
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2336 Rayburn House Office Building
+    rss_url: http://burgess.house.gov/news/rss.aspx
 - id:
     bioguide: B001135
     thomas: '00153'
@@ -5978,6 +6030,7 @@
     fax: 202-225-3354
     contact_form: http://butterfield.house.gov/contactinfo.asp
     office: 2305 Rayburn House Office Building
+    rss_url: http://butterfield.house.gov/rss/press-releases.xml
 - id:
     bioguide: C000059
     thomas: '00165'
@@ -6080,6 +6133,7 @@
     fax: 202-225-2004
     contact_form: http://calvert.house.gov/awenhnjafe.asp
     office: 2269 Rayburn House Office Building
+    rss_url: http://calvert.house.gov/news/rss.aspx
 - id:
     bioguide: C000071
     thomas: '00166'
@@ -6188,6 +6242,7 @@
     fax: 202-225-9679
     contact_form: http://camp.house.gov/WriteRep.aspx
     office: 341 Cannon House Office Building
+    rss_url: http://camp.house.gov/News/Rss.aspx
 - id:
     bioguide: C001064
     thomas: '01816'
@@ -6253,6 +6308,7 @@
     fax: 202-225-9177
     contact_form: http://campbell.house.gov/Contact/ContactForm.htm
     office: 2331 Rayburn House Office Building
+    rss_url: http://www.campbell.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: C001046
     thomas: '01674'
@@ -6331,6 +6387,7 @@
     fax: 202-225-0011
     contact_form: https://writerep.house.gov/writerep/welcome.shtml
     office: 303 Cannon House Office Building
+    rss_url: http://cantor.house.gov/rss.xml
 - id:
     bioguide: C001047
     thomas: '01676'
@@ -6409,6 +6466,7 @@
     fax: 202-225-7856
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2366 Rayburn House Office Building
+    rss_url: http://capito.house.gov/common/rss//index.cfm?rss=85
 - id:
     bioguide: C001036
     thomas: '01471'
@@ -6498,6 +6556,7 @@
     fax: 202-225-5632
     contact_form: http://www.house.gov/capps/contact/send_an_email.shtml
     office: 2231 Rayburn House Office Building
+    rss_url: http://capps.house.gov/rss.xml
 - id:
     bioguide: C001037
     thomas: '01564'
@@ -6625,6 +6684,7 @@
     fax: 202-225-2291
     contact_form: https://forms.house.gov/carney/webforms/email-me.shtml
     office: 1406 Longworth House Office Building
+    rss_url: http://johncarney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: C001072
     thomas: '01889'
@@ -6681,6 +6741,7 @@
     fax: 202-225-5633
     contact_form: http://carson.house.gov/contact.me.shtml
     office: 2453 Rayburn House Office Building
+    rss_url: http://carson.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: C001051
     thomas: '01752'
@@ -6753,6 +6814,7 @@
     fax: 202-225-5886
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 409 Cannon House Office Building
+    rss_url: http://carter.house.gov/common/rss/?rss=40
 - id:
     bioguide: C001075
     thomas: '01925'
@@ -6802,6 +6864,7 @@
     fax: 202-225-7313
     contact_form: https://forms.house.gov/cassidy/contact-form.shtml
     office: 1131 Longworth House Office Building
+    rss_url: http://cassidy.house.gov/rss.xml
 - id:
     bioguide: C001066
     thomas: '01839'
@@ -6858,6 +6921,7 @@
     fax: 202-225-5652
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 205 Cannon House Office Building
+    rss_url: http://castor.house.gov/News/Rss.aspx
 - id:
     bioguide: C000266
     thomas: '00186'
@@ -6945,6 +7009,7 @@
     phone: 202-225-2216
     fax: 202-225-3012
     office: 2371 Rayburn House Office Building
+    rss_url: http://chabot.house.gov/common/rss/index.cfm?rss=49
 - id:
     bioguide: C001076
     thomas: '01956'
@@ -6994,6 +7059,7 @@
     fax: 202-225-5629
     contact_form: https://forms.house.gov/chaffetz/contact-form.shtml
     office: 2464 Rayburn House Office Building
+    rss_url: http://chaffetz.house.gov/rss.xml
 - id:
     bioguide: C000380
     thomas: '01474'
@@ -7083,6 +7149,7 @@
     fax: 202-225-5517
     contact_form: http://www.house.gov/writerep/
     office: 1510 Longworth House Office Building
+    rss_url: http://donnachristensen.house.gov/rss.xml
 - id:
     bioguide: C001080
     thomas: '01970'
@@ -7133,6 +7200,7 @@
     fax: 202-225-5467
     contact_form: https://forms.house.gov/chu/contact-form.shtml
     office: 1520 Longworth House Office Building
+    rss_url: http://chu.house.gov/rss.xml
 - id:
     bioguide: C001084
     thomas: '02055'
@@ -7174,6 +7242,7 @@
     phone: 202-225-4911
     fax: 202- 225-3290
     office: 128 Cannon House Office Building
+    rss_url: http://cicilline.house.gov/rss.xml
 - id:
     bioguide: C001067
     thomas: '01864'
@@ -7231,6 +7300,7 @@
     fax: 202-226-0112
     contact_form: http://clarke.house.gov/contactform_zipcheck.shtml
     office: 2351 Rayburn House Office Building
+    rss_url: http://clarke.house.gov/news/rss.aspx
 - id:
     bioguide: C001049
     thomas: '01654'
@@ -7373,6 +7443,7 @@
     fax: 202-225-4403
     contact_form: http://www.house.gov/cleaver/IMA/issue.htm
     office: 2335 Rayburn House Office Building
+    rss_url: http://cleaver.house.gov/rss.xml
 - id:
     bioguide: C000537
     thomas: '00208'
@@ -7476,6 +7547,7 @@
     fax: 202-225-2313
     contact_form: http://clyburn.house.gov/contact.cfm
     office: 242 Cannon House Office Building
+    rss_url: http://clyburn.house.gov/rss.xml
 - id:
     bioguide: C000542
     thomas: '00209'
@@ -7671,6 +7743,7 @@
     fax: 202-225-8611
     contact_form: http://www.house.gov/writerep
     office: 2188 Rayburn House Office Building
+    rss_url: http://coble.house.gov/News/Rss.aspx
 - id:
     bioguide: C000560
     thomas: '00212'
@@ -7778,6 +7851,7 @@
     fax: 202-226-4623
     contact_form: https://forms.house.gov/coffman/contact-form.shtml
     office: 2443 Longworth House Office Building
+    rss_url: http://coffman.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: C001068
     thomas: '01878'
@@ -7834,6 +7908,7 @@
     fax: 202-225-5663
     contact_form: http://cohen.house.gov/index.php?option=com_email_form&Itemid=113
     office: 2404 Rayburn House Office Building
+    rss_url: http://cohen.house.gov/rss.xml
 - id:
     bioguide: C001053
     thomas: '01742'
@@ -7905,6 +7980,7 @@
     fax: 202-225-3512
     contact_form: http://www.cole.house.gov/contact-tom.html
     office: 2458 Rayburn House Office Building
+    rss_url: http://cole.house.gov/rss.xml
 - id:
     bioguide: C001062
     thomas: '01805'
@@ -8019,6 +8095,7 @@
     fax: 202-225-3071
     contact_form: https://forms.house.gov/connolly/contact-form.shtml
     office: 424 Cannon House Office Building
+    rss_url: http://connolly.house.gov/common/rss//index.cfm?rss=44
 - id:
     bioguide: C000714
     thomas: '00229'
@@ -8206,6 +8283,7 @@
     fax: 202-225-0072
     contact_form: http://conyers.house.gov/index.cfm?FuseAction=Contact.OnlineContactForm
     office: 2426 Rayburn House Office Building
+    rss_url: http://conyers.house.gov/index.cfm/rss/feed
 - id:
     bioguide: C000754
     thomas: '00231'
@@ -8314,6 +8392,7 @@
     fax: 202-226-1035
     contact_form: http://www.cooper.house.gov/index.php?option=com_content&task=view&id=117&Itemid=61
     office: 1536 Longworth House Office Building
+    rss_url: http://www.cooper.house.gov/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=38&amp;format=feed&amp;type=rss
 - id:
     bioguide: C001059
     thomas: '01774'
@@ -8375,6 +8454,7 @@
     fax: 202-225-9308
     contact_form: http://www.house.gov/formcosta/issue.htm
     office: 1314 Longworth House Office Building
+    rss_url: http://costa.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: C001069
     thomas: '01836'
@@ -8430,6 +8510,7 @@
     fax: 202-225-4977
     contact_form: http://courtney.house.gov/email/
     office: 2348 Rayburn House Office Building
+    rss_url: http://courtney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: C000880
     thomas: '00250'
@@ -8538,6 +8619,7 @@
     phone: 202-225-4076
     fax: 202-225-5602
     office: 1711 Longworth House Office Building
+    rss_url: http://crawford.house.gov/news/rss.aspx
 - id:
     bioguide: C001045
     thomas: '01643'
@@ -8698,6 +8780,7 @@
     fax: 202-225-1909
     contact_form: https://forms.house.gov/crowley/contact.shtml
     office: 1436 Longworth House Office Building
+    rss_url: http://crowley.house.gov/rss.xml
 - id:
     bioguide: C001063
     thomas: '01807'
@@ -8761,6 +8844,7 @@
     fax: 202-225-1641
     contact_form: http://cuellar.house.gov/Contact/SendMeAnEmail.htm
     office: 2431 Rayburn House Office Building
+    rss_url: http://cuellar.house.gov/news/rss.aspx
 - id:
     bioguide: C001048
     thomas: '01670'
@@ -8839,6 +8923,7 @@
     fax: 202-225-4381
     contact_form: http://www.culberson.house.gov/contactinfo.aspx
     office: 2352 Rayburn House Office Building
+    rss_url: http://culberson.house.gov/feed/rss/
 - id:
     bioguide: C000984
     thomas: '00256'
@@ -8935,6 +9020,7 @@
     fax: 202-225-3178
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2235 Rayburn House Office Building
+    rss_url: http://cummings.house.gov/rss.xml
 - id:
     bioguide: D000096
     thomas: '01477'
@@ -9025,6 +9111,7 @@
     fax: 202-225-5641
     contact_form: https://forms.house.gov/davis/webforms/issue_subscribe.htm
     office: 2159 Rayburn House Office Building
+    rss_url: http://davis.house.gov/index2.php?option=ds-syndicate&amp;version=1&amp;feed_id=1
 - id:
     bioguide: D000598
     thomas: '01641'
@@ -9224,6 +9311,7 @@
     fax: 202-225-0032
     contact_form: http://www.house.gov/formdefazio/contact.html
     office: 2134 Rayburn House Office Building
+    rss_url: http://www.defazio.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: D000197
     thomas: '01479'
@@ -9422,6 +9510,7 @@
     fax: 202-225-4890
     contact_form: http://delauro.house.gov/contact_form_email.cfm
     office: 2413 Rayburn House Office Building
+    rss_url: http://delauro.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: D000612
     thomas: '01995'
@@ -9462,6 +9551,7 @@
     phone: 202-225-4540
     fax: 202-225-3402
     office: 1730 Longworth House Office Building
+    rss_url: http://denham.house.gov/rss.xml
 - id:
     bioguide: D000604
     thomas: '01799'
@@ -9525,6 +9615,7 @@
     fax: 202-226-0778
     contact_form: http://dent.house.gov/verifyemail.shtml
     office: 2455 Rayburn House Office Building
+    rss_url: http://dent.house.gov/?a=RSS.Feed
 - id:
     bioguide: D000616
     thomas: '02062'
@@ -9565,6 +9656,7 @@
     phone: 202-225-6831
     fax: 202-226-5172
     office: 413 Cannon House Office Building
+    rss_url: http://desjarlais.house.gov/news/rss.aspx
 - id:
     bioguide: D000610
     thomas: '01976'
@@ -9615,6 +9707,7 @@
     fax: 202-225-5974
     contact_form: https://teddeutch.house.gov/Forms/WriteYourRep/default.aspx
     office: 1024 Longworth House Office Building
+    rss_url: http://teddeutch.house.gov/news/rss.aspx
 - id:
     bioguide: D000600
     thomas: '01717'
@@ -9686,6 +9779,7 @@
     fax: 202-225-8576
     contact_form: Http://mariodiaz-balart.house.gov//index.cfm?sectionid=11
     office: 436 Cannon House Office Building
+    rss_url: http://mariodiazbalart.house.gov/common/rss//index.cfm?rss=30
 - id:
     bioguide: D000355
     thomas: '00299'
@@ -9903,6 +9997,7 @@
     fax: 202-226-0371
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2328 Rayburn House Office Building
+    rss_url: http://dingell.house.gov/rss.xml
 - id:
     bioguide: D000399
     thomas: '00303'
@@ -9999,6 +10094,7 @@
     fax: 202-225-3073
     contact_form: http://www.house.gov/doggett/doggett_ima/doggett_get_address.shtml
     office: 201 Cannon House Office Building
+    rss_url: http://doggett.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
 - id:
     bioguide: D000607
     thomas: '01850'
@@ -10155,6 +10251,7 @@
     fax: 202-225-3084
     contact_form: http://www.house.gov/doyle/email_mike.shtml
     office: 239 Cannon House Office Building
+    rss_url: http://doyle.house.gov/rss.xml
 - id:
     bioguide: D000614
     thomas: '02072'
@@ -10194,6 +10291,7 @@
     address: 1208 Longworth HOB; Washington DC 20515-4907
     phone: 202-225-3365
     office: 1208 Longworth House Office Building
+    rss_url: http://duffy.house.gov/rss.xml
 - id:
     bioguide: D000615
     thomas: '02057'
@@ -10234,6 +10332,7 @@
     phone: 202-225-5301
     fax: 202- 225-3216
     office: 116 Cannon House Office Building
+    rss_url: http://jeffduncan.house.gov/rss.xml
 - id:
     bioguide: D000533
     thomas: '00322'
@@ -10357,6 +10456,7 @@
     fax: 202-225-6440
     contact_form: http://www.house.gov/duncan/contactform_zipcheck.shtml
     office: 2207 Rayburn House Office Building
+    rss_url: http://duncan.house.gov/rss.xml
 - id:
     bioguide: E000290
     thomas: '01894'
@@ -10414,6 +10514,7 @@
     fax: 202-225-8714
     contact_form: http://www.house.gov/writerep
     office: 2445 Rayburn House Office Building
+    rss_url: http://donnaedwards.house.gov/common/rss/?rss=24
 - id:
     bioguide: E000288
     thomas: '01857'
@@ -10471,6 +10572,7 @@
     fax: 202-225-4886
     contact_form: http://ellison.house.gov/index.php?option=com_content&task=view&id=87
     office: 2244 Rayburn House Office Building
+    rss_url: http://ellison.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: E000291
     thomas: '02036'
@@ -10512,6 +10614,7 @@
     phone: 202-225-4531
     fax: 202- 225-5662
     office: 426 Cannon House Office Building
+    rss_url: http://ellmers.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: E000179
     thomas: '00344'
@@ -10729,6 +10832,7 @@
     fax: 202-225-8890
     contact_form: https://forms.house.gov/eshoo/webforms/issue_subscribe.htm
     office: 241 Cannon House Office Building
+    rss_url: http://eshoo.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: F000010
     thomas: '00367'
@@ -10883,6 +10987,7 @@
     phone: 202-225-7742
     fax: 202-226-1134
     office: 117 Cannon House Office Building
+    rss_url: http://farenthold.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: F000030
     thomas: '00368'
@@ -10984,6 +11089,7 @@
     fax: 202-225-6791
     contact_form: http://www.farr.house.gov/index.php?option=com_content&task=view&id=202
     office: 1126 Longworth House Office Building
+    rss_url: http://www.farr.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
 - id:
     bioguide: F000043
     thomas: '00371'
@@ -11079,6 +11185,7 @@
     fax: 202-225-5392
     contact_form: http://fattah.house.gov/?sectionid=8&sectiontree=8
     office: 2301 Rayburn House Office Building
+    rss_url: http://fattah.house.gov/common/rss//index.cfm?rss=34
 - id:
     bioguide: F000458
     thomas: '02064'
@@ -11120,6 +11227,7 @@
     phone: 202-225-4714
     fax: 202-225-1765
     office: 1118 Longworth House Office Building
+    rss_url: http://fincher.house.gov/rss.xml
 - id:
     bioguide: F000451
     thomas: '01797'
@@ -11166,6 +11274,7 @@
     phone: 202-225-4276
     fax: 202- 225-9511
     office: 2400 Rayburn House Office Building
+    rss_url: http://fitzpatrick.house.gov/rss.xml
 - id:
     bioguide: F000444
     thomas: '01633'
@@ -11286,6 +11395,7 @@
     phone: 202-225-3271
     fax: 202-225-3494
     office: 230 Cannon House Office Building
+    rss_url: http://fleischmann.house.gov/rss.xml
 - id:
     bioguide: F000456
     thomas: '01924'
@@ -11335,6 +11445,7 @@
     fax: 202-225-8039
     contact_form: https://forms.house.gov/fleming/contact-form.shtml
     office: 416 Cannon House Office Building
+    rss_url: http://fleming.house.gov/news/rss.aspx
 - id:
     bioguide: F000461
     thomas: '02065'
@@ -11375,6 +11486,7 @@
     phone: 202-225-6105
     fax: 202-225-0350
     office: 1030 Longworth House Office Building
+    rss_url: http://flores.house.gov/common/rss//index.cfm?rss=25
 - id:
     bioguide: F000445
     thomas: '01683'
@@ -11453,6 +11565,7 @@
     fax: 202-226-1170
     contact_form: http://forbes.house.gov/zipauth.html
     office: 2135 Rayburn House Office Building
+    rss_url: http://forbes.house.gov/news/rss.aspx
 - id:
     bioguide: F000449
     thomas: '01793'
@@ -11516,6 +11629,7 @@
     fax: 202-225-5686
     contact_form: http://fortenberry.house.gov/contactform_zipcheck.shtml
     office: 1514 Longworth House Office Building
+    rss_url: http://fortenberry.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: F000450
     thomas: '01791'
@@ -11579,6 +11693,7 @@
     fax: 202-225-2995
     contact_form: http://www.house.gov/formfoxx/IMA/issue_subscribe.htm
     office: 2350 Rayburn House Office Building
+    rss_url: http://foxx.house.gov/common/rss/?rss=55
 - id:
     bioguide: F000448
     thomas: '01707'
@@ -11650,6 +11765,7 @@
     fax: 202-225-6328
     contact_form: https://forms.house.gov/franks/email_zipcheck.shtml
     office: 2435 Rayburn House Office Building
+    rss_url: http://franks.house.gov/rss.xml
 - id:
     bioguide: F000372
     thomas: '00414'
@@ -11802,6 +11918,7 @@
     fax: 202-225-1339
     contact_form: https://forms.house.gov/fudge/contact-form.shtml
     office: 2344 Rayburn House Office Building
+    rss_url: http://fudge.house.gov/common/rss//index.cfm?rss=25
 - id:
     bioguide: G000559
     thomas: '01973'
@@ -11851,6 +11968,7 @@
     fax: 202-225-5914
     contact_form: http://garamendi.house.gov/contact/email-me.shtml
     office: 2438 Rayburn House Office Building
+    rss_url: http://garamendi.house.gov/rss.xml
 - id:
     bioguide: G000562
     thomas: '01998'
@@ -11889,6 +12007,7 @@
     address: 213 Cannon HOB; Washington DC 20515-0604
     phone: 202-225-4676
     office: 213 Cannon House Office Building
+    rss_url: http://gardner.house.gov/rss.xml
 - id:
     bioguide: G000548
     thomas: '01737'
@@ -11959,6 +12078,7 @@
     fax: 202-225-9048
     contact_form: http://www.house.gov/formgarrett/contact.shtml
     office: 2232 Rayburn House Office Building
+    rss_url: http://garrett.house.gov/rss.xml
 - id:
     bioguide: G000549
     thomas: '01743'
@@ -12030,6 +12150,7 @@
     fax: 202-225-8440
     contact_form: http://www.house.gov/writerep
     office: 2442 Rayburn House Office Building
+    rss_url: http://gerlach.house.gov/news/rss.aspx
 - id:
     bioguide: G000563
     thomas: '02049'
@@ -12070,6 +12191,7 @@
     phone: 202-225-6265
     fax: 202-225-3394
     office: 329 Cannon House Office Building
+    rss_url: http://gibbs.house.gov/rss.xml
 - id:
     bioguide: G000564
     thomas: '02043'
@@ -12111,6 +12233,7 @@
     phone: 202-225-5614
     fax: 202-225-1168
     office: 1708 Longworth House Office Building
+    rss_url: http://gibson.house.gov/news/rss.aspx
 - id:
     bioguide: G000550
     thomas: '01720'
@@ -12181,6 +12304,7 @@
     fax: 202-225-2944
     contact_form: http://www.house.gov/formgingrey/IMA/issue.htm
     office: 442 Cannon House Office Building
+    rss_url: http://gingrey.house.gov/news/rss.aspx
 - id:
     bioguide: G000552
     thomas: '01801'
@@ -12246,6 +12370,7 @@
     fax: 202-226-1230
     contact_form: http://gohmert.house.gov/contact_louie.htm
     office: 2243 Rayburn House Office Building
+    rss_url: http://gohmert.house.gov/news/rss.aspx
 - id:
     bioguide: G000289
     thomas: '00446'
@@ -12348,6 +12473,7 @@
     fax: 202-225-9681
     contact_form: http://www.house.gov/goodlatte/emailbob.htm
     office: 2309 Rayburn House Office Building
+    rss_url: http://goodlatte.house.gov/press_releases.rss
 - id:
     bioguide: G000565
     thomas: '01992'
@@ -12389,6 +12515,7 @@
     phone: 202-225-2315
     fax: 200-226-9739
     office: 504 Cannon House Office Building
+    rss_url: http://gosar.house.gov/rss.xml
 - id:
     bioguide: G000566
     thomas: '02058'
@@ -12429,6 +12556,7 @@
     phone: 202-225-6030
     fax: 202-226-1177
     office: 1404 Longworth House Office Building
+    rss_url: http://gowdy.house.gov/news/rss.aspx
 - id:
     bioguide: G000377
     thomas: '01487'
@@ -12518,6 +12646,7 @@
     fax: 202-225-5683
     contact_form: http://kaygranger.house.gov/?sectionid=46&sectiontree=46
     office: 1026 Longworth House Office Building
+    rss_url: http://kaygranger.house.gov/rss.xml
 - id:
     bioguide: G000386
     thomas: '00457'
@@ -12682,6 +12811,7 @@
     fax: 202-225-8221
     contact_form: http://www.house.gov/graves/contact.shtml
     office: 1415 Longworth House Office Building
+    rss_url: http://graves.house.gov/common/rss/index.cfm?rss=25
 - id:
     bioguide: G000560
     thomas: '01979'
@@ -12731,6 +12861,7 @@
     fax: 202-225-8272
     contact_form: http://tomgraves.house.gov/contact/
     office: 432 Cannon House Office Building
+    rss_url: http://tomgraves.house.gov/news/rss.aspx
 - id:
     bioguide: G000553
     thomas: '01803'
@@ -12794,6 +12925,7 @@
     fax: 202-225-2947
     contact_form: http://www.house.gov/writerep
     office: 2201 Rayburn House Office Building
+    rss_url: http://algreen.house.gov/rss.xml
 - id:
     bioguide: G000410
     thomas: '00462'
@@ -12896,6 +13028,7 @@
     fax: 202-225-9903
     contact_form: http://www.house.gov/green/contact
     office: 2470 Rayburn House Office Building
+    rss_url: http://green.house.gov/rss.xml
 - id:
     bioguide: G000567
     thomas: '01990'
@@ -12936,6 +13069,7 @@
     phone: 202-225-2506
     fax: 202-225-5903
     office: 1232 Longworth House Office Building
+    rss_url: http://griffin.house.gov/rss.xml
 - id:
     bioguide: G000568
     thomas: '02070'
@@ -12977,6 +13111,7 @@
     phone: 202-225-3861
     fax: 202- 225-0076
     office: 1108 Longworth House Office Building
+    rss_url: http://morgangriffith.house.gov/news/rss.aspx
 - id:
     bioguide: G000551
     thomas: '01708'
@@ -13049,6 +13184,7 @@
     fax: 202-225-1541
     contact_form: http://grijalva.house.gov/?sectionid=49&sectiontree=2,49
     office: 1511 Longworth House Office Building
+    rss_url: http://grijalva.house.gov/common/rss/?rss=13
 - id:
     bioguide: G000569
     thomas: '02041'
@@ -13090,6 +13226,7 @@
     phone: 202-225-3371
     fax: 202- 226-1272
     office: 512 Cannon House Office Building
+    rss_url: http://grimm.house.gov/rss.xml
 - id:
     bioguide: G000558
     thomas: '01922'
@@ -13139,6 +13276,7 @@
     fax: 202-226-2019
     contact_form: https://forms.house.gov/guthrie/contact-form.shtml
     office: 308 Cannon House Office Building
+    rss_url: http://guthrie.house.gov/common/rss/?rss=24
 - id:
     bioguide: G000535
     thomas: '00478'
@@ -13241,6 +13379,7 @@
     fax: 202-225-7810
     contact_form: http://www.house.gov/writerep
     office: 2408 Rayburn House Office Building
+    rss_url: http://gutierrez.house.gov/rss.xml
 - id:
     bioguide: H000067
     thomas: '00484'
@@ -13380,6 +13519,7 @@
     fax: 202-225-3332
     contact_form: http://www.house.gov/ralphhall/IMA/zipauth.htm
     office: 2405 Rayburn House Office Building
+    rss_url: http://ralphhall.house.gov/common/rss/?rss=26
 - id:
     bioguide: H001050
     thomas: '02010'
@@ -13421,6 +13561,7 @@
     phone: 202-225-2726
     fax: 202-225-4580
     office: 238 Cannon House Office Building
+    rss_url: http://hanabusa.house.gov/rss.xml
 - id:
     bioguide: H001051
     thomas: '02044'
@@ -13462,6 +13603,7 @@
     phone: 202-225-3665
     fax: 202-225-1891
     office: 319 Cannon House Office Building
+    rss_url: http://hanna.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: H001045
     thomas: '01933'
@@ -13511,6 +13653,7 @@
     fax: 202-225-5797
     contact_form: http://harper.house.gov/contact/
     office: 307 Cannon House Office Building
+    rss_url: http://harper.house.gov/rss.xml
 - id:
     bioguide: H001052
     thomas: '02026'
@@ -13551,6 +13694,7 @@
     phone: 202-225-5311
     fax: 202-225-0254
     office: 1533 Longworth House Office Building
+    rss_url: http://harris.house.gov/rss.xml
 - id:
     bioguide: H001053
     thomas: '02032'
@@ -13591,6 +13735,7 @@
     phone: 202-225-2876
     fax: 202- 225-2695
     office: 1023 Longworth House Office Building
+    rss_url: http://hartzler.house.gov/rss.xml
 - id:
     bioguide: H000324
     thomas: '00511'
@@ -13693,6 +13838,7 @@
     fax: 202-225-1171
     contact_form: http://www.alceehastings.house.gov/index.php?option=com_content&task=view&id=104&Itemid=
     office: 2353 Rayburn House Office Building
+    rss_url: http://www.alceehastings.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: H000329
     thomas: '00512'
@@ -13787,6 +13933,7 @@
     fax: 202-225-3251
     contact_form: http://hastings.house.gov/ContactForm.aspx
     office: 1203 Longworth House Office Building
+    rss_url: http://hastings.house.gov/news/rss.aspx
 - id:
     bioguide: H001055
     thomas: '02040'
@@ -13828,6 +13975,7 @@
     phone: 202-225-3252
     fax: 202- 225-2185
     office: 132 Cannon House Office Building
+    rss_url: http://heck.house.gov/rss.xml
 - id:
     bioguide: H001046
     thomas: '01937'
@@ -13950,6 +14098,7 @@
     fax: 202-226-4888
     contact_form: http://www.house.gov/hensarling/contact_web.shtml
     office: 2228 Rayburn House Office Building
+    rss_url: http://hensarling.house.gov/atom.xml
 - id:
     bioguide: H001056
     thomas: '02071'
@@ -13990,6 +14139,7 @@
     phone: 202-225-3536
     fax: 202-225-3478
     office: 1130 Longworth House Office Building
+    rss_url: http://herrerabeutler.house.gov/news/rss.aspx
 - id:
     bioguide: H001038
     thomas: '01794'
@@ -14052,6 +14202,7 @@
     fax: 202-226-0347
     contact_form: http://higgins.house.gov/email.asp
     office: 2459 Rayburn House Office Building
+    rss_url: http://higgins.house.gov/atom.xml
 - id:
     bioguide: H001047
     thomas: '01913'
@@ -14102,6 +14253,7 @@
     fax: 202-225-9629
     contact_form: https://forms.house.gov/himes/contact-form.shtml
     office: 119 Cannon House Office Building
+    rss_url: http://himes.house.gov/rss.xml
 - id:
     bioguide: H000636
     thomas: '01490'
@@ -14192,6 +14344,7 @@
     fax: 202-225-5688
     contact_form: http://www.house.gov/writerep
     office: 2262 Rayburn House Office Building
+    rss_url: http://hinojosa.house.gov/rss.xml
 - id:
     bioguide: H001042
     thomas: '01844'
@@ -14366,6 +14519,7 @@
     fax: 202-225-6025
     contact_form: https://forms.house.gov/holt/webforms/issue_subscribe.htm
     office: 1214 Longworth House Office Building
+    rss_url: http://holt.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: H001034
     thomas: '01634'
@@ -14445,6 +14599,7 @@
     fax: 202-225-2699
     contact_form: http://honda.house.gov/contactmike.shtml
     office: 1713 Longworth House Office Building
+    rss_url: http://honda.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: H000874
     thomas: '00566'
@@ -14584,6 +14739,7 @@
     fax: 202-225-4300
     contact_form: http://hoyer.house.gov/contact/email.asp
     office: 1705 Longworth House Office Building
+    rss_url: http://hoyer.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: H001057
     thomas: '02020'
@@ -14624,6 +14780,7 @@
     phone: 202-225-2715
     fax: 202- 225-5124
     office: 129 Cannon House Office Building
+    rss_url: http://huelskamp.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: H001058
     thomas: '02028'
@@ -14664,6 +14821,7 @@
     phone: 202-225-4401
     fax: 202- 226-0779
     office: 1217 Longworth House Office Building
+    rss_url: http://huizenga.house.gov/news/rss.aspx
 - id:
     bioguide: H001059
     thomas: '02015'
@@ -14704,6 +14862,7 @@
     phone: 202-225-2976
     fax: 202- 225-0697
     office: 332 Cannon House Office Building
+    rss_url: http://hultgren.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: H001048
     thomas: '01909'
@@ -14754,6 +14913,7 @@
     fax: 202-225-0235
     contact_form: https://forms.house.gov/hunter/zipauthen_contact.shtml
     office: 223 Cannon House Office Building
+    rss_url: http://hunter.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: H001060
     thomas: '02069'
@@ -14794,6 +14954,7 @@
     phone: 202-225-4711
     fax: 202-225-5681
     office: 125 Cannon House Office Building
+    rss_url: http://hurt.house.gov/index.cfm/rss/feed
 - id:
     bioguide: I000055
     thomas: '01608'
@@ -14933,6 +15094,7 @@
     fax: 202-225-4669
     contact_form: http://www.house.gov/formisrael/contact.html
     office: 2457 Rayburn House Office Building
+    rss_url: http://israel.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1&amp;Itemid=10
 - id:
     bioguide: I000056
     thomas: '01640'
@@ -15010,6 +15172,7 @@
     fax: 202-225-3303
     contact_form: http://issa.house.gov/index.cfm?FuseAction=Contact.ContactForm
     office: 2347 Rayburn House Office Building
+    rss_url: http://issa.house.gov/feed/
 - id:
     bioguide: J000032
     thomas: '00588'
@@ -15105,6 +15268,7 @@
     fax: 202-225-3317
     contact_form: http://www.jacksonlee.house.gov/contact-form.shtml
     office: 2160 Rayburn House Office Building
+    rss_url: http://jacksonlee.house.gov/news/rss.aspx
 - id:
     bioguide: J000290
     thomas: '01921'
@@ -15154,6 +15318,7 @@
     fax: 202-225-7986
     contact_form: https://forms.house.gov/lynnjenkins/contact-form.shtml
     office: 1027 Longworth House Office Building
+    rss_url: http://lynnjenkins.house.gov/common/rss/?rss=220
 - id:
     bioguide: J000292
     thomas: '02046'
@@ -15194,6 +15359,7 @@
     phone: 202-225-5705
     fax: 202-225-5907
     office: 1710 Longworth House Office Building
+    rss_url: http://billjohnson.house.gov/news/rss.aspx
 - id:
     bioguide: J000126
     thomas: '00599'
@@ -15296,6 +15462,7 @@
     fax: 202-226-1477
     contact_form: http://www.house.gov/ebjohnson/IMA/issue_subscribe.shtml
     office: 2468 Rayburn House Office Building
+    rss_url: http://ebjohnson.house.gov/common/rss//index.cfm?rss=21
 - id:
     bioguide: J000288
     thomas: '01843'
@@ -15355,6 +15522,7 @@
     fax: 202-226-0691
     contact_form: http://hankjohnson.house.gov/contact_hank_write.shtml
     office: 2240 Rayburn House Office Building
+    rss_url: http://hankjohnson.house.gov/rss.xml
 - id:
     bioguide: J000293
     thomas: '02086'
@@ -15494,6 +15662,7 @@
     fax: 202-225-1485
     contact_form: http://www.house.gov/formsamjohnson/IMA/issue.htm
     office: 1211 Longworth House Office Building
+    rss_url: http://samjohnson.house.gov/news/rss.aspx
 - id:
     bioguide: J000255
     thomas: '00612'
@@ -15591,6 +15760,7 @@
     fax: 202-225-3286
     contact_form: http://jones.house.gov/contact_form_email.cfm
     office: 2333 Rayburn House Office Building
+    rss_url: http://jones.house.gov/rss.xml
 - id:
     bioguide: J000289
     thomas: '01868'
@@ -15647,6 +15817,7 @@
     fax: 202-226-0577
     contact_form: http://jordan.house.gov/contactform_zipcheck.shtml
     office: 1524 Longworth House Office Building
+    rss_url: http://jordan.house.gov/news/rss.aspx
 - id:
     bioguide: K000009
     thomas: '00616'
@@ -15779,6 +15950,7 @@
     fax: 202-225-7711
     contact_form: http://www.kaptur.house.gov/index.php?option=com_content&task=view&id=152
     office: 2186 Rayburn House Office Building
+    rss_url: http://kaptur.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=2&amp;format=raw
 - id:
     bioguide: K000375
     thomas: '02025'
@@ -15820,6 +15992,7 @@
     phone: 202-225-3111
     fax: 202- 225-5658
     office: 315 Cannon House Office Building
+    rss_url: http://keating.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: K000376
     thomas: '02051'
@@ -15860,6 +16033,7 @@
     phone: 202-225-5406
     fax: 202-225-3103
     office: 1519 Longworth House Office Building
+    rss_url: http://kelly.house.gov/rss.xml
 - id:
     bioguide: K000188
     thomas: '01498'
@@ -15950,6 +16124,7 @@
     fax: 202-225-5739
     contact_form: http://www.house.gov/kind/contact.shtml
     office: 1502 Longworth House Office Building
+    rss_url: http://kind.house.gov/common/rss/?rss=52
 - id:
     bioguide: K000210
     thomas: '00635'
@@ -16053,6 +16228,7 @@
     fax: 202-226-2279
     contact_form: http://peteking.house.gov/zip.shtml
     office: 339 Cannon House Office Building
+    rss_url: http://www.house.gov/apps/list/hearing/ny02_king/RSS.xml
 - id:
     bioguide: K000362
     thomas: '01724'
@@ -16124,6 +16300,7 @@
     fax: 202-225-3193
     contact_form: http://www.house.gov/steveking/email.shtm
     office: 2210 Rayburn House Office Building
+    rss_url: http://steveking.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: K000220
     thomas: '00636'
@@ -16225,6 +16402,7 @@
     fax: 202-226-2269
     contact_form: http://kingston.house.gov/ContactForm/
     office: 2372 Rayburn House Office Building
+    rss_url: http://kingston.house.gov/News/Rss.aspx
 - id:
     bioguide: K000378
     thomas: '02014'
@@ -16265,6 +16443,7 @@
     phone: 202-225-3635
     fax: 202- 225-3521
     office: 1221 Longworth House Office Building
+    rss_url: http://kinzinger.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: K000360
     thomas: '01647'
@@ -16409,6 +16588,7 @@
     fax: 202-225-2595
     contact_form: http://kline.house.gov/index.cfm?FuseAction=ContactInformation.ContactForm&To=mn02hwyr@housemail.house.gov&CFID=22307054&CFTOKEN=28173710
     office: 2439 Rayburn House Office Building
+    rss_url: http://kline.house.gov/common/rss/?rss=47
 - id:
     bioguide: L000573
     thomas: '02011'
@@ -16450,6 +16630,7 @@
     phone: 202-225-6611
     fax: 202-225-3029
     office: 1523 Longworth House Office Building
+    rss_url: http://labrador.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: L000564
     thomas: '01834'
@@ -16506,6 +16687,7 @@
     fax: 202-226-2638
     contact_form: http://lamborn.house.gov/ZipAuth.aspx
     office: 2402 Rayburn House Office Building
+    rss_url: http://lamborn.house.gov/common/rss/?rss=188
 - id:
     bioguide: L000567
     thomas: '01936'
@@ -16555,6 +16737,7 @@
     fax: 202-225-9460
     contact_form: https://forms.house.gov/lance/contact-form.shtml
     office: 133 Cannon House Office Building
+    rss_url: http://lance.house.gov/common/rss/?rss=29
 - id:
     bioguide: L000559
     thomas: '01668'
@@ -16633,6 +16816,7 @@
     fax: 202-225-5976
     contact_form: http://langevin.house.gov/comments.shtml
     office: 109 Cannon House Office Building
+    rss_url: http://langevin.house.gov/rss.xml
 - id:
     bioguide: L000575
     thomas: '02050'
@@ -16673,6 +16857,7 @@
     phone: 202-225-2132
     fax: 202-226-1463
     office: 228 Cannon House Office Building
+    rss_url: http://lankford.house.gov/rss.xml
 - id:
     bioguide: L000560
     thomas: '01675'
@@ -16749,6 +16934,7 @@
     fax: 202-225-4420
     contact_form: http://www.house.gov/larsen/contact/
     office: 2113 Rayburn House Office Building
+    rss_url: http://larsen.house.gov/rss.xml
 - id:
     bioguide: L000557
     thomas: '01583'
@@ -16832,6 +17018,7 @@
     fax: 202-225-1031
     contact_form: http://www.house.gov/writerep
     office: 1501 Longworth House Office Building
+    rss_url: http://www.larson.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: L000111
     thomas: '00666'
@@ -16928,6 +17115,7 @@
     fax: 202-225-3301
     contact_form: http://www.tomlatham.house.gov/Contact/
     office: 2217 Rayburn House Office Building
+    rss_url: http://latham.house.gov/news/rss.aspx
 - id:
     bioguide: L000566
     thomas: '01885'
@@ -16985,6 +17173,7 @@
     fax: 202-225-1985
     contact_form: http://latta.house.gov/contactform_zipcheck.shtml
     office: 2448 Rayburn House Office Building
+    rss_url: http://latta.house.gov/news/rss.aspx
 - id:
     bioguide: L000174
     thomas: '01383'
@@ -17146,6 +17335,7 @@
     fax: 202-225-9817
     contact_form: http://lee.house.gov/?sectionid=44&sectiontree=18,44
     office: 2267 Rayburn House Office Building
+    rss_url: http://lee.house.gov/rss.xml
 - id:
     bioguide: L000577
     thomas: '02080'
@@ -17309,6 +17499,7 @@
     fax: 202-226-1033
     contact_form: http://www.house.gov/levin/levin_contact_email.shtml
     office: 1236 Longworth House Office Building
+    rss_url: http://levin.house.gov/rss.xml
 - id:
     bioguide: L000287
     thomas: '00688'
@@ -17430,6 +17621,7 @@
     fax: 202-225-0351
     contact_form: http://www.house.gov/formjohnlewis/contact.html
     office: 343 Cannon House Office Building
+    rss_url: http://johnlewis.house.gov/rss.xml
 - id:
     bioguide: L000563
     thomas: '01781'
@@ -17493,6 +17685,7 @@
     fax: 202-225-1012
     contact_form: http://www.house.gov/formlipinski/zipauth.html
     office: 1717 Longworth House Office Building
+    rss_url: http://www.lipinski.house.gov/common/rss//index.cfm?rss=25
 - id:
     bioguide: L000554
     thomas: '00699'
@@ -17589,6 +17782,7 @@
     fax: 202-225-3318
     contact_form: http://www.house.gov/lobiondo/IMA/issue.htm
     office: 2427 Rayburn House Office Building
+    rss_url: http://lobiondo.house.gov/rss.xml
 - id:
     bioguide: L000565
     thomas: '01846'
@@ -17645,6 +17839,7 @@
     fax: 202-226-0757
     contact_form: http://loebsack.house.gov/contactform/
     office: 1527 Longworth House Office Building
+    rss_url: http://loebsack.house.gov/news/rss.aspx
 - id:
     bioguide: L000397
     thomas: '00701'
@@ -17740,6 +17935,7 @@
     fax: 202-225-3336
     contact_form: http://lofgren.house.gov/emailform.shtml
     office: 1401 Longworth House Office Building
+    rss_url: http://lofgren.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: L000576
     thomas: '02033'
@@ -17780,6 +17976,7 @@
     phone: 202-225-6536
     fax: 202-225-5604
     office: 1541 Longworth House Office Building
+    rss_url: http://long.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: L000480
     thomas: '00709'
@@ -17895,6 +18092,7 @@
     fax: 202-225-0546
     contact_form: http://lowey.house.gov/?sectionid=56&sectiontree=56
     office: 2365 Rayburn House Office Building
+    rss_url: http://lowey.house.gov/common/rss/?rss=18
 - id:
     bioguide: L000491
     thomas: '00711'
@@ -17997,6 +18195,7 @@
     fax: 202-225-8698
     contact_form: http://www.house.gov/lucas/zipauth.htm
     office: 2311 Rayburn House Office Building
+    rss_url: http://lucas.house.gov/rss.xml
 - id:
     bioguide: L000569
     thomas: '01931'
@@ -18046,6 +18245,7 @@
     fax: 202-225-5712
     contact_form: https://forms.house.gov/luetkemeyer/contact-form.shtml
     office: 2440 Rayburn House Office Building
+    rss_url: http://luetkemeyer.house.gov/news/rss.aspx
 - id:
     bioguide: L000570
     thomas: '01939'
@@ -18146,6 +18346,7 @@
     fax: 202-225-3057
     contact_form: https://forms.house.gov/lummis/contact-form.shtml
     office: 113 Cannon House Office Building
+    rss_url: http://lummis.house.gov/news/rss.aspx
 - id:
     bioguide: L000562
     thomas: '01686'
@@ -18223,6 +18424,7 @@
     fax: 202-225-3984
     contact_form: http://www.house.gov/writerep
     office: 2133 Rayburn House Office Building
+    rss_url: http://lynch.house.gov/rss.xml
 - id:
     bioguide: M000087
     thomas: '00729'
@@ -18325,6 +18527,7 @@
     fax: 202-225-4709
     contact_form: http://maloney.house.gov/index.php?option=com_email_form&Itemid=73
     office: 2308 Rayburn House Office Building
+    rss_url: http://maloney.house.gov/rss.xml
 - id:
     bioguide: M001158
     thomas: '01806'
@@ -18389,6 +18592,7 @@
     fax: 202-225-0074
     contact_form: http://marchant.house.gov/emailkenny.shtml
     office: 1110 Longworth House Office Building
+    rss_url: http://marchant.house.gov/news/rss.aspx
 - id:
     bioguide: M001179
     thomas: '02053'
@@ -18429,6 +18633,7 @@
     phone: 202-225-3731
     fax: 202-225-9594
     office: 410 Cannon House Office Building
+    rss_url: http://marino.house.gov/rss.xml
 - id:
     bioguide: M000133
     thomas: '00735'
@@ -18587,6 +18792,7 @@
     fax: 202-226-0092
     contact_form: http://markey.house.gov/index.php?option=com_email_form&Itemid=124
     office: 2108 Rayburn House Office Building
+    rss_url: http://markey.house.gov/rss.xml
 - id:
     bioguide: M001142
     thomas: '01671'
@@ -18727,6 +18933,7 @@
     fax: 202-225-0566
     contact_form: https://forms.house.gov/matsui/webforms/issue_subscribe.htm
     office: 2434 Rayburn House Office Building
+    rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M000303
     thomas: '00754'
@@ -18889,6 +19096,7 @@
     fax: 202-225-5758
     contact_form: http://www.house.gov/writerep
     office: 2346 Rayburn House Office Building
+    rss_url: http://carolynmccarthy.house.gov/common/rss/?rss=155
 - id:
     bioguide: M001165
     thomas: '01833'
@@ -18944,6 +19152,7 @@
     fax: 202-225-2908
     contact_form: http://kevinmccarthy.house.gov/showpage.asp?ID=69
     office: 2421 Rayburn House Office Building
+    rss_url: http://kevinmccarthy.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M001157
     thomas: '01804'
@@ -19056,6 +19265,7 @@
     fax: 202-225-5444
     contact_form: https://forms.house.gov/mcclintock/contact-form.shtml
     office: 434 Cannon House Office Building
+    rss_url: http://mcclintock.house.gov/atom.xml
 - id:
     bioguide: M001143
     thomas: '01653'
@@ -19134,6 +19344,7 @@
     fax: 202-225-1968
     contact_form: http://www.mccollum.house.gov/index.asp?Type=NONE&SEC={AC61FD79-AD5F-440D-A7F0-555B12349E5B}
     office: 1714 Longworth House Office Building
+    rss_url: http://mccollum.house.gov/rss.xml
 - id:
     bioguide: M000404
     thomas: '00766'
@@ -19249,6 +19460,7 @@
     fax: 202-225-6197
     contact_form: http://www.house.gov/mcdermott/contact.shtml
     office: 1035 Longworth House Office Building
+    rss_url: http://mcdermott.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M000312
     thomas: '01504'
@@ -19340,6 +19552,7 @@
     fax: 202-225-5759
     contact_form: http://www.house.gov/writerep
     office: 438 Cannon House Office Building
+    rss_url: http://mcgovern.house.gov/common/rss/?rss=15
 - id:
     bioguide: M001156
     thomas: '01792'
@@ -19403,6 +19616,7 @@
     fax: 202-225-0316
     contact_form: http://mchenry.house.gov/zipauth.htm
     office: 2334 Rayburn House Office Building
+    rss_url: http://mchenry.house.gov/News/Rss.aspx
 - id:
     bioguide: M000485
     thomas: '01505'
@@ -19492,6 +19706,7 @@
     fax: 202-225-5773
     contact_form: http://www.house.gov/mcintyre/IMA/issue.htm
     office: 2428 Rayburn House Office Building
+    rss_url: http://mcintyre.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M000508
     thomas: '00778'
@@ -19594,6 +19809,7 @@
     fax: 202-226-0683
     contact_form: http://mckeon.house.gov/contact.shtml
     office: 2310 Rayburn House Office Building
+    rss_url: http://mckeon.house.gov/news/rss.aspx
 - id:
     bioguide: M001180
     thomas: '02074'
@@ -19635,6 +19851,7 @@
     phone: 202-225-4172
     fax: 202-225-7564
     office: 412 Cannon House Office Building
+    rss_url: http://mckinley.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: M001159
     thomas: '01809'
@@ -19697,6 +19914,7 @@
     fax: 202-225-3392
     contact_form: http://www.mcmorris.house.gov/IMA/issue_subscribe.htm
     office: 203 Cannon House Office Building
+    rss_url: http://mcmorris.house.gov/common/rss/?rss=96
 - id:
     bioguide: M001166
     thomas: '01832'
@@ -19753,6 +19971,7 @@
     fax: 202-225-4060
     contact_form: http://mcnerney.house.gov/contact.shtml
     office: 1210 Longworth House Office Building
+    rss_url: http://mcnerney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M001181
     thomas: '02052'
@@ -19793,6 +20012,7 @@
     phone: 202-225-2011
     fax: 202- 226-0280
     office: 204 Cannon House Office Building
+    rss_url: http://meehan.house.gov/rss/latest-news.xml
 - id:
     bioguide: M001137
     thomas: '01506'
@@ -19883,6 +20103,7 @@
     fax: 202-226-4169
     contact_form: http://www.house.gov/meeks/contactform_zipcheck.shtml
     office: 2234 Rayburn House Office Building
+    rss_url: http://meeks.house.gov/rss.xml
 - id:
     bioguide: M000689
     thomas: '00800'
@@ -19985,6 +20206,7 @@
     fax: 202-226-0821
     contact_form: http://www.house.gov/mica/messageform.shtml
     office: 2187 Rayburn House Office Building
+    rss_url: http://mica.house.gov/common/rss/index.cfm?rss=25
 - id:
     bioguide: M001149
     thomas: '01730'
@@ -20057,6 +20279,7 @@
     fax: 202-225-2943
     contact_form: https://forms.house.gov/michaud/webforms/issue_subscribe.htm
     office: 1724 Longworth House Office Building
+    rss_url: http://michaud.house.gov/rss.xml
 - id:
     bioguide: M000702
     thomas: '00802'
@@ -20219,6 +20442,7 @@
     fax: 202-226-1169
     contact_form: http://candicemiller.house.gov/Contact.aspx
     office: 320 Cannon House Office Building
+    rss_url: http://candicemiller.house.gov/rss.xml
 - id:
     bioguide: M001139
     thomas: '01584'
@@ -20303,6 +20527,7 @@
     fax: 202-226-6962
     contact_form: http://garymiller.house.gov/Contact/
     office: 2467 Rayburn House Office Building
+    rss_url: http://garymiller.house.gov/news/rss.aspx
 - id:
     bioguide: M000725
     thomas: '00808'
@@ -20459,6 +20684,7 @@
     fax: 202-225-5609
     contact_form: http://georgemiller.house.gov/contactus/2007/08/post_1.html
     office: 2205 Rayburn House Office Building
+    rss_url: http://georgemiller.house.gov/rss.xml
 - id:
     bioguide: M001144
     thomas: '01685'
@@ -20536,6 +20762,7 @@
     fax: 202-225-3414
     contact_form: http://jeffmiller.house.gov/index.cfm?FuseAction=Contact.Home
     office: 336 Cannon House Office Building
+    rss_url: http://jeffmiller.house.gov/news/rss.aspx
 - id:
     bioguide: M001160
     thomas: '01811'
@@ -20599,6 +20826,7 @@
     fax: 202-225-8135
     contact_form: http://www.house.gov/gwenmoore/contact.shtml
     office: 2245 Rayburn House Office Building
+    rss_url: http://gwenmoore.house.gov/common/rss/index.cfm?rss=49
 - id:
     bioguide: M000933
     thomas: '00832'
@@ -20709,6 +20937,7 @@
     fax: 202-225-0017
     contact_form: http://moran.house.gov/zipauth.shtml
     office: 2252 Rayburn House Office Building
+    rss_url: http://moran.house.gov/rss.xml
 - id:
     bioguide: M000934
     thomas: '01507'
@@ -20827,6 +21056,7 @@
     phone: 202-225-5501
     fax: 202-225-0464
     office: 1207 Longworth House Office Building
+    rss_url: http://mulvaney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: M001153
     thomas: '01694'
@@ -21005,6 +21235,7 @@
     fax: 202-225-1844
     contact_form: http://murphy.house.gov/Contact/zipauth.htm
     office: 2332 Rayburn House Office Building
+    rss_url: http://murphy.house.gov/common/rss/?rss=44
 - id:
     bioguide: M001111
     thomas: '01409'
@@ -21166,6 +21397,7 @@
     fax: 202-225-6923
     contact_form: http://www.house.gov/nadler/emailform.shtml
     office: 2110 Rayburn House Office Building
+    rss_url: http://nadler.house.gov/rss.xml
 - id:
     bioguide: N000179
     thomas: '01602'
@@ -21250,6 +21482,7 @@
     fax: 202-225-0027
     contact_form: http://www.napolitano.house.gov/contact/feedback.htm
     office: 1610 Longworth House Office Building
+    rss_url: http://napolitano.house.gov/rss.xml
 - id:
     bioguide: N000015
     thomas: '00854'
@@ -21365,6 +21598,7 @@
     fax: 202-225-8112
     contact_form: http://www.house.gov/neal/write_neal.html
     office: 2208 Rayburn House Office Building
+    rss_url: http://neal.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: N000182
     thomas: '01758'
@@ -21436,6 +21670,7 @@
     fax: 202-225-9615
     contact_form: http://www.randy.house.gov/?sectionid=65&sectiontree=8,65
     office: 1424 Longworth House Office Building
+    rss_url: http://randy.house.gov/rss.xml
 - id:
     bioguide: N000184
     thomas: '02060'
@@ -21476,6 +21711,7 @@
     phone: 202-225-2801
     fax: 202-225-5823
     office: 1323 Longworth House Office Building
+    rss_url: http://noem.house.gov/index.cfm/rss/feed
 - id:
     bioguide: N000147
     thomas: '00868'
@@ -21584,6 +21820,7 @@
     fax: 202-225-3002
     contact_form: http://www.norton.house.gov/forms/contact.html
     office: 2136 Rayburn House Office Building
+    rss_url: http://www.norton.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: N000185
     thomas: '02001'
@@ -21625,6 +21862,7 @@
     phone: 202-225-1002
     fax: 202- 226-6559
     office: 1727 Longworth House Office Building
+    rss_url: http://nugent.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: N000181
     thomas: '01710'
@@ -21696,6 +21934,7 @@
     fax: 202-225-3404
     contact_form: http://www.nunes.house.gov/index.cfm?FuseAction=ContactUs.ContactForm
     office: 1013 Longworth House Office Building
+    rss_url: http://nunes.house.gov/news/rss.aspx
 - id:
     bioguide: N000186
     thomas: '02034'
@@ -21736,6 +21975,7 @@
     phone: 202-225-4306
     fax: 202- 225-3549
     office: 1427 Longworth House Office Building
+    rss_url: http://nunnelee.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: O000168
     thomas: '01955'
@@ -21785,6 +22025,7 @@
     fax: 202-225-5241
     contact_form: https://forms.house.gov/olson/contact-form.shtml
     office: 312 Cannon House Office Building
+    rss_url: http://olson.house.gov/common/rss/?rss=82
 - id:
     bioguide: O000169
     thomas: '01974'
@@ -21835,6 +22076,7 @@
     fax: 202-226-0621
     contact_form: http://owens.house.gov/contact/email-me.shtml
     office: 405 Cannon House Office Building
+    rss_url: http://owens.house.gov/news/rss.aspx
 - id:
     bioguide: P000601
     thomas: '02035'
@@ -21876,6 +22118,7 @@
     phone: 202-225-5772
     fax: 202- 225-7074
     office: 331 Cannon House Office Building
+    rss_url: http://palazzo.house.gov/rss.xml
 - id:
     bioguide: P000034
     thomas: '00887'
@@ -21998,6 +22241,7 @@
     fax: 202-225-9665
     contact_form: http://www.house.gov/pallone/contact.shtml
     office: 237 Cannon House Office Building
+    rss_url: http://pallone.house.gov/rss.xml
 - id:
     bioguide: P000096
     thomas: '01510'
@@ -22089,6 +22333,7 @@
     fax: 202-225-5782
     contact_form: http://pascrell.house.gov/contact/
     office: 2370 Rayburn House Office Building
+    rss_url: http://www.house.gov/apps/list/press/nj08_pascrell/RSS.xml
 - id:
     bioguide: P000099
     thomas: '00893'
@@ -22195,6 +22440,7 @@
     fax: 202-225-1655
     contact_form: http://www.house.gov/writerep
     office: 2465 Rayburn House Office Building
+    rss_url: http://www.pastor.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: P000603
     thomas: '02082'
@@ -22275,6 +22521,7 @@
     fax: 202-225-6351
     contact_form: https://forms.house.gov/paulsen/contact-form.shtml
     office: 127 Cannon House Office Building
+    rss_url: http://paulsen.house.gov/common/rss//?rss=105
 - id:
     bioguide: P000588
     thomas: '01738'
@@ -22336,6 +22583,7 @@
     address: 2432 Rayburn HOB; Washington DC 20515-3102
     phone: 202-225-2365
     office: 2432 Rayburn House Office Building
+    rss_url: http://pearce.house.gov/rss.xml
 - id:
     bioguide: P000197
     thomas: '00905'
@@ -22456,6 +22704,7 @@
     fax: 202-225-8259
     contact_form: http://www.house.gov/pelosi/contact/contact.html
     office: 235 Cannon House Office Building
+    rss_url: http://pelosi.house.gov/atom.xml
 - id:
     bioguide: P000593
     thomas: '01835'
@@ -22512,6 +22761,7 @@
     fax: 202-225-5278
     contact_form: http://perlmutter.house.gov/IMA/issue_subscribe.htm
     office: 1410 Longworth House Office Building
+    rss_url: http://perlmutter.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: P000595
     thomas: '01929'
@@ -22562,6 +22812,7 @@
     fax: 202-226-2356
     contact_form: https://forms.house.gov/peters/contact-form.shtml
     office: 1609 Longworth House Office Building
+    rss_url: http://peters.house.gov/youtube-video-feed/youtube-video-feed/
 - id:
     bioguide: P000258
     thomas: '00910'
@@ -22670,6 +22921,7 @@
     fax: 202-225-1593
     contact_form: http://collinpeterson.house.gov//email.html
     office: 2109 Rayburn House Office Building
+    rss_url: http://collinpeterson.house.gov/rss.xml
 - id:
     bioguide: P000265
     thomas: '00912'
@@ -22816,6 +23068,7 @@
     fax: 202-225-2356
     contact_form: https://forms.house.gov/petri/zip_authen.shtml
     office: 2462 Rayburn House Office Building
+    rss_url: http://petri.house.gov/rss.xml
 - id:
     bioguide: P000596
     thomas: '01953'
@@ -22908,6 +23161,7 @@
     fax: 202-225-5590
     contact_form: https://forms.house.gov/pingree/contact-form.shtml
     office: 1318 Longworth House Office Building
+    rss_url: http://pingree.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: P000373
     thomas: '01514'
@@ -22998,6 +23252,7 @@
     fax: 202-225-2013
     contact_form: http://www.house.gov/pitts/contact.shtml
     office: 420 Cannon House Office Building
+    rss_url: http://pitts.house.gov/rss.xml
 - id:
     bioguide: P000592
     thomas: '01802'
@@ -23061,6 +23316,7 @@
     fax: 202-225-5547
     contact_form: http://poe.house.gov/email/
     office: 2412 Rayburn House Office Building
+    rss_url: http://poe.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: P000598
     thomas: '01910'
@@ -23110,6 +23366,7 @@
     fax: 202-226-7840
     contact_form: http://polis.house.gov/Contact/
     office: 1433 Longworth House Office Building
+    rss_url: http://polis.house.gov/news/rss.aspx
 - id:
     bioguide: P000602
     thomas: '02022'
@@ -23149,6 +23406,7 @@
     phone: 202-225-6216
     fax: 202-225-3489
     office: 107 Cannon House Office Building
+    rss_url: http://pompeo.house.gov/news/rss.aspx
 - id:
     bioguide: P000449
     thomas: '00924'
@@ -23275,6 +23533,7 @@
     fax: 202-225-3516
     contact_form: http://posey.house.gov/Contact/
     office: 120 Cannon House Office Building
+    rss_url: http://posey.house.gov/news/rss.aspx?DocumentTypeID=1487
 - id:
     bioguide: P000523
     thomas: '00930'
@@ -23390,6 +23649,7 @@
     fax: 202-225-2014
     contact_form: http://price.house.gov/contact/contact_form.shtml
     office: 2162 Rayburn House Office Building
+    rss_url: http://price.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: P000591
     thomas: '01778'
@@ -23452,6 +23712,7 @@
     fax: 202-225-4656
     contact_form: http://tom.house.gov/html/contact_form_email.cfm
     office: 100 Cannon House Office Building
+    rss_url: http://tomprice.house.gov/rss.xml
 - id:
     bioguide: Q000023
     thomas: '01967'
@@ -23501,6 +23762,7 @@
     fax: 202-225-5603
     contact_form: https://forms.house.gov/quigley/contact-form.shtml
     office: 1124 Longworth House Office Building
+    rss_url: http://quigley.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: R000011
     thomas: '00940'
@@ -23653,6 +23915,7 @@
     fax: 202-225-9061
     contact_form: http://www.rahall.house.gov/?sectionid=9&sectiontree=9
     office: 2307 Rayburn House Office Building
+    rss_url: http://rahall.house.gov/rss.xml
 - id:
     bioguide: R000053
     thomas: '00944'
@@ -23822,6 +24085,7 @@
     fax: 202-225-0816
     contact_form: https://forms.house.gov/rangel/forms/contact.shtml
     office: 2354 Rayburn House Office Building
+    rss_url: http://rangel.house.gov/rss.xml
 - id:
     bioguide: R000585
     thomas: '01982'
@@ -23870,6 +24134,7 @@
     phone: 202-225-3161
     fax: 202-226-6599
     office: 1504 Longworth House Office Building
+    rss_url: http://reed.house.gov/rss.xml
 - id:
     bioguide: R000578
     thomas: '01810'
@@ -23933,6 +24198,7 @@
     fax: 202-225-4282
     contact_form: http://reichert.house.gov/Contact/ZipAuth.htm
     office: 1127 Longworth House Office Building
+    rss_url: http://reichert.house.gov/rss.xml
 - id:
     bioguide: R000146
     thomas: '00952'
@@ -24047,6 +24313,7 @@
     phone: 202-225-3876
     fax: 202-225-3059
     office: 130 Cannon House Office Building
+    rss_url: http://renacci.house.gov/common/rss//index.cfm?rss=25
 - id:
     bioguide: R000587
     thomas: '02073'
@@ -24088,6 +24355,7 @@
     phone: 202-225-5665
     fax: 202- 225-5729
     office: 1513 Longworth House Office Building
+    rss_url: http://ribble.house.gov/rss.xml
 - id:
     bioguide: R000588
     thomas: '02023'
@@ -24129,6 +24397,7 @@
     phone: 202-225-6636
     fax: 202- 225-1988
     office: 240 Cannon House Office Building
+    rss_url: http://richmond.house.gov/rss.xml
 - id:
     bioguide: R000589
     thomas: '02068'
@@ -24170,6 +24439,7 @@
     phone: 202-225-4215
     fax: 202-225-4218
     office: 418 Cannon House Office Building
+    rss_url: http://rigell.house.gov/news/rss.aspx
 - id:
     bioguide: R000591
     thomas: '01986'
@@ -24210,6 +24480,7 @@
     phone: 202-225-2901
     fax: 202-225-8913
     office: 428 Cannon House Office Building
+    rss_url: http://roby.house.gov/rss.xml
 - id:
     bioguide: R000582
     thomas: '01954'
@@ -24399,6 +24670,7 @@
     fax: 202-225-0940
     contact_form: http://halrogers.house.gov/Contact.aspx
     office: 2406 Rayburn House Office Building
+    rss_url: http://halrogers.house.gov/news/rss.aspx
 - id:
     bioguide: R000572
     thomas: '01651'
@@ -24474,6 +24746,7 @@
     fax: 202-225-5820
     contact_form: http://www.mikerogers.house.gov/Contact.aspx
     office: 2112 Rayburn House Office Building
+    rss_url: http://mikerogers.house.gov/news/rss.aspx
 - id:
     bioguide: R000575
     thomas: '01704'
@@ -24544,6 +24817,7 @@
     fax: 202-226-8485
     contact_form: http://www.house.gov/mike-rogers/contact.shtml
     office: 324 Cannon House Office Building
+    rss_url: http://mike-rogers.house.gov/rss.xml
 - id:
     bioguide: R000409
     thomas: '00979'
@@ -24658,6 +24932,7 @@
     fax: 202-225-0145
     contact_form: http://rohrabacher.house.gov/Contact/Zip.htm
     office: 2300 Rayburn House Office Building
+    rss_url: http://rohrabacher.house.gov/rss.xml
 - id:
     bioguide: R000592
     thomas: '02017'
@@ -24696,6 +24971,7 @@
     address: 236 Cannon HOB; Washington DC 20515-1404
     phone: 202-225-5037
     office: 236 Cannon House Office Building
+    rss_url: http://rokita.house.gov/rss.xml
 - id:
     bioguide: R000583
     thomas: '01916'
@@ -24746,6 +25022,7 @@
     fax: 202-225-3132
     contact_form: https://forms.house.gov/rooney/contact-form.shtml
     office: 221 Cannon House Office Building
+    rss_url: http://rooney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: R000435
     thomas: '00985'
@@ -24860,6 +25137,7 @@
     fax: 202-225-5620
     contact_form: http://www.house.gov/writerep
     office: 2206 Rayburn House Office Building
+    rss_url: http://ros-lehtinen.house.gov/rss.xml
 - id:
     bioguide: R000580
     thomas: '01848'
@@ -24917,6 +25195,7 @@
     fax: 202-225-1166
     contact_form: http://www.house.gov/writerep
     office: 227 Cannon House Office Building
+    rss_url: http://roskam.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: R000593
     thomas: '02003'
@@ -24958,6 +25237,7 @@
     phone: 202-225-1252
     fax: 202- 226-0585
     office: 229 Cannon House Office Building
+    rss_url: http://dennisross.house.gov/news/rss.aspx
 - id:
     bioguide: R000486
     thomas: '00997'
@@ -25059,6 +25339,7 @@
     fax: 202-226-0350
     contact_form: http://www.house.gov/writerep
     office: 2330 Rayburn House Office Building
+    rss_url: http://roybal-allard.house.gov/News/Rss.aspx
 - id:
     bioguide: R000487
     thomas: '00998'
@@ -25162,6 +25443,7 @@
     fax: 202-226-0335
     contact_form: http://www.house.gov/writerep
     office: 2185 Rayburn House Office Building
+    rss_url: http://royce.house.gov/News/Rss.aspx
 - id:
     bioguide: R000595
     thomas: '02084'
@@ -25233,6 +25515,7 @@
     phone: 202-225-4765
     fax: 202-225-0778
     office: 1239 Longworth House Office Building
+    rss_url: http://runyan.house.gov/rss.xml
 - id:
     bioguide: R000576
     thomas: '01728'
@@ -25305,6 +25588,7 @@
     fax: 202-225-3094
     contact_form: http://dutch.house.gov/writedutch_za.shtml
     office: 2416 Rayburn House Office Building
+    rss_url: http://dutch.house.gov/atom.xml
 - id:
     bioguide: R000515
     thomas: '01003'
@@ -25407,6 +25691,7 @@
     fax: 202-226-0333
     contact_form: http://www.house.gov/rush/zipauth.shtml
     office: 2268 Rayburn House Office Building
+    rss_url: http://rush.house.gov/rss.xml
 - id:
     bioguide: R000570
     thomas: '01560'
@@ -25491,6 +25776,7 @@
     fax: 202-225-3393
     contact_form: http://www.house.gov/ryan/email.htm
     office: 1233 Longworth House Office Building
+    rss_url: http://paulryan.house.gov/news/rss.aspx
 - id:
     bioguide: R000577
     thomas: '01756'
@@ -25563,6 +25849,7 @@
     fax: 202-225-3719
     contact_form: http://timryan.house.gov/index.php?option=com_content&task=view&id=129&Itemid=42
     office: 1421 Longworth House Office Building
+    rss_url: http://timryan.house.gov/rss.xml
 - id:
     bioguide: S001177
     thomas: '01962'
@@ -25613,6 +25900,7 @@
     fax: 202-226-4249
     contact_form: https://forms.house.gov/sablan/contact-form.shtml
     office: 423 Cannon House Office Building
+    rss_url: http://sablan.house.gov/rss.xml
 - id:
     bioguide: S000030
     thomas: '01522'
@@ -25703,6 +25991,7 @@
     fax: 202-225-5859
     contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&task=view&id=218&Itemid=17
     office: 1114 Longworth House Office Building
+    rss_url: http://lorettasanchez.house.gov/rss.xml
 - id:
     bioguide: S001168
     thomas: '01854'
@@ -25760,6 +26049,7 @@
     fax: 202-225-9219
     contact_form: http://sarbanes.house.gov/federal.asp
     office: 2444 Rayburn House Office Building
+    rss_url: http://sarbanes.house.gov/rss_news.asp
 - id:
     bioguide: S001176
     thomas: '01892'
@@ -25817,6 +26107,7 @@
     fax: 202-226-0386
     contact_form: http://www.scalise.house.gov/contactform_zipcheck.shtml
     office: 2338 Rayburn House Office Building
+    rss_url: http://scalise.house.gov/rss.xml
 - id:
     bioguide: S001145
     thomas: '01588'
@@ -25902,6 +26193,7 @@
     fax: 202-226-6890
     contact_form: http://www.house.gov/schakowsky/contact.shtml
     office: 2367 Rayburn House Office Building
+    rss_url: http://schakowsky.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: S001150
     thomas: '01635'
@@ -25979,6 +26271,7 @@
     fax: 202-225-5828
     contact_form: http://schiff.house.gov/HoR/CA29/Contact+Information/Contact+Form.htm
     office: 2411 Rayburn House Office Building
+    rss_url: http://schiff.house.gov/common/rss/?rss=49
 - id:
     bioguide: S001179
     thomas: '01920'
@@ -26028,6 +26321,7 @@
     fax: 202-225-9249
     contact_form: https://forms.house.gov/schock/contact-form.shtml
     office: 328 Cannon House Office Building
+    rss_url: http://schock.house.gov/news/rss.aspx
 - id:
     bioguide: S001180
     thomas: '01950'
@@ -26077,6 +26371,7 @@
     fax: 202-225-5699
     contact_form: https://forms.house.gov/schrader/contact-form.shtml
     office: 108 Cannon House Office Building
+    rss_url: http://schrader.house.gov/news/rss.aspx
 - id:
     bioguide: S000148
     thomas: '01036'
@@ -26242,6 +26537,7 @@
     fax: 202-226-0611
     contact_form: http://schwartz.house.gov/issue_subscribe.shtml
     office: 1227 Longworth House Office Building
+    rss_url: http://schwartz.house.gov/rss.xml
 - id:
     bioguide: S001183
     thomas: '01994'
@@ -26280,6 +26576,7 @@
     address: 1205 Longworth HOB; Washington DC 20515-0305
     phone: 202-225-2190
     office: 1205 Longworth House Office Building
+    rss_url: http://schweikert.house.gov/rss/press-releases.xml
 - id:
     bioguide: S001189
     thomas: '02009'
@@ -26320,6 +26617,7 @@
     phone: 202-225-6531
     fax: 202-225-3013
     office: 516 Cannon House Office Building
+    rss_url: http://austinscott.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: S001157
     thomas: '01722'
@@ -26391,6 +26689,7 @@
     fax: 202-225-4628
     contact_form: http://www.house.gov/writerep
     office: 225 Cannon House Office Building
+    rss_url: http://davidscott.house.gov/news/rss.aspx
 - id:
     bioguide: S000185
     thomas: '01037'
@@ -26494,6 +26793,7 @@
     fax: 202-225-8354
     contact_form: http://www.house.gov/writerep
     office: 1201 Longworth House Office Building
+    rss_url: http://www.bobbyscott.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: S001184
     thomas: '02056'
@@ -26683,6 +26983,7 @@
     fax: 202-225-3190
     contact_form: http://sensenbrenner.house.gov/email_zip.htm
     office: 2449 Rayburn House Office Building
+    rss_url: http://sensenbrenner.house.gov/news/rss.aspx
 - id:
     bioguide: S000248
     thomas: '01042'
@@ -26798,6 +27099,7 @@
     fax: 202-225-6001
     contact_form: http://serrano.house.gov/Forms/Contact.aspx
     office: 2227 Rayburn House Office Building
+    rss_url: http://serrano.house.gov/rss.xml
 - id:
     bioguide: S000250
     thomas: '01525'
@@ -26888,6 +27190,7 @@
     fax: 202-225-5878
     contact_form: http://www.house.gov/sessionsform/emailform.htm
     office: 2233 Rayburn House Office Building
+    rss_url: http://sessions.house.gov/?a=RSS.Feed
 - id:
     bioguide: S001185
     thomas: '01988'
@@ -26929,6 +27232,7 @@
     phone: 202-225-2665
     fax: 202-226-9567
     office: 1133 Longworth House Office Building
+    rss_url: http://sewell.house.gov/rss.xml
 - id:
     bioguide: S000320
     thomas: '01049'
@@ -27103,6 +27407,7 @@
     fax: 202-225-5879
     contact_form: http://www.house.gov/sherman/contact/
     office: 2242 Rayburn House Office Building
+    rss_url: http://bradsherman.house.gov/atom.xml
 - id:
     bioguide: S000364
     thomas: '01527'
@@ -27269,6 +27574,7 @@
     fax: 202-225-2486
     contact_form: http://www.house.gov/shuster/zipauth.htm
     office: 2209 Rayburn House Office Building
+    rss_url: http://shuster.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: S001148
     thomas: '01590'
@@ -27354,6 +27660,7 @@
     fax: 202-225-8216
     contact_form: http://www.house.gov/simpson/emailme.shtml
     office: 2312 Rayburn House Office Building
+    rss_url: http://simpson.house.gov/news/rss.aspx
 - id:
     bioguide: S001165
     thomas: '01818'
@@ -27416,6 +27723,7 @@
     fax: 202-226-0792
     contact_form: https://forms.house.gov/sires/webforms/issue_subscribe.htm
     office: 2342 Rayburn House Office Building
+    rss_url: http://sires.house.gov/rss.xml
 - id:
     bioguide: S000480
     thomas: '01069'
@@ -27537,6 +27845,7 @@
     fax: 202-225-7822
     contact_form: http://www.louise.house.gov/index.php?option=com_content&task=view&id=506&Itemid=150
     office: 2469 Rayburn House Office Building
+    rss_url: http://www.louise.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: S000510
     thomas: '01528'
@@ -27626,6 +27935,7 @@
     fax: 202-225-5893
     contact_form: http://adamsmith.house.gov/Contact/
     office: 2264 Rayburn House Office Building
+    rss_url: http://adamsmith.house.gov/news/rss.aspx
 - id:
     bioguide: S001172
     thomas: '01860'
@@ -27682,6 +27992,7 @@
     fax: 202-225-0207
     contact_form: http://www.house.gov/formadriansmith/issues_subscribe.htm
     office: 2241 Rayburn House Office Building
+    rss_url: http://adriansmith.house.gov/rss.xml
 - id:
     bioguide: S000522
     thomas: '01071'
@@ -27822,6 +28133,7 @@
     fax: 202-225-7768
     contact_form: http://chrissmith.house.gov/zipauth.html
     office: 2373 Rayburn House Office Building
+    rss_url: http://chrissmith.house.gov/News/Rss.aspx
 - id:
     bioguide: S000583
     thomas: '01075'
@@ -27943,6 +28255,7 @@
     fax: 202-225-8628
     contact_form: http://lamarsmith.house.gov/contact.aspx?section=Mail
     office: 2409 Rayburn House Office Building
+    rss_url: http://lamarsmith.house.gov/news/rss.aspx
 - id:
     bioguide: S001186
     thomas: '02000'
@@ -27983,6 +28296,7 @@
     phone: 202-225-5235
     fax: 202-225-5615
     office: 1229 Longworth House Office Building
+    rss_url: http://southerland.house.gov/index.cfm/rss/feed
 - id:
     bioguide: S001175
     thomas: '01890'
@@ -28039,6 +28353,7 @@
     fax: 202-347-0956
     contact_form: http://speier.house.gov/IMA/issue_subscribe.htm
     office: 211 Cannon House Office Building
+    rss_url: http://speier.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: S001187
     thomas: '02047'
@@ -28079,6 +28394,7 @@
     phone: 202-225-2015
     fax: 202-225-3529
     office: 1022 Longworth House Office Building
+    rss_url: http://stivers.house.gov/news/rss.aspx
 - id:
     bioguide: S001188
     thomas: '01981'
@@ -28127,6 +28443,7 @@
     phone: 202-225-4436
     fax: 202-225-3479
     office: 1728 Longworth House Office Building
+    rss_url: http://stutzman.house.gov/press_releases.rss
 - id:
     bioguide: S001156
     thomas: '01757'
@@ -28199,6 +28516,7 @@
     fax: 202-226-1012
     contact_form: http://www.house.gov/writerep
     office: 2423 Rayburn House Office Building
+    rss_url: http://lindasanchez.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: T000459
     thomas: '01566'
@@ -28283,6 +28601,7 @@
     fax: 202-226-5452
     contact_form: http://www.house.gov/formleeterry/IMA/issue.htm
     office: 2266 Rayburn House Office Building
+    rss_url: http://leeterry.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: T000193
     thomas: '01151'
@@ -28385,6 +28704,7 @@
     fax: 202-225-5898
     contact_form: https://forms.house.gov/benniethompson/contact-form.shtml
     office: 2466 Rayburn House Office Building
+    rss_url: http://benniethompson.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: T000460
     thomas: '01593'
@@ -28469,6 +28789,7 @@
     fax: 202-225-4335
     contact_form: http://mikethompson.house.gov/contact/email.shtml
     office: 231 Cannon House Office Building
+    rss_url: http://mikethompson.house.gov/news/rss.aspx
 - id:
     bioguide: T000467
     thomas: '01952'
@@ -28518,6 +28839,7 @@
     fax: 202-225-5796
     contact_form: https://forms.house.gov/thompson/contact-form.shtml
     office: 124 Cannon House Office Building
+    rss_url: http://thompson.house.gov/rss.xml
 - id:
     bioguide: T000238
     thomas: '01155'
@@ -28750,6 +29072,7 @@
     fax: 202-226-4523
     contact_form: http://www.house.gov/writerep
     office: 106 Cannon House Office Building
+    rss_url: http://tiberi.house.gov/news/rss.aspx
 - id:
     bioguide: T000266
     thomas: '01535'
@@ -28839,6 +29162,7 @@
     fax: 202-225-5915
     contact_form: http://www.house.gov/tierney/IMA/email.shtml
     office: 2238 Rayburn House Office Building
+    rss_url: http://tierney.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: T000470
     thomas: '01997'
@@ -28880,6 +29204,7 @@
     phone: 202-225-4761
     fax: 202-226-9669
     office: 218 Cannon House Office Building
+    rss_url: http://tipton.house.gov/rss.xml
 - id:
     bioguide: T000469
     thomas: '01942'
@@ -29038,6 +29363,7 @@
     fax: 202-226-0771
     contact_form: http://tsongas.house.gov/?sectionid=11&sectiontree=3,11
     office: 1607 Longworth House Office Building
+    rss_url: http://tsongas.house.gov/rss/press-releases.xml
 - id:
     bioguide: T000463
     thomas: '01741'
@@ -29109,6 +29435,7 @@
     fax: 202-225-6754
     contact_form: http://turner.house.gov/Contact/
     office: 2239 Rayburn House Office Building
+    rss_url: http://turner.house.gov/news/rss.aspx
 - id:
     bioguide: U000031
     thomas: '01177'
@@ -29229,6 +29556,7 @@
     fax: 202-225-4986
     contact_form: http://www.house.gov/writerep
     office: 2183 Rayburn House Office Building
+    rss_url: http://upton.house.gov/news/rss.aspx
 - id:
     bioguide: V000128
     thomas: '01729'
@@ -29300,6 +29628,7 @@
     fax: 202-225-0375
     contact_form: http://vanhollen.house.gov/HoR/MD08/Contact+Information/Web+Contact/Contact+Form.htm
     office: 1707 Longworth House Office Building
+    rss_url: http://vanhollen.house.gov/news/rss.aspx
 - id:
     bioguide: V000081
     thomas: '01184'
@@ -29529,6 +29858,7 @@
     fax: 202-225-2493
     contact_form: http://www.house.gov/writerep
     office: 2256 Rayburn House Office Building
+    rss_url: http://visclosky.house.gov/rss.xml
 - id:
     bioguide: V000127
     thomas: '01609'
@@ -29635,6 +29965,7 @@
     phone: 202-225-6276
     fax: 202-225-6281
     office: 2436 Rayburn House Office Building
+    rss_url: http://walberg.house.gov/news/rss.aspx
 - id:
     bioguide: W000791
     thomas: '01596'
@@ -29776,6 +30107,7 @@
     fax: 202-225-3433
     contact_form: http://walz.house.gov/zip_auth.shtm
     office: 1034 Longworth House Office Building
+    rss_url: http://walz.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: W000797
     thomas: '01777'
@@ -29839,6 +30171,7 @@
     fax: 202-225-2052
     contact_form: http://wassermanschultz.house.gov/zipauth.htm
     office: 118 Cannon House Office Building
+    rss_url: http://wassermanschultz.house.gov/atom.xml
 - id:
     bioguide: W000187
     thomas: '01205'
@@ -29946,6 +30279,7 @@
     fax: 202-225-7854
     contact_form: http://www.house.gov/waters/IMA/issue.htm
     office: 2221 Rayburn House Office Building
+    rss_url: http://waters.house.gov/news/rss.aspx
 - id:
     bioguide: W000207
     thomas: '01207'
@@ -30049,6 +30383,7 @@
     fax: 202-225-1512
     contact_form: http://www.house.gov/formwatt/IMA/issue_subscribe.htm
     office: 2304 Rayburn House Office Building
+    rss_url: http://watt.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: W000215
     thomas: '01209'
@@ -30205,6 +30540,7 @@
     fax: 202-225-4099
     contact_form: http://waxman.house.gov/Contact/
     office: 2204 Rayburn House Office Building
+    rss_url: http://waxman.house.gov/rss.xml
 - id:
     bioguide: W000806
     thomas: '02002'
@@ -30244,6 +30580,7 @@
     phone: 202-225-2176
     fax: 202-225-0999
     office: 1039 Longworth House Office Building
+    rss_url: http://webster.house.gov/news/rss.aspx
 - id:
     bioguide: W000800
     thomas: '01879'
@@ -30300,6 +30637,7 @@
     fax: 202-225-6790
     contact_form: http://www.house.gov/formwelch/issue_subscribe.htm
     office: 2303 Rayburn House Office Building
+    rss_url: http://www.welch.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: W000796
     thomas: '01779'
@@ -30363,6 +30701,7 @@
     fax: 202-225-2515
     contact_form: http://www.house.gov/writerep
     office: 2433 Rayburn House Office Building
+    rss_url: http://westmoreland.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: W000413
     thomas: '01222'
@@ -30458,6 +30797,7 @@
     fax: 202-225-3547
     contact_form: http://whitfield.house.gov/contact/index.shtml
     office: 2184 Rayburn House Office Building
+    rss_url: http://whitfield.house.gov/rss.xml
 - id:
     bioguide: W000795
     thomas: '01688'
@@ -30536,6 +30876,7 @@
     fax: 202-225-2455
     contact_form: http://www.house.gov/formwilson/IMA/issue.htm
     office: 2229 Rayburn House Office Building
+    rss_url: http://joewilson.house.gov/news/rss.aspx
 - id:
     bioguide: W000808
     thomas: '02004'
@@ -30577,6 +30918,7 @@
     phone: 202-225-4506
     fax: 202-226-0777
     office: 208 Cannon House Office Building
+    rss_url: http://wilson.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: W000804
     thomas: '01886'
@@ -30635,6 +30977,7 @@
     fax: 202-225-4382
     contact_form: https://forms.house.gov/wittman/IMA/webforms/issue_subscribe.htm
     office: 2454 Rayburn House Office Building
+    rss_url: http://www.wittman.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: W000672
     thomas: '01238'
@@ -30774,6 +31117,7 @@
     fax: 202-225-0437
     contact_form: http://www.house.gov/formwolf/contact_email/emailzip.shtml
     office: 233 Cannon House Office Building
+    rss_url: http://wolf.house.gov/common/rss//index.cfm?rss=34
 - id:
     bioguide: W000809
     thomas: '01991'
@@ -30814,6 +31158,7 @@
     phone: 202-225-4301
     fax: 202-225-5713
     office: 1119 Longworth House Office Building
+    rss_url: http://womack.house.gov/news/rss.aspx
 - id:
     bioguide: W000810
     thomas: '02008'
@@ -30854,6 +31199,7 @@
     phone: 202-225-4272
     fax: 202-225-4696
     office: 1725 Longworth House Office Building
+    rss_url: http://woodall.house.gov/rss.xml
 - id:
     bioguide: W000779
     thomas: '01247'
@@ -31052,6 +31398,7 @@
     phone: 202-225-2865
     fax: 202- 225-2807
     office: 215 Cannon House Office Building
+    rss_url: http://yoder.house.gov/common/rss/index.cfm?rss=49
 - id:
     bioguide: Y000031
     thomas: '01255'
@@ -31221,6 +31568,7 @@
     fax: 202-225-9764
     contact_form: http://www.house.gov/writerep
     office: 2407 Rayburn House Office Building
+    rss_url: http://young.house.gov/rss.xml
 - id:
     bioguide: Y000033
     thomas: '01256'
@@ -31384,6 +31732,7 @@
     fax: 202-225-0425
     contact_form: http://donyoung.house.gov/Contact/
     office: 2314 Rayburn House Office Building
+    rss_url: http://donyoung.house.gov/news/rss.aspx
 - id:
     bioguide: Y000064
     thomas: '02019'
@@ -31425,6 +31774,7 @@
     phone: 202-225-5315
     fax: 202-226-6866
     office: 1007 Longworth House Office Building
+    rss_url: http://toddyoung.house.gov/common/rss//index.cfm?rss=49
 - id:
     bioguide: H001041
     thomas: '01863'
@@ -31489,6 +31839,7 @@
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
     office: 361a Russell Senate Office Building
     state_rank: junior
+    rss_url: http://heller.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: H001063
     thomas: '02089'
@@ -31531,6 +31882,7 @@
     fax: 202-226-7290
     contact_form: https://hahn.house.gov/contact-me/email-me
     office: 404 Cannon House Office Building
+    rss_url: http://hahn.house.gov/rss.xml
 - id:
     bioguide: A000369
     thomas: '02090'
@@ -31574,6 +31926,7 @@
     fax: 202-225-5679
     contact_form: https://amodei.house.gov/contact-me
     office: 222 Cannon House Office Building
+    rss_url: http://amodei.house.gov/common/rss//?rss=49
 - id:
     bioguide: B001278
     thomas: '02092'
@@ -31614,6 +31967,7 @@
     phone: 202-225-0855
     contact_form: https://bonamici.house.gov/contact-me
     office: 439 Cannon House Office Building
+    rss_url: http://bonamici.house.gov/rss.xml
 - id:
     bioguide: B001279
     thomas: '02093'
@@ -31656,6 +32010,7 @@
     fax: 202-225-0378
     contact_form: https://barber.house.gov/contact-me/email-me
     office: 1029 Longworth House Office Building
+    rss_url: http://barber.house.gov/rss.xml
 - id:
     bioguide: D000617
     govtrack: 412505
@@ -31693,6 +32048,7 @@
     address: 318 Cannon HOB; Washington DC 20515-4701
     phone: 202-225-6311
     office: 318 Cannon House Office Building
+    rss_url: http://delbene.house.gov/rss.xml
 - id:
     bioguide: M001184
     govtrack: 412503
@@ -31729,6 +32085,7 @@
     address: 314 Cannon HOB; Washington DC 20515-1704
     phone: 202-225-3465
     office: 314 Cannon House Office Building
+    rss_url: http://massie.house.gov/rss.xml
 - id:
     bioguide: P000604
     govtrack: 412506
@@ -31766,6 +32123,7 @@
     phone: 202-225-3436
     office: 103 Cannon House Office Building
     url: http://payne.house.gov
+    rss_url: http://payne.house.gov/rss.xml
 - id:
     lis: S353
     thomas: '02173'
@@ -31838,6 +32196,7 @@
     address: 2349 Rayburn HOB; Washington DC 20515-6601
     phone: 202-225-2635
     url: http://salmon.house.gov
+    rss_url: http://salmon.house.gov/rss.xml
 - id:
     bioguide: S000937
     thomas: '01114'
@@ -31868,6 +32227,7 @@
     address: 326 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-1555
     url: http://stockman.house.gov
+    rss_url: http://stockman.house.gov/rss.xml
 - id:
     bioguide: S001170
     thomas: '01861'
@@ -31910,6 +32270,7 @@
     office: 1530 Longworth House Office Building
     address: 1530 Longworth HOB; Washington DC 20515-2901
     phone: 202-225-5456
+    rss_url: http://shea-porter.house.gov/rss.xml
 - id:
     bioguide: F000454
     thomas: '01888'
@@ -31952,6 +32313,7 @@
     office: 1224 Longworth House Office Building
     address: 1224 Longworth HOB; Washington DC 20515-3808
     phone: 202-225-3515
+    rss_url: http://foster.house.gov/rss.xml
 - id:
     bioguide: G000556
     thomas: '01914'
@@ -31987,6 +32349,7 @@
     office: 430 Cannon House Office Building
     address: 430 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-9889
+    rss_url: http://grayson.house.gov/rss.xml
 - id:
     bioguide: K000368
     thomas: '01907'
@@ -32022,6 +32385,7 @@
     office: 330 Cannon House Office Building
     address: 330 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-3361
+    rss_url: http://kirkpatrick.house.gov/rss.xml
 - id:
     bioguide: M001171
     thomas: '01943'
@@ -32058,6 +32422,7 @@
     office: 422 Cannon House Office Building
     address: 422 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-3701
+    rss_url: http://maffei.house.gov/rss.xml
 - id:
     bioguide: T000468
     thomas: '01940'
@@ -32093,6 +32458,7 @@
     office: 401 Cannon House Office Building
     address: 401 Cannon HOB; Washington DC 20515-2801
     phone: 202-225-5965
+    rss_url: http://titus.house.gov/rss.xml
 - id:
     govtrack: 412508
     bioguide: C001095
@@ -32117,6 +32483,7 @@
     address: 415 Cannon HOB; Washington DC 20515-0404
     phone: 202-225-3772
     url: http://cotton.house.gov
+    rss_url: http://cotton.house.gov/rss.xml
 - id:
     govtrack: 412509
     bioguide: S001191
@@ -32143,6 +32510,7 @@
     address: 1237 Longworth HOB; Washington DC 20515-0302
     phone: 202-225-9888
     url: http://sinema.house.gov
+    rss_url: http://sinema.house.gov/rss.xml
 - id:
     govtrack: 412510
     bioguide: L000578
@@ -32168,6 +32536,7 @@
     address: 506 Cannon HOB; Washington DC 20515-0912
     phone: 202-225-3076
     url: http://lamalfa.house.gov
+    rss_url: http://lamalfa.house.gov/rss.xml
 - id:
     govtrack: 412511
     bioguide: H001068
@@ -32192,6 +32561,7 @@
     address: 1630 Longworth HOB; Washington DC 20515-2002
     phone: 202-225-5161
     url: http://huffman.house.gov
+    rss_url: http://huffman.house.gov/rss.xml
 - id:
     govtrack: 412512
     bioguide: B001287
@@ -32215,6 +32585,7 @@
     address: 1408 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5716
     url: http://bera.house.gov
+    rss_url: http://bera.house.gov/rss.xml
 - id:
     govtrack: 412513
     bioguide: C001094
@@ -32241,6 +32612,7 @@
     address: 1222 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5861
     url: http://cook.house.gov
+    rss_url: http://cook.house.gov/rss.xml
 - id:
     govtrack: 412514
     bioguide: S001193
@@ -32267,6 +32639,7 @@
     address: 501 Cannon HOB; Washington DC 20515-3604
     phone: 202-225-5065
     url: http://swalwell.house.gov
+    rss_url: http://swalwell.house.gov/rss.xml
 - id:
     govtrack: 412515
     bioguide: V000129
@@ -32292,6 +32665,7 @@
     address: 1004 Longworth HOB; Washington DC 20515-1703
     phone: 202-225-4695
     url: http://valadao.house.gov
+    rss_url: http://valadao.house.gov/rss.xml
 - id:
     govtrack: 412516
     bioguide: B001285
@@ -32317,6 +32691,7 @@
     address: 1019 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5811
     url: http://juliabrownley.house.gov
+    rss_url: http://juliabrownley.house.gov/rss.xml
 - id:
     govtrack: 412517
     bioguide: C001097
@@ -32341,6 +32716,7 @@
     address: 1508 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-6131
     url: http://cardenas.house.gov
+    rss_url: http://cardenas.house.gov/rss.xml
 - id:
     govtrack: 412518
     bioguide: N000187
@@ -32367,6 +32743,7 @@
     address: 1641 Longworth HOB; Washington DC 20515-3005
     phone: 202-225-6161
     url: http://negretemcleod.house.gov
+    rss_url: http://negretemcleod.house.gov/rss.xml
 - id:
     govtrack: 412519
     bioguide: R000599
@@ -32391,6 +32768,7 @@
     address: 1319 Longworth HOB; Washington DC 20515-1305
     phone: 202-225-5330
     url: http://ruiz.house.gov
+    rss_url: http://ruiz.house.gov/rss.xml
 - id:
     govtrack: 412520
     bioguide: T000472
@@ -32415,6 +32793,7 @@
     address: 1507 Longworth HOB; Washington DC 20515-4328
     phone: 202-225-2305
     url: http://takano.house.gov
+    rss_url: http://takano.house.gov/rss.xml
 - id:
     govtrack: 412521
     bioguide: L000579
@@ -32440,6 +32819,7 @@
     address: 515 Cannon HOB; Washington DC 20515-1309
     phone: 202-225-7924
     url: http://lowenthal.house.gov
+    rss_url: http://lowenthal.house.gov/rss.xml
 - id:
     govtrack: 412522
     bioguide: V000130
@@ -32464,6 +32844,7 @@
     address: 1605 Longworth HOB; Washington DC 20515-1406
     phone: 202-225-8045
     url: http://vargas.house.gov
+    rss_url: http://vargas.house.gov/rss.xml
 - id:
     govtrack: 412523
     bioguide: P000608
@@ -32490,6 +32871,7 @@
     address: 2410 Rayburn HOB; Washington DC 20515-0504
     phone: 202-225-0508
     url: http://scottpeters.house.gov
+    rss_url: http://scottpeters.house.gov/rss.xml
 - id:
     govtrack: 412524
     bioguide: E000293
@@ -32516,6 +32898,7 @@
     address: 509 Cannon HOB; Washington DC 20515-0705
     phone: 202-225-4476
     url: http://esty.house.gov
+    rss_url: http://esty.house.gov/rss.xml
 - id:
     govtrack: 412525
     bioguide: Y000065
@@ -32542,6 +32925,7 @@
     address: 511 Cannon HOB; Washington DC 20515-0607
     phone: 202-225-5744
     url: http://yoho.house.gov
+    rss_url: http://yoho.house.gov/rss.xml
 - id:
     govtrack: 412526
     bioguide: D000621
@@ -32566,6 +32950,7 @@
     address: 427 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-2706
     url: http://desantis.house.gov
+    rss_url: http://desantis.house.gov/rss.xml
 - id:
     govtrack: 412527
     bioguide: M001191
@@ -32592,6 +32977,7 @@
     address: 1517 Longworth HOB; Washington DC 20515-1004
     phone: 202-225-3026
     url: http://patrickmurphy.house.gov
+    rss_url: http://patrickmurphy.house.gov/news/rss.aspx
 - id:
     govtrack: 412528
     bioguide: R000596
@@ -32617,6 +33003,7 @@
     address: 1123 Longworth HOB; Washington DC 20515-4601
     phone: 202-225-2536
     url: http://radel.house.gov
+    rss_url: http://radel.house.gov/rss.xml
 - id:
     govtrack: 412529
     bioguide: F000462
@@ -32642,6 +33029,7 @@
     address: 1037 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-9890
     url: http://frankel.house.gov
+    rss_url: http://frankel.house.gov/rss.xml
 - id:
     govtrack: 412530
     bioguide: G000573
@@ -32667,6 +33055,7 @@
     address: 1440 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-2778
     url: http://garcia.house.gov
+    rss_url: http://garcia.house.gov/rss.xml
 - id:
     govtrack: 412531
     bioguide: C001093
@@ -32691,6 +33080,7 @@
     address: 513 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-9893
     url: http://dougcollins.house.gov
+    rss_url: http://dougcollins.house.gov/rss/press-releases.xml
 - id:
     govtrack: 412532
     bioguide: G000571
@@ -32717,6 +33107,7 @@
     address: 502 Cannon HOB; Washington DC 20515-1102
     phone: 202-225-4906
     url: http://gabbard.house.gov
+    rss_url: http://gabbard.house.gov/rss.xml
 - id:
     govtrack: 412533
     bioguide: D000622
@@ -32743,6 +33134,7 @@
     address: 104 Cannon HOB; Washington DC 20515-1308
     phone: 202-225-3711
     url: http://duckworth.house.gov
+    rss_url: http://duckworth.house.gov/rss.xml
 - id:
     govtrack: 412534
     bioguide: S001190
@@ -32770,6 +33162,7 @@
     address: 317 Cannon HOB; Washington DC 20515-3602
     phone: 202-225-4835
     url: http://schneider.house.gov
+    rss_url: http://schneider.house.gov/rss.xml
 - id:
     govtrack: 412535
     bioguide: E000292
@@ -32797,6 +33190,7 @@
     address: 1722 Longworth HOB; Washington DC 20515-1312
     phone: 202-225-5661
     url: http://enyart.house.gov
+    rss_url: http://enyart.house.gov/rss.xml
 - id:
     govtrack: 412536
     bioguide: D000619
@@ -32823,6 +33217,7 @@
     address: 1740 Longworth HOB; Washington DC 20515-1313
     phone: 202-225-2371
     url: http://rodneydavis.house.gov
+    rss_url: http://rodneydavis.house.gov/rss.xml
 - id:
     govtrack: 412537
     bioguide: B001286
@@ -32849,6 +33244,7 @@
     address: 1009 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5905
     url: http://bustos.house.gov
+    rss_url: http://bustos.house.gov/rss.xml
 - id:
     govtrack: 412538
     bioguide: W000813
@@ -32872,6 +33268,7 @@
     address: 419 Cannon HOB; Washington DC 20515-0908
     phone: 202-225-3915
     url: http://walorski.house.gov
+    rss_url: http://walorski.house.gov/rss.xml
 - id:
     govtrack: 412539
     bioguide: B001284
@@ -32897,6 +33294,7 @@
     address: 1505 Longworth HOB; Washington DC 20515-1405
     phone: 202-225-2276
     url: http://susanwbrooks.house.gov
+    rss_url: http://susanwbrooks.house.gov/rss.xml
 - id:
     govtrack: 412540
     bioguide: M001189
@@ -32921,6 +33319,7 @@
     address: 508 Cannon HOB; Washington DC 20515-2210
     phone: 202-225-3021
     url: http://messer.house.gov
+    rss_url: http://messer.house.gov/rss.xml
 - id:
     govtrack: 412541
     bioguide: B001282
@@ -32946,6 +33345,7 @@
     address: 1432 Longworth HOB; Washington DC 20515-1706
     phone: 202-225-4706
     url: http://barr.house.gov
+    rss_url: http://barr.house.gov/rss.xml
 - id:
     bioguide: W000817
     thomas: '02182'
@@ -32999,6 +33399,7 @@
     address: 1218 Longworth HOB; Washington DC 20515-2901
     phone: 202-225-5931
     url: http://kennedy.house.gov
+    rss_url: http://kennedy.house.gov/rss.xml
 - id:
     govtrack: 412544
     bioguide: D000620
@@ -33024,6 +33425,7 @@
     address: 1632 Longworth HOB; Washington DC 20515-2006
     phone: 202-225-2721
     url: http://delaney.house.gov
+    rss_url: http://delaney.house.gov/rss.xml
 - id:
     bioguide: K000383
     thomas: '02185'
@@ -33075,6 +33477,7 @@
     address: 327 Cannon HOB; Washington DC 20515-4320
     phone: 202-225-3611
     url: http://danielkildee.house.gov
+    rss_url: http://dankildee.house.gov/rss.xml
 - id:
     govtrack: 412547
     bioguide: B001280
@@ -33101,6 +33504,7 @@
     address: 226 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-8171
     url: http://bentivolio.house.gov
+    rss_url: http://bentivolio.house.gov/rss.xml
 - id:
     bioguide: N000127
     thomas: '00867'
@@ -33146,6 +33550,7 @@
     address: 2447 Rayburn HOB; Washington DC 20515-2308
     phone: 202-225-6211
     url: http://nolan.house.gov
+    rss_url: http://nolan.house.gov/rss.xml
 - id:
     govtrack: 412548
     bioguide: W000812
@@ -33169,6 +33574,7 @@
     address: 435 Cannon HOB; Washington DC 20515-4312
     phone: 202-225-1621
     url: http://wagner.house.gov
+    rss_url: http://wagner.house.gov/rss.xml
 - id:
     govtrack: 412549
     bioguide: D000618
@@ -33193,6 +33599,7 @@
     address: 206 Cannon HOB; Washington DC 20515-2601
     phone: 202-225-3211
     url: http://daines.house.gov
+    rss_url: http://daines.house.gov/rss/press-releases.xml
 - id:
     govtrack: 412550
     bioguide: H001067
@@ -33217,6 +33624,7 @@
     address: 429 Cannon HOB; Washington DC 20515-3308
     phone: 202-225-3715
     url: http://hudson.house.gov
+    rss_url: http://hudson.house.gov/rss.xml
 - id:
     govtrack: 412551
     bioguide: P000606
@@ -33242,6 +33650,7 @@
     address: 224 Cannon HOB; Washington DC 20515-3815
     phone: 202-225-1976
     url: http://pittenger.house.gov
+    rss_url: http://pittenger.house.gov/rss.xml
 - id:
     govtrack: 412552
     bioguide: M001187
@@ -33266,6 +33675,7 @@
     address: 1516 Longworth HOB; Washington DC 20515-0905
     phone: 202-225-6401
     url: http://meadows.house.gov
+    rss_url: http://meadows.house.gov/rss/press-releases.xml
 - id:
     govtrack: 412553
     bioguide: H001065
@@ -33291,6 +33701,7 @@
     address: 507 Cannon HOB; Washington DC 20515-3313
     phone: 202-225-3032
     url: http://holding.house.gov
+    rss_url: http://holding.house.gov/rss.xml
 - id:
     bioguide: H001069
     thomas: '02174'
@@ -33341,6 +33752,7 @@
     address: 1032 Longworth HOB; Washington DC 20515-3401
     phone: 202-225-2611
     url: http://cramer.house.gov
+    rss_url: http://cramer.house.gov/rss.xml
 - id:
     bioguide: F000463
     thomas: '02179'
@@ -33367,6 +33779,7 @@
     phone: 202-224-6551
     state_rank: junior
     contact_form: http://www.fischer.senate.gov/public/index.cfm/email-me
+    rss_url: http://www.fischer.senate.gov/public/index.cfm/rss/feed
 - id:
     govtrack: 412557
     bioguide: K000382
@@ -33394,6 +33807,7 @@
     address: 137 Cannon HOB; Washington DC 20515-2902
     phone: 202-225-5206
     url: http://kuster.house.gov
+    rss_url: http://kuster.house.gov/rss.xml
 - id:
     govtrack: 412558
     bioguide: L000580
@@ -33417,6 +33831,7 @@
     address: 214 Cannon HOB; Washington DC 20515-3007
     phone: 202-225-6316
     url: http://lujangrisham.house.gov
+    rss_url: http://lujangrisham.house.gov/rss.xml
 - id:
     govtrack: 412559
     bioguide: H001066
@@ -33443,6 +33858,7 @@
     address: 1330 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-9894
     url: http://horsford.house.gov
+    rss_url: http://horsford.house.gov/rss.xml
 - id:
     govtrack: 412560
     bioguide: M001188
@@ -33467,6 +33883,7 @@
     address: 1317 Longworth HOB; Washington DC 20515-2110
     phone: 202-225-2601
     url: http://meng.house.gov
+    rss_url: http://meng.house.gov/rss.xml
 - id:
     govtrack: 412561
     bioguide: J000294
@@ -33491,6 +33908,7 @@
     address: 1339 Longworth HOB; Washington DC 20515-1202
     phone: 202-225-5936
     url: http://jeffries.house.gov
+    rss_url: http://jeffries.house.gov/rss.xml
 - id:
     govtrack: 412562
     bioguide: M001185
@@ -33518,6 +33936,7 @@
     address: 1529 Longworth HOB; Washington DC 20515-3218
     phone: 202-225-5441
     url: http://seanmaloney.house.gov
+    rss_url: http://seanmaloney.house.gov/rss.xml
 - id:
     govtrack: 412563
     bioguide: C001092
@@ -33541,6 +33960,7 @@
     address: 1117 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5265
     url: http://chriscollins.house.gov
+    rss_url: http://chriscollins.house.gov/rss.xml
 - id:
     govtrack: 412564
     bioguide: W000815
@@ -33590,6 +34010,7 @@
     address: 417 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-4324
     url: http://beatty.house.gov
+    rss_url: http://beatty.house.gov/rss.xml
 - id:
     govtrack: 412566
     bioguide: J000295
@@ -33616,6 +34037,7 @@
     address: 1535 Longworth HOB; Washington DC 20515-1410
     phone: 202-225-5731
     url: http://joyce.house.gov
+    rss_url: http://joyce.house.gov/rss/press-releases.xml
 - id:
     govtrack: 412567
     bioguide: B001283
@@ -33641,6 +34063,7 @@
     address: 216 Cannon HOB; Washington DC 20515-3601
     phone: 202-225-2211
     url: http://bridenstine.house.gov
+    rss_url: http://bridenstine.house.gov/rss.xml
 - id:
     govtrack: 412568
     bioguide: M001190
@@ -33665,6 +34088,7 @@
     address: 1113 Longworth HOB; Washington DC 20515-0401
     phone: 202-225-2701
     url: http://mullin.house.gov
+    rss_url: http://mullin.house.gov/rss.xml
 - id:
     govtrack: 412569
     bioguide: P000605
@@ -33690,6 +34114,7 @@
     address: 126 Cannon HOB; Washington DC 20515-5401
     phone: 202-225-5836
     url: http://perry.house.gov
+    rss_url: http://perry.house.gov/rss.xml
 - id:
     govtrack: 412570
     bioguide: R000598
@@ -33716,6 +34141,7 @@
     address: 503 Cannon HOB; Washington DC 20515-0518
     phone: 202-225-2065
     url: http://rothfus.house.gov
+    rss_url: http://rothfus.house.gov/rss.xml
 - id:
     govtrack: 412571
     bioguide: C001090
@@ -33740,6 +34166,7 @@
     address: 1419 Longworth HOB; Washington DC 20515-3817
     phone: 202-225-5546
     url: http://cartwright.house.gov
+    rss_url: http://cartwright.house.gov/rss.xml
 - id:
     govtrack: 412572
     bioguide: R000597
@@ -33766,6 +34193,7 @@
     address: 325 Cannon HOB; Washington DC 20515-4209
     phone: 202-225-9895
     url: http://rice.house.gov
+    rss_url: http://rice.house.gov/rss.xml
 - id:
     bioguide: C001098
     thomas: '02175'
@@ -33816,6 +34244,7 @@
     address: 510 Cannon HOB; Washington DC 20515-1402
     phone: 202-225-2831
     url: http://weber.house.gov
+    rss_url: http://weber.house.gov/rss.xml
 - id:
     govtrack: 412575
     bioguide: O000170
@@ -33841,6 +34270,7 @@
     address: 1721 Longworth HOB; Washington DC 20515-4326
     phone: 202-225-4831
     url: http://orourke.house.gov
+    rss_url: http://orourke.house.gov/rss.xml
 - id:
     govtrack: 412576
     bioguide: C001091
@@ -33864,6 +34294,7 @@
     address: 212 Cannon HOB; Washington DC 20515-4320
     phone: 202-225-3236
     url: http://castro.house.gov
+    rss_url: http://castro.house.gov/rss.xml
 - id:
     govtrack: 412577
     bioguide: G000572
@@ -33890,6 +34321,7 @@
     address: 431 Cannon HOB; Washington DC 20515-4323
     phone: 202-225-4511
     url: http://gallego.house.gov
+    rss_url: http://gallego.house.gov/rss.xml
 - id:
     govtrack: 412578
     bioguide: W000816
@@ -33913,6 +34345,7 @@
     address: 1122 Longworth HOB; Washington DC 20515-3209
     phone: 202-225-9896
     url: http://williams.house.gov
+    rss_url: http://williams.house.gov/rss.xml
 - id:
     govtrack: 412579
     bioguide: V000131
@@ -33937,6 +34370,7 @@
     address: 414 Cannon HOB; Washington DC 20515-1801
     phone: 202-225-9897
     url: http://veasey.house.gov
+    rss_url: http://veasey.house.gov/rss.xml
 - id:
     govtrack: 412580
     bioguide: V000132
@@ -33960,6 +34394,7 @@
     address: 437 Cannon HOB; Washington DC 20515-1902
     phone: 202-225-9901
     url: http://vela.house.gov
+    rss_url: http://vela.house.gov/rss.xml
 - id:
     govtrack: 412581
     bioguide: S001192
@@ -33984,6 +34419,7 @@
     address: 323 Cannon HOB; Washington DC 20515-0924
     phone: 202-225-9730
     url: http://stewart.house.gov
+    rss_url: http://stewart.house.gov/rss.xml
 - id:
     bioguide: K000384
     thomas: '02176'
@@ -34035,6 +34471,7 @@
     address: 1429 Longworth HOB; Washington DC 20515-6601
     phone: 202-225-5916
     url: http://kilmer.house.gov
+    rss_url: http://kilmer.house.gov/rss.xml
 - id:
     govtrack: 412584
     bioguide: H001064
@@ -34061,6 +34498,7 @@
     address: 425 Cannon HOB; Washington DC 20515-6601
     phone: 202-225-9740
     url: http://dennyheck.house.gov
+    rss_url: http://dennyheck.house.gov/rss.xml
 - id:
     govtrack: 412585
     bioguide: P000607
@@ -34086,6 +34524,7 @@
     address: 313 Cannon HOB; Washington DC 20515-0925
     phone: 202-225-2906
     url: http://pocan.house.gov
+    rss_url: http://pocan.house.gov/rss.xml
 - id:
     bioguide: C001099
     thomas: '02189'
