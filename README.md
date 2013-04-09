@@ -197,11 +197,13 @@ The fields available in both files are as follows:
 	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
 
-Additional fields are present on committee entries (but not subcommittee entries) in the committees-current.yaml file:
+Additional fields are present on current committee entries (that is, in committees-current.yaml):
 
 * url: The current website URL of the committee.
 * address: The mailing address for the committee.
 * phone: The phone number of the committee.
+* rss_url: The URL for the committee's RSS feed.
+* minority_rss_url: The URL for the committee's minority party website's RSS feed.
 
 Two additional fields are present on committees and subcommmittees in the committees-historical.yaml file:
 

@@ -30,6 +30,7 @@
     phone: (202) 225-2171
   address: 1301 LHOB; Washington, DC 20515
   phone: (202) 225-2171
+  rss_url: http://agriculture.house.gov/rss.xml
 - type: house
   name: House Committee on Appropriations
   url: http://appropriations.house.gov/
@@ -87,6 +88,8 @@
     phone: (202) 225-2141
   address: H307 CAPITOL; Washington, DC 20515-6015
   phone: (202) 225-2771
+  rss_url: http://appropriations.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.appropriations.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1&amp;Itemid=15
 - type: house
   name: House Committee on Armed Services
   url: http://armedservices.house.gov/
@@ -123,6 +126,8 @@
     phone: (202) 226-2843
   address: 2120 RHOB; Washington, DC 20515-6035
   phone: (202) 225-4151
+  rss_url: http://armedservices.house.gov/index.cfm/rss/feed
+  minority_rss_url: http://democrats.armedservices.house.gov/index.cfm/rss/feed
 - type: house
   name: House Committee on Financial Services
   url: http://financialservices.house.gov/
@@ -155,6 +160,8 @@
     phone: (202) 225-7502
   address: 2129 RHOB; Washington, DC 20515-6050
   phone: (202) 225-7502
+  rss_url: http://financialservices.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.financialservices.house.gov/Rss.aspx?GroupID=1
 - type: house
   name: House Committee on the Budget
   url: http://budget.house.gov/
@@ -162,6 +169,8 @@
   house_committee_id: BU
   address: 207 CHOB; Washington, DC 20515-6065
   phone: (202) 226-7270
+  rss_url: http://budget.house.gov/news/rss.aspx
+  minority_rss_url: http://feeds.feedburner.com/BudgetCommittee
 - type: house
   name: House Committee on Education and the Workforce
   url: http://edlabor.house.gov/
@@ -186,6 +195,8 @@
     phone: (202) 225-4527
   address: 2181 RHOB; Washington, DC 20515-6100
   phone: (202) 225-4527
+  rss_url: http://edworkforce.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.edworkforce.house.gov/rss.xml
 - type: house
   name: House Committee on Foreign Affairs
   url: http://foreignaffairs.house.gov/
@@ -222,6 +233,7 @@
     phone: (202) 226-9980
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
+  rss_url: http://foreignaffairs.house.gov/rss.xml
 - type: house
   name: House Committee on Oversight and Government Reform
   url: http://oversight.house.gov/
@@ -259,6 +271,7 @@
     phone: (202) 225-5074
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
+  rss_url: http://oversight.house.gov/feed/rss/
 - type: house
   name: House Committee on House Administration
   url: http://cha.house.gov/
@@ -275,6 +288,8 @@
     phone: (202) 225-8281
   address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-8281
+  rss_url: http://cha.house.gov/rss.xml
+  minority_rss_url: http://democrats.cha.house.gov/rss.xml
 - type: house
   name: House Committee on Homeland Security
   url: http://homeland.house.gov/
@@ -307,6 +322,7 @@
     phone: (202) 226-8417
   address: H2-176 FHOB; Washington, DC 20515-6480
   phone: (202) 226-8417
+  rss_url: http://homeland.house.gov/rss.xml
 - type: house
   name: House Committee on Energy and Commerce
   url: http://energycommerce.house.gov/
@@ -339,6 +355,7 @@
     phone: (202) 225-2927
   address: 2125 RHOB; Washington, DC 20515
   phone: (202) 225-2927
+  rss_url: http://energycommerce.house.gov/rss.aspx
 - type: house
   name: House Committee on Natural Resources
   url: http://naturalresources.house.gov/
@@ -367,6 +384,8 @@
     phone: (202) 226-9725
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
+  rss_url: http://naturalresources.house.gov/news.xml
+  minority_rss_url: http://democrats.naturalresources.house.gov/rss.xml
 - type: house
   name: House Permanent Select Committee on Intelligence
   thomas_id: HLIG
@@ -386,6 +405,8 @@
     phone: (202) 225-4121
   address: HVC304 CAPITOL; Washington, DC 20515-6415
   phone: (202) 225-4121
+  rss_url: http://intelligence.house.gov/rss.xml
+  minority_rss_url: http://democrats.intelligence.house.gov/rss.xml
 - type: house
   name: House Committee on the Judiciary
   url: http://judiciary.house.gov/
@@ -414,6 +435,7 @@
     phone: (202) 225-5741
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
+  minority_rss_url: http://democrats.judiciary.house.gov/rss.xml
 - type: house
   name: House Committee on Transportation and Infrastructure
   url: http://transportation.house.gov/
@@ -446,6 +468,8 @@
     phone: (202) 225-4360
   address: 2165 RHOB; Washington, DC 20515-6256
   phone: (202) 225-9446
+  rss_url: http://transportation.house.gov/rss.xml
+  minority_rss_url: http://democrats.transportation.house.gov/rss.xml
 - type: house
   name: House Committee on Rules
   url: http://www.rules.house.gov/
@@ -462,6 +486,7 @@
     phone: (202) 225-1002
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9191
+  minority_rss_url: http://democrats.rules.house.gov/rss.xml
 - type: house
   name: House Committee on Small Business
   url: http://www.house.gov/smbiz/
@@ -490,6 +515,8 @@
     phone: (202) 225-5821
   address: 2361 RHOB; Washington, DC 20515-6315
   phone: (202) 225-5821
+  rss_url: http://smallbusiness.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.smallbusiness.house.gov/rss.xml
 - type: house
   name: House Committee on Ethics
   url: http://ethics.house.gov/
@@ -497,6 +524,7 @@
   house_committee_id: SO
   address: 1015 LHOB; Washington, DC 20515-6328
   phone: (202) 225-7103
+  rss_url: http://ethics.house.gov/rss.xml
 - type: house
   name: House Committee on Science, Space, and Technology
   url: http://science.house.gov/
@@ -525,6 +553,8 @@
     phone: (202) 225-9662
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6371
+  rss_url: http://science.house.gov/rss.xml
+  minority_rss_url: http://democrats.science.house.gov/rss.xml
 - type: house
   name: House Committee on Veterans' Affairs
   url: http://veterans.house.gov/
@@ -549,6 +579,8 @@
     phone: (202) 225-3569
   address: 335 CHOB; Washington, DC 20515-6335
   phone: (202) 225-3527
+  rss_url: http://veterans.house.gov/rss.xml
+  minority_rss_url: http://democrats.veterans.house.gov/rss.xml
 - type: house
   name: House Committee on Ways and Means
   url: http://waysandmeans.house.gov/
@@ -581,6 +613,7 @@
     phone: (202) 225-6649
   address: 1102 LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
+  minority_rss_url: http://democrats.waysandmeans.house.gov/rss.xml
 - type: joint
   name: Commission on Security and Cooperation in Europe
   thomas_id: JCSE
@@ -594,6 +627,8 @@
   url: http://jec.senate.gov/
   thomas_id: JSEC
   senate_committee_id: JSEC
+  rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
+  minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
 - type: joint
   name: Joint Committee on the Library
   thomas_id: JSLC
@@ -615,6 +650,7 @@
   url: http://ethics.senate.gov/
   thomas_id: SLET
   senate_committee_id: SLET
+  rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
 - type: senate
   name: Senate Committee on Indian Affairs
   url: http://indian.senate.gov/
@@ -645,6 +681,8 @@
     thomas_id: '16'
   - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
     thomas_id: '17'
+  rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=democrat
+  minority_rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=republican
 - type: senate
   name: Senate Committee on Appropriations
   url: http://appropriations.senate.gov/
@@ -695,6 +733,7 @@
     thomas_id: '13'
   - name: Strategic Forces
     thomas_id: '16'
+  rss_url: http://www.armed-services.senate.gov/press/index.cfm?xml=Press%20Releases,RSS2.0
 - type: senate
   name: Senate Committee on Banking, Housing, and Urban Affairs
   url: http://banking.senate.gov/
@@ -716,6 +755,8 @@
   url: http://budget.senate.gov/
   thomas_id: SSBU
   senate_committee_id: SSBU
+  rss_url: http://budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
+  minority_rss_url: http://budget.senate.gov/republican/public/index.cfm/rss/feed
 - type: senate
   name: Senate Committee on Commerce, Science, and Transportation
   url: http://commerce.senate.gov/
@@ -736,6 +777,7 @@
     thomas_id: '25'
   - name: Aviation Operations, Safety, and Security
     thomas_id: '01'
+  rss_url: http://www.commerce.senate.gov/public/?a=RSS.Feed
 - type: senate
   name: Senate Committee on Energy and Natural Resources
   url: http://energy.senate.gov/
@@ -750,6 +792,8 @@
     thomas_id: '01'
   - name: Public Lands, Forests, and Mining
     thomas_id: '03'
+  rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=democratic-news
+  minority_rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=republican-news
 - type: senate
   name: Senate Committee on Environment and Public Works
   url: http://epw.senate.gov/
@@ -768,6 +812,8 @@
     name: Transportation and Infrastructure
   - thomas_id: '15'
     name: Water and Wildlife
+  rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
+  minority_rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Minority
 - type: senate
   name: Senate Committee on Finance
   url: http://finance.senate.gov/
@@ -786,6 +832,8 @@
     thomas_id: '11'
   - name: Social Security, Pensions and Family Policy
     thomas_id: '02'
+  rss_url: http://www.finance.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.finance.senate.gov/rss/feed/ranking/
 - type: senate
   name: Senate Committee on Foreign Relations
   url: http://foreign.senate.gov/
@@ -808,6 +856,8 @@
     thomas_id: '07'
   - name: Western Hemisphere and Global Narcotics Affairs
     thomas_id: '06'
+  rss_url: http://www.foreign.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.foreign.senate.gov/rss/feed/ranking/
 - type: senate
   name: Senate Committee on Homeland Security and Governmental Affairs
   url: http://hsgac.senate.gov/
@@ -834,6 +884,8 @@
     thomas_id: '12'
   - name: Children and Families
     thomas_id: '09'
+  rss_url: http://www.help.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.help.senate.gov/rss/feed/ranking/
 - type: senate
   name: Senate Committee on the Judiciary
   url: http://judiciary.senate.gov/
@@ -859,13 +911,17 @@
   url: http://rules.senate.gov/
   thomas_id: SSRA
   senate_committee_id: SSRA
+  rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
 - type: senate
   name: Senate Committee on Small Business and Entrepreneurship
   url: http://sbc.senate.gov/
   thomas_id: SSSB
   senate_committee_id: SSSB
+  rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
 - type: senate
   name: Senate Committee on Veterans' Affairs
   url: http://veterans.senate.gov/
   thomas_id: SSVA
   senate_committee_id: SSVA
+  rss_url: http://www.veterans.senate.gov/rss.cfm
+  minority_rss_url: http://www.veterans.senate.gov/rankingmember/rss.cfm
