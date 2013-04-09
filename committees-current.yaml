@@ -1,871 +1,922 @@
-- type: house
-  name: House Committee on Agriculture
-  url: http://agriculture.house.gov/
-  thomas_id: HSAG
-  house_committee_id: AG
-  subcommittees:
-  - name: Conservation, Energy, and Forestry
-    thomas_id: '15'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
-  - name: Department Operations, Oversight, and Credit
-    thomas_id: '22'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
-  - name: General Farm Commodities and Risk Management
-    thomas_id: '16'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
-  - name: Nutrition and Horticulture
-    thomas_id: '03'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
-  - name: Livestock, Dairy, and Poultry
-    thomas_id: '29'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
-  - name: Rural Development, Research, Biotechnology, and Foreign Agriculture
-    thomas_id: '14'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
+--- 
+- name: House Committee on Agriculture
   address: 1301 LHOB; Washington, DC 20515
   phone: (202) 225-2171
-- type: house
-  name: House Committee on Appropriations
-  url: http://appropriations.house.gov/
-  thomas_id: HSAP
-  house_committee_id: AP
-  subcommittees:
-  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
-      Agencies
-    thomas_id: '01'
-    address: 2362A RHOB; Washington, DC 20515-6016
-    phone: (202) 225-2638
-  - name: Commerce, Justice, Science, and Related Agencies
-    thomas_id: '19'
-    address: H309 CAPITOL; Washington, DC 20515
-    phone: (202) 225-3351
-  - name: Defense
-    thomas_id: '02'
-    address: H405 CAPITOL; Washington, DC 20515-6018
-    phone: (202) 225-2847
-  - name: Energy and Water Development, and Related Agencies
-    thomas_id: '10'
-    address: 2362B RHOB; Washington, DC 20515-6020
-    phone: (202) 225-3421
-  - name: Financial Services and General Government
-    thomas_id: '23'
-    address: B300 RHOB; Washington, DC 20515
-    phone: (202) 225-7245
-  - name: Homeland Security
-    thomas_id: '15'
-    address: B307 RHOB; Washington, DC 20515
-    phone: (202) 225-5834
-  - name: Interior, Environment, and Related Agencies
-    thomas_id: '06'
-    address: B308 RHOB; Washington, DC 20515-6023
-    phone: (202) 225-3081
-  - name: Labor, Health and Human Services, Education, and Related Agencies
-    thomas_id: '07'
-    address: 2358B RHOB; Washington, DC 20515-6024
-    phone: (202) 225-3508
-  - name: Legislative Branch
-    thomas_id: '24'
-    address: HT2 CAPITOL; Washington, DC 20515
-    phone: (202) 226-7252
-  - name: Military Construction, Veterans Affairs, and Related Agencies
-    thomas_id: '18'
-    address: HVC227 CAPITOL; Washington, DC 20515
-    phone: (202) 225-3047
-  - name: State, Foreign Operations, and Related Programs
-    thomas_id: '04'
-    address: HT2 CAPITOL; Washington, DC 20515-6021
-    phone: (202) 225-2041
-  - name: Transportation, and Housing and Urban Development, and Related Agencies
-    thomas_id: '20'
-    address: 2358A RHOB; Washington, DC 20515
-    phone: (202) 225-2141
+  url: http://agriculture.house.gov/
+  rss_url: http://agriculture.house.gov/rss.xml
+  subcommittees: 
+  - name: Conservation, Energy, and Forestry
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "15"
+  - name: Department Operations, Oversight, and Credit
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "22"
+  - name: General Farm Commodities and Risk Management
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "16"
+  - name: Nutrition and Horticulture
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "03"
+  - name: Livestock, Dairy, and Poultry
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "29"
+  - name: Rural Development, Research, Biotechnology, and Foreign Agriculture
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+    thomas_id: "14"
+  house_committee_id: AG
+  thomas_id: HSAG
+  type: house
+- name: House Committee on Appropriations
   address: H307 CAPITOL; Washington, DC 20515-6015
   phone: (202) 225-2771
-- type: house
-  name: House Committee on Armed Services
-  url: http://armedservices.house.gov/
-  thomas_id: HSAS
-  house_committee_id: AS
-  subcommittees:
-  - name: Tactical Air and Land Forces
-    thomas_id: '25'
-    address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 225-4440
-  - name: Military Personnel
-    thomas_id: '02'
-    address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 225-7560
-  - name: Oversight and Investigations
-    thomas_id: '06'
-    address: 2117 RHOB; Washington, DC 20515
-    phone: (202) 226-5048
-  - name: Readiness
-    thomas_id: '03'
-    address: 2340 RHOB; Washington, DC 20515-6040
-    phone: (202) 226-8979
-  - name: Seapower and Projection Forces
-    thomas_id: '28'
-    address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 226-2211
-  - name: Strategic Forces
-    thomas_id: '29'
-    address: 2216 RHOB; Washington, DC 20515
-    phone: (202) 225-1967
-  - name: Emerging Threats and Capabilities
-    thomas_id: '26'
-    address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 226-2843
+  minority_rss_url: http://democrats.appropriations.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1&amp;Itemid=15
+  url: http://appropriations.house.gov/
+  rss_url: http://appropriations.house.gov/news/rss.aspx
+  subcommittees: 
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related Agencies
+    address: 2362A RHOB; Washington, DC 20515-6016
+    phone: (202) 225-2638
+    thomas_id: "01"
+  - name: Commerce, Justice, Science, and Related Agencies
+    address: H309 CAPITOL; Washington, DC 20515
+    phone: (202) 225-3351
+    thomas_id: "19"
+  - name: Defense
+    address: H405 CAPITOL; Washington, DC 20515-6018
+    phone: (202) 225-2847
+    thomas_id: "02"
+  - name: Energy and Water Development, and Related Agencies
+    address: 2362B RHOB; Washington, DC 20515-6020
+    phone: (202) 225-3421
+    thomas_id: "10"
+  - name: Financial Services and General Government
+    address: B300 RHOB; Washington, DC 20515
+    phone: (202) 225-7245
+    thomas_id: "23"
+  - name: Homeland Security
+    address: B307 RHOB; Washington, DC 20515
+    phone: (202) 225-5834
+    thomas_id: "15"
+  - name: Interior, Environment, and Related Agencies
+    address: B308 RHOB; Washington, DC 20515-6023
+    phone: (202) 225-3081
+    thomas_id: "06"
+  - name: Labor, Health and Human Services, Education, and Related Agencies
+    address: 2358B RHOB; Washington, DC 20515-6024
+    phone: (202) 225-3508
+    thomas_id: "07"
+  - name: Legislative Branch
+    address: HT2 CAPITOL; Washington, DC 20515
+    phone: (202) 226-7252
+    thomas_id: "24"
+  - name: Military Construction, Veterans Affairs, and Related Agencies
+    address: HVC227 CAPITOL; Washington, DC 20515
+    phone: (202) 225-3047
+    thomas_id: "18"
+  - name: State, Foreign Operations, and Related Programs
+    address: HT2 CAPITOL; Washington, DC 20515-6021
+    phone: (202) 225-2041
+    thomas_id: "04"
+  - name: Transportation, and Housing and Urban Development, and Related Agencies
+    address: 2358A RHOB; Washington, DC 20515
+    phone: (202) 225-2141
+    thomas_id: "20"
+  house_committee_id: AP
+  thomas_id: HSAP
+  type: house
+- name: House Committee on Armed Services
   address: 2120 RHOB; Washington, DC 20515-6035
   phone: (202) 225-4151
-- type: house
-  name: House Committee on Financial Services
-  url: http://financialservices.house.gov/
-  thomas_id: HSBA
-  house_committee_id: BA
-  subcommittees:
-  - name: Capital Markets and Government Sponsored Enterprises
-    thomas_id: '16'
-    address: 2129 RHOB; Washington, DC 20515-6053
-    phone: (202) 225-7502
-  - name: Domestic Monetary Policy and Technology
-    thomas_id: '19'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
-  - name: Financial Institutions and Consumer Credit
-    thomas_id: '15'
-    address: 2129 RHOB; Washington, DC 20515-6051
-    phone: (202) 225-7502
-  - name: Insurance, Housing and Community Opportunity
-    thomas_id: '04'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
-  - name: International Monetary Policy and Trade
-    thomas_id: '20'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
+  minority_rss_url: http://democrats.armedservices.house.gov/index.cfm/rss/feed
+  url: http://armedservices.house.gov/
+  rss_url: http://armedservices.house.gov/index.cfm/rss/feed
+  subcommittees: 
+  - name: Tactical Air and Land Forces
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-4440
+    thomas_id: "25"
+  - name: Military Personnel
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-7560
+    thomas_id: "02"
   - name: Oversight and Investigations
-    thomas_id: '09'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
+    address: 2117 RHOB; Washington, DC 20515
+    phone: (202) 226-5048
+    thomas_id: "06"
+  - name: Readiness
+    address: 2340 RHOB; Washington, DC 20515-6040
+    phone: (202) 226-8979
+    thomas_id: "03"
+  - name: Seapower and Projection Forces
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 226-2211
+    thomas_id: "28"
+  - name: Strategic Forces
+    address: 2216 RHOB; Washington, DC 20515
+    phone: (202) 225-1967
+    thomas_id: "29"
+  - name: Emerging Threats and Capabilities
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 226-2843
+    thomas_id: "26"
+  house_committee_id: AS
+  thomas_id: HSAS
+  type: house
+- name: House Committee on Financial Services
   address: 2129 RHOB; Washington, DC 20515-6050
   phone: (202) 225-7502
-- type: house
-  name: House Committee on the Budget
-  url: http://budget.house.gov/
-  thomas_id: HSBU
-  house_committee_id: BU
+  minority_rss_url: http://democrats.financialservices.house.gov/Rss.aspx?GroupID=1
+  url: http://financialservices.house.gov/
+  rss_url: http://financialservices.house.gov/news/rss.aspx
+  subcommittees: 
+  - name: Capital Markets and Government Sponsored Enterprises
+    address: 2129 RHOB; Washington, DC 20515-6053
+    phone: (202) 225-7502
+    thomas_id: "16"
+  - name: Domestic Monetary Policy and Technology
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+    thomas_id: "19"
+  - name: Financial Institutions and Consumer Credit
+    address: 2129 RHOB; Washington, DC 20515-6051
+    phone: (202) 225-7502
+    thomas_id: "15"
+  - name: Insurance, Housing and Community Opportunity
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+    thomas_id: "04"
+  - name: International Monetary Policy and Trade
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+    thomas_id: "20"
+  - name: Oversight and Investigations
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+    thomas_id: 09
+  house_committee_id: BA
+  thomas_id: HSBA
+  type: house
+- name: House Committee on the Budget
   address: 207 CHOB; Washington, DC 20515-6065
   phone: (202) 226-7270
-- type: house
-  name: House Committee on Education and the Workforce
-  url: http://edlabor.house.gov/
-  thomas_id: HSED
-  house_committee_id: ED
-  subcommittees:
-  - name: Early Childhood, Elementary, and Secondary Education
-    thomas_id: '14'
-    address: 2181 RHOB; Washington, DC 20515-9998
-    phone: (202) 225-4527
-  - name: Health, Employment, Labor, and Pensions
-    thomas_id: '02'
-    address: 2181 RHOB; Washington, DC 20515-6104
-    phone: (202) 225-4527
-  - name: Higher Education and Workforce Training
-    thomas_id: '13'
-    address: 2181 RHOB; Washington, DC 20515-9998
-    phone: (202) 225-4527
-  - name: Workforce Protections
-    thomas_id: '10'
-    address: 2181 RHOB; Washington, DC 20515-6103
-    phone: (202) 225-4527
+  minority_rss_url: http://feeds.feedburner.com/BudgetCommittee
+  url: http://budget.house.gov/
+  rss_url: http://budget.house.gov/news/rss.aspx
+  house_committee_id: BU
+  thomas_id: HSBU
+  type: house
+- name: House Committee on Education and the Workforce
   address: 2181 RHOB; Washington, DC 20515-6100
   phone: (202) 225-4527
-- type: house
-  name: House Committee on Foreign Affairs
-  url: http://foreignaffairs.house.gov/
-  thomas_id: HSFA
-  house_committee_id: FA
-  subcommittees:
-  - name: Africa, Global Health, and Human Rights
-    thomas_id: '16'
-    address: H2-259A FHOB; Washington, DC 20515
-    phone: (202) 226-7812
-  - name: Asia and the Pacific
-    thomas_id: '05'
-    address: H2-255 FHOB; Washington, DC 20515
-    phone: (202) 226-7825
-  - name: Europe and Eurasia
-    thomas_id: '14'
-    address: H2-256 FHOB; Washington, DC 20515
-    phone: (202) 226-6434
-  - name: Oversight and Investigations
-    thomas_id: '17'
-    address: 2401A RHOB; Washington, DC 20515
-    phone: (202) 226-5045
-  - name: Terrorism, Nonproliferation, and Trade
-    thomas_id: '18'
-    address: H2-340 FHOB; Washington, DC 20515
-    phone: (202) 226-1500
-  - name: The Middle East and South Asia
-    thomas_id: '13'
-    address: B358 RHOB; Washington, DC 20515
-    phone: (202) 225-3345
-  - name: The Western Hemisphere
-    thomas_id: '07'
-    address: H2-257 FHOB; Washington, DC 20515
-    phone: (202) 226-9980
+  minority_rss_url: http://democrats.edworkforce.house.gov/rss.xml
+  url: http://edlabor.house.gov/
+  rss_url: http://edworkforce.house.gov/news/rss.aspx
+  subcommittees: 
+  - name: Early Childhood, Elementary, and Secondary Education
+    address: 2181 RHOB; Washington, DC 20515-9998
+    phone: (202) 225-4527
+    thomas_id: "14"
+  - name: Health, Employment, Labor, and Pensions
+    address: 2181 RHOB; Washington, DC 20515-6104
+    phone: (202) 225-4527
+    thomas_id: "02"
+  - name: Higher Education and Workforce Training
+    address: 2181 RHOB; Washington, DC 20515-9998
+    phone: (202) 225-4527
+    thomas_id: "13"
+  - name: Workforce Protections
+    address: 2181 RHOB; Washington, DC 20515-6103
+    phone: (202) 225-4527
+    thomas_id: "10"
+  house_committee_id: ED
+  thomas_id: HSED
+  type: house
+- name: House Committee on Foreign Affairs
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
-- type: house
-  name: House Committee on Oversight and Government Reform
-  url: http://oversight.house.gov/
-  thomas_id: HSGO
-  house_committee_id: GO
-  subcommittees:
-  - name: Federal Workforce, U.S. Postal Service and Labor Policy
-    thomas_id: '25'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: Government Organization, Efficiency and Financial Management
-    thomas_id: '24'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: National Security, Homeland Defense and Foreign Operations
-    thomas_id: '06'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: Health Care, District of Columbia, Census and the National Archives
-    thomas_id: '27'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: Regulatory Affairs, Stimulus Oversight and Government Spending
-    thomas_id: '28'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: TARP, Financial Services and Bailouts of Public and Private Programs
-    thomas_id: '29'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: Technology, Information Policy, Intergovernmental Relations and Procurement
-      Reform
-    thomas_id: '30'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
+  url: http://foreignaffairs.house.gov/
+  rss_url: http://foreignaffairs.house.gov/rss.xml
+  subcommittees: 
+  - name: Africa, Global Health, and Human Rights
+    address: H2-259A FHOB; Washington, DC 20515
+    phone: (202) 226-7812
+    thomas_id: "16"
+  - name: Asia and the Pacific
+    address: H2-255 FHOB; Washington, DC 20515
+    phone: (202) 226-7825
+    thomas_id: "05"
+  - name: Europe and Eurasia
+    address: H2-256 FHOB; Washington, DC 20515
+    phone: (202) 226-6434
+    thomas_id: "14"
+  - name: Oversight and Investigations
+    address: 2401A RHOB; Washington, DC 20515
+    phone: (202) 226-5045
+    thomas_id: "17"
+  - name: Terrorism, Nonproliferation, and Trade
+    address: H2-340 FHOB; Washington, DC 20515
+    phone: (202) 226-1500
+    thomas_id: "18"
+  - name: The Middle East and South Asia
+    address: B358 RHOB; Washington, DC 20515
+    phone: (202) 225-3345
+    thomas_id: "13"
+  - name: The Western Hemisphere
+    address: H2-257 FHOB; Washington, DC 20515
+    phone: (202) 226-9980
+    thomas_id: "07"
+  house_committee_id: FA
+  thomas_id: HSFA
+  type: house
+- name: House Committee on Oversight and Government Reform
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
-- type: house
-  name: House Committee on House Administration
-  url: http://cha.house.gov/
-  thomas_id: HSHA
-  house_committee_id: HA
-  subcommittees:
-  - name: Oversight
-    thomas_id: '06'
-    address: 1309 LHOB; Washington, DC 20515
-    phone: (202) 225-8281
-  - name: Elections
-    thomas_id: '08'
-    address: 1309 LHOB; Washington, DC 20515-6157
-    phone: (202) 225-8281
+  url: http://oversight.house.gov/
+  rss_url: http://oversight.house.gov/feed/rss/
+  subcommittees: 
+  - name: Federal Workforce, U.S. Postal Service and Labor Policy
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "25"
+  - name: Government Organization, Efficiency and Financial Management
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "24"
+  - name: National Security, Homeland Defense and Foreign Operations
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "06"
+  - name: Health Care, District of Columbia, Census and the National Archives
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "27"
+  - name: Regulatory Affairs, Stimulus Oversight and Government Spending
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "28"
+  - name: TARP, Financial Services and Bailouts of Public and Private Programs
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "29"
+  - name: Technology, Information Policy, Intergovernmental Relations and Procurement Reform
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+    thomas_id: "30"
+  house_committee_id: GO
+  thomas_id: HSGO
+  type: house
+- name: House Committee on House Administration
   address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-8281
-- type: house
-  name: House Committee on Homeland Security
-  url: http://homeland.house.gov/
-  thomas_id: HSHM
-  house_committee_id: HM
-  subcommittees:
-  - name: Border and Maritime Security
-    thomas_id: '11'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
-  - name: Emergency Preparedness, Response and Communications
-    thomas_id: '12'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
-  - name: Cybersecurity, Infrastructure Protection, and Security Technologies
-    thomas_id: '08'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
-  - name: Counterterrorism and Intelligence
-    thomas_id: '05'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
-  - name: Oversight, Investigations, and Management
-    thomas_id: '09'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
-  - name: Transportation Security
-    thomas_id: '07'
-    address: H2-176 FHOB; Washington, DC 20515-6480
-    phone: (202) 226-8417
+  minority_rss_url: http://democrats.cha.house.gov/rss.xml
+  url: http://cha.house.gov/
+  rss_url: http://cha.house.gov/rss.xml
+  subcommittees: 
+  - name: Oversight
+    address: 1309 LHOB; Washington, DC 20515
+    phone: (202) 225-8281
+    thomas_id: "06"
+  - name: Elections
+    address: 1309 LHOB; Washington, DC 20515-6157
+    phone: (202) 225-8281
+    thomas_id: 08
+  house_committee_id: HA
+  thomas_id: HSHA
+  type: house
+- name: House Committee on Homeland Security
   address: H2-176 FHOB; Washington, DC 20515-6480
   phone: (202) 226-8417
-- type: house
-  name: House Committee on Energy and Commerce
-  url: http://energycommerce.house.gov/
-  thomas_id: HSIF
-  house_committee_id: IF
-  subcommittees:
-  - name: Commerce, Manufacturing, and Trade
-    thomas_id: '17'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
-  - name: Communications and Technology
-    thomas_id: '16'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
-  - name: Energy and Power
-    thomas_id: '03'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
-  - name: Health
-    thomas_id: '14'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
-  - name: Oversight and Investigations
-    thomas_id: '02'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
-  - name: Environment and the Economy
-    thomas_id: '18'
-    address: 2125 RHOB; Washington, DC 20515
-    phone: (202) 225-2927
+  url: http://homeland.house.gov/
+  rss_url: http://homeland.house.gov/rss.xml
+  subcommittees: 
+  - name: Border and Maritime Security
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: "11"
+  - name: Emergency Preparedness, Response and Communications
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: "12"
+  - name: Cybersecurity, Infrastructure Protection, and Security Technologies
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: 08
+  - name: Counterterrorism and Intelligence
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: "05"
+  - name: Oversight, Investigations, and Management
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: 09
+  - name: Transportation Security
+    address: H2-176 FHOB; Washington, DC 20515-6480
+    phone: (202) 226-8417
+    thomas_id: "07"
+  house_committee_id: HM
+  thomas_id: HSHM
+  type: house
+- name: House Committee on Energy and Commerce
   address: 2125 RHOB; Washington, DC 20515
   phone: (202) 225-2927
-- type: house
-  name: House Committee on Natural Resources
-  url: http://naturalresources.house.gov/
-  thomas_id: HSII
-  house_committee_id: II
-  subcommittees:
-  - name: Energy and Mineral Resources
-    thomas_id: '06'
-    address: 1333 LHOB; Washington, DC 20515-6208
-    phone: (202) 225-9297
-  - name: National Parks, Forests and Public Lands
-    thomas_id: '10'
-    address: 1017 LHOB; Washington, DC 20515
-    phone: (202) 226-7736
-  - name: Water and Power
-    thomas_id: '13'
-    address: 1522 LHOB; Washington, DC 20515-6204
-    phone: (202) 225-8331
-  - name: Fisheries, Wildlife, Oceans and Insular Affairs
-    thomas_id: '22'
-    address: 140 CHOB; Washington, DC 20515
-    phone: (202) 226-0200
-  - name: Indian and Alaska Native Affairs
-    thomas_id: '24'
-    address: 1337 LHOB; Washington, DC 20515
-    phone: (202) 226-9725
+  url: http://energycommerce.house.gov/
+  rss_url: http://energycommerce.house.gov/rss.aspx
+  subcommittees: 
+  - name: Commerce, Manufacturing, and Trade
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "17"
+  - name: Communications and Technology
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "16"
+  - name: Energy and Power
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "03"
+  - name: Health
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "14"
+  - name: Oversight and Investigations
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "02"
+  - name: Environment and the Economy
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+    thomas_id: "18"
+  house_committee_id: IF
+  thomas_id: HSIF
+  type: house
+- name: House Committee on Natural Resources
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
-- type: house
-  name: House Permanent Select Committee on Intelligence
-  thomas_id: HLIG
-  house_committee_id: IG
-  subcommittees:
-  - name: Oversight and Investigations
-    thomas_id: '09'
-    address: HVC304 CAPITOL; Washington, DC 20515
-    phone: (202) 225-4121
-  - name: Technical and Tactical Intelligence
-    thomas_id: '05'
-    address: HVC304 CAPITOL; Washington, DC 20515
-    phone: (202) 225-4121
-  - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
-    thomas_id: '08'
-    address: HVC304 CAPITOL; Washington, DC 20515
-    phone: (202) 225-4121
+  minority_rss_url: http://democrats.naturalresources.house.gov/rss.xml
+  url: http://naturalresources.house.gov/
+  rss_url: http://naturalresources.house.gov/news.xml
+  subcommittees: 
+  - name: Energy and Mineral Resources
+    address: 1333 LHOB; Washington, DC 20515-6208
+    phone: (202) 225-9297
+    thomas_id: "06"
+  - name: National Parks, Forests and Public Lands
+    address: 1017 LHOB; Washington, DC 20515
+    phone: (202) 226-7736
+    thomas_id: "10"
+  - name: Water and Power
+    address: 1522 LHOB; Washington, DC 20515-6204
+    phone: (202) 225-8331
+    thomas_id: "13"
+  - name: Fisheries, Wildlife, Oceans and Insular Affairs
+    address: 140 CHOB; Washington, DC 20515
+    phone: (202) 226-0200
+    thomas_id: "22"
+  - name: Indian and Alaska Native Affairs
+    address: 1337 LHOB; Washington, DC 20515
+    phone: (202) 226-9725
+    thomas_id: "24"
+  house_committee_id: II
+  thomas_id: HSII
+  type: house
+- name: House Permanent Select Committee on Intelligence
   address: HVC304 CAPITOL; Washington, DC 20515-6415
   phone: (202) 225-4121
-- type: house
-  name: House Committee on the Judiciary
-  url: http://judiciary.house.gov/
-  thomas_id: HSJU
-  house_committee_id: JU
-  subcommittees:
-  - name: The Constitution
-    thomas_id: '10'
-    address: H2-362 FHOB; Washington, DC 20515-6220
-    phone: (202) 225-2825
-  - name: Courts, Commercial and Administrative Law
-    thomas_id: '03'
-    address: 517 CHOB; Washington, DC 20515-6219
-    phone: (202) 226-7680
-  - name: Crime, Terrorism, and Homeland Security
-    thomas_id: '08'
-    address: B370B RHOB; Washington, DC 20515-6223
-    phone: (202) 225-5727
-  - name: Immigration Policy and Enforcement
-    thomas_id: '01'
-    address: B353 RHOB; Washington, DC 20515-6217
-    phone: (202) 225-3926
-  - name: Intellectual Property, Competition, and the Internet
-    thomas_id: '12'
-    address: B352 RHOB; Washington, DC 20515-6218
-    phone: (202) 225-5741
+  minority_rss_url: http://democrats.intelligence.house.gov/rss.xml
+  rss_url: http://intelligence.house.gov/rss.xml
+  subcommittees: 
+  - name: Oversight and Investigations
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+    thomas_id: 09
+  - name: Technical and Tactical Intelligence
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+    thomas_id: "05"
+  - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+    thomas_id: 08
+  house_committee_id: IG
+  thomas_id: HLIG
+  type: house
+- name: House Committee on the Judiciary
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
-- type: house
-  name: House Committee on Transportation and Infrastructure
-  url: http://transportation.house.gov/
-  thomas_id: HSPW
-  house_committee_id: PW
-  subcommittees:
-  - name: Aviation
-    thomas_id: '05'
-    address: 2251 RHOB; Washington, DC 20515-6257
-    phone: (202) 226-3220
-  - name: Coast Guard and Maritime Transportation
-    thomas_id: '07'
-    address: H2-507 FHOB; Washington, DC 20515-6231
-    phone: (202) 226-3552
-  - name: Economic Development, Public Buildings, and Emergency Management
-    thomas_id: '13'
-    address: H2-585 FHOB; Washington, DC 20515-6260
-    phone: (202) 225-3014
-  - name: Highways and Transit
-    thomas_id: '12'
-    address: B376 RHOB; Washington, DC 20515-6263
-    phone: (202) 225-6715
-  - name: Railroads, Pipelines, and Hazardous Materials
-    thomas_id: '14'
-    address: B376 RHOB; Washington, DC 20515-6263
-    phone: (202) 226-0727
-  - name: Water Resources and Environment
-    thomas_id: '02'
-    address: B370A RHOB; Washington, DC 20515-6262
-    phone: (202) 225-4360
+  minority_rss_url: http://democrats.judiciary.house.gov/rss.xml
+  url: http://judiciary.house.gov/
+  subcommittees: 
+  - name: The Constitution
+    address: H2-362 FHOB; Washington, DC 20515-6220
+    phone: (202) 225-2825
+    thomas_id: "10"
+  - name: Courts, Commercial and Administrative Law
+    address: 517 CHOB; Washington, DC 20515-6219
+    phone: (202) 226-7680
+    thomas_id: "03"
+  - name: Crime, Terrorism, and Homeland Security
+    address: B370B RHOB; Washington, DC 20515-6223
+    phone: (202) 225-5727
+    thomas_id: 08
+  - name: Immigration Policy and Enforcement
+    address: B353 RHOB; Washington, DC 20515-6217
+    phone: (202) 225-3926
+    thomas_id: "01"
+  - name: Intellectual Property, Competition, and the Internet
+    address: B352 RHOB; Washington, DC 20515-6218
+    phone: (202) 225-5741
+    thomas_id: "12"
+  house_committee_id: JU
+  thomas_id: HSJU
+  type: house
+- name: House Committee on Transportation and Infrastructure
   address: 2165 RHOB; Washington, DC 20515-6256
   phone: (202) 225-9446
-- type: house
-  name: House Committee on Rules
-  url: http://www.rules.house.gov/
-  thomas_id: HSRU
-  house_committee_id: RU
-  subcommittees:
-  - name: Legislative and Budget Process
-    thomas_id: '02'
-    address: 2233 RHOB; Washington, DC 20515
-    phone: (202) 225-2231
-  - name: Rules and Organization of the House
-    thomas_id: '04'
-    address: 1517 LHOB; Washington, DC 20515
-    phone: (202) 225-1002
+  minority_rss_url: http://democrats.transportation.house.gov/rss.xml
+  url: http://transportation.house.gov/
+  rss_url: http://transportation.house.gov/rss.xml
+  subcommittees: 
+  - name: Aviation
+    address: 2251 RHOB; Washington, DC 20515-6257
+    phone: (202) 226-3220
+    thomas_id: "05"
+  - name: Coast Guard and Maritime Transportation
+    address: H2-507 FHOB; Washington, DC 20515-6231
+    phone: (202) 226-3552
+    thomas_id: "07"
+  - name: Economic Development, Public Buildings, and Emergency Management
+    address: H2-585 FHOB; Washington, DC 20515-6260
+    phone: (202) 225-3014
+    thomas_id: "13"
+  - name: Highways and Transit
+    address: B376 RHOB; Washington, DC 20515-6263
+    phone: (202) 225-6715
+    thomas_id: "12"
+  - name: Railroads, Pipelines, and Hazardous Materials
+    address: B376 RHOB; Washington, DC 20515-6263
+    phone: (202) 226-0727
+    thomas_id: "14"
+  - name: Water Resources and Environment
+    address: B370A RHOB; Washington, DC 20515-6262
+    phone: (202) 225-4360
+    thomas_id: "02"
+  house_committee_id: PW
+  thomas_id: HSPW
+  type: house
+- name: House Committee on Rules
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9191
-- type: house
-  name: House Committee on Small Business
-  url: http://www.house.gov/smbiz/
-  thomas_id: HSSM
-  house_committee_id: SM
-  subcommittees:
-  - name: Contracting and Workforce
-    thomas_id: '23'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  - name: Investigations, Oversight and Regulations
-    thomas_id: '24'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  - name: Agriculture, Energy and Trade
-    thomas_id: '25'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  - name: Healthcare and Technology
-    thomas_id: '26'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  - name: Economic Growth, Tax and Capital Access
-    thomas_id: '27'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
+  minority_rss_url: http://democrats.rules.house.gov/rss.xml
+  url: http://www.rules.house.gov/
+  subcommittees: 
+  - name: Legislative and Budget Process
+    address: 2233 RHOB; Washington, DC 20515
+    phone: (202) 225-2231
+    thomas_id: "02"
+  - name: Rules and Organization of the House
+    address: 1517 LHOB; Washington, DC 20515
+    phone: (202) 225-1002
+    thomas_id: "04"
+  house_committee_id: RU
+  thomas_id: HSRU
+  type: house
+- name: House Committee on Small Business
   address: 2361 RHOB; Washington, DC 20515-6315
   phone: (202) 225-5821
-- type: house
-  name: House Committee on Ethics
-  url: http://ethics.house.gov/
-  thomas_id: HSSO
-  house_committee_id: SO
+  minority_rss_url: http://democrats.smallbusiness.house.gov/rss.xml
+  url: http://www.house.gov/smbiz/
+  rss_url: http://smallbusiness.house.gov/news/rss.aspx
+  subcommittees: 
+  - name: Contracting and Workforce
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+    thomas_id: "23"
+  - name: Investigations, Oversight and Regulations
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+    thomas_id: "24"
+  - name: Agriculture, Energy and Trade
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+    thomas_id: "25"
+  - name: Healthcare and Technology
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+    thomas_id: "26"
+  - name: Economic Growth, Tax and Capital Access
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+    thomas_id: "27"
+  house_committee_id: SM
+  thomas_id: HSSM
+  type: house
+- name: House Committee on Ethics
   address: 1015 LHOB; Washington, DC 20515-6328
   phone: (202) 225-7103
-- type: house
-  name: House Committee on Science, Space, and Technology
-  url: http://science.house.gov/
-  thomas_id: HSSY
-  house_committee_id: SY
-  subcommittees:
-  - name: Energy and Environment
-    thomas_id: '20'
-    address: 2319 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-8844
-  - name: Investigations and Oversight
-    thomas_id: '21'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-8772
-  - name: Research and Science Education
-    thomas_id: '14'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-9644
-  - name: Space and Aeronautics
-    thomas_id: '16'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-7858
-  - name: Technology and Innovation
-    thomas_id: '19'
-    address: 2321 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-9662
+  url: http://ethics.house.gov/
+  rss_url: http://ethics.house.gov/rss.xml
+  house_committee_id: SO
+  thomas_id: HSSO
+  type: house
+- name: House Committee on Science, Space, and Technology
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6371
-- type: house
-  name: House Committee on Veterans' Affairs
-  url: http://veterans.house.gov/
-  thomas_id: HSVR
-  house_committee_id: VR
-  subcommittees:
-  - name: Disability Assistance and Memorial Affairs
-    thomas_id: '09'
-    address: 337 CHOB; Washington, DC 20515
-    phone: (202) 225-9164
-  - name: Economic Opportunity
-    thomas_id: '10'
-    address: 335 CHOB; Washington, DC 20515
-    phone: (202) 226-5491
-  - name: Health
-    thomas_id: '03'
-    address: 338 CHOB; Washington, DC 20515-6340
-    phone: (202) 225-9154
-  - name: Oversight and Investigations
-    thomas_id: '08'
-    address: 337A CHOB; Washington, DC 20515-6339
-    phone: (202) 225-3569
+  minority_rss_url: http://democrats.science.house.gov/rss.xml
+  url: http://science.house.gov/
+  rss_url: http://science.house.gov/rss.xml
+  subcommittees: 
+  - name: Energy and Environment
+    address: 2319 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-8844
+    thomas_id: "20"
+  - name: Investigations and Oversight
+    address: B374 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-8772
+    thomas_id: "21"
+  - name: Research and Science Education
+    address: B374 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-9644
+    thomas_id: "14"
+  - name: Space and Aeronautics
+    address: B374 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-7858
+    thomas_id: "16"
+  - name: Technology and Innovation
+    address: 2321 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-9662
+    thomas_id: "19"
+  house_committee_id: SY
+  thomas_id: HSSY
+  type: house
+- name: House Committee on Veterans' Affairs
   address: 335 CHOB; Washington, DC 20515-6335
   phone: (202) 225-3527
-- type: house
-  name: House Committee on Ways and Means
-  url: http://waysandmeans.house.gov/
-  thomas_id: HSWM
-  house_committee_id: WM
-  subcommittees:
+  minority_rss_url: http://democrats.veterans.house.gov/rss.xml
+  url: http://veterans.house.gov/
+  rss_url: http://veterans.house.gov/rss.xml
+  subcommittees: 
+  - name: Disability Assistance and Memorial Affairs
+    address: 337 CHOB; Washington, DC 20515
+    phone: (202) 225-9164
+    thomas_id: 09
+  - name: Economic Opportunity
+    address: 335 CHOB; Washington, DC 20515
+    phone: (202) 226-5491
+    thomas_id: "10"
   - name: Health
-    thomas_id: '02'
-    address: 1135 LHOB; Washington, DC 20515-6349
-    phone: (202) 225-3943
-  - name: Human Resources
-    thomas_id: '03'
-    address: 1129 LHOB; Washington, DC 20515-6351
-    phone: (202) 225-1025
-  - name: Oversight
-    thomas_id: '06'
-    address: 1136 LHOB; Washington, DC 20515-6352
-    phone: (202) 225-5522
-  - name: Select Revenue Measures
-    thomas_id: '05'
-    address: 1136 LHOB; Washington, DC 20515-6348
-    phone: (202) 225-5522
-  - name: Social Security
-    thomas_id: '01'
-    address: B317 RHOB; Washington, DC 20515-6353
-    phone: (202) 225-9263
-  - name: Trade
-    thomas_id: '04'
-    address: 1104 LHOB; Washington, DC 20515-6354
-    phone: (202) 225-6649
+    address: 338 CHOB; Washington, DC 20515-6340
+    phone: (202) 225-9154
+    thomas_id: "03"
+  - name: Oversight and Investigations
+    address: 337A CHOB; Washington, DC 20515-6339
+    phone: (202) 225-3569
+    thomas_id: 08
+  house_committee_id: VR
+  thomas_id: HSVR
+  type: house
+- name: House Committee on Ways and Means
   address: 1102 LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
-- type: joint
-  name: Commission on Security and Cooperation in Europe
-  thomas_id: JCSE
+  minority_rss_url: http://democrats.waysandmeans.house.gov/rss.xml
+  url: http://waysandmeans.house.gov/
+  subcommittees: 
+  - name: Health
+    address: 1135 LHOB; Washington, DC 20515-6349
+    phone: (202) 225-3943
+    thomas_id: "02"
+  - name: Human Resources
+    address: 1129 LHOB; Washington, DC 20515-6351
+    phone: (202) 225-1025
+    thomas_id: "03"
+  - name: Oversight
+    address: 1136 LHOB; Washington, DC 20515-6352
+    phone: (202) 225-5522
+    thomas_id: "06"
+  - name: Select Revenue Measures
+    address: 1136 LHOB; Washington, DC 20515-6348
+    phone: (202) 225-5522
+    thomas_id: "05"
+  - name: Social Security
+    address: B317 RHOB; Washington, DC 20515-6353
+    phone: (202) 225-9263
+    thomas_id: "01"
+  - name: Trade
+    address: 1104 LHOB; Washington, DC 20515-6354
+    phone: (202) 225-6649
+    thomas_id: "04"
+  house_committee_id: WM
+  thomas_id: HSWM
+  type: house
+- name: Commission on Security and Cooperation in Europe
   senate_committee_id: JCSE
-- type: joint
-  name: Joint Select Committee on Deficit Reduction
-  thomas_id: JSDF
+  thomas_id: JCSE
+  type: joint
+- name: Joint Select Committee on Deficit Reduction
   senate_committee_id: JSDF
-- type: joint
-  name: Joint Economic Committee
-  url: http://jec.senate.gov/
-  thomas_id: JSEC
+  thomas_id: JSDF
+  type: joint
+- name: Joint Economic Committee
   senate_committee_id: JSEC
-- type: joint
-  name: Joint Committee on the Library
-  thomas_id: JSLC
+  url: http://jec.senate.gov/
+  rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
+  minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
+  thomas_id: JSEC
+  type: joint
+- name: Joint Committee on the Library
   senate_committee_id: JSLC
-- type: joint
-  name: Joint Committee on Printing
-  thomas_id: JSPR
+  thomas_id: JSLC
+  type: joint
+- name: Joint Committee on Printing
   senate_committee_id: JSPR
-- type: joint
-  name: Joint Committee on Taxation
-  thomas_id: JSTX
+  thomas_id: JSPR
+  type: joint
+- name: Joint Committee on Taxation
   senate_committee_id: JSTX
-- type: senate
-  name: United States Senate Caucus on International Narcotics Control
-  thomas_id: SCNC
+  thomas_id: JSTX
+  type: joint
+- name: United States Senate Caucus on International Narcotics Control
   senate_committee_id: SCNC
-- type: senate
-  name: Senate Select Committee on Ethics
-  url: http://ethics.senate.gov/
-  thomas_id: SLET
+  thomas_id: SCNC
+  type: senate
+- name: Senate Select Committee on Ethics
   senate_committee_id: SLET
-- type: senate
-  name: Senate Committee on Indian Affairs
+  url: http://ethics.senate.gov/
+  rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
+  thomas_id: SLET
+  type: senate
+- name: Senate Committee on Indian Affairs
+  senate_committee_id: SLIA
   url: http://indian.senate.gov/
   thomas_id: SLIA
-  senate_committee_id: SLIA
-- type: senate
-  name: Senate Select Committee on Intelligence
+  type: senate
+- name: Senate Select Committee on Intelligence
+  senate_committee_id: SLIN
   url: http://intelligence.senate.gov/
   thomas_id: SLIN
-  senate_committee_id: SLIN
-- type: senate
-  name: Senate Special Committee on Aging
-  thomas_id: SPAG
+  type: senate
+- name: Senate Special Committee on Aging
   senate_committee_id: SPAG
-- type: senate
-  name: Senate Committee on Agriculture, Nutrition, and Forestry
-  url: http://agriculture.senate.gov/
-  thomas_id: SSAF
+  thomas_id: SPAG
+  type: senate
+- name: Senate Committee on Agriculture, Nutrition, and Forestry
   senate_committee_id: SSAF
-  subcommittees:
+  minority_rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=republican
+  url: http://agriculture.senate.gov/
+  rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=democrat
+  subcommittees: 
   - name: Commodities, Markets, Trade and Risk Management
-    thomas_id: '13'
+    thomas_id: "13"
   - name: Conservation, Forestry and Natural Resources
-    thomas_id: '14'
+    thomas_id: "14"
   - name: Jobs, Rural Economic Growth and Energy Innovation
-    thomas_id: '15'
+    thomas_id: "15"
   - name: Nutrition, Specialty Crops, Food and Agricultural Research
-    thomas_id: '16'
+    thomas_id: "16"
   - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
-    thomas_id: '17'
-- type: senate
-  name: Senate Committee on Appropriations
-  url: http://appropriations.senate.gov/
-  thomas_id: SSAP
+    thomas_id: "17"
+  thomas_id: SSAF
+  type: senate
+- name: Senate Committee on Appropriations
   senate_committee_id: SSAP
-  subcommittees:
+  url: http://appropriations.senate.gov/
+  subcommittees: 
   - name: Commerce, Justice, Science, and Related Agencies
-    thomas_id: '16'
+    thomas_id: "16"
   - name: Energy and Water Development
-    thomas_id: '22'
+    thomas_id: "22"
   - name: Financial Services and General Government
-    thomas_id: '23'
+    thomas_id: "23"
   - name: Department of Homeland Security
-    thomas_id: '14'
+    thomas_id: "14"
   - name: Department of the Interior, Environment, and Related Agencies
-    thomas_id: '17'
-  - name: Departments of Labor, Health and Human Services, and Education, and Related
-      Agencies
-    thomas_id: '18'
+    thomas_id: "17"
+  - name: Departments of Labor, Health and Human Services, and Education, and Related Agencies
+    thomas_id: "18"
   - name: Military Construction and Veterans Affairs, and Related Agencies
-    thomas_id: '19'
+    thomas_id: "19"
   - name: State, Foreign Operations, and Related Programs
-    thomas_id: '20'
+    thomas_id: "20"
   - name: Transportation and Housing and Urban Development, and Related Agencies
-    thomas_id: '24'
-  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
-      Agencies
-    thomas_id: '01'
+    thomas_id: "24"
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related Agencies
+    thomas_id: "01"
   - name: Department of Defense
-    thomas_id: '02'
+    thomas_id: "02"
   - name: Legislative Branch
-    thomas_id: '08'
-- type: senate
-  name: Senate Committee on Armed Services
-  url: http://armed-services.senate.gov/
-  thomas_id: SSAS
+    thomas_id: 08
+  thomas_id: SSAP
+  type: senate
+- name: Senate Committee on Armed Services
   senate_committee_id: SSAS
-  subcommittees:
+  url: http://armed-services.senate.gov/
+  rss_url: http://www.armed-services.senate.gov/press/index.cfm?xml=Press%20Releases,RSS2.0
+  subcommittees: 
   - name: Airland
-    thomas_id: '14'
+    thomas_id: "14"
   - name: Emerging Threats and Capabilities
-    thomas_id: '20'
+    thomas_id: "20"
   - name: Personnel
-    thomas_id: '17'
+    thomas_id: "17"
   - name: Readiness and Management Support
-    thomas_id: '15'
+    thomas_id: "15"
   - name: SeaPower
-    thomas_id: '13'
+    thomas_id: "13"
   - name: Strategic Forces
-    thomas_id: '16'
-- type: senate
-  name: Senate Committee on Banking, Housing, and Urban Affairs
-  url: http://banking.senate.gov/
-  thomas_id: SSBK
+    thomas_id: "16"
+  thomas_id: SSAS
+  type: senate
+- name: Senate Committee on Banking, Housing, and Urban Affairs
   senate_committee_id: SSBK
-  subcommittees:
+  url: http://banking.senate.gov/
+  subcommittees: 
   - name: Economic Policy
-    thomas_id: '12'
+    thomas_id: "12"
   - name: National Security and International Trade and Finance
-    thomas_id: '05'
+    thomas_id: "05"
   - name: Securities, Insurance and Investment
-    thomas_id: '04'
+    thomas_id: "04"
   - name: Housing, Transportation and Community Development
-    thomas_id: '09'
+    thomas_id: 09
   - name: Financial Institutions and Consumer Protection
-    thomas_id: '08'
-- type: senate
-  name: Senate Committee on the Budget
-  url: http://budget.senate.gov/
-  thomas_id: SSBU
+    thomas_id: 08
+  thomas_id: SSBK
+  type: senate
+- name: Senate Committee on the Budget
   senate_committee_id: SSBU
-- type: senate
-  name: Senate Committee on Commerce, Science, and Transportation
-  url: http://commerce.senate.gov/
-  thomas_id: SSCM
+  minority_rss_url: http://budget.senate.gov/republican/public/index.cfm/rss/feed
+  url: http://budget.senate.gov/
+  rss_url: http://budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
+  thomas_id: SSBU
+  type: senate
+- name: Senate Committee on Commerce, Science, and Transportation
   senate_committee_id: SSCM
-  subcommittees:
+  url: http://commerce.senate.gov/
+  rss_url: http://www.commerce.senate.gov/public/?a=RSS.Feed
+  subcommittees: 
   - name: Communications, Technology, and the Internet
-    thomas_id: '26'
+    thomas_id: "26"
   - name: Competitiveness, Innovation, and Export Promotion
-    thomas_id: '27'
+    thomas_id: "27"
   - name: Consumer Protection, Product Safety, and Insurance
-    thomas_id: '20'
+    thomas_id: "20"
   - name: Oceans, Atmosphere, Fisheries, and Coast Guard
-    thomas_id: '22'
+    thomas_id: "22"
   - name: Science and Space
-    thomas_id: '24'
+    thomas_id: "24"
   - name: Surface Transportation and Merchant Marine Infrastructure, Safety, and Security
-    thomas_id: '25'
+    thomas_id: "25"
   - name: Aviation Operations, Safety, and Security
-    thomas_id: '01'
-- type: senate
-  name: Senate Committee on Energy and Natural Resources
-  url: http://energy.senate.gov/
-  thomas_id: SSEG
+    thomas_id: "01"
+  thomas_id: SSCM
+  type: senate
+- name: Senate Committee on Energy and Natural Resources
   senate_committee_id: SSEG
-  subcommittees:
+  minority_rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=republican-news
+  url: http://energy.senate.gov/
+  rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=democratic-news
+  subcommittees: 
   - name: Water and Power
-    thomas_id: '07'
+    thomas_id: "07"
   - name: National Parks
-    thomas_id: '04'
+    thomas_id: "04"
   - name: Energy
-    thomas_id: '01'
+    thomas_id: "01"
   - name: Public Lands, Forests, and Mining
-    thomas_id: '03'
-- type: senate
-  name: Senate Committee on Environment and Public Works
-  url: http://epw.senate.gov/
-  thomas_id: SSEV
+    thomas_id: "03"
+  thomas_id: SSEG
+  type: senate
+- name: Senate Committee on Environment and Public Works
   senate_committee_id: SSEV
-  subcommittees:
+  minority_rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Minority
+  url: http://epw.senate.gov/
+  rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
+  subcommittees: 
   - name: Clean Air and Nuclear Safety
-    thomas_id: '10'
+    thomas_id: "10"
   - name: Superfund, Toxics and Environmental Health
-    thomas_id: '09'
-  - thomas_id: '16'
-    name: Green Jobs and the New Economy
-  - thomas_id: '18'
-    name: Oversight
-  - thomas_id: '08'
-    name: Transportation and Infrastructure
-  - thomas_id: '15'
-    name: Water and Wildlife
-- type: senate
-  name: Senate Committee on Finance
-  url: http://finance.senate.gov/
-  thomas_id: SSFI
+    thomas_id: 09
+  - name: Green Jobs and the New Economy
+    thomas_id: "16"
+  - name: Oversight
+    thomas_id: "18"
+  - name: Transportation and Infrastructure
+    thomas_id: 08
+  - name: Water and Wildlife
+    thomas_id: "15"
+  thomas_id: SSEV
+  type: senate
+- name: Senate Committee on Finance
   senate_committee_id: SSFI
-  subcommittees:
+  minority_rss_url: http://www.finance.senate.gov/rss/feed/ranking/
+  url: http://finance.senate.gov/
+  rss_url: http://www.finance.senate.gov/rss/feed/chair/
+  subcommittees: 
   - name: Energy, Natural Resources, and Infrastructure
-    thomas_id: '12'
+    thomas_id: "12"
   - name: Health Care
-    thomas_id: '10'
+    thomas_id: "10"
   - name: International Trade, Customs, and Global Competitiveness
-    thomas_id: '13'
+    thomas_id: "13"
   - name: Fiscal Responsibility and Economic Growth
-    thomas_id: '14'
+    thomas_id: "14"
   - name: Taxation and IRS Oversight
-    thomas_id: '11'
+    thomas_id: "11"
   - name: Social Security, Pensions and Family Policy
-    thomas_id: '02'
-- type: senate
-  name: Senate Committee on Foreign Relations
-  url: http://foreign.senate.gov/
-  thomas_id: SSFR
+    thomas_id: "02"
+  thomas_id: SSFI
+  type: senate
+- name: Senate Committee on Foreign Relations
   senate_committee_id: SSFR
-  subcommittees:
-  - name: International Development and Foreign Assistance, Economic Affairs, International
-      Environmental Protection, and Peace Corps
-    thomas_id: '12'
-  - name: International Operations and Organizations, Human Rights, Democracy and
-      Global Women's Issues
-    thomas_id: '13'
+  minority_rss_url: http://www.foreign.senate.gov/rss/feed/ranking/
+  url: http://foreign.senate.gov/
+  rss_url: http://www.foreign.senate.gov/rss/feed/chair/
+  subcommittees: 
+  - name: International Development and Foreign Assistance, Economic Affairs, International Environmental Protection, and Peace Corps
+    thomas_id: "12"
+  - name: International Operations and Organizations, Human Rights, Democracy and Global Women's Issues
+    thomas_id: "13"
   - name: European Affairs
-    thomas_id: '01'
+    thomas_id: "01"
   - name: African Affairs
-    thomas_id: '09'
+    thomas_id: 09
   - name: East Asian and Pacific Affairs
-    thomas_id: '02'
+    thomas_id: "02"
   - name: Near Eastern and South and Central Asian Affairs
-    thomas_id: '07'
+    thomas_id: "07"
   - name: Western Hemisphere and Global Narcotics Affairs
-    thomas_id: '06'
-- type: senate
-  name: Senate Committee on Homeland Security and Governmental Affairs
-  url: http://hsgac.senate.gov/
-  thomas_id: SSGA
+    thomas_id: "06"
+  thomas_id: SSFR
+  type: senate
+- name: Senate Committee on Homeland Security and Governmental Affairs
   senate_committee_id: SSGA
-  subcommittees:
-  - thomas_id: '01'
-    name: Permanent Subcommittee on Investigations
-  - thomas_id: '17'
-    name: Emergency Management, Intergovernmental Relations, and the District of Columbia
-  - thomas_id: '15'
-    name: Financial and Contracting Oversight
-  - thomas_id: '16'
-    name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
-- type: senate
-  name: Senate Committee on Health, Education, Labor, and Pensions
-  url: http://help.senate.gov/
-  thomas_id: SSHR
+  url: http://hsgac.senate.gov/
+  subcommittees: 
+  - name: Permanent Subcommittee on Investigations
+    thomas_id: "01"
+  - name: Emergency Management, Intergovernmental Relations, and the District of Columbia
+    thomas_id: "17"
+  - name: Financial and Contracting Oversight
+    thomas_id: "15"
+  - name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
+    thomas_id: "16"
+  thomas_id: SSGA
+  type: senate
+- name: Senate Committee on Health, Education, Labor, and Pensions
   senate_committee_id: SSHR
-  subcommittees:
+  minority_rss_url: http://www.help.senate.gov/rss/feed/ranking/
+  url: http://help.senate.gov/
+  rss_url: http://www.help.senate.gov/rss/feed/chair/
+  subcommittees: 
   - name: Employment and Workplace Safety
-    thomas_id: '11'
+    thomas_id: "11"
   - name: Primary Health and Aging
-    thomas_id: '12'
+    thomas_id: "12"
   - name: Children and Families
-    thomas_id: '09'
-- type: senate
-  name: Senate Committee on the Judiciary
-  url: http://judiciary.senate.gov/
-  thomas_id: SSJU
+    thomas_id: 09
+  thomas_id: SSHR
+  type: senate
+- name: Senate Committee on the Judiciary
   senate_committee_id: SSJU
-  subcommittees:
+  url: http://judiciary.senate.gov/
+  subcommittees: 
   - name: the Constitution, Civil Rights and Human Rights
-    thomas_id: '21'
+    thomas_id: "21"
   - name: Crime and Terrorism
-    thomas_id: '22'
+    thomas_id: "22"
   - name: Privacy, Technology and the Law
-    thomas_id: '23'
+    thomas_id: "23"
   - name: Antitrust, Competition Policy and Consumer Rights
-    thomas_id: '01'
+    thomas_id: "01"
   - name: Immigration, Refugees and Border Security
-    thomas_id: '04'
-  - thomas_id: '24'
-    name: Bankruptcy and the Courts
-  - thomas_id: '25'
-    name: Oversight, Federal Rights and Agency Action
-- type: senate
-  name: Senate Committee on Rules and Administration
-  url: http://rules.senate.gov/
-  thomas_id: SSRA
+    thomas_id: "04"
+  - name: Bankruptcy and the Courts
+    thomas_id: "24"
+  - name: Oversight, Federal Rights and Agency Action
+    thomas_id: "25"
+  thomas_id: SSJU
+  type: senate
+- name: Senate Committee on Rules and Administration
   senate_committee_id: SSRA
-- type: senate
-  name: Senate Committee on Small Business and Entrepreneurship
-  url: http://sbc.senate.gov/
-  thomas_id: SSSB
+  url: http://rules.senate.gov/
+  rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
+  thomas_id: SSRA
+  type: senate
+- name: Senate Committee on Small Business and Entrepreneurship
   senate_committee_id: SSSB
-- type: senate
-  name: Senate Committee on Veterans' Affairs
-  url: http://veterans.senate.gov/
-  thomas_id: SSVA
+  url: http://sbc.senate.gov/
+  rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
+  thomas_id: SSSB
+  type: senate
+- name: Senate Committee on Veterans' Affairs
   senate_committee_id: SSVA
+  minority_rss_url: http://www.veterans.senate.gov/rankingmember/rss.cfm
+  url: http://veterans.senate.gov/
+  rss_url: http://www.veterans.senate.gov/rss.cfm
+  thomas_id: SSVA
+  type: senate
