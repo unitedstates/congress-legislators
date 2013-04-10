@@ -137,6 +137,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* fax: The fax number of the legislator's Washington, D.C. office (only valid if the term is current, otherwise the last known number).
 	* contact_form: The website URL of the contact page on the legislator's official website (only valid if the term is current, otherwise the last known URL).
 	* office: Similar to the address field, this is just the room and building number, suitable for display (only valid if the term is current, otherwise the last known office).
+	* rss_url The URL to the official website's RSS feed (only valid if the term is current, otherwise the last known URL).
 
 Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
 
