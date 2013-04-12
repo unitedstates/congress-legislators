@@ -44,9 +44,9 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		govtrack: 400351
 		opensecrets: N00004357
 		votesmart: 26344
-    fec:
-    - H8WI01024
-    cspan: 57970
+                fec:
+                - H8WI01024
+                cspan: 57970
 		wikipedia: Paul Ryan
 		house_history: 20785
 	  name:
