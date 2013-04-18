@@ -2373,6 +2373,10 @@
     birthday: '1942-02-20'
     gender: M
     religion: Baptist
+  leadership_roles:
+  - title: Minority Leader
+    chamber: senate
+    start_date: '2013-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -4873,6 +4877,10 @@
     birthday: '1949-11-17'
     gender: M
     religion: Roman Catholic
+  leadership_roles:
+  - title: Speaker
+    chamber: house
+    start_date: '2013-01-03'
   terms:
   - type: rep
     start: '1991-01-03'
@@ -22889,6 +22897,10 @@
     birthday: '1940-03-26'
     gender: F
     religion: Roman Catholic
+  leadership_roles:
+  - title: Minority Leader
+    chamber: house
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -24526,6 +24538,10 @@
     birthday: '1939-12-02'
     gender: M
     religion: Latter Day Saints
+  leadership_roles:
+  - title: Majority Leader
+    chamber: senate
+    start_date: '2013-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
