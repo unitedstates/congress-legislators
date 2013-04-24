@@ -618,6 +618,7 @@
   name: Commission on Security and Cooperation in Europe
   thomas_id: JCSE
   senate_committee_id: JCSE
+  wikipedia: Commission on Security and Cooperation in Europe
 - type: joint
   name: Joint Economic Committee
   url: http://jec.senate.gov/
@@ -625,18 +626,22 @@
   senate_committee_id: JSEC
   rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
   minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
+  wikipedia: Joint Economic Committee
 - type: joint
   name: Joint Committee on the Library
   thomas_id: JSLC
   senate_committee_id: JSLC
+  wikipedia: Joint Committee on the Library
 - type: joint
   name: Joint Committee on Printing
   thomas_id: JSPR
   senate_committee_id: JSPR
+  wikipedia: Joint Committee on Printing
 - type: joint
   name: Joint Committee on Taxation
   thomas_id: JSTX
   senate_committee_id: JSTX
+  wikipedia: United States Congress Joint Committee on Taxation
 - type: senate
   name: United States Senate Caucus on International Narcotics Control
   thomas_id: SCNC
@@ -647,20 +652,24 @@
   thomas_id: SLET
   senate_committee_id: SLET
   rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Select Committee on Ethics
 - type: senate
   name: Senate Committee on Indian Affairs
   url: http://indian.senate.gov/
   thomas_id: SLIA
   senate_committee_id: SLIA
+  wikipedia: United States Senate Committee on Indian Affairs
 - type: senate
   name: Senate Select Committee on Intelligence
   url: http://intelligence.senate.gov/
   thomas_id: SLIN
   senate_committee_id: SLIN
+  wikipedia: United States Senate Select Committee on Intelligence
 - type: senate
   name: Senate Special Committee on Aging
   thomas_id: SPAG
   senate_committee_id: SPAG
+  wikipedia: United States Senate Special Committee on Aging
 - type: senate
   name: Senate Committee on Agriculture, Nutrition, and Forestry
   url: http://agriculture.senate.gov/
@@ -669,16 +678,27 @@
   subcommittees:
   - name: Commodities, Markets, Trade and Risk Management
     thomas_id: '13'
+    wikipedia: United States Senate Agriculture Subcommittee on Commodities, Markets,
+      Trade and Risk Management
   - name: Conservation, Forestry and Natural Resources
     thomas_id: '14'
+    wikipedia: United States Senate Agriculture Subcommittee on Conservation, Forestry
+      and Natural Resources
   - name: Jobs, Rural Economic Growth and Energy Innovation
     thomas_id: '15'
+    wikipedia: United States Senate Agriculture Subcommittee on Jobs, Rural Economic
+      Growth and Energy Innovation
   - name: Nutrition, Specialty Crops, Food and Agricultural Research
     thomas_id: '16'
+    wikipedia: United States Senate Agriculture Subcommittee on Nutrition, Specialty
+      Crops, Food and Agricultural Research
   - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
     thomas_id: '17'
+    wikipedia: United States Senate Agriculture Subcommittee on Livestock, Dairy,
+      Poultry, Marketing and Agriculture Security
   rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=democrat
   minority_rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=republican
+  wikipedia: United States Senate Committee on Agriculture, Nutrition and Forestry
 - type: senate
   name: Senate Committee on Appropriations
   url: http://appropriations.senate.gov/
@@ -687,30 +707,52 @@
   subcommittees:
   - name: Commerce, Justice, Science, and Related Agencies
     thomas_id: '16'
+    wikipedia: United States Senate Appropriations Subcommittee on Commerce, Justice,
+      Science, and Related Agencies
   - name: Energy and Water Development
     thomas_id: '22'
+    wikipedia: United States Senate Appropriations Subcommittee on Financial Services
+      and General Government
   - name: Financial Services and General Government
     thomas_id: '23'
+    wikipedia: United States Senate Appropriations Subcommittee on Financial Services
+      and General Government
   - name: Department of Homeland Security
     thomas_id: '14'
+    wikipedia: United States Senate Appropriations Subcommittee on Homeland Security
   - name: Department of the Interior, Environment, and Related Agencies
     thomas_id: '17'
+    wikipedia: United States Senate Appropriations Subcommittee on Interior, Environment,
+      and Related Agencies
   - name: Departments of Labor, Health and Human Services, and Education, and Related
       Agencies
     thomas_id: '18'
+    wikipedia: United States Senate Appropriations Subcommittee on Labor, Health and
+      Human Services, Education, and Related Agencies
   - name: Military Construction and Veterans Affairs, and Related Agencies
     thomas_id: '19'
+    wikipedia: United States Senate Appropriations Subcommittee on Military Construction,
+      Veterans Affairs, and Related Agencies
   - name: State, Foreign Operations, and Related Programs
     thomas_id: '20'
+    wikipedia: United States Senate Appropriations Subcommittee on the Department
+      of State, Foreign Operations, and Related Programs
   - name: Transportation and Housing and Urban Development, and Related Agencies
     thomas_id: '24'
+    wikipedia: United States Senate Appropriations Subcommittee on Transportation,
+      Housing and Urban Development, and Related Agencies
   - name: Agriculture, Rural Development, Food and Drug Administration, and Related
       Agencies
     thomas_id: '01'
+    wikipedia: United States Senate Appropriations Subcommittee on Agriculture, Rural
+      Development, Food and Drug Administration, and Related Agencies
   - name: Department of Defense
     thomas_id: '02'
+    wikipedia: United States Senate Appropriations Subcommittee on Defense
   - name: Legislative Branch
     thomas_id: '08'
+    wikipedia: United States Senate Appropriations Subcommittee on Legislative Branch
+  wikipedia: United States Senate Committee on Appropriations
 - type: senate
   name: Senate Committee on Armed Services
   url: http://armed-services.senate.gov/
@@ -719,17 +761,26 @@
   subcommittees:
   - name: Airland
     thomas_id: '14'
+    wikipedia: United States Senate Armed Services Subcommittee on Airland
   - name: Emerging Threats and Capabilities
     thomas_id: '20'
+    wikipedia: United States Senate Armed Services Subcommittee on Emerging Threats
+      and Capabilities
   - name: Personnel
     thomas_id: '17'
+    wikipedia: United States Senate Armed Services Subcommittee on Personnel
   - name: Readiness and Management Support
     thomas_id: '15'
+    wikipedia: United States Senate Armed Services Subcommittee on Readiness and Management
+      Support
   - name: SeaPower
     thomas_id: '13'
+    wikipedia: United States Senate Armed Services Subcommittee on Seapower
   - name: Strategic Forces
     thomas_id: '16'
+    wikipedia: United States Senate Armed Services Subcommittee on Strategic Forces
   rss_url: http://www.armed-services.senate.gov/press/index.cfm?xml=Press%20Releases,RSS2.0
+  wikipedia: United States Senate Committee on Armed Services
 - type: senate
   name: Senate Committee on Banking, Housing, and Urban Affairs
   url: http://banking.senate.gov/
@@ -738,14 +789,24 @@
   subcommittees:
   - name: Economic Policy
     thomas_id: '12'
+    wikipedia: United States Senate Banking Subcommittee on Economic Policy
   - name: National Security and International Trade and Finance
     thomas_id: '05'
+    wikipedia: United States Senate Banking Subcommittee on Security and International
+      Trade and Finance
   - name: Securities, Insurance and Investment
     thomas_id: '04'
+    wikipedia: United States Senate Banking Subcommittee on Securities, Insurance,
+      and Investment
   - name: Housing, Transportation and Community Development
     thomas_id: '09'
+    wikipedia: United States Senate Banking Subcommittee on Housing, Transportation,
+      and Community Development
   - name: Financial Institutions and Consumer Protection
     thomas_id: '08'
+    wikipedia: United States Senate Banking Subcommittee on Financial Institutions
+      and Consumer Protection
+  wikipedia: United States Senate Committee on Banking, Housing, and Urban Affairs
 - type: senate
   name: Senate Committee on the Budget
   url: http://budget.senate.gov/
@@ -753,6 +814,7 @@
   senate_committee_id: SSBU
   rss_url: http://budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
   minority_rss_url: http://budget.senate.gov/republican/public/index.cfm/rss/feed
+  wikipedia: United States Senate Committee on the Budget
 - type: senate
   name: Senate Committee on Commerce, Science, and Transportation
   url: http://commerce.senate.gov/
@@ -761,19 +823,33 @@
   subcommittees:
   - name: Communications, Technology, and the Internet
     thomas_id: '26'
+    wikipedia: United States Senate Commerce Subcommittee on Communications, Technology,
+      and the Internet
   - name: Competitiveness, Innovation, and Export Promotion
     thomas_id: '27'
+    wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
+      and Export Promotion
   - name: Consumer Protection, Product Safety, and Insurance
     thomas_id: '20'
+    wikipedia: United States Senate Commerce Subcommittee on Consumer Protection,
+      Product Safety, and Insurance
   - name: Oceans, Atmosphere, Fisheries, and Coast Guard
     thomas_id: '22'
+    wikipedia: United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries,
+      and Coast Guard
   - name: Science and Space
     thomas_id: '24'
+    wikipedia: United States Senate Commerce Subcommittee on Science and Space
   - name: Surface Transportation and Merchant Marine Infrastructure, Safety, and Security
     thomas_id: '25'
+    wikipedia: United States Senate Commerce Subcommittee on Surface Transportation
+      and Merchant Marine Infrastructure, Safety, and Security
   - name: Aviation Operations, Safety, and Security
     thomas_id: '01'
+    wikipedia: United States Senate Commerce Subcommittee on Aviation Operations,
+      Safety, and Security
   rss_url: http://www.commerce.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Commerce, Science and Transportation
 - type: senate
   name: Senate Committee on Energy and Natural Resources
   url: http://energy.senate.gov/
@@ -782,14 +858,20 @@
   subcommittees:
   - name: Water and Power
     thomas_id: '07'
+    wikipedia: United States Senate Energy Subcommittee on Water and Power
   - name: National Parks
     thomas_id: '04'
+    wikipedia: United States Senate Energy Subcommittee on National Parks
   - name: Energy
     thomas_id: '01'
+    wikipedia: United States Senate Energy Subcommittee on Energy
   - name: Public Lands, Forests, and Mining
     thomas_id: '03'
+    wikipedia: United States Senate Energy Subcommittee on Public Lands, Forests and
+      Mining
   rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=democratic-news
   minority_rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=republican-news
+  wikipedia: United States Senate Committee on Energy and Natural Resources
 - type: senate
   name: Senate Committee on Environment and Public Works
   url: http://epw.senate.gov/
@@ -798,18 +880,30 @@
   subcommittees:
   - name: Clean Air and Nuclear Safety
     thomas_id: '10'
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Clean
+      Air and Nuclear Safety
   - name: Superfund, Toxics and Environmental Health
     thomas_id: '09'
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Superfund,
+      Toxics and Environmental Health
   - thomas_id: '16'
     name: Green Jobs and the New Economy
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Green
+      Jobs and the New Economy
   - thomas_id: '18'
     name: Oversight
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Oversight
   - thomas_id: '08'
     name: Transportation and Infrastructure
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Transportation
+      and Infrastructure
   - thomas_id: '15'
     name: Water and Wildlife
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Water
+      and Wildlife
   rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
   minority_rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Minority
+  wikipedia: United States Senate Committee on Environment and Public Works
 - type: senate
   name: Senate Committee on Finance
   url: http://finance.senate.gov/
@@ -818,18 +912,29 @@
   subcommittees:
   - name: Energy, Natural Resources, and Infrastructure
     thomas_id: '12'
+    wikipedia: United States Senate Finance Subcommittee on Energy, Natural Resources,
+      and Infrastructure
   - name: Health Care
     thomas_id: '10'
+    wikipedia: United States Senate Finance Subcommittee on Health Care
   - name: International Trade, Customs, and Global Competitiveness
     thomas_id: '13'
+    wikipedia: United States Senate Finance Subcommittee on International Trade, Customs,
+      and Global Competitiveness
   - name: Fiscal Responsibility and Economic Growth
     thomas_id: '14'
+    wikipedia: United States Senate Finance Subcommittee on Fiscal Responsibility
+      and Economic Growth
   - name: Taxation and IRS Oversight
     thomas_id: '11'
+    wikipedia: United States Senate Finance Subcommittee on Taxation and IRS Oversight
   - name: Social Security, Pensions and Family Policy
     thomas_id: '02'
+    wikipedia: United States Senate Finance Subcommittee on Social Security, Pensions,
+      and Family Policy
   rss_url: http://www.finance.senate.gov/rss/feed/chair/
   minority_rss_url: http://www.finance.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Finance
 - type: senate
   name: Senate Committee on Foreign Relations
   url: http://foreign.senate.gov/
@@ -839,21 +944,35 @@
   - name: International Development and Foreign Assistance, Economic Affairs, International
       Environmental Protection, and Peace Corps
     thomas_id: '12'
+    wikipedia: United States Senate Foreign Relations Subcommittee on International
+      Development and Foreign Assistance, Economic Affairs and International Environmental
+      Protection, and Peace Corps
   - name: International Operations and Organizations, Human Rights, Democracy and
       Global Women's Issues
     thomas_id: '13'
+    wikipedia: United States Senate Foreign Relations Subcommittee on International
+      Operations and Organizations, Human Rights, Democracy and Global Women's Issues
   - name: European Affairs
     thomas_id: '01'
+    wikipedia: United States Senate Foreign Relations Subcommittee on European Affairs
   - name: African Affairs
     thomas_id: '09'
+    wikipedia: United States Senate Foreign Relations Subcommittee on African Affairs
   - name: East Asian and Pacific Affairs
     thomas_id: '02'
+    wikipedia: United States Senate Foreign Relations Subcommittee on East Asian and
+      Pacific Affairs
   - name: Near Eastern and South and Central Asian Affairs
     thomas_id: '07'
+    wikipedia: United States Senate Foreign Relations Subcommittee on Near Eastern
+      and South and Central Asian Affairs
   - name: Western Hemisphere and Global Narcotics Affairs
     thomas_id: '06'
+    wikipedia: United States Senate Foreign Relations Subcommittee on Western Hemisphere
+      and Global Narcotics Affairs
   rss_url: http://www.foreign.senate.gov/rss/feed/chair/
   minority_rss_url: http://www.foreign.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Foreign Relations
 - type: senate
   name: Senate Committee on Homeland Security and Governmental Affairs
   url: http://hsgac.senate.gov/
@@ -862,12 +981,15 @@
   subcommittees:
   - thomas_id: '01'
     name: Permanent Subcommittee on Investigations
+    wikipedia: United States Senate Homeland Security Permanent Subcommittee on Investigations
   - thomas_id: '17'
     name: Emergency Management, Intergovernmental Relations, and the District of Columbia
   - thomas_id: '15'
     name: Financial and Contracting Oversight
   - thomas_id: '16'
     name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
+  wikipedia: United States Senate Committee on Homeland Security and Governmental
+    Affairs
 - type: senate
   name: Senate Committee on Health, Education, Labor, and Pensions
   url: http://help.senate.gov/
@@ -876,12 +998,17 @@
   subcommittees:
   - name: Employment and Workplace Safety
     thomas_id: '11'
+    wikipedia: United States Senate Health Subcommittee on Employment and Workplace
+      Safety
   - name: Primary Health and Aging
     thomas_id: '12'
+    wikipedia: United States Senate Health Subcommittee on Primary Health and Aging
   - name: Children and Families
     thomas_id: '09'
+    wikipedia: United States Senate Health Subcommittee on Children and Families
   rss_url: http://www.help.senate.gov/rss/feed/chair/
   minority_rss_url: http://www.help.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Health, Education, Labor, and Pensions
 - type: senate
   name: Senate Committee on the Judiciary
   url: http://judiciary.senate.gov/
@@ -890,30 +1017,42 @@
   subcommittees:
   - name: the Constitution, Civil Rights and Human Rights
     thomas_id: '21'
+    wikipedia: United States Senate Judiciary Subcommittee on the Constitution, Civil
+      Rights and Human Rights
   - name: Crime and Terrorism
     thomas_id: '22'
+    wikipedia: United States Senate Judiciary Subcommittee on Crime and Terrorism
   - name: Privacy, Technology and the Law
     thomas_id: '23'
+    wikipedia: United States Senate Judiciary Subcommittee on Privacy, Technology
+      and the Law
   - name: Antitrust, Competition Policy and Consumer Rights
     thomas_id: '01'
+    wikipedia: United States Senate Judiciary Subcommittee on Antitrust, Competition
+      Policy and Consumer Rights
   - name: Immigration, Refugees and Border Security
     thomas_id: '04'
+    wikipedia: United States Senate Judiciary Subcommittee on Immigration, Refugees
+      and Border Security
   - thomas_id: '24'
     name: Bankruptcy and the Courts
   - thomas_id: '25'
     name: Oversight, Federal Rights and Agency Action
+  wikipedia: United States Senate Committee on the Judiciary
 - type: senate
   name: Senate Committee on Rules and Administration
   url: http://rules.senate.gov/
   thomas_id: SSRA
   senate_committee_id: SSRA
   rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Rules and Administration
 - type: senate
   name: Senate Committee on Small Business and Entrepreneurship
   url: http://sbc.senate.gov/
   thomas_id: SSSB
   senate_committee_id: SSSB
   rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Small Business and Entrepreneurship
 - type: senate
   name: Senate Committee on Veterans' Affairs
   url: http://veterans.senate.gov/
@@ -921,3 +1060,4 @@
   senate_committee_id: SSVA
   rss_url: http://www.veterans.senate.gov/rss.cfm
   minority_rss_url: http://www.veterans.senate.gov/rankingmember/rss.cfm
+  wikipedia: United States Senate Committee on Veterans' Affairs
