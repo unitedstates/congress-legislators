@@ -7,6 +7,7 @@
     votesmart: 27018
     fec:
     - H2OH13033
+    - S6OH00163
     cspan: 26171
     wikipedia: Sherrod Brown
     house_history: 9996
@@ -159,6 +160,7 @@
     icpsr: 15408
     fec:
     - H6MD03177
+    - S6MD03177
     cspan: 4004
     wikipedia: Ben Cardin
     house_history: 10629
@@ -685,6 +687,7 @@
     votesmart: 26961
     fec:
     - H2NJ13075
+    - S6NJ00289
     cspan: 29608
     house_history: 18124
     wikipedia: Bob Menendez
@@ -876,6 +879,7 @@
     votesmart: 27110
     fec:
     - H8VT01016
+    - S4VT00033
     cspan: 994
     wikipedia: Bernie Sanders
   name:
@@ -1175,6 +1179,7 @@
     votesmart: 21926
     fec:
     - H4MS01078
+    - S8MS00196
     cspan: 18203
     wikipedia: Roger Wicker
   name:
@@ -2834,6 +2839,7 @@
     votesmart: 12329
     fec:
     - H8CO02087
+    - S8CO00172
     cspan: 7634
     wikipedia: Mark Udall
     house_history: 20877
@@ -2901,6 +2907,7 @@
     votesmart: 22658
     fec:
     - H8NM03097
+    - S8NM00184
     cspan: 10075
     wikipedia: Tom Udall
     house_history: 20879
@@ -3001,6 +3008,7 @@
     votesmart: 65147
     fec:
     - H6NY20167
+    - S8NM00184
     cspan: 1022862
     wikipedia: Kirsten Gillibrand
     house_history: 14269
@@ -3689,6 +3697,7 @@
     votesmart: 3470
     fec:
     - H8WI00018
+    - S2WI00219
     cspan: 57884
     wikipedia: Tammy Baldwin
     house_history: 10361
@@ -4790,6 +4799,7 @@
     votesmart: 418
     fec:
     - H6MO07128
+    - S0MO00183
     cspan: 45465
     wikipedia: Roy Blunt
     house_history: 9520
@@ -5052,6 +5062,7 @@
     votesmart: 27958
     fec:
     - H2AR03176
+    - S0AR00150
     cspan: 92069
     wikipedia: John Boozman
     house_history: 10372
@@ -10230,6 +10241,7 @@
     votesmart: 34212
     fec:
     - H4IN02101
+    - S2IN00091
     cspan: 1012000
     wikipedia: Joe Donnelly
     house_history: 12588
@@ -11427,6 +11439,7 @@
     votesmart: 28128
     fec:
     - H0AZ01184
+    - S2AZ00141
     cspan: 87582
     house_history: 13537
     wikipedia: Jeff Flake
@@ -14173,6 +14186,7 @@
     votesmart: 74517
     fec:
     - H8NM01224
+    - S2NM00088
     cspan: 1030686
     wikipedia: Martin Heinrich
     house_history: 15588
@@ -14549,6 +14563,7 @@
     votesmart: 1677
     fec:
     - H6HI02251
+    - S2HI00106
     cspan: 91216
     wikipedia: Mazie Hirono
     house_history: 15580
@@ -16677,6 +16692,7 @@
     votesmart: 33502
     fec:
     - H0IL10120
+    - S0IL00261
     cspan: 85221
     wikipedia: Mark Kirk
     house_history: 16544
@@ -21120,6 +21136,7 @@
     votesmart: 27118
     fec:
     - H0VA08040
+    - S0IL00261
     cspan: 4269
     wikipedia: Jim Moran
     house_history: 18503
@@ -21403,6 +21420,7 @@
     votesmart: 17189
     fec:
     - H6CT05124
+    - S2CT00132
     cspan: 1021270
     wikipedia: Chris Murphy (politician)
     house_history: 18809
@@ -27164,6 +27182,7 @@
     votesmart: 11940
     fec:
     - H0SC01279
+    - S4SC00240
     cspan: 623506
     wikipedia: Tim Scott
   name:
@@ -32161,6 +32180,7 @@
     votesmart: 2291
     fec:
     - H6NV02164
+    - S2NV00183
     cspan: 1012368
     wikipedia: Dean Heller
     house_history: 15578
@@ -32516,6 +32536,8 @@
     thomas: '02173'
     opensecrets: N00028138
     votesmart: 17852
+    fec:
+    - S4HI00136
     bioguide: S001194
     govtrack: 412507
     cspan: 87784
@@ -33818,6 +33840,8 @@
     govtrack: 412542
     cspan: 1023023
     wikipedia: Elizabeth Warren
+    fec:
+    - S2MA00170
   name:
     first: Elizabeth
     last: Warren
@@ -33903,6 +33927,8 @@
     govtrack: 412545
     cspan: 37413
     wikipedia: Angus King
+    fec:
+    - S2ME00109
   name:
     first: Angus
     last: King
@@ -34200,6 +34226,8 @@
     govtrack: 412554
     cspan: 95414
     wikipedia: Heidi Heitkamp
+    fec:
+    - S2ND00099
   name:
     first: Heidi
     last: Heitkamp
@@ -34254,6 +34282,8 @@
     govtrack: 412556
     cspan: 1034067
     wikipedia: Sen. Deb Fischer
+    fec:
+    - S2NE00094
   name:
     first: Deb
     last: Fischer
@@ -34733,6 +34763,8 @@
     govtrack: 412573
     cspan: 1019953
     wikipedia: Ted Cruz
+    fec:
+    - S2TX00312
   name:
     first: Ted
     last: Cruz
@@ -34981,6 +35013,8 @@
     govtrack: 412582
     cspan: 49219
     wikipedia: Tim Kaine
+    fec:
+    - S2VA00142
   name:
     first: Timothy
     last: Kaine
