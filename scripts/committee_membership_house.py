@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Use the NYTimes API to get House committee information.
+# When we wrote this script we believed the House Clerk was
+# not yet making this info available.
+
 import utils
 import json
 import copy
@@ -103,6 +107,11 @@ for committee in committees:
       details['title'] = title
 
     committee_membership[committee_id].append(details)
+
+# sort members to put majority party first, then order by rank
+# (fixing the order makes for better diffs)
+for c in committee_membership.values():
+  c.sort(key = lambda m : (m["party"]=="minority", m["rank"])
 
 # preserve senate memberships
 senate_membership = {}
