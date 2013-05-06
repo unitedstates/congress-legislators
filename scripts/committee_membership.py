@@ -49,15 +49,21 @@ for moc in legislators_current:
 
 
 # Scrape clerk.house.gov...
+
 def scrape_house():
+  for id, cx in house_ref.items():
+    scrape_house_committee(cx, cx["thomas_id"], id + "00")
+
+def scrape_house_old():
+  """The old way of scraping House committees was to start with the committee list
+  at the URL below, but this page no longer has links to the committee info pages
+  even though those pages exist. Preserving this function in case we need it later."""
   url = "http://clerk.house.gov/committee_info/index.aspx"
   body = download(url, "committees/membership/house.html", force)
-
   for id, name in re.findall(r'<a href="/committee_info/index.aspx\?comcode=(..)00">(.*)</a>', body, re.I):
     if id not in house_ref:
       print "Unrecognized committee:", id, name
       continue
-    
     cx = house_ref[id]
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
     
@@ -260,12 +266,7 @@ def ids_from(moc):
 
 # MAIN
 
-# TEMPORARY: keep old House data as is
-for id in memberships_current:
-  if id.startswith("H"):
-    committee_membership[id] = memberships_current[id]
-    
-# scrape_house()
+scrape_house()
 scrape_senate()
 
 save_data(committee_membership, "committee-membership-current.yaml")

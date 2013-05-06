@@ -8,7 +8,7 @@
     thomas_id: '15'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Department Operations, Oversight, and Credit
+  - name: Department Operations, Oversight, and Nutrition
     thomas_id: '22'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
@@ -20,11 +20,11 @@
     thomas_id: '03'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Livestock, Dairy, and Poultry
+  - name: Livestock, Rural Development, and Credit
     thomas_id: '29'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Rural Development, Research, Biotechnology, and Foreign Agriculture
+  - name: Horticulture, Research, Biotechnology, and Foreign Agriculture
     thomas_id: '14'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
@@ -120,7 +120,7 @@
     thomas_id: '29'
     address: 2216 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-  - name: Emerging Threats and Capabilities
+  - name: Intelligence, Emerging Threats and Capabilities
     thomas_id: '26'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
@@ -146,11 +146,11 @@
     thomas_id: '15'
     address: 2129 RHOB; Washington, DC 20515-6051
     phone: (202) 225-7502
-  - name: Insurance, Housing and Community Opportunity
+  - name: Housing and Insurance
     thomas_id: '04'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-  - name: International Monetary Policy and Trade
+  - name: Monetary Policy and Trade
     thomas_id: '20'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
@@ -203,7 +203,7 @@
   thomas_id: HSFA
   house_committee_id: FA
   subcommittees:
-  - name: Africa, Global Health, and Human Rights
+  - name: Africa, Global Health, Global Human Rights, and International Organizations
     thomas_id: '16'
     address: H2-259A FHOB; Washington, DC 20515
     phone: (202) 226-7812
@@ -211,9 +211,9 @@
     thomas_id: '05'
     address: H2-255 FHOB; Washington, DC 20515
     phone: (202) 226-7825
-  - name: Europe and Eurasia
+  - name: Europe, Eurasia, and Emerging Threats
     thomas_id: '14'
-    address: H2-256 FHOB; Washington, DC 20515
+    address: H2-257 FHOB; Washington, DC 20515
     phone: (202) 226-6434
   - name: Oversight and Investigations
     thomas_id: '17'
@@ -223,13 +223,13 @@
     thomas_id: '18'
     address: H2-340 FHOB; Washington, DC 20515
     phone: (202) 226-1500
-  - name: The Middle East and South Asia
+  - name: The Middle East and North Africa
     thomas_id: '13'
-    address: B358 RHOB; Washington, DC 20515
+    address: 2401A RHOB; Washington, DC 20515
     phone: (202) 225-3345
   - name: The Western Hemisphere
     thomas_id: '07'
-    address: H2-257 FHOB; Washington, DC 20515
+    address: H2-256 FHOB; Washington, DC 20515
     phone: (202) 226-9980
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
@@ -240,23 +240,23 @@
   thomas_id: HSGO
   house_committee_id: GO
   subcommittees:
-  - name: Federal Workforce, U.S. Postal Service and Labor Policy
+  - name: Federal Workforce, U.S. Postal Service, and the Census
     thomas_id: '25'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: Government Organization, Efficiency and Financial Management
+  - name: Government Operations
     thomas_id: '24'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: National Security, Homeland Defense and Foreign Operations
+  - name: National Security
     thomas_id: '06'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: Health Care, District of Columbia, Census and the National Archives
+  - name: Energy Policy, Health Care, and Entitlements
     thomas_id: '27'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: Regulatory Affairs, Stimulus Oversight and Government Spending
+  - name: Economic Growth, Job Creation, and Regulatory Affairs
     thomas_id: '28'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
@@ -312,7 +312,7 @@
     thomas_id: '05'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
-  - name: Oversight, Investigations, and Management
+  - name: Oversight and Management Efficiency
     thomas_id: '09'
     address: H2-176 FHOB; Washington, DC 20515-6480
     phone: (202) 226-8417
@@ -366,7 +366,7 @@
     thomas_id: '06'
     address: 1333 LHOB; Washington, DC 20515-6208
     phone: (202) 225-9297
-  - name: National Parks, Forests and Public Lands
+  - name: Public Lands and Environmental Regulation
     thomas_id: '10'
     address: 1017 LHOB; Washington, DC 20515
     phone: (202) 226-7736
@@ -413,19 +413,19 @@
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
-  - name: The Constitution
+  - name: The Constitution and Civil Justice
     thomas_id: '10'
     address: H2-362 FHOB; Washington, DC 20515-6220
     phone: (202) 225-2825
-  - name: Courts, Commercial and Administrative Law
+  - name: Courts, Intellectual Property, and the Internet
     thomas_id: '03'
-    address: 517 CHOB; Washington, DC 20515-6219
-    phone: (202) 226-7680
-  - name: Crime, Terrorism, and Homeland Security
+    address: B352 RHOB; Washington, DC 20515-6219
+    phone: (202) 225-5741
+  - name: Crime, Terrorism, Homeland Security, and Investigations
     thomas_id: '08'
     address: B370B RHOB; Washington, DC 20515-6223
     phone: (202) 225-5727
-  - name: Immigration Policy and Enforcement
+  - name: Immigration and Border Security
     thomas_id: '01'
     address: B353 RHOB; Washington, DC 20515-6217
     phone: (202) 225-3926
@@ -433,6 +433,10 @@
     thomas_id: '12'
     address: B352 RHOB; Washington, DC 20515-6218
     phone: (202) 225-5741
+  - name: Regulatory Reform, Commercial, and Antitrust Law
+    thomas_id: '05'
+    address: 517 CHOB; Washington, DC 20515-6218
+    phone: (202) 226-7680
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
   minority_rss_url: http://democrats.judiciary.house.gov/rss.xml
@@ -505,7 +509,7 @@
     thomas_id: '25'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-5821
-  - name: Healthcare and Technology
+  - name: Health and Technology
     thomas_id: '26'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-5821
@@ -531,26 +535,30 @@
   thomas_id: HSSY
   house_committee_id: SY
   subcommittees:
-  - name: Energy and Environment
+  - name: Energy
     thomas_id: '20'
     address: 2319 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-8844
-  - name: Investigations and Oversight
+    phone: (202) 225-6371
+  - name: Oversight
     thomas_id: '21'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-8772
-  - name: Research and Science Education
+    address: 2321 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-6371
+  - name: Research
     thomas_id: '14'
     address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-9644
-  - name: Space and Aeronautics
+    phone: (202) 225-6371
+  - name: Space
     thomas_id: '16'
     address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-7858
-  - name: Technology and Innovation
+    phone: (202) 225-6371
+  - name: Technology
     thomas_id: '19'
-    address: 2321 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-9662
+    address: B374 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-6371
+  - name: Environment
+    thomas_id: '18'
+    address: 2319 RHOB; Washington, DC 20515-6301
+    phone: (202) 225-6371
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6371
   rss_url: http://science.house.gov/rss.xml
@@ -794,11 +802,11 @@
     thomas_id: '05'
     wikipedia: United States Senate Banking Subcommittee on Security and International
       Trade and Finance
-  - name: Securities, Insurance and Investment
+  - name: Securities, Insurance, and Investment
     thomas_id: '04'
     wikipedia: United States Senate Banking Subcommittee on Securities, Insurance,
       and Investment
-  - name: Housing, Transportation and Community Development
+  - name: Housing, Transportation, and Community Development
     thomas_id: '09'
     wikipedia: United States Senate Banking Subcommittee on Housing, Transportation,
       and Community Development
@@ -928,7 +936,7 @@
   - name: Taxation and IRS Oversight
     thomas_id: '11'
     wikipedia: United States Senate Finance Subcommittee on Taxation and IRS Oversight
-  - name: Social Security, Pensions and Family Policy
+  - name: Social Security, Pensions, and Family Policy
     thomas_id: '02'
     wikipedia: United States Senate Finance Subcommittee on Social Security, Pensions,
       and Family Policy
@@ -947,7 +955,7 @@
     wikipedia: United States Senate Foreign Relations Subcommittee on International
       Development and Foreign Assistance, Economic Affairs and International Environmental
       Protection, and Peace Corps
-  - name: International Operations and Organizations, Human Rights, Democracy and
+  - name: International Operations and Organizations, Human Rights, Democracy, and
       Global Women's Issues
     thomas_id: '13'
     wikipedia: United States Senate Foreign Relations Subcommittee on International
