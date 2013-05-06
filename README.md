@@ -360,10 +360,10 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
-Try updating the latest committee data:
+Try updating the House members contact information (mailing address, etc.):
 
 ```bash
-python update_committees.py
+python house_contacts.py
 ```
 
 Check whether and how the data has changed:
@@ -371,6 +371,14 @@ Check whether and how the data has changed:
 ```bash
 git diff ../*.yaml
 ```
+
+We run the following scripts periodically to scrape for new information and keep the data files up to date. The scripts do not take any command-line arguments.
+
+* house_contacts.py: Updates House members' contact information (address, office, and phone fields on their current term, and their official_full name field)
+* house_websites.py: Updates House members' current website URLs.
+* senate_contacts.py: Updates senator information (party, class, state_rank, address, office, phone, and contact_form fields on their current term, and their official_full name, bioguide ID, and lis ID fields)
+* committee_membership.py: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
+* historical_committees.py: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
 
 Who's Using This Data
 ---------------------
