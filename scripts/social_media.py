@@ -10,6 +10,9 @@
 #
 # run with --clean:
 #   removes legislators from the social media file who are no longer current
+#
+# run with --resolvefb:
+#   finds both Facebook usernames and graph IDs and updates the YAML accordingly.
 
 # other options:
 #  --service (required): "twitter", "youtube", or "facebook"
@@ -20,6 +23,8 @@
 import csv, re
 import utils
 from utils import download, load_data, save_data, parse_date
+
+import requests
 
 def main():
   regexes = {
@@ -42,12 +47,16 @@ def main():
   do_update = utils.flags().get('update', False)
   do_clean = utils.flags().get('clean', False)
   do_verify = utils.flags().get('verify', False)
+  do_resolvefb = utils.flags().get('resolvefb', False)
 
   # default to not caching
   cache = utils.flags().get('cache', False)
   force = not cache
 
-  service = utils.flags().get('service', None)
+  if do_resolvefb:
+    service = "facebook"
+  else:
+    service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook"]:
     print "--service must be one of twitter, youtube, or facebook"
     exit(0)
@@ -81,6 +90,34 @@ def main():
   media_bioguide = { }
   for m in media:
     media_bioguide[m["id"]["bioguide"]] = m
+  
+  
+  def resolvefb():
+    updated_media = []
+    for m in media:
+      social = m['social']
+      
+      if 'facebook' in social and social['facebook']:
+        graph_url = "https://graph.facebook.com/%s" % social['facebook']
+        
+        if re.match('\d+', social['facebook']):
+          social['facebook_id'] = social['facebook']
+          fbobj = requests.get(graph_url).json()
+          if 'username' in fbobj:
+            social['facebook'] = fbobj['username']
+          
+        else:
+          try:
+            social['facebook_id'] = requests.get(graph_url).json()['id']
+          except:
+            print "Unable to get graph ID for: %s" % social['facebook']
+            social['facebook_id'] = None
+            
+      updated_media.append(m)
+      
+    print "Saving social media..."
+    save_data(updated_media, "legislators-social-media.yaml")
+    
 
   def sweep():
     to_check = []
@@ -213,6 +250,8 @@ def main():
     clean()
   elif do_verify:
     verify()
+  elif do_resolvefb:
+    resolvefb()
   else:
     sweep()
 
