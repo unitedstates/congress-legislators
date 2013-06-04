@@ -27,7 +27,7 @@ This database has been collected from a variety of sources:
 * Martis’s “The Historical Atlas of Political Parties in the United States Congress”, via Rosenthal, Howard L., and Keith T. Poole. United States Congressional Roll Call Voting Records, 1789-1990 (http://voteview.com/dwnl.htm).
 * The Sunlight Labs Congress API (http://sunlightlabs.github.com/congress/).
 * The Library of Congress's THOMAS website (http://thomas.loc.gov).
-* C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress) 
+* C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
 
 The data is currently maintained both by hand and by some scripts in the `scripts` directory.
 
@@ -76,7 +76,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		office: 1233 Longworth House Office Building
 
 Terms correspond to elections and are listed in chronological order. If a legislator is currently serving, the current term information will always be the last one. To check if a legislator is currently serving, check that the end date on the last term is in the future.
-		
+
 The split between legislators-current.yaml and legislators-historical.yaml is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
 
 A separate file legislators-social-media.yaml stores social media account information. Its structure is similar but includes different fields.
@@ -163,7 +163,8 @@ Each record has two sections: id and social. The id section identifies the legis
 
 * twitter: The current official Twitter handle of the legislator.
 * youtube: The current official YouTube handle **or** channel value, of the legislator.
-* facebook: The username **or** numeric ID of the current official Facebook presence of the legislator.
+* facebook: The username of the current official Facebook presence of the legislator.
+* facebook_id: The numeric ID of the current official Facebook presence of the legislator.
 
 A few legislators use YouTube "channels" instead of user accounts. These channel values will be of the form `channel/[ID]`.
 
@@ -374,18 +375,19 @@ git diff ../*.yaml
 
 We run the following scripts periodically to scrape for new information and keep the data files up to date. The scripts do not take any command-line arguments.
 
-* house_contacts.py: Updates House members' contact information (address, office, and phone fields on their current term, and their official_full name field)
-* house_websites.py: Updates House members' current website URLs.
-* senate_contacts.py: Updates senator information (party, class, state_rank, address, office, phone, and contact_form fields on their current term, and their official_full name, bioguide ID, and lis ID fields)
-* committee_membership.py: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
-* historical_committees.py: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
+* `house_contacts.py`: Updates House members' contact information (address, office, and phone fields on their current term, and their official_full name field)
+* `house_websites.py`: Updates House members' current website URLs.
+* `senate_contacts.py`: Updates senator information (party, class, state_rank, address, office, phone, and contact_form fields on their current term, and their official_full name, bioguide ID, and lis ID fields)
+* `committee_membership.py`: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
+* `historical_committees.py`: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
+* `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
 
 Who's Using This Data
 ---------------------
 
 Here are the ones we know about:
 
-* [GovTrack.us](http://govtrack.us) 
+* [GovTrack.us](http://govtrack.us)
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
 * [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
