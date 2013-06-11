@@ -22,6 +22,10 @@ debug = utils.flags().get('debug', False)
 cache = utils.flags().get('cache', True)
 force = not cache
 
+
+only_bioguide = utils.flags().get('bioguide', None)
+
+
 # pick either current or historical
 # order is important here, since current defaults to true
 if utils.flags().get('historical', False):
@@ -32,32 +36,50 @@ else:
   print "No legislators selected."
   exit(0)
 
+
 print "Loading %s..." % filename
 legislators = load_data(filename)
+
 
 api_file = open('cache/sunlight_api_key.txt','r')
 api_key = api_file.read()
 
+
 for m in legislators:
+
+    # this can't run unless we've already collected a bioguide for this person
+    bioguide = m["id"].get("bioguide", None)
+    if not bioguide:
+        continue
+
+    # if we've limited this to just one bioguide, skip over everyone else
+    if only_bioguide and (bioguide != only_bioguide):
+        continue
+
     url_BG = "http://transparencydata.com/api/1.0/entities/id_lookup.json?bioguide_id="
-    if m["id"].has_key("bioguide"):
-        url_BG += m["id"]["bioguide"]
-        url_BG += "&apikey="+api_key
-        root = lxml.html.parse(url_BG)
-        jsondata = json.loads(root.find(".//p").text)
-        try:
-            IE_ID = jsondata[0]['id']
-        except:
-            continue
-        url_CRP = "http://transparencydata.com/api/1.0/entities/"
-        url_CRP += IE_ID
-        url_CRP += ".json?apikey=" + api_key
-        root2 = lxml.html.parse(url_CRP).getroot()
-        jsondata2 = json.loads(root2.find(".//body").text_content())
-        try:
-            m["id"]["opensecrets"] = jsondata2['external_ids'][0]['id']
-        except:
-            continue
+    url_BG += bioguide
+    url_BG += "&apikey="+api_key
+
+    root = lxml.html.parse(url_BG)
+
+    destination = "legislators/influence_explorer/%s.json" % bioguide
+    body = utils.download(url_BG, destination, force)
+
+    jsondata = json.loads(body)
+    try:
+        IE_ID = jsondata[0]['id']
+        print "Found IE ID: %s" % IE_ID
+    except:
+        continue
+    url_CRP = "http://transparencydata.com/api/1.0/entities/"
+    url_CRP += IE_ID
+    url_CRP += ".json?apikey=" + api_key
+    root2 = lxml.html.parse(url_CRP).getroot()
+    jsondata2 = json.loads(root2.find(".//body").text_content())
+    try:
+        m["id"]["opensecrets"] = jsondata2['external_ids'][0]['id']
+    except:
+        continue
 
 print "Saving data to %s..." % filename
 save_data(legislators, filename)
