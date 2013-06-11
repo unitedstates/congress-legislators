@@ -7,7 +7,6 @@
 #  --current: do *only* current legislators (default: true)
 #  --historical: do *only* historical legislators (default: false)
 
-import lxml.html, StringIO
 import datetime
 import re
 import utils
@@ -51,7 +50,6 @@ for m in legislators:
     bioguide = m["id"].get("bioguide", None)
     if not bioguide:
         continue
-
     # if we've limited this to just one bioguide, skip over everyone else
     if only_bioguide and (bioguide != only_bioguide):
         continue
@@ -60,7 +58,6 @@ for m in legislators:
     url_BG += bioguide
     url_BG += "&apikey="+api_key
 
-    root = lxml.html.parse(url_BG)
 
     destination = "legislators/influence_explorer/%s.json" % bioguide
     body = utils.download(url_BG, destination, force)
@@ -68,16 +65,19 @@ for m in legislators:
     jsondata = json.loads(body)
     try:
         IE_ID = jsondata[0]['id']
-        print "Found IE ID: %s" % IE_ID
     except:
         continue
     url_CRP = "http://transparencydata.com/api/1.0/entities/"
     url_CRP += IE_ID
     url_CRP += ".json?apikey=" + api_key
-    root2 = lxml.html.parse(url_CRP).getroot()
-    jsondata2 = json.loads(root2.find(".//body").text_content())
+
+    destination = "legislators/influence_explorer/%s.json" % IE_ID
+    body = utils.download(url_CRP, destination, force)
+
+    jsondata = json.loads(body)
+
     try:
-        m["id"]["opensecrets"] = jsondata2['external_ids'][0]['id']
+        m["id"]["opensecrets"] = jsondata['external_ids'][0]['id']
     except:
         continue
 
