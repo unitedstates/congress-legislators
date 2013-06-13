@@ -15,14 +15,17 @@ import requests
 from utils import download, load_data, save_data, parse_date
 import json
 
-debug = utils.flags().get('debug', False)
+options = utils.flags()
+options['urllib'] = True # disable scrapelib for this
+
+debug = options.get('debug', False)
 
 # default to caching
-cache = utils.flags().get('cache', True)
+cache = options.get('cache', True)
 force = not cache
 
 
-only_bioguide = utils.flags().get('bioguide', None)
+only_bioguide = options.get('bioguide', None)
 
 
 # pick either current or historical
@@ -59,25 +62,32 @@ for m in legislators:
     url_BG += "&apikey="+api_key
 
 
-    destination = "legislators/influence_explorer/%s.json" % bioguide
-    body = utils.download(url_BG, destination, force)
+    destination = "legislators/influence_explorer/lookups/%s.json" % bioguide
+    if debug: print "[%s] Looking up ID..." % bioguide
+    body = utils.download(url_BG, destination, force, options)
+
+    if not body:
+        print "[%s] Bad request, skipping" % bioguide
+        continue
 
     jsondata = json.loads(body)
-    if (jsondata != []):    
+    if (jsondata != []):
         IE_ID = jsondata[0]['id']
         url_CRP = "http://transparencydata.com/api/1.0/entities/"
         url_CRP += IE_ID
         url_CRP += ".json?apikey=" + api_key
 
-        destination = "legislators/influence_explorer/%s.json" % IE_ID
-        body = utils.download(url_CRP, destination, force)
+        destination = "legislators/influence_explorer/entities/%s.json" % IE_ID
+        body = utils.download(url_CRP, destination, force, options)
 
         jsondata = json.loads(body)
 
+        opensecrets_id = jsondata['external_ids'][0]['id']
+        m["id"]["opensecrets"] = opensecrets_id
 
-        m["id"]["opensecrets"] = jsondata['external_ids'][0]['id']
+        print "[%s] Added opensecrets ID of %s" % (bioguide, opensecrets_id)
     else:
-        print "No data exists for Bioguide id: " + bioguide
+        print "[%s] NO DATA" % bioguide
 
 
 
