@@ -20,8 +20,8 @@ options['urllib'] = True # disable scrapelib for this
 
 debug = options.get('debug', False)
 
-# default to caching
-cache = options.get('cache', True)
+# default to NOT caching
+cache = options.get('cache', False)
 force = not cache
 
 

@@ -381,6 +381,7 @@ We run the following scripts periodically to scrape for new information and keep
 * `committee_membership.py`: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
 * `historical_committees.py`: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
 * `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
+* `influence_ids.py`: Grabs updated FEC and OpenSecrets IDs from the [Influence Explorer API](http://data.influenceexplorer.com/api). Will only work for members with a Bioguide ID.
 
 Who's Using This Data
 ---------------------
