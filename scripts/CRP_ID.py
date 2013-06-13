@@ -63,23 +63,24 @@ for m in legislators:
     body = utils.download(url_BG, destination, force)
 
     jsondata = json.loads(body)
-    try:
+    if (jsondata != []):    
         IE_ID = jsondata[0]['id']
-    except:
-        continue
-    url_CRP = "http://transparencydata.com/api/1.0/entities/"
-    url_CRP += IE_ID
-    url_CRP += ".json?apikey=" + api_key
+        url_CRP = "http://transparencydata.com/api/1.0/entities/"
+        url_CRP += IE_ID
+        url_CRP += ".json?apikey=" + api_key
 
-    destination = "legislators/influence_explorer/%s.json" % IE_ID
-    body = utils.download(url_CRP, destination, force)
+        destination = "legislators/influence_explorer/%s.json" % IE_ID
+        body = utils.download(url_CRP, destination, force)
 
-    jsondata = json.loads(body)
+        jsondata = json.loads(body)
 
-    try:
+
         m["id"]["opensecrets"] = jsondata['external_ids'][0]['id']
-    except:
-        continue
+    else:
+        print "No data exists for Bioguide id: " + bioguide
+
+
+
 
 print "Saving data to %s..." % filename
 save_data(legislators, filename)
