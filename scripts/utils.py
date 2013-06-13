@@ -2,7 +2,7 @@
 
 CURRENT_CONGRESS = 113
 
-
+import urllib2
 import os, errno, sys, traceback
 import re, htmlentitydefs
 import pprint
@@ -31,7 +31,7 @@ def flags():
         key, value = arg.split('=')
       else:
         key, value = arg, True
-      
+
       key = key.split("--")[1]
       if value == 'True': value = True
       elif value == 'False': value = False
@@ -50,7 +50,7 @@ def save_data(data, path):
   return yaml_dump(data, os.path.join(data_dir(), path))
 
 
-##### Downloading 
+##### Downloading
 
 import scrapelib
 scraper = scrapelib.Scraper(requests_per_minute=60, follow_robots=False, retry_attempts=3)
@@ -61,7 +61,7 @@ def cache_dir():
 def download(url, destination=None, force=False, options=None):
   if not destination and not force:
     raise TypeError("destination must not be None if force is False.")
-  
+
   if not options:
     options = {}
 
@@ -78,8 +78,13 @@ def download(url, destination=None, force=False, options=None):
     try:
       if options.get('debug', False):
         log("Downloading: %s" % url)
-      response = scraper.urlopen(url)
-      body = response.encode('utf-8')
+
+      if options.get('urllib', False):
+        response = urllib2.urlopen(url)
+        body = response.read()
+      else:
+        response = scraper.urlopen(url)
+        body = response.encode('utf-8')
     except scrapelib.HTTPError as e:
       log("Error downloading %s" % url)
       return None
@@ -107,7 +112,7 @@ def mkdir_p(path):
   except OSError as exc: # Python >2.5
     if exc.errno == errno.EEXIST:
       pass
-    else: 
+    else:
       raise
 
 def format_exception(exception):
@@ -205,7 +210,7 @@ Dumper.add_representer(unicode, our_string_representer)
 # default output converts that to "null".
 Dumper.add_representer(type(None), lambda dumper, value : \
 	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
-        
+
 # Apply some common settings for loading/dumping YAML and cache the
 # data in pickled format which is a LOT faster than YAML.
 
@@ -218,16 +223,20 @@ def yaml_load(path, use_cache=True):
     import cPickle as pickle, os.path, hashlib
     h = hashlib.sha1(open(path).read()).hexdigest()
     if use_cache and os.path.exists(path + ".pickle"):
-        store = pickle.load(open(path + ".pickle"))
-        if store["hash"] == h:
+
+        try:
+          store = pickle.load(open(path + ".pickle"))
+          if store["hash"] == h:
             return store["data"]
-    
+        except EOFError:
+          pass # bad .pickle file, pretend it doesn't exist
+
     # No cached pickled data exists, so load the YAML file.
     data = yaml.load(open(path), Loader=Loader)
-    
+
     # Store in a pickled file for fast access later.
     pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
-    
+
     return data
 
 def yaml_dump(data, path):
