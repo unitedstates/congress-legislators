@@ -82,8 +82,23 @@ for m in legislators:
 
         jsondata = json.loads(body)
 
-        opensecrets_id = jsondata['external_ids'][0]['id']
-        m["id"]["opensecrets"] = opensecrets_id
+        opensecrets_id = None
+        fec_ids = []
+        for external in jsondata['external_ids']:
+            if external["namespace"].startswith("urn:crp"):
+                opensecrets_id = external['id']
+            elif external["namespace"].startswith("urn:fec"):
+                fec_ids.append(external['id'])
+
+        if opensecrets_id:
+            m["id"]["opensecrets"] = opensecrets_id
+
+        # preserve existing FEC IDs, but don't duplicate them
+        if len(fec_ids) > 0:
+            if m["id"].get("fec", None) is None: m["id"]["fec"] = []
+            for fec_id in fec_ids:
+                if fec_id not in m["id"]["fec"]:
+                    m["id"]["fec"].append(fec_id)
 
         print "[%s] Added opensecrets ID of %s" % (bioguide, opensecrets_id)
     else:
