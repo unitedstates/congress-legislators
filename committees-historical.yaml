@@ -121,6 +121,12 @@
   name: House Select Committee on Energy Independence and Global Warming
   thomas_id: HSGW
   house_committee_id: GW
+  names:
+    110: House Select Committee on Energy Independence and Global Warming
+    111: House Select Committee on Energy Independence and Global Warming
+  congresses:
+  - 110
+  - 111
 - type: house
   name: House Committee on Merchant Marine and Fisheries
   thomas_id: HSMM
