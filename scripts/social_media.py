@@ -13,6 +13,9 @@
 #
 # run with --resolvefb:
 #   finds both Facebook usernames and graph IDs and updates the YAML accordingly.
+#
+# run with --resolveyt:
+#   finds both YouTube usernames and channel IDs and updates the YAML accordingly.
 
 # other options:
 #  --service (required): "twitter", "youtube", or "facebook"
@@ -67,7 +70,7 @@ def main():
   # load in members, orient by bioguide ID
   print "Loading current legislators..."
   current = load_data("legislators-current.yaml")
-  
+
   current_bioguide = { }
   for m in current:
     if m["id"].has_key("bioguide"):
@@ -93,40 +96,42 @@ def main():
   media_bioguide = { }
   for m in media:
     media_bioguide[m["id"]["bioguide"]] = m
-  
-  
+
+
   def resolvefb():
     updated_media = []
     for m in media:
       social = m['social']
-      
+
       if 'facebook' in social and social['facebook']:
         graph_url = "https://graph.facebook.com/%s" % social['facebook']
-        
+
         if re.match('\d+', social['facebook']):
           social['facebook_id'] = social['facebook']
           fbobj = requests.get(graph_url).json()
           if 'username' in fbobj:
             social['facebook'] = fbobj['username']
-          
+
         else:
           try:
             social['facebook_id'] = requests.get(graph_url).json()['id']
           except:
             print "Unable to get graph ID for: %s" % social['facebook']
             social['facebook_id'] = None
-            
+
       updated_media.append(m)
-      
+
     print "Saving social media..."
     save_data(updated_media, "legislators-social-media.yaml")
-    
+
 
   def resolveyt():
     # To avoid hitting quota limits, register for a YouTube 2.0 API key at
     # https://code.google.com/apis/youtube/dashboard
     # and put it below
-    apikey = ""
+    api_file = open('cache/youtube_api_key','r')
+    api_key = api_file.read()
+
     updated_media = []
     for m in media:
       social = m['social']
@@ -142,7 +147,7 @@ def main():
           ytid = social['youtube']
 
         profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
-        "?v=2&prettyprint=true&alt=json&key=%s" % (ytid,apikey))
+        "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
 
         try:
           ytreq = requests.get(profile_url)
@@ -162,7 +167,7 @@ def main():
                 ytreq = requests.get(profile_url)
 
               else:
-                raise Exception()
+                raise Exception("Couldn't figure out the username format for %s" % social['youtube'])
 
             except:
               print "Search couldn't locate YouTube account for %s" % social['youtube']
@@ -181,7 +186,7 @@ def main():
         except:
           print "Unable to get YouTube Channel ID for: %s" % social['youtube']
       updated_media.append(m)
-      
+
     print "Saving social media..."
     save_data(updated_media, "legislators-social-media.yaml")
 
@@ -302,7 +307,7 @@ def main():
         for blacked in blacklist[service]:
           if re.search(blacked, candidate, re.I):
             passed = False
-        
+
         if not passed:
           if debug:
             print "\tBlacklisted: %s" % candidate
