@@ -48,6 +48,7 @@ def main():
   do_clean = utils.flags().get('clean', False)
   do_verify = utils.flags().get('verify', False)
   do_resolvefb = utils.flags().get('resolvefb', False)
+  do_resolveyt = utils.flags().get('resolveyt', False)
 
   # default to not caching
   cache = utils.flags().get('cache', False)
@@ -55,6 +56,8 @@ def main():
 
   if do_resolvefb:
     service = "facebook"
+  elif do_resolveyt:
+    service = "youtube"
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook"]:
@@ -118,6 +121,70 @@ def main():
     print "Saving social media..."
     save_data(updated_media, "legislators-social-media.yaml")
     
+
+  def resolveyt():
+    # To avoid hitting quota limits, register for a YouTube 2.0 API key at
+    # https://code.google.com/apis/youtube/dashboard
+    # and put it below
+    apikey = ""
+    updated_media = []
+    for m in media:
+      social = m['social']
+
+      if 'youtube' in social and (social['youtube'] or social['youtube_id']):
+
+        if not social['youtube']:
+          social['youtube'] = social['youtube_id']
+
+        if re.match('^channel/',social['youtube']):
+          ytid = social['youtube'][8:]
+        else:
+          ytid = social['youtube']
+
+        profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+        "?v=2&prettyprint=true&alt=json&key=%s" % (ytid,apikey))
+
+        try:
+          ytreq = requests.get(profile_url)
+          if ytreq.status_code == 404:
+            # If the account name isn't valid, it's probably a redirect.
+            try:
+              # Try to scrape the real YouTube username
+              search_url = ("http://www.youtube.com/%s" % social['youtube'])
+              csearch = requests.get(search_url).text.encode('ascii','ignore')
+              u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
+
+              if u:
+                print "%s maps to %s" % (social['youtube'],u.group(1))
+                social['youtube'] = u.group(1)
+                profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+                "?v=2&prettyprint=true&alt=json" % social['youtube'])
+                ytreq = requests.get(profile_url)
+
+              else:
+                raise Exception()
+
+            except:
+              print "Search couldn't locate YouTube account for %s" % social['youtube']
+              raise
+
+          ytobj = ytreq.json()
+          social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
+
+          if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
+            if social['youtube'].lower() != ytobj['entry']['yt$username']['$t']:
+              # YT accounts are case-insensitive.  Preserve capitalization if possible.
+              social['youtube'] = ytobj['entry']['yt$username']['$t']
+
+          else:
+            del social['youtube']
+        except:
+          print "Unable to get YouTube Channel ID for: %s" % social['youtube']
+      updated_media.append(m)
+      
+    print "Saving social media..."
+    save_data(updated_media, "legislators-social-media.yaml")
+
 
   def sweep():
     to_check = []
@@ -252,6 +319,8 @@ def main():
     verify()
   elif do_resolvefb:
     resolvefb()
+  elif do_resolveyt:
+    resolveyt()
   else:
     sweep()
 
