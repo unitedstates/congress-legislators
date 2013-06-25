@@ -96,6 +96,8 @@
     twitter: SenWhitehouse
     facebook: SenatorWhitehouse
     facebook_id: '194172833926853'
+    youtube: SenatorWhitehouse
+    youtube_id: UCnG0N70SNBkNqvIMLodPTIA
 - id:
     bioguide: W000800
     thomas: '01879'
@@ -2471,6 +2473,8 @@
     govtrack: 412200
   social:
     twitter: maziehirono
+    youtube: CongresswomanHirono
+    youtube_id: UCcoKhxad156flzPYJ8JMFOA
 - id:
     bioguide: H001041
     thomas: '01863'
@@ -4936,6 +4940,8 @@
     govtrack: 400194
   social:
     twitter: SenatorIsakson
+    youtube: SenatorIsakson
+    youtube_id: UCO80zDwuLZHtGr-KOfl_XCQ
 - id:
     bioguide: C001097
     thomas: '02107'
@@ -5021,3 +5027,15 @@
     thomas: '02190'
   social:
     youtube_id: UCLhcNPX2nNQLNzwKW0nEykg
+- id:
+    bioguide: B000243
+    thomas: '00066'
+  social:
+    youtube: SenatorBaucus
+    youtube_id: UCpM2Mjz2u7iRDgXvk7RJyoA
+- id:
+    bioguide: G000555
+    thomas: '01866'
+  social:
+    youtube: KirstenEGillibrand
+    youtube_id: UCVEloQogVsmnkd5vxJInmYg
