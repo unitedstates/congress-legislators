@@ -393,3 +393,9 @@ Here are the ones we know about:
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
 * [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
+
+Other Scripts
+----------------------
+The ballotpedia field has been created using code from james michael dupont, 
+To git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia
+running the script compare.py and merging the dump.yml output. 
