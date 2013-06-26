@@ -36,7 +36,7 @@ print "Fetching general Senate information from senators_cfm.xml..."
 url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
 body = download(url, "legislators/senate.xml", force)
 dom = lxml.etree.parse(StringIO.StringIO(body))
-for node in dom.getroot():
+for node in dom.xpath("member"):
 	bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 	member_full = node.xpath("string(member_full)")
 
@@ -49,7 +49,7 @@ for node in dom.getroot():
 		if by_name.has_key(member_full):
 			member = by_name[member_full]
 		else:
-			print "Missing member", bioguide_id, member_full
+			print "Bioguide ID '%s' and full name '%s' not recognized." % (bioguide_id, member_full)
 			exit(0)
 
 	try:
@@ -129,7 +129,7 @@ for node in dom.getroot():
 		if by_name.has_key(member_full):
 			member = by_name[member_full]
 		else:
-			print "Missing member", bioguide_id, member_full
+			print "Bioguide ID '%s' and synthesized official name '%s' not recognized." % (bioguide_id, member_full)
 			exit(0)
 
 	try:
