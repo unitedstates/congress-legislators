@@ -146,6 +146,21 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* office: Similar to the address field, this is just the room and building number, suitable for display (only valid if the term is current, otherwise the last known office).
 	* rss_url The URL to the official website's RSS feed (only valid if the term is current, otherwise the last known URL).
 
+
+**Leadership roles**:
+
+```yaml
+leadership_roles:
+  - title: Minority Leader
+    chamber: senate
+    start: '2007-01-04'
+    end: '2009-01-06'
+```
+
+For members with top formal positions of leadership in each party in each chamber, a `leadership_roles` field will include an array of start/end dates and titles documenting when they held this role.
+
+Leadership terms are not identical to legislative terms, and so start and end dates will be different than legislative term dates. However, leaders do need to be re-elected each legislative term, so their leadership terms should all be subsets of their legislative terms.
+
 Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
 
 Notes:
