@@ -48,6 +48,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		  - H8WI01024
 		cspan: 57970
 		wikipedia: Paul Ryan
+		ballotpedia: Paul Ryan
 		house_history: 20785
 	  name:
 		first: Paul
@@ -97,6 +98,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* icpsr: The numeric ID for this legislator in Keith Poole's VoteView.com website, originally based on an ID system by the Interuniversity Consortium for Political and Social Research (stored as an integer).
 	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
+	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
 
@@ -408,3 +410,9 @@ Here are the ones we know about:
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
 * [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
+
+Other Scripts
+----------------------
+The ballotpedia field has been created using code from james michael dupont, 
+To git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia
+running the script compare.py and merging the dump.yml output. 

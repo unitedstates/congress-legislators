@@ -239,7 +239,10 @@ def scrape_senate_member(output_list, membernode, majority_party):
   moc = senators[(state, last_name)]
   
   entry = OrderedDict()
-  entry["name"] = moc['name']['official_full']
+  if 'official_full' in moc['name']:
+    entry["name"] = moc['name']['official_full']
+  else:
+    print "missing name->official_full field for", moc['id']['bioguide']
   entry["party"] = party
   entry["rank"] = len([e for e in output_list if e["party"] == entry["party"]]) + 1 # how many have we seen so far in this party, +1
   if title: entry["title"] = title
