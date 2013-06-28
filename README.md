@@ -106,7 +106,8 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* first: The legislator's first name. Sometimes a first initial and period (e.g. in W. Todd Akin), in which case it is suggested to not use the first name for display purposes.
 	* middle: The legislator's middle name or middle initial (with period).
 	* last: The legislator's last name. Many last names include non-ASCII characters. When building search systems, it is advised to index both the raw value as well as a value with extended characters replaced with their ASCII equivalents (in Python that's: u"".join(c for c in unicodedata.normalize('NFKD', lastname) if not unicodedata.combining(c))).
-	* suffix: A suffix on the legislator's name, such as "Jr." or "III".
+	* suffix: A suffix on the legislator's name, such as "Jr." , "II" or "III".
+	* prefix : "Dr.", "Hon."
 	* nickname: The legislator's nick name when used as a common alternative to his first name.
 	* official_full: The full name of the legislator according to the House or Senate (usually first, middle initial, nickname, last, and suffix). Present for those serving on 2012-10-30 and later.
 

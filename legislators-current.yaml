@@ -417,7 +417,8 @@
     wikipedia: Bob Corker
     ballotpedia: Bob Corker
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
     last: Corker
     official_full: Bob Corker
   bio:
@@ -811,7 +812,8 @@
     house_history: 18875
     ballotpedia: Bill Nelson (Florida)
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Nelson
     official_full: Bill Nelson
   bio:
@@ -2137,7 +2139,7 @@
     ballotpedia: Mike Johanns
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
     last: Johanns
     official_full: Mike Johanns
   bio:
@@ -2173,7 +2175,8 @@
     house_history: 15920
     ballotpedia: Tim Johnson, South Dakota
   name:
-    first: Tim
+    nickname: Tim
+    first: Timothy
     middle: P.
     last: Johnson
     official_full: Tim Johnson
@@ -4206,7 +4209,9 @@
     house_history: 10434
     ballotpedia: Dan Benishek
   name:
-    first: Dan
+    first: Daniel
+    nickname: Dan
+    middle: J.
     last: Benishek
     official_full: Dan Benishek
   bio:
@@ -4602,7 +4607,9 @@
     wikipedia: Diane Black
     house_history: 10436
   name:
+    prefix : Mrs.
     first: Diane
+    middle: L.
     last: Black
     official_full: Diane Black
   bio:
@@ -5934,6 +5941,7 @@
     ballotpedia: Larry Bucshon
   name:
     first: Larry
+    middle: D.
     last: Bucshon
     official_full: Larry Bucshon
   bio:
@@ -6828,7 +6836,8 @@
     first: John
     last: Carney
     official_full: John C. Carney Jr.
-    middle: C.
+    middle: Charles
+    suffix : Jr.
   bio:
     birthday: '1956-05-20'
     gender: M
@@ -7005,7 +7014,8 @@
     house_history: 11811
     ballotpedia: Bill Cassidy
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Cassidy
     official_full: Bill Cassidy
   bio:
@@ -8021,7 +8031,7 @@
     ballotpedia: Mike Coffman
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Coffman
     official_full: Mike Coffman
@@ -11241,7 +11251,8 @@
     house_history: 13565
     ballotpedia: Blake Farenthold
   name:
-    first: Blake
+    first: Randolph
+    middle: Blake
     last: Farenthold
     official_full: Blake Farenthold
   bio:
@@ -11704,7 +11715,9 @@
     ballotpedia: John Fleming (Louisiana)
   name:
     first: John
+    middle : C.
     last: Fleming
+    suffix : Jr.
     official_full: John Fleming
   bio:
     gender: M
@@ -11754,7 +11767,8 @@
     wikipedia: Bill Flores
     house_history: 13566
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Flores
     official_full: Bill Flores
   bio:
@@ -12480,7 +12494,8 @@
     house_history: 14280
     ballotpedia: Bob Gibbs
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
     last: Gibbs
     official_full: Bob Gibbs
   bio:
@@ -12568,7 +12583,7 @@
   name:
     first: John
     first: Phillip
-    nick: Phil
+    nickname: Phil
     last: Gingrey
     official_full: Phil Gingrey
   bio:
@@ -12710,7 +12725,9 @@
     house_history: 13929
     ballotpedia: Bob Goodlatte
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
+
     middle: W.
     last: Goodlatte
     official_full: Bob Goodlatte
@@ -13163,7 +13180,7 @@
   name:
     first: John
     middle: Thomas
-    nick: Tom
+    nickname: Tom
     last: Graves
     suffix: Jr.
     official_full: Tom Graves
@@ -13387,8 +13404,8 @@
     ballotpedia: Tim Griffin
   name:
     first: John
+    nickname: Tim
     middle: Timothy
-    nick: Tim
     last: Griffin
     official_full: Tim Griffin
   bio:
@@ -13550,9 +13567,9 @@
     house_history: 14289
   name:
     first: Michael
+    middle: G.
     last: Grimm
     official_full: Michael G. Grimm
-    middle: G.
   bio:
     birthday: '1970-02-07'
     gender: M
@@ -13593,7 +13610,9 @@
     house_history: 14275
     ballotpedia: Brett Guthrie
   name:
-    first: Brett
+    prefix: Hon.
+    first: S.
+    middle: Brett
     last: Guthrie
     official_full: Brett Guthrie
   bio:
@@ -14030,7 +14049,9 @@
     wikipedia: Andrew P. Harris
     house_history: 15599
   name:
-    first: Andy
+    first : Andrew
+    middle: P.
+    nickname: Andy
     last: Harris
     official_full: Andy Harris
   bio:
@@ -14223,6 +14244,7 @@
     first: Doc
     last: Hastings
     official_full: Doc Hastings
+    
   bio:
     birthday: '1941-02-07'
     gender: M
@@ -15148,7 +15170,7 @@
   name:
     first : Timothy
     middle : Alan Representa
-    nick: Tim
+    nickname: Tim
     last: Huelskamp
     official_full: Tim Huelskamp
   bio:
@@ -15191,7 +15213,9 @@
     house_history: 15610
     ballotpedia: Bill Huizenga
   name:
-    first: Bill
+    nickname: Bill
+    first: William
+    middle: P.
     last: Huizenga
     official_full: Bill Huizenga
   bio:
@@ -15747,7 +15771,8 @@
     house_history: 16071
     ballotpedia: Bill Johnson (Ohio)
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Johnson
     official_full: Bill Johnson
   bio:
@@ -15957,7 +15982,7 @@
     ballotpedia: Ron Johnson (Wisconsin)
   name:
     first: Ronald
-    nick: Ron
+    nickname: Ron
     last: Johnson
     official_full: Ron Johnson
   bio:
@@ -16436,7 +16461,7 @@
     ballotpedia: Mike Kelly
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Kelly
     official_full: Mike Kelly
@@ -16481,7 +16506,7 @@
     ballotpedia: Ron Kind
   name:
     first: Ronald
-    nick: Ron
+    nickname: Ron
     middle: James
     last: Kind
     official_full: Ron Kind
@@ -17289,6 +17314,7 @@
     ballotpedia: James Lankford
   name:
     first: James
+    middle: Paul
     last: Lankford
     official_full: James Lankford
   bio:
@@ -17820,7 +17846,7 @@
     ballotpedia: Mike Lee
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Lee
     official_full: Mike Lee
@@ -18434,7 +18460,8 @@
     wikipedia: Billy Long
     house_history: 17328
   name:
-    first: Billy
+    first : William
+    nickname: Billy
     last: Long
     official_full: Billy Long
   bio:
@@ -18699,7 +18726,8 @@
     wikipedia: Blaine Luetkemeyer
     house_history: 17315
   name:
-    first: Blaine
+    first: W.
+    middle: Blaine
     last: Luetkemeyer
     official_full: Blaine Luetkemeyer
   bio:
@@ -19109,7 +19137,7 @@
   name:
     first: Thomas
     middle: Anthony
-    nick: Tom
+    nickname: Tom
     last: Marino
     official_full: Tom Marino
   bio:
@@ -19752,7 +19780,7 @@
   name:
     first: Thomas
     middle: Miller
-    nick: Tom
+    nickname: Tom
     last: McClintock
     suffix: II
     official_full: Tom McClintock
@@ -20163,7 +20191,7 @@
     ballotpedia: Mike McIntyre
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: McIntyre
     official_full: Mike McIntyre
@@ -21601,7 +21629,7 @@
   name:
     first: John 
     middle : Michael
-    nick: Mick
+    nickname: Mick
     last: Mulvaney
     official_full: Mick Mulvaney
   bio:
@@ -22274,7 +22302,7 @@
     first: Kristi
     last: Noem
     official_full: Kristi L. Noem
-    middle: L.
+    middle: Lynn
   bio:
     birthday: '1971-11-30'
     gender: F
@@ -22542,7 +22570,8 @@
     house_history: 19068
     ballotpedia: Alan Nunnelee
   name:
-    first: Alan
+    first: Patrick
+    middle: Alan
     last: Nunnelee
     official_full: Alan Nunnelee
   bio:
@@ -22585,7 +22614,7 @@
     house_history: 19278
   name:
     first: Peter
-    nick: Pete
+    nickname: Pete
     middle: G.
     last: Olson
     official_full: Pete Olson
@@ -22857,7 +22886,9 @@
     wikipedia: Bill Pascrell
     house_history: 19391
   name:
-    first: Bill
+    nickname: Bill
+    first: William
+
     middle: J.
     last: Pascrell
     suffix: Jr.
@@ -22951,7 +22982,8 @@
     wikipedia: Ed Pastor
     ballotpedia: Ed Pastor
   name:
-    first: Ed
+    first: Edward
+    nickname: Ed
     last: Pastor
     official_full: Ed Pastor
   bio:
@@ -23759,6 +23791,7 @@
     ballotpedia: Chellie Pingree
   name:
     first: Chellie
+    middle: M.
     last: Pingree
     official_full: Chellie Pingree
   bio:
@@ -24022,8 +24055,8 @@
     ballotpedia: Mike Pompeo
   name:
     first: Michael
-    nick: Mike
-
+    nickname: Mike
+    middle: Richard
     last: Pompeo
     official_full: Mike Pompeo
   bio:
@@ -24147,7 +24180,9 @@
     house_history: 20036
     ballotpedia: Bill Posey
   name:
-    first: Bill
+    nickname: Bill
+    first: William
+
     last: Posey
     official_full: Bill Posey
   bio:
@@ -24383,7 +24418,7 @@
     ballotpedia: Michael Quigley
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Quigley
     official_full: Mike Quigley
@@ -25382,7 +25417,7 @@
     ballotpedia: Mike Rogers (Michigan)
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Rogers
     official_full: Mike Rogers
@@ -25463,7 +25498,7 @@
     ballotpedia: Mike Rogers (Alabama)
   name:
     first: Michael
-    nick: Mike
+    nickname: Mike
 
     last: Rogers
     official_full: Mike Rogers
@@ -25656,7 +25691,7 @@
   name:
     first: Theodore 
     middle: Edward
-    nick: Todd
+    nickname: Todd
     last: Rokita
     official_full: Todd Rokita
   bio:
@@ -25699,7 +25734,7 @@
   name:
     first: Thomas
     middle: J.
-    nick: Tom
+    nickname: Tom
     last: Rooney
     official_full: Thomas J. Rooney
   bio:
@@ -26331,7 +26366,8 @@
     house_history: 20721
     ballotpedia: Bobby Rush
   name:
-    first: Bobby
+    nickname: Bobby
+    first: Robert
     middle: L.
     last: Rush
     official_full: Bobby L. Rush
@@ -27024,6 +27060,7 @@
   name:
     first: Aaron
     last: Schock
+    middle : Jon
     official_full: Aaron Schock
   bio:
     gender: M
@@ -27336,7 +27373,8 @@
     wikipedia: Austin Scott (politician)
     ballotpedia: Austin Scott
   name:
-    first: Austin
+    first: James
+    middle: Austin
     last: Scott
     official_full: Austin Scott
   bio:
@@ -28267,7 +28305,9 @@
     cspan: 89108
     wikipedia: Bill Shuster
   name:
-    first: Bill
+    nickname: Bill
+    first: William
+
     last: Shuster
     official_full: Bill Shuster
   bio:
@@ -29486,10 +29526,12 @@
     cspan: 57872
     wikipedia: Mike Thompson (California politician)
   name:
-    nick: Mike
+    nickname: Mike
     first: Michael
+    middle : C.
     last: Thompson
     official_full: Mike Thompson
+    alt : c. thompson
   bio:
     birthday: '1951-01-24'
     gender: M
@@ -30353,7 +30395,8 @@
     house_history: 21032
     wikipedia: Chris Van Hollen
   name:
-    first: Chris
+    nickname: Chris
+    first : Christopher
     last: Van Hollen
     suffix: Jr.
     official_full: Chris Van Hollen
@@ -30723,7 +30766,7 @@
     ballotpedia: Tim Walberg
   name:
     first: Timothy
-    nick: Tim
+    nickname: Tim
     last: Walberg
     official_full: Tim Walberg
   bio:
@@ -31521,7 +31564,8 @@
     wikipedia: Ed Whitfield
     ballotpedia: Ed Whitfield
   name:
-    first: Ed
+    first: Edward
+    nickname: Ed
     last: Whitfield
     official_full: Ed Whitfield
   bio:
@@ -32029,7 +32073,7 @@
     ballotpedia: Ron Wyden
   name:
     first: Ronald
-    nick: Ron
+    nickname: Ron
     last: Wyden
     official_full: Ron Wyden
   bio:
@@ -32191,6 +32235,7 @@
     ballotpedia: Kevin Yoder
   name:
     first: Kevin
+    middle: W.
     last: Yoder
     official_full: Kevin Yoder
   bio:
@@ -32819,7 +32864,7 @@
     ballotpedia: Ron Barber
   name:
     first: Ronald
-    nick: Ron
+    nickname: Ron
     last: Barber
     official_full: Ron Barber
   bio:
@@ -33151,7 +33196,9 @@
     house_history: 13555
     ballotpedia: Bill Foster
   name:
-    first: Bill
+    nickname: Bill
+    first : G.
+    middle: William
     last: Foster
     official_full: Bill Foster
   bio:
@@ -33197,6 +33244,7 @@
     ballotpedia: Alan Grayson
   name:
     first: Alan
+    middle: Mark
     last: Grayson
     official_full: Alan Grayson
   bio:
@@ -33348,7 +33396,7 @@
     ballotpedia: Tom Cotton
   name:
     first: Thomas
-    nick: Tom
+    nickname: Tom
     last: Cotton
     official_full: Tom Cotton
   bio:
@@ -33469,7 +33517,8 @@
     votesmart: 120030
     ballotpedia: Ami Bera
   name:
-    first: Ami
+    first: Amerish
+    nickname: Ami
     last: Bera
     official_full: Ami Bera
   bio:
@@ -33530,6 +33579,7 @@
     ballotpedia: Eric Swalwell
   name:
     first: Eric
+    middle: Michael
     last: Swalwell
     official_full: Eric Swalwell
   bio:
@@ -33680,7 +33730,7 @@
     opensecrets: N00033510
     ballotpedia: Raul Ruiz
   name:
-    prefix : dr.
+    prefix : Dr.
     first: Raul
     last: Ruiz
     official_full: Raul Ruiz
@@ -33773,6 +33823,7 @@
     ballotpedia: Juan Vargas
   name:
     first: Juan
+    middle: C.
     last: Vargas
     official_full: Juan Vargas
   bio:
@@ -33896,7 +33947,8 @@
     ballotpedia: Ron DeSantis
   name:
     first: Ronald
-    nick: Ron
+    middle: D.
+    nickname: Ron
     last: DeSantis
     official_full: Ron DeSantis
   bio:
@@ -33991,6 +34043,7 @@
     ballotpedia: Lois Frankel
   name:
     first: Lois
+    middle: J.
     last: Frankel
     official_full: Lois Frankel
   bio:
@@ -34021,7 +34074,9 @@
     opensecrets: N00029908
     ballotpedia: Joe Garcia
   name:
-    first: Joe
+    first: Jose
+    middle: Antonio
+    nickname: Joe
     last: Garcia
     official_full: Joe Garcia
   bio:
@@ -34051,7 +34106,9 @@
     opensecrets: N00033518
     ballotpedia: Doug Collins
   name:
-    first: Doug
+    first : Douglas
+    middle: Allen
+    nickname: Doug
     last: Collins
     official_full: Doug Collins
   bio:
@@ -34266,8 +34323,10 @@
     ballotpedia: Jackie Walorski
   name:
     first: Jackie
+    nick : Swihart
     last: Walorski
     official_full: Jackie Walorski
+    alt: Jackie Swihart Walorski
   bio:
     gender: F
     birthday: '1963-08-17'
@@ -34329,7 +34388,7 @@
   name:
     first: Allen
     middle: Lucas
-    nick: Luke
+    nickname: Luke
     last: Messer
     official_full: Luke Messer
   bio:
@@ -34582,7 +34641,7 @@
     ballotpedia: Rick Nolan
   name:
     first: Richard
-    middle: M.
+    middle: Michael
     last: Nolan
     official_full: Richard M. Nolan
   bio:
@@ -34631,6 +34690,7 @@
     ballotpedia: Ann Wagner
   name:
     first: Ann
+    middle: L.
     last: Wagner
     official_full: Ann Wagner
   bio:
@@ -34662,7 +34722,7 @@
     ballotpedia: Steve Daines
   name:
     first: Steven
-    nick: Steve
+    nickname: Steve
     last: Daines
     official_full: Steve Daines
   bio:
@@ -34787,8 +34847,10 @@
     ballotpedia: George E.B. Holding
   name:
     first: George
+    middle: E. B.
     last: Holding
     official_full: George Holding
+    alt: George E B Holding
   bio:
     gender: M
     birthday: '1968-04-17'
@@ -34946,6 +35008,7 @@
     first: Michelle
     last: Lujan Grisham
     official_full: Michelle Lujan Grisham
+    alt : Michelle Grisham
   bio:
     gender: F
     birthday: '1959-10-24'
@@ -35096,7 +35159,9 @@
     opensecrets: N00001285
     ballotpedia: Chris Collins
   name:
-    first: Chris
+    first: Christopher
+    middle: Carl
+    nickname: Chris
     last: Collins
     official_full: Chris Collins
   bio:
@@ -35217,7 +35282,9 @@
     opensecrets: N00033532
     ballotpedia: Jim Bridenstine
   name:
-    first: Jim
+    first : James
+    middle: Frederick
+    nickname: Jim
     last: Bridenstine
     official_full: Jim Bridenstine
   bio:
@@ -35462,7 +35529,8 @@
     opensecrets: N00033540
     ballotpedia: Beto O'Rourke
   name:
-    first: Beto
+    first: Robert
+    nickname: Beto
     last: O'Rourke
     official_full: Beto O'Rourke
   bio:
@@ -35737,7 +35805,8 @@
     - H0WA03161
     ballotpedia: Denny Heck
   name:
-    first: Denny
+    first: Dennis
+    nickname: Denny
     last: Heck
     official_full: Denny Heck
   bio:
