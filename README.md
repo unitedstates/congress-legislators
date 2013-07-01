@@ -49,6 +49,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		cspan: 57970
 		wikipedia: Paul Ryan
 		ballotpedia: Paul Ryan
+		maplight: 4442
 		house_history: 20785
 	  name:
 		first: Paul
@@ -99,6 +100,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
 	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
+	* maplight : The maplight.org internal ID for the person, used for campaign finance information.
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
 
@@ -106,7 +108,8 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* first: The legislator's first name. Sometimes a first initial and period (e.g. in W. Todd Akin), in which case it is suggested to not use the first name for display purposes.
 	* middle: The legislator's middle name or middle initial (with period).
 	* last: The legislator's last name. Many last names include non-ASCII characters. When building search systems, it is advised to index both the raw value as well as a value with extended characters replaced with their ASCII equivalents (in Python that's: u"".join(c for c in unicodedata.normalize('NFKD', lastname) if not unicodedata.combining(c))).
-	* suffix: A suffix on the legislator's name, such as "Jr." or "III".
+	* suffix: A suffix on the legislator's name, such as "Jr." , "II" or "III".
+	* prefix : "Dr.", "Hon."
 	* nickname: The legislator's nick name when used as a common alternative to his first name.
 	* official_full: The full name of the legislator according to the House or Senate (usually first, middle initial, nickname, last, and suffix). Present for those serving on 2012-10-30 and later.
 
@@ -413,6 +416,9 @@ Here are the ones we know about:
 
 Other Scripts
 ----------------------
-The ballotpedia field has been created using code from james michael dupont, 
+The ballotpedia and maplight field has been created using code from james michael dupont, 
 To git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia
 running the script compare.py and merging the dump.yml output. 
+
+To git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch maplight
+running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output. 
