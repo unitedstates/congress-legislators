@@ -417,7 +417,8 @@
     wikipedia: Bob Corker
     ballotpedia: Bob Corker
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
     last: Corker
     official_full: Bob Corker
   bio:
@@ -811,7 +812,8 @@
     house_history: 18875
     ballotpedia: Bill Nelson (Florida)
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Nelson
     official_full: Bill Nelson
   bio:
@@ -1811,6 +1813,7 @@
     ballotpedia: Mike Enzi
   name:
     first: Michael
+    mike: Mike
     middle: B.
     last: Enzi
     official_full: Michael B. Enzi
@@ -2135,7 +2138,8 @@
     wikipedia: Mike Johanns
     ballotpedia: Mike Johanns
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Johanns
     official_full: Mike Johanns
   bio:
@@ -2171,7 +2175,8 @@
     house_history: 15920
     ballotpedia: Tim Johnson, South Dakota
   name:
-    first: Tim
+    nickname: Tim
+    first: Timothy
     middle: P.
     last: Johnson
     official_full: Tim Johnson
@@ -4216,7 +4221,9 @@
     ballotpedia: Dan Benishek
     maplight: 5782
   name:
-    first: Dan
+    first: Daniel
+    nickname: Dan
+    middle: J.
     last: Benishek
     official_full: Dan Benishek
   bio:
@@ -4617,7 +4624,9 @@
     house_history: 10436
     maplight: 6080
   name:
+    prefix: Mrs.
     first: Diane
+    middle: L.
     last: Black
     official_full: Diane Black
   bio:
@@ -5963,6 +5972,7 @@
     maplight: 5705
   name:
     first: Larry
+    middle: D.
     last: Bucshon
     official_full: Larry Bucshon
   bio:
@@ -6867,7 +6877,8 @@
     first: John
     last: Carney
     official_full: John C. Carney Jr.
-    middle: C.
+    middle: Charles
+    suffix: Jr.
   bio:
     birthday: '1956-05-20'
     gender: M
@@ -7047,7 +7058,8 @@
     ballotpedia: Bill Cassidy
     maplight: 7026
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Cassidy
     official_full: Bill Cassidy
   bio:
@@ -7556,7 +7568,7 @@
     house_history: 11766
     maplight: 4188
   name:
-    first: Wm.
+    first: William
     middle: Lacy
     last: Clay
     suffix: Jr.
@@ -8074,7 +8086,8 @@
     ballotpedia: Mike Coffman
     maplight: 6962
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Coffman
     official_full: Mike Coffman
   bio:
@@ -8180,7 +8193,6 @@
     votesmart: 46034
     fec:
     - H2OK04055
-    - H2OK04139
     cspan: 1003609
     wikipedia: Tom Cole
     house_history: 11774
@@ -9958,6 +9970,7 @@
     maplight: 6068
   name:
     first: Scott
+    middle: Eugene
     last: DesJarlais
     official_full: Scott DesJarlais
   bio:
@@ -11330,7 +11343,8 @@
     ballotpedia: Blake Farenthold
     maplight: 6111
   name:
-    first: Blake
+    first: Randolph
+    middle: Blake
     last: Farenthold
     official_full: Blake Farenthold
   bio:
@@ -11799,7 +11813,9 @@
     maplight: 7036
   name:
     first: John
+    middle: C.
     last: Fleming
+    suffix: Jr.
     official_full: John Fleming
   bio:
     gender: M
@@ -11850,7 +11866,8 @@
     house_history: 13566
     maplight: 6101
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Flores
     official_full: Bill Flores
   bio:
@@ -12587,7 +12604,8 @@
     ballotpedia: Bob Gibbs
     maplight: 5975
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
     last: Gibbs
     official_full: Bob Gibbs
   bio:
@@ -12675,7 +12693,9 @@
     wikipedia: Phil Gingrey
     maplight: 4256
   name:
-    first: Phil
+    first: John
+    middle: Phillip
+    nickname: Phil
     last: Gingrey
     official_full: Phil Gingrey
   bio:
@@ -12819,7 +12839,8 @@
     ballotpedia: Bob Goodlatte
     maplight: 4259
   name:
-    first: Bob
+    nickname: Bob
+    first: Robert
     middle: W.
     last: Goodlatte
     official_full: Bob Goodlatte
@@ -13275,8 +13296,11 @@
     ballotpedia: Tom Graves
     maplight: 5628
   name:
-    first: Tom
+    first: John
+    middle: Thomas
+    nickname: Tom
     last: Graves
+    suffix: Jr.
     official_full: Tom Graves
   bio:
     birthday: '1970-02-03'
@@ -13500,7 +13524,9 @@
     ballotpedia: Tim Griffin
     maplight: 5406
   name:
-    first: Tim
+    first: John
+    nickname: Tim
+    middle: Timothy
     last: Griffin
     official_full: Tim Griffin
   bio:
@@ -13665,9 +13691,9 @@
     maplight: 5933
   name:
     first: Michael
+    middle: G.
     last: Grimm
     official_full: Michael G. Grimm
-    middle: G.
   bio:
     birthday: '1970-02-07'
     gender: M
@@ -13709,7 +13735,9 @@
     ballotpedia: Brett Guthrie
     maplight: 7024
   name:
-    first: Brett
+    prefix: Hon.
+    first: S.
+    middle: Brett
     last: Guthrie
     official_full: Brett Guthrie
   bio:
@@ -14152,7 +14180,9 @@
     house_history: 15599
     maplight: 7051
   name:
-    first: Andy
+    first: Andrew
+    middle: P.
+    nickname: Andy
     last: Harris
     official_full: Andy Harris
   bio:
@@ -15281,7 +15311,9 @@
     ballotpedia: Tim Huelskamp
     maplight: 6854
   name:
-    first: Tim
+    first: Timothy
+    middle: Alan Representa
+    nickname: Tim
     last: Huelskamp
     official_full: Tim Huelskamp
   bio:
@@ -15325,7 +15357,9 @@
     ballotpedia: Bill Huizenga
     maplight: 5786
   name:
-    first: Bill
+    nickname: Bill
+    first: William
+    middle: P.
     last: Huizenga
     official_full: Bill Huizenga
   bio:
@@ -15738,7 +15772,7 @@
     maplight: 4335
   name:
     first: Sheila
-    last: Jackson Lee
+    last: Jackson-Lee
     official_full: Sheila Jackson Lee
   bio:
     birthday: '1950-01-12'
@@ -15889,7 +15923,8 @@
     ballotpedia: Bill Johnson (Ohio)
     maplight: 5962
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Johnson
     official_full: Bill Johnson
   bio:
@@ -16100,7 +16135,8 @@
     wikipedia: Ron Johnson (U.S. politician)
     ballotpedia: Ron Johnson (Wisconsin)
   name:
-    first: Ron
+    first: Ronald
+    nickname: Ron
     last: Johnson
     official_full: Ron Johnson
   bio:
@@ -16542,7 +16578,7 @@
     first: William
     last: Keating
     official_full: William R. Keating
-    middle: R.
+    middle: Richard
   bio:
     birthday: '1952-09-06'
     gender: M
@@ -16584,7 +16620,8 @@
     ballotpedia: Mike Kelly
     maplight: 5997
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Kelly
     official_full: Mike Kelly
   bio:
@@ -16628,7 +16665,8 @@
     ballotpedia: Ron Kind
     maplight: 4316
   name:
-    first: Ron
+    first: Ronald
+    nickname: Ron
     middle: James
     last: Kind
     official_full: Ron Kind
@@ -17446,6 +17484,7 @@
     maplight: 5983
   name:
     first: James
+    middle: Paul
     last: Lankford
     official_full: James Lankford
   bio:
@@ -17981,7 +18020,8 @@
     wikipedia: Mike Lee (U.S. politician)
     ballotpedia: Mike Lee
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Lee
     official_full: Mike Lee
   bio:
@@ -18601,7 +18641,8 @@
     house_history: 17328
     maplight: 5839
   name:
-    first: Billy
+    first: William
+    nickname: Billy
     last: Long
     official_full: Billy Long
   bio:
@@ -18869,7 +18910,8 @@
     house_history: 17315
     maplight: 7077
   name:
-    first: Blaine
+    first: W.
+    middle: Blaine
     last: Luetkemeyer
     official_full: Blaine Luetkemeyer
   bio:
@@ -19283,7 +19325,9 @@
     ballotpedia: Tom Marino
     maplight: 6012
   name:
-    first: Tom
+    first: Thomas
+    middle: Anthony
+    nickname: Tom
     last: Marino
     official_full: Tom Marino
   bio:
@@ -19931,8 +19975,11 @@
     wikipedia: Tom McClintock
     maplight: 6943
   name:
-    first: Tom
+    first: Thomas
+    middle: Miller
+    nickname: Tom
     last: McClintock
+    suffix: II
     official_full: Tom McClintock
   bio:
     birthday: '1956-07-10'
@@ -20345,7 +20392,8 @@
     ballotpedia: Mike McIntyre
     maplight: 4359
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: McIntyre
     official_full: Mike McIntyre
   bio:
@@ -20716,6 +20764,8 @@
     maplight: 6007
   name:
     first: Patrick
+    middle: L.
+    suffix: Jr.
     last: Meehan
     official_full: Patrick Meehan
   bio:
@@ -21793,7 +21843,9 @@
     ballotpedia: Mick Mulvaney
     maplight: 6057
   name:
-    first: Mick
+    first: John
+    middle: Michael
+    nickname: Mick
     last: Mulvaney
     official_full: Mick Mulvaney
   bio:
@@ -22472,7 +22524,7 @@
     first: Kristi
     last: Noem
     official_full: Kristi L. Noem
-    middle: L.
+    middle: Lynn
   bio:
     birthday: '1971-11-30'
     gender: F
@@ -22744,7 +22796,8 @@
     ballotpedia: Alan Nunnelee
     maplight: 5848
   name:
-    first: Alan
+    first: Patrick
+    middle: Alan
     last: Nunnelee
     official_full: Alan Nunnelee
   bio:
@@ -22787,7 +22840,9 @@
     house_history: 19278
     maplight: 7170
   name:
-    first: Pete
+    first: Peter
+    nickname: Pete
+    middle: G.
     last: Olson
     official_full: Pete Olson
   bio:
@@ -23062,7 +23117,8 @@
     house_history: 19391
     maplight: 4400
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     middle: J.
     last: Pascrell
     suffix: Jr.
@@ -23157,7 +23213,8 @@
     ballotpedia: Ed Pastor
     maplight: 4401
   name:
-    first: Ed
+    first: Edward
+    nickname: Ed
     last: Pastor
     official_full: Ed Pastor
   bio:
@@ -23974,6 +24031,7 @@
     maplight: 7057
   name:
     first: Chellie
+    middle: M.
     last: Pingree
     official_full: Chellie Pingree
   bio:
@@ -24240,7 +24298,9 @@
     ballotpedia: Mike Pompeo
     maplight: 5726
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
+    middle: Richard
     last: Pompeo
     official_full: Mike Pompeo
   bio:
@@ -24365,7 +24425,8 @@
     ballotpedia: Bill Posey
     maplight: 6974
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Posey
     official_full: Bill Posey
   bio:
@@ -24603,7 +24664,8 @@
     ballotpedia: Michael Quigley
     maplight: 5660
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Quigley
     official_full: Mike Quigley
   bio:
@@ -24983,7 +25045,8 @@
     house_history: 20811
     maplight: 5955
   name:
-    first: Tom
+    first: Thomas
+    nick: Tom
     middle: W.
     last: Reed
     suffix: II
@@ -25611,7 +25674,8 @@
     ballotpedia: Mike Rogers (Michigan)
     maplight: 4432
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Rogers
     official_full: Mike Rogers
   bio:
@@ -25691,7 +25755,8 @@
     ballotpedia: Mike Rogers (Alabama)
     maplight: 4430
   name:
-    first: Mike
+    first: Michael
+    nickname: Mike
     last: Rogers
     official_full: Mike Rogers
   bio:
@@ -25883,7 +25948,9 @@
     ballotpedia: Todd Rokita
     maplight: 5694
   name:
-    first: Todd
+    first: Theodore
+    middle: Edward
+    nickname: Todd
     last: Rokita
     official_full: Todd Rokita
   bio:
@@ -25927,6 +25994,7 @@
   name:
     first: Thomas
     middle: J.
+    nickname: Tom
     last: Rooney
     official_full: Thomas J. Rooney
   bio:
@@ -26566,7 +26634,8 @@
     ballotpedia: Bobby Rush
     maplight: 4440
   name:
-    first: Bobby
+    nickname: Bobby
+    first: Robert
     middle: L.
     last: Rush
     official_full: Bobby L. Rush
@@ -27268,6 +27337,7 @@
   name:
     first: Aaron
     last: Schock
+    middle: Jon
     official_full: Aaron Schock
   bio:
     gender: M
@@ -27584,7 +27654,8 @@
     ballotpedia: Austin Scott
     maplight: 5627
   name:
-    first: Austin
+    first: James
+    middle: Austin
     last: Scott
     official_full: Austin Scott
   bio:
@@ -28524,7 +28595,8 @@
     wikipedia: Bill Shuster
     maplight: 4666
   name:
-    first: Bill
+    nickname: Bill
+    first: William
     last: Shuster
     official_full: Bill Shuster
   bio:
@@ -29296,7 +29368,9 @@
     ballotpedia: Steve Southerland II
     maplight: 5551
   name:
-    first: Steve
+    first: William
+    middle: Steve
+    suffix: II
     last: Southerland
     official_full: Steve Southerland II
   bio:
@@ -29756,10 +29830,12 @@
     wikipedia: Mike Thompson (California politician)
     maplight: 4486
   name:
-    first: Mike
-    middle: Michael
+    nickname: Mike
+    first: Michael
+    middle: C.
     last: Thompson
     official_full: Mike Thompson
+    alt: c. thompson
   bio:
     birthday: '1951-01-24'
     gender: M
@@ -30268,6 +30344,7 @@
     maplight: 7119
   name:
     first: Paul
+    middle: David
     last: Tonko
     official_full: Paul Tonko
   bio:
@@ -30632,7 +30709,8 @@
     wikipedia: Chris Van Hollen
     maplight: 4497
   name:
-    first: Chris
+    nickname: Chris
+    first: Christopher
     last: Van Hollen
     suffix: Jr.
     official_full: Chris Van Hollen
@@ -31004,7 +31082,8 @@
     ballotpedia: Tim Walberg
     maplight: 4695
   name:
-    first: Tim
+    first: Timothy
+    nickname: Tim
     last: Walberg
     official_full: Tim Walberg
   bio:
@@ -31812,7 +31891,8 @@
     ballotpedia: Ed Whitfield
     maplight: 4513
   name:
-    first: Ed
+    first: Edward
+    nickname: Ed
     last: Whitfield
     official_full: Ed Whitfield
   bio:
@@ -32325,7 +32405,8 @@
     wikipedia: Ron Wyden
     ballotpedia: Ron Wyden
   name:
-    first: Ron
+    first: Ronald
+    nickname: Ron
     last: Wyden
     official_full: Ron Wyden
   bio:
@@ -32489,6 +32570,7 @@
     maplight: 5722
   name:
     first: Kevin
+    middle: W.
     last: Yoder
     official_full: Kevin Yoder
   bio:
@@ -33123,7 +33205,8 @@
     ballotpedia: Ron Barber
     maplight: 6205
   name:
-    first: Ron
+    first: Ronald
+    nickname: Ron
     last: Barber
     official_full: Ron Barber
   bio:
@@ -33211,6 +33294,7 @@
     maplight: 6430
   name:
     first: Thomas
+    middle: Harold
     last: Massie
     official_full: Thomas Massie
   bio:
@@ -33461,7 +33545,9 @@
     ballotpedia: Bill Foster
     maplight: 7010
   name:
-    first: Bill
+    nickname: Bill
+    first: G.
+    middle: William
     last: Foster
     official_full: Bill Foster
   bio:
@@ -33508,6 +33594,7 @@
     maplight: 6831
   name:
     first: Alan
+    middle: Mark
     last: Grayson
     official_full: Alan Grayson
   bio:
@@ -33662,7 +33749,8 @@
     ballotpedia: Tom Cotton
     maplight: 6192
   name:
-    first: Tom
+    first: Thomas
+    nickname: Tom
     last: Cotton
     official_full: Tom Cotton
   bio:
@@ -33787,7 +33875,8 @@
     ballotpedia: Ami Bera
     maplight: 5447
   name:
-    first: Ami
+    first: Amerish
+    nickname: Ami
     last: Bera
     official_full: Ami Bera
   bio:
@@ -33850,6 +33939,7 @@
     maplight: 6233
   name:
     first: Eric
+    middle: Michael
     last: Swalwell
     official_full: Eric Swalwell
   bio:
@@ -34005,6 +34095,7 @@
     ballotpedia: Raul Ruiz
     maplight: 6275
   name:
+    prefix: Dr.
     first: Raul
     last: Ruiz
     official_full: Raul Ruiz
@@ -34100,6 +34191,7 @@
     maplight: 6294
   name:
     first: Juan
+    middle: C.
     last: Vargas
     official_full: Juan Vargas
   bio:
@@ -34226,7 +34318,9 @@
     ballotpedia: Ron DeSantis
     maplight: 7657
   name:
-    first: Ron
+    first: Ronald
+    middle: D.
+    nickname: Ron
     last: DeSantis
     official_full: Ron DeSantis
   bio:
@@ -34245,6 +34339,7 @@
     url: http://desantis.house.gov
     rss_url: http://desantis.house.gov/rss.xml
 - id:
+    opensecrets: N00033091
     govtrack: 412527
     bioguide: M001191
     thomas: '02117'
@@ -34287,8 +34382,11 @@
     ballotpedia: Trey Radel
     maplight: 7666
   name:
-    first: Trey
+    first: Henry
+    middle: Jude
+    nickname: Trey
     last: Radel
+    suffix: III
     official_full: Trey Radel
   bio:
     gender: M
@@ -34320,6 +34418,7 @@
     maplight: 6339
   name:
     first: Lois
+    middle: J.
     last: Frankel
     official_full: Lois Frankel
   bio:
@@ -34351,7 +34450,9 @@
     ballotpedia: Joe Garcia
     maplight: 6979
   name:
-    first: Joe
+    first: Jose
+    middle: Antonio
+    nickname: Joe
     last: Garcia
     official_full: Joe Garcia
   bio:
@@ -34382,7 +34483,9 @@
     ballotpedia: Doug Collins
     maplight: 6354
   name:
-    first: Doug
+    first: Douglas
+    middle: Allen
+    nickname: Doug
     last: Collins
     official_full: Doug Collins
   bio:
@@ -34444,7 +34547,8 @@
     ballotpedia: Tammy Duckworth
     maplight: 6847
   name:
-    first: Tammy
+    first: L.
+    middle: Tammy
     last: Duckworth
     official_full: Tammy Duckworth
   bio:
@@ -34510,6 +34614,7 @@
     first: William
     last: Enyart
     middle: L.
+    suffix: Jr.
     official_full: William L. Enyart
   bio:
     gender: M
@@ -34602,8 +34707,10 @@
     maplight: 5688
   name:
     first: Jackie
+    nick: Swihart
     last: Walorski
     official_full: Jackie Walorski
+    alt: Jackie Swihart Walorski
   bio:
     gender: F
     birthday: '1963-08-17'
@@ -34665,7 +34772,9 @@
     ballotpedia: Luke Messer
     maplight: 5687
   name:
-    first: Luke
+    first: Allen
+    middle: Lucas
+    nickname: Luke
     last: Messer
     official_full: Luke Messer
   bio:
@@ -34924,7 +35033,7 @@
     maplight: 6482
   name:
     first: Richard
-    middle: M.
+    middle: Michael
     last: Nolan
     official_full: Richard M. Nolan
   bio:
@@ -34974,6 +35083,7 @@
     maplight: 6483
   name:
     first: Ann
+    middle: L.
     last: Wagner
     official_full: Ann Wagner
   bio:
@@ -35005,7 +35115,8 @@
     ballotpedia: Steve Daines
     maplight: 6498
   name:
-    first: Steve
+    first: Steven
+    nickname: Steve
     last: Daines
     official_full: Steve Daines
   bio:
@@ -35037,7 +35148,9 @@
     maplight: 6507
   name:
     first: Richard
+    middle: Lane
     last: Hudson
+    suffix: Jr.
     official_full: Richard Hudson
   bio:
     gender: M
@@ -35068,6 +35181,7 @@
     maplight: 6515
   name:
     first: Robert
+    middle: M.
     last: Pittenger
     official_full: Robert Pittenger
   bio:
@@ -35099,6 +35213,7 @@
     maplight: 6520
   name:
     first: Mark
+    middle: R.
     last: Meadows
     official_full: Mark Meadows
   bio:
@@ -35130,8 +35245,10 @@
     maplight: 6524
   name:
     first: George
+    middle: E. B.
     last: Holding
     official_full: George Holding
+    alt: George E B Holding
   bio:
     gender: M
     birthday: '1968-04-17'
@@ -35292,6 +35409,7 @@
     first: Michelle
     last: Lujan Grisham
     official_full: Michelle Lujan Grisham
+    alt: Michelle Grisham
   bio:
     gender: F
     birthday: '1959-10-24'
@@ -35447,7 +35565,9 @@
     ballotpedia: Chris Collins
     maplight: 9150
   name:
-    first: Chris
+    first: Christopher
+    middle: Carl
+    nickname: Chris
     last: Collins
     official_full: Chris Collins
   bio:
@@ -35572,7 +35692,9 @@
     ballotpedia: Jim Bridenstine
     maplight: 6606
   name:
-    first: Jim
+    first: James
+    middle: Frederick
+    nickname: Jim
     last: Bridenstine
     official_full: Jim Bridenstine
   bio:
@@ -35824,7 +35946,8 @@
     ballotpedia: Beto O'Rourke
     maplight: 6668
   name:
-    first: Beto
+    first: Robert
+    nickname: Beto
     last: O'Rourke
     official_full: Beto O'Rourke
   bio:
@@ -36107,7 +36230,8 @@
     ballotpedia: Denny Heck
     maplight: 6158
   name:
-    first: Denny
+    first: Dennis
+    nickname: Denny
     last: Heck
     official_full: Denny Heck
   bio:
@@ -36225,11 +36349,15 @@
     votesmart: 21991
     ballotpedia: Mark Sanford
     cspan: 6513
+    fec:
+    - H4SC01073
     maplight: 6793
   name:
     first: Marshall
+    middle: C.
     last: Sanford
     nickname: Mark
+    suffix: Jr.
     official_full: Mark Sanford
   bio:
     birthday: '1960-05-28'
@@ -36269,6 +36397,8 @@
     opensecrets: N00033549
     wikipedia: Jason T. Smith
     votesmart: 59318
+    fec:
+    - H4MO08162
     maplight: 35979
   name:
     first: Jason
