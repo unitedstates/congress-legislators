@@ -8,6 +8,8 @@ import re, htmlentitydefs
 import pprint
 from datetime import datetime
 
+import lxml.html # for meta redirect parsing
+
 def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
 
@@ -94,8 +96,25 @@ def download(url, destination=None, force=False, options=None):
     if (not body) or (not body.strip()):
       return None
 
+    # the downloader can optionally parse the body as HTML
+    # and look for meta redirects. a bit expensive, so opt-in.
+    if options.get('check_redirects', False):
+      html_tree = lxml.html.fromstring(body)
+      meta = html_tree.xpath("//meta[translate(@http-equiv, 'REFSH', 'refsh') = 'refresh']/@content")
+      if meta:
+        attr = meta[0]
+        wait, text = attr.split(";")
+        if text.lower().startswith("url="):
+
+          new_url = text[4:]
+          print "Found redirect, downloading %s instead.." % new_url
+
+          options.pop('check_redirects')
+          body = download(new_url, None, True, options)
+
     # cache content to disk
     if cache: write(body, cache)
+
 
   return body
 

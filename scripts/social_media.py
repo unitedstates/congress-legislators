@@ -293,7 +293,7 @@ def main():
     if debug:
       print "[%s] Downloading..." % bioguide
     cache = "congress/%s.html" % bioguide
-    body = utils.download(url, cache, force)
+    body = utils.download(url, cache, force, {'check_redirects': True})
 
     all_matches = []
     for regex in regexes[service]:
