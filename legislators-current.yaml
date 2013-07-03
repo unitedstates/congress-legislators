@@ -8123,7 +8123,6 @@
     votesmart: 46034
     fec:
     - H2OK04055
-    - H2OK04139
     cspan: 1003609
     wikipedia: Tom Cole
     house_history: 11774
@@ -33861,6 +33860,7 @@
     url: http://desantis.house.gov
     rss_url: http://desantis.house.gov/rss.xml
 - id:
+    opensecrets: N00033091
     govtrack: 412527
     bioguide: M001191
     thomas: '02117'
@@ -35787,6 +35787,8 @@
     votesmart: 21991
     ballotpedia: Mark Sanford
     cspan: 6513
+    fec :
+      - H4SC01073
   name:
     first: Marshall
     last: Sanford
@@ -35830,6 +35832,8 @@
     opensecrets: N00033549
     wikipedia: Jason T. Smith
     votesmart: 59318
+    fec:
+      - H4MO08162
   name:
     first: Jason
     middle: T.
