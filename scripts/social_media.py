@@ -260,8 +260,12 @@ def main():
 
         new_media['id']['bioguide'] = bioguide
         thomas_id = current_bioguide[bioguide]['id'].get("thomas", None)
+        govtrack_id = current_bioguide[bioguide]['id'].get("govtrack", None)
         if thomas_id:
           new_media['id']['thomas'] = thomas_id
+        if govtrack_id:
+          new_media['id']['govtrack'] = govtrack_id
+
 
         new_media['social'][service] = candidate
         media.append(new_media)
