@@ -14384,11 +14384,11 @@
     party: Democrat
     class: 1
     url: http://www.heinrich.senate.gov
-    address: 720 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    address: 702 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
     phone: 202-224-5521
     fax: 202-225-4975
     contact_form: http://www.heinrich.senate.gov/contact.cfm
-    office: 720 Hart Senate Office Building
+    office: 702 Hart Senate Office Building
     state_rank: junior
 - id:
     bioguide: H001036
@@ -34831,7 +34831,7 @@
     office: 383 Russell Senate Office Building
     phone: 202-224-6551
     state_rank: junior
-    contact_form: http://www.fischer.senate.gov/public/index.cfm/email-me
+    contact_form: http://www.fischer.senate.gov/public/index.cfm/contact
     rss_url: http://www.fischer.senate.gov/public/index.cfm/rss/feed
 - id:
     govtrack: 412557
@@ -35787,8 +35787,8 @@
     votesmart: 21991
     ballotpedia: Mark Sanford
     cspan: 6513
-    fec :
-      - H4SC01073
+    fec:
+    - H4SC01073
   name:
     first: Marshall
     last: Sanford
@@ -35833,7 +35833,7 @@
     wikipedia: Jason T. Smith
     votesmart: 59318
     fec:
-      - H4MO08162
+    - H4MO08162
   name:
     first: Jason
     middle: T.
