@@ -51,6 +51,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		ballotpedia: Paul Ryan
 		maplight: 4442
 		house_history: 20785
+		opencongwiki: PAUL RYAN
 	  name:
 		first: Paul
 		middle: D.
@@ -100,6 +101,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
 	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
+	* opencongwiki: The name used on the open cong wiki http://www.opencongress.org/wiki/
 	* maplight : The maplight.org internal ID for the person, used for campaign finance information.
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
@@ -415,9 +417,9 @@ Here are the ones we know about:
 
 Other Scripts
 ----------------------
-The ballotpedia and maplight fields has been created using code from james michael dupont, 
-using the code in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia
-running the script compare.py and merging the dump.yml output. 
-
-Using the coed in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch maplight
+The ballotpedia field and wikipedia fields has been populated using code from James Michael DuPont <jamesmikedupont@gmail.com> To git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git  
+running the script compare.py and merging the dump.yml output wich scrapes the wikipedia html and ballotpedia html for cross references.
+The opencongwiki used opencongress.py and "compare_leg.py --field=opencongwiki -v -w" to scrape out the wiki fields from the front end website of the opencong.
+For maplight, using the code in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch maplight
 running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output. 
+
