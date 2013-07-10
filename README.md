@@ -90,7 +90,9 @@ The following fields are available in legislators-current.yaml and legislators-h
 
 * id
 	* bioguide: The alphanumeric ID for this legislator in http://bioguide.congress.gov. Note that at one time some legislators (women who had changed their name when they got married) had two entries on the bioguide website. Only one bioguide ID is included here.
-	* thomas: The numeric ID for this legislator on http://thomas.gov and http://beta.congress.gov. The ID is stored as a string with leading zeros preserved.
+	* thomas: The numeric ID for this legislator on http://thomas.gov . The ID is stored as a string with leading zeros preserved.
+	* betaname : The name of the member needed for http://beta.congress.gov together with the thomas. 
+
 	* lis: The alphanumeric ID for this legislator found in Senate roll call votes (http://www.senate.gov/pagelayout/legislative/a_three_sections_with_teasers/votes.htm).
 	* fec: A *list* of IDs for this legislator in Federal Election Commission data.
 	* govtrack: The numeric ID for this legislator on GovTrack.us (stored as an integer).
