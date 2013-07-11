@@ -107,20 +107,30 @@ def main():
     for m in media:
       social = m['social']
 
-      if 'facebook' in social and social['facebook']:
+      if ('facebook' in social and social['facebook']) and ('facebook_id' not in social):
         graph_url = "https://graph.facebook.com/%s" % social['facebook']
 
         if re.match('\d+', social['facebook']):
           social['facebook_id'] = social['facebook']
+          print "Looking up graph username for %s" % social['facebook']
           fbobj = requests.get(graph_url).json()
           if 'username' in fbobj:
+            print "\tGot graph username of %s" % fbobj['username']
             social['facebook'] = fbobj['username']
+          else:
+            print "\tUnable to get graph username"
 
         else:
           try:
-            social['facebook_id'] = requests.get(graph_url).json()['id']
+            print "Looking up graph ID for %s" % social['facebook']
+            fbobj = requests.get(graph_url).json()
+            if 'id' in fbobj:
+              print "\tGot graph ID of %s" % fbobj['id']
+              social['facebook_id'] = fbobj['id']
+            else:
+              print "\tUnable to get graph ID"
           except:
-            print "Unable to get graph ID for: %s" % social['facebook']
+            print "\tUnable to get graph ID for: %s" % social['facebook']
             social['facebook_id'] = None
 
       updated_media.append(m)
