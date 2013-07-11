@@ -20,6 +20,9 @@
 # other options:
 #  --service (required): "twitter", "youtube", or "facebook"
 #  --bioguide: limit to only one particular member
+#  --email:
+#      in conjunction with --sweep, send an email if there are any new leads, using
+#      settings in scripts/email/config.yml (if it was created and filled out).
 
 # uses a CSV at data/social_media_blacklist.csv to exclude known non-individual account names
 
@@ -46,6 +49,7 @@ def main():
     ]
   }
 
+  email_enabled = utils.flags().get('email', False)
   debug = utils.flags().get('debug', False)
   do_update = utils.flags().get('update', False)
   do_clean = utils.flags().get('clean', False)
@@ -212,13 +216,20 @@ def main():
     writer = csv.writer(open("cache/social_media/%s_candidates.csv" % service, 'w'))
     writer.writerow(["bioguide", "official_full", "website", "service", "candidate", "candidate_url"])
 
-    for bioguide in to_check:
-      candidate = candidate_for(bioguide)
-      if candidate:
-        url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-        candidate_url = "https://%s.com/%s" % (service, candidate)
-        writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url])
-        print "\tWrote: %s" % candidate
+    if len(to_check) > 0:
+      email_body = "Social media leads found:\n\n"
+      for bioguide in to_check:
+        candidate = candidate_for(bioguide)
+        if candidate:
+          url = current_bioguide[bioguide]["terms"][-1].get("url", None)
+          candidate_url = "https://%s.com/%s" % (service, candidate)
+          row = [bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url]
+          writer.writerow(row)
+          print "\tWrote: %s" % candidate
+          email_body += ("%s\n" % row)
+
+      if email_enabled:
+        utils.send_email(email_body)
 
   def verify():
     bioguide = utils.flags().get('bioguide', None)

@@ -7,8 +7,26 @@ import os, errno, sys, traceback
 import re, htmlentitydefs
 import pprint
 from datetime import datetime
+import time
 
 import lxml.html # for meta redirect parsing
+
+import yaml
+
+import smtplib
+import email.utils
+from email.mime.text import MIMEText
+import getpass
+
+
+# read in an opt-in config file for supplying email settings
+# returns None if it's not there, and this should always be handled gracefully
+path = "email/config.yml"
+if os.path.exists(path):
+  email_settings = yaml.load(open(path, 'r')).get('email', None)
+else:
+  email_settings = None
+
 
 def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
@@ -175,7 +193,6 @@ def unescape(text):
 # hooked to load mappings as OrderedDicts. Adapted from:
 # https://gist.github.com/317164
 
-import yaml
 try:
     from yaml import CSafeLoader as Loader, CDumper as Dumper
 except ImportError:
@@ -270,3 +287,47 @@ def yaml_dump(data, path):
 def pprint(data):
     yaml.dump(data, sys.stdout, default_flow_style=False, allow_unicode=True)
 
+
+# if email settings are supplied, email the text - otherwise, just print it
+def admin(body):
+  try:
+    if isinstance(body, Exception):
+      body = format_exception(body)
+
+    print body # always print it
+
+    if email_settings:
+        send_email(body)
+
+  except Exception as exception:
+    print "Exception logging message to admin, halting as to avoid loop"
+    print format_exception(exception)
+
+def format_exception(exception):
+  exc_type, exc_value, exc_traceback = sys.exc_info()
+  return "\n".join(traceback.format_exception(exc_type, exc_value, exc_traceback))
+
+# this should only be called if the settings are definitely there
+def send_email(message):
+  print "Sending email to %s..." % email_settings['to']
+
+  # adapted from http://www.doughellmann.com/PyMOTW/smtplib/
+  msg = MIMEText(message)
+  msg.set_unixfrom('author')
+  msg['To'] = email.utils.formataddr(('Recipient', email_settings['to']))
+  msg['From'] = email.utils.formataddr((email_settings['from_name'], email_settings['from']))
+  msg['Subject'] = "%s - %i" % (email_settings['subject'], int(time.time()))
+
+  server = smtplib.SMTP(email_settings['hostname'])
+  try:
+    server.ehlo()
+    if email_settings['starttls'] and server.has_extn('STARTTLS'):
+      server.starttls()
+      server.ehlo()
+
+    server.login(email_settings['user_name'], email_settings['password'])
+    server.sendmail(email_settings['from'], [email_settings['to']], msg.as_string())
+  finally:
+    server.quit()
+
+  print "Sent email to %s." % email_settings['to']
