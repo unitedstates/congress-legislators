@@ -240,7 +240,7 @@ def main():
     writer.writerow(["bioguide", "official_full", "website", "service", "candidate", "candidate_url"])
 
     if len(to_check) > 0:
-      email_body = "Social media leads found:\n\n"
+      rows_found = []
       for bioguide in to_check:
         candidate = candidate_for(bioguide)
         if candidate:
@@ -249,9 +249,12 @@ def main():
           row = [bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url]
           writer.writerow(row)
           print "\tWrote: %s" % candidate
-          email_body += ("%s\n" % row)
+          rows_found.append(row)
 
-      if email_enabled:
+      if email_enabled and len(rows_found) > 0:
+        email_body = "Social media leads found:\n\n"
+        for row in rows_found:
+          email_body += ("%s\n" % row)
         utils.send_email(email_body)
 
   def verify():
