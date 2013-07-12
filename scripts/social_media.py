@@ -150,12 +150,12 @@ def main():
     for m in media:
       social = m['social']
 
-      if ('youtube' in social) and (social['youtube'] or social['youtube_id']):
+      if ('youtube' in social) and ('youtube_id' not in social):
 
         if not social['youtube']:
           social['youtube'] = social['youtube_id']
 
-        if re.match('^channel/',social['youtube']):
+        if re.match('^channel/', social['youtube']):
           ytid = social['youtube'][8:]
         else:
           ytid = social['youtube']
@@ -166,7 +166,7 @@ def main():
         try:
           print "Resolving YT info for %s" % social['youtube']
           ytreq = requests.get(profile_url)
-          print "\tFetched with status code %i..." % ytreq.status_code
+          # print "\tFetched with status code %i..." % ytreq.status_code
 
           if ytreq.status_code == 404:
             # If the account name isn't valid, it's probably a redirect.
@@ -197,14 +197,15 @@ def main():
 
           ytobj = ytreq.json()
           social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
+          print "\tResolved youtube_id to %s" % social['youtube_id']
 
           if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
             if social['youtube'].lower() != ytobj['entry']['yt$username']['$t']:
               # YT accounts are case-insensitive.  Preserve capitalization if possible.
               social['youtube'] = ytobj['entry']['yt$username']['$t']
-              print "\tResolved YouTube username to %s" % social['youtube']
+              print "\tAlso corrected YouTube username to %s" % social['youtube']
             else:
-              print "\tYT info already up to date"
+              print "\tYT username already up to date"
           else:
             print "\tCouldn't find username in profile JSON"
             del social['youtube']
