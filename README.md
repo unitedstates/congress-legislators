@@ -190,9 +190,9 @@ Several legislators do not have an assigned YouTube username.  In these cases, o
 
 All values can be turned into URLs by preceding them with the domain name of the service in question:
 
-* `http://twitter.com/[username]`
-* `http://youtube.com/user[username]` or http://youtube.com/channel/[channelId]`
-* `http://facebook.com/[username or ID]`
+* `http://twitter.com/[twitter]`
+* `http://youtube.com/user/[youtube]` or `http://youtube.com/channel/[youtube_id]`
+* `http://facebook.com/[facebook or facebook_id]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
@@ -415,9 +415,9 @@ Here are the ones we know about:
 
 Other Scripts
 ----------------------
-The ballotpedia and maplight fields has been created using code from james michael dupont, 
+The ballotpedia and maplight fields has been created using code from james michael dupont,
 using the code in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia
-running the script compare.py and merging the dump.yml output. 
+running the script compare.py and merging the dump.yml output.
 
 Using the coed in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch maplight
-running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output. 
+running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output.
