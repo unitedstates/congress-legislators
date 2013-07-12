@@ -150,9 +150,10 @@ def main():
     for m in media:
       social = m['social']
 
-      if ('youtube' in social) and ('youtube_id' not in social):
+      if (('youtube' in social) and ('youtube_id' not in social)) or \
+        (('youtube' not in social) and ('youtube_id' in social)):
 
-        if not social['youtube']:
+        if 'youtube' not in social:
           social['youtube'] = social['youtube_id']
 
         if re.match('^channel/', social['youtube']):
@@ -197,17 +198,17 @@ def main():
 
           ytobj = ytreq.json()
           social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
-          print "\tResolved youtube_id to %s" % social['youtube_id']
+          # print "\tResolved youtube_id to %s" % social['youtube_id']
 
+          # even though we have their channel ID, do they also have a username?
           if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
-            if social['youtube'].lower() != ytobj['entry']['yt$username']['$t']:
+            if social['youtube'].lower() != ytobj['entry']['yt$username']['$t'].lower():
+              old_name = social['youtube']
               # YT accounts are case-insensitive.  Preserve capitalization if possible.
               social['youtube'] = ytobj['entry']['yt$username']['$t']
-              print "\tAlso corrected YouTube username to %s" % social['youtube']
-            else:
-              print "\tYT username already up to date"
+              print "\tAdded YouTube username of %s" % social['youtube']
           else:
-            print "\tCouldn't find username in profile JSON"
+            # print "\tYouTube says they do not have a separate username"
             del social['youtube']
         except:
           print "Unable to get YouTube Channel ID for: %s" % social['youtube']
@@ -305,6 +306,10 @@ def main():
 
     print "Saving social media..."
     save_data(media, "legislators-social-media.yaml")
+
+    # if it's a youtube update, always do the resolve
+    if service == "youtube":
+      resolveyt()
 
   def clean():
     print "Loading historical legislators..."
