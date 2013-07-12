@@ -150,7 +150,7 @@ def main():
     for m in media:
       social = m['social']
 
-      if 'youtube' in social and (social['youtube'] or social['youtube_id']):
+      if ('youtube' in social) and (social['youtube'] or social['youtube_id']):
 
         if not social['youtube']:
           social['youtube'] = social['youtube_id']
@@ -164,27 +164,35 @@ def main():
         "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
 
         try:
+          print "Resolving YT info for %s" % social['youtube']
           ytreq = requests.get(profile_url)
+          print "\tFetched with status code %i..." % ytreq.status_code
+
           if ytreq.status_code == 404:
             # If the account name isn't valid, it's probably a redirect.
             try:
               # Try to scrape the real YouTube username
+              print "\Scraping YouTube username"
               search_url = ("http://www.youtube.com/%s" % social['youtube'])
               csearch = requests.get(search_url).text.encode('ascii','ignore')
+
               u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
 
               if u:
-                print "%s maps to %s" % (social['youtube'],u.group(1))
+                print "\t%s maps to %s" % (social['youtube'],u.group(1))
                 social['youtube'] = u.group(1)
                 profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
                 "?v=2&prettyprint=true&alt=json" % social['youtube'])
+
+                print "\tFetching GData profile..."
                 ytreq = requests.get(profile_url)
+                print "\tFetched GData profile"
 
               else:
                 raise Exception("Couldn't figure out the username format for %s" % social['youtube'])
 
             except:
-              print "Search couldn't locate YouTube account for %s" % social['youtube']
+              print "\tCouldn't locate YouTube account"
               raise
 
           ytobj = ytreq.json()
@@ -194,8 +202,11 @@ def main():
             if social['youtube'].lower() != ytobj['entry']['yt$username']['$t']:
               # YT accounts are case-insensitive.  Preserve capitalization if possible.
               social['youtube'] = ytobj['entry']['yt$username']['$t']
-
+              print "\tResolved YouTube username to %s" % social['youtube']
+            else:
+              print "\tYT info already up to date"
           else:
+            print "\tCouldn't find username in profile JSON"
             del social['youtube']
         except:
           print "Unable to get YouTube Channel ID for: %s" % social['youtube']
