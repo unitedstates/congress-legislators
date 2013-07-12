@@ -35,7 +35,7 @@ import requests
 def main():
   regexes = {
     "youtube": [
-      "https?://(?:www\\.)?youtube.com/(channel/[^\\s\"/\\?#']+)",
+      "https?://(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
       "https?://(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
     ],
     "facebook": [
@@ -150,8 +150,7 @@ def main():
     for m in media:
       social = m['social']
 
-      if (('youtube' in social) and ('youtube_id' not in social)) or \
-        (('youtube' not in social) and ('youtube_id' in social)):
+      if ('youtube' in social) or ('youtube_id' in social):
 
         if 'youtube' not in social:
           social['youtube'] = social['youtube_id']
@@ -230,7 +229,8 @@ def main():
     for bioguide in possibles:
       if media_bioguide.get(bioguide, None) is None:
         to_check.append(bioguide)
-      elif media_bioguide[bioguide]["social"].get(service, None) is None:
+      elif (media_bioguide[bioguide]["social"].get(service, None) is None) and \
+        (media_bioguide[bioguide]["social"].get(service + "_id", None) is None):
         to_check.append(bioguide)
       else:
         pass
@@ -310,6 +310,7 @@ def main():
     # if it's a youtube update, always do the resolve
     if service == "youtube":
       resolveyt()
+
 
   def clean():
     print "Loading historical legislators..."
