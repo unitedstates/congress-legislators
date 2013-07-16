@@ -146,8 +146,14 @@ def main():
     api_file = open('cache/youtube_api_key','r')
     api_key = api_file.read()
 
+    bioguide = utils.flags().get('bioguide', None)
+
     updated_media = []
     for m in media:
+      if bioguide and (m['id']['bioguide'] != bioguide):
+        updated_media.append(m)
+        continue
+
       social = m['social']
 
       if ('youtube' in social) or ('youtube_id' in social):
@@ -155,10 +161,7 @@ def main():
         if 'youtube' not in social:
           social['youtube'] = social['youtube_id']
 
-        if re.match('^channel/', social['youtube']):
-          ytid = social['youtube'][8:]
-        else:
-          ytid = social['youtube']
+        ytid = social['youtube']
 
         profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
         "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
@@ -207,10 +210,11 @@ def main():
               social['youtube'] = ytobj['entry']['yt$username']['$t']
               print "\tAdded YouTube username of %s" % social['youtube']
           else:
-            # print "\tYouTube says they do not have a separate username"
+            print "\tYouTube says they do not have a separate username"
             del social['youtube']
         except:
           print "Unable to get YouTube Channel ID for: %s" % social['youtube']
+
       updated_media.append(m)
 
     print "Saving social media..."
