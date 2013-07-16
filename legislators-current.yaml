@@ -19536,7 +19536,7 @@
     office: 2108 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
-    end: '2015-01-03'
+    end: '2013-07-15'
     state: MA
     party: Democrat
     district: 5
@@ -19547,6 +19547,13 @@
     contact_form: http://markey.house.gov/index.php?option=com_email_form&Itemid=124
     office: 2108 Rayburn House Office Building
     rss_url: http://markey.house.gov/rss.xml
+  - type: sen
+    start: '2013-07-16'
+    end: '2015-01-03'
+    state: MA
+    party: Democrat
+    class: 2
+    state_rank: junior
 - id:
     bioguide: M001142
     thomas: '01671'
@@ -36254,38 +36261,6 @@
     phone: 202-225-2906
     url: http://pocan.house.gov
     rss_url: http://pocan.house.gov/rss.xml
-- id:
-    bioguide: C001099
-    thomas: '02189'
-    lis: S367
-    govtrack: 412586
-    wikipedia: Mo Cowan
-    votesmart: 144307
-    opensecrets: N00033549
-    ballotpedia: Mo Cowan
-    cspan: 69395
-    maplight: 36020
-  name:
-    first: William
-    last: Cowan
-    nickname: Mo
-    official_full: William M. Cowan
-  bio:
-    gender: M
-    birthday: '1969-04-04'
-  terms:
-  - type: sen
-    start: '2013-02-06'
-    end: '2015-01-03'
-    state: MA
-    class: 2
-    party: Democrat
-    address: 218 RUSSELL SENATE OFFICE BUILDING WASHINGTON DC 20510
-    office: 218 Russell Senate Office Building
-    phone: 202-224-2742
-    state_rank: junior
-    url: http://www.cowan.senate.gov
-    contact_form: http://www.cowan.senate.gov/contact
 - id:
     bioguide: K000385
     thomas: '02190'
