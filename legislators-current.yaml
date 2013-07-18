@@ -91,7 +91,7 @@
     contact_form: http://www.brown.senate.gov/contact/
     office: 713 Hart Senate Office Building
     state_rank: senior
-    rss_url: http://www.brown.senate.gov/rss/feeds/?type=all&amp;
+    rss_url: http://www.brown.senate.gov/rss/feeds/
 - id:
     bioguide: C000127
     thomas: '00172'
@@ -406,7 +406,7 @@
     contact_form: http://www.casey.senate.gov/contact/
     office: 393 Russell Senate Office Building
     state_rank: senior
-    rss_url: http://www.casey.senate.gov/rss/feeds/?all
+    rss_url: http://www.casey.senate.gov/rss/feeds/
 - id:
     bioguide: C001071
     thomas: '01825'
@@ -1066,7 +1066,7 @@
     contact_form: http://www.stabenow.senate.gov/?p=contact
     office: 133 Hart Senate Office Building
     state_rank: junior
-    rss_url: http://stabenow.senate.gov/rss/?p=news
+    rss_url: http://stabenow.senate.gov/rss/
 - id:
     bioguide: T000464
     thomas: '01829'
@@ -1113,7 +1113,7 @@
     contact_form: http://www.tester.senate.gov/Contact/index.cfm
     office: 706 Hart Senate Office Building
     state_rank: junior
-    rss_url: http://www.tester.senate.gov/rss/?p=hot_topic
+    rss_url: http://www.tester.senate.gov/rss/
 - id:
     bioguide: W000802
     thomas: '01823'
@@ -1160,7 +1160,7 @@
     contact_form: http://www.whitehouse.senate.gov/contact/
     office: 530 Hart Senate Office Building
     state_rank: junior
-    rss_url: http://www.whitehouse.senate.gov/rss/feeds/?type=all&amp;cachebuster=1
+    rss_url: http://www.whitehouse.senate.gov/rss/feeds/
 - id:
     bioguide: B001261
     thomas: '01881'
@@ -1538,6 +1538,7 @@
     contact_form: http://www.chambliss.senate.gov/public/index.cfm?p=Email
     office: 416 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.chambliss.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: C000567
     thomas: '00213'
@@ -1680,6 +1681,7 @@
     contact_form: http://www.collins.senate.gov/public/index.cfm/email
     office: 413 Dirksen Senate Office Building
     state_rank: senior
+    rss_url: http://www.collins.senate.gov/public/?a=rss.feed
 - id:
     bioguide: C001056
     thomas: '01692'
@@ -1701,6 +1703,10 @@
     birthday: '1952-02-02'
     gender: M
     religion: Church of Christ
+  leadership_roles:
+  - title: Minority Whip
+    chamber: senate
+    start: '2013-01-03'
   terms:
   - type: sen
     start: '2002-01-01'
@@ -1728,6 +1734,7 @@
     contact_form: http://www.cornyn.senate.gov/public/index.cfm?p=ContactForm
     office: 517 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.cornyn.senate.gov/public/index.cfm?p=RSS
 - id:
     bioguide: D000563
     thomas: '00326'
@@ -1753,6 +1760,26 @@
     birthday: '1944-11-21'
     gender: M
     religion: Roman Catholic
+  leadership_roles:
+  - title: Minority Whip
+    chamber: senate
+    start: '2005-01-04'
+    end: '2006-12-09'
+  - title: Majority Whip
+    chamber: senate
+    start: '2007-01-04'
+    end: '2009-01-06'
+  - title: Majority Whip
+    chamber: senate
+    start: '2009-01-06'
+    end: '2011-01-05'
+  - title: Majority Whip
+    chamber: senate
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Majority Whip
+    chamber: senate
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1822,6 +1849,7 @@
     contact_form: http://www.durbin.senate.gov/public/index.cfm/contact
     office: 711 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.durbin.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: E000285
     thomas: '01542'
@@ -1871,6 +1899,7 @@
     contact_form: http://www.enzi.senate.gov/public/index.cfm/contact?p=e-mail-senator-enzi
     office: 379a Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.enzi.senate.gov/public/index.cfm/rss/feed/
 - id:
     bioguide: G000359
     thomas: '00452'
@@ -1940,6 +1969,7 @@
     contact_form: http://lgraham.senate.gov/public/index.cfm?FuseAction=Contact.LandingPage
     office: 290 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed
 - id:
     bioguide: H001049
     thomas: '01902'
@@ -1975,6 +2005,7 @@
     contact_form: http://www.hagan.senate.gov/?p=contact
     office: 521 Dirksen Senate Office Building
     state_rank: junior
+    rss_url: http://www.hagan.senate.gov/rss/
 - id:
     bioguide: H000206
     thomas: '00501'
@@ -2069,6 +2100,7 @@
     contact_form: http://www.harkin.senate.gov/contact.cfm
     office: 731 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.harkin.senate.gov/rss/rss.cfm
 - id:
     bioguide: I000024
     thomas: '00583'
@@ -2186,6 +2218,7 @@
     contact_form: http://www.johanns.senate.gov/public/?p=ContactSenatorJohanns
     office: 404 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.johanns.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: J000177
     thomas: '00604'
@@ -2268,6 +2301,7 @@
     contact_form: http://www.johnson.senate.gov/public/index.cfm?p=Contact
     office: 136 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.johnson.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: L000550
     thomas: '01546'
@@ -2386,6 +2420,7 @@
     contact_form: http://www.levin.senate.gov/contact/
     office: 269 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.levin.senate.gov/rss/feeds/
 - id:
     bioguide: M000355
     thomas: '01395'
@@ -2463,6 +2498,7 @@
     contact_form: http://www.mcconnell.senate.gov/public/index.cfm?p=contact
     office: 317 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.mcconnell.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: M001176
     thomas: '01900'
@@ -2497,6 +2533,7 @@
     contact_form: http://www.merkley.senate.gov/contact/
     office: 313 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.merkley.senate.gov/rss/feeds/
 - id:
     bioguide: P000590
     thomas: '01701'
@@ -2539,6 +2576,7 @@
     contact_form: http://www.pryor.senate.gov/public/index.cfm?p=ContactMe
     office: 255 Dirksen Senate Office Building
     state_rank: senior
+    rss_url: http://www.pryor.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: R000122
     thomas: '00949'
@@ -2609,6 +2647,7 @@
     contact_form: http://www.reed.senate.gov/contact/
     office: 728 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.reed.senate.gov/rss/feeds/
 - id:
     bioguide: R000584
     thomas: '01896'
@@ -2742,6 +2781,7 @@
     contact_form: http://www.roberts.senate.gov/public/index.cfm?p=EmailPat
     office: 109 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.roberts.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: R000361
     thomas: '01424'
@@ -2806,6 +2846,7 @@
     contact_form: http://www.rockefeller.senate.gov/public/index.cfm/email-jay
     office: 531 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.rockefeller.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: S001141
     thomas: '01548'
@@ -2856,6 +2897,7 @@
     contact_form: http://www.sessions.senate.gov/public/index.cfm?FuseAction=ConstituentServices.ContactMe
     office: 326 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.sessions.senate.gov/public/index.cfm?FuseAction=RSS.Feed
 - id:
     bioguide: S001181
     thomas: '01901'
@@ -2889,6 +2931,7 @@
     contact_form: http://www.shaheen.senate.gov/contact/
     office: 520 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.shaheen.senate.gov/rss/feeds/index.cfm?type=press
 - id:
     bioguide: U000038
     thomas: '01595'
@@ -2959,6 +3002,7 @@
     contact_form: http://www.markudall.senate.gov/?p=contact
     office: 730 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.markudall.senate.gov/rss/?p=news
 - id:
     bioguide: U000039
     thomas: '01567'
@@ -3030,6 +3074,7 @@
     contact_form: http://www.tomudall.senate.gov/?p=contact
     office: 110 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.tomudall.senate.gov/rss/?p=news
 - id:
     bioguide: W000805
     thomas: '01897'
@@ -3065,6 +3110,7 @@
     contact_form: http://www.warner.senate.gov/public/index.cfm?p=Contact
     office: 475 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://feeds.feedburner.com/MarkRWarner
 - id:
     bioguide: G000555
     thomas: '01866'
@@ -3164,6 +3210,7 @@
     contact_form: http://www.franken.senate.gov/?p=contact
     office: 309 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.franken.senate.gov/rss/
 - id:
     bioguide: C001088
     thomas: '01984'
@@ -3198,6 +3245,7 @@
     contact_form: http://www.coons.senate.gov/contact/
     office: 127a Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.coons.senate.gov/rss/feeds/?type=press
 - id:
     bioguide: M001183
     thomas: '01983'
@@ -3608,6 +3656,7 @@
     contact_form: http://www.ayotte.senate.gov/?p=contact
     office: 144 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.ayotte.senate.gov/rss/
 - id:
     bioguide: B001256
     thomas: '01858'
@@ -4907,6 +4956,7 @@
     contact_form: http://www.blumenthal.senate.gov/contact/
     office: 724 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.blumenthal.senate.gov/rss/feeds/
 - id:
     bioguide: B000575
     thomas: '01464'
@@ -4989,6 +5039,7 @@
     contact_form: http://www.blunt.senate.gov/public/index.cfm/contact-form?p=contact-roy
     office: 260 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.blunt.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: B000589
     thomas: '00102'
@@ -5253,6 +5304,7 @@
     contact_form: http://www.boozman.senate.gov/public/index.cfm/e-mail-me
     office: 320 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.boozman.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: B001245
     thomas: '01723'
@@ -6200,6 +6252,7 @@
     contact_form: http://www.burr.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 217 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.burr.senate.gov/public/index.cfm?FuseAction=RSS.Feed
 - id:
     bioguide: B001251
     thomas: '01761'
@@ -7926,6 +7979,7 @@
     contact_form: http://www.coats.senate.gov/contact/
     office: 493 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.coats.senate.gov/rss/feeds/?type=press
 - id:
     bioguide: C000556
     thomas: '00211'
@@ -11800,6 +11854,7 @@
     contact_form: http://www.flake.senate.gov/contact.cfm
     office: 368 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.flake.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: F000459
     thomas: '02061'
@@ -13242,6 +13297,7 @@
     contact_form: http://www.grassley.senate.gov/contact/contact.cfm
     office: 135 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.grassley.senate.gov/customcf/rss_feed.cfm
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -14986,6 +15042,7 @@
     contact_form: http://www.hirono.senate.gov/contact.cfm
     office: 330 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.hirono.senate.gov/rss/feeds/
 - id:
     bioguide: H001061
     thomas: '02079'
@@ -15019,6 +15076,7 @@
     contact_form: http://www.hoeven.senate.gov/public/index.cfm/email-the-senator
     office: 338 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.hoeven.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: H001032
     thomas: '01580'
@@ -15211,6 +15269,22 @@
     birthday: '1939-06-14'
     gender: M
     religion: Baptist
+  leadership_roles:
+  - title: Minority Whip
+    chamber: house
+    start: '2003-01-07'
+    end: '2004-12-09'
+  - title: Minority Whip
+    chamber: house
+    start: '2005-01-04'
+    end: '2006-12-09'
+  - title: Minority Whip
+    chamber: house
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Minority Whip
+    chamber: house
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -15625,6 +15699,7 @@
     contact_form: http://www.isakson.senate.gov/public/index.cfm/email-me
     office: 131 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: I000057
     thomas: '01663'
@@ -16185,6 +16260,7 @@
     contact_form: http://www.ronjohnson.senate.gov/public/index.cfm/contact
     office: 328 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.ronjohnson.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: J000174
     thomas: '00603'
@@ -17182,6 +17258,7 @@
     contact_form: http://www.kirk.senate.gov/?p=contact
     office: 524 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.kirk.senate.gov/rss/
 - id:
     bioguide: K000363
     thomas: '01733'
@@ -17944,6 +18021,7 @@
     contact_form: http://www.leahy.senate.gov/contact/
     office: 437 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.leahy.senate.gov/rss/feeds/press/
 - id:
     bioguide: L000551
     thomas: '01501'
@@ -18069,6 +18147,7 @@
     contact_form: http://www.lee.senate.gov/public/index.cfm/contact
     office: 316 Hart Senate Office Building
     state_rank: junior
+    rss_url: http://www.lee.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: L000263
     thomas: '00683'
@@ -19888,6 +19967,14 @@
   bio:
     birthday: '1965-01-26'
     gender: M
+  leadership_roles:
+  - title: Majority Whip
+    chamber: house
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Majority Whip
+    chamber: house
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '2007-01-04'
@@ -21192,6 +21279,7 @@
     contact_form: http://www.mikulski.senate.gov/contact/
     office: 503 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.mikulski.senate.gov/getallrss.cfm?xml=allfeeds&amp;issuecheckbox=all
 - id:
     bioguide: M001150
     thomas: '01731'
@@ -21859,6 +21947,7 @@
     contact_form: http://moran.senate.gov/public/index.cfm/e-mail-jerry
     office: 361a Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.moran.senate.gov/public/index.cfm/rss/feed/
 - id:
     bioguide: M001182
     thomas: '02059'
@@ -21954,6 +22043,7 @@
     contact_form: http://www.murkowski.senate.gov/public/index.cfm?p=Contact
     office: 709 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.murkowski.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: M001169
     thomas: '01837'
@@ -22147,6 +22237,7 @@
     contact_form: http://www.murray.senate.gov/public/index.cfm/contactme
     office: 154 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.murray.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: N000002
     thomas: '00850'
@@ -23370,6 +23461,7 @@
     contact_form: http://www.paul.senate.gov/?p=contact
     office: 124 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.paul.senate.gov/rss/
 - id:
     bioguide: P000594
     thomas: '01930'
@@ -24436,6 +24528,7 @@
     contact_form: http://www.portman.senate.gov/public/index.cfm/contact?p=contact-form
     office: 448 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.portman.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: P000599
     thomas: '01915'
@@ -26520,6 +26613,7 @@
     contact_form: http://www.rubio.senate.gov/public/index.cfm/contact
     office: 284 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.rubio.senate.gov/public/?a=rss.feed
 - id:
     bioguide: R000594
     thomas: '02039'
@@ -28418,6 +28512,7 @@
     contact_form: http://www.shelby.senate.gov/public/index.cfm/emailsenatorshelby
     office: 304 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.shelby.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: S000344
     thomas: '01526'
@@ -28602,6 +28697,7 @@
     fax: 202-225-5880
     contact_form: http://www.house.gov/shimkus/emailme.shtml
     office: 2452 Rayburn House Office Building
+    rss_url: http://shimkus.house.gov/rss.xml
 - id:
     bioguide: S001154
     thomas: '01681'
@@ -30129,6 +30225,7 @@
     contact_form: http://www.thune.senate.gov/public/index.cfm/contact
     office: 511 Dirksen Senate Office Building
     state_rank: junior
+    rss_url: http://www.thune.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: T000462
     thomas: '01664'
@@ -30451,6 +30548,7 @@
     contact_form: http://www.toomey.senate.gov/?p=contact
     office: 248 Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.toomey.senate.gov/rss/
 - id:
     bioguide: T000465
     thomas: '01884'
@@ -32508,6 +32606,7 @@
     contact_form: http://www.wyden.senate.gov/contact/
     office: 221 Dirksen Senate Office Building
     state_rank: senior
+    rss_url: http://www.wyden.senate.gov/rss/feeds/
 - id:
     bioguide: Y000062
     thomas: '01853'
@@ -34845,6 +34944,7 @@
     phone: 202-224-4543
     state_rank: senior
     contact_form: http://www.warren.senate.gov/?p=email_senator
+    rss_url: http://www.warren.senate.gov/rss/
 - id:
     govtrack: 412543
     bioguide: K000379
@@ -34943,6 +35043,7 @@
     phone: 202-224-5344
     state_rank: junior
     contact_form: http://www.king.senate.gov/contact
+    rss_url: http://www.king.senate.gov/rss/feeds/
 - id:
     govtrack: 412546
     bioguide: K000380
