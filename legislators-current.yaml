@@ -7,7 +7,6 @@
     votesmart: 27018
     fec:
     - H2OH13033
-    - S6DC00014
     - S6OH00163
     cspan: 26171
     wikipedia: Sherrod Brown
@@ -1729,6 +1728,10 @@
     birthday: '1952-02-02'
     gender: M
     religion: Church of Christ
+  leadership_roles:
+  - title: Minority Whip
+    chamber: senate
+    start: '2013-01-03'
   terms:
   - type: sen
     start: '2002-01-01'
@@ -1783,6 +1786,26 @@
     birthday: '1944-11-21'
     gender: M
     religion: Roman Catholic
+  leadership_roles:
+  - title: Minority Whip
+    chamber: senate
+    start: '2005-01-04'
+    end: '2006-12-09'
+  - title: Majority Whip
+    chamber: senate
+    start: '2007-01-04'
+    end: '2009-01-06'
+  - title: Majority Whip
+    chamber: senate
+    start: '2009-01-06'
+    end: '2011-01-05'
+  - title: Majority Whip
+    chamber: senate
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Majority Whip
+    chamber: senate
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -6954,7 +6977,6 @@
     votesmart: 18883
     fec:
     - H8MA08071
-    - H0MA08029
     - S0MA00117
     cspan: 56760
     wikipedia: Mike Capuano
@@ -14292,7 +14314,6 @@
     votesmart: 17745
     fec:
     - H2HI02110
-    - H0HI01165
     cspan: 61258
     wikipedia: Colleen Hanabusa
     house_history: 15596
@@ -15458,6 +15479,22 @@
     birthday: '1939-06-14'
     gender: M
     religion: Baptist
+  leadership_roles:
+  - title: Minority Whip
+    chamber: house
+    start: '2003-01-07'
+    end: '2004-12-09'
+  - title: Minority Whip
+    chamber: house
+    start: '2005-01-04'
+    end: '2006-12-09'
+  - title: Minority Whip
+    chamber: house
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Minority Whip
+    chamber: house
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -20201,6 +20238,14 @@
   bio:
     birthday: '1965-01-26'
     gender: M
+  leadership_roles:
+  - title: Majority Whip
+    chamber: house
+    start: '2011-01-05'
+    end: '2013-01-03'
+  - title: Majority Whip
+    chamber: house
+    start: '2013-01-03'
   terms:
   - type: rep
     start: '2007-01-04'
