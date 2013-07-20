@@ -3423,7 +3423,7 @@
     address: 2264 Rayburn HOB; Washington DC 20515-0104
     phone: 202-225-4876
     fax: 202-225-5587
-    contact_form: http://aderholt.house.gov/?sectionid=195&sectiontree=195
+    contact_form: http://aderholt.house.gov/?sectionid=195&amp;sectiontree=195
     office: 2264 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -3435,7 +3435,7 @@
     address: 2369 Rayburn HOB; Washington DC 20515-0104
     phone: 202-225-4876
     fax: 202-225-5587
-    contact_form: http://aderholt.house.gov/?sectionid=195&sectiontree=195
+    contact_form: http://aderholt.house.gov/?sectionid=195&amp;sectiontree=195
     office: 2369 Rayburn House Office Building
     rss_url: http://aderholt.house.gov/common/rss/index.cfm?rss=20
 - id:
@@ -3884,7 +3884,7 @@
     fax: 202-225-2082
     contact_form: http://www.house.gov/writerep/
     office: 2246 Rayburn House Office Building
-    rss_url: http://bachus.house.gov/index.php?option=com_bca-rss-syndicator&feed_id=1
+    rss_url: http://bachus.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: B001230
     thomas: '01558'
@@ -4019,6 +4019,7 @@
     fax: 202-225-0764
     office: 115 Cannon House Office Building
     rss_url: http://barletta.house.gov/common/rss/index.cfm?rss=25
+    contact_form: https://barletta.house.gov/index.cfm?sectionid=58&amp;sectiontree=2,58
 - id:
     bioguide: B001252
     thomas: '01780'
@@ -4506,7 +4507,7 @@
     address: 407 Cannon HOB; Washington DC 20515-0909
     phone: 202-225-5755
     fax: 202-225-4085
-    contact_form: http://bilirakis.house.gov/index.php?option=com_content&task=view&id=212&Itemid=44
+    contact_form: http://bilirakis.house.gov/index.php?option=com_content&amp;task=view&amp;id=212&amp;Itemid=44
     office: 407 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
@@ -4518,7 +4519,7 @@
     address: 2313 Rayburn HOB; Washington DC 20515-0909
     phone: 202-225-5755
     fax: 202-225-4085
-    contact_form: http://bilirakis.house.gov/index.php?option=com_content&task=view&id=212&Itemid=44
+    contact_form: http://bilirakis.house.gov/index.php?option=com_content&amp;task=view&amp;id=212&amp;Itemid=44
     office: 2313 Rayburn House Office Building
     rss_url: http://bilirakis.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
@@ -4764,7 +4765,7 @@
     address: 306 Cannon HOB; Washington DC 20515-3201
     phone: 202-225-3826
     fax: 202-225-3143
-    contact_form: http://timbishop.house.gov/?sectionid=96&sectiontree=7,96
+    contact_form: http://timbishop.house.gov/?sectionid=96&amp;sectiontree=7,96
     office: 306 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
@@ -4776,7 +4777,7 @@
     address: 306 Cannon HOB; Washington DC 20515-3201
     phone: 202-225-3826
     fax: 202-225-3143
-    contact_form: http://timbishop.house.gov/?sectionid=96&sectiontree=7,96
+    contact_form: http://timbishop.house.gov/?sectionid=96&amp;sectiontree=7,96
     office: 306 Cannon House Office Building
     rss_url: http://timbishop.house.gov/rss/latest-news.xml
 - id:
@@ -4985,7 +4986,7 @@
     address: 1502 Longworth HOB; Washington DC 20515-3703
     phone: 202-225-4811
     fax: 202-225-8941
-    contact_form: http://blumenauer.house.gov/index.php?option=com_email_form&Itemid=206
+    contact_form: http://blumenauer.house.gov/index.php?option=com_email_form&amp;Itemid=206
     office: 1502 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -4999,7 +5000,7 @@
     fax: 202-225-8941
     contact_form: https://forms.house.gov/blumenauer/webforms/issue_subscribe.html
     office: 1111 Longworth House Office Building
-    rss_url: http://blumenauer.house.gov/index.php?option=com_bca-rss-syndicator&feed_id=1
+    rss_url: http://blumenauer.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: B001277
     thomas: '02076'
@@ -6714,7 +6715,7 @@
     fax: 202-225-9177
     contact_form: http://campbell.house.gov/Contact/ContactForm.htm
     office: 2331 Rayburn House Office Building
-    rss_url: http://www.campbell.house.gov/index.php?option=com_content&view=category&id=41&Itemid=300032&format=feed&type=rss
+    rss_url: http://www.campbell.house.gov/index.php?option=com_content&amp;view=category&amp;id=41&amp;Itemid=300032&amp;format=feed&amp;type=rss
 - id:
     bioguide: C001046
     thomas: '01674'
@@ -8347,7 +8348,7 @@
     fax: 202-226-4623
     contact_form: https://forms.house.gov/coffman/contact-form.shtml
     office: 2443 Rayburn House Office Building
-    rss_url: http://coffman.house.gov/index.php?option=com_content&view=category&layout=blog&id=43&Itemid=8&format=feed&type=rss
+    rss_url: http://coffman.house.gov/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=43&amp;Itemid=8&amp;format=feed&amp;type=rss
 - id:
     bioguide: C001068
     thomas: '01878'
@@ -8393,7 +8394,7 @@
     address: 1005 Longworth HOB; Washington DC 20515-4209
     phone: 202-225-3265
     fax: 202-225-5663
-    contact_form: http://cohen.house.gov/index.php?option=com_email_form&Itemid=113
+    contact_form: http://cohen.house.gov/index.php?option=com_email_form&amp;Itemid=113
     office: 1005 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -8405,7 +8406,7 @@
     address: 2404 Rayburn HOB; Washington DC 20515-4209
     phone: 202-225-3265
     fax: 202-225-5663
-    contact_form: http://cohen.house.gov/index.php?option=com_email_form&Itemid=113
+    contact_form: http://cohen.house.gov/index.php?option=com_email_form&amp;Itemid=113
     office: 2404 Rayburn House Office Building
     rss_url: http://cohen.house.gov/rss.xml
 - id:
@@ -8899,7 +8900,7 @@
     address: 1536 Longworth HOB; Washington DC 20515-4205
     phone: 202-225-4311
     fax: 202-226-1035
-    contact_form: http://www.cooper.house.gov/index.php?option=com_content&task=view&id=117&Itemid=61
+    contact_form: http://cooper.house.gov/index.php?option=com_content&amp;task=view&amp;id=117&amp;Itemid=61
     office: 1536 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -8907,13 +8908,13 @@
     state: TN
     party: Democrat
     district: 5
-    url: http://www.cooper.house.gov
+    url: http://cooper.house.gov
     address: 1536 Longworth HOB; Washington DC 20515-4205
     phone: 202-225-4311
     fax: 202-226-1035
-    contact_form: http://www.cooper.house.gov/index.php?option=com_content&task=view&id=117&Itemid=61
+    contact_form: http://cooper.house.gov/index.php?option=com_content&amp;task=view&amp;id=117&amp;Itemid=61
     office: 1536 Longworth House Office Building
-    rss_url: http://www.cooper.house.gov/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=38&amp;format=feed&amp;type=rss
+    rss_url: http://cooper.house.gov/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=38&amp;format=feed&amp;type=rss
 - id:
     bioguide: C001059
     thomas: '01774'
@@ -9974,7 +9975,7 @@
     address: 2368 Rayburn HOB; Washington DC 20515-0601
     phone: 202-225-4431
     fax: 202-225-5657
-    contact_form: http://degette.house.gov/index.php?option=com_content&view=article&id=1045&Itemid=202
+    contact_form: http://degette.house.gov/index.php?option=com_content&amp;view=article&amp;id=1045&amp;Itemid=202
     office: 2368 Rayburn House Office Building
 - id:
     bioguide: D000216
@@ -10082,7 +10083,7 @@
     state: CT
     party: Democrat
     district: 3
-    url: http://www.house.gov/delauro
+    url: http://delauro.house.gov
     address: 2413 Rayburn HOB; Washington DC 20515-0703
     phone: 202-225-3661
     fax: 202-225-4890
@@ -11192,7 +11193,7 @@
     address: 1027 Longworth HOB; Washington DC 20515-2305
     phone: 202-225-4755
     fax: 202-225-4886
-    contact_form: http://ellison.house.gov/index.php?option=com_content&task=view&id=87
+    contact_form: http://ellison.house.gov/index.php?option=com_content&amp;task=view&amp;id=87
     office: 1027 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -11204,9 +11205,9 @@
     address: 2244 Rayburn HOB; Washington DC 20515-2305
     phone: 202-225-4755
     fax: 202-225-4886
-    contact_form: http://ellison.house.gov/index.php?option=com_content&task=view&id=87
+    contact_form: http://ellison.house.gov/index.php?option=com_content&amp;task=view&amp;id=87
     office: 2244 Rayburn House Office Building
-    rss_url: http://ellison.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw
+    rss_url: http://ellison.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=2&amp;format=raw
 - id:
     bioguide: E000291
     thomas: '02036'
@@ -11477,7 +11478,7 @@
     fax: 202-225-8890
     contact_form: https://forms.house.gov/eshoo/webforms/issue_subscribe.htm
     office: 241 Cannon House Office Building
-    rss_url: http://eshoo.house.gov/index.php?option=com_bca-rss-syndicator&feed_id=2
+    rss_url: http://eshoo.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=2
 - id:
     bioguide: F000010
     thomas: '00367'
@@ -11729,7 +11730,7 @@
     address: 1126 Longworth HOB; Washington DC 20515-0517
     phone: 202-225-2861
     fax: 202-225-6791
-    contact_form: http://www.farr.house.gov/index.php?option=com_content&task=view&id=202
+    contact_form: http://www.farr.house.gov/index.php?option=com_content&amp;task=view&amp;id=202
     office: 1126 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -11741,7 +11742,7 @@
     address: 1126 Longworth HOB; Washington DC 20515-0517
     phone: 202-225-2861
     fax: 202-225-6791
-    contact_form: http://www.farr.house.gov/index.php?option=com_content&task=view&id=202
+    contact_form: http://www.farr.house.gov/index.php?option=com_content&amp;task=view&amp;id=202
     office: 1126 Longworth House Office Building
     rss_url: http://www.farr.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
 - id:
@@ -11829,7 +11830,7 @@
     address: 2301 Rayburn HOB; Washington DC 20515-3802
     phone: 202-225-4001
     fax: 202-225-5392
-    contact_form: http://fattah.house.gov/?sectionid=8&sectiontree=8
+    contact_form: http://fattah.house.gov/?sectionid=8&amp;sectiontree=8
     office: 2301 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -11841,7 +11842,7 @@
     address: 2301 Rayburn HOB; Washington DC 20515-3802
     phone: 202-225-4001
     fax: 202-225-5392
-    contact_form: http://fattah.house.gov/?sectionid=8&sectiontree=8
+    contact_form: http://fattah.house.gov/?sectionid=8&amp;sectiontree=8
     office: 2301 Rayburn House Office Building
     rss_url: http://fattah.house.gov/common/rss/index.cfm?rss=34
 - id:
@@ -12321,9 +12322,9 @@
     address: 1514 Longworth HOB; Washington DC 20515-2701
     phone: 202-225-4806
     fax: 202-225-5686
-    contact_form: http://fortenberry.house.gov/contactform_zipcheck.shtml
+    contact_form: http://fortenberry.house.gov/index.php?option=com_content&amp;view=article&amp;id=3374&amp;Itemid=72
     office: 1514 Longworth House Office Building
-    rss_url: http://fortenberry.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://fortenberry.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: F000450
     thomas: '01791'
@@ -13314,6 +13315,7 @@
     fax: 202-226-1177
     office: 1404 Longworth House Office Building
     rss_url: http://gowdy.house.gov/news/rss.aspx
+    contact_form: http://gowdy.house.gov/contact/
 - id:
     bioguide: G000377
     thomas: '01487'
@@ -13392,7 +13394,7 @@
     address: 320 Cannon HOB; Washington DC 20515-4312
     phone: 202-225-5071
     fax: 202-225-5683
-    contact_form: http://kaygranger.house.gov/?sectionid=46&sectiontree=46
+    contact_form: http://kaygranger.house.gov/?sectionid=46&amp;sectiontree=46
     office: 320 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
@@ -13404,7 +13406,7 @@
     address: 1026 Longworth HOB; Washington DC 20515-4312
     phone: 202-225-5071
     fax: 202-225-5683
-    contact_form: http://kaygranger.house.gov/?sectionid=46&sectiontree=46
+    contact_form: http://kaygranger.house.gov/?sectionid=46&amp;sectiontree=46
     office: 1026 Longworth House Office Building
     rss_url: http://kaygranger.house.gov/rss.xml
 - id:
@@ -13963,7 +13965,7 @@
     address: 1511 Longworth HOB; Washington DC 20515-0307
     phone: 202-225-2435
     fax: 202-225-1541
-    contact_form: http://grijalva.house.gov/?sectionid=49&sectiontree=2,49
+    contact_form: http://grijalva.house.gov/?sectionid=49&amp;sectiontree=2,49
     office: 1511 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -13975,7 +13977,7 @@
     address: 1511 Longworth HOB; Washington DC 20515-0307
     phone: 202-225-2435
     fax: 202-225-1541
-    contact_form: http://grijalva.house.gov/?sectionid=49&sectiontree=2,49
+    contact_form: http://grijalva.house.gov/?sectionid=49&amp;sectiontree=2,49
     office: 1511 Longworth House Office Building
     rss_url: http://grijalva.house.gov/common/rss/?rss=13
 - id:
@@ -14657,7 +14659,7 @@
     address: 2353 Rayburn HOB; Washington DC 20515-0923
     phone: 202-225-1313
     fax: 202-225-1171
-    contact_form: http://www.alceehastings.house.gov/index.php?option=com_content&task=view&id=104&Itemid=
+    contact_form: http://www.alceehastings.house.gov/index.php?option=com_content&amp;task=view&amp;id=104&amp;Itemid=
     office: 2353 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -15687,7 +15689,7 @@
     phone: 202-225-2715
     fax: 202- 225-5124
     office: 129 Cannon House Office Building
-    rss_url: http://huelskamp.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://huelskamp.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
     contact_form: https://forms.house.gov/huelskamp/webforms/zipauthen_contact.shtml
 - id:
     bioguide: H001058
@@ -16789,7 +16791,7 @@
     address: 1524 Longworth HOB; Washington DC 20515-3504
     phone: 202-225-2676
     fax: 202-226-0577
-    contact_form: http://jordan.house.gov/contactform_zipcheck.shtml
+    contact_form: http://jordan.house.gov/Contact
     office: 1524 Longworth House Office Building
     rss_url: http://jordan.house.gov/news/rss.aspx
 - id:
@@ -16913,7 +16915,7 @@
     address: 2186 Rayburn HOB; Washington DC 20515-3509
     phone: 202-225-4146
     fax: 202-225-7711
-    contact_form: http://kaptur.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw
+    contact_form: http://kaptur.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=2&amp;format=raw
     office: 2186 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -16925,7 +16927,7 @@
     address: 2186 Rayburn HOB; Washington DC 20515-3509
     phone: 202-225-4146
     fax: 202-225-7711
-    contact_form: http://www.kaptur.house.gov/index.php?option=com_content&task=view&id=152
+    contact_form: http://www.kaptur.house.gov/index.php?option=com_content&amp;task=view&amp;id=152
     office: 2186 Rayburn House Office Building
     rss_url: http://kaptur.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=2&amp;format=raw
 - id:
@@ -16972,7 +16974,7 @@
     phone: 202-225-3111
     fax: 202- 225-5658
     office: 315 Cannon House Office Building
-    rss_url: http://keating.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://keating.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
     contact_form: https://forms.house.gov/keating/webforms/contact.shtml
 - id:
     bioguide: K000376
@@ -17297,7 +17299,7 @@
     address: 2210 Rayburn HOB; Washington DC 20515-1505
     phone: 202-225-4426
     fax: 202-225-3193
-    contact_form: http://www.house.gov/steveking/email.shtm
+    contact_form: https://forms.house.gov/king/webforms/issue_subscribe.html
     office: 2210 Rayburn House Office Building
 - id:
     bioguide: K000220
@@ -17591,7 +17593,7 @@
     address: 2439 Rayburn HOB; Washington DC 20515-2302
     phone: 202-225-2271
     fax: 202-225-2595
-    contact_form: http://kline.house.gov/index.cfm?FuseAction=ContactInformation.ContactForm&To=mn02hwyr@housemail.house.gov&CFID=22307054&CFTOKEN=28173710
+    contact_form: http://kline.house.gov/index.cfm?FuseAction=ContactInformation.ContactForm&amp;To=mn02hwyr@housemail.house.gov&amp;CFID=22307054&amp;CFTOKEN=28173710
     office: 2439 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -17970,11 +17972,11 @@
     state: WA
     party: Democrat
     district: 2
-    url: http://www.house.gov/larsen
+    url: http://larsen.house.gov
     address: 2113 Rayburn HOB; Washington DC 20515-4702
     phone: 202-225-2605
     fax: 202-225-4420
-    contact_form: http://www.house.gov/contact-rick
+    contact_form: http://larsen.house.gov/contact-rick
     office: 2113 Rayburn House Office Building
     rss_url: http://larsen.house.gov/rss.xml
 - id:
@@ -18383,7 +18385,7 @@
     address: 2267 Rayburn HOB; Washington DC 20515-0509
     phone: 202-225-2661
     fax: 202-225-9817
-    contact_form: http://lee.house.gov/?sectionid=44&sectiontree=18,44
+    contact_form: http://lee.house.gov/?sectionid=44&amp;sectiontree=18,44
     office: 2267 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -18395,7 +18397,7 @@
     address: 2267 Rayburn HOB; Washington DC 20515-0509
     phone: 202-225-2661
     fax: 202-225-9817
-    contact_form: http://lee.house.gov/?sectionid=44&sectiontree=18,44
+    contact_form: http://lee.house.gov/?sectionid=44&amp;sectiontree=18,44
     office: 2267 Rayburn House Office Building
     rss_url: http://lee.house.gov/rss.xml
 - id:
@@ -19177,7 +19179,7 @@
     address: 2365 Rayburn HOB; Washington DC 20515-3218
     phone: 202-225-6506
     fax: 202-225-0546
-    contact_form: http://lowey.house.gov/?sectionid=56&sectiontree=56
+    contact_form: http://lowey.house.gov/?sectionid=56&amp;sectiontree=56
     office: 2365 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -19189,7 +19191,7 @@
     address: 2365 Rayburn HOB; Washington DC 20515-3218
     phone: 202-225-6506
     fax: 202-225-0546
-    contact_form: http://lowey.house.gov/?sectionid=56&sectiontree=56
+    contact_form: http://lowey.house.gov/?sectionid=56&amp;sectiontree=56
     office: 2365 Rayburn House Office Building
     rss_url: http://lowey.house.gov/common/rss/?rss=18
 - id:
@@ -19635,7 +19637,7 @@
     address: 2332 Rayburn HOB; Washington DC 20515-3214
     phone: 202-225-7944
     fax: 202-225-4709
-    contact_form: http://maloney.house.gov/index.php?option=com_email_form&Itemid=73
+    contact_form: http://maloney.house.gov/index.php?option=com_email_form&amp;Itemid=73
     office: 2332 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -19647,7 +19649,7 @@
     address: 2308 Rayburn HOB; Washington DC 20515-3214
     phone: 202-225-7944
     fax: 202-225-4709
-    contact_form: http://maloney.house.gov/index.php?option=com_email_form&Itemid=73
+    contact_form: http://maloney.house.gov/index.php?option=com_email_form&amp;Itemid=73
     office: 2308 Rayburn House Office Building
     rss_url: http://maloney.house.gov/rss.xml
 - id:
@@ -19913,7 +19915,7 @@
     address: 2108 Rayburn HOB; Washington DC 20515-2107
     phone: 202-225-2836
     fax: 202-226-0092
-    contact_form: http://markey.house.gov/index.php?option=com_email_form&Itemid=124
+    contact_form: http://markey.house.gov/index.php?option=com_email_form&amp;Itemid=124
     office: 2108 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -19925,7 +19927,7 @@
     address: 2108 Rayburn HOB; Washington DC 20515-2107
     phone: 202-225-2836
     fax: 202-226-0092
-    contact_form: http://markey.house.gov/index.php?option=com_email_form&Itemid=124
+    contact_form: http://markey.house.gov/index.php?option=com_email_form&amp;Itemid=124
     office: 2108 Rayburn House Office Building
     rss_url: http://markey.house.gov/rss.xml
   - type: sen
@@ -20516,7 +20518,7 @@
     address: 1714 Longworth HOB; Washington DC 20515-2304
     phone: 202-225-6631
     fax: 202-225-1968
-    contact_form: http://www.mccollum.house.gov/index.asp?Type=NONE&SEC={AC61FD79-AD5F-440D-A7F0-555B12349E5B}
+    contact_form: http://www.mccollum.house.gov/index.asp?Type=NONE&amp;SEC={AC61FD79-AD5F-440D-A7F0-555B12349E5B}
     office: 1714 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -20643,13 +20645,13 @@
     state: WA
     party: Democrat
     district: 7
-    url: http://www.house.gov/mcdermott
+    url: http://mcdermott.house.gov
     address: 1035 Longworth HOB; Washington DC 20515-4707
     phone: 202-225-3106
     fax: 202-225-6197
-    contact_form: http://www.house.gov/mcdermott/contact.shtml
+    contact_form: http://mcdermott.house.gov/contact
     office: 1035 Longworth House Office Building
-    rss_url: http://mcdermott.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw
+    rss_url: http://mcdermott.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=2&amp;format=raw
 - id:
     bioguide: M000312
     thomas: '01504'
@@ -20906,7 +20908,7 @@
     fax: 202-225-5773
     contact_form: http://mcintyreforms.house.gov/contact/
     office: 2428 Rayburn House Office Building
-    rss_url: http://mcintyre.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://mcintyre.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: M000508
     thomas: '00778'
@@ -22895,9 +22897,9 @@
     address: 2208 Rayburn HOB; Washington DC 20515-2102
     phone: 202-225-5601
     fax: 202-225-8112
-    contact_form: http://www.house.gov/neal/write_neal.html
+    contact_form: http://neal.house.gov/neal/write_neal.html
     office: 2208 Rayburn House Office Building
-    rss_url: http://neal.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://neal.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: N000182
     thomas: '01758'
@@ -22959,7 +22961,7 @@
     address: 1424 Longworth HOB; Washington DC 20515-4319
     phone: 202-225-4005
     fax: 202-225-9615
-    contact_form: http://www.randy.house.gov/?sectionid=65&sectiontree=8,65
+    contact_form: http://www.randy.house.gov/?sectionid=65&amp;sectiontree=8,65
     office: 1424 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -22971,7 +22973,7 @@
     address: 1424 Longworth HOB; Washington DC 20515-4319
     phone: 202-225-4005
     fax: 202-225-9615
-    contact_form: http://www.randy.house.gov/?sectionid=65&sectiontree=8,65
+    contact_form: http://www.randy.house.gov/?sectionid=65&amp;sectiontree=8,65
     office: 1424 Longworth House Office Building
     rss_url: http://randy.house.gov/rss.xml
 - id:
@@ -23132,7 +23134,7 @@
     fax: 202-225-3002
     contact_form: https://forms.house.gov/norton/webforms/issue_subscribe.htm
     office: 2136 Rayburn House Office Building
-    rss_url: http://norton.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://norton.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: N000185
     thomas: '02001'
@@ -24557,7 +24559,7 @@
     fax: 202-225-5590
     contact_form: https://forms.house.gov/pingree/webforms/contact-form.shtml
     office: 1318 Longworth House Office Building
-    rss_url: http://pingree.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://pingree.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: P000373
     thomas: '01514'
@@ -25078,7 +25080,7 @@
     fax: 202-225-2014
     contact_form: https://forms.house.gov/price/webforms/contact_form.shtml
     office: 2162 Rayburn House Office Building
-    rss_url: http://price.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://price.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: P000591
     thomas: '01778'
@@ -25341,7 +25343,7 @@
     address: 2307 Rayburn HOB; Washington DC 20515-4803
     phone: 202-225-3452
     fax: 202-225-9061
-    contact_form: http://www.rahall.house.gov/?sectionid=9&sectiontree=9
+    contact_form: http://www.rahall.house.gov/?sectionid=9&amp;sectiontree=9
     office: 2307 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -25353,7 +25355,7 @@
     address: 2307 Rayburn HOB; Washington DC 20515-4803
     phone: 202-225-3452
     fax: 202-225-9061
-    contact_form: http://www.rahall.house.gov/?sectionid=9&sectiontree=9
+    contact_form: http://www.rahall.house.gov/?sectionid=9&amp;sectiontree=9
     office: 2307 Rayburn House Office Building
     rss_url: http://rahall.house.gov/rss.xml
 - id:
@@ -26546,7 +26548,7 @@
     fax: 202-225-3132
     contact_form: https://forms.house.gov/rooney/contact-form.shtml
     office: 221 Cannon House Office Building
-    rss_url: http://rooney.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://rooney.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: R000435
     thomas: '00985'
@@ -26728,7 +26730,7 @@
     fax: 202-225-1166
     contact_form: http://www.house.gov/writerep
     office: 227 Cannon House Office Building
-    rss_url: http://roskam.house.gov/index.php?option=com_content&view=section&layout=blog&id=13&Itemid=100052&format=feed&type=rss
+    rss_url: http://roskam.house.gov/index.php?option=com_content&amp;view=section&amp;layout=blog&amp;id=13&amp;Itemid=100052&amp;format=feed&amp;type=rss
 - id:
     bioguide: R000593
     thomas: '02003'
@@ -27404,7 +27406,7 @@
     address: 1421 Longworth HOB; Washington DC 20515-3517
     phone: 202-225-5261
     fax: 202-225-3719
-    contact_form: http://timryan.house.gov/index.php?option=com_content&task=view&id=129&Itemid=42
+    contact_form: http://timryan.house.gov/index.php?option=com_content&amp;task=view&amp;id=129&amp;Itemid=42
     office: 1421 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -27416,7 +27418,7 @@
     address: 1421 Longworth HOB; Washington DC 20515-3517
     phone: 202-225-5261
     fax: 202-225-3719
-    contact_form: http://timryan.house.gov/index.php?option=com_content&task=view&id=129&Itemid=42
+    contact_form: http://timryan.house.gov/index.php?option=com_content&amp;task=view&amp;id=129&amp;Itemid=42
     office: 1421 Longworth House Office Building
     rss_url: http://timryan.house.gov/rss.xml
 - id:
@@ -27549,7 +27551,7 @@
     address: 1114 Longworth HOB; Washington DC 20515-0547
     phone: 202-225-2965
     fax: 202-225-5859
-    contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&task=view&id=218&Itemid=17
+    contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&amp;task=view&amp;id=218&amp;Itemid=17
     office: 1114 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -27561,7 +27563,7 @@
     address: 1114 Longworth HOB; Washington DC 20515-0547
     phone: 202-225-2965
     fax: 202-225-5859
-    contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&task=view&id=218&Itemid=17
+    contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&amp;task=view&amp;id=218&amp;Itemid=17
     office: 1114 Longworth House Office Building
     rss_url: http://lorettasanchez.house.gov/rss.xml
 - id:
@@ -27767,13 +27769,13 @@
     state: IL
     party: Democrat
     district: 9
-    url: http://www.house.gov/schakowsky
+    url: http://schakowsky.house.gov
     address: 2367 Rayburn HOB; Washington DC 20515-1309
     phone: 202-225-2111
     fax: 202-226-6890
-    contact_form: http://www.house.gov/schakowsky/contact.shtml
+    contact_form: https://forms.house.gov/schakowsky/webforms/issue_subscribe.htm
     office: 2367 Rayburn House Office Building
-    rss_url: http://schakowsky.house.gov/index.php?option=com_content&view=category&id=30&format=feed&type=rss
+    rss_url: http://schakowsky.house.gov/index.php?option=com_content&amp;view=category&amp;id=30&amp;&amp;format=feed&amp;type=rss
 - id:
     bioguide: S001150
     thomas: '01635'
@@ -28595,7 +28597,7 @@
     state: WI
     party: Republican
     district: 5
-    url: http://www.house.gov/sensenbrenner
+    url: http://sensenbrenner.house.gov
     address: 2449 Rayburn HOB; Washington DC 20515-4905
     phone: 202-225-5101
     fax: 202-225-3190
@@ -29479,7 +29481,7 @@
     address: 2469 Rayburn HOB; Washington DC 20515-3228
     phone: 202-225-3615
     fax: 202-225-7822
-    contact_form: http://www.louise.house.gov/index.php?option=com_content&task=view&id=506&Itemid=150
+    contact_form: http://www.louise.house.gov/index.php?option=com_content&amp;task=view&amp;id=506&amp;Itemid=150
     office: 2469 Rayburn House Office Building
   - type: rep
     start: '2013-01-03'
@@ -29491,7 +29493,7 @@
     address: 2469 Rayburn HOB; Washington DC 20515-3228
     phone: 202-225-3615
     fax: 202-225-7822
-    contact_form: http://www.louise.house.gov/index.php?option=com_content&task=view&id=506&Itemid=150
+    contact_form: http://www.louise.house.gov/index.php?option=com_content&amp;task=view&amp;id=506&amp;Itemid=150
     office: 2469 Rayburn House Office Building
 - id:
     bioguide: S000510
@@ -30017,7 +30019,7 @@
     fax: 202-347-0956
     contact_form: https://forms.house.gov/speier/webforms/email_jackie.shtml
     office: 211 Cannon House Office Building
-    rss_url: http://speier.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
+    rss_url: http://speier.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
 - id:
     bioguide: S001187
     thomas: '02047'
@@ -30116,6 +30118,7 @@
     fax: 202-225-3479
     office: 1728 Longworth House Office Building
     rss_url: http://stutzman.house.gov/press_releases.rss
+    contact_form: http://stutzman.house.gov/contacts/new
 - id:
     bioguide: S001156
     thomas: '01757'
@@ -30190,7 +30193,7 @@
     fax: 202-226-1012
     contact_form: http://www.house.gov/writerep
     office: 2423 Rayburn House Office Building
-    rss_url: http://lindasanchez.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&format=raw
+    rss_url: http://lindasanchez.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
 - id:
     bioguide: T000459
     thomas: '01566'
@@ -31060,7 +31063,7 @@
     address: 1607 Longworth HOB; Washington DC 20515-2105
     phone: 202-225-3411
     fax: 202-226-0771
-    contact_form: http://tsongas.house.gov/?sectionid=11&sectiontree=3,11
+    contact_form: http://tsongas.house.gov/?sectionid=11&amp;sectiontree=3,11
     office: 1607 Longworth House Office Building
   - type: rep
     start: '2013-01-03'
@@ -31072,7 +31075,7 @@
     address: 1607 Longworth HOB; Washington DC 20515-2105
     phone: 202-225-3411
     fax: 202-226-0771
-    contact_form: http://tsongas.house.gov/?sectionid=11&sectiontree=3,11
+    contact_form: http://tsongas.house.gov/?sectionid=11&amp;sectiontree=3,11
     office: 1607 Longworth House Office Building
     rss_url: http://tsongas.house.gov/rss/press-releases.xml
 - id:
@@ -31452,11 +31455,11 @@
     state: NY
     party: Democrat
     district: 7
-    url: http://www.house.gov/velazquez
+    url: http://velazquez.house.gov
     address: 2302 Rayburn HOB; Washington DC 20515-3212
     phone: 202-225-2361
     fax: 202-226-0327
-    contact_form: http://www.house.gov/velazquez/IMA/issue_subscribe.htm
+    contact_form: http://velazquez.house.gov/IMA/issue_subscribe.shtml
     office: 2302 Rayburn House Office Building
 - id:
     bioguide: V000108
@@ -32024,11 +32027,11 @@
     state: CA
     party: Democrat
     district: 43
-    url: http://www.house.gov/waters
+    url: http://waters.house.gov
     address: 2221 Rayburn HOB; Washington DC 20515-0535
     phone: 202-225-2201
     fax: 202-225-7854
-    contact_form: http://www.house.gov/waters/IMA/issue.htm
+    contact_form: https://waters.house.gov/contact/contactform.htm
     office: 2221 Rayburn House Office Building
     rss_url: http://waters.house.gov/news/rss.aspx
 - id:
@@ -32137,7 +32140,7 @@
     fax: 202-225-1512
     contact_form: http://www.house.gov/formwatt/IMA/issue_subscribe.htm
     office: 2304 Rayburn House Office Building
-    rss_url: http://watt.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw
+    rss_url: http://watt.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=3&amp;format=raw
 - id:
     bioguide: W000215
     thomas: '01209'
@@ -32650,7 +32653,7 @@
     address: 2229 Rayburn HOB; Washington DC 20515-4002
     phone: 202-225-2452
     fax: 202-225-2455
-    contact_form: http://www.house.gov/formwilson/IMA/issue.htm
+    contact_form: https://joewilson.house.gov/forms/writeyourrep/default.aspx
     office: 2229 Rayburn House Office Building
     rss_url: http://joewilson.house.gov/news/rss.aspx
 - id:
@@ -32760,7 +32763,7 @@
     fax: 202-225-4382
     contact_form: https://forms.house.gov/wittman/IMA/webforms/issue_subscribe.htm
     office: 2454 Rayburn House Office Building
-    rss_url: http://www.wittman.house.gov/index.php?option=com_bca-rss-syndicator&feed_id=1
+    rss_url: http://www.wittman.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
 - id:
     bioguide: W000672
     thomas: '01238'
@@ -32948,6 +32951,7 @@
     fax: 202-225-5713
     office: 1119 Longworth House Office Building
     rss_url: http://womack.house.gov/news/rss.aspx
+    contact_form: http://womack.house.gov/contact/
 - id:
     bioguide: W000810
     thomas: '02008'
@@ -33146,7 +33150,7 @@
     address: 435 Cannon HOB; Washington DC 20515-1703
     phone: 202-225-5401
     fax: 202-225-5776
-    contact_form: http://yarmuth.house.gov/?sectionid=68&sectiontree=6,29,68
+    contact_form: http://yarmuth.house.gov/?sectionid=68&amp;sectiontree=6,29,68
     office: 435 Cannon House Office Building
   - type: rep
     start: '2013-01-03'
@@ -33158,7 +33162,7 @@
     address: 403 Cannon HOB; Washington DC 20515-1703
     phone: 202-225-5401
     fax: 202-225-5776
-    contact_form: http://yarmuth.house.gov/?sectionid=68&sectiontree=6,29,68
+    contact_form: http://yarmuth.house.gov/?sectionid=68&amp;sectiontree=6,29,68
     office: 403 Cannon House Office Building
 - id:
     bioguide: Y000063
