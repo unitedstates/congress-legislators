@@ -4997,7 +4997,7 @@
     address: 1111 Longworth HOB; Washington DC 20515-3703
     phone: 202-225-4811
     fax: 202-225-8941
-    contact_form: http://blumenauer.house.gov/index.php?option=com_email_form&Itemid=206
+    contact_form: https://forms.house.gov/blumenauer/webforms/issue_subscribe.html
     office: 1111 Longworth House Office Building
     rss_url: http://blumenauer.house.gov/index.php?option=com_bca-rss-syndicator&feed_id=1
 - id:
@@ -9970,11 +9970,11 @@
     state: CO
     party: Democrat
     district: 1
-    url: http://www.house.gov/degette
+    url: http://degette.house.gov/
     address: 2368 Rayburn HOB; Washington DC 20515-0601
     phone: 202-225-4431
     fax: 202-225-5657
-    contact_form: http://www.house.gov/formdegette/zip_auth.htm
+    contact_form: http://degette.house.gov/index.php?option=com_content&view=article&id=1045&Itemid=202
     office: 2368 Rayburn House Office Building
 - id:
     bioguide: D000216
@@ -14993,6 +14993,7 @@
     fax: 202-225-3478
     office: 1130 Longworth House Office Building
     rss_url: http://herrerabeutler.house.gov/news/rss.aspx
+    contact_form: http://herrerabeutler.house.gov/contact/
 - id:
     bioguide: H001038
     thomas: '01794'
@@ -19934,7 +19935,10 @@
     party: Democrat
     class: 2
     state_rank: junior
-    url: http://markey.senate.gov
+# note, he does not have an official senate website yet
+    url: http://www.edmarkey.com
+    rss_url: http://www.edmarkey.com/feed/
+    contact_form: http://www.edmarkey.com/contact
 - id:
     bioguide: M001142
     thomas: '01671'
@@ -23122,11 +23126,11 @@
     state: DC
     party: Democrat
     district: 0
-    url: http://www.house.gov/norton
+    url: http://norton.house.gov
     address: 2136 Rayburn HOB; Washington DC 20515-5100
     phone: 202-225-8050
     fax: 202-225-3002
-    contact_form: http://www.norton.house.gov/forms/contact.html
+    contact_form: https://forms.house.gov/norton/webforms/issue_subscribe.htm
     office: 2136 Rayburn House Office Building
     rss_url: http://norton.house.gov/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw
 - id:
@@ -23248,7 +23252,7 @@
     address: 1013 Longworth HOB; Washington DC 20515-0521
     phone: 202-225-2523
     fax: 202-225-3404
-    contact_form: http://www.nunes.house.gov/index.cfm?FuseAction=ContactUs.ContactForm
+    contact_form: https://nunes.house.gov/contactform/default.aspx
     office: 1013 Longworth House Office Building
     rss_url: http://nunes.house.gov/news/rss.aspx
 - id:
@@ -26166,7 +26170,7 @@
     address: 2406 Rayburn HOB; Washington DC 20515-1705
     phone: 202-225-4601
     fax: 202-225-0940
-    contact_form: http://halrogers.house.gov/Contact.aspx
+    contact_form: https://halrogers.house.gov/contact/contactform.htm
     office: 2406 Rayburn House Office Building
     rss_url: http://halrogers.house.gov/news/rss.aspx
 - id:
