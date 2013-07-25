@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pip-egg-info/scrapelib.egg-info/PKG-INFO
+pip-egg-info/scrapelib.egg-info/SOURCES.txt
+pip-egg-info/scrapelib.egg-info/dependency_links.txt
+pip-egg-info/scrapelib.egg-info/entry_points.txt
+pip-egg-info/scrapelib.egg-info/requires.txt
+pip-egg-info/scrapelib.egg-info/top_level.txt
+scrapelib/__init__.py
+scrapelib/__main__.py
+scrapelib/cache.py
+scrapelib/tests/__init__.py
+scrapelib/tests/test_cache.py
+scrapelib/tests/test_scraper.py
