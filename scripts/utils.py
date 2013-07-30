@@ -1,12 +1,104 @@
 # Helpful functions for finding data about members and committees
 
 CURRENT_CONGRESS = 113
+states = {
+        'AK': 'Alaska',
+        'AL': 'Alabama',
+        'AR': 'Arkansas',
+        'AS': 'American Samoa',
+        'AZ': 'Arizona',
+        'CA': 'California',
+        'CO': 'Colorado',
+        'CT': 'Connecticut',
+        'DC': 'District of Columbia',
+        'DE': 'Delaware',
+        'FL': 'Florida',
+        'GA': 'Georgia',
+        'GU': 'Guam',
+        'HI': 'Hawaii',
+        'IA': 'Iowa',
+        'ID': 'Idaho',
+        'IL': 'Illinois',
+        'IN': 'Indiana',
+        'KS': 'Kansas',
+        'KY': 'Kentucky',
+        'LA': 'Louisiana',
+        'MA': 'Massachusetts',
+        'MD': 'Maryland',
+        'ME': 'Maine',
+        'MI': 'Michigan',
+        'MN': 'Minnesota',
+        'MO': 'Missouri',
+        'MP': 'Northern Mariana Islands',
+        'MS': 'Mississippi',
+        'MT': 'Montana',
+        'NA': 'National',
+        'NC': 'North Carolina',
+        'ND': 'North Dakota',
+        'NE': 'Nebraska',
+        'NH': 'New Hampshire',
+        'NJ': 'New Jersey',
+        'NM': 'New Mexico',
+        'NV': 'Nevada',
+        'NY': 'New York',
+        'OH': 'Ohio',
+        'OK': 'Oklahoma',
+        'OR': 'Oregon',
+        'PA': 'Pennsylvania',
+        'PR': 'Puerto Rico',
+        'RI': 'Rhode Island',
+        'SC': 'South Carolina',
+        'SD': 'South Dakota',
+        'TN': 'Tennessee',
+        'TX': 'Texas',
+        'UT': 'Utah',
+        'VA': 'Virginia',
+        'VI': 'Virgin Islands',
+        'VT': 'Vermont',
+        'WA': 'Washington',
+        'WI': 'Wisconsin',
+        'WV': 'West Virginia',
+        'WY': 'Wyoming',
+        'OL': 'Orleans',
+        'DK': 'Dakota',
+        'PI': 'Philippine Islands'
+}
+
 
 
 import os, errno, sys, traceback
 import re, htmlentitydefs
 import pprint
 from datetime import datetime
+
+def current_congress():
+  year = current_legislative_year()
+  return congress_from_legislative_year(year)
+
+def congress_from_legislative_year(year):
+  return ((year + 1) / 2) - 894
+
+def legislative_year(date=None):
+  if not date:
+    date = datetime.datetime.now()
+
+  year = date.year
+
+  if date.month == 1:
+    if date.day == 1 or date.day == 2:
+      return date.year - 1
+    elif date.day == 3:
+        if isinstance(date,datetime):
+          if date.hour < 12:
+            return date.year -1
+          else:
+            return date.year
+        else:
+          return date.year
+    else:
+      return date.year
+  else:
+    return date.year
 
 def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
