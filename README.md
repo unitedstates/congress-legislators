@@ -52,6 +52,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		washington_post: gIQAUWiV9O
 		maplight: 4442
 		house_history: 20785
+		icpsr: 29939
 	  name:
 		first: Paul
 		middle: D.
@@ -405,6 +406,12 @@ We run the following scripts periodically to scrape for new information and keep
 * `historical_committees.py`: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
 * `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
 * `influence_ids.py`: Grabs updated FEC and OpenSecrets IDs from the [Influence Explorer API](http://data.influenceexplorer.com/api). Will only work for members with a Bioguide ID.
+
+The following script takes one required command line argument
+
+* `icpsr_ids.py`: Updates ICPSR ID's for all members of the House and Senate in a given congress, based on roll call vote data files stored by Voteview.com. The script takes one command line argument:
+--congress=congress_number
+where congress_number is the number of the congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
 
 Who's Using This Data
 ---------------------
