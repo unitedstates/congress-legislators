@@ -2,4 +2,10 @@
 /scripts/cache
 *.pickle
 .DS_Store
+<<<<<<< HEAD
 /scripts/build
+=======
+/scripts/email/config.yml
+\.~lock*
+/scripts/build
+>>>>>>> fb3e801dfe6ea332723094762019d67b3ecbdc0e

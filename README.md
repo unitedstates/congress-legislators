@@ -48,6 +48,9 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		  - H8WI01024
 		cspan: 57970
 		wikipedia: Paul Ryan
+		ballotpedia: Paul Ryan
+		washington_post: gIQAUWiV9O
+		maplight: 4442
 		house_history: 20785
 	  name:
 		first: Paul
@@ -97,6 +100,9 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* icpsr: The numeric ID for this legislator in Keith Poole's VoteView.com website, originally based on an ID system by the Interuniversity Consortium for Political and Social Research (stored as an integer).
 	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
+	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
+	* washington_post: the Washington Post topic name (e.g.: `http://www.washingtonpost.com/politics/[washington_post]_topic.html`)
+	* maplight : The maplight.org internal ID for the person, used for campaign finance information.
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
 
@@ -146,6 +152,21 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* office: Similar to the address field, this is just the room and building number, suitable for display (only valid if the term is current, otherwise the last known office).
 	* rss_url The URL to the official website's RSS feed (only valid if the term is current, otherwise the last known URL).
 
+
+**Leadership roles**:
+
+```yaml
+leadership_roles:
+  - title: Minority Leader
+    chamber: senate
+    start: '2007-01-04'
+    end: '2009-01-06'
+```
+
+For members with top formal positions of leadership in each party in each chamber, a `leadership_roles` field will include an array of start/end dates and titles documenting when they held this role.
+
+Leadership terms are not identical to legislative terms, and so start and end dates will be different than legislative term dates. However, leaders do need to be re-elected each legislative term, so their leadership terms should all be subsets of their legislative terms.
+
 Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
 
 Notes:
@@ -162,17 +183,19 @@ The social media file legislators-social-media.yaml stores current social media 
 Each record has two sections: id and social. The id section identifies the legislator using biogiude, thomas, and govtrack IDs (where available). The social section has social media account identifiers:
 
 * twitter: The current official Twitter handle of the legislator.
-* youtube: The current official YouTube handle **or** channel value, of the legislator.
+* youtube: The current official YouTube username of the legislator.
+* youtube_id: The current official YouTube channel ID of the legislator.
 * facebook: The username of the current official Facebook presence of the legislator.
 * facebook_id: The numeric ID of the current official Facebook presence of the legislator.
 
-A few legislators use YouTube "channels" instead of user accounts. These channel values will be of the form `channel/[ID]`.
+Several legislators do not have an assigned YouTube username.  In these cases, only the youtube_id field is populated.
 
-All values can be turned into URLs by preceding them with the domain name of the service in question:
+All values can be turned into URLs by preceding them with the domain name of the service in question (and in the case of YouTube channels, the path `/channel`):
 
-* `http://twitter.com/[username]`
-* `http://youtube.com/[username or channel value]`
-* `http://facebook.com/[username or ID]`
+* `http://twitter.com/[twitter]`
+* `http://youtube.com/user/[youtube]`
+* `http://youtube.com/channel/[youtube_id]`
+* `http://facebook.com/[facebook or facebook_id]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
@@ -381,6 +404,7 @@ We run the following scripts periodically to scrape for new information and keep
 * `committee_membership.py`: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
 * `historical_committees.py`: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
 * `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
+* `influence_ids.py`: Grabs updated FEC and OpenSecrets IDs from the [Influence Explorer API](http://data.influenceexplorer.com/api). Will only work for members with a Bioguide ID.
 
 Who's Using This Data
 ---------------------
@@ -391,3 +415,11 @@ Here are the ones we know about:
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
 * [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
+
+Other Scripts
+----------------------
+The Ballotpedia and Maplight fields has been created using code from James Michael DuPont, using the code in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia.
+
+Maplight was updated using the code in in the branch maplight, running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output.
+
+The `washington_post` field was extracted from Wikipedia.

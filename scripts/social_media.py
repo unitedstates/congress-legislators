@@ -13,10 +13,16 @@
 #
 # run with --resolvefb:
 #   finds both Facebook usernames and graph IDs and updates the YAML accordingly.
+#
+# run with --resolveyt:
+#   finds both YouTube usernames and channel IDs and updates the YAML accordingly.
 
 # other options:
 #  --service (required): "twitter", "youtube", or "facebook"
 #  --bioguide: limit to only one particular member
+#  --email:
+#      in conjunction with --sweep, send an email if there are any new leads, using
+#      settings in scripts/email/config.yml (if it was created and filled out).
 
 # uses a CSV at data/social_media_blacklist.csv to exclude known non-individual account names
 
@@ -29,7 +35,7 @@ import requests
 def main():
   regexes = {
     "youtube": [
-      "https?://(?:www\\.)?youtube.com/(channel/[^\\s\"/\\?#']+)",
+      "https?://(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
       "https?://(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
     ],
     "facebook": [
@@ -43,11 +49,13 @@ def main():
     ]
   }
 
+  email_enabled = utils.flags().get('email', False)
   debug = utils.flags().get('debug', False)
   do_update = utils.flags().get('update', False)
   do_clean = utils.flags().get('clean', False)
   do_verify = utils.flags().get('verify', False)
   do_resolvefb = utils.flags().get('resolvefb', False)
+  do_resolveyt = utils.flags().get('resolveyt', False)
 
   # default to not caching
   cache = utils.flags().get('cache', False)
@@ -55,6 +63,8 @@ def main():
 
   if do_resolvefb:
     service = "facebook"
+  elif do_resolveyt:
+    service = "youtube"
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook"]:
@@ -64,7 +74,7 @@ def main():
   # load in members, orient by bioguide ID
   print "Loading current legislators..."
   current = load_data("legislators-current.yaml")
-  
+
   current_bioguide = { }
   for m in current:
     if m["id"].has_key("bioguide"):
@@ -90,34 +100,126 @@ def main():
   media_bioguide = { }
   for m in media:
     media_bioguide[m["id"]["bioguide"]] = m
-  
-  
+
+
   def resolvefb():
     updated_media = []
     for m in media:
       social = m['social']
-      
-      if 'facebook' in social and social['facebook']:
+
+      if ('facebook' in social and social['facebook']) and ('facebook_id' not in social):
         graph_url = "https://graph.facebook.com/%s" % social['facebook']
-        
+
         if re.match('\d+', social['facebook']):
           social['facebook_id'] = social['facebook']
+          print "Looking up graph username for %s" % social['facebook']
           fbobj = requests.get(graph_url).json()
           if 'username' in fbobj:
+            print "\tGot graph username of %s" % fbobj['username']
             social['facebook'] = fbobj['username']
-          
+          else:
+            print "\tUnable to get graph username"
+
         else:
           try:
-            social['facebook_id'] = requests.get(graph_url).json()['id']
+            print "Looking up graph ID for %s" % social['facebook']
+            fbobj = requests.get(graph_url).json()
+            if 'id' in fbobj:
+              print "\tGot graph ID of %s" % fbobj['id']
+              social['facebook_id'] = fbobj['id']
+            else:
+              print "\tUnable to get graph ID"
           except:
-            print "Unable to get graph ID for: %s" % social['facebook']
+            print "\tUnable to get graph ID for: %s" % social['facebook']
             social['facebook_id'] = None
-            
+
       updated_media.append(m)
-      
+
     print "Saving social media..."
     save_data(updated_media, "legislators-social-media.yaml")
-    
+
+
+  def resolveyt():
+    # To avoid hitting quota limits, register for a YouTube 2.0 API key at
+    # https://code.google.com/apis/youtube/dashboard
+    # and put it below
+    api_file = open('cache/youtube_api_key','r')
+    api_key = api_file.read()
+
+    bioguide = utils.flags().get('bioguide', None)
+
+    updated_media = []
+    for m in media:
+      if bioguide and (m['id']['bioguide'] != bioguide):
+        updated_media.append(m)
+        continue
+
+      social = m['social']
+
+      if ('youtube' in social) or ('youtube_id' in social):
+
+        if 'youtube' not in social:
+          social['youtube'] = social['youtube_id']
+
+        ytid = social['youtube']
+
+        profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+        "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
+
+        try:
+          print "Resolving YT info for %s" % social['youtube']
+          ytreq = requests.get(profile_url)
+          # print "\tFetched with status code %i..." % ytreq.status_code
+
+          if ytreq.status_code == 404:
+            # If the account name isn't valid, it's probably a redirect.
+            try:
+              # Try to scrape the real YouTube username
+              print "\Scraping YouTube username"
+              search_url = ("http://www.youtube.com/%s" % social['youtube'])
+              csearch = requests.get(search_url).text.encode('ascii','ignore')
+
+              u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
+
+              if u:
+                print "\t%s maps to %s" % (social['youtube'],u.group(1))
+                social['youtube'] = u.group(1)
+                profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+                "?v=2&prettyprint=true&alt=json" % social['youtube'])
+
+                print "\tFetching GData profile..."
+                ytreq = requests.get(profile_url)
+                print "\tFetched GData profile"
+
+              else:
+                raise Exception("Couldn't figure out the username format for %s" % social['youtube'])
+
+            except:
+              print "\tCouldn't locate YouTube account"
+              raise
+
+          ytobj = ytreq.json()
+          social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
+          # print "\tResolved youtube_id to %s" % social['youtube_id']
+
+          # even though we have their channel ID, do they also have a username?
+          if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
+            if social['youtube'].lower() != ytobj['entry']['yt$username']['$t'].lower():
+              old_name = social['youtube']
+              # YT accounts are case-insensitive.  Preserve capitalization if possible.
+              social['youtube'] = ytobj['entry']['yt$username']['$t']
+              print "\tAdded YouTube username of %s" % social['youtube']
+          else:
+            print "\tYouTube says they do not have a separate username"
+            del social['youtube']
+        except:
+          print "Unable to get YouTube Channel ID for: %s" % social['youtube']
+
+      updated_media.append(m)
+
+    print "Saving social media..."
+    save_data(updated_media, "legislators-social-media.yaml")
+
 
   def sweep():
     to_check = []
@@ -131,7 +233,8 @@ def main():
     for bioguide in possibles:
       if media_bioguide.get(bioguide, None) is None:
         to_check.append(bioguide)
-      elif media_bioguide[bioguide]["social"].get(service, None) is None:
+      elif (media_bioguide[bioguide]["social"].get(service, None) is None) and \
+        (media_bioguide[bioguide]["social"].get(service + "_id", None) is None):
         to_check.append(bioguide)
       else:
         pass
@@ -140,13 +243,23 @@ def main():
     writer = csv.writer(open("cache/social_media/%s_candidates.csv" % service, 'w'))
     writer.writerow(["bioguide", "official_full", "website", "service", "candidate", "candidate_url"])
 
-    for bioguide in to_check:
-      candidate = candidate_for(bioguide)
-      if candidate:
-        url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-        candidate_url = "https://%s.com/%s" % (service, candidate)
-        writer.writerow([bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url])
-        print "\tWrote: %s" % candidate
+    if len(to_check) > 0:
+      rows_found = []
+      for bioguide in to_check:
+        candidate = candidate_for(bioguide)
+        if candidate:
+          url = current_bioguide[bioguide]["terms"][-1].get("url", None)
+          candidate_url = "https://%s.com/%s" % (service, candidate)
+          row = [bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url]
+          writer.writerow(row)
+          print "\tWrote: %s" % candidate
+          rows_found.append(row)
+
+      if email_enabled and len(rows_found) > 0:
+        email_body = "Social media leads found:\n\n"
+        for row in rows_found:
+          email_body += ("%s\n" % row)
+        utils.send_email(email_body)
 
   def verify():
     bioguide = utils.flags().get('bioguide', None)
@@ -188,14 +301,23 @@ def main():
 
         new_media['id']['bioguide'] = bioguide
         thomas_id = current_bioguide[bioguide]['id'].get("thomas", None)
+        govtrack_id = current_bioguide[bioguide]['id'].get("govtrack", None)
         if thomas_id:
           new_media['id']['thomas'] = thomas_id
+        if govtrack_id:
+          new_media['id']['govtrack'] = govtrack_id
+
 
         new_media['social'][service] = candidate
         media.append(new_media)
 
     print "Saving social media..."
     save_data(media, "legislators-social-media.yaml")
+
+    # if it's a youtube update, always do the resolve
+    if service == "youtube":
+      resolveyt()
+
 
   def clean():
     print "Loading historical legislators..."
@@ -221,7 +343,7 @@ def main():
     if debug:
       print "[%s] Downloading..." % bioguide
     cache = "congress/%s.html" % bioguide
-    body = utils.download(url, cache, force)
+    body = utils.download(url, cache, force, {'check_redirects': True})
 
     all_matches = []
     for regex in regexes[service]:
@@ -235,7 +357,7 @@ def main():
         for blacked in blacklist[service]:
           if re.search(blacked, candidate, re.I):
             passed = False
-        
+
         if not passed:
           if debug:
             print "\tBlacklisted: %s" % candidate
@@ -252,6 +374,8 @@ def main():
     verify()
   elif do_resolvefb:
     resolvefb()
+  elif do_resolveyt:
+    resolveyt()
   else:
     sweep()
 
