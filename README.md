@@ -413,6 +413,9 @@ The following script takes one required command line argument
 --congress=congress_number
 where congress_number is the number of the congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
 
+The following script may be run to create alternatly formatted data files. It takes no command-line arguments.
+* alternate_bulk_formats.py creates four files (two each for current and historical legislators) in json and csv formats. The csv files do not include all fields from the legislator yaml files, and include data from the social media yaml. All four files are stored in the ~/alternate_formats directory.
+
 Who's Using This Data
 ---------------------
 

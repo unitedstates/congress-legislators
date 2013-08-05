@@ -1,16 +1,13 @@
 import csv
-from utils import load_data
-
-#string for missing yaml term
-no_data = "no data"
+import json
+from utils import write, format_datetime, load_data
 
 #yaml filenames
-yaml_current = "legislators-current.yaml"
-yaml_historical = "legislators-historical.yaml"
-yamls = []
-yamls.append(yaml_current)
-yamls.append(yaml_historical)
+yamls = ["legislators-current.yaml","legislators-historical.yaml"]
 yaml_social = "legislators-social-media.yaml"
+
+
+
 
 #list of yaml field name, csv column name tuples. Split into categories which do not reflect yaml structure (structured for logical csv column ordering)
 bio_fields = [
@@ -44,7 +41,6 @@ term_fields = [
 ("url", "url"),
 ("address", "address"),
 ("phone", "phone"),
-("fax", "fax"),
 ("contact_form", "contact_form"),
 ("rss_url", "rss_url")
 ]
@@ -66,7 +62,13 @@ for filename in yamls:
 	print "Loading %s..." % filename
 	legislators = load_data(filename)
 
-	csv_output = csv.writer(open("../%s.csv"%filename.rstrip(".yaml"),"wb"))
+	#convert yaml to json
+	write(
+	json.dumps(legislators, sort_keys=True, indent=2, default=format_datetime),
+	"../alternate_formats/%s.json" %filename.rstrip(".yaml"))
+
+	#convert yaml to csv
+	csv_output = csv.writer(open("../alternate_formats/%s.csv"%filename.rstrip(".yaml"),"wb"))
 
 	head = []
 	for pair in bio_fields:
@@ -87,14 +89,14 @@ for filename in yamls:
 			elif 'bio' in legislator and pair[0] in legislator['bio']:
 				legislator_row.append(legislator['bio'][pair[0]])
 			else:
-				legislator_row.append(no_data)
+				legislator_row.append(None)
 
 		for pair in term_fields:
 			latest_term = legislator['terms'][len(legislator['terms'])-1]
 			if pair[0] in latest_term:
 				legislator_row.append(latest_term[pair[0]])
 			else:
-				legislator_row.append(no_data)
+				legislator_row.append(None)
 
 		social_match = None
 		for social_legislator in social:
@@ -112,33 +114,15 @@ for filename in yamls:
 				if pair[0] in social_match['social']:
 					legislator_row.append(social_match['social'][pair[0]])
 				else:
-					legislator_row.append(no_data)
+					legislator_row.append(None)
 			else:
-				legislator_row.append(no_data)
+				legislator_row.append(None)
 
 		for pair in crosswalk_fields:
 			if pair[0] in legislator['id']:
 				legislator_row.append(legislator['id'][pair[0]])
 			else:
-				legislator_row.append(no_data)
+				legislator_row.append(None)
 
 		unicode_row = [cell.encode('utf-8') if isinstance(cell, basestring) else cell for cell in legislator_row]
 		csv_output.writerow(unicode_row)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
