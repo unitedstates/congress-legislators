@@ -229,6 +229,14 @@ def download(url, destination=None, force=False, options=None):
 
   return body
 
+def format_datetime(obj):
+  if isinstance(obj, datetime.datetime):
+    return eastern_time_zone.localize(obj.replace(microsecond=0)).isoformat()
+  elif isinstance(obj, str):
+    return obj
+  else:
+    return None
+
 def write(content, destination):
   mkdir_p(os.path.dirname(destination))
   f = open(destination, 'w')
