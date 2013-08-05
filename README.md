@@ -17,7 +17,7 @@ And about committees:
 
 This repository also contains a database of presidents and vice presidents in executive.yaml. Recall that vice presidents are also president of the Senate and cast tie-breaking votes.
 
-The files are in YAML (http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
+The files are in [YAML](http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
 This database has been collected from a variety of sources:
 
