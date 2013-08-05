@@ -1,0 +1,144 @@
+import csv
+from utils import load_data
+
+#string for missing yaml term
+no_data = "no data"
+
+#yaml filenames
+yaml_current = "legislators-current.yaml"
+yaml_historical = "legislators-historical.yaml"
+yamls = []
+yamls.append(yaml_current)
+yamls.append(yaml_historical)
+yaml_social = "legislators-social-media.yaml"
+
+#list of yaml field name, csv column name tuples. Split into categories which do not reflect yaml structure (structured for logical csv column ordering)
+bio_fields = [
+("last", "last_name"),
+("first", "first_name"),
+("birthday", "birthday"),
+("gender", "gender")
+]
+
+#ID crosswalks, omit FEC id's, which may contain (arbitrary?) number of values
+crosswalk_fields = [
+("bioguide", "bioguide_id"),
+("thomas", "thomas_id"),
+("opensecrets", "opensecrets_id"),
+("lis","lis_id"),
+("cspan", "cspan_id"),
+("govtrack", "govtrack_id"),
+("votesmart", "votesmart_id"),
+("ballotpedia", "ballotpedia_id"),
+("washington_post", "washington_post_id"),
+("icpsr", "icpsr_id"),
+("wikipedia", "wikipedia_id")
+]
+
+#separate list for children of "terms", csv only captures data for most recent term
+#currently excluding start/end dates - earliest start to latest end is deceptive (excludes gaps) as is start/end for most recent term
+term_fields = [
+("type", "type"),
+("state", "state"),
+("party", "party"),
+("url", "url"),
+("address", "address"),
+("phone", "phone"),
+("fax", "fax"),
+("contact_form", "contact_form"),
+("rss_url", "rss_url")
+]
+
+#pulled from legislators-social-media.yaml
+social_media_fields = [
+("twitter", "twitter"),
+("facebook", "facebook"),
+("facebook_id", "facebook_id"),
+("youtube", "youtube"),
+("youtube_id", "youtube_id")
+]
+
+
+print "Loading %s..." %yaml_social
+social = load_data(yaml_social)
+
+for filename in yamls:
+	print "Loading %s..." % filename
+	legislators = load_data(filename)
+
+	csv_output = csv.writer(open("../%s.csv"%filename.rstrip(".yaml"),"wb"))
+
+	head = []
+	for pair in bio_fields:
+		head.append(pair[1])
+	for pair in term_fields:
+		head.append(pair[1])
+	for pair in social_media_fields:
+		head.append(pair[1])
+	for pair in crosswalk_fields:
+		head.append(pair[1])
+	csv_output.writerow(head)
+
+	for legislator in legislators:
+		legislator_row = []
+		for pair in bio_fields:
+			if 'name' in legislator and pair[0] in legislator['name']:
+				legislator_row.append(legislator['name'][pair[0]])
+			elif 'bio' in legislator and pair[0] in legislator['bio']:
+				legislator_row.append(legislator['bio'][pair[0]])
+			else:
+				legislator_row.append(no_data)
+
+		for pair in term_fields:
+			latest_term = legislator['terms'][len(legislator['terms'])-1]
+			if pair[0] in latest_term:
+				legislator_row.append(latest_term[pair[0]])
+			else:
+				legislator_row.append(no_data)
+
+		social_match = None
+		for social_legislator in social:
+			if 'bioguide' in legislator['id'] and 'bioguide' in social_legislator['id'] and legislator['id']['bioguide'] == social_legislator['id']['bioguide']:
+				social_match = social_legislator
+				break
+			elif 'thomas' in legislator['id'] and 'thomas' in social_legislator['id'] and legislator['id']['thomas'] == social_legislator['id']['thomas']:
+				social_match = social_legislator
+				break
+			elif 'govtrack' in legislator['id'] and 'govtrack' in social_legislator['id'] and legislator['id']['govtrack'] == social_legislator['id']['govtrack']:
+				social_match = social_legislator
+				break
+		for pair in social_media_fields:
+			if social_match != None:
+				if pair[0] in social_match['social']:
+					legislator_row.append(social_match['social'][pair[0]])
+				else:
+					legislator_row.append(no_data)
+			else:
+				legislator_row.append(no_data)
+
+		for pair in crosswalk_fields:
+			if pair[0] in legislator['id']:
+				legislator_row.append(legislator['id'][pair[0]])
+			else:
+				legislator_row.append(no_data)
+
+		unicode_row = [cell.encode('utf-8') if isinstance(cell, basestring) else cell for cell in legislator_row]
+		csv_output.writerow(unicode_row)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
