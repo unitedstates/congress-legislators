@@ -420,8 +420,8 @@ Here are the ones we know about:
 
 * [GovTrack.us](http://govtrack.us)
 * [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
-* [Scout](https://scout.sunlightfoundation.com/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
+* [OpenCongress.org](http://www.opencongress.org)
 
 Other Scripts
 ----------------------
