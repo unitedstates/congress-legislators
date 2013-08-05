@@ -425,8 +425,4 @@ Here are the ones we know about:
 
 Other Scripts
 ----------------------
-The Ballotpedia and Maplight fields has been created using code from James Michael DuPont, using the code in git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git in the branch ballotpedia.
-
-Maplight was updated using the code in in the branch maplight, running the script maplight_convert.py which also needs the full names of the legislators stored in the git@github.com:h4ck3rm1k3/congress-legislators.git and merging the dump.yml output.
-
-The `washington_post` field was extracted from Wikipedia.
+The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
