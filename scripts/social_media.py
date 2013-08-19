@@ -200,7 +200,7 @@ def main():
 
           ytobj = ytreq.json()
           social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
-          # print "\tResolved youtube_id to %s" % social['youtube_id']
+          print "\tResolved youtube_id to %s" % social['youtube_id']
 
           # even though we have their channel ID, do they also have a username?
           if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
