@@ -114,7 +114,7 @@ def scrape_house_committee(cx, output_code, house_code):
         continue
       moc = congressmen[m.group(1)]
       if node.cssselect('a')[0].text_content().replace(", ", "") != moc['name']['official_full']:
-        print "Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())
+        print ("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())).encode("utf8")
       
       entry = OrderedDict()
       entry["name"] = moc['name']['official_full']
