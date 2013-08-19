@@ -268,11 +268,21 @@ def ids_from(moc):
     raise ValueError("Missing an official ID for this legislator, won't be able to link back")
   return ids
 
+def restore_house_members_on_joint_committees():
+  # The House doesn't publish joint committee members, but we're manaually gathering
+  # that. Add them back into the output from whatever we have on disk. Put them after
+  # Senate members.
+  for c, mbrs in memberships_current.items():
+    if c[0] != "J": continue
+    for m in mbrs:
+      if m["chamber"] != "house": continue
+      committee_membership[c].append(m)
 
 # MAIN
 
 scrape_house()
 scrape_senate()
+restore_house_members_on_joint_committees()
 
 save_data(committee_membership, "committee-membership-current.yaml")
 save_data(committees_current, "committees-current.yaml")
