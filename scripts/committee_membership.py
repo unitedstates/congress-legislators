@@ -166,6 +166,7 @@ def scrape_senate():
     print "[%s] Fetching members for %s" % (id, name)
 
     cx = senate_ref[id]
+    is_joint = (id[0] == "J")
     
     # Scrape some metadata on the HTML page first.
     
@@ -199,7 +200,7 @@ def scrape_senate():
     # update full committee members
     committee_membership[id] = []
     for member in dom.xpath("committees/members/member"):
-      scrape_senate_member(committee_membership[id], member, majority_party)
+      scrape_senate_member(committee_membership[id], member, majority_party, is_joint)
     
     # update subcommittees
     for subcom in dom.xpath("committees/subcommittee"):
@@ -221,9 +222,9 @@ def scrape_senate():
       
       committee_membership[id + scid] = []
       for member in subcom.xpath("members/member"):
-        scrape_senate_member(committee_membership[id + scid], member, majority_party)
+        scrape_senate_member(committee_membership[id + scid], member, majority_party, is_joint)
 
-def scrape_senate_member(output_list, membernode, majority_party):
+def scrape_senate_member(output_list, membernode, majority_party, is_joint):
   last_name = membernode.xpath("name/last")[0].text
   state = membernode.xpath("state")[0].text
   party = "majority" if membernode.xpath("party")[0].text == majority_party else "minority"
@@ -247,6 +248,7 @@ def scrape_senate_member(output_list, membernode, majority_party):
   entry["rank"] = len([e for e in output_list if e["party"] == entry["party"]]) + 1 # how many have we seen so far in this party, +1
   if title: entry["title"] = title
   entry.update(ids_from(moc["id"]))
+  if is_joint: entry["chamber"] = "senate"
     
   output_list.append(entry)
   

@@ -275,6 +275,7 @@ Each committee/subcommittee entry is a list containing the members of the commit
 * party: Either "majority" or "minority." Committee work is divided strictly by party.
 * rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member). The rank is essentially approximate, because the House/Senate pages don't necessarily make a committment that the order on the page precisely indicates actual rank (if such a concept even applies). But if you want to preserve the order as displayed by the House and Senate, you can use this attribute.
 * title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
+* chamber: For joint committees only, the chamber that the representative is serving in, either `house` or `senate`.
 
 The Executive Branch
 --------------------
