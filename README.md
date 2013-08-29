@@ -429,4 +429,9 @@ Here are the ones we know about:
 
 Other Scripts
 ----------------------
+
 The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
+
+### License
+
+All data and code in this project is [licensed under CC0](LICENSE) ([summary](http://creativecommons.org/publicdomain/zero/1.0/)).
