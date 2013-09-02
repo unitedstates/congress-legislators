@@ -417,6 +417,11 @@ where congress_number is the number of the congress to be updated. As of July, 2
 The following script may be run to create alternatly formatted data files. It takes no command-line arguments.
 * alternate_bulk_formats.py creates four files (two each for current and historical legislators) in json and csv formats. The csv files do not include all fields from the legislator yaml files, and include data from the social media yaml. All four files are stored in the ~/alternate_formats directory.
 
+Other Scripts
+----------------------
+
+The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
+
 Who's Using This Data
 ---------------------
 
@@ -427,10 +432,9 @@ Here are the ones we know about:
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
 * [OpenCongress.org](http://www.opencongress.org)
 
-Other Scripts
-----------------------
+### Related libraries
 
-The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
+* Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
 
 ### License
 
