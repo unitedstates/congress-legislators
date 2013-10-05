@@ -315,8 +315,8 @@ def main():
     save_data(media, "legislators-social-media.yaml")
 
     # if it's a youtube update, always do the resolve
-    if service == "youtube":
-      resolveyt()
+    # if service == "youtube":
+    #   resolveyt()
 
 
   def clean():
