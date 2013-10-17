@@ -1507,6 +1507,9 @@
     office: 111 Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.begich.senate.gov/public/?a=rss.feed
+  family:
+  - name: Nicholas J. Begich
+    relation: son
 - id:
     bioguide: C000286
     thomas: '00188'
@@ -2058,6 +2061,9 @@
     office: 521 Dirksen Senate Office Building
     state_rank: junior
     rss_url: http://www.hagan.senate.gov/rss
+  family:
+  - name: Lawton M. Chiles Jr.
+    relation: niece
 - id:
     bioguide: H000206
     thomas: '00501'
@@ -2483,6 +2489,9 @@
     office: 269 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.levin.senate.gov/rss/feeds/?type=all
+  family:
+  - name: Sander Martin Levin
+    relation: brother
 - id:
     bioguide: M000355
     thomas: '01395'
@@ -2644,6 +2653,9 @@
     office: 255 Dirksen Senate Office Building
     state_rank: senior
     rss_url: http://www.pryor.senate.gov/public/index.cfm/rss/feed
+  family:
+  - name: David H. Pryor
+    relation: son
 - id:
     bioguide: R000122
     thomas: '00949'
@@ -2920,6 +2932,13 @@
     office: 531 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.rockefeller.senate.gov/public/index.cfm/rss/feed
+  family:
+  - name: Nelson Aldrich Rockefeller
+    relation: nephew
+  - name: Nelson Aldrich
+    relation: great grandson
+  - name: Charles Harting Percy
+    relation: son in law
 - id:
     bioguide: S001141
     thomas: '01548'
@@ -3083,6 +3102,15 @@
     office: 730 Hart Senate Office Building
     state_rank: senior
     rss_url: http://markudall.senate.gov/rss/?p=blog
+  family:
+  - name: Morris K. Udall
+    relation: son
+  - name: Thomas Udall
+    relation: cousin
+  - name: Stewart Lee Udall
+    relation: nephew
+  - name: Gordon H. Smith
+    relation: cousin
 - id:
     bioguide: U000039
     thomas: '01567'
@@ -3157,6 +3185,15 @@
     office: 110 Hart Senate Office Building
     state_rank: senior
     rss_url: http://tomudall.senate.gov/rss/?p=blog
+  family:
+  - name: Stewart Lee Udall
+    relation: son
+  - name: Morris K. Udall
+    relation: nephew
+  - name: Mark Udall
+    relation: cousin
+  - name: Gordon H. Smith
+    relation: cousin
 - id:
     bioguide: W000805
     thomas: '01897'
@@ -4503,6 +4540,9 @@
     contact_form: http://bilirakis.house.gov/index.php?option=com_content&amp;task=view&amp;id=212&amp;Itemid=44
     office: 2313 Rayburn House Office Building
     rss_url: http://bilirakis.house.gov/index.php?format=feed&amp;type=rss
+  family:
+  - name: Michael Bilirakis
+    relation: son
 - id:
     bioguide: B001250
     thomas: '01753'
@@ -6818,6 +6858,9 @@
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2366 Rayburn House Office Building
     rss_url: http://capito.house.gov/common/rss//index.cfm?rss=85
+  family:
+  - name: Arch Alfred Moore Jr.
+    relation: daughter
 - id:
     bioguide: C001036
     thomas: '01471'
@@ -6912,6 +6955,9 @@
     contact_form: http://capps.house.gov/contact-me/email-me
     office: 2231 Rayburn House Office Building
     rss_url: http://capps.house.gov/rss.xml
+  family:
+  - name: Walter Capps
+    relation: wife
 - id:
     bioguide: C001037
     thomas: '01564'
@@ -7113,6 +7159,9 @@
     contact_form: https://forms.house.gov/carson/webforms/issue_subscribe.htm
     office: 2453 Rayburn House Office Building
     rss_url: http://carson.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
+  family:
+  - name: Julia Carson
+    relation: grandson
 - id:
     bioguide: C001051
     thomas: '01752'
@@ -7800,6 +7849,9 @@
     fax: 202-226-3717
     contact_form: http://lacyclay.house.gov/contact-us/
     office: 2418 Rayburn House Office Building
+  family:
+  - name: William Lacy Clay Sr.
+    relation: son
 - id:
     bioguide: C001061
     thomas: '01790'
@@ -7977,6 +8029,9 @@
     contact_form: http://clyburn.house.gov/contact-me/email-me
     office: 242 Cannon House Office Building
     rss_url: http://clyburn.house.gov/rss.xml
+  family:
+  - name: George Washington Murray
+    relation: relative
 - id:
     bioguide: C000542
     thomas: '00209'
@@ -10356,6 +10411,9 @@
     contact_form: http://mariodiazbalart.house.gov/contact-mario
     office: 436 Cannon House Office Building
     rss_url: http://mariodiazbalart.house.gov/rss.xml
+  family:
+  - name: Lincoln Diaz Balart
+    relation: brother
 - id:
     bioguide: D000355
     thomas: '00299'
@@ -10578,6 +10636,9 @@
     contact_form: https://forms.house.gov/wyr/welcome.shtml
     office: 2328 Rayburn House Office Building
     rss_url: http://dingell.house.gov/rss.xml
+  family:
+  - name: John David Dingell
+    relation: son
 - id:
     bioguide: D000399
     thomas: '00303'
@@ -11069,6 +11130,9 @@
     contact_form: http://duncan.house.gov/contact-me/email-me
     office: 2207 Rayburn House Office Building
     rss_url: http://duncan.house.gov/rss.xml
+  family:
+  - name: John James Duncan
+    relation: son
 - id:
     bioguide: E000290
     thomas: '01894'
@@ -11603,7 +11667,7 @@
     last: Farenthold
     official_full: Blake Farenthold
   bio:
-    birthday: '1962-12-12'
+    birthday: '1961-12-12'
     gender: M
   terms:
   - type: rep
@@ -12126,6 +12190,11 @@
     contact_form: https://fleming.house.gov/contact/contactform.htm
     office: 416 Cannon House Office Building
     rss_url: http://fleming.house.gov/news/rss.aspx
+  family:
+  - name: Henry Clay
+    relation: relative
+  - name: James Brown Clay
+    relation: relative
 - id:
     bioguide: F000461
     thomas: '02065'
@@ -12572,6 +12641,13 @@
     contact_form: http://frelinghuysen.house.gov/contactus/form.cfm
     office: 2306 Rayburn House Office Building
     rss_url: http://frelinghuysen.house.gov/common/rss/?rss=3
+  family:
+  - name: Peter Hood Ballantine Frelinghuysen Jr.
+    relation: son
+  - name: Frederick Frelinghuysen
+    relation: great great grandson
+  - name: Theodore Frelinghuysen
+    relation: great great great nephew
 - id:
     bioguide: F000455
     thomas: '01895'
@@ -15449,6 +15525,9 @@
     contact_form: https://forms.house.gov/holt/webforms/issue_subscribe.htm
     office: 1214 Longworth House Office Building
     rss_url: http://holt.house.gov/index.php?format=feed&amp;type=rss
+  family:
+  - name: Rush D. Holt
+    relation: son
 - id:
     bioguide: H001034
     thomas: '01634'
@@ -15889,6 +15968,9 @@
     contact_form: http://hunter.house.gov/contact-me/email-me
     office: 223 Cannon House Office Building
     rss_url: http://hunter.house.gov/rss.xml
+  family:
+  - name: Duncan Lee Hunter
+    relation: son
 - id:
     bioguide: H001060
     thomas: '02069'
@@ -16799,6 +16881,9 @@
     contact_form: http://jones.house.gov/contact-me/email-me
     office: 2333 Rayburn House Office Building
     rss_url: http://jones.house.gov/rss.xml
+  family:
+  - name: Walter Beaman Jones Sr.
+    relation: son
 - id:
     bioguide: J000289
     thomas: '01868'
@@ -18316,6 +18401,9 @@
     contact_form: http://latta.house.gov/contact/
     office: 2448 Rayburn House Office Building
     rss_url: http://latta.house.gov/news/rss.aspx
+  family:
+  - name: 'Delbert L. Latta '
+    relation: son
 - id:
     bioguide: L000174
     thomas: '01383'
@@ -18661,6 +18749,9 @@
     contact_form: http://levin.house.gov/contact-me/email-me
     office: 1236 Longworth House Office Building
     rss_url: http://levin.house.gov/rss.xml
+  family:
+  - name: Carl Levin
+    relation: brother
 - id:
     bioguide: L000287
     thomas: '00688'
@@ -18856,6 +18947,9 @@
     contact_form: http://www.house.gov/formlipinski/zipauth.html
     office: 1717 Longworth House Office Building
     rss_url: http://www.lipinski.house.gov/common/rss//index.cfm?rss=25
+  family:
+  - name: William Oliver Lipinski
+    relation: son
 - id:
     bioguide: L000554
     thomas: '00699'
@@ -20194,6 +20288,9 @@
     contact_form: https://forms.house.gov/matsui/webforms/issue_subscribe.htm
     office: 2434 Rayburn House Office Building
     rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
+  family:
+  - name: Robert Matsui
+    relation: wife
 - id:
     bioguide: M000303
     thomas: '00754'
@@ -21560,6 +21657,9 @@
     contact_form: http://mica.house.gov/contact-me/
     office: 2187 Rayburn House Office Building
     rss_url: http://mica.house.gov/common/rss/index.cfm?rss=25
+  family:
+  - name: Daniel Andrew Mica
+    relation: brother
 - id:
     bioguide: M001149
     thomas: '01730'
@@ -22516,6 +22616,9 @@
     office: 709 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.murkowski.senate.gov/public/?a=rss.feed
+  family:
+  - name: Frank Hughes Murkowski
+    relation: daughter
 - id:
     bioguide: M001169
     thomas: '01837'
@@ -23974,6 +24077,9 @@
     office: 124 Russell Senate Office Building
     state_rank: junior
     rss_url: http://paul.senate.gov/rss/?p=news
+  family:
+  - name: Ronald Ernest Paul
+    relation: son
 - id:
     bioguide: P000594
     thomas: '01930'
@@ -24231,6 +24337,9 @@
     contact_form: http://pelosi.house.gov/contact/email-me.shtml
     office: 235 Cannon House Office Building
     rss_url: http://pelosi.house.gov/atom.xml
+  family:
+  - name: Thomas D?Alesandro Jr.
+    relation: daughter
 - id:
     bioguide: P000593
     thomas: '01835'
@@ -27065,6 +27174,9 @@
     contact_form: http://www.house.gov/writerep
     office: 2330 Rayburn House Office Building
     rss_url: http://roybal-allard.house.gov/news/rss.aspx
+  family:
+  - name: Edward R. Roybal
+    relation: daughter
 - id:
     bioguide: R000487
     thomas: '00998'
@@ -27756,6 +27868,9 @@
     contact_form: http://www.lorettasanchez.house.gov/index.php?option=com_content&amp;task=view&amp;id=218&amp;Itemid=17
     office: 1114 Longworth House Office Building
     rss_url: http://lorettasanchez.house.gov/rss.xml
+  family:
+  - name: Linda S?nchez
+    relation: sister
 - id:
     bioguide: S001168
     thomas: '01854'
@@ -27817,6 +27932,9 @@
     contact_form: http://sarbanes.house.gov/federal.asp
     office: 2444 Rayburn House Office Building
     rss_url: http://sarbanes.house.gov/rss_news.asp
+  family:
+  - name: Senator Paul Sarbanes
+    relation: son
 - id:
     bioguide: S001176
     thomas: '01892'
@@ -28446,7 +28564,7 @@
     last: Scott
     official_full: David Scott
   bio:
-    birthday: '1946-06-27'
+    birthday: '1945-06-27'
     gender: M
     religion: Baptist
   terms:
@@ -29428,6 +29546,9 @@
     contact_form: http://shuster.house.gov/index.cfm?sectionid=58
     office: 2209 Rayburn House Office Building
     rss_url: http://shuster.house.gov/common/rss//index.cfm?rss=49
+  family:
+  - name: E. G. ?Bud? Shuster
+    relation: son
 - id:
     bioguide: S001148
     thomas: '01590'
@@ -30415,6 +30536,9 @@
     contact_form: http://www.house.gov/writerep
     office: 2423 Rayburn House Office Building
     rss_url: http://lindasanchez.house.gov/index.php?format=feed&amp;type=rss
+  family:
+  - name: Loretta Sanchez
+    relation: sister
 - id:
     bioguide: T000459
     thomas: '01566'
@@ -31311,6 +31435,9 @@
     contact_form: http://tsongas.house.gov/?sectionid=11&amp;sectiontree=3,11
     office: 1607 Longworth House Office Building
     rss_url: http://tsongas.house.gov/rss/press-releases.xml
+  family:
+  - name: Paul Tsongas
+    relation: wife
 - id:
     bioguide: T000463
     thomas: '01741'
@@ -34257,6 +34384,9 @@
     url: http://payne.house.gov
     rss_url: http://payne.house.gov/rss.xml
     contact_form: http://payne.house.gov/contact/email-me
+  family:
+  - name: Donald Milford Payne
+    relation: son
 - id:
     lis: S353
     thomas: '02173'
@@ -35921,6 +36051,17 @@
     rss_url: http://kennedy.house.gov/rss.xml
     contact_form: http://kennedy.house.gov/contact/email-me
     fax: 202-225-0182
+  family:
+  - name: Joseph Patrick Kennedy II
+    relation: son
+  - name: Edward Moore Kennedy
+    relation: great nephew
+  - name: John Fitzgerald Kennedy
+    relation: great nephew
+  - name: John Francis Fitzgerald
+    relation: great great grandson
+  - name: Patrick Joseph Kennedy
+    relation: first cousin once removed
 - id:
     govtrack: 412544
     bioguide: D000620
@@ -36028,6 +36169,9 @@
     url: http://danielkildee.house.gov
     rss_url: http://dankildee.house.gov/rss.xml
     contact_form: http://danielkildee.house.gov/contact/email-me
+  family:
+  - name: Dale Edward Kildee
+    relation: nephew
 - id:
     govtrack: 412547
     bioguide: B001280
