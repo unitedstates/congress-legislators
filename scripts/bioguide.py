@@ -9,6 +9,7 @@
 #  --current: do *only* current legislators (default: true)
 #  --historical: do *only* historical legislators (default: false)
 #  --bioguide: do *only* a single legislator
+#  --relationships: Get familiar relationships to other members of congress, if present
 
 import lxml.html, StringIO
 import datetime
@@ -22,6 +23,47 @@ def birthday_for(string):
   if match:
     if len(re.findall(";", match.group(1))) <= 1:
       return match.group(2).strip()
+
+def relationships_of(string):
+  # relationship data is stored in a parenthetical immediately after the end of the </font> tag in the bio
+  # e.g. son of Joseph Patrick Kennedy, II, and great-nephew of Edward Moore Kennedy and John Fitzgerald Kennedy
+  pattern = "^\((.*?)\)"
+  match = re.search(pattern, string, re.I)
+
+  relationships = []
+  
+  if match and len(match.groups()) > 0:
+    relationship_text = match.group(1).encode("ascii", "replace")
+
+    # since some relationships refer to multiple people--great-nephew of Edward Moore Kennedy AND John Fitzgerald Kennedy--we need a special grammar
+    from nltk import tree, pos_tag, RegexpParser
+    tokens = re.split("[ ,;]+|-(?![0-9])", relationship_text)
+    pos = pos_tag(tokens)
+
+    grammar = r"""
+      NAME: {<NNP>+}
+      NAMES: { <IN><NAME>(?:<CC><NAME>)* }
+      RELATIONSHIP: { <JJ|NN|RB|VB|VBD|VBN|IN|PRP\$>+ }
+      MATCH: { <RELATIONSHIP><NAMES> }
+      """
+    cp = RegexpParser(grammar)   
+    chunks = cp.parse(pos)
+
+    # iterate through the Relationship/Names pairs
+    for n in chunks:
+      if isinstance(n, tree.Tree) and n.node == "MATCH":
+        people = []
+        relationship = None
+        for piece in n:
+          if piece.node == "RELATIONSHIP":
+            relationship = " ".join([x[0] for x in piece])
+          elif piece.node == "NAMES":
+            for name in [x for x in piece if isinstance(x, tree.Tree)]:
+              people.append(" ".join([x[0] for x in name]))
+        for person in people:
+          relationships.append({ "relation": relationship, "name": person})
+  return relationships
+
 
 debug = utils.flags().get('debug', False)
 
@@ -42,7 +84,6 @@ else:
 print "Loading %s..." % filename
 legislators = load_data(filename)
 
-
 # reoriented cache to access by bioguide ID
 by_bioguide = { }
 for m in legislators:
@@ -51,15 +92,15 @@ for m in legislators:
 
 
 # optionally focus on one legislator
-
 bioguide = utils.flags().get('bioguide', None)
 if bioguide:
   bioguides = [bioguide]
 else:
   bioguides = by_bioguide.keys()
-
+  
 warnings = []
 missing = []
+families = 0
 count = 0
 
 for bioguide in bioguides:
@@ -111,6 +152,16 @@ for bioguide in bioguides:
     by_bioguide[bioguide]["bio"] = {}
 
   by_bioguide[bioguide]["bio"]["birthday"] = birthday
+
+  if utils.flags().get("relationships", False):
+    #relationship information, if present, is in a parenthetical immediately after the name.
+    #should always be present if we passed the IndexError catch above
+    after_name = dom.cssselect("p font")[0].tail.strip()
+    relationships = relationships_of(after_name)
+    if len(relationships):
+      families = families + 1
+      by_bioguide[bioguide]["family"] = relationships
+  
   count = count + 1
 
 
@@ -125,6 +176,9 @@ print "Saving data to %s..." % filename
 save_data(legislators, filename)
 
 print "Saved %d legislators to %s" % (count, filename)
+
+if utils.flags().get("relationships", False):
+  print "Found family members for %d of those legislators" % families
 
 # Some testing code to help isolate and fix issued:
 # f
