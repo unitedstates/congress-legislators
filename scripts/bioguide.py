@@ -127,6 +127,7 @@ def relationships_of(bioguide_id, string):
   if match and len(match.groups()) > 0:
     relationship_text = match.group(1)
     if isinstance(relationship_text, unicode):
+      # For the life of me, cannot figure out where this encoding comes from so fixing the hard way
       relationship_text = relationship_text.encode("ascii", "xmlcharrefreplace").replace("&#146;", "'").replace("&#147;", '"').replace("&#148;", '"').replace("&#225;", 'a')
       
     # since some relationships refer to multiple people--great-nephew of Edward Moore Kennedy AND John Fitzgerald Kennedy--we need a special grammar
