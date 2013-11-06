@@ -9,12 +9,13 @@
 #  --current: do *only* current legislators (default: true)
 #  --historical: do *only* historical legislators (default: false)
 #  --bioguide: do *only* a single legislator
-#  --relationships: Get familiar relationships to other members of congress, if present
+#  --relatives: Get familial relationships to other members of congress past and present, when applicable
 
 import lxml.html, StringIO
 import datetime
-import re
+import re, json
 import utils
+from collections import defaultdict
 from utils import download, load_data, save_data, parse_date
 
 def birthday_for(string):
@@ -24,26 +25,122 @@ def birthday_for(string):
     if len(re.findall(";", match.group(1))) <= 1:
       return match.group(2).strip()
 
-def relationships_of(string):
+
+lookup_legislator_cache = {}
+diminutives = {}
+def lookup_legislator(name, bioguide=None):
+  import unidecode
+  
+  # This is a basic lookup function given the legislator's name, adapted from congress repo
+  # On the first load, cache all of the legislators' terms in memory.
+  # if bioguide, EXCLUDES anyone with that bioguide (useful if looking for Jr./Sr and have one already)
+  global lookup_legislator_cache
+  if not lookup_legislator_cache:
+    lookup_legislator_cache = defaultdict(lambda: defaultdict(list))
+    current = load_data("legislators-current.yaml")
+    historical = load_data("legislators-historical.yaml")
+    members = current + historical
+    for member in members:
+      if isinstance(member["name"]["last"], unicode):
+        member["name"]["last"] = unidecode.unidecode(member["name"]["last"])
+      lookup_legislator_cache[member["name"]["last"]][member["name"]["first"]].append({
+          "bioguide": member["id"]["bioguide"],
+          "birthday": member.get("bio", {}).get("birthday", ""),
+          "name": member["name"]
+        })
+
+    with open("lookup.json", "w") as f:
+      f.write(json.dumps(lookup_legislator_cache, indent=2))
+
+    # get list of diminutives
+    with open("diminutives.csv", "r") as f:
+      for names in [x.split(",") for x in f.read().split("\r\n")]:
+        diminutives[names[0].title()] = [x.title() for x in names[1:]]
+
+  # At least one entry (John Sarbanes) errantly uses title in relationship clause
+  name = name.replace("Senator ", "")
+
+  parts = re.split(" ([A-Za-z]{2,4}\.|[IV]+$)", name)
+  names = parts[0].split(" ")
+  
+  # parse raw name
+  last_name = names[-1]
+  first_name = names[0]
+  middle_name = None if len(names) == 1 else names[1] 
+  suffix = None if len(parts) < 2 else parts[1]
+  nickname = re.findall('"(.*?)"', name)
+
+  matches = lookup_legislator_cache[last_name][first_name]
+  if bioguide:
+    matches = [x for x in matches if x["bioguide"] != bioguide]
+  if not len(matches):
+    # try nicknames for everyone with that last name
+    if len(nickname):
+      for fn in lookup_legislator_cache[last_name]:
+        members = lookup_legislator_cache[last_name][fn]
+        for member in members:
+          if member["name"].get("nickname", "") == nickname[0]:
+            return member
+
+    # try diminutives
+    if first_name in diminutives:
+      for fn in lookup_legislator_cache[last_name]:
+        if fn in diminutives[first_name]:
+          if len(lookup_legislator_cache[last_name][fn]) == 1:
+            return lookup_legislator_cache[last_name][fn][0]
+          else:
+            matches = lookup_legislator_cache[last_name][fn]
+
+    if not len(matches):
+      print "No matches for " + name
+      return []
+  if len(matches) == 1:
+    return matches[0]
+
+  # if multiple people with that first name, try suffix then M.I.
+  if suffix:
+    for member in matches:
+      if member["name"].get("suffix", "") == suffix:
+        return member
+
+  if middle_name:
+    for member in matches:
+      if member["name"].get("middle", "") == middle_name:
+        return member
+  else:
+    #return first match w/o a middle name (see Frederick Frelinghuysens)
+    for member in matches:
+      if member["name"].get("middle", "") == "":
+        return member
+    
+  print "Too many matches for " + name
+  print matches
+  return []
+ 
+def relationships_of(bioguide_id, string):
   # relationship data is stored in a parenthetical immediately after the end of the </font> tag in the bio
-  # e.g. son of Joseph Patrick Kennedy, II, and great-nephew of Edward Moore Kennedy and John Fitzgerald Kennedy
+  # e.g. "(son of Joseph Patrick Kennedy, II, and great-nephew of Edward Moore Kennedy and John Fitzgerald Kennedy)"
   pattern = "^\((.*?)\)"
   match = re.search(pattern, string, re.I)
 
   relationships = []
   
   if match and len(match.groups()) > 0:
-    relationship_text = match.group(1).encode("ascii", "replace")
-
+    relationship_text = match.group(1)
+    if isinstance(relationship_text, unicode):
+      relationship_text = relationship_text.encode("ascii", "xmlcharrefreplace").replace("&#146;", "'").replace("&#147;", '"').replace("&#148;", '"').replace("&#225;", 'a')
+      
     # since some relationships refer to multiple people--great-nephew of Edward Moore Kennedy AND John Fitzgerald Kennedy--we need a special grammar
     from nltk import tree, pos_tag, RegexpParser
-    tokens = re.split("[ ,;]+|-(?![0-9])", relationship_text)
+    tokens = re.split("[ ,;]+|(-(?![A-Z]))", relationship_text)
+    tokens = [x for x in tokens if x]
     pos = pos_tag(tokens)
 
     grammar = r"""
       NAME: {<NNP>+}
+      NAME: {<NAME><:><NAME>}
       NAMES: { <IN><NAME>(?:<CC><NAME>)* }
-      RELATIONSHIP: { <JJ|NN|RB|VB|VBD|VBN|IN|PRP\$>+ }
+      RELATIONSHIP: { <JJ|NN|RB|VB|VBD|VBN|IN|:|PRP\$>+ }
       MATCH: { <RELATIONSHIP><NAMES> }
       """
     cp = RegexpParser(grammar)   
@@ -61,7 +158,12 @@ def relationships_of(string):
             for name in [x for x in piece if isinstance(x, tree.Tree)]:
               people.append(" ".join([x[0] for x in name]))
         for person in people:
-          relationships.append({ "relation": relationship, "name": person})
+          match = lookup_legislator(person, bioguide)
+          relationships.append({
+            "name": person.replace(" , ", ", "),
+            "relation_to": relationship.replace(" - ", "-"),
+            "bioguide": "" if not len(match) else match["bioguide"]
+          })
   return relationships
 
 
@@ -84,24 +186,25 @@ else:
 print "Loading %s..." % filename
 legislators = load_data(filename)
 
+
 # reoriented cache to access by bioguide ID
 by_bioguide = { }
 for m in legislators:
   if m["id"].has_key("bioguide"):
     by_bioguide[m["id"]["bioguide"]] = m
 
-
 # optionally focus on one legislator
+
 bioguide = utils.flags().get('bioguide', None)
 if bioguide:
   bioguides = [bioguide]
 else:
   bioguides = by_bioguide.keys()
-  
+
 warnings = []
 missing = []
-families = 0
 count = 0
+families = [0, 0, 0]
 
 for bioguide in bioguides:
   url = "http://bioguide.congress.gov/scripts/biodisplay.pl?index=%s" % bioguide
@@ -153,15 +256,17 @@ for bioguide in bioguides:
 
   by_bioguide[bioguide]["bio"]["birthday"] = birthday
 
-  if utils.flags().get("relationships", False):
+  if utils.flags().get("relatives", False):
     #relationship information, if present, is in a parenthetical immediately after the name.
     #should always be present if we passed the IndexError catch above
     after_name = dom.cssselect("p font")[0].tail.strip()
-    relationships = relationships_of(after_name)
+    relationships = relationships_of(bioguide, after_name)
     if len(relationships):
-      families = families + 1
       by_bioguide[bioguide]["family"] = relationships
-  
+      families[0] += 1
+      families[1] += len(relationships)
+      families[2] += len([x for x in relationships if x["bioguide"] == ""])
+      
   count = count + 1
 
 
@@ -177,9 +282,14 @@ save_data(legislators, filename)
 
 print "Saved %d legislators to %s" % (count, filename)
 
-if utils.flags().get("relationships", False):
-  print "Found family members for %d of those legislators" % families
+if utils.flags().get("relatives", False):
+  print "Found %d family members for %d of those legislators" % (families[1], families[0])
+  print "Failed to find bioguide ids for %d of those family members" % families[2]
 
+
+
+
+            
 # Some testing code to help isolate and fix issued:
 # f
 # none = "PEARSON, Joseph, a Representative from North Carolina; born in Rowan County, N.C., in 1776; completed preparatory studies; studied law; was admitted to the bar and commenced practice in Salisbury, N.C.; member of the State house of commons; elected as a Federalist to the Eleventh, Twelfth, and Thirteenth Congresses (March 4, 1809-March 3, 1815); while in Congress fought a duel with John George Jackson, of Virginia, and on the second fire wounded his opponent in the hip; died in Salisbury, N.C., October 27, 1834."
