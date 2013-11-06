@@ -16,10 +16,6 @@
     thomas_id: '16'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Nutrition and Horticulture
-    thomas_id: '03'
-    address: 1301 LHOB; Washington, DC 20515
-    phone: (202) 225-2171
   - name: Livestock, Rural Development, and Credit
     thomas_id: '29'
     address: 1301 LHOB; Washington, DC 20515
@@ -138,10 +134,6 @@
     thomas_id: '16'
     address: 2129 RHOB; Washington, DC 20515-6053
     phone: (202) 225-7502
-  - name: Domestic Monetary Policy and Technology
-    thomas_id: '19'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
   - name: Financial Institutions and Consumer Credit
     thomas_id: '15'
     address: 2129 RHOB; Washington, DC 20515-6051
@@ -215,10 +207,6 @@
     thomas_id: '14'
     address: H2-257 FHOB; Washington, DC 20515
     phone: (202) 226-6434
-  - name: Oversight and Investigations
-    thomas_id: '17'
-    address: 2401A RHOB; Washington, DC 20515
-    phone: (202) 226-5045
   - name: Terrorism, Nonproliferation, and Trade
     thomas_id: '18'
     address: H2-340 FHOB; Washington, DC 20515
@@ -260,15 +248,6 @@
     thomas_id: '28'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: TARP, Financial Services and Bailouts of Public and Private Programs
-    thomas_id: '29'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
-  - name: Technology, Information Policy, Intergovernmental Relations and Procurement
-      Reform
-    thomas_id: '30'
-    address: 2157 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
   rss_url: http://oversight.house.gov/feed/rss/
@@ -277,15 +256,6 @@
   url: http://cha.house.gov/
   thomas_id: HSHA
   house_committee_id: HA
-  subcommittees:
-  - name: Oversight
-    thomas_id: '06'
-    address: 1309 LHOB; Washington, DC 20515
-    phone: (202) 225-8281
-  - name: Elections
-    thomas_id: '08'
-    address: 1309 LHOB; Washington, DC 20515-6157
-    phone: (202) 225-8281
   address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-8281
   rss_url: http://cha.house.gov/rss.xml
@@ -429,10 +399,6 @@
     thomas_id: '01'
     address: B353 RHOB; Washington, DC 20515-6217
     phone: (202) 225-3926
-  - name: Intellectual Property, Competition, and the Internet
-    thomas_id: '12'
-    address: B352 RHOB; Washington, DC 20515-6218
-    phone: (202) 225-5741
   - name: Regulatory Reform, Commercial, and Antitrust Law
     thomas_id: '05'
     address: 517 CHOB; Washington, DC 20515-6218
@@ -543,16 +509,8 @@
     thomas_id: '21'
     address: 2321 RHOB; Washington, DC 20515-6301
     phone: (202) 225-6371
-  - name: Research
-    thomas_id: '14'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-6371
   - name: Space
     thomas_id: '16'
-    address: B374 RHOB; Washington, DC 20515-6301
-    phone: (202) 225-6371
-  - name: Technology
-    thomas_id: '19'
     address: B374 RHOB; Washington, DC 20515-6301
     phone: (202) 225-6371
   - name: Environment

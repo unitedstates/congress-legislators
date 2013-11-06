@@ -7,7 +7,7 @@ This repository contains data about legislators:
 
 * legislators-current.yaml: Currently serving Members of Congress (as of last update).
 * legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
-* legislators-social-media.yaml: Current social media accounts for Members of Congress.
+* legislators-social-media.yaml: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
 
 And about committees:
 
@@ -181,7 +181,7 @@ Social Media Data Dictionary
 
 The social media file legislators-social-media.yaml stores current social media account information.
 
-Each record has two sections: id and social. The id section identifies the legislator using biogiude, thomas, and govtrack IDs (where available). The social section has social media account identifiers:
+Each record has two sections: `id` and `social`. The `id` section identifies the legislator using bioguide, thomas, and govtrack IDs (where available). The `social` section has social media account identifiers:
 
 * twitter: The current official Twitter handle of the legislator.
 * youtube: The current official YouTube username of the legislator.

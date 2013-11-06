@@ -25,7 +25,6 @@ def birthday_for(string):
     if len(re.findall(";", match.group(1))) <= 1:
       return match.group(2).strip()
 
-
 lookup_legislator_cache = {}
 diminutives = {}
 def lookup_legislator(name, bioguide=None):
@@ -266,7 +265,7 @@ for bioguide in bioguides:
       families[0] += 1
       families[1] += len(relationships)
       families[2] += len([x for x in relationships if x["bioguide"] == ""])
-      
+     
   count = count + 1
 
 
@@ -286,10 +285,6 @@ if utils.flags().get("relatives", False):
   print "Found %d family members for %d of those legislators" % (families[1], families[0])
   print "Failed to find bioguide ids for %d of those family members" % families[2]
 
-
-
-
-            
 # Some testing code to help isolate and fix issued:
 # f
 # none = "PEARSON, Joseph, a Representative from North Carolina; born in Rowan County, N.C., in 1776; completed preparatory studies; studied law; was admitted to the bar and commenced practice in Salisbury, N.C.; member of the State house of commons; elected as a Federalist to the Eleventh, Twelfth, and Thirteenth Congresses (March 4, 1809-March 3, 1815); while in Congress fought a duel with John George Jackson, of Virginia, and on the second fire wounded his opponent in the hip; died in Salisbury, N.C., October 27, 1834."
