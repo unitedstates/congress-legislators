@@ -2,8 +2,10 @@
 # --------------------
 
 # This module configures the YAML library so that it round-trips
-# files without disturbing field order and so that it uses some
-# saner output options than the defaults.
+# files:
+#   a) without disturbing field order
+#   b) so that it uses some saner output options than the defaults
+#   c) preserving any comment block at the very beginning of the file
 #
 # Usage:
 #
@@ -33,8 +35,11 @@
 #   for octal-ish strings like "09" that are invalid octal notation.)
 # * Serializes null values as the tilde, since "null" might be confused
 #   for a string-typed value.
+# * If a block comment appears at the start of the file (i.e. one or
+#   more lines starting with a '#', write back out the commend if the
+#   same object is written with rtyaml.dump().)
 
-import sys, re
+import sys, re, io
 from collections import OrderedDict
 
 import yaml
@@ -99,13 +104,49 @@ Dumper.add_representer(unicode, our_string_representer)
 # default output converts that to "null". Override to always use "~".
 Dumper.add_representer(type(None), lambda dumper, value : \
 	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
-        
+
+# Use a subclss of list when trying to hold onto a block comment at the
+# start of a stream. Make sure it serializes back to a plain YAML list.
+class RtYamlList(list):
+    pass
+def RtYamlList_serializer(self, data):
+    return self.represent_sequence('tag:yaml.org,2002:seq', data)
+Dumper.add_representer(RtYamlList, RtYamlList_serializer)
+
 # Provide some wrapper methods that apply typical settings.
 
 def load(stream):
-    return yaml.load(stream, Loader=Loader)
+    # Read any comment block at the start. We can only do this if we can
+    # peek the stream. Convert a file to an io.BufferedReader for convenience.
+    # Attempt to read for a comment block if the stream has a peek method.
+    initial_comment_block = ""
+    if isinstance(stream, file):
+        stream = io.open(stream.fileno(), mode="rb", closefd=False)
+    if hasattr(stream, "peek") and hasattr(stream, "readline"):
+        while stream.peek(1)[0] == "#":
+            initial_comment_block += stream.readline()
+
+    # Read the object from the stream.
+    obj = yaml.load(stream, Loader=Loader)
+
+    # Attach our initial comment to the object so we can save it later (assuming
+    # this object is written back out).
+    if initial_comment_block:
+        if isinstance(obj, list):
+            # The list class can't be assigned any custom attributes, but we can make a subclass that can.
+            # Clone the list object into a RtYamlList instance.
+            obj = RtYamlList(obj)
+        obj.__initial_comment_block = initial_comment_block
+
+    return obj
 
 def dump(data, stream):
+    # If we pulled in an initial comment block when reading the stream, write
+    # it back out at the start of the stream.
+    if hasattr(data, '__initial_comment_block'):
+        stream.write(data.__initial_comment_block)
+
+    # Write the object to the stream.
     yaml.dump(data, stream, default_flow_style=False, allow_unicode=True, Dumper=Dumper)
 
 def pprint(data):
