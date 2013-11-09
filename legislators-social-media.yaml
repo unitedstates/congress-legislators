@@ -3979,6 +3979,7 @@
     thomas: '02075'
     govtrack: 412493
   social:
+    twitter: kellyayotte
     facebook: kellyayottenh
     youtube: SenatorAyotte
     facebook_id: '123436097729198'
@@ -4904,6 +4905,7 @@
     thomas: '01609'
     govtrack: 400418
   social:
+    twitter: davidvitter
     youtube: SenatorVitter
     youtube_id: UCUZnGspUWNGGbK3FTdrciLA
 - id:
@@ -4927,6 +4929,7 @@
     thomas: '01969'
     govtrack: 412378
   social:
+    twitter: alfranken
     youtube: SenatorFranken
     youtube_id: UCMFNp5ybWmz6IlSXmPacTOw
 - id:
@@ -4966,6 +4969,7 @@
     thomas: '01826'
     govtrack: 412242
   social:
+    twitter: amyklobuchar
     youtube: senatorklobuchar
     youtube_id: UCvdeJsDsV51tFb_hVqvtYGA
 - id:
@@ -5087,13 +5091,17 @@
 - id:
     bioguide: B000243
     thomas: '00066'
+    govtrack: 300005
   social:
+    twitter: maxbaucus
     youtube: SenatorBaucus
     youtube_id: UCpM2Mjz2u7iRDgXvk7RJyoA
 - id:
     bioguide: G000555
     thomas: '01866'
+    govtrack: 412223    
   social:
+    twitter: sengillibrand
     youtube: KirstenEGillibrand
     youtube_id: UCVEloQogVsmnkd5vxJInmYg
 - id:
@@ -5178,3 +5186,9 @@
     twitter: chrismurphyct
     youtube: senchrismurphy
     youtube_id: UCbcEa40PIFpLpdDe06n3F3Q
+- id:
+    bioguide: B001288
+    thomas: '02194'
+    govtrack: 412598
+  social:
+    twitter: corybooker
