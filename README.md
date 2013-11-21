@@ -422,16 +422,6 @@ Other Scripts
 
 The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
 
-Who's Using This Data
----------------------
-
-Here are the ones we know about:
-
-* [GovTrack.us](http://govtrack.us)
-* [Sunlight Congress API](http://sunlightlabs.github.com/congress/)
-* [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
-* [OpenCongress.org](http://www.opencongress.org)
-
 ### Related libraries
 
 * Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
@@ -439,3 +429,17 @@ Here are the ones we know about:
 ### License
 
 All data and code in this project is [licensed under CC0](LICENSE) ([summary](http://creativecommons.org/publicdomain/zero/1.0/)).
+
+### Who's Using This Data
+
+Ongoing projects making use of this data:
+
+* [GovTrack.us](https://www.govtrack.us)
+* [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
+* [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
+* [OpenCongress.org](http://www.opencongress.org)
+
+Stories written with this data:
+
+* http://swampland.time.com/2013/11/15/meet-the-39-democrats-who-voted-with-the-house-on-obamacare/
+* http://swampland.time.com/2013/10/28/liz-cheney-and-the-family-business-a-chart-of-all-congressional-dynasties/
