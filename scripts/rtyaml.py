@@ -16,8 +16,8 @@
 #
 # Dependencies:
 #
-# * pyyaml (in Ubuntu, the python-yaml package)
 # * libyaml (in Ubuntu, the libyaml-0-2 package)
+# * pyyaml (in Ubuntu, the python-yaml package)
 #
 # This library does the following:
 #
@@ -44,7 +44,7 @@ from collections import OrderedDict
 
 import yaml
 try:
-    # Use the native code backends, if available.	
+    # Use the native code backends, if available.
     from yaml import CSafeLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import SafeLoader as Loader, Dumper
