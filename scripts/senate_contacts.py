@@ -87,17 +87,17 @@ for node in dom.xpath("member"):
 	
 	url = str(node.xpath("string(website)")).strip()
 	
-	# kill trailing slashes
-	url = re.sub("/$", "", url)
+	# kill trailing slashes and force hostname to lowercase since around December 2013 they started uppercasing "Senate.gov"
+	url = re.sub("/$", "", url).replace(".Senate.gov", ".senate.gov")
 
 	if not url.startswith("/"): term["url"] = url # temporary home pages for new senators
-	term["address"] = str(node.xpath("string(address)")).strip()
-	term["office"] = string.capwords(term["address"].split(" WASHINGTON ")[0])
+	term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
+	term["office"] = string.capwords(term["address"].upper().split(" WASHINGTON ")[0])
 
 	phone = str(node.xpath("string(phone)")).strip()
 	term["phone"] = phone.replace("(", "").replace(")", "").replace(" ", "-")
 	
-	contact_form = str(node.xpath("string(email)")).strip()
+	contact_form = str(node.xpath("string(email)")).strip().replace(".Senate.gov", ".senate.gov")
 	if contact_form: # can be blank
 		term["contact_form"] = contact_form
 
