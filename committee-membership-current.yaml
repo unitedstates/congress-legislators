@@ -1371,17 +1371,17 @@ HSAP04:
   bioguide: C001063
   thomas: '01807'
 HSAP06:
-- name: Michael K. Simpson
+- name: Ken Calvert
   party: majority
   rank: 1
   title: Chair
-  bioguide: S001148
-  thomas: '01590'
-- name: Ken Calvert
-  party: majority
-  rank: 2
   bioguide: C000059
   thomas: '00165'
+- name: Michael K. Simpson
+  party: majority
+  rank: 2
+  bioguide: S001148
+  thomas: '01590'
 - name: Tom Cole
   party: majority
   rank: 3
@@ -1482,17 +1482,17 @@ HSAP07:
   bioguide: H001034
   thomas: '01634'
 HSAP10:
-- name: Rodney P. Frelinghuysen
+- name: Michael K. Simpson
   party: majority
   rank: 1
   title: Chair
-  bioguide: F000372
-  thomas: '00414'
-- name: Michael K. Simpson
-  party: majority
-  rank: 2
   bioguide: S001148
   thomas: '01590'
+- name: Rodney P. Frelinghuysen
+  party: majority
+  rank: 2
+  bioguide: F000372
+  thomas: '00414'
 - name: Alan Nunnelee
   party: majority
   rank: 3
@@ -1810,20 +1810,25 @@ HSAP23:
   bioguide: P000099
   thomas: '00893'
 HSAP24:
-- name: Jeff Fortenberry
+- name: Tom Cole
   party: majority
   rank: 1
   title: Chair
+  bioguide: C001053
+  thomas: '01742'
+- name: Jeff Fortenberry
+  party: majority
+  rank: 2
   bioguide: F000449
   thomas: '01793'
 - name: David G. Valadao
   party: majority
-  rank: 2
+  rank: 3
   bioguide: V000129
   thomas: '02105'
 - name: Andy Harris
   party: majority
-  rank: 3
+  rank: 4
   bioguide: H001052
   thomas: '02026'
 - name: Debbie Wasserman Schultz
@@ -4258,6 +4263,11 @@ HSED02:
   rank: 10
   bioguide: W000808
   thomas: '02004'
+- name: Suzanne Bonamici
+  party: minority
+  rank: 11
+  bioguide: B001278
+  thomas: '02092'
 HSED10:
 - name: Tim Walberg
   party: majority
@@ -4326,11 +4336,11 @@ HSED10:
   rank: 5
   bioguide: S001177
   thomas: '01962'
-- name: Suzanne Bonamici
+- name: Mark Pocan
   party: minority
   rank: 6
-  bioguide: B001278
-  thomas: '02092'
+  bioguide: P000607
+  thomas: '02171'
 HSED13:
 - name: Virginia Foxx
   party: majority
@@ -4434,6 +4444,11 @@ HSED13:
   rank: 8
   bioguide: L000565
   thomas: '01846'
+- name: Frederica S. Wilson
+  party: minority
+  rank: 9
+  bioguide: W000808
+  thomas: '02004'
 HSED14:
 - name: Todd Rokita
   party: majority
@@ -4522,11 +4537,11 @@ HSED14:
   rank: 7
   bioguide: S001177
   thomas: '01962'
-- name: Frederica S. Wilson
+- name: Mark Pocan
   party: minority
   rank: 8
-  bioguide: W000808
-  thomas: '02004'
+  bioguide: P000607
+  thomas: '02171'
 HSFA:
 - name: Edward R. Royce
   party: majority
