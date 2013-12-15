@@ -1,0 +1,70 @@
+#!/bin/bash
+# run_script_to_branch
+# --------------------
+# Creates a branch, executes a script, and optioanally creates a pull request
+# using github's hub tool (http://hub.github.com/).
+#
+# Usage:
+#
+# ./run_script_to_branch [-push] script_name.py
+#
+# Example:
+#
+# ./run_script_to_branch -push senate_contacts.py
+
+
+# Command-line options.
+PUSH=0
+if [[ "$1" = "-push" ]]; then
+	if ! which hub>/dev/null; then
+		echo "Install 'hub' from hub.github.com to automatically create a pull request."
+	fi
+	PUSH=1
+	shift;
+fi
+
+# Check that we have an argument for which script to run.
+if [ -z "$1" ]; then
+	echo "usage: $0 script_name.py";
+	exit;
+fi
+
+# Check that there are no unstaged changes.
+# see http://stackoverflow.com/questions/5139290/how-to-check-if-theres-nothing-to-be-committed-in-the-current-branch
+if ! git diff-files --quiet --ignore-submodules; then
+    echo "Cannot run this now: You have unstaged changes."
+    exit;
+fi
+
+# Create a branch with the name of the script, the date, and a random string to prevent accidental collisions.
+BRANCH_NAME=$1_`date +%Y%m%d`_$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 6 | head -n 1)
+git fetch
+git checkout -b $BRANCH_NAME master
+
+# Run the script.
+echo Running $@...
+./$@
+
+# If there were no changes. Return to the master branch and then delete our temporary branch.
+if git diff-files --quiet --ignore-submodules; then
+	echo No changes.;
+	git checkout master;
+	git branch -d $BRANCH_NAME;
+	exit;
+fi
+
+# Commit to the branch.
+CMD=$@
+git commit -am "running $CMD at `date "+%FT%T"`"
+
+if [ $PUSH -gt 0 ]; then
+	# Push to github.
+	if git push -u origin $BRANCH_NAME; then
+		if hub pull-request -m "[auto] $CMD run at `date "+%FT%T"`"; then
+			# Success, so we can delete our local copy. Use -D to force delete
+			# even though it's not merged.
+			git checkout master;
+			git branch -D $BRANCH_NAME;
+		fi
+	fi
+fi
