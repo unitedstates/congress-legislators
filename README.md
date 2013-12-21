@@ -282,7 +282,13 @@ The Executive Branch
 
 Because of their role in the legislative process, we also include a file executive.yaml which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
 
-This file has a similar structure as the legislator files. The file contains a list, where each entry is a person. Each entry is a dict with id, name, bio, and terms fields. The id, bio, and name fields are the same as those listed above. Each term has the following fields:
+This file has a similar structure as the legislator files. The file contains a list, where each entry is a person. Each entry is a dict with id, name, bio, and terms fields.
+
+The id, bio, and name fields are the same as those listed above. Except:
+
+* icpsr_prez: The numeric ICPSR identifier used in voteview.com historical roll call data when indicating the position of the President on a roll call vote. If the person also served in Congress, he or she will also have a regular icpsr ID with a different value.
+
+Each term has the following fields:
 
 * type: either "prez" (a presidential term) or "viceprez" (a vice presidential term).
 * start: The start date of the term. In modern times, typically January 20 following an election year.
