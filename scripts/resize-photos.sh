@@ -1,7 +1,8 @@
 #!/bin/sh
 
-# script to resize congress photos into the sizes we typically use
-# run from a directory with photos named by bioguide id and then sync resulting 3 directories to S3
+# Script to resize congress photos into the sizes we typically use.
+# Run this from a directory with photos in it, named by bioguide ID.
+# The photos will be resized and placed into directories named after the size, retaining their original filename.
 
 for SIZE in "40x50" "100x125" "200x250"
     do
