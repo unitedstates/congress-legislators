@@ -259,7 +259,7 @@ def format_exception(exception):
   return "\n".join(traceback.format_exception(exc_type, exc_value, exc_traceback))
 
 # taken from http://effbot.org/zone/re-sub.htm#unescape-html
-def unescape(text):
+def unescape(text, encoding=None):
 
   def remove_unicode_control(str):
     remove_re = re.compile(u'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]')
@@ -269,13 +269,22 @@ def unescape(text):
     text = m.group(0)
     if text[:2] == "&#":
       # character reference
-      try:
-        if text[:3] == "&#x":
-          return unichr(int(text[3:-1], 16))
-        else:
-          return unichr(int(text[2:-1]))
-      except ValueError:
-        pass
+      if encoding == None:
+        try:
+          if text[:3] == "&#x":
+            return unichr(int(text[3:-1], 16))
+          else:
+            return unichr(int(text[2:-1]))
+        except ValueError:
+          pass
+      else:
+        try:
+          if text[:3] == "&#x":
+            return chr(int(text[3:-1], 16)).decode(encoding)
+          else:
+            return chr(int(text[2:-1])).decode(encoding)
+        except ValueError:
+          pass
     else:
       # named entity
       try:

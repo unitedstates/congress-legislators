@@ -110,6 +110,14 @@ for bioguide in bioguides:
   cache = "legislators/bioguide/%s.html" % bioguide
   try:
     body = download(url, cache, force)
+
+    # Text and entities like &#146; are in Windows-1252 encoding. Normally lxml
+    # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
+    # doesn't support specifying an encoding, and the lxml.etree.HTMLParser doesn't
+    # provide a cssselect method on element objects. So we'll just decode ourselves.
+    body = body.decode("Windows-1252") # the raw bytes
+    body = utils.unescape(body, "Windows-1252") # entities
+
     dom = lxml.html.parse(StringIO.StringIO(body)).getroot()
   except lxml.etree.XMLSyntaxError:
     print "Error parsing: ", url
@@ -133,7 +141,7 @@ for bioguide in bioguides:
 
   birthday = birthday_for(main)
   if not birthday:
-    print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main)
+    print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
     warnings.append(bioguide)
     continue
 
@@ -143,7 +151,7 @@ for bioguide in bioguides:
   try:
     birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
   except ValueError:
-    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main)
+    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
     warnings.append(bioguide)
     continue
 
