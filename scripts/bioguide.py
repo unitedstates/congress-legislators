@@ -17,12 +17,46 @@ import re
 import utils
 from utils import download, load_data, save_data, parse_date
 
+def update_birthday(bioguide, person, main):
+  global warnings
+
+  birthday = birthday_for(main)
+  if not birthday:
+    print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
+    warnings.append(bioguide)
+    return
+  if birthday == "UNKNOWN":
+    return
+
+  try:
+    birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
+  except ValueError:
+    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
+    warnings.append(bioguide)
+    return
+
+  birthday = "%04d-%02d-%02d" % (birthday.year, birthday.month, birthday.day)
+  person.setdefault("bio", {})["birthday"] = birthday
+
+
 def birthday_for(string):
-  pattern = "born(.+?)((?:January|February|March|April|May|June|July|August|September|October|November|December),? \\d{1,2},? \\d{4})"
+  # exceptions for not-nicely-placed semicolons
+  string = string.replace("born in Cresskill, Bergen County, N. J.; April", "born April")
+  string = string.replace("FOSTER, A. Lawrence, a Representative from New York; September 17, 1802;", "born September 17, 1802")
+  string = string.replace("CAO, Anh (Joseph), a Representative from Louisiana; born in Ho Chi Minh City, Vietnam; March 13, 1967", "born March 13, 1967")
+  string = string.replace("CRITZ, Mark S., a Representative from Pennsylvania; born in Irwin, Westmoreland County, Pa.; January 5, 1962;", "born January 5, 1962")
+  string = string.replace("SCHIFF, Steven Harvey, a Representative from New Mexico; born in Chicago, Ill.; March 18, 1947", "born March 18, 1947")
+  string = string.replace(u'KRATOVIL, Frank, M. Jr., a Representative from Maryland; born in Lanham, Prince George\u2019s County, Md.; May 29, 1968', "born May 29, 1968")
+
+  # look for a date
+  pattern = r"born [^;]*?((?:January|February|March|April|May|June|July|August|September|October|November|December),? \d{1,2},? \d{4})"
   match = re.search(pattern, string, re.I)
-  if match:
-    if len(re.findall(";", match.group(1))) <= 1:
-      return match.group(2).strip()
+  if not match or not match.group(1):
+    # specifically detect cases that we can't handle to avoid unnecessary warnings
+    if re.search("birth dates? unknown|date of birth is unknown", string, re.I): return "UNKNOWN"
+    if re.search("born [^;]*?(?:in|about|before )?(?:(?:January|February|March|April|May|June|July|August|September|October|November|December) )?\d{4}", string, re.I): return "UNKNOWN"
+    return None
+  return match.group(1).strip()
 
 def relationships_of(string):
   # relationship data is stored in a parenthetical immediately after the end of the </font> tag in the bio
@@ -106,10 +140,15 @@ count = 0
 families = 0
 
 for bioguide in bioguides:
+  # Download & parse the HTML of the bioguide page.
+
   url = "http://bioguide.congress.gov/scripts/biodisplay.pl?index=%s" % bioguide
   cache = "legislators/bioguide/%s.html" % bioguide
   try:
     body = download(url, cache, force)
+
+    # Fix a problem?
+    body = body.replace("&Aacute;\xc2\x81", "&Aacute;")
 
     # Text and entities like &#146; are in Windows-1252 encoding. Normally lxml
     # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
@@ -123,10 +162,14 @@ for bioguide in bioguides:
     print "Error parsing: ", url
     continue
 
+  # Sanity check.
+
   if len(dom.cssselect("title")) == 0:
     print "[%s] No page for this bioguide!" % bioguide
     missing.append(bioguide)
     continue
+
+  # Extract the member's name and the biography paragraph (main).
 
   try:
     name = dom.cssselect("p font")[0]
@@ -139,29 +182,11 @@ for bioguide in bioguides:
   main = main.text_content().strip().replace("\n", " ").replace("\r", " ")
   main = re.sub("\s+", " ", main)
 
-  birthday = birthday_for(main)
-  if not birthday:
-    print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
-    warnings.append(bioguide)
-    continue
+  # Extract the member's birthday.
 
-  if debug:
-    print "[%s] Found birthday: %s" % (bioguide, birthday)
+  update_birthday(bioguide, by_bioguide[bioguide], main)
 
-  try:
-    birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
-  except ValueError:
-    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
-    warnings.append(bioguide)
-    continue
-
-  birthday = "%04d-%02d-%02d" % (birthday.year, birthday.month, birthday.day)
-  
-  # some older legislators may not have a bio section yet
-  if not by_bioguide[bioguide].has_key("bio"):
-    by_bioguide[bioguide]["bio"] = {}
-
-  by_bioguide[bioguide]["bio"]["birthday"] = birthday
+  # Extract relationships with other Members of Congress.
 
   if utils.flags().get("relationships", False):
     #relationship information, if present, is in a parenthetical immediately after the name.
