@@ -449,3 +449,7 @@ Stories written with this data:
 
 * http://swampland.time.com/2013/11/15/meet-the-39-democrats-who-voted-with-the-house-on-obamacare/
 * http://swampland.time.com/2013/10/28/liz-cheney-and-the-family-business-a-chart-of-all-congressional-dynasties/
+
+Other projects:
+
+* Margie Roswell's [committee map](http://mroswell.github.io/congressional-committee-maps/index.html)
