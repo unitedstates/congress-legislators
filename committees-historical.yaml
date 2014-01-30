@@ -1765,6 +1765,7 @@
     - 110
     - 111
     - 112
+    - 113
     names:
       104: Financial Institutions and Consumer Credit
       105: Financial Institutions and Consumer Credit
@@ -1775,6 +1776,7 @@
       110: Financial Institutions and Consumer Credit
       111: Financial Institutions and Consumer Credit
       112: Financial Institutions and Consumer Credit
+      113: Financial Institutions and Consumer Credit
   - name: Domestic Monetary Policy, Technology, and Economic Growth
     thomas_id: '18'
     congresses:
@@ -5446,6 +5448,7 @@
     - 108
     - 110
     - 111
+    - 112
     names:
       98: Legislative Branch
       99: Legislative Branch
@@ -5457,6 +5460,7 @@
       108: Legislative Branch
       110: Legislative Branch
       111: Legislative Branch
+      112: Legislative Branch
   - name: Treasury, Postal Service, General Government
     thomas_id: '13'
     congresses:
@@ -5488,11 +5492,13 @@
     - 109
     - 110
     - 111
+    - 112
     names:
       108: Department of Homeland Security
       109: Department of Homeland Security
       110: Department of Homeland Security
       111: Department of Homeland Security
+      112: Department of Homeland Security
   - name: Transportation, Treasury and General Government
     thomas_id: '15'
     congresses:
@@ -5531,10 +5537,12 @@
     - 109
     - 110
     - 111
+    - 112
     names:
       109: Energy and Water, and Related Agencies
       110: Energy and Water Development
       111: Energy and Water Development
+      112: Energy and Water Development
   - name: Interior and Related Agencies
     thomas_id: '17'
     congresses:
@@ -5570,8 +5578,11 @@
     thomas_id: '21'
     congresses:
     - 109
+    - 110
     names:
       109: Transportation, Treasury, the Judiciary, and Housing and Urban Development,
+        and Related Agencies
+      110: Transportation, Treasury, the Judiciary, and Housing and Urban Development,
         and Related Agencies
   - name: Financial Service and General Government
     thomas_id: '23'
@@ -5588,9 +5599,11 @@
     congresses:
     - 110
     - 111
+    - 112
     names:
       110: Transportation, Housing and Urban Development, and Related Agencies
       111: Transportation, Housing and Urban Development, and Related Agencies
+      112: Transportation, Housing and Urban Development, and Related Agencies
 - type: senate
   name: Senate Committee on Armed Services
   thomas_id: SSAS
@@ -6019,10 +6032,12 @@
     - 104
     - 105
     - 106
+    - 113
     names:
       104: Financial Institutions and Regulatory Relief
       105: Financial Institutions and Regulatory Relief
       106: Financial Institutions
+      113: Financial Institutions
   - name: HUD Oversight and Structure
     thomas_id: '10'
     congresses:
@@ -7237,9 +7252,11 @@
     congresses:
     - 97
     - 112
+    - 113
     names:
       97: Agency Administration
       112: Privacy, Technology and the Law
+      113: Privacy, Technology and the Law
   - name: Constitution
     thomas_id: '03'
     congresses:
@@ -7338,10 +7355,12 @@
     - 97
     - 98
     - 99
+    - 113
     names:
       97: Security and Terrorism
       98: Security and Terrorism
       99: Security and Terrorism
+      113: Bankruptcy and the Courts
   - name: Separation of Powers
     thomas_id: '22'
     congresses:
@@ -7380,6 +7399,7 @@
     - 106
     - 107
     - 110
+    - 113
     names:
       100: Antitrust, Monopolies and Business Rights
       101: Antitrust, Monopolies and Business Rights
@@ -7390,6 +7410,7 @@
       106: Antitrust, Business Rights and Competition
       107: Antitrust, Competition and Business and Consumer Rights
       110: Antitrust, Competition Policy and Consumer Rights
+      113: Antitrust, Competition Policy and Consumer Rights
   - name: Courts and Administrative Practice
     thomas_id: '02'
     congresses:
@@ -8520,8 +8541,8 @@
       109: Intelligence, Information Sharing, and Terrorism Risk Assessment
       110: Intelligence, Information Sharing, and Terrorism Risk Assessment
       111: Intelligence, Information Sharing, and Terrorism Risk Assessment
-      112: Counteterrorism and Intelligence
-      113: Counteterrorism and Intelligence
+      112: Counterterrorism and Intelligence
+      113: Counterterrorism and Intelligence
   - name: Economic Security, Infrastructure Protection, and Cybersecurity
     thomas_id: '07'
     congresses:
@@ -8606,5 +8627,7 @@
   thomas_id: SCNC
   congresses:
   - 112
+  - 113
   names:
     112: Caucus on International Narcotics Control
+    113: Caucus on International Narcotics Control
