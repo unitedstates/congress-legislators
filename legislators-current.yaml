@@ -37424,3 +37424,24 @@
     state: AL
     district: 1
     party: Republican
+- id:
+    bioguide: W000818
+    lis: S371
+    govtrack: 412602
+    votesmart: 111027
+    wikipedia: John Walsh (U.S. Senator)
+  name:
+    first: John
+    middle: E.
+    last: Walsh
+  bio:
+    birthday: '1960-11-03'
+    gender: M
+  terms:
+  - type: sen
+    start: '2014-02-11'
+    end: '2015-01-03'
+    state: MT
+    class: 2
+    party: Democrat
+    state_rank: junior
