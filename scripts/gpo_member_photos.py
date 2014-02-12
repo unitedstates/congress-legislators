@@ -66,8 +66,6 @@ def get_front_page(br, congress_number):
     #############################
     # Choose next page until done
     #############################
-    keep_going = True
-    
     last_page = None
     this_page = br['ctl00$ContentPlaceHolder1$Memberstelerikrid$ctl00$ctl03$ctl01$GoToPageTextBox']
 
@@ -76,15 +74,20 @@ def get_front_page(br, congress_number):
         # Harvest links
         for link in br.links():
             if congress_number + "/" in link.url:
-                if "/RP/" in link.url or "/SR/" in link.url:
-                    # Include only representatives and senators.
+                if ("/DG/" in link.url or
+                    "/SR/" in link.url or
+                    "/RC/" in link.url or
+                    "/RP/" in link.url):
+                    # Include only delegates, a resident commissioner, 
+                    # representatives and senators.
                     # Exclude capitol, house and senate officials ("CO", "HO", "SO"), 
                     # a president ("PR") and a vice-president ("VP") (8 in 113rd)
                     print link.text, link.url
                     links.append(link)
         print "Links:", len(links)
 
-        # return links # TEMP!!! TODO!!! for testing
+        if args.one_page:
+            return links
 
         br.select_form(nr=0)
         br.set_all_readonly(False)      # allow everything to be written to
@@ -278,6 +281,8 @@ if __name__ == "__main__":
         help="Directory to save photos in")
     parser.add_argument('--yaml', default='legislators-current.yaml',
         help="Path to the downloaded https://raw2.github.com/unitedstates/congress-legislators/master/legislators-current.yaml")
+    parser.add_argument('-1', '--one-page', action='store_true',
+        help="Only process the first page of results (for testing)")
     parser.add_argument('-t', '--test', action='store_true',
         help="Test mode: don't actually save images")
     args = parser.parse_args()
