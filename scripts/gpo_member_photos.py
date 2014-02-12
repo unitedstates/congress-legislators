@@ -9,6 +9,7 @@ from BeautifulSoup import BeautifulSoup # pip install BeautifulSoup
 import mechanize # pip install mechanize
 import os
 import re
+import sys
 import urlparse
 import yaml # pip install pyyaml
 
@@ -26,10 +27,12 @@ def get_front_page(br, congress_number):
     br.set_handle_refresh(False)  # can sometimes hang without this
     br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
-    print "Open front page..."
+    print "Open front page:", url
     response = br.open(url).read()
 
-    # print response.read()      # the text of the page
+    if len(response) == 0:
+        sys.exit("Page is blank. Try again later, you may have hit a limit.")
+    
     # print 'href="' + congress_number in response
     # print response
 
@@ -53,7 +56,7 @@ def get_front_page(br, congress_number):
     # Set the congress session number
     br['ctl00$ContentPlaceHolder1$ddlCongressSession']=[congress_number] # Use a list for select controls with multiple values
 
-    print "Submit congress session number..."
+    print "Submit congress session number:", congress_number
     response = br.submit().read()
 
     # print 'href="' + congress_number in response
@@ -139,6 +142,11 @@ def resolve(data, text):
     if isinstance(text, str):
         text = text.decode('utf-8')
 
+    # Special cases hardcoded
+    # Really "Byrne, Bradley" but GPO has bad data
+    if text == "Bradley, Byrne":
+        return "B001289"
+
     for item in data:
         bioguide = item['id']['bioguide']
         last = item['name']['last']
@@ -171,8 +179,6 @@ def resolve(data, text):
         for i in reversed(range(len(first))):
             if text.startswith(last) and ", " + first[:i+1] in text:
                 return bioguide
-        
-        # TODO? Bradley, Byrne -> Byrne, Bradley (bad GPO data)
 
     return None
 
@@ -200,10 +206,12 @@ def bioguide_id_valid(bioguide_id):
     return False
 
 
-def download_photos(br, member_links, outdir):
+def download_photos(br, member_links, outdir, cachedir):
     print "Found a total of", len(member_links), "member links"
     if not os.path.exists(outdir):
         os.makedirs(outdir)
+    if not os.path.exists(cachedir):
+        os.makedirs(cachedir)
 
     todo_resolve = []
     legislators = load_yaml(args.yaml)
@@ -212,15 +220,30 @@ def download_photos(br, member_links, outdir):
         print "---"
         print "Processing member", i+1, "of", len(member_links), ":", member_link.text
         bioguide_id = None
+
+        cachefile = os.path.join(cachedir, member_link.url.replace("/", "_") + ".html")
+        print os.path.isfile(cachefile)
         
-        response = br.follow_link(member_link)
-        print response.geturl()
-        # print response.read()
+        if os.path.isfile(cachefile):
+            # Load page from cache
+            with open(cachefile, "r") as f:
+                html = f.read()
+        else:
+            # Open page with mechanize
+            response = br.follow_link(member_link)
+            print response.geturl()
+            # print response.read()
+            html = response.read()
+            # Save page to cache
+            with open(cachefile, "w") as f:
+                f.write(html)
         
-        for link in br.links():
-            if "bioguide.congress.gov" in link.url:
-                # print link.text, link.url
-                bioguide_id = bioguide_id_from_url(link.url)
+        soup = BeautifulSoup(html)
+        for link in soup.findAll('a'):
+            url = link.get('href')
+            if "bioguide.congress.gov" in url:
+                print url
+                bioguide_id = bioguide_id_from_url(url)
 
                 # Validate Bioguide ID
                 # One member's link didn't contain the ID: http://young.house.gov
@@ -241,7 +264,6 @@ def download_photos(br, member_links, outdir):
         # Download image
         if bioguide_id:
             print "Bioguide ID:", bioguide_id
-            soup = BeautifulSoup(response.read())
             image_tags = soup.findAll('img')
             
             # TODO: Fine for now as only one image on the page
@@ -277,6 +299,8 @@ if __name__ == "__main__":
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-c', '--congress', default='113',
         help="Congress session number, for example: 110, 111, 112, 113")
+    parser.add_argument('--cache', default='cache',
+        help="Directory to cache member pages")
     parser.add_argument('-o', '--outdir', default="images",
         help="Directory to save photos in")
     parser.add_argument('--yaml', default='legislators-current.yaml',
@@ -289,6 +313,6 @@ if __name__ == "__main__":
 
     br = mechanize.Browser()
     member_links = get_front_page(br, args.congress)
-    download_photos(br, member_links, args.outdir)
+    download_photos(br, member_links, args.outdir, args.cache)
 
 # End of file
