@@ -50,11 +50,11 @@ for moc in legislators_current:
 
 # Scrape clerk.house.gov...
 
-def scrape_house():
+def scrape_house_alt():
   for id, cx in house_ref.items():
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
 
-def scrape_house_old():
+def scrape_house():
   """The old way of scraping House committees was to start with the committee list
   at the URL below, but this page no longer has links to the committee info pages
   even though those pages exist. Preserving this function in case we need it later."""
@@ -136,10 +136,18 @@ def scrape_house_committee(cx, output_code, house_code):
       # the .tail attribute has the text to the right of the link
       m = re.match(r", [A-Z][A-Z](,\s*)?(.*\S)?", lnk[0].tail)
       if m.group(2):
-        if m.group(2) == "Ex Officio":
+        # Chairman, Vice Chair, etc. (all but Ex Officio) started appearing on subcommittees around Feb 2014.
+        # For the chair, this should overwrite the implicit title given for the rank 0 majority party member.
+        if m.group(2) in ("Chair", "Chairman", "Chairwoman"):
+          entry["title"] = "Chair"
+        elif m.group(2) in ("Vice Chair", "Vice Chairman"):
+          entry["title"] = "Vice Chair"
+
+        elif m.group(2) == "Ex Officio":
           entry["title"] = m.group(2)
+
         else:
-          raise ValueError("Unrecognized title information: " + m.group(2))
+          raise ValueError("Unrecognized title information '%s' in %s." % (m.group(2), url))
 
     # sanity check we got the right number of nodes
     if ratio and ctr != int(ratio.group(i)): raise ValueError("Parsing didn't get the right count of members.")
