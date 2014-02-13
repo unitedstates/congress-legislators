@@ -6,17 +6,33 @@ save members' photos named after their Bioguide IDs.
 """
 import argparse
 from BeautifulSoup import BeautifulSoup # pip install BeautifulSoup
+import datetime
 import mechanize # pip install mechanize
 import os
 import re
 import sys
+import time
 import urlparse
 import yaml # pip install pyyaml
 
 # TODO: Cache downloaded member pages (see utils.download method)
 # TODO: Could download YAML directly when needed
 
-def get_front_page(br, congress_number):
+
+def pause(last, delay):
+    if last == None:
+        return datetime.datetime.now()
+
+    now = datetime.datetime.now()
+    delta = (now - last).total_seconds()
+
+    if delta < delay:
+        sleep = delay - delta
+        print "Sleep for", int(sleep), "seconds"
+        time.sleep(sleep)
+    return datetime.datetime.now()
+
+def get_front_page(br, congress_number, delay):
     url = r'http://www.memberguide.gpoaccess.gov/GetMembersSearch.aspx'
     links = []
 
@@ -28,6 +44,7 @@ def get_front_page(br, congress_number):
     br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
     print "Open front page:", url
+    last_request_time = datetime.datetime.now()
     response = br.open(url).read()
 
     if len(response) == 0:
@@ -57,6 +74,7 @@ def get_front_page(br, congress_number):
     br['ctl00$ContentPlaceHolder1$ddlCongressSession']=[congress_number] # Use a list for select controls with multiple values
 
     print "Submit congress session number:", congress_number
+    last_request_time = pause(last_request_time, delay)
     response = br.submit().read()
 
     # print 'href="' + congress_number in response
@@ -70,6 +88,7 @@ def get_front_page(br, congress_number):
     # Choose next page until done
     #############################
     last_page = None
+    # Page number:
     this_page = br['ctl00$ContentPlaceHolder1$Memberstelerikrid$ctl00$ctl03$ctl01$GoToPageTextBox']
 
     while(last_page != this_page):
@@ -107,6 +126,7 @@ def get_front_page(br, congress_number):
         br['__EVENTTARGET']='ctl00$ContentPlaceHolder1$Memberstelerikrid$ctl00$ctl02$ctl00$ctl28'
 
         print "Submit next page..."
+        last_request_time = pause(last_request_time, delay)
         response = br.submit().read()
 
         print 'href="' + congress_number in response
@@ -115,6 +135,7 @@ def get_front_page(br, congress_number):
         print br['ctl00$ContentPlaceHolder1$ddlCongressSession']
 
         last_page = this_page
+        # Page number:
         this_page = br['ctl00$ContentPlaceHolder1$Memberstelerikrid$ctl00$ctl03$ctl01$GoToPageTextBox']
 
     ###########################################
@@ -206,7 +227,8 @@ def bioguide_id_valid(bioguide_id):
     return False
 
 
-def download_photos(br, member_links, outdir, cachedir):
+def download_photos(br, member_links, outdir, cachedir, delay):
+    last_request_time = None
     print "Found a total of", len(member_links), "member links"
     if not os.path.exists(outdir):
         os.makedirs(outdir)
@@ -230,6 +252,7 @@ def download_photos(br, member_links, outdir, cachedir):
                 html = f.read()
         else:
             # Open page with mechanize
+            last_request_time = pause(last_request_time, delay)
             response = br.follow_link(member_link)
             print response.geturl()
             # print response.read()
@@ -274,6 +297,7 @@ def download_photos(br, member_links, outdir, cachedir):
                     print "Image already exists:", filename
                 elif not args.test:
                     print "Saving image to", filename
+                    last_request_time = pause(last_request_time, delay)
                     data = br.open(image['src']).read()
                     br.back()
                     save = open(filename, 'wb')
@@ -297,14 +321,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Scrape http://www.memberguide.gpoaccess.gov and save members' photos named after their Bioguide IDs", 
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-c', '--congress', default='113',
+    parser.add_argument('-n', '--congress', default='113',
         help="Congress session number, for example: 110, 111, 112, 113")
-    parser.add_argument('--cache', default='cache',
+    parser.add_argument('-c', '--cache', default='cache',
         help="Directory to cache member pages")
     parser.add_argument('-o', '--outdir', default="images",
         help="Directory to save photos in")
     parser.add_argument('--yaml', default='legislators-current.yaml',
         help="Path to the downloaded https://raw2.github.com/unitedstates/congress-legislators/master/legislators-current.yaml")
+    parser.add_argument('-d', '--delay', type=int, default=5, metavar='seconds',
+        help="Rate-limiting delay between scrape requests")
     parser.add_argument('-1', '--one-page', action='store_true',
         help="Only process the first page of results (for testing)")
     parser.add_argument('-t', '--test', action='store_true',
@@ -312,7 +338,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     br = mechanize.Browser()
-    member_links = get_front_page(br, args.congress)
-    download_photos(br, member_links, args.outdir, args.cache)
+    member_links = get_front_page(br, args.congress, args.delay)
+    download_photos(br, member_links, args.outdir, args.cache, args.delay)
 
 # End of file
