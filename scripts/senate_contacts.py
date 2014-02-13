@@ -40,6 +40,11 @@ for node in dom.xpath("member"):
 	bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 	member_full = node.xpath("string(member_full)")
 
+	if bioguide_id == "": 
+		print "Someone has an empty bioguide ID!"
+		print lxml.etree.tostring(node)
+		continue
+
 	print "[%s] Processing Senator %s..." % (bioguide_id, member_full)
 	
 	# find member record in our YAML, either by bioguide_id or member_full
@@ -115,6 +120,11 @@ for node in dom.getroot():
 		continue
 
 	bioguide_id = str(node.xpath("string(bioguideId)")).strip()
+	if bioguide_id == "": 
+		print "Someone has an empty bioguide ID!"
+		print lxml.etree.tostring(node)
+		continue
+
 	last_name = node.xpath("string(name/last)")
 	party = node.xpath("string(party)")
 	state = node.xpath("string(state)")
