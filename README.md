@@ -432,9 +432,6 @@ The `ballotpedia`, `maplight`, and `washington_post` fields have been created us
 
 * Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
 
-### License
-
-All data and code in this project is [licensed under CC0](LICENSE) ([summary](http://creativecommons.org/publicdomain/zero/1.0/)).
 
 ### Who's Using This Data
 
@@ -453,3 +450,11 @@ Stories written with this data:
 Other projects:
 
 * Margie Roswell's [committee map](http://mroswell.github.io/congressional-committee-maps/index.html)
+
+## Public domain
+
+This project is [dedicated to the public domain](LICENSE). As spelled out in [CONTRIBUTING](CONTRIBUTING.md):
+
+> The project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](http://creativecommons.org/publicdomain/zero/1.0/).
+
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
