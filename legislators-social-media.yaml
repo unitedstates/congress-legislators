@@ -16,7 +16,6 @@
 #
 # When it's ambiguous, we'll actually make phone calls to the office and
 # have the press staff confirm their official account.
-
 - id:
     bioguide: Y000064
     thomas: '02019'
@@ -215,16 +214,6 @@
     youtube: WhitfieldKY01
     facebook_id: '91115765425'
     youtube_id: UCnt-VKq7FFzt3EWoo6mhDoA
-- id:
-    bioguide: W000207
-    thomas: '01207'
-    govtrack: 400424
-  social:
-    twitter: MelWattNC12
-    facebook: CongressmanMelWatt
-    youtube: Wattnc12
-    facebook_id: '191136754250537'
-    youtube_id: UCStWqOgPvd7oNboNdvBQayQ
 - id:
     bioguide: W000187
     thomas: '01205'
@@ -2100,14 +2089,6 @@
     facebook_id: '178569152181267'
     youtube_id: UC46QHVobf7FO-tWehsRoDog
 - id:
-    bioguide: L000123
-    thomas: '01381'
-    govtrack: 300064
-  social:
-    twitter: FrankLautenberg
-    facebook: franklautenberg
-    facebook_id: '121816241167991'
-- id:
     bioguide: L000111
     thomas: '00666'
     govtrack: 400234
@@ -3848,16 +3829,6 @@
     facebook_id: '6916472567'
     youtube_id: UCvvO8lo-Nkc31cEEElqQvQw
 - id:
-    bioguide: B001244
-    thomas: '01703'
-    govtrack: 400038
-  social:
-    twitter: RepJoBonner
-    facebook: jobonner
-    youtube: JoBonner
-    facebook_id: '49704847429'
-    youtube_id: UCz8cytOYit17d4IO_D3vVOg
-- id:
     bioguide: B001243
     thomas: '01748'
     govtrack: 400032
@@ -4020,16 +3991,6 @@
     youtube: repjustinamash
     facebook_id: '173604349345646'
     youtube_id: UCeg6HhoCXrS8xpON9dxtZgA
-- id:
-    bioguide: A000361
-    thomas: '01727'
-    govtrack: 400006
-  social:
-    twitter: USRepAlexander
-    facebook: RepRodneyAlexander
-    youtube: RepRodneyMAlexander
-    facebook_id: '20002702544'
-    youtube_id: UCl1rpyMhGmWXWe8Tsii2Nzw
 - id:
     bioguide: A000360
     thomas: '01695'
@@ -4967,13 +4928,6 @@
     twitter: RepGuthrie
     youtube_id: UCdJhDw-YbdH0RHfWK0sIfiw
 - id:
-    bioguide: Y000031
-    thomas: '01255'
-    govtrack: 400439
-  social:
-    youtube: CongBillYoung
-    youtube_id: UCunqD7kWDDUiZ25WeWnkZRA
-- id:
     bioguide: L000578
     thomas: '02100'
     govtrack: 412510
@@ -5052,13 +5006,6 @@
     facebook_id: '176942192453747'
     youtube_id: UCpMthf8y7bEMJH_td0dznRQ
 - id:
-    bioguide: C001099
-    thomas: '02189'
-  social:
-    facebook: SenatorWilliamMoCowan
-    twitter: SenMoCowan
-    facebook_id: '529202873791889'
-- id:
     bioguide: K000384
     thomas: '02176'
     govtrack: 412582
@@ -5092,15 +5039,6 @@
     facebook: RepJuliaBrownley
     facebook_id: '330504617051234'
 - id:
-    bioguide: R000596
-    thomas: '02118'
-  social:
-    youtube: RepTreyRadel
-    youtube_id: UCNmoYVzmRAo2wT0FFF44Nfg
-    facebook: RepTreyRadel
-    twitter: TreyRadel
-    facebook_id: '391501350939452'
-- id:
     bioguide: M001184
     thomas: '02094'
   social:
@@ -5118,12 +5056,6 @@
     twitter: RepRobinKelly
     facebook_id: '150380975141321'
 - id:
-    bioguide: B000243
-    thomas: '00066'
-  social:
-    youtube: SenatorBaucus
-    youtube_id: UCpM2Mjz2u7iRDgXvk7RJyoA
-- id:
     bioguide: G000555
     thomas: '01866'
   social:
@@ -5137,14 +5069,6 @@
     youtube: SenatorJamesRisch
     twitter: SenatorRisch
     youtube_id: UCncKW8xyT5UbPNO27YuQnBA
-- id:
-    bioguide: C001100
-    govtrack: 412597
-    thomas: '02192'
-  social:
-    twitter: ChiesaNews
-    youtube: ChiesaNews
-    youtube_id: UCwWguqotBdyKdROUp9KlSYw
 - id:
     bioguide: B001281
     govtrack: 412565
