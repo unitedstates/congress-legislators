@@ -178,15 +178,13 @@ def scrape_senate():
       print "Unrecognized committee:", id, name
       continue
 
-    print "[%s] Fetching members for %s" % (id, name)
-
     cx = senate_ref[id]
     is_joint = (id[0] == "J")
 
     # Scrape some metadata on the HTML page first.
 
-    print "\tDownloading HTML..."
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
+    print "[%s] Fetching members for %s (%s)" % (id, name, committee_url)
     body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
 
     if not body2:
@@ -197,12 +195,6 @@ def scrape_senate():
     if m:
       cx["url"] = m.group(1)
 
-    m = re.search(r"<committee_name>(.*)</committee_name>", body2)
-    cx["name"] = m.group(1)
-    if id[0] != "J" and id[0:2] != 'SC':
-      cx["name"] = "Senate " + cx["name"]
-
-
     # Use the XML for the rest.
 
     print "\tDownloading XML..."
@@ -210,6 +202,11 @@ def scrape_senate():
 
     body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
     dom = lxml.etree.fromstring(body3)
+
+    cx["name"] = dom.xpath("committees/committee_name")[0].text
+    if id[0] != "J" and id[0:2] != 'SC':
+      cx["name"] = "Senate " + cx["name"]
+
     majority_party = dom.xpath("committees/majority_party")[0].text
 
     # update full committee members
