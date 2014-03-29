@@ -3889,79 +3889,74 @@ HSBU:
   title: Ranking Member
   bioguide: V000128
   thomas: '01729'
-- name: Allyson Y. Schwartz
-  party: minority
-  rank: 2
-  bioguide: S001162
-  thomas: '01798'
 - name: John A. Yarmuth
   party: minority
-  rank: 3
+  rank: 2
   bioguide: Y000062
   thomas: '01853'
 - name: Bill Pascrell Jr.
   party: minority
-  rank: 4
+  rank: 3
   bioguide: P000096
   thomas: '01510'
 - name: Tim Ryan
   party: minority
-  rank: 5
+  rank: 4
   bioguide: R000577
   thomas: '01756'
 - name: Gwen Moore
   party: minority
-  rank: 6
+  rank: 5
   bioguide: M001160
   thomas: '01811'
 - name: Kathy Castor
   party: minority
-  rank: 7
+  rank: 6
   bioguide: C001066
   thomas: '01839'
 - name: Jim McDermott
   party: minority
-  rank: 8
+  rank: 7
   bioguide: M000404
   thomas: '00766'
 - name: Barbara Lee
   party: minority
-  rank: 9
+  rank: 8
   bioguide: L000551
   thomas: '01501'
 - name: Hakeem S. Jeffries
   party: minority
-  rank: 10
+  rank: 9
   bioguide: J000294
   thomas: '02149'
 - name: Mark Pocan
   party: minority
-  rank: 11
+  rank: 10
   bioguide: P000607
   thomas: '02171'
 - name: Michelle Lujan Grisham
   party: minority
-  rank: 12
+  rank: 11
   bioguide: L000580
   thomas: '02146'
 - name: Jared Huffman
   party: minority
-  rank: 13
+  rank: 12
   bioguide: H001068
   thomas: '02101'
 - name: Tony Cárdenas
   party: minority
-  rank: 14
+  rank: 13
   bioguide: C001097
   thomas: '02107'
 - name: Earl Blumenauer
   party: minority
-  rank: 15
+  rank: 14
   bioguide: B000574
   thomas: '00099'
 - name: Kurt Schrader
   party: minority
-  rank: 16
+  rank: 15
   bioguide: S001180
   thomas: '01950'
 HSED:
@@ -10847,20 +10842,25 @@ HSSY15:
   rank: 6
   bioguide: L000571
   thomas: '01960'
-- name: Thomas Massie
+- name: David Schweikert
   party: majority
   rank: 7
+  bioguide: S001183
+  thomas: '01994'
+- name: Thomas Massie
+  party: majority
+  rank: 8
   bioguide: M001184
   thomas: '02094'
   title: Vice Chair
 - name: Jim Bridenstine
   party: majority
-  rank: 8
+  rank: 9
   bioguide: B001283
   thomas: '02155'
 - name: Chris Collins
   party: majority
-  rank: 9
+  rank: 10
   bioguide: C001092
   thomas: '02151'
 - name: Lamar Smith
@@ -12873,7 +12873,8 @@ SPAG:
   rank: 10
   bioguide: W000817
   thomas: '02182'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 11
   bioguide: W000818
   thomas: '02198'
@@ -12975,7 +12976,8 @@ SSAF:
   rank: 10
   bioguide: C001070
   thomas: '01828'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 11
   bioguide: W000818
   thomas: '02198'
@@ -13052,7 +13054,8 @@ SSAF13:
   rank: 5
   bioguide: G000555
   thomas: '01866'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 6
   bioguide: W000818
   thomas: '02198'
@@ -13121,7 +13124,8 @@ SSAF14:
   rank: 5
   bioguide: H001069
   thomas: '02174'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 6
   bioguide: W000818
   thomas: '02198'
@@ -13324,7 +13328,8 @@ SSAF17:
   rank: 5
   bioguide: C001070
   thomas: '01828'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 6
   bioguide: W000818
   thomas: '02198'
@@ -14703,12 +14708,12 @@ SSAS13:
   bioguide: I000024
   thomas: '00583'
 SSAS14:
-- name: Joe Manchin, III
+- name: Richard Blumenthal
   party: majority
   rank: 1
   title: Chairman
-  bioguide: M001183
-  thomas: '01983'
+  bioguide: B001277
+  thomas: '02076'
 - name: Bill Nelson
   party: majority
   rank: 2
@@ -14719,16 +14724,16 @@ SSAS14:
   rank: 3
   bioguide: M001170
   thomas: '01820'
-- name: Kirsten E. Gillibrand
+- name: Joe Manchin, III
   party: majority
   rank: 4
-  bioguide: G000555
-  thomas: '01866'
-- name: Richard Blumenthal
+  bioguide: M001183
+  thomas: '01983'
+- name: Kirsten E. Gillibrand
   party: majority
   rank: 5
-  bioguide: B001277
-  thomas: '02076'
+  bioguide: G000555
+  thomas: '01866'
 - name: Joe Donnelly
   party: majority
   rank: 6
@@ -15724,7 +15729,8 @@ SSCM:
   rank: 12
   bioguide: B001288
   thomas: '02194'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 13
   bioguide: W000818
   thomas: '02198'
@@ -15826,7 +15832,8 @@ SSCM01:
   rank: 8
   bioguide: B001288
   thomas: '02194'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 9
   bioguide: W000818
   thomas: '02198'
@@ -16080,7 +16087,8 @@ SSCM24:
   rank: 6
   bioguide: M000133
   thomas: '00735'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 7
   bioguide: W000818
   thomas: '02198'
@@ -16179,7 +16187,8 @@ SSCM25:
   rank: 10
   bioguide: B001288
   thomas: '02194'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 11
   bioguide: W000818
   thomas: '02198'
@@ -16303,7 +16312,8 @@ SSCM26:
   rank: 11
   bioguide: B001288
   thomas: '02194'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 12
   bioguide: W000818
   thomas: '02198'
@@ -16397,7 +16407,8 @@ SSCM27:
   rank: 5
   bioguide: M000133
   thomas: '00735'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 6
   bioguide: W000818
   thomas: '02198'
@@ -16559,16 +16570,16 @@ SSEG01:
   title: Chairman
   bioguide: F000457
   thomas: '01969'
-- name: Tim Johnson
+- name: Ron Wyden
   party: majority
   rank: 2
-  bioguide: J000177
-  thomas: '00604'
-- name: Mary L. Landrieu
+  bioguide: W000779
+  thomas: '01247'
+- name: Tim Johnson
   party: majority
   rank: 3
-  bioguide: L000550
-  thomas: '01546'
+  bioguide: J000177
+  thomas: '00604'
 - name: Maria Cantwell
   party: majority
   rank: 4
@@ -16604,12 +16615,12 @@ SSEG01:
   rank: 10
   bioguide: B001230
   thomas: '01558'
-- name: Ron Wyden
+- name: Mary L. Landrieu
   party: majority
   rank: 11
   title: Ex Officio
-  bioguide: W000779
-  thomas: '01247'
+  bioguide: L000550
+  thomas: '01546'
 - name: James E. Risch
   party: minority
   rank: 1
@@ -16654,16 +16665,16 @@ SSEG03:
   title: Chairman
   bioguide: M001183
   thomas: '01983'
-- name: Tim Johnson
+- name: Ron Wyden
   party: majority
   rank: 2
-  bioguide: J000177
-  thomas: '00604'
-- name: Mary L. Landrieu
+  bioguide: W000779
+  thomas: '01247'
+- name: Tim Johnson
   party: majority
   rank: 3
-  bioguide: L000550
-  thomas: '01546'
+  bioguide: J000177
+  thomas: '00604'
 - name: Maria Cantwell
   party: majority
   rank: 4
@@ -16694,12 +16705,12 @@ SSEG03:
   rank: 9
   bioguide: B001230
   thomas: '01558'
-- name: Ron Wyden
+- name: Mary L. Landrieu
   party: majority
   rank: 10
   title: Ex Officio
-  bioguide: W000779
-  thomas: '01247'
+  bioguide: L000550
+  thomas: '01546'
 - name: John Barrasso
   party: minority
   rank: 1
@@ -16754,11 +16765,11 @@ SSEG04:
   title: Chairman
   bioguide: U000038
   thomas: '01595'
-- name: Mary L. Landrieu
+- name: Ron Wyden
   party: majority
   rank: 2
-  bioguide: L000550
-  thomas: '01546'
+  bioguide: W000779
+  thomas: '01247'
 - name: Bernard Sanders
   party: majority
   rank: 3
@@ -16784,12 +16795,12 @@ SSEG04:
   rank: 7
   bioguide: B001230
   thomas: '01558'
-- name: Ron Wyden
+- name: Mary L. Landrieu
   party: majority
   rank: 8
   title: Ex Officio
-  bioguide: W000779
-  thomas: '01247'
+  bioguide: L000550
+  thomas: '01546'
 - name: Rob Portman
   party: minority
   rank: 1
@@ -16859,12 +16870,12 @@ SSEG07:
   rank: 7
   bioguide: F000457
   thomas: '01969'
-- name: Ron Wyden
+- name: Mary L. Landrieu
   party: majority
   rank: 8
   title: Ex Officio
-  bioguide: W000779
-  thomas: '01247'
+  bioguide: L000550
+  thomas: '01546'
 - name: Mike Lee
   party: minority
   rank: 1
@@ -19563,7 +19574,8 @@ SSRA:
   rank: 9
   bioguide: K000383
   thomas: '02185'
-- party: majority
+- name: John E. Walsh
+  party: majority
   rank: 10
   bioguide: W000818
   thomas: '02198'
