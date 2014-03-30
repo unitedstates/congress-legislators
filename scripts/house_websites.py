@@ -7,7 +7,7 @@
 #  member's state and district fields are present and accurate.
 #  member's most recent term in the terms field is their current one.
 
-import lxml.html, StringIO
+import lxml.html, StringIO, urllib2
 import re
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -66,6 +66,11 @@ for state in states:
       district = 0
 
     url = cells[1].cssselect("a")[0].get("href")
+
+    # hit the URL to resolve any redirects to get the canonical URL,
+    # since the listing on house.gov sometimes gives URLs that redirect.
+    resp = urllib2.urlopen(url)
+    url = resp.geturl()
 
     # kill trailing slashes
     url = re.sub("/$", "", url)
