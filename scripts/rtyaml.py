@@ -105,46 +105,35 @@ Dumper.add_representer(unicode, our_string_representer)
 Dumper.add_representer(type(None), lambda dumper, value : \
 	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
 
-# Use a subclss of list when trying to hold onto a block comment at the
-# start of a stream. Make sure it serializes back to a plain YAML list.
-class RtYamlList(list):
-    pass
-def RtYamlList_serializer(self, data):
-    return self.represent_sequence('tag:yaml.org,2002:seq', data)
-Dumper.add_representer(RtYamlList, RtYamlList_serializer)
 
 # Provide some wrapper methods that apply typical settings.
 
 def load(stream):
-    # Read any comment block at the start. We can only do this if we can
-    # peek the stream. Convert a file to an io.BufferedReader for convenience.
-    # Attempt to read for a comment block if the stream has a peek method.
+    return yaml.load(stream, Loader=Loader)
+
+
+# Read any comment block at the start. We can only do this if we can
+# peek the stream. Convert a file to an io.BufferedReader for convenience.
+# Attempt to read for a comment block if the stream has a peek method.
+def comment_header_from(file):
     initial_comment_block = ""
-    if isinstance(stream, file):
-        stream = io.open(stream.fileno(), mode="rb", closefd=False)
-    if hasattr(stream, "peek") and hasattr(stream, "readline"):
-        while stream.peek(1)[0] == "#":
-            initial_comment_block += stream.readline()
 
-    # Read the object from the stream.
-    obj = yaml.load(stream, Loader=Loader)
+    read_stream = io.open(file.fileno(), mode="rb", closefd=False)
 
-    # Attach our initial comment to the object so we can save it later (assuming
-    # this object is written back out).
-    if initial_comment_block:
-        if isinstance(obj, list):
-            # The list class can't be assigned any custom attributes, but we can make a subclass that can.
-            # Clone the list object into a RtYamlList instance.
-            obj = RtYamlList(obj)
-        obj.__initial_comment_block = initial_comment_block
+    if hasattr(read_stream, "peek") and hasattr(read_stream, "readline"):
+        while read_stream.peek(1)[0] == "#":
+            initial_comment_block += read_stream.readline()
 
-    return obj
+    return initial_comment_block
 
 def dump(data, stream):
-    # If we pulled in an initial comment block when reading the stream, write
-    # it back out at the start of the stream.
-    if hasattr(data, '__initial_comment_block'):
-        stream.write(data.__initial_comment_block)
+    # if we got a file, check if there's an initial comment bloc
+    if isinstance(stream, file):
+        initial_comment_block = comment_header_from(stream)
+        stream.seek(0)
+
+        if initial_comment_block:
+            stream.write(initial_comment_block)
 
     # Write the object to the stream.
     yaml.dump(data, stream, default_flow_style=False, allow_unicode=True, Dumper=Dumper)
