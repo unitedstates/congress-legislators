@@ -9,7 +9,7 @@ from collections import OrderedDict
 from utils import yaml_load
 
 if len(sys.argv) < 2:
-	print "Usage: python export_csv.py ../legislators-current.yaml > legislators-current.csv"
+	print("Usage: python export_csv.py ../legislators-current.yaml > legislators-current.csv")
 	sys.exit(0)
 
 data = yaml_load(sys.argv[1])
@@ -21,7 +21,7 @@ def flatten_object(obj, path, ret):
 
 	For instance { "x": { "y": 123 } } is turned into { "x__y": 123 }.
 	"""
-	for k, v in obj.items():
+	for k, v in list(obj.items()):
 		if isinstance(v, dict):
 			flatten_object(v, (path + "__" if path else "") + k + "__", ret)
 		elif isinstance(v, list):
@@ -48,7 +48,7 @@ for record in data:
 		prev_key = key
 
 # Convert to relative frequencies.
-for k, v in preceding_keys.items():
+for k, v in list(preceding_keys.items()):
 	s = float(sum(v.values()))
 	for k2 in v:
 		v[k2] /= s
@@ -79,6 +79,6 @@ w.writerow(field_order)
 for record in data:
 	obj = flatten_object(record, "", {})
 	w.writerow([
-		unicode(obj.get(f, "")).encode("utf8")
+		str(obj.get(f, "")).encode("utf8")
 		for f in field_order
 		])

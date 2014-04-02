@@ -10,7 +10,7 @@
 import datetime
 import re
 import utils
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import requests
 from utils import download, load_data, save_data, parse_date, states, congress_from_legislative_year, legislative_year
 import json
@@ -33,10 +33,10 @@ filename_historical = "legislators-historical.yaml"
 filename_current = "legislators-current.yaml"
 data_files = []
 
-print "Loading %s..." % "legislators-current.yaml"
+print("Loading %s..." % "legislators-current.yaml")
 legislators = load_data("legislators-current.yaml")
 data_files.append((legislators,"legislators-current.yaml"))
-print "Loading %s..." % "legislators-historical.yaml"
+print("Loading %s..." % "legislators-historical.yaml")
 legislators = load_data("legislators-historical.yaml")
 data_files.append((legislators,"legislators-historical.yaml"))
 
@@ -67,7 +67,7 @@ error_log.writerow(["error_type","matches","icpsr_name","icpsr_state","is_territ
 
 
 read_files = [(senate_data,"sen"),(house_data,"rep")]
-print "Running for congress " + congress
+print("Running for congress " + congress)
 for read_file in read_files:
     for data_file in data_files:
         for legislator in data_file[0]:
@@ -95,7 +95,7 @@ for read_file in read_files:
             # pull data to match from yaml
             
             last_name_unicode = legislator['name']['last'].upper().strip().replace('\'','')
-            last_name = unicodedata.normalize('NFD', unicode(last_name_unicode)).encode('ascii', 'ignore')
+            last_name = unicodedata.normalize('NFD', str(last_name_unicode)).encode('ascii', 'ignore')
             state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
             # select icpsr source data based on more recent chamber
             
@@ -117,14 +117,14 @@ for read_file in read_files:
                     continue
                 elif write_id != legislator["id"]["icpsr"] and write_id != "":
                     error_log.writerow(["Incorrect_ID","NA",last_name[:8],state,"NA",legislator["id"]["icpsr"],write_id])
-                    print "ID updated for %s" % last_name
+                    print("ID updated for %s" % last_name)
             if num_matches == 1:
                 legislator['id']['icpsr'] = int(write_id)
             else:
                 if state == 'GUAM' or state == 'PUERTO' or state == "VIRGIN" or state == "DISTRIC" or state == "AMERICA" or state == "NORTHER" or state == "PHILIPP":
                     error_log.writerow(["Non_1_match_number",str(num_matches),last_name[:8],state,"Y","NA","NA"])
                 else:
-                    print str(num_matches) + " matches found for "+ last_name[:8] + ", " + state + " in congress " + str(congress)
+                    print(str(num_matches) + " matches found for "+ last_name[:8] + ", " + state + " in congress " + str(congress))
                     error_log.writerow(["Non_1_match_number",str(num_matches),last_name,state,"N","NA","NA"])
  
 

@@ -29,7 +29,7 @@ for rec in csv.DictReader(open(house_labels)):
   full_district = rec['113 ST/DIS']
 
   # empty seat - IL-02
-  if not by_district.has_key(full_district):
+  if full_district not in by_district:
     if full_district == "IL02":
       continue
     else:
@@ -37,7 +37,7 @@ for rec in csv.DictReader(open(house_labels)):
 
   rec["MIDDLE"] = rec["MIDDLE"].decode("utf8").strip()
   rec["NICK"] = None
-  m = re.match(u'^(.*) \u201c(.*)\u201d$', rec["MIDDLE"])
+  m = re.match('^(.*) \u201c(.*)\u201d$', rec["MIDDLE"])
   if m:
     rec["MIDDLE"] = m.group(1)
     rec["NICK"] = m.group(2)
@@ -59,6 +59,6 @@ for rec in csv.DictReader(open(house_labels)):
 
   by_district[full_district]["id"]["bioguide"] = rec["BIOGUIDE ID"]
 
-  print "[%s] Saved" % full_district
+  print("[%s] Saved" % full_district)
 
 save_data(y, "legislators-current.yaml")

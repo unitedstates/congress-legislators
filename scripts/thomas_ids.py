@@ -4,7 +4,7 @@
 # IDs are updated directly. For Senators, we just print out new
 # IDs because name matching is hard.
 
-import lxml.html, StringIO, urllib
+import lxml.html, io, urllib.request, urllib.parse, urllib.error
 import re, sys
 from datetime import date, datetime
 import utils
@@ -35,13 +35,13 @@ for m in y:
 seen_ids = set()
 for chamber in ("House of Representatives", "Senate"):
   url = "http://beta.congress.gov/members?pageSize=500&Legislative_Source=Member+Profiles&Congress=%s&Chamber_of_Congress=%s" % (
-    urllib.quote_plus(CONGRESS_ID), urllib.quote_plus(chamber))
+    urllib.parse.quote_plus(CONGRESS_ID), urllib.parse.quote_plus(chamber))
   cache = "congress.gov/members/%s-%s.html" % (CONGRESS_ID, chamber)
   try:
     body = download(url, cache, force)
-    dom = lxml.html.parse(StringIO.StringIO(body.decode("utf-8"))).getroot()
+    dom = lxml.html.parse(io.StringIO(body.decode("utf-8"))).getroot()
   except lxml.etree.XMLSyntaxError:
-    print "Error parsing: ", url
+    print("Error parsing: ", url)
     continue
     
   for node in dom.xpath("//ul[@class='results_list']/li"):
@@ -64,11 +64,11 @@ for chamber in ("House of Representatives", "Senate"):
       district = "%02d" % int(district)
       
       if state + district not in by_district:
-        print state + district + "'s", name, "appears on Congress.gov but the office is vacant in our data."
+        print(state + district + "'s", name, "appears on Congress.gov but the office is vacant in our data.")
         continue
       
       if state + district in seen_ids:
-        print "Congress.gov lists two people for %s%s!" % (state, district)
+        print("Congress.gov lists two people for %s%s!" % (state, district))
       seen_ids.add(state+district)
       
       by_district[state + district]["id"]["thomas"] = thomas_id
@@ -77,6 +77,6 @@ for chamber in ("House of Representatives", "Senate"):
       # For senators we'd have to match on name or something else, so that's too difficult.
       # Just look for new IDs.
       if thomas_id not in existing_senator_ids:
-        print "Please manually set", thomas_id, "for", name, "from", state
+        print("Please manually set", thomas_id, "for", name, "from", state)
 
 save_data(y, "legislators-current.yaml")

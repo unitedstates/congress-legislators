@@ -35,7 +35,7 @@ else:
 
 
 for congress in range(start_congress, end_congress):
-  print congress, '...'
+  print(congress, '...')
 
   url = "http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress
   body = download(url, "committees/structure/%d.html" % congress, force)
@@ -69,7 +69,7 @@ for congress in range(start_congress, end_congress):
 
         # Get a reference to the parent committee.
         if id[:-2] not in committees_historical_ref:
-          print "Historical committee %s %s is missing!" % (id, name)
+          print("Historical committee %s %s is missing!" % (id, name))
           continue
           
         cx = committees_historical_ref[id[:-2]]

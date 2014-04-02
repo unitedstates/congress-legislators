@@ -68,26 +68,26 @@ def main():
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook"]:
-    print "--service must be one of twitter, youtube, or facebook"
+    print("--service must be one of twitter, youtube, or facebook")
     exit(0)
 
   # load in members, orient by bioguide ID
-  print "Loading current legislators..."
+  print("Loading current legislators...")
   current = load_data("legislators-current.yaml")
 
   current_bioguide = { }
   for m in current:
-    if m["id"].has_key("bioguide"):
+    if "bioguide" in m["id"]:
       current_bioguide[m["id"]["bioguide"]] = m
 
-  print "Loading blacklist..."
+  print("Loading blacklist...")
   blacklist = {
     'twitter': [], 'facebook': [], 'youtube': []
   }
   for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
     blacklist[rec["service"]].append(rec["pattern"])
 
-  print "Loading whitelist..."
+  print("Loading whitelist...")
   whitelist = {
     'twitter': [], 'facebook': [], 'youtube': []
   }
@@ -95,7 +95,7 @@ def main():
     whitelist[rec["service"]].append(rec["account"].lower())
 
   # reorient currently known social media by ID
-  print "Loading social media..."
+  print("Loading social media...")
   media = load_data("legislators-social-media.yaml")
   media_bioguide = { }
   for m in media:
@@ -112,30 +112,30 @@ def main():
 
         if re.match('\d+', social['facebook']):
           social['facebook_id'] = social['facebook']
-          print "Looking up graph username for %s" % social['facebook']
+          print("Looking up graph username for %s" % social['facebook'])
           fbobj = requests.get(graph_url).json()
           if 'username' in fbobj:
-            print "\tGot graph username of %s" % fbobj['username']
+            print("\tGot graph username of %s" % fbobj['username'])
             social['facebook'] = fbobj['username']
           else:
-            print "\tUnable to get graph username"
+            print("\tUnable to get graph username")
 
         else:
           try:
-            print "Looking up graph ID for %s" % social['facebook']
+            print("Looking up graph ID for %s" % social['facebook'])
             fbobj = requests.get(graph_url).json()
             if 'id' in fbobj:
-              print "\tGot graph ID of %s" % fbobj['id']
+              print("\tGot graph ID of %s" % fbobj['id'])
               social['facebook_id'] = fbobj['id']
             else:
-              print "\tUnable to get graph ID"
+              print("\tUnable to get graph ID")
           except:
-            print "\tUnable to get graph ID for: %s" % social['facebook']
+            print("\tUnable to get graph ID for: %s" % social['facebook'])
             social['facebook_id'] = None
 
       updated_media.append(m)
 
-    print "Saving social media..."
+    print("Saving social media...")
     save_data(updated_media, "legislators-social-media.yaml")
 
 
@@ -167,7 +167,7 @@ def main():
         "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
 
         try:
-          print "Resolving YT info for %s" % social['youtube']
+          print("Resolving YT info for %s" % social['youtube'])
           ytreq = requests.get(profile_url)
           # print "\tFetched with status code %i..." % ytreq.status_code
 
@@ -175,32 +175,32 @@ def main():
             # If the account name isn't valid, it's probably a redirect.
             try:
               # Try to scrape the real YouTube username
-              print "\Scraping YouTube username"
+              print("\Scraping YouTube username")
               search_url = ("http://www.youtube.com/%s" % social['youtube'])
               csearch = requests.get(search_url).text.encode('ascii','ignore')
 
               u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
 
               if u:
-                print "\t%s maps to %s" % (social['youtube'],u.group(1))
+                print("\t%s maps to %s" % (social['youtube'],u.group(1)))
                 social['youtube'] = u.group(1)
                 profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
                 "?v=2&prettyprint=true&alt=json" % social['youtube'])
 
-                print "\tFetching GData profile..."
+                print("\tFetching GData profile...")
                 ytreq = requests.get(profile_url)
-                print "\tFetched GData profile"
+                print("\tFetched GData profile")
 
               else:
                 raise Exception("Couldn't figure out the username format for %s" % social['youtube'])
 
             except:
-              print "\tCouldn't locate YouTube account"
+              print("\tCouldn't locate YouTube account")
               raise
 
           ytobj = ytreq.json()
           social['youtube_id'] = ytobj['entry']['yt$channelId']['$t']
-          print "\tResolved youtube_id to %s" % social['youtube_id']
+          print("\tResolved youtube_id to %s" % social['youtube_id'])
 
           # even though we have their channel ID, do they also have a username?
           if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
@@ -208,16 +208,16 @@ def main():
               old_name = social['youtube']
               # YT accounts are case-insensitive.  Preserve capitalization if possible.
               social['youtube'] = ytobj['entry']['yt$username']['$t']
-              print "\tAdded YouTube username of %s" % social['youtube']
+              print("\tAdded YouTube username of %s" % social['youtube'])
           else:
-            print "\tYouTube says they do not have a separate username"
+            print("\tYouTube says they do not have a separate username")
             del social['youtube']
         except:
-          print "Unable to get YouTube Channel ID for: %s" % social['youtube']
+          print("Unable to get YouTube Channel ID for: %s" % social['youtube'])
 
       updated_media.append(m)
 
-    print "Saving social media..."
+    print("Saving social media...")
     save_data(updated_media, "legislators-social-media.yaml")
 
 
@@ -228,7 +228,7 @@ def main():
     if bioguide:
       possibles = [bioguide]
     else:
-      possibles = current_bioguide.keys()
+      possibles = list(current_bioguide.keys())
 
     for bioguide in possibles:
       if media_bioguide.get(bioguide, None) is None:
@@ -252,7 +252,7 @@ def main():
           candidate_url = "https://%s.com/%s" % (service, candidate)
           row = [bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url]
           writer.writerow(row)
-          print "\tWrote: %s" % candidate
+          print("\tWrote: %s" % candidate)
           rows_found.append(row)
 
       if email_enabled and len(rows_found) > 0:
@@ -266,7 +266,7 @@ def main():
     if bioguide:
       to_check = [bioguide]
     else:
-      to_check = media_bioguide.keys()
+      to_check = list(media_bioguide.keys())
 
     for bioguide in to_check:
       entry = media_bioguide[bioguide]
@@ -287,14 +287,14 @@ def main():
       url = current_bioguide[bioguide]['terms'][-1].get('url')
 
       if current.lower() != candidate.lower():
-        print "[%s] mismatch on %s - %s -> %s" % (bioguide, url, current, candidate)
+        print("[%s] mismatch on %s - %s -> %s" % (bioguide, url, current, candidate))
 
   def update():
     for rec in csv.DictReader(open("cache/social_media/%s_candidates.csv" % service)):
       bioguide = rec["bioguide"]
       candidate = rec["candidate"]
 
-      if media_bioguide.has_key(bioguide):
+      if bioguide in media_bioguide:
         media_bioguide[bioguide]['social'][service] = candidate
       else:
         new_media = {'id': {}, 'social': {}}
@@ -311,7 +311,7 @@ def main():
         new_media['social'][service] = candidate
         media.append(new_media)
 
-    print "Saving social media..."
+    print("Saving social media...")
     save_data(media, "legislators-social-media.yaml")
 
     # if it's a youtube update, always do the resolve
@@ -320,28 +320,28 @@ def main():
 
 
   def clean():
-    print "Loading historical legislators..."
+    print("Loading historical legislators...")
     historical = load_data("legislators-historical.yaml")
 
     count = 0
     for m in historical:
-      if media_bioguide.has_key(m["id"]["bioguide"]):
+      if m["id"]["bioguide"] in media_bioguide:
         media.remove(media_bioguide[m["id"]["bioguide"]])
         count += 1
-    print "Removed %i out of office legislators from social media file..." % count
+    print("Removed %i out of office legislators from social media file..." % count)
 
-    print "Saving historical legislators..."
+    print("Saving historical legislators...")
     save_data(media, "legislators-social-media.yaml")
 
   def candidate_for(bioguide):
     url = current_bioguide[bioguide]["terms"][-1].get("url", None)
     if not url:
       if debug:
-        print "[%s] No official website, skipping" % bioguide
+        print("[%s] No official website, skipping" % bioguide)
       return None
 
     if debug:
-      print "[%s] Downloading..." % bioguide
+      print("[%s] Downloading..." % bioguide)
     cache = "congress/%s.html" % bioguide
     body = utils.download(url, cache, force, {'check_redirects': True})
 
@@ -360,7 +360,7 @@ def main():
 
         if not passed:
           if debug:
-            print "\tBlacklisted: %s" % candidate
+            print("\tBlacklisted: %s" % candidate)
           continue
 
         return candidate

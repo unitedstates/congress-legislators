@@ -2,8 +2,8 @@
 
 # Update current senator's website and address from www.senate.gov. 
 
-import lxml.etree, StringIO
-import urllib
+import lxml.etree, io
+import urllib.request, urllib.parse, urllib.error
 import string, re
 from datetime import date, datetime
 import utils
@@ -22,7 +22,7 @@ y = load_data("legislators-current.yaml")
 bioguide = { }
 by_name = { }
 for m in y:
-	if m["id"].has_key("bioguide"):
+	if "bioguide" in m["id"]:
 		bioguide[m["id"]["bioguide"]] = m
 	party = m["terms"][-1]["party"][0]
 	state = m["terms"][-1]["state"]
@@ -31,57 +31,57 @@ for m in y:
 	by_name[member_full] = m
 
 
-print "Fetching general Senate information from senators_cfm.xml..."
+print("Fetching general Senate information from senators_cfm.xml...")
 
 url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
 body = download(url, "legislators/senate.xml", force)
-dom = lxml.etree.parse(StringIO.StringIO(body))
+dom = lxml.etree.parse(io.StringIO(body))
 for node in dom.xpath("member"):
 	bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 	member_full = node.xpath("string(member_full)")
 
 	if bioguide_id == "": 
-		print "Someone has an empty bioguide ID!"
-		print lxml.etree.tostring(node)
+		print("Someone has an empty bioguide ID!")
+		print(lxml.etree.tostring(node))
 		continue
 
-	print "[%s] Processing Senator %s..." % (bioguide_id, member_full)
+	print("[%s] Processing Senator %s..." % (bioguide_id, member_full))
 	
 	# find member record in our YAML, either by bioguide_id or member_full
-	if bioguide.has_key(bioguide_id):
+	if bioguide_id in bioguide:
 		member = bioguide[bioguide_id]
 	else:
-		if by_name.has_key(member_full):
+		if member_full in by_name:
 			member = by_name[member_full]
 		else:
-			print "Bioguide ID '%s' and full name '%s' not recognized." % (bioguide_id, member_full)
+			print("Bioguide ID '%s' and full name '%s' not recognized." % (bioguide_id, member_full))
 			exit(0)
 
 	try:
 		term = member["terms"][-1]
 	except IndexError:
-		print "Member has no terms", bioguide_id, member_full
+		print("Member has no terms", bioguide_id, member_full)
 		continue
 		
 	if today < parse_date(term["start"]) or today > parse_date(term["end"]):
-		print "Member's last listed term is not current", bioguide_id, member_full, term["start"]
+		print("Member's last listed term is not current", bioguide_id, member_full, term["start"])
 		continue
 		
 	if term["type"] != "sen":
-		print "Member's last listed term is not a Senate term", bioguide_id, member_full
+		print("Member's last listed term is not a Senate term", bioguide_id, member_full)
 		continue
 		
 		
 	if term["state"] != str(node.xpath("string(state)")):
-		print "Member's last listed term has the wrong state", bioguide_id, member_full
+		print("Member's last listed term has the wrong state", bioguide_id, member_full)
 		continue
 		
 	if "district" in term: del term["district"]
 
-	full_name = unicode(node.xpath("string(first_name)"))
+	full_name = str(node.xpath("string(first_name)"))
 	suffix = None
 	if ", " in full_name: full_name, suffix = full_name.split(", ")
-	full_name += " " + unicode(node.xpath("string(last_name)"))
+	full_name += " " + str(node.xpath("string(last_name)"))
 	if suffix: full_name += ", " + suffix
 	member["name"]["official_full"] = full_name
 
@@ -108,21 +108,21 @@ for node in dom.xpath("member"):
 
 
 
-print "\n\nUpdating Senate stateRank and LIS ID from cvc_member_data.xml..."
+print("\n\nUpdating Senate stateRank and LIS ID from cvc_member_data.xml...")
 
 url = "http://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
 body = download(url, "legislators/senate_cvc.xml", force)
-dom = lxml.etree.parse(StringIO.StringIO(body))
+dom = lxml.etree.parse(io.StringIO(body))
 for node in dom.getroot():
 	if node.tag == "lastUpdate":
 		date, time = node.getchildren()
-		print "Last updated: %s, %s" % (date.text, time.text)
+		print("Last updated: %s, %s" % (date.text, time.text))
 		continue
 
 	bioguide_id = str(node.xpath("string(bioguideId)")).strip()
 	if bioguide_id == "": 
-		print "Someone has an empty bioguide ID!"
-		print lxml.etree.tostring(node)
+		print("Someone has an empty bioguide ID!")
+		print(lxml.etree.tostring(node))
 		continue
 
 	last_name = node.xpath("string(name/last)")
@@ -130,25 +130,25 @@ for node in dom.getroot():
 	state = node.xpath("string(state)")
 	member_full = "%s (%s-%s)" % (last_name, party, state)
 
-	print "[%s] Processing Senator %s..." % (bioguide_id, member_full)
+	print("[%s] Processing Senator %s..." % (bioguide_id, member_full))
 	
 	# find member record in our YAML, either by bioguide_id or member_full
-	if bioguide.has_key(bioguide_id):
+	if bioguide_id in bioguide:
 		member = bioguide[bioguide_id]
 	else:
-		if by_name.has_key(member_full):
+		if member_full in by_name:
 			member = by_name[member_full]
 		else:
-			print "Bioguide ID '%s' and synthesized official name '%s' not recognized." % (bioguide_id, member_full)
+			print("Bioguide ID '%s' and synthesized official name '%s' not recognized." % (bioguide_id, member_full))
 			exit(0)
 
 	try:
 		term = member["terms"][-1]
 	except IndexError:
-		print "Member has no terms", bioguide_id, member_full
+		print("Member has no terms", bioguide_id, member_full)
 		continue
 
-	if not member.has_key("id"):
+	if "id" not in member:
 		member["id"] = {}
 
 	member["id"]["lis"] = node.attrib["lis_member_id"]
@@ -159,5 +159,5 @@ for node in dom.getroot():
 		term["state_rank"] = "junior"
 
 
-print "Saving data..."
+print("Saving data...")
 save_data(y, "legislators-current.yaml")

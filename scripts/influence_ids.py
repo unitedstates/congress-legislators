@@ -10,7 +10,7 @@
 import datetime
 import re
 import utils
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import requests
 from utils import download, load_data, save_data, parse_date
 import json
@@ -35,11 +35,11 @@ if utils.flags().get('historical', False):
 elif utils.flags().get('current', True):
   filename = "legislators-current.yaml"
 else:
-  print "No legislators selected."
+  print("No legislators selected.")
   exit(0)
 
 
-print "Loading %s..." % filename
+print("Loading %s..." % filename)
 legislators = load_data(filename)
 
 
@@ -63,11 +63,11 @@ for m in legislators:
 
 
     destination = "legislators/influence_explorer/lookups/%s.json" % bioguide
-    if debug: print "[%s] Looking up ID..." % bioguide
+    if debug: print("[%s] Looking up ID..." % bioguide)
     body = utils.download(url_BG, destination, force, options)
 
     if not body:
-        print "[%s] Bad request, skipping" % bioguide
+        print("[%s] Bad request, skipping" % bioguide)
         continue
 
     jsondata = json.loads(body)
@@ -100,12 +100,12 @@ for m in legislators:
                 if fec_id not in m["id"]["fec"]:
                     m["id"]["fec"].append(fec_id)
 
-        print "[%s] Added opensecrets ID of %s" % (bioguide, opensecrets_id)
+        print("[%s] Added opensecrets ID of %s" % (bioguide, opensecrets_id))
     else:
-        print "[%s] NO DATA" % bioguide
+        print("[%s] NO DATA" % bioguide)
 
 
 
 
-print "Saving data to %s..." % filename
+print("Saving data to %s..." % filename)
 save_data(legislators, filename)

@@ -65,9 +65,9 @@ states = {
 }
 
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import os, errno, sys, traceback
-import re, htmlentitydefs
+import re, html.entities
 import pprint
 import rtyaml
 from datetime import datetime
@@ -125,8 +125,8 @@ def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
 
 def log(object):
-  if isinstance(object, (str, unicode)):
-    print object
+  if isinstance(object, str):
+    print(object)
   else:
     pprint(object)
 
@@ -194,7 +194,7 @@ def download(url, destination=None, force=False, options=None):
         log("Downloading: %s" % url)
 
       if options.get('urllib', False):
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         body = response.read()
       else:
         response = scraper.urlopen(url)
@@ -218,7 +218,7 @@ def download(url, destination=None, force=False, options=None):
         if text.lower().startswith("url="):
 
           new_url = text[4:]
-          print "Found redirect, downloading %s instead.." % new_url
+          print("Found redirect, downloading %s instead.." % new_url)
 
           options.pop('check_redirects')
           body = download(new_url, None, True, options)
@@ -262,7 +262,7 @@ def format_exception(exception):
 def unescape(text, encoding=None):
 
   def remove_unicode_control(str):
-    remove_re = re.compile(u'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]')
+    remove_re = re.compile('[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]')
     return remove_re.sub('', str)
 
   def fixup(m):
@@ -272,9 +272,9 @@ def unescape(text, encoding=None):
       if encoding == None:
         try:
           if text[:3] == "&#x":
-            return unichr(int(text[3:-1], 16))
+            return chr(int(text[3:-1], 16))
           else:
-            return unichr(int(text[2:-1]))
+            return chr(int(text[2:-1]))
         except ValueError:
           pass
       else:
@@ -288,7 +288,7 @@ def unescape(text, encoding=None):
     else:
       # named entity
       try:
-        text = unichr(htmlentitydefs.name2codepoint[text[1:-1]])
+        text = chr(html.entities.name2codepoint[text[1:-1]])
       except KeyError:
         pass
     return text # leave as is
@@ -308,7 +308,7 @@ def yaml_load(path, use_cache=True):
 
     # Check if the .pickle file exists and a hash stored inside it
     # matches the hash of the YAML file, and if so unpickle it.
-    import cPickle as pickle, os.path, hashlib
+    import pickle as pickle, os.path, hashlib
     h = hashlib.sha1(open(path).read()).hexdigest()
     if use_cache and os.path.exists(path + ".pickle"):
 
@@ -332,7 +332,7 @@ def yaml_dump(data, path):
     rtyaml.dump(data, open(path, "r+"))
 
     # Store in a pickled file for fast access later.
-    import cPickle as pickle, hashlib
+    import pickle as pickle, hashlib
     h = hashlib.sha1(open(path).read()).hexdigest()
     pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
 
@@ -346,14 +346,14 @@ def admin(body):
     if isinstance(body, Exception):
       body = format_exception(body)
 
-    print body # always print it
+    print(body) # always print it
 
     if email_settings:
         send_email(body)
 
   except Exception as exception:
-    print "Exception logging message to admin, halting as to avoid loop"
-    print format_exception(exception)
+    print("Exception logging message to admin, halting as to avoid loop")
+    print(format_exception(exception))
 
 def format_exception(exception):
   exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -361,7 +361,7 @@ def format_exception(exception):
 
 # this should only be called if the settings are definitely there
 def send_email(message):
-  print "Sending email to %s..." % email_settings['to']
+  print("Sending email to %s..." % email_settings['to'])
 
   # adapted from http://www.doughellmann.com/PyMOTW/smtplib/
   msg = MIMEText(message)
@@ -382,4 +382,4 @@ def send_email(message):
   finally:
     server.quit()
 
-  print "Sent email to %s." % email_settings['to']
+  print("Sent email to %s." % email_settings['to'])

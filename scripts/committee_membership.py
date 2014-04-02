@@ -4,7 +4,7 @@
 # and updates the committees-current.yaml file with metadata including
 # name, url, address, and phone number.
 
-import re, lxml.html, lxml.etree, StringIO, datetime
+import re, lxml.html, lxml.etree, io, datetime
 from collections import OrderedDict
 import utils
 from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
@@ -51,7 +51,7 @@ for moc in legislators_current:
 # Scrape clerk.house.gov...
 
 def scrape_house_alt():
-  for id, cx in house_ref.items():
+  for id, cx in list(house_ref.items()):
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
 
 def scrape_house():
@@ -62,7 +62,7 @@ def scrape_house():
   body = download(url, "committees/membership/house.html", force)
   for id, name in re.findall(r'<a href="/committee_info/index.aspx\?comcode=(..)00">(.*)</a>', body, re.I):
     if id not in house_ref:
-      print "Unrecognized committee:", id, name
+      print("Unrecognized committee:", id, name)
       continue
     cx = house_ref[id]
     scrape_house_committee(cx, cx["thomas_id"], id + "00")
@@ -74,7 +74,7 @@ def scrape_house_committee(cx, output_code, house_code):
   # names)
   url = "http://clerk.house.gov/committee_info/index.aspx?%s=%s" % ('comcode' if house_code[-2:] == '00' else 'subcomcode', house_code)
   body = download(url, "committees/membership/house/%s.html" % house_code, force)
-  dom = lxml.html.parse(StringIO.StringIO(body.decode('utf-8'))).getroot()
+  dom = lxml.html.parse(io.StringIO(body.decode('utf-8'))).getroot()
 
   # update official name metadata
   if house_code[-2:] == "00":
@@ -110,18 +110,18 @@ def scrape_house_committee(cx, output_code, house_code):
       m = re.search(r"statdis=([A-Z][A-Z]\d\d)", moc)
       if not m: raise ValueError("Failed to parse member link: " + moc)
       if not m.group(1) in congressmen:
-        print "Vacancy discrepancy? " + m.group(1)
+        print("Vacancy discrepancy? " + m.group(1))
         continue
 
       moc = congressmen[m.group(1)]
       found_name = node.cssselect('a')[0].text_content().replace(", ", "")
 
       if moc['name'].get("official_full", None) is None:
-        print "No official_full field for %s" % found_name
+        print("No official_full field for %s" % found_name)
         continue
 
       if found_name != moc['name']['official_full']:
-        print ("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())).encode("utf8")
+        print(("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())).encode("utf8"))
 
       entry = OrderedDict()
       entry["name"] = moc['name']['official_full']
@@ -161,7 +161,7 @@ def scrape_house_committee(cx, output_code, house_code):
       if sx["thomas_id"] == m.group(2):
         break
     else:
-      print "Subcommittee not found, creating it", output_code, m.group(1)
+      print("Subcommittee not found, creating it", output_code, m.group(1))
       sx = OrderedDict()
       sx['name'] = "[not initialized]" # will be set inside of scrape_house_committee
       sx['thomas_id'] = m.group(2)
@@ -175,7 +175,7 @@ def scrape_senate():
 
   for id, name in re.findall(r'value="/general/committee_membership/committee_memberships_(....).htm">(.*?)</option>', body, re.I |  re.S):
     if id not in senate_ref:
-      print "Unrecognized committee:", id, name
+      print("Unrecognized committee:", id, name)
       continue
 
     cx = senate_ref[id]
@@ -184,11 +184,11 @@ def scrape_senate():
     # Scrape some metadata on the HTML page first.
 
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
-    print "[%s] Fetching members for %s (%s)" % (id, name, committee_url)
+    print("[%s] Fetching members for %s (%s)" % (id, name, committee_url))
     body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
 
     if not body2:
-      print "\tcommittee page not good:", committee_url
+      print("\tcommittee page not good:", committee_url)
       continue
 
     m = re.search(r'<span class="contenttext"><a href="(http://(.*?).senate.gov/)">', body2, re.I)
@@ -197,7 +197,7 @@ def scrape_senate():
 
     # Use the XML for the rest.
 
-    print "\tDownloading XML..."
+    print("\tDownloading XML...")
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
 
     body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
@@ -221,7 +221,7 @@ def scrape_senate():
         if sx["thomas_id"] == scid:
           break
       else:
-        print "Subcommittee not found, creating it", scid, name
+        print("Subcommittee not found, creating it", scid, name)
         sx = OrderedDict()
         sx['thomas_id'] = scid
         cx.setdefault('subcommittees', []).append(sx)
@@ -245,8 +245,8 @@ def scrape_senate_member(output_list, membernode, majority_party, is_joint):
   if title == "Ranking": title = "Ranking Member"
 
   # look up senator by state and last name
-  if not senators.has_key((state, last_name)):
-    print "\t[%s] Unknown member: %s" % (state, last_name)
+  if (state, last_name) not in senators:
+    print("\t[%s] Unknown member: %s" % (state, last_name))
     return None
 
   moc = senators[(state, last_name)]
@@ -255,7 +255,7 @@ def scrape_senate_member(output_list, membernode, majority_party, is_joint):
   if 'official_full' in moc['name']:
     entry["name"] = moc['name']['official_full']
   else:
-    print "missing name->official_full field for", moc['id']['bioguide']
+    print("missing name->official_full field for", moc['id']['bioguide'])
   entry["party"] = party
   entry["rank"] = len([e for e in output_list if e["party"] == entry["party"]]) + 1 # how many have we seen so far in this party, +1
   if title: entry["title"] = title
@@ -274,7 +274,7 @@ def scrape_senate_member(output_list, membernode, majority_party, is_joint):
 def ids_from(moc):
   ids = {}
   for id in ["bioguide", "thomas"]:
-    if moc.has_key(id):
+    if id in moc:
       ids[id] = moc[id]
   if len(ids) == 0:
     raise ValueError("Missing an official ID for this legislator, won't be able to link back")
@@ -284,7 +284,7 @@ def restore_house_members_on_joint_committees():
   # The House doesn't publish joint committee members, but we're manaually gathering
   # that. Add them back into the output from whatever we have on disk. Put them after
   # Senate members.
-  for c, mbrs in memberships_current.items():
+  for c, mbrs in list(memberships_current.items()):
     if c[0] != "J": continue
     for m in mbrs:
       if m["chamber"] != "house": continue

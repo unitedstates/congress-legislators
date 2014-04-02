@@ -4,7 +4,7 @@
 # using the CongLinks template also updates a variety of
 # other ID as found in the template.
 
-import lxml.etree, re, urllib
+import lxml.etree, re, urllib.request, urllib.parse, urllib.error
 import utils, os.path
 
 # Field mapping. And which fields should be turned into integers.
@@ -45,7 +45,7 @@ def get_matching_pages():
 			if eicontinue: url += "&eicontinue=" + eicontinue
 			
 			# load the XML
-			print "Getting %s pages (%d...)" % (template, len(page_titles))
+			print("Getting %s pages (%d...)" % (template, len(page_titles)))
 			dom = lxml.etree.fromstring(utils.download(url, None, True)) # can't cache eicontinue probably
 			
 			for pgname in dom.xpath("query/embeddedin/ei/@title"):
@@ -65,7 +65,7 @@ if cache and os.path.exists(page_list_cache_file):
 else:
 	# Query Wikipedia API and save to cache.
 	matching_pages = get_matching_pages()
-	utils.write((u"\n".join(matching_pages)).encode("utf8"), page_list_cache_file)
+	utils.write(("\n".join(matching_pages)).encode("utf8"), page_list_cache_file)
 
 # Filter out things that aren't actually pages (User:, Talk:, etcetera, anything with a colon).
 matching_pages = [p for p in matching_pages if ":" not in p]
@@ -81,7 +81,7 @@ for p in sorted(matching_pages):
 	
 	# Query the Wikipedia API to get the raw page content in XML,
 	# and then use XPath to get the raw page text.
-	url = "http://en.wikipedia.org/w/api.php?action=query&titles=" + urllib.quote(p.encode("utf8")) + "&export&exportnowrap"
+	url = "http://en.wikipedia.org/w/api.php?action=query&titles=" + urllib.parse.quote(p.encode("utf8")) + "&export&exportnowrap"
 	cache_path = "legislators/wikipedia/pages/" + p.encode("utf8")
 	dom = lxml.etree.fromstring(utils.download(url, cache_path, not cache))
 	page_content = dom.xpath("string(mw:page/mw:revision/mw:text)", namespaces={ "mw": "http://www.mediawiki.org/xml/export-0.8/" })
@@ -104,7 +104,7 @@ for p in sorted(matching_pages):
 				try:
 					if fieldmap[key] in int_fields: val = int(val)
 				except ValueError:
-					print "invalid value", key, val
+					print("invalid value", key, val)
 					continue
 				
 				if key == "opensecrets": val = val.replace("&newMem=Y", "").replace("&newmem=Y", "").replace("&cycle=2004", "").upper()
@@ -121,7 +121,7 @@ for p in sorted(matching_pages):
 	
 
 	if not bioguide in bioguides:
-		print "Member not found: " + bioguide, p.encode("utf8"), "(Might have been a delegate to the Constitutional Convention.)"
+		print("Member not found: " + bioguide, p.encode("utf8"), "(Might have been a delegate to the Constitutional Convention.)")
 		continue
 
 	# handle FEC ids specially because they are stored in an array...

@@ -7,7 +7,7 @@
 #  member's state and district fields are present and accurate.
 #  member's most recent term in the terms field is their current one.
 
-import lxml.html, StringIO, urllib2
+import lxml.html, io, urllib.request, urllib.error, urllib.parse
 import re
 import utils
 from utils import download, load_data, save_data, parse_date
@@ -38,13 +38,13 @@ destination = "legislators/house.html"
 url = "http://house.gov/representatives/"
 body = utils.download(url, destination, force)
 if not body:
-  print "Couldn't download House listing!"
+  print("Couldn't download House listing!")
   exit(0)
 
 try:
-  dom = lxml.html.parse(StringIO.StringIO(body.decode("utf-8"))).getroot()
+  dom = lxml.html.parse(io.StringIO(body.decode("utf-8"))).getroot()
 except lxml.etree.XMLSyntaxError:
-  print "Error parsing House listing!"
+  print("Error parsing House listing!")
   exit(0)
 
 
@@ -61,7 +61,7 @@ for state in states:
     if not cells:
       continue
 
-    district = unicode(cells[0].text_content())
+    district = str(cells[0].text_content())
     if district == "At Large":
       district = 0
 
@@ -69,7 +69,7 @@ for state in states:
 
     # hit the URL to resolve any redirects to get the canonical URL,
     # since the listing on house.gov sometimes gives URLs that redirect.
-    resp = urllib2.urlopen(url)
+    resp = urllib.request.urlopen(url)
     url = resp.geturl()
 
     # kill trailing slashes
@@ -78,14 +78,14 @@ for state in states:
     if state == "AQ":
       state = "AS"
     full_district = "%s%02d" % (state, int(district))
-    if by_district.has_key(full_district):
+    if full_district in by_district:
       by_district[full_district]['terms'][-1]['url'] = url
     else:
-      print "[%s] No current legislator" % full_district
+      print("[%s] No current legislator" % full_district)
 
     count += 1
 
-print "Processed %i people rows on House listing." % count
+print("Processed %i people rows on House listing." % count)
 
-print "Saving data..."
+print("Saving data...")
 save_data(current, "legislators-current.yaml")

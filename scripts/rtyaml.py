@@ -67,9 +67,9 @@ def construct_odict(load, node):
         value = load.construct_object(value)
         omap[key] = value
 
-Loader.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
+Loader.add_constructor('tag:yaml.org,2002:map', construct_odict)
 def ordered_dict_serializer(self, data):
-    return self.represent_mapping('tag:yaml.org,2002:map', data.items())
+    return self.represent_mapping('tag:yaml.org,2002:map', list(data.items()))
 Dumper.add_representer(OrderedDict, ordered_dict_serializer)
 
 # Likewise, when we store unicode objects make sure we don't write
@@ -96,14 +96,14 @@ def our_string_representer(dumper, value):
 	# If it looks like an octal number, force '-quote style.
 	style = None # let PyYAML choose?
 	if re.match(r"^0\d*$", value): style = "'"
-	return dumper.represent_scalar(u'tag:yaml.org,2002:str', value, style=style)
+	return dumper.represent_scalar('tag:yaml.org,2002:str', value, style=style)
 Dumper.add_representer(str, our_string_representer)
-Dumper.add_representer(unicode, our_string_representer)
+Dumper.add_representer(str, our_string_representer)
 
 # Add a representer for nulls too. YAML accepts "~" for None, but the
 # default output converts that to "null". Override to always use "~".
 Dumper.add_representer(type(None), lambda dumper, value : \
-	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
+	dumper.represent_scalar('tag:yaml.org,2002:null', "~"))
 
 
 # Provide some wrapper methods that apply typical settings.
