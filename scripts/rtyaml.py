@@ -131,6 +131,7 @@ def dump(data, stream):
     if isinstance(stream, file):
         initial_comment_block = comment_header_from(stream)
         stream.seek(0)
+        stream.truncate() # in case file shrinks, make sure we don't leave anything at the end
 
         if initial_comment_block:
             stream.write(initial_comment_block)
