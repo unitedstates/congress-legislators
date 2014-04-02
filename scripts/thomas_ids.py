@@ -39,7 +39,7 @@ for chamber in ("House of Representatives", "Senate"):
   cache = "congress.gov/members/%s-%s.html" % (CONGRESS_ID, chamber)
   try:
     body = download(url, cache, force)
-    dom = lxml.html.parse(io.StringIO(body.decode("utf-8"))).getroot()
+    dom = lxml.html.parse(io.StringIO(body)).getroot()
   except lxml.etree.XMLSyntaxError:
     print("Error parsing: ", url)
     continue

@@ -79,6 +79,6 @@ w.writerow(field_order)
 for record in data:
 	obj = flatten_object(record, "", {})
 	w.writerow([
-		str(obj.get(f, "")).encode("utf8")
+		obj.get(f, "")
 		for f in field_order
 		])

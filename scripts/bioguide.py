@@ -150,12 +150,11 @@ for bioguide in bioguides:
     # Fix a problem?
     body = body.replace("&Aacute;\xc2\x81", "&Aacute;")
 
-    # Text and entities like &#146; are in Windows-1252 encoding. Normally lxml
+    # Entities like &#146; are in Windows-1252 encoding. Normally lxml
     # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
     # doesn't support specifying an encoding, and the lxml.etree.HTMLParser doesn't
     # provide a cssselect method on element objects. So we'll just decode ourselves.
-    body = body.decode("Windows-1252") # the raw bytes
-    body = utils.unescape(body, "Windows-1252") # entities
+    body = utils.unescape(body, "Windows-1252")
 
     dom = lxml.html.parse(io.StringIO(body)).getroot()
   except lxml.etree.XMLSyntaxError:

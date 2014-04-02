@@ -74,7 +74,7 @@ def scrape_house_committee(cx, output_code, house_code):
   # names)
   url = "http://clerk.house.gov/committee_info/index.aspx?%s=%s" % ('comcode' if house_code[-2:] == '00' else 'subcomcode', house_code)
   body = download(url, "committees/membership/house/%s.html" % house_code, force)
-  dom = lxml.html.parse(io.StringIO(body.decode('utf-8'))).getroot()
+  dom = lxml.html.parse(io.StringIO(body)).getroot()
 
   # update official name metadata
   if house_code[-2:] == "00":
@@ -201,7 +201,7 @@ def scrape_senate():
     committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
 
     body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
-    dom = lxml.etree.fromstring(body3)
+    dom = lxml.etree.fromstring(body3.encode("utf8")) # must be bytes to parse if there is an encoding declaration inside the string
 
     cx["name"] = dom.xpath("committees/committee_name")[0].text
     if id[0] != "J" and id[0:2] != 'SC':

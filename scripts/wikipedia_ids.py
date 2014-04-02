@@ -61,11 +61,11 @@ def get_matching_pages():
 page_list_cache_file = os.path.join(utils.cache_dir(), "legislators/wikipedia/page_titles")
 if cache and os.path.exists(page_list_cache_file):
 	# Load from cache.
-	matching_pages = open(page_list_cache_file).read().decode("utf8").split("\n")
+	matching_pages = open(page_list_cache_file).read().split("\n")
 else:
 	# Query Wikipedia API and save to cache.
 	matching_pages = get_matching_pages()
-	utils.write(("\n".join(matching_pages)).encode("utf8"), page_list_cache_file)
+	utils.write(("\n".join(matching_pages)), page_list_cache_file)
 
 # Filter out things that aren't actually pages (User:, Talk:, etcetera, anything with a colon).
 matching_pages = [p for p in matching_pages if ":" not in p]
@@ -82,7 +82,7 @@ for p in sorted(matching_pages):
 	# Query the Wikipedia API to get the raw page content in XML,
 	# and then use XPath to get the raw page text.
 	url = "http://en.wikipedia.org/w/api.php?action=query&titles=" + urllib.parse.quote(p.encode("utf8")) + "&export&exportnowrap"
-	cache_path = "legislators/wikipedia/pages/" + p.encode("utf8")
+	cache_path = "legislators/wikipedia/pages/" + p
 	dom = lxml.etree.fromstring(utils.download(url, cache_path, not cache))
 	page_content = dom.xpath("string(mw:page/mw:revision/mw:text)", namespaces={ "mw": "http://www.mediawiki.org/xml/export-0.8/" })
 

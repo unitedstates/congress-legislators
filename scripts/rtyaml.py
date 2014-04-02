@@ -112,24 +112,18 @@ def load(stream):
     return yaml.load(stream, Loader=Loader)
 
 
-# Read any comment block at the start. We can only do this if we can
-# peek the stream. Convert a file to an io.BufferedReader for convenience.
-# Attempt to read for a comment block if the stream has a peek method.
-def comment_header_from(file):
-    initial_comment_block = ""
-
-    read_stream = io.open(file.fileno(), mode="rb", closefd=False)
-
-    if hasattr(read_stream, "peek") and hasattr(read_stream, "readline"):
-        while read_stream.peek(1)[0] == "#":
-            initial_comment_block += read_stream.readline()
-
-    return initial_comment_block
-
 def dump(data, stream):
     # if we got a file, check if there's an initial comment bloc
-    if isinstance(stream, file):
-        initial_comment_block = comment_header_from(stream)
+    if hasattr(stream, "seek") and hasattr(stream, "readline"):
+        # Read any comment block at the start. We can only do this if we can
+        # seek the stream back to the start so we can write out the contents
+        # at the beginning of the file.
+        initial_comment_block = ""
+        while True:
+            line = stream.readline()
+            if line[0] != '#': break
+            initial_comment_block += line
+
         stream.seek(0)
         stream.truncate() # in case file shrinks, make sure we don't leave anything at the end
 

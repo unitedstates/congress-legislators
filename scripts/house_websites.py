@@ -42,7 +42,7 @@ if not body:
   exit(0)
 
 try:
-  dom = lxml.html.parse(io.StringIO(body.decode("utf-8"))).getroot()
+  dom = lxml.html.parse(io.StringIO(body)).getroot()
 except lxml.etree.XMLSyntaxError:
   print("Error parsing House listing!")
   exit(0)

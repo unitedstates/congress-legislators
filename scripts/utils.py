@@ -195,10 +195,10 @@ def download(url, destination=None, force=False, options=None):
 
       if options.get('urllib', False):
         response = urllib.request.urlopen(url)
-        body = response.read()
+        body = response.read().decode("utf-8") # guessing encoding
       else:
         response = scraper.urlopen(url)
-        body = response.encode('utf-8')
+        body = str(response) # ensure is unicode not bytes
     except scrapelib.HTTPError as e:
       log("Error downloading %s" % url)
       return None
@@ -238,6 +238,7 @@ def format_datetime(obj):
     return None
 
 def write(content, destination):
+  # content must be a str instance (not bytes), will be written in utf-8 per open()'s default
   mkdir_p(os.path.dirname(destination))
   f = open(destination, 'w')
   f.write(content)
@@ -280,9 +281,9 @@ def unescape(text, encoding=None):
       else:
         try:
           if text[:3] == "&#x":
-            return chr(int(text[3:-1], 16)).decode(encoding)
+            return bytes([int(text[3:-1], 16)]).decode(encoding)
           else:
-            return chr(int(text[2:-1])).decode(encoding)
+            return bytes([int(text[2:-1])]).decode(encoding)
         except ValueError:
           pass
     else:
@@ -309,11 +310,11 @@ def yaml_load(path, use_cache=True):
     # Check if the .pickle file exists and a hash stored inside it
     # matches the hash of the YAML file, and if so unpickle it.
     import pickle as pickle, os.path, hashlib
-    h = hashlib.sha1(open(path).read()).hexdigest()
+    h = hashlib.sha1(open(path, 'rb').read()).hexdigest()
     if use_cache and os.path.exists(path + ".pickle"):
 
         try:
-          store = pickle.load(open(path + ".pickle"))
+          store = pickle.load(open(path + ".pickle", 'rb'))
           if store["hash"] == h:
             return store["data"]
         except EOFError:
@@ -323,7 +324,7 @@ def yaml_load(path, use_cache=True):
     data = rtyaml.load(open(path))
 
     # Store in a pickled file for fast access later.
-    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
+    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "wb"))
 
     return data
 
@@ -333,8 +334,8 @@ def yaml_dump(data, path):
 
     # Store in a pickled file for fast access later.
     import pickle as pickle, hashlib
-    h = hashlib.sha1(open(path).read()).hexdigest()
-    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "w"))
+    h = hashlib.sha1(open(path, 'rb').read()).hexdigest()
+    pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "wb"))
 
 def pprint(data):
     rtyaml.pprint(data)

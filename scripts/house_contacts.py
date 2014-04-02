@@ -40,7 +40,7 @@ for moc in y:
 	try:
 		# the meta tag say it's iso-8859-1, but... names are actually in utf8...
 		body = download(url, cache, force)
-		dom = lxml.html.parse(io.StringIO(body.decode("utf-8"))).getroot()
+		dom = lxml.html.parse(io.StringIO(body)).getroot()
 	except lxml.etree.XMLSyntaxError:
 		print("Error parsing: ", url)
 		continue
