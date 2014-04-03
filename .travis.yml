@@ -17,7 +17,7 @@ script:
 
 after_success:
   - coverage report
-  - coveralls
+  - coveralls --rcfile=.coveragerc
   - pip install pep8 pyflakes
   - pep8 scripts/*.py
   - pyflakes scripts/*.py
