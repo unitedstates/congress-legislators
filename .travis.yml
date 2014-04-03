@@ -3,13 +3,12 @@ language: python
 python:
   - 3.3.2
   # - 3.4
-  # - pypy
 
 install: pip install -r scripts/requirements.txt --use-mirrors
 script: python test/workout.py
 
-# after_success:
-  # - pyflakes scripts/*.py
+after_success:
+  - pyflakes scripts/*.py
 
 notifications:
   email:
