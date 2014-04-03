@@ -10,7 +10,7 @@ python:
 
 install:
   - pip install -r scripts/requirements.txt
-  - pip install coveralls nose nose-exclude
+  - pip install coveralls nose
 
 script:
   - nosetests --with-coverage --cover-package=scripts
