@@ -11,7 +11,7 @@
 #  --bioguide: do *only* a single legislator
 #  --relationships: Get familial relationships to other members of congress past and present, when applicable
 
-import lxml.html, StringIO
+import lxml.html, io
 import datetime
 import re
 import utils
@@ -22,7 +22,7 @@ def update_birthday(bioguide, person, main):
 
   birthday = birthday_for(main)
   if not birthday:
-    print "[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
+    print("[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8")))
     warnings.append(bioguide)
     return
   if birthday == "UNKNOWN":
@@ -31,7 +31,7 @@ def update_birthday(bioguide, person, main):
   try:
     birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
   except ValueError:
-    print "[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8"))
+    print("[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8")))
     warnings.append(bioguide)
     return
 
@@ -46,7 +46,7 @@ def birthday_for(string):
   string = string.replace("CAO, Anh (Joseph), a Representative from Louisiana; born in Ho Chi Minh City, Vietnam; March 13, 1967", "born March 13, 1967")
   string = string.replace("CRITZ, Mark S., a Representative from Pennsylvania; born in Irwin, Westmoreland County, Pa.; January 5, 1962;", "born January 5, 1962")
   string = string.replace("SCHIFF, Steven Harvey, a Representative from New Mexico; born in Chicago, Ill.; March 18, 1947", "born March 18, 1947")
-  string = string.replace(u'KRATOVIL, Frank, M. Jr., a Representative from Maryland; born in Lanham, Prince George\u2019s County, Md.; May 29, 1968', "born May 29, 1968")
+  string = string.replace('KRATOVIL, Frank, M. Jr., a Representative from Maryland; born in Lanham, Prince George\u2019s County, Md.; May 29, 1968', "born May 29, 1968")
 
   # look for a date
   pattern = r"born [^;]*?((?:January|February|March|April|May|June|July|August|September|October|November|December),? \d{1,2},? \d{4})"
@@ -112,17 +112,17 @@ if utils.flags().get('historical', False):
 elif utils.flags().get('current', True):
   filename = "legislators-current.yaml"
 else:
-  print "No legislators selected."
+  print("No legislators selected.")
   exit(0)
 
-print "Loading %s..." % filename
+print("Loading %s..." % filename)
 legislators = load_data(filename)
 
 
 # reoriented cache to access by bioguide ID
 by_bioguide = { }
 for m in legislators:
-  if m["id"].has_key("bioguide"):
+  if "bioguide" in m["id"]:
     by_bioguide[m["id"]["bioguide"]] = m
 
 
@@ -132,7 +132,7 @@ bioguide = utils.flags().get('bioguide', None)
 if bioguide:
   bioguides = [bioguide]
 else:
-  bioguides = by_bioguide.keys()
+  bioguides = list(by_bioguide.keys())
 
 warnings = []
 missing = []
@@ -150,22 +150,21 @@ for bioguide in bioguides:
     # Fix a problem?
     body = body.replace("&Aacute;\xc2\x81", "&Aacute;")
 
-    # Text and entities like &#146; are in Windows-1252 encoding. Normally lxml
+    # Entities like &#146; are in Windows-1252 encoding. Normally lxml
     # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
     # doesn't support specifying an encoding, and the lxml.etree.HTMLParser doesn't
     # provide a cssselect method on element objects. So we'll just decode ourselves.
-    body = body.decode("Windows-1252") # the raw bytes
-    body = utils.unescape(body, "Windows-1252") # entities
+    body = utils.unescape(body, "Windows-1252")
 
-    dom = lxml.html.parse(StringIO.StringIO(body)).getroot()
+    dom = lxml.html.parse(io.StringIO(body)).getroot()
   except lxml.etree.XMLSyntaxError:
-    print "Error parsing: ", url
+    print("Error parsing: ", url)
     continue
 
   # Sanity check.
 
   if len(dom.cssselect("title")) == 0:
-    print "[%s] No page for this bioguide!" % bioguide
+    print("[%s] No page for this bioguide!" % bioguide)
     missing.append(bioguide)
     continue
 
@@ -175,7 +174,7 @@ for bioguide in bioguides:
     name = dom.cssselect("p font")[0]
     main = dom.cssselect("p")[0]
   except IndexError:
-    print "[%s] Missing name or content!" % bioguide
+    print("[%s] Missing name or content!" % bioguide)
     exit(0)
 
   name = name.text_content().strip()
@@ -200,20 +199,20 @@ for bioguide in bioguides:
   count = count + 1
 
 
-print
+print()
 if warnings:
-  print "Missed %d birthdays: %s" % (len(warnings), str.join(", ", warnings))
+  print("Missed %d birthdays: %s" % (len(warnings), str.join(", ", warnings)))
 
 if missing:
-  print "Missing a page for %d bioguides: %s" % (len(missing), str.join(", ", missing))
+  print("Missing a page for %d bioguides: %s" % (len(missing), str.join(", ", missing)))
 
-print "Saving data to %s..." % filename
+print("Saving data to %s..." % filename)
 save_data(legislators, filename)
 
-print "Saved %d legislators to %s" % (count, filename)
+print("Saved %d legislators to %s" % (count, filename))
 
 if utils.flags().get("relationships", False):
-  print "Found family members for %d of those legislators" % families
+  print("Found family members for %d of those legislators" % families)
   
 # Some testing code to help isolate and fix issued:
 # f

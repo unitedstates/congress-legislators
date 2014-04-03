@@ -8,7 +8,7 @@
 #  --historical: do *only* historical legislators (default: false)
 #  --bioguide: do *only* a single legislator
 
-import lxml.html, StringIO
+import lxml.html, io
 import datetime
 import re
 import utils
@@ -28,26 +28,26 @@ if utils.flags().get('historical', False):
 elif utils.flags().get('current', True):
   filename = "legislators-current.yaml"
 else:
-  print "No legislators selected."
+  print("No legislators selected.")
   exit(0)
 
-print "Loading %s..." % filename
+print("Loading %s..." % filename)
 legislators = load_data(filename)
 
 # reoriented cache to access by bioguide ID
 by_bioguide = { }
 for m in legislators:
-  if m["id"].has_key("bioguide"):
+  if "bioguide" in m["id"]:
     by_bioguide[m["id"]["bioguide"]] = m
 
 count = 0
 
 for id in range(8245,21131):
-  print id
+  print(id)
   url = "http://history.house.gov/People/Detail/%s" % id
   r = requests.get(url, allow_redirects=False)
   if r.status_code == 200:
-      dom = lxml.html.parse(StringIO.StringIO(r.text)).getroot()
+      dom = lxml.html.parse(io.StringIO(r.text)).getroot()
       try:
           bioguide_link = dom.cssselect("a.view-in-bioguide")[0].get('href')
           bioguide_id = bioguide_link.split('=')[1]
@@ -58,7 +58,7 @@ for id in range(8245,21131):
   else:
       continue
 
-print "Saving data to %s..." % filename
+print("Saving data to %s..." % filename)
 save_data(legislators, filename)
 
-print "Saved %d legislators to %s" % (count, filename)
+print("Saved %d legislators to %s" % (count, filename))

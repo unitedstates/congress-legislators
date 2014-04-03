@@ -67,9 +67,9 @@ def construct_odict(load, node):
         value = load.construct_object(value)
         omap[key] = value
 
-Loader.add_constructor(u'tag:yaml.org,2002:map', construct_odict)
+Loader.add_constructor('tag:yaml.org,2002:map', construct_odict)
 def ordered_dict_serializer(self, data):
-    return self.represent_mapping('tag:yaml.org,2002:map', data.items())
+    return self.represent_mapping('tag:yaml.org,2002:map', list(data.items()))
 Dumper.add_representer(OrderedDict, ordered_dict_serializer)
 
 # Likewise, when we store unicode objects make sure we don't write
@@ -96,14 +96,14 @@ def our_string_representer(dumper, value):
 	# If it looks like an octal number, force '-quote style.
 	style = None # let PyYAML choose?
 	if re.match(r"^0\d*$", value): style = "'"
-	return dumper.represent_scalar(u'tag:yaml.org,2002:str', value, style=style)
+	return dumper.represent_scalar('tag:yaml.org,2002:str', value, style=style)
 Dumper.add_representer(str, our_string_representer)
-Dumper.add_representer(unicode, our_string_representer)
+Dumper.add_representer(str, our_string_representer)
 
 # Add a representer for nulls too. YAML accepts "~" for None, but the
 # default output converts that to "null". Override to always use "~".
 Dumper.add_representer(type(None), lambda dumper, value : \
-	dumper.represent_scalar(u'tag:yaml.org,2002:null', u"~"))
+	dumper.represent_scalar('tag:yaml.org,2002:null', "~"))
 
 
 # Provide some wrapper methods that apply typical settings.
@@ -112,24 +112,18 @@ def load(stream):
     return yaml.load(stream, Loader=Loader)
 
 
-# Read any comment block at the start. We can only do this if we can
-# peek the stream. Convert a file to an io.BufferedReader for convenience.
-# Attempt to read for a comment block if the stream has a peek method.
-def comment_header_from(file):
-    initial_comment_block = ""
-
-    read_stream = io.open(file.fileno(), mode="rb", closefd=False)
-
-    if hasattr(read_stream, "peek") and hasattr(read_stream, "readline"):
-        while read_stream.peek(1)[0] == "#":
-            initial_comment_block += read_stream.readline()
-
-    return initial_comment_block
-
 def dump(data, stream):
     # if we got a file, check if there's an initial comment bloc
-    if isinstance(stream, file):
-        initial_comment_block = comment_header_from(stream)
+    if hasattr(stream, "seek") and hasattr(stream, "readline"):
+        # Read any comment block at the start. We can only do this if we can
+        # seek the stream back to the start so we can write out the contents
+        # at the beginning of the file.
+        initial_comment_block = ""
+        while True:
+            line = stream.readline()
+            if line[0] != '#': break
+            initial_comment_block += line
+
         stream.seek(0)
         stream.truncate() # in case file shrinks, make sure we don't leave anything at the end
 

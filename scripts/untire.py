@@ -12,21 +12,21 @@ from utils import load_data, save_data, pprint
 from collections import OrderedDict
 
 if len(sys.argv) != 2:
-	print "Usage:"
-	print "python untire.py bioguideID"
+	print("Usage:")
+	print("python untire.py bioguideID")
 	sys.exit()
 	
-print "Loading current YAML..."
+print("Loading current YAML...")
 y = load_data("legislators-current.yaml")
-print "Loading historical YAML..."
+print("Loading historical YAML...")
 y1 = load_data("legislators-historical.yaml")
 
 for moc in y1:
 	if moc["id"].get("bioguide", None) != sys.argv[1]: continue
 	
-	print "Updating:"
+	print("Updating:")
 	pprint(moc["id"])
-	print
+	print()
 	pprint(moc["name"])
 
 	moc["terms"].append(OrderedDict([
@@ -42,6 +42,6 @@ for moc in y1:
 	
 	break
 	
-print "Saving changes..."
+print("Saving changes...")
 save_data(y, "legislators-current.yaml")
 save_data(y1, "legislators-historical.yaml")

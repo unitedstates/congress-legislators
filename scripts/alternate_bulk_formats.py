@@ -55,11 +55,11 @@ social_media_fields = [
 ]
 
 
-print "Loading %s..." %yaml_social
+print("Loading %s..." %yaml_social)
 social = load_data(yaml_social)
 
 for filename in yamls:
-	print "Loading %s..." % filename
+	print("Loading %s..." % filename)
 	legislators = load_data(filename)
 
 	#convert yaml to json
@@ -68,7 +68,7 @@ for filename in yamls:
 	"../alternate_formats/%s.json" %filename.rstrip(".yaml"))
 
 	#convert yaml to csv
-	csv_output = csv.writer(open("../alternate_formats/%s.csv"%filename.rstrip(".yaml"),"wb"))
+	csv_output = csv.writer(open("../alternate_formats/%s.csv"%filename.rstrip(".yaml"),"w"))
 
 	head = []
 	for pair in bio_fields:
@@ -124,5 +124,4 @@ for filename in yamls:
 			else:
 				legislator_row.append(None)
 
-		unicode_row = [cell.encode('utf-8') if isinstance(cell, basestring) else cell for cell in legislator_row]
-		csv_output.writerow(unicode_row)
+		csv_output.writerow(legislator_row)

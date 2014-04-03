@@ -2,7 +2,7 @@
 
 # Update current congressmen's mailing address from clerk.house.gov.
 
-import lxml.html, StringIO
+import lxml.html, io
 import re, sys
 from datetime import date, datetime
 import utils
@@ -21,13 +21,13 @@ for moc in y:
 	try:
 		term = moc["terms"][-1]
 	except IndexError:
-		print "Member has no terms", moc
+		print("Member has no terms", moc)
 		continue
 
 	if term["type"] != "rep": continue
 
 	if today < parse_date(term["start"]) or today > parse_date(term["end"]):
-		print "Member's last listed term is not current", moc, term["start"]
+		print("Member's last listed term is not current", moc, term["start"])
 		continue
 
 	# Specify districts e.g. WA-02 on the command line to only update those.
@@ -40,24 +40,24 @@ for moc in y:
 	try:
 		# the meta tag say it's iso-8859-1, but... names are actually in utf8...
 		body = download(url, cache, force)
-		dom = lxml.html.parse(StringIO.StringIO(body.decode("utf-8"))).getroot()
+		dom = lxml.html.parse(io.StringIO(body)).getroot()
 	except lxml.etree.XMLSyntaxError:
-		print "Error parsing: ", url
+		print("Error parsing: ", url)
 		continue
 
-	name = unicode(dom.cssselect("#results h3")[0].text_content())
-	addressinfo = unicode(dom.cssselect("#results p")[0].text_content())
+	name = str(dom.cssselect("#results h3")[0].text_content())
+	addressinfo = str(dom.cssselect("#results p")[0].text_content())
 
 	# Sanity check that the name is similar.
 	if name != moc["name"].get("official_full", ""):
 		cfname = moc["name"]["first"] + " " + moc["name"]["last"]
-		print "Warning: Are these the same people?", name.encode("utf8"), "|", cfname.encode("utf8")
+		print("Warning: Are these the same people?", name.encode("utf8"), "|", cfname.encode("utf8"))
 
 	# Parse the address out of the address p tag.
 	addressinfo = "; ".join(line.strip() for line in addressinfo.split("\n") if line.strip() != "")
 	m = re.match(r"[\w\s]+-(\d+(st|nd|rd|th)|At Large|Delegate|Resident Commissioner), ([A-Za-z]*)(.+); Phone: (.*)", addressinfo, re.DOTALL)
 	if not m:
-		print "Error parsing address info: ", name.encode("utf8"), ":", addressinfo.encode("utf8")
+		print("Error parsing address info: ", name.encode("utf8"), ":", addressinfo.encode("utf8"))
 		continue
 
 	address = m.group(4)
