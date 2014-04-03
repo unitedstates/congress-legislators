@@ -74,13 +74,11 @@ from datetime import datetime
 import time
 
 import lxml.html # for meta redirect parsing
-
 import yaml
 
 import smtplib
 import email.utils
 from email.mime.text import MIMEText
-import getpass
 
 
 # read in an opt-in config file for supplying email settings
@@ -92,18 +90,12 @@ else:
   email_settings = None
 
 
-def current_congress():
-  year = current_legislative_year()
-  return congress_from_legislative_year(year)
-
 def congress_from_legislative_year(year):
   return ((year + 1) / 2) - 894
 
 def legislative_year(date=None):
   if not date:
     date = datetime.datetime.now()
-
-  year = date.year
 
   if date.month == 1:
     if date.day == 1 or date.day == 2:
@@ -199,7 +191,7 @@ def download(url, destination=None, force=False, options=None):
       else:
         response = scraper.urlopen(url)
         body = str(response) # ensure is unicode not bytes
-    except scrapelib.HTTPError as e:
+    except scrapelib.HTTPError:
       log("Error downloading %s" % url)
       return None
 
@@ -229,6 +221,8 @@ def download(url, destination=None, force=False, options=None):
 
   return body
 
+from pytz import timezone
+eastern_time_zone = timezone('US/Eastern')
 def format_datetime(obj):
   if isinstance(obj, datetime.datetime):
     return eastern_time_zone.localize(obj.replace(microsecond=0)).isoformat()
@@ -337,10 +331,6 @@ def yaml_dump(data, path):
     h = hashlib.sha1(open(path, 'rb').read()).hexdigest()
     pickle.dump({ "hash": h, "data": data }, open(path+".pickle", "wb"))
 
-def pprint(data):
-    rtyaml.pprint(data)
-
-
 # if email settings are supplied, email the text - otherwise, just print it
 def admin(body):
   try:
@@ -355,10 +345,6 @@ def admin(body):
   except Exception as exception:
     print("Exception logging message to admin, halting as to avoid loop")
     print(format_exception(exception))
-
-def format_exception(exception):
-  exc_type, exc_value, exc_traceback = sys.exc_info()
-  return "\n".join(traceback.format_exception(exc_type, exc_value, exc_traceback))
 
 # this should only be called if the settings are definitely there
 def send_email(message):

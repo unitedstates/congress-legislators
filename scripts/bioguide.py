@@ -15,7 +15,7 @@ import lxml.html, io
 import datetime
 import re
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import download, load_data, save_data
 
 def run():
 
@@ -98,8 +98,6 @@ def run():
           for person in people:
             relationships.append({ "relation": relationship, "name": person})
     return relationships
-
-  debug = utils.flags().get('debug', False)
 
   # default to caching
   cache = utils.flags().get('cache', True)

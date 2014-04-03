@@ -3,9 +3,8 @@
 # Update current senator's website and address from www.senate.gov.
 
 import lxml.etree, io
-import urllib.request, urllib.parse, urllib.error
 import string, re
-from datetime import date, datetime
+from datetime import datetime
 import utils
 from utils import download, load_data, save_data, parse_date
 

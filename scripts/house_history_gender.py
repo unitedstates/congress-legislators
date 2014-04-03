@@ -1,5 +1,5 @@
 import re, urllib.request, urllib.parse
-from utils import yaml_load, yaml_dump, data_dir
+from utils import yaml_load, yaml_dump
 
 def run():
 

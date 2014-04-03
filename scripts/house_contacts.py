@@ -3,8 +3,8 @@
 # Update current congressmen's mailing address from clerk.house.gov.
 
 import lxml.html, io
-import re, sys
-from datetime import date, datetime
+import re
+from datetime import datetime
 import utils
 from utils import download, load_data, save_data, parse_date
 

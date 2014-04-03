@@ -10,7 +10,7 @@
 import lxml.html, io, urllib.request, urllib.error, urllib.parse
 import re
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import load_data, save_data
 
 def run():
 

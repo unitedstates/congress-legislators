@@ -39,7 +39,7 @@
 #   more lines starting with a '#', write back out the commend if the
 #   same object is written with rtyaml.dump().)
 
-import sys, re, io
+import sys, re
 from collections import OrderedDict
 
 import yaml
