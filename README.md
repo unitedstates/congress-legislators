@@ -1,6 +1,8 @@
 congress-legislators
 ====================
 
+[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
+
 Members of the United States Congress (1789-Present) and congressional committees (1973-Present) in YAML.
 
 This repository contains data about legislators:
