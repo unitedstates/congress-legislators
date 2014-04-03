@@ -10,10 +10,10 @@ python:
 
 install:
   - pip install -r scripts/requirements.txt
-  - pip install coveralls
+  - pip install coveralls nose nose-exclude
 
 script:
-  - coverage run --source scripts test/test_utils.py
+  - nosetests --with-coverage --cover-package=scripts
 
 after_success:
   - coverage report
