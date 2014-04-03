@@ -1,0 +1,31 @@
+language: python
+
+python:
+  - 2.6
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+  - pypy
+
+install:
+  - pip install -r scripts/requirements.txt
+  - pip install coveralls
+
+script:
+  - coverage run --source scripts test/test_utils.py
+
+after_success:
+  - coverage report
+  - coveralls
+  - pip install pep8 pyflakes
+  - pep8 scripts/*.py
+  - pyflakes scripts/*.py
+
+matrix:
+  allow_failures:
+    - python: 2.6
+    - python: 3.2
+    - python: 3.3
+    - python: 3.4
+    - python: pypy
