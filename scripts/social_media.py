@@ -29,7 +29,6 @@
 import csv, re
 import utils
 from utils import download, load_data, save_data, parse_date
-
 import requests
 
 def main():
@@ -379,4 +378,5 @@ def main():
   else:
     sweep()
 
-main()
+if __name__ == '__main__':
+  main()

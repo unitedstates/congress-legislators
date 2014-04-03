@@ -15,50 +15,55 @@ import utils
 import requests
 from utils import download, load_data, save_data, parse_date
 
-debug = utils.flags().get('debug', False)
+def run():
 
-# default to caching
-cache = utils.flags().get('cache', True)
-force = not cache
+  debug = utils.flags().get('debug', False)
 
-# pick either current or historical
-# order is important here, since current defaults to true
-if utils.flags().get('historical', False):
-  filename = "legislators-historical.yaml"
-elif utils.flags().get('current', True):
-  filename = "legislators-current.yaml"
-else:
-  print("No legislators selected.")
-  exit(0)
+  # default to caching
+  cache = utils.flags().get('cache', True)
+  force = not cache
 
-print("Loading %s..." % filename)
-legislators = load_data(filename)
-
-# reoriented cache to access by bioguide ID
-by_bioguide = { }
-for m in legislators:
-  if "bioguide" in m["id"]:
-    by_bioguide[m["id"]["bioguide"]] = m
-
-count = 0
-
-for id in range(8245,21131):
-  print(id)
-  url = "http://history.house.gov/People/Detail/%s" % id
-  r = requests.get(url, allow_redirects=False)
-  if r.status_code == 200:
-      dom = lxml.html.parse(io.StringIO(r.text)).getroot()
-      try:
-          bioguide_link = dom.cssselect("a.view-in-bioguide")[0].get('href')
-          bioguide_id = bioguide_link.split('=')[1]
-          by_bioguide[bioguide_id]["id"]["house_history"] = id
-          count = count + 1
-      except:
-          continue
+  # pick either current or historical
+  # order is important here, since current defaults to true
+  if utils.flags().get('historical', False):
+    filename = "legislators-historical.yaml"
+  elif utils.flags().get('current', True):
+    filename = "legislators-current.yaml"
   else:
-      continue
+    print("No legislators selected.")
+    exit(0)
 
-print("Saving data to %s..." % filename)
-save_data(legislators, filename)
+  print("Loading %s..." % filename)
+  legislators = load_data(filename)
 
-print("Saved %d legislators to %s" % (count, filename))
+  # reoriented cache to access by bioguide ID
+  by_bioguide = { }
+  for m in legislators:
+    if "bioguide" in m["id"]:
+      by_bioguide[m["id"]["bioguide"]] = m
+
+  count = 0
+
+  for id in range(8245,21131):
+    print(id)
+    url = "http://history.house.gov/People/Detail/%s" % id
+    r = requests.get(url, allow_redirects=False)
+    if r.status_code == 200:
+        dom = lxml.html.parse(io.StringIO(r.text)).getroot()
+        try:
+            bioguide_link = dom.cssselect("a.view-in-bioguide")[0].get('href')
+            bioguide_id = bioguide_link.split('=')[1]
+            by_bioguide[bioguide_id]["id"]["house_history"] = id
+            count = count + 1
+        except:
+            continue
+    else:
+        continue
+
+  print("Saving data to %s..." % filename)
+  save_data(legislators, filename)
+
+  print("Saved %d legislators to %s" % (count, filename))
+
+if __name__ == '__main__':
+  run()

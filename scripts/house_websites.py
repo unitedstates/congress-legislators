@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Uses http://house.gov/representatives/ to scrape official member websites. 
+# Uses http://house.gov/representatives/ to scrape official member websites.
 # Only known source.
 
 # Assumptions:
@@ -12,80 +12,85 @@ import re
 import utils
 from utils import download, load_data, save_data, parse_date
 
-# default to not caching
-cache = utils.flags().get('cache', False)
-force = not cache
+def run():
+
+  # default to not caching
+  cache = utils.flags().get('cache', False)
+  force = not cache
 
 
-states = []
-current = load_data("legislators-current.yaml")
-by_district = { }
-for m in current:
-  last_term = m['terms'][-1]
-  if last_term['type'] != 'sen':
-    state = last_term['state']
-    
-    full_district = "%s%02d" % (state, int(last_term['district']))
-    by_district[full_district] = m
+  states = []
+  current = load_data("legislators-current.yaml")
+  by_district = { }
+  for m in current:
+    last_term = m['terms'][-1]
+    if last_term['type'] != 'sen':
+      state = last_term['state']
 
-    if not state in states:
-      # house lists AS (American Samoa) as AQ, awesome
-      if state == "AS":
-        state = "AQ"
-      states.append(state)
+      full_district = "%s%02d" % (state, int(last_term['district']))
+      by_district[full_district] = m
 
-destination = "legislators/house.html"
-url = "http://house.gov/representatives/"
-body = utils.download(url, destination, force)
-if not body:
-  print("Couldn't download House listing!")
-  exit(0)
+      if not state in states:
+        # house lists AS (American Samoa) as AQ, awesome
+        if state == "AS":
+          state = "AQ"
+        states.append(state)
 
-try:
-  dom = lxml.html.parse(io.StringIO(body)).getroot()
-except lxml.etree.XMLSyntaxError:
-  print("Error parsing House listing!")
-  exit(0)
+  destination = "legislators/house.html"
+  url = "http://house.gov/representatives/"
+  body = utils.download(url, destination, force)
+  if not body:
+    print("Couldn't download House listing!")
+    exit(0)
+
+  try:
+    dom = lxml.html.parse(io.StringIO(body)).getroot()
+  except lxml.etree.XMLSyntaxError:
+    print("Error parsing House listing!")
+    exit(0)
 
 
-# process:
-#   go through every state in our records, fetching that state's table
-#   go through every row after the first, pick the district to isolate the member
-#   pluck out the URL, update that member's last term's URL
-count = 0
-for state in states:
-  rows = dom.cssselect("h2#state_%s+table tr" % state.lower())
+  # process:
+  #   go through every state in our records, fetching that state's table
+  #   go through every row after the first, pick the district to isolate the member
+  #   pluck out the URL, update that member's last term's URL
+  count = 0
+  for state in states:
+    rows = dom.cssselect("h2#state_%s+table tr" % state.lower())
 
-  for row in rows:
-    cells = row.cssselect("td")
-    if not cells:
-      continue
+    for row in rows:
+      cells = row.cssselect("td")
+      if not cells:
+        continue
 
-    district = str(cells[0].text_content())
-    if district == "At Large":
-      district = 0
+      district = str(cells[0].text_content())
+      if district == "At Large":
+        district = 0
 
-    url = cells[1].cssselect("a")[0].get("href")
+      url = cells[1].cssselect("a")[0].get("href")
 
-    # hit the URL to resolve any redirects to get the canonical URL,
-    # since the listing on house.gov sometimes gives URLs that redirect.
-    resp = urllib.request.urlopen(url)
-    url = resp.geturl()
+      # hit the URL to resolve any redirects to get the canonical URL,
+      # since the listing on house.gov sometimes gives URLs that redirect.
+      resp = urllib.request.urlopen(url)
+      url = resp.geturl()
 
-    # kill trailing slashes
-    url = re.sub("/$", "", url)
+      # kill trailing slashes
+      url = re.sub("/$", "", url)
 
-    if state == "AQ":
-      state = "AS"
-    full_district = "%s%02d" % (state, int(district))
-    if full_district in by_district:
-      by_district[full_district]['terms'][-1]['url'] = url
-    else:
-      print("[%s] No current legislator" % full_district)
+      if state == "AQ":
+        state = "AS"
+      full_district = "%s%02d" % (state, int(district))
+      if full_district in by_district:
+        by_district[full_district]['terms'][-1]['url'] = url
+      else:
+        print("[%s] No current legislator" % full_district)
 
-    count += 1
+      count += 1
 
-print("Processed %i people rows on House listing." % count)
+  print("Processed %i people rows on House listing." % count)
 
-print("Saving data...")
-save_data(current, "legislators-current.yaml")
+  print("Saving data...")
+  save_data(current, "legislators-current.yaml")
+
+if __name__ == '__main__':
+  run()

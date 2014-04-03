@@ -1,0 +1,20 @@
+language: python
+
+python:
+  - 3.3.2
+  # - 3.4
+  # - pypy
+
+install: pip install -r scripts/requirements.txt --use-mirrors
+script: python test/workout.py
+
+# after_success:
+  # - pyflakes scripts/*.py
+
+notifications:
+  email:
+    recipients:
+      - eric@sunlightfoundation.com
+      - tauberer@govtrack.us
+    on_success: change
+    on_failure: change
