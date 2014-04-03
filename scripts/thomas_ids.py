@@ -5,10 +5,9 @@
 # IDs because name matching is hard.
 
 import lxml.html, io, urllib.request, urllib.parse, urllib.error
-import re, sys
-from datetime import date, datetime
+import re
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import download, load_data, save_data
 
 def run():
   CONGRESS_ID = "113th Congress (2013-2014)" # the query string parameter

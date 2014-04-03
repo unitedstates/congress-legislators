@@ -9,19 +9,11 @@
 #  --bioguide: do *only* a single legislator
 
 import lxml.html, io
-import datetime
-import re
 import utils
 import requests
-from utils import download, load_data, save_data, parse_date
+from utils import load_data, save_data
 
 def run():
-
-  debug = utils.flags().get('debug', False)
-
-  # default to caching
-  cache = utils.flags().get('cache', True)
-  force = not cache
 
   # pick either current or historical
   # order is important here, since current defaults to true

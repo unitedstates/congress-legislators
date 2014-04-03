@@ -6,15 +6,12 @@
 
 import csv, re
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import load_data, save_data
 
 
 def run():
   house_labels = "labels-113.csv"
 
-  # default to not caching
-  cache = utils.flags().get('cache', False)
-  force = not cache
   names = utils.flags().get('names', False)
 
   y = load_data("legislators-current.yaml")

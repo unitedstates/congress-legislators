@@ -5,7 +5,7 @@
 # the committees-historical.yaml file. It will include current committees
 # as well.
 
-import re, itertools
+import re
 from collections import OrderedDict
 import utils
 from utils import download, load_data, save_data, CURRENT_CONGRESS

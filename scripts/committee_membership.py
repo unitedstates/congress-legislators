@@ -7,7 +7,7 @@
 import re, lxml.html, lxml.etree, io, datetime
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
+from utils import download, load_data, save_data, parse_date
 
 
 def run():

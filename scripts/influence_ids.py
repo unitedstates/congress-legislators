@@ -7,12 +7,8 @@
 #  --current: do *only* current legislators (default: true)
 #  --historical: do *only* historical legislators (default: false)
 
-import datetime
-import re
 import utils
-import urllib.request, urllib.error, urllib.parse
-import requests
-from utils import download, load_data, save_data, parse_date
+from utils import load_data, save_data
 import json
 
 def run():

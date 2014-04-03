@@ -7,20 +7,13 @@
 #  --bioguide: load only one legislator, by his/her bioguide ID
 #  --congress: do *only* updates for legislators serving in specific congress
 
-import datetime
-import re
 import utils
-import urllib.request, urllib.error, urllib.parse
-import requests
-from utils import download, load_data, save_data, parse_date, states, congress_from_legislative_year, legislative_year
-import json
+from utils import load_data, save_data, parse_date
 import string
 import csv
 import unicodedata
 
 def run():
-
-    debug = utils.flags().get('debug', False)
 
     # default to caching
     cache = utils.flags().get('cache', True)
@@ -31,8 +24,6 @@ def run():
     congress = utils.flags().get('congress',None)
 
 
-    filename_historical = "legislators-historical.yaml"
-    filename_current = "legislators-current.yaml"
     data_files = []
 
     print("Loading %s..." % "legislators-current.yaml")

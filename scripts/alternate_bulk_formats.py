@@ -1,6 +1,6 @@
 import csv
 import json
-from utils import write, format_datetime, load_data
+import utils
 
 def run():
 
@@ -57,15 +57,15 @@ def run():
 
 
 	print("Loading %s..." %yaml_social)
-	social = load_data(yaml_social)
+	social = utils.load_data(yaml_social)
 
 	for filename in yamls:
 		print("Loading %s..." % filename)
-		legislators = load_data(filename)
+		legislators = utils.load_data(filename)
 
 		#convert yaml to json
-		write(
-		json.dumps(legislators, sort_keys=True, indent=2, default=format_datetime),
+		utils.write(
+		json.dumps(legislators, sort_keys=True, indent=2, default=utils.format_datetime),
 		"../alternate_formats/%s.json" %filename.rstrip(".yaml"))
 
 		#convert yaml to csv

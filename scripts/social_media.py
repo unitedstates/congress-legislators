@@ -28,7 +28,7 @@
 
 import csv, re
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import load_data, save_data
 import requests
 
 def main():
@@ -204,7 +204,6 @@ def main():
           # even though we have their channel ID, do they also have a username?
           if ytobj['entry']['yt$username']['$t'] != ytobj['entry']['yt$userId']['$t']:
             if social['youtube'].lower() != ytobj['entry']['yt$username']['$t'].lower():
-              old_name = social['youtube']
               # YT accounts are case-insensitive.  Preserve capitalization if possible.
               social['youtube'] = ytobj['entry']['yt$username']['$t']
               print("\tAdded YouTube username of %s" % social['youtube'])
