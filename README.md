@@ -1,9 +1,9 @@
 congress-legislators
 ====================
 
-[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
-
 Members of the United States Congress (1789-Present) and congressional committees (1973-Present) in YAML.
+
+### Using the data
 
 This repository contains data about legislators:
 
@@ -32,6 +32,21 @@ This database has been collected from a variety of sources:
 * C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
 
 The data is currently maintained both by hand and by some scripts in the `scripts` directory.
+
+### Running the scripts
+
+You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.3**.
+
+[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
+
+Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
+
+```python
+if __name__ == '__main__':
+  run()
+```
+
+Every pull request will pass submitted scripts through an import, to catch exceptions, and through [pyflakes](https://pypi.python.org/pypi/pyflakes), to catch unused imports or local vars.
 
 Legislators File Structure and Overview
 ---------------------------------------
