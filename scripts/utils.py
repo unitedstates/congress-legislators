@@ -323,8 +323,8 @@ def yaml_load(path, use_cache=True):
     return data
 
 def yaml_dump(data, path):
-    # open for reading as well as writing
-    rtyaml.dump(data, open(path, "r+"))
+    # write file
+    rtyaml.dump(data, open(path, "w"))
 
     # Store in a pickled file for fast access later.
     import pickle as pickle, hashlib

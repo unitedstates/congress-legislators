@@ -102,7 +102,13 @@ def main():
 
 
   def resolvefb():
-    updated_media = []
+    # in order to preserve the comment block at the top of the file,
+    # copy it over into a new RtYamlList instance. We do this because
+    # Python list instances can't hold other random attributes.
+    import rtyaml
+    updated_media = rtyaml.RtYamlList()
+    updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
+
     for m in media:
       social = m['social']
 
