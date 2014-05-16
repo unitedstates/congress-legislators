@@ -223,7 +223,7 @@ Available tasks with `scripts/social_media.py`:
 
 * `--sweep`: Given a `--service`, looks through current members for those missing an account on that service, and checks that member's official website's source code for mentions of that service. Uses a CSV at `data/social_media_blacklist.csv` to exclude known non-individual account names. A CSV of "leads" is produced for manual review.
 
-* `--update`: Given a `--service`, reads the CSV produced by --sweep back in and updates the YAML accordingly.
+* `--update`: Given a `--service`, reads the CSV produced by --sweep back in and updates the YAML accordingly. **Note**: With small updates, for people already in the YAML, it's easiest to just update by hand.
 
 * `--clean`: Given a `--service`, removes legislators from the social media file who are no longer current.
 
