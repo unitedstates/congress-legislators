@@ -217,6 +217,27 @@ All values can be turned into URLs by preceding them with the domain name of the
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
+#### Updating social media accounts
+
+Available tasks with `scripts/social_media.py`:
+
+* `--sweep`: Given a `--service`, looks through current members for those missing an account on that service, and checks that member's official website's source code for mentions of that service. Uses a CSV at `data/social_media_blacklist.csv` to exclude known non-individual account names. A CSV of "leads" is produced for manual review.
+
+* `--update`: Given a `--service`, reads the CSV produced by --sweep back in and updates the YAML accordingly.
+
+* `--clean`: Given a `--service`, removes legislators from the social media file who are no longer current.
+
+* `--resolvefb`: Uses Facebook usernames to look up graph IDs, and updates the YAML accordingly.
+
+* `--resolveyt` Uses YouTube usernames to look up any channel IDs, and updates the YAML accordingly.
+
+Options used with the above tasks:
+
+* `--service`: Can be "twitter", "youtube", or "facebook".
+* `--bioguide`: Limit activity to a single member, by bioguide ID.
+* `--email`: In conjunction with `--sweep`, send an email if there are any new leads, using settings in scripts/email/config.yml (if it was created and filled out).
+
+
 Committees Data Dictionary
 --------------------------
 
