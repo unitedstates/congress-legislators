@@ -107,7 +107,8 @@ def main():
     # Python list instances can't hold other random attributes.
     import rtyaml
     updated_media = rtyaml.RtYamlList()
-    updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
+    if hasattr(media, '__initial_comment_block'):
+      updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
 
     for m in media:
       social = m['social']
