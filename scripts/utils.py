@@ -159,7 +159,7 @@ def save_data(data, path):
 
 import scrapelib
 scraper = scrapelib.Scraper(requests_per_minute=60, follow_robots=False, retry_attempts=3)
-scraper.user_agent = "github.com/unitedstates/congress-legislators"
+scraper.user_agent = "the @unitedstates project (https://github.com/unitedstates/congress-legislators)"
 
 def cache_dir():
   return "cache"
