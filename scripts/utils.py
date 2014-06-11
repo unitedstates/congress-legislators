@@ -127,15 +127,22 @@ def uniq(seq):
   seen_add = seen.add
   return [ x for x in seq if x not in seen and not seen_add(x)]
 
+def args():
+  args = []
+  for token in sys.argv[1:]:
+    if not token.startswith("--"):
+      args.append(token)
+  return args
+
 def flags():
   options = {}
-  for arg in sys.argv[1:]:
-    if arg.startswith("--"):
+  for token in sys.argv[1:]:
+    if token.startswith("--"):
 
-      if "=" in arg:
-        key, value = arg.split('=')
+      if "=" in token:
+        key, value = token.split('=')
       else:
-        key, value = arg, True
+        key, value = token, True
 
       key = key.split("--")[1]
       if value == 'True': value = True
