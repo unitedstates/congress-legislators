@@ -36,7 +36,7 @@ def run():
 
 	url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
 	body = download(url, "legislators/senate.xml", force)
-	dom = lxml.etree.parse(io.StringIO(body))
+	dom = lxml.etree.parse(io.BytesIO(body.encode("utf8"))) # file has an <?xml declaration and so must be parsed as a bytes array
 	for node in dom.xpath("member"):
 		bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 		member_full = node.xpath("string(member_full)")
@@ -103,9 +103,9 @@ def run():
 		phone = str(node.xpath("string(phone)")).strip()
 		term["phone"] = phone.replace("(", "").replace(")", "").replace(" ", "-")
 
-		contact_form = str(node.xpath("string(email)")).strip().replace(".Senate.gov", ".senate.gov")
-		if contact_form: # can be blank
-			term["contact_form"] = contact_form
+		#contact_form = str(node.xpath("string(email)")).strip().replace(".Senate.gov", ".senate.gov")
+		#if contact_form: # can be blank
+		#	term["contact_form"] = contact_form
 
 
 
