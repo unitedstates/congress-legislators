@@ -11,6 +11,9 @@
 # run with --clean:
 #   removes legislators from the social media file who are no longer current
 #
+# run with --verify:
+#   verifies that current usernames are still valid. (tries to catch renames)
+#
 # run with --resolvefb:
 #   finds both Facebook usernames and graph IDs and updates the YAML accordingly.
 #
