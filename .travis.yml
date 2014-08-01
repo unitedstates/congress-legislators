@@ -15,7 +15,8 @@ after_success: pyflakes scripts/*.py
 notifications:
   email:
     recipients:
-      - eric@sunlightfoundation.com
+      - lyoung@sunlightfoundation.com
+      - eric@konklone.com
       - tauberer@govtrack.us
     on_success: change
     on_failure: change
