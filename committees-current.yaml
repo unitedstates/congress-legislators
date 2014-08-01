@@ -27,6 +27,13 @@
   address: 1301 LHOB; Washington, DC 20515-6001
   phone: (202) 225-2171
   rss_url: http://agriculture.house.gov/rss.xml
+  jurisdiction: The U.S. House Committee on Agriculture, or Agriculture Committee,
+    is a standing committee of the United States House of Representatives. The House
+    Committee on Agriculture has general jurisdiction over federal agriculture policy
+    and oversight of some federal agencies, and it can recommend funding appropriations
+    for various governmental agencies, programs, and activities, as defined by House
+    rules
+  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Agriculture
 - type: house
   name: House Committee on Appropriations
   url: http://appropriations.house.gov/
@@ -86,6 +93,12 @@
   phone: (202) 225-2771
   rss_url: http://appropriations.house.gov/news/rss.aspx
   minority_rss_url: http://democrats.appropriations.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1&amp;Itemid=15
+  jurisdiction: The United States House Committee on Appropriations is a committee
+    of the United States House of Representatives responsible for setting specific
+    expenditures of money by the government of the United States. As such, it is one
+    of the most powerful of the committees, and its members are seen as influential.
+    The bills passed by the committee are called appropriations bills.
+  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Appropriations
 - type: house
   name: House Committee on Armed Services
   url: http://armedservices.house.gov/
@@ -124,6 +137,14 @@
   phone: (202) 225-4151
   rss_url: http://armedservices.house.gov/index.cfm/rss/feed
   minority_rss_url: http://democrats.armedservices.house.gov/index.cfm/rss/feed
+  jurisdiction: 'The Committee retains jurisdiction of all subjects listed in clause
+    1(c) of rule X of the Rules of the House of Representatives and retains exclusive
+    jurisdiction for: defense policy generally, ongoing military operations, the organization
+    and reform of the Department of Defense and Department of Energy, counter-drug
+    programs, acquisition and industrial base policy, technology transfer and export
+    controls, joint interoperability, the Cooperative Threat Reduction program, Department
+    of Energy nonproliferation programs, and detainee affairs and policy.'
+  jurisdiction_source: http://armedservices.house.gov/index.cfm/jurisdiction
 - type: house
   name: House Committee on Financial Services
   url: http://financialservices.house.gov/
@@ -154,6 +175,12 @@
   phone: (202) 225-7502
   rss_url: http://financialservices.house.gov/news/rss.aspx
   minority_rss_url: http://democrats.financialservices.house.gov/Rss.aspx?GroupID=1
+  jurisdiction: The House Financial Services Committee has jurisdiction over issues
+    pertaining to the economy, the banking system, housing, insurance, and securities
+    and exchanges. Additionally, the Committee also has jurisdiction over monetary
+    policy, international finance, international monetary organizations, and efforts
+    to combat terrorist financing.
+  jurisdiction_source: http://financialservices.house.gov/about/
 - type: house
   name: House Committee on the Budget
   url: http://budget.house.gov/
@@ -163,6 +190,12 @@
   phone: (202) 226-7270
   rss_url: http://budget.house.gov/news/rss.aspx
   minority_rss_url: http://feeds.feedburner.com/BudgetCommittee
+  jurisdiction: 'Over the years, the duties and responsibilities of the Budget Committee
+    have been established in statute, as well as House Rules. This report discusses
+    the Budget Committee’s responsibilities under the following categories: the budget
+    resolution, reconciliation, budget process reform, oversight of the Congressional
+    Budget Office, revisions of allocations and adjustments, and scorekeeping.'
+  jurisdiction_source: http://budget.house.gov/about/
 - type: house
   name: House Committee on Education and the Workforce
   url: http://edlabor.house.gov/
@@ -189,6 +222,13 @@
   phone: (202) 225-4527
   rss_url: http://edworkforce.house.gov/news/rss.aspx
   minority_rss_url: http://democrats.edworkforce.house.gov/rss.xml
+  jurisdiction: The Committee’s basic jurisdiction is over education and workforce
+    matters generally. While Congress has been concerned over education and workforce
+    issues since its beginning, attempts to create a Committee with jurisdiction over
+    education and labor failed in early Congresses due to Representatives’ concern
+    over the constitutional grounds for such a federal role and the belief that education
+    was more properly the responsibility of the states. 
+  jurisdiction_source: http://edworkforce.house.gov/committee/committeehistory.htm
 - type: house
   name: House Committee on Foreign Affairs
   url: http://foreignaffairs.house.gov/
@@ -222,6 +262,11 @@
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
   rss_url: http://foreignaffairs.house.gov/rss.xml
+  jurisdiction: The House Committee on Foreign Affairs, considers legislation that
+    impacts the diplomatic community, which includes the Department of State, the
+    Agency for International Development (USAID), the Peace Corps, the United Nations,
+    and the enforcement of the Arms Export Control Act.
+  jurisdiction_source: http://foreignaffairs.house.gov/about
 - type: house
   name: House Committee on Oversight and Government Reform
   url: http://oversight.house.gov/
@@ -251,6 +296,14 @@
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
   rss_url: http://oversight.house.gov/feed/rss/
+  jurisdiction: The Committee on Oversight and Government Reform has legislative jurisdiction
+    over the District of Columbia, the government procurement process, federal personnel
+    systems, the Postal Service and other matters. Our primary responsibility, however,
+    is oversight of virtually everything government does – from national security
+    to homeland security grants, from federal workforce policies to regulatory reform
+    and reorganization authority, from information technology procurements at individual
+    agencies to government-wide data security standards.
+  jurisdiction_source: http://oversight.house.gov/about-the-committee/
 - type: house
   name: House Committee on House Administration
   url: http://cha.house.gov/
@@ -260,6 +313,9 @@
   phone: (202) 225-8281
   rss_url: http://cha.house.gov/rss.xml
   minority_rss_url: http://democrats.cha.house.gov/rss.xml
+  jurisdiction: The Committee on House Administration is charged with the oversight
+    of federal elections and the day-to-day operations of the House of Representatives
+  jurisdiction_source: http://cha.house.gov/about
 - type: house
   name: House Committee on Homeland Security
   url: http://homeland.house.gov/
@@ -293,6 +349,10 @@
   address: H2-176 FHOB; Washington, DC 20515-6480
   phone: (202) 226-8417
   rss_url: http://homeland.house.gov/rss.xml
+  jurisdiction: The Committee on Homeland Security was established in 2002 to provide
+    Congressional oversight for the U.S. Department of Homeland Security and better
+    protect the American people against a possible terrorist attack. 
+  jurisdiction_source: http://homeland.house.gov/about/history-jurisdiction
 - type: house
   name: House Committee on Energy and Commerce
   url: http://energycommerce.house.gov/
@@ -326,6 +386,16 @@
   address: 2125 RHOB; Washington, DC 20515-6115
   phone: (202) 225-2927
   rss_url: http://energycommerce.house.gov/rss.aspx
+  jurisdiction: The Committee on Energy and Commerce, the oldest standing legislative
+    committee in the U.S. House of Representatives, is vested with the broadest jurisdiction
+    of any congressional authorizing committee. Today it has responsibility for the
+    nation’s telecommunications, consumer protection, food and drug safety, public
+    health research, environmental quality, energy policy, and interstate and foreign
+    commerce. It oversees multiple cabinet-level Departments and independent agencies,
+    including the Departments of Energy, Health and Human Services, Commerce, and
+    Transportation, as well as the Environmental Protection Agency, the Federal Trade
+    Commission, the Food and Drug Administration, and the Federal Communications Commission.
+  jurisdiction_source: http://energycommerce.house.gov/about/committee-history
 - type: house
   name: House Committee on Natural Resources
   url: http://naturalresources.house.gov/
@@ -356,6 +426,10 @@
   phone: (202) 225-2761
   rss_url: http://naturalresources.house.gov/news.xml
   minority_rss_url: http://democrats.naturalresources.house.gov/rss.xml
+  jurisdiction: The House Committee on Natural Resources, considers legislation about
+    American energy production, mineral lands and mining, fisheries and wildlife,
+    public lands, oceans, Native Americans, irrigation and reclamation
+  jurisdiction_source: http://naturalresources.house.gov/about/
 - type: house
   name: House Permanent Select Committee on Intelligence
   thomas_id: HLIG
@@ -377,6 +451,13 @@
   phone: (202) 225-4121
   rss_url: http://intelligence.house.gov/rss.xml
   minority_rss_url: http://democrats.intelligence.house.gov/rss.xml
+  jurisdiction: The United States House Permanent Select Committee on Intelligence
+    (HPSCI) is a committee of the United States House of Representatives, currently
+    chaired by U.S. Congressman Mike Rogers (Michigan). The HPSCI is charged with
+    the oversight of the United States Intelligence Community, which includes the
+    intelligence and intelligence related activities of 17 elements of the US Government,
+    and the Military Intelligence Program.
+  jurisdiction_source: http://intelligence.house.gov/about/history-jurisdiction
 - type: house
   name: House Committee on the Judiciary
   url: http://judiciary.house.gov/
@@ -406,6 +487,12 @@
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
   minority_rss_url: http://democrats.judiciary.house.gov/rss.xml
+  jurisdiction: The Committee on the Judiciary has been called the lawyer for the
+    House of Representatives because of its jurisdiction over matters relating to
+    the administration of justice in federal courts, administrative bodies, and law
+    enforcement agencies. Its infrequent but important role in impeachment proceedings
+    has also brought it much attention.
+  jurisdiction_source: http://judiciary.house.gov/index.cfm/about-the-committee
 - type: house
   name: House Committee on Transportation and Infrastructure
   url: http://transportation.house.gov/
@@ -440,6 +527,15 @@
   phone: (202) 225-9446
   rss_url: http://transportation.house.gov/rss.xml
   minority_rss_url: http://democrats.transportation.house.gov/rss.xml
+  jurisdiction: 'The Transportation and Infrastructure Committee has jurisdiction
+    over all modes of transportation: aviation, maritime and waterborne transportation,
+    highways, bridges, mass transit, and railroads.  The Committee also has jurisdiction
+    over other aspects of our national infrastructure, such as clean water and waste
+    water management, the transport of resources by pipeline, flood damage reduction,
+    the management of federally owned real estate and public buildings, the development
+    of economically depressed rural and urban areas, disaster preparedness and response,
+    and hazardous materials transportation.'
+  jurisdiction_source: http://transportation.house.gov/about/history.htm
 - type: house
   name: House Committee on Rules
   url: http://www.rules.house.gov/
@@ -457,6 +553,15 @@
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9191
   minority_rss_url: http://democrats.rules.house.gov/rss.xml
+  jurisdiction: 'The Rules Committee has two broad categories of jurisdiction: special
+    orders for the consideration of legislation (known as “special rules” or “rules”)
+    and original jurisdiction matters. A special rule provides the terms and conditions
+    of debate on a measure or matter, consideration of which constitutes the bulk
+    of the work of the Rules Committee. The Committee also considers original jurisdiction
+    measures, which commonly represent changes to the standing rules of the House,
+    or measures that contain special rules, such as the expedited procedures in trade
+    legislation.'
+  jurisdiction_source: http://rules.house.gov/about
 - type: house
   name: House Committee on Small Business
   url: http://www.house.gov/smbiz/
@@ -487,6 +592,12 @@
   phone: (202) 225-5821
   rss_url: http://smallbusiness.house.gov/news/rss.aspx
   minority_rss_url: http://democrats.smallbusiness.house.gov/rss.xml
+  jurisdiction: The House Small Business Committee was established to protect and
+    assist small businesses.  As such, the Committee has jurisdiction over matters
+    related to small business financial aid, regulatory flexibility, and paperwork
+    reduction. Additionally, the House Small Business Committee has  oversight and
+    legislative authority over the Small Business Administration (SBA) and its programs.
+  jurisdiction_source: http://smallbusiness.house.gov/about/rulesandjurisdiction.htm
 - type: house
   name: House Committee on Ethics
   url: http://ethics.house.gov/
@@ -495,6 +606,11 @@
   address: 1015 LHOB; Washington, DC 20515-6328
   phone: (202) 225-7103
   rss_url: http://ethics.house.gov/rss.xml
+  jurisdiction: Under House rules, the Committee has the jurisdiction to administer
+    travel, gift, financial disclosure, outside income, and other regulations; advise
+    members and staff; issue advisory opinions and investigate potential ethics violations.
+    Ethics rules and regulations have grown substantially since the 1960s.
+  jurisdiction_source: http://ethics.house.gov/about/committee-history
 - type: house
   name: House Committee on Science, Space, and Technology
   url: http://science.house.gov/
@@ -525,6 +641,20 @@
   phone: (202) 225-6371
   rss_url: http://science.house.gov/rss.xml
   minority_rss_url: http://democrats.science.house.gov/rss.xml
+  jurisdiction: The Committee on Science, Space, and Technology has jurisdiction over
+    all energy research, development, and demonstration, and projects therefor, and
+    all federally owned or operated non-military energy laboratories; astronautical
+    research and development, including resources, personnel, equipment, and facilities;
+    civil aviation research and development; environmental research and development;
+    marine research; commercial application of energy technology; National Institute
+    of Standards and Technology, standardization of weights and measures and the metric
+    system; National Aeronautics and Space Administration; National Science Foundation;
+    National Weather Service; outer space, including exploration and control thereof;
+    science scholarships; scientific research, development, and demonstration, and
+    projects therefor. The Committee on Science, Space, and Technology shall review
+    and study on a continuing basis laws, programs, and Government activities relating
+    to non-military research and development.
+  jurisdiction_source: http://science.house.gov/jurisdiction
 - type: house
   name: House Committee on Veterans' Affairs
   url: http://veterans.house.gov/
@@ -551,6 +681,14 @@
   phone: (202) 225-3527
   rss_url: http://veterans.house.gov/rss.xml
   minority_rss_url: http://democrats.veterans.house.gov/rss.xml
+  jurisdiction: The Committee on Veterans’ Affairs is the authorizing Committee for
+    the Department of Veterans Affairs. The Committee recommends legislation expanding,
+    curtailing, or fine-tuning existing laws relating to veterans’ benefits. The Committee
+    also has oversight responsibility, which means monitoring and evaluating the operations
+    of the VA. If the Committee finds the that VA is not administering laws as Congress
+    intended, then it is “corrected” through the hearing process and legislation.
+    We are the voice of Congress for veterans in dealings with the VA.
+  jurisdiction_source: http://veterans.house.gov/about/history-jurisdiction
 - type: house
   name: House Committee on Ways and Means
   url: http://waysandmeans.house.gov/
@@ -584,6 +722,12 @@
   address: 1102 LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
   minority_rss_url: http://democrats.waysandmeans.house.gov/rss.xml
+  jurisdiction: The Committee on Ways and Means is the oldest committee of the United
+    States Congress, and is the chief tax-writing committee in the House of Representatives.
+    The Committee derives a large share of its jurisdiction from Article I, Section
+    VII of the U.S. Constitution which declares, “All Bills for raising Revenue shall
+    originate in the House of Representatives.”
+  jurisdiction_source: http://waysandmeans.house.gov/about/history.htm
 - type: joint
   name: Commission on Security and Cooperation in Europe
   thomas_id: JCSE
