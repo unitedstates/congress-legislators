@@ -1,6 +1,6 @@
 pyyaml
 rtyaml
-scrapelib
+scrapelib>=0.10.0
 ipython
 lxml>=2.2
 cssselect
