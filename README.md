@@ -253,6 +253,9 @@ The basic structure of a committee entry looks like the following:
 	  url: http://agriculture.house.gov/
 	  thomas_id: HSAG
 	  house_committee_id: AG
+	  jurisdiction: The U.S. House Committee on Agriculture, or Agriculture Committee,
+	    is a standing committee of the ...
+	  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Agriculture
 	  subcommittees:
 	     (... subcommittee list ...)
 
@@ -265,6 +268,8 @@ The fields available in both files are as follows:
 * thomas_id: The four-letter code used for the committee on the THOMAS advanced search page.
 * senate_committee_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm. Currently the same as the thomas_id.
 * house_committee_id: For House committees, the two-letter code used on http://clerk.house.gov/committee_info/index.aspx. Currently always the same as the last two letters of the thomas_id.
+* jurisdiction: The committee's jurisdiction.
+* jurisdiction_source: The source for the jurisdiction text.
 * subcommittees: A list of subcommittees, with the following fields:
 	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
