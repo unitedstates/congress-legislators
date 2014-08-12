@@ -6503,6 +6503,15 @@
     birthday: '1963-06-06'
     gender: M
     religion: Jewish
+  leadership_roles:
+  - title: Majority Leader
+    chamber: house
+    start: '2011-01-03'
+    end: '2014-08-01'
+  - title: Minority Whip
+    chamber: house
+    start: '2009-01-03'
+    end: '2011-01-03'
   terms:
   - type: rep
     start: '2001-01-03'
@@ -20289,6 +20298,10 @@
   - title: Majority Whip
     chamber: house
     start: '2013-01-03'
+    end: '2014-07-31'
+  - title: Majority Leader
+    chamber: house
+    start: '2014-08-01' 
   terms:
   - type: rep
     start: '2007-01-04'
@@ -27760,6 +27773,10 @@
   bio:
     birthday: '1965-10-06'
     gender: M
+  leadership_roles:
+  - title: Majority Whip
+    chamber: house
+    start: '2014-08-01'
   terms:
   - type: rep
     start: '2008-05-07'
