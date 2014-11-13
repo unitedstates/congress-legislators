@@ -37341,3 +37341,81 @@
     state: FL
     party: Republican
     district: 19
+- id:
+    bioguide: B001290
+    fec:
+    - H4VA07143
+    govtrack: 412605
+    opensecrets: N00036013
+    cspan: 75248
+    wikipedia: Dave Brat
+    ballotpedia: David Brat
+    house_history: 15032409257
+  name:
+    first: David
+    middle: Alan
+    nickname: Dave
+    last: Brat
+  bio:
+    gender: M
+    birthday: '1964-07-27'
+  terms:
+  - type: rep
+    start: '2014-11-12'
+    end: '2015-01-03'
+    state: VA
+    district: 7
+    party: Republican
+    url: http://brat.house.gov/
+    contact_form: http://brat.house.gov/contact
+- id:
+    bioguide: N000188
+    fec:
+    - H4NJ01084
+    govtrack: 412606
+    opensecrets: N00036154
+    cspan: 76311
+    wikipedia: Donald Norcross
+    ballotpedia: Donald Norcross
+    house_history: 15032409258
+  name:
+    first: Donald
+    middle: W.
+    last: Norcross
+  bio:
+    gender: M
+    birthday: '1958-12-13'
+  terms:
+  - type: rep
+    start: '2014-11-12'
+    end: '2015-01-03'
+    state: NJ
+    district: 1
+    party: Democrat
+    url: http://norcross.house.gov/
+    contact_form: http://norcross.house.gov/contact
+- id:
+    bioguide: A000370
+    fec:
+    - H4NC12100
+    govtrack: 412607
+    opensecrets: N00035451
+    cspan: 76386
+    wikipedia: Alma Adams
+    ballotpedia: Alma Adams
+    house_history: 15032409256
+  name:
+    first: Alma
+    last: Adams
+  bio:
+    gender: F
+    birthday: '1946-05-27'
+  terms:
+  - type: rep
+    start: '2014-11-12'
+    end: '2015-01-03'
+    state: NC
+    district: 12
+    party: Democrat
+    url: http://adams.house.gov/
+    contact_form: http://adams.house.gov/contact
