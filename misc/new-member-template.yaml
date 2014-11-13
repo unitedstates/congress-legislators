@@ -1,0 +1,58 @@
+# All of the fields we can put on a legislator,
+# as we might add when a new legislator takes
+# office.
+#
+# Run the lint.py script after editing the main
+# YAML files. It will conveniently remove all of
+# the comments.
+#
+# In separate commits, run:
+#   * house_contacts.py (which will add url, address, etc. fields to House members)
+#   * senate_contacts.py (likewise for Senate members)
+#   * committee_membership.py (updates committee membership)
+
+- id:
+    bioguide: Q000000      # http://bioguide.congress.gov/
+    thomas: '02222'        # not assigned until the person sponsors/cosponsors a bill, http://beta.congress.gov/
+    lis: S999              # not assigned until there is a Senate roll call vote
+    fec:                   # http://fec.gov/finance/disclosure/candcmte_info.shtml
+    - H1XX99999            #   (you're looking for a Candidate ID)
+    govtrack: 456789       # you may assign the next available integer
+    opensecrets: N00099999 # http://www.opensecrets.org/
+    votesmart: 159999      # http://votesmart.org/
+    icpsr: 99999           # not knowable until voteview.org publishes roll call raw data
+    cspan: 75516           # people search at http://www.c-span.org/ (personid)
+    wikipedia: John Doe    # https://en.wikipedia.org/wiki/Main_Page (replace _ with space!)
+    ballotpedia: John Doe  # http://ballotpedia.org/Main_Page (replace _ with space!)
+    house_history: 10999   # http://history.house.gov/People/Search/
+  name:
+    first: John
+    middle: Person         # optional, can also be an initial like 'P.'
+    nickname: Whoami       # if clearly in use
+    last: Doe
+    suffix: Jr.            # optional
+  bio:
+    gender:                # M or F, no quotes
+    birthday: '1960-06-06' # can find on Bioguide
+  terms:
+
+  # for a representative
+  - type: rep
+    start: '2015-01-03'    # date of swearing in
+    end: '2017-01-03'      # always the next odd-year Jan 3, until a death/resignation
+    state: FL              # USPS state abbreviation
+    district: 19           # an integer
+    party:                 # Republican or Democrat
+    url: http://someone.house.gov
+    contact_form: http://www.house.gov/name/email.htm
+
+  # for a senator
+  - type: sen
+    start: '2015-01-03'    # date of swearing in
+    end: '2021-01-03'      # always a future Jan 3, until a death/resignation
+    state: FL              # USPS state abbreviation
+    class: 1               # copy from the senator this person is succeeding
+    party:                 # Republican or Democrat
+    state_rank: junior     # or senior
+    url: http://someone.senate.gov/
+    contact_form: http://www.name.senate.gov/contact/
