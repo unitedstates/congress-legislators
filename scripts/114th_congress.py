@@ -22,15 +22,18 @@ won_row = { }
 incumbents = set()
 winners = set()
 incumbent_winners = set()
+new_members = []
 for row in csv.DictReader(open("election_results_2014.csv")):
-	if row.get("new_member") == "":
+	if row["new_member"] == "":
 		print("not decided yet...", row)
 		continue
-	incumbents.add(row.get("member_id"))
-	winners.add(row.get("new_id"))
-	won_row[row.get("new_id")] = row
-	if row.get("member_id") == row.get("new_id"):
-		incumbent_winners.add(row.get("new_id"))
+	incumbents.add(row["member_id"])
+	winners.add(row["new_id"])
+	won_row[row["new_id"]] = row
+	if row["member_id"] == row["new_id"]:
+		incumbent_winners.add(row["new_id"])
+	if row["new_id"] == "":
+		new_members.append(row)
 
 # Make a stub term based on a row in Derek's spreadsheet.
 def build_term(row, mark):
@@ -115,6 +118,47 @@ for p in to_retire:
 for p in to_return:
 	legislators_current.append(p)
 	legislators_historical.remove(p)
+
+# Add stubs for new members.
+def fix_date(date):
+	m, d, y = date.split("/")
+	return "%04d-%02d-%02d" % (int(y), int(m), int(d))
+for i, row in enumerate(new_members):
+	p = OrderedDict([
+		("id", OrderedDict([
+		    ("bioguide", "TODO"),
+		    ("thomas", "TODO"),
+		    ("lis", "TODO"),
+		    ("fec", []),
+		    ("govtrack", 412608+i), # assigning IDs here
+		    ("opensecrets", "TODO"),
+		    ("votesmart", "TODO"),
+		    ("icpsr", "TODO"),
+		    ("cspan", "TODO"),
+		    ("wikipedia", "TODO"),
+		    ("ballotpedia", "TODO"),
+		    ("house_history", "TODO"),
+		])),
+		("name", OrderedDict()),
+		("bio", OrderedDict([
+			("gender", row["gender"]),
+			("birthday", fix_date(row["date_of_birth"]) if row["date_of_birth"] != "" else "TODO"),
+		])),
+		("terms", [
+			build_term(row, True),
+		])
+	])
+
+	if len(row["new_member"].split(" ")) == 2:
+		p['name']['first'] = row["new_member"].split(" ")[0]
+		p['name']['last'] = row["new_member"].split(" ")[1]
+	else:
+		p['name']['FULL'] = row["new_member"]
+		p['name']['first'] = "TODO"
+		p['name']['last'] = "TODO"
+
+	legislators_current.append(p)
+
 
 # Save.
 utils.save_data(legislators_current, "legislators-current.yaml")
