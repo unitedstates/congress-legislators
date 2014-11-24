@@ -41,8 +41,9 @@
     start: '2015-01-03'    # date of swearing in
     end: '2017-01-03'      # always the next odd-year Jan 3, until a death/resignation
     state: FL              # USPS state abbreviation
-    district: 19           # an integer
-    party:                 # Republican or Democrat
+    district: 19           # an integer; 0 for At-Large
+    party:                 # Republican, Democrat, Independent
+    caucus:                # for Independents only, Republican or Democrat
     url: http://someone.house.gov
     contact_form: http://www.house.gov/name/email.htm
 
@@ -52,7 +53,8 @@
     end: '2021-01-03'      # always a future Jan 3, until a death/resignation
     state: FL              # USPS state abbreviation
     class: 1               # copy from the senator this person is succeeding
-    party:                 # Republican or Democrat
+    party:                 # Republican, Democrat, Independent
+    caucus:                # for Independents only, Republican or Democrat
     state_rank: junior     # or senior
     url: http://someone.senate.gov/
     contact_form: http://www.name.senate.gov/contact/
