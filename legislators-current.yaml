@@ -17368,15 +17368,10 @@
     start: '2015-01-03'
     end: '2017-01-03'
     state: OK
-    party: Republican
-    district: 5
-    url: http://lankford.house.gov
-    address: 228 Cannon HOB; Washington DC 20515-3605
-    phone: 202-225-2132
-    office: 228 Cannon House Office Building
-    rss_url: http://lankford.house.gov/rss.xml
-    contact_form: https://lankford.house.gov/contact-me/
     class: 3
+    state_rank: junior
+    party: Republican
+    TODO: TODO
 - id:
     bioguide: L000560
     thomas: '01675'
@@ -25319,100 +25314,6 @@
     contact_form: https://halrogers.house.gov/contact/contactform.htm
     office: 2406 Rayburn House Office Building
     rss_url: http://halrogers.house.gov/news/rss.aspx
-- id:
-    bioguide: R000572
-    thomas: '01651'
-    govtrack: 400342
-    opensecrets: N00009668
-    votesmart: 8751
-    fec:
-    - H0MI08042
-    cspan: 86133
-    house_history: 20789
-    wikipedia: Mike Rogers (Michigan politician)
-    ballotpedia: Mike Rogers (Michigan)
-    maplight: 4432
-    washington_post: gIQAF6liAP
-    icpsr: 20120
-  name:
-    first: Mike
-    last: Rogers
-    official_full: Mike Rogers
-  bio:
-    birthday: '1963-06-02'
-    gender: M
-  terms:
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: MI
-    district: 8
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: MI
-    district: 8
-    party: Republican
-    url: http://www.house.gov/mikerogers
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: MI
-    district: 8
-    party: Republican
-    url: http://www.house.gov/mikerogers
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: MI
-    district: 8
-    party: Republican
-    url: http://www.house.gov/mikerogers
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: MI
-    district: 8
-    party: Republican
-    url: http://www.house.gov/mikerogers
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: MI
-    district: 8
-    party: Republican
-    url: http://www.house.gov/mikerogers
-    address: 133 Cannon HOB; Washington DC 20515-2208
-    phone: 202-225-4872
-    fax: 202-225-5820
-    contact_form: http://www.mikerogers.house.gov/Contact.aspx
-    office: 133 Cannon House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: MI
-    party: Republican
-    district: 8
-    url: http://mikerogers.house.gov
-    address: 2112 Rayburn HOB; Washington DC 20515-2208
-    phone: 202-225-4872
-    fax: 202-225-5820
-    contact_form: https://mikerogers.house.gov/contact/contactform.htm?zip5=48915
-    office: 2112 Rayburn House Office Building
-    rss_url: http://mikerogers.house.gov/news/rss.aspx
-  - type: rep
-    start: '2015-01-03'
-    end: '2017-01-03'
-    state: MI
-    party: Republican
-    district: 8
-    url: http://mikerogers.house.gov
-    address: 2112 Rayburn HOB; Washington DC 20515-2208
-    phone: 202-225-4872
-    contact_form: https://mikerogers.house.gov/contact/contactform.htm?zip5=48915
-    office: 2112 Rayburn House Office Building
-    rss_url: http://mikerogers.house.gov/news/rss.aspx
 - id:
     bioguide: R000575
     thomas: '01704'
@@ -33598,62 +33499,6 @@
     rss_url: http://kirkpatrick.house.gov/rss.xml
     contact_form: https://kirkpatrick.house.gov/contact/email-me
 - id:
-    bioguide: M001171
-    thomas: '01943'
-    govtrack: 412297
-    opensecrets: N00027891
-    votesmart: 68959
-    fec:
-    - H6NY25125
-    cspan: 51904
-    wikipedia: Dan Maffei
-    house_history: 18813
-    ballotpedia: Dan Maffei
-    maplight: 6886
-    washington_post: gIQAaArLAP
-    icpsr: 20935
-  name:
-    first: Daniel
-    middle: B.
-    last: Maffei
-    official_full: Daniel B. Maffei
-  bio:
-    birthday: '1968-07-04'
-    gender: M
-  terms:
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NY
-    district: 25
-    party: Democrat
-    url: http://maffei.house.gov
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: NY
-    party: Democrat
-    district: 24
-    url: http://maffei.house.gov
-    office: 422 Cannon House Office Building
-    address: 422 Cannon HOB; Washington DC 20515-3224
-    phone: 202-225-3701
-    rss_url: http://maffei.house.gov/rss.xml
-    contact_form: https://maffei.house.gov/email-me
-    fax: 202-225-4042
-  - type: rep
-    start: '2015-01-03'
-    end: '2017-01-03'
-    state: NY
-    party: Republican
-    district: 24
-    url: http://maffei.house.gov
-    office: 422 Cannon House Office Building
-    address: 422 Cannon HOB; Washington DC 20515-3224
-    phone: 202-225-3701
-    rss_url: http://maffei.house.gov/rss.xml
-    contact_form: https://maffei.house.gov/email-me
-- id:
     bioguide: T000468
     thomas: '01940'
     govtrack: 412318
@@ -35394,6 +35239,49 @@
     url: http://wagner.house.gov
     rss_url: http://wagner.house.gov/rss.xml
     contact_form: https://wagner.house.gov/contact/email-me
+- id:
+    govtrack: 412549
+    bioguide: D000618
+    thomas: '02138'
+    cspan: 1034037
+    votesmart: 135720
+    wikipedia: Steve Daines
+    fec:
+    - H2MT01060
+    - S2MT00096
+    opensecrets: N00033054
+    ballotpedia: Steve Daines
+    maplight: 6498
+    washington_post: a8a98402-4bbb-11e2-8758-b64a2997a921
+    icpsr: 21338
+  name:
+    first: Steve
+    last: Daines
+    official_full: Steve Daines
+  bio:
+    gender: M
+    birthday: '1962-08-20'
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: MT
+    party: Republican
+    district: 0
+    office: 206 Cannon House Office Building
+    address: 206 Cannon HOB; Washington DC 20515-2600
+    phone: 202-225-3211
+    url: http://daines.house.gov
+    rss_url: http://daines.house.gov/rss/press-releases.xml
+    contact_form: https://daines.house.gov/email-me
+  - type: sen
+    start: '2015-01-03'
+    end: '2021-01-03'
+    state: MT
+    class: 2
+    state_rank: junior
+    party: Republican
+    TODO: TODO
 - id:
     govtrack: 412550
     bioguide: H001067
@@ -37266,50 +37154,6 @@
     url: http://byrne.house.gov
     contact_form: https://byrne.house.gov/contact/email-me
 - id:
-    bioguide: W000818
-    lis: S371
-    thomas: '02198'
-    govtrack: 412602
-    opensecrets: N00035686
-    votesmart: 111027
-    wikipedia: John Walsh (U.S. Senator)
-    cspan: 73846
-    fec:
-    - S4MT00118
-  name:
-    first: John
-    middle: E.
-    last: Walsh
-    official_full: John E. Walsh
-  bio:
-    birthday: '1960-11-03'
-    gender: M
-  terms:
-  - type: sen
-    start: '2014-02-11'
-    end: '2015-01-03'
-    state: MT
-    class: 2
-    party: Democrat
-    state_rank: junior
-    url: http://www.walsh.senate.gov
-    address: 511 Hart Senate Office Building Washington DC 20510
-    office: 511 Hart Senate Office Building
-    phone: 202-224-2651
-    contact_form: http://www.walsh.senate.gov/contact.cfm
-  - type: sen
-    start: '2015-01-03'
-    end: '2021-01-03'
-    state: MT
-    class: 2
-    party: Republican
-    state_rank: junior
-    url: http://www.walsh.senate.gov
-    address: 511 Hart Senate Office Building Washington DC 20510
-    office: 511 Hart Senate Office Building
-    phone: 202-224-2651
-    contact_form: http://www.walsh.senate.gov/contact.cfm
-- id:
     bioguide: J000296
     thomas: '02199'
     govtrack: 412603
@@ -38213,6 +38057,33 @@
     ballotpedia: TODO
     house_history: TODO
   name:
+    first: Mike
+    last: Bishop
+  bio:
+    gender: M
+    birthday: '1967-03-18'
+  terms:
+  - type: rep
+    start: '2015-01-03'
+    end: '2017-01-03'
+    state: MI
+    district: 8
+    party: Republican
+    TODO: TODO
+- id:
+    bioguide: TODO
+    thomas: TODO
+    lis: TODO
+    fec: []
+    govtrack: 412633
+    opensecrets: TODO
+    votesmart: TODO
+    icpsr: TODO
+    cspan: TODO
+    wikipedia: TODO
+    ballotpedia: TODO
+    house_history: TODO
+  name:
     first: Dave
     last: Trott
   bio:
@@ -38231,7 +38102,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412633
+    govtrack: 412634
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38258,7 +38129,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412634
+    govtrack: 412635
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38285,7 +38156,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412635
+    govtrack: 412636
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38312,7 +38183,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412636
+    govtrack: 412637
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38339,7 +38210,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412637
+    govtrack: 412638
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38366,7 +38237,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412638
+    govtrack: 412639
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38393,7 +38264,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412639
+    govtrack: 412640
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38420,7 +38291,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412640
+    govtrack: 412641
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38447,7 +38318,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412641
+    govtrack: 412642
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38475,7 +38346,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412642
+    govtrack: 412643
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38502,7 +38373,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412643
+    govtrack: 412644
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38529,7 +38400,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412644
+    govtrack: 412645
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38556,7 +38427,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412645
+    govtrack: 412646
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38583,7 +38454,61 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412646
+    govtrack: 412647
+    opensecrets: TODO
+    votesmart: TODO
+    icpsr: TODO
+    cspan: TODO
+    wikipedia: TODO
+    ballotpedia: TODO
+    house_history: TODO
+  name:
+    first: John
+    last: Katko
+  bio:
+    gender: M
+    birthday: '1962-11-09'
+  terms:
+  - type: rep
+    start: '2015-01-03'
+    end: '2017-01-03'
+    state: NY
+    district: 24
+    party: Republican
+    TODO: TODO
+- id:
+    bioguide: TODO
+    thomas: TODO
+    lis: TODO
+    fec: []
+    govtrack: 412648
+    opensecrets: TODO
+    votesmart: TODO
+    icpsr: TODO
+    cspan: TODO
+    wikipedia: TODO
+    ballotpedia: TODO
+    house_history: TODO
+  name:
+    first: Steve
+    last: Russell
+  bio:
+    gender: M
+    birthday: '1963-05-25'
+  terms:
+  - type: rep
+    start: '2015-01-03'
+    end: '2017-01-03'
+    state: OK
+    district: 5
+    party: Republican
+    TODO: TODO
+- id:
+    bioguide: TODO
+    thomas: TODO
+    lis: TODO
+    fec: []
+    govtrack: 412649
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38610,7 +38535,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412647
+    govtrack: 412650
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38637,7 +38562,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412648
+    govtrack: 412651
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38664,7 +38589,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412649
+    govtrack: 412652
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38691,7 +38616,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412650
+    govtrack: 412653
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38718,7 +38643,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412651
+    govtrack: 412654
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38745,7 +38670,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412652
+    govtrack: 412655
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38772,7 +38697,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412653
+    govtrack: 412656
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38799,7 +38724,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412654
+    govtrack: 412657
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38826,7 +38751,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412655
+    govtrack: 412658
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38853,7 +38778,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412656
+    govtrack: 412659
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38880,7 +38805,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412657
+    govtrack: 412660
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38907,7 +38832,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412658
+    govtrack: 412661
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38934,7 +38859,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412659
+    govtrack: 412662
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38961,7 +38886,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412660
+    govtrack: 412663
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38989,7 +38914,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412661
+    govtrack: 412664
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39017,7 +38942,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412662
+    govtrack: 412665
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39045,7 +38970,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412663
+    govtrack: 412666
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39073,7 +38998,7 @@
     thomas: TODO
     lis: TODO
     fec: []
-    govtrack: 412664
+    govtrack: 412667
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
