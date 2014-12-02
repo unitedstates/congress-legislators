@@ -129,7 +129,7 @@ for i, row in enumerate(new_members):
 		    ("bioguide", "TODO"),
 		    ("thomas", "TODO"),
 		    ("lis", "TODO"),
-		    ("fec", []),
+		    ("fec", row['new_fec_cand_id'].split(',')),
 		    ("govtrack", 412608+i), # assigning IDs here
 		    ("opensecrets", "TODO"),
 		    ("votesmart", "TODO"),
