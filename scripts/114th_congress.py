@@ -90,7 +90,6 @@ for p in legislators_current:
 		if id in incumbent_winners:
 			# And won. Extend the term.
 			t = copy.deepcopy(p['terms'][-1])
-			if 'fax' in t: del t['fax'] # we're dropping this field going forward
 			p['terms'].append(t)
 			t.update(build_term(won_row[id], False))
 			
