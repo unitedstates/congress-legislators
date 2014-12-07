@@ -2068,60 +2068,6 @@
     state_rank: senior
     rss_url: http://www.johanns.senate.gov/public/?a=RSS.Feed
 - id:
-    bioguide: L000550
-    thomas: '01546'
-    lis: S258
-    govtrack: 300063
-    opensecrets: N00005395
-    votesmart: 661
-    fec:
-    - S6LA00227
-    - P00003483
-    cspan: 22357
-    wikipedia: Mary Landrieu
-    house_history: 17280
-    ballotpedia: Mary Landrieu
-    maplight: 4581
-    washington_post: gIQAi61x9O
-    icpsr: 49702
-  name:
-    first: Mary
-    middle: L.
-    last: Landrieu
-    official_full: Mary L. Landrieu
-  bio:
-    birthday: '1955-11-23'
-    gender: F
-    religion: Roman Catholic
-  terms:
-  - type: sen
-    start: '1997-01-07'
-    end: '2002-11-22'
-    state: LA
-    class: 2
-    party: Democrat
-  - type: sen
-    start: '2003-01-07'
-    end: '2009-01-03'
-    state: LA
-    class: 2
-    party: Democrat
-    url: http://landrieu.senate.gov/
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: LA
-    class: 2
-    party: Democrat
-    url: http://www.landrieu.senate.gov
-    address: 703 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-5824
-    fax: 202-224-9735
-    contact_form: http://www.landrieu.senate.gov/?p=contact
-    office: 703 Hart Senate Office Building
-    state_rank: senior
-    rss_url: http://www.landrieu.senate.gov/rss/
-- id:
     bioguide: M000355
     thomas: '01395'
     lis: S174
@@ -6434,6 +6380,14 @@
     contact_form: https://cassidy.house.gov/contact/email-me
     office: 1131 Longworth House Office Building
     rss_url: http://cassidy.house.gov/rss.xml
+  - type: sen
+    start: '2015-01-03'
+    end: '2021-01-03'
+    state: LA
+    class: 2
+    state_rank: junior
+    party: Republican
+    TODO: TODO
 - id:
     bioguide: C001066
     thomas: '01839'
@@ -37403,36 +37357,6 @@
     office: 141 Hart Senate Office Building
     contact_form: http://www.booker.senate.gov/?p=contact
 - id:
-    bioguide: M001192
-    govtrack: 412599
-    opensecrets: N00035593
-    votesmart: 145379
-    thomas: '02195'
-    cspan: 73009
-    wikipedia: Vance McAllister
-    ballotpedia: Vance McAllister
-    fec:
-    - H4LA05130
-  name:
-    first: Vance
-    last: McAllister
-    official_full: Vance M. McAllister
-  bio:
-    birthday: '1974-01-07'
-    gender: M
-  terms:
-  - type: rep
-    start: '2013-11-16'
-    end: '2015-01-03'
-    state: LA
-    district: 5
-    party: Republican
-    url: http://mcallister.house.gov
-    phone: 202-225-8490
-    address: 316 Cannon HOB; Washington DC 20515-1805
-    office: 316 Cannon House Office Building
-    contact_form: https://mcallister.house.gov/email-me
-- id:
     bioguide: C001101
     thomas: '02196'
     govtrack: 412600
@@ -38355,8 +38279,64 @@
     thomas: TODO
     lis: TODO
     fec:
-    - H4MA06090
+    - H4LA05221
     govtrack: 412629
+    opensecrets: TODO
+    votesmart: TODO
+    icpsr: TODO
+    cspan: TODO
+    wikipedia: TODO
+    ballotpedia: TODO
+    house_history: TODO
+  name:
+    first: Ralph
+    last: Abraham
+  bio:
+    gender: M
+    birthday: '1954-09-16'
+  terms:
+  - type: rep
+    start: '2015-01-03'
+    end: '2017-01-03'
+    state: LA
+    district: 5
+    party: Republican
+    TODO: TODO
+- id:
+    bioguide: TODO
+    thomas: TODO
+    lis: TODO
+    fec:
+    - H4LA06153
+    govtrack: 412630
+    opensecrets: TODO
+    votesmart: TODO
+    icpsr: TODO
+    cspan: TODO
+    wikipedia: TODO
+    ballotpedia: TODO
+    house_history: TODO
+  name:
+    first: Garret
+    last: Graves
+  bio:
+    gender: M
+    birthday: '1972-01-31'
+  terms:
+  - type: rep
+    start: '2015-01-03'
+    end: '2017-01-03'
+    state: LA
+    district: 6
+    party: Republican
+    TODO: TODO
+- id:
+    bioguide: TODO
+    thomas: TODO
+    lis: TODO
+    fec:
+    - H4MA06090
+    govtrack: 412631
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38385,7 +38365,7 @@
     fec:
     - S2ME00158
     - H4ME02234
-    govtrack: 412630
+    govtrack: 412632
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38413,7 +38393,7 @@
     lis: TODO
     fec:
     - H4MI04126
-    govtrack: 412631
+    govtrack: 412633
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38441,7 +38421,7 @@
     lis: TODO
     fec:
     - H4MI08135
-    govtrack: 412632
+    govtrack: 412634
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38469,7 +38449,7 @@
     lis: TODO
     fec:
     - H4MI11097
-    govtrack: 412633
+    govtrack: 412635
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38497,7 +38477,7 @@
     lis: TODO
     fec:
     - H4MI12079
-    govtrack: 412634
+    govtrack: 412636
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38525,7 +38505,7 @@
     lis: TODO
     fec:
     - H2MI14111
-    govtrack: 412635
+    govtrack: 412637
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38553,7 +38533,7 @@
     lis: TODO
     fec:
     - H4MN06087
-    govtrack: 412636
+    govtrack: 412638
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38581,7 +38561,7 @@
     lis: TODO
     fec:
     - H4MT01041
-    govtrack: 412637
+    govtrack: 412639
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38609,7 +38589,7 @@
     lis: TODO
     fec:
     - H2NC07096
-    govtrack: 412638
+    govtrack: 412640
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38637,7 +38617,7 @@
     lis: TODO
     fec:
     - H4NC12100
-    govtrack: 412639
+    govtrack: 412641
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38665,7 +38645,7 @@
     lis: TODO
     fec:
     - H4NE02054
-    govtrack: 412640
+    govtrack: 412642
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38693,7 +38673,7 @@
     lis: TODO
     fec:
     - H4NJ03130
-    govtrack: 412641
+    govtrack: 412643
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38721,7 +38701,7 @@
     lis: TODO
     fec:
     - H4NJ12149
-    govtrack: 412642
+    govtrack: 412644
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38750,7 +38730,7 @@
     lis: TODO
     fec:
     - H4NV04017
-    govtrack: 412643
+    govtrack: 412645
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38778,7 +38758,7 @@
     lis: TODO
     fec:
     - H8NY01148
-    govtrack: 412644
+    govtrack: 412646
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38806,7 +38786,7 @@
     lis: TODO
     fec:
     - H4NY04075
-    govtrack: 412645
+    govtrack: 412647
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38834,7 +38814,7 @@
     lis: TODO
     fec:
     - H4NY21079
-    govtrack: 412646
+    govtrack: 412648
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38862,7 +38842,7 @@
     lis: TODO
     fec:
     - H4NY24073
-    govtrack: 412647
+    govtrack: 412649
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38890,7 +38870,7 @@
     lis: TODO
     fec:
     - H4OK05132
-    govtrack: 412648
+    govtrack: 412650
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38918,7 +38898,7 @@
     lis: TODO
     fec:
     - H0PA06076
-    govtrack: 412649
+    govtrack: 412651
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38946,7 +38926,7 @@
     lis: TODO
     fec:
     - H4PA13199
-    govtrack: 412650
+    govtrack: 412652
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -38974,7 +38954,7 @@
     lis: TODO
     fec:
     - H4TX04153
-    govtrack: 412651
+    govtrack: 412653
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39002,7 +38982,7 @@
     lis: TODO
     fec:
     - H0TX23086
-    govtrack: 412652
+    govtrack: 412654
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39030,7 +39010,7 @@
     lis: TODO
     fec:
     - H6TX02079
-    govtrack: 412653
+    govtrack: 412655
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39058,7 +39038,7 @@
     lis: TODO
     fec:
     - H2UT04023
-    govtrack: 412654
+    govtrack: 412656
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39086,7 +39066,7 @@
     lis: TODO
     fec:
     - H4VA08224
-    govtrack: 412655
+    govtrack: 412657
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39114,7 +39094,7 @@
     lis: TODO
     fec:
     - H4VA10089
-    govtrack: 412656
+    govtrack: 412658
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39142,7 +39122,7 @@
     lis: TODO
     fec:
     - H2VI00082
-    govtrack: 412657
+    govtrack: 412659
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39170,7 +39150,7 @@
     lis: TODO
     fec:
     - H4WA04104
-    govtrack: 412658
+    govtrack: 412660
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39198,7 +39178,7 @@
     lis: TODO
     fec:
     - H4WI06048
-    govtrack: 412659
+    govtrack: 412661
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39226,7 +39206,7 @@
     lis: TODO
     fec:
     - H4WV02080
-    govtrack: 412660
+    govtrack: 412662
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39254,7 +39234,7 @@
     lis: TODO
     fec:
     - H4WV03070
-    govtrack: 412661
+    govtrack: 412663
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39282,7 +39262,7 @@
     lis: TODO
     fec:
     - H4AS00036
-    govtrack: 412662
+    govtrack: 412664
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39310,7 +39290,7 @@
     lis: TODO
     fec:
     - S4AK00214
-    govtrack: 412663
+    govtrack: 412665
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39339,7 +39319,7 @@
     lis: TODO
     fec:
     - S4GA11285
-    govtrack: 412664
+    govtrack: 412666
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39368,7 +39348,7 @@
     lis: TODO
     fec:
     - S4IA00129
-    govtrack: 412665
+    govtrack: 412667
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39397,7 +39377,7 @@
     lis: TODO
     fec:
     - S4NC00162
-    govtrack: 412666
+    govtrack: 412668
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
@@ -39426,7 +39406,7 @@
     lis: TODO
     fec:
     - S4SD00049
-    govtrack: 412667
+    govtrack: 412669
     opensecrets: TODO
     votesmart: TODO
     icpsr: TODO
