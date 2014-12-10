@@ -48,7 +48,7 @@ def build_term(row, mark):
 
 	ret = OrderedDict([
 		("type", "rep" if row['chamber'] == 'House' else 'sen'),
-		("start", '2015-01-03'),
+		("start", '2015-01-06'),
 		("end", end_date),
 		("state", row['state_abbrev']),
 	])
