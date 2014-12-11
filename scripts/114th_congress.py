@@ -27,6 +27,14 @@ for row in csv.DictReader(open("election_results_2014.csv")):
 	if row["new_member"] == "":
 		print("not decided yet...", row)
 		continue
+
+	# For NC-12, Alma Adams won the vacant seat and the 114th Congress
+	# term. It's coded in the spreadsheet as if she's a new member, but
+	# since we've already added her in the 113th Congress we need to
+	# pretend here that she's a returning member.
+	if row["new_id"] == "A000370":
+		row["member_id"] = "A000370"
+
 	incumbents.add(row["member_id"])
 	winners.add(row["new_id"])
 	won_row[row["new_id"]] = row
