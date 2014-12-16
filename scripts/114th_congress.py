@@ -88,6 +88,7 @@ def build_term(row, mark):
 # Load legislators.
 legislators_current = utils.load_data("legislators-current.yaml")
 legislators_historical = utils.load_data("legislators-historical.yaml")
+legislators_social_media = utils.load_data("legislators-social-media.yaml")
 
 # Sweep current members.
 to_retire = []
@@ -125,6 +126,13 @@ for p in to_retire:
 for p in to_return:
 	legislators_current.append(p)
 	legislators_historical.remove(p)
+
+# Delete entries in legislators-social-media for those retiring
+retiring_leg_bioguideids = [leg['id']['bioguide'] for leg in to_retire]
+for p in legislators_social_media:
+	id = p['id']['bioguide']
+	if id in retiring_leg_bioguideids:
+		legislators_social_media.remove(p)
 
 # Add stubs for new members.
 def fix_date(date):
@@ -170,4 +178,5 @@ for i, row in enumerate(new_members):
 # Save.
 utils.save_data(legislators_current, "legislators-current.yaml")
 utils.save_data(legislators_historical, "legislators-historical.yaml")
+utils.save_data(legislators_social_media, "legislators-social-media.yaml")
 
