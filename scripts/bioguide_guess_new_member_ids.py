@@ -23,7 +23,7 @@ def run():
       bioguide = "%s%06d" % (letter, num)
       try:
         dom = fetch_bioguide_page(bioguide, True)
-      except Exception as e:
+      except Exception:
         break
       print(bioguide, dom.cssselect("title")[0].text)
 

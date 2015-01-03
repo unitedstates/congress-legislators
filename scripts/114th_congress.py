@@ -12,7 +12,6 @@
 from collections import OrderedDict
 import copy
 import csv
-import rtyaml
 
 import utils
 

@@ -13,11 +13,10 @@ options:
 '''
 
 import yaml
-import sys
 from urllib.request import urlopen
 
 import utils
-from utils import load_data, save_data, yaml_load, yaml_dump
+from utils import load_data, save_data
 
 
 # These members have forms in iframes, and Contact-Congress has different
