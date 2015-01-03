@@ -139,32 +139,12 @@ def run():
 
   for bioguide in bioguides:
     # Download & parse the HTML of the bioguide page.
-
-    url = "http://bioguide.congress.gov/scripts/biodisplay.pl?index=%s" % bioguide
-    cache = "legislators/bioguide/%s.html" % bioguide
     try:
-      body = download(url, cache, force)
-
-      # Fix a problem?
-      body = body.replace("&Aacute;\xc2\x81", "&Aacute;")
-
-      # Entities like &#146; are in Windows-1252 encoding. Normally lxml
-      # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
-      # doesn't support specifying an encoding, and the lxml.etree.HTMLParser doesn't
-      # provide a cssselect method on element objects. So we'll just decode ourselves.
-      body = utils.unescape(body, "Windows-1252")
-
-      dom = lxml.html.parse(io.StringIO(body)).getroot()
-    except lxml.etree.XMLSyntaxError:
-      print("Error parsing: ", url)
-      continue
-
-    # Sanity check.
-
-    if len(dom.cssselect("title")) == 0:
-      print("[%s] No page for this bioguide!" % bioguide)
-      missing.append(bioguide)
-      continue
+    	dom = fetch_bioguide_page(bioguide, force)
+    except Exception as e:
+    	print(e)
+    	missing.append(bioguide)
+    	continue
 
     # Extract the member's name and the biography paragraph (main).
 
@@ -225,6 +205,32 @@ def run():
 
   # control = "PEARSON, Richmond, a Representative from North Carolina; born at Richmond Hill, Yadkin County, N.C., January 26, 1852; attended Horner's School, Oxford, N.C., and was graduated from Princeton College in 1872; studied law; was admitted to the bar in 1874; in the same year was appointed United States consul to Verviers and Liege, Belgium; resigned in 1877; member of the State house of representatives 1884-1886; elected as a Republican to the Fifty-fourth and Fifty-fifth Congresses (March 4, 1895-March 3, 1899); successfully contested the election of William T. Crawford to the Fifty-sixth Congress and served from May 10, 1900, to March 3, 1901; appointed by President Theodore Roosevelt as United States consul to Genoa, Italy, December 11, 1901, as Envoy Extraordinary and Minister Plenipotentiary to Persia in 1902, and as Minister to Greece and Montenegro in 1907; resigned from the diplomatic service in 1909; died at Richmond Hill, Asheville, N.C., September 12, 1923; interment in Riverside Cemetery."
   # print "\nControl (January 26, 1852): %s" % birthday_for(control)
+
+def fetch_bioguide_page(bioguide, force):
+  url = "http://bioguide.congress.gov/scripts/biodisplay.pl?index=%s" % bioguide
+  cache = "legislators/bioguide/%s.html" % bioguide
+  try:
+    body = download(url, cache, force)
+
+    # Fix a problem?
+    body = body.replace("&Aacute;\xc2\x81", "&Aacute;")
+
+    # Entities like &#146; are in Windows-1252 encoding. Normally lxml
+    # handles that for us, but we're also parsing HTML. The lxml.html.HTMLParser
+    # doesn't support specifying an encoding, and the lxml.etree.HTMLParser doesn't
+    # provide a cssselect method on element objects. So we'll just decode ourselves.
+    body = utils.unescape(body, "Windows-1252")
+
+    dom = lxml.html.parse(io.StringIO(body)).getroot()
+  except lxml.etree.XMLSyntaxError:
+    raise Exception("Error parsing: " + url)
+
+  # Sanity check.
+
+  if len(dom.cssselect("title")) == 0:
+    raise Exception("No page for bioguide %s!" % bioguide)
+
+  return dom
 
 if __name__ == '__main__':
   run()
