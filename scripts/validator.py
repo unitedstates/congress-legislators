@@ -3,6 +3,7 @@
 import rtyaml
 
 P = rtyaml.load(open("../legislators-current.yaml"))
+P_historical = rtyaml.load(open("../legislators-historical.yaml"))
 
 senate_ranks = { }
 
@@ -20,6 +21,22 @@ for p in P:
 	# within each state is correct, at the end.
 	if term['type'] == 'sen':
 		senate_ranks.setdefault(term['state'], []).append((p['id']['bioguide'], term['state_rank']))
+
+# Check for duplicate use of any of the IDs.
+ids = set()
+for p in P + P_historical:
+	# Collect IDs for uniqueness test.
+	for k, v1 in p['id'].items():
+		# The 'fec' ID is a list, convert the others to a list.
+		if not isinstance(v1, list):
+			v1 = [v1]
+		for v in v1:
+			key = (k, v)
+			if key in ids:
+				print("Duplicate ID: %s %s" % (k, v))
+				continue
+			ids.add(key)
+
 
 for state, ranks in senate_ranks.items():
 	# There can be a junior and senior senator, a senior senator, or no senators.
