@@ -95,7 +95,7 @@ def congress_from_legislative_year(year):
 
 def legislative_year(date=None):
   if not date:
-    date = datetime.datetime.now()
+    date = datetime.now()
 
   if date.month == 1:
     if date.day == 1 or date.day == 2:
@@ -231,7 +231,7 @@ def download(url, destination=None, force=False, options=None):
 from pytz import timezone
 eastern_time_zone = timezone('US/Eastern')
 def format_datetime(obj):
-  if isinstance(obj, datetime.datetime):
+  if isinstance(obj, datetime):
     return eastern_time_zone.localize(obj.replace(microsecond=0)).isoformat()
   elif isinstance(obj, str):
     return obj
