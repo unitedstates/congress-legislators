@@ -16,7 +16,15 @@ def run():
 	senate_ranks = { }
 
 	for p in P:
+		# Biographical data.
+
+		if p.get("bio", {}).get("gender") not in ("M", "F"):
+			print("Gender of %s is not valid: %s." % (p['id']['bioguide'], str(p.get("bio", {}).get("gender")) ))
+		if len(p.get("bio", {}).get("birthday", "")) != 10:
+			print("Birthday of %s is not valid: %s." % (p['id']['bioguide'], p.get("bio", {}).get("birthday", "")))
+
 		# Get the current term.
+
 		term = p['terms'][-1]
 
 		# Start/end dates.
@@ -43,7 +51,9 @@ def run():
 					print("Term district in %s is invalid for a not-at-large state: %s." % (p['id']['bioguide'], str(term['district'])))
 				elif ap not in ("T", 1) and term['district'] > ap:
 					print("Term district in %s is invalid: %s." % (p['id']['bioguide'], str(term['district'])))
-
+			elif term['type'] == 'sen':
+				if term.get("class") not in (1, 2, 3):
+					print("Term class in %s is invalid: %s." % (p['id']['bioguide'], str(term['class'])))
 
 		# Make sure there are no duplicate offices -- checked at the end.
 
@@ -56,6 +66,15 @@ def run():
 		# within each state is correct, at the end.
 		if term['type'] == 'sen':
 			senate_ranks.setdefault(term['state'], []).append((p['id']['bioguide'], term['state_rank']))
+
+		# Party.
+
+		if term['party'] not in ("Republican", "Democrat", "Independent"):
+			print("Suspicious party for %s: %s." % (p['id']['bioguide'], term['party']))
+		elif term['party'] != "Independent" and term.get("caucus") != None:
+			print("caucus field should not be used if the party is not Indpeendent, in %s: %s." % (p['id']['bioguide'], term['caucus']))
+		elif term['party'] == "Independent" and term.get("caucus") is None:
+			print("caucus field should be used if the party is Indpeendent, in %s: %s." % (p['id']['bioguide'], term['caucus']))
 
 	# Check for duplicate offices.
 	for k, v in offices.items():
