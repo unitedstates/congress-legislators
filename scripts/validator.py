@@ -12,6 +12,7 @@ def run():
 	P = rtyaml.load(open("../legislators-current.yaml"))
 	P_historical = rtyaml.load(open("../legislators-historical.yaml"))
 
+	offices = { }
 	senate_ranks = { }
 
 	for p in P:
@@ -44,12 +45,23 @@ def run():
 					print("Term district in %s is invalid: %s." % (p['id']['bioguide'], str(term['district'])))
 
 
+		# Make sure there are no duplicate offices -- checked at the end.
+
+		office = (term['type'], term['state'], term['district'] if term['type'] == 'rep' else term['class'])
+		offices.setdefault(office, []).append(p)
+
 		# Seate state rank.
 
 		# Collect all of the senate state ranks so we can check that the distribution
 		# within each state is correct, at the end.
 		if term['type'] == 'sen':
 			senate_ranks.setdefault(term['state'], []).append((p['id']['bioguide'], term['state_rank']))
+
+	# Check for duplicate offices.
+	for k, v in offices.items():
+		if len(v) > 1:
+			print("Multiple holders of the office", k)
+			print(rtyaml.dump(v))
 
 	# Check for duplicate use of any of the IDs.
 	ids = set()
