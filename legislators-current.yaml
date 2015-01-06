@@ -7221,150 +7221,6 @@
     state_rank: senior
     rss_url: http://www.coats.senate.gov/rss/feeds/?type=all&amp;
 - id:
-    bioguide: C000556
-    thomas: '00211'
-    govtrack: 400076
-    opensecrets: N00002247
-    votesmart: 27001
-    icpsr: 15092
-    fec:
-    - H4NC06011
-    cspan: 6961
-    wikipedia: Howard Coble
-    house_history: 11145
-    ballotpedia: Howard Coble
-    maplight: 4190
-    washington_post: gIQAJvUQAP
-  name:
-    first: Howard
-    last: Coble
-    official_full: Howard Coble
-  bio:
-    birthday: '1931-03-18'
-    gender: M
-    religion: Presbyterian
-  terms:
-  - type: rep
-    start: '1985-01-03'
-    end: '1986-10-18'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1987-01-06'
-    end: '1988-10-22'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1989-01-03'
-    end: '1990-10-28'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1991-01-03'
-    end: '1992-10-09'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-12-01'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1995-01-04'
-    end: '1996-10-04'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1998-12-19'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2000-12-15'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2002-11-22'
-    state: NC
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2004-12-09'
-    state: NC
-    district: 6
-    party: Republican
-    url: http://www.house.gov/coble
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-12-09'
-    state: NC
-    district: 6
-    party: Republican
-    url: http://www.house.gov/coble
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NC
-    district: 6
-    party: Republican
-    url: http://www.house.gov/coble
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-12-22'
-    state: NC
-    district: 6
-    party: Republican
-    url: http://www.house.gov/coble
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: NC
-    district: 6
-    party: Republican
-    url: http://www.house.gov/coble
-    address: 2188 Rayburn HOB; Washington DC 20515-3306
-    phone: 202-225-3065
-    fax: 202-225-8611
-    contact_form: http://www.house.gov/writerep
-    office: 2188 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: NC
-    party: Republican
-    district: 6
-    url: http://coble.house.gov
-    address: 2188 Rayburn HOB; Washington DC 20515-3306
-    phone: 202-225-3065
-    fax: 202-225-8611
-    contact_form: http://coble.house.gov/contact/zipcheck.htm
-    office: 2188 Rayburn House Office Building
-    rss_url: http://coble.house.gov/news/rss.aspx
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: NC
-    party: Republican
-    district: 6
-    url: http://coble.house.gov
-    address: 2188 Rayburn HOB; Washington DC 20515-3306
-    phone: 202-225-3065
-    fax: 202-225-8611
-    contact_form: http://coble.house.gov/contact/zipcheck.htm
-    office: 2188 Rayburn House Office Building
-    rss_url: http://coble.house.gov/news/rss.aspx
-- id:
     bioguide: C001077
     thomas: '01912'
     govtrack: 412271
@@ -38807,4 +38663,24 @@
     state: SD
     class: 2
     state_rank: junior
+    party: Republican
+- id:
+    bioguide: W000819
+    fec:
+    - H4NC06052
+    govtrack: 412670
+    opensecrets: N00035311
+  name:
+    first: Bradley
+    middle: Mark
+    last: Walker
+  bio:
+    gender: M
+    birthday: '1969-05-20'
+  terms:
+  - type: rep
+    start: '2015-01-06'
+    end: '2017-01-03'
+    state: NC
+    district: 6
     party: Republican
