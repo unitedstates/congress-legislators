@@ -2017,57 +2017,6 @@
     state_rank: senior
     rss_url: http://www.inhofe.senate.gov/rss/feeds/?type=all&amp;cachebuster=eea6c4d7%2d939c%2d5c1e%2db6c7aa3b8b291208
 - id:
-    bioguide: J000291
-    thomas: '01899'
-    lis: S321
-    govtrack: 412320
-    opensecrets: N00029444
-    votesmart: 21309
-    fec:
-    - S8NE00117
-    cspan: 56552
-    wikipedia: Mike Johanns
-    ballotpedia: Mike Johanns
-    maplight: 7594
-    washington_post: gIQAcVOr9O
-    icpsr: 40905
-  name:
-    first: Mike
-    last: Johanns
-    official_full: Mike Johanns
-  bio:
-    birthday: '1950-06-18'
-    gender: M
-  terms:
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: NE
-    class: 2
-    party: Republican
-    url: http://www.johanns.senate.gov
-    address: 404 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4224
-    fax: 202-228-0436
-    contact_form: http://www.johanns.senate.gov/public/?p=EmailSenatorJohanns
-    office: 404 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.johanns.senate.gov/public/?a=RSS.Feed
-  - type: sen
-    start: '2015-01-06'
-    end: '2021-01-03'
-    state: NE
-    class: 2
-    party: Republican
-    url: http://www.johanns.senate.gov
-    address: 404 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4224
-    fax: 202-228-0436
-    contact_form: http://www.johanns.senate.gov/public/?p=EmailSenatorJohanns
-    office: 404 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.johanns.senate.gov/public/?a=RSS.Feed
-- id:
     bioguide: M000355
     thomas: '01395'
     lis: S174
@@ -35653,7 +35602,7 @@
     address: 383 Russell Senate Office Building Washington DC 20510
     office: 383 Russell Senate Office Building
     phone: 202-224-6551
-    state_rank: junior
+    state_rank: senior
     contact_form: http://www.fischer.senate.gov/public/?p=email-deb
     rss_url: http://www.fischer.senate.gov/public/index.cfm/rss/feed
     fax: 202-228-1325
@@ -38683,4 +38632,25 @@
     end: '2017-01-03'
     state: NC
     district: 6
+    party: Republican
+- id:
+    bioguide: S001197
+    fec:
+    - S4NE00090
+    govtrack: 412671
+    opensecrets: N00035544
+  name:
+    first: Benjamin
+    middle: Eric
+    last: Sasse
+  bio:
+    gender: M
+    birthday: '1972-02-22'
+  terms:
+  - type: sen
+    start: '2015-01-06'
+    end: '2021-01-03'
+    state: NE
+    class: 2
+    state_rank: junior
     party: Republican
