@@ -38633,3 +38633,24 @@
     state: NC
     district: 6
     party: Republican
+- id:
+    bioguide: S001197
+    fec:
+    - S4NE00090
+    govtrack: 412671
+    opensecrets: N00035544
+  name:
+    first: Benjamin
+    middle: Eric
+    last: Sasse
+  bio:
+    gender: M
+    birthday: '1972-02-22'
+  terms:
+  - type: sen
+    start: '2015-01-06'
+    end: '2021-01-03'
+    state: NE
+    class: 2
+    state_rank: junior
+    party: Republican
