@@ -4482,7 +4482,7 @@
     state: OH
     party: Republican
     district: 8
-    url: http://boehner.house.gov
+    url: http://johnboehner.house.gov
     address: 1011 Longworth HOB; Washington DC 20515-3508
     phone: 202-225-6205
     fax: 202-225-0704
@@ -6036,7 +6036,7 @@
     state: MA
     party: Democrat
     district: 7
-    url: http://www.house.gov/capuano
+    url: http://capuano.house.gov
     address: 1414 Longworth HOB; Washington DC 20515-2107
     phone: 202-225-5111
     fax: 202-225-9322
@@ -8860,7 +8860,7 @@
     state: CA
     party: Democrat
     district: 53
-    url: http://www.house.gov/susandavis
+    url: http://susandavis.house.gov
     address: 1214 Longworth HOB; Washington DC 20515-0553
     phone: 202-225-2040
     fax: 202-225-2948
@@ -27650,7 +27650,7 @@
     state: VA
     party: Democrat
     district: 3
-    url: http://www.bobbyscott.house.gov
+    url: http://bobbyscott.house.gov
     address: 1201 Longworth HOB; Washington DC 20515-4603
     phone: 202-225-8351
     fax: 202-225-8354
@@ -28378,7 +28378,7 @@
     state: CA
     party: Democrat
     district: 30
-    url: http://bradsherman.house.gov
+    url: http://sherman.house.gov
     address: 2242 Rayburn HOB; Washington DC 20515-0530
     phone: 202-225-5911
     fax: 202-225-5879
@@ -30927,7 +30927,7 @@
     state: NY
     party: Democrat
     district: 7
-    url: http://www.house.gov/velazquez
+    url: http://velazquez.house.gov
     address: 2302 Rayburn HOB; Washington DC 20515-3207
     phone: 202-225-2361
     fax: 202-226-0327
@@ -37233,6 +37233,7 @@
     address: 228 Cannon HOB; Washington DC 20515-0919
     office: 228 Cannon House Office Building
     phone: 202-225-2536
+    url: http://clawson.house.gov
 - id:
     bioguide: B001290
     thomas: '02203'
@@ -37271,7 +37272,7 @@
     state: VA
     district: 7
     party: Republican
-    url: http://brat.house.gov/
+    url: http://brat.house.gov
     contact_form: http://brat.house.gov/contact
     address: 330 Cannon HOB; Washington DC 20515-4607
     office: 330 Cannon House Office Building
@@ -37313,7 +37314,7 @@
     state: NJ
     district: 1
     party: Democrat
-    url: http://norcross.house.gov/
+    url: http://norcross.house.gov
     contact_form: http://norcross.house.gov/contact
     address: 1531 Longworth HOB; Washington DC 20515-3001
     office: 1531 Longworth House Office Building
@@ -37354,7 +37355,7 @@
     state: NC
     district: 12
     party: Democrat
-    url: http://adams.house.gov/
+    url: http://adams.house.gov
     contact_form: http://adams.house.gov/contact
     address: 222 Cannon HOB; Washington DC 20515-3312
     office: 222 Cannon House Office Building
@@ -37398,6 +37399,7 @@
     address: 221 Cannon HOB; Washington DC 20515-1310
     office: 221 Cannon House Office Building
     phone: 202-225-4835
+    url: https://dold.house.gov
 - id:
     bioguide: G000570
     thomas: '02038'
@@ -37437,6 +37439,7 @@
     address: 326 Cannon HOB; Washington DC 20515-2901
     office: 326 Cannon House Office Building
     phone: 202-225-5456
+    url: https://guinta.house.gov
 - id:
     bioguide: P000609
     fec:
@@ -37460,6 +37463,7 @@
     address: 206 Cannon HOB; Washington DC 20515-0106
     office: 206 Cannon House Office Building
     phone: 202-225-4921
+    url: https://palmer.house.gov
 - id:
     bioguide: H001072
     fec:
@@ -37483,6 +37487,7 @@
     address: 1229 Longworth HOB; Washington DC 20515-0402
     office: 1229 Longworth House Office Building
     phone: 202-225-2506
+    url: https://hill.house.gov
 - id:
     bioguide: W000821
     fec:
@@ -37506,6 +37511,7 @@
     address: 130 Cannon HOB; Washington DC 20515-0404
     office: 130 Cannon House Office Building
     phone: 202-225-3772
+    url: https://westerman.house.gov
 - id:
     bioguide: M001197
     fec:
@@ -37529,6 +37535,7 @@
     address: 1029 Longworth HOB; Washington DC 20515-0302
     office: 1029 Longworth House Office Building
     phone: 202-225-2542
+    url: https://mcsally.house.gov
 - id:
     bioguide: G000574
     fec:
@@ -37552,6 +37559,7 @@
     address: 1218 Longworth HOB; Washington DC 20515-0307
     office: 1218 Longworth House Office Building
     phone: 202-225-4065
+    url: https://rubengallego.house.gov
 - id:
     bioguide: D000623
     fec:
@@ -37575,6 +37583,7 @@
     address: 327 Cannon HOB; Washington DC 20515-0511
     office: 327 Cannon House Office Building
     phone: 202-225-2095
+    url: https://desaulnier.house.gov
 - id:
     bioguide: K000387
     fec:
@@ -37598,6 +37607,7 @@
     address: 1023 Longworth HOB; Washington DC 20515-0525
     office: 1023 Longworth House Office Building
     phone: 202-225-1956
+    url: https://knight.house.gov
 - id:
     bioguide: A000371
     fec:
@@ -37621,6 +37631,7 @@
     address: 1223 Longworth HOB; Washington DC 20515-0531
     office: 1223 Longworth House Office Building
     phone: 202-225-3201
+    url: https://aguilar.house.gov
 - id:
     bioguide: L000582
     fec:
@@ -37644,6 +37655,7 @@
     address: 415 Cannon HOB; Washington DC 20515-0533
     office: 415 Cannon House Office Building
     phone: 202-225-3976
+    url: https://lieu.house.gov
 - id:
     bioguide: T000474
     fec:
@@ -37667,6 +37679,7 @@
     address: 516 Cannon HOB; Washington DC 20515-0535
     office: 516 Cannon House Office Building
     phone: 202-225-6161
+    url: https://torres.house.gov
 - id:
     bioguide: W000820
     fec:
@@ -37690,6 +37703,7 @@
     address: 236 Cannon HOB; Washington DC 20515-0545
     office: 236 Cannon House Office Building
     phone: 202-225-5611
+    url: https://walters.house.gov
 - id:
     bioguide: B001297
     fec:
@@ -37714,6 +37728,7 @@
     address: 416 Cannon HOB; Washington DC 20515-0604
     office: 416 Cannon House Office Building
     phone: 202-225-4676
+    url: https://buck.house.gov
 - id:
     bioguide: G000575
     fec:
@@ -37737,6 +37752,7 @@
     address: 1213 Longworth HOB; Washington DC 20515-0902
     office: 1213 Longworth House Office Building
     phone: 202-225-5235
+    url: https://graham.house.gov
 - id:
     bioguide: C001107
     fec:
@@ -37760,6 +37776,7 @@
     address: 1429 Longworth HOB; Washington DC 20515-0926
     office: 1429 Longworth House Office Building
     phone: 202-225-2778
+    url: https://curbelo.house.gov
 - id:
     bioguide: C001103
     fec:
@@ -37783,6 +37800,7 @@
     address: 432 Cannon HOB; Washington DC 20515-1001
     office: 432 Cannon House Office Building
     phone: 202-225-5831
+    url: https://buddycarter.house.gov
 - id:
     bioguide: H001071
     fec:
@@ -37806,6 +37824,7 @@
     address: 1516 Longworth HOB; Washington DC 20515-1010
     office: 1516 Longworth House Office Building
     phone: 202-225-4101
+    url: https://hice.house.gov
 - id:
     bioguide: L000583
     fec:
@@ -37829,6 +37848,7 @@
     address: 238 Cannon HOB; Washington DC 20515-1011
     office: 238 Cannon House Office Building
     phone: 202-225-2931
+    url: https://loudermilk.house.gov
 - id:
     bioguide: A000372
     fec:
@@ -37852,6 +37872,7 @@
     address: 513 Cannon HOB; Washington DC 20515-1012
     office: 513 Cannon House Office Building
     phone: 202-225-2823
+    url: https://allen.house.gov
 - id:
     bioguide: T000473
     fec:
@@ -37875,6 +37896,7 @@
     address: 422 Cannon HOB; Washington DC 20515-1101
     office: 422 Cannon House Office Building
     phone: 202-225-2726
+    url: https://takai.house.gov
 - id:
     bioguide: B001294
     fec:
@@ -37898,6 +37920,7 @@
     address: 213 Cannon HOB; Washington DC 20515-1501
     office: 213 Cannon House Office Building
     phone: 202-225-2911
+    url: https://blum.house.gov
 - id:
     bioguide: Y000066
     fec:
@@ -37922,6 +37945,7 @@
     address: 515 Cannon HOB; Washington DC 20515-1503
     office: 515 Cannon House Office Building
     phone: 202-225-5476
+    url: https://davidyoung.house.gov
 - id:
     bioguide: B001295
     fec:
@@ -37945,6 +37969,7 @@
     address: 1440 Longworth HOB; Washington DC 20515-1312
     office: 1440 Longworth House Office Building
     phone: 202-225-5661
+    url: https://bost.house.gov
 - id:
     bioguide: A000374
     fec:
@@ -37967,6 +37992,7 @@
     address: 417 Cannon HOB; Washington DC 20515-1805
     office: 417 Cannon House Office Building
     phone: 202-225-8490
+    url: https://abraham.house.gov
 - id:
     bioguide: G000577
     fec:
@@ -37989,6 +38015,7 @@
     address: 204 Longworth HOB; Washington DC 20515-1806
     office: 204 Longworth House Office Building
     phone: 202-225-3901
+    url: https://garretgraves.house.gov
 - id:
     bioguide: M001196
     fec:
@@ -38012,6 +38039,7 @@
     address: 1408 Longworth HOB; Washington DC 20515-2106
     office: 1408 Longworth House Office Building
     phone: 202-225-8020
+    url: https://moulton.house.gov
 - id:
     bioguide: P000611
     fec:
@@ -38036,6 +38064,7 @@
     address: 426 Cannon HOB; Washington DC 20515-1902
     office: 426 Cannon House Office Building
     phone: 202-225-6306
+    url: https://poliquin.house.gov
 - id:
     bioguide: M001194
     fec:
@@ -38059,6 +38088,7 @@
     address: 117 Cannon HOB; Washington DC 20515-2204
     office: 117 Cannon House Office Building
     phone: 202-225-3561
+    url: https://moolenaar.house.gov
 - id:
     bioguide: B001293
     fec:
@@ -38082,6 +38112,7 @@
     address: 428 Cannon HOB; Washington DC 20515-2208
     office: 428 Cannon House Office Building
     phone: 202-225-4872
+    url: https://mikebishop.house.gov
 - id:
     bioguide: T000475
     fec:
@@ -38105,6 +38136,7 @@
     address: 1722 Longworth HOB; Washington DC 20515-2211
     office: 1722 Longworth House Office Building
     phone: 202-225-8171
+    url: https://trott.house.gov
 - id:
     bioguide: D000624
     fec:
@@ -38128,6 +38160,7 @@
     address: 116 Cannon HOB; Washington DC 20515-2212
     office: 116 Cannon House Office Building
     phone: 202-225-4071
+    url: https://debbiedingell.house.gov
 - id:
     bioguide: L000581
     fec:
@@ -38151,6 +38184,7 @@
     address: 1237 Longworth HOB; Washington DC 20515-2214
     office: 1237 Longworth House Office Building
     phone: 202-225-5802
+    url: https://lawrence.house.gov
 - id:
     bioguide: E000294
     fec:
@@ -38174,6 +38208,7 @@
     address: 503 Cannon HOB; Washington DC 20515-2306
     office: 503 Cannon House Office Building
     phone: 202-225-2331
+    url: https://emmer.house.gov
 - id:
     bioguide: Z000018
     fec:
@@ -38197,6 +38232,7 @@
     address: 113 Cannon HOB; Washington DC 20515-2600
     office: 113 Cannon House Office Building
     phone: 202-225-3211
+    url: https://zinke.house.gov
 - id:
     bioguide: R000603
     fec:
@@ -38220,6 +38256,7 @@
     address: 424 Cannon HOB; Washington DC 20515-3307
     office: 424 Cannon House Office Building
     phone: 202-225-2731
+    url: https://rouzer.house.gov
 - id:
     bioguide: A000373
     fec:
@@ -38243,6 +38280,7 @@
     address: 107 Cannon HOB; Washington DC 20515-2702
     office: 107 Cannon House Office Building
     phone: 202-225-4155
+    url: https://ashford.house.gov
 - id:
     bioguide: M001193
     fec:
@@ -38266,6 +38304,7 @@
     address: 506 Cannon HOB; Washington DC 20515-3003
     office: 506 Cannon House Office Building
     phone: 202-225-4765
+    url: https://macarthur.house.gov
 - id:
     bioguide: W000822
     fec:
@@ -38289,6 +38328,7 @@
     address: 126 Cannon HOB; Washington DC 20515-3012
     office: 126 Cannon House Office Building
     phone: 202-225-5801
+    url: https://watsoncoleman.house.gov
 - id:
     bioguide: H001070
     fec:
@@ -38312,6 +38352,7 @@
     address: 430 Cannon HOB; Washington DC 20515-2804
     office: 430 Cannon House Office Building
     phone: 202-225-9894
+    url: https://hardy.house.gov
 - id:
     bioguide: Z000017
     fec:
@@ -38335,6 +38376,7 @@
     address: 1517 Longworth HOB; Washington DC 20515-3201
     office: 1517 Longworth House Office Building
     phone: 202-225-3826
+    url: https://zeldin.house.gov
 - id:
     bioguide: R000602
     fec:
@@ -38358,6 +38400,7 @@
     address: 1508 Longworth HOB; Washington DC 20515-3204
     office: 1508 Longworth House Office Building
     phone: 202-225-5516
+    url: https://kathleenrice.house.gov
 - id:
     bioguide: S001196
     fec:
@@ -38381,6 +38424,7 @@
     address: 512 Cannon HOB; Washington DC 20515-3221
     office: 512 Cannon House Office Building
     phone: 202-225-4611
+    url: https://stefanik.house.gov
 - id:
     bioguide: K000386
     fec:
@@ -38404,6 +38448,7 @@
     address: 1123 Longworth HOB; Washington DC 20515-3224
     office: 1123 Longworth House Office Building
     phone: 202-225-3701
+    url: https://katko.house.gov
 - id:
     bioguide: R000604
     fec:
@@ -38427,6 +38472,7 @@
     address: 128 Cannon HOB; Washington DC 20515-3605
     office: 128 Cannon House Office Building
     phone: 202-225-2132
+    url: https://russell.house.gov
 - id:
     bioguide: C001106
     fec:
@@ -38450,6 +38496,7 @@
     address: 427 Cannon HOB; Washington DC 20515-3806
     office: 427 Cannon House Office Building
     phone: 202-225-4315
+    url: https://costello.house.gov
 - id:
     bioguide: B001296
     fec:
@@ -38473,6 +38520,7 @@
     address: 118 Cannon HOB; Washington DC 20515-3813
     office: 118 Cannon House Office Building
     phone: 202-225-6111
+    url: https://boyle.house.gov
 - id:
     bioguide: R000601
     fec:
@@ -38496,6 +38544,7 @@
     address: 325 Cannon HOB; Washington DC 20515-4304
     office: 325 Cannon House Office Building
     phone: 202-225-6673
+    url: https://ratcliffe.house.gov
 - id:
     bioguide: H001073
     fec:
@@ -38519,6 +38568,7 @@
     address: 317 Cannon HOB; Washington DC 20515-4323
     office: 317 Cannon House Office Building
     phone: 202-225-4511
+    url: https://hurd.house.gov
 - id:
     bioguide: B001291
     fec:
@@ -38542,6 +38592,7 @@
     address: 316 Cannon HOB; Washington DC 20515-4336
     office: 316 Cannon House Office Building
     phone: 202-225-1555
+    url: https://babin.house.gov
 - id:
     bioguide: L000584
     fec:
@@ -38565,6 +38616,7 @@
     address: 217 Cannon HOB; Washington DC 20515-4404
     office: 217 Cannon House Office Building
     phone: 202-225-3011
+    url: https://love.house.gov
 - id:
     bioguide: B001292
     fec:
@@ -38588,6 +38640,7 @@
     address: 431 Cannon HOB; Washington DC 20515-4608
     office: 431 Cannon House Office Building
     phone: 202-225-4376
+    url: https://beyer.house.gov
 - id:
     bioguide: C001105
     fec:
@@ -38611,6 +38664,7 @@
     address: 226 Cannon HOB; Washington DC 20515-4610
     office: 226 Cannon House Office Building
     phone: 202-225-5136
+    url: https://comstock.house.gov
 - id:
     bioguide: P000610
     fec:
@@ -38633,6 +38687,7 @@
     address: 509 Cannon HOB; Washington DC 20515-5501
     office: 509 Cannon House Office Building
     phone: 202-225-1790
+    url: https://plaskett.house.gov
 - id:
     bioguide: N000189
     fec:
@@ -38656,6 +38711,7 @@
     address: 1641 Longworth HOB; Washington DC 20515-4704
     office: 1641 Longworth House Office Building
     phone: 202-225-5816
+    url: https://newhouse.house.gov
 - id:
     bioguide: G000576
     fec:
@@ -38679,6 +38735,7 @@
     address: 501 Cannon HOB; Washington DC 20515-4906
     office: 501 Cannon House Office Building
     phone: 202-225-2476
+    url: https://grothman.house.gov
 - id:
     bioguide: M001195
     fec:
@@ -38702,6 +38759,7 @@
     address: 1232 Longworth HOB; Washington DC 20515-4802
     office: 1232 Longworth House Office Building
     phone: 202-225-2711
+    url: https://mooney.house.gov
 - id:
     bioguide: J000297
     fec:
@@ -38725,6 +38783,7 @@
     address: 502 Cannon HOB; Washington DC 20515-4803
     office: 502 Cannon House Office Building
     phone: 202-225-3452
+    url: https://evanjenkins.house.gov
 - id:
     bioguide: R000600
     fec:
@@ -38747,6 +38806,7 @@
     address: 1339 Longworth HOB; Washington DC 20515-5201
     office: 1339 Longworth House Office Building
     phone: 202-225-8577
+    url: https://radewagen.house.gov
 - id:
     bioguide: S001198
     fec:
@@ -38871,6 +38931,7 @@
     address: 312 Cannon HOB; Washington DC 20515-3306
     office: 312 Cannon House Office Building
     phone: 202-225-3065
+    url: https://walker.house.gov
 - id:
     bioguide: S001197
     fec:
