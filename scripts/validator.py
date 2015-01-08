@@ -16,6 +16,13 @@ def run():
 	senate_ranks = { }
 
 	for p in P:
+		# IDs.
+
+		if not p['id'].get('thomas'):
+			print("No THOMAS ID for %s." % p['id']['bioguide'])
+		elif not isinstance(p['id']['thomas'], str) or p['id']['thomas'][0] != '0':
+			print("Invalid THOMAS ID for %s: %s." % (p['id']['bioguide'], str(p['id']['thomas'])))
+
 		# Biographical data.
 
 		if p.get("bio", {}).get("gender") not in ("M", "F"):
