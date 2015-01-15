@@ -1593,6 +1593,9 @@
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
+  - title: Majority Whip
+    chamber: senate
+    start: '2015-01-03' 
   terms:
   - type: sen
     start: '2002-01-01'
@@ -1681,6 +1684,10 @@
   - title: Majority Whip
     chamber: senate
     start: '2013-01-03'
+    end: '2015-01-03'
+  - title: Minority Whip
+    chamber: senate
+    start: '2015-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -2055,7 +2062,10 @@
   - title: Minority Leader
     chamber: senate
     start: '2013-01-03'
-    end: '2015-01-13'
+    end: '2015-01-03'
+  - title: Majority Leader
+    chamber: senate
+    start: '2015-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -4386,6 +4396,9 @@
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
+  - title: Speaker
+    chamber: house
+    start: '2015-01-06'
   terms:
   - type: rep
     start: '1991-01-03'
@@ -14579,6 +14592,9 @@
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
+  - title: Minority Whip
+    chamber: house
+    start: '2015-01-06'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -19702,6 +19718,9 @@
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
+  - title: Majority Leader
+    chamber: house
+    start: '2015-01-06'
   terms:
   - type: rep
     start: '2007-01-04'
@@ -23055,6 +23074,9 @@
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
+  - title: Minority Leader
+    chamber: house
+    start: '2015-01-06'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -24690,6 +24712,9 @@
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
+  - title: Minority Leader
+    chamber: senate
+    start: '2015-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -26861,6 +26886,9 @@
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
+  - title: Majority Whip
+    chamber: house
+    start: '2015-01-06'
   terms:
   - type: rep
     start: '2008-05-07'
