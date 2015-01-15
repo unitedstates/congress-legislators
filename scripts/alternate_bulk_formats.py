@@ -38,6 +38,7 @@ def run():
 	term_fields = [
 	("type", "type"),
 	("state", "state"),
+	("district", "district"),
 	("party", "party"),
 	("url", "url"),
 	("address", "address"),
