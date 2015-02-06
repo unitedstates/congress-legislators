@@ -7,6 +7,7 @@ import lxml.html, io
 import utils
 import requests
 from utils import load_data, save_data
+import sys
 
 def run():
   # load legislators YAML files
@@ -28,7 +29,11 @@ def run():
   count = 0
 
   # scrape history.house.gov
-  for id in range(22000, 25000):
+  if len(sys.argv) == 1:
+    id_range = range(22000, 25000)
+  else:
+    id_range = [int(arg) for arg in sys.argv[1:]]
+  for id in id_range:
     # skip known IDs
     if id in known_house_history_ids:
       continue
