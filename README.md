@@ -150,7 +150,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 
 * bio
 	* birthday: The legislator's birthday, in YYYY-MM-DD format.
-	* gender: The legislator's gender, either "M" or "F".
+	* gender: The legislator's gender, either "M" or "F". (In historical data, we've worked backwards from [history.house.gov's Women in Congress feature](http://history.house.gov/People/Search?filter=6).)
 	* religion: The legislator's religion.
 
 * terms (one entry for each election)

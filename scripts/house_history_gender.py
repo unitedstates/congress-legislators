@@ -16,6 +16,7 @@ def run():
 			women_house_history_ids.add(int(match))
 
 	# Now check and update the gender of all legislators.
+	matched_women_house_history_ids = set()
 	missing_ids = set()
 	for fn in ("../legislators-current.yaml", "../legislators-historical.yaml"):
 		legislators = yaml_load(fn)
@@ -31,12 +32,13 @@ def run():
 			p.setdefault("bio", {})["gender"] = "F" if house_history_id in women_house_history_ids else "M"
 
 			if house_history_id in women_house_history_ids:
-				women_house_history_ids.remove(house_history_id)
+				matched_women_house_history_ids.add(house_history_id)
 
 		yaml_dump(legislators, fn)
 
-	print("%d women in Congress were not found in our files." % len(women_house_history_ids))
-	print(" ", " ".join((str(x) for x in women_house_history_ids)))
+	print("%d women in Congress reported by the House History website" % len(women_house_history_ids))
+	print("%d women in Congress were not found in our files." % len(women_house_history_ids-matched_women_house_history_ids))
+	print(" ", " ".join((str(x) for x in (women_house_history_ids-matched_women_house_history_ids))))
 	print("%d legislators are missing house_history IDs, set to male." % len(missing_ids))
 
 if __name__ == '__main__':
