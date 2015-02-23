@@ -4,11 +4,11 @@
   thomas_id: HSAG
   house_committee_id: AG
   subcommittees:
-  - name: Conservation, Energy, and Forestry
+  - name: Conservation and Forestry
     thomas_id: '15'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Department Operations, Oversight, and Nutrition
+  - name: Commodity Exchanges, Energy, and Credit
     thomas_id: '22'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
@@ -16,12 +16,16 @@
     thomas_id: '16'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Livestock, Rural Development, and Credit
+  - name: Livestock and Foreign Agriculture
     thomas_id: '29'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Horticulture, Research, Biotechnology, and Foreign Agriculture
+  - name: Biotechnology, Horticulture, and Research
     thomas_id: '14'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: Nutrition
+    thomas_id: '03'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
   address: 1301 LHOB; Washington, DC 20515-6001
@@ -126,7 +130,7 @@
     thomas_id: '29'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-  - name: Intelligence, Emerging Threats and Capabilities
+  - name: Emerging Threats and Capabilities
     thomas_id: '26'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
@@ -276,7 +280,7 @@
     thomas_id: '06'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: Energy Policy, Health Care and Entitlements
+  - name: Health Care, Benefits and Administrative Rules
     thomas_id: '27'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
@@ -313,7 +317,7 @@
     thomas_id: '11'
     address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-8417
-  - name: Emergency Preparedness, Response and Communications
+  - name: Emergency Preparedness, Response, and Communications
     thomas_id: '12'
     address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-8417
@@ -770,7 +774,7 @@
   thomas_id: SSAF
   senate_committee_id: SSAF
   subcommittees:
-  - name: Commodities, Markets, Trade and Risk Management
+  - name: Commodities, Risk Management and Trade
     thomas_id: '13'
     wikipedia: United States Senate Agriculture Subcommittee on Commodities, Markets,
       Trade and Risk Management
@@ -778,15 +782,15 @@
     thomas_id: '14'
     wikipedia: United States Senate Agriculture Subcommittee on Conservation, Forestry
       and Natural Resources
-  - name: Jobs, Rural Economic Growth and Energy Innovation
+  - name: Rural Development and Energy
     thomas_id: '15'
     wikipedia: United States Senate Agriculture Subcommittee on Jobs, Rural Economic
       Growth and Energy Innovation
-  - name: Nutrition, Specialty Crops, Food and Agricultural Research
+  - name: Nutrition, Specialty Crops, and Agricultural Research
     thomas_id: '16'
     wikipedia: United States Senate Agriculture Subcommittee on Nutrition, Specialty
       Crops, Food and Agricultural Research
-  - name: Livestock, Dairy, Poultry, Marketing and Agriculture Security
+  - name: Livestock, Marketing and Agriculture Security
     thomas_id: '17'
     wikipedia: United States Senate Agriculture Subcommittee on Livestock, Dairy,
       Poultry, Marketing and Agriculture Security
@@ -915,7 +919,7 @@
   thomas_id: SSCM
   senate_committee_id: SSCM
   subcommittees:
-  - name: Communications, Technology, and the Internet
+  - name: Communications, Technology, Innovation, and the Internet
     thomas_id: '26'
     wikipedia: United States Senate Commerce Subcommittee on Communications, Technology,
       and the Internet
@@ -923,7 +927,7 @@
     thomas_id: '27'
     wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
       and Export Promotion
-  - name: Consumer Protection, Product Safety, and Insurance
+  - name: Consumer Protection, Product Safety, Insurance, and Data Security
     thomas_id: '20'
     wikipedia: United States Senate Commerce Subcommittee on Consumer Protection,
       Product Safety, and Insurance
@@ -931,7 +935,7 @@
     thomas_id: '22'
     wikipedia: United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries,
       and Coast Guard
-  - name: Science and Space
+  - name: Space, Science, and Competitiveness
     thomas_id: '24'
     wikipedia: United States Senate Commerce Subcommittee on Science and Space
   - name: Surface Transportation and Merchant Marine Infrastructure, Safety, and Security
@@ -1046,24 +1050,31 @@
     thomas_id: '13'
     wikipedia: United States Senate Foreign Relations Subcommittee on International
       Operations and Organizations, Human Rights, Democracy and Global Women's Issues
-  - name: European Affairs
+  - name: Europe and Regional Security Cooperation
     thomas_id: '01'
     wikipedia: United States Senate Foreign Relations Subcommittee on European Affairs
-  - name: African Affairs
+  - name: Africa and Global Health Policy
     thomas_id: '09'
     wikipedia: United States Senate Foreign Relations Subcommittee on African Affairs
-  - name: East Asian and Pacific Affairs
+  - name: East Asia, the Pacific, and International Cybersecurity Policy
     thomas_id: '02'
     wikipedia: United States Senate Foreign Relations Subcommittee on East Asian and
       Pacific Affairs
-  - name: Near Eastern and South and Central Asian Affairs
+  - name: Near East, South Asia, Central Asia, and Counterterrorism
     thomas_id: '07'
     wikipedia: United States Senate Foreign Relations Subcommittee on Near Eastern
       and South and Central Asian Affairs
-  - name: Western Hemisphere and Global Narcotics Affairs
+  - name: Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human
+      Rights, and Global Women's Issues
     thomas_id: '06'
     wikipedia: United States Senate Foreign Relations Subcommittee on Western Hemisphere
       and Global Narcotics Affairs
+  - thomas_id: '15'
+    name: Multilateral International Development, Multilateral Institutions, and International
+      Economic, Energy, and Environmental Policy
+  - thomas_id: '14'
+    name: State Department and USAID Management, International Operations, and Bilateral
+      International Development
   rss_url: http://www.foreign.senate.gov/rss/feed/chair/
   minority_rss_url: http://www.foreign.senate.gov/rss/feed/ranking/
   wikipedia: United States Senate Committee on Foreign Relations
@@ -1082,6 +1093,10 @@
     name: Financial and Contracting Oversight
   - thomas_id: '16'
     name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
+  - thomas_id: '18'
+    name: Federal Spending Oversight and Emergency Management
+  - thomas_id: '19'
+    name: Regulatory Affairs and Federal Management
   wikipedia: United States Senate Committee on Homeland Security and Governmental
     Affairs
 - type: senate
@@ -1094,7 +1109,7 @@
     thomas_id: '11'
     wikipedia: United States Senate Health Subcommittee on Employment and Workplace
       Safety
-  - name: Primary Health and Aging
+  - name: Primary Health and Retirement Security
     thomas_id: '12'
     wikipedia: United States Senate Health Subcommittee on Primary Health and Aging
   - name: Children and Families
@@ -1109,7 +1124,7 @@
   thomas_id: SSJU
   senate_committee_id: SSJU
   subcommittees:
-  - name: the Constitution, Civil Rights and Human Rights
+  - name: the Constitution
     thomas_id: '21'
     wikipedia: United States Senate Judiciary Subcommittee on the Constitution, Civil
       Rights and Human Rights
@@ -1124,14 +1139,14 @@
     thomas_id: '01'
     wikipedia: United States Senate Judiciary Subcommittee on Antitrust, Competition
       Policy and Consumer Rights
-  - name: Immigration, Refugees and Border Security
+  - name: Immigration and the National Interest
     thomas_id: '04'
     wikipedia: United States Senate Judiciary Subcommittee on Immigration, Refugees
       and Border Security
   - thomas_id: '24'
     name: Bankruptcy and the Courts
   - thomas_id: '25'
-    name: Oversight, Federal Rights and Agency Action
+    name: Oversight, Agency Action, Federal Rights and Federal Courts
   wikipedia: United States Senate Committee on the Judiciary
 - type: senate
   name: Senate Committee on Rules and Administration
