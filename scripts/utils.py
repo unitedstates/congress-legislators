@@ -209,7 +209,12 @@ def download(url, destination=None, force=False, options=None):
     # the downloader can optionally parse the body as HTML
     # and look for meta redirects. a bit expensive, so opt-in.
     if options.get('check_redirects', False):
-      html_tree = lxml.html.fromstring(body)
+      try:
+        html_tree = lxml.html.fromstring(body)
+      except ValueError:
+        log("Error parsing source from url {0}".format(url))
+        return None
+
       meta = html_tree.xpath("//meta[translate(@http-equiv, 'REFSH', 'refsh') = 'refresh']/@content")
       if meta:
         attr = meta[0]
