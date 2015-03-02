@@ -33,6 +33,7 @@ import csv, re
 import utils
 from utils import load_data, save_data
 import requests
+import time
 
 def main():
   regexes = {
@@ -61,6 +62,8 @@ def main():
   do_verify = utils.flags().get('verify', False)
   do_resolvefb = utils.flags().get('resolvefb', False)
   do_resolveyt = utils.flags().get('resolveyt', False)
+  do_resolveig = utils.flags().get('resolveig', False)
+
   
   # default to not caching
   cache = utils.flags().get('cache', False)
@@ -70,6 +73,8 @@ def main():
     service = "facebook"
   elif do_resolveyt:
     service = "youtube"
+  elif do_resolveig:
+    service = "instagram"
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook", "instagram"]:
@@ -105,7 +110,6 @@ def main():
   media_bioguide = { }
   for m in media:
     media_bioguide[m["id"]["bioguide"]] = m
-
 
   def resolvefb():
     # in order to preserve the comment block at the top of the file,
@@ -231,6 +235,42 @@ def main():
     print("Saving social media...")
     save_data(updated_media, "legislators-social-media.yaml")
 
+
+  def resolveig():
+    # in order to preserve the comment block at the top of the file,
+    # copy it over into a new RtYamlList instance. We do this because
+    # Python list instances can't hold other random attributes.
+    import rtyaml
+    updated_media = rtyaml.RtYamlList()
+    if hasattr(media, '__initial_comment_block'):
+      updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
+
+    client_id_file = open('cache/instagram_client_id','r')
+    client_id = client_id_file.read()
+
+    bioguide = utils.flags().get('bioguide', None)
+
+    for m in media:
+      if bioguide and (m['id']['bioguide'] != bioguide):
+        updated_media.append(m)
+        continue
+
+      social = m['social']
+      if 'instagram' not in social and 'instagram_id' not in social:
+        updated_media.append(m)
+        continue
+
+      instagram_handle = social['instagram']
+      query_url = "https://api.instagram.com/v1/users/search?q={query}&client_id={client_id}".format(query=instagram_handle,client_id=client_id)
+      instagram_user_search = requests.get(query_url).json()
+      for user in instagram_user_search['data']:
+        time.sleep(0.5)
+        if user['username'] == instagram_handle:
+          m['social']['instagram_id'] = int(user['id'])
+          print("matched instagram_id {instagram_id} to {instagram_handle}".format(instagram_id=social['instagram_id'],instagram_handle=instagram_handle))
+      updated_media.append(m)
+
+    save_data(updated_media, "legislators-social-media.yaml")
 
   def sweep():
     to_check = []
@@ -388,6 +428,8 @@ def main():
     resolvefb()
   elif do_resolveyt:
     resolveyt()
+  elif do_resolveig:
+    resolveig()
   else:
     sweep()
 

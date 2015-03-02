@@ -206,6 +206,7 @@ Each record has two sections: `id` and `social`. The `id` section identifies the
 * youtube: The current official YouTube username of the legislator.
 * youtube_id: The current official YouTube channel ID of the legislator.
 * instagram: The current official Instagram handle of the legislator.
+* instagram_id: The numeric ID of the current official Instagram handle of the legislator.
 * facebook: The username of the current official Facebook presence of the legislator.
 * facebook_id: The numeric ID of the current official Facebook presence of the legislator.
 
