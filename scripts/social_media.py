@@ -21,7 +21,7 @@
 #   finds both YouTube usernames and channel IDs and updates the YAML accordingly.
 
 # other options:
-#  --service (required): "twitter", "youtube", or "facebook"
+#  --service (required): "twitter", "youtube", "facebook", or "instagram"
 #  --bioguide: limit to only one particular member
 #  --email:
 #      in conjunction with --sweep, send an email if there are any new leads, using
@@ -48,6 +48,9 @@ def main():
     "twitter": [
       "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
       "\\.render\\(\\)\\.setUser\\('@?(.*?)'\\)\\.start\\(\\)"
+    ],
+    "instagram": [
+      "instagram.com/(\w{3,})"
     ]
   }
 
@@ -58,7 +61,7 @@ def main():
   do_verify = utils.flags().get('verify', False)
   do_resolvefb = utils.flags().get('resolvefb', False)
   do_resolveyt = utils.flags().get('resolveyt', False)
-
+  
   # default to not caching
   cache = utils.flags().get('cache', False)
   force = not cache
@@ -69,8 +72,8 @@ def main():
     service = "youtube"
   else:
     service = utils.flags().get('service', None)
-  if service not in ["twitter", "youtube", "facebook"]:
-    print("--service must be one of twitter, youtube, or facebook")
+  if service not in ["twitter", "youtube", "facebook", "instagram"]:
+    print("--service must be one of twitter, youtube, facebook, or instagram")
     exit(0)
 
   # load in members, orient by bioguide ID
@@ -84,7 +87,7 @@ def main():
 
   print("Loading blacklist...")
   blacklist = {
-    'twitter': [], 'facebook': [], 'youtube': []
+    'twitter': [], 'facebook': [], 'youtube': [], 'instagram': []
   }
   for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
     blacklist[rec["service"]].append(rec["pattern"])
@@ -352,13 +355,14 @@ def main():
       print("[%s] Downloading..." % bioguide)
     cache = "congress/%s.html" % bioguide
     body = utils.download(url, cache, force, {'check_redirects': True})
+    if not body:
+      return None
 
     all_matches = []
     for regex in regexes[service]:
       matches = re.findall(regex, body, re.I)
       if matches:
         all_matches.extend(matches)
-
     if all_matches:
       for candidate in all_matches:
         passed = True
