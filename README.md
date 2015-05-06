@@ -67,7 +67,7 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		wikipedia: Paul Ryan
 		ballotpedia: Paul Ryan
 		washington_post: gIQAUWiV9O
-		maplight: 4442
+		maplight: 445
 		house_history: 20785
 		icpsr: 29939
 	  name:
@@ -120,7 +120,7 @@ The following fields are available in legislators-current.yaml and legislators-h
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
 	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
 	* washington_post: the Washington Post topic name (e.g.: `http://www.washingtonpost.com/politics/[washington_post]_topic.html`)
-	* maplight : The maplight.org internal ID for the person, used for campaign finance information.
+	* maplight : The numeric ID for this legislator on maplight.org (stored as an integer).
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
 
@@ -474,7 +474,7 @@ The following script may be run to create alternatly formatted data files. It ta
 Other Scripts
 ----------------------
 
-The `ballotpedia`, `maplight`, and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
+The `ballotpedia` and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
 
 ### Related libraries
 
