@@ -719,7 +719,7 @@
   wikipedia: Commission on Security and Cooperation in Europe
 - type: joint
   name: Joint Economic Committee
-  url: http://jec.senate.gov/
+  url: http://www.jec.senate.gov/
   thomas_id: JSEC
   senate_committee_id: JSEC
   rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
@@ -746,20 +746,20 @@
   senate_committee_id: SCNC
 - type: senate
   name: Senate Select Committee on Ethics
-  url: http://ethics.senate.gov/
+  url: http://www.ethics.senate.gov/
   thomas_id: SLET
   senate_committee_id: SLET
   rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Select Committee on Ethics
 - type: senate
   name: Senate Committee on Indian Affairs
-  url: http://indian.senate.gov/
+  url: http://www.indian.senate.gov/
   thomas_id: SLIA
   senate_committee_id: SLIA
   wikipedia: United States Senate Committee on Indian Affairs
 - type: senate
   name: Senate Select Committee on Intelligence
-  url: http://intelligence.senate.gov/
+  url: http://www.intelligence.senate.gov/
   thomas_id: SLIN
   senate_committee_id: SLIN
   wikipedia: United States Senate Select Committee on Intelligence
@@ -770,7 +770,7 @@
   wikipedia: United States Senate Special Committee on Aging
 - type: senate
   name: Senate Committee on Agriculture, Nutrition, and Forestry
-  url: http://agriculture.senate.gov/
+  url: http://www.agriculture.senate.gov/
   thomas_id: SSAF
   senate_committee_id: SSAF
   subcommittees:
@@ -799,7 +799,7 @@
   wikipedia: United States Senate Committee on Agriculture, Nutrition and Forestry
 - type: senate
   name: Senate Committee on Appropriations
-  url: http://appropriations.senate.gov/
+  url: http://www.appropriations.senate.gov/
   thomas_id: SSAP
   senate_committee_id: SSAP
   subcommittees:
@@ -853,7 +853,7 @@
   wikipedia: United States Senate Committee on Appropriations
 - type: senate
   name: Senate Committee on Armed Services
-  url: http://armed-services.senate.gov/
+  url: http://www.armed-services.senate.gov/
   thomas_id: SSAS
   senate_committee_id: SSAS
   subcommittees:
@@ -881,7 +881,7 @@
   wikipedia: United States Senate Committee on Armed Services
 - type: senate
   name: Senate Committee on Banking, Housing, and Urban Affairs
-  url: http://banking.senate.gov/
+  url: http://www.banking.senate.gov/
   thomas_id: SSBK
   senate_committee_id: SSBK
   subcommittees:
@@ -907,15 +907,15 @@
   wikipedia: United States Senate Committee on Banking, Housing, and Urban Affairs
 - type: senate
   name: Senate Committee on the Budget
-  url: http://budget.senate.gov/
+  url: http://www.budget.senate.gov/
   thomas_id: SSBU
   senate_committee_id: SSBU
-  rss_url: http://budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
-  minority_rss_url: http://budget.senate.gov/republican/public/index.cfm/rss/feed
+  rss_url: http://www.budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
+  minority_rss_url: http://www.budget.senate.gov/republican/public/index.cfm/rss/feed
   wikipedia: United States Senate Committee on the Budget
 - type: senate
   name: Senate Committee on Commerce, Science, and Transportation
-  url: http://commerce.senate.gov/
+  url: http://www.commerce.senate.gov/
   thomas_id: SSCM
   senate_committee_id: SSCM
   subcommittees:
@@ -950,7 +950,7 @@
   wikipedia: United States Senate Committee on Commerce, Science and Transportation
 - type: senate
   name: Senate Committee on Energy and Natural Resources
-  url: http://energy.senate.gov/
+  url: http://www.energy.senate.gov/
   thomas_id: SSEG
   senate_committee_id: SSEG
   subcommittees:
@@ -972,7 +972,7 @@
   wikipedia: United States Senate Committee on Energy and Natural Resources
 - type: senate
   name: Senate Committee on Environment and Public Works
-  url: http://epw.senate.gov/
+  url: http://www.epw.senate.gov/
   thomas_id: SSEV
   senate_committee_id: SSEV
   subcommittees:
@@ -1004,7 +1004,7 @@
   wikipedia: United States Senate Committee on Environment and Public Works
 - type: senate
   name: Senate Committee on Finance
-  url: http://finance.senate.gov/
+  url: http://www.finance.senate.gov/
   thomas_id: SSFI
   senate_committee_id: SSFI
   subcommittees:
@@ -1035,7 +1035,7 @@
   wikipedia: United States Senate Committee on Finance
 - type: senate
   name: Senate Committee on Foreign Relations
-  url: http://foreign.senate.gov/
+  url: http://www.foreign.senate.gov/
   thomas_id: SSFR
   senate_committee_id: SSFR
   subcommittees:
@@ -1080,7 +1080,7 @@
   wikipedia: United States Senate Committee on Foreign Relations
 - type: senate
   name: Senate Committee on Homeland Security and Governmental Affairs
-  url: http://hsgac.senate.gov/
+  url: http://www.hsgac.senate.gov/
   thomas_id: SSGA
   senate_committee_id: SSGA
   subcommittees:
@@ -1101,7 +1101,7 @@
     Affairs
 - type: senate
   name: Senate Committee on Health, Education, Labor, and Pensions
-  url: http://help.senate.gov/
+  url: http://www.help.senate.gov/
   thomas_id: SSHR
   senate_committee_id: SSHR
   subcommittees:
@@ -1120,7 +1120,7 @@
   wikipedia: United States Senate Committee on Health, Education, Labor, and Pensions
 - type: senate
   name: Senate Committee on the Judiciary
-  url: http://judiciary.senate.gov/
+  url: http://www.judiciary.senate.gov/
   thomas_id: SSJU
   senate_committee_id: SSJU
   subcommittees:
@@ -1150,21 +1150,21 @@
   wikipedia: United States Senate Committee on the Judiciary
 - type: senate
   name: Senate Committee on Rules and Administration
-  url: http://rules.senate.gov/
+  url: http://www.rules.senate.gov/
   thomas_id: SSRA
   senate_committee_id: SSRA
   rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Committee on Rules and Administration
 - type: senate
   name: Senate Committee on Small Business and Entrepreneurship
-  url: http://sbc.senate.gov/
+  url: http://www.sbc.senate.gov/
   thomas_id: SSSB
   senate_committee_id: SSSB
   rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Committee on Small Business and Entrepreneurship
 - type: senate
   name: Senate Committee on Veterans' Affairs
-  url: http://veterans.senate.gov/
+  url: http://www.veterans.senate.gov/
   thomas_id: SSVA
   senate_committee_id: SSVA
   rss_url: http://www.veterans.senate.gov/rss.cfm
