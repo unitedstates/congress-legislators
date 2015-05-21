@@ -1,6 +1,7 @@
 - type: house
   name: House Committee on Agriculture
   url: http://agriculture.house.gov/
+  minority_url: http://democrats.agriculture.house.gov/
   thomas_id: HSAG
   house_committee_id: AG
   subcommittees:
@@ -31,6 +32,7 @@
   address: 1301 LHOB; Washington, DC 20515-6001
   phone: (202) 225-2171
   rss_url: http://agriculture.house.gov/rss.xml
+  minority_rss_url: http://democrats.agriculture.house.gov/Rss.aspx?GroupID=1
   jurisdiction: The House Committee on Agriculture has jurisdiction over federal agriculture
     policy and oversight of some federal agencies, and it can recommend funding appropriations
     for various governmental agencies, programs, and activities, as defined by House
@@ -39,6 +41,7 @@
 - type: house
   name: House Committee on Appropriations
   url: http://appropriations.house.gov/
+  minority_url: http://democrats.appropriations.house.gov
   thomas_id: HSAP
   house_committee_id: AP
   subcommittees:
@@ -94,7 +97,7 @@
   address: H305 CAPITOL; Washington, DC 20515-6015
   phone: (202) 225-2771
   rss_url: http://appropriations.house.gov/news/rss.aspx
-  minority_rss_url: http://democrats.appropriations.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1&amp;Itemid=15
+  minority_rss_url: http://democrats.appropriations.house.gov/rss.xml
   jurisdiction: The House Committee on Appropriations is responsible for setting specific
     expenditures of money by the government of the United States. As such, it is one
     of the most powerful of the committees, and its members are seen as influential.
@@ -103,6 +106,7 @@
 - type: house
   name: House Committee on Armed Services
   url: http://armedservices.house.gov/
+  minority_url: http://democrats.armedservices.house.gov/
   thomas_id: HSAS
   house_committee_id: AS
   subcommittees:
@@ -148,6 +152,7 @@
 - type: house
   name: House Committee on Financial Services
   url: http://financialservices.house.gov/
+  minority_url: http://democrats.financialservices.house.gov/
   thomas_id: HSBA
   house_committee_id: BA
   subcommittees:
@@ -184,12 +189,13 @@
 - type: house
   name: House Committee on the Budget
   url: http://budget.house.gov/
+  minority_url: http://democrats.budget.house.gov/
   thomas_id: HSBU
   house_committee_id: BU
   address: 207 CHOB; Washington, DC 20515-6065
   phone: (202) 226-7270
   rss_url: http://budget.house.gov/news/rss.aspx
-  minority_rss_url: http://feeds.feedburner.com/BudgetCommittee
+  minority_rss_url: http://democrats.budget.house.gov/rss.xml
   jurisdiction: 'The House Committee on the Budget has responsibilities under the
     following categories: the budget resolution, reconciliation, budget process reform,
     oversight of the Congressional Budget Office, revisions of allocations and adjustments,
@@ -197,7 +203,8 @@
   jurisdiction_source: http://budget.house.gov/about/
 - type: house
   name: House Committee on Education and the Workforce
-  url: http://edlabor.house.gov/
+  url: http://edworkforce.house.gov/
+  minority_url: http://democrats.edworkforce.house.gov/
   thomas_id: HSED
   house_committee_id: ED
   subcommittees:
@@ -227,6 +234,7 @@
 - type: house
   name: House Committee on Foreign Affairs
   url: http://foreignaffairs.house.gov/
+  minority_url: http://democrats.foreignaffairs.house.gov/
   thomas_id: HSFA
   house_committee_id: FA
   subcommittees:
@@ -265,6 +273,7 @@
 - type: house
   name: House Committee on Oversight and Government Reform
   url: http://oversight.house.gov/
+  minority_url: http://democrats.oversight.house.gov/
   thomas_id: HSGO
   house_committee_id: GO
   subcommittees:
@@ -291,6 +300,7 @@
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
   rss_url: http://oversight.house.gov/feed/rss/
+  minority_rss_url: http://democrats.oversight.house.gov/rss.xml
   jurisdiction: The Committee on Oversight and Government Reform has legislative jurisdiction
     over the District of Columbia, the government procurement process, federal personnel
     systems, the Postal Service and other oversight matters across the government.
@@ -298,6 +308,7 @@
 - type: house
   name: House Committee on House Administration
   url: http://cha.house.gov/
+  minority_url: http://democrats.cha.house.gov/
   thomas_id: HSHA
   house_committee_id: HA
   address: 1309 LHOB; Washington, DC 20515-6157
@@ -310,6 +321,7 @@
 - type: house
   name: House Committee on Homeland Security
   url: http://homeland.house.gov/
+  minority_url: http://chsdemocrats.house.gov/
   thomas_id: HSHM
   house_committee_id: HM
   subcommittees:
@@ -347,6 +359,7 @@
 - type: house
   name: House Committee on Energy and Commerce
   url: http://energycommerce.house.gov/
+  minority_url: http://democrats.energycommerce.house.gov/
   thomas_id: HSIF
   house_committee_id: IF
   subcommittees:
@@ -390,6 +403,7 @@
 - type: house
   name: House Committee on Natural Resources
   url: http://naturalresources.house.gov/
+  minority_url: http://democrats.naturalresources.house.gov/
   thomas_id: HSII
   house_committee_id: II
   subcommittees:
@@ -423,6 +437,8 @@
   jurisdiction_source: http://naturalresources.house.gov/about/
 - type: house
   name: House Permanent Select Committee on Intelligence
+  url: http://intelligence.house.gov/
+  minority_url: http://democrats.intelligence.house.gov/
   thomas_id: HLIG
   house_committee_id: IG
   subcommittees:
@@ -450,6 +466,7 @@
 - type: house
   name: House Committee on the Judiciary
   url: http://judiciary.house.gov/
+  minority_url: http://democrats.judiciary.house.gov/
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
@@ -485,6 +502,7 @@
 - type: house
   name: House Committee on Transportation and Infrastructure
   url: http://transportation.house.gov/
+  minority_url: http://democrats.transportation.house.gov/
   thomas_id: HSPW
   house_committee_id: PW
   subcommittees:
@@ -527,7 +545,8 @@
   jurisdiction_source: http://transportation.house.gov/about/history.htm
 - type: house
   name: House Committee on Rules
-  url: http://www.rules.house.gov/
+  url: http://rules.house.gov/
+  minority_url: http://democrats.rules.house.gov/
   thomas_id: HSRU
   house_committee_id: RU
   subcommittees:
@@ -553,7 +572,8 @@
   jurisdiction_source: http://rules.house.gov/about
 - type: house
   name: House Committee on Small Business
-  url: http://www.house.gov/smbiz/
+  url: http://smallbusiness.house.gov/
+  minority_url: http://democrats.smallbusiness.house.gov/
   thomas_id: HSSM
   house_committee_id: SM
   subcommittees:
@@ -601,6 +621,7 @@
 - type: house
   name: House Committee on Science, Space, and Technology
   url: http://science.house.gov/
+  minority_url: http://democrats.science.house.gov/
   thomas_id: HSSY
   house_committee_id: SY
   subcommittees:
@@ -638,13 +659,17 @@
   name: House Select Committee on the Events Surrounding the 2012 Terrorist Attack
     in Benghazi
   url: http://benghazi.house.gov/
+  minority_url: http://democrats.benghazi.house.gov/
   house_committee_id: ZI
   thomas_id: HLZI
   address: 1036 LHOB; Washington, DC 20515
   phone: (202) 226-7100
+  rss_url: http://benghazi.house.gov/rss.xml
+  minority_rss_url: http://democrats.benghazi.house.gov/rss.xml
 - type: house
   name: House Committee on Veterans' Affairs
   url: http://veterans.house.gov/
+  minority_url: http://democrats.veterans.house.gov/
   thomas_id: HSVR
   house_committee_id: VR
   subcommittees:
@@ -676,6 +701,7 @@
 - type: house
   name: House Committee on Ways and Means
   url: http://waysandmeans.house.gov/
+  minority_url: http://democrats.waysandmeans.house.gov/
   thomas_id: HSWM
   house_committee_id: WM
   subcommittees:
@@ -714,6 +740,7 @@
   jurisdiction_source: http://waysandmeans.house.gov/about/history.htm
 - type: joint
   name: Commission on Security and Cooperation in Europe
+  url: http://www.csce.gov/
   thomas_id: JCSE
   senate_committee_id: JCSE
   wikipedia: Commission on Security and Cooperation in Europe
@@ -727,21 +754,25 @@
   wikipedia: Joint Economic Committee
 - type: joint
   name: Joint Committee on the Library
+  url: https://cha.house.gov/jointcommittees/joint-committee-library
   thomas_id: JSLC
   senate_committee_id: JSLC
   wikipedia: Joint Committee on the Library
 - type: joint
   name: Joint Committee on Printing
+  url: https://cha.house.gov/jointcommittees/joint-committee-on-printing
   thomas_id: JSPR
   senate_committee_id: JSPR
   wikipedia: Joint Committee on Printing
 - type: joint
   name: Joint Committee on Taxation
+  url: https://www.jct.gov
   thomas_id: JSTX
   senate_committee_id: JSTX
   wikipedia: United States Congress Joint Committee on Taxation
 - type: senate
   name: United States Senate Caucus on International Narcotics Control
+  url: http://www.drugcaucus.senate.gov/
   thomas_id: SCNC
   senate_committee_id: SCNC
 - type: senate
@@ -765,6 +796,7 @@
   wikipedia: United States Senate Select Committee on Intelligence
 - type: senate
   name: Senate Special Committee on Aging
+  url: http://www.aging.senate.gov/
   thomas_id: SPAG
   senate_committee_id: SPAG
   wikipedia: United States Senate Special Committee on Aging
