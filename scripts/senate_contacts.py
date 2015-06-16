@@ -7,6 +7,7 @@ import string, re
 from datetime import datetime
 import utils
 from utils import download, load_data, save_data, parse_date
+import urllib.request
 
 def run():
 
@@ -92,11 +93,22 @@ def run():
 		term["party"] = { "D": "Democrat", "R": "Republican", "I": "Independent", "ID": "Independent"}[ node.xpath("string(party)") ]
 
 		url = str(node.xpath("string(website)")).strip()
+		if not url.startswith("/"):
+			# temporary home pages for new senators are relative links?
 
-		# kill trailing slashes and force hostname to lowercase since around December 2013 they started uppercasing "Senate.gov"
-		url = re.sub("/$", "", url).replace(".Senate.gov", ".senate.gov")
+			# hit the URL to resolve any redirects to get the canonical URL,
+			# since the listing on house.gov sometimes gives URLs that redirect.
+			try:
+				resp = urllib.request.urlopen(url)
+				url = resp.geturl()
+			except Exception as e:
+				print(url, e)
 
-		if not url.startswith("/"): term["url"] = url # temporary home pages for new senators
+			# kill trailing slash
+			url = re.sub("/$", "", url)
+
+			term["url"] = url
+
 		term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
 		term["office"] = string.capwords(term["address"].upper().split(" WASHINGTON ")[0])
 
