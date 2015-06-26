@@ -1,6 +1,6 @@
 # Helpful functions for finding data about members and committees
 
-CURRENT_CONGRESS = 113
+CURRENT_CONGRESS = 114
 states = {
         'AK': 'Alaska',
         'AL': 'Alabama',
