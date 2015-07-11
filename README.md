@@ -236,6 +236,8 @@ Available tasks with `scripts/social_media.py`:
 
 * `--resolveyt` Uses YouTube usernames to look up any channel IDs, and updates the YAML accordingly.
 
+* `--resolveig` Uses Instagram user IDs to look up any usernames, and updates the YAML accordingly.
+
 Options used with the above tasks:
 
 * `--service`: Can be "twitter", "youtube", or "facebook".
