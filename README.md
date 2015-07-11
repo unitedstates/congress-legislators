@@ -214,11 +214,11 @@ Several legislators do not have an assigned YouTube username.  In these cases, o
 
 All values can be turned into URLs by preceding them with the domain name of the service in question (and in the case of YouTube channels, the path `/channel`):
 
-* `http://twitter.com/[twitter]`
-* `http://youtube.com/user/[youtube]`
-* `http://youtube.com/channel/[youtube_id]`
-* `http://instagram/[instagram]`
-* `http://facebook.com/[facebook or facebook_id]`
+* `https://twitter.com/[twitter]`
+* `https://youtube.com/user/[youtube]`
+* `https://youtube.com/channel/[youtube_id]`
+* `https://instagram/[instagram]`
+* `https://facebook.com/[facebook or facebook_id]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
