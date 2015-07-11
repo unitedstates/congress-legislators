@@ -47,7 +47,7 @@ def main():
       "https?://(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
     ],
     "twitter": [
-      "https?://(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
+      "(?:https?:)?//(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
       "\\.render\\(\\)\\.setUser\\('@?(.*?)'\\)\\.start\\(\\)"
     ],
     "instagram": [
@@ -64,7 +64,7 @@ def main():
   do_resolveyt = utils.flags().get('resolveyt', False)
   do_resolveig = utils.flags().get('resolveig', False)
 
-  
+
   # default to not caching
   cache = utils.flags().get('cache', False)
   force = not cache
