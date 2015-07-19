@@ -214,11 +214,11 @@ Several legislators do not have an assigned YouTube username.  In these cases, o
 
 All values can be turned into URLs by preceding them with the domain name of the service in question (and in the case of YouTube channels, the path `/channel`):
 
-* `http://twitter.com/[twitter]`
-* `http://youtube.com/user/[youtube]`
-* `http://youtube.com/channel/[youtube_id]`
-* `http://instagram/[instagram]`
-* `http://facebook.com/[facebook or facebook_id]`
+* `https://twitter.com/[twitter]`
+* `https://youtube.com/user/[youtube]`
+* `https://youtube.com/channel/[youtube_id]`
+* `https://instagram/[instagram]`
+* `https://facebook.com/[facebook or facebook_id]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
@@ -235,6 +235,8 @@ Available tasks with `scripts/social_media.py`:
 * `--resolvefb`: Uses Facebook usernames to look up graph IDs, and updates the YAML accordingly.
 
 * `--resolveyt` Uses YouTube usernames to look up any channel IDs, and updates the YAML accordingly.
+
+* `--resolveig` Uses Instagram user IDs to look up any usernames, and updates the YAML accordingly.
 
 Options used with the above tasks:
 
