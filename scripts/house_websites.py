@@ -37,7 +37,7 @@ def run():
         states.append(state)
 
   destination = "legislators/house.html"
-  url = "http://house.gov/representatives/"
+  url = "http://www.house.gov/representatives/"
   body = utils.download(url, destination, force)
   if not body:
     print("Couldn't download House listing!")
@@ -69,18 +69,26 @@ def run():
 
       url = cells[1].cssselect("a")[0].get("href")
 
-      # hit the URL to resolve any redirects to get the canonical URL,
-      # since the listing on house.gov sometimes gives URLs that redirect.
+      # The House uses subdomains now, and occasionally the directory
+      # uses URLs with some trailing redirected-to page, like /home.
+      # We can safely use the subdomain as the root, to be future-proof
+      # against redirects changing mid-session.
+
+      # We should still follow any redirects, and not just trust the
+      # directory to have the current active subdomain. As an example,
+      # the directory lists randyforbes.house.gov, which redirects to
+      # forbes.house.gov.
       resp = urllib.request.urlopen(url)
       url = resp.geturl()
 
-      # kill trailing slashes
-      url = re.sub("/$", "", url)
+      # kill everything after the domain
+      url = re.sub(".gov/.*$", ".gov", url)
 
       if state == "AQ":
         state = "AS"
       full_district = "%s%02d" % (state, int(district))
       if full_district in by_district:
+        print("[%s] %s" % (full_district, url))
         by_district[full_district]['terms'][-1]['url'] = url
       else:
         print("[%s] No current legislator" % full_district)
