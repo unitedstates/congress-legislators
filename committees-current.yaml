@@ -240,27 +240,27 @@
   subcommittees:
   - name: Africa, Global Health, Global Human Rights, and International Organizations
     thomas_id: '16'
-    address: 259A FHOB; Washington, DC 20515
+    address: 5210 OFOB; Washington, DC 20515
     phone: (202) 226-7812
   - name: Asia and the Pacific
     thomas_id: '05'
-    address: 255 FHOB; Washington, DC 20515
+    address: 5190 OFOB; Washington, DC 20515
     phone: (202) 226-7825
   - name: Europe, Eurasia, and Emerging Threats
     thomas_id: '14'
-    address: 257 FHOB; Washington, DC 20515
+    address: 5210 OFOB; Washington, DC 20515
     phone: (202) 226-6434
   - name: Terrorism, Nonproliferation, and Trade
     thomas_id: '18'
-    address: 340 FHOB; Washington, DC 20515
+    address: 5100 OFOB; Washington, DC 20515
     phone: (202) 226-1500
   - name: The Middle East and North Africa
     thomas_id: '13'
-    address: 2401A RHOB; Washington, DC 20515
+    address: 5210 OFOB; Washington, DC 20515
     phone: (202) 225-3345
   - name: The Western Hemisphere
     thomas_id: '07'
-    address: 256 FHOB; Washington, DC 20515
+    address: 5100 OFOB; Washington, DC 20515
     phone: (202) 226-9980
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
@@ -277,7 +277,7 @@
   thomas_id: HSGO
   house_committee_id: GO
   subcommittees:
-  - name: Federal Workforce, U.S. Postal Service and the Census
+  - name: Information Technology
     thomas_id: '25'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
@@ -293,8 +293,12 @@
     thomas_id: '27'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: Economic Growth, Job Creation and Regulatory Affairs
+  - name: The Interior
     thomas_id: '28'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: Transportation and Public Assets
+    thomas_id: '29'
     address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   address: 2157 RHOB; Washington, DC 20515-6143
@@ -411,11 +415,11 @@
     thomas_id: '06'
     address: 1333 LHOB; Washington, DC 20515
     phone: (202) 225-9297
-  - name: Public Lands and Environmental Regulation
+  - name: Federal Lands
     thomas_id: '10'
-    address: 1017 LHOB; Washington, DC 20515
+    address: 1332 LHOB; Washington, DC 20515
     phone: (202) 226-7736
-  - name: Water and Power
+  - name: Water, Power and Oceans
     thomas_id: '13'
     address: 1522 LHOB; Washington, DC 20515
     phone: (202) 225-8331
@@ -423,10 +427,14 @@
     thomas_id: '22'
     address: 140 CHOB; Washington, DC 20515
     phone: (202) 226-0200
-  - name: Indian and Alaska Native Affairs
+  - name: Indian, Insular and Alaska Native Affairs
     thomas_id: '24'
-    address: 1337 LHOB; Washington, DC 20515
+    address: 4450 OFOB; Washington, DC 20515
     phone: (202) 226-9725
+  - name: Oversight and Investigations
+    thomas_id: '15'
+    address: 4170 OFOB; Washington, DC 20515
+    phone: (202) 225-7107
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
   rss_url: http://naturalresources.house.gov/news.xml
@@ -453,6 +461,22 @@
   - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
     thomas_id: '08'
     address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+  - name: Central Intelligence Agency
+    thomas_id: '01'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: National Security Agency and Cybersecurity
+    thomas_id: '02'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: Emerging Threats
+    thomas_id: '03'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: Department of Defense Intelligence and Overhead Architecture
+    thomas_id: '04'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
     phone: (202) 225-4121
   address: HVC304 CAPITOL; Washington, DC 20515-6415
   phone: (202) 225-4121
@@ -635,7 +659,7 @@
     phone: (202) 225-6371
   - name: Space
     thomas_id: '16'
-    address: B374 RHOB; Washington, DC 20515
+    address: 4220 OFOB; Washington, DC 20515
     phone: (202) 225-6371
   - name: Environment
     thomas_id: '18'
@@ -643,7 +667,7 @@
     phone: (202) 225-6371
   - name: Research and Technology
     thomas_id: '15'
-    address: B374 RHOB; Washington, DC 20515
+    address: 4220 OFOB; Washington, DC 20515
     phone: (202) 225-6371
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6371
@@ -662,7 +686,7 @@
   minority_url: http://democrats.benghazi.house.gov/
   house_committee_id: ZI
   thomas_id: HLZI
-  address: 1036 LHOB; Washington, DC 20515
+  address: 1036 LHOB; Washington, DC 20515-6090
   phone: (202) 226-7100
   rss_url: http://benghazi.house.gov/rss.xml
   minority_rss_url: http://democrats.benghazi.house.gov/rss.xml
@@ -746,7 +770,7 @@
   wikipedia: Commission on Security and Cooperation in Europe
 - type: joint
   name: Joint Economic Committee
-  url: http://www.jec.senate.gov/
+  url: http://jec.senate.gov/
   thomas_id: JSEC
   senate_committee_id: JSEC
   rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
@@ -777,20 +801,20 @@
   senate_committee_id: SCNC
 - type: senate
   name: Senate Select Committee on Ethics
-  url: http://www.ethics.senate.gov/
+  url: http://ethics.senate.gov/
   thomas_id: SLET
   senate_committee_id: SLET
   rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Select Committee on Ethics
 - type: senate
   name: Senate Committee on Indian Affairs
-  url: http://www.indian.senate.gov/
+  url: http://indian.senate.gov/
   thomas_id: SLIA
   senate_committee_id: SLIA
   wikipedia: United States Senate Committee on Indian Affairs
 - type: senate
   name: Senate Select Committee on Intelligence
-  url: http://www.intelligence.senate.gov/
+  url: http://intelligence.senate.gov/
   thomas_id: SLIN
   senate_committee_id: SLIN
   wikipedia: United States Senate Select Committee on Intelligence
@@ -802,7 +826,7 @@
   wikipedia: United States Senate Special Committee on Aging
 - type: senate
   name: Senate Committee on Agriculture, Nutrition, and Forestry
-  url: http://www.agriculture.senate.gov/
+  url: http://agriculture.senate.gov/
   thomas_id: SSAF
   senate_committee_id: SSAF
   subcommittees:
@@ -831,7 +855,7 @@
   wikipedia: United States Senate Committee on Agriculture, Nutrition and Forestry
 - type: senate
   name: Senate Committee on Appropriations
-  url: http://www.appropriations.senate.gov/
+  url: http://appropriations.senate.gov/
   thomas_id: SSAP
   senate_committee_id: SSAP
   subcommittees:
@@ -885,7 +909,7 @@
   wikipedia: United States Senate Committee on Appropriations
 - type: senate
   name: Senate Committee on Armed Services
-  url: http://www.armed-services.senate.gov/
+  url: http://armed-services.senate.gov/
   thomas_id: SSAS
   senate_committee_id: SSAS
   subcommittees:
@@ -913,7 +937,7 @@
   wikipedia: United States Senate Committee on Armed Services
 - type: senate
   name: Senate Committee on Banking, Housing, and Urban Affairs
-  url: http://www.banking.senate.gov/
+  url: http://banking.senate.gov/
   thomas_id: SSBK
   senate_committee_id: SSBK
   subcommittees:
@@ -939,7 +963,7 @@
   wikipedia: United States Senate Committee on Banking, Housing, and Urban Affairs
 - type: senate
   name: Senate Committee on the Budget
-  url: http://www.budget.senate.gov/
+  url: http://budget.senate.gov/
   thomas_id: SSBU
   senate_committee_id: SSBU
   rss_url: http://www.budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
@@ -947,7 +971,7 @@
   wikipedia: United States Senate Committee on the Budget
 - type: senate
   name: Senate Committee on Commerce, Science, and Transportation
-  url: http://www.commerce.senate.gov/
+  url: http://commerce.senate.gov/
   thomas_id: SSCM
   senate_committee_id: SSCM
   subcommittees:
@@ -982,7 +1006,7 @@
   wikipedia: United States Senate Committee on Commerce, Science and Transportation
 - type: senate
   name: Senate Committee on Energy and Natural Resources
-  url: http://www.energy.senate.gov/
+  url: http://energy.senate.gov/
   thomas_id: SSEG
   senate_committee_id: SSEG
   subcommittees:
@@ -1004,7 +1028,7 @@
   wikipedia: United States Senate Committee on Energy and Natural Resources
 - type: senate
   name: Senate Committee on Environment and Public Works
-  url: http://www.epw.senate.gov/
+  url: http://epw.senate.gov/
   thomas_id: SSEV
   senate_committee_id: SSEV
   subcommittees:
@@ -1036,7 +1060,7 @@
   wikipedia: United States Senate Committee on Environment and Public Works
 - type: senate
   name: Senate Committee on Finance
-  url: http://www.finance.senate.gov/
+  url: http://finance.senate.gov/
   thomas_id: SSFI
   senate_committee_id: SSFI
   subcommittees:
@@ -1067,7 +1091,7 @@
   wikipedia: United States Senate Committee on Finance
 - type: senate
   name: Senate Committee on Foreign Relations
-  url: http://www.foreign.senate.gov/
+  url: http://foreign.senate.gov/
   thomas_id: SSFR
   senate_committee_id: SSFR
   subcommittees:
@@ -1112,7 +1136,7 @@
   wikipedia: United States Senate Committee on Foreign Relations
 - type: senate
   name: Senate Committee on Homeland Security and Governmental Affairs
-  url: http://www.hsgac.senate.gov/
+  url: http://hsgac.senate.gov/
   thomas_id: SSGA
   senate_committee_id: SSGA
   subcommittees:
@@ -1133,7 +1157,7 @@
     Affairs
 - type: senate
   name: Senate Committee on Health, Education, Labor, and Pensions
-  url: http://www.help.senate.gov/
+  url: http://help.senate.gov/
   thomas_id: SSHR
   senate_committee_id: SSHR
   subcommittees:
@@ -1152,7 +1176,7 @@
   wikipedia: United States Senate Committee on Health, Education, Labor, and Pensions
 - type: senate
   name: Senate Committee on the Judiciary
-  url: http://www.judiciary.senate.gov/
+  url: http://judiciary.senate.gov/
   thomas_id: SSJU
   senate_committee_id: SSJU
   subcommittees:
@@ -1182,21 +1206,21 @@
   wikipedia: United States Senate Committee on the Judiciary
 - type: senate
   name: Senate Committee on Rules and Administration
-  url: http://www.rules.senate.gov/
+  url: http://rules.senate.gov/
   thomas_id: SSRA
   senate_committee_id: SSRA
   rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Committee on Rules and Administration
 - type: senate
   name: Senate Committee on Small Business and Entrepreneurship
-  url: http://www.sbc.senate.gov/
+  url: http://sbc.senate.gov/
   thomas_id: SSSB
   senate_committee_id: SSSB
   rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
   wikipedia: United States Senate Committee on Small Business and Entrepreneurship
 - type: senate
   name: Senate Committee on Veterans' Affairs
-  url: http://www.veterans.senate.gov/
+  url: http://veterans.senate.gov/
   thomas_id: SSVA
   senate_committee_id: SSVA
   rss_url: http://www.veterans.senate.gov/rss.cfm
