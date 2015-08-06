@@ -1,9 +1,9 @@
-# Helpful functions for accessing social media APIs
+# Helpful functions for accessing Twitter
 import tweepy
 TWITTER_PROFILE_BATCH_SIZE = 100
 from math import ceil
 
-def get_twitter_api(access_token, access_token_secret, consumer_key, consumer_secret):
+def get_api(access_token, access_token_secret, consumer_key, consumer_secret):
     """
     Takes care of the Twitter OAuth authentication process and
     creates an API-handler to execute commands on Twitter
@@ -19,7 +19,7 @@ def get_twitter_api(access_token, access_token_secret, consumer_key, consumer_se
     # create an API handler
     return tweepy.API(auth)
 
-def fetch_twitter_profiles_for_screen_names(api, screen_names):
+def fetch_profiles(api, screen_names = [], ids = []):
     """
     A wrapper method around tweepy.API.lookup_users that handles the batch lookup of
       screen_names. Assuming number of screen_names < 10000, this should not typically
@@ -31,12 +31,13 @@ def fetch_twitter_profiles_for_screen_names(api, screen_names):
     Returns: a list of dicts representing Twitter profiles
     """
     profiles = []
-    for batch_idx in range(ceil(len(screen_names) / TWITTER_PROFILE_BATCH_SIZE)):
+    key, lookups = ['user_ids', ids] if ids else ['screen_names', screen_names]
+    for batch_idx in range(ceil(len(lookups) / TWITTER_PROFILE_BATCH_SIZE)):
         offset = batch_idx * TWITTER_PROFILE_BATCH_SIZE
-        # break screen_names list into batches of TWITTER_PROFILE_BATCH_SIZE
-        batch = screen_names[offset:(offset + TWITTER_PROFILE_BATCH_SIZE)]
+        # break lookups list into batches of TWITTER_PROFILE_BATCH_SIZE
+        batch = lookups[offset:(offset + TWITTER_PROFILE_BATCH_SIZE)]
         try:
-            for user in api.lookup_users(screen_names = batch):
+            for user in api.lookup_users(**{key: batch}):
                 profiles.append(user._json)
         # catch situation in which none of the names in the batch are found
         # or else Tweepy will error out
@@ -46,4 +47,3 @@ def fetch_twitter_profiles_for_screen_names(api, screen_names):
             else: # some other error, raise the exception
                 raise e
     return profiles
-
