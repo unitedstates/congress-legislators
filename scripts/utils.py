@@ -189,7 +189,7 @@ def download(url, destination=None, force=False, options=None):
       body = f.read()
   else:
     try:
-      if options.get('debug', False):
+      if options.get('debug', False) or options.get('log_downloads', False):
         log("Downloading: %s" % url)
 
       if options.get('urllib', False):
