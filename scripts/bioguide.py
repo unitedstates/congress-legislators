@@ -15,6 +15,15 @@ from utils import download, load_data, save_data
 from bioguide2 import parse_bioguide_entry
 
 def run():
+  # Testing?
+  if utils.flags().get('stdin'):
+    import sys, pprint
+    from bioguide2 import Elected
+    r = Elected.parser().parse_text(sys.stdin.read().strip(), matchtype='complete', eof=True)
+    print(r.string)
+    pprint.pprint(r.multi_info()[1])
+    sys.exit(0)
+
   # Fetch the bioguide. Hits the network if the cache of the bioguide
   # isn't present yet, or if --cache=False is set.
   one_bioguide, bioguide_entries = download_the_bioguide()

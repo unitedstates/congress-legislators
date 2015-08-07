@@ -6,7 +6,7 @@
 #
 ###############################################################
 
-import datetime
+import datetime, copy
 from modgrammar import *
 
 # Utilities....
@@ -40,7 +40,7 @@ cardinal_numbers_1 = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'sev
   'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
 cardinal_numbers_10 = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
 
-ordinal_numbers_1 = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelf", "thirteenth", "fourtheenth", "fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth"]
+ordinal_numbers_1 = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelf", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth"]
 ordinal_numbers_10 = ["twentieth", "thirtieth", "fortieth", "fiftieth", "sixtieth", "seventieth", "eightieth", "ninetieth", "one hundredth"]
 
 class CardinalNumber(Grammar):
@@ -105,14 +105,14 @@ class Date(Grammar):
 
 class DateOptRange(Grammar):
   # Match a date or a date range (e.g. "January 1, 1950-January 10, 1950").
-  grammar = Date, OPTIONAL(LITERAL('-') | LITERAL('–'), Date)
+  grammar = Date, OPTIONAL(LITERAL('-') | LITERAL('–'), Date | L('present'))
   def value(self):
     # Return the parsed date, or if it's a range then a dict with
     # 'start' and 'end' keys.
     if self[1] is None:
       return self[0].value()
     else:
-      return { "start": self[0].value(), "end": self[1][1].value() }
+      return { "start": self[0].value(), "end": self[1][1].value() if isinstance(self[1][1], Date) else "present" }
 
 ################################################################
 # Biographies begin with some parenthetical information about
@@ -318,9 +318,19 @@ class ReelectedInYear(Grammar):
   def value(self):
     return [x.value() for x in self[1] if isinstance(x, Date)]
 
+Party = grammar_from_list(['Adams', 'Adams Republican', 'Adams-Clay Federalist', 'Adams-Clay Republican', 'Alliance', 'American', 'American (Know-Nothing)', 'American Laborite', 'American Party', 'Anti Jacksonian', 'Anti-Administration', 'Anti-Democrat', 'Anti-Jacksonian', 'Anti-Lecompton Democrat', 'Anti-Masonic', 'Anti-Monopolist', 'Anti-administration', 'Coalitionist', 'Conservative', 'Conservative Republican', 'Constitutional Unionist', 'Crawford Federalist', 'Crawford Republican', 'Crawford Republicans', 'Democrat', 'Democrat Farmer Labor', 'Democrat-Farm Labor', 'Democrat-Liberal', 'Democrat/Independent', 'Democrat/Jacksonian', 'Democrat/Republican', 'Democrat;Republican', 'DemocratI', 'Democratic', 'Democratic Republican', 'Democratic and Union Labor', 'Farmer Laborite', 'Federalist', 'Free Silver', 'Free Soil', 'Free Soilier', 'Greenbacker', 'Home Rule', 'Independence Party (Minnesota)', 'Independent', 'Independent Democrat', 'Independent Republican', 'Independent Whig', 'Independent/Democrat', 'Independent/Republican', 'Jackson', 'Jackson  Democrat', 'Jackson Democrat', 'Jackson Federalist', 'Jackson Republican', 'Jacksonian', 'Jacksonian Republican', 'Labor', 'Law and Order', 'Liberal', 'Liberal Republican', 'Liberty', 'NA', 'National', 'Nationalist', 'New Progressive', 'Nonpartisan', 'Nullifier', 'Opposition', 'Opposition Party', 'Oppositionist Party', 'PARTY', 'Popular Democrat', 'Populist', 'Pro-Administration', 'Pro-administration', 'Progressive', 'Progressive Republican', 'Prohibitionist', 'Readjuster', 'Representative', 'Republican', 'Republican\t', 'Republican-Conservative', 'Republican/Democrat', 'Republican; Independent', 'RepublicanCap', 'Silver', 'Silver Republican', 'Socialist', 'State Rights Democrat', 'States Rights', 'Unconditional Unionist', 'Union', 'Union Labor', 'Union Republican', 'Unionist', 'Unknown', 'Van Buren Democrat', 'Whig'])
+
+class BecomingParty(Grammar):
+  # Matches "relected in [year], [year], ...", which is
+  # used for people elected to consecutive Senate terms.
+  grammar = LITERAL("becoming a "), Party, LITERAL(" in "), Date
+  def info(self):
+    return { "changed-party": { "party": self[1].string, "date": self[3].value() } }
+
 class ElectionDetail(Grammar):
   # Various election details.
-  grammar = ElectedFromState | ReelectedSucceedingCongresses | ReelectedInYear | ToFillTheVacancy | DidNotAssumeOffice
+  grammar = ElectedFromState | ReelectedSucceedingCongresses | ReelectedInYear | ToFillTheVacancy \
+    | DidNotAssumeOffice | BecomingParty
   grammar_collapse = True
 
 class HouseElection1(Grammar):
@@ -365,8 +375,6 @@ class SenateElection(Grammar):
     if self[1]:
       ret["date"] = self[1][1].value()
     return ret
-
-Party = grammar_from_list(['Adams', 'Adams Republican', 'Adams-Clay Federalist', 'Adams-Clay Republican', 'Alliance', 'American', 'American (Know-Nothing)', 'American Laborite', 'American Party', 'Anti Jacksonian', 'Anti-Administration', 'Anti-Democrat', 'Anti-Jacksonian', 'Anti-Lecompton Democrat', 'Anti-Masonic', 'Anti-Monopolist', 'Anti-administration', 'Coalitionist', 'Conservative', 'Conservative Republican', 'Constitutional Unionist', 'Crawford Federalist', 'Crawford Republican', 'Crawford Republicans', 'Democrat', 'Democrat Farmer Labor', 'Democrat-Farm Labor', 'Democrat-Liberal', 'Democrat/Independent', 'Democrat/Jacksonian', 'Democrat/Republican', 'Democrat;Republican', 'DemocratI', 'Democratic', 'Democratic Republican', 'Democratic and Union Labor', 'Farmer Laborite', 'Federalist', 'Free Silver', 'Free Soil', 'Free Soilier', 'Greenbacker', 'Home Rule', 'Independence Party (Minnesota)', 'Independent', 'Independent Democrat', 'Independent Republican', 'Independent Whig', 'Independent/Democrat', 'Independent/Republican', 'Jackson', 'Jackson  Democrat', 'Jackson Democrat', 'Jackson Federalist', 'Jackson Republican', 'Jacksonian', 'Jacksonian Republican', 'Labor', 'Law and Order', 'Liberal', 'Liberal Republican', 'Liberty', 'NA', 'National', 'Nationalist', 'New Progressive', 'Nonpartisan', 'Nullifier', 'Opposition', 'Opposition Party', 'Oppositionist Party', 'PARTY', 'Popular Democrat', 'Populist', 'Pro-Administration', 'Pro-administration', 'Progressive', 'Progressive Republican', 'Prohibitionist', 'Readjuster', 'Representative', 'Republican', 'Republican\t', 'Republican-Conservative', 'Republican/Democrat', 'Republican; Independent', 'RepublicanCap', 'Silver', 'Silver Republican', 'Socialist', 'State Rights Democrat', 'States Rights', 'Unconditional Unionist', 'Union', 'Union Labor', 'Union Republican', 'Unionist', 'Unknown', 'Van Buren Democrat', 'Whig'])
 
 class Election(Grammar):
   # Matches "elected on [date] as a [party name] ..... [election details".
@@ -427,7 +435,7 @@ class Election(Grammar):
           ret.append(el2)
       else:
         # Update the first election info.
-        el.update(item.info())
+        ret[0].update(item.info())
 
     return ret
 
@@ -442,24 +450,28 @@ class ElectionsDateRange2(Grammar):
   grammar = (
     OPTIONAL(','),
     OPTIONAL(
-      LITERAL(' and served from '),
+      LITERAL(' and served from ') | LITERAL('; served from '),
       Date,
       OPTIONAL(LITERAL(',')),
     ),
-    LITERAL(' to ') | LITERAL(' until ') | LITERAL(' until her resignation ') | LITERAL(' until his resignation '),
-    OPTIONAL(LITERAL('on ')),
-    Date,
-    OPTIONAL(LITERAL(', when he resigned'), MULTIWORD_NOTGREEDY)
+    OPTIONAL(
+      LITERAL(' to ') | LITERAL(' until ') | LITERAL(' until her resignation on ') | LITERAL(' until his resignation on '),
+      Date,
+      OPTIONAL(LITERAL(', when he resigned'), MULTIWORD_NOTGREEDY)
+    ),
+    OPTIONAL(LITERAL(' until his death')),
     )
   def value(self):
     ret = {
       "start": self[1][1].value() if self[1] else None,
-      "end": self[4].value(),
+      "end": self[2][1].value() if self[2] else None,
       }
-    if "resignation" in self[2].string:
+    if self[2] and "resignation" in self[2].string:
       ret["end-reason"] = "resignation"
-    elif self[5]:
+    elif self[2] and self[2][2]:
       ret["end-reason"] = "resignation"
+    elif self[3]:
+      ret["end-reason"] = "death"
     return ret
 
 
@@ -515,12 +527,29 @@ class BiographyEntry(Grammar):
   # picked up by one of the other grammars. This works because
   # the grammars are left-to-right greedy.
   grammar = BornIn | Died | Degree | Elected | Activity
+  grammar_collapse = True
+
+################################################################
+# Match a whole biography.
+################################################################
+
+class Biography(Grammar):
+  grammar = LIST_OF(BiographyEntry, sep='; ')
+  def info(self):
+    info = { }
+    for r in self[0]:
+      if hasattr(r, 'info'):
+        info.update(r.info())
+      elif hasattr(r, 'multi_info'):
+        key, value = r.multi_info()
+        info.setdefault(key, []).append(value)
+    return info
 
 ################################################################
 # Main function for parsing a bioguide entry.
 ################################################################
 
-parser = BiographyEntry.parser()
+parser = Biography.parser()
 
 def parse_bioguide_entry(name, biography):
   # strip the name from the biography
@@ -548,30 +577,17 @@ def parse_bioguide_entry(name, biography):
   except ParseError as e:
     return { "_parse_error": str(e) }
 
-  # The rest of the biography is pretty good about being strictly
-  # ;-delimited. That is, there are no (few?) embedded semicolons
-  # within a segment of the biography. We could apply the parser
-  # to the whole string and let it figure it out, but it is very
-  # slow, so we split on ; first and apply the parser to each
-  # segment.
+  # The rest of the biography is a ;-delimited list of biography pieces.
   biography = biography.rstrip('.') # biography always ends in a period
-  biography = biography.lstrip('; ') # biography always starts with '; '
+  try:
+    r = parser.parse_text(biography, reset=True, matchtype='complete', eof=True)
+  except ParseError as e:
+    return { "_parse_error": str(e) }
+  info.update(r.info())
 
-  # Hacks.
-  biography = biography.replace("; reelected", ", reelected")
+  for r in info.get('elected', []):
+    if isinstance(r['dates'], dict) and not r['dates']['end'] and r['dates'].get('end-reason') == 'death' and info.get('died'):
+      r['dates']['end'] = copy.deepcopy(info['died']['date']) # cloning the date prevents wierd YAML object references in output
 
-  biopieces = biography.split('; ')
-  for biopiece in biopieces:
-    try:
-      r = parser.parse_text(biopiece, reset=True, matchtype='complete', eof=True)
-      r = r[0]
-      if hasattr(r, 'info'):
-        info.update(r.info())
-      elif hasattr(r, 'multi_info'):
-        key, value = r.multi_info()
-        info.setdefault(key, []).append(value)
-
-    except ParseError as e:
-      return { "_parse_error": str(e) }
 
   return info
