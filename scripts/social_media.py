@@ -43,13 +43,14 @@ import time
 def main():
   regexes = {
     "youtube": [
-      "https?://(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
-      "https?://(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
+      "(?:https?:)?//(?:www\\.)?youtube.com/embed/?\?(list=[^\\s\"/\\?#&']+)",
+      "(?:https?:)?//(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
+      "(?:https?:)?//(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
     ],
     "facebook": [
       "\\('facebook.com/([^']+)'\\)",
-      "https?://(?:www\\.)?facebook.com/(?:home\\.php)?(?:business/dashboard/#/)?(?:government)?(?:#!/)?(?:#%21/)?(?:#/)?pages/[^/]+/(\\d+)",
-      "https?://(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
+      "(?:https?:)?//(?:www\\.)?facebook.com/(?:home\\.php)?(?:business/dashboard/#/)?(?:government)?(?:#!/)?(?:#%21/)?(?:#/)?pages/[^/]+/(\\d+)",
+      "(?:https?:)?//(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
     ],
     "twitter": [
       "(?:https?:)?//(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
@@ -187,7 +188,7 @@ def main():
 
         ytid = social['youtube']
 
-        profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+        profile_url = ("https://gdata.youtube.com/feeds/api/users/%s"
         "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
 
         try:
@@ -200,7 +201,7 @@ def main():
             try:
               # Try to scrape the real YouTube username
               print("\Scraping YouTube username")
-              search_url = ("http://www.youtube.com/%s" % social['youtube'])
+              search_url = ("https://www.youtube.com/%s" % social['youtube'])
               csearch = requests.get(search_url).text.encode('ascii','ignore')
 
               u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
@@ -208,7 +209,7 @@ def main():
               if u:
                 print("\t%s maps to %s" % (social['youtube'],u.group(1)))
                 social['youtube'] = u.group(1)
-                profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+                profile_url = ("https://gdata.youtube.com/feeds/api/users/%s"
                 "?v=2&prettyprint=true&alt=json" % social['youtube'])
 
                 print("\tFetching GData profile...")
