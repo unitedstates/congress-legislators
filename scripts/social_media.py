@@ -20,6 +20,11 @@
 # run with --resolveyt:
 #   finds both YouTube usernames and channel IDs and updates the YAML accordingly.
 
+# run with --resolvetw:
+#   for entries with `twitter` but not `twitter_id`
+#   resolves Twitter screen_names to Twitter IDs and updates the YAML accordingly
+
+
 # other options:
 #  --service (required): "twitter", "youtube", "facebook", or "instagram"
 #  --bioguide: limit to only one particular member
@@ -29,7 +34,7 @@
 
 # uses a CSV at data/social_media_blacklist.csv to exclude known non-individual account names
 
-import csv, re
+import csv, json, re
 import utils
 from utils import load_data, save_data
 import requests
@@ -38,13 +43,14 @@ import time
 def main():
   regexes = {
     "youtube": [
-      "https?://(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
-      "https?://(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
+      "(?:https?:)?//(?:www\\.)?youtube.com/embed/?\?(list=[^\\s\"/\\?#&']+)",
+      "(?:https?:)?//(?:www\\.)?youtube.com/channel/([^\\s\"/\\?#']+)",
+      "(?:https?:)?//(?:www\\.)?youtube.com/(?:subscribe_widget\\?p=)?(?:subscription_center\\?add_user=)?(?:user/)?([^\\s\"/\\?#']+)"
     ],
     "facebook": [
       "\\('facebook.com/([^']+)'\\)",
-      "https?://(?:www\\.)?facebook.com/(?:home\\.php)?(?:business/dashboard/#/)?(?:government)?(?:#!/)?(?:#%21/)?(?:#/)?pages/[^/]+/(\\d+)",
-      "https?://(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
+      "(?:https?:)?//(?:www\\.)?facebook.com/(?:home\\.php)?(?:business/dashboard/#/)?(?:government)?(?:#!/)?(?:#%21/)?(?:#/)?pages/[^/]+/(\\d+)",
+      "(?:https?:)?//(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
     ],
     "twitter": [
       "(?:https?:)?//(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
@@ -63,6 +69,7 @@ def main():
   do_resolvefb = utils.flags().get('resolvefb', False)
   do_resolveyt = utils.flags().get('resolveyt', False)
   do_resolveig = utils.flags().get('resolveig', False)
+  do_resolvetw = utils.flags().get('resolvetw', False)
 
 
   # default to not caching
@@ -75,6 +82,8 @@ def main():
     service = "youtube"
   elif do_resolveig:
     service = "instagram"
+  elif do_resolvetw:
+    service = "twitter"
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook", "instagram"]:
@@ -179,7 +188,7 @@ def main():
 
         ytid = social['youtube']
 
-        profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+        profile_url = ("https://gdata.youtube.com/feeds/api/users/%s"
         "?v=2&prettyprint=true&alt=json&key=%s" % (ytid, api_key))
 
         try:
@@ -192,7 +201,7 @@ def main():
             try:
               # Try to scrape the real YouTube username
               print("\Scraping YouTube username")
-              search_url = ("http://www.youtube.com/%s" % social['youtube'])
+              search_url = ("https://www.youtube.com/%s" % social['youtube'])
               csearch = requests.get(search_url).text.encode('ascii','ignore')
 
               u = re.search(r'<a[^>]*href="[^"]*/user/([^/"]*)"[.]*>',csearch)
@@ -200,7 +209,7 @@ def main():
               if u:
                 print("\t%s maps to %s" % (social['youtube'],u.group(1)))
                 social['youtube'] = u.group(1)
-                profile_url = ("http://gdata.youtube.com/feeds/api/users/%s"
+                profile_url = ("https://gdata.youtube.com/feeds/api/users/%s"
                 "?v=2&prettyprint=true&alt=json" % social['youtube'])
 
                 print("\tFetching GData profile...")
@@ -271,6 +280,103 @@ def main():
       updated_media.append(m)
 
     save_data(updated_media, "legislators-social-media.yaml")
+
+
+  def resolvetw():
+    """
+    Does two batch lookups:
+
+    1. All entries with `twitter_id`: Checks to see if the corresponding Twitter profile has the same screen_name
+        as found in the entry's `twitter`. If not, the `twitter` value is updated.
+    2. All entries with `twitter` (but not `twitter_id`): fetches the corresponding Twitter profile by screen_name and
+        inserts ID. If no profile is found, the `twitter` value is deleted.
+
+    Note: cache/twitter_client_id must be a formatted JSON dict:
+        {
+        "consumer_secret": "xyz",
+        "access_token": "abc",
+        "access_token_secret": "def",
+        "consumer_key": "jk"
+       }
+    """
+    import rtyaml
+    from social.twitter import get_api, fetch_profiles
+    updated_media = rtyaml.RtYamlList()
+    if hasattr(media, '__initial_comment_block'):
+      updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
+
+    client_id_file = open('cache/twitter_client_id', 'r')
+    _c = json.load(client_id_file)
+    api = get_api(_c['access_token'], _c['access_token_secret'], _c['consumer_key'], _c['consumer_secret'])
+    bioguide = utils.flags().get('bioguide', None)
+    lookups = {'screen_names': [], 'ids': []} # store members that have `twitter` or `twitter_id` info
+    for m in media:
+      # we start with appending to updated_media so that we keep the same order of entries
+      # as found in the loaded file
+      updated_media.append(m)
+      if bioguide and (m['id']['bioguide'] != bioguide):
+        continue
+      social = m['social']
+      # now we add entries to either the `ids` or the `screen_names` list to batch lookup
+      if 'twitter_id' in social:
+        # add to the queue to be batched-looked-up
+        lookups['ids'].append(m)
+        # append
+      elif 'twitter' in social:
+        lookups['screen_names'].append(m)
+
+    #######################################
+    # perform Twitter batch lookup for ids:
+    if lookups['screen_names']:
+      arr = lookups['screen_names']
+      print("Looking up Twitter ids for", len(arr), "names.")
+      tw_names = [m['social']['twitter'] for m in arr]
+      tw_profiles = fetch_profiles(api, screen_names = tw_names)
+      for m in arr:
+        social = m['social']
+        # find profile that corresponds to a given screen_name
+        twitter_handle = social['twitter']
+        twp = next((p for p in tw_profiles if p['screen_name'].lower() == twitter_handle.lower()), None)
+        if twp:
+          m['social']['twitter_id'] = int(twp['id'])
+          print("Matched twitter_id `%s` to `%s`" % (social['twitter_id'], twitter_handle))
+        else:
+          # Remove errant Twitter entry for now
+          print("No Twitter user profile for:", twitter_handle)
+          m['social'].pop('twitter')
+          print("\t ! removing Twitter handle:", twitter_handle)
+    ##########################################
+    # perform Twitter batch lookup for names by id, to update any renamings:
+    if lookups['ids']:
+      arr = lookups['ids']
+      print("Looking up Twitter screen_names for", len(arr), "ids.")
+      tw_ids = [m['social']['twitter_id'] for m in arr]
+      tw_profiles = fetch_profiles(api, ids = tw_ids)
+      any_renames_needed = False
+      for m in arr:
+        social = m['social']
+        # find profile that corresponds to a given screen_name
+        t_id = social['twitter_id']
+        t_name = social.get('twitter')
+        twp = next((p for p in tw_profiles if int(p['id']) == t_id), None)
+        if twp:
+          # Be silent if there is no change to screen name
+          if t_name and (twp['screen_name'].lower() == t_name.lower()):
+            pass
+          else:
+            any_renames_needed = True
+            m['social']['twitter'] = twp['screen_name']
+            print("For twitter_id `%s`, renamed `%s` to `%s`" % (t_id, t_name, m['social']['twitter']))
+        else:
+          # No entry found for this twitter id
+          print("No Twitter user profile for %s, %s" % (t_id, t_name))
+          m['social'].pop('twitter_id')
+          print("\t ! removing Twitter id:", t_id)
+      if not any_renames_needed:
+        print("No renames needed")
+    # all done with Twitter
+    save_data(updated_media, "legislators-social-media.yaml")
+
 
   def sweep():
     to_check = []
@@ -430,6 +536,9 @@ def main():
     resolveyt()
   elif do_resolveig:
     resolveig()
+  elif do_resolvetw:
+    resolvetw()
+
   else:
     sweep()
 
