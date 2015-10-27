@@ -11,6 +11,7 @@
 #   * senate_contacts.py (likewise for Senate members)
 #   * committee_membership.py (updates committee membership)
 
+
 - id:
     bioguide: Q000000      # http://bioguide.congress.gov/
     thomas: '02222'        # not assigned until the person sponsors/cosponsors a bill, http://beta.congress.gov/
