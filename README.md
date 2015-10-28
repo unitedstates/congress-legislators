@@ -5,13 +5,13 @@ Members of the United States Congress (1789-Present) and congressional committee
 
 ### Using the data
 
-This repository contains data about legislators:
+This repository contains data about legislators...:
 
 * legislators-current.yaml: Currently serving Members of Congress (as of last update).
 * legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
 * legislators-social-media.yaml: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
 
-And about committees:
+...and about committees:
 
 * committees-current.yaml: Current committees of the Congress, with subcommittees.
 * committee-membership-current.yaml: Current committee/subcommittee assignments as of the date of last update.
