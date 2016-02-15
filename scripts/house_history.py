@@ -4,7 +4,6 @@
 # have one, by scraping history.house.gov.
 
 import lxml.html, io
-import utils
 import requests
 from utils import load_data, save_data
 import sys
