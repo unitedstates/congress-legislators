@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Update current congressmember's contact info from clerk XML feed
+# Update current House Member's contact info from clerk XML feed
 
 import requests
 import lxml
@@ -22,6 +22,7 @@ def run():
 	xml = requests.get("http://clerk.house.gov/xml/lists/MemberData.xml")
 	root=lxml.etree.fromstring(xml.content)
 
+	yaml_moc_ids = []
 	for moc in y:
 		try:
 			term = moc["terms"][-1]
@@ -34,6 +35,8 @@ def run():
 		if today < parse_date(term["start"]) or today > parse_date(term["end"]):
 			print("Member's last listed term is not current", moc, term["start"])
 			continue
+
+		yaml_moc_ids.append(moc['id']['bioguide'])
 
 		if "class" in term: del term["class"]
 
@@ -52,13 +55,9 @@ def run():
 		firstname = mi.find('firstname').text
 		middlename = mi.find('middlename').text #could be empty
 		lastname = mi.find('lastname').text
-
-		#TODO: follow up, why no official name?
-		if mi.find('official-name') is None:
-			print("Warning: No official-name tag for %s" % ssdd)
-			officialname = None
-		else:
-			officialname = mi.find('official-name').text
+		listname = mi.find('namelist').text
+		officialname = mi.find('official-name').text
+		formalname = mi.find('formal-name').text
 
 		office_room = mi.find('office-room').text
 		office_building = mi.find('office-building').text
@@ -76,6 +75,10 @@ def run():
 		phone = mi.find('phone').text
 		phone_parsed = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
 
+		moc["name"]["list"] = listname
+		moc["name"]["official_full"] = officialname
+		moc["name"]["formal"] = formalname
+
 		moc["name"]["first"] = firstname
 		if (middlename):
 			moc["name"]["middle"] = middlename
@@ -84,14 +87,20 @@ def run():
 				del moc["name"]["middle"]
 		moc["name"]["last"] = lastname
 
-		# TODO: leave if none?
-		if (officialname):
-			moc["name"]["official_full"] = officialname
 		term["address"] = address
 		term["office"] = office
 		term["phone"] = phone_parsed
 
 	save_data(y, "legislators-current.yaml")
+
+	#Check for Members in Clerk XML not in the yaml
+	for xmlMember in root.findall('./members/member'):
+		bioguideID = xmlMember.find('member-info/bioguideID').text
+		if bioguideID is None:
+			#vanancy
+			continue
+		if bioguideID not in yaml_moc_ids: 
+			print("Warning: " + bioguideID + " not found in legislators-current.yaml")
 
 if __name__ == '__main__':
   run()
