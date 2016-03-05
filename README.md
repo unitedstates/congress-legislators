@@ -5,17 +5,17 @@ Members of the United States Congress (1789-Present) and congressional committee
 
 ### Using the data
 
-This repository contains data about legislators:
+This repository contains data about legislators...:
 
-* legislators-current.yaml: Currently serving Members of Congress (as of last update).
-* legislators-historical.yaml: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
-* legislators-social-media.yaml: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
+* `legislators-current.yaml`: Currently serving Members of Congress (as of last update).
+* `legislators-historical.yaml`: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
+* `legislators-social-media.yaml`: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
 
-And about committees:
+...and about committees:
 
-* committees-current.yaml: Current committees of the Congress, with subcommittees.
-* committee-membership-current.yaml: Current committee/subcommittee assignments as of the date of last update.
-* committees-historical.yaml: Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+* `committees-current.yaml`: Current committees of the Congress, with subcommittees.
+* `committee-membership-current.yaml`: Current committee/subcommittee assignments as of the date of last update.
+* `committees-historical.yaml`: Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
 
 This repository also contains a database of presidents and vice presidents in executive.yaml. Recall that vice presidents are also president of the Senate and cast tie-breaking votes.
 
@@ -35,7 +35,7 @@ The data is currently maintained both by hand and by some scripts in the `script
 
 ### Running the scripts
 
-You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.3**.
+You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.5**.
 
 [![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
 
@@ -51,7 +51,7 @@ Every pull request will pass submitted scripts through an import, to catch excep
 Legislators File Structure and Overview
 ---------------------------------------
 
-legislators-current.yaml and legislators-historical.yaml contain biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
+`legislators-current.yaml` and `legislators-historical.yaml` contain biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
 
 Each legislator record is grouped into four guaranteed parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
 
@@ -98,14 +98,14 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 
 Terms correspond to elections and are listed in chronological order. If a legislator is currently serving, the current term information will always be the last one. To check if a legislator is currently serving, check that the end date on the last term is in the future.
 
-The split between legislators-current.yaml and legislators-historical.yaml is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
+The split between `legislators-current.yaml` and `legislators-historical.yaml` is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
 
-A separate file legislators-social-media.yaml stores social media account information. Its structure is similar but includes different fields.
+A separate file `legislators-social-media.yaml` stores social media account information. Its structure is similar but includes different fields.
 
 Legislators Data Dictionary
 ---------------------------
 
-The following fields are available in legislators-current.yaml and legislators-historical.yaml:
+The following fields are available in `legislators-current.yaml` and `legislators-historical.yaml`:
 
 * id
 	* bioguide: The alphanumeric ID for this legislator in http://bioguide.congress.gov. Note that at one time some legislators (women who had changed their name when they got married) had two entries on the bioguide website. Only one bioguide ID is included here. **This is the best field to use as a primary key.**
@@ -198,7 +198,7 @@ Historically, some states sending at-large representatives actually sent multipl
 Social Media Data Dictionary
 ----------------------------
 
-The social media file legislators-social-media.yaml stores current social media account information.
+The social media file `legislators-social-media.yaml` stores current social media account information.
 
 Each record has two sections: `id` and `social`. The `id` section identifies the legislator using bioguide, thomas, and govtrack IDs (where available). The `social` section has social media account identifiers:
 
@@ -248,9 +248,9 @@ Options used with the above tasks:
 Committees Data Dictionary
 --------------------------
 
-The committees-current.yaml file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. It is based on data scraped from House.gov and Senate.gov.
+The `committees-current.yaml` file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. It is based on data scraped from House.gov and Senate.gov.
 
-The committees-historical.yaml file is a possibly partial list of current and historical committees and subcommittees referred to in the unitedstates/congress project bill data, as scraped from THOMAS.gov. Only committees/subcommmittees that have had bills referred to them are included.
+The `committees-historical.yaml` file is a possibly partial list of current and historical committees and subcommittees referred to in the unitedstates/congress project bill data, as scraped from THOMAS.gov. Only committees/subcommmittees that have had bills referred to them are included.
 
 The basic structure of a committee entry looks like the following:
 
@@ -280,7 +280,7 @@ The fields available in both files are as follows:
 	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
 	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
 
-Additional fields are present on current committee entries (that is, in committees-current.yaml):
+Additional fields are present on current committee entries (that is, in `committees-current.yaml`):
 
 * url: The current website URL of the committee.
 * address: The mailing address for the committee.
@@ -288,7 +288,7 @@ Additional fields are present on current committee entries (that is, in committe
 * rss_url: The URL for the committee's RSS feed.
 * minority_rss_url: The URL for the committee's minority party website's RSS feed.
 
-Two additional fields are present on committees and subcommmittees in the committees-historical.yaml file:
+Two additional fields are present on committees and subcommmittees in the `committees-historical.yaml` file:
 
 * congresses: A list of Congress numbers in which this committee appears on the THOMAS advanced search page. It is roughly an indication of the time period during which the committee was in use. However, if a committee was not referred any bills it may not appear on THOMAS's list and therefore would not appear here.
 * names: A list of past names for the committee. This is an associative array from a Congress number to the name of the committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
@@ -297,7 +297,7 @@ Two additional fields are present on committees and subcommmittees in the commit
 Committee Membership Data Dictionary
 ------------------------------------
 
-The committee-membership-current.yaml file contains current committee assignments, as of the date of the last update of this file. The file is structured as a mapping from committee IDs to a list of committee members. The basic structure looks like this:
+The `committee-membership-current.yaml` file contains current committee assignments, as of the date of the last update of this file. The file is structured as a mapping from committee IDs to a list of committee members. The basic structure looks like this:
 
 	HSAG:
 	- name: Frank D. Lucas
@@ -316,7 +316,7 @@ The committee-membership-current.yaml file contains current committee assignment
 	  rank: 1
 	  title: Chair
 
-The committee IDs in this file are the thomas_id's from the committees-current.yaml file, or for subcommittees the concatentation of the thomas_id of the parent committee and the thomas_id of the subcommittee.
+The committee IDs in this file are the thomas_id's from the `committees-current.yaml` file, or for subcommittees the concatentation of the thomas_id of the parent committee and the thomas_id of the subcommittee.
 
 Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
 
@@ -330,7 +330,7 @@ Each committee/subcommittee entry is a list containing the members of the commit
 The Executive Branch
 --------------------
 
-Because of their role in the legislative process, we also include a file executive.yaml which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
+Because of their role in the legislative process, we also include a file `executive.yaml` which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
 
 This file has a similar structure as the legislator files. The file contains a list, where each entry is a person. Each entry is a dict with id, name, bio, and terms fields.
 
@@ -346,7 +346,7 @@ Each term has the following fields:
 * party: The political party from which the person was elected.
 * how: How the term came to be, either "election" (the normal case), "succession" (presidential succession), or "appointment" (the appointment by the president of a new vice president).
 
-Presidents and vice presidents that previously served in Congress will also be listed in one of the legislator files, but their Congressional terms will only appear in the legislator files and their executive-branch terms will only appear in executive.yaml.
+Presidents and vice presidents that previously served in Congress will also be listed in one of the legislator files, but their Congressional terms will only appear in the legislator files and their executive-branch terms will only appear in `executive.yaml`.
 
 State Abbreviations
 -------------------
@@ -459,8 +459,8 @@ We run the following scripts periodically to scrape for new information and keep
 * `house_contacts.py`: Updates House members' contact information (address, office, and phone fields on their current term, and their official_full name field)
 * `house_websites.py`: Updates House members' current website URLs.
 * `senate_contacts.py`: Updates senator information (party, class, state_rank, address, office, phone, and contact_form fields on their current term, and their official_full name, bioguide ID, and lis ID fields)
-* `committee_membership.py`: Updates committees-current.yaml (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new committee-membership-current.yaml file by scraping the House and Senate websites.
-* `historical_committees.py`: Updates committees-historical.yaml based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
+* `committee_membership.py`: Updates `committees-current.yaml` (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new `committee-membership-current.yaml` file by scraping the House and Senate websites.
+* `historical_committees.py`: Updates `committees-historical.yaml` based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
 * `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
 * `influence_ids.py`: Grabs updated FEC and OpenSecrets IDs from the [Influence Explorer API](http://data.influenceexplorer.com/api). Will only work for members with a Bioguide ID.
 
