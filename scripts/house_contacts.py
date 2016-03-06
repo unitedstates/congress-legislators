@@ -6,15 +6,11 @@ import requests
 import lxml
 import re
 from datetime import datetime
-import utils
-from utils import download, load_data, save_data, parse_date
+
+from utils import load_data, save_data, parse_date
 
 def run():
 	today = datetime.now().date()
-
-	# default to not caching
-	cache = utils.flags().get('cache', False)
-	force = not cache
 
 	y = load_data("legislators-current.yaml")
 
