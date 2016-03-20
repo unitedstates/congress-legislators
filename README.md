@@ -491,6 +491,7 @@ Ongoing projects making use of this data:
 * [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
 * [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
 * [OpenCongress.org](http://www.opencongress.org)
+* [EveryPolitician.org](http://everypolitician.org)
 
 Stories written with this data:
 
