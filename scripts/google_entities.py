@@ -8,7 +8,7 @@ from utils import load_data, save_data
 
 def run():
     # load in current members
-    y = load_data("/Users/DW-Admin/code/congress-legislators/legislators-current.yaml")
+    y = load_data("legislators-current.yaml")
     for m in y:
         response = urllib.request.urlopen("http://propublica-congress.elasticbeanstalk.com/represent/api/v1/members/%s.json" % m['id']['bioguide']).read()
         j = json.loads(response.decode("utf8"))
