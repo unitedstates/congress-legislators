@@ -3,7 +3,6 @@
 # Update current Google entity IDs using ProPublica Congress API.
 
 import json, urllib.request, urllib.parse, urllib.error
-import rtyaml
 from utils import load_data, save_data
 
 def run():
