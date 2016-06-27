@@ -269,7 +269,7 @@
     state: MD
     party: Democrat
     class: 1
-    url: http://www.cardin.senate.gov
+    url: https://www.cardin.senate.gov
     address: 509 Hart Senate Office Building Washington DC 20510
     phone: 202-224-4524
     fax: 202-224-1651
@@ -412,7 +412,7 @@
     state: PA
     party: Democrat
     class: 1
-    url: http://www.casey.senate.gov
+    url: https://www.casey.senate.gov
     address: 393 Russell Senate Office Building Washington DC 20510
     phone: 202-224-6324
     fax: 202-228-0604
@@ -923,7 +923,7 @@
     state: FL
     party: Democrat
     class: 1
-    url: http://www.billnelson.senate.gov
+    url: https://www.billnelson.senate.gov
     address: 716 Hart Senate Office Building Washington DC 20510
     phone: 202-224-5274
     fax: 202-228-2183
@@ -1581,7 +1581,7 @@
     state: ME
     class: 2
     party: Republican
-    url: http://www.collins.senate.gov
+    url: https://www.collins.senate.gov
     address: 413 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-2523
     fax: 202-224-2693
@@ -1655,7 +1655,7 @@
     state: TX
     class: 2
     party: Republican
-    url: http://www.cornyn.senate.gov
+    url: https://www.cornyn.senate.gov
     address: 517 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2934
     fax: 202-228-2856
@@ -2194,7 +2194,7 @@
     state: OR
     class: 2
     party: Democrat
-    url: http://www.merkley.senate.gov
+    url: https://www.merkley.senate.gov
     address: 313 Hart Senate Office Building Washington DC 20510
     phone: 202-224-3753
     fax: 202-228-3997
@@ -2839,7 +2839,7 @@
     state: MN
     class: 2
     party: Democrat
-    url: http://www.franken.senate.gov
+    url: https://www.franken.senate.gov
     address: 309 Hart Senate Office Building Washington DC 20510
     phone: 202-224-5641
     contact_form: http://www.franken.senate.gov/?p=email_al
@@ -2890,7 +2890,7 @@
     state: DE
     class: 2
     party: Democrat
-    url: http://www.coons.senate.gov
+    url: https://www.coons.senate.gov
     address: 127A Russell Senate Office Building Washington DC 20510
     phone: 202-224-5042
     contact_form: http://www.coons.senate.gov/contact/
@@ -3736,7 +3736,7 @@
     state: CO
     class: 3
     party: Democrat
-    url: http://www.bennet.senate.gov
+    url: https://www.bennet.senate.gov
     address: 261 Russell Senate Office Building Washington DC 20510
     phone: 202-224-5852
     fax: 202-228-5036
@@ -4759,7 +4759,7 @@
     state: CA
     class: 3
     party: Democrat
-    url: http://www.boxer.senate.gov
+    url: https://www.boxer.senate.gov
     address: 112 Hart Senate Office Building Washington DC 20510
     phone: 202-224-3553
     fax: 202-224-0454
@@ -5783,7 +5783,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.capito.senate.gov
+    url: https://www.capito.senate.gov
     address: 172 Russell Senate Office Building Washington DC 20510
     office: 172 Russell Senate Office Building
     phone: 202-224-6472
@@ -10826,121 +10826,6 @@
     office: 1126 Longworth House Office Building
     rss_url: http://www.farr.house.gov/index.php?format=feed&amp;type=rss
 - id:
-    bioguide: F000043
-    thomas: '00371'
-    govtrack: 400130
-    opensecrets: N00001746
-    votesmart: 21850
-    fec:
-    - H2PA02055
-    cspan: 36763
-    wikipedia: Chaka Fattah
-    house_history: 13018
-    ballotpedia: Chaka Fattah
-    maplight: 241
-    washington_post: gIQAvQNqAP
-    icpsr: 29559
-    wikidata: Q1059265
-  name:
-    first: Chaka
-    last: Fattah
-    official_full: Chaka Fattah
-  bio:
-    birthday: '1956-11-21'
-    gender: M
-    religion: Baptist
-  terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1997-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-    url: http://www.house.gov/fattah
-  - type: rep
-    start: '2005-01-04'
-    end: '2007-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-    url: http://www.house.gov/fattah
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-    url: http://www.house.gov/fattah
-  - type: rep
-    start: '2009-01-06'
-    end: '2011-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-    url: http://www.house.gov/fattah
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: PA
-    district: 2
-    party: Democrat
-    url: http://www.house.gov/fattah
-    address: 2301 Rayburn HOB; Washington DC 20515-3802
-    phone: 202-225-4001
-    fax: 202-225-5392
-    contact_form: http://fattah.house.gov/?sectionid=8&amp;sectiontree=8
-    office: 2301 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: PA
-    party: Democrat
-    district: 2
-    url: http://fattah.house.gov
-    address: 2301 Rayburn HOB; Washington DC 20515-3802
-    phone: 202-225-4001
-    fax: 202-225-5392
-    contact_form: https://fattahforms.house.gov/contact-rep-fattah
-    office: 2301 Rayburn House Office Building
-    rss_url: http://www.house.gov/common/rss//index.cfm?rss=34
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: PA
-    party: Democrat
-    district: 2
-    url: http://fattah.house.gov
-    address: 2301 Rayburn HOB; Washington DC 20515-3802
-    phone: 202-225-4001
-    fax: 202-225-5392
-    contact_form: https://fattahforms.house.gov/contact-rep-fattah
-    office: 2301 Rayburn House Office Building
-    rss_url: http://www.house.gov/common/rss//index.cfm?rss=34
-- id:
     bioguide: F000458
     thomas: '02064'
     govtrack: 412479
@@ -14455,7 +14340,7 @@
     state: HI
     party: Democrat
     class: 1
-    url: http://www.hirono.senate.gov
+    url: https://www.hirono.senate.gov
     address: 330 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6361
     fax: 202-225-4987
@@ -16894,7 +16779,7 @@
     state: IL
     class: 3
     party: Republican
-    url: http://www.kirk.senate.gov
+    url: https://www.kirk.senate.gov
     address: 524 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2854
     contact_form: http://www.kirk.senate.gov/?p=comment_on_legislation
@@ -21535,7 +21420,7 @@
     state: AK
     class: 3
     party: Republican
-    url: http://www.murkowski.senate.gov
+    url: https://www.murkowski.senate.gov
     address: 709 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6665
     fax: 202-224-5301
@@ -22967,7 +22852,7 @@
     state: KY
     class: 3
     party: Republican
-    url: http://www.paul.senate.gov
+    url: https://www.paul.senate.gov
     address: 167 Russell Senate Office Building Washington DC 20510
     phone: 202-224-4343
     contact_form: http://www.paul.senate.gov/?p=contact
@@ -23381,7 +23266,7 @@
     first: Gary
     middle: C.
     last: Peters
-    official_full: Gary Peters
+    official_full: Gary C. Peters
   bio:
     gender: M
     birthday: '1958-12-01'
@@ -26551,7 +26436,7 @@
     first: Paul
     middle: D.
     last: Ryan
-    official_full: Paul Ryan
+    official_full: Paul D. Ryan
   bio:
     birthday: '1970-01-29'
     gender: M
@@ -27456,7 +27341,7 @@
     state: NY
     class: 3
     party: Democrat
-    url: http://www.schumer.senate.gov
+    url: https://www.schumer.senate.gov
     address: 322 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6542
     fax: 202-228-3027
@@ -27856,7 +27741,7 @@
     state: SC
     party: Republican
     class: 3
-    url: http://www.scott.senate.gov
+    url: https://www.scott.senate.gov
     address: 520 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6121
     fax: 202-225-3407
@@ -32610,7 +32495,7 @@
     state: OR
     class: 3
     party: Democrat
-    url: http://www.wyden.senate.gov
+    url: https://www.wyden.senate.gov
     address: 221 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-5244
     fax: 202-228-2717
@@ -33839,7 +33724,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.cotton.senate.gov
+    url: https://www.cotton.senate.gov
     address: 124 Russell Senate Office Building Washington DC 20510
     office: 124 Russell Senate Office Building
     phone: 202-224-2353
@@ -35617,7 +35502,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.daines.senate.gov
+    url: https://www.daines.senate.gov
     address: 320 Hart Senate Office Building Washington DC 20510
     office: 320 Hart Senate Office Building
     phone: 202-224-2651
@@ -36710,7 +36595,7 @@
     state: TX
     party: Republican
     class: 1
-    url: http://www.cruz.senate.gov
+    url: https://www.cruz.senate.gov
     address: 404 Russell Senate Office Building Washington DC 20510
     office: 404 Russell Senate Office Building
     phone: 202-224-5922
@@ -39345,6 +39230,7 @@
     fec:
     - H2VI00082
     govtrack: 412659
+    opensecrets: N00035000
     thomas: '02274'
     house_history: 15032410230
     maplight: 2115
@@ -39490,6 +39376,7 @@
     fec:
     - H4AS00036
     govtrack: 412664
+    opensecrets: N00007635
     thomas: '02222'
     house_history: 15032412349
     maplight: 2120
@@ -39820,3 +39707,26 @@
     address: 2464 Rayburn HOB; Washington DC 20515-1318
     office: 2464 Rayburn House Office Building
     phone: 202-225-6201
+- id:
+    bioguide: D000626
+    fec:
+    - H6OH08315
+    govtrack: 412675
+    votesmart: 166760
+    wikipedia: Warren Davidson
+    ballotpedia: Warren Davidson
+    wikidata: Q24458117
+    maplight: 2165
+  name:
+    first: Warren
+    last: Davidson
+  bio:
+    gender: M
+    birthday: '1970-03-01'
+  terms:
+  - type: rep
+    start: '2016-06-09'
+    end: '2017-01-03'
+    state: OH
+    district: 8
+    party: Republican

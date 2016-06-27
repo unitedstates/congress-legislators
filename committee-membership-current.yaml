@@ -1286,11 +1286,6 @@ HSAP:
   rank: 8
   bioguide: F000030
   thomas: '00368'
-- name: Chaka Fattah
-  party: minority
-  rank: 9
-  bioguide: F000043
-  thomas: '00371'
 - name: Sanford D. Bishop Jr.
   party: minority
   rank: 10
@@ -1676,11 +1671,6 @@ HSAP07:
   rank: 3
   bioguide: L000551
   thomas: '01501'
-- name: Chaka Fattah
-  party: minority
-  rank: 4
-  bioguide: F000043
-  thomas: '00371'
 HSAP10:
 - name: Michael K. Simpson
   party: majority
@@ -1907,11 +1897,6 @@ HSAP19:
   title: Ranking Member
   bioguide: H001034
   thomas: '01634'
-- name: Chaka Fattah
-  party: minority
-  rank: 2
-  bioguide: F000043
-  thomas: '00371'
 - name: José E. Serrano
   party: minority
   rank: 3
@@ -2030,11 +2015,6 @@ HSAP23:
   rank: 2
   bioguide: Q000023
   thomas: '01967'
-- name: Chaka Fattah
-  party: minority
-  rank: 3
-  bioguide: F000043
-  thomas: '00371'
 - name: Sanford D. Bishop Jr.
   party: minority
   rank: 4
@@ -5991,11 +5971,6 @@ HSGO28:
   rank: 3
   bioguide: P000610
   thomas: '02274'
-- name: Jim Cooper
-  party: minority
-  rank: 4
-  bioguide: C000754
-  thomas: '00231'
 HSGO29:
 - name: John L. Mica
   party: majority
@@ -10698,29 +10673,30 @@ HSSM26:
   bioguide: C001080
   thomas: '01970'
 HSSM27:
+- name: Tim Huelskamp
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: H001057
+  thomas: '02020'
 - name: Richard L. Hanna
   party: majority
   rank: 2
   bioguide: H001051
   thomas: '02044'
-- name: Tim Huelskamp
-  party: majority
-  rank: 3
-  bioguide: H001057
-  thomas: '02020'
 - name: Dave Brat
   party: majority
-  rank: 4
+  rank: 3
   bioguide: B001290
   thomas: '02203'
 - name: Aumua Amata Coleman Radewagen
   party: majority
-  rank: 5
+  rank: 4
   bioguide: R000600
   thomas: '02222'
 - name: Trent Kelly
   party: majority
-  rank: 6
+  rank: 5
   bioguide: K000388
   thomas: '02294'
 - name: Judy Chu
