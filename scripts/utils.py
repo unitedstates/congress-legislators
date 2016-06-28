@@ -113,6 +113,35 @@ def legislative_year(date=None):
   else:
     return date.year
 
+def congress_start_end_dates(congress):
+  from datetime import date
+  start_year = 1789 + (congress-1)*2
+  end_year = start_year + 2
+  if congress < 73:
+    # The 1st Congress met on March 4, 1789, per an act of the Continental
+    # Congress adpoted Sept 13, 1788. The Constitutional term period would
+    # end two years later, of course. Looking at actual adjournment dates,
+    # it seems that Congress believed its term ended on March 3rd's.
+    if congress != 69:
+      return (date(start_year, 3, 4), date(end_year, 3, 3))
+    else:
+      # But the 69th Congress (and only that Congress) adjourned on a March 4,
+      # which means that they must have viewed their Constitutional term as
+      # expiring at the actual time of day that the first Congress began?
+      # Since we use March 4 as the term end dates for the 69th Congress in our
+      # data, we'll use that as the end date for the 69th Congress only.
+      return (date(start_year, 3, 4), date(end_year, 3, 4))
+  elif congress == 73:
+    # The end of the 73rd Congress was changed by the 20th Amendment. So
+    # it began on a March 4 but ended on the January 3rd (at noon) that
+    # preceded the usual March 3 (1935). (Congress adjourned in 1934 anyway.)
+    return (date(start_year, 3, 4), date(end_year, 1, 3))
+  else:
+    # Starting with the 74th Congress, Congresses begin and end on January
+    # 3rds at noon. So, sadly, the date of the end of one Congress is
+    # identical with the date of the start of the next.
+    return (date(start_year, 1, 3), date(end_year, 1, 3))
+
 def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
 
