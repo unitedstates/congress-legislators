@@ -10,6 +10,7 @@ This repository contains data about legislators...:
 * `legislators-current.yaml`: Currently serving Members of Congress (as of last update).
 * `legislators-historical.yaml`: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
 * `legislators-social-media.yaml`: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
+* `legislators-district-offices.yaml`: District offices for current Members of Congress.
 
 ...and about committees:
 
@@ -101,6 +102,8 @@ Terms correspond to elections and are listed in chronological order. If a legisl
 The split between `legislators-current.yaml` and `legislators-historical.yaml` is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
 
 A separate file `legislators-social-media.yaml` stores social media account information. Its structure is similar but includes different fields.
+
+The file `legislators-district-offices.yaml` contains the address and contact information for local (district, or home-state) offices for current Members of Congress.
 
 Legislators Data Dictionary
 ---------------------------
@@ -244,6 +247,12 @@ Options used with the above tasks:
 * `--bioguide`: Limit activity to a single member, by bioguide ID.
 * `--email`: In conjunction with `--sweep`, send an email if there are any new leads, using settings in scripts/email/config.yml (if it was created and filled out).
 
+District Offices Data Dictionary
+----------------------------
+
+The file `legislators-district-offices.yaml` stores current district office informaiton.
+
+Each record has two sections: `id` and `offices`. The `id` section identifies the legislator using bioguide, thomas, and govtrack IDs (where available). The `offices` section has a list of offices, each with address, phone, and fax information (if available).
 
 Committees Data Dictionary
 --------------------------
