@@ -103,7 +103,6 @@ The split between `legislators-current.yaml` and `legislators-historical.yaml` i
 A separate file `legislators-social-media.yaml` stores social media account information. Its structure is similar but includes different fields.
 
 Legislators Data Dictionary
----------------------------
 
 The following fields are available in `legislators-current.yaml` and `legislators-historical.yaml`:
 
