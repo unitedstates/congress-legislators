@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import json, re
+import re
 from urllib.parse import unquote
 from utils import load_data, save_data
 from SPARQLWrapper import SPARQLWrapper, JSON
