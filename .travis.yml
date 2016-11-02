@@ -12,6 +12,7 @@ install: pip install -r scripts/requirements.txt
 script:
  - python test/workout.py
  - pyflakes scripts/*.py
+ - python test/are_files_linted.py
 
 notifications:
   email:
