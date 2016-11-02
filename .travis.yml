@@ -13,6 +13,7 @@ script:
  - python test/workout.py
  - pyflakes scripts/*.py
  - python test/are_files_linted.py
+ - python test/validate.py
 
 notifications:
   email:
