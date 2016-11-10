@@ -39,7 +39,7 @@ def run():
     ret = {}
 
     for row in results['results']['bindings']:
-        goog_id = wikidata_id = wikipedia = kg = False
+        goog_id = wikidata_id = wikipedia = kg = freebase = False
         rks = row.keys()
         bio = row['bio']['value']
         subject = row['subject']['value']
@@ -55,7 +55,7 @@ def run():
 
         # freebase and kg should be mutually exclusive
         goog_id = freebase or kg
-        if(not re.search('/(m|g)/.+',goog_id)):
+        if(not goog_id or not re.search('/(m|g)/.+',goog_id)):
             goog_id = False
 
         article = unquote(article)
