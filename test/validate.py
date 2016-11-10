@@ -34,7 +34,6 @@ id_types = {
 
   # deprecated/to be removed
   "thomas": str,
-  "washington_post": str,
 }
 
 # name keys
