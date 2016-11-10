@@ -14,6 +14,9 @@ def error(message):
   print(message)
   ok = False
 
+# id types that must be present on every record
+id_required = ['bioguide', 'govtrack']
+
 # data types expected for each sort of ID
 id_types = {
   "bioguide": str,
@@ -31,6 +34,7 @@ id_types = {
   "house_history": int,
   "house_history_alternate": int,
   "wikidata": str,
+  "google_entity_id": str,
 
   # deprecated/to be removed
   "thomas": str,
@@ -59,7 +63,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
       error(repr(legislator) + " is missing 'id'.")
     else:
       # Check that the IDs are valid.
-      check_id_types(legislator)
+      check_id_types(legislator, seen_ids)
 
       # Every legislator should have a bioguide and GovTrack ID.
       if "bioguide" not in legislator["id"]:
@@ -125,7 +129,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
         if start and end and end < start:
           error(rtyaml.dump(role) + " has end before start.")
 
-def check_id_types(legislator):
+def check_id_types(legislator, seen_ids):
   for key, value in legislator["id"].items():
     # Check that the id key is one we know about.
     if key not in id_types:
@@ -138,11 +142,16 @@ def check_id_types(legislator):
     else:
       # Check that the ID isn't duplicated across legislators.
       # Since some values are lists of IDs, check the elements.
+      # Just make a list of ID occurrences here -- we'll check
+      # uniqueness at the end.
       if not isinstance(value, list): value = [value]
       for v in value:
-        if (key, v) in seen_ids:
-          error(rtyaml.dump({ key: v }) + " is duplicated.")
-        seen_ids.add((key, v))
+        seen_ids.setdefault((key, v), []).append(legislator)
+
+  # Check that every legislator has ids of the required types.
+  for id_type in id_required:
+    if id_type not in legislator["id"]:
+      error("Missing %s id in:\n%s" % (id_type, rtyaml.dump(legislator['id'])))
 
 def check_name(name, is_other_names=False):
   for key, value in name.items():
@@ -236,12 +245,20 @@ def check_date(d):
     error(d + ": " + str(e))
     return None
 
+def check_id_uniqueness(seen_ids):
+  for (id_type, id_value), occurrences in seen_ids.items():
+    if id_type == "google_entity_id": continue # not unique yet
+    if len(occurrences) > 1:
+      error("%s %s is duplicated: %s" % (id_type, id_value,
+        " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
+
 if __name__ == "__main__":
   # Check the legislators files.
-  seen_ids = set()
+  seen_ids = { }
   current_mocs = set()
   check_legislators_file("legislators-current.yaml", seen_ids, current=True, current_mocs=current_mocs)
   check_legislators_file("legislators-historical.yaml", seen_ids, current=False)
+  check_id_uniqueness(seen_ids)
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
