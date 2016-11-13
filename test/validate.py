@@ -247,7 +247,6 @@ def check_date(d):
 
 def check_id_uniqueness(seen_ids):
   for (id_type, id_value), occurrences in seen_ids.items():
-    if id_type == "google_entity_id": continue # not unique yet
     if len(occurrences) > 1:
       error("%s %s is duplicated: %s" % (id_type, id_value,
         " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
