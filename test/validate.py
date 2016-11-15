@@ -65,12 +65,6 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
       # Check that the IDs are valid.
       check_id_types(legislator, seen_ids)
 
-      # Every legislator should have a bioguide and GovTrack ID.
-      if "bioguide" not in legislator["id"]:
-        error("Legislator is missing a bioguide ID.")
-      if "govtrack" not in legislator["id"]:
-        error("Legislator is missing a govtrack ID.")
-
     # Check the name.
     if "name" not in legislator:
       error(repr(legislator) + " is missing 'name'.")
