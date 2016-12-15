@@ -32846,68 +32846,6 @@
     rss_url: http://www.heller.senate.gov/public/index.cfm/rss/feed
     fax: 202-228-6753
 - id:
-    bioguide: H001063
-    thomas: '02089'
-    govtrack: 412498
-    opensecrets: N00006806
-    votesmart: 70502
-    fec:
-    - H8CA36097
-    cspan: 57805
-    wikipedia: Janice Hahn
-    house_history: 15617
-    ballotpedia: Janice Hahn
-    maplight: 1676
-    icpsr: 21195
-    wikidata: Q512071
-    google_entity_id: kg:/m/09g7l4
-  name:
-    first: Janice
-    last: Hahn
-    official_full: Janice Hahn
-  bio:
-    birthday: '1952-03-30'
-    gender: F
-  terms:
-  - type: rep
-    start: '2011-07-19'
-    end: '2013-01-03'
-    state: CA
-    district: 36
-    party: Democrat
-    url: http://hahn.house.gov/
-    address: 2400 Rayburn HOB; Washington DC 20515-0536
-    phone: 202-225-8220
-    fax: 202-226-7290
-    contact_form: https://hahn.house.gov/contact-me/email-me
-    office: 2400 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: CA
-    party: Democrat
-    district: 44
-    url: http://hahn.house.gov
-    address: 404 Cannon HOB; Washington DC 20515-0544
-    phone: 202-225-8220
-    fax: 202-226-7290
-    contact_form: https://hahn.house.gov/contact-me/email-me
-    office: 404 Cannon House Office Building
-    rss_url: http://hahn.house.gov/rss.xml
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: CA
-    party: Democrat
-    district: 44
-    url: http://hahn.house.gov
-    address: 404 Cannon HOB; Washington DC 20515-0544
-    phone: 202-225-8220
-    fax: 202-226-7290
-    contact_form: https://hahn.house.gov/contact-me/email-me
-    office: 404 Cannon House Office Building
-    rss_url: http://hahn.house.gov/rss.xml
-- id:
     bioguide: A000369
     thomas: '02090'
     govtrack: 412500
@@ -39750,6 +39688,7 @@
     google_entity_id: kg:/m/0j65cf0
     wikidata: Q6131602
     votesmart: 35169
+    maplight: 2166
   name:
     first: James
     last: Comer
@@ -39782,6 +39721,7 @@
     google_entity_id: kg:/m/03y8h6m
     wikidata: Q5318148
     votesmart: 9128
+    maplight: 2167
   name:
     first: Dwight
     last: Evans
