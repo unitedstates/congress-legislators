@@ -275,7 +275,7 @@
     fax: 202-224-1651
     contact_form: http://www.cardin.senate.gov/contact/
     office: 509 Hart Senate Office Building
-    state_rank: junior
+    state_rank: senior
     rss_url: http://www.cardin.senate.gov/rss/feeds/?type=all
 - id:
     bioguide: C000174
@@ -3119,45 +3119,6 @@
     rss_url: http://amash.house.gov/rss.xml
     contact_form: https://amash.house.gov/contact-me/email-me
 - id:
-    bioguide: A000368
-    thomas: '02075'
-    lis: S340
-    govtrack: 412493
-    opensecrets: N00030980
-    votesmart: 42352
-    fec:
-    - S0NH00235
-    cspan: 95241
-    wikipedia: Kelly Ayotte
-    house_history: 8771
-    ballotpedia: Kelly A. Ayotte
-    maplight: 1498
-    icpsr: 41106
-    wikidata: Q22354
-    google_entity_id: kg:/m/0g9g4r
-  name:
-    first: Kelly
-    last: Ayotte
-    official_full: Kelly Ayotte
-  bio:
-    birthday: '1968-06-27'
-    gender: F
-  terms:
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: NH
-    class: 3
-    party: Republican
-    url: http://www.ayotte.senate.gov
-    address: 144 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-3324
-    contact_form: http://www.ayotte.senate.gov/?p=contact
-    office: 144 Russell Senate Office Building
-    state_rank: junior
-    rss_url: http://ayotte.senate.gov/rss/?p=news
-    fax: 202-224-4952
-- id:
     bioguide: B001230
     thomas: '01558'
     lis: S354
@@ -3743,6 +3704,15 @@
     contact_form: http://www.bennet.senate.gov/contact/email
     office: 261 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: CO
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: https://www.bennet.senate.gov
     rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
 - id:
     bioguide: B001257
@@ -4341,6 +4311,15 @@
     state_rank: senior
     rss_url: http://www.blumenthal.senate.gov/rss/feeds/?type=all
     fax: 202-224-9673
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: CT
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: https://www.blumenthal.senate.gov
+    rss_url: http://www.blumenthal.senate.gov/rss/feeds/?type=all
 - id:
     bioguide: B000575
     thomas: '01464'
@@ -4428,6 +4407,15 @@
     state_rank: junior
     rss_url: http://www.blunt.senate.gov/public/?a=rss.feed
     fax: 202-224-8149
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: MO
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.blunt.senate.gov
+    rss_url: http://www.blunt.senate.gov/public/?a=rss.feed
 - id:
     bioguide: B001236
     thomas: '01687'
@@ -4502,6 +4490,15 @@
     state_rank: senior
     rss_url: http://www.boozman.senate.gov/public/index.cfm/rss/feed
     fax: 202-228-1371
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: AR
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.boozman.senate.gov
+    rss_url: http://www.boozman.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: B001245
     thomas: '01723'
@@ -4676,97 +4673,6 @@
     contact_form: https://boustanyforms.house.gov/contact-me/
     office: 1431 Longworth House Office Building
     rss_url: http://www.house.gov/common/rss/index.cfm?rss=82
-- id:
-    bioguide: B000711
-    thomas: '00116'
-    lis: S223
-    govtrack: 300011
-    opensecrets: N00006692
-    votesmart: 53274
-    icpsr: 15011
-    fec:
-    - S2CA00286
-    - H2CA06028
-    - P80003247
-    cspan: 2470
-    house_history: 9704
-    wikipedia: Barbara Boxer
-    ballotpedia: Barbara Boxer
-    maplight: 539
-    wikidata: Q237560
-    google_entity_id: kg:/m/01c1n5
-  name:
-    first: Barbara
-    last: Boxer
-    official_full: Barbara Boxer
-  bio:
-    birthday: '1940-11-11'
-    gender: F
-    religion: Jewish
-  terms:
-  - type: rep
-    start: '1983-01-03'
-    end: '1985-01-03'
-    state: CA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1985-01-03'
-    end: '1987-01-03'
-    state: CA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1987-01-06'
-    end: '1989-01-03'
-    state: CA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1989-01-03'
-    end: '1991-01-03'
-    state: CA
-    district: 6
-    party: Democrat
-  - type: rep
-    start: '1991-01-03'
-    end: '1993-01-03'
-    state: CA
-    district: 6
-    party: Democrat
-  - type: sen
-    start: '1993-01-05'
-    end: '1999-01-03'
-    state: CA
-    class: 3
-    party: Democrat
-  - type: sen
-    start: '1999-01-06'
-    end: '2005-01-03'
-    state: CA
-    class: 3
-    party: Democrat
-    url: http://boxer.senate.gov/
-  - type: sen
-    start: '2005-01-04'
-    end: '2011-01-03'
-    state: CA
-    class: 3
-    party: Democrat
-    url: http://boxer.senate.gov
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: CA
-    class: 3
-    party: Democrat
-    url: https://www.boxer.senate.gov
-    address: 112 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-3553
-    fax: 202-224-0454
-    contact_form: https://www.boxer.senate.gov/contact/shareyourviews.html
-    office: 112 Hart Senate Office Building
-    state_rank: junior
 - id:
     bioguide: B000755
     thomas: '01468'
@@ -5475,6 +5381,15 @@
     contact_form: http://www.burr.senate.gov/public/index.cfm?FuseAction=Contact.ContactForm
     office: 217 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.burr.senate.gov/public/index.cfm?fuseaction=rss.feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: NC
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.burr.senate.gov
     rss_url: http://www.burr.senate.gov/public/index.cfm?fuseaction=rss.feed
 - id:
     bioguide: B001251
@@ -6302,7 +6217,7 @@
     end: '2021-01-03'
     state: LA
     class: 2
-    state_rank: junior
+    state_rank: senior
     party: Republican
     url: http://www.cassidy.senate.gov
     address: 703 Hart Senate Office Building Washington DC 20510
@@ -7077,82 +6992,6 @@
   family:
   - name: George Washington Murray
     relation: relative
-- id:
-    bioguide: C000542
-    thomas: '00209'
-    lis: S212
-    govtrack: 402675
-    opensecrets: N00003845
-    votesmart: 53291
-    icpsr: 14806
-    fec:
-    - S0IN00053
-    cspan: 6080
-    wikipedia: Dan Coats
-    house_history: 11126
-    ballotpedia: Dan Coats
-    maplight: 1407
-    wikidata: Q632321
-    google_entity_id: kg:/m/0jl26
-  name:
-    first: Daniel
-    middle: Ray
-    last: Coats
-    official_full: Daniel Coats
-  bio:
-    birthday: '1943-05-16'
-    gender: M
-  terms:
-  - type: rep
-    start: '1981-01-05'
-    end: '1983-01-03'
-    state: IN
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1983-01-03'
-    end: '1985-01-03'
-    state: IN
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1985-01-03'
-    end: '1987-01-03'
-    state: IN
-    district: 4
-    party: Republican
-  - type: rep
-    start: '1987-01-06'
-    end: '1989-01-03'
-    state: IN
-    district: 4
-    party: Republican
-  - type: sen
-    start: '1989-01-03'
-    end: '1993-01-03'
-    state: IN
-    class: 3
-    party: Republican
-  - type: sen
-    start: '1993-01-05'
-    end: '1999-01-03'
-    state: IN
-    class: 3
-    party: Republican
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: IN
-    class: 3
-    party: Republican
-    url: http://www.coats.senate.gov
-    address: 493 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-5623
-    contact_form: http://www.coats.senate.gov/contact/
-    office: 493 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.coats.senate.gov/rss/feeds/?type=all&amp;
-    fax: 202-228-1820
 - id:
     bioguide: C001077
     thomas: '01912'
@@ -8106,6 +7945,14 @@
     contact_form: http://www.crapo.senate.gov/contact/email.cfm
     office: 239 Dirksen Senate Office Building
     state_rank: senior
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: ID
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.crapo.senate.gov
 - id:
     bioguide: C001087
     thomas: '01989'
@@ -9792,7 +9639,7 @@
     fax: 202-225-6798
     contact_form: http://www.donnelly.senate.gov/contact/email-joe
     office: 720 Hart Senate Office Building
-    state_rank: junior
+    state_rank: senior
     rss_url: http://www.donnelly.senate.gov/rss/feeds/?type=all
 - id:
     bioguide: D000482
@@ -12661,6 +12508,15 @@
     office: 135 Hart Senate Office Building
     state_rank: senior
     rss_url: http://grassley.senate.gov/customcf/rss_feed.cfm
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: IA
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.grassley.senate.gov
+    rss_url: http://grassley.senate.gov/customcf/rss_feed.cfm
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -14387,6 +14243,15 @@
     state_rank: senior
     rss_url: http://www.hoeven.senate.gov/public/index.cfm/rss/feed
     fax: 202-224-7999
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: ND
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: https://www.hoeven.senate.gov
+    rss_url: http://www.hoeven.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: H001034
     thomas: '01634'
@@ -15047,6 +14912,15 @@
     contact_form: http://www.isakson.senate.gov/public/index.cfm/email-me
     office: 131 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: GA
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.isakson.senate.gov
     rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
 - id:
     bioguide: I000057
@@ -15726,6 +15600,15 @@
     state_rank: senior
     rss_url: http://www.ronjohnson.senate.gov/public/index.cfm/rss/feed
     fax: 920-230-7262
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: WI
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.ronjohnson.senate.gov
+    rss_url: http://www.ronjohnson.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: J000174
     thomas: '00603'
@@ -16708,87 +16591,6 @@
     contact_form: https://kinzinger.house.gov/email-adam
     rss_url: http://kinzinger.house.gov/common/rss//index.cfm?rss=49
 - id:
-    bioguide: K000360
-    thomas: '01647'
-    lis: S339
-    govtrack: 400222
-    opensecrets: N00012539
-    votesmart: 33502
-    fec:
-    - H0IL10120
-    - S0IL00261
-    cspan: 85221
-    wikipedia: Mark Kirk
-    house_history: 16544
-    ballotpedia: Mark Kirk
-    maplight: 323
-    icpsr: 20115
-    wikidata: Q339046
-    google_entity_id: kg:/m/0256rr
-  name:
-    first: Mark
-    middle: Steven
-    last: Kirk
-    official_full: Mark Kirk
-  bio:
-    birthday: '1959-09-15'
-    gender: M
-  terms:
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: IL
-    district: 10
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: IL
-    district: 10
-    party: Republican
-    url: http://www.house.gov/kirk
-  - type: rep
-    start: '2005-01-04'
-    end: '2007-01-03'
-    state: IL
-    district: 10
-    party: Republican
-    url: http://www.house.gov/kirk
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: IL
-    district: 10
-    party: Republican
-    url: http://www.house.gov/kirk
-  - type: rep
-    start: '2009-01-06'
-    end: '2010-11-29'
-    state: IL
-    district: 10
-    party: Republican
-    url: http://www.house.gov/kirk
-  - type: sen
-    start: '2010-11-29'
-    end: '2011-01-03'
-    state: IL
-    class: 3
-    party: Republican
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: IL
-    class: 3
-    party: Republican
-    url: https://www.kirk.senate.gov
-    address: 524 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-2854
-    contact_form: http://www.kirk.senate.gov/?p=comment_on_legislation
-    office: 524 Hart Senate Office Building
-    state_rank: junior
-    rss_url: http://kirk.senate.gov/rss/?p=hot_topic
-    fax: 202-228-4611
-- id:
     bioguide: K000363
     thomas: '01733'
     govtrack: 400224
@@ -17246,6 +17048,14 @@
     address: 316 Hart Senate Office Building Washington DC 20510
     office: 316 Hart Senate Office Building
     phone: 202-224-5754
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: OK
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: https://www.lankford.senate.gov
 - id:
     bioguide: L000560
     thomas: '01675'
@@ -17602,6 +17412,15 @@
     office: 437 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.leahy.senate.gov/rss/feeds/press/
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: VT
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: https://www.leahy.senate.gov
+    rss_url: http://www.leahy.senate.gov/rss/feeds/press/
 - id:
     bioguide: L000551
     thomas: '01501'
@@ -17746,6 +17565,15 @@
     contact_form: http://www.lee.senate.gov/public/index.cfm/contact
     office: 361a Russell Senate Office Building
     state_rank: junior
+    rss_url: http://www.lee.senate.gov/public/index.cfm/rss/feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: UT
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.lee.senate.gov
     rss_url: http://www.lee.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: L000263
@@ -19676,6 +19504,14 @@
     contact_form: http://www.mccain.senate.gov/public/index.cfm/contact-form
     office: 218 Russell Senate Office Building
     state_rank: senior
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: AZ
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.mccain.senate.gov
 - id:
     bioguide: M001165
     thomas: '01833'
@@ -20859,103 +20695,6 @@
   - name: Daniel Andrew Mica
     relation: brother
 - id:
-    bioguide: M000702
-    thomas: '00802'
-    lis: S182
-    govtrack: 300073
-    opensecrets: N00001945
-    votesmart: 53304
-    icpsr: 14440
-    fec:
-    - S6MD00140
-    cspan: 1396
-    wikipedia: Barbara Mikulski
-    house_history: 18207
-    ballotpedia: Barbara Mikulski
-    maplight: 594
-    wikidata: Q261147
-    google_entity_id: kg:/m/0206nm
-  name:
-    first: Barbara
-    middle: A.
-    last: Mikulski
-    official_full: Barbara A. Mikulski
-  bio:
-    birthday: '1936-07-20'
-    gender: F
-    religion: Roman Catholic
-  terms:
-  - type: rep
-    start: '1977-01-04'
-    end: '1979-01-03'
-    state: MD
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '1979-01-15'
-    end: '1981-01-03'
-    state: MD
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '1981-01-05'
-    end: '1983-01-03'
-    state: MD
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '1983-01-03'
-    end: '1985-01-03'
-    state: MD
-    district: 3
-    party: Democrat
-  - type: rep
-    start: '1985-01-03'
-    end: '1987-01-03'
-    state: MD
-    district: 3
-    party: Democrat
-  - type: sen
-    start: '1987-01-06'
-    end: '1993-01-03'
-    state: MD
-    class: 3
-    party: Democrat
-  - type: sen
-    start: '1993-01-05'
-    end: '1999-01-03'
-    state: MD
-    class: 3
-    party: Democrat
-  - type: sen
-    start: '1999-01-06'
-    end: '2005-01-03'
-    state: MD
-    class: 3
-    party: Democrat
-    url: http://mikulski.senate.gov/
-  - type: sen
-    start: '2005-01-04'
-    end: '2011-01-03'
-    state: MD
-    class: 3
-    party: Democrat
-    url: http://mikulski.senate.gov/
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: MD
-    class: 3
-    party: Democrat
-    url: https://www.mikulski.senate.gov
-    address: 503 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-4654
-    fax: 202-224-8858
-    contact_form: http://www.mikulski.senate.gov/contact/shareyouropinion.cfm
-    office: 503 Hart Senate Office Building
-    state_rank: senior
-    rss_url: http://www.mikulski.senate.gov/rssfeed.cfm
-- id:
     bioguide: M001144
     thomas: '01685'
     govtrack: 400279
@@ -21222,6 +20961,15 @@
     state_rank: junior
     rss_url: http://www.moran.senate.gov/public/index.cfm/rss/feed/
     fax: 202-228-6966
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: KS
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.moran.senate.gov
+    rss_url: http://www.moran.senate.gov/public/index.cfm/rss/feed/
 - id:
     bioguide: M001182
     thomas: '02059'
@@ -21337,6 +21085,15 @@
     contact_form: http://www.murkowski.senate.gov/public/index.cfm?p=EMailLisa
     office: 709 Hart Senate Office Building
     state_rank: senior
+    rss_url: http://www.murkowski.senate.gov/public/?a=rss.feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: AK
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: https://www.murkowski.senate.gov
     rss_url: http://www.murkowski.senate.gov/public/?a=rss.feed
   family:
   - name: Frank Hughes Murkowski
@@ -21557,6 +21314,15 @@
     contact_form: http://www.murray.senate.gov/public/index.cfm/contactme
     office: 154 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.murray.senate.gov/public/?a=rss.feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: WA
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: http://www.murray.senate.gov
     rss_url: http://www.murray.senate.gov/public/?a=rss.feed
 - id:
     bioguide: N000002
@@ -22770,6 +22536,15 @@
     office: 167 Russell Senate Office Building
     state_rank: junior
     rss_url: http://paul.senate.gov/rss/?p=news
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: KY
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: https://www.paul.senate.gov
+    rss_url: http://paul.senate.gov/rss/?p=news
   family:
   - name: Ronald Ernest Paul
     relation: son
@@ -23879,6 +23654,15 @@
     office: 448 Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.portman.senate.gov/public/index.cfm/rss/feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: OH
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.portman.senate.gov
+    rss_url: http://www.portman.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: P000599
     thomas: '01915'
@@ -24572,104 +24356,6 @@
     contact_form: https://reichert.house.gov/contact-me
     office: 1127 Longworth House Office Building
     rss_url: http://reichert.house.gov/rss.xml
-- id:
-    bioguide: R000146
-    thomas: '00952'
-    lis: S198
-    govtrack: 300082
-    opensecrets: N00009922
-    votesmart: 53320
-    icpsr: 15054
-    fec:
-    - S6NV00028
-    cspan: 1683
-    wikipedia: Harry Reid
-    house_history: 20266
-    ballotpedia: Harry Reid
-    maplight: 601
-    wikidata: Q314459
-    google_entity_id: kg:/m/0204x1
-  name:
-    first: Harry
-    middle: M.
-    last: Reid
-    official_full: Harry Reid
-  bio:
-    birthday: '1939-12-02'
-    gender: M
-    religion: Latter Day Saints
-  leadership_roles:
-  - title: Majority Leader
-    chamber: senate
-    start: '2007-01-04'
-    end: '2009-01-06'
-  - title: Majority Leader
-    chamber: senate
-    start: '2009-01-06'
-    end: '2011-01-05'
-  - title: Majority Leader
-    chamber: senate
-    start: '2011-01-05'
-    end: '2013-01-03'
-  - title: Majority Leader
-    chamber: senate
-    start: '2013-01-03'
-    end: '2015-01-03'
-  - title: Minority Leader
-    chamber: senate
-    start: '2015-01-03'
-  terms:
-  - type: rep
-    start: '1983-01-03'
-    end: '1985-01-03'
-    state: NV
-    district: 1
-    party: Democrat
-  - type: rep
-    start: '1985-01-03'
-    end: '1987-01-03'
-    state: NV
-    district: 1
-    party: Democrat
-  - type: sen
-    start: '1987-01-06'
-    end: '1993-01-03'
-    state: NV
-    class: 3
-    party: Democrat
-  - type: sen
-    start: '1993-01-05'
-    end: '1999-01-03'
-    state: NV
-    class: 3
-    party: Democrat
-  - type: sen
-    start: '1999-01-06'
-    end: '2005-01-03'
-    state: NV
-    class: 3
-    party: Democrat
-    url: http://reid.senate.gov/
-  - type: sen
-    start: '2005-01-04'
-    end: '2011-01-03'
-    state: NV
-    class: 3
-    party: Democrat
-    url: http://reid.senate.gov/
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: NV
-    class: 3
-    party: Democrat
-    url: http://www.reid.senate.gov
-    address: 522 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-3542
-    fax: 202-224-7327
-    contact_form: http://www.reid.senate.gov/contact
-    office: 522 Hart Senate Office Building
-    state_rank: senior
 - id:
     bioguide: R000586
     thomas: '02048'
@@ -26114,6 +25800,15 @@
     office: 284 Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.rubio.senate.gov/public/?a=rss.feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: FL
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.rubio.senate.gov
+    rss_url: http://www.rubio.senate.gov/public/?a=rss.feed
 - id:
     bioguide: R000576
     thomas: '01728'
@@ -27260,6 +26955,14 @@
     contact_form: http://www.schumer.senate.gov/Contact/email-chuck
     office: 322 Hart Senate Office Building
     state_rank: senior
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: NY
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: https://www.schumer.senate.gov
 - id:
     bioguide: S001183
     thomas: '01994'
@@ -27660,6 +27363,15 @@
     office: 520 Hart Senate Office Building
     state_rank: junior
     contact_form: http://www.scott.senate.gov/contact/email-me
+    rss_url: http://www.scott.senate.gov/rss.xml
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: SC
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: https://www.scott.senate.gov
     rss_url: http://www.scott.senate.gov/rss.xml
 - id:
     bioguide: S000244
@@ -28228,6 +27940,15 @@
     contact_form: http://www.shelby.senate.gov/public/index.cfm/emailsenatorshelby
     office: 304 Russell Senate Office Building
     state_rank: senior
+    rss_url: http://www.shelby.senate.gov/public/index.cfm/rss/feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: AL
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.shelby.senate.gov
     rss_url: http://www.shelby.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: S000344
@@ -30126,6 +29847,15 @@
     office: 511 Dirksen Senate Office Building
     state_rank: senior
     rss_url: http://www.thune.senate.gov/public/index.cfm/rss/feed
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: SD
+    class: 3
+    state_rank: senior
+    party: Republican
+    url: http://www.thune.senate.gov
+    rss_url: http://www.thune.senate.gov/public/index.cfm/rss/feed
 - id:
     bioguide: T000462
     thomas: '01664'
@@ -30416,6 +30146,15 @@
     state_rank: junior
     rss_url: http://toomey.senate.gov/rss/?p=hot_topic
     fax: 202-228-0284
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: PA
+    class: 3
+    state_rank: junior
+    party: Republican
+    url: http://www.toomey.senate.gov
+    rss_url: http://toomey.senate.gov/rss/?p=hot_topic
 - id:
     bioguide: T000465
     thomas: '01884'
@@ -30819,6 +30558,13 @@
     contact_form: http://vanhollen.house.gov/contact/
     office: 1707 Longworth House Office Building
     rss_url: http://vanhollen.house.gov/news/rss.aspx
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: MD
+    class: 3
+    state_rank: junior
+    party: Democrat
 - id:
     bioguide: V000081
     thomas: '01184'
@@ -31084,73 +30830,6 @@
     contact_form: https://visclosky.house.gov/contact-pete/email-pete
     office: 2328 Rayburn House Office Building
     rss_url: http://visclosky.house.gov/rss.xml
-- id:
-    bioguide: V000127
-    thomas: '01609'
-    lis: S299
-    govtrack: 400418
-    opensecrets: N00009659
-    votesmart: 4615
-    fec:
-    - S4LA00057
-    - H0LA01079
-    cspan: 60672
-    wikipedia: David Vitter
-    house_history: 21030
-    ballotpedia: David Vitter
-    maplight: 503
-    icpsr: 29918
-    wikidata: Q519780
-    google_entity_id: kg:/m/025jr2
-  name:
-    first: David
-    last: Vitter
-    official_full: David Vitter
-  bio:
-    birthday: '1961-05-03'
-    gender: M
-    religion: Catholic
-  terms:
-  - type: rep
-    start: '1999-06-08'
-    end: '2001-01-03'
-    state: LA
-    district: 1
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: LA
-    district: 1
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: LA
-    district: 1
-    party: Republican
-    url: http://vitter.house.gov
-  - type: sen
-    start: '2005-01-04'
-    end: '2011-01-03'
-    state: LA
-    class: 3
-    party: Republican
-    url: http://vitter.senate.gov/
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: LA
-    class: 3
-    party: Republican
-    url: https://www.vitter.senate.gov
-    address: 516 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-4623
-    fax: 202-228-5061
-    contact_form: http://www.vitter.senate.gov/contact/email-senator-vitter
-    office: 516 Hart Senate Office Building
-    state_rank: senior
-    rss_url: http://www.vitter.senate.gov/rss/feeds/?type=all
 - id:
     bioguide: W000798
     thomas: '01855'
@@ -32300,6 +31979,15 @@
     office: 221 Dirksen Senate Office Building
     state_rank: senior
     rss_url: http://www.wyden.senate.gov/rss/feeds/?type=all&amp;
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: OR
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: https://www.wyden.senate.gov
+    rss_url: http://www.wyden.senate.gov/rss/feeds/?type=all&amp;
 - id:
     bioguide: Y000062
     thomas: '01853'
@@ -32680,6 +32368,13 @@
     office: 1007 Longworth House Office Building
     rss_url: http://toddyoung.house.gov/common/rss//index.cfm?rss=49
     contact_form: https://toddyoungforms.house.gov/give-me-your-opinion
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: IN
+    class: 3
+    state_rank: junior
+    party: Republican
 - id:
     bioguide: H001041
     thomas: '01863'
@@ -32750,7 +32445,7 @@
     phone: 202-224-6244
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
     office: 324 Hart Senate Office Building
-    state_rank: junior
+    state_rank: senior
     rss_url: http://www.heller.senate.gov/public/index.cfm/rss/feed
     fax: 202-228-6753
 - id:
@@ -33112,6 +32807,14 @@
     url: http://www.schatz.senate.gov
     state_rank: senior
     contact_form: http://www.schatz.senate.gov/contact
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: HI
+    class: 3
+    state_rank: senior
+    party: Democrat
+    url: http://www.schatz.senate.gov
 - id:
     bioguide: S000018
     thomas: '01009'
@@ -34542,6 +34245,13 @@
     url: http://duckworth.house.gov
     rss_url: http://duckworth.house.gov/rss.xml
     contact_form: https://duckworth.house.gov/contact/email-me
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: IL
+    class: 3
+    state_rank: junior
+    party: Democrat
 - id:
     govtrack: 412536
     bioguide: D000619
@@ -39650,3 +39360,94 @@
     office: 2301 Rayburn House Office Building
     rss_url: https://evans.house.gov/rss.xml
     contact_form: https://evans.house.gov/contact/email
+- id:
+    bioguide: H001075
+    fec:
+    - S6CA00584
+    govtrack: 412678
+    votesmart: 120012
+    wikipedia: Kamala Harris
+    ballotpedia: Kamala Harris
+  name:
+    first: Kamala
+    last: Harris
+  bio:
+    gender: F
+    birthday: '1964-10-20'
+  terms:
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: CA
+    class: 3
+    state_rank: junior
+    party: Democrat
+- id:
+    bioguide: K000393
+    fec:
+    - S4LA00065
+    govtrack: 412679
+    votesmart: 35496
+    wikipedia: John Neely Kennedy
+    ballotpedia: John Neely Kennedy
+  name:
+    first: John
+    middle: Neely
+    last: Kennedy
+  bio:
+    gender: M
+    birthday: '1951-11-21'
+  terms:
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: LA
+    class: 3
+    state_rank: junior
+    party: Republican
+- id:
+    bioguide: H001076
+    fec:
+    - S6NH00091
+    govtrack: 412680
+    votesmart: 42552
+    wikipedia: Maggie Hassan
+    ballotpedia: Maggie Hassan
+  name:
+    first: Margaret
+    middle: Wood
+    nickname: Maggie
+    last: Hassan
+  bio:
+    gender: F
+    birthday: '1958-02-27'
+  terms:
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: NH
+    class: 3
+    state_rank: junior
+    party: Democrat
+- id:
+    bioguide: C001113
+    fec:
+    - S6NV00200
+    govtrack: 412681
+    votesmart: 69579
+    wikipedia: Catherine Cortez Masto
+    ballotpedia: Catherine Cortez Masto
+  name:
+    first: Catherine
+    last: Cortez Masto
+  bio:
+    gender: F
+    birthday: '1964-03-29'
+  terms:
+  - type: sen
+    start: '2017-01-03'
+    end: '2023-01-03'
+    state: NV
+    class: 3
+    state_rank: junior
+    party: Democrat
