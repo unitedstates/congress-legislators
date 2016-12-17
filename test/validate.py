@@ -185,9 +185,9 @@ def check_term(term, prev_term, current=None, current_mocs=None):
           error(rtyaml.dump(term) + " has start before previous term's end.")
 
     if not current and (end > now):
-      error(rtyaml.dump(term) + " has an end date in the future but should be historical.")
+      error(rtyaml.dump(term) + " has an end date in the future but is in the historical file.")
     if current and (end < now):
-      error(rtyaml.dump(term) + " has an end date in the past but should be current.")
+      error(rtyaml.dump(term) + " has an end date in the past but is in the current file.")
 
   # Check state, district, class, state_rank.
   if term.get("state") not in utils.states:
