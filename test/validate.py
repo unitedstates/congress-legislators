@@ -45,7 +45,7 @@ id_types = {
 name_keys = { "first", "middle", "nickname", "last", "suffix", "official_full" }
 
 # bio keys
-bio_keys = { "gender", "birthday", "religion" }
+bio_keys = { "gender", "birthday", "religion", "deceased" }
 
 # get today as a date instance
 def now():
