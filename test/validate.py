@@ -14,6 +14,20 @@ def error(message):
   print(message)
   ok = False
 
+# Current apportionment of the U.S. House, so that we can report if there
+# are any vacancies in legislators-current. Each state is mapped to an
+# integer (>= 1) giving its number of House seats. Additionally the
+# territories that send delegates are mapped to the string "T".
+state_apportionment = {
+  'AL': 7, 'AK': 1, 'AS': 'T', 'AZ': 9, 'AR': 4, 'CA': 53, 'CO': 7, 'CT': 5,
+  'DE': 1, 'DC': 'T', 'FL': 27, 'GA': 14, 'GU': 'T', 'HI': 2, 'ID': 2, 'IL': 18,
+  'IN': 9, 'IA': 4, 'KS': 4, 'KY': 6, 'LA': 6, 'ME': 2, 'MD': 8, 'MA': 9, 'MI': 14,
+  'MN': 8, 'MS': 4, 'MO': 8, 'MT': 1, 'NE': 3, 'NV': 4, 'NH': 2, 'NJ': 12,
+  'NM': 3, 'NY': 27, 'NC': 13, 'ND': 1, 'MP': 'T', 'OH': 16, 'OK': 5, 'OR': 5,
+  'PA': 18, 'PR': 'T', 'RI': 2, 'SC': 7, 'SD': 1, 'TN': 9, 'TX': 36, 'UT': 4,
+  'VT': 1, 'VI': 'T', 'VA': 11, 'WA': 10, 'WV': 3, 'WI': 8, 'WY': 1
+  }
+
 # id types that must be present on every legislator record
 id_required = ['bioguide', 'govtrack']
 
@@ -212,7 +226,7 @@ def check_term(term, prev_term, current=None, current_mocs=None):
     # Check uniqueness of office for current members.
 
     # Check office.
-    office = (term.get("type"), term.get("state"), term.get("district") or term.get("class"))
+    office = (term.get("type"), term.get("state"), term.get("district") if term.get("type") == "rep" else term.get("class"))
     if office in current_mocs:
       error(rtyaml.dump(term) + " duplicates an office.")
     current_mocs.add(office)
@@ -233,6 +247,24 @@ def check_term(term, prev_term, current=None, current_mocs=None):
       error(rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
 
     # TODO: Check party_affiliations, url, and office information.  
+
+def report_vacancies(current_mocs):
+  for state, apportionment in state_apportionment.items():
+    # If this is one of the 50 states, check that we saw two
+    # senators.
+    if apportionment != "T":
+      senators = [m for m in current_mocs if m in [("sen", state, 1), ("sen", state, 2), ("sen", state, 3)]]
+      if len(senators) != 2:
+        print("Vacancy in", state, "senators.")
+
+    # Check that we have someone in each district.
+    if apportionment in ("T", 1):
+      districts = [0]
+    else:
+      districts = range(1, apportionment+1)
+    for district in districts:
+      if ("rep", state, district) not in current_mocs:
+        print("Vacancy in", state, "district", district, ".")
 
 def check_executive_file(fn):
   # Open and iterate over the entries.
@@ -313,6 +345,7 @@ if __name__ == "__main__":
   seen_ids = { }
   current_mocs = set()
   check_legislators_file("legislators-current.yaml", seen_ids, current=True, current_mocs=current_mocs)
+  report_vacancies(current_mocs)
   check_legislators_file("legislators-historical.yaml", seen_ids, current=False)
   check_executive_file("executive.yaml")
   check_id_uniqueness(seen_ids)
