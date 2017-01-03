@@ -66,7 +66,6 @@ Each legislator record is grouped into four guaranteed parts: id's which relate 
 		cspan: 57970
 		wikipedia: Paul Ryan
 		ballotpedia: Paul Ryan
-		washington_post: gIQAUWiV9O
 		maplight: 445
 		house_history: 20785
 		icpsr: 29939
@@ -119,7 +118,6 @@ The following fields are available in `legislators-current.yaml` and `legislator
 	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
 	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
 	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
-	* washington_post: the Washington Post topic name (e.g.: `http://www.washingtonpost.com/politics/[washington_post]_topic.html`)
 	* maplight : The numeric ID for this legislator on maplight.org (stored as an integer).
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
@@ -195,8 +193,14 @@ Terms for senators list each six-year term, so the terms span three Congresses. 
 
 Historically, some states sending at-large representatives actually sent multiple at-large representatives. Thus, state and district may not be a unique key.
 
-Social Media Data Dictionary
-----------------------------
+Data on Official Social Media Accounts
+--------------------------------------
+
+This dataset is designed to include accounts that are paid for with public funds and which represent official communications of their office. We rely on reasonable verification from the legislative office about the status of their accounts.
+
+Offices are supposed to maintain strict separation of official funds and campaign funds, and official funds are not supposed to be used to further things like re-election efforts.
+
+In practice, a campaign account may often look similar to an official account in terms of content, especially when expressing views on issues and legislations. However, there will be differences in what's appropriate for each account, and they will likely be maintained by different staff employed by different organizations.
 
 The social media file `legislators-social-media.yaml` stores current social media account information.
 
@@ -476,7 +480,7 @@ The following script may be run to create alternatly formatted data files. It ta
 Other Scripts
 ----------------------
 
-The `ballotpedia` and `washington_post` fields have been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
+The `ballotpedia` field has been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
 
 ### Related libraries
 
@@ -489,8 +493,9 @@ Ongoing projects making use of this data:
 
 * [GovTrack.us](https://www.govtrack.us)
 * [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
-* [The New York Times Congress API](http://developer.nytimes.com/docs/read/congress_api)
-* [OpenCongress.org](http://www.opencongress.org)
+* [ProPublica Congress API](https://propublica.github.io/congress-api-docs/)
+* [Represent](https://projects.propublica.org/represent/)
+* [EveryPolitician.org](http://everypolitician.org)
 
 Stories written with this data:
 
