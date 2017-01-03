@@ -359,7 +359,7 @@
     state: DE
     party: Democrat
     class: 1
-    url: http://www.carper.senate.gov
+    url: http://www.carper.senate.gov/public
     address: 513 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2441
     fax: 202-228-2190
@@ -1410,7 +1410,7 @@
     state: TN
     class: 2
     party: Republican
-    url: http://www.alexander.senate.gov
+    url: https://www.alexander.senate.gov/public/index.cfm/home
     address: 455 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-4944
     fax: 202-228-3398
@@ -1944,7 +1944,7 @@
     state: SC
     class: 2
     party: Republican
-    url: http://www.lgraham.senate.gov
+    url: http://www.lgraham.senate.gov/public
     address: 290 Russell Senate Office Building Washington DC 20510
     phone: 202-224-5972
     fax: 202-224-3808
@@ -2516,7 +2516,7 @@
     state: AL
     class: 2
     party: Republican
-    url: http://www.sessions.senate.gov
+    url: http://www.sessions.senate.gov/public
     address: 326 Russell Senate Office Building Washington DC 20510
     phone: 202-224-4124
     fax: 202-224-3149
@@ -2569,7 +2569,7 @@
     state: NH
     class: 2
     party: Democrat
-    url: https://www.shaheen.senate.gov/
+    url: https://www.shaheen.senate.gov
     address: 506 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2841
     contact_form: http://www.shaheen.senate.gov/contact/
@@ -2939,7 +2939,7 @@
     state: WV
     party: Democrat
     class: 1
-    url: http://www.manchin.senate.gov
+    url: http://www.manchin.senate.gov/public
     address: 306 Hart Senate Office Building Washington DC 20510
     phone: 202-224-3954
     contact_form: http://www.manchin.senate.gov/public/index.cfm/contact-form
@@ -3707,6 +3707,9 @@
     party: Democrat
     url: https://www.bennet.senate.gov
     rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
+    address: 261 Russell Senate Office Building Washington DC 20510
+    office: 261 Russell Senate Office Building
+    phone: 202-224-5852
 - id:
     bioguide: B001257
     thomas: '01838'
@@ -4367,6 +4370,9 @@
     party: Democrat
     url: https://www.blumenthal.senate.gov
     rss_url: http://www.blumenthal.senate.gov/rss/feeds/?type=all
+    address: 706 Hart Senate Office Building Washington DC 20510
+    office: 706 Hart Senate Office Building
+    phone: 202-224-2823
 - id:
     bioguide: B000575
     thomas: '01464'
@@ -4461,8 +4467,11 @@
     class: 3
     state_rank: junior
     party: Republican
-    url: http://www.blunt.senate.gov
+    url: http://www.blunt.senate.gov/public
     rss_url: http://www.blunt.senate.gov/public/?a=rss.feed
+    address: 260 Russell Senate Office Building Washington DC 20510
+    office: 260 Russell Senate Office Building
+    phone: 202-224-5721
 - id:
     bioguide: B001236
     thomas: '01687'
@@ -4544,8 +4553,11 @@
     class: 3
     state_rank: senior
     party: Republican
-    url: http://www.boozman.senate.gov
+    url: https://www.boozman.senate.gov/public/index.cfm/home
     rss_url: http://www.boozman.senate.gov/public/index.cfm/rss/feed
+    address: 141 Hart Senate Office Building Washington DC 20510
+    office: 141 Hart Senate Office Building
+    phone: 202-224-4843
 - id:
     bioguide: B001245
     thomas: '01723'
@@ -5295,6 +5307,9 @@
     party: Republican
     url: http://www.burr.senate.gov
     rss_url: http://www.burr.senate.gov/public/index.cfm?fuseaction=rss.feed
+    address: 217 Russell Senate Office Building Washington DC 20510
+    office: 217 Russell Senate Office Building
+    phone: 202-224-3154
 - id:
     bioguide: B001251
     thomas: '01761'
@@ -7887,6 +7902,9 @@
     state_rank: senior
     party: Republican
     url: http://www.crapo.senate.gov
+    address: 239 Dirksen Senate Office Building Washington DC 20510
+    office: 239 Dirksen Senate Office Building
+    phone: 202-224-6142
 - id:
     bioguide: C001087
     thomas: '01989'
@@ -10547,7 +10565,7 @@
     state: AZ
     party: Republican
     class: 1
-    url: http://www.flake.senate.gov
+    url: http://www.flake.senate.gov/public
     address: 413 Russell Senate Office Building Washington DC 20510
     phone: 202-224-4521
     fax: 202-226-4386
@@ -11987,6 +12005,9 @@
     party: Republican
     url: http://www.grassley.senate.gov
     rss_url: http://grassley.senate.gov/customcf/rss_feed.cfm
+    address: 135 Hart Senate Office Building Washington DC 20510
+    office: 135 Hart Senate Office Building
+    phone: 202-224-3744
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -13633,6 +13654,9 @@
     party: Republican
     url: https://www.hoeven.senate.gov
     rss_url: http://www.hoeven.senate.gov/public/index.cfm/rss/feed
+    address: 338 Russell Senate Office Building Washington DC 20510
+    office: 338 Russell Senate Office Building
+    phone: 202-224-2551
 - id:
     bioguide: H000874
     thomas: '00566'
@@ -14119,6 +14143,9 @@
     party: Republican
     url: http://www.isakson.senate.gov
     rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
+    address: 131 Russell Senate Office Building Washington DC 20510
+    office: 131 Russell Senate Office Building
+    phone: 202-224-3643
 - id:
     bioguide: I000056
     thomas: '01640'
@@ -14762,6 +14789,9 @@
     party: Republican
     url: http://www.ronjohnson.senate.gov
     rss_url: http://www.ronjohnson.senate.gov/public/index.cfm/rss/feed
+    address: 328 Hart Senate Office Building Washington DC 20510
+    office: 328 Hart Senate Office Building
+    phone: 202-224-5323
 - id:
     bioguide: J000174
     thomas: '00603'
@@ -16243,6 +16273,9 @@
     state_rank: junior
     party: Republican
     url: https://www.lankford.senate.gov
+    address: 316 Hart Senate Office Building Washington DC 20510
+    office: 316 Hart Senate Office Building
+    phone: 202-224-5754
 - id:
     bioguide: L000560
     thomas: '01675'
@@ -16635,6 +16668,9 @@
     party: Democrat
     url: https://www.leahy.senate.gov
     rss_url: http://www.leahy.senate.gov/rss/feeds/press/
+    address: 437 Russell Senate Office Building Washington DC 20510
+    office: 437 Russell Senate Office Building
+    phone: 202-224-4242
 - id:
     bioguide: L000551
     thomas: '01501'
@@ -16796,8 +16832,11 @@
     class: 3
     state_rank: junior
     party: Republican
-    url: http://www.lee.senate.gov
+    url: http://www.lee.senate.gov/public
     rss_url: http://www.lee.senate.gov/public/index.cfm/rss/feed
+    address: 361A Russell Senate Office Building Washington DC 20510
+    office: 361a Russell Senate Office Building
+    phone: 202-224-5444
 - id:
     bioguide: L000263
     thomas: '00683'
@@ -18809,6 +18848,9 @@
     state_rank: senior
     party: Republican
     url: http://www.mccain.senate.gov
+    address: 218 Russell Senate Office Building Washington DC 20510
+    office: 218 Russell Senate Office Building
+    phone: 202-224-2235
 - id:
     bioguide: M001165
     thomas: '01833'
@@ -20019,6 +20061,9 @@
     party: Republican
     url: http://www.moran.senate.gov
     rss_url: http://www.moran.senate.gov/public/index.cfm/rss/feed/
+    address: 521 Dirksen Senate Office Building Washington DC 20510
+    office: 521 Dirksen Senate Office Building
+    phone: 202-224-6521
 - id:
     bioguide: M001182
     thomas: '02059'
@@ -20153,6 +20198,9 @@
     party: Republican
     url: https://www.murkowski.senate.gov
     rss_url: http://www.murkowski.senate.gov/public/?a=rss.feed
+    address: 709 Hart Senate Office Building Washington DC 20510
+    office: 709 Hart Senate Office Building
+    phone: 202-224-6665
   family:
   - name: Frank Hughes Murkowski
     relation: daughter
@@ -20389,8 +20437,11 @@
     class: 3
     state_rank: senior
     party: Democrat
-    url: http://www.murray.senate.gov
+    url: http://www.murray.senate.gov/public
     rss_url: http://www.murray.senate.gov/public/?a=rss.feed
+    address: 154 Russell Senate Office Building Washington DC 20510
+    office: 154 Russell Senate Office Building
+    phone: 202-224-2621
 - id:
     bioguide: N000002
     thomas: '00850'
@@ -21550,6 +21601,9 @@
     party: Republican
     url: https://www.paul.senate.gov
     rss_url: http://paul.senate.gov/rss/?p=news
+    address: 167 Russell Senate Office Building Washington DC 20510
+    office: 167 Russell Senate Office Building
+    phone: 202-224-4343
   family:
   - name: Ronald Ernest Paul
     relation: son
@@ -22591,6 +22645,9 @@
     party: Republican
     url: http://www.portman.senate.gov
     rss_url: http://www.portman.senate.gov/public/index.cfm/rss/feed
+    address: 448 Russell Senate Office Building Washington DC 20510
+    office: 448 Russell Senate Office Building
+    phone: 202-224-3353
 - id:
     bioguide: P000599
     thomas: '01915'
@@ -24604,6 +24661,9 @@
     party: Republican
     url: http://www.rubio.senate.gov
     rss_url: http://www.rubio.senate.gov/public/?a=rss.feed
+    address: 284 Russell Senate Office Building Washington DC 20510
+    office: 284 Russell Senate Office Building
+    phone: 202-224-3041
 - id:
     bioguide: R000576
     thomas: '01728'
@@ -25736,6 +25796,9 @@
     state_rank: senior
     party: Democrat
     url: https://www.schumer.senate.gov
+    address: 322 Hart Senate Office Building Washington DC 20510
+    office: 322 Hart Senate Office Building
+    phone: 202-224-6542
 - id:
     bioguide: S001183
     thomas: '01994'
@@ -26182,6 +26245,9 @@
     party: Republican
     url: https://www.scott.senate.gov
     rss_url: http://www.scott.senate.gov/rss.xml
+    address: 520 Hart Senate Office Building Washington DC 20510
+    office: 520 Hart Senate Office Building
+    phone: 202-224-6121
 - id:
     bioguide: S000244
     thomas: '01041'
@@ -26795,6 +26861,9 @@
     party: Republican
     url: http://www.shelby.senate.gov
     rss_url: http://www.shelby.senate.gov/public/index.cfm/rss/feed
+    address: 304 Russell Senate Office Building Washington DC 20510
+    office: 304 Russell Senate Office Building
+    phone: 202-224-5744
 - id:
     bioguide: S000344
     thomas: '01526'
@@ -28783,6 +28852,9 @@
     party: Republican
     url: http://www.thune.senate.gov
     rss_url: http://www.thune.senate.gov/public/index.cfm/rss/feed
+    address: 511 Dirksen Senate Office Building Washington DC 20510
+    office: 511 Dirksen Senate Office Building
+    phone: 202-224-2321
 - id:
     bioguide: T000462
     thomas: '01664'
@@ -29109,6 +29181,9 @@
     party: Republican
     url: http://www.toomey.senate.gov
     rss_url: http://toomey.senate.gov/rss/?p=hot_topic
+    address: 248 Russell Senate Office Building Washington DC 20510
+    office: 248 Russell Senate Office Building
+    phone: 202-224-4254
 - id:
     bioguide: T000465
     thomas: '01884'
@@ -29546,6 +29621,9 @@
     class: 3
     state_rank: junior
     party: Democrat
+    address: B40C Dirksen Senate Office Building Washington DC 20510
+    office: B40c Dirksen Senate Office Building
+    phone: 202-224-4654
 - id:
     bioguide: V000081
     thomas: '01184'
@@ -31011,6 +31089,9 @@
     party: Democrat
     url: https://www.wyden.senate.gov
     rss_url: http://www.wyden.senate.gov/rss/feeds/?type=all&amp;
+    address: 221 Dirksen Senate Office Building Washington DC 20510
+    office: 221 Dirksen Senate Office Building
+    phone: 202-224-5244
 - id:
     bioguide: Y000062
     thomas: '01853'
@@ -31424,6 +31505,9 @@
     class: 3
     state_rank: junior
     party: Republican
+    address: B33 Russell Senate Office Building Washington DC 20510
+    office: B33 Russell Senate Office Building
+    phone: 202-224-5623
 - id:
     bioguide: H001041
     thomas: '01863'
@@ -31489,7 +31573,7 @@
     state: NV
     party: Republican
     class: 1
-    url: http://www.heller.senate.gov
+    url: http://www.heller.senate.gov/public
     address: 324 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6244
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
@@ -31909,6 +31993,9 @@
     state_rank: senior
     party: Democrat
     url: http://www.schatz.senate.gov
+    address: 722 Hart Senate Office Building Washington DC 20510
+    office: 722 Hart Senate Office Building
+    phone: 202-224-3934
 - id:
     bioguide: F000454
     thomas: '01888'
@@ -33311,6 +33398,9 @@
     class: 3
     state_rank: junior
     party: Democrat
+    address: G12 Dirksen Senate Office Building Washington DC 20510
+    office: G12 Dirksen Senate Office Building
+    phone: 202-224-2854
 - id:
     govtrack: 412536
     bioguide: D000619
@@ -34373,7 +34463,7 @@
     state: ND
     party: Democrat
     class: 1
-    url: http://www.heitkamp.senate.gov
+    url: http://www.heitkamp.senate.gov/public
     address: 110 Hart Senate Office Building Washington DC 20510
     office: 110 Hart Senate Office Building
     phone: 202-224-2043
@@ -38628,7 +38718,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.ernst.senate.gov
+    url: http://www.ernst.senate.gov/public
     address: 111 Russell Senate Office Building Washington DC 20510
     office: 111 Russell Senate Office Building
     phone: 202-224-3254
@@ -38659,7 +38749,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.tillis.senate.gov
+    url: https://www.tillis.senate.gov/public/index.cfm/home
     address: 185 Dirksen Senate Office Building Washington DC 20510
     office: 185 Dirksen Senate Office Building
     phone: 202-224-6342
@@ -38760,7 +38850,7 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: http://www.sasse.senate.gov
+    url: http://www.sasse.senate.gov/public
     address: 386A Russell Senate Office Building Washington DC 20510
     office: 386a Russell Senate Office Building
     phone: 202-224-4224
@@ -39090,6 +39180,7 @@
   name:
     first: Kamala
     last: Harris
+    official_full: Kamala D. Harris
   bio:
     gender: F
     birthday: '1964-10-20'
@@ -39101,6 +39192,9 @@
     class: 3
     state_rank: junior
     party: Democrat
+    address: B40B Dirksen Senate Office Building Washington DC 20510
+    office: B40b Dirksen Senate Office Building
+    phone: 202-224-3553
 - id:
     bioguide: K000393
     fec:
@@ -39113,6 +39207,7 @@
     first: John
     middle: Neely
     last: Kennedy
+    official_full: John Kennedy
   bio:
     gender: M
     birthday: '1951-11-21'
@@ -39124,6 +39219,9 @@
     class: 3
     state_rank: junior
     party: Republican
+    address: B11 Russell Senate Office Building Washington DC 20510
+    office: B11 Russell Senate Office Building
+    phone: 202-224-4623
 - id:
     bioguide: H001076
     fec:
@@ -39137,6 +39235,7 @@
     middle: Wood
     nickname: Maggie
     last: Hassan
+    official_full: Margaret Wood Hassan
   bio:
     gender: F
     birthday: '1958-02-27'
@@ -39148,6 +39247,9 @@
     class: 3
     state_rank: junior
     party: Democrat
+    address: B85 Russell Senate Office Building Washington DC 20510
+    office: B85 Russell Senate Office Building
+    phone: 202-224-3324
 - id:
     bioguide: C001113
     fec:
@@ -39159,6 +39261,7 @@
   name:
     first: Catherine
     last: Cortez Masto
+    official_full: Catherine Cortez Masto
   bio:
     gender: F
     birthday: '1964-03-29'
@@ -39170,6 +39273,9 @@
     class: 3
     state_rank: junior
     party: Democrat
+    address: B40A Dirksen Senate Office Building Washington DC 20510
+    office: B40a Dirksen Senate Office Building
+    phone: 202-224-3542
 - id:
     govtrack: 412534
     bioguide: S001190

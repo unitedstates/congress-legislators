@@ -97,9 +97,11 @@ def run():
 			# temporary home pages for new senators are relative links?
 
 			# hit the URL to resolve any redirects to get the canonical URL,
-			# since the listing on house.gov sometimes gives URLs that redirect.
+			# since the listing sometimes gives URLs that redirect.
 			try:
-				resp = urllib.request.urlopen(url)
+				req = urllib.request.Request(url)
+				req.add_header("User-Agent", "https://github.com/unitedstates/congress-legislators")
+				resp = urllib.request.urlopen(req)
 				url = resp.geturl()
 			except Exception as e:
 				print(url, e)
