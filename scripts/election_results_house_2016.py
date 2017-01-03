@@ -3,6 +3,7 @@ from utils import load_data, save_data
 
 try:
 	from yaml import CLoader
+	assert CLoader #silence pyflakes
 except ImportError:
 	print("Warning: libyaml not found, loading will be slow...")
 

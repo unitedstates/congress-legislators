@@ -45,9 +45,10 @@ def run():
 		if (mi.find('bioguideID').text != moc['id']['bioguide']):
 			print("Warning: Bioguide ID did not match for %s%02d" % (term["state"], term["district"]))
 
-		firstname = mi.find('firstname').text
-		middlename = mi.find('middlename').text #could be empty
-		lastname = mi.find('lastname').text
+		# for now, no automatic name updates since there is disagremeent on how to handle
+		# firstname = mi.find('firstname').text
+		# middlename = mi.find('middlename').text #could be empty
+		# lastname = mi.find('lastname').text
 
 		#TODO: follow up, why no official name?
 		if mi.find('official-name') is None:
