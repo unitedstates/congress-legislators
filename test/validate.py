@@ -1,7 +1,7 @@
 # Validate that the YAML files have sane data.
 
-import sys
-from datetime import date
+import os, sys
+from datetime import date, datetime
 
 import rtyaml
 
@@ -63,8 +63,12 @@ bio_keys = { "gender", "birthday", "religion" }
 
 # get today as a date instance
 def now():
-  import datetime
-  return datetime.datetime.now().date()
+  if os.environ.get('NOW'):
+    # Use the date given in the environment variable so that
+    # we can stage election results and have tests pass.
+    # Use: export NOW=2017-01-03
+    return date(*[int(v) for v in os.environ['NOW'].split('-')])
+  return datetime.now().date()
 now = now()
 
 def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
