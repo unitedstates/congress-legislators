@@ -72,13 +72,14 @@ def run():
 		phone = mi.find('phone').text
 		phone_parsed = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
 
-		moc["name"]["first"] = firstname
-		if (middlename):
-			moc["name"]["middle"] = middlename
-		else:
-			if ("middle" in moc["name"]):
-				del moc["name"]["middle"]
-		moc["name"]["last"] = lastname
+		#for now, no automatic name updates since there is disagremeent on how to handle
+		# moc["name"]["first"] = firstname
+		# if (middlename):
+		# 	moc["name"]["middle"] = middlename
+		# else:
+		# 	if ("middle" in moc["name"]):
+		# 		del moc["name"]["middle"]
+		# moc["name"]["last"] = lastname
 
 		# TODO: leave if none?
 		if (officialname):
