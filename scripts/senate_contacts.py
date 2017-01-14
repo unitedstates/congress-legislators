@@ -35,7 +35,7 @@ def run():
 
 	print("Fetching general Senate information from senators_cfm.xml...")
 
-	url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
+	url = "https://www.senate.gov/general/contact_information/senators_cfm.xml"
 	body = download(url, "legislators/senate.xml", force)
 	dom = lxml.etree.parse(io.BytesIO(body.encode("utf8"))) # file has an <?xml declaration and so must be parsed as a bytes array
 	for node in dom.xpath("member"):
@@ -125,7 +125,7 @@ def run():
 
 	print("\n\nUpdating Senate stateRank and LIS ID from cvc_member_data.xml...")
 
-	url = "http://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
+	url = "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
 	body = download(url, "legislators/senate_cvc.xml", force)
 	dom = lxml.etree.parse(io.StringIO(body))
 	for node in dom.getroot():
