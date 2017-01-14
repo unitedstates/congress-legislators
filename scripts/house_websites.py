@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Uses http://house.gov/representatives/ to scrape official member websites.
+# Uses https://www.house.gov/representatives/ to scrape official member websites.
 # Only known source.
 
 # Assumptions:
@@ -37,7 +37,7 @@ def run():
         states.append(state)
 
   destination = "legislators/house.html"
-  url = "http://www.house.gov/representatives/"
+  url = "https://www.house.gov/representatives/"
   body = utils.download(url, destination, force)
   if not body:
     print("Couldn't download House listing!")
