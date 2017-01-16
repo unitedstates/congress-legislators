@@ -164,6 +164,7 @@ def check_id_types(legislator, seen_ids, is_legislator):
         error("Missing %s id in:\n%s" % (id_type, rtyaml.dump(legislator['id'])))
 
 def check_name(name, is_other_names=False):
+  # Check for required keys and data types of the values.
   for key, value in name.items():
     if key in ("start", "end") and is_other_names:
       if not isinstance(value, str):
@@ -179,6 +180,11 @@ def check_name(name, is_other_names=False):
       # those keys then.
       if not isinstance(value, (str, type(None))):
         error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+
+  # If a person as a first initial only, they should also have a middle name.
+  # (GovTrack relies on this to generate name strings.)
+  if isinstance(name.get("first"), str) and len(name["first"]) == 2 and name["first"].endswith(".") and not name.get("middle"):
+        error(rtyaml.dump(name) + " is missing a middle name to go with its first initial.")
 
 def check_bio(bio):
   for key, value in bio.items():
