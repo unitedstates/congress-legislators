@@ -76,7 +76,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
   with open(fn) as f:
     legislators = rtyaml.load(f)
   for legislator in legislators:
-    
+
     # Check the IDs.
     if "id" not in legislator:
       error(repr(legislator) + " is missing 'id'.")
@@ -256,7 +256,7 @@ def check_term(term, prev_term, current=None, current_mocs=None):
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
       error(rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
 
-    # TODO: Check party_affiliations, url, and office information.  
+    # TODO: Check party_affiliations, url, and office information.
 
 def report_vacancies(current_mocs):
   for state, apportionment in state_apportionment.items():
@@ -281,7 +281,7 @@ def check_executive_file(fn):
   with open(fn) as f:
     people = rtyaml.load(f)
   for person in people:
-    
+
     # Check the IDs.
     if "id" not in person:
       error(repr(person) + " is missing 'id'.")
@@ -291,7 +291,7 @@ def check_executive_file(fn):
 
     # Check the name.
     if "name" not in person:
-      error(repr(legislator) + " is missing 'name'.")
+      error(repr(person) + " is missing 'name'.")
     else:
       check_name(person["name"])
 
