@@ -15,7 +15,7 @@ def run():
       PREFIX wdt: <http://www.wikidata.org/prop/direct/>
       PREFIX schema: <http://schema.org/>
 
-      SELECT ?bio ?subject ?article ?freebase ?kg
+      SELECT ?bio ?subject ?article ?freebase ?kg ?opensecrets ?votesmart
       WHERE {
         ?subject wdt:P1157 ?bio .
         OPTIONAL {
@@ -23,6 +23,12 @@ def run():
         }
         OPTIONAL {
             ?subject wdt:P2671 ?kg     #google knowledge graph
+        }
+        OPTIONAL {
+            ?subject wdt:P2686 ?opensecrets
+        }
+        OPTIONAL {
+            ?subject wdt:P3344 ?votesmart
         }
         OPTIONAL {
             ?article schema:about ?subject .
@@ -39,11 +45,15 @@ def run():
     ret = {}
 
     for row in results['results']['bindings']:
-        goog_id = wikidata_id = wikipedia = kg = freebase = False
+        goog_id = wikidata_id = wikipedia = kg = freebase = opensecrets = votesmart = False
         rks = row.keys()
         bio = row['bio']['value']
         subject = row['subject']['value']
         article = row['article']['value']
+        if('votesmart' in rks):
+            votesmart = row['votesmart']['value']
+        if('opensecrets' in rks):
+            opensecrets = row['opensecrets']['value']
         if('freebase' in rks):
             freebase = row['freebase']['value']
         if('kg' in rks):
@@ -63,7 +73,7 @@ def run():
         if(m):
             wikipedia = m.group(1)
 
-        ret[bio] = [wikidata_id, goog_id, wikipedia]
+        ret[bio] = [wikidata_id, goog_id, wikipedia, opensecrets, votesmart]
         #print(bio, subject, wikidata_id, article, goog_id)
 
     # now loop through the legislators file matching on bio id
@@ -80,7 +90,7 @@ def run():
             print('not found')
             print(m)
             continue
-        (wikidata_id, goog_id, wikipedia) = ret[m['id']['bioguide']]
+        (wikidata_id, goog_id, wikipedia, opensecrets, votesmart) = ret[m['id']['bioguide']]
 
         if(wikipedia):
             m['id']['wikipedia'] = wikipedia
@@ -88,6 +98,10 @@ def run():
             m['id']['wikidata'] = wikidata_id
         if(goog_id):
             m['id']['google_entity_id'] = 'kg:' + goog_id
+        if(opensecrets):
+            m['id']['opensecrets'] = opensecrets
+        if(votesmart):
+            m['id']['votesmart'] = int(votesmart)
     save_data(y, "legislators-current.yaml")
 
 if __name__ == '__main__':
