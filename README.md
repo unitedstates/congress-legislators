@@ -35,7 +35,7 @@ The data is currently maintained both by hand and by some scripts in the `script
 
 ### Running the scripts
 
-You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.5**.
+You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.6**.
 
 [![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
 
@@ -193,8 +193,14 @@ Terms for senators list each six-year term, so the terms span three Congresses. 
 
 Historically, some states sending at-large representatives actually sent multiple at-large representatives. Thus, state and district may not be a unique key.
 
-Social Media Data Dictionary
-----------------------------
+Data on Official Social Media Accounts
+--------------------------------------
+
+This dataset is designed to include accounts that are paid for with public funds and which represent official communications of their office. We rely on reasonable verification from the legislative office about the status of their accounts.
+
+Offices are supposed to maintain strict separation of official funds and campaign funds, and official funds are not supposed to be used to further things like re-election efforts.
+
+In practice, a campaign account may often look similar to an official account in terms of content, especially when expressing views on issues and legislations. However, there will be differences in what's appropriate for each account, and they will likely be maintained by different staff employed by different organizations.
 
 The social media file `legislators-social-media.yaml` stores current social media account information.
 

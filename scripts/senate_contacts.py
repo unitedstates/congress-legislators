@@ -35,7 +35,7 @@ def run():
 
 	print("Fetching general Senate information from senators_cfm.xml...")
 
-	url = "http://www.senate.gov/general/contact_information/senators_cfm.xml"
+	url = "https://www.senate.gov/general/contact_information/senators_cfm.xml"
 	body = download(url, "legislators/senate.xml", force)
 	dom = lxml.etree.parse(io.BytesIO(body.encode("utf8"))) # file has an <?xml declaration and so must be parsed as a bytes array
 	for node in dom.xpath("member"):
@@ -97,9 +97,11 @@ def run():
 			# temporary home pages for new senators are relative links?
 
 			# hit the URL to resolve any redirects to get the canonical URL,
-			# since the listing on house.gov sometimes gives URLs that redirect.
+			# since the listing sometimes gives URLs that redirect.
 			try:
-				resp = urllib.request.urlopen(url)
+				req = urllib.request.Request(url)
+				req.add_header("User-Agent", "https://github.com/unitedstates/congress-legislators")
+				resp = urllib.request.urlopen(req)
 				url = resp.geturl()
 			except Exception as e:
 				print(url, e)
@@ -123,7 +125,7 @@ def run():
 
 	print("\n\nUpdating Senate stateRank and LIS ID from cvc_member_data.xml...")
 
-	url = "http://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
+	url = "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
 	body = download(url, "legislators/senate_cvc.xml", force)
 	dom = lxml.etree.parse(io.StringIO(body))
 	for node in dom.getroot():

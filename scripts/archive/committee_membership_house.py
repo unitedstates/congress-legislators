@@ -7,7 +7,7 @@
 import utils
 import json
 import copy
-from utils import download, load_data, save_data, parse_date, CURRENT_CONGRESS
+from utils import download, load_data, save_data
 
 committee_membership = { }
 
@@ -55,7 +55,7 @@ for committee in committees:
   committee_id = committee['id']
 
   committee_url = "http://api.nytimes.com/svc/politics/v3/us/legislative/congress/%i/house/committees/%s.json?api-key=%s" % (congress, committee_id, api_key)
-  
+
   # current disagreement between THOMAS and NYT (but use HSIG in URL above)
   if committee_id == "HSIG":
     committee_id = "HLIG"
@@ -72,8 +72,8 @@ for committee in committees:
   for member in members:
     bioguide_id = member['id']
 
-    print "[%s] %s" % (committee_id, bioguide_id)
-    
+    print("[{}] {}".format(committee_id, bioguide_id))
+
     if bioguide_id not in by_bioguide:
       continue
 
@@ -111,7 +111,7 @@ for committee in committees:
 # sort members to put majority party first, then order by rank
 # (fixing the order makes for better diffs)
 for c in committee_membership.values():
-  c.sort(key = lambda m : (m["party"]=="minority", m["rank"])
+  c.sort(key = lambda m : (m["party"]=="minority", m["rank"]))
 
 # preserve senate memberships
 senate_membership = {}
@@ -119,5 +119,5 @@ for committee_id in memberships_current:
   if not committee_id.startswith("H"):
     committee_membership[committee_id] = copy.deepcopy(memberships_current[committee_id])
 
-print "Saving committee memberships..."
+print("Saving committee memberships...")
 save_data(committee_membership, "committee-membership-current.yaml")

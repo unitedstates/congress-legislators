@@ -1,21 +1,22 @@
 #!/usr/bin/env python
 
-# Update current congressmen's mailing address from clerk.house.gov.
+# Update current congressmember's contact info from clerk XML feed
 
-import lxml.html, io
+import requests
+import lxml
 import re
 from datetime import datetime
-import utils
-from utils import download, load_data, save_data, parse_date
+
+from utils import load_data, save_data, parse_date
 
 def run():
 	today = datetime.now().date()
 
-	# default to not caching
-	cache = utils.flags().get('cache', False)
-	force = not cache
-
 	y = load_data("legislators-current.yaml")
+
+	# TODO use download util?
+	xml = requests.get("http://clerk.house.gov/xml/lists/MemberData.xml")
+	root=lxml.etree.fromstring(xml.content)
 
 	for moc in y:
 		try:
@@ -30,45 +31,63 @@ def run():
 			print("Member's last listed term is not current", moc, term["start"])
 			continue
 
-		# Specify districts e.g. WA-02 on the command line to only update those.
-		# if len(sys.argv) > 1 and ("%s-%02d" % (term["state"], term["district"])) not in sys.argv: continue
-
 		if "class" in term: del term["class"]
 
-		url = "http://clerk.house.gov/member_info/mem_contact_info.aspx?statdis=%s%02d" % (term["state"], term["district"])
-		cache = "legislators/house/%s%02d.html" % (term["state"], term["district"])
-		try:
-			# the meta tag say it's iso-8859-1, but... names are actually in utf8...
-			body = download(url, cache, force)
-			dom = lxml.html.parse(io.StringIO(body)).getroot()
-		except lxml.etree.XMLSyntaxError:
-			print("Error parsing: ", url)
-			continue
+		ssdd = "%s%02d" % (term["state"], term["district"])
 
-		name = str(dom.cssselect("#results h3")[0].text_content())
-		addressinfo = str(dom.cssselect("#results p")[0].text_content())
+		query_str = "./members/member/[statedistrict='%s']" % ssdd
+		# TODO: Follow up
+		query_str = query_str.replace("AS00", "AQ00")
+		#print(query_str)
 
-		# Sanity check that the name is similar.
-		if name != moc["name"].get("official_full", ""):
-			cfname = moc["name"]["first"] + " " + moc["name"]["last"]
-			print("Warning: Are these the same people?", name.encode("utf8"), "|", cfname.encode("utf8"))
+		mi = root.findall(query_str)[0].find('member-info')
 
-		# Parse the address out of the address p tag.
-		addressinfo = "; ".join(line.strip() for line in addressinfo.split("\n") if line.strip() != "")
-		m = re.match(r"[\w\s]+-(\d+(st|nd|rd|th)|At Large|Delegate|Resident Commissioner), ([A-Za-z]*)(.+); Phone: (.*)", addressinfo, re.DOTALL)
-		if not m:
-			print("Error parsing address info: ", name.encode("utf8"), ":", addressinfo.encode("utf8"))
-			continue
+		if (mi.find('bioguideID').text != moc['id']['bioguide']):
+			print("Warning: Bioguide ID did not match for %s%02d" % (term["state"], term["district"]))
 
-		address = m.group(4)
-		phone = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", m.group(5)) # replace (XXX) area code with XXX- for compatibility w/ existing format
+		# for now, no automatic name updates since there is disagremeent on how to handle
+		# firstname = mi.find('firstname').text
+		# middlename = mi.find('middlename').text #could be empty
+		# lastname = mi.find('lastname').text
 
-		office = address.split(";")[0].replace("HOB", "House Office Building")
+		#TODO: follow up, why no official name?
+		if mi.find('official-name') is None:
+			print("Warning: No official-name tag for %s" % ssdd)
+			officialname = None
+		else:
+			officialname = mi.find('official-name').text
 
-		moc["name"]["official_full"] = name
+		office_room = mi.find('office-room').text
+		office_building = mi.find('office-building').text
+
+		office_building_full = office_building.replace("RHOB", "Rayburn HOB")
+		office_building_full = office_building_full.replace("CHOB", "Cannon HOB")
+		office_building_full = office_building_full.replace("LHOB", "Longworth HOB")
+
+		office_zip = mi.find('office-zip').text
+		office_zip_suffix = mi.find('office-zip-suffix').text
+
+		office = "{} {}".format(office_room, office_building_full.replace("HOB", "House Office Building"))
+		address = "{} {}; Washington DC {}-{}".format(office_room, office_building_full, office_zip, office_zip_suffix)
+
+		phone = mi.find('phone').text
+		phone_parsed = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
+
+		#for now, no automatic name updates since there is disagremeent on how to handle
+		# moc["name"]["first"] = firstname
+		# if (middlename):
+		# 	moc["name"]["middle"] = middlename
+		# else:
+		# 	if ("middle" in moc["name"]):
+		# 		del moc["name"]["middle"]
+		# moc["name"]["last"] = lastname
+
+		# TODO: leave if none?
+		if (officialname):
+			moc["name"]["official_full"] = officialname
 		term["address"] = address
 		term["office"] = office
-		term["phone"] = phone
+		term["phone"] = phone_parsed
 
 	save_data(y, "legislators-current.yaml")
 

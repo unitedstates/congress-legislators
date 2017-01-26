@@ -1537,3 +1537,48 @@
     end: '2017-01-20'
     party: Democrat
     how: election
+- id:
+    bioguide: P000587
+    thomas: '01649'
+    govtrack: 400315
+    opensecrets: N00003765
+    votesmart: 34024
+    fec:
+    - H8IN02060
+    wikipedia: Mike Pence
+    house_history: 20013
+    icpsr: 20117
+    wikidata: Q24313
+    google_entity_id: kg:/m/022r9r
+  name:
+    first: Mike
+    last: Pence
+  bio:
+    birthday: '1959-06-07'
+    gender: M
+  terms:
+  - type: viceprez
+    start: '2017-01-20'
+    end: '2021-01-20'
+    party: Republican
+    how: election
+- id:
+    govtrack: 412733
+    opensecrets: N00023864
+    votesmart: 15723
+    fec:
+    - P80001571
+    wikipedia: Donald Trump
+  name:
+    first: Donald
+    middle: J.
+    last: Trump
+  bio:
+    birthday: '1946-06-14'
+    gender: M
+  terms:
+  - type: prez
+    start: '2017-01-20'
+    end: '2021-01-20'
+    party: Republican
+    how: election
