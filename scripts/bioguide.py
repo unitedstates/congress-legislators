@@ -23,7 +23,7 @@ def run():
 
     birthday = birthday_for(main)
     if not birthday:
-      print("[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8")))
+      print("[%s] NO BIRTHDAY :(\n\n%s" % (bioguide, main))
       warnings.append(bioguide)
       return
     if birthday == "UNKNOWN":
@@ -32,7 +32,7 @@ def run():
     try:
       birthday = datetime.datetime.strptime(birthday.replace(",", ""), "%B %d %Y")
     except ValueError:
-      print("[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main.encode("utf8")))
+      print("[%s] BAD BIRTHDAY :(\n\n%s" % (bioguide, main))
       warnings.append(bioguide)
       return
 
