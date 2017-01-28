@@ -122,7 +122,7 @@ def run():
           continue
 
         if found_name != moc['name']['official_full']:
-          print(("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())).encode("utf8"))
+          print("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content()))
 
         entry = OrderedDict()
         entry["name"] = moc['name']['official_full']
