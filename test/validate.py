@@ -256,7 +256,11 @@ def check_term(term, prev_term, current=None, current_mocs=None):
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
       error(rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
 
-    # TODO: Check party_affiliations, url, and office information.
+    # Check website -- optional.
+    if not term.get("url"):
+      print(rtyaml.dump(term) + " is missing a website url.")
+
+    # TODO: Check party_affiliations and office information.
 
 def report_vacancies(current_mocs):
   for state, apportionment in state_apportionment.items():
