@@ -111,6 +111,14 @@ def run():
 
 			term["url"] = url
 
+		#contact forms from the XML are not totally reliable
+		contact_form = str(node.xpath("string(email)")).strip()
+		if "contact_form" in term:
+			if not term["contact_form"] == contact_form:
+				print("Contact form mismatch: {} -> {}".format(term['contact_form'], contact_form))
+		else:
+			term['contact_form'] = contact_form
+
 		term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
 		term["office"] = string.capwords(term["address"].upper().split(" WASHINGTON ")[0])
 
