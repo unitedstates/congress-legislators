@@ -35,7 +35,7 @@ The data is currently maintained both by hand and by some scripts in the `script
 
 ### Running the scripts
 
-You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.5**.
+You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.6**.
 
 [![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
 

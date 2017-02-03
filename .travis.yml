@@ -1,7 +1,7 @@
 language: python
 
 python:
-  - 3.5
+  - 3.6
 
 os:
   - linux
@@ -11,7 +11,7 @@ sudo: false
 install: pip install -r scripts/requirements.txt
 script:
  - python test/workout.py
- - pyflakes scripts/*.py
+ - pyflakes .
  - python test/are_files_linted.py
  - python test/validate.py
 
