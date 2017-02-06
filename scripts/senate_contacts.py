@@ -111,23 +111,15 @@ def run():
 
 			term["url"] = url
 
-		#contact forms from the XML are not totally reliable
+		#contact forms aren't heavly used, copy from XML without checks
 		contact_form = str(node.xpath("string(email)")).strip()
-		if "contact_form" in term:
-			if not term["contact_form"] == contact_form:
-				print("Contact form mismatch: {} -> {}".format(term['contact_form'], contact_form))
-		else:
-			term['contact_form'] = contact_form
+		term['contact_form'] = contact_form
 
 		term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
 		term["office"] = string.capwords(term["address"].upper().split(" WASHINGTON ")[0])
 
 		phone = str(node.xpath("string(phone)")).strip()
 		term["phone"] = phone.replace("(", "").replace(")", "").replace(" ", "-")
-
-		#contact_form = str(node.xpath("string(email)")).strip().replace(".Senate.gov", ".senate.gov")
-		#if contact_form: # can be blank
-		#	term["contact_form"] = contact_form
 
 
 
