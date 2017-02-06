@@ -1,7 +1,5 @@
 #print out leadership roles for manual review
 
-import os, sys
-from datetime import date, datetime
 import rtyaml
 import utils
 
