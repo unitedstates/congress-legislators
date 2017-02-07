@@ -111,7 +111,7 @@ def run():
 
 			term["url"] = url
 
-		#contact forms aren't heavly used, copy from XML without checks
+		#contact forms aren't heavily used, copy from XML without checks
 		contact_form = str(node.xpath("string(email)")).strip()
 		term['contact_form'] = contact_form
 
