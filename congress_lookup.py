@@ -11,7 +11,7 @@ __author__ = 'stsmith'
 
 # Author 2017 Steven T. Smith <steve dot t dot smith at gmail dot com>
 
-import argparse as ap, contextlib, errno, fnmatch, os, urllib2, urlparse, yaml
+import argparse as ap, contextlib, fnmatch, os, urllib2, urlparse, warnings, yaml
 
 class CongressLookup:
     '''A class used to lookup legislator properties from the github congress-legislators YAML database.'''
@@ -30,8 +30,8 @@ class CongressLookup:
         parser.add_argument('-c', '--committee', help="Committee name (wildcard)", type=str, default=None)
         parser.add_argument('-n', '--last-name', help="Last name of legislator (wildcard)", type=str, default=None)
         parser.add_argument('-d', '--data-dir', help="Database directory", type=str, default='.')
-        parser.add_argument('-r', '--repo', help="GitHub repo URL", type=str, default='https://github.com/essandess/congress-legislators/')
-        parser.add_argument('-D', '--download', help="Download data", action='store_true', default=True)
+        parser.add_argument('-r', '--repo', help="GitHub repo URL", type=str, default='https://github.com/unitedstates/congress-legislators/')
+        parser.add_argument('-D', '--download', help="Download data", action='store_true', default=False)
         parser.add_argument('-g', '--debug', help="Debug flag", action='store_true')
         return parser.parse_args()
 
@@ -49,11 +49,11 @@ class CongressLookup:
             for member in members: self.lookup_by_member(property,member)
 
     def inclusive_wildcard_match(self,name,pat):
-        if any(c in pat for c in '*?[]'):	# a wildcard pattern
+        if any(c in pat for c in '*?[]'):       # a wildcard pattern
             # prepend or append a * for inclusiveness if not already there
             if pat[0] is not '*': pat = '*' + pat
             if pat[-1] is not '*': pat = pat + '*'
-        else:					# not a wildcard
+        else:                                   # not a wildcard
             pat = '*' + pat + '*'
         return fnmatch.fnmatch(name,pat)
 
@@ -81,20 +81,25 @@ class CongressLookup:
 
     def database_load(self):
         try:
-	    with self.database_access('legislators-current.yaml') as y:
-    	        self.legislators = yaml.load(y, Loader=yaml.CLoader)
+            with self.database_access('legislators-current.yaml') as y:
+                self.legislators = self.yaml_load(y, Loader=yaml.CLoader)
             with self.database_access('legislators-district-offices.yaml') as y:
-                self.offices = yaml.load(y, Loader=yaml.CLoader)
+                self.offices = self.yaml_load(y, Loader=yaml.CLoader)
             if self.args.committee is not None:
                 with self.database_access('committees-current.yaml') as y:
-                    self.committees = yaml.load(y, Loader=yaml.CLoader)
+                    self.committees = self.yaml_load(y, Loader=yaml.CLoader)
                 with self.database_access('committee-membership-current.yaml') as y:
-                    self.membership = yaml.load(y, Loader=yaml.CLoader)
+                    self.membership = self.yaml_load(y, Loader=yaml.CLoader)
             else:
                 self.committees = None
         except (BaseException,IOError) as e:
             print(e)
-            raise Exception('Clone data from {} and copy it to {}.'.format(self.args.repo,self.data_path))
+            raise Exception('Clone data from {} and copy it to {} .'.format(self.args.repo,self.data_path))
+
+    def yaml_load(self,y,Loader=yaml.loader.Loader):
+        res = yaml.load(y, Loader=Loader)
+        if res is None: res = []  # make it an empty iterable
+        return res
 
     def database_access(self,filename):
         if self.args.download:
@@ -103,8 +108,22 @@ class CongressLookup:
             # contextlib required for urlopen in with ... as for v < 3.3
             res = contextlib.closing(urllib2.urlopen( urlparse.urljoin(url_base,filename) ))
         else:
-            res = open(os.path.join(self.data_path,filename),'r')
-        return res        
+            fname_fullpath = os.path.join(self.data_path,filename)
+            if os.path.exists(fname_fullpath):
+                res = open(fname_fullpath,'r')
+            else:
+                warnings.warn('File {} doesn\'t exist; clone data from {} and copy it to {} .'.format(filename,self.args.repo,self.data_path))
+                res = self.Emptysource()
+        return res
+
+    class Emptysource(object):
+        def read(self, size):
+            return ''  # empty
+        def write(self, data):
+            pass  # ignore the data
+        def __enter__(self): return self
+        def __exit__(*x): pass
+
 
 if __name__ == "__main__":
     res = CongressLookup()
