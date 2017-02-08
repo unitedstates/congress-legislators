@@ -91,7 +91,7 @@
     address: 713 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2315
     fax: 202-228-6321
-    contact_form: http://www.brown.senate.gov/contact
+    contact_form: http://www.brown.senate.gov/contact/
     office: 713 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.brown.senate.gov/rss/feeds/?type=all&amp;
@@ -416,7 +416,7 @@
     address: 393 Russell Senate Office Building Washington DC 20510
     phone: 202-224-6324
     fax: 202-228-0604
-    contact_form: http://www.casey.senate.gov/contact/
+    contact_form: https://www.casey.senate.gov/contact/
     office: 393 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.casey.senate.gov/rss/feeds/?all
@@ -467,7 +467,7 @@
     address: 425 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-3344
     fax: 202-228-0566
-    contact_form: http://www.corker.senate.gov/public/index.cfm/emailme
+    contact_form: https://www.corker.senate.gov/public/index.cfm/emailme
     office: 425 Dirksen Senate Office Building
     state_rank: junior
     rss_url: http://www.corker.senate.gov/public/index.cfm/rss/feed
@@ -725,7 +725,7 @@
     address: 730 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6154
     fax: 202-228-6326
-    contact_form: http://www.mccaskill.senate.gov/?p=contact
+    contact_form: http://www.mccaskill.senate.gov/contact
     office: 730 Hart Senate Office Building
     state_rank: senior
     rss_url: http://mccaskill.senate.gov/rss/?p=news
@@ -832,7 +832,7 @@
     address: 528 Hart Senate Office Building Washington DC 20510
     phone: 202-224-4744
     fax: 202-228-2197
-    contact_form: http://www.menendez.senate.gov/contact
+    contact_form: https://www.menendez.senate.gov/contact
     office: 528 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.menendez.senate.gov/rss/feeds/index.cfm?type=news
@@ -927,7 +927,7 @@
     address: 716 Hart Senate Office Building Washington DC 20510
     phone: 202-224-5274
     fax: 202-228-2183
-    contact_form: http://www.billnelson.senate.gov/contact-bill
+    contact_form: https://www.billnelson.senate.gov/contact-bill
     office: 716 Hart Senate Office Building
     state_rank: senior
 - id:
@@ -1031,7 +1031,7 @@
     address: 332 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-5141
     fax: 202-228-0776
-    contact_form: http://www.sanders.senate.gov/contact/comment
+    contact_form: http://www.sanders.senate.gov/contact/
     office: 332 Dirksen Senate Office Building
     state_rank: junior
     rss_url: http://www.sanders.senate.gov/rss/
@@ -1154,7 +1154,7 @@
     address: 311 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2644
     fax: 202-224-8594
-    contact_form: http://www.tester.senate.gov/?p=email_senator
+    contact_form: https://www.tester.senate.gov/?p=email_senator
     office: 311 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.tester.senate.gov/rss/?p=hot_topic
@@ -1204,7 +1204,7 @@
     address: 530 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2921
     fax: 202-228-6362
-    contact_form: http://www.whitehouse.senate.gov/contact
+    contact_form: https://www.whitehouse.senate.gov/contact/email-sheldon
     office: 530 Hart Senate Office Building
     state_rank: junior
     rss_url: http://www.whitehouse.senate.gov/rss/feeds/?type=all&amp;cachebuster=1
@@ -1255,7 +1255,7 @@
     address: 307 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-6441
     fax: 202-224-1724
-    contact_form: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=ContactUs.ContactForm
+    contact_form: https://www.barrasso.senate.gov/public/index.cfm/contact-form
     office: 307 Dirksen Senate Office Building
     state_rank: junior
     rss_url: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=Rss.Feed
@@ -1354,7 +1354,7 @@
     address: 555 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-6253
     fax: 202-228-0378
-    contact_form: http://www.wicker.senate.gov/public/index.cfm/contact
+    contact_form: https://www.wicker.senate.gov/public/index.cfm/contact
     office: 555 Dirksen Senate Office Building
     state_rank: junior
 - id:
@@ -1517,7 +1517,7 @@
     address: 113 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-5054
     fax: 202-224-9450
-    contact_form: http://www.cochran.senate.gov/public/index.cfm/email-me
+    contact_form: https://www.cochran.senate.gov/public/index.cfm/email-me
     office: 113 Dirksen Senate Office Building
     state_rank: senior
     rss_url: http://www.cochran.senate.gov/public/index.cfm/rss/feed
@@ -1585,7 +1585,7 @@
     address: 413 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-2523
     fax: 202-224-2693
-    contact_form: http://www.collins.senate.gov/public/index.cfm/email
+    contact_form: http://www.collins.senate.gov/contact
     office: 413 Dirksen Senate Office Building
     state_rank: senior
     rss_url: http://www.collins.senate.gov/public/?a=rss.feed
@@ -1621,6 +1621,10 @@
   - title: Majority Whip
     chamber: senate
     start: '2015-01-03'
+    end: '2017-01-03'
+  - title: Majority Whip
+    chamber: senate
+    start: '2017-01-03'
   terms:
   - type: sen
     start: '2002-01-01'
@@ -1659,7 +1663,7 @@
     address: 517 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2934
     fax: 202-228-2856
-    contact_form: http://www.cornyn.senate.gov/public/index.cfm?p=ContactForm
+    contact_form: https://www.cornyn.senate.gov/contact
     office: 517 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.cornyn.senate.gov/public/?a=rss.feed
@@ -1714,6 +1718,10 @@
   - title: Minority Whip
     chamber: senate
     start: '2015-01-03'
+    end: '2017-01-03'
+  - title: Minority Whip
+    chamber: senate
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1794,7 +1802,7 @@
     address: 711 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2152
     fax: 202-228-0400
-    contact_form: http://www.durbin.senate.gov/public/index.cfm/contact
+    contact_form: https://www.durbin.senate.gov/contact/
     office: 711 Hart Senate Office Building
     state_rank: senior
     rss_url: http://durbin.senate.gov/public/index.cfm/rss/feed
@@ -1944,11 +1952,11 @@
     state: SC
     class: 2
     party: Republican
-    url: http://www.lgraham.senate.gov/public
+    url: https://www.lgraham.senate.gov/public
     address: 290 Russell Senate Office Building Washington DC 20510
     phone: 202-224-5972
     fax: 202-224-3808
-    contact_form: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Contact.EmailSenatorGraham
+    contact_form: https://www.lgraham.senate.gov/public/index.cfm/e-mail-senator-graham
     office: 290 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed
@@ -2048,7 +2056,7 @@
     address: 205 Russell Senate Office Building Washington DC 20510
     phone: 202-224-4721
     fax: 202-228-0380
-    contact_form: http://www.inhofe.senate.gov/contact
+    contact_form: https://www.inhofe.senate.gov/contact
     office: 205 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.inhofe.senate.gov/rss/feeds/?type=all&amp;cachebuster=eea6c4d7%2d939c%2d5c1e%2db6c7aa3b8b291208
@@ -2096,6 +2104,10 @@
   - title: Majority Leader
     chamber: senate
     start: '2015-01-03'
+    end: '2017-01-03'
+  - title: Majority Leader
+    chamber: senate
+    start: '2017-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -2146,7 +2158,7 @@
     address: 317 Russell Senate Office Building Washington DC 20510
     phone: 202-224-2541
     fax: 202-224-2499
-    contact_form: http://www.mcconnell.senate.gov/public/index.cfm?p=ContactForm
+    contact_form: http://www.mcconnell.senate.gov/public/index.cfm?p=contact
     office: 317 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.mcconnell.senate.gov/public/?a=rss.feed
@@ -2286,7 +2298,7 @@
     address: 728 Hart Senate Office Building Washington DC 20510
     phone: 202-224-4642
     fax: 202-224-4680
-    contact_form: http://www.reed.senate.gov/contact/
+    contact_form: https://www.reed.senate.gov/contact/
     office: 728 Hart Senate Office Building
     state_rank: senior
     rss_url: https://www.reed.senate.gov//rss/feeds/?type=all
@@ -2452,7 +2464,7 @@
     address: 109 Hart Senate Office Building Washington DC 20510
     phone: 202-224-4774
     fax: 202-224-3514
-    contact_form: http://www.roberts.senate.gov/public/index.cfm?p=EmailPat
+    contact_form: https://www.roberts.senate.gov/public/?p=EmailPat
     office: 109 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.roberts.senate.gov/public/?a=rss.feed
@@ -2572,7 +2584,7 @@
     url: https://www.shaheen.senate.gov
     address: 506 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2841
-    contact_form: http://www.shaheen.senate.gov/contact/
+    contact_form: https://www.shaheen.senate.gov/contact/contact-jeanne
     office: 506 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.shaheen.senate.gov/rss/
@@ -2661,7 +2673,7 @@
     url: http://www.tomudall.senate.gov
     address: 531 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6621
-    contact_form: http://www.tomudall.senate.gov/?p=contact
+    contact_form: https://www.tomudall.senate.gov/?p=contact
     office: 531 Hart Senate Office Building
     state_rank: senior
     rss_url: http://tomudall.senate.gov/rss/?p=blog
@@ -2723,7 +2735,7 @@
     address: 475 Russell Senate Office Building Washington DC 20510
     phone: 202-224-2023
     fax: 202-224-6295
-    contact_form: http://www.warner.senate.gov/public//index.cfm?p=ContactPage#form_f9db6196-2dc7-4cda-8add-f8435a71318a
+    contact_form: http://www.warner.senate.gov/public/index.cfm?p=Contact
     office: 475 Russell Senate Office Building
     state_rank: senior
     rss_url: http://www.warner.senate.gov/public/?a=rss.feed
@@ -2843,7 +2855,7 @@
     url: https://www.franken.senate.gov
     address: 309 Hart Senate Office Building Washington DC 20510
     phone: 202-224-5641
-    contact_form: http://www.franken.senate.gov/?p=email_al
+    contact_form: https://www.franken.senate.gov/?p=contact
     office: 309 Hart Senate Office Building
     state_rank: junior
     rss_url: http://franken.senate.gov/rss/?p=hot_topic
@@ -2895,7 +2907,7 @@
     url: https://www.coons.senate.gov
     address: 127A Russell Senate Office Building Washington DC 20510
     phone: 202-224-5042
-    contact_form: http://www.coons.senate.gov/contact/
+    contact_form: https://www.coons.senate.gov/contact
     office: 127a Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.coons.senate.gov/rss/feeds/?type=all
@@ -3227,11 +3239,11 @@
     party: Democrat
     class: 1
     url: https://www.baldwin.senate.gov
-    address: 717 Hart Washington DC 20510
+    address: 709 Hart Washington DC 20510
     phone: 202-224-5653
     fax: 202-225-6942
-    contact_form: http://www.baldwin.senate.gov/contact
-    office: 717 Hart
+    contact_form: https://www.baldwin.senate.gov/feedback
+    office: 709 Hart
     state_rank: junior
     rss_url: http://www.baldwin.senate.gov/rss/feeds/?type=all
 - id:
@@ -3592,6 +3604,7 @@
     address: 261 Russell Senate Office Building Washington DC 20510
     office: 261 Russell Senate Office Building
     phone: 202-224-5852
+    contact_form: https://www.bennet.senate.gov/?p=contact
 - id:
     bioguide: B001257
     thomas: '01838'
@@ -4267,6 +4280,7 @@
     address: 706 Hart Senate Office Building Washington DC 20510
     office: 706 Hart Senate Office Building
     phone: 202-224-2823
+    contact_form: https://www.blumenthal.senate.gov/contact/
 - id:
     bioguide: B000575
     thomas: '01464'
@@ -4366,6 +4380,7 @@
     address: 260 Russell Senate Office Building Washington DC 20510
     office: 260 Russell Senate Office Building
     phone: 202-224-5721
+    contact_form: https://www.blunt.senate.gov/public/index.cfm/contact-roy
 - id:
     bioguide: B001236
     thomas: '01687'
@@ -4452,6 +4467,7 @@
     address: 141 Hart Senate Office Building Washington DC 20510
     office: 141 Hart Senate Office Building
     phone: 202-224-4843
+    contact_form: https://www.boozman.senate.gov/public/index.cfm/contact
 - id:
     bioguide: B001245
     thomas: '01723'
@@ -5218,6 +5234,7 @@
     address: 217 Russell Senate Office Building Washington DC 20510
     office: 217 Russell Senate Office Building
     phone: 202-224-3154
+    contact_form: https://www.burr.senate.gov/contact/email
 - id:
     bioguide: B001251
     thomas: '01761'
@@ -5552,6 +5569,7 @@
     address: 172 Russell Senate Office Building Washington DC 20510
     office: 172 Russell Senate Office Building
     phone: 202-224-6472
+    contact_form: https://www.capito.senate.gov/contact/contact-shelley
   family:
   - name: Arch Alfred Moore Jr.
     relation: daughter
@@ -5930,6 +5948,7 @@
     address: 703 Hart Senate Office Building Washington DC 20510
     office: 703 Hart Senate Office Building
     phone: 202-224-5824
+    contact_form: https://www.cassidy.senate.gov/contact
 - id:
     bioguide: C001066
     thomas: '01839'
@@ -7859,6 +7878,7 @@
     address: 239 Dirksen Senate Office Building Washington DC 20510
     office: 239 Dirksen Senate Office Building
     phone: 202-224-6142
+    contact_form: http://www.crapo.senate.gov/contact/email.cfm
 - id:
     bioguide: C001087
     thomas: '01989'
@@ -9623,7 +9643,7 @@
     address: 720 Hart Senate Office Building Washington DC 20510
     phone: 202-224-4814
     fax: 202-225-6798
-    contact_form: http://www.donnelly.senate.gov/contact/email-joe
+    contact_form: https://www.donnelly.senate.gov/contact/email-joe
     office: 720 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.donnelly.senate.gov/rss/feeds/?type=all
@@ -10571,7 +10591,7 @@
     address: 413 Russell Senate Office Building Washington DC 20510
     phone: 202-224-4521
     fax: 202-226-4386
-    contact_form: http://www.flake.senate.gov/contact.cfm
+    contact_form: https://www.flake.senate.gov/public/index.cfm/contact-jeff
     office: 413 Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.flake.senate.gov/public/index.cfm/rss/feed
@@ -11369,6 +11389,7 @@
     address: 354 Russell Senate Office Building Washington DC 20510
     office: 354 Russell Senate Office Building
     phone: 202-224-5941
+    contact_form: https://www.gardner.senate.gov/contact-cory/email-cory
 - id:
     bioguide: G000563
     thomas: '02049'
@@ -12038,6 +12059,7 @@
     address: 135 Hart Senate Office Building Washington DC 20510
     office: 135 Hart Senate Office Building
     phone: 202-224-3744
+    contact_form: http://www.grassley.senate.gov/contact
 - id:
     bioguide: G000546
     thomas: '01656'
@@ -13251,7 +13273,7 @@
     address: 303 Hart Senate Office Building Washington DC 20510
     phone: 202-224-5521
     fax: 202-225-4975
-    contact_form: http://www.heinrich.senate.gov/contact/write-martin
+    contact_form: http://www.heinrich.senate.gov/contact
     office: 303 Hart Senate Office Building
     state_rank: junior
 - id:
@@ -13665,7 +13687,7 @@
     address: 330 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6361
     fax: 202-225-4987
-    contact_form: http://www.hirono.senate.gov/contact/email
+    contact_form: https://www.hirono.senate.gov/contact
     office: 330 Hart Senate Office Building
     state_rank: junior
     rss_url: http://www.hirono.senate.gov/rss/feeds/?type=all
@@ -13719,6 +13741,7 @@
     address: 338 Russell Senate Office Building Washington DC 20510
     office: 338 Russell Senate Office Building
     phone: 202-224-2551
+    contact_form: http://www.hoeven.senate.gov/public/index.cfm/email-the-senator
 - id:
     bioguide: H000874
     thomas: '00566'
@@ -13764,6 +13787,10 @@
   - title: Minority Whip
     chamber: house
     start: '2015-01-06'
+    end: '2017-01-03'
+  - title: Minority Whip
+    chamber: house
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -14216,6 +14243,7 @@
     address: 131 Russell Senate Office Building Washington DC 20510
     office: 131 Russell Senate Office Building
     phone: 202-224-3643
+    contact_form: https://www.isakson.senate.gov/public/index.cfm/email-me
 - id:
     bioguide: I000056
     thomas: '01640'
@@ -14869,11 +14897,12 @@
     class: 3
     state_rank: senior
     party: Republican
-    url: http://www.ronjohnson.senate.gov
+    url: https://www.ronjohnson.senate.gov
     rss_url: http://www.ronjohnson.senate.gov/public/index.cfm/rss/feed
     address: 328 Hart Senate Office Building Washington DC 20510
     office: 328 Hart Senate Office Building
     phone: 202-224-5323
+    contact_form: https://www.ronjohnson.senate.gov/public/index.cfm/email-the-senator
 - id:
     bioguide: J000174
     thomas: '00603'
@@ -16386,6 +16415,7 @@
     address: 316 Hart Senate Office Building Washington DC 20510
     office: 316 Hart Senate Office Building
     phone: 202-224-5754
+    contact_form: http://www.lankford.senate.gov/contact/email
 - id:
     bioguide: L000560
     thomas: '01675'
@@ -16787,6 +16817,7 @@
     address: 437 Russell Senate Office Building Washington DC 20510
     office: 437 Russell Senate Office Building
     phone: 202-224-4242
+    contact_form: https://www.leahy.senate.gov/contact/
 - id:
     bioguide: L000551
     thomas: '01501'
@@ -16950,11 +16981,12 @@
     class: 3
     state_rank: junior
     party: Republican
-    url: http://www.lee.senate.gov/public
+    url: https://www.lee.senate.gov/public
     rss_url: http://www.lee.senate.gov/public/index.cfm/rss/feed
     address: 361A Russell Senate Office Building Washington DC 20510
     office: 361a Russell Senate Office Building
     phone: 202-224-5444
+    contact_form: https://www.lee.senate.gov/public/index.cfm/contact
 - id:
     bioguide: L000263
     thomas: '00683'
@@ -18814,7 +18846,7 @@
     phone: 202-224-2742
     office: 255 Dirksen Senate Office Building
     address: 255 Dirksen Senate Office Building Washington DC 20510
-    contact_form: http://www.markey.senate.gov/contact
+    contact_form: https://www.markey.senate.gov/contact
 - id:
     bioguide: M001163
     thomas: '01814'
@@ -19001,6 +19033,7 @@
     address: 218 Russell Senate Office Building Washington DC 20510
     office: 218 Russell Senate Office Building
     phone: 202-224-2235
+    contact_form: https://www.mccain.senate.gov/public/index.cfm/contact-form
 - id:
     bioguide: M001165
     thomas: '01833'
@@ -19041,6 +19074,10 @@
   - title: Majority Leader
     chamber: house
     start: '2015-01-06'
+    end: '2017-01-03'
+  - title: Majority Leader
+    chamber: house
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '2007-01-04'
@@ -20238,6 +20275,7 @@
     address: 521 Dirksen Senate Office Building Washington DC 20510
     office: 521 Dirksen Senate Office Building
     phone: 202-224-6521
+    contact_form: https://www.moran.senate.gov/public/index.cfm/e-mail-jerry
 - id:
     bioguide: M001182
     thomas: '02059'
@@ -20377,6 +20415,7 @@
     address: 522 Hart Senate Office Building Washington DC 20510
     office: 522 Hart Senate Office Building
     phone: 202-224-6665
+    contact_form: https://www.murkowski.senate.gov/public/index.cfm/contact
   family:
   - name: Frank Hughes Murkowski
     relation: daughter
@@ -20620,6 +20659,7 @@
     address: 154 Russell Senate Office Building Washington DC 20510
     office: 154 Russell Senate Office Building
     phone: 202-224-2621
+    contact_form: http://www.murray.senate.gov/public/index.cfm/contactme
 - id:
     bioguide: N000002
     thomas: '00850'
@@ -21802,6 +21842,7 @@
     address: 167 Russell Senate Office Building Washington DC 20510
     office: 167 Russell Senate Office Building
     phone: 202-224-4343
+    contact_form: https://www.paul.senate.gov/connect/email-rand
   family:
   - name: Ronald Ernest Paul
     relation: son
@@ -22014,6 +22055,10 @@
   - title: Minority Leader
     chamber: house
     start: '2015-01-06'
+    end: '2017-01-03'
+  - title: Minority Leader
+    chamber: house
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -22300,6 +22345,7 @@
     address: 724 Hart Senate Office Building Washington DC 20510
     office: 724 Hart Senate Office Building
     phone: 202-224-6221
+    contact_form: https://www.peters.senate.gov/contact/email-gary
 - id:
     bioguide: P000258
     thomas: '00910'
@@ -22792,6 +22838,7 @@
     address: 448 Russell Senate Office Building Washington DC 20510
     office: 448 Russell Senate Office Building
     phone: 202-224-3353
+    contact_form: https://www.portman.senate.gov/public/index.cfm/contact?p=contact-form
 - id:
     bioguide: P000599
     thomas: '01915'
@@ -24848,6 +24895,7 @@
     address: 284 Russell Senate Office Building Washington DC 20510
     office: 284 Russell Senate Office Building
     phone: 202-224-3041
+    contact_form: http://www.rubio.senate.gov/public/index.cfm/contact
 - id:
     bioguide: R000576
     thomas: '01728'
@@ -25112,6 +25160,10 @@
   - title: Speaker
     chamber: house
     start: '2015-10-28'
+    end: '2017-01-03'
+  - title: Speaker
+    chamber: house
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '1999-01-06'
@@ -25514,6 +25566,10 @@
   - title: Majority Whip
     chamber: house
     start: '2015-01-06'
+    end: '2017-01-03'
+  - title: Majority Whip
+    chamber: house
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '2008-05-07'
@@ -25910,6 +25966,10 @@
     birthday: '1950-11-23'
     gender: M
     religion: Jewish
+  leadership_roles:
+  - title: Minority Leader
+    chamber: senate
+    start: '2017-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -26003,6 +26063,7 @@
     address: 322 Hart Senate Office Building Washington DC 20510
     office: 322 Hart Senate Office Building
     phone: 202-224-6542
+    contact_form: https://www.schumer.senate.gov/contact/email-chuck
 - id:
     bioguide: S001183
     thomas: '01994'
@@ -26460,6 +26521,7 @@
     address: 520 Hart Senate Office Building Washington DC 20510
     office: 520 Hart Senate Office Building
     phone: 202-224-6121
+    contact_form: https://www.scott.senate.gov/contact/email-me
 - id:
     bioguide: S000244
     thomas: '01041'
@@ -27084,6 +27146,7 @@
     address: 304 Russell Senate Office Building Washington DC 20510
     office: 304 Russell Senate Office Building
     phone: 202-224-5744
+    contact_form: https://www.shelby.senate.gov/public/index.cfm/emailsenatorshelby
 - id:
     bioguide: S000344
     thomas: '01526'
@@ -29104,11 +29167,12 @@
     class: 3
     state_rank: senior
     party: Republican
-    url: http://www.thune.senate.gov
+    url: https://www.thune.senate.gov
     rss_url: http://www.thune.senate.gov/public/index.cfm/rss/feed
     address: 511 Dirksen Senate Office Building Washington DC 20510
     office: 511 Dirksen Senate Office Building
     phone: 202-224-2321
+    contact_form: http://www.thune.senate.gov/public/index.cfm/contact
 - id:
     bioguide: T000462
     thomas: '01664'
@@ -29444,6 +29508,7 @@
     address: 248 Russell Senate Office Building Washington DC 20510
     office: 248 Russell Senate Office Building
     phone: 202-224-4254
+    contact_form: https://www.toomey.senate.gov/?p=contact
 - id:
     bioguide: T000465
     thomas: '01884'
@@ -29893,6 +29958,7 @@
     office: B40c Dirksen Senate Office Building
     phone: 202-224-4654
     url: https://www.vanhollen.senate.gov
+    contact_form: https://www.vanhollen.senate.gov/content/contact-senator
 - id:
     bioguide: V000081
     thomas: '01184'
@@ -31389,6 +31455,7 @@
     address: 221 Dirksen Senate Office Building Washington DC 20510
     office: 221 Dirksen Senate Office Building
     phone: 202-224-5244
+    contact_form: https://www.wyden.senate.gov/contact/
 - id:
     bioguide: Y000062
     thomas: '01853'
@@ -31814,6 +31881,7 @@
     office: B33 Russell Senate Office Building
     phone: 202-224-5623
     url: https://www.young.senate.gov
+    contact_form: https://www.young.senate.gov/content/contact-senator
 - id:
     bioguide: H001041
     thomas: '01863'
@@ -32312,6 +32380,7 @@
     address: 722 Hart Senate Office Building Washington DC 20510
     office: 722 Hart Senate Office Building
     phone: 202-224-3934
+    contact_form: https://www.schatz.senate.gov/contact
 - id:
     bioguide: F000454
     thomas: '01888'
@@ -32503,6 +32572,7 @@
     address: 124 Russell Senate Office Building Washington DC 20510
     office: 124 Russell Senate Office Building
     phone: 202-224-2353
+    contact_form: http://www.cotton.senate.gov/?p=contact
 - id:
     govtrack: 412509
     bioguide: S001191
@@ -33765,6 +33835,7 @@
     office: G12 Dirksen Senate Office Building
     phone: 202-224-2854
     url: https://www.duckworth.senate.gov
+    contact_form: https://www.duckworth.senate.gov/content/contact-senator
 - id:
     govtrack: 412536
     bioguide: D000619
@@ -34164,7 +34235,7 @@
     phone: 202-224-4543
     fax: 202-228-2072
     state_rank: senior
-    contact_form: http://www.warren.senate.gov/?p=email_senator#thisForm
+    contact_form: https://www.warren.senate.gov/?p=email_senator
     rss_url: http://www.warren.senate.gov/rss/?p=hot_topic
 - id:
     govtrack: 412543
@@ -34335,7 +34406,7 @@
     office: 133 Hart Senate Office Building
     phone: 202-224-5344
     state_rank: junior
-    contact_form: http://www.king.senate.gov/contact
+    contact_form: https://www.king.senate.gov/contact
     rss_url: http://www.king.senate.gov/rss/feeds/?type=all
     fax: 202-224-1946
 - id:
@@ -34588,6 +34659,7 @@
     office: 320 Hart Senate Office Building
     phone: 202-224-2651
     fax: 202-228-1236
+    contact_form: https://www.daines.senate.gov/connect/email-steve
 - id:
     govtrack: 412550
     bioguide: H001067
@@ -34863,7 +34935,7 @@
     office: 110 Hart Senate Office Building
     phone: 202-224-2043
     state_rank: junior
-    contact_form: http://www.heitkamp.senate.gov/public/index.cfm/email-heidi
+    contact_form: http://www.heitkamp.senate.gov/public/index.cfm/contact
     rss_url: http://www.heitkamp.senate.gov/public/index.cfm/rss/feed
     fax: 202-224-7776
 - id:
@@ -34963,7 +35035,7 @@
     office: 454 Russell Senate Office Building
     phone: 202-224-6551
     state_rank: senior
-    contact_form: http://www.fischer.senate.gov/public/?p=email-deb
+    contact_form: http://www.fischer.senate.gov/public/index.cfm/contact
     rss_url: http://www.fischer.senate.gov/public/index.cfm/rss/feed
     fax: 202-228-1325
 - id:
@@ -36357,7 +36429,7 @@
     office: 231 Russell Senate Office Building
     phone: 202-224-4024
     state_rank: junior
-    contact_form: http://www.kaine.senate.gov/contact
+    contact_form: https://www.kaine.senate.gov/contact
     rss_url: http://www.kaine.senate.gov/rss/feeds/?type=all
     fax: 202-228-6363
 - id:
@@ -36787,7 +36859,7 @@
     phone: 202-224-3224
     address: 359 Dirksen Senate Office Building Washington DC 20510
     office: 359 Dirksen Senate Office Building
-    contact_form: http://www.booker.senate.gov/?p=contact
+    contact_form: https://www.booker.senate.gov/?p=contact
     fax: 202-224-8378
 - id:
     bioguide: C001101
@@ -39269,6 +39341,7 @@
     address: 702 Hart Senate Office Building Washington DC 20510
     office: 702 Hart Senate Office Building
     phone: 202-224-3004
+    contact_form: https://www.sullivan.senate.gov/contact/email
 - id:
     bioguide: P000612
     thomas: '02286'
@@ -39301,6 +39374,7 @@
     address: 383 Russell Senate Office Building Washington DC 20510
     office: 383 Russell Senate Office Building
     phone: 202-224-3521
+    contact_form: https://www.perdue.senate.gov/connect/email
 - id:
     bioguide: E000295
     thomas: '02283'
@@ -39334,6 +39408,7 @@
     address: 111 Russell Senate Office Building Washington DC 20510
     office: 111 Russell Senate Office Building
     phone: 202-224-3254
+    contact_form: https://www.ernst.senate.gov/public/index.cfm/contact
 - id:
     bioguide: T000476
     thomas: '02291'
@@ -39366,6 +39441,7 @@
     address: 185 Dirksen Senate Office Building Washington DC 20510
     office: 185 Dirksen Senate Office Building
     phone: 202-224-6342
+    contact_form: https://www.tillis.senate.gov/public/index.cfm/email-me
 - id:
     bioguide: R000605
     thomas: '02288'
@@ -39398,6 +39474,7 @@
     address: 502 Hart Senate Office Building Washington DC 20510
     office: 502 Hart Senate Office Building
     phone: 202-224-5842
+    contact_form: https://www.rounds.senate.gov/contact/email-mike
 - id:
     bioguide: W000819
     fec:
@@ -39472,6 +39549,7 @@
     address: 386A Russell Senate Office Building Washington DC 20510
     office: 386a Russell Senate Office Building
     phone: 202-224-4224
+    contact_form: http://www.sasse.senate.gov/public/index.cfm/email-ben
 - id:
     bioguide: D000625
     thomas: '02293'
@@ -39867,6 +39945,7 @@
     office: B11 Russell Senate Office Building
     phone: 202-224-4623
     url: https://www.kennedy.senate.gov
+    contact_form: https://www.kennedy.senate.gov/content/contact-senator
 - id:
     bioguide: H001076
     fec:
@@ -39901,6 +39980,7 @@
     office: B85 Russell Senate Office Building
     phone: 202-224-3324
     url: https://www.hassan.senate.gov
+    contact_form: https://www.hassan.senate.gov/content/contact-senator
 - id:
     bioguide: C001113
     fec:
@@ -39933,6 +40013,7 @@
     office: B40a Dirksen Senate Office Building
     phone: 202-224-3542
     url: https://www.cortezmasto.senate.gov
+    contact_form: https://www.cortezmasto.senate.gov/content/contact-senator
 - id:
     govtrack: 412534
     bioguide: S001190
