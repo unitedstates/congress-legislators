@@ -2469,74 +2469,6 @@
     state_rank: senior
     rss_url: http://www.roberts.senate.gov/public/?a=rss.feed
 - id:
-    bioguide: S001141
-    thomas: '01548'
-    lis: S261
-    govtrack: 300088
-    opensecrets: N00003062
-    votesmart: 443
-    fec:
-    - S6AL00195
-    cspan: 44441
-    wikipedia: Jeff Sessions
-    ballotpedia: Jeff Sessions
-    maplight: 607
-    icpsr: 49700
-    wikidata: Q358443
-    google_entity_id: kg:/m/020yjg
-  name:
-    first: Jefferson
-    middle: B.
-    last: Sessions
-    nickname: Jeff
-    official_full: Jeff Sessions
-  bio:
-    birthday: '1946-12-24'
-    gender: M
-    religion: Methodist
-  terms:
-  - type: sen
-    start: '1997-01-07'
-    end: '2003-01-03'
-    state: AL
-    class: 2
-    party: Republican
-  - type: sen
-    start: '2003-01-07'
-    end: '2009-01-03'
-    state: AL
-    class: 2
-    party: Republican
-    url: http://sessions.senate.gov/
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: AL
-    class: 2
-    party: Republican
-    url: http://www.sessions.senate.gov
-    address: 326 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4124
-    fax: 202-224-3149
-    contact_form: http://www.sessions.senate.gov/public/index.cfm/contact-jeff
-    office: 326 Russell Senate Office Building
-    state_rank: junior
-    rss_url: http://www.sessions.senate.gov/public/index.cfm?fuseaction=rss.feed
-  - type: sen
-    start: '2015-01-06'
-    end: '2021-01-03'
-    state: AL
-    class: 2
-    party: Republican
-    url: http://www.sessions.senate.gov/public
-    address: 326 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4124
-    fax: 202-224-3149
-    contact_form: http://www.sessions.senate.gov/public/index.cfm/contact-jeff
-    office: 326 Russell Senate Office Building
-    state_rank: junior
-    rss_url: http://www.sessions.senate.gov/public/index.cfm?fuseaction=rss.feed
-- id:
     bioguide: S001181
     thomas: '01901'
     lis: S324
@@ -41567,3 +41499,21 @@
     address: 416 Cannon HOB; Washington DC 20515-5000
     office: 416 Cannon House Office Building
     url: https://cheney.house.gov
+- id:
+    bioguide: S001202
+    govtrack: 412734
+  name:
+    first: Luther
+    last: Strange
+    official_full: Luther Strange
+  bio:
+    birthday: '1953-03-01'
+    gender: M
+  terms:
+  - type: sen
+    start: '2017-02-09'
+    end: '2021-01-03'
+    state: AL
+    class: 2
+    party: Republican
+    state_rank: junior
