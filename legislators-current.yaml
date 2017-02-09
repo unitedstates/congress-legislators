@@ -1109,24 +1109,6 @@
     state_rank: senior
     rss_url: http://stabenow.senate.gov/rss/?p=news
 - id:
-    bioguide: S001202
-    govtrack: 412734
-  name:
-    first: Luther
-    last: Strange
-    official_full: Luther Strange
-  bio:
-    birthday: '1953-03-01'
-    gender: M
-  terms:
-  - type: sen
-    start: '2017-02-09'
-    end: '2021-01-03'
-    state: AL
-    class: 2
-    party: Republican
-    state_rank: junior
-- id:
     bioguide: T000464
     thomas: '01829'
     lis: S314
@@ -41517,3 +41499,21 @@
     address: 416 Cannon HOB; Washington DC 20515-5000
     office: 416 Cannon House Office Building
     url: https://cheney.house.gov
+- id:
+    bioguide: S001202
+    govtrack: 412734
+  name:
+    first: Luther
+    last: Strange
+    official_full: Luther Strange
+  bio:
+    birthday: '1953-03-01'
+    gender: M
+  terms:
+  - type: sen
+    start: '2017-02-09'
+    end: '2021-01-03'
+    state: AL
+    class: 2
+    party: Republican
+    state_rank: junior
