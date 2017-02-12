@@ -11,7 +11,7 @@ __author__ = 'stsmith'
 
 # Author 2017 Steven T. Smith <steve dot t dot smith at gmail dot com>
 
-import argparse as ap, contextlib, fnmatch, os, urllib2, urlparse, warnings, yaml
+import argparse as ap, contextlib, fnmatch, os, time, urllib2, urlparse, warnings, yaml
 
 class CongressLookup:
     '''A class used to lookup legislator properties from the github congress-legislators YAML database.'''
@@ -31,6 +31,7 @@ class CongressLookup:
         parser.add_argument('-n', '--last-name', help="Last name of legislator (wildcard)", type=str, default=None)
         parser.add_argument('-d', '--data-dir', help="Database directory", type=str, default='.')
         parser.add_argument('-r', '--repo', help="GitHub repo URL", type=str, default='https://github.com/unitedstates/congress-legislators/')
+        parser.add_argument('-T', '--current-term', help="Properties from only the current term", action='store_true')
         parser.add_argument('-D', '--download', help="Download data", action='store_true', default=False)
         parser.add_argument('-g', '--debug', help="Debug flag", action='store_true')
         return parser.parse_args()
@@ -70,11 +71,16 @@ class CongressLookup:
             self.lookup_legislator_properties(property,leg)
 
     def lookup_legislator_properties(self,property,legislator):
-        self.properties[property] = [term[property] for term in legislator['terms'] if property in term and len(term[property]) > 0]
+        if not self.args.current_term:
+            self.properties[property] = set([term[property] for term in legislator['terms'] if property in term and len(term[property]) > 0])
+        else:
+            self.properties[property] = set([ term[property] for term in legislator['terms'] \
+                if (property in term and len(term[property]) > 0) \
+                and ('end' in term and time.strptime(term['end'],'%Y-%m-%d') >= time.localtime()) ])
         for off in self.offices:
             if self.args.debug: print(off)
             if any(off['id'][db] == legislator['id'][db] for db in off['id'] if db in off['id'] and db in legislator['id']):
-                self.properties[property] += [ok[property] for ok in off['offices'] if property in ok and len(ok[property]) > 0]
+                self.properties[property] |= set([ok[property] for ok in off['offices'] if property in ok and len(ok[property]) > 0])
                 break
         print('Property \'{}\' for {}:'.format(property,legislator['name']['official_full'].encode('utf-8')))
         print('\n'.join(self.properties[property]))
