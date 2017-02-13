@@ -61,8 +61,8 @@ class CongressLookup:
     def lookup_by_member(self,property,member):
         for leg in ( leg for leg in self.legislators if \
                     (leg['name']['official_full'] == member['name']) \
-                    or ('bioguide' in leg['id'] and leg['id']['bioguide'] == member['bioguide']) \
-                    or ('thomas' in leg['id'] and leg['id']['thomas'] == member['thomas']) ):
+                    or ('bioguide' in leg['id'] and 'bioguide' in member and leg['id']['bioguide'] == member['bioguide']) \
+                    or ('thomas' in leg['id'] and 'thomas' in member and leg['id']['thomas'] == member['thomas']) ):
             self.lookup_legislator_properties(property,leg)
 
     def lookup_by_lastname(self,property):
@@ -71,19 +71,20 @@ class CongressLookup:
             self.lookup_legislator_properties(property,leg)
 
     def lookup_legislator_properties(self,property,legislator):
-        if not self.args.current_term:
-            self.properties[property] = set([term[property] for term in legislator['terms'] if property in term and len(term[property]) > 0])
-        else:
-            self.properties[property] = set([ term[property] for term in legislator['terms'] \
-                if (property in term and len(term[property]) > 0) \
-                and ('end' in term and time.strptime(term['end'],'%Y-%m-%d') >= time.localtime()) ])
+        self.properties[property] = set([term[property] for term in legislator['terms'] if self.lookup_filter(property,term)])
         for off in self.offices:
             if self.args.debug: print(off)
             if any(off['id'][db] == legislator['id'][db] for db in off['id'] if db in off['id'] and db in legislator['id']):
                 self.properties[property] |= set([ok[property] for ok in off['offices'] if property in ok and len(ok[property]) > 0])
                 break
         print('Property \'{}\' for {}:'.format(property,legislator['name']['official_full'].encode('utf-8')))
-        print('\n'.join(self.properties[property]))
+        print('\n'.join(sorted(self.properties[property])))
+
+    def lookup_filter(self,property,term):
+        result = property in term and len(term[property]) > 0
+        if result and self.args.current_term:
+            result &= 'end' in term and time.strptime(term['end'],'%Y-%m-%d') >= time.localtime()
+        return result
 
     def database_load(self):
         try:
