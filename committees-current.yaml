@@ -833,6 +833,7 @@
   name: Joint Economic Committee
   url: http://www.jec.senate.gov/
   thomas_id: JSEC
+  house_committee_id: EC
   senate_committee_id: JSEC
   rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
   minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
@@ -842,6 +843,7 @@
   name: Joint Committee on the Library
   url: https://cha.house.gov/jointcommittees/joint-committee-library
   thomas_id: JSLC
+  house_committee_id: JL
   senate_committee_id: JSLC
   wikipedia: Joint Committee on the Library
 - type: joint
@@ -849,11 +851,13 @@
   url: https://cha.house.gov/jointcommittees/joint-committee-on-printing
   thomas_id: JSPR
   senate_committee_id: JSPR
+  house_committee_id: JP
   wikipedia: Joint Committee on Printing
 - type: joint
   name: Joint Committee on Taxation
   url: https://www.jct.gov
   thomas_id: JSTX
+  house_committee_id: IT
   senate_committee_id: JSTX
   wikipedia: United States Congress Joint Committee on Taxation
 - type: senate

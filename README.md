@@ -294,7 +294,6 @@ The `committee-membership-current.yaml` file contains current committee assignme
 	  rank: 1
 	  title: Chair
 	  bioguide: L000491
-	  thomas: '00711'
 	- name: Bob Goodlatte
 	  party: majority
 	  rank: 2
@@ -310,7 +309,7 @@ The committee IDs in this file are the thomas_id's from the `committees-current.
 Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
 
 * name: The name of the Member of Congress. This field is intended for debugging. Instead, use the id fields.
-* Some of the id fields used in the legislators YAML files, such as bioguide and thomas.
+* bioguide id
 * party: Either "majority" or "minority." Committee work is divided strictly by party.
 * rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member). The rank is essentially approximate, because the House/Senate pages don't necessarily make a committment that the order on the page precisely indicates actual rank (if such a concept even applies). But if you want to preserve the order as displayed by the House and Senate, you can use this attribute.
 * title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
