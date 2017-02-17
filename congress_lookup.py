@@ -11,7 +11,17 @@ __author__ = 'stsmith'
 
 # Author 2017 Steven T. Smith <steve dot t dot smith at gmail dot com>
 
-import argparse as ap, contextlib, fnmatch, os, time, urllib2, urlparse, warnings, yaml
+import argparse as ap, contextlib, fnmatch, os, sys, time, warnings, yaml
+
+# version dependent libraries
+# https://docs.python.org/2/library/urllib.html
+# https://docs.python.org/3.0/library/urllib.parse.html
+if (sys.version_info > (3, 0)):
+    from urllib.request import urlopen
+    import urllib.parse as urlparse
+else:
+    from urllib2 import urlopen
+    import urlparse
 
 class CongressLookup:
     '''A class used to lookup legislator properties from the github congress-legislators YAML database.'''
@@ -113,7 +123,7 @@ class CongressLookup:
             if self.args.repo[-1] != '/': self.args.repo += '/'
             url_base = urlparse.urljoin(urlparse.urlunparse(urlparse.urlparse(self.args.repo)._replace(netloc='raw.githubusercontent.com')),'master/')
             # contextlib required for urlopen in with ... as for v < 3.3
-            res = contextlib.closing(urllib2.urlopen( urlparse.urljoin(url_base,filename) ))
+            res = contextlib.closing(urlopen( urlparse.urljoin(url_base,filename) ))
         else:
             fname_fullpath = os.path.join(self.data_path,filename)
             if os.path.exists(fname_fullpath):
