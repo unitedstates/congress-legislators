@@ -3,7 +3,7 @@
     govtrack: 400004
     thomas: '01460'
   offices:
-  - address: ''
+  - address: 205 4th Ave. NE
     building: ''
     city: 'Cullman'
     fax: ''
@@ -11,7 +11,9 @@
     phone: 256-734-6043
     state: AL
     suite: ''
-    zip: ''
+    zip: '35055'
+    latitude: 34.181059
+    longitude: -86.840631
   - address: 600 Broad St.
     building: ''
     city: Gadsden
@@ -23,15 +25,17 @@
     zip: '35901'
     latitude: 34.01421000000001
     longitude: -86.006846
-  - address: ''
+  - address: 1710 Alabama Ave.
     building: ''
     city: Jasper
     fax: ''
     hours: ''
     phone: 205-221-2310
     state: AL
-    suite: ''
-    zip: ''
+    suite: '#247'
+    zip: '35501'
+    latitude: 33.834380
+    longitude: -87.274935
   - address: 1011 George Wallace Blvd.
     building: ''
     city: Tuscumbia
@@ -223,7 +227,7 @@
     hours: ''
     phone: 478-272-4030
     state: GA
-    suite: Dublin
+    suite: ''
     zip: '31021'
     latitude: 32.5383565
     longitude: -82.9084154
@@ -2488,14 +2492,14 @@
     zip: '10465'
     latitude: 40.83115069999999
     longitude: -73.83065909999999
-  - address: 82 37th Ave.
+  - address: 82-11 37th Ave.
     building: ''
     city: Queens
     fax: ''
     hours: Monday-Friday 9:00AM-5:00PM EST
     phone: 718-779-1400
     state: NY
-    suite: '402'
+    suite: Suite 402
     zip: '11372'
     latitude: 40.7495961
     longitude: -73.88392929999999
@@ -3272,7 +3276,7 @@
     hours: ''
     phone: 801-851-2500
     state: UT
-    suite: '318'
+    suite: Suite 318
     zip: '84601'
     latitude: 40.232986
     longitude: -111.6578512
@@ -3331,7 +3335,7 @@
     hours: ''
     phone: 909-625-5394
     state: CA
-    suite: Ste 122
+    suite: Suite 122
     zip: '91711'
     latitude: 34.1079585
     longitude: -117.7212331
@@ -3963,14 +3967,25 @@
   - address: 1411 Marsh St.
     building: ''
     city: San Luis Obispo
-    fax: ''
+    fax: 805-439-3574
     hours: ''
-    phone: 888-202-8934
+    phone: 805-546-8348
     state: CA
-    suite: '205'
+    suite: Suite 205
     zip: '93401'
     latitude: 35.2838648
     longitude: -120.6538213
+  - address: 360 S. Hope Ave.
+    building: ''
+    city: Santa Barbara
+    fax: ''
+    hours: ''
+    phone: 805-546-8348
+    state: CA
+    suite: Suite C-301
+    zip: '93105'
+    latitude: 34.434901
+    longitude: -119.746862
 - id:
     bioguide: D000096
     govtrack: 400093
@@ -5547,7 +5562,7 @@
     hours: ''
     phone: 979-703-4037
     state: TX
-    suite: '406'
+    suite: Suite 406
     zip: '77802'
     latitude: 30.6609467
     longitude: -96.328648
@@ -5683,7 +5698,7 @@
     bioguide: F000466
     govtrack: 412721
   offices:
-  - address: 1717 Langhorne-newtown Rd.
+  - address: 1717 Langhorne-Newtown Rd.
     building: ''
     city: Langhorne
     fax: 215-579-8109
@@ -5994,7 +6009,7 @@
     hours: ''
     phone: 623-536-3388
     state: AZ
-    suite: B
+    suite: Suite B
     zip: '85323'
     latitude: 33.4487419
     longitude: -112.3501093
@@ -6009,17 +6024,17 @@
     zip: '85350'
     latitude: 32.5960917
     longitude: -114.7109846
-  - address: 738 N. 5th Ave.
-    building: ''
+  - address: 101 W. Irvington Road
+    building: El Pueblo Community Center
     city: Tucson
     fax: 520-622-0198
     hours: ''
     phone: 520-622-6788
     state: AZ
-    suite: Suite 110
-    zip: '85705'
-    latitude: 32.2313653
-    longitude: -110.9668739
+    suite: Buildings 4 and 5
+    zip: '85714'
+    latitude: 32.163554
+    longitude: -110.969568
 - id:
     bioguide: G000552
     govtrack: 400651
@@ -7856,7 +7871,7 @@
     hours: ''
     phone: 770-987-2291
     state: GA
-    suite: '30035'
+    suite: Suite 130
     zip: '30035'
     latitude: 33.704214
     longitude: -84.1763731
@@ -10320,7 +10335,7 @@
     hours: 8:30 AM - 5:30 PM (Central)
     phone: 651-224-9191
     state: MN
-    suite: '17'
+    suite: Suite 17
     zip: '55102'
     latitude: 44.946385
     longitude: -93.1163366
@@ -11559,14 +11574,14 @@
     zip: '32801'
     latitude: 28.546165
     longitude: -81.3744028
-  - address: ''
+  - address: 110 W. First Street
     building: ''
     city: Sanford
     fax: ''
     hours: ''
-    phone: ''
+    phone: 888-205-5421
     state: FL
-    suite: ''
+    suite: Suite 210
     zip: '32771'
 - id:
     bioguide: N000002
@@ -11875,7 +11890,7 @@
     hours: ''
     phone: 605-275-2868
     state: SD
-    suite: '314'
+    suite: Suite 314
     zip: '57104'
     latitude: 43.5506713
     longitude: -96.72940419999999
@@ -11956,7 +11971,7 @@
     hours: ''
     phone: 281-494-2690
     state: TX
-    suite: '150'
+    suite: Suite 150
     zip: '77478'
     latitude: 29.5989855
     longitude: -95.6285772
@@ -12090,7 +12105,7 @@
     hours: M-F 9-5:30pm
     phone: 415-556-4862
     state: CA
-    suite: 2-800
+    suite: Suite 2-800
     zip: '94103'
     latitude: 37.7791976
     longitude: -122.4121784
@@ -12692,13 +12707,13 @@
     latitude: 40.7077679
     longitude: -74.0826434
   - address: 60 Nelson Pl.
-    building: 14th Floor (LeRoy F. Smith, Jr. Public Safety Building)
+    building: LeRoy F. Smith, Jr. Public Safety Building
     city: Newark
     fax: 973-645-5902
     hours: ''
     phone: 973-645-3213
     state: NJ
-    suite: ''
+    suite: 14th Floor
     zip: '07102'
     latitude: 40.73821
     longitude: -74.182222
@@ -12920,7 +12935,7 @@
     hours: ''
     phone: 207-764-1968
     state: ME
-    suite: '2'
+    suite: Suite 2
     zip: '04769'
     latitude: 46.6856865
     longitude: -68.0143427
@@ -12984,12 +12999,12 @@
     longitude: -87.7536327
   - address: 3223 N. Sheffield Ave.
     building: ''
-    city: Lakeview
+    city: Chicago
     fax: ''
     hours: Monday - Friday 9am - 5pm
     phone: 773-267-5926
     state: IL
-    suite: Chicago
+    suite: 
     zip: '60657'
     latitude: 41.94076279999999
     longitude: -87.6538984
@@ -13617,7 +13632,7 @@
     hours: Monday-Friday 8:30AM-5:00PM
     phone: ''
     state: LA
-    suite: '3200'
+    suite: Suite 3200
     zip: '70053'
     latitude: 29.9160227
     longitude: -90.06773629999999
@@ -16017,6 +16032,17 @@
     govtrack: 400408
     thomas: '02085'
   offices:
+  - address: 1150 S. Cedar Crest Blvd
+    building: ''
+    city: Allentown
+    fax: 610-434-1844
+    hours: ''
+    phone: 610-434-1444
+    state: PA
+    suite: Suite 101
+    zip: '18103'
+    latitude: 40.569891
+    longitude: -75.519529
   - address: 17 S. Park Row.
     building: United States Federal Building
     city: Erie
@@ -16028,6 +16054,61 @@
     zip: '16501'
     latitude: 42.1289745
     longitude: -80.08406889999999
+  - address: 228 Walnut St.
+    building: United States Federal Building
+    city: Harrisburg
+    fax: 717-782-4920
+    hours: ''
+    phone: 717-782-3951
+    state: PA
+    suite: Suite 1104
+    zip: '17101'
+    latitude: 40.261919
+    longitude: -76.882739
+  - address: 1628 John F. Kennedy Blvd
+    building: 8 Penn Center
+    city: Philadelphia
+    fax: 215-241-1095
+    hours: ''
+    phone: 215-241-1090
+    state: PA
+    suite: Suite 1702
+    zip: '19103'
+    latitude: 39.953754
+    longitude: -75.167981
+  - address: 100 W. Station Square Dr.
+    building: ''
+    city: Pittsburgh
+    fax: 412-803-3504
+    hours: ''
+    phone: 412-803-3501
+    state: PA
+    suite: Suite 225
+    zip: '15219'
+    latitude: 40.433674
+    longitude: -80.003871
+  - address: 538 Spruce Street
+    building: ''
+    city: Scranton
+    fax: 570-941-3544
+    hours: ''
+    phone: 570-941-3540
+    state: PA
+    suite: Suite 302
+    zip: '18503'
+    latitude: 41.407372
+    longitude: -75.662826
+  - address: 1397 Eisenhower Blvd 
+    building: Richland Square III
+    city: Johnstown
+    fax: 814-266-5973
+    hours: ''
+    phone: 814-266-5970 
+    state: PA
+    suite: Suite 302
+    zip: '15904'
+    latitude: 40.273143
+    longitude: -78.848055
 - id:
     bioguide: T000462
     govtrack: 400406
@@ -16576,7 +16657,7 @@
     hours: ''
     phone: 718-222-5819
     state: NY
-    suite: '1006'
+    suite: Suite 1006
     zip: '11241'
     latitude: 40.6936024
     longitude: -73.9908511
@@ -16954,17 +17035,17 @@
     zip: '33180'
     latitude: 25.9528671
     longitude: -80.1390699
-  - address: 10100 Pines Blvd
+  - address: 777 Sawgrass Corporate Parkway
     building: ''
-    city: Pembroke Pines
-    fax: 954-437-4776
+    city: Sunrise
+    fax: 954-845-0396
     hours: ''
-    phone: 954-437-3936
+    phone: 954-845-1179
     state: FL
     suite: ''
-    zip: '33026'
-    latitude: 26.0069554
-    longitude: -80.2812052
+    zip: '33325'
+    latitude: 26.130384
+    longitude: -80.333636
 - id:
     bioguide: W000798
     govtrack: 412213
@@ -17943,3 +18024,30 @@
     zip: '10027'
     latitude: 40.8092343
     longitude: -73.9474317
+  - address: 2530 Grand Concourse Avenue
+    building: ''
+    city: Bronx
+    fax: ''
+    hours: ''
+    phone: 718-450-8241
+    state: NY
+    suite: Ground Floor
+    zip: '10458'
+    latitude: 40.863512
+    longitude: -73.895791
+- id:
+    bioguide: C001111
+    govtrack: 412697
+  offices:
+  - address: 696 1st Avenue North
+    building: ''
+    city: St. Petersburg
+    fax: ''
+    hours: ''
+    phone: 727-318-6770
+    state: FL
+    suite: Suite 203
+    zip: '33701'
+    latitude: 27.772067
+    longitude: -82.643550
+
