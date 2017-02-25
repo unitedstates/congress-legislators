@@ -433,7 +433,7 @@ def main():
 
       bioguide = entry['id']['bioguide']
 
-      candidate = candidate_for(bioguide)
+      candidate = candidate_for(bioguide, current)
       if not candidate:
         # if current is in whitelist, and none is on the page, that's okay
         if current.lower() in whitelist[service]:
@@ -490,7 +490,12 @@ def main():
     print("Saving historical legislators...")
     save_data(media, "legislators-social-media.yaml")
 
-  def candidate_for(bioguide):
+
+  def candidate_for(bioguide, current = None):
+    """find the most likely candidate account from the URL.
+    If current is passed, the candidate will match it if found
+    otherwise, the first candidate match is returned
+    """
     url = current_bioguide[bioguide]["terms"][-1].get("url", None)
     if not url:
       if debug:
@@ -509,6 +514,10 @@ def main():
       matches = re.findall(regex, body, re.I)
       if matches:
         all_matches.extend(matches)
+
+    if not current == None and current in all_matches:
+      return current
+
     if all_matches:
       for candidate in all_matches:
         passed = True
