@@ -51,7 +51,6 @@ def run():
 	social_media_fields = [
 	("twitter", "twitter"),
 	("facebook", "facebook"),
-	("facebook_id", "facebook_id"),
 	("youtube", "youtube"),
 	("youtube_id", "youtube_id")
 	]
