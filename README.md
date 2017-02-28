@@ -212,7 +212,6 @@ Each record has two sections: `id` and `social`. The `id` section identifies the
 * instagram: The current official Instagram handle of the legislator.
 * instagram_id: The numeric ID of the current official Instagram handle of the legislator.
 * facebook: The username of the current official Facebook presence of the legislator.
-* facebook_id: The numeric ID of the current official Facebook presence of the legislator.
 
 Several legislators do not have an assigned YouTube username.  In these cases, only the youtube_id field is populated.
 
@@ -222,7 +221,7 @@ All values can be turned into URLs by preceding them with the domain name of the
 * `https://youtube.com/user/[youtube]`
 * `https://youtube.com/channel/[youtube_id]`
 * `https://instagram/[instagram]`
-* `https://facebook.com/[facebook or facebook_id]`
+* `https://facebook.com/[facebook]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
