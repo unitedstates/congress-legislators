@@ -123,7 +123,7 @@ def run():
 
 
 		if not bioguide in bioguides:
-			print("Member not found: " + bioguide, p.encode("utf8"), "(Might have been a delegate to the Constitutional Convention.)")
+			print("Member not found: " + bioguide, p, "(Might have been a delegate to the Constitutional Convention.)")
 			continue
 
 		# handle FEC ids specially because they are stored in an array...

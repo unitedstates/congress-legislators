@@ -14,9 +14,6 @@
 # run with --verify:
 #   verifies that current usernames are still valid. (tries to catch renames)
 #
-# run with --resolvefb:
-#   finds both Facebook usernames and graph IDs and updates the YAML accordingly.
-#
 # run with --resolveyt:
 #   finds both YouTube usernames and channel IDs and updates the YAML accordingly.
 
@@ -66,7 +63,6 @@ def main():
   do_update = utils.flags().get('update', False)
   do_clean = utils.flags().get('clean', False)
   do_verify = utils.flags().get('verify', False)
-  do_resolvefb = utils.flags().get('resolvefb', False)
   do_resolveyt = utils.flags().get('resolveyt', False)
   do_resolveig = utils.flags().get('resolveig', False)
   do_resolvetw = utils.flags().get('resolvetw', False)
@@ -76,9 +72,7 @@ def main():
   cache = utils.flags().get('cache', False)
   force = not cache
 
-  if do_resolvefb:
-    service = "facebook"
-  elif do_resolveyt:
+  if do_resolveyt:
     service = "youtube"
   elif do_resolveig:
     service = "instagram"
@@ -119,49 +113,6 @@ def main():
   media_bioguide = { }
   for m in media:
     media_bioguide[m["id"]["bioguide"]] = m
-
-  def resolvefb():
-    # in order to preserve the comment block at the top of the file,
-    # copy it over into a new RtYamlList instance. We do this because
-    # Python list instances can't hold other random attributes.
-    import rtyaml
-    updated_media = rtyaml.RtYamlList()
-    if hasattr(media, '__initial_comment_block'):
-      updated_media.__initial_comment_block = getattr(media, '__initial_comment_block')
-
-    for m in media:
-      social = m['social']
-
-      if ('facebook' in social and social['facebook']) and ('facebook_id' not in social):
-        graph_url = "https://graph.facebook.com/%s" % social['facebook']
-
-        if re.match('\d+', social['facebook']):
-          social['facebook_id'] = social['facebook']
-          print("Looking up graph username for %s" % social['facebook'])
-          fbobj = requests.get(graph_url).json()
-          if 'username' in fbobj:
-            print("\tGot graph username of %s" % fbobj['username'])
-            social['facebook'] = fbobj['username']
-          else:
-            print("\tUnable to get graph username")
-
-        else:
-          try:
-            print("Looking up graph ID for %s" % social['facebook'])
-            fbobj = requests.get(graph_url).json()
-            if 'id' in fbobj:
-              print("\tGot graph ID of %s" % fbobj['id'])
-              social['facebook_id'] = fbobj['id']
-            else:
-              print("\tUnable to get graph ID")
-          except:
-            print("\tUnable to get graph ID for: %s" % social['facebook'])
-            social['facebook_id'] = None
-
-      updated_media.append(m)
-
-    print("Saving social media...")
-    save_data(updated_media, "legislators-social-media.yaml")
 
 
   def resolveyt():
@@ -433,7 +384,7 @@ def main():
 
       bioguide = entry['id']['bioguide']
 
-      candidate = candidate_for(bioguide)
+      candidate = candidate_for(bioguide, current)
       if not candidate:
         # if current is in whitelist, and none is on the page, that's okay
         if current.lower() in whitelist[service]:
@@ -490,7 +441,12 @@ def main():
     print("Saving historical legislators...")
     save_data(media, "legislators-social-media.yaml")
 
-  def candidate_for(bioguide):
+
+  def candidate_for(bioguide, current = None):
+    """find the most likely candidate account from the URL.
+    If current is passed, the candidate will match it if found
+    otherwise, the first candidate match is returned
+    """
     url = current_bioguide[bioguide]["terms"][-1].get("url", None)
     if not url:
       if debug:
@@ -509,6 +465,10 @@ def main():
       matches = re.findall(regex, body, re.I)
       if matches:
         all_matches.extend(matches)
+
+    if not current == None and current in all_matches:
+      return current
+
     if all_matches:
       for candidate in all_matches:
         passed = True
@@ -530,8 +490,6 @@ def main():
     clean()
   elif do_verify:
     verify()
-  elif do_resolvefb:
-    resolvefb()
   elif do_resolveyt:
     resolveyt()
   elif do_resolveig:

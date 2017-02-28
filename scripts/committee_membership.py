@@ -122,7 +122,7 @@ def run():
           continue
 
         if found_name != moc['name']['official_full']:
-          print(("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content())).encode("utf8"))
+          print("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content()))
 
         entry = OrderedDict()
         entry["name"] = moc['name']['official_full']
@@ -171,7 +171,7 @@ def run():
 
   # Scrape senate.gov....
   def scrape_senate():
-    url = "http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm"
+    url = "https://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm"
     body = download(url, "committees/membership/senate.html", force)
 
     for id, name in re.findall(r'value="/general/committee_membership/committee_memberships_(....).htm">(.*?)</option>', body, re.I |  re.S):
@@ -184,7 +184,7 @@ def run():
 
       # Scrape some metadata on the HTML page first.
 
-      committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
+      committee_url = "https://www.senate.gov/general/committee_membership/committee_memberships_%s.htm" % id
       print("[%s] Fetching members for %s (%s)" % (id, name, committee_url))
       body2 = download(committee_url, "committees/membership/senate/%s.html" % id, force)
 
@@ -199,7 +199,7 @@ def run():
       # Use the XML for the rest.
 
       print("\tDownloading XML...")
-      committee_url = "http://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
+      committee_url = "https://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
 
       body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
       dom = lxml.etree.fromstring(body3.encode("utf8")) # must be bytes to parse if there is an encoding declaration inside the string
