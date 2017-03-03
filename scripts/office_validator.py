@@ -32,6 +32,9 @@ except ImportError:
 log.basicConfig(format='%(message)s')
 error = log.error
 
+NONALPHA = re.compile(r"[ .'-]")
+PHONE = re.compile(r"\d{3}-\d{3}-\d{4}")
+
 
 def relfile(path):
     return os.path.abspath(os.path.join(os.path.dirname(__file__), path))
@@ -45,11 +48,9 @@ def id_offices(bioguide_id, offices):
     Used for validation here, but could be used to generate ids.
     """
     id_count = defaultdict(count)
-    remove_char = re.compile(r"[ .'-]")
-
     for office in offices:
         locality = office.get('city', 'no_city').lower()
-        locality = remove_char.sub('_', locality)
+        locality = NONALPHA.sub('_', locality)
 
         office_id = '-'.join([bioguide_id, locality])
 
@@ -90,7 +91,18 @@ def check_legislator_offices(legislator_offices, legislator):
         office_state = office.get('state')
         if state and office_state and office_state != state:
             yield ("Office %s is in '%s', legislator is from '%s'"
-                   "") % (office_state, state)
+                   "") % (office_id, office_state, state)
+
+        phone = office.get('phone')
+        fax = office.get('fax')
+
+        if phone and not PHONE.match(phone):
+            yield("Office %s phone '%s' does not match format ddd-ddd-dddd"
+                  "") % (office_id, phone)
+
+        if fax and not PHONE.match(fax):
+            yield("Office %s fax '%s' does not match format ddd-ddd-dddd"
+                  "") % (office_id, fax)
 
 
 def load_to_dict(path):
