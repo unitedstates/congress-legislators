@@ -5,7 +5,7 @@
   offices:
   - address: 205 4th Ave. NE
     building: ''
-    city: 'Cullman'
+    city: Cullman
     fax: ''
     hours: ''
     phone: 256-734-6043
@@ -36,7 +36,7 @@
     state: AL
     suite: '#247'
     zip: '35501'
-    latitude: 33.834380
+    latitude: 33.83438
     longitude: -87.274935
     id: A000055-jasper
   - address: 1011 George Wallace Blvd.
@@ -1805,6 +1805,8 @@
     suite: Suite 404
     zip: '62220'
     id: B001295-belleville
+    latitude: 38.5139815
+    longitude: -89.9834624
   - address: 300 E. Main St.
     building: Hunter Building
     city: Carbondale
@@ -6915,6 +6917,8 @@
     suite: ''
     zip: '86401'
     id: G000565-kingman
+    latitude: 35.1904088
+    longitude: -114.0525545
   - address: 6499 S. Kings Ranch Rd.
     building: ''
     city: Gold Canyon
@@ -6995,6 +6999,8 @@
     suite: ''
     zip: '24219'
     id: G000568-big_stone_gap
+    latitude: 36.8667619
+    longitude: -82.77537319999999
   - address: 17 W. Main St.
     building: ''
     city: Christiansburg
@@ -7112,8 +7118,8 @@
     state: FL
     suite: Suite 13
     zip: '32503'
-    latitude: ''
-    longitude: ''
+    latitude: 30.4670273
+    longitude: -87.2032093
     id: G000578-pensacola
 - id:
     bioguide: G000579
@@ -9570,6 +9576,8 @@
     suite: Suite 500
     zip: '89030'
     id: K000390-north_las_vegas
+    latitude: 36.2004978
+    longitude: -115.1214764
 - id:
     bioguide: K000391
     govtrack: 412701
@@ -11358,6 +11366,8 @@
     suite: Suite 625
     zip: '99201'
     id: M001159-spokane
+    latitude: 47.65759629999999
+    longitude: -117.4232771
   - address: 26 E. Main St.
     building: ''
     city: Walla Walla
@@ -12403,6 +12413,8 @@
     suite: Suite 210
     zip: '32771'
     id: M001202-sanford
+    latitude: 28.8121096
+    longitude: -81.26861149999999
 - id:
     bioguide: N000002
     govtrack: 400289
@@ -13900,7 +13912,7 @@
     hours: Monday - Friday 9am - 5pm
     phone: 773-267-5926
     state: IL
-    suite: 
+    suite: ''
     zip: '60657'
     latitude: 41.94076279999999
     longitude: -87.6538984
@@ -17171,12 +17183,12 @@
     latitude: 41.407372
     longitude: -75.662826
     id: T000461-scranton
-  - address: 1397 Eisenhower Blvd 
+  - address: 1397 Eisenhower Blvd
     building: Richland Square III
     city: Johnstown
     fax: 814-266-5973
     hours: ''
-    phone: 814-266-5970 
+    phone: 814-266-5970
     state: PA
     suite: Suite 302
     zip: '15904'
@@ -18393,8 +18405,8 @@
     state: FL
     suite: Suite B
     zip: '34601'
-    latitude: ''
-    longitude: ''
+    latitude: 28.5552249
+    longitude: -82.38811919999999
     id: W000806-brooksville
   - address: 212 W. Main St.
     building: ''
@@ -18595,7 +18607,7 @@
   - address: 122 West Way
     building: ''
     city: Lake Jackson
-    fax:  979-285-0271
+    fax: 979-285-0271
     hours: ''
     phone: 979-285-0231
     state: TX
@@ -19230,5 +19242,5 @@
     suite: Suite 203
     zip: '33701'
     latitude: 27.772067
-    longitude: -82.643550
+    longitude: -82.64355
     id: C001111-st__petersburg
