@@ -309,9 +309,9 @@
   - address: 500 Chestnut St.
     building: ''
     city: Abilene
-    fax: ''
+    fax: 325-675-5038
     hours: ''
-    phone: ''
+    phone: 325-675-9779
     state: TX
     suite: Suite 819
     zip: '79602'
@@ -321,9 +321,9 @@
   - address: 611 University Ave.
     building: ''
     city: Lubbock
-    fax: ''
+    fax: 806-767-9168
     hours: ''
-    phone: ''
+    phone: 806-763-1611
     state: TX
     suite: '#220'
     zip: '79401'
@@ -359,23 +359,6 @@
     latitude: 32.3198509
     longitude: -96.6470243
     id: B000213-ennis
-- id:
-    bioguide: B000287
-    govtrack: 400021
-    thomas: '00070'
-  offices:
-  - address: 350 S. Bixel St.
-    building: ''
-    city: Los Angeles
-    fax: 213-481-1427
-    hours: Monday - Friday 9am to 5pm
-    phone: 213-481-1425
-    state: CA
-    suite: Suite 120
-    zip: '90017'
-    latitude: 34.0569399
-    longitude: -118.2597013
-    id: B000287-los_angeles
 - id:
     bioguide: B000490
     govtrack: 400030
@@ -1949,7 +1932,7 @@
     city: Omaha
     fax: ''
     hours: ''
-    phone: ''
+    phone: 402-938-0300
     state: NE
     suite: Suite 101
     zip: '68144'
@@ -1965,7 +1948,7 @@
     city: Fort Wayne
     fax: ''
     hours: ''
-    phone: ''
+    phone: 260-702-4750
     state: IN
     suite: ''
     zip: '46802'
@@ -1976,14 +1959,14 @@
     bioguide: B001300
     govtrack: 412687
   offices:
-  - address: 302 Fifth St.
+  - address: 302 W. Fifth St.
     building: ''
     city: San Pedro
     fax: ''
     hours: ''
-    phone: ''
+    phone: 310-831-1799
     state: CA
-    suite: ''
+    suite: Suite 201
     zip: '90731'
     latitude: 33.7398775
     longitude: -118.2839378
@@ -2005,13 +1988,13 @@
     govtrack: 412683
   offices:
   - address: 2509 S. Power Rd.
-    building: Suite 205
+    building: ''
     city: Mesa
     fax: ''
     hours: ''
-    phone: ''
+    phone: 480-699-8239
     state: AZ
-    suite: ''
+    suite: Suite 205
     zip: '85209'
     latitude: 33.3712904
     longitude: -111.6870648
@@ -2025,7 +2008,7 @@
     city: Wilmington
     fax: ''
     hours: ''
-    phone: ''
+    phone: 302-830-2330
     state: DE
     suite: Suite 400
     zip: '19801'
@@ -2041,7 +2024,7 @@
     city: Upper Marlboro
     fax: ''
     hours: ''
-    phone: ''
+    phone: 301-458-2600
     state: MD
     suite: Ste 103
     zip: '20774'
@@ -2057,25 +2040,13 @@
     city: Advance
     fax: ''
     hours: ''
-    phone: ''
+    phone: 336-998-1313
     state: NC
     suite: Suite A
     zip: '27006'
     latitude: 36.0038879
     longitude: -80.4394348
     id: B001305-advance
-  - address: 116 Morlake Dr.
-    building: ''
-    city: Mooresville
-    fax: ''
-    hours: ''
-    phone: ''
-    state: NC
-    suite: Suite 101A
-    zip: '28117'
-    latitude: 35.599466
-    longitude: -80.863322
-    id: B001305-mooresville
 - id:
     bioguide: C000059
     govtrack: 400057
@@ -4052,7 +4023,7 @@
   - address: 701 Concord Ave.
     building: ''
     city: Cambridge
-    fax: M-F 9-5:30pm
+    fax: ''
     hours: Mon-Fri 9am-5:30pm
     phone: 617-354-0292
     state: MA
@@ -4210,7 +4181,7 @@
     city: Paducah
     fax: ''
     hours: ''
-    phone: ''
+    phone: 270-408-1865
     state: KY
     suite: ''
     zip: '42003'
@@ -4764,7 +4735,7 @@
     city: Margate
     fax: ''
     hours: ''
-    phone: ''
+    phone: 954-972-6454
     state: FL
     suite: ''
     zip: '33063'
@@ -7132,17 +7103,17 @@
     bioguide: G000578
     govtrack: 412690
   offices:
-  - address: 226 S. Palafox Pl.
+  - address: 4300 Bayou Blvd.
     building: ''
     city: Pensacola
     fax: ''
     hours: ''
-    phone: ''
+    phone: 850-479-1183
     state: FL
-    suite: 6th Floor
-    zip: '32502'
-    latitude: 30.4094471
-    longitude: -87.2142552
+    suite: Suite 13
+    zip: '32503'
+    latitude: ''
+    longitude: ''
     id: G000578-pensacola
 - id:
     bioguide: G000579
@@ -7153,7 +7124,7 @@
     city: Appleton
     fax: ''
     hours: ''
-    phone: ''
+    phone: 920-380-0061
     state: WI
     suite: ''
     zip: '54911'
@@ -8237,7 +8208,7 @@
     city: Jeffersonville
     fax: ''
     hours: ''
-    phone: ''
+    phone: 812-288-3999
     state: IN
     suite: ''
     zip: '47130'
@@ -8498,7 +8469,7 @@
     city: Bucyrus
     fax: ''
     hours: Tu/Th - 8am to 4:30pm
-    phone: ''
+    phone: 419-663-1426
     state: OH
     suite: ''
     zip: '44820'
@@ -8764,7 +8735,7 @@
     city: Bossier City
     fax: ''
     hours: ''
-    phone: ''
+    phone: 318-840-0309
     state: LA
     suite: Suite 248
     zip: '71111'
@@ -9594,7 +9565,7 @@
     city: North Las Vegas
     fax: ''
     hours: ''
-    phone: ''
+    phone: 702-963-9360
     state: NV
     suite: Suite 500
     zip: '89030'
@@ -9622,9 +9593,9 @@
   - address: 100 Main St.
     building: ''
     city: Dyersburg
-    fax: ''
+    fax: 731-285-5008
     hours: ''
-    phone: ''
+    phone: 731-412-1037
     state: TN
     suite: ''
     zip: '38024'
@@ -9634,9 +9605,9 @@
   - address: 406 S. Lindell St.
     building: ''
     city: Martin
-    fax: ''
+    fax: 731-587-7334
     hours: ''
-    phone: ''
+    phone: 731-412-1043
     state: TN
     suite: ''
     zip: '38237'
@@ -9646,9 +9617,9 @@
   - address: 5900 Poplar Ave.
     building: ''
     city: Memphis
-    fax: ''
+    fax: 901-682-8973
     hours: ''
-    phone: ''
+    phone: 901-682-4422
     state: TN
     suite: Suite 202
     zip: '38119'
@@ -9814,7 +9785,7 @@
   - address: 1301 Clay St.
     building: ''
     city: Oakland
-    fax: (510) 764
+    fax: 510-763-6538
     hours: ''
     phone: 510-763-0370
     state: CA
@@ -10658,9 +10629,9 @@
   - address: 435 N. Macomb St.
     building: ''
     city: Tallahassee
-    fax: ''
+    fax: 850-577-0633
     hours: ''
-    phone: ''
+    phone: 850-558-9450
     state: FL
     suite: ''
     zip: '32301'
@@ -10676,7 +10647,7 @@
     city: Burnsville
     fax: ''
     hours: ''
-    phone: ''
+    phone: 651-846-2120
     state: MN
     suite: Ste 200
     zip: '55337'
@@ -11803,47 +11774,6 @@
     longitude: -75.350534
     id: M001181-springfield
 - id:
-    bioguide: M001182
-    govtrack: 412474
-    thomas: '02059'
-  offices:
-  - address: 110 Railroad Ave.
-    building: ''
-    city: Gaffney
-    fax: 864-206-6005
-    hours: ''
-    phone: 864-206-6004
-    state: SC
-    suite: ''
-    zip: '29340'
-    latitude: 35.0772653
-    longitude: -81.6451558
-    id: M001182-gaffney
-  - address: 1456 Ebenezer Rd.
-    building: ''
-    city: Rock Hill
-    fax: 803-327-4330
-    hours: ''
-    phone: 803-327-1114
-    state: SC
-    suite: ''
-    zip: '29732'
-    latitude: 34.951326
-    longitude: -81.04208299999999
-    id: M001182-rock_hill
-  - address: 531-A Oxford Drive
-    building: ''
-    city: Sumter
-    fax: 803-774-0188
-    hours: ''
-    phone: 803-774-0186
-    state: SC
-    suite: ''
-    zip: '29150'
-    latitude: 33.9348302
-    longitude: -80.3686704
-    id: M001182-sumter
-- id:
     bioguide: M001183
     govtrack: 412391
     thomas: '01983'
@@ -12183,9 +12113,9 @@
   - address: 118-35 Queens Blvd.
     building: ''
     city: Forest Hills
-    fax: ''
+    fax: 718-445-7868
     hours: ''
-    phone: ''
+    phone: 718-358-6364
     state: NY
     suite: 17th Floor
     zip: '11375'
@@ -12270,7 +12200,7 @@
   - address: 535 E. Main St.
     building: ''
     city: Marlton
-    fax: '856574697'
+    fax: 856-574-4697
     hours: ''
     phone: 856-267-5182
     state: NJ
@@ -12404,7 +12334,7 @@
     city: Salina
     fax: ''
     hours: ''
-    phone: ''
+    phone: 785-829-9000
     state: KS
     suite: ''
     zip: '67401'
@@ -12420,25 +12350,13 @@
     city: Port St Lucie
     fax: ''
     hours: ''
-    phone: ''
+    phone: 772-336-2877
     state: FL
     suite: ''
     zip: '34984'
     latitude: 27.2741604
     longitude: -80.3430288
     id: M001199-port_st_lucie
-  - address: 171 SW. Flager Ave.
-    building: ''
-    city: Stuart
-    fax: ''
-    hours: ''
-    phone: ''
-    state: FL
-    suite: ''
-    zip: '34994'
-    latitude: 27.200589
-    longitude: -80.2560599
-    id: M001199-stuart
 - id:
     bioguide: M001200
     govtrack: 412728
@@ -12779,24 +12697,24 @@
   offices:
   - address: ''
     building: ''
-    city: ''
+    city: Aberdeen
     fax: ''
     hours: ''
     phone: 605-878-2868
     state: SD
     suite: ''
     zip: ''
-    id: N000184-
+    id: N000184-aberdeen
   - address: ''
     building: ''
-    city: ''
+    city: Pierre
     fax: ''
     hours: ''
     phone: 605-878-2868
     state: SD
     suite: ''
     zip: ''
-    id: N000184--1
+    id: N000184-pierre
   - address: 2525 W. Main St.
     building: ''
     city: Rapid City
@@ -12934,7 +12852,7 @@
     city: Casa Grande
     fax: ''
     hours: ''
-    phone: ''
+    phone: 520-316-0839
     state: AZ
     suite: Suite 1
     zip: '85122'
@@ -12946,7 +12864,7 @@
     city: Flagstaff
     fax: ''
     hours: ''
-    phone: ''
+    phone: 928-286-5338
     state: AZ
     suite: Suite 6
     zip: '68001'
@@ -13289,23 +13207,6 @@
     longitude: -106.8939734
     id: P000588-socorro
 - id:
-    bioguide: P000591
-    govtrack: 400626
-    thomas: '01778'
-  offices:
-  - address: 85-C Mill Street
-    building: ''
-    city: Roswell
-    fax: 770-998-0050
-    hours: ''
-    phone: 770-998-0049
-    state: GA
-    suite: Suite 300
-    zip: '30075'
-    latitude: 34.0137629
-    longitude: -84.3601582
-    id: P000591-roswell
-- id:
     bioguide: P000592
     govtrack: 400652
     thomas: '01802'
@@ -13573,23 +13474,6 @@
     latitude: 30.3652731
     longitude: -88.5554872
     id: P000601-pascagoula
-- id:
-    bioguide: P000602
-    govtrack: 412431
-    thomas: '02022'
-  offices:
-  - address: 7701 E. Kellogg
-    building: ''
-    city: Wichita
-    fax: 316-262-5309
-    hours: Monday-Friday 8:00AM-5:00PM
-    phone: 316-262-8992
-    state: KS
-    suite: Suite 510
-    zip: '67207'
-    latitude: 37.6780708
-    longitude: -97.24667099999999
-    id: P000602-wichita
 - id:
     bioguide: P000603
     govtrack: 412492
@@ -14688,9 +14572,9 @@
   - address: 200 Derbigny St.
     building: ''
     city: Gretna
-    fax: 504-365-0390
+    fax: ''
     hours: Monday-Friday 8:30AM-5:00PM
-    phone: ''
+    phone: 504-365-0390
     state: LA
     suite: Suite 3200
     zip: '70053'
@@ -15204,7 +15088,7 @@
     city: Rockville
     fax: ''
     hours: ''
-    phone: ''
+    phone: 301-354-1000
     state: MD
     suite: Suite 507
     zip: '20850'
@@ -15218,9 +15102,9 @@
   - address: 1039 SE. 9th Pl.
     building: ''
     city: Cape Coral
-    fax: ''
+    fax: 239-573-7629
     hours: ''
-    phone: ''
+    phone: 239-599-6033
     state: FL
     suite: Suite 308
     zip: '33990'
@@ -15232,7 +15116,7 @@
     city: Naples
     fax: ''
     hours: ''
-    phone: ''
+    phone: 239-252-6225
     state: FL
     suite: Suite 105
     zip: '34112'
@@ -15248,9 +15132,9 @@
     city: Las Vegas
     fax: ''
     hours: ''
-    phone: ''
+    phone: 702-963-9500
     state: NV
-    suite: Suite 210/220
+    suite: Suite 220
     zip: '89123'
     latitude: 36.0278905
     longitude: -115.1159622
@@ -15264,7 +15148,7 @@
     city: Jacksonville
     fax: ''
     hours: ''
-    phone: ''
+    phone: 904-831-5205
     state: FL
     suite: ''
     zip: '32216'
@@ -15911,71 +15795,6 @@
     latitude: 44.7222478
     longitude: -85.642375
     id: S000770-traverse_city
-- id:
-    bioguide: S001141
-    govtrack: 300088
-    thomas: '01548'
-  offices:
-  - address: 1800 5th Avenue North
-    building: Vance Federal Building
-    city: Birmingham
-    fax: 205-731-0221
-    hours: ''
-    phone: 205-731-1500
-    state: AL
-    suite: ''
-    zip: '35203'
-    latitude: 33.5173384
-    longitude: -86.8102366
-    id: S001141-birmingham
-  - address: 100 W. Troy St.
-    building: ''
-    city: Dothan
-    fax: 334-792-4928
-    hours: ''
-    phone: 334-792-4924
-    state: AL
-    suite: Suite 302
-    zip: '36303'
-    latitude: 31.225401
-    longitude: -85.392611
-    id: S001141-dothan
-  - address: 200 Clinton Ave.
-    building: Regions Center
-    city: Huntsville
-    fax: 256-533-0745
-    hours: ''
-    phone: 256-533-0979
-    state: AL
-    suite: Suite 802
-    zip: '35801'
-    latitude: 34.7307435
-    longitude: -86.5882087
-    id: S001141-huntsville
-  - address: 41 West I-65 Service Road North
-    building: BB&T
-    city: Mobile
-    fax: 251-414-5845
-    hours: ''
-    phone: 251-414-3083
-    state: AL
-    suite: Suite 2300-A
-    zip: '36608'
-    latitude: 30.690756
-    longitude: -88.12684589999999
-    id: S001141-mobile
-  - address: 1 Church St.
-    building: ''
-    city: Montgomery
-    fax: 334-293-9349
-    hours: ''
-    phone: 334-230-0698
-    state: AL
-    suite: Suite 500B
-    zip: '36104'
-    latitude: 32.3743211
-    longitude: -86.3099386
-    id: S001141-montgomery
 - id:
     bioguide: S001145
     govtrack: 400360
@@ -16716,7 +16535,7 @@
     city: Lincolnshire
     fax: ''
     hours: ''
-    phone: ''
+    phone: 847-383-4870
     state: IL
     suite: Suite 200
     zip: '60069'
@@ -17048,7 +16867,7 @@
     city: Lancaster
     fax: ''
     hours: ''
-    phone: ''
+    phone: 717-393-0667
     state: PA
     suite: Suite 201
     zip: '17602'
@@ -17064,7 +16883,7 @@
     city: Kissimmee
     fax: ''
     hours: ''
-    phone: ''
+    phone: 407-452-1171
     state: FL
     suite: ''
     zip: '34741'
@@ -17080,7 +16899,7 @@
     city: Huntington
     fax: ''
     hours: ''
-    phone: ''
+    phone: 631-923-4100
     state: NY
     suite: ''
     zip: '11743'
@@ -17829,7 +17648,7 @@
     city: New Hartford
     fax: ''
     hours: ''
-    phone: ''
+    phone: 315-732-0713
     state: NY
     suite: ''
     zip: '13413'
@@ -18565,12 +18384,24 @@
     govtrack: 412410
     thomas: '02002'
   offices:
+  - address: 15 N. Main Street
+    building: ''
+    city: Brooksville
+    fax: ''
+    hours: ''
+    phone: 352-241-2980
+    state: FL
+    suite: Suite B
+    zip: '34601'
+    latitude: ''
+    longitude: ''
+    id: W000806-brooksville
   - address: 212 W. Main St.
     building: ''
     city: Inverness
     fax: ''
     hours: ''
-    phone: ''
+    phone: 352-241-9204
     state: FL
     suite: Suite 208A
     zip: '34450'
@@ -18594,7 +18425,7 @@
     city: The Villages
     fax: ''
     hours: ''
-    phone: ''
+    phone: 352-383-3552
     state: FL
     suite: Suite B
     zip: '32162'
@@ -19162,59 +18993,6 @@
     latitude: 40.7671697
     longitude: -73.0138358
     id: Z000017-patchogue
-- id:
-    bioguide: Z000018
-    govtrack: 412640
-    thomas: '02254'
-  offices:
-  - address: 222 N. 32nd St.
-    building: Office of Congressman Ryan Zinke
-    city: Billings
-    fax: 406-702-1182
-    hours: ''
-    phone: 406-969-1736
-    state: MT
-    suite: Suite 900
-    zip: '59101'
-    latitude: 45.7810512
-    longitude: -108.5125313
-    id: Z000018-billings
-  - address: 710 Central Ave.
-    building: ''
-    city: Great Falls
-    fax: 406-952-1211
-    hours: ''
-    phone: 406-952-1210
-    state: MT
-    suite: ''
-    zip: '59401'
-    latitude: 47.5050157
-    longitude: -111.2947656
-    id: Z000018-great_falls
-  - address: 910 N. Gulch
-    building: ''
-    city: Helena
-    fax: 406-502-1436
-    hours: ''
-    phone: 406-502-1435
-    state: MT
-    suite: Suite B
-    zip: '59601'
-    latitude: 46.5971339
-    longitude: -112.0330044
-    id: Z000018-helena
-  - address: 1008 South Ave.
-    building: ''
-    city: Missoula
-    fax: 406-540-4371
-    hours: Monday – Friday, 9:00 AM – 5:00 PM
-    phone: 406-540-4370
-    state: MT
-    suite: Suite 2
-    zip: '59801'
-    latitude: 46.8490726
-    longitude: -114.0137795
-    id: Z000018-missoula
 - id:
     bioguide: H001075
     govtrack: 412678
