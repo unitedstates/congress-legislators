@@ -359,7 +359,7 @@
     state: DE
     party: Democrat
     class: 1
-    url: http://www.carper.senate.gov/public
+    url: https://www.carper.senate.gov/public
     address: 513 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2441
     fax: 202-228-2190
@@ -670,11 +670,11 @@
     state: MN
     party: Democrat
     class: 1
-    url: http://www.klobuchar.senate.gov
+    url: https://www.klobuchar.senate.gov
     address: 302 Hart Senate Office Building Washington DC 20510
     phone: 202-224-3244
     fax: 202-228-2186
-    contact_form: http://www.klobuchar.senate.gov/public/email-amy
+    contact_form: http://www.klobuchar.senate.gov/public/index.cfm/contact
     office: 302 Hart Senate Office Building
     state_rank: senior
 - id:
@@ -722,11 +722,11 @@
     party: Democrat
     class: 1
     url: https://www.mccaskill.senate.gov
-    address: 730 Hart Senate Office Building Washington DC 20510
+    address: 503 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6154
     fax: 202-228-6326
     contact_form: http://www.mccaskill.senate.gov/contact
-    office: 730 Hart Senate Office Building
+    office: 503 Hart Senate Office Building
     state_rank: senior
     rss_url: http://mccaskill.senate.gov/rss/?p=news
 - id:
@@ -1350,7 +1350,7 @@
     state: MS
     party: Republican
     class: 1
-    url: http://www.wicker.senate.gov
+    url: https://www.wicker.senate.gov
     address: 555 Dirksen Senate Office Building Washington DC 20510
     phone: 202-224-6253
     fax: 202-228-0378
@@ -2665,11 +2665,11 @@
     class: 2
     party: Democrat
     url: http://www.warner.senate.gov
-    address: 475 Russell Senate Office Building Washington DC 20510
+    address: 703 Hart Senate Office Building Washington DC 20510
     phone: 202-224-2023
     fax: 202-224-6295
     contact_form: http://www.warner.senate.gov/public/index.cfm?p=Contact
-    office: 475 Russell Senate Office Building
+    office: 703 Hart Senate Office Building
     state_rank: senior
     rss_url: http://www.warner.senate.gov/public/?a=rss.feed
 - id:
@@ -5909,8 +5909,8 @@
     state_rank: senior
     party: Republican
     url: http://www.cassidy.senate.gov
-    address: 703 Hart Senate Office Building Washington DC 20510
-    office: 703 Hart Senate Office Building
+    address: 520 Hart Senate Office Building Washington DC 20510
+    office: 520 Hart Senate Office Building
     phone: 202-224-5824
     contact_form: https://www.cassidy.senate.gov/contact
     fax: 202-225-7313
@@ -13723,11 +13723,11 @@
     party: Democrat
     class: 1
     url: https://www.hirono.senate.gov
-    address: 330 Hart Senate Office Building Washington DC 20510
+    address: 730 Hart Senate Office Building Washington DC 20510
     phone: 202-224-6361
     fax: 202-225-4987
     contact_form: https://www.hirono.senate.gov/contact
-    office: 330 Hart Senate Office Building
+    office: 730 Hart Senate Office Building
     state_rank: junior
     rss_url: http://www.hirono.senate.gov/rss/feeds/?type=all
 - id:
@@ -14282,7 +14282,7 @@
     class: 3
     state_rank: senior
     party: Republican
-    url: http://www.isakson.senate.gov
+    url: https://www.isakson.senate.gov
     rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
     address: 131 Russell Senate Office Building Washington DC 20510
     office: 131 Russell Senate Office Building
@@ -20377,79 +20377,6 @@
     phone: 202-224-6521
     contact_form: https://www.moran.senate.gov/public/index.cfm/e-mail-jerry
     fax: 202-228-6966
-- id:
-    bioguide: M001182
-    thomas: '02059'
-    govtrack: 412474
-    opensecrets: N00031412
-    votesmart: 60348
-    fec:
-    - H0SC05031
-    cspan: 623510
-    wikipedia: Mick Mulvaney
-    house_history: 18833
-    ballotpedia: Mick Mulvaney
-    maplight: 1479
-    icpsr: 21176
-    wikidata: Q1235731
-    google_entity_id: kg:/m/0cp1sr_
-  name:
-    first: Mick
-    last: Mulvaney
-    official_full: Mick Mulvaney
-  bio:
-    birthday: '1967-07-21'
-    gender: M
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: SC
-    district: 5
-    party: Republican
-    url: http://mulvaney.house.gov/
-    address: 1004 Longworth HOB; Washington DC 20515-4005
-    phone: 202-225-5501
-    fax: 202-225-0464
-    office: 1004 Longworth House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: SC
-    party: Republican
-    district: 5
-    url: http://mulvaney.house.gov
-    address: 1207 Longworth HOB; Washington DC 20515-4005
-    phone: 202-225-5501
-    fax: 202-225-0464
-    office: 1207 Longworth House Office Building
-    contact_form: https://mulvaney.house.gov/email-mick/
-    rss_url: http://mulvaney.house.gov/index.php?format=feed&amp;type=rss
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: SC
-    party: Republican
-    district: 5
-    url: https://mulvaney.house.gov
-    address: 2419 Rayburn HOB; Washington DC 20515-4005
-    phone: 202-225-5501
-    fax: 202-225-0464
-    office: 2419 Rayburn House Office Building
-    contact_form: https://mulvaney.house.gov/email-mick/
-    rss_url: http://mulvaney.house.gov/index.php?format=feed&amp;type=rss
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: SC
-    district: 5
-    party: Republican
-    phone: 202-225-5501
-    url: https://mulvaney.house.gov
-    rss_url: http://mulvaney.house.gov/index.php?format=feed&amp;type=rss
-    address: 2350 Rayburn HOB; Washington DC 20515-4005
-    office: 2350 Rayburn House Office Building
-    fax: 202-225-0464
 - id:
     bioguide: M001153
     thomas: '01694'
@@ -26585,8 +26512,8 @@
     party: Republican
     url: https://www.scott.senate.gov
     rss_url: http://www.scott.senate.gov/rss.xml
-    address: 520 Hart Senate Office Building Washington DC 20510
-    office: 520 Hart Senate Office Building
+    address: 717 Hart Senate Office Building Washington DC 20510
+    office: 717 Hart Senate Office Building
     phone: 202-224-6121
     contact_form: https://www.scott.senate.gov/contact/email-me
     fax: 202-225-3407
@@ -30052,8 +29979,8 @@
     class: 3
     state_rank: junior
     party: Democrat
-    address: B40C Dirksen Senate Office Building Washington DC 20510
-    office: B40c Dirksen Senate Office Building
+    address: 110 Hart Senate Office Building Washington DC 20510
+    office: 110 Hart Senate Office Building
     phone: 202-224-4654
     url: https://www.vanhollen.senate.gov
     contact_form: https://www.vanhollen.senate.gov/content/contact-senator
@@ -33974,8 +33901,8 @@
     class: 3
     state_rank: junior
     party: Democrat
-    address: G12 Dirksen Senate Office Building Washington DC 20510
-    office: G12 Dirksen Senate Office Building
+    address: 524 Hart Senate Office Building Washington DC 20510
+    office: 524 Hart Senate Office Building
     phone: 202-224-2854
     url: https://www.duckworth.senate.gov
     contact_form: https://www.duckworth.senate.gov/content/contact-senator
@@ -34377,7 +34304,7 @@
     state: MA
     party: Democrat
     class: 1
-    url: http://www.warren.senate.gov
+    url: https://www.warren.senate.gov
     address: 317 Hart Senate Office Building Washington DC 20510
     office: 317 Hart Senate Office Building
     phone: 202-224-4543
@@ -35088,8 +35015,8 @@
     party: Democrat
     class: 1
     url: http://www.heitkamp.senate.gov/public
-    address: 110 Hart Senate Office Building Washington DC 20510
-    office: 110 Hart Senate Office Building
+    address: 516 Hart Senate Office Building Washington DC 20510
+    office: 516 Hart Senate Office Building
     phone: 202-224-2043
     state_rank: junior
     contact_form: http://www.heitkamp.senate.gov/public/index.cfm/contact
@@ -38577,47 +38504,6 @@
     office: 315 Cannon House Office Building
     fax: 202-225-6475
 - id:
-    bioguide: Z000018
-    fec:
-    - H4MT01041
-    govtrack: 412640
-    opensecrets: N00035616
-    thomas: '02254'
-    maplight: 2096
-    wikidata: Q7384672
-    wikipedia: Ryan Zinke
-    google_entity_id: kg:/m/0gkz1jg
-  name:
-    first: Ryan
-    last: Zinke
-    official_full: Ryan K. Zinke
-  bio:
-    gender: M
-    birthday: '1961-11-01'
-  terms:
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: MT
-    district: 0
-    party: Republican
-    address: 113 Cannon HOB; Washington DC 20515-2600
-    office: 113 Cannon House Office Building
-    phone: 202-225-3211
-    url: https://zinke.house.gov
-    fax: 202-225-5687
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: MT
-    district: 0
-    party: Republican
-    phone: 202-225-3211
-    url: https://zinke.house.gov
-    address: 1419 Longworth HOB; Washington DC 20515-2600
-    office: 1419 Longworth House Office Building
-    fax: 202-225-5687
-- id:
     bioguide: R000603
     fec:
     - H2NC07096
@@ -39779,8 +39665,8 @@
     state_rank: junior
     party: Republican
     url: http://www.sasse.senate.gov/public
-    address: 386A Russell Senate Office Building Washington DC 20510
-    office: 386a Russell Senate Office Building
+    address: 136 Russell Senate Office Building Washington DC 20510
+    office: 136 Russell Senate Office Building
     phone: 202-224-4224
     contact_form: http://www.sasse.senate.gov/public/index.cfm/email-ben
 - id:
@@ -41828,3 +41714,6 @@
     class: 2
     party: Republican
     state_rank: junior
+    address: G-12 Dirksen Senate Office Building Washington DC 20510
+    office: G-12 Dirksen Senate Office Building
+    phone: 202-224-4124

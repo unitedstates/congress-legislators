@@ -251,7 +251,8 @@ def download(url, destination=None, force=False, options=None):
         if text.lower().startswith("url="):
 
           new_url = text[4:]
-          print("Found redirect, downloading %s instead.." % new_url)
+          if not new_url.startswith(url): #dont print if a local redirect
+            print("Found redirect for {}, downloading {} instead..".format(url, new_url))
 
           options.pop('check_redirects')
           body = download(new_url, None, True, options)
