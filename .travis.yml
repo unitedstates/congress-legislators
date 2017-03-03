@@ -14,6 +14,7 @@ script:
  - pyflakes .
  - python test/are_files_linted.py
  - python test/validate.py
+ - python test/test_json_matches.py
 
 notifications:
   email:

@@ -72,6 +72,7 @@ import pprint
 import rtyaml
 from datetime import datetime
 import time
+import json
 
 import lxml.html # for meta redirect parsing
 import yaml
@@ -188,8 +189,10 @@ def load_data(path):
   return yaml_load(os.path.join(data_dir(), path))
 
 def save_data(data, path):
-  return yaml_dump(data, os.path.join(data_dir(), path))
-
+  yaml_dump(data, os.path.join(data_dir(), path))
+  write(
+		json.dumps(data, default=format_datetime),
+		"../alternate_formats/%s" %path.replace(".yaml", ".json"))
 
 ##### Downloading
 
@@ -251,7 +254,8 @@ def download(url, destination=None, force=False, options=None):
         if text.lower().startswith("url="):
 
           new_url = text[4:]
-          print("Found redirect, downloading %s instead.." % new_url)
+          if not new_url.startswith(url): #dont print if a local redirect
+            print("Found redirect for {}, downloading {} instead..".format(url, new_url))
 
           options.pop('check_redirects')
           body = download(new_url, None, True, options)

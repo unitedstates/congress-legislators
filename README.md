@@ -212,7 +212,6 @@ Each record has two sections: `id` and `social`. The `id` section identifies the
 * instagram: The current official Instagram handle of the legislator.
 * instagram_id: The numeric ID of the current official Instagram handle of the legislator.
 * facebook: The username of the current official Facebook presence of the legislator.
-* facebook_id: The numeric ID of the current official Facebook presence of the legislator.
 
 Several legislators do not have an assigned YouTube username.  In these cases, only the youtube_id field is populated.
 
@@ -222,7 +221,7 @@ All values can be turned into URLs by preceding them with the domain name of the
 * `https://youtube.com/user/[youtube]`
 * `https://youtube.com/channel/[youtube_id]`
 * `https://instagram/[instagram]`
-* `https://facebook.com/[facebook or facebook_id]`
+* `https://facebook.com/[facebook]`
 
 Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
 
@@ -472,10 +471,13 @@ The following script takes one required command line argument
 
 * `icpsr_ids.py`: Updates ICPSR ID's for all members of the House and Senate in a given congress, based on roll call vote data files stored by Voteview.com. The script takes one command line argument:
 --congress=congress_number
-where congress_number is the number of the congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
+where congress_number is the number of the Congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
 
 The following script may be run to create alternatly formatted data files. It takes no command-line arguments.
-* alternate_bulk_formats.py creates four files (two each for current and historical legislators) in json and csv formats. The csv files do not include all fields from the legislator yaml files, and include data from the social media yaml. All four files are stored in the ~/alternate_formats directory.
+
+* `alternate_bulk_formats.py`: creates four files (two each for current and historical legislators) in CSV formats. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML. All four files are stored in the `alternate_formats/` directory.
+
+For each YAML file, there is a matching JSON file in the `alternate_formats/` directory, that should remain up to date automatically when the YAML file is updated through scripts. If you hand edit a YAML file, run `generate_json.py` to update these JSON files before filing a pull request (if you don't, the Travis tests will fail and the maintainers will ask you to do so anyway).
 
 Other Scripts
 ----------------------
