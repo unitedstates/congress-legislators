@@ -10089,43 +10089,6 @@ JCSE:
   rank: 4
   bioguide: S001181
   chamber: senate
-- name: Christopher H. Smith
-  party: majority
-  rank: 1
-  title: Co-Chairman
-  bioguide: S000522
-  thomas: '01071'
-  chamber: house
-- name: Robert Aderholt
-  party: majority
-  rank: 3
-  bioguide: A000055
-  thomas: '01460'
-  chamber: house
-- name: Michael C. Burgess
-  party: majority
-  rank: 4
-  bioguide: B001248
-  thomas: '01751'
-  chamber: house
-- name: Alcee L. Hastings
-  party: minority
-  rank: 1
-  bioguide: H000324
-  thomas: '00511'
-  chamber: house
-- name: Louise McIntosh Slaughter
-  party: minority
-  rank: 2
-  bioguide: S000480
-  thomas: '01069'
-  chamber: house
-- name: Steve Cohen
-  party: minority
-  rank: 3
-  bioguide: C001068
-  thomas: '01878'
-  chamber: house
 JSEC:
 - name: Mike Lee
   party: majority
@@ -10178,48 +10141,56 @@ JSEC:
   rank: 4
   bioguide: H001076
   chamber: senate
-- name: Kevin Brady
+- name: Pat Tiberi
   party: majority
   rank: 1
-  bioguide: B000755
-  thomas: '01468'
   title: Chairman
-  chamber: house
-- name: Sean P. Duffy
-  party: majority
-  rank: 3
-  bioguide: D000614
-  thomas: '02072'
-  chamber: house
-- name: Justin Amash
-  party: majority
-  rank: 4
-  bioguide: A000367
-  thomas: '02029'
+  bioguide: T000462
   chamber: house
 - name: Erik Paulsen
   party: majority
-  rank: 5
+  rank: 2
   bioguide: P000594
-  thomas: '01930'
   chamber: house
-- name: Carolyn B. Maloney
-  party: minority
-  rank: 1
-  bioguide: M000087
-  thomas: '00729'
-  chamber: house
-- name: Elijah E. Cummings
-  party: minority
+- name: David Schweikert
+  party: majority
   rank: 3
-  bioguide: C000984
-  thomas: '00256'
+  bioguide: S001183
   chamber: house
-- name: John K. Delaney
-  party: minority
+- name: Barbara Comstock
+  party: majority
   rank: 4
+  bioguide: C001105
+  chamber: house
+- name: Darin LaHood
+  party: majority
+  rank: 5
+  bioguide: L000585
+  chamber: house
+- name: Francis Rooney
+  party: majority
+  rank: 6
+  bioguide: R000607
+  chamber: house
+- name: Carolyn Maloney
+  party: minority
+  rank: 7
+  bioguide: M000087
+  chamber: house
+- name: John Delaney
+  party: minority
+  rank: 8
   bioguide: D000620
-  thomas: '02133'
+  chamber: house
+- name: Alma Adams
+  party: minority
+  rank: 9
+  bioguide: A000370
+  chamber: house
+- name: Don Beyer
+  party: minority
+  rank: 10
+  bioguide: B001292
   chamber: house
 JSLC:
 - name: Roy Blunt
@@ -10248,31 +10219,6 @@ JSLC:
   rank: 2
   bioguide: L000174
   chamber: senate
-- name: Gregg Harper
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: H001045
-  thomas: '01933'
-  chamber: house
-- name: Tom Cole
-  party: majority
-  rank: 3
-  bioguide: C001053
-  thomas: '01742'
-  chamber: house
-- name: Robert A. Brady
-  party: minority
-  rank: 1
-  bioguide: B001227
-  thomas: '01469'
-  chamber: house
-- name: Zoe Lofgren
-  party: minority
-  rank: 2
-  bioguide: L000397
-  thomas: '00701'
-  chamber: house
 JSPR:
 - name: Roy Blunt
   party: majority
@@ -10300,25 +10246,6 @@ JSPR:
   rank: 2
   bioguide: U000039
   chamber: senate
-- name: Gregg Harper
-  party: majority
-  rank: 1
-  title: Vice Chairman
-  bioguide: H001045
-  thomas: '01933'
-  chamber: house
-- name: Robert A. Brady
-  party: minority
-  rank: 1
-  bioguide: B001227
-  thomas: '01469'
-  chamber: house
-- name: Juan Vargas
-  party: minority
-  rank: 2
-  bioguide: V000130
-  thomas: '02112'
-  chamber: house
 JSTX:
 - name: Orrin G. Hatch
   party: majority
@@ -10346,30 +10273,26 @@ JSTX:
   rank: 2
   bioguide: S000770
   chamber: senate
-- name: Paul Ryan
+- name: Kevin Brady
   party: majority
   rank: 1
-  title: Chairman
-  bioguide: R000570
-  thomas: '01560'
+  title: Vice Chairman
+  bioguide: B000755
   chamber: house
 - name: Sam Johnson
   party: majority
   rank: 2
   bioguide: J000174
-  thomas: '00603'
   chamber: house
-- name: Kevin Brady
+- name: Devin Nunes
   party: majority
   rank: 3
-  bioguide: B000755
-  thomas: '01468'
+  bioguide: N000181
   chamber: house
 - name: Sander Levin
   party: minority
-  rank: 1
+  rank: 4
   bioguide: L000263
-  thomas: '00683'
   chamber: house
 SCNC:
 - name: Chuck Grassley

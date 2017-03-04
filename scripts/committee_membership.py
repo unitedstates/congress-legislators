@@ -8,13 +8,12 @@ import re, lxml.html, lxml.etree, io, datetime
 from collections import OrderedDict
 import utils
 from utils import download, load_data, save_data, parse_date
-
+import csv
 
 def run():
   committee_membership = { }
 
   committees_current = load_data("committees-current.yaml")
-  memberships_current = load_data("committee-membership-current.yaml")
 
   # default to not caching
   cache = utils.flags().get('cache', False)
@@ -37,6 +36,7 @@ def run():
   today = datetime.datetime.now().date()
   legislators_current = load_data("legislators-current.yaml")
   congressmen = { }
+  congressmen_by_bioguide = {}
   senators = { }
   for moc in legislators_current:
     term = moc["terms"][-1]
@@ -44,6 +44,7 @@ def run():
       raise ValueError("Member's last listed term is not current: " + repr(moc) + " / " + term["start"])
     if term["type"] == "rep":
       congressmen["%s%02d" % (term["state"], term["district"])] = moc
+      congressmen_by_bioguide[moc["id"]["bioguide"]] = moc
     elif term["type"] == "sen":
       for n in [moc["name"]] + moc.get("other_names", []):
         senators[(term["state"], n["last"])] = moc
@@ -274,7 +275,7 @@ def run():
   # preserving us flexibility to be inclusive of IDs in the main leg files
   def ids_from(moc):
     ids = {}
-    for id in ["bioguide", "thomas"]:
+    for id in ["bioguide"]:
       if id in moc:
         ids[id] = moc[id]
     if len(ids) == 0:
@@ -282,14 +283,28 @@ def run():
     return ids
 
   def restore_house_members_on_joint_committees():
-    # The House doesn't publish joint committee members, but we're manaually gathering
-    # that. Add them back into the output from whatever we have on disk. Put them after
-    # Senate members.
-    for c, mbrs in list(memberships_current.items()):
-      if c[0] != "J": continue
-      for m in mbrs:
-        if m["chamber"] != "house": continue
-        committee_membership[c].append(m)
+    """The House doesn't publish joint committee members, but we're manaually gathering
+    that in a csv file.  Add the rows and put them after Senate members."""
+    counts = {}
+    for row in csv.DictReader(open("data/house_joint_committee_members.csv")):
+      if row["Bioguide"] == "":
+        continue
+      moc = congressmen_by_bioguide[row["Bioguide"]]
+      if moc["name"]["last"] != row["Name"].split(" ")[-1]:
+        print("Warning, name mismatch in house joint csv: {} {} -> {}".format(moc["name"]["first"], moc["name"]["last"], row["Name"]))
+      counts.setdefault(row["Committee"], 0)
+      counts[row["Committee"]] += 1
+      entry = OrderedDict({
+        'name': row["Name"],
+        'party': "majority" if moc['terms'][-1]['party'] == "Republican" else "minority",
+        'rank': counts[row["Committee"]]
+      })
+      if row["Title"] != "":
+        entry['title'] = row["Title"]
+      entry['bioguide'] = row["Bioguide"]
+      entry['chamber'] = 'house'
+      committee_membership[row["Committee"]].append(entry)
+
 
   # MAIN
 
