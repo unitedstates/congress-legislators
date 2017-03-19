@@ -6033,9 +6033,9 @@
   - address: 11819 Miracle Hills Drive
     building: ''
     city: Omaha
-    fax: 308-630-2321
+    fax: 402-391-4725
     hours: ''
-    phone: 308-630-2329
+    phone: 402-391-3411
     state: NE
     suite: Suite 205
     zip: '68154'
@@ -19156,6 +19156,18 @@
     latitude: 42.995106
     longitude: -71.463785
     id: H001076-manchester
+  - address: 14 Manchester Square
+    building: ''
+    city: Portsmouth
+    fax: ''
+    hours: ''
+    phone: 603-433-4445
+    state: NH
+    suite: Suite 140
+    zip: '03801'
+    latitude: 43.0856076
+    longitude: -70.8098029
+    id: H001076-portsmouth
 - id:
     bioguide: C001113
     govtrack: 412681
@@ -19193,13 +19205,25 @@
     city: Traverse City
     fax: ''
     hours: ''
-    phone: 232-714-4785
+    phone: 231-944-7633
     state: MI
     suite: Suite 22B
     zip: '49696'
     latitude: 44.7066718
     longitude: -85.5961732
     id: B001301-traverse_city
+  - address: 1500 W. Washington St.
+    building: ''
+    city: Marquette
+    fax: ''
+    hours: ''
+    phone: 906-273-2227
+    state: MI
+    suite: Suite 2
+    zip: '49855'
+    latitude: 46.54703800000001
+    longitude: -87.4227729
+    id: B001301-marquette
 - id:
     bioguide: E000297
     govtrack: 412718
