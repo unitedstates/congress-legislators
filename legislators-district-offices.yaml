@@ -12358,7 +12358,19 @@
 - id:
     bioguide: M001200
     govtrack: 412728
-    offices: []
+  offices:
+  - address: 110 North Robinson Street
+    building: ''
+    city: Richmond
+    fax: ''
+    hours: ''
+    phone: 804-486-1840
+    state: VA
+    suite: Suite 401
+    zip: '23220'
+    latitude: 37.5534549
+    longitude: -77.4731247
+    id: M001200-richmond
 - id:
     bioguide: M001201
     govtrack: 412710
