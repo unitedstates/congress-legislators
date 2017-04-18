@@ -19,39 +19,41 @@ class GeocodeException(Exception):
 	def __init__(self, message):
 		super(GeocodeException, self).__init__(message)
 
-def run():
+def run(legislator_ids=None):
 	legislators = utils.load_data('legislators-district-offices.yaml')
 	try:
-		iterate(legislators)
+		for l in legislators:
+			if legislator_ids and l['id']['bioguide'] not in legislator_ids:
+				continue
+			geocode_offices(l)
 	finally:
 		# Save in-progress geocodes in case of keyboard interrupt
 		print("Saving data...")
 		utils.save_data(legislators, 'legislators-district-offices.yaml')
 
-def iterate(legislators):
-	for l in legislators:
-		for o in l.get('offices', []):
-			if o.get('latitude'):
-				continue
-			if not o['address'] or not o['city'] or not o['state']:
-				continue
-			address_query = ', '.join([o['address'], o['city'], utils.states[o['state']]])
-			result = None
-			try:
-				result = geocode(address_query)
-				_sanity_check_location(o, l['id']['bioguide'], result)
-			except GeocodeException as e:
-				print('Geocoding failed for %s office %s (%s): %s. Query: "%s". Result: "%s"' % (
-					l['id']['bioguide'], o['city'], o['address'], e, address_query,
-					result['formatted_address'] if result else None))
-				continue
+def geocode_offices(l):
+	for o in l.get('offices', []):
+		if o.get('latitude'):
+			continue
+		if not o['address'] or not o['city'] or not o['state']:
+			continue
+		address_query = ', '.join([o['address'], o['city'], utils.states[o['state']]])
+		result = None
+		try:
+			result = geocode(address_query)
+			_sanity_check_location(o, l['id']['bioguide'], result)
+		except GeocodeException as e:
+			print('Geocoding failed for %s office %s (%s): %s. Query: "%s". Result: "%s"' % (
+				l['id']['bioguide'], o['city'], o['address'], e, address_query,
+				result['formatted_address'] if result else None))
+			continue
 
-			location = result['geometry']['location']
-			o['latitude'] = location['lat']
-			o['longitude'] = location['lng']
-			print('Success: %s office %s, query "%s" geocoded to "%s" (%s,%s)' % (
-				l['id']['bioguide'], o['city'], address_query, result['formatted_address'],
-				location['lat'], location['lng']))
+		location = result['geometry']['location']
+		o['latitude'] = location['lat']
+		o['longitude'] = location['lng']
+		print('Success: %s office %s, query "%s" geocoded to "%s" (%s,%s)' % (
+			l['id']['bioguide'], o['city'], address_query, result['formatted_address'],
+			location['lat'], location['lng']))
 
 def geocode(address):
 	params = {
@@ -154,4 +156,5 @@ def _do_city_names_match(name1, name2):
 	return name1.lower().replace('.', '') == name2.lower().replace('.', '')
 
 if __name__ == '__main__':
-	run()
+	import sys
+	run(legislator_ids=sys.argv[1:])
