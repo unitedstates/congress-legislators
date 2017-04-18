@@ -111,22 +111,22 @@ def load_to_dict(path):
     return OrderedDict((l['id']['bioguide'], l) for l in d)
 
 def print_errors(legislator, errors):
-    if isinstance(legislator, basestring):
+    if isinstance(legislator, str):
         info = legislator
     else:
         term = legislator['terms'][-1]
-        info = u"{} [{} {}] {} ({})".format(
+        info = "{} [{} {}] {} ({})".format(
             legislator['id']['bioguide'], term['state'], term['type'],
             legislator['name']['official_full'], term.get('url', 'no url'))
 
     print_blank = False
     for i, err in enumerate(errors):
         if i == 0:
-            print info.encode('utf-8')
+            print(info)
             print_blank = True
-        print (" " * 4 + err).encode('utf-8')
+        print(" " * 4 + err)
     if print_blank:
-        print ""
+        print("")
 
 
 def run():
