@@ -13,7 +13,6 @@
 
 - id:
     bioguide: Q000000      # http://bioguide.congress.gov/
-    thomas: '02222'        # not assigned until the person sponsors/cosponsors a bill, http://beta.congress.gov/
     lis: S999              # not assigned until there is a Senate roll call vote
     fec:                   # http://fec.gov/finance/disclosure/candcmte_info.shtml
     - H1XX99999            #   (you're looking for a Candidate ID)
@@ -44,8 +43,8 @@
     district: 19           # an integer; 0 for At-Large
     party:                 # Republican, Democrat, Independent
     caucus:                # for Independents only, Republican or Democrat
-    url: http://someone.house.gov
-    contact_form: http://www.house.gov/name/email.htm
+    url: https://someone.house.gov
+    contact_form: https://www.house.gov/name/email.htm
 
   # for a senator
   - type: sen
@@ -56,5 +55,5 @@
     party:                 # Republican, Democrat, Independent
     caucus:                # for Independents only, Republican or Democrat
     state_rank: junior     # or senior
-    url: http://someone.senate.gov/
-    contact_form: http://www.name.senate.gov/contact/
+    url: https://someone.senate.gov/
+    contact_form: https://www.name.senate.gov/contact/
