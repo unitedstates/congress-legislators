@@ -1,0 +1,1234 @@
+- type: house
+  name: House Committee on Agriculture
+  url: http://agriculture.house.gov/
+  minority_url: http://democrats.agriculture.house.gov/
+  thomas_id: HSAG
+  house_committee_id: AG
+  subcommittees:
+  - name: Conservation and Forestry
+    thomas_id: '15'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: Commodity Exchanges, Energy, and Credit
+    thomas_id: '22'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: General Farm Commodities and Risk Management
+    thomas_id: '16'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: Livestock and Foreign Agriculture
+    thomas_id: '29'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: Biotechnology, Horticulture, and Research
+    thomas_id: '14'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  - name: Nutrition
+    thomas_id: '03'
+    address: 1301 LHOB; Washington, DC 20515
+    phone: (202) 225-2171
+  address: 1301 LHOB; Washington, DC 20515-6001
+  phone: (202) 225-2171
+  rss_url: http://agriculture.house.gov/rss.xml
+  minority_rss_url: http://democrats.agriculture.house.gov/Rss.aspx?GroupID=1
+  jurisdiction: The House Committee on Agriculture has jurisdiction over federal agriculture
+    policy and oversight of some federal agencies, and it can recommend funding appropriations
+    for various governmental agencies, programs, and activities, as defined by House
+    rules.
+  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Agriculture
+- type: house
+  name: House Committee on Appropriations
+  url: http://appropriations.house.gov/
+  minority_url: http://democrats.appropriations.house.gov
+  thomas_id: HSAP
+  house_committee_id: AP
+  subcommittees:
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
+      Agencies
+    thomas_id: '01'
+    address: 2362A RHOB; Washington, DC 20515
+    phone: (202) 225-2638
+  - name: Commerce, Justice, Science, and Related Agencies
+    thomas_id: '19'
+    address: H310 CAPITOL; Washington, DC 20515
+    phone: (202) 225-3351
+  - name: Defense
+    thomas_id: '02'
+    address: H405 CAPITOL; Washington, DC 20515
+    phone: (202) 225-2847
+  - name: Energy and Water Development, and Related Agencies
+    thomas_id: '10'
+    address: 2362B RHOB; Washington, DC 20515
+    phone: (202) 225-3421
+  - name: Financial Services and General Government
+    thomas_id: '23'
+    address: 2000 RHOB; Washington, DC 20515
+    phone: (202) 225-7245
+  - name: Homeland Security
+    thomas_id: '15'
+    address: 2006 RHOB; Washington, DC 20515
+    phone: (202) 225-5834
+  - name: Interior, Environment, and Related Agencies
+    thomas_id: '06'
+    address: 2007 RHOB; Washington, DC 20515
+    phone: (202) 225-3081
+  - name: Labor, Health and Human Services, Education, and Related Agencies
+    thomas_id: '07'
+    address: 2358B RHOB; Washington, DC 20515
+    phone: (202) 225-3508
+  - name: Legislative Branch
+    thomas_id: '24'
+    address: HT2 CAPITOL; Washington, DC 20515
+    phone: (202) 226-7252
+  - name: Military Construction, Veterans Affairs and Related Agencies
+    thomas_id: '18'
+    address: HVC227 CAPITOL; Washington, DC 20515
+    phone: (202) 225-3047
+  - name: State, Foreign Operations, and Related Programs
+    thomas_id: '04'
+    address: HT2 CAPITOL; Washington, DC 20515
+    phone: (202) 225-2041
+  - name: Transportation, Housing and Urban Development, and Related Agencies
+    thomas_id: '20'
+    address: 2358A RHOB; Washington, DC 20515
+    phone: (202) 225-2141
+  address: H305 CAPITOL; Washington, DC 20515-6015
+  phone: (202) 225-2771
+  rss_url: http://appropriations.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.appropriations.house.gov/rss.xml
+  jurisdiction: The House Committee on Appropriations is responsible for setting specific
+    expenditures of money by the government of the United States. As such, it is one
+    of the most powerful of the committees, and its members are seen as influential.
+    The bills passed by the committee are called appropriations bills.
+  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Appropriations
+- type: house
+  name: House Committee on Armed Services
+  url: http://armedservices.house.gov/
+  minority_url: http://democrats.armedservices.house.gov/
+  thomas_id: HSAS
+  house_committee_id: AS
+  subcommittees:
+  - name: Tactical Air and Land Forces
+    thomas_id: '25'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-4440
+  - name: Military Personnel
+    thomas_id: '02'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-7560
+  - name: Oversight and Investigations
+    thomas_id: '06'
+    address: 2119 RHOB; Washington, DC 20515
+    phone: (202) 226-5048
+  - name: Readiness
+    thomas_id: '03'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 226-8979
+  - name: Seapower and Projection Forces
+    thomas_id: '28'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 226-2211
+  - name: Strategic Forces
+    thomas_id: '29'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-1967
+  - name: Emerging Threats and Capabilities
+    thomas_id: '26'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 226-2843
+  address: 2216 RHOB; Washington, DC 20515-6035
+  phone: (202) 225-4151
+  rss_url: http://armedservices.house.gov/index.cfm/rss/feed
+  minority_rss_url: http://democrats.armedservices.house.gov/index.cfm/rss/feed
+  jurisdiction: The House Committee on Armed Services has jurisdiction over defense
+    policy generally, ongoing military operations, the organization and reform of
+    the Department of Defense and Department of Energy, counter-drug programs, acquisition
+    and industrial base policy, technology transfer and export controls, joint interoperability,
+    the Cooperative Threat Reduction program, Department of Energy nonproliferation
+    programs, and detainee affairs and policy.
+  jurisdiction_source: http://armedservices.house.gov/index.cfm/jurisdiction
+- type: house
+  name: House Committee on Financial Services
+  url: http://financialservices.house.gov/
+  minority_url: http://democrats.financialservices.house.gov/
+  thomas_id: HSBA
+  house_committee_id: BA
+  subcommittees:
+  - name: Capital Markets, Securities, and Investment
+    thomas_id: '16'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  - name: Financial Institutions and Consumer Credit
+    thomas_id: '15'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  - name: Housing and Insurance
+    thomas_id: '04'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  - name: Monetary Policy and Trade
+    thomas_id: '20'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  - name: Oversight and Investigations
+    thomas_id: '09'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  - name: Terrorism and Illicit Finance
+    thomas_id: '01'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-7502
+  address: 2129 RHOB; Washington, DC 20515-6050
+  phone: (202) 225-7502
+  rss_url: http://financialservices.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.financialservices.house.gov/Rss.aspx?GroupID=1
+  jurisdiction: The House Financial Services Committee has jurisdiction over issues
+    pertaining to the economy, the banking system, housing, insurance, and securities
+    and exchanges. Additionally, the Committee also has jurisdiction over monetary
+    policy, international finance, international monetary organizations, and efforts
+    to combat terrorist financing.
+  jurisdiction_source: http://financialservices.house.gov/about/
+- type: house
+  name: House Committee on the Budget
+  url: http://budget.house.gov/
+  minority_url: http://democrats.budget.house.gov/
+  thomas_id: HSBU
+  house_committee_id: BU
+  address: B234 LHOB; Washington, DC 20515-6065
+  phone: (202) 226-7270
+  rss_url: http://budget.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.budget.house.gov/rss.xml
+  jurisdiction: 'The House Committee on the Budget has responsibilities under the
+    following categories: the budget resolution, reconciliation, budget process reform,
+    oversight of the Congressional Budget Office, revisions of allocations and adjustments,
+    and scorekeeping.'
+  jurisdiction_source: http://budget.house.gov/about/
+- type: house
+  name: House Committee on Education and the Workforce
+  url: http://edworkforce.house.gov/
+  minority_url: http://democrats.edworkforce.house.gov/
+  thomas_id: HSED
+  house_committee_id: ED
+  subcommittees:
+  - name: Early Childhood, Elementary, and Secondary Education
+    thomas_id: '14'
+    address: 2176 RHOB; Washington, DC 20515
+    phone: (202) 225-4527
+  - name: Health, Employment, Labor, and Pensions
+    thomas_id: '02'
+    address: 2176 RHOB; Washington, DC 20515
+    phone: (202) 225-4527
+  - name: Higher Education and Workforce Development
+    thomas_id: '13'
+    address: 2176 RHOB; Washington, DC 20515
+    phone: (202) 225-4527
+  - name: Workforce Protections
+    thomas_id: '10'
+    address: 2176 RHOB; Washington, DC 20515
+    phone: (202) 225-4527
+  address: 2176 RHOB; Washington, DC 20515-6100
+  phone: (202) 225-4527
+  rss_url: http://edworkforce.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.edworkforce.house.gov/rss.xml
+  jurisdiction: The House Committee on Education and the Workforce’s basic jurisdiction
+    is over education and workforce matters generally.
+  jurisdiction_source: http://edworkforce.house.gov/committee/committeehistory.htm
+- type: house
+  name: House Committee on Foreign Affairs
+  url: http://foreignaffairs.house.gov/
+  minority_url: http://democrats.foreignaffairs.house.gov/
+  thomas_id: HSFA
+  house_committee_id: FA
+  subcommittees:
+  - name: Africa, Global Health, Global Human Rights, and International Organizations
+    thomas_id: '16'
+    address: 5210 OFOB; Washington, DC 20515
+    phone: (202) 226-7812
+  - name: Asia and the Pacific
+    thomas_id: '05'
+    address: 5190 OFOB; Washington, DC 20515
+    phone: (202) 226-7825
+  - name: Europe, Eurasia, and Emerging Threats
+    thomas_id: '14'
+    address: 5210 OFOB; Washington, DC 20515
+    phone: (202) 226-6434
+  - name: Terrorism, Nonproliferation, and Trade
+    thomas_id: '18'
+    address: 5100 OFOB; Washington, DC 20515
+    phone: (202) 226-1500
+  - name: The Middle East and North Africa
+    thomas_id: '13'
+    address: 5220 OFOB; Washington, DC 20515
+    phone: (202) 225-3345
+  - name: The Western Hemisphere
+    thomas_id: '07'
+    address: 5100 OFOB; Washington, DC 20515
+    phone: (202) 226-9980
+  address: 2170 RHOB; Washington, DC 20515-6128
+  phone: (202) 225-5021
+  rss_url: http://foreignaffairs.house.gov/rss.xml
+  jurisdiction: The House Committee on Foreign Affairs considers legislation that
+    impacts the diplomatic community, which includes the Department of State, the
+    Agency for International Development (USAID), the Peace Corps, the United Nations,
+    and the enforcement of the Arms Export Control Act.
+  jurisdiction_source: http://foreignaffairs.house.gov/about
+- type: house
+  name: House Committee on Oversight and Government Reform
+  url: http://oversight.house.gov/
+  minority_url: http://democrats.oversight.house.gov/
+  thomas_id: HSGO
+  house_committee_id: GO
+  subcommittees:
+  - name: Information Technology
+    thomas_id: '25'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: Government Operations
+    thomas_id: '24'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: National Security
+    thomas_id: '06'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: Health Care, Benefits, and Administrative Rules
+    thomas_id: '27'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: The Interior, Energy and Environment
+    thomas_id: '28'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  - name: Intergovernmental Affairs
+    thomas_id: '29'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5074
+  address: 2157 RHOB; Washington, DC 20515-6143
+  phone: (202) 225-5074
+  rss_url: http://oversight.house.gov/feed/rss/
+  minority_rss_url: http://democrats.oversight.house.gov/rss.xml
+  jurisdiction: The Committee on Oversight and Government Reform has legislative jurisdiction
+    over the District of Columbia, the government procurement process, federal personnel
+    systems, the Postal Service and other oversight matters across the government.
+  jurisdiction_source: http://oversight.house.gov/about-the-committee/
+- type: house
+  name: House Committee on House Administration
+  url: http://cha.house.gov/
+  minority_url: http://democrats.cha.house.gov/
+  thomas_id: HSHA
+  house_committee_id: HA
+  address: 1309 LHOB; Washington, DC 20515-6157
+  phone: (202) 225-8281
+  rss_url: http://cha.house.gov/rss.xml
+  minority_rss_url: http://democrats.cha.house.gov/rss.xml
+  jurisdiction: The Committee on House Administration is charged with the oversight
+    of federal elections and the day-to-day operations of the House of Representatives
+  jurisdiction_source: http://cha.house.gov/about
+- type: house
+  name: House Committee on Homeland Security
+  url: http://homeland.house.gov/
+  minority_url: http://chsdemocrats.house.gov/
+  thomas_id: HSHM
+  house_committee_id: HM
+  subcommittees:
+  - name: Border and Maritime Security
+    thomas_id: '11'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  - name: Emergency Preparedness, Response, and Communications
+    thomas_id: '12'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  - name: Cybersecurity and Infrastructure Protection
+    thomas_id: '08'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  - name: Counterterrorism and Intelligence
+    thomas_id: '05'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  - name: Oversight and Management Efficiency
+    thomas_id: '09'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  - name: Transportation and Protective Security
+    thomas_id: '07'
+    address: 176 FHOB; Washington, DC 20515
+    phone: (202) 226-8417
+  address: 176 FHOB; Washington, DC 20515-6480
+  phone: (202) 226-8417
+  rss_url: http://homeland.house.gov/rss.xml
+  jurisdiction: The Committee on Homeland Security was established in 2002 to provide
+    Congressional oversight for the U.S. Department of Homeland Security and better
+    protect the American people against a possible terrorist attack. 
+  jurisdiction_source: http://homeland.house.gov/about/history-jurisdiction
+- type: house
+  name: House Committee on Energy and Commerce
+  url: http://energycommerce.house.gov/
+  minority_url: http://democrats.energycommerce.house.gov/
+  thomas_id: HSIF
+  house_committee_id: IF
+  subcommittees:
+  - name: Digital Commerce and Consumer Protection
+    thomas_id: '17'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  - name: Communications and Technology
+    thomas_id: '16'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  - name: Energy
+    thomas_id: '03'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  - name: Health
+    thomas_id: '14'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  - name: Oversight and Investigations
+    thomas_id: '02'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  - name: Environment
+    thomas_id: '18'
+    address: 2125 RHOB; Washington, DC 20515
+    phone: (202) 225-2927
+  address: 2125 RHOB; Washington, DC 20515-6115
+  phone: (202) 225-2927
+  rss_url: http://energycommerce.house.gov/rss.aspx
+  jurisdiction: The Committee on Energy and Commerce, the oldest standing legislative
+    committee in the U.S. House of Representatives, is vested with the broadest jurisdiction
+    of any congressional authorizing committee. It has responsibility for the nation’s
+    telecommunications, consumer protection, food and drug safety, public health research,
+    environmental quality, energy policy, and interstate and foreign commerce. It
+    oversees multiple cabinet-level Departments and independent agencies, including
+    the Departments of Energy, Health and Human Services, Commerce, and Transportation,
+    as well as the Environmental Protection Agency, the Federal Trade Commission,
+    the Food and Drug Administration, and the Federal Communications Commission.
+  jurisdiction_source: http://energycommerce.house.gov/about/committee-history
+- type: house
+  name: House Committee on Natural Resources
+  url: http://naturalresources.house.gov/
+  minority_url: http://democrats.naturalresources.house.gov/
+  thomas_id: HSII
+  house_committee_id: II
+  subcommittees:
+  - name: Energy and Mineral Resources
+    thomas_id: '06'
+    address: 1522 LHOB; Washington, DC 20515
+    phone: (202) 225-9297
+  - name: Federal Lands
+    thomas_id: '10'
+    address: 1332 LHOB; Washington, DC 20515
+    phone: (202) 226-7736
+  - name: Water, Power and Oceans
+    thomas_id: '13'
+    address: 4120 OFOB; Washington, DC 20515
+    phone: (202) 225-8331
+  - name: Fisheries, Wildlife, Oceans and Insular Affairs
+    thomas_id: '22'
+    address: 140 CHOB; Washington, DC 20515
+    phone: (202) 226-0200
+  - name: Indian, Insular and Alaska Native Affairs
+    thomas_id: '24'
+    address: 4450 OFOB; Washington, DC 20515
+    phone: (202) 226-9725
+  - name: Oversight and Investigations
+    thomas_id: '15'
+    address: 4170 OFOB; Washington, DC 20515
+    phone: (202) 225-7107
+  address: 1324 LHOB; Washington, DC 20515-6201
+  phone: (202) 225-2761
+  rss_url: http://naturalresources.house.gov/news.xml
+  minority_rss_url: http://democrats.naturalresources.house.gov/rss.xml
+  jurisdiction: The House Committee on Natural Resources considers legislation about
+    American energy production, mineral lands and mining, fisheries and wildlife,
+    public lands, oceans, Native Americans, irrigation and reclamation.
+  jurisdiction_source: http://naturalresources.house.gov/about/
+- type: house
+  name: House Permanent Select Committee on Intelligence
+  url: http://intelligence.house.gov/
+  minority_url: http://democrats.intelligence.house.gov/
+  thomas_id: HLIG
+  house_committee_id: IG
+  subcommittees:
+  - name: Oversight and Investigations
+    thomas_id: '09'
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+  - name: Technical and Tactical Intelligence
+    thomas_id: '05'
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+  - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
+    thomas_id: '08'
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-4121
+  - name: Central Intelligence Agency
+    thomas_id: '01'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: National Security Agency and Cybersecurity
+    thomas_id: '02'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: Emerging Threats
+    thomas_id: '03'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  - name: Department of Defense Intelligence and Overhead Architecture
+    thomas_id: '04'
+    address: HVC304 CAPITOL; Washington, DC 20515-6415
+    phone: (202) 225-4121
+  address: HVC304 CAPITOL; Washington, DC 20515-6415
+  phone: (202) 225-4121
+  rss_url: http://intelligence.house.gov/rss.xml
+  minority_rss_url: http://democrats.intelligence.house.gov/rss.xml
+  jurisdiction: The United States House Permanent Select Committee on Intelligence
+    is charged with the oversight of the United States intelligence community, which
+    includes the intelligence and intelligence related activities of 17 elements of
+    the U.S. Government, and the Military Intelligence Program.
+  jurisdiction_source: http://intelligence.house.gov/about/history-jurisdiction
+- type: house
+  name: House Committee on the Judiciary
+  url: http://judiciary.house.gov/
+  minority_url: http://democrats.judiciary.house.gov/
+  thomas_id: HSJU
+  house_committee_id: JU
+  subcommittees:
+  - name: The Constitution and Civil Justice
+    thomas_id: '10'
+    address: 362 FHOB; Washington, DC 20515
+    phone: (202) 225-2825
+  - name: Courts, Intellectual Property, and the Internet
+    thomas_id: '03'
+    address: 6310 OFOB; Washington, DC 20515
+    phone: (202) 225-5741
+  - name: Crime, Terrorism, Homeland Security, and Investigations
+    thomas_id: '08'
+    address: 6340 OFOB; Washington, DC 20515
+    phone: (202) 225-5727
+  - name: Immigration and Border Security
+    thomas_id: '01'
+    address: 6320 OFOB; Washington, DC 20515
+    phone: (202) 225-3926
+  - name: Regulatory Reform, Commercial and Antitrust Law
+    thomas_id: '05'
+    address: 6240 OFOB; Washington, DC 20515
+    phone: (202) 226-7680
+  address: 2138 RHOB; Washington, DC 20515-6216
+  phone: (202) 225-3951
+  minority_rss_url: http://democrats.judiciary.house.gov/rss.xml
+  jurisdiction: The Committee on the Judiciary has been called the lawyer for the
+    House of Representatives because of its jurisdiction over matters relating to
+    the administration of justice in federal courts, administrative bodies, and law
+    enforcement agencies. Its infrequent but important role in impeachment proceedings
+    has also brought it much attention.
+  jurisdiction_source: http://judiciary.house.gov/index.cfm/about-the-committee
+- type: house
+  name: House Committee on Transportation and Infrastructure
+  url: http://transportation.house.gov/
+  minority_url: http://democrats.transportation.house.gov/
+  thomas_id: HSPW
+  house_committee_id: PW
+  subcommittees:
+  - name: Aviation
+    thomas_id: '05'
+    address: 2251 RHOB; Washington, DC 20515
+    phone: (202) 226-3220
+  - name: Coast Guard and Maritime Transportation
+    thomas_id: '07'
+    address: 507 FHOB; Washington, DC 20515
+    phone: (202) 226-3552
+  - name: Economic Development, Public Buildings, and Emergency Management
+    thomas_id: '13'
+    address: 586 FHOB; Washington, DC 20515
+    phone: (202) 225-3014
+  - name: Highways and Transit
+    thomas_id: '12'
+    address: 2251 RHOB; Washington, DC 20515
+    phone: (202) 225-6715
+  - name: Railroads, Pipelines, and Hazardous Materials
+    thomas_id: '14'
+    address: 2029 RHOB; Washington, DC 20515
+    phone: (202) 226-0727
+  - name: Water Resources and Environment
+    thomas_id: '02'
+    address: 585 FHOB; Washington, DC 20515
+    phone: (202) 225-4360
+  address: 2251 RHOB; Washington, DC 20515-6256
+  phone: (202) 225-9446
+  rss_url: http://transportation.house.gov/rss.xml
+  minority_rss_url: http://democrats.transportation.house.gov/rss.xml
+  jurisdiction: 'The Transportation and Infrastructure Committee has jurisdiction
+    over all modes of transportation: aviation, maritime and waterborne transportation,
+    highways, bridges, mass transit, and railroads.  The Committee also has jurisdiction
+    over other aspects of our national infrastructure, such as clean water and waste
+    water management, the transport of resources by pipeline, flood damage reduction,
+    the management of federally owned real estate and public buildings, the development
+    of economically depressed rural and urban areas, disaster preparedness and response,
+    and hazardous materials transportation.'
+  jurisdiction_source: http://transportation.house.gov/about/history.htm
+- type: house
+  name: House Committee on Rules
+  url: http://rules.house.gov/
+  minority_url: http://democrats.rules.house.gov/
+  thomas_id: HSRU
+  house_committee_id: RU
+  subcommittees:
+  - name: Legislative and Budget Process
+    thomas_id: '02'
+    address: H312 CAPITOL; Washington, DC 20515
+    phone: (202) 225-9191
+  - name: Rules and Organization of the House
+    thomas_id: '04'
+    address: H312 CAPITOL; Washington, DC 20515
+    phone: (202) 225-9191
+  address: H312 CAPITOL; Washington, DC 20515-6269
+  phone: (202) 225-9191
+  minority_rss_url: http://democrats.rules.house.gov/rss.xml
+  jurisdiction: 'The Rules Committee has two broad categories of jurisdiction: special
+    orders for the consideration of legislation (known as “special rules” or “rules”)
+    and original jurisdiction matters. A special rule provides the terms and conditions
+    of debate on a measure or matter, consideration of which constitutes the bulk
+    of the work of the Rules Committee. The Committee also considers original jurisdiction
+    measures, which commonly represent changes to the standing rules of the House,
+    or measures that contain special rules, such as the expedited procedures in trade
+    legislation.'
+  jurisdiction_source: http://rules.house.gov/about
+- type: house
+  name: House Committee on Small Business
+  url: http://smallbusiness.house.gov/
+  minority_url: http://democrats.smallbusiness.house.gov/
+  thomas_id: HSSM
+  house_committee_id: SM
+  subcommittees:
+  - name: Contracting and Workforce
+    thomas_id: '23'
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+  - name: Investigations, Oversight and Regulations
+    thomas_id: '24'
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+  - name: Agriculture, Energy and Trade
+    thomas_id: '25'
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+  - name: Health and Technology
+    thomas_id: '26'
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+  - name: Economic Growth, Tax and Capital Access
+    thomas_id: '27'
+    address: 2361 RHOB; Washington, DC 20515
+    phone: (202) 225-5821
+  address: 2361 RHOB; Washington, DC 20515-6315
+  phone: (202) 225-5821
+  rss_url: http://smallbusiness.house.gov/news/rss.aspx
+  minority_rss_url: http://democrats.smallbusiness.house.gov/rss.xml
+  jurisdiction: The House Small Business Committee was established to protect and
+    assist small businesses.  The Committee has jurisdiction over matters related
+    to small business financial aid, regulatory flexibility, paperwork reduction,
+    and the Small Business Administration (SBA) and its programs.
+  jurisdiction_source: http://smallbusiness.house.gov/about/rulesandjurisdiction.htm
+- type: house
+  name: House Committee on Ethics
+  url: http://ethics.house.gov/
+  thomas_id: HSSO
+  house_committee_id: SO
+  address: 1015 LHOB; Washington, DC 20515-6328
+  phone: (202) 225-7103
+  rss_url: http://ethics.house.gov/rss.xml
+  jurisdiction: The House Ethics Committee has the jurisdiction to administer travel,
+    gift, financial disclosure, outside income, and other regulations related to the
+    actions of members of the House.
+  jurisdiction_source: http://ethics.house.gov/about/committee-history
+- type: house
+  name: House Committee on Science, Space, and Technology
+  url: http://science.house.gov/
+  minority_url: http://democrats.science.house.gov/
+  thomas_id: HSSY
+  house_committee_id: SY
+  subcommittees:
+  - name: Energy
+    thomas_id: '20'
+    address: 2319 RHOB; Washington, DC 20515
+    phone: (202) 225-6371
+  - name: Oversight
+    thomas_id: '21'
+    address: 2321 RHOB; Washington, DC 20515
+    phone: (202) 225-6371
+  - name: Space
+    thomas_id: '16'
+    address: 4220 OFOB; Washington, DC 20515
+    phone: (202) 225-6371
+  - name: Environment
+    thomas_id: '18'
+    address: 2319 RHOB; Washington, DC 20515
+    phone: (202) 225-6371
+  - name: Research and Technology
+    thomas_id: '15'
+    address: 4220 OFOB; Washington, DC 20515
+    phone: (202) 225-6371
+  address: 2321 RHOB; Washington, DC 20515-6301
+  phone: (202) 225-6371
+  rss_url: http://science.house.gov/rss.xml
+  minority_rss_url: http://democrats.science.house.gov/rss.xml
+  jurisdiction: The Committee on Science, Space, and Technology has jurisdiction over
+    energy research, all federally owned or operated non-military energy laboratories,
+    astronautical research and development, civil aviation, environmental research
+    and development, marine research, the National Institute of Standards and Technology,
+    NASA, NSF, NWS, outer space, and other aspects of scientific research.
+  jurisdiction_source: http://science.house.gov/jurisdiction
+- type: house
+  name: House Select Committee on the Events Surrounding the 2012 Terrorist Attack
+    in Benghazi
+  url: http://benghazi.house.gov/
+  minority_url: http://democrats.benghazi.house.gov/
+  house_committee_id: ZI
+  thomas_id: HLZI
+  address: 1036 LHOB; Washington, DC 20515-6090
+  phone: (202) 226-7100
+  rss_url: http://benghazi.house.gov/rss.xml
+  minority_rss_url: http://democrats.benghazi.house.gov/rss.xml
+- type: house
+  name: House Committee on Veterans' Affairs
+  url: http://veterans.house.gov/
+  minority_url: http://democrats.veterans.house.gov/
+  thomas_id: HSVR
+  house_committee_id: VR
+  subcommittees:
+  - name: Disability Assistance and Memorial Affairs
+    thomas_id: '09'
+    address: 337 CHOB; Washington, DC 20515
+    phone: (202) 225-9164
+  - name: Economic Opportunity
+    thomas_id: '10'
+    address: 335 CHOB; Washington, DC 20515
+    phone: (202) 226-5491
+  - name: Health
+    thomas_id: '03'
+    address: 338 CHOB; Washington, DC 20515
+    phone: (202) 225-9154
+  - name: Oversight and Investigations
+    thomas_id: '08'
+    address: 337A CHOB; Washington, DC 20515
+    phone: (202) 225-3569
+  address: 335 CHOB; Washington, DC 20515-6335
+  phone: (202) 225-3527
+  rss_url: http://veterans.house.gov/rss.xml
+  minority_rss_url: http://democrats.veterans.house.gov/rss.xml
+  jurisdiction: The Committee on Veterans’ Affairs is the authorizing Committee for
+    the Department of Veterans Affairs. The Committee recommends legislation expanding,
+    curtailing, or fine-tuning existing laws relating to veterans’ benefits. The Committee
+    also has oversight responsibility of the VA.
+  jurisdiction_source: http://veterans.house.gov/about/history-jurisdiction
+- type: house
+  name: House Committee on Ways and Means
+  url: http://waysandmeans.house.gov/
+  minority_url: http://democrats.waysandmeans.house.gov/
+  thomas_id: HSWM
+  house_committee_id: WM
+  subcommittees:
+  - name: Health
+    thomas_id: '02'
+    address: 1104 LHOB; Washington, DC 20515
+    phone: (202) 225-3943
+  - name: Human Resources
+    thomas_id: '03'
+    address: 1129 LHOB; Washington, DC 20515
+    phone: (202) 225-1025
+  - name: Oversight
+    thomas_id: '06'
+    address: 2018 RHOB; Washington, DC 20515
+    phone: (202) 225-9263
+  - name: Tax Policy
+    thomas_id: '05'
+    address: 1136 LHOB; Washington, DC 20515
+    phone: (202) 225-5522
+  - name: Social Security
+    thomas_id: '01'
+    address: 2018 RHOB; Washington, DC 20515
+    phone: (202) 225-9263
+  - name: Trade
+    thomas_id: '04'
+    address: 1103 LHOB; Washington, DC 20515
+    phone: (202) 225-6649
+  address: 1102 LHOB; Washington, DC 20515-6348
+  phone: (202) 225-3625
+  minority_rss_url: http://democrats.waysandmeans.house.gov/rss.xml
+  jurisdiction: The Committee on Ways and Means is the oldest committee of the United
+    States Congress, and is the chief tax-writing committee in the House of Representatives.
+    The Committee derives a large share of its jurisdiction from Article I, Section
+    VII of the U.S. Constitution which declares, “All Bills for raising Revenue shall
+    originate in the House of Representatives.”
+  jurisdiction_source: http://waysandmeans.house.gov/about/history.htm
+- type: joint
+  name: Commission on Security and Cooperation in Europe
+  url: http://www.csce.gov/
+  thomas_id: JCSE
+  senate_committee_id: JCSE
+  wikipedia: Commission on Security and Cooperation in Europe
+- type: joint
+  name: Joint Economic Committee
+  url: http://jec.senate.gov/
+  thomas_id: JSEC
+  senate_committee_id: JSEC
+  rss_url: http://www.jec.senate.gov/republicans/public/?a=RSS.Feed
+  minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
+  wikipedia: Joint Economic Committee
+- type: joint
+  name: Joint Committee on the Library
+  url: https://cha.house.gov/jointcommittees/joint-committee-library
+  thomas_id: JSLC
+  senate_committee_id: JSLC
+  wikipedia: Joint Committee on the Library
+- type: joint
+  name: Joint Committee on Printing
+  url: https://cha.house.gov/jointcommittees/joint-committee-on-printing
+  thomas_id: JSPR
+  senate_committee_id: JSPR
+  wikipedia: Joint Committee on Printing
+- type: joint
+  name: Joint Committee on Taxation
+  url: https://www.jct.gov
+  thomas_id: JSTX
+  senate_committee_id: JSTX
+  wikipedia: United States Congress Joint Committee on Taxation
+- type: senate
+  name: United States Senate Caucus on International Narcotics Control
+  url: http://www.drugcaucus.senate.gov/
+  thomas_id: SCNC
+  senate_committee_id: SCNC
+- type: senate
+  name: Senate Select Committee on Ethics
+  url: http://ethics.senate.gov/
+  thomas_id: SLET
+  senate_committee_id: SLET
+  rss_url: http://www.ethics.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Select Committee on Ethics
+- type: senate
+  name: Senate Committee on Indian Affairs
+  url: http://indian.senate.gov/
+  thomas_id: SLIA
+  senate_committee_id: SLIA
+  wikipedia: United States Senate Committee on Indian Affairs
+- type: senate
+  name: Senate Select Committee on Intelligence
+  url: http://intelligence.senate.gov/
+  thomas_id: SLIN
+  senate_committee_id: SLIN
+  wikipedia: United States Senate Select Committee on Intelligence
+- type: senate
+  name: Senate Special Committee on Aging
+  url: http://www.aging.senate.gov/
+  thomas_id: SPAG
+  senate_committee_id: SPAG
+  wikipedia: United States Senate Special Committee on Aging
+- type: senate
+  name: Senate Committee on Agriculture, Nutrition, and Forestry
+  url: http://agriculture.senate.gov/
+  thomas_id: SSAF
+  senate_committee_id: SSAF
+  subcommittees:
+  - name: Commodities, Risk Management, and Trade
+    thomas_id: '13'
+    wikipedia: United States Senate Agriculture Subcommittee on Commodities, Markets,
+      Trade and Risk Management
+  - name: Conservation, Forestry, and Natural Resources
+    thomas_id: '14'
+    wikipedia: United States Senate Agriculture Subcommittee on Conservation, Forestry
+      and Natural Resources
+  - name: Rural Development and Energy
+    thomas_id: '15'
+    wikipedia: United States Senate Agriculture Subcommittee on Jobs, Rural Economic
+      Growth and Energy Innovation
+  - name: Nutrition, Agricultural Research, and Specialty Crops
+    thomas_id: '16'
+    wikipedia: United States Senate Agriculture Subcommittee on Nutrition, Specialty
+      Crops, Food and Agricultural Research
+  - name: Livestock, Marketing, and Agriculture Security
+    thomas_id: '17'
+    wikipedia: United States Senate Agriculture Subcommittee on Livestock, Dairy,
+      Poultry, Marketing and Agriculture Security
+  rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=democrat
+  minority_rss_url: http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=republican
+  wikipedia: United States Senate Committee on Agriculture, Nutrition and Forestry
+- type: senate
+  name: Senate Committee on Appropriations
+  url: http://appropriations.senate.gov/
+  thomas_id: SSAP
+  senate_committee_id: SSAP
+  subcommittees:
+  - name: Commerce, Justice, Science, and Related Agencies
+    thomas_id: '16'
+    wikipedia: United States Senate Appropriations Subcommittee on Commerce, Justice,
+      Science, and Related Agencies
+  - name: Energy and Water Development
+    thomas_id: '22'
+    wikipedia: United States Senate Appropriations Subcommittee on Financial Services
+      and General Government
+  - name: Financial Services and General Government
+    thomas_id: '23'
+    wikipedia: United States Senate Appropriations Subcommittee on Financial Services
+      and General Government
+  - name: Department of Homeland Security
+    thomas_id: '14'
+    wikipedia: United States Senate Appropriations Subcommittee on Homeland Security
+  - name: Department of the Interior, Environment, and Related Agencies
+    thomas_id: '17'
+    wikipedia: United States Senate Appropriations Subcommittee on Interior, Environment,
+      and Related Agencies
+  - name: Departments of Labor, Health and Human Services, and Education, and Related
+      Agencies
+    thomas_id: '18'
+    wikipedia: United States Senate Appropriations Subcommittee on Labor, Health and
+      Human Services, Education, and Related Agencies
+  - name: Military Construction and Veterans Affairs, and Related Agencies
+    thomas_id: '19'
+    wikipedia: United States Senate Appropriations Subcommittee on Military Construction,
+      Veterans Affairs, and Related Agencies
+  - name: State, Foreign Operations, and Related Programs
+    thomas_id: '20'
+    wikipedia: United States Senate Appropriations Subcommittee on the Department
+      of State, Foreign Operations, and Related Programs
+  - name: Transportation, Housing and Urban Development, and Related Agencies
+    thomas_id: '24'
+    wikipedia: United States Senate Appropriations Subcommittee on Transportation,
+      Housing and Urban Development, and Related Agencies
+  - name: Agriculture, Rural Development, Food and Drug Administration, and Related
+      Agencies
+    thomas_id: '01'
+    wikipedia: United States Senate Appropriations Subcommittee on Agriculture, Rural
+      Development, Food and Drug Administration, and Related Agencies
+  - name: Department of Defense
+    thomas_id: '02'
+    wikipedia: United States Senate Appropriations Subcommittee on Defense
+  - name: Legislative Branch
+    thomas_id: '08'
+    wikipedia: United States Senate Appropriations Subcommittee on Legislative Branch
+  wikipedia: United States Senate Committee on Appropriations
+- type: senate
+  name: Senate Committee on Armed Services
+  url: http://armed-services.senate.gov/
+  thomas_id: SSAS
+  senate_committee_id: SSAS
+  subcommittees:
+  - name: Airland
+    thomas_id: '14'
+    wikipedia: United States Senate Armed Services Subcommittee on Airland
+  - name: Emerging Threats and Capabilities
+    thomas_id: '20'
+    wikipedia: United States Senate Armed Services Subcommittee on Emerging Threats
+      and Capabilities
+  - name: Personnel
+    thomas_id: '17'
+    wikipedia: United States Senate Armed Services Subcommittee on Personnel
+  - name: Readiness and Management Support
+    thomas_id: '15'
+    wikipedia: United States Senate Armed Services Subcommittee on Readiness and Management
+      Support
+  - name: SeaPower
+    thomas_id: '13'
+    wikipedia: United States Senate Armed Services Subcommittee on Seapower
+  - name: Strategic Forces
+    thomas_id: '16'
+    wikipedia: United States Senate Armed Services Subcommittee on Strategic Forces
+  - thomas_id: '21'
+    name: Cybersecurity
+  rss_url: http://www.armed-services.senate.gov/press/index.cfm?xml=Press%20Releases,RSS2.0
+  wikipedia: United States Senate Committee on Armed Services
+- type: senate
+  name: Senate Committee on Banking, Housing, and Urban Affairs
+  url: http://banking.senate.gov/
+  thomas_id: SSBK
+  senate_committee_id: SSBK
+  subcommittees:
+  - name: Economic Policy
+    thomas_id: '12'
+    wikipedia: United States Senate Banking Subcommittee on Economic Policy
+  - name: National Security and International Trade and Finance
+    thomas_id: '05'
+    wikipedia: United States Senate Banking Subcommittee on Security and International
+      Trade and Finance
+  - name: Securities, Insurance, and Investment
+    thomas_id: '04'
+    wikipedia: United States Senate Banking Subcommittee on Securities, Insurance,
+      and Investment
+  - name: Housing, Transportation, and Community Development
+    thomas_id: '09'
+    wikipedia: United States Senate Banking Subcommittee on Housing, Transportation,
+      and Community Development
+  - name: Financial Institutions and Consumer Protection
+    thomas_id: '08'
+    wikipedia: United States Senate Banking Subcommittee on Financial Institutions
+      and Consumer Protection
+  wikipedia: United States Senate Committee on Banking, Housing, and Urban Affairs
+- type: senate
+  name: Senate Committee on the Budget
+  url: http://budget.senate.gov/
+  thomas_id: SSBU
+  senate_committee_id: SSBU
+  rss_url: http://www.budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements
+  minority_rss_url: http://www.budget.senate.gov/republican/public/index.cfm/rss/feed
+  wikipedia: United States Senate Committee on the Budget
+- type: senate
+  name: Senate Committee on Commerce, Science, and Transportation
+  url: http://commerce.senate.gov/
+  thomas_id: SSCM
+  senate_committee_id: SSCM
+  subcommittees:
+  - name: Communications, Technology, Innovation, and the Internet
+    thomas_id: '26'
+    wikipedia: United States Senate Commerce Subcommittee on Communications, Technology,
+      and the Internet
+  - name: Tourism, Competitiveness, and Innovation
+    thomas_id: '27'
+    wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
+      and Export Promotion
+  - name: Consumer Protection, Product Safety, Insurance, and Data Security
+    thomas_id: '20'
+    wikipedia: United States Senate Commerce Subcommittee on Consumer Protection,
+      Product Safety, and Insurance
+  - name: Oceans, Atmosphere, Fisheries, and Coast Guard
+    thomas_id: '22'
+    wikipedia: United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries,
+      and Coast Guard
+  - name: Space, Science, and Competitiveness
+    thomas_id: '24'
+    wikipedia: United States Senate Commerce Subcommittee on Science and Space
+  - name: Surface Transportation and Merchant Marine Infrastructure, Safety and Security
+    thomas_id: '25'
+    wikipedia: United States Senate Commerce Subcommittee on Surface Transportation
+      and Merchant Marine Infrastructure, Safety, and Security
+  - name: Aviation Operations, Safety, and Security
+    thomas_id: '01'
+    wikipedia: United States Senate Commerce Subcommittee on Aviation Operations,
+      Safety, and Security
+  rss_url: http://www.commerce.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Commerce, Science and Transportation
+- type: senate
+  name: Senate Committee on Energy and Natural Resources
+  url: http://energy.senate.gov/
+  thomas_id: SSEG
+  senate_committee_id: SSEG
+  subcommittees:
+  - name: Water and Power
+    thomas_id: '07'
+    wikipedia: United States Senate Energy Subcommittee on Water and Power
+  - name: National Parks
+    thomas_id: '04'
+    wikipedia: United States Senate Energy Subcommittee on National Parks
+  - name: Energy
+    thomas_id: '01'
+    wikipedia: United States Senate Energy Subcommittee on Energy
+  - name: Public Lands, Forests, and Mining
+    thomas_id: '03'
+    wikipedia: United States Senate Energy Subcommittee on Public Lands, Forests and
+      Mining
+  rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=democratic-news
+  minority_rss_url: http://www.energy.senate.gov/public/index.cfm/rss/feed?type=republican-news
+  wikipedia: United States Senate Committee on Energy and Natural Resources
+- type: senate
+  name: Senate Committee on Environment and Public Works
+  url: http://epw.senate.gov/
+  thomas_id: SSEV
+  senate_committee_id: SSEV
+  subcommittees:
+  - name: Clean Air and Nuclear Safety
+    thomas_id: '10'
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Clean
+      Air and Nuclear Safety
+  - name: Superfund, Waste Management, and Regulatory Oversight
+    thomas_id: '09'
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Superfund,
+      Toxics and Environmental Health
+  - thomas_id: '16'
+    name: Green Jobs and the New Economy
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Green
+      Jobs and the New Economy
+  - thomas_id: '18'
+    name: Oversight
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Oversight
+  - thomas_id: '08'
+    name: Transportation and Infrastructure
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Transportation
+      and Infrastructure
+  - thomas_id: '15'
+    name: Fisheries, Water, and Wildlife
+    wikipedia: United States Senate Environment and Public Works Subcommittee on Water
+      and Wildlife
+  rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
+  minority_rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Minority
+  wikipedia: United States Senate Committee on Environment and Public Works
+- type: senate
+  name: Senate Committee on Finance
+  url: http://finance.senate.gov/
+  thomas_id: SSFI
+  senate_committee_id: SSFI
+  subcommittees:
+  - name: Energy, Natural Resources, and Infrastructure
+    thomas_id: '12'
+    wikipedia: United States Senate Finance Subcommittee on Energy, Natural Resources,
+      and Infrastructure
+  - name: Health Care
+    thomas_id: '10'
+    wikipedia: United States Senate Finance Subcommittee on Health Care
+  - name: International Trade, Customs, and Global Competitiveness
+    thomas_id: '13'
+    wikipedia: United States Senate Finance Subcommittee on International Trade, Customs,
+      and Global Competitiveness
+  - name: Fiscal Responsibility and Economic Growth
+    thomas_id: '14'
+    wikipedia: United States Senate Finance Subcommittee on Fiscal Responsibility
+      and Economic Growth
+  - name: Taxation and IRS Oversight
+    thomas_id: '11'
+    wikipedia: United States Senate Finance Subcommittee on Taxation and IRS Oversight
+  - name: Social Security, Pensions, and Family Policy
+    thomas_id: '02'
+    wikipedia: United States Senate Finance Subcommittee on Social Security, Pensions,
+      and Family Policy
+  rss_url: http://www.finance.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.finance.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Finance
+- type: senate
+  name: Senate Committee on Foreign Relations
+  url: http://foreign.senate.gov/
+  thomas_id: SSFR
+  senate_committee_id: SSFR
+  subcommittees:
+  - name: International Development and Foreign Assistance, Economic Affairs, International
+      Environmental Protection, and Peace Corps
+    thomas_id: '12'
+    wikipedia: United States Senate Foreign Relations Subcommittee on International
+      Development and Foreign Assistance, Economic Affairs and International Environmental
+      Protection, and Peace Corps
+  - name: International Operations and Organizations, Human Rights, Democracy, and
+      Global Women's Issues
+    thomas_id: '13'
+    wikipedia: United States Senate Foreign Relations Subcommittee on International
+      Operations and Organizations, Human Rights, Democracy and Global Women's Issues
+  - name: Europe and Regional Security Cooperation
+    thomas_id: '01'
+    wikipedia: United States Senate Foreign Relations Subcommittee on European Affairs
+  - name: Africa and Global Health Policy
+    thomas_id: '09'
+    wikipedia: United States Senate Foreign Relations Subcommittee on African Affairs
+  - name: East Asia, the Pacific, and International Cybersecurity Policy
+    thomas_id: '02'
+    wikipedia: United States Senate Foreign Relations Subcommittee on East Asian and
+      Pacific Affairs
+  - name: Near East, South Asia, Central Asia, and Counterterrorism
+    thomas_id: '07'
+    wikipedia: United States Senate Foreign Relations Subcommittee on Near Eastern
+      and South and Central Asian Affairs
+  - name: Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human
+      Rights, and Global Women's Issues
+    thomas_id: '06'
+    wikipedia: United States Senate Foreign Relations Subcommittee on Western Hemisphere
+      and Global Narcotics Affairs
+  - thomas_id: '15'
+    name: Multilateral International Development, Multilateral Institutions, and International
+      Economic, Energy, and Environmental Policy
+  - thomas_id: '14'
+    name: State Department and USAID Management, International Operations, and Bilateral
+      International Development
+  rss_url: http://www.foreign.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.foreign.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Foreign Relations
+- type: senate
+  name: Senate Committee on Homeland Security and Governmental Affairs
+  url: http://hsgac.senate.gov/
+  thomas_id: SSGA
+  senate_committee_id: SSGA
+  subcommittees:
+  - thomas_id: '01'
+    name: Permanent Subcommittee on Investigations
+    wikipedia: United States Senate Homeland Security Permanent Subcommittee on Investigations
+  - thomas_id: '17'
+    name: Emergency Management, Intergovernmental Relations, and the District of Columbia
+  - thomas_id: '15'
+    name: Financial and Contracting Oversight
+  - thomas_id: '16'
+    name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
+  - thomas_id: '18'
+    name: Federal Spending Oversight and Emergency Management
+  - thomas_id: '19'
+    name: Regulatory Affairs and Federal Management
+  wikipedia: United States Senate Committee on Homeland Security and Governmental
+    Affairs
+- type: senate
+  name: Senate Committee on Health, Education, Labor, and Pensions
+  url: http://help.senate.gov/
+  thomas_id: SSHR
+  senate_committee_id: SSHR
+  subcommittees:
+  - name: Employment and Workplace Safety
+    thomas_id: '11'
+    wikipedia: United States Senate Health Subcommittee on Employment and Workplace
+      Safety
+  - name: Primary Health and Retirement Security
+    thomas_id: '12'
+    wikipedia: United States Senate Health Subcommittee on Primary Health and Aging
+  - name: Children and Families
+    thomas_id: '09'
+    wikipedia: United States Senate Health Subcommittee on Children and Families
+  rss_url: http://www.help.senate.gov/rss/feed/chair/
+  minority_rss_url: http://www.help.senate.gov/rss/feed/ranking/
+  wikipedia: United States Senate Committee on Health, Education, Labor, and Pensions
+- type: senate
+  name: Senate Committee on the Judiciary
+  url: http://judiciary.senate.gov/
+  thomas_id: SSJU
+  senate_committee_id: SSJU
+  subcommittees:
+  - name: the Constitution
+    thomas_id: '21'
+    wikipedia: United States Senate Judiciary Subcommittee on the Constitution, Civil
+      Rights and Human Rights
+  - name: Crime and Terrorism
+    thomas_id: '22'
+    wikipedia: United States Senate Judiciary Subcommittee on Crime and Terrorism
+  - name: Privacy, Technology and the Law
+    thomas_id: '23'
+    wikipedia: United States Senate Judiciary Subcommittee on Privacy, Technology
+      and the Law
+  - name: Antitrust, Competition Policy and Consumer Rights
+    thomas_id: '01'
+    wikipedia: United States Senate Judiciary Subcommittee on Antitrust, Competition
+      Policy and Consumer Rights
+  - name: Border Security and Immigration
+    thomas_id: '04'
+    wikipedia: United States Senate Judiciary Subcommittee on Immigration, Refugees
+      and Border Security
+  - thomas_id: '24'
+    name: Bankruptcy and the Courts
+  - thomas_id: '25'
+    name: Oversight, Agency Action, Federal Rights and Federal Courts
+  wikipedia: United States Senate Committee on the Judiciary
+- type: senate
+  name: Senate Committee on Rules and Administration
+  url: http://rules.senate.gov/
+  thomas_id: SSRA
+  senate_committee_id: SSRA
+  rss_url: http://www.rules.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Rules and Administration
+- type: senate
+  name: Senate Committee on Small Business and Entrepreneurship
+  url: http://sbc.senate.gov/
+  thomas_id: SSSB
+  senate_committee_id: SSSB
+  rss_url: http://www.sbc.senate.gov/public/?a=RSS.Feed
+  wikipedia: United States Senate Committee on Small Business and Entrepreneurship
+- type: senate
+  name: Senate Committee on Veterans' Affairs
+  url: http://veterans.senate.gov/
+  thomas_id: SSVA
+  senate_committee_id: SSVA
+  rss_url: http://www.veterans.senate.gov/rss.cfm
+  minority_rss_url: http://www.veterans.senate.gov/rankingmember/rss.cfm
+  wikipedia: United States Senate Committee on Veterans' Affairs
