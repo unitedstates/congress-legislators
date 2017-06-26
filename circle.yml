@@ -1,0 +1,25 @@
+# CircleCI configuration file.
+machine:
+  python:
+    version: 3.5.2
+
+dependencies:
+  pre:
+    - pip install -r scripts/requirements.txt
+
+# Run tests.
+test:
+  override:
+   - python test/workout.py
+   - pyflakes .
+   - python test/are_files_linted.py
+   - python test/validate.py
+
+# Update the gh-pages branch. This requires that
+# CircleCI be set up with read-write permission
+# on the repo, which is not CircleCI's default.
+deployment:
+  production:
+    branch: master
+    commands:
+      - scripts/update_gh_pages.sh
