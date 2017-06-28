@@ -19280,6 +19280,30 @@
     latitude: 39.64151
     longitude: -77.7191
     id: V000128-hagerstown
+  - address: 1900 North Howard Street
+    building: ''
+    city: Baltimore
+    fax: 301-545-1512
+    hours: ''
+    phone: 667-212-4610
+    state: MD
+    suite: Suite 100
+    zip: '21218'
+    latitude: 39.3114748
+    longitude: -76.6216137
+    id: V000128-baltimore
+  - address: 60 West Street
+    building: ''
+    city: Annapolis
+    fax: ''
+    hours: ''
+    phone: 410-263-1325
+    state: MD
+    suite: Suite 107
+    zip: '21401'
+    latitude: 38.9785971
+    longitude: -76.4976378
+    id: V000128-annapolis
 - id:
     bioguide: K000393
     govtrack: 412679
@@ -19333,9 +19357,9 @@
     state: CA
     suite: Suite 319
     zip: '92706'
-    id: C001110-santa_ana
     latitude: 33.7673604
-    longitude: -117.8681925
+    longitude: -117.8703812
+    id: C001110-santa_ana
 - id:
     bioguide: E000298
     govtrack: 412735
