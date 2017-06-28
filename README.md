@@ -21,7 +21,7 @@ This repository also contains a database of presidents and vice presidents in ex
 
 The files are in [YAML](http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
 
-This database has been collected from a variety of sources:
+This database is maintained through a combination of manual edits by volunteers (from [GovTrack](https://www.govtrack.us), [ProPublica](https://projects.propublica.org/represent/), [MapLight](https://maplight.org/), [FiveThirtyEight](https://fivethirtyeight.com/), and others) and automated imports from a variety of sources including:
 
 * GovTrack.us (http://www.govtrack.us).
 * The Congressional Biographical Directory (http://bioguide.congress.gov).
@@ -30,8 +30,6 @@ This database has been collected from a variety of sources:
 * The Sunlight Labs Congress API (http://sunlightlabs.github.com/congress/).
 * The Library of Congress's THOMAS website (http://thomas.loc.gov).
 * C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
-
-The data is currently maintained both by hand and by some scripts in the `scripts` directory.
 
 ### Running the scripts
 
