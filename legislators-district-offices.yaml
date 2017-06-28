@@ -2514,7 +2514,7 @@
     id: C000984-catonsville
   - address: 8267 Main St.
     building: ''
-    city: Ellicott
+    city: Ellicott City
     fax: 410-465-8740
     hours: M-F 8:30AM to 5PM
     phone: 410-465-8259
@@ -4275,7 +4275,7 @@
     govtrack: 400093
     thomas: '01477'
   offices:
-  - address: 2746 W. Madison St.
+  - address: 2813-15 W. Fifth Ave.
     building: ''
     city: Chicago
     fax: 773-533-7530
@@ -4284,8 +4284,8 @@
     state: IL
     suite: ''
     zip: '60612'
-    latitude: 41.88125790000001
-    longitude: -87.69572930000001
+    latitude: 41.8807415
+    longitude: -87.6990211
     id: D000096-chicago
 - id:
     bioguide: D000191
@@ -9281,7 +9281,7 @@
     latitude: 46.6766073
     longitude: -67.9956649
     id: K000383-presque_isle
-  - address: 383 Route
+  - address: 383 Route 1
     building: ''
     city: Scarborough
     fax: ''
@@ -10712,7 +10712,7 @@
     phone: 718-349-5972
     state: NY
     suite: ''
-    zip: 11211-222
+    zip: 11211-2228
     latitude: 40.7155784
     longitude: -73.94987139999999
     id: M000087-brooklyn
@@ -11192,17 +11192,17 @@
     latitude: 61.2171561
     longitude: -149.9043364
     id: M001153-anchorage
-  - address: 101 12th Ave.
-    building: Federal Building
+  - address: 250 Cushman St
+    building: Courthouse Square
     city: Fairbanks
     fax: 907-451-7146
     hours: ''
     phone: 907-456-0233
     state: AK
-    suite: Suite 329
+    suite: '#2D'
     zip: '99701'
-    latitude: 64.8383052
-    longitude: -147.7082477
+    latitude: 64.8427991
+    longitude: -147.7219443
     id: M001153-fairbanks
   - address: 800 Glacier Ave.
     building: ''
@@ -14830,18 +14830,6 @@
     latitude: 30.438114
     longitude: -84.281289
     id: R000595-tallahassee
-  - address: 5201 W. Kennedy Blvd.
-    building: ''
-    city: Tampa
-    fax: ''
-    hours: ''
-    phone: 813-287-5035
-    state: FL
-    suite: Suite 530
-    zip: '33609'
-    latitude: 27.945205
-    longitude: -82.5314559
-    id: R000595-tampa
 - id:
     bioguide: R000597
     govtrack: 412572
@@ -17099,17 +17087,17 @@
     latitude: 40.261919
     longitude: -76.882739
     id: T000461-harrisburg
-  - address: 1628 John F. Kennedy Blvd
-    building: 8 Penn Center
+  - address: 200 Chestnut Street
+    building: US Custom House
     city: Philadelphia
     fax: 215-241-1095
     hours: ''
     phone: 215-241-1090
     state: PA
-    suite: Suite 1702
-    zip: '19103'
-    latitude: 39.953754
-    longitude: -75.167981
+    suite: Suite 600
+    zip: '19106'
+    latitude: 39.94829
+    longitude: -75.1441
     id: T000461-philadelphia
   - address: 100 W. Station Square Dr.
     building: ''
@@ -19268,27 +19256,107 @@
     bioguide: V000128
     govtrack: 400415
   offices:
-    - address: 111 Rockville Pike
-      building: ''
-      city: Rockville
-      fax: ''
-      hours: ''
-      phone: 301-545-1500
-      state: MD
-      suite: Suite 960
-      zip: '20850'
-      latitude: 39.08895
-      longitude: -77.15119
-      id: V000128-rockville
-    - address: 32 West Washington Street
-      building: ''
-      city: Hagerstown
-      fax: ''
-      hours: ''
-      phone: 301-797-2826
-      state: MD
-      suite: Suite 203
-      zip: '21740'
-      latitude: 39.64151
-      longitude: -77.7191
-      id: V000128-hagerstown
+  - address: 111 Rockville Pike
+    building: ''
+    city: Rockville
+    fax: ''
+    hours: ''
+    phone: 301-545-1500
+    state: MD
+    suite: Suite 960
+    zip: '20850'
+    latitude: 39.08895
+    longitude: -77.15119
+    id: V000128-rockville
+  - address: 32 West Washington Street
+    building: ''
+    city: Hagerstown
+    fax: ''
+    hours: ''
+    phone: 301-797-2826
+    state: MD
+    suite: Suite 203
+    zip: '21740'
+    latitude: 39.64151
+    longitude: -77.7191
+    id: V000128-hagerstown
+  - address: 1900 North Howard Street
+    building: ''
+    city: Baltimore
+    fax: 301-545-1512
+    hours: ''
+    phone: 667-212-4610
+    state: MD
+    suite: Suite 100
+    zip: '21218'
+    latitude: 39.3114748
+    longitude: -76.6216137
+    id: V000128-baltimore
+  - address: 60 West Street
+    building: ''
+    city: Annapolis
+    fax: ''
+    hours: ''
+    phone: 410-263-1325
+    state: MD
+    suite: Suite 107
+    zip: '21401'
+    latitude: 38.9785971
+    longitude: -76.4976378
+    id: V000128-annapolis
+- id:
+    bioguide: K000393
+    govtrack: 412679
+  offices:
+  - address: 101 La Rue France
+    building: ''
+    city: Lafayette
+    fax: ''
+    hours: ''
+    phone: 337-269-5980
+    state: LA
+    suite: Suite 503
+    zip: '70508'
+    latitude: 30.1948666
+    longitude: -92.014654
+    id: K000393-lafayette
+  - address: 1651 Louisville Avenue
+    building: ''
+    city: Monroe
+    fax: ''
+    hours: ''
+    phone: 318-361-1489
+    state: LA
+    suite: Suite 108
+    zip: '71201'
+    latitude: 32.5175209
+    longitude: -92.1087384
+    id: K000393-monroe
+  - address: 6501 Coliseum Blvd
+    building: ''
+    city: Alexandria
+    fax: ''
+    hours: ''
+    phone: 318-445-2892
+    state: LA
+    suite: Suite 700A
+    zip: '71303'
+    latitude: 31.2934776
+    longitude: -92.51565289999999
+    id: K000393-alexandria
+- id:
+    bioguide: C001110
+    govtrack: 412688
+  offices:
+  - address: 2323 N. Broadway
+    building: Rancho Santiago Community College Building
+    city: Santa Ana
+    fax: ''
+    hours: ''
+    phone: 714-621-0102
+    state: CA
+    suite: Suite 319
+    zip: '92706'
+    latitude: 33.7673604
+    longitude: -117.8703812
+    id: C001110-santa_ana

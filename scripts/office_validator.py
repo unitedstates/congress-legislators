@@ -7,7 +7,9 @@ For each legislator:
     has offices
 
 For each office:
-    Expected fields: address, city, state, zip, phone, latitude, longitude, id
+    Expected fields: address, city, state, zip, phone, latitude, longitude, id,
+                     building, fax, hours, suite
+    Required fields: address, city, state, zip, phone, latitude, longitude, id
     Office id: check consistent
     offices are in legislator's state
 
@@ -69,8 +71,11 @@ def check_legislator_offices(legislator_offices, legislator):
     if legislator:
         state = legislator['terms'][-1]['state']
 
-    expected = ['id', 'address', 'city', 'state', 'zip', 'phone',
+    required = ['id', 'address', 'city', 'state', 'zip', 'phone',
                 'latitude', 'longitude']
+
+    expected = required + ['building', 'suite', 'hours', 'fax']
+
 
     if not legislator:
         yield "Offices for inactive legislator"
@@ -81,8 +86,10 @@ def check_legislator_offices(legislator_offices, legislator):
     for office_id, office in id_offices(bioguide_id, offices):
 
         for field in expected:
-            if not office.get(field):
+            if field not in office:
                 yield "Office %s is missing field '%s'" % (office_id, field)
+            elif field in required and not office.get(field):
+                yield "Office %s required field '%s' is empty" % (office_id, field)
 
         found_id = office.get('id')
         if found_id and office_id != found_id:
@@ -111,22 +118,22 @@ def load_to_dict(path):
     return OrderedDict((l['id']['bioguide'], l) for l in d)
 
 def print_errors(legislator, errors):
-    if isinstance(legislator, basestring):
+    if isinstance(legislator, str):
         info = legislator
     else:
         term = legislator['terms'][-1]
-        info = u"{} [{} {}] {} ({})".format(
+        info = "{} [{} {}] {} ({})".format(
             legislator['id']['bioguide'], term['state'], term['type'],
             legislator['name']['official_full'], term.get('url', 'no url'))
 
     print_blank = False
     for i, err in enumerate(errors):
         if i == 0:
-            print info.encode('utf-8')
+            print(info)
             print_blank = True
-        print (" " * 4 + err).encode('utf-8')
+        print(" " * 4 + err)
     if print_blank:
-        print ""
+        print("")
 
 
 def run():
