@@ -36153,8 +36153,8 @@
     google_entity_id: kg:/m/0dty9d
   name:
     first: Beto
-    last: O'Rourke
-    official_full: Beto O'Rourke
+    last: O’Rourke
+    official_full: Beto O’Rourke
   bio:
     gender: M
     birthday: '1972-09-26'
@@ -40409,8 +40409,8 @@
     icpsr: 21739
   name:
     first: Tom
-    last: O'Halleran
-    official_full: Tom O'Halleran
+    last: O’Halleran
+    official_full: Tom O’Halleran
   bio:
     gender: M
     birthday: '1946-01-24'
@@ -42065,6 +42065,7 @@
     wikidata: Q5605607
     ballotpedia: Greg Gianforte
     google_entity_id: kg:/m/030pb5p
+    house_history: 15032448990
   name:
     first: Greg
     last: Gianforte
@@ -42084,3 +42085,68 @@
     office: 1419 Longworth House Office Building
     phone: 202-225-3211
     fax: 202-225-5687
+- id:
+    bioguide: N000190
+    fec:
+    - H8SC05158
+    govtrack: 412738
+    opensecrets: N00027783
+    votesmart: 47930
+    cspan: 61996
+    wikipedia: Ralph Norman
+    wikidata: Q7287914
+    ballotpedia: Ralph W. Norman
+    google_entity_id: kg:/m/0f9kbx
+    house_history: 15032448994
+  name:
+    first: Ralph
+    last: Norman
+    suffix: Jr.
+    official_full: Ralph Norman
+  bio:
+    birthday: '1953-06-20'
+    gender: M
+  terms:
+  - type: rep
+    start: '2017-06-26'
+    end: '2019-01-03'
+    state: SC
+    district: 5
+    party: Republican
+    url: https://norman.house.gov
+    address: 2350 Rayburn HOB; Washington DC 20515-2600
+    office: 2350 Rayburn House Office Building
+    phone: 202-225-5501
+    fax: ~
+- id:
+    bioguide: H001078
+    fec:
+    - H8GA06286
+    govtrack: 412737
+    opensecrets: N00035477
+    votesmart: 69553
+    cspan: 1026745
+    wikipedia: Karen Handel
+    wikidata: Q6369678
+    ballotpedia: Karen Handel
+    google_entity_id: kg:/m/0g838b
+    house_history: 15032448993
+  name:
+    first: Karen
+    last: Handel
+    official_full: Karen Handel
+  bio:
+    birthday: '1962-04-18'
+    gender: F
+  terms:
+  - type: rep
+    start: '2017-06-26'
+    end: '2019-01-03'
+    state: GA
+    district: 6
+    party: Republican
+    url: https://handel.house.gov
+    address: 1211 Longworth HOB; Washington DC 20515-2600
+    office: 1211 Longworth House Office Building
+    phone: 202-225-4501
+    fax: ~
