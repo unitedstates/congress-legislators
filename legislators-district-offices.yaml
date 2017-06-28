@@ -19268,18 +19268,30 @@
     latitude: 39.08895
     longitude: -77.15119
     id: V000128-rockville
-  - address: 32 West Washington Street
+  - address: 1900 North Howard Street
     building: ''
-    city: Hagerstown
+    city: Baltimore
+    fax: 301-545-1512
+    hours: ''
+    phone: 667-212-4610
+    state: MD
+    suite: Suite 100
+    zip: '21218'
+    latitude: 39.3114748
+    longitude: -76.6216137
+    id: V000128-baltimore
+  - address: 60 West Street
+    building: ''
+    city: Annapolis
     fax: ''
     hours: ''
-    phone: 301-797-2826
+    phone: 410-263-1325
     state: MD
-    suite: Suite 203
-    zip: '21740'
-    latitude: 39.64151
-    longitude: -77.7191
-    id: V000128-hagerstown
+    suite: Suite 107
+    zip: '21401'
+    latitude: 38.9785971
+    longitude: -76.4976378
+    id: V000128-annapolis
 - id:
     bioguide: K000393
     govtrack: 412679
