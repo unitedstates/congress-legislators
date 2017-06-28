@@ -55,7 +55,7 @@ def run():
 			print("Warning: No official-name tag for %s" % ssdd)
 			officialname = None
 		else:
-			officialname = mi.find('official-name').text
+			officialname = re.sub("'", "’", mi.find('official-name').text)
 
 		office_room = mi.find('office-room').text
 		office_building = mi.find('office-building').text
