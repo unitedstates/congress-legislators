@@ -85,7 +85,7 @@ def run():
 		if ", " in full_name: full_name, suffix = full_name.split(", ")
 		full_name += " " + str(node.xpath("string(last_name)"))
 		if suffix: full_name += ", " + suffix
-		member["name"]["official_full"] = full_name
+		member["name"]["official_full"] = re.sub("'", "’", full_name)
 
 		member["id"]["bioguide"] = bioguide_id
 
