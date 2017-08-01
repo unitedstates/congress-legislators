@@ -19423,3 +19423,31 @@
     id: S001202-mobile
     latitude: 30.690756
     longitude: -88.12684589999999
+- id:
+    bioguide: G000584
+    govtrack: 412736
+  offices:
+  - address: 222 North 32nd Street
+    building: ''
+    city: Billings
+    fax: ''
+    hours: ''
+    phone: 406-969-1736
+    state: MT
+    suite: Suite 900
+    zip: '59101'
+    id: G000584-billings
+    latitude: 45.7810511
+    longitude: -108.5125313
+  - address: 910 North Last Chance Gulch 
+    building: ''
+    city: Helena
+    fax: ''
+    hours: ''
+    phone: 406-502-1435
+    state: MT
+    suite: Suite B
+    zip: '59601'
+    id: G000584-helena
+    latitude: 46.5971376
+    longitude: -112.0351931
