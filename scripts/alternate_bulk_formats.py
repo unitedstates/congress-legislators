@@ -135,11 +135,13 @@ def generate_json():
     for filename in yamls:
         print("Converting %s to JSON..." % filename)
         data = utils.load_data(filename)
-        
+        '''handle edge case of incorrect coercion for twitter ids in social media data
+    		json/js can only handle maximum of 53-bit integers, so 64-bit integer twitter ids *must* be stringified 
+    		to consistently preserve value in json. otherwise they may be rounded and malformed
+    	'''
         if 'legislators-social-media' in filename:
         	for social_legislator in data:
         		if 'twitter_id' in social_legislator['social']:
-        			#stringify twitter id to preserve in conversion to json
         			social_legislator['social']['twitter_id'] = str(social_legislator['social']['twitter_id'])
   
 		#convert yaml to json
