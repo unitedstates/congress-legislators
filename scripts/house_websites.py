@@ -64,7 +64,11 @@ def run():
         continue
 
       district = str(cells[0].text_content())
-      if district == "At Large":
+      if (
+        (district == "At Large")
+        or (district == "Delegate")
+        or (district == "Resident Commissioner")
+      ):
         district = 0
 
       url = cells[1].cssselect("a")[0].get("href")

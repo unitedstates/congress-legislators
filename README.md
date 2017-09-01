@@ -1,27 +1,30 @@
 congress-legislators
 ====================
 
-Members of the United States Congress (1789-Present) and congressional committees (1973-Present) in YAML.
+Members of the United States Congress (1789-Present), congressional committees (1973-Present), committee membership (current only), and presidents and vice presidents of the United States in YAML, JSON, and CSV format.
 
-### Using the data
+[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
 
-This repository contains data about legislators...:
+Overview
+--------
 
-* `legislators-current.yaml`: Currently serving Members of Congress (as of last update).
-* `legislators-historical.yaml`: Historical Members of Congress (i.e. all Members of Congress except those in the current file).
-* `legislators-social-media.yaml`: Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
+This project provides the following data files:
 
-...and about committees:
+File | Download | Description
+---- | -------- | -----------
+`legislators-current` | [YAML](https://theunitedstates.io/congress-legislators/legislators-current.yaml) [JSON](https://theunitedstates.io/congress-legislators/legislators-current.json) [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv) | Currently serving Members of Congress.
+`legislators-historical` | [YAML](https://theunitedstates.io/congress-legislators/legislators-historical.yaml) [JSON](https://theunitedstates.io/congress-legislators/legislators-historical.json) [CSV](https://theunitedstates.io/congress-legislators/legislators-historical.csv) | Historical Members of Congress (i.e. all Members of Congress except those in the current file).
+`legislators-social-media` | [YAML](https://theunitedstates.io/congress-legislators/legislators-social-media.yaml) [JSON](https://theunitedstates.io/congress-legislators/legislators-social-media.json) | Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
+`committees-current` | [YAML](https://theunitedstates.io/congress-legislators/committees-current.yaml) [JSON](https://theunitedstates.io/congress-legislators/committees-current.json) | Current committees of the Congress, with subcommittees.
+`committee-membership-current` | [YAML](https://theunitedstates.io/congress-legislators/committee-membership-current.yaml) [JSON](https://theunitedstates.io/congress-legislators/committee-membership-current.json) | Current committee/subcommittee assignments.
+`committees-historical` | [YAML](https://theunitedstates.io/congress-legislators/committees-historical.yaml) [JSON](https://theunitedstates.io/congress-legislators/committees-historical.json) | Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+`executive` | [YAML](https://theunitedstates.io/congress-legislators/executive.yaml) [JSON](https://theunitedstates.io/congress-legislators/executive.json) | Presidents and vice presidents.
 
-* `committees-current.yaml`: Current committees of the Congress, with subcommittees.
-* `committee-membership-current.yaml`: Current committee/subcommittee assignments as of the date of last update.
-* `committees-historical.yaml`: Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+The data formats are documented below.
 
-This repository also contains a database of presidents and vice presidents in executive.yaml. Recall that vice presidents are also president of the Senate and cast tie-breaking votes.
+The files are maintained in [YAML](http://www.yaml.org/) format in the master branch of this project. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash. CSV and JSON formatted files are also provided in the `gh-pages` branch --- they're linked above.
 
-The files are in [YAML](http://www.yaml.org/) format. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash.
-
-This database has been collected from a variety of sources:
+This database is maintained through a combination of manual edits by volunteers (from [GovTrack](https://www.govtrack.us), [ProPublica](https://projects.propublica.org/represent/), [MapLight](https://maplight.org/), [FiveThirtyEight](https://fivethirtyeight.com/), and others) and automated imports from a variety of sources including:
 
 * GovTrack.us (http://www.govtrack.us).
 * The Congressional Biographical Directory (http://bioguide.congress.gov).
@@ -31,25 +34,10 @@ This database has been collected from a variety of sources:
 * The Library of Congress's THOMAS website (http://thomas.loc.gov).
 * C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
 
-The data is currently maintained both by hand and by some scripts in the `scripts` directory.
+Data Format Documentation
+-------------------------
 
-### Running the scripts
-
-You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.6**.
-
-[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
-
-Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
-
-```python
-if __name__ == '__main__':
-  run()
-```
-
-Every pull request will pass submitted scripts through an import, to catch exceptions, and through [pyflakes](https://pypi.python.org/pypi/pyflakes), to catch unused imports or local vars.
-
-Legislators File Structure and Overview
----------------------------------------
+### Legislators file structure overview
 
 `legislators-current.yaml` and `legislators-historical.yaml` contain biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
 
@@ -101,8 +89,7 @@ The split between `legislators-current.yaml` and `legislators-historical.yaml` i
 
 A separate file `legislators-social-media.yaml` stores social media account information. Its structure is similar but includes different fields.
 
-Legislators Data Dictionary
----------------------------
+### Data Dictionary
 
 The following fields are available in `legislators-current.yaml` and `legislators-historical.yaml`:
 
@@ -193,8 +180,7 @@ Terms for senators list each six-year term, so the terms span three Congresses. 
 
 Historically, some states sending at-large representatives actually sent multiple at-large representatives. Thus, state and district may not be a unique key.
 
-Data on Official Social Media Accounts
---------------------------------------
+### Data on Official Social Media Accounts
 
 This dataset is designed to include accounts that are paid for with public funds and which represent official communications of their office. We rely on reasonable verification from the legislative office about the status of their accounts.
 
@@ -248,8 +234,7 @@ Options used with the above tasks:
 * `--email`: In conjunction with `--sweep`, send an email if there are any new leads, using settings in scripts/email/config.yml (if it was created and filled out).
 
 
-Committees Data Dictionary
---------------------------
+### Committees Data Dictionary
 
 The `committees-current.yaml` file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. It is based on data scraped from House.gov and Senate.gov.
 
@@ -297,8 +282,7 @@ Two additional fields are present on committees and subcommmittees in the `commi
 * names: A list of past names for the committee. This is an associative array from a Congress number to the name of the committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
 
 
-Committee Membership Data Dictionary
-------------------------------------
+### Committee Membership Data Dictionary
 
 The `committee-membership-current.yaml` file contains current committee assignments, as of the date of the last update of this file. The file is structured as a mapping from committee IDs to a list of committee members. The basic structure looks like this:
 
@@ -330,8 +314,7 @@ Each committee/subcommittee entry is a list containing the members of the commit
 * title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
 * chamber: For joint committees only, the chamber that the representative is serving in, either `house` or `senate`.
 
-The Executive Branch
---------------------
+### The Executive Branch
 
 Because of their role in the legislative process, we also include a file `executive.yaml` which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
 
@@ -351,8 +334,7 @@ Each term has the following fields:
 
 Presidents and vice presidents that previously served in Congress will also be listed in one of the legislator files, but their Congressional terms will only appear in the legislator files and their executive-branch terms will only appear in `executive.yaml`.
 
-State Abbreviations
--------------------
+### State Abbreviations
 
 Although you can find the USPS abbreviations for the 50 states anywhere, non-voting delegates from territories --- including historical territories that no longer exist --- are included in this database. Here is a complete list of abbreviations:
 
@@ -428,8 +410,10 @@ These territories no longer exist.
 	OL Territory of Orleans
 	PI Philippines Territory/Commonwealth
 
-Running Scripts
----------------
+Helping us maintain the data
+----------------------------
+
+You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.6**.
 
 (Recommended) First, create a virtualenv in the scripts directory:
 
@@ -473,23 +457,30 @@ The following script takes one required command line argument
 --congress=congress_number
 where congress_number is the number of the Congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
 
-The following script may be run to create alternatly formatted data files. It takes no command-line arguments.
+The following script is run to create alternatly formatted data files for the `gh-pages` branch. It takes no command-line arguments.
 
-* `alternate_bulk_formats.py`: creates four files (two each for current and historical legislators) in CSV formats. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML. All four files are stored in the `alternate_formats/` directory.
+* `alternate_bulk_formats.py`: creates four files (two each for current and historical legislators) in CSV formats. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML.
 
-For each YAML file, there is a matching JSON file in the `alternate_formats/` directory, that should remain up to date automatically when the YAML file is updated through scripts. If you hand edit a YAML file, run `generate_json.py` to update these JSON files before filing a pull request (if you don't, the Travis tests will fail and the maintainers will ask you to do so anyway).
+Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
 
-Other Scripts
-----------------------
+```python
+if __name__ == '__main__':
+  run()
+```
+
+Every pull request will pass submitted scripts through an import, to catch exceptions, and through [pyflakes](https://pypi.python.org/pypi/pyflakes), to catch unused imports or local vars.
+
+
+#### Other Scripts
 
 The `ballotpedia` field has been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
 
-### Related libraries
+## Related libraries
 
 * Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
 
 
-### Who's Using This Data
+## Who's Using This Data
 
 Ongoing projects making use of this data:
 
