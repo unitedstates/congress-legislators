@@ -52,6 +52,9 @@ def run():
         rks = row.keys()
         bio = row['bio']['value']
         subject = row['subject']['value']
+        if(not 'article' in rks):
+             print(subject)
+             continue
         article = row['article']['value']
         if('votesmart' in rks):
             votesmart = row['votesmart']['value']
@@ -77,6 +80,7 @@ def run():
         m = re.search('en\.wikipedia\.org/wiki/(.+)',article)
         if(m):
             wikipedia = m.group(1)
+            wikipedia = wikipedia.replace('_',' ')
 
         ret[bio] = [wikidata_id, goog_id, wikipedia, opensecrets, votesmart, ballotpedia]
         #print(bio, subject, wikidata_id, article, goog_id)
