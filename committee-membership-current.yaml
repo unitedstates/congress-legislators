@@ -12446,12 +12446,6 @@ JSTX:
   thomas: '01531'
   bioguide: S000770
   chamber: senate
-- name: Paul Ryan
-  party: majority
-  rank: 1
-  bioguide: R000570
-  thomas: '01560'
-  chamber: house
 - name: Sam Johnson
   party: majority
   rank: 2
@@ -12464,12 +12458,6 @@ JSTX:
   title: Chairman
   bioguide: B000755
   thomas: '01468'
-  chamber: house
-- name: Sander Levin
-  party: minority
-  rank: 1
-  bioguide: L000263
-  thomas: '00683'
   chamber: house
 SCNC:
 - name: Chuck Grassley
