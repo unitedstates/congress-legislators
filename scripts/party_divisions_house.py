@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
-import yaml
+
 
 url = requests.get("http://history.house.gov/Institution/Party-Divisions/Party-Divisions/")
 soup = BeautifulSoup(url.content, 'html.parser')
