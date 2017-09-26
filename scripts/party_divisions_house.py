@@ -1,34 +1,52 @@
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
-
+from collections import OrderedDict
 
 url = requests.get("http://history.house.gov/Institution/Party-Divisions/Party-Divisions/")
 soup = BeautifulSoup(url.content, 'html.parser')
 
-
 table = soup.select('table')[0]
 links = []
+
 for a in table.find_all('a', href = True):
     links.append(a['href'])
 links = [x for x in links if '/Congressional-Overview/Profiles/' in x]    
-    
-congress_dictionary = {}
 
+footer = soup.find('div', attrs={'class':'footnotes'})
+footer_dict = OrderedDict()
+
+for note in footer.findAll('p'):
+    text = note.contents[1]
+    index = note.find('sup').contents[0]
+    footer_dict.update({index:text})
+
+congress_dictionary = OrderedDict([
+                                ('House',
+                                    {'README':
+                                        {'Source':url,
+                                         'Footer':footer_dict}
+                                        }
+                                ),
+                                ('Senate',{})
+                                ])
+url = r'http://history.house.gov/Congressional-Overview/Profiles/114th/'
 for link in links:
     base = 'http://history.house.gov/'
     url = base + link
     url = requests.get(url)
     soup = BeautifulSoup(url.content, 'html.parser')
     div = soup.find('div', {'id':'divResults'})
-    congress = div.find('h2').contents[0].replace('\r','').replace('\n','').strip().split(' ')[0]
+    congress = div.find('h2').contents[0].rstrip().split(' ')[0]
     congress = int(congress[:-2])
     
-    dictionary = {
+    division_dictionary = {
                     'Total Membership':{},
                     'Party Divisions':{},
-                    'Leadership and Officers':{}
                   }
+    leadership_dictionary = {
+                    'Leadership and Officers':{}
+            }
     for child in div.children:
         try:
             if child.contents[0] == 'Total Membership:':
@@ -36,18 +54,18 @@ for link in links:
                 reps = membs.findAll('li')
                 for rep in reps:
                     clean_rep = str(rep.text).strip().split(' ')
-                    number = clean_rep[0]
+                    number = int(clean_rep[0])
                     tipo = ' '.join(clean_rep[1:])
-                    dictionary['Total Membership'].update({tipo:number})
+                    division_dictionary['Total Membership'].update({tipo:number})
         except: pass
         try:
             if child.contents[0] == 'Party Divisions:':    
                 pd = child.find_next('ul')
                 for li in pd.children:
                     try:
-                        number = li.contents[0].split(' ')[0].strip()
+                        number = int(li.contents[0].split(' ')[0].strip())
                         party = str(' '.join([x.strip() for x in li.contents[0].split(' ')][1:]).strip())
-                        dictionary['Party Divisions'].update({party:number})
+                        division_dictionary['Party Divisions'].update({party:number})
                     except:pass
         except: pass
     
@@ -65,9 +83,14 @@ for link in links:
         person = list(filter(None,str(persons.text).strip().split('    ')))
         person_clean = []
         for p in person:
-            person_clean.append(p.replace('\r','').replace('\n','').strip())
-        dictionary['Leadership and Officers'].update({position:person_clean})
+            
+            p_clean = p.split('(')[0].strip()
+            person_clean.append(p_clean.replace('\r','').replace('\n','').strip())
+        print(person_clean)
+        for p in person_clean:
+            
+            leadership_dictionary['Leadership and Officers'].update({p:position})
         
-    congress_dictionary.update({congress:dictionary})
+    congress_dictionary['House'].update({congress:division_dictionary})
     
     
