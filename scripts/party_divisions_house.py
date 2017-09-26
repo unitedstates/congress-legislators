@@ -21,7 +21,8 @@ for link in links:
     url = requests.get(url)
     soup = BeautifulSoup(url.content, 'html.parser')
     div = soup.find('div', {'id':'divResults'})
-    congress = div.find('h2').contents[0].replace('\r','').replace('\n','').strip()
+    congress = div.find('h2').contents[0].replace('\r','').replace('\n','').strip().split(' ')[0]
+    congress = int(congress[:-2])
     
     dictionary = {
                     'Total Membership':{},
@@ -45,7 +46,7 @@ for link in links:
                 for li in pd.children:
                     try:
                         number = li.contents[0].split(' ')[0].strip()
-                        party = ' '.join([x.strip() for x in li.contents[0].split(' ')][1:])
+                        party = str(' '.join([x.strip() for x in li.contents[0].split(' ')][1:]).strip())
                         dictionary['Party Divisions'].update({party:number})
                     except:pass
         except: pass
