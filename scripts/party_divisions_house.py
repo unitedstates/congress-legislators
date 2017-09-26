@@ -2,8 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 from collections import OrderedDict
-
-url = requests.get("http://history.house.gov/Institution/Party-Divisions/Party-Divisions/")
+site = "http://history.house.gov/Institution/Party-Divisions/Party-Divisions/"
+url = requests.get(site)
 soup = BeautifulSoup(url.content, 'html.parser')
 
 table = soup.select('table')[0]
@@ -24,7 +24,7 @@ for note in footer.findAll('p'):
 congress_dictionary = OrderedDict([
                                 ('House',
                                     {'README':
-                                        {'Source':url,
+                                        {'Source':site,
                                          'Footer':footer_dict}
                                         }
                                 ),
