@@ -238,7 +238,7 @@
     thomas: '01205'
     govtrack: 400422
   social:
-    twitter: MaxineWaters
+    twitter: RepMaxineWaters
     facebook: MaxineWaters
     youtube: MaxineWaters
     youtube_id: UCOQ2js1VYFlo74n7Ns8WsLQ
@@ -629,6 +629,7 @@
     govtrack: 300093
   social:
     twitter: SenStabenow
+    facebook: SenatorStabenow
     youtube: senatorstabenow
     youtube_id: UCFoDKCvxSwCUfDv-4Eg4K5A
     twitter_id: 76456274
@@ -1513,6 +1514,7 @@
     govtrack: 400251
   social:
     twitter: RepMaloney
+    facebook: RepCarolynMaloney
     twitter_id: 258900199
     youtube: carolynbmaloney
 - id:
@@ -3146,6 +3148,7 @@
     govtrack: 400050
   social:
     twitter: SenSherrodBrown
+    facebook: SenatorSherrodBrown
     youtube: SherrodBrownOhio
     youtube_id: UCgy8jfERh-t_ixkKKoCmglQ
     twitter_id: 43910797
@@ -4052,6 +4055,7 @@
     govtrack: 412278
   social:
     youtube: BrettGuthrie
+    facebook: CongressmanGuthrie
     twitter: RepGuthrie
     youtube_id: UCdJhDw-YbdH0RHfWK0sIfiw
     twitter_id: 1908143071
@@ -4263,10 +4267,10 @@
     govtrack: 412598
     thomas: '02194'
   social:
-    twitter: senbookeroffice
+    twitter: SenBooker
+    twitter_id: 2167097881
     youtube: SenCoryBooker
     youtube_id: UC6FlymqNS1VettnVZa7goPA
-    twitter_id: 2167097881
 - id:
     bioguide: C001101
     govtrack: 412600
@@ -5328,6 +5332,7 @@
     govtrack: 412688
   social:
     twitter: reploucorrea
+    facebook: RepLouCorrea
     twitter_id: 815985039485837312
     youtube_id: UCIKJJp4QJIDjnjodc23qKkw
 - id:
@@ -5344,6 +5349,7 @@
     govtrack: 412722
   social:
     twitter: RepSmucker
+    facebook: RepSmucker
     twitter_id: 41417564
     youtube_id: UCs5iMvWy-oTHyf5HuwB7FCg
 - id:
@@ -5351,12 +5357,14 @@
     govtrack: 412734
   social:
     twitter: SenatorStrange
+    facebook: SenatorLutherStrange
     twitter_id: 829794295355940866
 - id:
     bioguide: H001050
     govtrack: 412418
   social:
     twitter: RepHanabusa
+    facebook: RepColleenHanabusa
     twitter_id: 235373000
 - id:
     bioguide: H001075
@@ -5364,17 +5372,20 @@
   social:
     facebook: SenatorKamalaHarris
     twitter: SenKamalaHarris
+    twitter_id: 803694179079458816
 - id:
     bioguide: H001077
     govtrack: 412705
   social:
     twitter: RepClayHiggins
+    facebook: CongressmanClayHiggins
     twitter_id: 843636970538618880
 - id:
     bioguide: B001304
     govtrack: 412707
   social:
     twitter: RepAnthonyBrown
+    facebook: RepAnthonyBrown
     twitter_id: 823552974253342721
     youtube: RepAnthonyBrown
 - id:
@@ -5382,6 +5393,7 @@
     govtrack: 412727
   social:
     twitter: RepScottTaylor
+    facebook: RepScottTaylor
     twitter_id: 837722935095930883
     youtube_id: UCL_UCG7VqJRfneFTwg8UVmg
 - id:
@@ -5390,6 +5402,7 @@
   social:
     twitter: RepRonEstes
     facebook: RepRonEstes
+    twitter_id: 854715071116849157
 - id:
     bioguide: G000585
     govtrack: 412739
@@ -5397,3 +5410,10 @@
     twitter: RepJimmyGomez
     twitter_id: 2371339658
     facebook: RepJimmyGomez
+- id:
+    bioguide: N000190
+    govtrack: 412738
+  social:
+    facebook: RepRalphNorman
+    twitter: RepRalphNorman
+    twitter_id: 880480631108644864
