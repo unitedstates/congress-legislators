@@ -110,8 +110,8 @@ The following fields are available in `legislators-current.yaml` and `legislator
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
 
 * name
-	* first: The legislator's first name. Sometimes a first initial and period (e.g. in W. Todd Akin), in which case it is suggested to not use the first name for display purposes.
-	* middle: The legislator's middle name or middle initial (with period).
+	* first: The legislator's given name. When a legislator uses a first initial and their middle name, this field combines both as a single string value with a space.
+	* middle: The legislator's middle name or middle initial (with period). The middle name is generally not used when displaying a legislators name. When it is, it is included in the `first` name field.
 	* last: The legislator's last name. Many last names include non-ASCII characters. When building search systems, it is advised to index both the raw value as well as a value with extended characters replaced with their ASCII equivalents (in Python that's: u"".join(c for c in unicodedata.normalize('NFKD', lastname) if not unicodedata.combining(c))).
 	* suffix: A suffix on the legislator's name, such as "Jr." or "III".
 	* nickname: The legislator's nick name when used as a common alternative to his first name.
