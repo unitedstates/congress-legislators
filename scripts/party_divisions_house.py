@@ -21,15 +21,16 @@ for note in footer.findAll('p'):
     index = note.find('sup').contents[0]
     footer_dict.update({index:text})
 
-congress_dictionary = OrderedDict([
-                                ('House',
-                                    {'README':
-                                        {'Source':site,
-                                         'Footer':footer_dict}
-                                        }
-                                ),
-                                ('Senate',{})
-                                ])
+    
+house_dictionary = {
+                        'README':
+                            {'Source':site,
+                             'Footer':footer_dict
+                             },
+                         'Congress':OrderedDict()
+                        }
+                    
+
 url = r'http://history.house.gov/Congressional-Overview/Profiles/114th/'
 for link in links:
     base = 'http://history.house.gov/'
@@ -86,11 +87,11 @@ for link in links:
             
             p_clean = p.split('(')[0].strip()
             person_clean.append(p_clean.replace('\r','').replace('\n','').strip())
-        print(person_clean)
+        
         for p in person_clean:
             
             leadership_dictionary['Leadership and Officers'].update({p:position})
         
-    congress_dictionary['House'].update({congress:division_dictionary})
+    house_dictionary['Congress'].update({congress:division_dictionary})
     
     
