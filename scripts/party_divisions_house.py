@@ -25,13 +25,13 @@ for note in footer.findAll('p'):
 house_dictionary = {
                         'README':
                             {'Source':site,
-                             'Footer':footer_dict
+                             'Footer':footer_dict['*']
                              },
                          'Congress':OrderedDict()
                         }
                     
 
-url = r'http://history.house.gov/Congressional-Overview/Profiles/114th/'
+url = r'http://history.house.gov/Congressional-Overview/Profiles/72nd/'
 for link in links:
     base = 'http://history.house.gov/'
     url = base + link
@@ -48,6 +48,13 @@ for link in links:
     leadership_dictionary = {
                     'Leadership and Officers':{}
             }
+    try:
+        footnotes = soup.find('div',{'class':'footnotes'})
+        footnotes = footnotes.findAll('p')[0].contents[1]
+        division_dictionary.update({'footnotes':footnotes})
+    except:
+        pass
+    
     for child in div.children:
         try:
             if child.contents[0] == 'Total Membership:':
