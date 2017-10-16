@@ -90,7 +90,12 @@ for index in html_index:
         try:
             
             c_data = [x.contents[0] for x in new_soup.find_all('p')]
-            
+            footnote = False
+            for d in c_data:
+               
+                if d[:4] == 'Note':
+                    footnote = d.split(':')[1]
+                    break
             try:
                 maj_party = party_grab(c_data[0])
             except:
@@ -138,8 +143,10 @@ for index in html_index:
                             c_dictionary['Party Divisions']['caucus'].update({party:caucus})
                         except:
                             c_dictionary['Party Divisions'].update({'caucus':{party:caucus}})
+            if footnote:
+                c_dictionary.update({'footnote':footnote})
         except:
-            print(new_soup)
+            print(cong)
         senate_dictionary.update({cong:c_dictionary})
 
 
