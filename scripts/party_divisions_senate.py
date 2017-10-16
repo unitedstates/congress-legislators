@@ -86,10 +86,18 @@ for index in html_index:
                                                     min_party:min_seats}})
            c_dictionary['Total Membership'].update({date:{'Senators':total_seats}})
         senate_dictionary.update({cong:c_dictionary})
+
     else:
         try:
-            
-            c_data = [x.contents[0] for x in new_soup.find_all('p')]
+            if index == html_index[-1]:
+                c_data = [x.strip() for x in str(new_soup).split('<br/>')]
+                for i,d in enumerate(c_data):
+                     
+                    if d[:4] == 'Note' or d[:4] == 'Tota':
+                        dex = i
+                c_data = c_data[:dex+1]
+                
+            else: c_data = [x.contents[0] for x in new_soup.find_all('p')]
             footnote = False
             for d in c_data:
                
