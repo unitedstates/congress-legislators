@@ -49,7 +49,7 @@ div_content = soup.find('div', attrs={'class':'contenttext'})
 
 
 pattern = r'\d{1,3}[a-z]{2}\sCongress\s\(\d{4}-\d{4}\)'
-
+x = 1
 
 html_index = get_indices(pattern, soup)
 
@@ -111,8 +111,12 @@ for index in html_index:
                 p = party.strip()
                 seats = int(''.join([i for i in p if i.isdigit()]))
                 party = ''.join([i for i in p if not i.isdigit()]).strip()
+                party = party.replace('( seat)', '')
+                note = party[party.index('(')+1:party.index(')')]
+                party = party[:party.index('(')]
+                
                 if party:
-                    c_dictionary['Party Divisions'].update({party:seats})
+                    c_dictionary['Party Divisions'].update({party:seats,'note':note})
         except:
             print(new_soup)
         senate_dictionary.update({cong:c_dictionary})
