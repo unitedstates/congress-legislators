@@ -25,7 +25,7 @@ for note in footer.findAll('p'):
 house_dictionary = {
                         'README':
                             {'Source':site,
-                             'Footer':footer_dict['*']
+                             'Footer':str(footer_dict['*'])
                              },
                          'Congress':OrderedDict()
                         }
@@ -48,12 +48,7 @@ for link in links:
     leadership_dictionary = {
                     'Leadership and Officers':{}
             }
-    try:
-        footnotes = soup.find('div',{'class':'footnotes'})
-        footnotes = footnotes.findAll('p')[0].contents[1]
-        division_dictionary.update({'footnotes':footnotes})
-    except:
-        pass
+    
     
     for child in div.children:
         try:
@@ -101,4 +96,6 @@ for link in links:
         
     house_dictionary['Congress'].update({congress:division_dictionary})
     
-    
+house_dictionary['Congress'][72].update({'footnote':str(footer_dict['1'])})    
+house_dictionary['Congress'][86].update({'footnote':str(footer_dict['2'])}) 
+ 

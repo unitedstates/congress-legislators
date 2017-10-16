@@ -7,7 +7,7 @@ import re
 def party_grab(party_line):
     party = party_line.split(':')[1]
     party = ''.join([i for i in party if not i.isdigit()]).strip()
-    party = party.replace('&amp;', 'and').split('(')[0].strip()
+    party = party.replace('&', 'and').split('(')[0].strip()
     return party
 
 
@@ -152,7 +152,7 @@ for index in html_index:
                         except:
                             c_dictionary['Party Divisions'].update({'caucus':{party:caucus}})
             if footnote:
-                c_dictionary.update({'footnote':footnote})
+                c_dictionary.update({'footnote':footnote.strip()})
         except:
             print(cong)
         senate_dictionary.update({cong:c_dictionary})
