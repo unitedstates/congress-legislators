@@ -107,6 +107,7 @@ for index in html_index:
                                                     min_party:min_seats})
             c_dictionary['Total Membership'].update({'Senators':total_seats})
             other_parties = c_data[2].split(':')[1].split(';')
+            caucus = False
             for party in other_parties:
                 if 'both' in party:
                     both = True
@@ -132,10 +133,11 @@ for index in html_index:
                 if party:
                     party = party.strip()
                     c_dictionary['Party Divisions'].update({party:seats})
-                    try:
-                        c_dictionary['Party Divisions']['caucus'].update({party:caucus})
-                    except:
-                        c_dictionary['Party Divisions'].update({'caucus':{party:caucus}})
+                    if caucus:
+                        try:
+                            c_dictionary['Party Divisions']['caucus'].update({party:caucus})
+                        except:
+                            c_dictionary['Party Divisions'].update({'caucus':{party:caucus}})
         except:
             print(new_soup)
         senate_dictionary.update({cong:c_dictionary})
