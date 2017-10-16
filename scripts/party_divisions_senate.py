@@ -49,7 +49,7 @@ div_content = soup.find('div', attrs={'class':'contenttext'})
 
 
 pattern = r'\d{1,3}[a-z]{2}\sCongress\s\(\d{4}-\d{4}\)'
-x = 1
+
 
 html_index = get_indices(pattern, soup)
 
@@ -108,15 +108,34 @@ for index in html_index:
             c_dictionary['Total Membership'].update({'Senators':total_seats})
             other_parties = c_data[2].split(':')[1].split(';')
             for party in other_parties:
+                if 'both' in party:
+                    both = True
+                    if 'Democrat' in party: caucus = 'Democrat'
+                    elif 'Republican' in party: caucus = 'Republican'
+                else: both = False
+            for party in other_parties:
                 p = party.strip()
                 seats = int(''.join([i for i in p if i.isdigit()]))
                 party = ''.join([i for i in p if not i.isdigit()]).strip()
                 party = party.replace('( seat)', '')
-                note = party[party.index('(')+1:party.index(')')]
-                party = party[:party.index('(')]
+                try:
+                    note = party[party.index('(')+1:party.index(')')]
+                    
+                    
+                    if 'Democrat' in note: caucus = 'Democrat'
+                    elif 'Republican' in note: caucus = 'Republican'
+            
+                    party = party[:party.index('(')]
+                except:
+                    note = False
                 
                 if party:
-                    c_dictionary['Party Divisions'].update({party:seats,'note':note})
+                    party = party.strip()
+                    c_dictionary['Party Divisions'].update({party:seats})
+                    try:
+                        c_dictionary['Party Divisions']['caucus'].update({party:caucus})
+                    except:
+                        c_dictionary['Party Divisions'].update({'caucus':{party:caucus}})
         except:
             print(new_soup)
         senate_dictionary.update({cong:c_dictionary})
