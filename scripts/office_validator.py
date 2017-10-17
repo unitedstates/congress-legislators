@@ -7,9 +7,9 @@ For each legislator:
     has offices
 
 For each office:
-    Expected fields: address, city, state, zip, phone, latitude, longitude, id,
-                     building, fax, hours, suite
-    Required fields: address, city, state, zip, phone, latitude, longitude, id
+    Required fields: id, city, state
+    Expected fields: address, city, state, zip, phone, latitude, longitude, id
+    Optional fields: building, fax, hours, suite
     Office id: check consistent
     offices are in legislator's state
 
@@ -19,23 +19,25 @@ Globally:
 
 """
 
-import logging as log
 import os.path
 import re
 from collections import OrderedDict, defaultdict
 from itertools import count
+import sys
 
 try:
     import rtyaml as yaml
 except ImportError:
     import yaml
 
+try:
+    from termcolor import colored
+except ImportError:
+    colored = None
 
-log.basicConfig(format='%(message)s')
-error = log.error
 
-NONALPHA = re.compile(r"[ .'-]")
-PHONE = re.compile(r"\d{3}-\d{3}-\d{4}")
+NONALPHA = re.compile(r"\W")
+PHONE = re.compile(r"^\d{3}-\d{3}-\d{4}$")
 
 
 def relfile(path):
@@ -71,45 +73,59 @@ def check_legislator_offices(legislator_offices, legislator):
     if legislator:
         state = legislator['terms'][-1]['state']
 
-    required = ['id', 'address', 'city', 'state', 'zip', 'phone',
-                'latitude', 'longitude']
+    required = ['id', 'city', 'state']
+    expected = ['address', 'zip', 'phone', 'latitude', 'longitude']
+    optional = ['building', 'suite', 'hours', 'fax']
+    all_fields = set(required + expected + optional)
 
-    expected = required + ['building', 'suite', 'hours', 'fax']
-
+    errors = []
+    warnings = []
 
     if not legislator:
-        yield "Offices for inactive legislator"
+        errors.append("Offices for inactive legislator")
 
     if not offices:
-        yield "Zero offices"
+        errors.append("Zero offices")
 
     for office_id, office in id_offices(bioguide_id, offices):
 
+        for field in required:
+            if not office.get(field):
+                errors.append("Office %s is missing required field '%s'" % (office_id, field))
+
         for field in expected:
-            if field not in office:
-                yield "Office %s is missing field '%s'" % (office_id, field)
-            elif field in required and not office.get(field):
-                yield "Office %s required field '%s' is empty" % (office_id, field)
+            if not office.get(field):
+                warnings.append("Office %s is missing field '%s'" % (office_id, field))
+
+        for field in office:
+            if field not in all_fields:
+                errors.append("Office %s has unrecognized field '%s'" % (office_id, field))
 
         found_id = office.get('id')
         if found_id and office_id != found_id:
-            yield "Office %s has unexpected id '%s'" % (office_id, found_id)
+            errors.append("Office %s has unexpected id '%s'" % (office_id, found_id))
 
         office_state = office.get('state')
         if state and office_state and office_state != state:
-            yield ("Office %s is in '%s', legislator is from '%s'"
-                   "") % (office_id, office_state, state)
+            errors.append("Office %s is in '%s', legislator is from '%s'" % (office_id, office_state, state))
 
         phone = office.get('phone')
         fax = office.get('fax')
 
         if phone and not PHONE.match(phone):
-            yield("Office %s phone '%s' does not match format ddd-ddd-dddd"
-                  "") % (office_id, phone)
+            errors.append("Office %s phone '%s' does not match format ddd-ddd-dddd" % (office_id, phone))
 
         if fax and not PHONE.match(fax):
-            yield("Office %s fax '%s' does not match format ddd-ddd-dddd"
-                  "") % (office_id, fax)
+            errors.append("Office %s fax '%s' does not match format ddd-ddd-dddd" % (office_id, fax))
+
+        if (office.get('address') and
+                not (office.get('latitude') and office.get('longitude'))):
+            errors.append("Office %s needs geocoding" % office_id)
+
+        if not office.get('address') and not office.get('phone'):
+            errors.append("Office %s needs at least address or phone" % office_id)
+
+    return errors, warnings
 
 
 def load_to_dict(path):
@@ -117,7 +133,11 @@ def load_to_dict(path):
     d = yaml.load(open(relfile(path)))
     return OrderedDict((l['id']['bioguide'], l) for l in d)
 
-def print_errors(legislator, errors):
+
+def print_issues(legislator, errors, warnings):
+    if not (errors or warnings):
+        return
+
     if isinstance(legislator, str):
         info = legislator
     else:
@@ -126,31 +146,44 @@ def print_errors(legislator, errors):
             legislator['id']['bioguide'], term['state'], term['type'],
             legislator['name']['official_full'], term.get('url', 'no url'))
 
-    print_blank = False
-    for i, err in enumerate(errors):
-        if i == 0:
-            print(info)
-            print_blank = True
-        print(" " * 4 + err)
-    if print_blank:
-        print("")
+    print(info)
+
+    for error in errors:
+        msg = "    ERROR: {}".format(error)
+        if colored:
+            msg = colored(msg, "red")
+        print(msg)
+    for warning in warnings:
+        msg = "    WARNING: {}".format(warning)
+        if colored:
+            msg = colored(msg, "yellow")
+        print(msg)
+    print("")
 
 
 def run():
     legislators = load_to_dict("../legislators-current.yaml")
     legislators_offices = load_to_dict("../legislators-district-offices.yaml")
 
+    has_errors = False
+
     for bioguide_id, legislator_offices in legislators_offices.items():
         legislator = legislators.get(bioguide_id)
 
-        errors = check_legislator_offices(legislator_offices, legislator)
+        errors, warnings = check_legislator_offices(legislator_offices, legislator)
 
-        print_errors(legislator or bioguide_id, errors) 
+        if errors:
+            has_errors = True
 
-    for bioguide_id in set(legislators.keys()) - set(legislators_offices.keys()):
-        legislator = legislators.get(bioguide_id)
-        print_errors(legislator or bioguide_id, ["No offices"])
+        print_issues(legislator or bioguide_id, errors, warnings)
 
+    for bioguide_id in set(legislators) - set(legislators_offices):
+        has_errors = True
+        errors, warnings = ["No offices"], []
+        print_issues(legislators[bioguide_id], errors, warnings)
+
+    return has_errors
 
 if __name__ == '__main__':
-    run()
+    has_errors = run()
+    sys.exit(1 if has_errors else 0)
