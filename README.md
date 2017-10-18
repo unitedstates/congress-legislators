@@ -18,6 +18,7 @@ File | Download | Description
 `committees-current` | [YAML](https://theunitedstates.io/congress-legislators/committees-current.yaml) [JSON](https://theunitedstates.io/congress-legislators/committees-current.json) | Current committees of the Congress, with subcommittees.
 `committee-membership-current` | [YAML](https://theunitedstates.io/congress-legislators/committee-membership-current.yaml) [JSON](https://theunitedstates.io/congress-legislators/committee-membership-current.json) | Current committee/subcommittee assignments.
 `committees-historical` | [YAML](https://theunitedstates.io/congress-legislators/committees-historical.yaml) [JSON](https://theunitedstates.io/congress-legislators/committees-historical.json) | Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
+`legislators-district-offices` | [YAML](https://theunitedstates.io/congress-legislators/legislators-district-offices.yaml) [JSON](https://theunitedstates.io/congress-legislators/legislators-district-offices.json) [CSV](https://theunitedstates.io/congress-legislators/legislators-district-offices.csv) | District offices for current Members of Congress.
 `executive` | [YAML](https://theunitedstates.io/congress-legislators/executive.yaml) [JSON](https://theunitedstates.io/congress-legislators/executive.json) | Presidents and vice presidents.
 
 The data formats are documented below.
@@ -314,6 +315,31 @@ Each committee/subcommittee entry is a list containing the members of the commit
 * title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
 * chamber: For joint committees only, the chamber that the representative is serving in, either `house` or `senate`.
 
+### District Offices Data Dictionary
+
+The `legistlators-district-offices.yaml` file lists district offices for all currently serving Members of Congress. This data is crowdsourced from members' official websites. It does not include Congressional offices in Washington, D.C.; these are listed in the `legislators-current.yaml` file.
+
+Each current Member of Congress has a listing in the file, comprised of two parts: ids and offices.
+
+The id section contains the fields bioguide, thomas, and govtrack, which correspond to fields with the same names in `legislators-current.yaml` as described above. The bioguide field is required, and used as the primary key for this file.
+
+The offices section is a list of the Member's district offices. Each listing contains the following fields:
+
+* address: The street address of the office, e.g. "123 Main St".
+* building: The name of the building containing the office, if applicable, e.g. "Dane County Courthouse".
+* city: The city containing the office. *required*
+* fax: The fax machine number of the office, e.g. 256-555-6043.
+* hours: Free-text field describing the days and hours the office is open.
+* phone: The main phone number of the office, .e.g. 256-555-6043
+* state: The two-letter state code of the state containing the office. *required*
+* suite: The suite or room number of the office, if applicable, e.g. "Suite 200"
+* zip: The 5-digit USPS zip code of the office, e.g. "35055".
+* latitude: The decimal latitude of the office's geocoded location, e.g. 34.181059.
+* longitude: The decimal longitude of the office's geocoded location, e.g. -86.840631.
+* id: An identifier for the office, consisting of the member's bioguide id and the city name, e.g. "X000055-seattle". *required*
+
+To qualify for inclusion in this file, an office must have at least an address or a phone number.
+
 ### The Executive Branch
 
 Because of their role in the legislative process, we also include a file `executive.yaml` which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
@@ -470,6 +496,7 @@ if __name__ == '__main__':
 
 Every pull request will pass submitted scripts through an import, to catch exceptions, and through [pyflakes](https://pypi.python.org/pypi/pyflakes), to catch unused imports or local vars.
 
+To contribute updates for district offices, edit the `legislators-district-offices.yaml` file by hand and submit a pull request. Updates should pass validation as defined by `scripts/office_validator.py`.
 
 #### Other Scripts
 
