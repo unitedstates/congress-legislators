@@ -7,6 +7,7 @@ import rtyaml
 
 sys.path.insert(0, "scripts")
 import utils
+from office_validator import run as validate_offices
 
 ok = True
 def error(message):
@@ -354,6 +355,12 @@ def check_id_uniqueness(seen_ids):
       error("%s %s is duplicated: %s" % (id_type, id_value,
         " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
 
+def check_district_offices():
+    has_errors = validate_offices()
+    if has_errors:
+        error("District offices have errors")
+
+
 if __name__ == "__main__":
   # Check the legislators files.
   seen_ids = { }
@@ -363,6 +370,7 @@ if __name__ == "__main__":
   check_legislators_file("legislators-historical.yaml", seen_ids, current=False)
   check_executive_file("executive.yaml")
   check_id_uniqueness(seen_ids)
+  check_district_offices()
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
