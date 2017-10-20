@@ -38,6 +38,15 @@ except ImportError:
 
 NONALPHA = re.compile(r"\W")
 PHONE = re.compile(r"^\d{3}-\d{3}-\d{4}$")
+FIELD_ORDER = """
+
+    id
+    address suite building
+    city state zip
+    latitude longitude
+    fax hours phone
+
+""".split()
 
 
 def relfile(path):
@@ -100,6 +109,8 @@ def check_legislator_offices(legislator_offices, legislator):
         for field in office:
             if field not in all_fields:
                 errors.append("Office %s has unrecognized field '%s'" % (office_id, field))
+            if not office.get(field):
+                warnings.append("Office %s has empty field %s" % (office_id, field))
 
         found_id = office.get('id')
         if found_id and office_id != found_id:
@@ -124,6 +135,11 @@ def check_legislator_offices(legislator_offices, legislator):
 
         if not office.get('address') and not office.get('phone'):
             errors.append("Office %s needs at least address or phone" % office_id)
+
+        fields = list(office.keys())
+        sorted_fields = sorted(fields, key=FIELD_ORDER.index)
+        if fields != sorted_fields:
+            warnings.append("Office %s fields out of order, expected %s" % (office_id, sorted_fields))
 
     return errors, warnings
 
