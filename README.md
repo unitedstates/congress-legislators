@@ -483,9 +483,14 @@ The following script takes one required command line argument
 --congress=congress_number
 where congress_number is the number of the Congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
 
-The following script is run to create alternatly formatted data files for the `gh-pages` branch. It takes no command-line arguments.
+The following script is run to create alternately formatted data files for the `gh-pages` branch. It takes no command-line arguments.
 
-* `alternate_bulk_formats.py`: creates four files (two each for current and historical legislators) in CSV formats. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML.
+* `alternate_bulk_formats.py`: creates JSON files for all YAML files and CSV files for current legislators, historical legislators, and district offices. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML.
+
+Two scripts help maintain and validate district office data:
+
+* `geocode_offices.py` : Derives latitude, longitude pairs for office addresses. It should be run whenever new offices are added. By default this script geocodes all offices with addresses that have not already been geocoded. It optionally takes bioguide IDs as arguments, and in this case will geocode just offices for the specified ids. This script uses the Google Maps API, and requires that a key be set in scripts/cache/google_maps_api_key.txt .
+* `office_validator.py` : Validates rules for district office data and reports errors and warnings. This script should be run whenever offices are added or modified. It is used by continuous integration testing, so errors here will cause the build to fail.
 
 Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
 
@@ -505,6 +510,7 @@ The `ballotpedia` field has been created using code from James Michael DuPont, u
 ## Related libraries
 
 * Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
+* TheWalkers maintain [congress-turk](https://github.com/TheWalkers/congress-turk) to do bulk collection of district office data using Amazon Mechanical Turk.
 
 
 ## Who's Using This Data
