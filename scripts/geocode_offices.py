@@ -35,7 +35,7 @@ def geocode_offices(l):
 	for o in l.get('offices', []):
 		if o.get('latitude'):
 			continue
-		if not o['address'] or not o['city'] or not o['state']:
+		if not o.get('address') or not o.get('city') or not o.get('state'):
 			continue
 		address_query = ', '.join([o['address'], o['city'], utils.states[o['state']]])
 		result = None
