@@ -127,6 +127,27 @@ def generate_csv():
 
 			csv_output.writerow(legislator_row)
 
+	generate_district_office_csv()
+
+
+def generate_district_office_csv():
+	filename = "legislators-district-offices.yaml"
+	legislators_offices = utils.load_data(filename)
+	fields = [
+		"bioguide", "thomas", "govtrack", "id", "address", "building",
+		"city", "fax", "hours", "phone", "state", "suite", "zip",
+		"latitude", "longitude"]
+
+	f = open("../" + filename.replace(".yaml", ".csv"), "w")
+	csv_output = csv.DictWriter(f, fieldnames=fields)
+
+	for legislator_offices in legislators_offices:
+		legislator_ids = legislator_offices['id']
+		for office in legislator_offices['offices']:
+			office.update(legislator_ids)
+			csv_output.writerow(office)
+
+
 def generate_json():
 
 	#yaml filenames
