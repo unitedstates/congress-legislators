@@ -140,6 +140,7 @@ def generate_district_office_csv():
 
 	f = open("../" + filename.replace(".yaml", ".csv"), "w")
 	csv_output = csv.DictWriter(f, fieldnames=fields)
+	csv_output.writeheader()
 
 	for legislator_offices in legislators_offices:
 		legislator_ids = legislator_offices['id']
