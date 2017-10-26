@@ -136,7 +136,7 @@ def check_legislator_offices(legislator_offices, legislator):
         if not office.get('address') and not office.get('phone'):
             errors.append("Office %s needs at least address or phone" % office_id)
 
-        fields = list(office.keys())
+        fields = [f for f in office if f in FIELD_ORDER]  # unknown fields checked above
         sorted_fields = sorted(fields, key=FIELD_ORDER.index)
         if fields != sorted_fields:
             warnings.append("Office %s fields out of order, expected %s" % (office_id, sorted_fields))
