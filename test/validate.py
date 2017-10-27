@@ -356,7 +356,7 @@ def check_id_uniqueness(seen_ids):
         " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
 
 def check_district_offices():
-    has_errors = validate_offices()
+    has_errors = validate_offices(skip_warnings=True)
     if has_errors:
         error("District offices have errors")
 

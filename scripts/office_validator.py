@@ -136,7 +136,7 @@ def check_legislator_offices(legislator_offices, legislator):
         if not office.get('address') and not office.get('phone'):
             errors.append("Office %s needs at least address or phone" % office_id)
 
-        fields = list(office.keys())
+        fields = [f for f in office if f in FIELD_ORDER]  # unknown fields checked above
         sorted_fields = sorted(fields, key=FIELD_ORDER.index)
         if fields != sorted_fields:
             warnings.append("Office %s fields out of order, expected %s" % (office_id, sorted_fields))
@@ -177,7 +177,7 @@ def print_issues(legislator, errors, warnings):
     print("")
 
 
-def run():
+def run(skip_warnings=False):
     legislators = load_to_dict("../legislators-current.yaml")
     legislators_offices = load_to_dict("../legislators-district-offices.yaml")
 
@@ -187,6 +187,9 @@ def run():
         legislator = legislators.get(bioguide_id)
 
         errors, warnings = check_legislator_offices(legislator_offices, legislator)
+
+        if skip_warnings:
+            warnings = []
 
         if errors:
             has_errors = True
@@ -201,5 +204,10 @@ def run():
     return has_errors
 
 if __name__ == '__main__':
-    has_errors = run()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skip-warnings", action="store_true")
+    args = parser.parse_args()
+
+    has_errors = run(skip_warnings=args.skip_warnings)
     sys.exit(1 if has_errors else 0)

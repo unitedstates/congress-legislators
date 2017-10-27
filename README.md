@@ -490,7 +490,7 @@ The following script is run to create alternately formatted data files for the `
 Two scripts help maintain and validate district office data:
 
 * `geocode_offices.py` : Derives latitude, longitude pairs for office addresses. It should be run whenever new offices are added. By default this script geocodes all offices with addresses that have not already been geocoded. It optionally takes bioguide IDs as arguments, and in this case will geocode just offices for the specified ids. This script uses the Google Maps API, and requires that a key be set in scripts/cache/google_maps_api_key.txt .
-* `office_validator.py` : Validates rules for district office data and reports errors and warnings. This script should be run whenever offices are added or modified. It is used by continuous integration testing, so errors here will cause the build to fail.
+* `office_validator.py` : Validates rules for district office data and reports errors and warnings. An optional `--skip-warnings` argument will suppress display of warnings. This script should be run whenever offices are added or modified. It is used by continuous integration testing, so errors here will cause the build to fail.
 
 Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
 
