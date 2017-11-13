@@ -204,6 +204,8 @@ def run(skip_warnings=False):
         if datetime.date.today() - datetime.datetime.strptime(start_date, '%Y-%m-%d').date() >= datetime.timedelta(60):
             has_errors = True
             errors, warnings = ["No offices"], []
+        else:
+            errors, warnings = [], ["No offices"]
         print_issues(legislators[bioguide_id], errors, warnings)
 
     return has_errors
