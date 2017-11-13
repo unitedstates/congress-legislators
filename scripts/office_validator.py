@@ -19,6 +19,7 @@ Globally:
 
 """
 
+import datetime
 import os.path
 import re
 from collections import OrderedDict, defaultdict
@@ -197,8 +198,14 @@ def run(skip_warnings=False):
         print_issues(legislator or bioguide_id, errors, warnings)
 
     for bioguide_id in set(legislators) - set(legislators_offices):
-        has_errors = True
-        errors, warnings = ["No offices"], []
+        # Only report an error for a missing office if the
+        # legislator has been in office for at least 60 days.
+        start_date = legislators[bioguide_id]['terms'][-1]['start']
+        if datetime.date.today() - datetime.datetime.strptime(start_date, '%Y-%m-%d').date() >= datetime.timedelta(60):
+            has_errors = True
+            errors, warnings = ["No offices"], []
+        else:
+            errors, warnings = [], ["No offices"]
         print_issues(legislators[bioguide_id], errors, warnings)
 
     return has_errors
