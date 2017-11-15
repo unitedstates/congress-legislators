@@ -15775,13 +15775,13 @@
     thomas: '01256'
   offices:
   - id: Y000033-anchorage
-    address: 4241 B St.
-    suite: Suite 203
+    address: 471 W. 36th Avenue
+    suite: Suite 201
     city: Anchorage
     state: AK
     zip: '99503'
-    latitude: 61.1821567
-    longitude: -149.8834942
+    latitude: 61.1884605
+    longitude: -149.8942221
     fax: 907-271-5950
     phone: 907-271-5978
   - id: Y000033-fairbanks
@@ -16389,3 +16389,16 @@
     longitude: -84.3623522
     fax: 770-998-0050
     phone: 770-998-0049
+- id:
+    bioguide: C001114
+    govtrack: 412740
+  offices:
+  - id: C001114-provo
+    address: 51 South University Avenue
+    suite: Suite 318
+    city: Provo
+    state: UT
+    zip: '84601'
+    phone: 801-851-2500
+    latitude: 40.232986
+    longitude: -111.6578512
