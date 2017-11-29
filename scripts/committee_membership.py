@@ -115,14 +115,16 @@ def run():
           continue
 
         moc = congressmen[m.group(1)]
-        found_name = node.cssselect('a')[0].text_content().replace(", ", "")
 
+        # Sanity check that the name matches the name in our data.
+        found_name = node.cssselect('a')[0].text_content()
+        found_name = re.sub(r"\s+", " ", found_name) # fix whitespace
+        found_name = found_name.replace("'", "’") # fix smart apos
         if moc['name'].get("official_full", None) is None:
           print("No official_full field for %s" % found_name)
           continue
-
         if found_name != moc['name']['official_full']:
-          print("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], node.cssselect('a')[0].text_content()))
+          print("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], found_name))
 
         entry = OrderedDict()
         entry["name"] = moc['name']['official_full']
