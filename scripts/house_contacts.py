@@ -51,7 +51,7 @@ def run():
 		# lastname = mi.find('lastname').text
 
 		#TODO: follow up, why no official name?
-		if mi.find('official-name') is None:
+		if mi.find('official-name') is None or mi.find('official-name').text is None:
 			print("Warning: No official-name tag for %s" % ssdd)
 			officialname = None
 		else:
