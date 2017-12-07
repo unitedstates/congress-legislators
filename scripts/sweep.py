@@ -31,5 +31,14 @@ def run():
         socialmedia_current.remove(member)
     save_data(socialmedia_current, "legislators-social-media.yaml")
 
+    # remove out-of-office people from district offices
+    print("Sweeping district offices...")
+    district_offices = load_data("legislators-district-offices.yaml")
+    for member in list(district_offices):
+      if member["id"]["bioguide"] not in current_bioguide:
+        print("\t[%s] Ding ding ding! (%s)" % (member["id"]["bioguide"], member["offices"]))
+        district_offices.remove(member)
+    save_data(district_offices, "legislators-district-offices.yaml")
+
 if __name__ == '__main__':
   run()
