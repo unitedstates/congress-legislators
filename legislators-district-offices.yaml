@@ -3584,10 +3584,10 @@
     latitude: 36.7006713
     longitude: -85.6929017
     phone: 270-487-9509
-  - id: C001108-Madisonville
+  - id: C001108-madisonville
     address: 67 North Main St.
     city: Madisonville
-    city: KY
+    state: KY
     zip: '42431'
     latitude: 37.3296043
     longitude: -87.498937
@@ -9024,7 +9024,7 @@
     fax: 562-437-6434
     phone: 562-436-3828
     hours: M-F 9AM-5PM
-  - id: L000579-orange_county
+  - id: L000579-garden_grove
     address: 12865 Main St.
     suite: Suite 200
     city: Garden Grove
@@ -10660,7 +10660,7 @@
     bioguide: M001199
     govtrack: 412698
   offices:
-  - id: M001199-port_st_lucie
+  - id: M001199-port_st__lucie
     address: 121 SW. Port St. Lucie Blvd.
     city: Port St. Lucie
     state: FL
@@ -10668,7 +10668,7 @@
     latitude: 27.2741604
     longitude: -80.3430288
     phone: 772-336-2877
-  - id: M001199-north-palm-beach
+  - id: M001199-north_palm_beach
     address: 420 U.S. Highway One
     suite: Suite 19
     city: North Palm Beach
@@ -14405,7 +14405,7 @@
     longitude: -81.628392
     phone: 202-615-1308
     hours: Wednesday 9AM-5PM
-  - id: S001200-lake_nona
+  - id: S001200-orlando
     address: 6900 Lake Nona Blvd
     suite: 'Suites 101A & 101B'
     city: Orlando
@@ -15048,9 +15048,6 @@
     longitude: -77.3592441
     fax: 252-329-0290
     phone: 252-329-0371
-  - id: T000476-hendersonville
-    fax: 828-693-8750
-    phone: 828-693-8750
   - id: T000476-high_point
     address: 1840 Eastchester Dr.
     suite: Suite 200
@@ -15615,9 +15612,9 @@
     thomas: '01886'
   offices:
   - id: W000804-mechanicsville
-    address: 6501 Menchanicsville Tpke
+    address: 6501 Mechanicsville Tpke
     suite: Suite 102
-    city: Menchanicsville
+    city: Mechanicsville
     state: VA
     zip: '23111'
     latitude: 37.6130093
@@ -15755,7 +15752,7 @@
     fax: 305-690-5951
     hours: M-F 9-5:30pm
     phone: 305-690-5905
-  - id: W000808-pembroke-pines
+  - id: W000808-pembroke_pines
     address: 10100 Pines Blvd
     building: Pembroke Pines City Hall, Building B
     suite: Third Floor
@@ -16131,7 +16128,7 @@
     longitude: -85.7622452
     fax: 502-582-5897
     phone: 502-582-5129
-  - id: Y000062-louisville
+  - id: Y000062-louisville-1
     address: 7219 Dixie Highway
     building: Southwest Government Center
     city: Louisville
@@ -16181,7 +16178,7 @@
     longitude: -81.7974322
     fax: 904-276-9336
     phone: 904-276-9626
-  - id: Y000065-Palatka
+  - id: Y000065-palatka
     address: 2509 Crill Ave.
     suite: Suite 200
     city: Palatka
@@ -16495,7 +16492,7 @@
     latitude: 40.8092343
     longitude: -73.9474317
     phone: 212-663-3900
-  - id: E000297-new_york-2
+  - id: E000297-new_york-1
     address: 5030 Broadway
     suite: Room 702
     city: New York
