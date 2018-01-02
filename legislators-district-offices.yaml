@@ -1998,31 +1998,6 @@
     longitude: -89.5213847
     phone: 662-236-1018
 - id:
-    bioguide: C000714
-    govtrack: 400080
-    thomas: '00229'
-  offices:
-  - id: C000714-detroit
-    address: 231 W. Lafayette
-    building: 669 Federal Bldg
-    city: Detroit
-    state: MI
-    zip: '48226'
-    latitude: 42.3303626
-    longitude: -83.0496208
-    fax: 313-226-2085
-    phone: 313-961-5670
-  - id: C000714-westland
-    address: 33300 Warren Rd.
-    suite: Suite 13
-    city: Westland
-    state: MI
-    zip: '48185'
-    latitude: 42.339678
-    longitude: -83.3701998
-    fax: 734-675-4218
-    phone: 734-675-4084
-- id:
     bioguide: C000754
     govtrack: 400081
     thomas: '00231'
@@ -4782,21 +4757,6 @@
     longitude: -110.976131
     fax: 520-797-3232
     phone: 520-575-8633
-- id:
-    bioguide: F000448
-    govtrack: 400141
-    thomas: '01707'
-  offices:
-  - id: F000448-glendale
-    address: 7121 W. Bell Rd.
-    suite: Suite 200
-    city: Glendale
-    state: AZ
-    zip: '85308'
-    latitude: 33.6372922
-    longitude: -112.2108385
-    fax: 623-776-7832
-    phone: 623-776-7911
 - id:
     bioguide: F000449
     govtrack: 400640
@@ -15775,13 +15735,13 @@
     thomas: '01256'
   offices:
   - id: Y000033-anchorage
-    address: 4241 B St.
-    suite: Suite 203
+    address: 471 W. 36th Avenue
+    suite: Suite 201
     city: Anchorage
     state: AK
     zip: '99503'
-    latitude: 61.1821567
-    longitude: -149.8834942
+    latitude: 61.1884605
+    longitude: -149.8942221
     fax: 907-271-5950
     phone: 907-271-5978
   - id: Y000033-fairbanks
@@ -16389,3 +16349,16 @@
     longitude: -84.3623522
     fax: 770-998-0050
     phone: 770-998-0049
+- id:
+    bioguide: C001114
+    govtrack: 412740
+  offices:
+  - id: C001114-provo
+    address: 51 South University Avenue
+    suite: Suite 318
+    city: Provo
+    state: UT
+    zip: '84601'
+    phone: 801-851-2500
+    latitude: 40.232986
+    longitude: -111.6578512
