@@ -41640,6 +41640,7 @@
     office: 2236 Rayburn House Office Building
 - id:
     bioguide: J000300
+    lis: S393
     govtrack: 412741
     fec:
     - S0AL00156
@@ -41647,11 +41648,10 @@
     wikidata: Q30122825
     cspan: 1024592
     votesmart: 176464
-    ballotpedia: Doug Jones
+    ballotpedia: Doug Jones (Alabama)
     google_entity_id: kg:/g/11dyzdzg1j
   name:
-    first: Gordon
-    middle: Douglas
+    first: Doug
     last: Jones
     official_full: Doug Jones
   bio:
@@ -41663,10 +41663,14 @@
     end: '2021-01-03'
     state: AL
     class: 2
-    party: Republican
+    party: Democrat
     state_rank: junior
+    address: 326 Russell Senate Office Building Washington DC 20510
+    office: 326 Russell Senate Office Building
+    phone: 202-224-4121
 - id:
     bioguide: S001203
+    lis: S394
     govtrack: 412742
     votesmart: 152968
     fec:
@@ -41692,3 +41696,6 @@
     class: 2
     party: Democrat
     state_rank: junior
+    address: 309 Hart Senate Office Building
+    office: 309 Hart Senate Office Building
+    phone: 202-224-5641

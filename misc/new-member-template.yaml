@@ -22,8 +22,10 @@
     icpsr: 99999           # not knowable until voteview.org publishes roll call raw data
     cspan: 75516           # people search at http://www.c-span.org/ (personid)
     wikipedia: John Doe    # https://en.wikipedia.org/wiki/Main_Page (replace _ with space!)
+    wikidata: Q30129999    # from the "Wikidata item" URL linked from the their Wikipedia page
     ballotpedia: John Doe  # http://ballotpedia.org/Main_Page (replace _ with space!)
     house_history: 10999   # http://history.house.gov/People/Search/
+    google_entity_id: kg:/g/11dddd111d # ...
   name:
     first: John
     middle: Person         # optional, can also be an initial like 'P.'
