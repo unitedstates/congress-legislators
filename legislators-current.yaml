@@ -41445,41 +41445,6 @@
     office: 416 Cannon House Office Building
     url: https://cheney.house.gov
 - id:
-    bioguide: S001202
-    govtrack: 412734
-    lis: S392
-    fec:
-    - S8AL00308
-    maplight: 2245
-    wikipedia: Luther Strange
-    wikidata: Q6705642
-    cspan: 9278255
-    icpsr: 41704
-    votesmart: 121424
-    ballotpedia: Luther Strange
-    google_entity_id: kg:/m/06w5pjw
-    opensecrets: N00040607
-  name:
-    first: Luther
-    last: Strange
-    official_full: Luther Strange
-  bio:
-    birthday: '1953-03-01'
-    gender: M
-  terms:
-  - type: sen
-    start: '2017-02-09'
-    end: '2021-01-03'
-    state: AL
-    class: 2
-    party: Republican
-    state_rank: junior
-    address: 326 Russell Senate Office Building Washington DC 20510
-    office: 326 Russell Senate Office Building
-    phone: 202-224-4124
-    url: https://www.strange.senate.gov
-    contact_form: https://www.strange.senate.gov/content/contact-senator
-- id:
     bioguide: E000298
     fec:
     - H8KS04112
@@ -41673,3 +41638,64 @@
     phone: 202-225-7751
     address: 2236 Rayburn HOB; Washington DC 20515-4403
     office: 2236 Rayburn House Office Building
+- id:
+    bioguide: J000300
+    lis: S393
+    govtrack: 412741
+    fec:
+    - S0AL00156
+    wikipedia: Doug Jones (politician)
+    wikidata: Q30122825
+    cspan: 1024592
+    votesmart: 176464
+    ballotpedia: Doug Jones (Alabama)
+    google_entity_id: kg:/g/11dyzdzg1j
+  name:
+    first: Doug
+    last: Jones
+    official_full: Doug Jones
+  bio:
+    birthday: '1954-05-04'
+    gender: M
+  terms:
+  - type: sen
+    start: '2018-01-03'
+    end: '2021-01-03'
+    state: AL
+    class: 2
+    party: Democrat
+    state_rank: junior
+    address: 326 Russell Senate Office Building Washington DC 20510
+    office: 326 Russell Senate Office Building
+    phone: 202-224-4121
+- id:
+    bioguide: S001203
+    lis: S394
+    govtrack: 412742
+    votesmart: 152968
+    fec:
+    - S8MN00578
+    cspan: 111313
+    wikipedia: Tina Smith
+    ballotpedia: Tina Smith
+    wikidata: Q18631509
+    google_entity_id: kg:/m/0127xvy3
+  name:
+    first: Tina
+    middle: Flint
+    last: Smith
+    official_full: Tina Smith
+  bio:
+    birthday: '1958-03-04'
+    gender: F
+  terms:
+  - type: sen
+    start: '2018-01-03'
+    end: '2021-01-03'
+    state: MN
+    class: 2
+    party: Democrat
+    state_rank: junior
+    address: 309 Hart Senate Office Building
+    office: 309 Hart Senate Office Building
+    phone: 202-224-5641
