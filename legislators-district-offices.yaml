@@ -4866,9 +4866,8 @@
     zip: '07960'
     latitude: 40.7964119
     longitude: -74.4835583
-    hours: 'Mon. - Fri: 9am-5pm'
-    phone: 973-984-0711
     hours: M-F 9AM-5PM
+    phone: 973-984-0711
 - id:
     bioguide: F000444
     govtrack: 400134
@@ -7064,7 +7063,8 @@
     zip: '79735'
     latitude: 30.8834552
     longitude: -102.881413
-    hours: Third Tuesday, Wednesday, and Thursday of the month from 8am-5pm, or call to make an appointment
+    hours: Third Tuesday, Wednesday, and Thursday of the month from 8am-5pm, or call
+      to make an appointment
     phone: 210-245-1548
   - id: H001073-san_antonio
     address: 17721 Rogers Ranch Parkway
@@ -7917,7 +7917,7 @@
   offices:
   - id: K000380-flint
     address: 111 E. Court St.
-    suite: "#3B"
+    suite: '#3B'
     city: Flint
     state: MI
     zip: '48502'
@@ -8413,7 +8413,7 @@
   offices:
   - id: L000480-new_city
     address: 67 N. Main St.
-    suite: "#101"
+    suite: '#101'
     city: New City
     state: NY
     zip: '10956'
@@ -9030,8 +9030,8 @@
     city: Garden Grove
     state: CA
     zip: '92840'
-    latitude: 33.7757330
-    longitude: -117.9412060
+    latitude: 33.775733
+    longitude: -117.941206
     fax: 562-437-6434
     phone: 714-243-4088
     hours: M-F 9AM-5PM
@@ -9240,7 +9240,8 @@
     latitude: 40.7672194
     longitude: -73.9223996
     fax: 212-860-0704
-    hours: 'Monday 9:30am – 2:00pm; Tuesday – Thursday 9:30am – 5:00pm; Friday 10:00am – 4:00pm'
+    hours: Monday 9:30am – 2:00pm; Tuesday – Thursday 9:30am – 5:00pm; Friday 10:00am
+      – 4:00pm
     phone: 718-932-1804
   - id: M000087-brooklyn
     address: 619 Lorimer St.
@@ -9595,7 +9596,8 @@
     latitude: 40.7030995
     longitude: -73.80205
     fax: 718-725-9868
-    hours: 9 am – 5:00 pm Mon – Thurs and Fri. 9:00 am – 3:00 pm (close at 3:00 pm for administrative purposes)
+    hours: 9 am – 5:00 pm Mon – Thurs and Fri. 9:00 am – 3:00 pm (close at 3:00 pm
+      for administrative purposes)
     phone: 718-725-6000
 - id:
     bioguide: M001143
@@ -10898,7 +10900,7 @@
     zip: '55719'
     latitude: 47.48962
     longitude: -92.88476399999999
-    hours: 'Monday and Wednesday 8am-4:30pm or by appointment'
+    hours: Monday and Wednesday 8am-4:30pm or by appointment
     phone: 218-491-3114
   - id: N000127-duluth
     address: 11 E. Superior St.
@@ -12576,7 +12578,8 @@
     latitude: 39.7570534
     longitude: -86.52317409999999
     fax: 317-718-0405
-    hours: Monday-Friday 9:00AM-5:00PM (If you arrive after 4pm and the doors to the main building are locked, please call 317-718-0404 for assistance.)
+    hours: Monday-Friday 9:00AM-5:00PM (If you arrive after 4pm and the doors to the
+      main building are locked, please call 317-718-0404 for assistance.)
     phone: 317-718-0404
   - id: R000592-lafayette
     address: 230 N. 4th St.
@@ -16819,8 +16822,8 @@
     city: Gaffney
     state: SC
     zip: '29340'
-    latitude: 35.0765770
-    longitude: -81.6428890
+    latitude: 35.076577
+    longitude: -81.642889
     hours: 9am-4:30pm every Thursday
 - id:
     bioguide: H001078
