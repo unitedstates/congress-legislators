@@ -9,6 +9,7 @@
       {
         "id": "A000055-cullman",
         "address": "205 4th Ave. NE",
+        "suite": "Suite 104",
         "city": "Cullman",
         "state": "AL",
         "zip": "35055",
@@ -30,7 +31,8 @@
       {
         "id": "A000055-jasper",
         "address": "1710 Alabama Ave.",
-        "suite": "#247",
+        "suite": "247",
+        "building": "Carl Elliott Building",
         "city": "Jasper",
         "state": "AL",
         "zip": "35501",
@@ -41,7 +43,7 @@
       {
         "id": "A000055-tuscumbia",
         "address": "1011 George Wallace Blvd.",
-        "suite": "Shoals District Office",
+        "suite": "Suite 146",
         "city": "Tuscumbia",
         "state": "AL",
         "zip": "35674",
@@ -157,7 +159,7 @@
       },
       {
         "id": "A000367-grand_rapids",
-        "address": "110 Michigan St.",
+        "address": "110 Michigan St. NW",
         "suite": "Suite 460",
         "city": "Grand Rapids",
         "state": "MI",
@@ -310,7 +312,7 @@
     "offices": [
       {
         "id": "A000374-alexandria",
-        "address": "2003 Macarthur Dr.",
+        "address": "2003 MacArthur Dr.",
         "suite": "Bldg. 5",
         "city": "Alexandria",
         "state": "LA",
@@ -322,7 +324,7 @@
       },
       {
         "id": "A000374-monroe",
-        "address": "426 Desiard St.",
+        "address": "426 DeSiard St.",
         "city": "Monroe",
         "state": "LA",
         "zip": "71201",
@@ -353,13 +355,13 @@
       },
       {
         "id": "A000375-lubbock",
-        "address": "611 University Ave.",
-        "suite": "#220",
+        "address": "1312 Texas Ave.",
+        "suite": "Suite 219",
         "city": "Lubbock",
         "state": "TX",
         "zip": "79401",
-        "latitude": 33.5885782,
-        "longitude": -101.8702325,
+        "latitude": 33.5830588,
+        "longitude": -101.8456125,
         "fax": "806-767-9168",
         "phone": "806-763-1611"
       }
@@ -456,7 +458,7 @@
     "offices": [
       {
         "id": "B000574-portland",
-        "address": "911 11th Ave.",
+        "address": "911 N.E. 11th Ave.",
         "suite": "Suite 200",
         "city": "Portland",
         "state": "OR",
@@ -489,7 +491,7 @@
       },
       {
         "id": "B000575-clayton",
-        "address": "7700 Bonhomme",
+        "address": "7700 Bonhomme Ave.",
         "suite": "Suite 315",
         "city": "Clayton",
         "state": "MO",
@@ -501,13 +503,13 @@
       },
       {
         "id": "B000575-columbia",
-        "address": "1001 Cherry St.",
-        "suite": "Suite 104",
+        "address": "1123 Wilkes Blvd",
+        "suite": "Suite 320",
         "city": "Columbia",
         "state": "MO",
         "zip": "65201",
-        "latitude": 38.9507077,
-        "longitude": -92.3262317,
+        "latitude": 38.9606243,
+        "longitude": -92.3229127,
         "fax": "573-442-8162",
         "phone": "573-442-8151"
       },
@@ -525,7 +527,7 @@
       },
       {
         "id": "B000575-springfield",
-        "address": "2740 E. Sunshine",
+        "address": "2740 B E. Sunshine",
         "city": "Springfield",
         "state": "MO",
         "zip": "65804",
@@ -546,7 +548,7 @@
       {
         "id": "B000755-conroe",
         "address": "200 River Pt.",
-        "suite": "Ste 304",
+        "suite": "Suite 304",
         "city": "Conroe",
         "state": "TX",
         "zip": "77304",
@@ -714,7 +716,7 @@
         "latitude": 39.9835935,
         "longitude": -75.1053451,
         "fax": "267-519-2262",
-        "hours": "Hours: 9-5 ET",
+        "hours": "9-5 ET",
         "phone": "267-519-2252"
       },
       {
@@ -887,13 +889,13 @@
       },
       {
         "id": "B001236-mountain_home",
-        "address": "62 East",
+        "address": "1001 Hwy 62 East",
         "suite": "Suite 11",
         "city": "Mountain Home",
         "state": "AR",
         "zip": "72653",
-        "latitude": 36.3495507,
-        "longitude": -92.37096679999999,
+        "latitude": 36.3499306,
+        "longitude": -92.3729619,
         "fax": "870-424-0141",
         "phone": "870-424-0129"
       },
@@ -1002,7 +1004,8 @@
         "zip": "84302",
         "latitude": 41.5106602,
         "longitude": -112.0154202,
-        "phone": "801-625-0107"
+        "phone": "801-625-0107",
+        "hours": "Staffed only part time"
       },
       {
         "id": "B001250-ogden",
@@ -1016,6 +1019,17 @@
         "longitude": -111.9726125,
         "fax": "801-625-0124",
         "phone": "801-625-0107"
+      },
+      {
+        "id": "B001250-vernal",
+        "address": "152 E. 100 N.",
+        "city": "Vernal",
+        "state": "UT",
+        "zip": "84078",
+        "latitude": 40.4563399,
+        "longitude": -109.5289541,
+        "phone": "435-781-5302",
+        "hours": "Staffed only part time"
       }
     ]
   },
@@ -1028,19 +1042,20 @@
     "offices": [
       {
         "id": "B001251-durham",
-        "address": "411 W. Chapel Hill St.",
-        "suite": "Suite 905",
+        "address": "2741 Campus Walk Ave.",
+        "suite": "Suite 300",
+        "building": "Bldg. 400",
         "city": "Durham",
         "state": "NC",
-        "zip": "27701",
-        "latitude": 35.9963746,
-        "longitude": -78.9082411,
+        "zip": "27705",
+        "latitude": 36.0098844,
+        "longitude": -78.9533296,
         "fax": "919-908-0169",
         "phone": "919-908-0164"
       },
       {
         "id": "B001251-wilson",
-        "address": "216 Nash St.",
+        "address": "216 NE Nash St.",
         "suite": "Suite B",
         "city": "Wilson",
         "state": "NC",
@@ -1093,7 +1108,7 @@
       {
         "id": "B001260-bradenton",
         "address": "1051 Manatee Ave West",
-        "suite": "34205",
+        "suite": "Suite 305",
         "city": "Bradenton",
         "state": "FL",
         "zip": "34205",
@@ -1126,7 +1141,7 @@
       {
         "id": "B001261-casper",
         "address": "100 E. B St.",
-        "suite": "2201",
+        "suite": "Suite 2201",
         "city": "Casper",
         "state": "WY",
         "zip": "82601",
@@ -1441,19 +1456,19 @@
         "latitude": 37.9722214,
         "longitude": -87.5705016,
         "fax": "812-422-4761",
-        "hours": "Monday-Friday 8:30am-5:00pm CST",
+        "hours": "Monday-Friday 8:30am-5:00pm CT",
         "phone": "812-465-6484"
       },
       {
         "id": "B001275-jasper",
         "address": "610 Main St.",
-        "building": "First Floor Small Conference Room",
+        "suite": "First Floor Small Conference Room",
         "city": "Jasper",
         "state": "IN",
         "zip": "47547",
         "latitude": 38.3919787,
         "longitude": -86.9304537,
-        "hours": "Tuesday 9:00am - 12:30pm EST"
+        "hours": "Tuesday 10:00am - 1:00pm ET"
       },
       {
         "id": "B001275-terre_haute",
@@ -1465,7 +1480,7 @@
         "latitude": 39.466224,
         "longitude": -87.4042291,
         "fax": "812-232-0526",
-        "hours": "8:30am - 5:00pm EST",
+        "hours": "8:30am - 5:00pm ET",
         "phone": "812-232-0523"
       },
       {
@@ -1476,7 +1491,7 @@
         "zip": "47591",
         "latitude": 38.6911192,
         "longitude": -87.52073879999999,
-        "hours": "Wednesdays 9:00am - 12:00pm EST"
+        "hours": "Wednesdays 9:00am - 12:00pm ET"
       }
     ]
   },
@@ -1490,7 +1505,7 @@
       {
         "id": "B001277-bridgeport",
         "address": "915 Lafayette Blvd.",
-        "suite": "Rm 230",
+        "suite": "Suite 304",
         "city": "Bridgeport",
         "state": "CT",
         "zip": "06604",
@@ -1651,20 +1666,20 @@
         "latitude": 34.2283405,
         "longitude": -119.1745197,
         "fax": "805-379-1799",
-        "hours": "Monday-Thursday 9:00am-5:30pm Pacific; Friday 9:00am-5:00pm Pacific",
+        "hours": "Monday-Thursday 9:00am-5:30pm PT; Friday 9:00am-5:00pm PT",
         "phone": "805-379-1779"
       },
       {
         "id": "B001285-thousand_oaks",
         "address": "223 E. Thousand Oaks Blvd.",
-        "suite": "Suite 411",
+        "suite": "Suite 220",
         "city": "Thousand Oaks",
         "state": "CA",
         "zip": "91360",
         "latitude": 34.1794905,
         "longitude": -118.8726791,
         "fax": "805-379-1799",
-        "hours": "Monday-Thursday 9:00am-5:30pm Pacific,Friday 9:00am-5:00pm Pacific",
+        "hours": "Monday-Thursday 9:00am-5:30pm PT,Friday 9:00am-5:00pm PT",
         "phone": "805-379-1779"
       }
     ]
@@ -1678,13 +1693,12 @@
     "offices": [
       {
         "id": "B001286-peoria",
-        "address": "3100 N. Knoxville Ave.",
-        "suite": "Suite 205",
+        "address": "820 SW Adams St",
         "city": "Peoria",
         "state": "IL",
         "zip": "61603",
-        "latitude": 40.7252144,
-        "longitude": -89.59307679999999,
+        "latitude": 40.6855433,
+        "longitude": -89.5987706,
         "phone": "309-966-1813"
       },
       {
@@ -1778,7 +1792,7 @@
       {
         "id": "B001289-mobile",
         "address": "11 N. Water St.",
-        "suite": "Ste. 15290",
+        "suite": "Suite 15290",
         "city": "Mobile",
         "state": "AL",
         "zip": "36602",
@@ -1854,12 +1868,12 @@
       },
       {
         "id": "B001291-orange",
-        "address": "420 Green Ave.",
+        "address": "1201 Childers Rd.",
         "city": "Orange",
         "state": "TX",
         "zip": "77630",
-        "latitude": 30.093311,
-        "longitude": -93.73304739999999,
+        "latitude": 30.0800116,
+        "longitude": -93.7314932,
         "fax": "409-886-9918",
         "phone": "409-883-8075"
       },
@@ -1938,12 +1952,13 @@
       },
       {
         "id": "B001294-cedar_rapids",
-        "address": "310 3rd Street SE",
+        "address": "308 3rd Street SE",
+        "suite": "Suite 200",
         "city": "Cedar Rapids",
         "state": "IA",
         "zip": "50613",
-        "latitude": 41.9773904,
-        "longitude": -91.6653664,
+        "latitude": 41.9774049,
+        "longitude": -91.6653635,
         "fax": "319-364-2994",
         "phone": "319-364-2288"
       },
@@ -1974,20 +1989,8 @@
         "zip": "62002",
         "latitude": 38.8906416,
         "longitude": -90.18395149999999,
-        "phone": "618-233-8026"
-      },
-      {
-        "id": "B001295-belleville",
-        "address": "23 Public Sq.",
-        "suite": "Suite 404",
-        "building": "Public Square",
-        "city": "Belleville",
-        "state": "IL",
-        "zip": "62220",
-        "latitude": 38.5139815,
-        "longitude": -89.9834624,
-        "fax": "618-233-8765",
-        "phone": "618-233-8026"
+        "phone": "618-622-0766",
+        "hours": "First Thursday of every month from 9:00 a.m. until 11:00 a.m."
       },
       {
         "id": "B001295-carbondale",
@@ -2012,7 +2015,7 @@
         "latitude": 38.7015611,
         "longitude": -90.14887449999999,
         "hours": "The third Thursday of each month from 1:00 p.m. to 4:00 p.m.",
-        "phone": "618-233-8026"
+        "phone": "618-622-0766"
       },
       {
         "id": "B001295-mt__vernon",
@@ -2023,8 +2026,19 @@
         "zip": "62864",
         "latitude": 38.317936,
         "longitude": -88.9049835,
-        "hours": "Tuesday's 9 a.m. to 12 p.m.",
+        "hours": "Tuesdays 9 a.m. to 12 p.m.",
         "phone": "618-513-5294"
+      },
+      {
+        "id": "B001295-o_fallon",
+        "address": "302 West State St.",
+        "city": "O'Fallon",
+        "state": "IL",
+        "zip": "62269",
+        "latitude": 38.5925108,
+        "longitude": -89.9141608,
+        "phone": "618-622-0766",
+        "fax": "618-622-0774"
       }
     ]
   },
@@ -2038,19 +2052,30 @@
       {
         "id": "B001296-glenside",
         "address": "115 E. Glenside Ave.",
-        "suite": "Ste 1",
+        "suite": "Suite 1",
         "city": "Glenside",
         "state": "PA",
         "zip": "19038",
         "latitude": 40.100299,
         "longitude": -75.151156,
         "fax": "215-277-7225",
-        "phone": "215-517-6572"
+        "phone": "215-517-6572",
+        "hours": "8:30am-4:30pm M-F"
+      },
+      {
+        "id": "B001296-lansdale",
+        "address": "1 Vine St.",
+        "city": "Lansdale",
+        "state": "PA",
+        "zip": "19446",
+        "latitude": 40.2407837,
+        "longitude": -75.2873714,
+        "hours": "Monday 9:30am-4:30pm or by appointment"
       },
       {
         "id": "B001296-norristown",
         "address": "101 E. Main St.",
-        "suite": "Ste A",
+        "suite": "Suite A",
         "city": "Norristown",
         "state": "PA",
         "zip": "19401",
@@ -2063,7 +2088,8 @@
       {
         "id": "B001296-philadelphia",
         "address": "5675 N. Front St.",
-        "suite": "Ste 180",
+        "building": "One & Olney Shopping Center",
+        "suite": "Suite 180",
         "city": "Philadelphia",
         "state": "PA",
         "zip": "19120",
@@ -2076,7 +2102,7 @@
       {
         "id": "B001296-philadelphia-1",
         "address": "2375 Woodward St.",
-        "suite": "Ste 105",
+        "suite": "Suite 105",
         "building": "The Towers",
         "city": "Philadelphia",
         "state": "PA",
@@ -2110,6 +2136,7 @@
       {
         "id": "B001297-greeley",
         "address": "1023 39th Ave.",
+        "suite": "Unit B",
         "city": "Greeley",
         "state": "CO",
         "zip": "80634",
@@ -2164,6 +2191,30 @@
     },
     "offices": [
       {
+        "id": "B001300-carson",
+        "address": "701 E. Carson St.",
+        "building": "Carson City Hall",
+        "city": "Carson",
+        "state": "CA",
+        "zip": "90745",
+        "latitude": 33.8322643,
+        "longitude": -118.2630272,
+        "phone": "310-831-1799",
+        "hours": "Wednesday and Thursday, 9:00 a.m. - 5:00 p.m. Please call for an appointment"
+      },
+      {
+        "id": "B001300-compton",
+        "address": "205 S. Willowbrook Ave.",
+        "building": "Compton City Hall",
+        "city": "Compton",
+        "state": "CA",
+        "zip": "90220",
+        "latitude": 33.8946744,
+        "longitude": -118.226945,
+        "phone": "310-831-1799",
+        "hours": "Tuesday 9:00 a.m. - 5:00 p.m. Please call for an appointment"
+      },
+      {
         "id": "B001300-san_pedro",
         "address": "302 W. Fifth St.",
         "suite": "Suite 201",
@@ -2172,17 +2223,20 @@
         "zip": "90731",
         "latitude": 33.7398775,
         "longitude": -118.2839378,
-        "phone": "310-831-1799"
+        "phone": "310-831-1799",
+        "hours": "M-F 9:00 a.m. - 5:00 p.m. Please call for an appointment"
       },
       {
         "id": "B001300-south_gate",
         "address": "8650 California Ave.",
+        "building": "South Gate City Hall",
         "city": "South Gate",
         "state": "CA",
         "zip": "90280",
         "latitude": 33.9556898,
         "longitude": -118.2051037,
-        "phone": "323-563-9562"
+        "phone": "310-831-1799",
+        "hours": "Tuesday and Thursday, 9:00 a.m. - 5:00 p.m.  Please call for an appointment"
       }
     ]
   },
@@ -2195,7 +2249,7 @@
       {
         "id": "B001302-mesa",
         "address": "2509 S. Power Rd.",
-        "suite": "Suite 205",
+        "suite": "Suite 204",
         "city": "Mesa",
         "state": "AZ",
         "zip": "85209",
@@ -2231,14 +2285,26 @@
     },
     "offices": [
       {
-        "id": "B001304-upper_marlboro",
+        "id": "B001304-annapolis",
+        "address": "2666 Riva Rd",
+        "suite": "Suite 120",
+        "city": "Annapolis",
+        "state": "MD",
+        "zip": "21401",
+        "latitude": 38.9746861,
+        "longitude": -76.5612782,
+        "phone": "410-266-3249",
+        "hours": "Tuesday and Thursday, 9 a.m. - 1 p.m., or by appointment"
+      },
+      {
+        "id": "B001304-largo",
         "address": "9701 Apollo Dr.",
-        "suite": "Ste 103",
-        "city": "Upper Marlboro",
+        "suite": "Suite 103",
+        "city": "Largo",
         "state": "MD",
         "zip": "20774",
-        "latitude": 38.9044752,
-        "longitude": -76.8384674,
+        "latitude": 38.9044794,
+        "longitude": -76.8406561,
         "phone": "301-458-2600"
       }
     ]
@@ -2259,6 +2325,17 @@
         "latitude": 36.0038879,
         "longitude": -80.4394348,
         "phone": "336-998-1313"
+      },
+      {
+        "id": "B001305-high_point",
+        "address": "4000 Piedmont Pkwy",
+        "suite": "Suite 131",
+        "city": "High Point",
+        "state": "NC",
+        "zip": "27265",
+        "phone": "336-858-5013",
+        "latitude": 36.0515139,
+        "longitude": -79.9611368
       }
     ]
   },
@@ -2305,7 +2382,7 @@
       {
         "id": "C000127-richland",
         "address": "825 Jadwin Ave.",
-        "suite": "206",
+        "suite": "Suite 206",
         "city": "Richland",
         "state": "WA",
         "zip": "99352",
@@ -2423,7 +2500,8 @@
       {
         "id": "C000141-salisbury",
         "address": "212 W. Main St.",
-        "building": "Salisbury",
+        "building": "Plaza Gallery Building",
+        "suite": "Suite 301C",
         "city": "Salisbury",
         "state": "MD",
         "zip": "21801",
@@ -2451,7 +2529,8 @@
         "latitude": 39.15666239999999,
         "longitude": -75.5311574,
         "fax": "302-674-5464",
-        "phone": "302-674-3308"
+        "phone": "302-674-3308",
+        "hours": "M-F 8:30 a.m. to 5:30 p.m."
       },
       {
         "id": "C000174-georgetown",
@@ -2475,7 +2554,8 @@
         "latitude": 39.739183,
         "longitude": -75.5492666,
         "fax": "302-573-6434",
-        "phone": "302-573-6291"
+        "phone": "302-573-6291",
+        "hours": "M-F 8:30 a.m. to 5:30 p.m."
       }
     ]
   },
@@ -2618,7 +2698,8 @@
         "latitude": 36.1623269,
         "longitude": -86.7817797,
         "fax": "615-736-7479",
-        "phone": "615-736-5295"
+        "phone": "615-736-5295",
+        "hours": "M-F 8am - 5pm"
       }
     ]
   },
@@ -2857,14 +2938,14 @@
       {
         "id": "C001037-roxbury_crossing",
         "address": "1234 Columbus Ave",
-        "suite": "Room 211",
-        "building": "Roxbury Community College Campus Library",
+        "suite": "Room 315",
+        "building": "Roxbury Community College, Building 2",
         "city": "Roxbury Crossing",
         "state": "MA",
         "zip": "02120",
         "latitude": 42.329238,
         "longitude": -71.095479,
-        "hours": "Tuesday 12 - 5 PM Wednesday 9:30 - 2:30 PM",
+        "hours": "Tuesday 12 - 5 PM, Wednesday 9:30 - 2:30 PM",
         "phone": "617-621-6208"
       }
     ]
@@ -2878,14 +2959,14 @@
     "offices": [
       {
         "id": "C001038-bronx",
-        "address": "2800 Bruckner Blvd.",
-        "suite": "Suite 201",
+        "address": "3219 E Tremont Ave.",
+        "suite": "2nd Floor",
         "city": "Bronx",
         "state": "NY",
-        "zip": "10465",
-        "latitude": 40.83115069999999,
-        "longitude": -73.83065909999999,
-        "hours": "Monday-Friday 9:00AM-5:00PM EST",
+        "zip": "10461",
+        "latitude": 40.8361041,
+        "longitude": -73.8330737,
+        "hours": "Monday-Friday 9:00AM-5:00PM ET",
         "phone": "718-931-1400"
       },
       {
@@ -2897,7 +2978,7 @@
         "zip": "11372",
         "latitude": 40.7495961,
         "longitude": -73.88392929999999,
-        "hours": "Monday-Friday 9:00AM-5:00PM EST",
+        "hours": "Monday-Friday 9:00AM-5:00PM ET",
         "phone": "718-779-1400"
       }
     ]
@@ -2912,13 +2993,14 @@
       {
         "id": "C001047-beckley",
         "address": "220 N. Kanawha St.",
-        "suite": "1",
+        "suite": "Suite 1",
         "city": "Beckley",
         "state": "WV",
         "zip": "25801",
         "latitude": 37.779625,
         "longitude": -81.188172,
-        "phone": "304-347-5372"
+        "phone": "304-347-5372",
+        "hours": "Appointments are required at this location."
       },
       {
         "id": "C001047-charleston",
@@ -3029,7 +3111,7 @@
       {
         "id": "C001051-round_rock",
         "address": "1717 North IH 35",
-        "suite": "303",
+        "suite": "Suite 303",
         "city": "Round Rock",
         "state": "TX",
         "zip": "78664",
@@ -3128,7 +3210,7 @@
       },
       {
         "id": "C001056-harlingen",
-        "address": "222 E. Buren",
+        "address": "222 E. Van Buren",
         "suite": "Suite 404",
         "city": "Harlingen",
         "state": "TX",
@@ -3152,6 +3234,7 @@
       {
         "id": "C001056-lubbock",
         "address": "1500 Broadway",
+        "building": "Wells Fargo Center",
         "suite": "Suite 1230",
         "city": "Lubbock",
         "state": "TX",
@@ -3296,6 +3379,7 @@
       {
         "id": "C001062-llano",
         "address": "104 W. Sandstone",
+        "building": "County Annex",
         "city": "Llano",
         "state": "TX",
         "zip": "78643",
@@ -3364,7 +3448,7 @@
       },
       {
         "id": "C001063-mission",
-        "address": "117 E. Landry",
+        "address": "117 E. Tom Landry",
         "city": "Mission",
         "state": "TX",
         "zip": "78572",
@@ -3607,8 +3691,8 @@
         "zip": "37402",
         "latitude": 35.04543110000001,
         "longitude": -85.309912,
-        "fax": "865-637-9886",
-        "phone": "865-637-4180"
+        "phone": "423-756-2757",
+        "fax": "423-756-5313"
       },
       {
         "id": "C001071-jackson",
@@ -3637,7 +3721,7 @@
       {
         "id": "C001071-knoxville",
         "address": "800 Market St.",
-        "suite": "Knoxville",
+        "suite": "Suite 121",
         "city": "Knoxville",
         "state": "TN",
         "zip": "37902",
@@ -3704,7 +3788,7 @@
       {
         "id": "C001075-alexandria",
         "address": "3600 Jackson St.",
-        "suite": "Ste. 115A",
+        "suite": "Suite 115A",
         "city": "Alexandria",
         "state": "LA",
         "zip": "71303",
@@ -3716,7 +3800,7 @@
       {
         "id": "C001075-baton_rouge",
         "address": "5555 Hilton Ave.",
-        "suite": "Ste. 100",
+        "suite": "Suite 100",
         "city": "Baton Rouge",
         "state": "LA",
         "zip": "70808",
@@ -3739,8 +3823,8 @@
       },
       {
         "id": "C001075-lafayette",
-        "address": "101 France",
-        "suite": "Ste. 505",
+        "address": "101 La Rue France",
+        "suite": "Suite 505",
         "city": "Lafayette",
         "state": "LA",
         "zip": "70508",
@@ -3820,7 +3904,7 @@
       {
         "id": "C001078-annandale",
         "address": "4115 Annandale Rd.",
-        "suite": "Ste. 103",
+        "suite": "Suite 103",
         "city": "Annandale",
         "state": "VA",
         "zip": "22003",
@@ -3859,7 +3943,8 @@
         "latitude": 34.1079585,
         "longitude": -117.7212331,
         "fax": "909-399-0198",
-        "phone": "909-625-5394"
+        "phone": "909-625-5394",
+        "hours": "Only open Tuesdays and Thursdays"
       },
       {
         "id": "C001080-pasadena",
@@ -3919,7 +4004,7 @@
       {
         "id": "C001087-jonesboro",
         "address": "2400 Highland Dr.",
-        "suite": "Ste. 300",
+        "suite": "Suite 300",
         "city": "Jonesboro",
         "state": "AR",
         "zip": "72401",
@@ -3932,7 +4017,7 @@
       {
         "id": "C001087-mountain_home",
         "address": "1001 Highway 62 E",
-        "suite": "Ste. 9",
+        "suite": "Suite 9",
         "city": "Mountain Home",
         "state": "AR",
         "zip": "72653",
@@ -4074,7 +4159,7 @@
         "latitude": 42.794794,
         "longitude": -77.817404,
         "fax": "585-519-4009",
-        "hours": "M-F 9:00-6:00",
+        "hours": "M 9-6, T-F 9-5",
         "phone": "585-519-4002"
       },
       {
@@ -4087,7 +4172,7 @@
         "latitude": 42.9552643,
         "longitude": -78.6780537,
         "fax": "716-631-7610",
-        "hours": "M-F 9:00-6:00",
+        "hours": "M 9-6, T-F 9-5",
         "phone": "716-634-2324"
       }
     ]
@@ -4101,7 +4186,7 @@
     "offices": [
       {
         "id": "C001093-gainesville",
-        "address": "210 Washington St.",
+        "address": "210 Washington St. NW",
         "suite": "Suite 202",
         "city": "Gainesville",
         "state": "GA",
@@ -4140,7 +4225,6 @@
         "zip": "92399",
         "latitude": 34.0344717,
         "longitude": -117.0567352,
-        "hours": "Hours: 9:00am-5:00pm",
         "phone": "909-797-4900"
       }
     ]
@@ -4225,7 +4309,7 @@
       {
         "id": "C001096-fargo",
         "address": "3217 Fiechtner Dr.",
-        "suite": "Suite d",
+        "suite": "Suite D",
         "city": "Fargo",
         "state": "ND",
         "zip": "58103",
@@ -4387,7 +4471,8 @@
         "zip": "01702",
         "latitude": 42.2787415,
         "longitude": -71.41700349999999,
-        "phone": "508-319-9757"
+        "phone": "508-319-9757",
+        "hours": "M-F 9-5:30"
       }
     ]
   },
@@ -4555,6 +4640,17 @@
         "latitude": 36.7006713,
         "longitude": -85.6929017,
         "phone": "270-487-9509"
+      },
+      {
+        "id": "C001108-madisonville",
+        "address": "67 North Main St.",
+        "city": "Madisonville",
+        "state": "KY",
+        "zip": "42431",
+        "latitude": 37.3296043,
+        "longitude": -87.498937,
+        "phone": "270-487-9509",
+        "hours": "Call to schedule appointment"
       }
     ]
   },
@@ -4573,28 +4669,44 @@
         "zip": "82602",
         "latitude": 42.8524124,
         "longitude": -106.3248373,
-        "phone": "307-261-6595"
+        "phone": "307-261-6595",
+        "fax": "307-261-6597"
       },
       {
         "id": "C001109-cheyenne",
         "address": "2120 Capitol Ave.",
-        "suite": "Ste. 8005",
+        "suite": "Suite 8005",
         "city": "Cheyenne",
         "state": "WY",
         "zip": "82001",
         "latitude": 41.1374591,
         "longitude": -104.8189674,
-        "phone": "307-772-2595"
+        "phone": "307-772-2595",
+        "fax": "307-772-2597"
+      },
+      {
+        "id": "C001109-gillette",
+        "address": "300 S. Gillette Ave.",
+        "suite": "Suite 2001",
+        "city": "Gillette",
+        "state": "WY",
+        "zip": "82716",
+        "latitude": 44.2920649,
+        "longitude": -105.5066014,
+        "phone": "307-414-1677",
+        "fax": "307-414-1711"
       },
       {
         "id": "C001109-sheridan",
         "address": "45 E. Loucks St.",
+        "suite": "Suite 300 F",
         "city": "Sheridan",
         "state": "WY",
         "zip": "82801",
         "latitude": 44.7974845,
         "longitude": -106.9548869,
-        "phone": "307-673-4608"
+        "phone": "307-673-4608",
+        "fax": "307-261-6597"
       }
     ]
   },
@@ -4626,6 +4738,16 @@
         "latitude": 34.434901,
         "longitude": -119.746862,
         "phone": "805-546-8348"
+      },
+      {
+        "id": "C001112-santa_maria",
+        "address": "1619 S. Thornburg St.",
+        "city": "Santa Maria",
+        "state": "CA",
+        "zip": "93458",
+        "latitude": 34.434901,
+        "longitude": -120.4405464,
+        "phone": "805-730-1710"
       }
     ]
   },
@@ -4961,7 +5083,7 @@
       },
       {
         "id": "D000600-naples",
-        "address": "4715 Golden Gate Pky.",
+        "address": "4715 Golden Gate Pkwy.",
         "suite": "Suite 1",
         "city": "Naples",
         "state": "FL",
@@ -5015,7 +5137,7 @@
         "latitude": 40.556407,
         "longitude": -75.9840798,
         "fax": "610-562-4352",
-        "hours": "Monday through Friday 9AM to 5PM",
+        "hours": "T, W, TH 9AM to 5PM",
         "phone": "610-562-4281"
       },
       {
@@ -5028,7 +5150,7 @@
         "latitude": 40.2832262,
         "longitude": -76.6556063,
         "fax": "717-533-3979",
-        "hours": "9 AM to 5 PM; FRIDAY 9 AM to Noon",
+        "hours": "M-TH 9 AM to 5 PM; F 9 AM to Noon",
         "phone": "717-533-3959"
       }
     ]
@@ -5138,7 +5260,18 @@
         "zip": "33071",
         "latitude": 26.2459273,
         "longitude": -80.2697548,
-        "phone": "954-255-8336"
+        "phone": "954-255-8336",
+        "hours": "By appointment only."
+      },
+      {
+        "id": "D000610-fort_lauderdale",
+        "address": "111 East Las Olas Blvd.",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33301",
+        "latitude": 26.1194405,
+        "longitude": -80.1439123,
+        "hours": "By appointment only."
       },
       {
         "id": "D000610-margate",
@@ -5148,7 +5281,8 @@
         "zip": "33063",
         "latitude": 26.2420954,
         "longitude": -80.2050177,
-        "phone": "954-972-6454"
+        "phone": "954-972-6454",
+        "hours": "By appointment only."
       }
     ]
   },
@@ -5183,13 +5317,13 @@
     "offices": [
       {
         "id": "D000614-hayward",
-        "address": "15954 Rivers Edge Drive",
-        "suite": "Suite 206",
+        "address": "15569 Railroad St.",
+        "suite": "Suite 302",
         "city": "Hayward",
         "state": "WI",
         "zip": "54843",
-        "latitude": 46.0039436,
-        "longitude": -91.4901222,
+        "latitude": 46.0165948,
+        "longitude": -91.4772284,
         "hours": "By appointment only",
         "phone": "715-392-3984"
       },
@@ -5240,14 +5374,14 @@
         "phone": "864-224-7401"
       },
       {
-        "id": "D000615-laurens",
-        "address": "200 Courthouse Public Square",
-        "suite": "PO Box 471",
-        "city": "Laurens",
+        "id": "D000615-clinton",
+        "address": "100 Plaza Circle",
+        "suite": "Suite A1",
+        "city": "Clinton",
         "state": "SC",
-        "zip": "29360",
-        "latitude": 34.4993065,
-        "longitude": -82.0144844,
+        "zip": "29325",
+        "latitude": 34.4772923,
+        "longitude": -81.9380738,
         "fax": "864-681-1030",
         "hours": "Monday-Friday 9:00AM-5:00PM Closed on Federal Holidays",
         "phone": "864-681-1028"
@@ -5283,7 +5417,7 @@
         "latitude": 35.61587,
         "longitude": -87.035826,
         "fax": "931-381-9945",
-        "hours": "Mon-Fri, 8am-5pm CST",
+        "hours": "By appointment only",
         "phone": "931-381-9920"
       },
       {
@@ -5295,7 +5429,8 @@
         "latitude": 35.8461158,
         "longitude": -86.39409649999999,
         "fax": "615-896-8218",
-        "phone": "615-896-1986"
+        "phone": "615-896-1986",
+        "hours": "By appointment only"
       },
       {
         "id": "D000616-winchester",
@@ -5308,7 +5443,8 @@
         "latitude": 35.1850086,
         "longitude": -86.1112284,
         "fax": "931-962-3435",
-        "phone": "931-962-3180"
+        "phone": "931-962-3180",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -5356,7 +5492,7 @@
       {
         "id": "D000618-billings",
         "address": "222 N. 32nd St.",
-        "suite": "Ste. 100",
+        "suite": "Suite 100",
         "city": "Billings",
         "state": "MT",
         "zip": "59101",
@@ -5399,7 +5535,7 @@
       {
         "id": "D000618-helena",
         "address": "30 W. 14th St.",
-        "suite": "Ste. 206",
+        "suite": "Suite 206",
         "city": "Helena",
         "state": "MT",
         "zip": "59601",
@@ -5422,7 +5558,7 @@
       {
         "id": "D000618-missoula",
         "address": "218 E. Front St.",
-        "suite": "Ste. 103",
+        "suite": "Suite 103",
         "city": "Missoula",
         "state": "MT",
         "zip": "59802",
@@ -5434,7 +5570,7 @@
         "id": "D000618-sidney",
         "address": "609 S. Central Ave.",
         "suite": "Suite #4",
-        "building": "(Central Plaza Building)",
+        "building": "Central Plaza Building",
         "city": "Sidney",
         "state": "MT",
         "zip": "59270",
@@ -5496,7 +5632,8 @@
         "zip": "61761",
         "latitude": 40.5094581,
         "longitude": -88.9846312,
-        "phone": "309-252-8834"
+        "phone": "309-252-8834",
+        "hours": "By appointment only"
       },
       {
         "id": "D000619-springfield",
@@ -5566,6 +5703,30 @@
     },
     "offices": [
       {
+        "id": "D000621-deland",
+        "address": "120 S. Florida Ave.",
+        "suite": "Suite 324",
+        "city": "DeLand",
+        "state": "FL",
+        "zip": "32720",
+        "latitude": 29.0277754,
+        "longitude": -81.3063319,
+        "fax": "386-279-7430",
+        "phone": "386-279-7343"
+      },
+      {
+        "id": "D000621-palm_coast",
+        "address": "31 Lupi Court",
+        "suite": "Suite 130",
+        "city": "Palm Coast",
+        "state": "FL",
+        "zip": "32137",
+        "latitude": 29.5548947,
+        "longitude": -81.2363639,
+        "fax": "386-302-0474",
+        "phone": "386-302-0471"
+      },
+      {
         "id": "D000621-port_orange",
         "address": "1000 City Center Cir.",
         "city": "Port Orange",
@@ -5575,18 +5736,6 @@
         "longitude": -81.02072489999999,
         "fax": "386-756-9903",
         "phone": "386-756-9798"
-      },
-      {
-        "id": "D000621-st__augustine",
-        "address": "3940 Speedway",
-        "suite": "Suite 2104",
-        "city": "St. Augustine",
-        "state": "FL",
-        "zip": "32084",
-        "latitude": 29.9393092,
-        "longitude": -81.339015,
-        "fax": "904-827-1114",
-        "phone": "904-827-1101"
       }
     ]
   },
@@ -5611,13 +5760,13 @@
       },
       {
         "id": "D000623-walnut_creek",
-        "address": "101 Ygnacio Valley Rd.",
-        "suite": "Suite 210",
+        "address": "3100 Oak Road",
+        "suite": "Suite 110",
         "city": "Walnut Creek",
         "state": "CA",
-        "zip": "94596",
+        "zip": "94597",
         "latitude": 37.9043441,
-        "longitude": -122.0688945,
+        "longitude": -122.0583137,
         "fax": "925-933-2677",
         "phone": "925-933-2660"
       }
@@ -5707,12 +5856,12 @@
       },
       {
         "id": "D000626-troy",
-        "address": "12 S. Plum St.",
+        "address": "20 Dotcom Drive",
         "city": "Troy",
         "state": "OH",
         "zip": "45373",
-        "latitude": 40.0401311,
-        "longitude": -84.20569890000002,
+        "latitude": 40.0578289,
+        "longitude": -84.2463325,
         "phone": "937-339-1524"
       },
       {
@@ -5787,7 +5936,7 @@
     "offices": [
       {
         "id": "E000179-bronx",
-        "address": "177 Dreiser Loop.",
+        "address": "177 Dreiser Loop",
         "suite": "Rm 3",
         "city": "Bronx",
         "state": "NY",
@@ -5893,7 +6042,7 @@
       {
         "id": "E000285-gillette",
         "address": "222 S. Gillette Ave.",
-        "building": "503",
+        "suite": "Suite 503",
         "city": "Gillette",
         "state": "WY",
         "zip": "82716",
@@ -5926,7 +6075,7 @@
     "offices": [
       {
         "id": "E000288-minneapolis",
-        "address": "2100 Plymouth Ave.",
+        "address": "2100 Plymouth Ave. N",
         "city": "Minneapolis",
         "state": "MN",
         "zip": "55411",
@@ -5989,7 +6138,7 @@
     "offices": [
       {
         "id": "E000295-cedar_rapids",
-        "address": "111 Seventh Ave.",
+        "address": "111 Seventh Ave. SE",
         "suite": "Suite 480",
         "city": "Cedar Rapids",
         "state": "IA",
@@ -5997,7 +6146,8 @@
         "latitude": 41.9731139,
         "longitude": -91.6645212,
         "fax": "319-365-4683",
-        "phone": "319-365-4504"
+        "phone": "319-365-4504",
+        "hours": "8am-5pm CT"
       },
       {
         "id": "E000295-council_bluffs",
@@ -6009,7 +6159,8 @@
         "latitude": 41.2608863,
         "longitude": -95.8525576,
         "fax": "712-352-0087",
-        "phone": "712-352-1167"
+        "phone": "712-352-1167",
+        "hours": "Please call to schedule an appointment"
       },
       {
         "id": "E000295-davenport",
@@ -6021,7 +6172,8 @@
         "latitude": 41.5213296,
         "longitude": -90.5758645,
         "fax": "563-322-0854",
-        "phone": "563-322-0677"
+        "phone": "563-322-0677",
+        "hours": "8am-5pm CT"
       },
       {
         "id": "E000295-des_moines",
@@ -6033,7 +6185,8 @@
         "latitude": 41.5864152,
         "longitude": -93.62015319999999,
         "fax": "515-284-4937",
-        "phone": "515-284-4574"
+        "phone": "515-284-4574",
+        "hours": "8am-5pm CT"
       },
       {
         "id": "E000295-sioux_city",
@@ -6045,7 +6198,8 @@
         "latitude": 42.4963261,
         "longitude": -96.40758369999999,
         "fax": "712-252-1638",
-        "phone": "712-252-1550"
+        "phone": "712-252-1550",
+        "hours": "8am-5pm CT"
       }
     ]
   },
@@ -6085,7 +6239,8 @@
         "latitude": 36.7374775,
         "longitude": -119.7836709,
         "fax": "559-485-9689",
-        "phone": "559-485-7430"
+        "phone": "559-485-7430",
+        "hours": "9AM-5PM"
       },
       {
         "id": "F000062-los_angeles",
@@ -6097,7 +6252,8 @@
         "latitude": 34.0476223,
         "longitude": -118.444656,
         "fax": "310-914-7318",
-        "phone": "310-914-7300"
+        "phone": "310-914-7300",
+        "hours": "9AM-5PM"
       },
       {
         "id": "F000062-san_diego",
@@ -6109,7 +6265,8 @@
         "latitude": 32.7143481,
         "longitude": -117.1647085,
         "fax": "619-231-1108",
-        "phone": "619-231-9712"
+        "phone": "619-231-9712",
+        "hours": "9AM-5PM"
       },
       {
         "id": "F000062-san_francisco",
@@ -6121,7 +6278,8 @@
         "latitude": 37.7887748,
         "longitude": -122.4026656,
         "fax": "415-393-0710",
-        "phone": "415-393-0707"
+        "phone": "415-393-0707",
+        "hours": "9AM-5PM"
       }
     ]
   },
@@ -6141,7 +6299,7 @@
         "zip": "07960",
         "latitude": 40.7964119,
         "longitude": -74.4835583,
-        "hours": "Mon. - Fri: 9am-5pm",
+        "hours": "M-F 9AM-5PM",
         "phone": "973-984-0711"
       }
     ]
@@ -6272,7 +6430,7 @@
         "zip": "60502",
         "latitude": 41.758276,
         "longitude": -88.249771,
-        "hours": "hours: M-F 9-5:00 PM",
+        "hours": "M-F 9-5:00 PM",
         "phone": "630-585-7672"
       },
       {
@@ -6635,7 +6793,7 @@
       },
       {
         "id": "G000289-roanoke",
-        "address": "10 Franklin Rd.",
+        "address": "10 Franklin Rd. SE",
         "suite": "Suite 540",
         "city": "Roanoke",
         "state": "VA",
@@ -6724,7 +6882,7 @@
         "zip": "29670",
         "latitude": 34.65072,
         "longitude": -82.782997,
-        "fax": "864-646-4090",
+        "fax": "864-646-8609",
         "phone": "864-646-4090"
       },
       {
@@ -6772,7 +6930,7 @@
     "offices": [
       {
         "id": "G000386-cedar_rapids",
-        "address": "111 7th Ave.",
+        "address": "111 7th Ave. SE",
         "suite": "Suite 6800",
         "city": "Cedar Rapids",
         "state": "IA",
@@ -6785,7 +6943,8 @@
       {
         "id": "G000386-council_bluffs",
         "address": "8 S. 6th St.",
-        "building": "307 Federal Building",
+        "suite": "307",
+        "building": "Federal Building",
         "city": "Council Bluffs",
         "state": "IA",
         "zip": "51501",
@@ -6809,7 +6968,8 @@
       {
         "id": "G000386-des_moines",
         "address": "210 Walnut St.",
-        "building": "721 Federal Building",
+        "suite": "721",
+        "building": "Federal Building",
         "city": "Des Moines",
         "state": "IA",
         "zip": "50309",
@@ -6821,7 +6981,8 @@
       {
         "id": "G000386-sioux_city",
         "address": "320 6th St.",
-        "building": "120 Federal Building",
+        "suite": "120",
+        "building": "Federal Building",
         "city": "Sioux City",
         "state": "IA",
         "zip": "51101",
@@ -6833,6 +6994,8 @@
       {
         "id": "G000386-waterloo",
         "address": "531 Commercial St.",
+        "suite": "210",
+        "building": "Waterloo Building",
         "city": "Waterloo",
         "state": "IA",
         "zip": "50701",
@@ -6995,7 +7158,7 @@
       {
         "id": "G000552-longview",
         "address": "101 E. Methvin",
-        "suite": "Ste 302",
+        "suite": "Suite 302",
         "city": "Longview",
         "state": "TX",
         "zip": "75601",
@@ -7007,7 +7170,7 @@
       {
         "id": "G000552-lufkin",
         "address": "300 E. Shepherd",
-        "suite": "Ste 210",
+        "suite": "Suite 210",
         "city": "Lufkin",
         "state": "TX",
         "zip": "75901",
@@ -7030,7 +7193,7 @@
       {
         "id": "G000552-nacogdoches",
         "address": "101 W. Main",
-        "suite": "Ste 160",
+        "suite": "Suite 160",
         "city": "Nacogdoches",
         "state": "TX",
         "zip": "75961",
@@ -7262,7 +7425,7 @@
         "latitude": 39.1396913,
         "longitude": -121.6173255,
         "fax": "530-763-4248",
-        "hours": "Monday \u2013 Thursday 10AM-2PM and by appointment",
+        "hours": "By appointment only",
         "phone": "530-329-8865"
       }
     ]
@@ -7309,7 +7472,7 @@
       {
         "id": "G000562-colorado_springs",
         "address": "102 S. Tejon St.",
-        "suite": "Ste. 930",
+        "suite": "Suite 930",
         "city": "Colorado Springs",
         "state": "CO",
         "zip": "80903",
@@ -7321,7 +7484,7 @@
       {
         "id": "G000562-denver",
         "address": "721 19th St.",
-        "suite": "Ste. 150",
+        "suite": "Suite 150",
         "city": "Denver",
         "state": "CO",
         "zip": "80202",
@@ -7333,19 +7496,18 @@
       {
         "id": "G000562-durango",
         "address": "329 S. Camino Del Rio",
-        "suite": "Ste. I",
+        "suite": "Suite I",
         "city": "Durango",
         "state": "CO",
         "zip": "81303",
         "latitude": 37.2508296,
         "longitude": -107.880109,
         "fax": "970-259-4276",
-        "phone": "970-415-7416"
+        "phone": "970-259-1231"
       },
       {
         "id": "G000562-fort_collins",
         "address": "2001 S. Shields St.",
-        "suite": "Ste. 104",
         "building": "Building H",
         "city": "Fort Collins",
         "state": "CO",
@@ -7357,7 +7519,7 @@
       {
         "id": "G000562-grand_junction",
         "address": "400 Rood Ave.",
-        "suite": "Ste. 220",
+        "suite": "Suite 220",
         "building": "Federal Bldg.",
         "city": "Grand Junction",
         "state": "CO",
@@ -7370,7 +7532,7 @@
       {
         "id": "G000562-greeley",
         "address": "801 8th St.",
-        "suite": "Ste. 140A",
+        "suite": "Suite 140A",
         "city": "Greeley",
         "state": "CO",
         "zip": "80631",
@@ -7394,7 +7556,7 @@
       {
         "id": "G000562-yuma",
         "address": "529 N. Albany St.",
-        "suite": "Ste. 1220",
+        "suite": "Suite 1220",
         "city": "Yuma",
         "state": "CO",
         "zip": "80759",
@@ -7666,15 +7828,29 @@
     },
     "offices": [
       {
+        "id": "G000578-fort_walton_beach",
+        "address": "1170 Martin Luther King, Jr. Blvd.",
+        "suite": "Room 454",
+        "building": "Building 4",
+        "city": "Fort Walton Beach",
+        "state": "FL",
+        "zip": "32547",
+        "latitude": 30.4533965,
+        "longitude": -86.6552739,
+        "phone": "850-479-1183",
+        "hours": "Call for an appointment"
+      },
+      {
         "id": "G000578-pensacola",
-        "address": "4300 Bayou Blvd.",
-        "suite": "Suite 13",
+        "address": "226 S Palafox Place",
+        "suite": "6th Floor",
         "city": "Pensacola",
         "state": "FL",
-        "zip": "32503",
+        "zip": "32502",
         "latitude": 30.4670273,
         "longitude": -87.2032093,
-        "phone": "850-479-1183"
+        "phone": "850-479-1183",
+        "hours": "9am-4pm"
       }
     ]
   },
@@ -7692,7 +7868,19 @@
         "zip": "54911",
         "latitude": 44.2614778,
         "longitude": -88.4094435,
-        "phone": "920-380-0061"
+        "phone": "920-903-9806"
+      },
+      {
+        "id": "G000579-green_bay",
+        "address": "1915 S. Webster Ave.",
+        "suite": "Suite D",
+        "city": "Green Bay",
+        "state": "WI",
+        "zip": "54301",
+        "latitude": 44.4852063,
+        "longitude": -88.0222079,
+        "phone": "920-301-4500",
+        "fax": "920-301-4500"
       }
     ]
   },
@@ -7711,18 +7899,20 @@
         "zip": "22901",
         "latitude": 38.0847006,
         "longitude": -78.47843069999999,
-        "phone": "434-973-9631"
+        "phone": "434-973-9631",
+        "fax": "434-973-9635"
       },
       {
         "id": "G000580-danville",
         "address": "308 Craghead St.",
-        "suite": "102D",
+        "suite": "Suite 102D",
         "city": "Danville",
         "state": "VA",
         "zip": "24541",
         "latitude": 36.5867166,
         "longitude": -79.38939599999999,
-        "phone": "434-791-2596"
+        "phone": "434-791-2596",
+        "fax": "434-791-4619"
       }
     ]
   },
@@ -7733,6 +7923,17 @@
     },
     "offices": [
       {
+        "id": "G000581-benavides",
+        "address": "131 W. Main St.",
+        "city": "Benavides",
+        "state": "TX",
+        "zip": "78341",
+        "latitude": 27.5968913,
+        "longitude": -98.4176561,
+        "phone": "888-217-0261",
+        "hours": "Wednesday 9-12 and 1-5 CT"
+      },
+      {
         "id": "G000581-edinburg",
         "address": "2864 W. Trenton Rd.",
         "city": "Edinburg",
@@ -7740,7 +7941,19 @@
         "zip": "78539",
         "latitude": 26.2658508,
         "longitude": -98.20102790000001,
-        "phone": "956-682-5545"
+        "phone": "956-682-5545",
+        "hours": "9am-6pm CT"
+      },
+      {
+        "id": "G000581-san_diego",
+        "address": "404 S. Mier St.",
+        "city": "San Diego",
+        "state": "TX",
+        "zip": "78384",
+        "latitude": 27.7605991,
+        "longitude": -98.2413715,
+        "phone": "888-217-0261",
+        "hours": "Monday 9-12 & 1-5 CT"
       }
     ]
   },
@@ -7779,7 +7992,64 @@
         "zip": "07452",
         "latitude": 40.9506625,
         "longitude": -74.143801,
-        "phone": "888-216-5646"
+        "phone": "201-389-1100",
+        "hours": "9AM-5PM"
+      },
+      {
+        "id": "G000583-newton",
+        "address": "93 Spring St.",
+        "suite": "Suite 408",
+        "city": "Newton",
+        "state": "NJ",
+        "zip": "07860",
+        "latitude": 41.0581593,
+        "longitude": -74.7544134,
+        "phone": "973-940-1117",
+        "hours": "M,W,F 9AM-5PM"
+      },
+      {
+        "id": "G000583-ringwood",
+        "address": "60 Margaret King Ave.",
+        "city": "Ringwood",
+        "state": "NJ",
+        "zip": "07456",
+        "latitude": 41.129452,
+        "longitude": -74.2672991,
+        "phone": "973-814-4076",
+        "hours": "TH 1PM-4:30PM"
+      },
+      {
+        "id": "G000583-washington",
+        "address": "100 Belvidere Ave",
+        "city": "Washington",
+        "state": "NJ",
+        "zip": "07882",
+        "latitude": 40.7599515,
+        "longitude": -74.9823375,
+        "phone": "973-814-4076",
+        "hours": "TH 9AM-1PM"
+      },
+      {
+        "id": "G000583-hackensack",
+        "address": "65 Central Ave",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": "07601",
+        "latitude": 40.8857964,
+        "longitude": -74.046227,
+        "phone": "973-814-4076",
+        "hours": "W 12-4PM"
+      },
+      {
+        "id": "G000583-vernon_township",
+        "address": "21 Church St.",
+        "city": "Vernon Township",
+        "state": "NJ",
+        "zip": "07462",
+        "latitude": 41.2025042,
+        "longitude": -74.4855857,
+        "phone": "973-814-4076",
+        "hours": "T 9AM-1PM"
       }
     ]
   },
@@ -7873,7 +8143,7 @@
       {
         "id": "H000338-st__george",
         "address": "196 E. Tabernacle",
-        "suite": "Rm 14",
+        "suite": "Room 14",
         "building": "Federal Building",
         "city": "St. George",
         "state": "UT",
@@ -7903,20 +8173,20 @@
         "latitude": 39.0089504,
         "longitude": -76.8952351,
         "fax": "301-474-4697",
-        "hours": "Open 9 a.m. to 5 p.m. Monday through Friday except Federal Holidays",
+        "hours": "Mon-Fri 9am-5pm",
         "phone": "301-474-0119"
       },
       {
-        "id": "H000874-waldorf",
-        "address": "401 Post Office Rd.",
-        "suite": "Ste. 202",
-        "city": "Waldorf",
+        "id": "H000874-white_plains",
+        "address": "4475 Regency Pl.",
+        "suite": "Suite 203",
+        "city": "White Plains",
         "state": "MD",
-        "zip": "20602",
-        "latitude": 38.6112157,
-        "longitude": -76.9022185,
+        "zip": "20695",
+        "latitude": 38.5923982,
+        "longitude": -76.9415779,
         "fax": "301-843-1331",
-        "hours": "Mon-Fri 9am-2pm",
+        "hours": "Mon-Fri 9am-5pm",
         "phone": "301-843-1577"
       }
     ]
@@ -8061,18 +8331,19 @@
         "zip": "39601",
         "latitude": 31.5774837,
         "longitude": -90.44402009999999,
-        "fax": "601-823-5512",
+        "fax": "601-932-4647",
         "phone": "601-823-3400"
       },
       {
         "id": "H001045-meridian",
-        "address": "1901 Front St.",
-        "suite": "Suite A",
+        "address": "2214 5th St.",
+        "suite": "Suite 2170",
+        "building": "MSU Riley Campus, Rosenbaum Building",
         "city": "Meridian",
         "state": "MS",
         "zip": "39301",
-        "latitude": 32.3639891,
-        "longitude": -88.6963131,
+        "latitude": 32.3638162,
+        "longitude": -88.7007124,
         "fax": "601-693-1801",
         "phone": "601-693-6681"
       },
@@ -8111,8 +8382,8 @@
     "offices": [
       {
         "id": "H001046-albuquerque",
-        "address": "400 Gold Ave.",
-        "suite": "Ste. 1080",
+        "address": "400 Gold Ave. SW",
+        "suite": "Suite 1080",
         "city": "Albuquerque",
         "state": "NM",
         "zip": "87102",
@@ -8124,7 +8395,7 @@
       {
         "id": "H001046-farmington",
         "address": "7450 E. Main St.",
-        "suite": "Ste. A",
+        "suite": "Suite A",
         "city": "Farmington",
         "state": "NM",
         "zip": "87402",
@@ -8136,7 +8407,7 @@
       {
         "id": "H001046-las_cruces",
         "address": "505 S. Main St.",
-        "suite": "Ste. 148",
+        "suite": "Suite 148",
         "building": "Loretto Towne Center",
         "city": "Las Cruces",
         "state": "NM",
@@ -8149,7 +8420,7 @@
       {
         "id": "H001046-roswell",
         "address": "200 E. 4th St.",
-        "suite": "Ste. 300",
+        "suite": "Suite 300",
         "city": "Roswell",
         "state": "NM",
         "zip": "88201",
@@ -8161,7 +8432,7 @@
       {
         "id": "H001046-santa_fe",
         "address": "123 E. Marcy St.",
-        "suite": "Ste. 103",
+        "suite": "Suite 103",
         "city": "Santa Fe",
         "state": "NM",
         "zip": "87501",
@@ -8217,7 +8488,7 @@
       {
         "id": "H001048-el_cajon",
         "address": "1611 N. Magnolia Ave.",
-        "suite": "Ste 310",
+        "suite": "Suite 310",
         "city": "El Cajon",
         "state": "CA",
         "zip": "92020",
@@ -8249,13 +8520,13 @@
     "offices": [
       {
         "id": "H001050-honolulu",
-        "address": "300 Ala Moana Blvd.",
-        "suite": "Room 4-104",
+        "address": "1132 Bishop Street",
+        "suite": "Suite 1910",
         "city": "Honolulu",
         "state": "HI",
-        "zip": "96850",
-        "latitude": 21.3036893,
-        "longitude": -157.862353,
+        "zip": "96813",
+        "latitude": 21.3100571,
+        "longitude": -157.8625621,
         "fax": "808-533-0133",
         "phone": "808-541-2570"
       }
@@ -8278,7 +8549,7 @@
         "latitude": 39.535151,
         "longitude": -76.34646289999999,
         "fax": "410-588-5673",
-        "hours": "Monday 8:30a.m.-5:30p.m. Tuesday 8:30a.m.-5:30p.m. Thursday 8:30a.m.-5:30p.m.",
+        "hours": "By appointment only",
         "phone": "410-588-5670"
       },
       {
@@ -8292,7 +8563,7 @@
         "latitude": 38.975324,
         "longitude": -76.28993,
         "fax": "410-643-5429",
-        "hours": "Monday - Thursday 8:30am-5:30pm Friday - scheduled appointments only",
+        "hours": "By appointment only",
         "phone": "410-643-5425"
       },
       {
@@ -8305,7 +8576,7 @@
         "latitude": 38.3652997,
         "longitude": -75.600858,
         "fax": "443-944-8625",
-        "hours": "Mon, Tue, Thurs 8:30AM-5:30PM",
+        "hours": "By appointment only",
         "phone": "443-944-8624"
       }
     ]
@@ -8369,13 +8640,13 @@
         "zip": "98532",
         "latitude": 46.6639928,
         "longitude": -122.9672327,
-        "hours": "Tuesdays from 11:00am - 2:00pm"
+        "hours": "Tuesdays from 11:30am - 1:00pm"
       },
       {
         "id": "H001056-vancouver",
         "address": "750 Anderson St.",
         "suite": "Suite B",
-        "building": "O.O. Howard House",
+        "building": "O.O. Howard House (Officers' Row)",
         "city": "Vancouver",
         "state": "WA",
         "zip": "98661",
@@ -8407,7 +8678,7 @@
       },
       {
         "id": "H001058-grandville",
-        "address": "4555 Wilson Ave.",
+        "address": "4555 Wilson Ave. SW",
         "suite": "Suite 3",
         "city": "Grandville",
         "state": "MI",
@@ -8438,6 +8709,19 @@
         "fax": "630-584-2746",
         "hours": "Mon-Thurs: 8:30am - 4:30pm; Fri: 8:00am - 4:00pm; Other times by appointment",
         "phone": "630-584-2734"
+      },
+      {
+        "id": "H001059-mchenry",
+        "address": "1500 State Route 31",
+        "suite": "Suite B",
+        "city": "McHenry",
+        "state": "IL",
+        "zip": "60050",
+        "latitude": 42.3075681,
+        "longitude": -88.2824207,
+        "fax": "815-679-6551",
+        "hours": "Mon-Thurs: 8:30am - 4:30pm; Fri: 8:00am - 4:00pm; Other times by appointment",
+        "phone": "815-679-6352"
       }
     ]
   },
@@ -8463,20 +8747,20 @@
       },
       {
         "id": "H001061-fargo",
-        "address": "1802 32nd Ave. South",
-        "suite": "Room B",
+        "address": "123 Broadway North",
+        "suite": "Suite 201",
         "city": "Fargo",
         "state": "ND",
-        "zip": "58103",
-        "latitude": 46.832277,
-        "longitude": -96.81111949999999,
-        "fax": "701-239-5112",
+        "zip": "58102",
+        "latitude": 46.8778235,
+        "longitude": -96.7894805,
+        "fax": "202-228-5112",
         "phone": "701-239-5389"
       },
       {
         "id": "H001061-grand_forks",
         "address": "102 N. Fourth St.",
-        "suite": "Rm 108",
+        "suite": "Room 108",
         "building": "Federal Building",
         "city": "Grand Forks",
         "state": "ND",
@@ -8487,7 +8771,7 @@
       },
       {
         "id": "H001061-minot",
-        "address": "100 1st St.",
+        "address": "100 1st St. SW",
         "suite": "Suite 107",
         "city": "Minot",
         "state": "ND",
@@ -8514,7 +8798,7 @@
     "offices": [
       {
         "id": "H001064-lacey",
-        "address": "420 College St.",
+        "address": "420 College St. SE",
         "suite": "Suite 3000",
         "building": "Lacey City Hall",
         "city": "Lacey",
@@ -8527,7 +8811,7 @@
       },
       {
         "id": "H001064-lakewood",
-        "address": "6000 Main St.",
+        "address": "6000 Main St. SW",
         "suite": "Suite 3B",
         "city": "Lakewood",
         "state": "WA",
@@ -8535,7 +8819,7 @@
         "latitude": 47.1615029,
         "longitude": -122.51552,
         "hours": "call first to make an appointment",
-        "phone": "253-722-5860"
+        "phone": "253-533-8332"
       }
     ]
   },
@@ -8547,27 +8831,17 @@
     },
     "offices": [
       {
-        "id": "H001065-fremont",
-        "address": "120 Main St.",
-        "city": "Fremont",
-        "state": "NC",
-        "zip": "27830",
-        "latitude": 35.5436158,
-        "longitude": -77.97435569999999,
-        "hours": "Thu 10am-4pm",
-        "phone": "919-440-5247"
-      },
-      {
         "id": "H001065-raleigh",
-        "address": "3725 National Dr.",
-        "suite": "Suite 101",
+        "address": "6404 Falls of Neuse Rd.",
+        "suite": "Suite 103",
         "city": "Raleigh",
         "state": "NC",
-        "zip": "27612",
-        "latitude": 35.8346419,
-        "longitude": -78.6666549,
+        "zip": "27615",
+        "latitude": 35.8702107,
+        "longitude": -78.6230659,
         "hours": "Mon - Fri: 8:30 to 5:30 pm",
-        "phone": "919-782-4400"
+        "phone": "919-782-4400",
+        "fax": "919-782-4490"
       }
     ]
   },
@@ -8592,15 +8866,29 @@
         "phone": "704-786-1612"
       },
       {
-        "id": "H001067-rockingham",
-        "address": "1015 Fayetteville Rd.",
-        "city": "Rockingham",
+        "id": "H001067-fayetteville",
+        "address": "225 Green Street",
+        "suite": "Suite 202",
+        "city": "Fayetteville",
         "state": "NC",
-        "zip": "28379",
-        "latitude": 34.943077,
-        "longitude": -79.761606,
+        "zip": "28301",
+        "latitude": 35.054944,
+        "longitude": -78.877151,
         "hours": "Mon-Fri 8:30am-5:30pm",
-        "phone": "910-997-2070"
+        "phone": "910-997-2070",
+        "fax": "910-817-7202"
+      },
+      {
+        "id": "H001067-pinehurst",
+        "address": "3395 Airport Road",
+        "suite": "Suite 105",
+        "city": "Pinehurst",
+        "state": "NC",
+        "zip": "28374",
+        "latitude": 35.219259,
+        "longitude": -79.405317,
+        "hours": "Tues and Thurs 8:30am-5:30pm and by appointment",
+        "phone": "910-246-5374"
       }
     ]
   },
@@ -8667,7 +8955,7 @@
         "latitude": 39.1598605,
         "longitude": -123.2154259,
         "fax": "707-671-7449",
-        "phone": "707-671-7449"
+        "phone": "707-962-0905"
       }
     ]
   },
@@ -8728,7 +9016,7 @@
       },
       {
         "id": "H001069-minot",
-        "address": "100 First St.",
+        "address": "100 First St. SW",
         "building": "105 Federal Building",
         "city": "Minot",
         "state": "ND",
@@ -8806,7 +9094,7 @@
       {
         "id": "H001072-little_rock",
         "address": "1501 N. University Ave.",
-        "suite": "Suite 150",
+        "suite": "Suite 630",
         "city": "Little Rock",
         "state": "AR",
         "zip": "72207",
@@ -8832,18 +9120,32 @@
         "zip": "78840",
         "latitude": 29.3705708,
         "longitude": -100.9202206,
-        "phone": "830-422-2040"
+        "phone": "830-422-2040",
+        "hours": "Call to make an appointment"
       },
       {
         "id": "H001073-eagle_pass",
-        "address": "100 Monroe St.",
+        "address": "100 S. Monroe St.",
         "city": "Eagle Pass",
         "state": "TX",
         "zip": "78852",
         "latitude": 28.706671,
         "longitude": -100.50032,
-        "hours": "Monday - Wednesday 10:00 AM - 5:00 PM",
-        "phone": "830-491-7003"
+        "hours": "Call to make an appointment",
+        "phone": "210-784-5023"
+      },
+      {
+        "id": "H001073-fort_stockton",
+        "address": "103 West Callaghan",
+        "building": "Pecos County Courthouse",
+        "suite": "First Floor",
+        "city": "Fort Stockton",
+        "state": "TX",
+        "zip": "79735",
+        "latitude": 30.8834552,
+        "longitude": -102.881413,
+        "hours": "Third Tuesday, Wednesday, and Thursday of the month from 8am-5pm, or call to make an appointment",
+        "phone": "210-245-1548"
       },
       {
         "id": "H001073-san_antonio",
@@ -8855,7 +9157,8 @@
         "latitude": 29.6043724,
         "longitude": -98.5350201,
         "fax": "210-927-4903",
-        "phone": "210-921-3130"
+        "phone": "210-921-3130",
+        "hours": "M-F 8:30am-5:30pm"
       },
       {
         "id": "H001073-san_antonio-1",
@@ -8867,7 +9170,8 @@
         "zip": "78224",
         "latitude": 29.3113119,
         "longitude": -98.52465839999999,
-        "phone": "210-784-5023"
+        "phone": "210-784-5023",
+        "hours": "M-F 9am-5pm"
       },
       {
         "id": "H001073-socorro",
@@ -8877,7 +9181,8 @@
         "zip": "79927",
         "latitude": 31.6495216,
         "longitude": -106.2845808,
-        "phone": "915-235-6421"
+        "phone": "915-235-6421",
+        "hours": "Call to make an appointment"
       }
     ]
   },
@@ -8889,13 +9194,24 @@
     "offices": [
       {
         "id": "H001074-jeffersonville",
-        "address": "279 Quartermaster Ct.",
+        "address": "321 Quartermaster Ct.",
         "city": "Jeffersonville",
         "state": "IN",
         "zip": "47130",
-        "latitude": 38.2842945,
-        "longitude": -85.7413663,
+        "latitude": 38.2842586,
+        "longitude": -85.7435028,
         "phone": "812-288-3999"
+      },
+      {
+        "id": "H001074-greenwood",
+        "address": "720 Executive Park Dr.",
+        "suite": "Suite 3000B",
+        "city": "Greenwood",
+        "state": "IN",
+        "zip": "46143",
+        "latitude": 39.6053692,
+        "longitude": -86.1128416,
+        "phone": "317-851-8710"
       }
     ]
   },
@@ -8909,6 +9225,7 @@
       {
         "id": "I000024-enid",
         "address": "302 N. Independence",
+        "suite": "#104",
         "city": "Enid",
         "state": "OK",
         "zip": "73701",
@@ -8931,7 +9248,7 @@
       },
       {
         "id": "I000024-oklahoma_city",
-        "address": "1900 NW. Expressway St.",
+        "address": "1900 NW. Expressway",
         "suite": "Suite 1210",
         "city": "Oklahoma City",
         "state": "OK",
@@ -8987,13 +9304,14 @@
       {
         "id": "I000056-dana_point",
         "address": "33282 Golden Lantern",
-        "suite": "Ste 102",
+        "suite": "Suite 102",
         "city": "Dana Point",
         "state": "CA",
         "zip": "92629",
         "latitude": 33.4795351,
         "longitude": -117.6970568,
-        "phone": "949-281-2449"
+        "phone": "949-281-2449",
+        "hours": "Call to schedule an appointment"
       },
       {
         "id": "I000056-vista",
@@ -9074,15 +9392,15 @@
     "offices": [
       {
         "id": "J000126-dallas",
-        "address": "3102 Maple Ave.",
-        "suite": "Suite 600",
+        "address": "1825 Market Center Blvd.",
+        "suite": "Suite 440",
         "city": "Dallas",
         "state": "TX",
-        "zip": "75201",
-        "latitude": 32.7991061,
-        "longitude": -96.80790139999999,
+        "zip": "75207",
+        "latitude": 32.7946832,
+        "longitude": -96.8263983,
         "fax": "214-922-7028",
-        "hours": "M-F 9-5:30pm",
+        "hours": "M-F 9-6pm",
         "phone": "214-922-8885"
       }
     ]
@@ -9200,18 +9518,20 @@
         "latitude": 40.7369756,
         "longitude": -84.161425,
         "fax": "419-999-4238",
-        "phone": "419-999-6455"
+        "phone": "419-999-6455",
+        "hours": "M-F 8:30AM-5PM"
       },
       {
         "id": "J000289-norwalk",
-        "address": "13 E. Main St.",
+        "address": "13 B E. Main St.",
         "city": "Norwalk",
         "state": "OH",
         "zip": "44857",
         "latitude": 41.2425971,
         "longitude": -82.6150462,
         "fax": "419-668-3015",
-        "phone": "419-663-1426"
+        "phone": "419-663-1426",
+        "hours": "M-F 8:30AM-5PM"
       }
     ]
   },
@@ -9236,8 +9556,7 @@
       },
       {
         "id": "J000290-topeka",
-        "address": "3550 SW 5th Street",
-        "building": "5th Street",
+        "address": "3550 SW 5th St.",
         "city": "Topeka",
         "state": "KS",
         "zip": "66606",
@@ -9257,7 +9576,7 @@
     "offices": [
       {
         "id": "J000292-cambridge",
-        "address": "116 Southgate Pky.",
+        "address": "116 Southgate Pkwy.",
         "city": "Cambridge",
         "state": "OH",
         "zip": "43725",
@@ -9318,7 +9637,8 @@
         "zip": "53202",
         "latitude": 43.0382241,
         "longitude": -87.90455999999999,
-        "phone": "414-276-7282"
+        "phone": "414-276-7282",
+        "fax": "414-276-7284"
       },
       {
         "id": "J000293-oshkosh",
@@ -9331,6 +9651,18 @@
         "longitude": -88.5343632,
         "fax": "920-230-7262",
         "phone": "920-230-7250"
+      },
+      {
+        "id": "J000293-madison",
+        "address": "5315 Wall St.",
+        "suite": "Suite 110",
+        "city": "Madison",
+        "state": "WI",
+        "zip": "53718",
+        "latitude": 43.1317039,
+        "longitude": -89.289711,
+        "fax": "608-240-9646",
+        "phone": "608-240-9629"
       }
     ]
   },
@@ -9485,13 +9817,15 @@
       {
         "id": "J000299-natchitoches",
         "address": "444 Caspari Dr.",
-        "suite": "South Hall Room 224",
+        "suite": "Room 224",
+        "building": "South Hall",
         "city": "Natchitoches",
         "state": "LA",
         "zip": "71497",
         "latitude": 31.7479383,
         "longitude": -93.0970551,
-        "phone": "318-357-5731"
+        "phone": "318-357-5731",
+        "hours": "By appointment"
       },
       {
         "id": "J000299-leesville",
@@ -9572,7 +9906,7 @@
       },
       {
         "id": "K000188-la_crosse",
-        "address": "205 Fifth Ave.",
+        "address": "205 Fifth Ave. S.",
         "suite": "Suite 400",
         "city": "La Crosse",
         "state": "WI",
@@ -9648,12 +9982,14 @@
       },
       {
         "id": "K000362-sioux_city",
-        "address": "526 Nebraska St.",
+        "address": "320 6th St",
+        "suite": "Room 122",
+        "building": "Federal Building",
         "city": "Sioux City",
         "state": "IA",
         "zip": "51101",
-        "latitude": 42.4962179,
-        "longitude": -96.4032879,
+        "latitude": 42.4960314,
+        "longitude": -96.4075814,
         "fax": "712-224-4693",
         "phone": "712-224-4692"
       },
@@ -9736,25 +10072,25 @@
     "offices": [
       {
         "id": "K000375-hyannis",
-        "address": "297 North St.",
-        "suite": "Suite 312",
+        "address": "259 Stevens St.",
+        "suite": "Suite E",
         "city": "Hyannis",
         "state": "MA",
         "zip": "02601",
-        "latitude": 41.65029630000001,
-        "longitude": -70.2930554,
+        "latitude": 41.6511319,
+        "longitude": -70.2939487,
         "fax": "508-790-1959",
         "phone": "508-771-0666"
       },
       {
         "id": "K000375-new_bedford",
-        "address": "558 Pleasant St.",
-        "suite": "Suite 309",
+        "address": "128 Union Street",
+        "suite": "Suite 103",
         "city": "New Bedford",
         "state": "MA",
         "zip": "02740",
-        "latitude": 41.6344958,
-        "longitude": -70.9266835,
+        "latitude": 41.6339983,
+        "longitude": -70.9267013,
         "fax": "508-999-6468",
         "phone": "508-999-6462"
       },
@@ -9793,7 +10129,7 @@
       },
       {
         "id": "K000376-erie",
-        "address": "208 E. Bayfront Pky.",
+        "address": "208 E. Bayfront Pkwy.",
         "suite": "Suite 102",
         "city": "Erie",
         "state": "PA",
@@ -9869,7 +10205,7 @@
         "zip": "60970",
         "latitude": 40.7762446,
         "longitude": -87.7383019,
-        "hours": "8:30 AM - 5:00 PM CST",
+        "hours": "Meetings by appointment.",
         "phone": "815-432-0580"
       }
     ]
@@ -9919,6 +10255,7 @@
       {
         "id": "K000380-flint",
         "address": "111 E. Court St.",
+        "suite": "#3B",
         "city": "Flint",
         "state": "MI",
         "zip": "48502",
@@ -9956,7 +10293,7 @@
         "zip": "98362",
         "latitude": 48.113181,
         "longitude": -123.431753,
-        "hours": "Tues: 9:00am-Noon (PST)Wed-Thurs: 1:00pm-4:00pm (PST)",
+        "hours": "Tues: 9:00am-Noon (PST), Wed-Thurs: 1:00pm-4:00pm (PST)",
         "phone": "360-797-3623"
       },
       {
@@ -10006,12 +10343,13 @@
       },
       {
         "id": "K000382-nashua",
-        "address": "70 E. Pearl St.",
+        "address": "184 Main Street",
+        "suite": "Suite 222",
         "city": "Nashua",
         "state": "NH",
         "zip": "03060",
-        "latitude": 42.7601735,
-        "longitude": -71.4642733,
+        "latitude": 42.7606386,
+        "longitude": -71.4647244,
         "fax": "603-595-2016",
         "hours": "8:30 AM - 5:00 PM, Monday - Friday",
         "phone": "603-595-2006"
@@ -10161,13 +10499,12 @@
     "offices": [
       {
         "id": "K000385-chicago",
-        "address": "9204 S. Commercial Ave.",
-        "suite": "Suite 415",
+        "address": "1000 E. 111th St.",
         "city": "Chicago",
         "state": "IL",
-        "zip": "60617",
-        "latitude": 41.7280317,
-        "longitude": -87.55148679999999,
+        "zip": "60628",
+        "latitude": 41.6944193,
+        "longitude": -87.6012886,
         "hours": "9:00am-5:00pm",
         "phone": "773-321-2001"
       },
@@ -10181,7 +10518,8 @@
         "zip": "60901",
         "latitude": 41.117146,
         "longitude": -87.861261,
-        "phone": "708-679-0078"
+        "phone": "708-679-0078",
+        "hours": "Open on the second and fourth Wednesdays of each month, from 9am - 4pm"
       },
       {
         "id": "K000385-matteson",
@@ -10218,13 +10556,14 @@
       },
       {
         "id": "K000386-lyons",
-        "address": "7376 Route",
+        "address": "7376 State Route 31",
         "city": "Lyons",
         "state": "NY",
         "zip": "14489",
         "latitude": 43.072187,
         "longitude": -77.03685779999999,
-        "hours": "Wed 10am-4pm"
+        "phone": "315-253-4068",
+        "hours": "Please call to make an appointment"
       },
       {
         "id": "K000386-oswego",
@@ -10235,7 +10574,8 @@
         "zip": "13126",
         "latitude": 43.4554199,
         "longitude": -76.511258,
-        "hours": "Wednesdays, 10:00 a.m.-3:00 p.m"
+        "phone": "315-423-5657",
+        "hours": "Please call to make an appointment"
       },
       {
         "id": "K000386-syracuse",
@@ -10260,7 +10600,7 @@
     "offices": [
       {
         "id": "K000387-palmdale",
-        "address": "1008 W. M-14",
+        "address": "1008 W. Ave. M-14",
         "suite": "Suite E",
         "city": "Palmdale",
         "state": "CA",
@@ -10394,7 +10734,8 @@
         "zip": "89030",
         "latitude": 36.2004978,
         "longitude": -115.1214764,
-        "phone": "702-963-9360"
+        "phone": "702-963-9360",
+        "fax": "844-445-8944"
       }
     ]
   },
@@ -10425,7 +10766,8 @@
     "offices": [
       {
         "id": "K000392-dyersburg",
-        "address": "100 Main St.",
+        "address": "100 S. Main St.",
+        "suite": "Suite 1",
         "city": "Dyersburg",
         "state": "TN",
         "zip": "38024",
@@ -10521,7 +10863,7 @@
     "offices": [
       {
         "id": "L000287-atlanta",
-        "address": "100 Peachtree St.",
+        "address": "100 Peachtree St. NW",
         "suite": "Suite 1920",
         "city": "Atlanta",
         "state": "GA",
@@ -10562,6 +10904,7 @@
       {
         "id": "L000480-new_city",
         "address": "67 N. Main St.",
+        "suite": "#101",
         "city": "New City",
         "state": "NY",
         "zip": "10956",
@@ -10617,8 +10960,7 @@
       {
         "id": "L000551-alameda",
         "address": "1550 Oak St.",
-        "suite": "2nd Floor",
-        "building": "Staff Room",
+        "suite": "2nd Floor Staff Room",
         "city": "Alameda",
         "state": "CA",
         "zip": "94501",
@@ -10635,7 +10977,7 @@
         "zip": "94706",
         "latitude": 37.8879742,
         "longitude": -122.2932172,
-        "hours": "Wed 2pm-4pm"
+        "hours": "Every 1st & 3rd Wed 3pm - 5pm"
       },
       {
         "id": "L000551-oakland",
@@ -10647,7 +10989,8 @@
         "latitude": 37.8052016,
         "longitude": -122.2745116,
         "fax": "510-763-6538",
-        "phone": "510-763-0370"
+        "phone": "510-763-0370",
+        "hours": "M-F 9am - 5pm"
       },
       {
         "id": "L000551-oakland-1",
@@ -10657,7 +11000,7 @@
         "zip": "94601",
         "latitude": 37.7784791,
         "longitude": -122.2250837,
-        "hours": "Every 1st & 3rd Thurs. 2pm-5pm (PST)"
+        "hours": "Every 1st & 3rd Thurs. 3pm-5pm (PST)"
       },
       {
         "id": "L000551-san_leandro",
@@ -10668,7 +11011,7 @@
         "zip": "94577",
         "latitude": 37.7260242,
         "longitude": -122.1540198,
-        "hours": "3 pm \u2013 5 pm (PST)"
+        "hours": "Every 1st & 3rd Tues. 3 pm \u2013 5 pm (PST)"
       }
     ]
   },
@@ -10724,7 +11067,7 @@
       {
         "id": "L000559-warwick",
         "address": "300 Centerville Rd.",
-        "suite": "Suite 200",
+        "suite": "Suite 200 South",
         "city": "Warwick",
         "state": "RI",
         "zip": "02886",
@@ -10746,7 +11089,7 @@
       {
         "id": "L000560-bellingham",
         "address": "119 N. Commercial St.",
-        "building": "Suite 1350",
+        "building": "Suite 275",
         "city": "Bellingham",
         "state": "WA",
         "zip": "98225",
@@ -10793,20 +11136,20 @@
       },
       {
         "id": "L000562-brockton",
-        "address": "155 W. Elm St.",
-        "suite": "Suite 200",
+        "address": "37 Belmont Street",
+        "suite": "2nd Floor, Suite 3",
         "city": "Brockton",
         "state": "MA",
         "zip": "02301",
-        "latitude": 42.0822156,
-        "longitude": -71.0255303,
+        "latitude": 42.080643,
+        "longitude": -71.023661,
         "fax": "508-580-4692",
         "phone": "508-586-5555"
       },
       {
         "id": "L000562-quincy",
         "address": "1245 Hancock St.",
-        "suite": "Suite 16",
+        "suite": "Suite 41",
         "city": "Quincy",
         "state": "MA",
         "zip": "02169",
@@ -10892,6 +11235,18 @@
         "longitude": -104.807763,
         "fax": "719-520-0840",
         "phone": "719-520-0055"
+      },
+      {
+        "id": "L000564-buena_vista",
+        "address": "415 Main St.",
+        "city": "Buena Vista",
+        "state": "CO",
+        "zip": "81211",
+        "latitude": 38.842985,
+        "longitude": -106.128575,
+        "fax": "719-520-0840",
+        "phone": "719-520-0055",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -10979,6 +11334,7 @@
       {
         "id": "L000567-flemington",
         "address": "361 Route 31",
+        "suite": "Unit 1400",
         "city": "Flemington",
         "state": "NJ",
         "zip": "08822",
@@ -11085,7 +11441,7 @@
       },
       {
         "id": "L000570-rio_rancho",
-        "address": "3200 Civic",
+        "address": "3200 Civic Center NE",
         "suite": "Suite 330",
         "city": "Rio Rancho",
         "state": "NM",
@@ -11097,7 +11453,7 @@
       },
       {
         "id": "L000570-santa_fe",
-        "address": "1611 Lorca",
+        "address": "1611 Calle Lorca",
         "suite": "Suite A",
         "city": "Santa Fe",
         "state": "NM",
@@ -11137,7 +11493,8 @@
         "latitude": 47.6967966,
         "longitude": -116.8040784,
         "fax": "208-667-0310",
-        "phone": "208-667-0127"
+        "phone": "208-667-0127",
+        "hours": "M-F 9am - 5pm"
       },
       {
         "id": "L000573-lewiston",
@@ -11187,14 +11544,13 @@
       },
       {
         "id": "L000575-tulsa",
-        "address": "5810 E. Skelly Dr.",
-        "suite": "Suite 1000",
-        "building": "The Remington Tower",
+        "address": "224 South Boulder",
+        "suite": "Suite 210",
         "city": "Tulsa",
         "state": "OK",
-        "zip": "74135",
-        "latitude": 36.1024933,
-        "longitude": -95.91089249999999,
+        "zip": "74103",
+        "latitude": 36.1533467,
+        "longitude": -95.992873,
         "phone": "918-581-7651"
       }
     ]
@@ -11209,7 +11565,7 @@
       {
         "id": "L000576-joplin",
         "address": "2727 E. 32nd St.",
-        "suite": "Ste. 2",
+        "suite": "Suite 2",
         "city": "Joplin",
         "state": "MO",
         "zip": "64804",
@@ -11286,7 +11642,7 @@
     "offices": [
       {
         "id": "L000578-auburn",
-        "address": "2399 Rickenbacker Way.",
+        "address": "2399 Rickenbacker Way",
         "city": "Auburn",
         "state": "CA",
         "zip": "95602",
@@ -11339,7 +11695,21 @@
         "latitude": 33.7689325,
         "longitude": -118.1930229,
         "fax": "562-437-6434",
-        "phone": "562-436-3828"
+        "phone": "562-436-3828",
+        "hours": "M-F 9AM-5PM"
+      },
+      {
+        "id": "L000579-garden_grove",
+        "address": "12865 Main St.",
+        "suite": "Suite 200",
+        "city": "Garden Grove",
+        "state": "CA",
+        "zip": "92840",
+        "latitude": 33.775733,
+        "longitude": -117.941206,
+        "fax": "562-437-6434",
+        "phone": "714-243-4088",
+        "hours": "M-F 9AM-5PM"
       }
     ]
   },
@@ -11352,7 +11722,7 @@
     "offices": [
       {
         "id": "L000580-albuquerque",
-        "address": "400 Gold Ave.",
+        "address": "400 Gold Ave. SW",
         "suite": "Suite 680",
         "city": "Albuquerque",
         "state": "NM",
@@ -11438,7 +11808,7 @@
     "offices": [
       {
         "id": "L000583-atlanta",
-        "address": "600 Galleria Pky.",
+        "address": "600 Galleria Pkwy.",
         "suite": "Suite 120",
         "city": "Atlanta",
         "state": "GA",
@@ -11503,14 +11873,15 @@
     "offices": [
       {
         "id": "L000585-bloomington",
-        "address": "3004 Ge Rd.",
+        "address": "3004 G.E. Rd.",
         "suite": "Suite 1B",
         "city": "Bloomington",
         "state": "IL",
         "zip": "61704",
         "latitude": 40.5029607,
         "longitude": -88.9230848,
-        "phone": "309-205-9556"
+        "phone": "309-205-9556",
+        "hours": "Open Tuesdays and Thursdays"
       },
       {
         "id": "L000585-jacksonville",
@@ -11525,7 +11896,7 @@
       },
       {
         "id": "L000585-peoria",
-        "address": "100 Monroe St.",
+        "address": "100 NE Monroe St.",
         "suite": "Room 100",
         "city": "Peoria",
         "state": "IL",
@@ -11588,7 +11959,7 @@
       {
         "id": "L000587-burnsville",
         "address": "2805 Cliff Rd.",
-        "suite": "Ste 200",
+        "suite": "Suite 200",
         "city": "Burnsville",
         "state": "MN",
         "zip": "55337",
@@ -11607,14 +11978,14 @@
     "offices": [
       {
         "id": "M000087-astoria",
-        "address": "31 Newtown Ave.",
+        "address": "31-19 Newtown Ave.",
         "city": "Astoria",
         "state": "NY",
         "zip": "11102-1391",
-        "latitude": 40.7674409,
-        "longitude": -73.9203228,
+        "latitude": 40.7672194,
+        "longitude": -73.9223996,
         "fax": "212-860-0704",
-        "hours": "Hours: Monday 9:30am \u2013 2:00pm  Tuesday \u2013 Thursday 9:30am \u2013 5:00pm Friday 10:00am \u2013 4:00pm",
+        "hours": "Monday 9:30am \u2013 2:00pm; Tuesday \u2013 Thursday 9:30am \u2013 5:00pm; Friday 10:00am \u2013 4:00pm",
         "phone": "718-932-1804"
       },
       {
@@ -11654,7 +12025,8 @@
       {
         "id": "M000133-boston",
         "address": "15 Sudbury St.",
-        "building": "975 JFK Federal Building",
+        "suite": "975",
+        "building": "JFK Federal Building",
         "city": "Boston",
         "state": "MA",
         "zip": "02203",
@@ -11680,7 +12052,7 @@
         "suite": "4th Floor",
         "city": "Springfield",
         "state": "MA",
-        "zip": "01101",
+        "zip": "01103",
         "latitude": 42.10321649999999,
         "longitude": -72.5929441,
         "phone": "413-785-4610"
@@ -11707,18 +12079,6 @@
         "phone": "602-952-2410"
       },
       {
-        "id": "M000303-prescott",
-        "address": "122 N. Cortez St.",
-        "building": "Suite 108",
-        "city": "Prescott",
-        "state": "AZ",
-        "zip": "86301",
-        "latitude": 34.5427185,
-        "longitude": -112.4690897,
-        "fax": "928-445-8594",
-        "phone": "928-445-0833"
-      },
-      {
         "id": "M000303-tucson",
         "address": "407 W. Congress St.",
         "suite": "Suite 103",
@@ -11727,7 +12087,7 @@
         "zip": "85701",
         "latitude": 32.2207319,
         "longitude": -110.9775264,
-        "fax": "520-670-6637",
+        "fax": "855-952-8702",
         "phone": "520-670-6334"
       }
     ]
@@ -11742,7 +12102,7 @@
       {
         "id": "M000312-leominster",
         "address": "24 Church St.",
-        "suite": "Room 29",
+        "suite": "Room 27",
         "city": "Leominster",
         "state": "MA",
         "zip": "01453",
@@ -11789,7 +12149,7 @@
       {
         "id": "M000355-bowling_green",
         "address": "241 E. Main St.",
-        "suite": "Rm. 102",
+        "suite": "Room 102",
         "building": "Federal Building",
         "city": "Bowling Green",
         "state": "KY",
@@ -11826,7 +12186,7 @@
       {
         "id": "M000355-london",
         "address": "300 S. Main St.",
-        "suite": "310",
+        "suite": "Suite 310",
         "city": "London",
         "state": "KY",
         "zip": "40741",
@@ -11870,7 +12230,7 @@
     "offices": [
       {
         "id": "M000639-barrington",
-        "address": "208 White Horse Pike.",
+        "address": "208 White Horse Pike",
         "suite": "Suite 18",
         "city": "Barrington",
         "state": "NJ",
@@ -11883,7 +12243,7 @@
       {
         "id": "M000639-newark",
         "address": "One Gateway Center",
-        "suite": "1100",
+        "suite": "Suite 1100",
         "city": "Newark",
         "state": "NJ",
         "zip": "07102",
@@ -11951,16 +12311,15 @@
       },
       {
         "id": "M000934-wichita",
-        "address": "3450 N. Rock Rd.",
-        "suite": "Suite 209",
-        "building": "Building 200",
+        "address": "100 North Broadway",
+        "suite": "Suite 210",
         "city": "Wichita",
         "state": "KS",
-        "zip": "67226",
-        "latitude": 37.74581939999999,
-        "longitude": -97.2435277,
-        "fax": "316-631-1297",
-        "phone": "316-631-1410"
+        "zip": "67202",
+        "latitude": 37.6865773,
+        "longitude": -97.3371211,
+        "fax": "316-269-9257",
+        "phone": "316-269-9259"
       }
     ]
   },
@@ -11974,7 +12333,7 @@
       {
         "id": "M001111-everett",
         "address": "2930 Wetmore Ave.",
-        "suite": "Ste. 9D",
+        "suite": "Suite 9D",
         "city": "Everett",
         "state": "WA",
         "zip": "98201",
@@ -11986,7 +12345,8 @@
       {
         "id": "M001111-seattle",
         "address": "915 2nd Ave.",
-        "building": "2988 Jackson Federal Building",
+        "suite": "#2988",
+        "building": "Jackson Federal Building",
         "city": "Seattle",
         "state": "WA",
         "zip": "98174",
@@ -12010,7 +12370,7 @@
       {
         "id": "M001111-tacoma",
         "address": "950 Pacific Ave.",
-        "suite": "Ste. 650",
+        "suite": "Suite 650",
         "city": "Tacoma",
         "state": "WA",
         "zip": "98402",
@@ -12054,12 +12414,12 @@
     "offices": [
       {
         "id": "M001137-arverne",
-        "address": "67 Rockaway Beach Blvd.",
+        "address": "67-12 Rockaway Beach Blvd.",
         "city": "Arverne",
         "state": "NY",
         "zip": "11692",
-        "latitude": 40.5908303,
-        "longitude": -73.79661469999999,
+        "latitude": 40.5907811,
+        "longitude": -73.798273,
         "fax": "347-230-4045",
         "hours": "Tuesdays 10am-2pm, Wednesday-Friday- 9am-5pm",
         "phone": "347-230-4032"
@@ -12088,13 +12448,13 @@
     "offices": [
       {
         "id": "M001143-st__paul",
-        "address": "165 Western Avenue North",
-        "suite": "Suite 17",
+        "address": "661 LaSalle Street",
+        "suite": "Suite 110",
         "city": "St. Paul",
         "state": "MN",
-        "zip": "55102",
-        "latitude": 44.946385,
-        "longitude": -93.1163366,
+        "zip": "55114",
+        "latitude": 44.9605297,
+        "longitude": -93.1943159,
         "fax": "651-224-3056",
         "hours": "8:30 AM - 5:30 PM (Central)",
         "phone": "651-224-9191"
@@ -12122,8 +12482,8 @@
       },
       {
         "id": "M001153-fairbanks",
-        "address": "250 Cushman St",
-        "suite": "#2D",
+        "address": "250 Cushman Ave.",
+        "suite": "Suite 2D",
         "building": "Courthouse Square",
         "city": "Fairbanks",
         "state": "AK",
@@ -12146,28 +12506,28 @@
         "phone": "907-586-7277"
       },
       {
-        "id": "M001153-kenai",
-        "address": "805 Frontage Rd.",
-        "suite": "Suite 105",
-        "city": "Kenai",
-        "state": "AK",
-        "zip": "99611",
-        "latitude": 60.55401089999999,
-        "longitude": -151.2577208,
-        "fax": "907-283-4363",
-        "phone": "907-283-5808"
-      },
-      {
         "id": "M001153-ketchikan",
         "address": "1900 First Ave.",
-        "suite": "225",
+        "suite": "Suite 225",
         "city": "Ketchikan",
         "state": "AK",
         "zip": "99901",
         "latitude": 55.3492023,
         "longitude": -131.6673863,
-        "fax": "202-224-5301",
+        "fax": "907-225-0390",
         "phone": "907-225-6880"
+      },
+      {
+        "id": "M001153-soldotna",
+        "address": "44539 Sterling Hwy.",
+        "suite": "Suite 203",
+        "city": "Soldotna",
+        "state": "AK",
+        "zip": "99669",
+        "latitude": 60.4804766,
+        "longitude": -151.0725394,
+        "fax": "907-283-4363",
+        "phone": "907-262-4220"
       },
       {
         "id": "M001153-wasilla",
@@ -12198,23 +12558,25 @@
         "zip": "28711",
         "latitude": 35.619814,
         "longitude": -82.3197859,
-        "hours": "Mondays & Thursdays, 12 PM to 5 PM",
+        "hours": "Mondays & Wednesdays, 12 PM to 5 PM",
         "phone": "828-669-0600"
       },
       {
         "id": "M001156-gastonia",
         "address": "128 W. Main Ave.",
         "suite": "Suite 115",
+        "building": "Gaston County Administrative Building",
         "city": "Gastonia",
         "state": "NC",
-        "zip": "28053",
+        "zip": "28052",
         "latitude": 35.2641049,
         "longitude": -81.1825879,
-        "phone": "704-833-0096"
+        "phone": "704-833-0096",
+        "fax": "704-833-0887"
       },
       {
         "id": "M001156-hickory",
-        "address": "1990 Main Ave.",
+        "address": "1990 Main Ave. SE",
         "suite": "PO Box 1830",
         "city": "Hickory",
         "state": "NC",
@@ -12244,7 +12606,7 @@
         "latitude": 30.3864963,
         "longitude": -97.7528485,
         "fax": "512-473-0514",
-        "hours": "M-F 9-5:30pm",
+        "hours": "By appointment only",
         "phone": "512-473-2357"
       },
       {
@@ -12298,8 +12660,8 @@
     "offices": [
       {
         "id": "M001158-irving",
-        "address": "9901 E. Valley Ranch Pky.",
-        "suite": "STE 2060",
+        "address": "9901 E. Valley Ranch Pkwy.",
+        "suite": "Suite 2060",
         "city": "Irving",
         "state": "TX",
         "zip": "75063",
@@ -12361,7 +12723,7 @@
       {
         "id": "M001160-milwaukee",
         "address": "316 N. Milwaukee St.",
-        "suite": "STE 406",
+        "suite": "Suite 406",
         "city": "Milwaukee",
         "state": "WI",
         "zip": "53202",
@@ -12426,7 +12788,8 @@
     "offices": [
       {
         "id": "M001166-antioch",
-        "address": "4703 Lone Tree Way.",
+        "address": "4703 Lone Tree Way",
+        "building": "Antioch Community Center",
         "city": "Antioch",
         "state": "CA",
         "zip": "94531",
@@ -12492,7 +12855,7 @@
       {
         "id": "M001170-columbia",
         "address": "28 N. 8th St.",
-        "suite": "Ste. 500",
+        "suite": "Suite 500",
         "city": "Columbia",
         "state": "MO",
         "zip": "65201",
@@ -12504,7 +12867,7 @@
       {
         "id": "M001170-kansas_city",
         "address": "4141 Pennsylvania Ave.",
-        "suite": "Ste. 101",
+        "suite": "Suite 101",
         "city": "Kansas City",
         "state": "MO",
         "zip": "64111",
@@ -12528,7 +12891,7 @@
       {
         "id": "M001170-st__louis",
         "address": "5850 Delmar Blvd.",
-        "suite": "Ste. A",
+        "suite": "Suite A",
         "city": "St. Louis",
         "state": "MO",
         "zip": "63112",
@@ -12549,7 +12912,7 @@
       {
         "id": "M001176-bend",
         "address": "131 NW. Hawthorne Ave.",
-        "suite": "Ste. 208",
+        "suite": "Suite 208",
         "city": "Bend",
         "state": "OR",
         "zip": "97701",
@@ -12560,7 +12923,7 @@
       {
         "id": "M001176-eugene",
         "address": "405 E. 8th Ave.",
-        "suite": "Ste. 2010",
+        "suite": "Suite 2010",
         "city": "Eugene",
         "state": "OR",
         "zip": "97401",
@@ -12571,7 +12934,7 @@
       {
         "id": "M001176-medford",
         "address": "10 S. Bartlett St.",
-        "suite": "Ste. 201",
+        "suite": "Suite 201",
         "city": "Medford",
         "state": "OR",
         "zip": "97501",
@@ -12582,7 +12945,7 @@
       {
         "id": "M001176-pendleton",
         "address": "310 SE. Second St.",
-        "suite": "Ste. 105",
+        "suite": "Suite 105",
         "city": "Pendleton",
         "state": "OR",
         "zip": "97801",
@@ -12592,8 +12955,8 @@
       },
       {
         "id": "M001176-portland",
-        "address": "121 SW. Salmon St.",
-        "suite": "Ste. 1400",
+        "address": "121 SW Salmon St.",
+        "suite": "Suite 1400",
         "city": "Portland",
         "state": "OR",
         "zip": "97204",
@@ -12604,7 +12967,7 @@
       },
       {
         "id": "M001176-salem",
-        "address": "161 High St.",
+        "address": "161 High St. SE",
         "suite": "Suite 250",
         "city": "Salem",
         "state": "OR",
@@ -12701,7 +13064,8 @@
         "latitude": 39.6414678,
         "longitude": -79.962809,
         "hours": "M-F: 9:00 a.m. to 5:00 p.m",
-        "phone": "304-284-8506"
+        "phone": "304-284-8506",
+        "fax": "304-284-8505"
       },
       {
         "id": "M001180-parkersburg",
@@ -12711,13 +13075,14 @@
         "zip": "26101",
         "latitude": 39.2653465,
         "longitude": -81.56126309999999,
-        "phone": "304-422-5972"
+        "phone": "304-422-5972",
+        "fax": "304-422-5974"
       },
       {
         "id": "M001180-wheeling",
         "address": "1100 Main St.",
         "suite": "Suite 101",
-        "building": "Horne  building",
+        "building": "Horne Building",
         "city": "Wheeling",
         "state": "WV",
         "zip": "26003",
@@ -12774,7 +13139,7 @@
         "zip": "17562",
         "latitude": 40.004637,
         "longitude": -76.109313,
-        "hours": "9am-2pm"
+        "hours": "Tuesday: 9am-2pm"
       },
       {
         "id": "M001181-springfield",
@@ -12854,7 +13219,7 @@
       },
       {
         "id": "M001184-crescent_springs",
-        "address": "541 Buttermilk Pike.",
+        "address": "541 Buttermilk Pike",
         "suite": "Suite 208",
         "city": "Crescent Springs",
         "state": "KY",
@@ -12874,7 +13239,8 @@
         "latitude": 38.4084825,
         "longitude": -85.37938489999999,
         "fax": "502-265-9126",
-        "phone": "502-265-9119"
+        "phone": "502-265-9119",
+        "hours": "Call for an appointment"
       }
     ]
   },
@@ -12916,8 +13282,21 @@
         "latitude": 35.4846372,
         "longitude": -82.5240931,
         "fax": "828-693-5603",
-        "hours": "Thursday 10 AM \u2013 4 PM",
-        "phone": "828-693-5660"
+        "hours": "Thursday 2PM-5PM",
+        "phone": "828-765-0573"
+      },
+      {
+        "id": "M001187-asheville-1",
+        "address": "90 Elk Mountain Rd.",
+        "building": "Woodfin Town Hall",
+        "city": "Asheville",
+        "state": "NC",
+        "zip": "28804",
+        "latitude": 35.631458,
+        "longitude": -82.5859027,
+        "fax": "828-693-5603",
+        "hours": "Thursday 9AM-12PM",
+        "phone": "828-765-0573"
       },
       {
         "id": "M001187-brevard",
@@ -12929,7 +13308,7 @@
         "latitude": 35.2312324,
         "longitude": -82.7340135,
         "fax": "828-693-5603",
-        "hours": "By Appointment Only",
+        "hours": "2nd Tuesday of the 1st month of each quarter, 9AM-12PM",
         "phone": "828-693-5660"
       },
       {
@@ -12941,18 +13320,20 @@
         "zip": "28713",
         "latitude": 35.4284337,
         "longitude": -83.44769629999999,
-        "phone": "828-452-6022"
+        "phone": "828-452-6022",
+        "hours": "2nd Tuesday of the 2nd month of each quarter, 2PM-5PM"
       },
       {
         "id": "M001187-burnsville",
         "address": "2 Town Sq.",
-        "building": "Downstairs Board Room",
+        "building": "Burnsville Town Hall",
         "city": "Burnsville",
         "state": "NC",
         "zip": "28714",
         "latitude": 35.91698,
         "longitude": -82.300495,
-        "phone": "828-765-0573"
+        "phone": "828-765-0573",
+        "hours": "2nd Tuesday of the 1st month of each quarter, 2PM-5PM"
       },
       {
         "id": "M001187-cherokee",
@@ -12963,7 +13344,7 @@
         "zip": "28719",
         "latitude": 35.4889529,
         "longitude": -83.31281460000001,
-        "hours": "4th Tuesday of each month 10 AM \u2013 4 PM",
+        "hours": "4th Tuesday of the 1st month of each quarter, 9AM-12PM",
         "phone": "828-452-6022"
       },
       {
@@ -12976,7 +13357,7 @@
         "zip": "28734",
         "latitude": 35.181994,
         "longitude": -83.3816781,
-        "hours": "By Appointment Only",
+        "hours": "1st Tuesday of the 3rd month of each quarter, 9AM-12PM",
         "phone": "828-452-6022"
       },
       {
@@ -12989,14 +13370,14 @@
         "zip": "28904",
         "latitude": 35.041118,
         "longitude": -83.829076,
-        "hours": "By Appointment Only",
+        "hours": "1st Tuesday of the 1st month of each quarter, 9AM-12PM",
         "phone": "828-452-6022"
       },
       {
         "id": "M001187-hendersonville",
         "address": "200 N. Grove St.",
         "suite": "Suite 90",
-        "building": "Henderson County Court House",
+        "building": "Henderson County Courthouse",
         "city": "Hendersonville",
         "state": "NC",
         "zip": "28792",
@@ -13016,7 +13397,7 @@
         "latitude": 35.8920346,
         "longitude": -81.5724283,
         "fax": "828-426-8710",
-        "hours": "M, W, F, 9:00 AM - 5:00 PM",
+        "hours": "M-F 9:00 AM - 5:00 PM",
         "phone": "828-426-8701"
       },
       {
@@ -13029,20 +13410,19 @@
         "latitude": 35.6661262,
         "longitude": -82.02352800000001,
         "fax": "828-693-5603",
-        "hours": "Wednesday 10 AM - 4 PM",
-        "phone": "828-693-5660"
+        "hours": "1st Wednesday of the 1st month of each quarter, 9AM-12PM",
+        "phone": "828-432-2699"
       },
       {
-        "id": "M001187-marshall",
-        "address": "1 N. Main St.",
-        "suite": "Grand Jury Room",
-        "building": "Madison County Courthouse",
-        "city": "Marshall",
+        "id": "M001187-mars_hill",
+        "address": "280 N. Main St.",
+        "building": "Mars Hill Town Hall",
+        "city": "Mars Hill",
         "state": "NC",
-        "zip": "28753",
-        "latitude": 35.7974471,
-        "longitude": -82.68422000000001,
-        "hours": "By Appointment Only",
+        "zip": "28754",
+        "latitude": 35.8306609,
+        "longitude": -82.5496506,
+        "hours": "2nd Tuesday of the 1st month of each quarter, 9AM-12PM",
         "phone": "828-765-0573"
       },
       {
@@ -13056,8 +13436,8 @@
         "latitude": 35.7480974,
         "longitude": -81.6863355,
         "fax": "828-426-8710",
-        "hours": "Tuesday 10 AM \u2013 4 PM",
-        "phone": "828-426-8701"
+        "hours": "M-F 9AM-5PM",
+        "phone": "828-432-2699"
       },
       {
         "id": "M001187-murphy",
@@ -13068,20 +13448,8 @@
         "zip": "28906",
         "latitude": 35.0865265,
         "longitude": -84.0326446,
-        "hours": "By appointment only",
+        "hours": "1st Tuesday of the 1st month of each quarter, 2PM-5PM",
         "phone": "828-452-6022"
-      },
-      {
-        "id": "M001187-newland",
-        "address": "300 Schultz Cir.",
-        "building": "Avery County Sheriff's Office",
-        "city": "Newland",
-        "state": "NC",
-        "zip": "28657",
-        "latitude": 36.086433,
-        "longitude": -81.927144,
-        "hours": "By Appointment Only",
-        "phone": "828-765-0573"
       },
       {
         "id": "M001187-robbinsville",
@@ -13092,7 +13460,7 @@
         "zip": "28771",
         "latitude": 35.323017,
         "longitude": -83.80684699999999,
-        "hours": "By Appointment Only",
+        "hours": "1st Tuesday of the 2nd month of each quarter, 9AM-12PM",
         "phone": "828-452-6022"
       },
       {
@@ -13104,7 +13472,7 @@
         "zip": "28777",
         "latitude": 35.91595,
         "longitude": -82.068939,
-        "hours": "Mon-Fri, 9:00 AM - 5:00 PM",
+        "hours": "Mon-Wed and Fri, 9:00 AM - 5:00 PM",
         "phone": "828-765-0573"
       },
       {
@@ -13116,18 +13484,20 @@
         "zip": "28779",
         "latitude": 35.3514788,
         "longitude": -83.208622,
-        "phone": "828-452-6022"
+        "phone": "828-452-6022",
+        "hours": "1st Tuesday of the 3rd month of each quarter, 2PM-5PM"
       },
       {
         "id": "M001187-waynesville",
         "address": "285 N. Main St.",
         "suite": "Suite 1300",
+        "building": "Haywood County Justice Center",
         "city": "Waynesville",
         "state": "NC",
         "zip": "28786",
         "latitude": 35.4932599,
         "longitude": -82.98666940000001,
-        "hours": "M - F (except 4th Tuesday of each month) 9:00 AM-5:00 PM",
+        "hours": "M-F 9AM-5PM",
         "phone": "828-452-6022"
       }
     ]
@@ -13141,8 +13511,8 @@
     "offices": [
       {
         "id": "M001188-flushing",
-        "address": "40 159th St.",
-        "suite": "Suite B",
+        "address": "40-13 159th St.",
+        "suite": "Suite A",
         "city": "Flushing",
         "state": "NY",
         "zip": "11358",
@@ -13161,7 +13531,8 @@
         "latitude": 40.7148445,
         "longitude": -73.8310816,
         "fax": "718-445-7868",
-        "phone": "718-358-6364"
+        "phone": "718-358-6364",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -13190,11 +13561,11 @@
         "building": "Richmond Municipal Building",
         "city": "Richmond",
         "state": "IN",
-        "zip": "47374",
+        "zip": "47745",
         "latitude": 39.8300456,
         "longitude": -84.89590609999999,
         "fax": "765-962-3225",
-        "hours": "Tues. & Thurs. 9-5pm",
+        "hours": "Wednesdays 9am-4pm",
         "phone": "765-962-2883"
       },
       {
@@ -13228,7 +13599,7 @@
         "latitude": 34.9325288,
         "longitude": -95.76939100000001,
         "fax": "918-423-1940",
-        "hours": "Monday-Friday, 8:00am-4:30pm",
+        "hours": "Monday-Friday, 8:00am-5:00pm",
         "phone": "918-423-5951"
       },
       {
@@ -13240,7 +13611,7 @@
         "latitude": 35.7676771,
         "longitude": -95.40146519999999,
         "fax": "918-686-0128",
-        "hours": "Monday-Friday, 8:00am-4:30pm",
+        "hours": "Monday-Friday, 8:00am-5:00pm",
         "phone": "918-687-2533"
       }
     ]
@@ -13255,13 +13626,15 @@
       {
         "id": "M001193-marlton",
         "address": "535 E. Main St.",
+        "building": "Gibson House Community Center",
         "city": "Marlton",
         "state": "NJ",
         "zip": "08053",
         "latitude": 39.8840544,
         "longitude": -74.89168529999999,
         "fax": "856-574-4697",
-        "phone": "856-267-5182"
+        "phone": "856-267-5182",
+        "hours": "8AM-4PM"
       },
       {
         "id": "M001193-toms_river",
@@ -13273,7 +13646,8 @@
         "latitude": 39.9526066,
         "longitude": -74.1967616,
         "fax": "732-998-8137",
-        "phone": "732-569-6495"
+        "phone": "732-569-6495",
+        "hours": "8:30AM-4:30PM"
       }
     ]
   },
@@ -13332,7 +13706,7 @@
       {
         "id": "M001195-martinsburg",
         "address": "300 Foxcroft Ave.",
-        "suite": "Suite 102",
+        "suite": "Suite 101",
         "city": "Martinsburg",
         "state": "WV",
         "zip": "25401",
@@ -13372,7 +13746,7 @@
     "offices": [
       {
         "id": "M001197-sierra_vista",
-        "address": "77 Portal",
+        "address": "77 Calle Portal",
         "suite": "Suite B-160",
         "city": "Sierra Vista",
         "state": "AZ",
@@ -13410,6 +13784,17 @@
         "latitude": 38.8403082,
         "longitude": -97.60774119999999,
         "phone": "785-829-9000"
+      },
+      {
+        "id": "M001198-garden_city",
+        "address": "816 Campus Dr.",
+        "suite": "Suite 500",
+        "city": "Garden City",
+        "state": "KS",
+        "zip": "67846",
+        "latitude": 37.9722335,
+        "longitude": -100.8489985,
+        "phone": "620-765-7800"
       }
     ]
   },
@@ -13420,14 +13805,35 @@
     },
     "offices": [
       {
-        "id": "M001199-port_st_lucie",
-        "address": "121 SW. Port St Lucie Blvd.",
-        "city": "Port St Lucie",
+        "id": "M001199-port_st__lucie",
+        "address": "121 SW. Port St. Lucie Blvd.",
+        "city": "Port St. Lucie",
         "state": "FL",
         "zip": "34984",
         "latitude": 27.2741604,
         "longitude": -80.3430288,
         "phone": "772-336-2877"
+      },
+      {
+        "id": "M001199-north_palm_beach",
+        "address": "420 U.S. Highway One",
+        "suite": "Suite 19",
+        "city": "North Palm Beach",
+        "state": "FL",
+        "zip": "33408",
+        "latitude": 26.8097707,
+        "longitude": -80.0578969,
+        "phone": "561-530-7778"
+      },
+      {
+        "id": "M001199-stuart",
+        "address": "171 SW Flagler Ave.",
+        "city": "Stuart",
+        "state": "FL",
+        "zip": "34994",
+        "latitude": 27.2006096,
+        "longitude": -80.2582352,
+        "phone": "772-403-0900"
       }
     ]
   },
@@ -13507,7 +13913,7 @@
     "offices": [
       {
         "id": "N000002-brooklyn",
-        "address": "6605 Fort Hamilton Pky.",
+        "address": "6605 Fort Hamilton Pkwy.",
         "city": "Brooklyn",
         "state": "NY",
         "zip": "11219",
@@ -13681,7 +14087,7 @@
         "latitude": 46.3559828,
         "longitude": -94.2018082,
         "fax": "218-454-4096",
-        "hours": "Tuesday 8am-4:30pm           Thursday 8am-4:30pm",
+        "hours": "Tuesday and Thursday 8am-4:30pm or by appointment.",
         "phone": "218-454-4078"
       },
       {
@@ -13694,7 +14100,7 @@
         "zip": "55012",
         "latitude": 45.399409,
         "longitude": -92.822425,
-        "hours": "Monday 8am-4:30pm;Wednesday 8am-4:30pm",
+        "hours": "Monday 8am-4:30pm or by appointment.",
         "phone": "218-491-3131"
       },
       {
@@ -13707,7 +14113,7 @@
         "zip": "55719",
         "latitude": 47.48962,
         "longitude": -92.88476399999999,
-        "hours": "Monday: 8am-4:30pm            Wednesday 8am-4:30pm",
+        "hours": "Monday and Wednesday 8am-4:30pm or by appointment",
         "phone": "218-491-3114"
       },
       {
@@ -13721,7 +14127,7 @@
         "latitude": 46.7876494,
         "longitude": -92.0979108,
         "fax": "218-464-5098",
-        "hours": "Mon-Fri 8:00am-5:00pm",
+        "hours": "Mon-Fri 8:00am-5:00pm or by appointment",
         "phone": "218-464-5095"
       }
     ]
@@ -13903,8 +14309,8 @@
     "offices": [
       {
         "id": "N000189-richland",
-        "address": "3100 George Washington Way.",
-        "suite": "#135",
+        "address": "3100 George Washington Way",
+        "suite": "#130",
         "city": "Richland",
         "state": "WA",
         "zip": "99354",
@@ -13935,16 +14341,16 @@
     },
     "offices": [
       {
-        "id": "O000168-katy",
-        "address": "22333 Grand Corner Dr.",
-        "suite": "Suite 151",
-        "city": "Katy",
+        "id": "O000168-pearland",
+        "address": "1920 Country Place Pkwy",
+        "suite": "Suite 140",
+        "city": "Pearland",
         "state": "TX",
-        "zip": "77494",
-        "latitude": 29.7035409,
-        "longitude": -95.7716839,
-        "hours": "By Appointment",
-        "phone": "281-889-7134"
+        "zip": "77584",
+        "latitude": 29.577064,
+        "longitude": -95.3866104,
+        "fax": "832-617-8569",
+        "phone": "281-485-4855"
       },
       {
         "id": "O000168-sugar_land",
@@ -14003,10 +14409,21 @@
         "suite": "Suite 6",
         "city": "Flagstaff",
         "state": "AZ",
-        "zip": "68001",
+        "zip": "86001",
         "latitude": 35.2019797,
         "longitude": -111.6486132,
         "phone": "928-286-5338"
+      },
+      {
+        "id": "O000171-tucson",
+        "address": "3037 W. Ina Rd",
+        "suite": "Suite 101",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "85741",
+        "latitude": 32.3363922,
+        "longitude": -111.0318291,
+        "phone": "928-304-0131"
       }
     ]
   },
@@ -14030,7 +14447,7 @@
       },
       {
         "id": "P000034-new_brunswick",
-        "address": "67 Church St.",
+        "address": "67/69 Church St.",
         "city": "New Brunswick",
         "state": "NJ",
         "zip": "08901",
@@ -14050,7 +14467,7 @@
     "offices": [
       {
         "id": "P000096-englewood",
-        "address": "2 N. Van Brunt St.",
+        "address": "2-10 N. Van Brunt St.",
         "city": "Englewood",
         "state": "NJ",
         "zip": "07631",
@@ -14148,7 +14565,7 @@
         "latitude": 44.447474,
         "longitude": -95.7610983,
         "fax": "507-537-2298",
-        "hours": "Mon, Wed, Thurs: 8:00AM to 3:00PM, Tuesday & Friday: closed",
+        "hours": "Mon - Thurs: 8:30AM to 4:00PM",
         "phone": "507-537-2299"
       },
       {
@@ -14170,12 +14587,12 @@
         "zip": "56283",
         "latitude": 44.5395952,
         "longitude": -95.11752489999999,
-        "hours": "Tuesday Only: 9:00AM - 2:30PM",
+        "hours": "First Wednesday of the month until 12pm and by appointment",
         "phone": "507-637-2270"
       },
       {
         "id": "P000258-willmar",
-        "address": "324 3rd St.",
+        "address": "324 3rd St. SW",
         "suite": "Suite 4",
         "city": "Willmar",
         "state": "MN",
@@ -14197,7 +14614,7 @@
       {
         "id": "P000449-cincinnati",
         "address": "312 Walnut St.",
-        "suite": "Suite 3075",
+        "suite": "Suite 3425",
         "city": "Cincinnati",
         "state": "OH",
         "zip": "45202",
@@ -14261,18 +14678,6 @@
         "phone": "919-967-7924"
       },
       {
-        "id": "P000523-fayetteville",
-        "address": "301 Green St.",
-        "suite": "Suite 315",
-        "city": "Fayetteville",
-        "state": "NC",
-        "zip": "28301",
-        "latitude": 35.0561773,
-        "longitude": -78.8778276,
-        "fax": "910-339-0159",
-        "phone": "910-323-0260"
-      },
-      {
         "id": "P000523-raleigh",
         "address": "436 N. Harrington St.",
         "suite": "Suite 100",
@@ -14327,7 +14732,7 @@
       },
       {
         "id": "P000588-los_lunas",
-        "address": "3445 Lambros",
+        "address": "3445 Lambros Loop NE",
         "city": "Los Lunas",
         "state": "NM",
         "zip": "87031",
@@ -14431,7 +14836,7 @@
       {
         "id": "P000595-detroit",
         "address": "477 Michigan Ave.",
-        "suite": "Suite 1860",
+        "suite": "Suite 1837",
         "building": "Patrick V. McNamara Federal Building",
         "city": "Detroit",
         "state": "MI",
@@ -14442,7 +14847,7 @@
       },
       {
         "id": "P000595-grand_rapids",
-        "address": "110 Michigan St.",
+        "address": "110 Michigan St. NW",
         "suite": "Suite 720",
         "building": "Gerald R. Ford Federal Building",
         "city": "Grand Rapids",
@@ -14455,7 +14860,7 @@
       {
         "id": "P000595-lansing",
         "address": "124 W. Allegan St.",
-        "suite": "Suite 1810",
+        "suite": "Suite 1400",
         "city": "Lansing",
         "state": "MI",
         "zip": "48933",
@@ -14591,7 +14996,7 @@
     "offices": [
       {
         "id": "P000599-melbourne",
-        "address": "2725 Judge Fran Jamieson Way.",
+        "address": "2725 Judge Fran Jamieson Way",
         "building": "Building C",
         "city": "Melbourne",
         "state": "FL",
@@ -14623,6 +15028,18 @@
         "phone": "228-864-7670"
       },
       {
+        "id": "P000601-ellisville",
+        "address": "72 Technology Blvd.",
+        "city": "Ellisville",
+        "state": "MS",
+        "zip": "39437",
+        "latitude": 31.58146,
+        "longitude": -89.2424367,
+        "phone": "601-582-3246",
+        "fax": "601-582-3452",
+        "hours": "By appointment only"
+      },
+      {
         "id": "P000601-hattiesburg",
         "address": "641 Main St.",
         "suite": "Suite 142",
@@ -14631,7 +15048,8 @@
         "zip": "39401",
         "latitude": 31.32792959999999,
         "longitude": -89.2911006,
-        "phone": "601-582-3246"
+        "phone": "601-582-3246",
+        "fax": "601-582-3452"
       },
       {
         "id": "P000601-pascagoula",
@@ -14664,63 +15082,6 @@
         "longitude": -86.44277609999999,
         "fax": "270-782-8315",
         "phone": "270-782-8303"
-      },
-      {
-        "id": "P000603-crescent_springs",
-        "address": "541 Buttermilk Park.",
-        "suite": "Ste 102",
-        "city": "Crescent Springs",
-        "state": "KY",
-        "zip": "41017",
-        "latitude": 39.0486598,
-        "longitude": -84.5777416,
-        "fax": "859-426-0015",
-        "phone": "859-426-0165"
-      },
-      {
-        "id": "P000603-hopkinsville",
-        "address": "1100 S. Main St.",
-        "suite": "Ste.12",
-        "city": "Hopkinsville",
-        "state": "KY",
-        "zip": "42240",
-        "latitude": 36.864579,
-        "longitude": -87.48951339999999,
-        "phone": "270-885-1212"
-      },
-      {
-        "id": "P000603-lexington",
-        "address": "771 Corporate Dr.",
-        "suite": "Ste 105",
-        "city": "Lexington",
-        "state": "KY",
-        "zip": "40503",
-        "latitude": 38.0134107,
-        "longitude": -84.5524557,
-        "phone": "859-219-2239"
-      },
-      {
-        "id": "P000603-louisville",
-        "address": "600 Dr Mlk Jr Pl.",
-        "suite": "Room 1072B",
-        "city": "Louisville",
-        "state": "KY",
-        "zip": "40202",
-        "latitude": 38.2486082,
-        "longitude": -85.7622452,
-        "fax": "502-582-5344",
-        "phone": "502-582-5341"
-      },
-      {
-        "id": "P000603-owensboro",
-        "address": "423 Frederica St.",
-        "suite": "Ste 305",
-        "city": "Owensboro",
-        "state": "KY",
-        "zip": "42301",
-        "latitude": 37.771803,
-        "longitude": -87.11289599999999,
-        "phone": "270-689-9085"
       }
     ]
   },
@@ -14797,7 +15158,8 @@
         "latitude": 40.26472500000001,
         "longitude": -76.909221,
         "fax": "717-635-9861",
-        "phone": "717-635-9504"
+        "phone": "717-635-9504",
+        "hours": "9:00 a.m. - 5:00 p.m., M-F"
       },
       {
         "id": "P000605-york",
@@ -14834,13 +15196,13 @@
       },
       {
         "id": "P000606-fayetteville",
-        "address": "225 Ray Ave.",
-        "suite": "Suite 100",
+        "address": "301 Green Street",
+        "suite": "Suite 315",
         "city": "Fayetteville",
         "state": "NC",
         "zip": "28301",
-        "latitude": 35.0558587,
-        "longitude": -78.88181449999999,
+        "latitude": 35.0561817,
+        "longitude": -78.8800109,
         "fax": "704-365-6384",
         "phone": "910-303-0669"
       },
@@ -14874,7 +15236,8 @@
         "zip": "53511",
         "latitude": 42.49752240000001,
         "longitude": -89.03699309999999,
-        "phone": "608-365-8001"
+        "phone": "608-365-8001",
+        "hours": "Second Thursday of the Month, 9:30 - 11:30 AM"
       },
       {
         "id": "P000607-madison",
@@ -14886,7 +15249,8 @@
         "latitude": 43.0737508,
         "longitude": -89.3816999,
         "fax": "608-258-0377",
-        "phone": "608-258-9800"
+        "phone": "608-258-9800",
+        "hours": "Monday - Friday, 8:00 AM - 5:00 PM"
       }
     ]
   },
@@ -14920,7 +15284,7 @@
     "offices": [
       {
         "id": "P000609-birmingham",
-        "address": "3535 Grandview Pky.",
+        "address": "3535 Grandview Pkwy.",
         "suite": "Suite 525",
         "city": "Birmingham",
         "state": "AL",
@@ -14943,14 +15307,14 @@
       },
       {
         "id": "P000609-oneonta",
-        "address": "202 3rd Ave.",
-        "building": "Oneonta City Hall",
+        "address": "220 2nd Ave E",
+        "building": "Blount County Courthouse",
         "city": "Oneonta",
         "state": "AL",
         "zip": "35121",
-        "latitude": 33.946179,
-        "longitude": -86.4770578,
-        "phone": "205-274-2136"
+        "latitude": 33.9464211,
+        "longitude": -86.4781082,
+        "phone": "205-625-4160"
       }
     ]
   },
@@ -14997,15 +15361,27 @@
     "offices": [
       {
         "id": "P000611-bangor",
-        "address": "6 State St.",
-        "suite": "Suite 101",
+        "address": "4 Union Plaza",
+        "suite": "Suite 7",
         "city": "Bangor",
         "state": "ME",
         "zip": "04401",
-        "latitude": 44.8022714,
-        "longitude": -68.7701151,
+        "latitude": 44.7974144,
+        "longitude": -68.7725019,
         "fax": "207-942-7101",
         "phone": "207-942-0583"
+      },
+      {
+        "id": "P000611-caribou",
+        "address": "7 Hatch Drive",
+        "suite": "Suite 230",
+        "city": "Caribou",
+        "state": "ME",
+        "zip": "04736",
+        "latitude": 46.8600633,
+        "longitude": -68.0184397,
+        "phone": "207-492-1600",
+        "fax": "207-492-1606"
       },
       {
         "id": "P000611-lewiston",
@@ -15017,18 +15393,6 @@
         "longitude": -70.21693599999999,
         "fax": "207-784-5672",
         "phone": "207-784-0768"
-      },
-      {
-        "id": "P000611-presque_isle",
-        "address": "631 Main St.",
-        "suite": "Suite 2",
-        "city": "Presque Isle",
-        "state": "ME",
-        "zip": "04769",
-        "latitude": 46.6856865,
-        "longitude": -68.0143427,
-        "fax": "207-764-2822",
-        "phone": "207-764-1968"
       }
     ]
   },
@@ -15041,14 +15405,14 @@
     "offices": [
       {
         "id": "P000612-atlanta",
-        "address": "191 Peachtree St.",
-        "suite": "Suite 3250",
+        "address": "3280 Peachtree Road NE",
+        "suite": "Suite 2640",
         "city": "Atlanta",
         "state": "GA",
-        "zip": "30303",
-        "latitude": 33.7589915,
-        "longitude": -84.38681749999999,
-        "fax": "404-865-0311",
+        "zip": "30305",
+        "latitude": 33.8444244,
+        "longitude": -84.3710444,
+        "fax": "404-816-3435",
         "phone": "404-865-0087"
       }
     ]
@@ -15125,7 +15489,7 @@
       {
         "id": "R000122-cranston",
         "address": "1000 Chapel View Blvd.",
-        "suite": "290",
+        "suite": "Suite 290",
         "city": "Cranston",
         "state": "RI",
         "zip": "02920",
@@ -15563,7 +15927,8 @@
         "zip": "60010",
         "latitude": 42.153073,
         "longitude": -88.13739799999999,
-        "phone": "630-232-0006"
+        "phone": "630-232-0006",
+        "hours": "Call to make an appointment."
       },
       {
         "id": "R000580-west_chicago",
@@ -15600,7 +15965,7 @@
       },
       {
         "id": "R000582-morristown",
-        "address": "1609 Walters State Cc Dr.",
+        "address": "1609 Walters State CC Dr.",
         "suite": "Suite 4",
         "city": "Morristown",
         "state": "TN",
@@ -15666,7 +16031,7 @@
       {
         "id": "R000584-boise",
         "address": "350 N. 9th St.",
-        "suite": "Ste 302",
+        "suite": "Suite 302",
         "city": "Boise",
         "state": "ID",
         "zip": "83702",
@@ -15780,7 +16145,7 @@
       {
         "id": "R000585-jamestown",
         "address": "2 E. 2nd St.",
-        "suite": "Suite 300",
+        "suite": "Suite 208",
         "city": "Jamestown",
         "state": "NY",
         "zip": "14701",
@@ -15877,7 +16242,7 @@
         "latitude": 30.0318171,
         "longitude": -90.06439449999999,
         "fax": "504-288-4090",
-        "hours": "Monday-Friday 8:30AM-5:30PM",
+        "hours": "Monday-Friday 8:30AM-5:00PM",
         "phone": "504-288-3777"
       }
     ]
@@ -15892,7 +16257,7 @@
       {
         "id": "R000591-andalusia",
         "address": "505 E. Three Notch St.",
-        "suite": "#322",
+        "suite": "Suite 322",
         "building": "City Hall",
         "city": "Andalusia",
         "state": "AL",
@@ -15944,7 +16309,7 @@
         "latitude": 39.7570534,
         "longitude": -86.52317409999999,
         "fax": "317-718-0405",
-        "hours": "Monday-Friday 9:00AM-5:00PM (If you arrive after 4pm and the doors to the main building are locked",
+        "hours": "Monday-Friday 9:00AM-5:00PM (If you arrive after 4pm and the doors to the main building are locked, please call 317-718-0404 for assistance.)",
         "phone": "317-718-0404"
       },
       {
@@ -15957,7 +16322,7 @@
         "latitude": 40.4197836,
         "longitude": -86.8936818,
         "fax": "765-838-3931",
-        "hours": "Monday, Wednesday, and Friday 9:00AM to 4:00PM",
+        "hours": "Monday - Friday 9:00AM to 5:00PM",
         "phone": "765-838-3930"
       }
     ]
@@ -15969,6 +16334,17 @@
       "thomas": "02003"
     },
     "offices": [
+      {
+        "id": "R000593-clermont",
+        "address": "685 W. Montrose St.",
+        "city": "Clermont",
+        "state": "FL",
+        "zip": "34711",
+        "latitude": 28.5550165,
+        "longitude": -81.7683525,
+        "phone": "352-727-2248",
+        "fax": "863-648-0749"
+      },
       {
         "id": "R000593-lakeland",
         "address": "170 Fitzgerald Rd.",
@@ -15985,7 +16361,7 @@
       {
         "id": "R000593-plant_city",
         "address": "110 W. Reynolds St.",
-        "suite": "Ste. 101",
+        "suite": "Suite 101",
         "city": "Plant City",
         "state": "FL",
         "zip": "33563",
@@ -16017,25 +16393,16 @@
       },
       {
         "id": "R000595-jacksonville",
-        "address": "1650 Prudential Dr.",
-        "suite": "Suite 220",
+        "address": "300 North Hogan St.",
+        "suite": "Suite 8-111",
+        "building": "Bryan Simpson U.S. Courthouse",
         "city": "Jacksonville",
         "state": "FL",
-        "zip": "32207",
-        "latitude": 30.3159309,
-        "longitude": -81.65249709999999,
-        "phone": "904-398-8586"
-      },
-      {
-        "id": "R000595-naples",
-        "address": "3299 E. Tamiami Trl.",
-        "suite": "Suite 106",
-        "city": "Naples",
-        "state": "FL",
-        "zip": "34112",
-        "latitude": 26.1270603,
-        "longitude": -81.7664209,
-        "phone": "239-213-1521"
+        "zip": "32202",
+        "latitude": 30.32909,
+        "longitude": -81.65997,
+        "phone": "904-354-4300",
+        "hours": "M-F 8:30AM-5:30PM"
       },
       {
         "id": "R000595-orlando",
@@ -16051,7 +16418,7 @@
       },
       {
         "id": "R000595-palm_beach_gardens",
-        "address": "4580 Pga Blvd.",
+        "address": "4580 PGA Blvd.",
         "suite": "Suite 201",
         "city": "Palm Beach Gardens",
         "state": "FL",
@@ -16139,7 +16506,8 @@
       {
         "id": "R000598-johnstown",
         "address": "110 Franklin St.",
-        "suite": "Suite 150",
+        "building": "Cambria County Complex",
+        "suite": "Suite 239",
         "city": "Johnstown",
         "state": "PA",
         "zip": "15901",
@@ -16304,7 +16672,7 @@
       },
       {
         "id": "R000603-four_oaks",
-        "address": "4001 Us Hwy.",
+        "address": "4001 US Hwy. 301 South",
         "suite": "Suite 106",
         "city": "Four Oaks",
         "state": "NC",
@@ -16370,7 +16738,7 @@
       {
         "id": "R000605-pierre",
         "address": "111 W. Capitol Ave.",
-        "suite": "Suite 210 P.O.Box 309",
+        "suite": "Suite 210",
         "city": "Pierre",
         "state": "SD",
         "zip": "57501",
@@ -16413,7 +16781,7 @@
       {
         "id": "R000606-rockville",
         "address": "51 Monroe St.",
-        "suite": "Suite 507",
+        "suite": "Suite 503",
         "city": "Rockville",
         "state": "MD",
         "zip": "20850",
@@ -16431,7 +16799,7 @@
     "offices": [
       {
         "id": "R000607-cape_coral",
-        "address": "1039 SE. 9th Pl.",
+        "address": "1039 SE 9th Ave.",
         "suite": "Suite 308",
         "city": "Cape Coral",
         "state": "FL",
@@ -16520,8 +16888,8 @@
         "zip": "05819",
         "latitude": 44.4173546,
         "longitude": -72.02646469999999,
-        "fax": "802-748-0302",
-        "phone": "802-748-9269"
+        "fax": "802-860-6370",
+        "phone": "800-339-9834"
       }
     ]
   },
@@ -16695,7 +17063,7 @@
     "offices": [
       {
         "id": "S000244-brookfield",
-        "address": "120 Bishops Way.",
+        "address": "120 Bishops Way",
         "suite": "Room 154",
         "city": "Brookfield",
         "state": "WI",
@@ -16760,7 +17128,8 @@
       {
         "id": "S000320-birmingham",
         "address": "1800 5th Avenue North",
-        "building": "Federal Building",
+        "suite": "321",
+        "building": "Robert S. Vance Federal Building",
         "city": "Birmingham",
         "state": "AL",
         "zip": "35203",
@@ -16868,7 +17237,8 @@
         "latitude": 39.1216874,
         "longitude": -88.5424005,
         "fax": "217-342-1219",
-        "phone": "217-347-7947"
+        "phone": "217-347-7947",
+        "hours": "M-F 9AM-5PM"
       },
       {
         "id": "S000364-harrisburg",
@@ -16880,7 +17250,8 @@
         "latitude": 37.739086,
         "longitude": -88.539304,
         "fax": "618-252-8317",
-        "phone": "618-252-8271"
+        "phone": "618-252-8271",
+        "hours": "M-F 8AM-4PM"
       },
       {
         "id": "S000364-maryville",
@@ -16906,6 +17277,8 @@
       {
         "id": "S000480-rochester",
         "address": "100 State St.",
+        "suite": "Room 3120",
+        "building": "Federal Building",
         "city": "Rochester",
         "state": "NY",
         "zip": "14614",
@@ -16925,7 +17298,7 @@
     "offices": [
       {
         "id": "S000510-renton",
-        "address": "15 S. Grady Way.",
+        "address": "15 S. Grady Way",
         "building": "101 Evergreen Building",
         "city": "Renton",
         "state": "WA",
@@ -16949,6 +17322,7 @@
         "id": "S000522-freehold",
         "address": "112 Village Center Dr.",
         "suite": "Second Floor",
+        "building": "Raintree Shopping Center",
         "city": "Freehold",
         "state": "NJ",
         "zip": "07728",
@@ -16970,7 +17344,7 @@
       },
       {
         "id": "S000522-plumsted",
-        "address": "405 Route 539",
+        "address": "405 Route 539 (Pinehurst Rd.)",
         "city": "Plumsted",
         "state": "NJ",
         "zip": "08514",
@@ -16990,7 +17364,7 @@
     "offices": [
       {
         "id": "S000583-austin",
-        "address": "2211 S. Ih-35",
+        "address": "2211 S. IH-35",
         "suite": "Suite 106",
         "city": "Austin",
         "state": "TX",
@@ -17071,7 +17445,7 @@
       },
       {
         "id": "S000770-grand_rapids",
-        "address": "3280 E. Beltline Ct.",
+        "address": "3280 E. Beltline Ct. NE",
         "suite": "Suite 400",
         "city": "Grand Rapids",
         "state": "MI",
@@ -17214,6 +17588,7 @@
       {
         "id": "S001150-burbank",
         "address": "245 E. Olive Ave.",
+        "suite": "#200",
         "city": "Burbank",
         "state": "CA",
         "zip": "91502",
@@ -17231,7 +17606,7 @@
         "zip": "90028",
         "latitude": 34.1014609,
         "longitude": -118.3095706,
-        "hours": "Open Tuesdays 2 pm - 5 pm",
+        "hours": "Open Tuesdays 2 pm - 5 pm and by appointment only.",
         "phone": "323-315-5555"
       }
     ]
@@ -17291,7 +17666,7 @@
       {
         "id": "S001156-norwalk",
         "address": "12440 E. Imperial Hwy.",
-        "suite": "Ste. 140",
+        "suite": "Suite 140",
         "city": "Norwalk",
         "state": "CA",
         "zip": "90650",
@@ -17399,7 +17774,7 @@
         "latitude": 38.9793786,
         "longitude": -76.4949839,
         "fax": "410-295-1682",
-        "hours": "Tu, 11 a.m. - 1 p.m.",
+        "hours": "Tues, 11 a.m. - 1 p.m. or by appointment",
         "phone": "410-295-1679"
       },
       {
@@ -17439,12 +17814,14 @@
       {
         "id": "S001170-dover",
         "address": "660 Central Ave.",
+        "suite": "Unit 101",
         "city": "Dover",
         "state": "NH",
         "zip": "03820",
         "latitude": 43.205869,
         "longitude": -70.8756835,
-        "phone": "888-216-5373"
+        "phone": "603-285-4300",
+        "fax": "603-343-1326"
       }
     ]
   },
@@ -17491,7 +17868,7 @@
       {
         "id": "S001175-san_mateo",
         "address": "155 Bovet Rd.",
-        "suite": "780",
+        "suite": "Suite 780",
         "city": "San Mateo",
         "state": "CA",
         "zip": "94402",
@@ -17611,8 +17988,8 @@
       },
       {
         "id": "S001180-salem",
-        "address": "530 Center St.",
-        "suite": "Ste 415",
+        "address": "530 Center St. NE",
+        "suite": "Suite 415",
         "city": "Salem",
         "state": "OR",
         "zip": "97301",
@@ -17707,7 +18084,7 @@
       {
         "id": "S001183-scottsdale",
         "address": "10603 North Hayden Rd.",
-        "suite": "Ste. 108",
+        "suite": "Suite 108",
         "city": "Scottsdale",
         "state": "AZ",
         "zip": "85260",
@@ -17727,13 +18104,13 @@
     "offices": [
       {
         "id": "S001184-columbia",
-        "address": "1301 Gervais St.",
-        "suite": "825",
+        "address": "1901 Main St.",
+        "suite": "Suite 1425",
         "city": "Columbia",
         "state": "SC",
         "zip": "29201",
-        "latitude": 34.0021846,
-        "longitude": -81.031595,
+        "latitude": 34.0108841,
+        "longitude": -81.0384094,
         "fax": "855-802-9355",
         "hours": "8:30am - 5:30pm (M-F)",
         "phone": "803-771-6112"
@@ -17834,7 +18211,7 @@
     "offices": [
       {
         "id": "S001187-hilliard",
-        "address": "3790 Municipal Way.",
+        "address": "3790 Municipal Way",
         "city": "Hilliard",
         "state": "OH",
         "zip": "43026",
@@ -17845,13 +18222,12 @@
       },
       {
         "id": "S001187-lancaster",
-        "address": "123 S. Broad St.",
-        "suite": "Suite 235",
+        "address": "104 East Main St.",
         "city": "Lancaster",
         "state": "OH",
         "zip": "43130",
-        "latitude": 39.7128643,
-        "longitude": -82.60229059999999,
+        "latitude": 39.7133714,
+        "longitude": -82.6038377,
         "fax": "740-654-2482",
         "phone": "740-654-2654"
       },
@@ -17916,7 +18292,18 @@
         "zip": "60069",
         "latitude": 42.1964098,
         "longitude": -87.9362154,
-        "phone": "847-383-4870"
+        "phone": "847-383-4870",
+        "fax": "847-793-0677"
+      },
+      {
+        "id": "S001190-round_lake_park",
+        "address": "433 E Washington St.",
+        "city": "Round Lake Park",
+        "state": "IL",
+        "zip": "60073",
+        "latitude": 42.3565821,
+        "longitude": -88.0740214,
+        "hours": "Monday 8:30AM-4:30PM, Tuesday 8:30AM-12:30PM"
       }
     ]
   },
@@ -18005,7 +18392,7 @@
       {
         "id": "S001194-honolulu",
         "address": "300 Ala Moana Blvd.",
-        "suite": "Rm 7-212",
+        "suite": "Room 7-212",
         "city": "Honolulu",
         "state": "HI",
         "zip": "96850",
@@ -18145,7 +18532,7 @@
       },
       {
         "id": "S001197-lincoln",
-        "address": "1128 Lincoln Mall.",
+        "address": "1128 Lincoln Mall",
         "suite": "Suite 305",
         "city": "Lincoln",
         "state": "NE",
@@ -18157,7 +18544,7 @@
       {
         "id": "S001197-omaha",
         "address": "304 N. 168th Cir.",
-        "suite": "68118",
+        "suite": "Suite 213",
         "city": "Omaha",
         "state": "NE",
         "zip": "68118",
@@ -18275,7 +18662,8 @@
         "zip": "17602",
         "latitude": 40.03689079999999,
         "longitude": -76.3031804,
-        "phone": "717-393-0667"
+        "phone": "717-393-0667",
+        "fax": "717-393-0924"
       }
     ]
   },
@@ -18294,6 +18682,50 @@
         "latitude": 28.2906297,
         "longitude": -81.4123113,
         "phone": "407-452-1171"
+      },
+      {
+        "id": "S001200-haines_city",
+        "address": "620 E Main St.",
+        "city": "Haines City",
+        "state": "FL",
+        "zip": "33844",
+        "latitude": 28.1083914,
+        "longitude": -81.628392,
+        "phone": "202-615-1308",
+        "hours": "Wednesday 9AM-5PM"
+      },
+      {
+        "id": "S001200-orlando",
+        "address": "6900 Lake Nona Blvd",
+        "suite": "Suites 101A & 101B",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32827",
+        "latitude": 28.368175,
+        "longitude": -81.2825497,
+        "phone": "407-266-7161",
+        "hours": "By appointment only."
+      },
+      {
+        "id": "S001200-lake_wales",
+        "address": "201 W Central Avenue",
+        "city": "Lake Wales",
+        "state": "FL",
+        "zip": "33853",
+        "latitude": 27.8999663,
+        "longitude": -81.596459,
+        "hours": "Monday and Tuesday, 9AM-5PM"
+      },
+      {
+        "id": "S001200-winter_haven",
+        "address": "451 3rd Street NW",
+        "city": "Winter Haven",
+        "state": "FL",
+        "zip": "33881",
+        "latitude": 28.0263894,
+        "longitude": -81.732919,
+        "phone": "202-600-0843",
+        "hours": "Open Thursday and Friday 9AM-5PM"
       }
     ]
   },
@@ -18312,6 +18744,17 @@
         "latitude": 40.873976,
         "longitude": -73.41131899999999,
         "phone": "631-923-4100"
+      },
+      {
+        "id": "S001201-little_neck",
+        "address": "250-02 Northern Boulevard",
+        "city": "Little Neck",
+        "state": "NY",
+        "zip": "11362",
+        "latitude": 40.7683191,
+        "longitude": -73.7394598,
+        "phone": "718-631-0400",
+        "hours": "Mon, Tue, and Thurs 9:00AM - 5:30PM by appointment"
       }
     ]
   },
@@ -18346,12 +18789,13 @@
       },
       {
         "id": "T000193-greenwood",
-        "address": "509 Highway 82 West",
+        "address": "728 Main Street",
+        "suite": "Suite A",
         "city": "Greenwood",
         "state": "MS",
         "zip": "38930",
-        "latitude": 33.5051438,
-        "longitude": -90.1865523,
+        "latitude": 33.5146884,
+        "longitude": -90.1821178,
         "fax": "662-453-0118",
         "phone": "662-455-9003"
       },
@@ -18454,7 +18898,7 @@
       },
       {
         "id": "T000250-sioux_falls",
-        "address": "5015 S. Oak",
+        "address": "5015 S. Bur Oak",
         "city": "Sioux Falls",
         "state": "SD",
         "zip": "57108",
@@ -18526,7 +18970,7 @@
         "zip": "18103",
         "latitude": 40.569891,
         "longitude": -75.519529,
-        "fax": "610-434-1844",
+        "fax": "202-228-2727",
         "phone": "610-434-1444"
       },
       {
@@ -18570,13 +19014,13 @@
       },
       {
         "id": "T000461-pittsburgh",
-        "address": "100 W. Station Square Dr.",
-        "suite": "Suite 225",
+        "address": "310 Grant St.",
+        "suite": "Suite 1440",
         "city": "Pittsburgh",
         "state": "PA",
         "zip": "15219",
-        "latitude": 40.433674,
-        "longitude": -80.003871,
+        "latitude": 40.4376735,
+        "longitude": -79.9996749,
         "fax": "412-803-3504",
         "phone": "412-803-3501"
       },
@@ -18617,7 +19061,7 @@
       {
         "id": "T000463-dayton",
         "address": "120 W. 3rd St.",
-        "suite": "Ste. 305",
+        "suite": "Suite 305",
         "city": "Dayton",
         "state": "OH",
         "zip": "45402",
@@ -18637,8 +19081,9 @@
     "offices": [
       {
         "id": "T000464-billings",
-        "address": "2900 4th Ave.",
+        "address": "2900 4th Ave. N",
         "suite": "Suite 201",
+        "building": "Judge Jameson Federal Building",
         "city": "Billings",
         "state": "MT",
         "zip": "59101",
@@ -18651,6 +19096,7 @@
         "id": "T000464-bozeman",
         "address": "1 E. Main St.",
         "suite": "Suite 202",
+        "building": "Avant Courier Building",
         "city": "Bozeman",
         "state": "MT",
         "zip": "59715",
@@ -18685,8 +19131,9 @@
       },
       {
         "id": "T000464-great_falls",
-        "address": "119 1st Ave.",
-        "city": "Great falls",
+        "address": "119 1st Ave. N",
+        "suite": "Suite 102",
+        "city": "Great Falls",
         "state": "MT",
         "zip": "59401",
         "latitude": 47.5065688,
@@ -18709,7 +19156,7 @@
       },
       {
         "id": "T000464-kalispell",
-        "address": "8 Third St.",
+        "address": "8 Third St. E",
         "city": "Kalispell",
         "state": "MT",
         "zip": "59901",
@@ -18755,6 +19202,7 @@
         "id": "T000465-haverhill",
         "address": "10 Welcome St.",
         "suite": "Room 4",
+        "building": "Haverhill Citizens Center",
         "city": "Haverhill",
         "state": "MA",
         "zip": "01830",
@@ -18769,7 +19217,7 @@
         "suite": "Suite 401",
         "city": "Lawrence",
         "state": "MA",
-        "zip": "01852",
+        "zip": "01840",
         "latitude": 42.70729679999999,
         "longitude": -71.1530981,
         "hours": "Tuesday & Thursday, 10:00am - 5:00pm",
@@ -18846,12 +19294,13 @@
     "offices": [
       {
         "id": "T000468-las_vegas",
-        "address": "550 E. Charleston Blvd.",
+        "address": "495 South Main St.",
+        "suite": "3rd Floor",
         "city": "Las Vegas",
         "state": "NV",
-        "zip": "89104",
-        "latitude": 36.1584562,
-        "longitude": -115.1462019,
+        "zip": "89101",
+        "latitude": 36.1673606,
+        "longitude": -115.1506179,
         "fax": "702-220-9841",
         "hours": "M-F 8:30-5:30pm",
         "phone": "702-220-9823"
@@ -18913,7 +19362,7 @@
       {
         "id": "T000470-alamosa",
         "address": "609 Main St.",
-        "suite": "#105 Box 11",
+        "suite": "#105",
         "city": "Alamosa",
         "state": "CO",
         "zip": "81101",
@@ -18959,7 +19408,7 @@
         "latitude": 38.27203069999999,
         "longitude": -104.60937,
         "fax": "719-542-1127",
-        "hours": "8:00AM-5:00PM",
+        "hours": "M-F 8:00AM-5:00PM",
         "phone": "719-542-1073"
       }
     ]
@@ -19003,6 +19452,16 @@
         "longitude": -117.5807122,
         "fax": "909-941-1362",
         "phone": "909-481-6474"
+      },
+      {
+        "id": "T000474-rialto",
+        "address": "141 S. Riverside Ave.",
+        "city": "Rialto",
+        "state": "CA",
+        "zip": "92376",
+        "latitude": 34.0993394,
+        "longitude": -117.3721013,
+        "hours": "Every 2nd and 4th Wednesday, 9AM-12PM or by appointment"
       }
     ]
   },
@@ -19036,7 +19495,7 @@
     "offices": [
       {
         "id": "T000476-charlotte",
-        "address": "9300 Harris Corners Pky.",
+        "address": "9300 Harris Corners Pkwy.",
         "suite": "Suite 170",
         "city": "Charlotte",
         "state": "NC",
@@ -19057,18 +19516,6 @@
         "longitude": -77.3592441,
         "fax": "252-329-0290",
         "phone": "252-329-0371"
-      },
-      {
-        "id": "T000476-hendersonville",
-        "address": "1 Historic Courthouse Sq.",
-        "building": "Suite 112",
-        "city": "Hendersonville",
-        "state": "NC",
-        "zip": "28792",
-        "latitude": 35.3145365,
-        "longitude": -82.46020910000001,
-        "fax": "828-693-8750",
-        "phone": "828-693-8750"
       },
       {
         "id": "T000476-high_point",
@@ -19103,8 +19550,21 @@
     },
     "offices": [
       {
+        "id": "T000478-binghampton",
+        "address": "40 Court St.",
+        "building": "Metro Center",
+        "suite": "Suite 210",
+        "city": "Binghampton",
+        "state": "NY",
+        "zip": "13901",
+        "latitude": 42.0994466,
+        "longitude": -75.915564,
+        "phone": "607-723-3581"
+      },
+      {
         "id": "T000478-new_hartford",
         "address": "555 French Rd.",
+        "suite": "Suite 101",
         "city": "New Hartford",
         "state": "NY",
         "zip": "13413",
@@ -19354,7 +19814,7 @@
       {
         "id": "V000131-dallas",
         "address": "1881 Sylvan Ave.",
-        "suite": "Ste. 108",
+        "suite": "Suite 108",
         "building": "JP Morgan Chase Building",
         "city": "Dallas",
         "state": "TX",
@@ -19375,7 +19835,8 @@
         "latitude": 32.7547849,
         "longitude": -97.21394939999999,
         "fax": "817-920-9324",
-        "phone": "817-920-9086"
+        "phone": "817-920-9086",
+        "hours": "M-F 8:30AM-5:30PM"
       }
     ]
   },
@@ -19419,12 +19880,12 @@
       },
       {
         "id": "V000132-weslaco",
-        "address": "500 S. Kansas Ave.",
+        "address": "301 W. Railroad",
         "city": "Weslaco",
         "state": "TX",
         "zip": "78596",
-        "latitude": 26.157205,
-        "longitude": -97.989865,
+        "latitude": 26.1602727,
+        "longitude": -97.9944049,
         "fax": "956-520-8277",
         "phone": "956-520-8273"
       }
@@ -19485,6 +19946,7 @@
         "id": "W000437-jackson",
         "address": "501 E. Court St.",
         "suite": "Suite 3-500",
+        "building": "U.S. Federal Courthouse",
         "city": "Jackson",
         "state": "MS",
         "zip": "39201",
@@ -19563,7 +20025,7 @@
       },
       {
         "id": "W000779-portland",
-        "address": "911 11th Ave.",
+        "address": "911 NE 11th Ave.",
         "suite": "Suite 630",
         "city": "Portland",
         "state": "OR",
@@ -19574,7 +20036,7 @@
       },
       {
         "id": "W000779-salem",
-        "address": "707 13th St.",
+        "address": "707 13th St. SE",
         "suite": "Suite 285",
         "city": "Salem",
         "state": "OR",
@@ -19649,7 +20111,7 @@
       },
       {
         "id": "W000795-west_columbia",
-        "address": "1700 Sunset Blvd.",
+        "address": "1700 Sunset Blvd. (US 378)",
         "suite": "Suite 1",
         "city": "West Columbia",
         "state": "SC",
@@ -19776,7 +20238,7 @@
       {
         "id": "W000802-providence",
         "address": "170 Westminster St.",
-        "suite": "Ste. 200",
+        "suite": "Suite 200",
         "city": "Providence",
         "state": "RI",
         "zip": "02903",
@@ -19795,9 +20257,21 @@
     },
     "offices": [
       {
+        "id": "W000804-mechanicsville",
+        "address": "6501 Mechanicsville Tpke",
+        "suite": "Suite 102",
+        "city": "Mechanicsville",
+        "state": "VA",
+        "zip": "23111",
+        "latitude": 37.6130093,
+        "longitude": -77.3335134,
+        "fax": "804-730-6597",
+        "phone": "804-730-6595"
+      },
+      {
         "id": "W000804-stafford",
         "address": "95 Dunn Dr.",
-        "suite": "Ste. 201",
+        "suite": "Suite 201",
         "city": "Stafford",
         "state": "VA",
         "zip": "22556",
@@ -19816,17 +20290,6 @@
         "longitude": -76.8625874,
         "fax": "804-443-0671",
         "phone": "804-443-0668"
-      },
-      {
-        "id": "W000804-yorktown",
-        "address": "401 Main St.",
-        "city": "Yorktown",
-        "state": "VA",
-        "zip": "23690",
-        "latitude": 37.2353811,
-        "longitude": -76.5083854,
-        "fax": "757-874-7164",
-        "phone": "757-874-6687"
       }
     ]
   },
@@ -19872,7 +20335,7 @@
       },
       {
         "id": "W000805-roanoke",
-        "address": "110 Kirk Ave.",
+        "address": "110 Kirk Ave. SW",
         "city": "Roanoke",
         "state": "VA",
         "zip": "24011",
@@ -19909,7 +20372,9 @@
         "zip": "34601",
         "latitude": 28.5552249,
         "longitude": -82.38811919999999,
-        "phone": "352-241-2980"
+        "phone": "352-241-9230",
+        "fax": "352-241-9181",
+        "hours": "Tuesday and Thursday"
       },
       {
         "id": "W000806-inverness",
@@ -19920,18 +20385,20 @@
         "zip": "34450",
         "latitude": 28.8363417,
         "longitude": -82.3321296,
-        "phone": "352-241-9204"
+        "phone": "352-241-9204",
+        "fax": "352-241-9181",
+        "hours": "Tuesday and Thursday"
       },
       {
         "id": "W000806-minneola",
-        "address": "800 Us Hwy.",
+        "address": "800 N US Hwy. 27",
         "city": "Minneola",
         "state": "FL",
         "zip": "34715",
         "latitude": 28.5886193,
         "longitude": -81.752927,
         "hours": "Mon-Fri 8.30am-5.30pm",
-        "phone": "352-383-3552"
+        "phone": "352-241-9220"
       },
       {
         "id": "W000806-the_villages",
@@ -19942,7 +20409,9 @@
         "zip": "32162",
         "latitude": 28.9188822,
         "longitude": -81.970805,
-        "phone": "352-383-3552"
+        "phone": "352-383-3552",
+        "fax": "352-241-9181",
+        "hours": "Monday & Wednesday, Friday by appointment only"
       }
     ]
   },
@@ -19967,16 +20436,17 @@
         "phone": "305-690-5905"
       },
       {
-        "id": "W000808-miramar",
-        "address": "2300 Civic Ctr.",
-        "building": "Miramar City Hall",
-        "city": "Miramar",
+        "id": "W000808-pembroke_pines",
+        "address": "10100 Pines Blvd",
+        "building": "Pembroke Pines City Hall, Building B",
+        "suite": "Third Floor",
+        "city": "Pembroke Pines",
         "state": "FL",
-        "zip": "33025",
-        "latitude": 25.9869532,
-        "longitude": -80.3010666,
-        "hours": "2nd and 4th Tuesdays 9-1pm",
-        "phone": "954-602-4357"
+        "zip": "33026",
+        "latitude": 26.0069554,
+        "longitude": -80.2833939,
+        "hours": "Wednesdays 9AM-5PM",
+        "phone": "954-450-6767"
       },
       {
         "id": "W000808-west_park",
@@ -19987,7 +20457,7 @@
         "zip": "33023",
         "latitude": 25.993095,
         "longitude": -80.2038997,
-        "hours": "Mon-Fri 9-5:30pm",
+        "hours": "Thursday 9-5pm",
         "phone": "954-989-2688"
       }
     ]
@@ -20269,6 +20739,19 @@
     },
     "offices": [
       {
+        "id": "W000819-asheboro",
+        "address": "222 Sunset Ave.",
+        "suite": "Suite 101",
+        "city": "Asheboro",
+        "state": "NC",
+        "zip": "27203",
+        "latitude": 35.7063317,
+        "longitude": -79.8183839,
+        "fax": "336-629-7819",
+        "hours": "M-F 9:00am-5:00pm",
+        "phone": "336-626-3060"
+      },
+      {
         "id": "W000819-graham",
         "address": "219 B West Elm Street",
         "city": "Graham",
@@ -20414,6 +20897,7 @@
       {
         "id": "Y000033-fairbanks",
         "address": "100 Cushman St.",
+        "building": "Key Bank Building",
         "suite": "Suite 307",
         "city": "Fairbanks",
         "state": "AK",
@@ -20435,7 +20919,7 @@
       {
         "id": "Y000062-louisville",
         "address": "600 Martin Luther King Jr Pl.",
-        "suite": "216",
+        "suite": "Suite 216",
         "building": "Romano Mazzoli Federal Building",
         "city": "Louisville",
         "state": "KY",
@@ -20444,6 +20928,18 @@
         "longitude": -85.7622452,
         "fax": "502-582-5897",
         "phone": "502-582-5129"
+      },
+      {
+        "id": "Y000062-louisville-1",
+        "address": "7219 Dixie Highway",
+        "building": "Southwest Government Center",
+        "city": "Louisville",
+        "state": "KY",
+        "zip": "40258",
+        "latitude": 38.1458873,
+        "longitude": -85.8399034,
+        "fax": "502-933-5863",
+        "phone": "502-935-6934"
       }
     ]
   },
@@ -20498,6 +20994,19 @@
         "longitude": -81.7974322,
         "fax": "904-276-9336",
         "phone": "904-276-9626"
+      },
+      {
+        "id": "Y000065-palatka",
+        "address": "2509 Crill Ave.",
+        "suite": "Suite 200",
+        "city": "Palatka",
+        "state": "FL",
+        "zip": "32177",
+        "latitude": 29.6401223,
+        "longitude": -81.6588895,
+        "fax": "502-933-5863",
+        "phone": "502-935-6934",
+        "hours": "Open Tuesday and Thursday"
       }
     ]
   },
@@ -20530,13 +21039,14 @@
       },
       {
         "id": "Y000066-des_moines",
-        "address": "601 E. Locust St.",
-        "suite": "Suite 204",
+        "address": "400 East Court Avenue",
+        "building": "Capitol Center",
+        "suite": "Suite 246",
         "city": "Des Moines",
         "state": "IA",
         "zip": "50309",
-        "latitude": 41.589826,
-        "longitude": -93.6093349,
+        "latitude": 41.5881933,
+        "longitude": -93.6134831,
         "phone": "515-282-1909"
       }
     ]
@@ -20557,7 +21067,7 @@
         "zip": "11901",
         "latitude": 40.9172285,
         "longitude": -72.6627645,
-        "hours": "Tues, Wed, Thurs, 10am - 2pm",
+        "hours": "Tues, Wed, Thurs, 10am - 2pm. By appointment only.",
         "phone": "631-209-4235"
       },
       {
@@ -20604,7 +21114,7 @@
         "latitude": 36.7374775,
         "longitude": -119.7836709,
         "fax": "202-228-3864",
-        "phone": "916-448-2787"
+        "phone": "559-497-5109"
       },
       {
         "id": "H001075-los_angeles",
@@ -20630,7 +21140,7 @@
         "longitude": -122.4144643,
         "fax": "202-224-0454",
         "hours": "Monday - Friday, 8:30am - 5:30pm",
-        "phone": "213-894-5000"
+        "phone": "415-355-9041"
       },
       {
         "id": "H001075-san_diego",
@@ -20668,13 +21178,13 @@
       },
       {
         "id": "Y000064-new_albany",
-        "address": "121 West Spring Street",
-        "suite": "Suite 130-C & 225",
+        "address": "3602 Northgate Ct",
+        "suite": "Suite 15",
         "city": "New Albany",
         "state": "IN",
         "zip": "47150",
-        "latitude": 38.2850131,
-        "longitude": -85.82465959999999,
+        "latitude": 38.3332536,
+        "longitude": -85.8184877,
         "hours": "8:30am - 4:30pm",
         "phone": "812-542-4820"
       },
@@ -20686,24 +21196,26 @@
         "state": "IN",
         "zip": "47708",
         "latitude": 37.975188,
-        "longitude": -87.567486
+        "longitude": -87.567486,
+        "hours": "By appointment only"
       },
       {
         "id": "Y000064-fort_wayne",
         "address": "1300 South Harrison Street",
-        "suite": "Suite #3161",
+        "suite": "Suite 3161",
         "city": "Fort Wayne",
         "state": "IN",
         "zip": "46802",
         "latitude": 41.0737372,
-        "longitude": -85.14045349999999
+        "longitude": -85.14045349999999,
+        "hours": "By appointment only"
       }
     ]
   },
   {
     "id": {
-      "govtrack": 412533,
       "bioguide": "D000622",
+      "govtrack": 412533,
       "thomas": "02123"
     },
     "offices": [
@@ -20717,6 +21229,16 @@
         "latitude": 41.8784454,
         "longitude": -87.63,
         "phone": "312-886-3506"
+      },
+      {
+        "id": "D000622-springfield",
+        "address": "8 South Old State Capitol Plaza",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701",
+        "latitude": 39.800468,
+        "longitude": -89.6509028,
+        "phone": "312-528-6124"
       }
     ]
   },
@@ -20727,15 +21249,38 @@
     },
     "offices": [
       {
+        "id": "H001076-berlin",
+        "address": "168 Main Street",
+        "building": "Berlin City Hall",
+        "suite": "Lower Level",
+        "city": "Berlin",
+        "state": "NH",
+        "zip": "03570",
+        "latitude": 44.469939,
+        "longitude": -71.1821158,
+        "phone": "603-752-6190"
+      },
+      {
         "id": "H001076-manchester",
-        "address": "1200 Elm Street",
-        "suite": "Suite 2",
+        "address": "1589 Elm Street",
+        "suite": "Third Floor",
         "city": "Manchester",
         "state": "NH",
         "zip": "03101",
-        "latitude": 42.995106,
-        "longitude": -71.463785,
+        "latitude": 43.0009812,
+        "longitude": -71.4662599,
         "phone": "603-622-2204"
+      },
+      {
+        "id": "H001076-nashua",
+        "address": "142 Main Street",
+        "suite": "Suite 520",
+        "city": "Nashua",
+        "state": "NH",
+        "zip": "03060",
+        "latitude": 42.7617932,
+        "longitude": -71.4674553,
+        "phone": "603-880-3314"
       },
       {
         "id": "H001076-portsmouth",
@@ -20747,6 +21292,18 @@
         "latitude": 43.0856076,
         "longitude": -70.8098029,
         "phone": "603-433-4445"
+      },
+      {
+        "id": "H001076-concord",
+        "address": "53 Pleasant Street",
+        "building": "James C. Cleveland Federal Building",
+        "city": "Concord",
+        "state": "NH",
+        "zip": "03301",
+        "latitude": 43.2024699,
+        "longitude": -71.5416652,
+        "phone": "603-622-2204",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -20822,17 +21379,6 @@
     },
     "offices": [
       {
-        "id": "E000297-new_york",
-        "address": "163 West 125th Street",
-        "building": "Harlem State Office Building",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10027",
-        "latitude": 40.8092343,
-        "longitude": -73.9474317,
-        "phone": "212-663-3900"
-      },
-      {
         "id": "E000297-bronx",
         "address": "2530 Grand Concourse Avenue",
         "suite": "Ground Floor",
@@ -20842,6 +21388,29 @@
         "latitude": 40.863512,
         "longitude": -73.895791,
         "phone": "718-450-8241"
+      },
+      {
+        "id": "E000297-new_york",
+        "address": "163 West 125th Street",
+        "suite": "#507",
+        "building": "Harlem State Office Building",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10027",
+        "latitude": 40.8092343,
+        "longitude": -73.9474317,
+        "phone": "212-663-3900"
+      },
+      {
+        "id": "E000297-new_york-1",
+        "address": "5030 Broadway",
+        "suite": "Room 702",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10034",
+        "latitude": 40.8688503,
+        "longitude": -73.9188262,
+        "phone": "888-216-6147"
       }
     ]
   },
@@ -20860,7 +21429,8 @@
         "zip": "33701",
         "latitude": 27.772067,
         "longitude": -82.64355,
-        "phone": "727-318-6770"
+        "phone": "727-318-6770",
+        "fax": "727-623-0619"
       }
     ]
   },
@@ -20911,7 +21481,34 @@
         "zip": "23462",
         "latitude": 36.8425,
         "longitude": -76.13196,
-        "phone": "757-364-7650"
+        "phone": "757-364-7650",
+        "fax": "757-497-3654",
+        "hours": "M-F 8:30AM-5:30PM, appointments preferred"
+      },
+      {
+        "id": "T000477-onley",
+        "address": "5020 Shore Parkway",
+        "suite": "Suite 1B",
+        "city": "Onley",
+        "state": "VA",
+        "zip": "23418",
+        "latitude": 37.6982289,
+        "longitude": -75.7209345,
+        "phone": "757-646-7357",
+        "fax": "757-497-3654",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "T000477-yorktown",
+        "address": "110 Mid-Atlantic Place",
+        "city": "Yorktown",
+        "state": "VA",
+        "zip": "23693",
+        "latitude": 37.1085628,
+        "longitude": -76.4570376,
+        "phone": "757-364-7650",
+        "fax": "757-497-3654",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -20930,7 +21527,8 @@
         "zip": "20850",
         "latitude": 39.08895,
         "longitude": -77.15119,
-        "phone": "301-545-1500"
+        "phone": "301-545-1500",
+        "fax": "301-545-1512"
       },
       {
         "id": "V000128-hagerstown",
@@ -20941,7 +21539,8 @@
         "zip": "21740",
         "latitude": 39.64151,
         "longitude": -77.7191,
-        "phone": "301-797-2826"
+        "phone": "301-797-2826",
+        "fax": "301-797-2241"
       },
       {
         "id": "V000128-baltimore",
@@ -20965,6 +21564,16 @@
         "latitude": 38.9785971,
         "longitude": -76.4976378,
         "phone": "410-263-1325"
+      },
+      {
+        "id": "V000128-cambridge",
+        "address": "204 Cedar Street",
+        "suite": "Suite 200C",
+        "city": "Cambridge",
+        "state": "MD",
+        "zip": "21613",
+        "latitude": 38.5650251,
+        "longitude": -76.0752663
       }
     ]
   },
@@ -20975,28 +21584,6 @@
     },
     "offices": [
       {
-        "id": "K000393-lafayette",
-        "address": "101 La Rue France",
-        "suite": "Suite 503",
-        "city": "Lafayette",
-        "state": "LA",
-        "zip": "70508",
-        "latitude": 30.1948666,
-        "longitude": -92.014654,
-        "phone": "337-269-5980"
-      },
-      {
-        "id": "K000393-monroe",
-        "address": "1651 Louisville Avenue",
-        "suite": "Suite 108",
-        "city": "Monroe",
-        "state": "LA",
-        "zip": "71201",
-        "latitude": 32.5175209,
-        "longitude": -92.1087384,
-        "phone": "318-361-1489"
-      },
-      {
         "id": "K000393-alexandria",
         "address": "6501 Coliseum Blvd",
         "suite": "Suite 700A",
@@ -21005,7 +21592,102 @@
         "zip": "71303",
         "latitude": 31.2934776,
         "longitude": -92.51565289999999,
-        "phone": "318-445-2892"
+        "phone": "318-445-2892",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-baton_rouge",
+        "address": "7932 Wrenwood Blvd",
+        "suite": "Suite A & B",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "70809",
+        "latitude": 30.4233173,
+        "longitude": -91.1027159,
+        "phone": "225-926-8033",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-houma",
+        "address": "8026 Main St",
+        "suite": "Suite 700",
+        "building": "Government Towers",
+        "city": "Houma",
+        "state": "LA",
+        "zip": "70360",
+        "latitude": 29.5979835,
+        "longitude": -90.7180594,
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-lafayette",
+        "address": "101 La Rue France",
+        "suite": "Suite 503",
+        "city": "Lafayette",
+        "state": "LA",
+        "zip": "70508",
+        "latitude": 30.1948666,
+        "longitude": -92.014654,
+        "phone": "337-269-5980",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-lake_charles",
+        "address": "1 Lakeshore Dr.",
+        "suite": "Suite 530",
+        "city": "Lake Charles",
+        "state": "LA",
+        "zip": "70629",
+        "latitude": 32.5175209,
+        "longitude": -91.102734,
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-mandeville",
+        "address": "21490 Koop Dr.",
+        "building": "Building A",
+        "city": "Mandeville",
+        "state": "LA",
+        "zip": "70471",
+        "latitude": 30.4182357,
+        "longitude": -90.0470795,
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-monroe",
+        "address": "1651 Louisville Ave.",
+        "suite": "Suite 148",
+        "city": "Monroe",
+        "state": "LA",
+        "zip": "71201",
+        "latitude": 32.5175209,
+        "longitude": -92.1087384,
+        "phone": "318-361-1489",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-new_orleans",
+        "address": "500 Poydras St.",
+        "suite": "Suite 364",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70130",
+        "latitude": 29.9484696,
+        "longitude": -90.0711728,
+        "phone": "504-581-6190",
+        "hours": "By appointment only"
+      },
+      {
+        "id": "K000393-shreveport",
+        "address": "401 Market St.",
+        "suite": "Suite 1050",
+        "city": "Shreveport",
+        "state": "LA",
+        "zip": "71101",
+        "latitude": 32.515033,
+        "longitude": -93.7502759,
+        "phone": "318-670-5192",
+        "hours": "By appointment only"
       }
     ]
   },
@@ -21097,7 +21779,7 @@
     "offices": [
       {
         "id": "G000585-los_angeles",
-        "address": "350 S. Bixel Street",
+        "address": "350 S. Bixel St.",
         "suite": "#120",
         "city": "Los Angeles",
         "state": "CA",
@@ -21117,8 +21799,8 @@
     "offices": [
       {
         "id": "N000190-rock_hill",
-        "address": "454 South Anderson Road",
-        "suite": "Ste. 302 B",
+        "address": "454 South Anderson Rd.",
+        "suite": "Suite 302 B",
         "city": "Rock Hill",
         "state": "SC",
         "zip": "29730",
@@ -21126,6 +21808,28 @@
         "longitude": -80.9997773,
         "fax": "803-327-4330",
         "phone": "803-327-1114"
+      },
+      {
+        "id": "N000190-camden",
+        "address": "515 Walnut St.",
+        "building": "County Admin. Building",
+        "city": "Camden",
+        "state": "SC",
+        "zip": "29020",
+        "latitude": 34.2478971,
+        "longitude": -80.6087203,
+        "hours": "10am-12pm on the 2nd Thursday of each month."
+      },
+      {
+        "id": "N000190-gaffney",
+        "address": "110 Railroad Ave.",
+        "building": "Cherokee Admin. Building",
+        "city": "Gaffney",
+        "state": "SC",
+        "zip": "29340",
+        "latitude": 35.076577,
+        "longitude": -81.642889,
+        "hours": "9am-4:30pm every Thursday"
       }
     ]
   },
@@ -21138,7 +21842,7 @@
       {
         "id": "H001078-roswell",
         "address": "85 Mill St",
-        "suite": "Ste. C-300",
+        "suite": "Suite C-300",
         "city": "Roswell",
         "state": "GA",
         "zip": "30075",
