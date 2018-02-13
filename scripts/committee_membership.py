@@ -275,8 +275,8 @@ def run():
   # this limits the IDs from going out of control in this file, while
   # preserving us flexibility to be inclusive of IDs in the main leg files
   def ids_from(moc):
-    ids = {}
-    for id in ["bioguide", "thomas"]:
+    ids = OrderedDict()
+    for id in ["thomas", "bioguide"]:
       if id in moc:
         ids[id] = moc[id]
     if len(ids) == 0:
