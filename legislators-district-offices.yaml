@@ -16852,3 +16852,33 @@
     phone: 801-851-2500
     latitude: 40.232986
     longitude: -111.6578512
+- id:
+    bioguide: J000300
+    govtrack: 412741
+  offices:
+  - id: J000300-birmingham
+    address: 1800 5th Avenue North
+    building: Robert S. Vance Federal Building
+    city: Birmingham
+    state: AL
+    zip: '35203'
+    latitude: 33.517386
+    longitude: -86.810488
+    phone: 205-731-1500
+  - id: J000300-montgomery
+    address: 1 Church Street
+    suite: Suite 500 B
+    city: Montgomery
+    state: AL
+    zip: '36104'
+    latitude: 32.3740843
+    longitude: -86.3100212
+  - id: J000300-mobile
+    address: 41 West I-65 Service Road North
+    suite: Suite 2300-A
+    building: BB&T Centre
+    city: Mobile
+    state: AL
+    zip: '36608'
+    latitude: 30.6907305
+    longitude: -88.12678480000001
