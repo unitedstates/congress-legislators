@@ -60,14 +60,14 @@ def run():
 		office_room = mi.find('office-room').text
 		office_building = mi.find('office-building').text
 
-		office_building_full = office_building.replace("RHOB", "Rayburn HOB")
-		office_building_full = office_building_full.replace("CHOB", "Cannon HOB")
-		office_building_full = office_building_full.replace("LHOB", "Longworth HOB")
+		office_building_full = office_building.replace("RHOB", "Rayburn House Office Building")
+		office_building_full = office_building_full.replace("CHOB", "Cannon House Office Building")
+		office_building_full = office_building_full.replace("LHOB", "Longworth House Office Building")
 
 		office_zip = mi.find('office-zip').text
 		office_zip_suffix = mi.find('office-zip-suffix').text
 
-		office = "{} {}".format(office_room, office_building_full.replace("HOB", "House Office Building"))
+		office = "{} {}".format(office_room, office_building_full)
 		address = "{} {}; Washington DC {}-{}".format(office_room, office_building_full, office_zip, office_zip_suffix)
 
 		phone = mi.find('phone').text
