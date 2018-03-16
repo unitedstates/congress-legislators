@@ -43,12 +43,13 @@ def generate_csv():
 	("type", "type"),
 	("state", "state"),
 	("district", "district"),
+	("class", "senate_class"),
 	("party", "party"),
 	("url", "url"),
 	("address", "address"),
 	("phone", "phone"),
 	("contact_form", "contact_form"),
-	("rss_url", "rss_url")
+	("rss_url", "rss_url"),
 	]
 
 	#pulled from legislators-social-media.yaml
@@ -158,14 +159,14 @@ def generate_json():
         print("Converting %s to JSON..." % filename)
         data = utils.load_data(filename)
         '''handle edge case of incorrect coercion for twitter ids in social media data
-    		json/js can only handle maximum of 53-bit integers, so 64-bit integer twitter ids *must* be stringified 
+    		json/js can only handle maximum of 53-bit integers, so 64-bit integer twitter ids *must* be stringified
     		to consistently preserve value in json. otherwise they may be rounded and malformed
     	'''
         if 'legislators-social-media' in filename:
         	for social_legislator in data:
         		if 'twitter_id' in social_legislator['social']:
         			social_legislator['social']['twitter_id'] = str(social_legislator['social']['twitter_id'])
-  
+
 		#convert yaml to json
         utils.write(
             json.dumps(data, default=utils.format_datetime, indent=2),
