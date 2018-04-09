@@ -1365,7 +1365,7 @@
     fax: 202-228-0378
     contact_form: https://www.wicker.senate.gov/public/index.cfm/contact
     office: 555 Dirksen Senate Office Building
-    state_rank: junior
+    state_rank: senior
 - id:
     bioguide: A000360
     thomas: '01695'
@@ -41279,3 +41279,23 @@
     phone: 202-224-5641
     url: https://www.smith.senate.gov
     contact_form: https://www.smith.senate.gov/content/contact-senator
+- id:
+    bioguide: H001079
+    lis: S395
+    govtrack: 412743
+    wikipedia: Cindy Hyde-Smith
+    wikidata: Q5120540
+  name:
+    first: Cindy
+    last: Hyde-Smith
+  bio:
+    gender: F
+    birthday: '1959-05-10'
+  terms:
+  - type: sen
+    start: '2018-04-09'
+    end: '2021-01-03'
+    state: MS
+    class: 2
+    party: Republican
+    state_rank: junior
