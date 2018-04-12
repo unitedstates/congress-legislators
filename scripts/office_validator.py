@@ -161,7 +161,7 @@ def print_issues(legislator, errors, warnings):
         term = legislator['terms'][-1]
         info = "{} [{} {}] {} ({})".format(
             legislator['id']['bioguide'], term['state'], term['type'],
-            legislator['name']['official_full'], term.get('url', 'no url'))
+            legislator['name'].get('official_full'), term.get('url', 'no url'))
 
     print(info)
 
