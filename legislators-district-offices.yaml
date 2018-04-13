@@ -124,6 +124,7 @@
     latitude: 42.3213842
     longitude: -85.1838246
     phone: 269-205-3823
+    hours: By appointment only
   - id: A000367-grand_rapids
     address: 110 Michigan St. NW
     suite: Suite 460
@@ -335,14 +336,13 @@
     hours: Mon-Fri 9-5:30pm
     phone: 706-320-9477
   - id: B000490-macon
-    address: 682 Cherry St.
-    suite: Suite 302
-    building: City Hall Annex
+    address: 300 Mulberry Street
+    suite: Suite 502
     city: Macon
     state: GA
     zip: '31201'
-    latitude: 32.837156
-    longitude: -83.63049699999999
+    latitude: 32.8356646
+    longitude: -83.6267623
     fax: 478-803-2637
     hours: Mon-Fri 9am-5:30pm
     phone: 478-803-2631
@@ -367,13 +367,13 @@
     thomas: '01464'
   offices:
   - id: B000575-cape_girardeau
-    address: 2502 Tanner Dr.
-    suite: Suite 208
+    address: 338 Broadway
+    suite: Suite 303
     city: Cape Girardeau
     state: MO
-    zip: '63703'
-    latitude: 37.30292850000001
-    longitude: -89.55584789999999
+    zip: '63701'
+    latitude: 37.3064303
+    longitude: -89.5241403
     fax: 573-334-7352
     phone: 573-334-7044
   - id: B000575-clayton
@@ -584,13 +584,13 @@
     thomas: '01558'
   offices:
   - id: B001230-eau_claire
-    address: 402 Graham St.
-    suite: Suite 206
+    address: 500 South Barstow St.
+    suite: Suite LL2
     city: Eau Claire
     state: WI
     zip: '54701'
-    latitude: 44.80949349999999
-    longitude: -91.4995641
+    latitude: 44.8088044
+    longitude: -91.5330934
     phone: 715-832-8424
   - id: B001230-green_bay
     address: 1039 W. Mason
@@ -719,7 +719,7 @@
   offices:
   - id: B001243-clarksville
     address: 128 N. 2nd St.
-    suite: Suite 202
+    suite: Suite 104
     city: Clarksville
     state: TN
     zip: '37040'
@@ -883,7 +883,7 @@
   offices:
   - id: B001261-casper
     address: 100 E. B St.
-    suite: Suite 2201
+    suite: Suite 2004
     city: Casper
     state: WY
     zip: '82601'
@@ -951,14 +951,14 @@
     fax: 719-328-1129
     phone: 719-328-1100
   - id: B001267-denver
-    address: 1127 Sherman St.
-    suite: Suite 150
+    address: 1244 Speer Blvd.
+    building: Cesar E. Chavez Memorial Building
     city: Denver
     state: CO
-    zip: '80203'
-    latitude: 39.734465
-    longitude: -104.9852342
-    fax: 303-455-3358
+    zip: '80204'
+    latitude: 39.7364704
+    longitude: -104.994978
+    fax: 303-455-8851
     phone: 303-455-7600
   - id: B001267-durango
     address: 835 E. 2nd Ave.
@@ -1140,7 +1140,7 @@
     zip: '47547'
     latitude: 38.3919787
     longitude: -86.9304537
-    hours: Tuesday 10:00am - 1:00pm ET
+    hours: 1st and 3rd Tuesday of the month 10:00am - 1:00pm ET
   - id: B001275-terre_haute
     address: 901 Wabash Ave.
     suite: Suite 140
@@ -1159,7 +1159,7 @@
     zip: '47591'
     latitude: 38.6911192
     longitude: -87.52073879999999
-    hours: Wednesdays 9:00am - 12:00pm ET
+    hours: 1st and 3rd Wednesday of the month 9:00am - 12:00pm ET
 - id:
     bioguide: B001277
     govtrack: 412490
@@ -1280,15 +1280,15 @@
     thomas: '02106'
   offices:
   - id: B001285-oxnard
-    address: 300 E. Esplanade Dr.
-    suite: Suite 470
+    address: 201 East Fourth St.
+    suite: Suite 209B
     city: Oxnard
     state: CA
-    zip: '93036'
-    latitude: 34.2283405
-    longitude: -119.1745197
+    zip: '93030'
+    latitude: 34.1993342
+    longitude: -119.1783991
     fax: 805-379-1799
-    hours: Monday-Thursday 9:00am-5:30pm PT; Friday 9:00am-5:00pm PT
+    hours: Call to make an appointment
     phone: 805-379-1779
   - id: B001285-thousand_oaks
     address: 223 E. Thousand Oaks Blvd.
@@ -1310,7 +1310,7 @@
     address: 820 SW Adams St
     city: Peoria
     state: IL
-    zip: '61603'
+    zip: '61602'
     latitude: 40.6855433
     longitude: -89.5987706
     phone: 309-966-1813
@@ -1456,7 +1456,7 @@
     zip: '75979'
     latitude: 30.7753424
     longitude: -94.41539859999999
-    phone: 844-303-8934
+    phone: 409-331-8077
 - id:
     bioguide: B001292
     govtrack: 412657
@@ -1506,7 +1506,7 @@
     suite: Suite 200
     city: Cedar Rapids
     state: IA
-    zip: '50613'
+    zip: '52401'
     latitude: 41.9774049
     longitude: -91.6653635
     fax: 319-364-2994
@@ -1621,14 +1621,12 @@
     hours: 8:30am-4:30pm, M-F
     phone: 267-335-5643
   - id: B001296-philadelphia-1
-    address: 2375 Woodward St.
-    suite: Suite 105
-    building: The Towers
+    address: 8572 Bustleton Ave.
     city: Philadelphia
     state: PA
-    zip: '19115'
-    latitude: 40.0723585
-    longitude: -75.03882949999999
+    zip: '19152'
+    latitude: 40.0730543
+    longitude: -75.049904
     fax: 215-856-3734
     hours: 8:30am-4:30pm, M-F
     phone: 215-335-3355
@@ -1751,6 +1749,15 @@
     latitude: 39.7473432
     longitude: -75.5471367
     phone: 302-830-2330
+  - id: B001303-georgetown
+    address: 28 The Circle
+    suite: Suite 2
+    city: Georgetown
+    state: DE
+    zip: '19947'
+    latitude: 38.6903978
+    longitude: -75.3887458
+    phone: 302-858-4773
 - id:
     bioguide: B001304
     govtrack: 412707
@@ -1867,7 +1874,7 @@
     fax: 253-572-5879
     phone: 253-572-2281
   - id: C000127-vancouver
-    address: 1313 Officers Row.
+    address: 1313 Officers Row
     city: Vancouver
     state: WA
     zip: '98661'
@@ -1932,7 +1939,7 @@
     latitude: 38.3652837
     longitude: -75.6023764
     fax: 202-224-1651
-    phone: 202-224-4524
+    phone: 410-546-4250
 - id:
     bioguide: C000174
     govtrack: 300019
@@ -2083,7 +2090,7 @@
     fax: 208-529-8367
     phone: 208-522-9779
   - id: C000880-lewiston
-    address: 313 'd' St.
+    address: 313 'D' St.
     suite: Suite 105
     city: Lewiston
     state: ID
@@ -2094,7 +2101,7 @@
     phone: 208-743-1492
   - id: C000880-pocatello
     address: 275 S. 5th Ave.
-    suite: Suite 225
+    suite: Suite 100
     city: Pocatello
     state: ID
     zip: '83201'
