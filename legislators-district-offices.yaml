@@ -14390,6 +14390,46 @@
     phone: 718-631-0400
     hours: Mon, Tue, and Thurs 9:00AM - 5:30PM by appointment
 - id:
+    bioguide: S001203
+    govtrack: 412742
+  offices:
+  - id: S001203-moorhead
+    address: 819 Center Avenue
+    suite: 2A
+    city: Moorhead
+    state: MN
+    zip: '56560'
+    phone: 218-284-8721
+    latitude: 46.8750559
+    longitude: -96.7677958
+  - id: S001203-duluth
+    address: 515 W 1st Street
+    suite: '104'
+    city: Duluth
+    state: MN
+    zip: '55802'
+    phone: 218-722-2390
+    latitude: 46.7825302
+    longitude: -92.1069752
+  - id: S001203-saint_paul
+    address: 60 Plato Blvd. East
+    suite: '220'
+    city: Saint Paul
+    state: MN
+    zip: '55107'
+    phone: 651-221-1016
+    latitude: 44.93741180000001
+    longitude: -93.0843115
+  - id: S001203-rochester
+    address: 1202-1/2 7th Street NW
+    suite: '213'
+    city: Rochester
+    state: MN
+    zip: '55901'
+    phone: 507-288-2003
+    latitude: 44.0524692
+    longitude: -92.47637809999999
+- id:
     bioguide: T000193
     govtrack: 400402
     thomas: '01151'
