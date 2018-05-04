@@ -2746,7 +2746,7 @@
     fax: 814-357-0318
     phone: 814-357-0314
   - id: C001070-erie
-    address: 17 S. Park Row.
+    address: 17 S. Park Row
     suite: Suite B-150
     city: Erie
     state: PA
@@ -2967,7 +2967,7 @@
     latitude: 39.6574536
     longitude: -104.8354551
     fax: 720-748-7680
-    hours: M-F 8:30 AM - 5:00 PM
+    hours: M-F 8:30 AM - 5:00 PM. Meetings by appointment only.
     phone: 720-748-7514
 - id:
     bioguide: C001078
@@ -3050,6 +3050,15 @@
     fax: 501-843-4955
     hours: Mon-Fri 8:00AM-5:00PM
     phone: 501-843-3043
+  - id: C001087-dumas
+    address: 101 E. Waterman St.
+    city: Dumas
+    state: AR
+    zip: '71639'
+    latitude: 33.8871725
+    longitude: -91.4917785
+    phone: 501-438-9824
+    hours: Mon-Fri 8:00AM-5:00PM
   - id: C001087-jonesboro
     address: 2400 Highland Dr.
     suite: Suite 300
@@ -3201,6 +3210,7 @@
     longitude: -83.8282158
     fax: 770-297-3390
     phone: 770-297-3388
+    hours: M-F 9am-5pm
 - id:
     bioguide: C001094
     govtrack: 412513
@@ -3224,6 +3234,7 @@
     latitude: 34.0344717
     longitude: -117.0567352
     phone: 909-797-4900
+    hours: Call for availability.
 - id:
     bioguide: C001095
     govtrack: 412508
@@ -3533,6 +3544,7 @@
     latitude: 37.0851283
     longitude: -88.595174
     phone: 270-408-1865
+    hours: M-F 8:30a-4:30p
   - id: C001108-tompkinsville
     address: 200 N. Main St.
     suite: Suite F
@@ -3542,6 +3554,7 @@
     latitude: 36.7006713
     longitude: -85.6929017
     phone: 270-487-9509
+    hours: M-F 8:30a-4:30p
   - id: C001108-madisonville
     address: 67 North Main St.
     city: Madisonville
@@ -3617,7 +3630,7 @@
     zip: '93105'
     latitude: 34.434901
     longitude: -119.746862
-    phone: 805-546-8348
+    phone: 805-730-1710
   - id: C001112-santa_maria
     address: 1619 S. Thornburg St.
     city: Santa Maria
@@ -3632,7 +3645,7 @@
     thomas: '01477'
   offices:
   - id: D000096-chicago
-    address: 2813-15 W. Fifth Ave.
+    address: 2815 W. Fifth Ave.
     city: Chicago
     state: IL
     zip: '60612'
@@ -3640,6 +3653,7 @@
     longitude: -87.6990211
     fax: 773-533-7530
     phone: 773-533-7520
+    hours: M-F 9am-6pm
 - id:
     bioguide: D000191
     govtrack: 400100
@@ -3653,7 +3667,7 @@
     zip: '97420'
     latitude: 43.367748
     longitude: -124.213429
-    fax: 541-269-5760
+    fax: 541-465-6458
     hours: M-F 8:00am-5:00pm
     phone: 541-269-2609
   - id: D000191-eugene
@@ -3675,6 +3689,7 @@
     zip: '97470'
     latitude: 43.2087597
     longitude: -123.3445182
+    fax: 541-465-6458
     hours: M-F 8:00am-5:00pm
     phone: 541-440-3523
 - id:
@@ -4015,12 +4030,13 @@
     longitude: -80.1673666
     phone: 561-470-5440
   - id: D000610-coral_springs
-    address: 1300 Coral Springs Dr.
+    address: 9500 W. Sample Rd.
+    suite: Suite 201
     city: Coral Springs
     state: FL
-    zip: '33071'
-    latitude: 26.2459273
-    longitude: -80.2697548
+    zip: '33065'
+    latitude: 26.2723057
+    longitude: -80.2545075
     phone: 954-255-8336
     hours: By appointment only.
   - id: D000610-fort_lauderdale
@@ -4124,7 +4140,7 @@
     thomas: '02062'
   offices:
   - id: D000616-cleveland
-    address: 301 Keith St.
+    address: 301 Keith St. SW
     suite: Suite 212
     city: Cleveland
     state: TN
@@ -4211,7 +4227,7 @@
     suite: Suite 8
     city: Bozeman
     state: MT
-    zip: '59718'
+    zip: '59715'
     latitude: 45.6788798
     longitude: -111.0390251
     phone: 406-587-3446
@@ -4282,7 +4298,7 @@
     zip: '61280'
     latitude: 40.090932
     longitude: -88.25012439999999
-    fax: 217-403-4691
+    fax: 217-403-4690
     hours: Monday - Friday, 8:30am - 5:00pm
     phone: 217-403-4690
   - id: D000619-decatur
@@ -4585,6 +4601,7 @@
     latitude: 37.4431725
     longitude: -122.1606451
     fax: 650-323-3498
+    hours: Mon - Fri 9am-5pm
     phone: 650-323-2984
 - id:
     bioguide: E000285
@@ -4824,7 +4841,7 @@
     zip: '07960'
     latitude: 40.7964119
     longitude: -74.4835583
-    hours: M-F 9AM-5PM
+    hours: M-F 9AM-5:30PM
     phone: 973-984-0711
 - id:
     bioguide: F000444
@@ -5010,6 +5027,7 @@
     latitude: 30.4436527
     longitude: -97.69572099999999
     fax: 512-373-3511
+    hours: Office hours by appointment.
     phone: 512-373-3378
   - id: F000461-bryan
     address: 3000 Briarcrest Dr.
@@ -5081,13 +5099,13 @@
     fax: 402-391-4725
     phone: 402-391-3411
   - id: F000463-scottsbluff
-    address: 1110 Circle Dr.
-    suite: Suite F2
+    address: 120 East 16th St.
+    suite: Suite 203
     city: Scottsbluff
     state: NE
     zip: '69361'
-    latitude: 41.8680501
-    longitude: -103.6483008
+    latitude: 41.86206
+    longitude: -103.6603539
     fax: 308-630-2321
     phone: 308-630-2329
 - id:
@@ -12577,6 +12595,16 @@
     latitude: 30.438114
     longitude: -84.281289
     phone: 850-599-9100
+  - id: R000595-tampa
+    address: 801 N. Florida Ave.
+    suite: Suite 1130
+    building: Sam M. Gibbons U.S. Courthouse
+    city: Tampa
+    state: FL
+    zip: '33602'
+    latitude: 27.9514532
+    longitude: -82.5282998
+    phone: 813-853-1099
 - id:
     bioguide: R000597
     govtrack: 412572
