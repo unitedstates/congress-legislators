@@ -39,8 +39,8 @@
 
   # for a representative
   - type: rep
-    start: '2015-01-03'    # date of swearing in
-    end: '2017-01-03'      # always the next odd-year Jan 3, until a death/resignation
+    start: '2017-01-03'    # date of swearing in
+    end: '2019-01-03'      # always the next odd-year Jan 3, until a death/resignation
     state: FL              # USPS state abbreviation
     district: 19           # an integer; 0 for At-Large
     party:                 # Republican, Democrat, Independent
