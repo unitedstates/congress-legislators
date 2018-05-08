@@ -42,8 +42,10 @@ def run():
 
 		mi = root.findall(query_str)[0].find('member-info')
 
-		if (mi.find('bioguideID').text != moc['id']['bioguide']):
-			print("Warning: Bioguide ID did not match for %s%02d" % (term["state"], term["district"]))
+		if (mi.find('bioguideID').text != moc['id'].get('bioguide')):
+			print("Warning: Bioguide ID did not match for %s%02d (%s != %s)" % (
+				term["state"], term["district"],
+				mi.find('bioguideID').text, moc['id']['bioguide']))
 
 		# for now, no automatic name updates since there is disagremeent on how to handle
 		# firstname = mi.find('firstname').text
