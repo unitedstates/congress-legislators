@@ -10707,122 +10707,6 @@
   },
   {
     "id": {
-      "bioguide": "D000604",
-      "thomas": "01799",
-      "govtrack": 400648,
-      "opensecrets": "N00026171",
-      "votesmart": 9121,
-      "fec": [
-        "H4PA15087"
-      ],
-      "cspan": 1011395,
-      "wikipedia": "Charlie Dent",
-      "house_history": 12583,
-      "ballotpedia": "Charles W. Dent",
-      "maplight": 654,
-      "icpsr": 20526,
-      "wikidata": "Q556034",
-      "google_entity_id": "kg:/m/04fcm3"
-    },
-    "name": {
-      "first": "Charles",
-      "middle": "W.",
-      "last": "Dent",
-      "official_full": "Charles W. Dent"
-    },
-    "bio": {
-      "birthday": "1960-05-24",
-      "gender": "M"
-    },
-    "terms": [
-      {
-        "type": "rep",
-        "start": "2005-01-04",
-        "end": "2007-01-03",
-        "state": "PA",
-        "district": 15,
-        "party": "Republican"
-      },
-      {
-        "type": "rep",
-        "start": "2007-01-04",
-        "end": "2009-01-03",
-        "state": "PA",
-        "district": 15,
-        "party": "Republican",
-        "url": "http://dent.house.gov"
-      },
-      {
-        "type": "rep",
-        "start": "2009-01-06",
-        "end": "2011-01-03",
-        "state": "PA",
-        "district": 15,
-        "party": "Republican",
-        "url": "http://dent.house.gov"
-      },
-      {
-        "type": "rep",
-        "start": "2011-01-05",
-        "end": "2013-01-03",
-        "state": "PA",
-        "district": 15,
-        "party": "Republican",
-        "url": "http://dent.house.gov",
-        "address": "1009 Longworth HOB; Washington DC 20515-3815",
-        "phone": "202-225-6411",
-        "fax": "202-226-0778",
-        "contact_form": "http://dent.house.gov/verifyemail.shtml",
-        "office": "1009 Longworth House Office Building"
-      },
-      {
-        "type": "rep",
-        "start": "2013-01-03",
-        "end": "2015-01-03",
-        "state": "PA",
-        "party": "Republican",
-        "district": 15,
-        "url": "http://dent.house.gov",
-        "address": "2455 Rayburn HOB; Washington DC 20515-3815",
-        "phone": "202-225-6411",
-        "fax": "202-226-0778",
-        "contact_form": "https://dent.house.gov/?p=ContactForm",
-        "office": "2455 Rayburn House Office Building",
-        "rss_url": "http://dent.house.gov/?a=rss.feed"
-      },
-      {
-        "type": "rep",
-        "start": "2015-01-06",
-        "end": "2017-01-03",
-        "state": "PA",
-        "party": "Republican",
-        "district": 15,
-        "url": "https://dent.house.gov",
-        "address": "2211 Rayburn HOB; Washington DC 20515-3815",
-        "phone": "202-225-6411",
-        "fax": "202-226-0778",
-        "contact_form": "https://dent.house.gov/?p=ContactForm",
-        "office": "2211 Rayburn House Office Building",
-        "rss_url": "http://dent.house.gov/?a=rss.feed"
-      },
-      {
-        "type": "rep",
-        "start": "2017-01-03",
-        "end": "2019-01-03",
-        "state": "PA",
-        "district": 15,
-        "party": "Republican",
-        "phone": "202-225-6411",
-        "url": "https://dent.house.gov",
-        "rss_url": "http://dent.house.gov/?a=rss.feed",
-        "address": "2082 Rayburn House Office Building; Washington DC 20515-3815",
-        "office": "2082 Rayburn House Office Building",
-        "fax": "202-226-0778"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "D000616",
       "thomas": "02062",
       "govtrack": 412477,
@@ -50918,7 +50802,8 @@
     },
     "name": {
       "first": "Conor",
-      "last": "Lamb"
+      "last": "Lamb",
+      "official_full": "Conor Lamb"
     },
     "bio": {
       "gender": "M",
@@ -50953,7 +50838,8 @@
     },
     "name": {
       "first": "Debbie",
-      "last": "Lesko"
+      "last": "Lesko",
+      "official_full": "Debbie Lesko"
     },
     "bio": {
       "gender": "F",
@@ -50966,7 +50852,10 @@
         "end": "2019-01-03",
         "state": "AZ",
         "district": 8,
-        "party": "Republican"
+        "party": "Republican",
+        "address": "2435 Rayburn House Office Building; Washington DC 20515-0308",
+        "office": "2435 Rayburn House Office Building",
+        "phone": "202-225-4576"
       }
     ]
   }
