@@ -28,6 +28,7 @@ def generate_csv():
 	("thomas", "thomas_id"),
 	("opensecrets", "opensecrets_id"),
 	("lis","lis_id"),
+	("fec","fec_ids"),
 	("cspan", "cspan_id"),
 	("govtrack", "govtrack_id"),
 	("votesmart", "votesmart_id"),
@@ -122,7 +123,11 @@ def generate_csv():
 
 			for pair in crosswalk_fields:
 				if pair[0] in legislator['id']:
-					legislator_row.append(legislator['id'][pair[0]])
+					value = legislator['id'][pair[0]]
+					if isinstance(value, list):
+						# make FEC IDs comma-separated
+						value = ",".join(value)
+					legislator_row.append(value)
 				else:
 					legislator_row.append(None)
 
