@@ -1,0 +1,38 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.5-browsers
+    steps:
+      # Set up.
+      - checkout      
+      - run: sudo pip install -r scripts/requirements.txt
+
+      # Run tests.
+      - run: python test/workout.py
+      - run: pyflakes .
+      - run: python test/are_files_linted.py
+      - run: python test/validate.py
+
+  # Update the gh-pages branch. This requires that
+  # CircleCI be set up with read-write permission
+  # on the repo, which is not CircleCI's default.
+  deploy:
+    docker:
+      - image: circleci/python:3.5-browsers
+    steps:
+      - checkout
+      - run: sudo pip install -r scripts/requirements.txt
+      - run: scripts/update_gh_pages.sh
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
