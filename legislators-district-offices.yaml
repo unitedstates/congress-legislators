@@ -16746,3 +16746,64 @@
     zip: '36608'
     latitude: 30.6907305
     longitude: -88.12678480000001
+- id:
+    bioguide: H001079
+    govtrack: 412743
+  offices:
+  - id: H001079-jackson
+    address: 190 East Capitol St.
+    suite: '#550'
+    city: Jackson
+    state: MS
+    zip: '39201'
+    latitude: 32.3004269
+    longitude: -90.1867448
+    fax: 601-965-4919
+    phone: 601-965-4459
+  - id: H001079-oxford
+    address: 911 Jackson Ave.
+    suite: '#249'
+    city: Oxford
+    state: MS
+    zip: '38655'
+    latitude: 34.3672392
+    longitude: -89.5212463
+    fax: 662-236-7618
+    phone: 662-236-1018
+  - id: H001079-gulfport
+    address: 2012 15th Street
+    suite: '#451'
+    city: Gulfport
+    state: MS
+    zip: '39201'
+    latitude: 30.3701149
+    longitude: -89.0870838
+    fax: 228-867-9789
+    phone: 228-867-9710
+- id:
+    bioguide: L000588
+    govtrack: 412744
+  offices:
+  - id: L000588-mt_lebanon
+    address: 504 Washington Rd
+    city: Mt Lebanon
+    state: PA
+    zip: '15228'
+    latitude: 40.3841255
+    longitude: -80.0440158
+    fax: 412-429-5092
+    phone: 412-344-5583
+- id:
+    bioguide: L000589
+    govtrack: 412745
+  offices:
+  - id: L000589-glendale
+    address: 7121 W Bell Rd
+    suite: '#200'
+    city: Glendale
+    state: AZ
+    zip: '85308'
+    fax: 623-776-7832
+    latitude: 33.6373437
+    longitude: -112.2108779
+    phone: 623-776-7911
