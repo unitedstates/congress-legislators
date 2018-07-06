@@ -132,7 +132,7 @@ def check_legislator_offices(legislator_offices, legislator):
 
         if (office.get('address') and
                 not (office.get('latitude') and office.get('longitude'))):
-            errors.append("Office %s needs geocoding" % office_id)
+            warnings.append("Office %s missing geocode" % office_id)
 
         if not office.get('address') and not office.get('phone'):
             errors.append("Office %s needs at least address or phone" % office_id)
