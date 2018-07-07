@@ -12,6 +12,7 @@
     latitude: 34.181059
     longitude: -86.840631
     phone: 256-734-6043
+    fax: 256-737-0885
   - id: A000055-gadsden
     address: 600 Broad St.
     suite: Suite 107
@@ -21,6 +22,7 @@
     latitude: 34.01421000000001
     longitude: -86.006846
     phone: 256-546-0201
+    fax: 256-546-8778
   - id: A000055-jasper
     address: 1710 Alabama Ave.
     suite: '247'
@@ -31,6 +33,7 @@
     latitude: 33.83438
     longitude: -87.274935
     phone: 205-221-2310
+    fax: 205-221-9035
   - id: A000055-tuscumbia
     address: 1011 George Wallace Blvd.
     suite: Suite 146
@@ -851,6 +854,7 @@
     latitude: 28.121418
     longitude: -82.74161199999999
     phone: 727-940-5860
+    fax: 727-940-5861
 - id:
     bioguide: B001260
     govtrack: 412196
@@ -6042,13 +6046,10 @@
     govtrack: 412723
   offices:
   - id: G000582-san_juan
-    address: Ave Juan Ponce De León
-    building: Edificio Antigua Escuela de Medicina Tropica
+    address: P.O. Box 9023958
     city: San Juan
     state: PR
-    zip: '00901'
-    latitude: 18.4669792
-    longitude: -66.1040007
+    zip: 00902-3958
     fax: 787-729-6824
     phone: 787-723-6333
 - id:
@@ -7678,7 +7679,7 @@
     latitude: 41.6511319
     longitude: -70.2939487
     fax: 508-790-1959
-    phone: 508-771-0666
+    phone: 508-771-6868
   - id: K000375-new_bedford
     address: 128 Union Street
     suite: Suite 103
@@ -9144,7 +9145,7 @@
     zip: 11102-1391
     latitude: 40.7672194
     longitude: -73.9223996
-    fax: 212-860-0704
+    fax: 718-932-1805
     hours: Monday 9:30am – 2:00pm; Tuesday – Thursday 9:30am – 5:00pm; Friday 10:00am
       – 4:00pm
     phone: 718-932-1804
@@ -9155,7 +9156,7 @@
     zip: 11211-2228
     latitude: 40.7155784
     longitude: -73.94987139999999
-    fax: 212-860-0704
+    fax: 718-349-5973
     hours: Tuesday 9:00am – 5:00pm
     phone: 718-349-5972
   - id: M000087-new_york
@@ -10559,6 +10560,7 @@
     latitude: 37.5534549
     longitude: -77.4731247
     phone: 804-486-1840
+    fax: 804-269-4139
   - id: M001200-suffolk
     address: 131 N. Saratoga Street
     suite: Suite B
@@ -12151,7 +12153,7 @@
     phone: 630-232-0006
     hours: Call to make an appointment.
   - id: R000580-west_chicago
-    address: 2700 W. International Dr.
+    address: 2700 International Dr.
     suite: Suite 304
     city: West Chicago
     state: IL
@@ -14278,6 +14280,7 @@
     latitude: 27.8999663
     longitude: -81.596459
     hours: Monday and Tuesday, 9AM-5PM
+    phone: 202-600-0843
   - id: S001200-winter_haven
     address: 451 3rd Street NW
     city: Winter Haven
@@ -14491,12 +14494,13 @@
     hours: Mon-Fri 9am-5:30pm
     phone: 707-542-7182
   - id: T000460-vallejo
-    address: 985 Walnut Ave.
+    address: 420 Virginia St.
+    suite: Suite 1C
     city: Vallejo
     state: CA
-    zip: '94592'
-    latitude: 38.0989522
-    longitude: -122.2728556
+    zip: '94590'
+    latitude: 38.1023237
+    longitude: -122.2557289
     fax: 707-645-1870
     hours: Mon-Fri 9am-5.30pm
     phone: 707-645-1888
@@ -15834,7 +15838,7 @@
     zip: '78701'
     latitude: 30.2720399
     longitude: -97.7409012
-    fax: 512-473-8946
+    fax: 202-225-9692
     hours: M-F 9:00 AM - 5:30 PM
     phone: 512-473-8910
   - id: W000816-cleburne
@@ -15845,7 +15849,7 @@
     zip: '76033'
     latitude: 32.3462862
     longitude: -97.3858312
-    fax: 817-774-2576
+    fax: 202-225-9692
     phone: 817-774-2575
 - id:
     bioguide: W000817
