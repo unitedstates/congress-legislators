@@ -5510,8 +5510,6 @@
     city: Lowville
     state: NY
     zip: '13367'
-    latitude: 43.786736
-    longitude: -75.4918505
     fax: 315-376-6118
     phone: 315-376-6118
   - id: G000555-mahopac
@@ -5519,8 +5517,6 @@
     city: Mahopac
     state: NY
     zip: '10541'
-    latitude: 41.372316
-    longitude: -73.733465
     fax: 845-875-9099
     phone: 845-875-4585
   - id: G000555-new_york
@@ -11432,8 +11428,6 @@
     city: Frisco
     state: CO
     zip: '80443'
-    latitude: 39.5744309
-    longitude: -106.0975203
     phone: 970-409-7301
 - id:
     bioguide: P000599
@@ -13684,21 +13678,21 @@
     thomas: '01962'
   offices:
   - id: S001177-rota
-    suite: P.O. Box 1361
+    address: P.O. Box 1361
     city: Rota
     state: MP
     zip: '96951'
     fax: 670-532-2649
     phone: 670-532-2647
   - id: S001177-saipan
-    suite: P.O. Box 504879
+    address: P.O. Box 504879
     city: Saipan
     state: MP
     zip: '96950'
     fax: 670-323-2649
     phone: 670-323-2647
   - id: S001177-tinian
-    suite: PO Box 520394
+    address: PO Box 520394
     city: Tinian
     state: MP
     zip: '96952'
