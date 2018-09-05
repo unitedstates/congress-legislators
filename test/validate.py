@@ -223,6 +223,12 @@ def check_term(term, prev_term, current=None, current_mocs=None):
   if term.get("how") not in (None, "appointment",):
     error(rtyaml.dump(term) + " has invalid 'how'.")
 
+  # Check end-type.
+  if term.get("end-type") not in (None, "special-election",):
+    error(rtyaml.dump(term) + " has invalid 'end-type'.")
+  if term.get("end-type") == "special-election" and term.get("how") != "appointment":
+    error(rtyaml.dump(term) + " can't have an 'end-type' without being an appointed senator.")
+
   # Check state, district, class, state_rank.
   if term.get("state") not in utils.states:
     error(rtyaml.dump(term) + " has invalid state.")

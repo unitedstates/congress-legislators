@@ -40961,7 +40961,9 @@
   terms:
   - type: sen
     start: '2018-01-03'
-    end: '2021-01-03'
+    end: '2018-11-06'
+    how: appointment
+    end-type: special-election
     state: MN
     class: 2
     party: Democrat
@@ -40971,7 +40973,6 @@
     phone: 202-224-5641
     url: https://www.smith.senate.gov
     contact_form: https://www.smith.senate.gov/content/contact-senator
-    how: appointment
 - id:
     bioguide: H001079
     lis: S395
@@ -40991,7 +40992,9 @@
   terms:
   - type: sen
     start: '2018-04-09'
-    end: '2021-01-03'
+    end: '2018-11-06'
+    how: appointment
+    end-type: special-election
     state: MS
     class: 2
     party: Republican
@@ -41001,7 +41004,6 @@
     address: G12 Dirksen Senate Office Building Washington DC 20510
     office: G12 Dirksen Senate Office Building
     phone: 202-224-5054
-    how: appointment
 - id:
     bioguide: L000588
     fec:
@@ -41163,8 +41165,9 @@
     office: 730 Hart Senate Office Building
   - type: sen
     start: '2018-09-05'
-    end: '2023-01-03'
+    end: '2020-11-03'
     how: appointment
+    end-type: special-election
     state: AZ
     class: 3
     state_rank: junior
