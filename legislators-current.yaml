@@ -41078,3 +41078,86 @@
     address: 2331 Rayburn House Office Building; Washington DC 20515-4327
     office: 2331 Rayburn House Office Building
     phone: 202-225-7742
+- id:
+    bioguide: K000352
+    thomas: '00655'
+    lis: S243
+    govtrack: 300062
+    opensecrets: N00006406
+    votesmart: 26721
+    icpsr: 15429
+    fec:
+    - S4AZ00030
+    house_history: 16529
+    wikipedia: Jon Kyl
+    wikidata: Q371031
+    google_entity_id: kg:/m/01y0mp
+  name:
+    first: Jon
+    last: Kyl
+    official_full: Jon Kyl
+  bio:
+    birthday: '1942-04-25'
+    gender: M
+    religion: Presbyterian
+  terms:
+  - type: rep
+    start: '1987-01-06'
+    end: '1989-01-03'
+    state: AZ
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1989-01-03'
+    end: '1991-01-03'
+    state: AZ
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1991-01-03'
+    end: '1993-01-03'
+    state: AZ
+    district: 4
+    party: Republican
+  - type: rep
+    start: '1993-01-05'
+    end: '1995-01-03'
+    state: AZ
+    district: 4
+    party: Republican
+  - type: sen
+    start: '1995-01-04'
+    end: '2001-01-03'
+    state: AZ
+    class: 1
+    party: Republican
+  - type: sen
+    start: '2001-01-03'
+    end: '2007-01-03'
+    state: AZ
+    class: 1
+    party: Republican
+    url: http://kyl.senate.gov/
+  - type: sen
+    start: '2007-01-04'
+    end: '2013-01-03'
+    state: AZ
+    class: 1
+    party: Republican
+    url: http://kyl.senate.gov/
+    address: 730 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
+    phone: 202-224-4521
+    fax: 202-224-2207
+    contact_form: http://www.kyl.senate.gov/contact.cfm
+    office: 730 Hart Senate Office Building
+  - type: sen
+    start: '2018-09-05'
+    end: '2023-01-03'
+    state: AZ
+    class: 3
+    state_rank: junior
+    party: Republican
+    address: 218 Russell Senate Office Building Washington DC 20510
+    office: 218 Russell Senate Office Building
+    phone: 202-224-2235
+    fax: 202-228-2862
