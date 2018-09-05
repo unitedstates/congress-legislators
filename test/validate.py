@@ -219,6 +219,10 @@ def check_term(term, prev_term, current=None, current_mocs=None):
     if current and (end < now):
       error(rtyaml.dump(term) + " has an end date in the past but is in the current file.")
 
+  # Check how.
+  if term.get("how") not in (None, "appointment",):
+    error(rtyaml.dump(term) + " has invalid 'how'.")
+
   # Check state, district, class, state_rank.
   if term.get("state") not in utils.states:
     error(rtyaml.dump(term) + " has invalid state.")

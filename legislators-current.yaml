@@ -810,6 +810,7 @@
     class: 1
     party: Democrat
     url: http://menendez.senate.gov/
+    how: appointment
   - type: sen
     start: '2007-01-04'
     end: '2013-01-03'
@@ -1254,6 +1255,7 @@
     fax: 202-224-1724
     contact_form: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=ContactUs.ContactForm
     office: 307 Dirksen Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -1353,6 +1355,7 @@
     fax: 202-228-0378
     contact_form: http://www.wicker.senate.gov/public/index.cfm?FuseAction=Contact.EMailSenatorWicker
     office: 555 Dirksen Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -2631,6 +2634,7 @@
     fax: 202-228-0282
     contact_form: http://www.gillibrand.senate.gov/contact/
     office: 478 Russell Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -3370,6 +3374,7 @@
     class: 3
     party: Democrat
     url: http://bennet.senate.gov/
+    how: appointment
   - type: sen
     start: '2011-01-05'
     end: '2017-01-03'
@@ -19526,6 +19531,7 @@
   - type: sen
     start: '2003-01-07'
     end: '2005-01-03'
+    how: appointment
     state: AK
     class: 3
     party: Republican
@@ -25508,6 +25514,7 @@
     state_rank: junior
     contact_form: http://www.scott.senate.gov/contact/email-me
     rss_url: http://www.scott.senate.gov/rss.xml
+    how: appointment
   - type: sen
     start: '2015-01-06'
     end: '2017-01-03'
@@ -30744,6 +30751,7 @@
     phone: 202-224-6244
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
     office: 361a Russell Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -31164,6 +31172,7 @@
     url: http://www.schatz.senate.gov
     state_rank: senior
     contact_form: http://www.schatz.senate.gov/contact
+    how: appointment
   - type: sen
     start: '2015-01-06'
     end: '2017-01-03'
@@ -40962,6 +40971,7 @@
     phone: 202-224-5641
     url: https://www.smith.senate.gov
     contact_form: https://www.smith.senate.gov/content/contact-senator
+    how: appointment
 - id:
     bioguide: H001079
     lis: S395
@@ -40991,6 +41001,7 @@
     address: G12 Dirksen Senate Office Building Washington DC 20510
     office: G12 Dirksen Senate Office Building
     phone: 202-224-5054
+    how: appointment
 - id:
     bioguide: L000588
     fec:
@@ -41153,6 +41164,7 @@
   - type: sen
     start: '2018-09-05'
     end: '2023-01-03'
+    how: appointment
     state: AZ
     class: 3
     state_rank: junior
