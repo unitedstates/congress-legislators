@@ -810,6 +810,7 @@
     class: 1
     party: Democrat
     url: http://menendez.senate.gov/
+    how: appointment
   - type: sen
     start: '2007-01-04'
     end: '2013-01-03'
@@ -1254,6 +1255,7 @@
     fax: 202-224-1724
     contact_form: http://www.barrasso.senate.gov/public/index.cfm?FuseAction=ContactUs.ContactForm
     office: 307 Dirksen Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -1353,6 +1355,7 @@
     fax: 202-228-0378
     contact_form: http://www.wicker.senate.gov/public/index.cfm?FuseAction=Contact.EMailSenatorWicker
     office: 555 Dirksen Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -2631,6 +2634,7 @@
     fax: 202-228-0282
     contact_form: http://www.gillibrand.senate.gov/contact/
     office: 478 Russell Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -3370,6 +3374,7 @@
     class: 3
     party: Democrat
     url: http://bennet.senate.gov/
+    how: appointment
   - type: sen
     start: '2011-01-05'
     end: '2017-01-03'
@@ -3391,12 +3396,12 @@
     class: 3
     state_rank: senior
     party: Democrat
-    url: https://www.bennet.senate.gov
+    url: https://www.bennet.senate.gov/public
     rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
     address: 261 Russell Senate Office Building Washington DC 20510
     office: 261 Russell Senate Office Building
     phone: 202-224-5852
-    contact_form: https://www.bennet.senate.gov/?p=contact
+    contact_form: https://www.bennet.senate.gov/public/index.cfm/contact
     fax: 202-228-5097
 - id:
     bioguide: B001257
@@ -19526,6 +19531,7 @@
   - type: sen
     start: '2003-01-07'
     end: '2005-01-03'
+    how: appointment
     state: AK
     class: 3
     party: Republican
@@ -25508,6 +25514,7 @@
     state_rank: junior
     contact_form: http://www.scott.senate.gov/contact/email-me
     rss_url: http://www.scott.senate.gov/rss.xml
+    how: appointment
   - type: sen
     start: '2015-01-06'
     end: '2017-01-03'
@@ -28741,7 +28748,7 @@
     office: 110 Hart Senate Office Building
     phone: 202-224-4654
     url: https://www.vanhollen.senate.gov
-    contact_form: https://www.vanhollen.senate.gov/content/contact-senator
+    contact_form: http://www.vanhollen.senate.gov/contact/email
     fax: 202-225-0375
 - id:
     bioguide: V000081
@@ -30744,6 +30751,7 @@
     phone: 202-224-6244
     contact_form: http://www.heller.senate.gov/public/index.cfm/contact-form
     office: 361a Russell Senate Office Building
+    how: appointment
   - type: sen
     start: '2013-01-03'
     end: '2019-01-03'
@@ -31164,6 +31172,7 @@
     url: http://www.schatz.senate.gov
     state_rank: senior
     contact_form: http://www.schatz.senate.gov/contact
+    how: appointment
   - type: sen
     start: '2015-01-06'
     end: '2017-01-03'
@@ -32355,67 +32364,6 @@
     rss_url: http://yoho.house.gov/rss.xml
     address: 511 Cannon House Office Building; Washington DC 20515-0903
     office: 511 Cannon House Office Building
-- id:
-    govtrack: 412526
-    bioguide: D000621
-    thomas: '02116'
-    cspan: 79744
-    votesmart: 137630
-    wikipedia: Ron DeSantis
-    fec:
-    - H2FL00292
-    opensecrets: N00034746
-    ballotpedia: Ron DeSantis
-    maplight: 1750
-    icpsr: 21318
-    wikidata: Q3105215
-    google_entity_id: kg:/m/0l8mn35
-  name:
-    first: Ron
-    last: DeSantis
-    official_full: Ron DeSantis
-  bio:
-    gender: M
-    birthday: '1978-09-14'
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: FL
-    party: Republican
-    district: 6
-    office: 427 Cannon House Office Building
-    address: 427 Cannon HOB; Washington DC 20515-0906
-    phone: 202-225-2706
-    url: http://desantis.house.gov
-    rss_url: http://desantis.house.gov/rss.xml
-    contact_form: https://desantis.house.gov/contact/email-me
-    fax: 202-226-6299
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: FL
-    party: Republican
-    district: 6
-    office: 308 Cannon House Office Building
-    address: 308 Cannon HOB; Washington DC 20515-0906
-    phone: 202-225-2706
-    url: http://desantis.house.gov
-    rss_url: http://desantis.house.gov/rss.xml
-    contact_form: https://desantis.house.gov/contact/email-me
-    fax: 202-226-6299
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: FL
-    district: 6
-    party: Republican
-    phone: 202-225-2706
-    url: https://desantis.house.gov
-    rss_url: http://desantis.house.gov/rss.xml
-    address: 1524 Longworth House Office Building; Washington DC 20515-0906
-    office: 1524 Longworth House Office Building
-    fax: 202-226-6299
 - id:
     govtrack: 412529
     bioguide: F000462
@@ -40952,7 +40900,9 @@
   terms:
   - type: sen
     start: '2018-01-03'
-    end: '2021-01-03'
+    end: '2018-11-06'
+    how: appointment
+    end-type: special-election
     state: MN
     class: 2
     party: Democrat
@@ -40981,7 +40931,9 @@
   terms:
   - type: sen
     start: '2018-04-09'
-    end: '2021-01-03'
+    end: '2018-11-06'
+    how: appointment
+    end-type: special-election
     state: MS
     class: 2
     party: Republican
@@ -41152,12 +41104,43 @@
     office: 730 Hart Senate Office Building
   - type: sen
     start: '2018-09-05'
-    end: '2023-01-03'
+    end: '2020-11-03'
+    how: appointment
+    end-type: special-election
     state: AZ
     class: 3
     state_rank: junior
     party: Republican
-    address: 218 Russell Senate Office Building Washington DC 20510
-    office: 218 Russell Senate Office Building
+    address: G12 Dirksen Senate Office Building Washington DC 20510
+    office: G12 Dirksen Senate Office Building
     phone: 202-224-2235
     fax: 202-228-2862
+    url: https://www.senate.gov/senators/115thCongress/Kyl_Jon.htm
+    contact_form: ''
+- id:
+    bioguide: B001306
+    fec:
+    - H8OH12180
+    govtrack: 412747
+    opensecrets: N00042194
+    wikipedia: Troy Balderson
+    wikidata: Q16194422
+    ballotpedia: Troy Balderson
+  name:
+    first: Troy
+    last: Balderson
+    official_full: Troy Balderson
+  bio:
+    gender: M
+    birthday: '1962-01-16'
+  terms:
+  - type: rep
+    start: '2018-09-05'
+    end: '2019-01-03'
+    state: OH
+    district: 12
+    party: Republican
+    url: https://balderson.house.gov/
+    address: 1203 Longworth House Office Building; Washington DC 20515-3512
+    office: 1203 Longworth House Office Building
+    phone: 202-225-5355

@@ -5586,50 +5586,6 @@
   },
   {
     "id": {
-      "bioguide": "D000621",
-      "govtrack": 412526,
-      "thomas": "02116"
-    },
-    "offices": [
-      {
-        "id": "D000621-deland",
-        "address": "120 S. Florida Ave.",
-        "suite": "Suite 324",
-        "city": "DeLand",
-        "state": "FL",
-        "zip": "32720",
-        "latitude": 29.0277754,
-        "longitude": -81.3063319,
-        "fax": "386-279-7430",
-        "phone": "386-279-7343"
-      },
-      {
-        "id": "D000621-palm_coast",
-        "address": "31 Lupi Court",
-        "suite": "Suite 130",
-        "city": "Palm Coast",
-        "state": "FL",
-        "zip": "32137",
-        "latitude": 29.5548947,
-        "longitude": -81.2363639,
-        "fax": "386-302-0474",
-        "phone": "386-302-0471"
-      },
-      {
-        "id": "D000621-port_orange",
-        "address": "1000 City Center Cir.",
-        "city": "Port Orange",
-        "state": "FL",
-        "zip": "32129",
-        "latitude": 29.1265173,
-        "longitude": -81.02072489999999,
-        "fax": "386-756-9903",
-        "phone": "386-756-9798"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "D000623",
       "govtrack": 412613,
       "thomas": "02227"
@@ -21824,6 +21780,55 @@
         "latitude": 33.6373437,
         "longitude": -112.2108779,
         "phone": "623-776-7911"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "C001115",
+      "govtrack": 412746
+    },
+    "offices": [
+      {
+        "id": "C001115-corpus_christi",
+        "address": "101 N. Shoreline Blvd.",
+        "suite": "Suite 300",
+        "city": "Corpus Christi",
+        "state": "TX",
+        "zip": "78401",
+        "latitude": 27.7917948,
+        "longitude": -97.3931982,
+        "phone": "361-884-2222"
+      },
+      {
+        "id": "C001115-victoria",
+        "address": "5606 N. Navarro St.",
+        "suite": "Suite 203",
+        "city": "Victoria",
+        "state": "TX",
+        "zip": "77904",
+        "latitude": 28.8476874,
+        "longitude": -96.9978986,
+        "phone": "361-894-6446"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "B001306",
+      "govtrack": 412747
+    },
+    "offices": [
+      {
+        "id": "B001306-worthington",
+        "address": "250 E. Wilson Bridge Rd.",
+        "suite": "Suite 100",
+        "city": "Worthington",
+        "state": "OH",
+        "zip": "43085",
+        "latitude": 40.1107173,
+        "longitude": -83.00746439999999,
+        "phone": "614-523-2555"
       }
     ]
   }
