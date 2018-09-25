@@ -18,6 +18,10 @@ def generate_csv():
 	bio_fields = [
 	("last", "last_name"),
 	("first", "first_name"),
+	("middle", "middle_name"),
+	("suffix", "suffix"),
+	("nickname", "nickname"),
+	("official_full", "full_name"),
 	("birthday", "birthday"),
 	("gender", "gender")
 	]
