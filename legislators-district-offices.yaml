@@ -515,6 +515,7 @@
     longitude: -77.7977748
     fax: 252-977-7902
     phone: 252-977-9522
+    hours: By appointment only.
   - id: B001135-wilmington
     address: 201 N. Front St.
     suite: Suite 809
@@ -3359,8 +3360,9 @@
     fax: 214-361-3518
     phone: 214-599-8749
   - id: C001098-houston
-    address: 808 Travis St.
-    suite: Suite 1420
+    address: 1919 Smith St.
+    suite: Suite 9047
+    building: The Mickey Leland Federal Building
     city: Houston
     state: TX
     zip: '77002'
@@ -5004,8 +5006,8 @@
     fax: 402-391-4725
     phone: 402-391-3411
   - id: F000463-scottsbluff
-    address: 1110 Circle Dr.
-    suite: Suite F2
+    address: 120 East 16th St.
+    suite: Suite 203
     city: Scottsbluff
     state: NE
     zip: '69361'
@@ -5653,7 +5655,7 @@
     phone: 970-259-1231
   - id: G000562-fort_collins
     address: 2001 S. Shields St.
-    building: Building H
+    building: Building H, Suite 104
     city: Fort Collins
     state: CO
     zip: '80526'
@@ -6240,6 +6242,16 @@
     govtrack: 412218
     thomas: '01863'
   offices:
+  - id: H001041-elko
+    address: 3920 E. Idaho St.
+    suite: Suite 2A
+    city: Elko
+    state: NV
+    zip: '89801'
+    latitude: 40.8639513
+    longitude: -115.7352068
+    fax: 775-738-2004
+    phone: 775-738-2001
   - id: H001041-las_vegas
     address: 8930 W. Sunset Rd.
     suite: Suite 230
@@ -6640,10 +6652,6 @@
     longitude: -101.2950057
     fax: 701-838-1381
     phone: 701-838-1361
-  - id: H001061-williston
-    city: Williston
-    state: ND
-    phone: 701-580-4535
 - id:
     bioguide: H001064
     govtrack: 412584
@@ -7003,15 +7011,15 @@
     fax: 918-426-0935
     phone: 918-426-0933
   - id: I000024-oklahoma_city
-    address: 1900 NW. Expressway
-    suite: Suite 1210
+    address: 3817 NW Expressway
+    suite: "#780"
     city: Oklahoma City
     state: OK
-    zip: '73118'
-    latitude: 35.5219627
-    longitude: -97.54575969999999
-    fax: 405-608-4120
-    phone: 405-608-4381
+    zip: '73112'
+    latitude: 35.5361791
+    longitude: -97.5879455
+    fax: 405-208-8841
+    phone: 405-604-0917
   - id: I000024-tulsa
     address: 1924 S. Utica Ave.
     suite: '#530'
@@ -12174,6 +12182,7 @@
   - id: R000584-coeur_d_alene
     address: 610 Hubbard
     suite: Suite 213
+    building: Harbor Plaza
     city: Coeur d'Alene
     state: ID
     zip: '83814'
@@ -12437,16 +12446,15 @@
     govtrack: 412491
     thomas: '02084'
   offices:
-  - id: R000595-doral
-    address: 8669 NW. 36th St.
-    suite: Suite 110
-    city: Doral
+  - id: R000595-fort_myers
+    address: 2120 Main St.
+    suite: Room 200
+    city: Fort Myers
     state: FL
-    zip: '33166'
-    latitude: 25.8109245
-    longitude: -80.3361915
-    fax: 305-594-4014
-    phone: 305-418-8553
+    zip: '33901'
+    latitude: 26.6426923
+    longitude: -81.8727155
+    phone: 239-318-6464
   - id: R000595-jacksonville
     address: 300 North Hogan St.
     suite: Suite 8-111
@@ -12458,6 +12466,16 @@
     longitude: -81.65997
     phone: 904-354-4300
     hours: M-F 8:30AM-5:30PM
+  - id: R000595-miami
+    address: 7400 SW 87th Ave.
+    suite: Suite 270
+    city: Miami
+    state: FL
+    zip: '33173'
+    latitude: 25.7001209
+    longitude: -80.3372066
+    fax: 305-596-4345
+    phone: 305-596-4224
   - id: R000595-orlando
     address: 201 S. Orange Ave.
     suite: Suite 350
@@ -12495,6 +12513,16 @@
     latitude: 30.438114
     longitude: -84.281289
     phone: 850-599-9100
+  - id: R000595-tampa
+    address: 801 N. Florida Ave.
+    suite: Suite 1130
+    building: Sam M. Gibbons U.S. Courthouse
+    city: Tampa
+    state: FL
+    zip: '33602'
+    latitude: 27.9514709
+    longitude: -82.4604482
+    phone: 813-853-1099
 - id:
     bioguide: R000597
     govtrack: 412572
@@ -14132,16 +14160,6 @@
     longitude: -134.4205554
     fax: 907-586-7201
     phone: 907-586-7277
-  - id: S001198-kenai
-    address: 805 Frontage Rd.
-    suite: Suite 101
-    city: Kenai
-    state: AK
-    zip: '99611'
-    latitude: 60.55401089999999
-    longitude: -151.2577208
-    fax: 907-283-4401
-    phone: 907-283-4000
   - id: S001198-ketchikan
     address: 1900 First Ave.
     suite: Suite 225
@@ -14152,6 +14170,16 @@
     longitude: -131.6673863
     fax: 907-225-0390
     phone: 907-225-6880
+  - id: S001198-soldotna
+    address: 44539 Sterling Highway
+    suite: Suite 204
+    city: Soldotna
+    state: AK
+    zip: '99669'
+    latitude: 60.480503
+    longitude: -151.0747996
+    fax: 907-262-4224
+    phone: 907-262-4040
   - id: S001198-wasilla
     address: 851 E. Westpoint Dr.
     suite: Suite 309
@@ -14395,7 +14423,7 @@
     longitude: -103.239745
     phone: 605-348-7551
   - id: T000250-sioux_falls
-    address: 5015 S. Bur Oak
+    address: 5015 S. Bur Oak Place
     city: Sioux Falls
     state: SD
     zip: '57108'
@@ -14882,6 +14910,18 @@
     longitude: -77.3592441
     fax: 252-329-0290
     phone: 252-329-0371
+    hours: By appointment only.
+  - id: T000476-hendersonville
+    address: 1 Historic Courthouse Square
+    suite: Suite 112
+    city: Hendersonville
+    state: NC
+    zip: '28792'
+    latitude: 35.314451
+    longitude: -82.460467
+    fax: 828-693-9724
+    phone: 828-693-8750
+    hours: By appointment only.
   - id: T000476-high_point
     address: 1840 Eastchester Dr.
     suite: Suite 200
@@ -16153,14 +16193,13 @@
     govtrack: 412428
   offices:
   - id: Y000064-indianapolis
-    address: 46 East Ohio Street
-    suite: Suite 462
+    address: 251 N. Illinois St.
+    suite: Suite 120
     city: Indianapolis
     state: IN
     zip: '46204'
     latitude: 39.770723
     longitude: -86.15702999999999
-    hours: 8:30am - 5:00pm
     phone: 317-226-6700
   - id: Y000064-new_albany
     address: 3602 Northgate Ct
@@ -16503,6 +16542,7 @@
     latitude: 29.5979835
     longitude: -90.7180594
     hours: By appointment only
+    phone: 985-851-0956
   - id: K000393-lafayette
     address: 101 La Rue France
     suite: Suite 503
@@ -16522,6 +16562,7 @@
     latitude: 32.5175209
     longitude: -91.102734
     hours: By appointment only
+    phone: 337-436-6255
   - id: K000393-mandeville
     address: 21490 Koop Dr.
     building: Building A
@@ -16531,6 +16572,7 @@
     latitude: 30.4182357
     longitude: -90.0470795
     hours: By appointment only
+    phone: 985-809-8153
   - id: K000393-monroe
     address: 1651 Louisville Ave.
     suite: Suite 148
@@ -16546,7 +16588,7 @@
     suite: Suite 364
     city: New Orleans
     state: LA
-    zip: '70130'
+    zip: '70113'
     latitude: 29.9484696
     longitude: -90.0711728
     phone: 504-581-6190
@@ -16751,7 +16793,7 @@
     suite: '#451'
     city: Gulfport
     state: MS
-    zip: '39201'
+    zip: '39501'
     latitude: 30.3701149
     longitude: -89.0870838
     fax: 228-867-9789
