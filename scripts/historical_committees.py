@@ -5,10 +5,13 @@
 # the committees-historical.yaml file. It will include current committees
 # as well.
 
+import zipfile
 import re
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data, CURRENT_CONGRESS
+from utils import download, load_data, save_data, CURRENT_CONGRESS, scraper
+import io
+import lxml.etree
 
 def run():
   committees_historical = load_data("committees-historical.yaml")
@@ -18,10 +21,17 @@ def run():
   cache = flags.get('cache', False)
   force = not cache
 
+  if cache:
+    from scrapelib.cache import FileCache
+    scraper.cache_storage = FileCache('cache')
+    scraper.cache_write_only = False
+  else:
+    raise
 
   # map thomas_id's to their dicts
   committees_historical_ref = { }
-  for cx in committees_historical: committees_historical_ref[cx["thomas_id"]] = cx
+  for cx in committees_historical:
+    committees_historical_ref[cx["thomas_id"]] = cx
 
 
   # pick the range of committees to get
@@ -30,74 +40,112 @@ def run():
     start_congress = int(single_congress)
     end_congress = int(single_congress) + 1
   else:
-    start_congress = 93
+    start_congress = 113
     end_congress = CURRENT_CONGRESS + 1
 
 
+  urls = {'senate': 'https://www.govinfo.gov/bulkdata/BILLSTATUS/{congress}/s/BILLSTATUS-{congress}-s.zip',
+          'house': 'https://www.govinfo.gov/bulkdata/BILLSTATUS/{congress}/hr/BILLSTATUS-{congress}-hr.zip'}
+
+  all_committees = {'house': {}, 'senate': {}}
+    
   for congress in range(start_congress, end_congress):
-    print(congress, '...')
+    for chamber, bill_status_url in urls.items():
+      chamber_committees = all_committees[chamber]
+      
+      zip_file = "committees/bill_status/{chamber}-{congress}.html".format(chamber=chamber, congress=congress)
+      url = bill_status_url.format(congress=congress)
+      response = scraper.get(url)      
 
-    url = "http://thomas.loc.gov/home/LegislativeData.php?&n=BSS&c=%d" % congress
-    body = download(url, "committees/structure/%d.html" % congress, force)
+      with zipfile.ZipFile(io.BytesIO(response.content)) as z:
+        for name in z.namelist():
+          if name.startswith('BILLSTATUS'):
+            with z.open(name) as xml_file:
+              bill_status = lxml.etree.parse(xml_file)
+              committees =  bill_status.xpath('//billCommittees/item')
+              for committee in committees:
+                code = str(committee.xpath('./systemCode/text()')[0])
+                name = str(committee.xpath('./name/text()')[0])
+                if name.endswith(' Committee'):
+                  name = name[:-10]
+                if code not in chamber_committees:
+                  chamber_committees[code] = {'names': {congress: name},
+                                              'subcommittees': {}}
+                else:
+                  if congress not in chamber_committees[code]:
+                    chamber_committees[code]['names'][congress] = name
 
-    for chamber, options in re.findall('>Choose (House|Senate) Committees</option>(.*?)</select>', body, re.I | re.S):
-      for name, id in re.findall(r'<option value="(.*?)\{(.*?)}">', options, re.I | re.S):
-        id = str(id).upper()
-        name = name.strip().replace("  ", " ") # weirdness
-        if id.endswith("00"):
-        	# This is a committee.
-          id = id[:-2]
+                subcommittees_d = chamber_committees[code]['subcommittees']
+                for subcommittee in committee.xpath('./subcommittees/item'):
+                  code = str(subcommittee.xpath('./systemCode/text()')[0])
+                  name = str(subcommittee.xpath('./name/text()')[0])
+                  if name.endswith(' Subcommittee'):
+                    name = name[:-13]
+                  if code not in subcommittees_d:
+                    subcommittees_d[code] = {congress: name}
+                  else:
+                    if congress not in subcommittees_d[code]:
+                      subcommittees_d[code][congress] = name
 
-          if id in committees_historical_ref:
-            # Update existing record.
-            cx = committees_historical_ref[id]
+      import pprint
+      pprint.pprint(chamber_committees)
+      print(len(chamber_committees))
 
-          else:
-            # Create a new record.
-            cx = OrderedDict()
-            committees_historical_ref[id] = cx
-            cx['type'] = chamber.lower()
-            if id[0] != "J": # Joint committees show their full name, otherwise they show a partial name
-              cx['name'] = chamber + " Committee on " + name
-            else:
-              cx['name'] = name
-            cx['thomas_id'] = id
-            committees_historical.append(cx)
 
+  for chamber, committees in all_committees.items():
+    for code, committee in committees.items():
+      id = str(code).upper()
+
+      id = id[:-2]
+
+      if id in committees_historical_ref:
+        # Update existing record.
+        cx = committees_historical_ref[id]
+
+      else:
+        # Create a new record.
+        cx = OrderedDict()
+        committees_historical_ref[id] = cx
+        cx['type'] = chamber.lower()
+        if id[0] != "J": # Joint committees show their full name, otherwise they show a partial name
+          cx['name'] = chamber + " Committee on " + name
         else:
-          # This is a subcommittee. The last two characters are the subcommittee code.
+          cx['name'] = committee['names'][min(comittee['names'])]
+        cx['thomas_id'] = id
+        committees_historical.append(cx)
 
-          # Get a reference to the parent committee.
-          if id[:-2] not in committees_historical_ref:
-            print("Historical committee %s %s is missing!" % (id, name))
-            continue
+      for code, subcommittee in committee['subcommittees'].items():
 
-          cx = committees_historical_ref[id[:-2]]
+        for sx in cx.setdefault('subcommittees', []):
+          if sx['thomas_id'] == code[-2:]:
+            # found existing record
+            break
+        else:
+          # 'break' not executed, so create a new record
+          sx = OrderedDict()
+          sx['name'] = subcommittee[min(subcommittee)]
+          sx['thomas_id'] = code[-2:]
+          cx['subcommittees'].append(sx)
 
-          # Get a reference to the subcommittee.
-          for sx in cx.setdefault('subcommittees', []):
-            if sx['thomas_id'] == id[-2:]:
-              # found existing record
-              cx = sx
-              break
-          else:
-            # 'break' not executed, so create a new record
-            sx = OrderedDict()
-            sx['name'] = name
-            sx['thomas_id'] = id[-2:]
-            cx['subcommittees'].append(sx)
-            cx = sx
 
-        cx.setdefault('congresses', [])
-        cx.setdefault('names', {})
+          sx.setdefault('congresses', [])
+          sx.setdefault('names', {})
 
-        # print "[%s] %s (%s)" % (cx['thomas_id'], cx['name'], congress)
+          for congress, name in subcommittee.items():
+            if congress not in sx['congresses']:
+               sx['congresses'].append(congress)
 
+               sx['names'][congress] = name
+
+      cx.setdefault('congresses', [])
+      cx.setdefault('names', {})
+
+      for congress, name in committee['names'].items():
         if congress not in cx['congresses']:
           cx['congresses'].append(congress)
+          cx['names'][congress] = name
 
-        cx['names'][congress] = name
-
+                 
   # TODO
   # after checking diff on first commit, we should re-sort
   #committees_historical.sort(key = lambda c : c["thomas_id"])

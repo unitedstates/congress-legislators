@@ -1,6 +1,6 @@
 # Helpful functions for finding data about members and committees
 
-CURRENT_CONGRESS = 114
+CURRENT_CONGRESS = 115
 states = {
         'AK': 'Alaska',
         'AL': 'Alabama',
@@ -213,6 +213,7 @@ def download(url, destination=None, force=False, options=None):
   # get the path to cache the file, or None if destination is None
   cache = os.path.join(cache_dir(), destination) if destination else None
 
+  print(url)
   if not force and os.path.exists(cache):
     if options.get('debug', False):
       log("Cached: (%s, %s)" % (cache, url))
@@ -226,6 +227,7 @@ def download(url, destination=None, force=False, options=None):
 
       if options.get('urllib', False):
         response = urllib.request.urlopen(url)
+        print(url)
         body = response.read().decode("utf-8") # guessing encoding
       else:
         response = scraper.urlopen(url)
