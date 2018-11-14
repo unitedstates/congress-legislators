@@ -50865,7 +50865,10 @@
         "end": "2019-01-03",
         "state": "OK",
         "district": 1,
-        "party": "Republican"
+        "party": "Republican",
+        "address": "216 Cannon House Office Building; Washington DC 20515-3601",
+        "office": "216 Cannon House Office Building",
+        "phone": "202-225-2211"
       }
     ]
   },
@@ -50896,7 +50899,44 @@
         "end": "2019-01-03",
         "state": "NY",
         "district": 25,
-        "party": "Democrat"
+        "party": "Democrat",
+        "address": "2469 Rayburn House Office Building; Washington DC 20515-3225",
+        "office": "2469 Rayburn House Office Building",
+        "phone": "202-225-3615"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "S001205",
+      "fec": [
+        "H8PA07200"
+      ],
+      "govtrack": 412750,
+      "wikipedia": "Mary Gay Scanlon",
+      "wikidata": "Q54611716",
+      "ballotpedia": "Mary Gay Scanlon"
+    },
+    "name": {
+      "first": "Mary",
+      "middle": "Gay",
+      "last": "Scanlon"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1959-08-30"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2018-11-13",
+        "end": "2019-01-03",
+        "state": "PA",
+        "district": 7,
+        "party": "Democrat",
+        "address": "2305 Rayburn House Office Building; Washington DC 20515-3807",
+        "office": "2305 Rayburn House Office Building",
+        "phone": "202-225-2011"
       }
     ]
   }
