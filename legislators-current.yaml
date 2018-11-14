@@ -40868,6 +40868,18 @@
     phone: 202-224-5641
     url: https://www.smith.senate.gov
     contact_form: https://www.smith.senate.gov/content/contact-senator
+  - type: sen
+    start: '2018-11-07'
+    end: '2021-01-03'
+    state: MN
+    class: 2
+    party: Democrat
+    state_rank: junior
+    address: 309 Hart Senate Office Building Washington DC 20510
+    office: 309 Hart Senate Office Building
+    phone: 202-224-5641
+    url: https://www.smith.senate.gov
+    contact_form: https://www.smith.senate.gov/content/contact-senator
 - id:
     bioguide: H001079
     lis: S395
@@ -40887,7 +40899,7 @@
   terms:
   - type: sen
     start: '2018-04-09'
-    end: '2018-11-06'
+    end: '2018-11-27'
     how: appointment
     end-type: special-election
     state: MS
@@ -41071,8 +41083,8 @@
     office: G12 Dirksen Senate Office Building
     phone: 202-224-2235
     fax: 202-228-2862
-    url: https://www.senate.gov/senators/115thCongress/Kyl_Jon.htm
-    contact_form: ''
+    url: https://www.kyl.senate.gov
+    contact_form: https://www.kyl.senate.gov/content/contact-senator-kyl
 - id:
     bioguide: B001306
     fec:
@@ -41100,3 +41112,47 @@
     address: 1203 Longworth House Office Building; Washington DC 20515-3512
     office: 1203 Longworth House Office Building
     phone: 202-225-5355
+- id:
+    bioguide: H001082
+    fec:
+    - H8OK01157
+    govtrack: 412748
+    wikipedia: Kevin Hern
+    wikidata: Q58333614
+    ballotpedia: Kevin Hern
+  name:
+    first: Kevin
+    middle: R.
+    last: Hern
+  bio:
+    gender: M
+    birthday: '1961-12-04'
+  terms:
+  - type: rep
+    start: '2018-11-13'
+    end: '2019-01-03'
+    state: OK
+    district: 1
+    party: Republican
+- id:
+    bioguide: M001206
+    fec:
+    - H8NY25105
+    govtrack: 412749
+    wikipedia: Joseph D. Morelle
+    wikidata: Q6285623
+    ballotpedia: Joseph Morelle
+  name:
+    first: Joseph
+    middle: D.
+    last: Morelle
+  bio:
+    gender: M
+    birthday: '1957-04-29'
+  terms:
+  - type: rep
+    start: '2018-11-13'
+    end: '2019-01-03'
+    state: NY
+    district: 25
+    party: Democrat

@@ -21834,5 +21834,36 @@
         "phone": "614-523-2555"
       }
     ]
+  },
+  {
+    "id": {
+      "bioguide": "K000352",
+      "govtrack": 300062,
+      "thomas": "00655"
+    },
+    "offices": [
+      {
+        "id": "K000352-phoenix",
+        "address": "2201 E. Camelback Rd.",
+        "suite": "Suite 115",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85016",
+        "latitude": 33.5085729,
+        "longitude": -112.0337789,
+        "phone": "602-952-2410"
+      },
+      {
+        "id": "K000352-tucson",
+        "address": "407 W. Congress St.",
+        "suite": "Suite 103",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "85701",
+        "latitude": 32.2207319,
+        "longitude": -110.9775264,
+        "phone": "520-670-6334"
+      }
+    ]
   }
 ]
