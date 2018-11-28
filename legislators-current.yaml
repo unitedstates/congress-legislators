@@ -41124,6 +41124,7 @@
     first: Kevin
     middle: R.
     last: Hern
+    official_full: Kevin Hern
   bio:
     gender: M
     birthday: '1961-12-04'
@@ -41149,6 +41150,7 @@
     first: Joseph
     middle: D.
     last: Morelle
+    official_full: Joseph D. Morelle
   bio:
     gender: M
     birthday: '1957-04-29'
@@ -41174,6 +41176,7 @@
     first: Mary
     middle: Gay
     last: Scanlon
+    official_full: Mary Gay Scanlon
   bio:
     gender: F
     birthday: '1959-08-30'
@@ -41187,3 +41190,28 @@
     address: 2305 Rayburn House Office Building; Washington DC 20515-3807
     office: 2305 Rayburn House Office Building
     phone: 202-225-2011
+- id:
+    bioguide: W000826
+    fec:
+    - H8PA15229
+    govtrack: 412751
+    wikipedia: Susan Wild
+    wikidata: Q58323072
+    ballotpedia: Susan Wild
+  name:
+    first: Susan
+    middle: Ellis
+    last: Wild
+  bio:
+    gender: F
+    birthday: '1957-06-07'
+  terms:
+  - type: rep
+    start: '2018-11-27'
+    end: '2019-01-03'
+    state: PA
+    district: 15
+    party: Democrat
+    address: 2082 Rayburn House Office Building; Washington DC 20515-3815
+    office: 2082 Rayburn House Office Building
+    phone: 202-225-6411
