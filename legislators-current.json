@@ -50575,6 +50575,20 @@
         "address": "G12 Dirksen Senate Office Building Washington DC 20510",
         "office": "G12 Dirksen Senate Office Building",
         "phone": "202-224-5054"
+      },
+      {
+        "type": "sen",
+        "start": "2018-11-28",
+        "end": "2021-01-03",
+        "state": "MS",
+        "class": 2,
+        "party": "Republican",
+        "state_rank": "junior",
+        "url": "https://www.hydesmith.senate.gov",
+        "contact_form": "https://www.hydesmith.senate.gov/content/contact-senator",
+        "address": "G12 Dirksen Senate Office Building Washington DC 20510",
+        "office": "G12 Dirksen Senate Office Building",
+        "phone": "202-224-5054"
       }
     ]
   },
@@ -50852,7 +50866,8 @@
     "name": {
       "first": "Kevin",
       "middle": "R.",
-      "last": "Hern"
+      "last": "Hern",
+      "official_full": "Kevin Hern"
     },
     "bio": {
       "gender": "M",
@@ -50886,7 +50901,8 @@
     "name": {
       "first": "Joseph",
       "middle": "D.",
-      "last": "Morelle"
+      "last": "Morelle",
+      "official_full": "Joseph D. Morelle"
     },
     "bio": {
       "gender": "M",
@@ -50920,7 +50936,8 @@
     "name": {
       "first": "Mary",
       "middle": "Gay",
-      "last": "Scanlon"
+      "last": "Scanlon",
+      "official_full": "Mary Gay Scanlon"
     },
     "bio": {
       "gender": "F",
@@ -50937,6 +50954,40 @@
         "address": "2305 Rayburn House Office Building; Washington DC 20515-3807",
         "office": "2305 Rayburn House Office Building",
         "phone": "202-225-2011"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "W000826",
+      "fec": [
+        "H8PA15229"
+      ],
+      "govtrack": 412751,
+      "wikipedia": "Susan Wild",
+      "wikidata": "Q58323072",
+      "ballotpedia": "Susan Wild"
+    },
+    "name": {
+      "first": "Susan",
+      "middle": "Ellis",
+      "last": "Wild"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1957-06-07"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2018-11-27",
+        "end": "2019-01-03",
+        "state": "PA",
+        "district": 15,
+        "party": "Democrat",
+        "address": "2082 Rayburn House Office Building; Washington DC 20515-3815",
+        "office": "2082 Rayburn House Office Building",
+        "phone": "202-225-6411"
       }
     ]
   }
