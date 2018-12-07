@@ -16848,3 +16848,55 @@
     latitude: 32.2207319
     longitude: -110.9775264
     phone: 520-670-6334
+- id:
+    bioguide: H001082
+    govtrack: 412748
+  offices:
+  - id: H001082-tulsa
+    address: 2448 E. 81st St.
+    suite: Suite 5150
+    city: Tulsa
+    state: OK
+    zip: '74137'
+    latitude: 36.0445807
+    longitude: -95.95355529999999
+    phone: 918-935-3222
+- id:
+    bioguide: M001206
+    govtrack: 412749
+  offices:
+  - id: M001206-rochester
+    address: 100 State St.
+    suite: Room 3120
+    building: Federal Building
+    city: Rochester
+    state: NY
+    zip: '14614'
+    latitude: 43.1576631
+    longitude: -77.613515
+    phone: 585-232-4850
+- id:
+    bioguide: S001205
+    govtrack: 412750
+  offices:
+  - id: S001205-springfield
+    address: 940 W. Sproul Rd.
+    city: Springfield
+    state: PA
+    zip: '19064'
+    latitude: 39.9393688
+    longitude: -75.350534
+    phone: 610-690-7323
+- id:
+    bioguide: W000826
+    govtrack: 412751
+  offices:
+  - id: W000826-allentown
+    address: 3900 Hamilton Blvd.
+    suite: Suite 207
+    city: Allentown
+    state: PA
+    zip: '18103'
+    latitude: 40.5733973
+    longitude: -75.535032
+    phone: 610-770-3490
