@@ -6,10 +6,9 @@
 # as well.
 
 import zipfile
-import re
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data, CURRENT_CONGRESS, scraper
+from utils import load_data, save_data, CURRENT_CONGRESS, scraper
 import io
 import lxml.etree
 
@@ -19,7 +18,6 @@ def run():
   # default to not caching
   flags = utils.flags()
   cache = flags.get('cache', False)
-  force = not cache
 
   if cache:
     from scrapelib.cache import FileCache
@@ -53,7 +51,6 @@ def run():
     for chamber, bill_status_url in urls.items():
       chamber_committees = all_committees[chamber]
       
-      zip_file = "committees/bill_status/{chamber}-{congress}.html".format(chamber=chamber, congress=congress)
       url = bill_status_url.format(congress=congress)
       response = scraper.get(url)      
 
@@ -110,7 +107,7 @@ def run():
         if id[0] != "J": # Joint committees show their full name, otherwise they show a partial name
           cx['name'] = chamber + " Committee on " + name
         else:
-          cx['name'] = committee['names'][min(comittee['names'])]
+          cx['name'] = committee['names'][min(committee['names'])]
         cx['thomas_id'] = id
         committees_historical.append(cx)
 
