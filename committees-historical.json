@@ -535,7 +535,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Standards of Official Conduct",
@@ -556,7 +557,8 @@
       "111": "Standards of Official Conduct",
       "112": "Ethics",
       "113": "Ethics",
-      "114": "Ethics"
+      "114": "Ethics",
+      "115": "Ethics"
     }
   },
   {
@@ -740,7 +742,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Agriculture",
@@ -764,7 +767,8 @@
       "111": "Agriculture",
       "112": "Agriculture",
       "113": "Agriculture",
-      "114": "Agriculture"
+      "114": "Agriculture",
+      "115": "Agriculture"
     },
     "subcommittees": [
       {
@@ -1187,7 +1191,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Appropriations",
@@ -1211,7 +1216,8 @@
       "111": "Appropriations",
       "112": "Appropriations",
       "113": "Appropriations",
-      "114": "Appropriations"
+      "114": "Appropriations",
+      "115": "Appropriations"
     },
     "subcommittees": [
       {
@@ -1554,7 +1560,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Armed Services",
@@ -1578,7 +1585,8 @@
       "111": "Armed Services",
       "112": "Armed Services",
       "113": "Armed Services",
-      "114": "Armed Services"
+      "114": "Armed Services",
+      "115": "Armed Services"
     },
     "subcommittees": [
       {
@@ -1941,7 +1949,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Banking and Currency",
@@ -1965,7 +1974,8 @@
       "111": "Financial Services",
       "112": "Financial Services",
       "113": "Financial Services",
-      "114": "Financial Services"
+      "114": "Financial Services",
+      "115": "Financial Services"
     },
     "subcommittees": [
       {
@@ -2295,6 +2305,16 @@
           "112": "International Monetary Policy and Trade",
           "114": "Monetary Policy and Trade"
         }
+      },
+      {
+        "name": "Terrorism and Illicit Finance",
+        "thomas_id": "01",
+        "congresses": [
+          115
+        ],
+        "names": {
+          "115": "Terrorism and Illicit Finance"
+        }
       }
     ]
   },
@@ -2324,7 +2344,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Education and Labor",
@@ -2348,7 +2369,8 @@
       "111": "Education and Labor",
       "112": "Education and the Workforce",
       "113": "Education and the Workforce",
-      "114": "Education and the Workforce"
+      "114": "Education and the Workforce",
+      "115": "Education and the Workforce"
     },
     "subcommittees": [
       {
@@ -2681,7 +2703,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Foreign Affairs",
@@ -2705,7 +2728,8 @@
       "111": "Foreign Affairs",
       "112": "Foreign Affairs",
       "113": "Foreign Affairs",
-      "114": "Foreign Affairs"
+      "114": "Foreign Affairs",
+      "115": "Foreign Affairs"
     },
     "subcommittees": [
       {
@@ -3094,7 +3118,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Government Operations",
@@ -3118,7 +3143,8 @@
       "111": "Oversight and Government Reform",
       "112": "Oversight and Government Reform",
       "113": "Oversight and Government Reform",
-      "114": "Oversight and Government Reform"
+      "114": "Oversight and Government Reform",
+      "115": "Oversight and Government Reform"
     },
     "subcommittees": [
       {
@@ -3503,7 +3529,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "House Administration",
@@ -3527,7 +3554,8 @@
       "111": "House Administration",
       "112": "House Administration",
       "113": "House Administration",
-      "114": "House Administration"
+      "114": "House Administration",
+      "115": "House Administration"
     },
     "subcommittees": [
       {
@@ -3692,7 +3720,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Interior and Insular Affairs",
@@ -3716,7 +3745,8 @@
       "111": "Natural Resources",
       "112": "Natural Resources",
       "113": "Natural Resources",
-      "114": "Natural Resources"
+      "114": "Natural Resources",
+      "115": "Natural Resources"
     },
     "subcommittees": [
       {
@@ -4063,7 +4093,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Interstate and Foreign Commerce",
@@ -4087,7 +4118,8 @@
       "111": "Energy and Commerce",
       "112": "Energy and Commerce",
       "113": "Energy and Commerce",
-      "114": "Energy and Commerce"
+      "114": "Energy and Commerce",
+      "115": "Energy and Commerce"
     },
     "subcommittees": [
       {
@@ -4416,7 +4448,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Judiciary",
@@ -4440,7 +4473,8 @@
       "111": "Judiciary",
       "112": "Judiciary",
       "113": "Judiciary",
-      "114": "Judiciary"
+      "114": "Judiciary",
+      "115": "Judiciary"
     },
     "subcommittees": [
       {
@@ -4773,7 +4807,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Public Works",
@@ -4797,7 +4832,8 @@
       "111": "Transportation and Infrastructure",
       "112": "Transportation and Infrastructure",
       "113": "Transportation and Infrastructure",
-      "114": "Transportation and Infrastructure"
+      "114": "Transportation and Infrastructure",
+      "115": "Transportation and Infrastructure"
     },
     "subcommittees": [
       {
@@ -5144,7 +5180,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Rules",
@@ -5168,7 +5205,8 @@
       "111": "Rules",
       "112": "Rules",
       "113": "Rules",
-      "114": "Rules"
+      "114": "Rules",
+      "115": "Rules"
     },
     "subcommittees": [
       {
@@ -5265,7 +5303,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Science and Astronautics",
@@ -5289,7 +5328,8 @@
       "111": "Science and Technology",
       "112": "Science, Space, and Technology",
       "113": "Science, Space, and Technology",
-      "114": "Science, Space, and Technology"
+      "114": "Science, Space, and Technology",
+      "115": "Science, Space, and Technology"
     },
     "subcommittees": [
       {
@@ -5638,7 +5678,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Veterans' Affairs",
@@ -5662,7 +5703,8 @@
       "111": "Veterans' Affairs",
       "112": "Veterans' Affairs",
       "113": "Veterans' Affairs",
-      "114": "Veterans' Affairs"
+      "114": "Veterans' Affairs",
+      "115": "Veterans' Affairs"
     },
     "subcommittees": [
       {
@@ -5899,7 +5941,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Ways and Means",
@@ -5923,7 +5966,8 @@
       "111": "Ways and Means",
       "112": "Ways and Means",
       "113": "Ways and Means",
-      "114": "Ways and Means"
+      "114": "Ways and Means",
+      "115": "Ways and Means"
     },
     "subcommittees": [
       {
@@ -6161,7 +6205,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Aging (Special)",
@@ -6180,7 +6225,8 @@
       "111": "Aging (Special)",
       "112": "Aging (Special)",
       "113": "Aging (Special)",
-      "114": "Aging (Special)"
+      "114": "Aging (Special)",
+      "115": "Aging"
     }
   },
   {
@@ -6209,7 +6255,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Agriculture and Forestry",
@@ -6233,7 +6280,8 @@
       "111": "Agriculture, Nutrition, and Forestry",
       "112": "Agriculture, Nutrition, and Forestry",
       "113": "Agriculture, Nutrition, and Forestry",
-      "114": "Agriculture, Nutrition, and Forestry"
+      "114": "Agriculture, Nutrition, and Forestry",
+      "115": "Agriculture, Nutrition, and Forestry"
     },
     "subcommittees": [
       {
@@ -6430,7 +6478,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Appropriations",
@@ -6454,7 +6503,8 @@
       "111": "Appropriations",
       "112": "Appropriations",
       "113": "Appropriations",
-      "114": "Appropriations"
+      "114": "Appropriations",
+      "115": "Appropriations"
     },
     "subcommittees": [
       {
@@ -7067,7 +7117,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Armed Services",
@@ -7091,7 +7142,8 @@
       "111": "Armed Services",
       "112": "Armed Services",
       "113": "Armed Services",
-      "114": "Armed Services"
+      "114": "Armed Services",
+      "115": "Armed Services"
     },
     "subcommittees": [
       {
@@ -7402,7 +7454,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Banking, Housing, and Urban Affairs",
@@ -7426,7 +7479,8 @@
       "111": "Banking, Housing, and Urban Affairs",
       "112": "Banking, Housing, and Urban Affairs",
       "113": "Banking, Housing, and Urban Affairs",
-      "114": "Banking, Housing, and Urban Affairs"
+      "114": "Banking, Housing, and Urban Affairs",
+      "115": "Banking, Housing, and Urban Affairs"
     },
     "subcommittees": [
       {
@@ -7653,7 +7707,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Budget",
@@ -7677,7 +7732,8 @@
       "111": "Budget",
       "112": "Budget",
       "113": "Budget",
-      "114": "Budget"
+      "114": "Budget",
+      "115": "Budget"
     }
   },
   {
@@ -7706,7 +7762,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Commerce",
@@ -7730,7 +7787,8 @@
       "111": "Commerce, Science, and Transportation",
       "112": "Commerce, Science, and Transportation",
       "113": "Commerce, Science, and Transportation",
-      "114": "Commerce, Science, and Transportation"
+      "114": "Commerce, Science, and Transportation",
+      "115": "Commerce, Science, and Transportation"
     },
     "subcommittees": [
       {
@@ -8095,7 +8153,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Finance",
@@ -8119,7 +8178,8 @@
       "111": "Finance",
       "112": "Finance",
       "113": "Finance",
-      "114": "Finance"
+      "114": "Finance",
+      "115": "Finance"
     },
     "subcommittees": [
       {
@@ -8380,7 +8440,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Foreign Relations",
@@ -8404,7 +8465,8 @@
       "111": "Foreign Relations",
       "112": "Foreign Relations",
       "113": "Foreign Relations",
-      "114": "Foreign Relations"
+      "114": "Foreign Relations",
+      "115": "Foreign Relations"
     },
     "subcommittees": [
       {
@@ -8567,7 +8629,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Government Operations",
@@ -8591,7 +8654,8 @@
       "111": "Homeland Security and Governmental Affairs",
       "112": "Homeland Security and Governmental Affairs",
       "113": "Homeland Security and Governmental Affairs",
-      "114": "Homeland Security and Governmental Affairs"
+      "114": "Homeland Security and Governmental Affairs",
+      "115": "Homeland Security and Governmental Affairs"
     },
     "subcommittees": [
       {
@@ -8807,6 +8871,16 @@
         "names": {
           "114": "and Federal Management"
         }
+      },
+      {
+        "name": "Federal Spending Oversight and Emergency Management",
+        "thomas_id": "18",
+        "congresses": [
+          115
+        ],
+        "names": {
+          "115": "Federal Spending Oversight and Emergency Management"
+        }
       }
     ]
   },
@@ -8836,7 +8910,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Interior and Insular Affairs",
@@ -8860,7 +8935,8 @@
       "111": "Energy and Natural Resources",
       "112": "Energy and Natural Resources",
       "113": "Energy and Natural Resources",
-      "114": "Energy and Natural Resources"
+      "114": "Energy and Natural Resources",
+      "115": "Energy and Natural Resources"
     },
     "subcommittees": [
       {
@@ -9119,7 +9195,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Judiciary",
@@ -9143,7 +9220,8 @@
       "111": "Judiciary",
       "112": "Judiciary",
       "113": "Judiciary",
-      "114": "Judiciary"
+      "114": "Judiciary",
+      "115": "Judiciary"
     },
     "subcommittees": [
       {
@@ -9536,7 +9614,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Labor and Public Welfare",
@@ -9560,7 +9639,8 @@
       "111": "Health, Education, Labor, and Pensions",
       "112": "Health, Education, Labor, and Pensions",
       "113": "Health, Education, Labor, and Pensions",
-      "114": "Health, Education, Labor, and Pensions"
+      "114": "Health, Education, Labor, and Pensions",
+      "115": "Health, Education, Labor, and Pensions"
     },
     "subcommittees": [
       {
@@ -9799,7 +9879,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Public Works",
@@ -9823,7 +9904,8 @@
       "111": "Environment and Public Works",
       "112": "Environment and Public Works",
       "113": "Environment and Public Works",
-      "114": "Environment and Public Works"
+      "114": "Environment and Public Works",
+      "115": "Environment and Public Works"
     },
     "subcommittees": [
       {
@@ -10082,7 +10164,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Rules and Administration",
@@ -10106,7 +10189,8 @@
       "111": "Rules and Administration",
       "112": "Rules and Administration",
       "113": "Rules and Administration",
-      "114": "Rules and Administration"
+      "114": "Rules and Administration",
+      "115": "Rules and Administration"
     }
   },
   {
@@ -10135,7 +10219,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "93": "Veterans' Affairs",
@@ -10159,7 +10244,8 @@
       "111": "Veterans' Affairs",
       "112": "Veterans' Affairs",
       "113": "Veterans' Affairs",
-      "114": "Veterans' Affairs"
+      "114": "Veterans' Affairs",
+      "115": "Veterans' Affairs"
     }
   },
   {
@@ -10187,7 +10273,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "94": "Budget",
@@ -10210,7 +10297,8 @@
       "111": "Budget",
       "112": "Budget",
       "113": "Budget",
-      "114": "Budget"
+      "114": "Budget",
+      "115": "Budget"
     }
   },
   {
@@ -10238,7 +10326,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "94": "Small Business",
@@ -10261,7 +10350,8 @@
       "111": "Small Business",
       "112": "Small Business",
       "113": "Small Business",
-      "114": "Small Business"
+      "114": "Small Business",
+      "115": "Small Business"
     },
     "subcommittees": [
       {
@@ -10489,7 +10579,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "94": "Intelligence (Select)",
@@ -10512,7 +10603,8 @@
       "111": "Intelligence (Select)",
       "112": "Intelligence (Select)",
       "113": "Intelligence (Select)",
-      "114": "Intelligence (Select)"
+      "114": "Intelligence (Select)",
+      "115": "Intelligence"
     }
   },
   {
@@ -10562,7 +10654,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "95": "Intelligence (Permanent Select)",
@@ -10584,7 +10677,8 @@
       "111": "Intelligence (Permanent Select)",
       "112": "Intelligence (Permanent Select)",
       "113": "Intelligence (Permanent Select)",
-      "114": "Intelligence (Permanent Select)"
+      "114": "Intelligence (Permanent Select)",
+      "115": "Intelligence (Permanent Select)"
     },
     "subcommittees": [
       {
@@ -10641,7 +10735,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "95": "Indian Affairs (Select)",
@@ -10663,7 +10758,8 @@
       "111": "Indian Affairs",
       "112": "Indian Affairs",
       "113": "Indian Affairs",
-      "114": "Indian Affairs"
+      "114": "Indian Affairs",
+      "115": "Indian Affairs"
     }
   },
   {
@@ -10690,7 +10786,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "95": "Small Business (Select)",
@@ -10712,7 +10809,8 @@
       "111": "Small Business and Entrepreneurship",
       "112": "Small Business and Entrepreneurship",
       "113": "Small Business and Entrepreneurship",
-      "114": "Small Business and Entrepreneurship"
+      "114": "Small Business and Entrepreneurship",
+      "115": "Small Business and Entrepreneurship"
     },
     "subcommittees": [
       {
@@ -10749,7 +10847,8 @@
       111,
       112,
       113,
-      114
+      114,
+      115
     ],
     "names": {
       "107": "Homeland Security (Select)",
@@ -10759,7 +10858,8 @@
       "111": "Homeland Security",
       "112": "Homeland Security",
       "113": "Homeland Security",
-      "114": "Homeland Security"
+      "114": "Homeland Security",
+      "115": "Homeland Security"
     },
     "subcommittees": [
       {
