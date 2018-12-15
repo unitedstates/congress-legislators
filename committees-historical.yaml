@@ -423,6 +423,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Standards of Official Conduct
     94: Standards of Official Conduct
@@ -443,6 +444,7 @@
     112: Ethics
     113: Ethics
     114: Ethics
+    115: Ethics
 - type: house
   name: House Committee on Internal Security
   thomas_id: HSUA
@@ -576,6 +578,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Agriculture
     94: Agriculture
@@ -599,6 +602,7 @@
     112: Agriculture
     113: Agriculture
     114: Agriculture
+    115: Agriculture
   subcommittees:
   - name: Conservation, Credit, and Rural Development
     thomas_id: '01'
@@ -934,6 +938,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Appropriations
     94: Appropriations
@@ -957,6 +962,7 @@
     112: Appropriations
     113: Appropriations
     114: Appropriations
+    115: Appropriations
   subcommittees:
   - name: Agriculture, Rural Development and Related Agencies
     thomas_id: '01'
@@ -1247,6 +1253,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Armed Services
     94: Armed Services
@@ -1270,6 +1277,7 @@
     112: Armed Services
     113: Armed Services
     114: Armed Services
+    115: Armed Services
   subcommittees:
   - name: Investigations
     thomas_id: '06'
@@ -1573,6 +1581,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Banking and Currency
     94: Banking, Currency, and Housing
@@ -1596,6 +1605,7 @@
     112: Financial Services
     113: Financial Services
     114: Financial Services
+    115: Financial Services
   subcommittees:
   - name: Consumer Affairs and Coinage
     thomas_id: '02'
@@ -1857,6 +1867,12 @@
       111: International Monetary Policy and Trade
       112: International Monetary Policy and Trade
       114: Monetary Policy and Trade
+  - name: Terrorism and Illicit Finance
+    thomas_id: '01'
+    congresses:
+    - 115
+    names:
+      115: Terrorism and Illicit Finance
 - type: house
   name: House Committee on Education and Labor
   thomas_id: HSED
@@ -1883,6 +1899,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Education and Labor
     94: Education and Labor
@@ -1906,6 +1923,7 @@
     112: Education and the Workforce
     113: Education and the Workforce
     114: Education and the Workforce
+    115: Education and the Workforce
   subcommittees:
   - name: Elementary, Secondary, and Vocational Education
     thomas_id: '01'
@@ -2187,6 +2205,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Foreign Affairs
     94: International Relations
@@ -2210,6 +2229,7 @@
     112: Foreign Affairs
     113: Foreign Affairs
     114: Foreign Affairs
+    115: Foreign Affairs
   subcommittees:
   - name: Africa
     thomas_id: '08'
@@ -2531,6 +2551,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Government Operations
     94: Government Operations
@@ -2554,6 +2575,7 @@
     112: Oversight and Government Reform
     113: Oversight and Government Reform
     114: Oversight and Government Reform
+    115: Oversight and Government Reform
   subcommittees:
   - name: Commerce, Consumer, and Monetary Affairs
     thomas_id: '05'
@@ -2841,6 +2863,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: House Administration
     94: House Administration
@@ -2864,6 +2887,7 @@
     112: House Administration
     113: House Administration
     114: House Administration
+    115: House Administration
   subcommittees:
   - name: Accounts
     thomas_id: '01'
@@ -2997,6 +3021,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Interior and Insular Affairs
     94: Interior and Insular Affairs
@@ -3020,6 +3045,7 @@
     112: Natural Resources
     113: Natural Resources
     114: Natural Resources
+    115: Natural Resources
   subcommittees:
   - name: Energy and the Environment
     thomas_id: '06'
@@ -3295,6 +3321,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Interstate and Foreign Commerce
     94: Interstate and Foreign Commerce
@@ -3318,6 +3345,7 @@
     112: Energy and Commerce
     113: Energy and Commerce
     114: Energy and Commerce
+    115: Energy and Commerce
   subcommittees:
   - name: Commerce, Transportation and Tourism
     thomas_id: '06'
@@ -3583,6 +3611,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Judiciary
     94: Judiciary
@@ -3606,6 +3635,7 @@
     112: Judiciary
     113: Judiciary
     114: Judiciary
+    115: Judiciary
   subcommittees:
   - name: Administrative Law and Governmental Relations
     thomas_id: '02'
@@ -3889,6 +3919,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Public Works
     94: Public Works and Transportation
@@ -3912,6 +3943,7 @@
     112: Transportation and Infrastructure
     113: Transportation and Infrastructure
     114: Transportation and Infrastructure
+    115: Transportation and Infrastructure
   subcommittees:
   - name: Aviation
     thomas_id: '05'
@@ -4200,6 +4232,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Rules
     94: Rules
@@ -4223,6 +4256,7 @@
     112: Rules
     113: Rules
     114: Rules
+    115: Rules
   subcommittees:
   - name: Legislative Process
     thomas_id: '02'
@@ -4304,6 +4338,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Science and Astronautics
     94: Science and Technology
@@ -4327,6 +4362,7 @@
     112: Science, Space, and Technology
     113: Science, Space, and Technology
     114: Science, Space, and Technology
+    115: Science, Space, and Technology
   subcommittees:
   - name: Energy Development and Applications
     thomas_id: '01'
@@ -4600,6 +4636,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Veterans' Affairs
     94: Veterans' Affairs
@@ -4623,6 +4660,7 @@
     112: Veterans' Affairs
     113: Veterans' Affairs
     114: Veterans' Affairs
+    115: Veterans' Affairs
   subcommittees:
   - name: Compensation, Pension and Insurance
     thomas_id: '01'
@@ -4816,6 +4854,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Ways and Means
     94: Ways and Means
@@ -4839,6 +4878,7 @@
     112: Ways and Means
     113: Ways and Means
     114: Ways and Means
+    115: Ways and Means
   subcommittees:
   - name: Health
     thomas_id: '02'
@@ -5049,6 +5089,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Aging (Special)
     97: Aging (Special)
@@ -5067,6 +5108,7 @@
     112: Aging (Special)
     113: Aging (Special)
     114: Aging (Special)
+    115: Aging
 - type: senate
   name: Senate Committee on Agriculture and Forestry
   thomas_id: SSAF
@@ -5093,6 +5135,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Agriculture and Forestry
     94: Agriculture and Forestry
@@ -5116,6 +5159,7 @@
     112: Agriculture, Nutrition, and Forestry
     113: Agriculture, Nutrition, and Forestry
     114: Agriculture, Nutrition, and Forestry
+    115: Agriculture, Nutrition, and Forestry
   subcommittees:
   - name: Agricultural Credit and Rural Electrification
     thomas_id: '02'
@@ -5277,6 +5321,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Appropriations
     94: Appropriations
@@ -5300,6 +5345,7 @@
     112: Appropriations
     113: Appropriations
     114: Appropriations
+    115: Appropriations
   subcommittees:
   - name: District of Columbia
     thomas_id: '03'
@@ -5825,6 +5871,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Armed Services
     94: Armed Services
@@ -5848,6 +5895,7 @@
     112: Armed Services
     113: Armed Services
     114: Armed Services
+    115: Armed Services
   subcommittees:
   - name: Manpower and Personnel
     thomas_id: '09'
@@ -6075,6 +6123,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Banking, Housing, and Urban Affairs
     94: Banking, Housing, and Urban Affairs
@@ -6098,6 +6147,7 @@
     112: Banking, Housing, and Urban Affairs
     113: Banking, Housing, and Urban Affairs
     114: Banking, Housing, and Urban Affairs
+    115: Banking, Housing, and Urban Affairs
   subcommittees:
   - name: Consumer Affairs
     thomas_id: '07'
@@ -6281,6 +6331,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Budget
     94: Budget
@@ -6304,6 +6355,7 @@
     112: Budget
     113: Budget
     114: Budget
+    115: Budget
 - type: senate
   name: Senate Committee on Commerce
   thomas_id: SSCM
@@ -6330,6 +6382,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Commerce
     94: Commerce
@@ -6353,6 +6406,7 @@
     112: Commerce, Science, and Transportation
     113: Commerce, Science, and Transportation
     114: Commerce, Science, and Transportation
+    115: Commerce, Science, and Transportation
   subcommittees:
   - name: Aviation
     thomas_id: '01'
@@ -6630,6 +6684,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Finance
     94: Finance
@@ -6653,6 +6708,7 @@
     112: Finance
     113: Finance
     114: Finance
+    115: Finance
   subcommittees:
   - name: Energy and Agricultural Taxation
     thomas_id: '07'
@@ -6850,6 +6906,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Foreign Relations
     94: Foreign Relations
@@ -6873,6 +6930,7 @@
     112: Foreign Relations
     113: Foreign Relations
     114: Foreign Relations
+    115: Foreign Relations
   subcommittees:
   - name: European Affairs
     thomas_id: '01'
@@ -7004,6 +7062,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Government Operations
     94: Government Operations
@@ -7027,6 +7086,7 @@
     112: Homeland Security and Governmental Affairs
     113: Homeland Security and Governmental Affairs
     114: Homeland Security and Governmental Affairs
+    115: Homeland Security and Governmental Affairs
   subcommittees:
   - name: Civil Service, Post Office, and General Services
     thomas_id: '07'
@@ -7200,6 +7260,12 @@
     - 114
     names:
       114: and Federal Management
+  - name: Federal Spending Oversight and Emergency Management
+    thomas_id: '18'
+    congresses:
+    - 115
+    names:
+      115: Federal Spending Oversight and Emergency Management
 - type: senate
   name: Senate Committee on Interior and Insular Affairs
   thomas_id: SSEG
@@ -7226,6 +7292,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Interior and Insular Affairs
     94: Interior and Insular Affairs
@@ -7249,6 +7316,7 @@
     112: Energy and Natural Resources
     113: Energy and Natural Resources
     114: Energy and Natural Resources
+    115: Energy and Natural Resources
   subcommittees:
   - name: Energy and Mineral Resources
     thomas_id: '07'
@@ -7468,6 +7536,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Judiciary
     94: Judiciary
@@ -7491,6 +7560,7 @@
     112: Judiciary
     113: Judiciary
     114: Judiciary
+    115: Judiciary
   subcommittees:
   - name: Agency Administration
     thomas_id: '23'
@@ -7800,6 +7870,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Labor and Public Welfare
     94: Labor and Public Welfare
@@ -7823,6 +7894,7 @@
     112: Health, Education, Labor, and Pensions
     113: Health, Education, Labor, and Pensions
     114: Health, Education, Labor, and Pensions
+    115: Health, Education, Labor, and Pensions
   subcommittees:
   - name: Aging, Family, and Human Services
     thomas_id: '06'
@@ -8010,6 +8082,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Public Works
     94: Public Works
@@ -8033,6 +8106,7 @@
     112: Environment and Public Works
     113: Environment and Public Works
     114: Environment and Public Works
+    115: Environment and Public Works
   subcommittees:
   - name: Environmental Pollution
     thomas_id: '01'
@@ -8236,6 +8310,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Rules and Administration
     94: Rules and Administration
@@ -8259,6 +8334,7 @@
     112: Rules and Administration
     113: Rules and Administration
     114: Rules and Administration
+    115: Rules and Administration
 - type: senate
   name: Senate Committee on Veterans' Affairs
   thomas_id: SSVA
@@ -8285,6 +8361,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     93: Veterans' Affairs
     94: Veterans' Affairs
@@ -8308,6 +8385,7 @@
     112: Veterans' Affairs
     113: Veterans' Affairs
     114: Veterans' Affairs
+    115: Veterans' Affairs
 - type: house
   name: House Committee on Budget
   thomas_id: HSBU
@@ -8333,6 +8411,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     94: Budget
     95: Budget
@@ -8355,6 +8434,7 @@
     112: Budget
     113: Budget
     114: Budget
+    115: Budget
 - type: house
   name: House Committee on Small Business
   thomas_id: HSSM
@@ -8380,6 +8460,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     94: Small Business
     95: Small Business
@@ -8402,6 +8483,7 @@
     112: Small Business
     113: Small Business
     114: Small Business
+    115: Small Business
   subcommittees:
   - name: Energy, Environment, and Safety Issues Affecting Small Business
     thomas_id: '04'
@@ -8562,6 +8644,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     94: Intelligence (Select)
     95: Intelligence (Select)
@@ -8584,6 +8667,7 @@
     112: Intelligence (Select)
     113: Intelligence (Select)
     114: Intelligence (Select)
+    115: Intelligence
 - type: senate
   name: Senate Committee on Standards and Conduct (Select)
   thomas_id: SLET
@@ -8627,6 +8711,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     95: Intelligence (Permanent Select)
     96: Intelligence (Permanent Select)
@@ -8648,6 +8733,7 @@
     112: Intelligence (Permanent Select)
     113: Intelligence (Permanent Select)
     114: Intelligence (Permanent Select)
+    115: Intelligence (Permanent Select)
   subcommittees:
   - name: Legislation
     thomas_id: '02'
@@ -8693,6 +8779,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     95: Indian Affairs (Select)
     96: Indian Affairs (Select)
@@ -8714,6 +8801,7 @@
     112: Indian Affairs
     113: Indian Affairs
     114: Indian Affairs
+    115: Indian Affairs
 - type: senate
   name: Senate Committee on Small Business (Select)
   thomas_id: SSSB
@@ -8738,6 +8826,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     95: Small Business (Select)
     96: Small Business (Select)
@@ -8759,6 +8848,7 @@
     112: Small Business and Entrepreneurship
     113: Small Business and Entrepreneurship
     114: Small Business and Entrepreneurship
+    115: Small Business and Entrepreneurship
   subcommittees:
   - name: Innovation and Technology
     thomas_id: '06'
@@ -8784,6 +8874,7 @@
   - 112
   - 113
   - 114
+  - 115
   names:
     107: Homeland Security (Select)
     108: Homeland Security (Select)
@@ -8793,6 +8884,7 @@
     112: Homeland Security
     113: Homeland Security
     114: Homeland Security
+    115: Homeland Security
   subcommittees:
   - name: Cybersecurity, Science, and Research and Development
     thomas_id: '04'
