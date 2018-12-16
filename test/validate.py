@@ -60,7 +60,8 @@ id_types = {
 name_keys = { "first", "middle", "nickname", "last", "suffix", "official_full" }
 
 # bio keys
-bio_keys = { "gender", "birthday", "religion" }
+bio_keys = { "gender", "birthday" }
+old_allowed_other_bio_keys = { "religion" }
 
 # get today as a date instance
 def now():
@@ -189,7 +190,7 @@ def check_name(name, is_other_names=False):
 
 def check_bio(bio):
   for key, value in bio.items():
-    if key not in bio_keys:
+    if key not in (bio_keys | old_allowed_other_bio_keys):
       error("%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
       error(rtyaml.dump({ key: value }) + " has an invalid data type.")
