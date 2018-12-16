@@ -98,7 +98,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
     if "bio" not in legislator:
       error(repr(legislator) + " is missing 'bio'.")
     else:
-      check_bio(legislator["bio"])
+      check_bio(legislator["bio"], current)
 
     # Check the terms.
     if "terms" not in legislator:
@@ -188,12 +188,18 @@ def check_name(name, is_other_names=False):
   if isinstance(name.get("first"), str) and len(name["first"]) == 2 and name["first"].endswith(".") and not name.get("middle"):
         error(rtyaml.dump(name) + " is missing a middle name to go with its first initial.")
 
-def check_bio(bio):
+def check_bio(bio, is_current_legislator):
   for key, value in bio.items():
     if key not in (bio_keys | old_allowed_other_bio_keys):
       error("%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
       error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+  if is_current_legislator:
+    # These keys are required only for current legislators.
+    # We don't always have the information for historical members of Congress or presidents.
+    for key in bio_keys:
+      if key not in bio:
+        error("Missing bio->{}.".format(key))
 
 def check_term(term, prev_term, current=None, current_mocs=None):
   # Check type.
@@ -315,7 +321,7 @@ def check_executive_file(fn):
     if "bio" not in person:
       error(repr(person) + " is missing 'bio'.")
     else:
-      check_bio(person["bio"])
+      check_bio(person["bio"], False)
 
     # Check the terms.
     if "terms" not in person:
