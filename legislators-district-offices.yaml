@@ -8877,21 +8877,6 @@
     phone: 714-243-4088
     hours: M-F 9AM-5PM
 - id:
-    bioguide: L000580
-    govtrack: 412558
-    thomas: '02146'
-  offices:
-  - id: L000580-albuquerque
-    address: 400 Gold Ave. SW
-    suite: Suite 680
-    city: Albuquerque
-    state: NM
-    zip: '87102'
-    latitude: 35.0833514
-    longitude: -106.6521937
-    fax: 505-346-6723
-    phone: 505-346-6781
-- id:
     bioguide: L000581
     govtrack: 412638
     thomas: '02252'
@@ -16825,29 +16810,6 @@
     latitude: 40.1107173
     longitude: -83.00746439999999
     phone: 614-523-2555
-- id:
-    bioguide: K000352
-    govtrack: 300062
-    thomas: '00655'
-  offices:
-  - id: K000352-phoenix
-    address: 2201 E. Camelback Rd.
-    suite: Suite 115
-    city: Phoenix
-    state: AZ
-    zip: '85016'
-    latitude: 33.5085729
-    longitude: -112.0337789
-    phone: 602-952-2410
-  - id: K000352-tucson
-    address: 407 W. Congress St.
-    suite: Suite 103
-    city: Tucson
-    state: AZ
-    zip: '85701'
-    latitude: 32.2207319
-    longitude: -110.9775264
-    phone: 520-670-6334
 - id:
     bioguide: H001082
     govtrack: 412748
