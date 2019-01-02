@@ -1127,26 +1127,26 @@ HSAP:
   bioguide: Y000066
 - name: Steven M. Palazzo
   party: majority
-  rank: 26
+  rank: 25
   thomas: '02035'
   bioguide: P000601
 - name: Dan Newhouse
   party: majority
-  rank: 27
+  rank: 26
   thomas: '02275'
   bioguide: N000189
 - name: John R. Moolenaar
   party: majority
-  rank: 28
+  rank: 27
   thomas: '02248'
   bioguide: M001194
 - name: Scott Taylor
   party: majority
-  rank: 29
+  rank: 28
   bioguide: T000477
 - name: John H. Rutherford
   party: majority
-  rank: 30
+  rank: 29
   bioguide: R000609
 - name: Nita M. Lowey
   party: minority
@@ -1739,11 +1739,11 @@ HSAP18:
   bioguide: W000809
 - name: Scott Taylor
   party: majority
-  rank: 6
+  rank: 5
   bioguide: T000477
 - name: John H. Rutherford
   party: majority
-  rank: 7
+  rank: 6
   bioguide: R000609
 - name: Debbie Wasserman Schultz
   party: minority
@@ -5516,38 +5516,38 @@ HSGO:
 HSGO06:
 - name: Steve Russell
   party: majority
-  rank: 2
+  rank: 1
+  title: Chair
   thomas: '02265'
   bioguide: R000604
-  title: Vice Chair
 - name: John J. Duncan, Jr.
   party: majority
-  rank: 3
+  rank: 2
   thomas: '00322'
   bioguide: D000533
 - name: Justin Amash
   party: majority
-  rank: 4
+  rank: 3
   thomas: '02029'
   bioguide: A000367
 - name: Paul A. Gosar
   party: majority
-  rank: 5
+  rank: 4
   thomas: '01992'
   bioguide: G000565
 - name: Virginia Foxx
   party: majority
-  rank: 6
+  rank: 5
   thomas: '01791'
   bioguide: F000450
 - name: Jody B. Hice
   party: majority
-  rank: 7
+  rank: 6
   thomas: '02237'
   bioguide: H001071
 - name: James Comer
   party: majority
-  rank: 8
+  rank: 7
   bioguide: C001108
 - name: Stephen F. Lynch
   party: minority
@@ -10037,9 +10037,15 @@ HSRU04:
   bioguide: S000250
 - name: James P. McGovern
   party: minority
-  rank: 2
+  rank: 1
+  title: Ranking Member
   thomas: '01504'
   bioguide: M000312
+- name: Norma J. Torres
+  party: minority
+  rank: 2
+  thomas: '02231'
+  bioguide: T000474
 HSSM:
 - name: Steve Chabot
   party: majority
@@ -14434,7 +14440,7 @@ SSAS13:
   bioguide: S001184
 - name: James M. Inhofe
   party: majority
-  rank: 7
+  rank: 6
   title: Ex Officio
   thomas: '00583'
   bioguide: I000024
@@ -14504,7 +14510,7 @@ SSAS14:
   bioguide: S001197
 - name: James M. Inhofe
   party: majority
-  rank: 8
+  rank: 7
   title: Ex Officio
   thomas: '00583'
   bioguide: I000024
@@ -14624,7 +14630,7 @@ SSAS16:
   bioguide: G000359
 - name: James M. Inhofe
   party: majority
-  rank: 7
+  rank: 6
   title: Ex Officio
   thomas: '00583'
   bioguide: I000024
