@@ -39830,3 +39830,56 @@
     class: 1
     party: Republican
     state_rank: junior
+- id:
+    bioguide: M001197
+    fec:
+    - S8AZ00221
+    - H2AZ08102
+    govtrack: 412611
+    opensecrets: N00033982
+    thomas: '02225'
+    house_history: 15032414876
+    maplight: 2067
+    wikidata: Q6774492
+    wikipedia: Martha McSally
+    google_entity_id: kg:/m/027fybv
+    votesmart: 137299
+    cspan: 29126
+    icpsr: 21501
+  name:
+    first: Martha
+    last: McSally
+    official_full: Martha McSally
+  bio:
+    gender: F
+    birthday: '1966-03-22'
+  terms:
+  - type: rep
+    start: '2015-01-06'
+    end: '2017-01-03'
+    state: AZ
+    district: 2
+    party: Republican
+    address: 1029 Longworth HOB; Washington DC 20515-0302
+    office: 1029 Longworth House Office Building
+    phone: 202-225-2542
+    url: https://mcsally.house.gov
+    fax: 202-225-0378
+  - type: rep
+    start: '2017-01-03'
+    end: '2019-01-03'
+    state: AZ
+    district: 2
+    party: Republican
+    phone: 202-225-2542
+    url: https://mcsally.house.gov
+    address: 510 Cannon House Office Building; Washington DC 20515-0302
+    office: 510 Cannon House Office Building
+    fax: 202-225-0378
+  - type: sen
+    start: '2019-01-03'
+    end: '2021-01-03'
+    state: AZ
+    class: 3
+    party: Republican
+    state_rank: junior
