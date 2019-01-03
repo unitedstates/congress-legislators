@@ -50,7 +50,7 @@ def main():
       "(?:https?:)?//(?:www\\.)?facebook.com/(?:profile.php\\?id=)?(?:home\\.php)?(?:#!)?/?(?:people)?/?([^/\\s\"#\\?&']+)"
     ],
     "twitter": [
-      "(?:https?:)?//(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/]+)",
+      "(?:https?:)?//(?:www\\.)?twitter.com/(?:intent/user\?screen_name=)?(?:#!/)?(?:#%21/)?@?([^\\s\"'/?]+)",
       "\\.render\\(\\)\\.setUser\\('@?(.*?)'\\)\\.start\\(\\)"
     ],
     "instagram": [
