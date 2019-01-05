@@ -930,10 +930,10 @@
     thomas: '00905'
     govtrack: 400314
   social:
-    twitter: NancyPelosi
     facebook: NancyPelosi
     youtube: nancypelosi
     youtube_id: UCxPeEcH0xaCK9nBK98EFhDg
+    twitter: SpeakerPelosi
     twitter_id: 15764644
 - id:
     bioguide: P000096
@@ -1740,12 +1740,12 @@
     thomas: '00566'
     govtrack: 400189
   social:
-    twitter: WhipHoyer
     facebook: WhipHoyer
     youtube: LeaderHoyer
     youtube_id: UCvxgqX65cdhHNjJn64cgY9g
     instagram: repstenyhoyer
     instagram_id: 51616645
+    twitter: LeaderHoyer
     twitter_id: 22012091
 - id:
     bioguide: H000324
@@ -2354,10 +2354,10 @@
     thomas: '00208'
     govtrack: 400075
   social:
-    twitter: Clyburn
     facebook: jameseclyburn
     youtube: repjamesclyburn
     youtube_id: UCIyU_UA_JEa14gvAwhquKqg
+    twitter: WhipClyburn
     twitter_id: 188019606
 - id:
     bioguide: C000266
@@ -3058,10 +3058,10 @@
     thomas: '02144'
     govtrack: 412555
   social:
-    twitter: RepKevinCramer
     youtube: kevincramer
     facebook: CongressmanKevinCramer
     youtube_id: UCqUPdO9XaAW-dvwwXKbIVdA
+    twitter: SenKevinCramer
     twitter_id: 1048784496
     instagram: repkevincramer
 - id:
@@ -3294,10 +3294,10 @@
     thomas: '02099'
     govtrack: 412509
   social:
-    twitter: RepSinema
     facebook: CongresswomanSinema
     youtube: repsinema
     youtube_id: UC4NzhW7D4lQdukSGWmFnK9w
+    twitter: SenatorSinema
     twitter_id: 1080844782
     instagram: repsinema
 - id:
@@ -4370,7 +4370,7 @@
     bioguide: R000608
     govtrack: 412715
   social:
-    twitter: repjackyrosen
+    twitter: SenJackyRosen
     twitter_id: 818554054309715969
     facebook: RepJackyRosen
     instagram: repjackyrosen
@@ -4512,3 +4512,64 @@
     govtrack: 412830
   social:
     twitter: RepElaineLuria
+- id:
+    bioguide: B001306
+    govtrack: 412747
+  social:
+    twitter: RepBalderson
+- id:
+    bioguide: A000376
+  social:
+    twitter: RepColinAllred
+- id:
+    bioguide: C001118
+  social:
+    twitter: RepBenCline
+- id:
+    bioguide: C001122
+  social:
+    twitter: RepCunningham
+- id:
+    bioguide: D000630
+  social:
+    twitter: repdelgado
+- id:
+    bioguide: H001066
+    govtrack: 412559
+  social:
+    twitter: RepHorsford
+- id:
+    bioguide: H001082
+    govtrack: 412748
+  social:
+    twitter: repkevinhern
+- id:
+    bioguide: H001087
+  social:
+    twitter: RepKatieHill
+- id:
+    bioguide: L000593
+  social:
+    twitter: RepMikeLevin
+- id:
+    bioguide: M001206
+    govtrack: 412749
+  social:
+    twitter: repjoemorelle
+- id:
+    bioguide: N000191
+  social:
+    twitter: RepJoeNeguse
+- id:
+    bioguide: S001209
+  social:
+    twitter: RepSpanberger
+- id:
+    bioguide: S001213
+  social:
+    twitter: repbryansteil
+- id:
+    bioguide: W000826
+    govtrack: 412751
+  social:
+    twitter: RepSusanWild
