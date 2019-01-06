@@ -12552,7 +12552,7 @@
     fec:
     - S0WI00197
     cspan: 62835
-    wikipedia: Ron Johnson (American politician)
+    wikipedia: Ron Johnson (Wisconsin politician)
     ballotpedia: Ron Johnson (Wisconsin)
     maplight: 1501
     icpsr: 41111
@@ -32141,7 +32141,7 @@
     cspan: 9269006
     opensecrets: N00031557
     votesmart: 126058
-    wikipedia: Dennis Heck
+    wikipedia: Denny Heck
     fec:
     - H0WA03161
     ballotpedia: Denny Heck
@@ -34494,6 +34494,7 @@
     wikipedia: Stacey Plaskett
     google_entity_id: kg:/m/012844_c
     cspan: 79090
+    votesmart: 155929
   name:
     first: Stacey
     last: Plaskett
@@ -34709,6 +34710,7 @@
     wikipedia: Amata Coleman Radewagen
     google_entity_id: kg:/m/012964p3
     cspan: 5188
+    votesmart: 128380
   name:
     first: Aumua
     last: Amata
@@ -34759,7 +34761,7 @@
     lis: S383
     maplight: 2121
     wikidata: Q5218668
-    wikipedia: Dan Sullivan (American senator)
+    wikipedia: Dan Sullivan (U.S. senator)
     google_entity_id: kg:/m/07s4r4q
     votesmart: 114964
     cspan: 1023262
@@ -37093,7 +37095,7 @@
 - id:
     bioguide: G000581
     govtrack: 412725
-    wikipedia: Vicente González (politician)
+    wikipedia: Vicente Gonzalez (politician)
     wikidata: Q27924921
     votesmart: 166483
     fec:
@@ -37302,7 +37304,7 @@
     wikipedia: Liz Cheney
     wikidata: Q5362573
     google_entity_id: kg:/m/04slt0
-    votesmart: 145932
+    votesmart: 171319
     fec:
     - H6WY00159
     opensecrets: N00035504
@@ -37808,6 +37810,8 @@
     wikipedia: Troy Balderson
     wikidata: Q16194422
     ballotpedia: Troy Balderson
+    google_entity_id: kg:/m/09ry4tm
+    votesmart: 102781
   name:
     first: Troy
     last: Balderson
@@ -37844,6 +37848,7 @@
     wikipedia: Kevin Hern
     wikidata: Q58333614
     ballotpedia: Kevin Hern
+    votesmart: 180004
   name:
     first: Kevin
     middle: R.
@@ -37878,9 +37883,11 @@
     fec:
     - H8NY25105
     govtrack: 412749
-    wikipedia: Joseph D. Morelle
+    wikipedia: Joseph Morelle
     wikidata: Q6285623
     ballotpedia: Joseph Morelle
+    google_entity_id: kg:/m/03d820m
+    votesmart: 4362
   name:
     first: Joseph
     middle: D.
@@ -37918,6 +37925,7 @@
     wikipedia: Mary Gay Scanlon
     wikidata: Q54611716
     ballotpedia: Mary Gay Scanlon
+    votesmart: 178890
   name:
     first: Mary
     middle: Gay
@@ -37955,6 +37963,7 @@
     wikipedia: Susan Wild
     wikidata: Q58323072
     ballotpedia: Susan Wild
+    votesmart: 178895
   name:
     first: Susan
     middle: Ellis
@@ -38149,6 +38158,9 @@
     - H8AZ09040
     govtrack: 412753
     wikipedia: Greg Stanton
+    wikidata: Q5606289
+    google_entity_id: kg:/m/0hgrxqb
+    votesmart: 72030
   name:
     first: Greg
     last: Stanton
@@ -38172,6 +38184,9 @@
     - H8CA10126
     govtrack: 412754
     wikipedia: Josh Harder
+    wikidata: Q58494468
+    votesmart: 179326
+    ballotpedia: Josh Harder
   name:
     first: Josh
     last: Harder
@@ -38195,6 +38210,9 @@
     - H8CA10167
     govtrack: 412755
     wikipedia: TJ Cox
+    wikidata: Q59306065
+    votesmart: 57197
+    ballotpedia: TJ Cox
   name:
     first: TJ
     last: Cox
@@ -38218,6 +38236,8 @@
     - H8CA25074
     govtrack: 412756
     wikipedia: Katie Hill (politician)
+    wikidata: Q58416634
+    votesmart: 179354
   name:
     first: Katie
     last: Hill
@@ -38241,6 +38261,8 @@
     - H8CA39174
     govtrack: 412757
     wikipedia: Gil Cisneros
+    wikidata: Q54958760
+    votesmart: 179370
   name:
     first: Gilbert
     middle: Ray
@@ -38265,6 +38287,8 @@
     - H8CA45130
     govtrack: 412758
     wikipedia: Katie Porter
+    wikidata: Q58754391
+    votesmart: 179393
   name:
     first: Katie
     last: Porter
@@ -38288,6 +38312,8 @@
     - H8CA48035
     govtrack: 412759
     wikipedia: Harley Rouda
+    wikidata: Q58333597
+    votesmart: 179404
   name:
     first: Harley
     last: Rouda
@@ -38311,6 +38337,8 @@
     - H8CA49058
     govtrack: 412760
     wikipedia: Mike Levin
+    wikidata: Q55424854
+    votesmart: 179416
   name:
     first: Mike
     last: Levin
@@ -38334,6 +38362,8 @@
     - H8CO02178
     govtrack: 412761
     wikipedia: Joe Neguse
+    wikidata: Q57242006
+    votesmart: 151075
   name:
     first: Joe
     last: Neguse
@@ -38357,6 +38387,8 @@
     - H8CO06229
     govtrack: 412762
     wikipedia: Jason Crow
+    wikidata: Q58323071
+    votesmart: 180218
   name:
     first: Jason
     last: Crow
@@ -38380,6 +38412,8 @@
     - H8CT05245
     govtrack: 412763
     wikipedia: Jahana Hayes
+    wikidata: Q24951316
+    votesmart: 181744
   name:
     first: Jahana
     last: Hayes
@@ -38403,6 +38437,7 @@
     - H8FL06148
     govtrack: 412764
     wikipedia: Michael Waltz
+    wikidata: Q55386653
   name:
     first: Michael
     last: Waltz
@@ -38426,6 +38461,9 @@
     - H8FL15230
     govtrack: 412765
     wikipedia: Ross Spano
+    wikidata: Q16196710
+    google_entity_id: kg:/m/0v3c060
+    votesmart: 142164
   name:
     first: Ross
     last: Spano
@@ -38449,6 +38487,9 @@
     - H8FL17053
     govtrack: 412766
     wikipedia: Greg Steube
+    wikidata: Q5606295
+    google_entity_id: kg:/m/0k3lrh0
+    votesmart: 117248
   name:
     first: W.
     middle: Gregory
@@ -38473,6 +38514,9 @@
     - H8FL26039
     govtrack: 412767
     wikipedia: Debbie Mucarsel-Powell
+    wikidata: Q58323616
+    votesmart: 173449
+    ballotpedia: Debbie Mucarsel-Powell
   name:
     first: Debbie
     last: Mucarsel-Powell
@@ -38496,6 +38540,9 @@
     - H8FL27193
     govtrack: 412768
     wikipedia: Donna Shalala
+    wikidata: Q292569
+    google_entity_id: kg:/m/01v3vb
+    votesmart: 182301
   name:
     first: Donna
     middle: E.
@@ -38520,6 +38567,9 @@
     - H8GA06393
     govtrack: 412769
     wikipedia: Lucy McBath
+    wikidata: Q54358424
+    google_entity_id: kg:/g/11f647_0gj
+    votesmart: 178538
   name:
     first: Lucy
     last: McBath
@@ -38543,6 +38593,8 @@
     - H8GU01020
     govtrack: 412770
     wikipedia: Michael San Nicolas
+    wikidata: Q16221559
+    google_entity_id: kg:/m/0wy0mjt
   name:
     first: Michael
     middle: F. Q.
@@ -38567,6 +38619,9 @@
     - H8IA01094
     govtrack: 412771
     wikipedia: Abby Finkenauer
+    wikidata: Q24435337
+    votesmart: 151127
+    ballotpedia: Abby Finkenauer
   name:
     first: Abby
     last: Finkenauer
@@ -38590,6 +38645,9 @@
     - H8IA03124
     govtrack: 412772
     wikipedia: Cindy Axne
+    wikidata: Q58324150
+    votesmart: 179226
+    ballotpedia: Cindy Axne
   name:
     first: Cynthia
     last: Axne
@@ -38613,6 +38671,9 @@
     - H8ID01124
     govtrack: 412773
     wikipedia: Russ Fulcher
+    wikidata: Q7381134
+    google_entity_id: kg:/m/05h4vgh
+    votesmart: 33091
   name:
     first: Russ
     last: Fulcher
@@ -38636,6 +38697,9 @@
     - H8IL04134
     govtrack: 412774
     wikipedia: Jesús "Chuy" García
+    wikidata: Q18631698
+    google_entity_id: kg:/m/012c8r5x
+    votesmart: 6261
   name:
     first: Jesús
     middle: G.
@@ -38660,6 +38724,7 @@
     - H8IL06139
     govtrack: 412775
     wikipedia: Sean Casten
+    wikidata: Q55386655
   name:
     first: Sean
     last: Casten
@@ -38683,6 +38748,8 @@
     - H8IL14174
     govtrack: 412776
     wikipedia: Lauren Underwood
+    wikidata: Q48471874
+    votesmart: 177001
   name:
     first: Lauren
     last: Underwood
@@ -38706,6 +38773,8 @@
     - H8IN04199
     govtrack: 412777
     wikipedia: Jim Baird (American politician)
+    wikidata: Q48813213
+    votesmart: 86013
   name:
     first: James
     middle: R.
@@ -38730,6 +38799,8 @@
     - H8IN06129
     govtrack: 412778
     wikipedia: Greg Pence
+    wikidata: Q52151577
+    votesmart: 177876
   name:
     first: Greg
     last: Pence
@@ -38753,6 +38824,7 @@
     - H8KS02199
     govtrack: 412779
     wikipedia: Steve Watkins (politician)
+    wikidata: Q60428824
   name:
     first: Steven
     middle: C.
@@ -38777,6 +38849,9 @@
     - H8KS03155
     govtrack: 412780
     wikipedia: Sharice Davids
+    wikidata: Q58322868
+    votesmart: 181201
+    ballotpedia: Sharice Davids
   name:
     first: Sharice
     last: Davids
@@ -38800,6 +38875,8 @@
     - H8MA03106
     govtrack: 412781
     wikipedia: Lori Trahan
+    wikidata: Q56486676
+    votesmart: 182310
   name:
     first: Lori
     last: Trahan
@@ -38823,6 +38900,9 @@
     - H8MA07032
     govtrack: 412782
     wikipedia: Ayanna Pressley
+    wikidata: Q13562359
+    google_entity_id: kg:/m/0bmh9vc
+    votesmart: 122700
   name:
     first: Ayanna
     last: Pressley
@@ -38846,6 +38926,8 @@
     - H8MD06168
     govtrack: 412783
     wikipedia: David Trone
+    wikidata: Q29446408
+    votesmart: 167336
   name:
     first: David
     middle: J.
@@ -38870,6 +38952,9 @@
     - H8MI08102
     govtrack: 412784
     wikipedia: Elissa Slotkin
+    wikidata: Q30323721
+    votesmart: 181080
+    ballotpedia: Elissa Slotkin
   name:
     first: Elissa
     last: Slotkin
@@ -38893,6 +38978,8 @@
     - H8MI09118
     govtrack: 412785
     wikipedia: Andy Levin
+    wikidata: Q4760938
+    votesmart: 66287
   name:
     first: Andy
     last: Levin
@@ -38916,6 +39003,9 @@
     - H8MI11254
     govtrack: 412786
     wikipedia: Haley Stevens
+    wikidata: Q58322563
+    votesmart: 181092
+    ballotpedia: Haley Stevens
   name:
     first: Haley
     middle: M.
@@ -38940,6 +39030,9 @@
     - H8MI13250
     govtrack: 412787
     wikipedia: Rashida Tlaib
+    wikidata: Q7294939
+    google_entity_id: kg:/m/059_x6c
+    votesmart: 105368
   name:
     first: Rashida
     last: Tlaib
@@ -38963,6 +39056,8 @@
     - H0MN01045
     govtrack: 412788
     wikipedia: Jim Hagedorn
+    wikidata: Q58494532
+    votesmart: 146027
   name:
     first: Jim
     last: Hagedorn
@@ -38986,6 +39081,9 @@
     - H6MN02131
     govtrack: 412789
     wikipedia: Angie Craig
+    wikidata: Q58324174
+    votesmart: 166261
+    ballotpedia: Angie Craig
   name:
     first: Angie
     last: Craig
@@ -39009,6 +39107,8 @@
     - H8MN03143
     govtrack: 412790
     wikipedia: Dean Phillips
+    wikidata: Q58323131
+    votesmart: 181357
   name:
     first: Dean
     last: Phillips
@@ -39032,6 +39132,8 @@
     - H8MN05239
     govtrack: 412791
     wikipedia: Ilhan Omar
+    wikidata: Q26436159
+    votesmart: 171628
   name:
     first: Ilhan
     last: Omar
@@ -39055,6 +39157,8 @@
     - H8MN08043
     govtrack: 412792
     wikipedia: Pete Stauber
+    wikidata: Q55955746
+    votesmart: 159954
   name:
     first: Pete
     last: Stauber
@@ -39078,6 +39182,7 @@
     - H8MS03125
     govtrack: 412793
     wikipedia: Michael Guest (politician)
+    wikidata: Q60428645
   name:
     first: Michael
     last: Guest
@@ -39101,6 +39206,8 @@
     - H8ND00096
     govtrack: 412794
     wikipedia: Kelly Armstrong
+    wikidata: Q50362353
+    votesmart: 139338
   name:
     first: Kelly
     last: Armstrong
@@ -39124,6 +39231,8 @@
     - H8NH01210
     govtrack: 412795
     wikipedia: Chris Pappas (politician)
+    wikidata: Q5107684
+    google_entity_id: kg:/m/0nd3t8z
   name:
     first: Chris
     last: Pappas
@@ -39147,6 +39256,9 @@
     - H8NJ02166
     govtrack: 412796
     wikipedia: Jeff Van Drew
+    wikidata: Q6175202
+    google_entity_id: kg:/m/08h3sl
+    votesmart: 24685
   name:
     first: Jefferson
     last: Van Drew
@@ -39170,6 +39282,7 @@
     - H8NJ03206
     govtrack: 412797
     wikipedia: Andy Kim (politician)
+    wikidata: Q55639180
   name:
     first: Andy
     last: Kim
@@ -39193,6 +39306,10 @@
     - H8NJ07223
     govtrack: 412798
     wikipedia: Tom Malinowski
+    wikidata: Q23772336
+    google_entity_id: kg:/g/11cmhw_v1s
+    votesmart: 179645
+    ballotpedia: Tom Malinowski
   name:
     first: Tom
     last: Malinowski
@@ -39216,6 +39333,9 @@
     - H8NJ11142
     govtrack: 412799
     wikipedia: Mikie Sherrill
+    wikidata: Q47087146
+    votesmart: 179651
+    ballotpedia: Mikie Sherrill
   name:
     first: Mikie
     last: Sherrill
@@ -39239,6 +39359,8 @@
     - H8NM01331
     govtrack: 412800
     wikipedia: Deb Haaland
+    wikidata: Q54860790
+    votesmart: 149368
   name:
     first: Debra
     middle: A.
@@ -39263,6 +39385,8 @@
     - H8NM02248
     govtrack: 412801
     wikipedia: Xochitl Torres Small
+    wikidata: Q58399761
+    votesmart: 177978
   name:
     first: Xochitl
     last: Torres Small
@@ -39286,6 +39410,8 @@
     - H8NV03200
     govtrack: 412802
     wikipedia: Susie Lee
+    wikidata: Q58333611
+    votesmart: 169344
   name:
     first: Susie
     last: Lee
@@ -39309,6 +39435,7 @@
     - H8NY11113
     govtrack: 412803
     wikipedia: Max Rose (politician)
+    wikidata: Q56046860
   name:
     first: Max
     last: Rose
@@ -39332,6 +39459,9 @@
     - H8NY15148
     govtrack: 412804
     wikipedia: Alexandria Ocasio-Cortez
+    wikidata: Q55223040
+    votesmart: 180416
+    ballotpedia: Alexandria Ocasio-Cortez
   name:
     first: Alexandria
     last: Ocasio-Cortez
@@ -39355,6 +39485,7 @@
     - H8NY19181
     govtrack: 412805
     wikipedia: Antonio Delgado (politician)
+    wikidata: Q60428696
   name:
     first: Antonio
     last: Delgado
@@ -39378,6 +39509,10 @@
     - H8NY22151
     govtrack: 412806
     wikipedia: Anthony Brindisi
+    wikidata: Q4772153
+    google_entity_id: kg:/m/0hhqfyc
+    votesmart: 135258
+    ballotpedia: Anthony Brindisi
   name:
     first: Anthony
     last: Brindisi
@@ -39400,6 +39535,9 @@
     fec:
     - H8OH16124
     govtrack: 412807
+    wikipedia: Anthony Gonzalez
+    wikidata: Q3487172
+    google_entity_id: kg:/m/0gznlq
   name:
     first: Anthony
     last: Gonzalez
@@ -39423,6 +39561,8 @@
     - H8OK05109
     govtrack: 412808
     wikipedia: Kendra Horn
+    wikidata: Q58323559
+    votesmart: 180018
   name:
     first: Kendra
     middle: S.
@@ -39447,6 +39587,9 @@
     - H8PA04116
     govtrack: 412809
     wikipedia: Madeleine Dean
+    wikidata: Q6726900
+    google_entity_id: kg:/m/0nfwmy_
+    votesmart: 136484
   name:
     first: Madeleine
     last: Dean
@@ -39470,6 +39613,9 @@
     - H8PA06087
     govtrack: 412810
     wikipedia: Chrissy Houlahan
+    wikidata: Q56274180
+    votesmart: 178893
+    ballotpedia: Chrissy Houlahan
   name:
     first: Chrissy
     last: Houlahan
@@ -39493,6 +39639,9 @@
     - H8PA10147
     govtrack: 412811
     wikipedia: Dan Meuser
+    wikidata: Q5214012
+    google_entity_id: kg:/m/03wf1q3
+    votesmart: 102438
   name:
     first: Daniel
     last: Meuser
@@ -39516,6 +39665,7 @@
     - H8PA13125
     govtrack: 412812
     wikipedia: John Joyce (American politician)
+    wikidata: Q60428839
   name:
     first: John
     last: Joyce
@@ -39539,6 +39689,9 @@
     - H8PA18199
     govtrack: 412813
     wikipedia: Guy Reschenthaler
+    wikidata: Q22096097
+    google_entity_id: kg:/g/11bwn3bsvm
+    votesmart: 166004
   name:
     first: Guy
     last: Reschenthaler
@@ -39562,6 +39715,8 @@
     - H8SC01116
     govtrack: 412814
     wikipedia: Joe Cunningham (American politician)
+    wikidata: Q58993183
+    votesmart: 179601
   name:
     first: Joe
     last: Cunningham
@@ -39585,6 +39740,9 @@
     - H8SC04250
     govtrack: 412815
     wikipedia: William Timmons (politician)
+    wikidata: Q28837296
+    google_entity_id: kg:/g/11g6ns21_f
+    votesmart: 168923
   name:
     first: William
     middle: R.
@@ -39609,6 +39767,8 @@
     - H8SD01055
     govtrack: 412816
     wikipedia: Dusty Johnson
+    wikidata: Q30015838
+    votesmart: 48307
   name:
     first: Dusty
     last: Johnson
@@ -39632,6 +39792,9 @@
     - H8TN02119
     govtrack: 412817
     wikipedia: Tim Burchett
+    wikidata: Q7803244
+    google_entity_id: kg:/m/03yt07
+    votesmart: 24379
   name:
     first: Tim
     last: Burchett
@@ -39655,6 +39818,8 @@
     - H8TN06094
     govtrack: 412818
     wikipedia: John Rose (Tennessee politician)
+    wikidata: Q33044040
+    votesmart: 180452
   name:
     first: John
     middle: W.
@@ -39679,6 +39844,9 @@
     - H8TN07076
     govtrack: 412819
     wikipedia: Mark E. Green
+    wikidata: Q16224587
+    google_entity_id: kg:/m/09rx6jq
+    votesmart: 139030
   name:
     first: Mark
     middle: E.
@@ -39703,6 +39871,9 @@
     - H8TX02166
     govtrack: 412820
     wikipedia: Dan Crenshaw
+    wikidata: Q58301995
+    google_entity_id: kg:/g/11hcj7fy00
+    votesmart: 177270
   name:
     first: Dan
     last: Crenshaw
@@ -39726,6 +39897,8 @@
     - H8TX03123
     govtrack: 412821
     wikipedia: Van Taylor
+    wikidata: Q7913689
+    google_entity_id: kg:/m/0f9kk3
   name:
     first: Van
     last: Taylor
@@ -39749,6 +39922,9 @@
     - H8TX05144
     govtrack: 412822
     wikipedia: Lance Gooden
+    wikidata: Q6483406
+    google_entity_id: kg:/m/0jkx4bp
+    votesmart: 177282
   name:
     first: Lance
     last: Gooden
@@ -39772,6 +39948,7 @@
     - H8TX06233
     govtrack: 412823
     wikipedia: Ron Wright (politician)
+    wikidata: Q60428775
   name:
     first: Ron
     last: Wright
@@ -39795,6 +39972,9 @@
     - H8TX07140
     govtrack: 412824
     wikipedia: Lizzie Pannill Fletcher
+    wikidata: Q58324313
+    votesmart: 177031
+    ballotpedia: Lizzie Pannill Fletcher
   name:
     first: Lizzie
     last: Fletcher
@@ -39818,6 +39998,8 @@
     - H8TX16109
     govtrack: 412825
     wikipedia: Veronica Escobar
+    wikidata: Q52274267
+    votesmart: 99345
   name:
     first: Veronica
     last: Escobar
@@ -39841,6 +40023,8 @@
     - H8TX21307
     govtrack: 412826
     wikipedia: Chip Roy
+    wikidata: Q58333615
+    votesmart: 177319
   name:
     first: Chip
     last: Roy
@@ -39864,6 +40048,9 @@
     - H8TX29052
     govtrack: 412827
     wikipedia: Sylvia Garcia
+    wikidata: Q13562489
+    google_entity_id: kg:/m/0ryt4bt
+    votesmart: 49734
   name:
     first: Sylvia
     middle: R.
@@ -39888,6 +40075,8 @@
     - H8TX32098
     govtrack: 412828
     wikipedia: Colin Allred
+    wikidata: Q5144845
+    votesmart: 177357
   name:
     first: Colin
     middle: Z.
@@ -39912,6 +40101,9 @@
     - H8UT04053
     govtrack: 412829
     wikipedia: Ben McAdams
+    wikidata: Q4886138
+    google_entity_id: kg:/m/0bbv3kw
+    votesmart: 117512
   name:
     first: Ben
     last: McAdams
@@ -39935,6 +40127,9 @@
     - H8VA02111
     govtrack: 412830
     wikipedia: Elaine Luria
+    wikidata: Q58323073
+    votesmart: 179677
+    ballotpedia: Elaine Luria
   name:
     first: Elaine
     middle: G.
@@ -39959,6 +40154,8 @@
     - H8VA05171
     govtrack: 412831
     wikipedia: Denver Riggleman
+    wikidata: Q28086149
+    votesmart: 181445
   name:
     first: Denver
     last: Riggleman
@@ -39982,6 +40179,9 @@
     - H8VA06104
     govtrack: 412832
     wikipedia: Ben Cline
+    wikidata: Q4885439
+    google_entity_id: kg:/m/04yf6mk
+    votesmart: 50959
   name:
     first: Ben
     last: Cline
@@ -40005,6 +40205,8 @@
     - H8VA07094
     govtrack: 412833
     wikipedia: Abigail Spanberger
+    wikidata: Q55603085
+    votesmart: 179682
   name:
     first: Abigail
     middle: Davis
@@ -40029,6 +40231,9 @@
     - H8VA10106
     govtrack: 412834
     wikipedia: Jennifer Wexton
+    wikidata: Q16206735
+    google_entity_id: kg:/m/0_flt0x
+    votesmart: 147013
   name:
     first: Jennifer
     last: Wexton
@@ -40052,6 +40257,8 @@
     - H8WA08189
     govtrack: 412835
     wikipedia: Kim Schrier
+    wikidata: Q58333616
+    votesmart: 181124
   name:
     first: Kim
     last: Schrier
@@ -40075,6 +40282,7 @@
     - H8WI01156
     govtrack: 412836
     wikipedia: Bryan Steil
+    wikidata: Q58494431
   name:
     first: Bryan
     last: Steil
@@ -40098,6 +40306,9 @@
     - H8WV03097
     govtrack: 412837
     wikipedia: Carol Miller (politician)
+    wikidata: Q16145531
+    google_entity_id: kg:/m/0102fnyn
+    votesmart: 52123
   name:
     first: Carol
     middle: D.
@@ -40124,6 +40335,8 @@
     wikipedia: Rick Scott
     wikidata: Q439729
     ballotpedia: Rick Scott
+    google_entity_id: kg:/m/0btx2g
+    votesmart: 124204
   name:
     first: Rick
     last: Scott
@@ -40147,6 +40360,8 @@
     wikidata: Q42804470
     ballotpedia: Mike Braun
     lis: S397
+    google_entity_id: kg:/g/11f2ckdwty
+    votesmart: 148564
   name:
     first: Mike
     last: Braun
@@ -40175,6 +40390,8 @@
     wikidata: Q23020745
     ballotpedia: Josh Hawley
     lis: S399
+    google_entity_id: kg:/g/11bwy_95zy
+    votesmart: 169716
   name:
     first: Joshua
     last: Hawley
@@ -40199,10 +40416,12 @@
     fec:
     - S4MA00143
     govtrack: 412841
-    wikipedia: MItt Romney
+    wikipedia: Mitt Romney
     wikidata: Q4496
     ballotpedia: Mitt Romney
     lis: S401
+    google_entity_id: kg:/m/0271_s
+    votesmart: 21942
   name:
     first: Mitt
     last: Romney
@@ -40286,6 +40505,8 @@
     - H8ME02185
     govtrack: 412842
     wikipedia: Jared Golden
+    wikidata: Q41694157
+    votesmart: 151420
   name:
     first: Jared
     middle: Forrest
