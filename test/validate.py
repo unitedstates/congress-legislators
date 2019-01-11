@@ -10,9 +10,9 @@ import utils
 from office_validator import run as validate_offices
 
 ok = True
-def error(message):
+def error(context, message):
   global ok
-  print(message)
+  print(context + ": " + message)
   ok = False
 
 # Current apportionment of the U.S. House, so that we can report if there
@@ -60,7 +60,8 @@ id_types = {
 name_keys = { "first", "middle", "nickname", "last", "suffix", "official_full" }
 
 # bio keys
-bio_keys = { "gender", "birthday", "religion" }
+bio_keys = { "gender", "birthday" }
+old_allowed_other_bio_keys = { "religion" }
 
 # get today as a date instance
 def now():
@@ -77,77 +78,85 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
   with open(fn) as f:
     legislators = rtyaml.load(f)
   for legislator in legislators:
+    # Create a string for error messages to tell us where problems are ocurring.
+    context = "{} in {}".format(fn, repr(legislator))
 
     # Check the IDs.
     if "id" not in legislator:
-      error(repr(legislator) + " is missing 'id'.")
+      error(context, "Missing 'id' mapping.")
     else:
       # Check that the IDs are valid.
-      check_id_types(legislator, seen_ids, True)
+      check_id_types(legislator, seen_ids, True, context)
+
+    # Create a string for error messages to tell us where problems are ocurring.
+    context = "{}:{}".format(fn, legislator['id']['bioguide'])
 
     # Check the name.
     if "name" not in legislator:
-      error(repr(legislator) + " is missing 'name'.")
+      error(context, "Missing 'name' mapping.")
     else:
-      check_name(legislator["name"])
+      check_name(legislator["name"], context)
     for name in legislator.get("other_names", []):
-      check_name(name, is_other_names=True)
+      check_name(name, context + ":other_names", is_other_names=True)
 
     # Check the biographical fields.
     if "bio" not in legislator:
-      error(repr(legislator) + " is missing 'bio'.")
+      error(context, "Missing 'bio' mapping.")
     else:
-      check_bio(legislator["bio"])
+      check_bio(legislator["bio"], current, context)
 
     # Check the terms.
     if "terms" not in legislator:
-      error(repr(legislator) + " is missing 'terms'.")
+      error(context, "Missing 'terms' list.")
     elif not isinstance(legislator["terms"], list):
-      error(repr(legislator) + " terms has an invalid data type.")
+      error(context, "'terms' has an invalid data type.")
     elif len(legislator["terms"]) == 0:
-      error(repr(legislator) + " terms is empty.")
+      error(context, "'terms' is empty.")
     else:
       prev_term = None
       for i, term in enumerate(legislator["terms"]):
-        check_term(term, prev_term,
+        check_term(term, prev_term, context+":terms[{}]".format(i),
           current=(current and i==len(legislator["terms"])-1),
           current_mocs=current_mocs)
         prev_term = term
 
     # Check the leadership roles.
-    for role in legislator.get("leadership_roles", []):
-      # All of these fields must be strings.
-      for key, value in role.items():
-        if not isinstance(value, str):
-          error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+    check_leadership_roles(legislator.get("leadership_roles", []), current, context)
 
-      # Check required fields.
-      if "title" not in role:
-        error(rtyaml.dump(role) + " is missing title.")
-      if role.get("chamber") not in ("house", "senate"):
-        error(rtyaml.dump(role) + " has an invalid chamber.")
-      if "start" not in role:
-        error(rtyaml.dump(role) + " is missing start.")
-      if "end" not in role and not current:
-        # end is required only in the historical file
-        error(rtyaml.dump(role) + " is missing end.")
+def check_leadership_roles(roles, current, context):
+  for role in roles:
+    # All of these fields must be strings.
+    for key, value in role.items():
+      if not isinstance(value, str):
+        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
 
-      # Check dates.
-      start = check_date(role['start'])
-      if "end" in role:
-        end = check_date(role['end'])
-        if start and end and end < start:
-          error(rtyaml.dump(role) + " has end before start.")
+    # Check required fields.
+    if "title" not in role:
+      error(context, rtyaml.dump(role) + " is missing title.")
+    if role.get("chamber") not in ("house", "senate"):
+      error(context, rtyaml.dump(role) + " has an invalid chamber.")
+    if "start" not in role:
+      error(context, rtyaml.dump(role) + " is missing start.")
+    if "end" not in role and not current:
+      # end is required only in the historical file
+      error(context, rtyaml.dump(role) + " is missing end.")
 
-def check_id_types(legislator, seen_ids, is_legislator):
+    # Check dates.
+    start = check_date(role['start'], context)
+    if "end" in role:
+      end = check_date(role['end'], context)
+      if start and end and end < start:
+        error(context, rtyaml.dump(role) + " has end before start.")
+
+def check_id_types(legislator, seen_ids, is_legislator, context):
   for key, value in legislator["id"].items():
     # Check that the id key is one we know about.
     if key not in id_types:
-      error(rtyaml.dump({ key: value }) + " is not a valid id.")
+      error(context, rtyaml.dump({ key: value }) + " is not a valid id.")
 
     # Check that the data type is correct.
     elif not isinstance(value, id_types[key]):
-      error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
 
     else:
       # Check that the ID isn't duplicated across legislators.
@@ -162,86 +171,94 @@ def check_id_types(legislator, seen_ids, is_legislator):
     # Check that every legislator has ids of the required types.
     for id_type in id_required:
       if id_type not in legislator["id"]:
-        error("Missing %s id in:\n%s" % (id_type, rtyaml.dump(legislator['id'])))
+        error(context, "Missing %s id." % id_type)
 
-def check_name(name, is_other_names=False):
+def check_name(name, context, is_other_names=False):
   # Check for required keys and data types of the values.
   for key, value in name.items():
     if key in ("start", "end") and is_other_names:
       if not isinstance(value, str):
-        error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
     elif key not in name_keys:
-      error("%s is not a valid key in name." % key)
+      error(context, "%s is not a valid key in name." % key)
     elif key in ("first", "last"):
       # These are required.
       if not isinstance(value, str):
-        error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
     else:
       # These can be set explicitly to None, but maybe we should just remove
       # those keys then.
       if not isinstance(value, (str, type(None))):
-        error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
 
   # If a person as a first initial only, they should also have a middle name.
   # (GovTrack relies on this to generate name strings.)
   if isinstance(name.get("first"), str) and len(name["first"]) == 2 and name["first"].endswith(".") and not name.get("middle"):
-        error(rtyaml.dump(name) + " is missing a middle name to go with its first initial.")
+        error(context, rtyaml.dump(name) + " is missing a middle name to go with its first initial.")
 
-def check_bio(bio):
+def check_bio(bio, is_current_legislator, context):
   for key, value in bio.items():
-    if key not in bio_keys:
-      error("%s is not a valid key in bio." % key)
+    if key not in (bio_keys | old_allowed_other_bio_keys):
+      error(context, "%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
-      error(rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+  if is_current_legislator:
+    # These keys are required only for current legislators.
+    # We don't always have the information for historical members of Congress or presidents.
+    for key in bio_keys:
+      if key not in bio:
+        error(context, "Missing bio->{}.".format(key))
 
-def check_term(term, prev_term, current=None, current_mocs=None):
+def check_term(term, prev_term, context, current=None, current_mocs=None):
   # Check type.
   if term.get("type") not in ("rep", "sen"):
-    error(rtyaml.dump(term) + " has invalid type.")
+    error(context, "Term has invalid 'type'.")
 
   # Check date range.
-  start = check_date(term.get('start'))
-  end = check_date(term.get('end'))
+  start = check_date(term.get('start'), context)
+  end = check_date(term.get('end'), context)
   if start and end:
+    context += "({} to {})".format(start, end)
+
     if end < start:
-      error(rtyaml.dump(term) + " has end before start.")
+      error(context, "Term has end before start.")
 
     # TODO: Remove 'and end > "2000-"'. I'm just adding it because
     # lots of historical data fails this test.
     if prev_term and end > date(2000,1,1):
-      prev_end = check_date(prev_term.get("end"))
+      prev_end = check_date(prev_term.get("end"), context)
       if prev_end:
         if start < prev_end:
-          error(rtyaml.dump(term) + " has start before previous term's end.")
+          error(context, "Term has start before previous term's end.")
 
     if not current and (end > now):
-      error(rtyaml.dump(term) + " has an end date in the future but is in the historical file.")
+      error(context, "Term has an end date in the future but is a past term.")
     if current and (end < now):
-      error(rtyaml.dump(term) + " has an end date in the past but is in the current file.")
+      error(context, "Term has an end date in the past but is a most recent term in the current file.")
 
   # Check how.
   if term.get("how") not in (None, "appointment",):
-    error(rtyaml.dump(term) + " has invalid 'how'.")
+    error(context, "Term has invalid 'how'.")
 
   # Check end-type.
   if term.get("end-type") not in (None, "special-election",):
-    error(rtyaml.dump(term) + " has invalid 'end-type'.")
+    error(context, "Term has invalid 'end-type'.")
   if term.get("end-type") == "special-election" and term.get("how") != "appointment":
-    error(rtyaml.dump(term) + " can't have an 'end-type' without being an appointed senator.")
+    error(context, "Term can't have an 'end-type' without being an appointed senator.")
 
   # Check state, district, class, state_rank.
   if term.get("state") not in utils.states:
-    error(rtyaml.dump(term) + " has invalid state.")
+    error(context, "Term has invalid state.")
   if term.get("type") == "rep":
     if not isinstance(term.get("district"), int):
-      error(rtyaml.dump(term) + " has invalid district.")
+      error(context, "Term has invalid district.")
   if term.get("type") == "sen":
     if term.get("class") not in (1, 2, 3):
-      error(rtyaml.dump(term) + " has invalid class.")
+      error(context, "Term has invalid class.")
     if term.get("state_rank") not in ("junior", "senior", None):
-      error(rtyaml.dump(term) + " has invalid senator state_rank.")
+      error(context, "Term has invalid senator state_rank.")
     elif current and term.get("state_rank") is None:
-      error(rtyaml.dump(term) + " is missing senator state_rank.")
+      error(context, "Term is missing senator state_rank.")
 
   if current:
     # Check uniqueness of office for current members.
@@ -249,27 +266,27 @@ def check_term(term, prev_term, current=None, current_mocs=None):
     # Check office.
     office = (term.get("type"), term.get("state"), term.get("district") if term.get("type") == "rep" else term.get("class"))
     if office in current_mocs:
-      error(rtyaml.dump(term) + " duplicates an office.")
+      error(context, "Term duplicates an office.")
     current_mocs.add(office)
 
     # Check senator rank isn't duplicated.
     if term.get("type") == "sen":
       office = (term.get("state"), term.get("state_rank"))
       if office in current_mocs:
-        error(rtyaml.dump(term) + " duplicates state_rank in a state.")
+        error(context, "Term duplicates state_rank in a state.")
       current_mocs.add(office)
 
     # Check party of current members (historical is too difficult).
     if term.get("party") not in ("Republican", "Democrat", "Independent"):
-      error(rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
 
     # Check caucus of Independent members.
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      error(rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
+      error(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
 
-    # Check website -- optional.
+    # Check website -- it's optional, so warn.
     if not term.get("url"):
-      print(rtyaml.dump(term) + " is missing a website url.")
+      print(context, "Term is missing a website url.")
 
     # TODO: Check party_affiliations and office information.
 
@@ -296,79 +313,81 @@ def check_executive_file(fn):
   with open(fn) as f:
     people = rtyaml.load(f)
   for person in people:
+    # Create a string for error messages to tell us where problems are ocurring.
+    context = "{} in {}".format(fn, repr(person))
 
     # Check the IDs.
     if "id" not in person:
-      error(repr(person) + " is missing 'id'.")
+      error(context, "Missing 'id' mapping.")
     else:
       # Check that the IDs are valid.
-      check_id_types(person, {}, False)
+      check_id_types(person, {}, False, context)
 
     # Check the name.
     if "name" not in person:
-      error(repr(person) + " is missing 'name'.")
+      error(context, "Missing 'name' mapping.")
     else:
-      check_name(person["name"])
+      check_name(person["name"], context)
 
     # Check the biographical fields.
     if "bio" not in person:
-      error(repr(person) + " is missing 'bio'.")
+      error(context, "Missing 'bio' mapping.")
     else:
-      check_bio(person["bio"])
+      check_bio(person["bio"], False, repr(person))
 
     # Check the terms.
     if "terms" not in person:
-      error(repr(person) + " is missing 'terms'.")
+      error(context, "Missing 'terms' list.")
     elif not isinstance(person["terms"], list):
-      error(repr(person) + " terms has an invalid data type.")
+      error(context, "'terms' has an invalid data type.")
     elif len(person["terms"]) == 0:
-      error(repr(person) + " terms is empty.")
+      error(context, "'terms' is empty.")
     else:
       for i, term in enumerate(person["terms"]):
-        check_executive_term(term)
+        check_executive_term(term, context+":term[{}]".format(i))
 
-def check_executive_term(term):
+def check_executive_term(term, context):
   # Check type.
   if term.get("type") not in ("prez", "viceprez"):
-    error(rtyaml.dump(term) + " has invalid type.")
+    error(context, "Term has invalid 'type'.")
 
   # Check how.
   if term.get("how") not in ("election", "succession", "appointment"):
-    error(rtyaml.dump(term) + " has invalid 'how'.")
+    error(context, "Term has invalid 'how'.")
 
   # Check date range.
-  start = check_date(term.get('start'))
-  end = check_date(term.get('end'))
+  start = check_date(term.get('start'), context)
+  end = check_date(term.get('end'), context)
   if start and end:
     if end < start:
-      error(rtyaml.dump(term) + " has end before start.")
+      error(context, "Term has end before start.")
 
   if end.year > 2000:
     # Check party of current members (historical is too difficult and even recent ones incorrectly have Democratic instead of Democrat, which is inconsistent with the legislators files).
     if term.get("party") not in ("Republican", "Democrat"):
-      error(rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
 
 
-def check_date(d):
+def check_date(d, context):
   if not isinstance(d, str):
-    error(str(d) + ": invalid data type")
+    error(context, str(d) + ": invalid data type")
     return None
   try:
     return utils.parse_date(d)
   except Exception as e:
-    error(d + ": " + str(e))
+    error(context, d + ": " + str(e))
     return None
 
 def check_id_uniqueness(seen_ids):
   for (id_type, id_value), occurrences in seen_ids.items():
     if len(occurrences) > 1:
-      error("%s %s is duplicated: %s" % (id_type, id_value,
+      error("", "%s %s is duplicated: %s" % (id_type, id_value,
         " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
 
 def check_district_offices():
     has_errors = validate_offices(skip_warnings=True)
     if has_errors:
-        error("District offices have errors")
+        error("", "District offices have errors")
 
 
 if __name__ == "__main__":

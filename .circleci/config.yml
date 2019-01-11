@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.5-browsers
     steps:
       # Set up.
-      - checkout      
+      - checkout
       - run: sudo pip install -r scripts/requirements.txt
 
       # Run tests.
@@ -31,8 +31,6 @@ workflows:
     jobs:
       - build
       - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master
