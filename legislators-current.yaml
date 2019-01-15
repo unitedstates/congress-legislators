@@ -105,8 +105,8 @@
     url: https://www.brown.senate.gov
     rss_url: http://www.brown.senate.gov/rss/feeds/?type=all&amp;
     contact_form: http://www.brown.senate.gov/contact/
-    address: 713 Hart Senate Office Building Washington DC 20510
-    office: 713 Hart Senate Office Building
+    address: 503 Hart Senate Office Building Washington DC 20510
+    office: 503 Hart Senate Office Building
     phone: 202-224-2315
 - id:
     bioguide: C000127
@@ -3621,7 +3621,7 @@
     class: 1
     party: Republican
     state_rank: junior
-    url: https://www.blackburn.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/BlackburnMarsha.htm
     address: B40B Dirksen Senate Office Building Washington DC 20510
     office: B40b Dirksen Senate Office Building
     phone: 202-224-3344
@@ -28373,10 +28373,11 @@
     class: 1
     party: Democrat
     state_rank: senior
-    url: https://www.sinema.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/SinemaKyrsten.htm
     address: 825B&C Hart Senate Office Building Washington DC 20510
     office: 825b&c Hart Senate Office Building
     phone: 202-224-4521
+    contact_form: mailto:contact@sinema.senate.gov
 - id:
     govtrack: 412510
     bioguide: L000578
@@ -30616,7 +30617,7 @@
     class: 1
     party: Republican
     state_rank: junior
-    url: https://www.cramer.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/CramerKevin.htm
     address: B40C Dirksen Senate Office Building Washington DC 20510
     office: B40c Dirksen Senate Office Building
     phone: 202-224-2043
@@ -36852,7 +36853,7 @@
     class: 1
     party: Democrat
     state_rank: junior
-    url: https://www.rosen.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/RosenJacky.htm
     address: G12 Dirksen Senate Office Building Washington DC 20510
     office: G12 Dirksen Senate Office Building
     phone: 202-224-6244
@@ -38008,6 +38009,7 @@
   name:
     first: Ed
     last: Case
+    official_full: Ed Case
   bio:
     birthday: '1952-09-27'
     gender: M
@@ -38056,7 +38058,7 @@
     first: Steven
     last: Horsford
     middle: A.
-    official_full: Steven A. Horsford
+    official_full: Steven Horsford
   bio:
     gender: M
     birthday: '1973-04-29'
@@ -38164,6 +38166,7 @@
   name:
     first: Greg
     last: Stanton
+    official_full: Greg Stanton
   bio:
     gender: M
     birthday: '1970-03-08'
@@ -38190,6 +38193,7 @@
   name:
     first: Josh
     last: Harder
+    official_full: Josh Harder
   bio:
     gender: M
     birthday: '1986-08-01'
@@ -38216,6 +38220,7 @@
   name:
     first: TJ
     last: Cox
+    official_full: TJ Cox
   bio:
     gender: M
     birthday: '1963-07-18'
@@ -38241,6 +38246,7 @@
   name:
     first: Katie
     last: Hill
+    official_full: Katie Hill
   bio:
     gender: F
     birthday: '1987-08-25'
@@ -38267,6 +38273,7 @@
     first: Gilbert
     middle: Ray
     last: Cisneros
+    official_full: Gilbert Ray Cisneros, Jr.
   bio:
     gender: M
     birthday: '1971-02-12'
@@ -38292,6 +38299,7 @@
   name:
     first: Katie
     last: Porter
+    official_full: Katie Porter
   bio:
     gender: F
     birthday: '1974-01-03'
@@ -38317,6 +38325,7 @@
   name:
     first: Harley
     last: Rouda
+    official_full: Harley Rouda
   bio:
     gender: M
     birthday: '1961-12-10'
@@ -38342,6 +38351,7 @@
   name:
     first: Mike
     last: Levin
+    official_full: Mike Levin
   bio:
     gender: M
     birthday: '1978-10-28'
@@ -38367,6 +38377,7 @@
   name:
     first: Joe
     last: Neguse
+    official_full: Joe Neguse
   bio:
     gender: M
     birthday: '1984-05-13'
@@ -38392,6 +38403,7 @@
   name:
     first: Jason
     last: Crow
+    official_full: Jason Crow
   bio:
     gender: M
     birthday: '1979-03-15'
@@ -38417,6 +38429,7 @@
   name:
     first: Jahana
     last: Hayes
+    official_full: Jahana Hayes
   bio:
     gender: F
     birthday: '1973-03-08'
@@ -38441,6 +38454,7 @@
   name:
     first: Michael
     last: Waltz
+    official_full: Michael Waltz
   bio:
     gender: M
     birthday: '1974-01-31'
@@ -38467,6 +38481,7 @@
   name:
     first: Ross
     last: Spano
+    official_full: Ross Spano
   bio:
     gender: M
     birthday: '1966-07-16'
@@ -38494,6 +38509,7 @@
     first: W.
     middle: Gregory
     last: Steube
+    official_full: W. Gregory Steube
   bio:
     gender: M
     birthday: '1978-05-19'
@@ -38520,6 +38536,7 @@
   name:
     first: Debbie
     last: Mucarsel-Powell
+    official_full: Debbie Mucarsel-Powell
   bio:
     gender: F
     birthday: '1971-01-18'
@@ -38547,6 +38564,7 @@
     first: Donna
     middle: E.
     last: Shalala
+    official_full: Donna E. Shalala
   bio:
     gender: F
     birthday: '1941-02-14'
@@ -38573,6 +38591,7 @@
   name:
     first: Lucy
     last: McBath
+    official_full: Lucy McBath
   bio:
     gender: F
     birthday: '1960-06-01'
@@ -38599,6 +38618,7 @@
     first: Michael
     middle: F. Q.
     last: San Nicolas
+    official_full: Michael F. Q. San Nicolas
   bio:
     gender: M
     birthday: '1981-01-30'
@@ -38625,6 +38645,7 @@
   name:
     first: Abby
     last: Finkenauer
+    official_full: Abby Finkenauer
   bio:
     gender: F
     birthday: '1988-12-27'
@@ -38651,6 +38672,7 @@
   name:
     first: Cynthia
     last: Axne
+    official_full: Cynthia Axne
   bio:
     gender: F
     birthday: '1965-04-20'
@@ -38677,6 +38699,7 @@
   name:
     first: Russ
     last: Fulcher
+    official_full: Russ Fulcher
   bio:
     gender: M
     birthday: '1973-07-19'
@@ -38704,6 +38727,7 @@
     first: Jesús
     middle: G.
     last: García
+    official_full: Jesús G. García
   bio:
     gender: M
     birthday: '1956-04-12'
@@ -38728,6 +38752,7 @@
   name:
     first: Sean
     last: Casten
+    official_full: Sean Casten
   bio:
     gender: M
     birthday: '1971-11-23'
@@ -38753,6 +38778,7 @@
   name:
     first: Lauren
     last: Underwood
+    official_full: Lauren Underwood
   bio:
     gender: F
     birthday: '1986-10-04'
@@ -38779,6 +38805,7 @@
     first: James
     middle: R.
     last: Baird
+    official_full: James R. Baird
   bio:
     gender: M
     birthday: '1945-06-04'
@@ -38804,6 +38831,7 @@
   name:
     first: Greg
     last: Pence
+    official_full: Greg Pence
   bio:
     gender: M
     birthday: '1956-11-14'
@@ -38829,6 +38857,7 @@
     first: Steven
     middle: C.
     last: Watkins
+    official_full: Steven C. Watkins, Jr.
   bio:
     gender: M
     birthday: '1976-09-18'
@@ -38855,6 +38884,7 @@
   name:
     first: Sharice
     last: Davids
+    official_full: Sharice Davids
   bio:
     gender: F
     birthday: '1980-05-22'
@@ -38880,6 +38910,7 @@
   name:
     first: Lori
     last: Trahan
+    official_full: Lori Trahan
   bio:
     gender: F
     birthday: '1973-10-27'
@@ -38906,6 +38937,7 @@
   name:
     first: Ayanna
     last: Pressley
+    official_full: Ayanna Pressley
   bio:
     gender: F
     birthday: '1974-02-03'
@@ -38932,6 +38964,7 @@
     first: David
     middle: J.
     last: Trone
+    official_full: David J. Trone
   bio:
     gender: M
     birthday: '1955-09-21'
@@ -38958,6 +38991,7 @@
   name:
     first: Elissa
     last: Slotkin
+    official_full: Elissa Slotkin
   bio:
     gender: F
     birthday: '1976-07-10'
@@ -38983,6 +39017,7 @@
   name:
     first: Andy
     last: Levin
+    official_full: Andy Levin
   bio:
     gender: M
     birthday: '1960-08-01'
@@ -39010,6 +39045,7 @@
     first: Haley
     middle: M.
     last: Stevens
+    official_full: Haley M. Stevens
   bio:
     gender: F
     birthday: '1983-06-01'
@@ -39036,6 +39072,7 @@
   name:
     first: Rashida
     last: Tlaib
+    official_full: Rashida Tlaib
   bio:
     gender: F
     birthday: '1976-07-24'
@@ -39061,6 +39098,7 @@
   name:
     first: Jim
     last: Hagedorn
+    official_full: Jim Hagedorn
   bio:
     gender: M
     birthday: '1962-08-04'
@@ -39087,6 +39125,7 @@
   name:
     first: Angie
     last: Craig
+    official_full: Angie Craig
   bio:
     gender: F
     birthday: '1972-02-14'
@@ -39112,6 +39151,7 @@
   name:
     first: Dean
     last: Phillips
+    official_full: Dean Phillips
   bio:
     gender: M
     birthday: '1969-01-20'
@@ -39137,6 +39177,7 @@
   name:
     first: Ilhan
     last: Omar
+    official_full: Ilhan Omar
   bio:
     gender: F
     birthday: '1981-10-04'
@@ -39162,6 +39203,7 @@
   name:
     first: Pete
     last: Stauber
+    official_full: Pete Stauber
   bio:
     gender: M
     birthday: '1966-05-10'
@@ -39186,6 +39228,7 @@
   name:
     first: Michael
     last: Guest
+    official_full: Michael Guest
   bio:
     gender: M
     birthday: '1970-02-04'
@@ -39211,6 +39254,7 @@
   name:
     first: Kelly
     last: Armstrong
+    official_full: Kelly Armstrong
   bio:
     gender: M
     birthday: '1976-10-08'
@@ -39236,6 +39280,7 @@
   name:
     first: Chris
     last: Pappas
+    official_full: Chris Pappas
   bio:
     gender: M
     birthday: '1980-06-04'
@@ -39262,6 +39307,7 @@
   name:
     first: Jefferson
     last: Van Drew
+    official_full: Jefferson Van Drew
   bio:
     gender: M
     birthday: '1953-02-23'
@@ -39286,6 +39332,7 @@
   name:
     first: Andy
     last: Kim
+    official_full: Andy Kim
   bio:
     gender: M
     birthday: '1982-07-12'
@@ -39313,6 +39360,7 @@
   name:
     first: Tom
     last: Malinowski
+    official_full: Tom Malinowski
   bio:
     gender: M
     birthday: '1965-09-23'
@@ -39339,6 +39387,7 @@
   name:
     first: Mikie
     last: Sherrill
+    official_full: Mikie Sherrill
   bio:
     gender: F
     birthday: '1972-01-19'
@@ -39365,6 +39414,7 @@
     first: Debra
     middle: A.
     last: Haaland
+    official_full: Debra A. Haaland
   bio:
     gender: F
     birthday: '1960-12-02'
@@ -39390,6 +39440,7 @@
   name:
     first: Xochitl
     last: Torres Small
+    official_full: Xochitl Torres Small
   bio:
     gender: F
     birthday: '1984-11-15'
@@ -39415,6 +39466,7 @@
   name:
     first: Susie
     last: Lee
+    official_full: Susie Lee
   bio:
     gender: F
     birthday: '1966-11-07'
@@ -39439,6 +39491,7 @@
   name:
     first: Max
     last: Rose
+    official_full: Max Rose
   bio:
     gender: M
     birthday: '1986-11-28'
@@ -39465,6 +39518,7 @@
   name:
     first: Alexandria
     last: Ocasio-Cortez
+    official_full: Alexandria Ocasio-Cortez
   bio:
     gender: F
     birthday: '1989-10-13'
@@ -39489,6 +39543,7 @@
   name:
     first: Antonio
     last: Delgado
+    official_full: Antonio Delgado
   bio:
     gender: M
     birthday: '1977-01-19'
@@ -39516,6 +39571,7 @@
   name:
     first: Anthony
     last: Brindisi
+    official_full: Anthony Brindisi
   bio:
     gender: M
     birthday: '1978-11-22'
@@ -39541,6 +39597,7 @@
   name:
     first: Anthony
     last: Gonzalez
+    official_full: Anthony Gonzalez
   bio:
     gender: M
     birthday: '1984-09-19'
@@ -39567,6 +39624,7 @@
     first: Kendra
     middle: S.
     last: Horn
+    official_full: Kendra S. Horn
   bio:
     gender: F
     birthday: '1976-06-09'
@@ -39593,6 +39651,7 @@
   name:
     first: Madeleine
     last: Dean
+    official_full: Madeleine Dean
   bio:
     gender: F
     birthday: '1959-06-06'
@@ -39619,6 +39678,7 @@
   name:
     first: Chrissy
     last: Houlahan
+    official_full: Chrissy Houlahan
   bio:
     gender: F
     birthday: '1967-06-05'
@@ -39645,6 +39705,7 @@
   name:
     first: Daniel
     last: Meuser
+    official_full: Daniel Meuser
   bio:
     gender: M
     birthday: '1964-02-10'
@@ -39669,6 +39730,7 @@
   name:
     first: John
     last: Joyce
+    official_full: John Joyce
   bio:
     gender: M
     birthday: '1957-02-08'
@@ -39695,6 +39757,7 @@
   name:
     first: Guy
     last: Reschenthaler
+    official_full: Guy Reschenthaler
   bio:
     gender: M
     birthday: '1983-04-17'
@@ -39720,6 +39783,7 @@
   name:
     first: Joe
     last: Cunningham
+    official_full: Joe Cunningham
   bio:
     gender: M
     birthday: '1982-05-26'
@@ -39747,6 +39811,7 @@
     first: William
     middle: R.
     last: Timmons
+    official_full: William R. Timmons IV
   bio:
     gender: M
     birthday: '1984-04-30'
@@ -39772,6 +39837,7 @@
   name:
     first: Dusty
     last: Johnson
+    official_full: Dusty Johnson
   bio:
     gender: M
     birthday: '1976-09-30'
@@ -39798,6 +39864,7 @@
   name:
     first: Tim
     last: Burchett
+    official_full: Tim Burchett
   bio:
     gender: M
     birthday: '1964-08-25'
@@ -39824,6 +39891,7 @@
     first: John
     middle: W.
     last: Rose
+    official_full: John W. Rose
   bio:
     gender: M
     birthday: '1965-02-23'
@@ -39851,6 +39919,7 @@
     first: Mark
     middle: E.
     last: Green
+    official_full: Mark E. Green
   bio:
     gender: M
     birthday: '1964-11-08'
@@ -39877,6 +39946,7 @@
   name:
     first: Dan
     last: Crenshaw
+    official_full: Dan Crenshaw
   bio:
     gender: M
     birthday: '1984-03-14'
@@ -39902,6 +39972,7 @@
   name:
     first: Van
     last: Taylor
+    official_full: Van Taylor
   bio:
     gender: M
     birthday: '1972-08-01'
@@ -39928,6 +39999,7 @@
   name:
     first: Lance
     last: Gooden
+    official_full: Lance Gooden
   bio:
     gender: M
     birthday: '1982-12-01'
@@ -39952,6 +40024,7 @@
   name:
     first: Ron
     last: Wright
+    official_full: Ron Wright
   bio:
     gender: M
     birthday: '1953-04-08'
@@ -39978,6 +40051,7 @@
   name:
     first: Lizzie
     last: Fletcher
+    official_full: Lizzie Fletcher
   bio:
     gender: F
     birthday: '1975-02-13'
@@ -40003,6 +40077,7 @@
   name:
     first: Veronica
     last: Escobar
+    official_full: Veronica Escobar
   bio:
     gender: F
     birthday: '1969-09-15'
@@ -40028,6 +40103,7 @@
   name:
     first: Chip
     last: Roy
+    official_full: Chip Roy
   bio:
     gender: M
     birthday: '1972-08-07'
@@ -40055,6 +40131,7 @@
     first: Sylvia
     middle: R.
     last: Garcia
+    official_full: Sylvia R. Garcia
   bio:
     gender: F
     birthday: '1950-09-06'
@@ -40081,6 +40158,7 @@
     first: Colin
     middle: Z.
     last: Allred
+    official_full: Colin Z. Allred
   bio:
     gender: M
     birthday: '1983-04-15'
@@ -40107,6 +40185,7 @@
   name:
     first: Ben
     last: McAdams
+    official_full: Ben McAdams
   bio:
     gender: M
     birthday: '1974-12-05'
@@ -40134,6 +40213,7 @@
     first: Elaine
     middle: G.
     last: Luria
+    official_full: Elaine G. Luria
   bio:
     gender: F
     birthday: '1975-08-15'
@@ -40159,6 +40239,7 @@
   name:
     first: Denver
     last: Riggleman
+    official_full: Denver Riggleman
   bio:
     gender: M
     birthday: '1970-03-01'
@@ -40185,6 +40266,7 @@
   name:
     first: Ben
     last: Cline
+    official_full: Ben Cline
   bio:
     gender: M
     birthday: '1972-02-29'
@@ -40211,6 +40293,7 @@
     first: Abigail
     middle: Davis
     last: Spanberger
+    official_full: Abigail Davis Spanberger
   bio:
     gender: F
     birthday: '1979-08-07'
@@ -40237,6 +40320,7 @@
   name:
     first: Jennifer
     last: Wexton
+    official_full: Jennifer Wexton
   bio:
     gender: F
     birthday: '1968-05-27'
@@ -40262,6 +40346,7 @@
   name:
     first: Kim
     last: Schrier
+    official_full: Kim Schrier
   bio:
     gender: F
     birthday: '1968-08-23'
@@ -40286,6 +40371,7 @@
   name:
     first: Bryan
     last: Steil
+    official_full: Bryan Steil
   bio:
     gender: M
     birthday: '1981-03-30'
@@ -40313,6 +40399,7 @@
     first: Carol
     middle: D.
     last: Miller
+    official_full: Carol D. Miller
   bio:
     gender: F
     birthday: '1950-11-04'
@@ -40341,6 +40428,7 @@
   name:
     first: Rick
     last: Scott
+    official_full: Rick Scott
   bio:
     gender: M
     birthday: '1952-12-01'
@@ -40352,6 +40440,10 @@
     class: 1
     party: Republican
     state_rank: junior
+    url: https://www.senate.gov/senators/116thCongress/ScottRick.htm
+    address: B3 Russell Senate Office Building Washington DC 20510
+    office: B3 Russell Senate Office Building
+    phone: 202-224-5274
 - id:
     bioguide: B001310
     fec:
@@ -40378,7 +40470,7 @@
     class: 1
     party: Republican
     state_rank: junior
-    url: https://www.braun.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/BraunMike.htm
     address: B85 Russell Senate Office Building Washington DC 20510
     office: B85 Russell Senate Office Building
     phone: 202-224-4814
@@ -40408,7 +40500,7 @@
     class: 1
     party: Republican
     state_rank: junior
-    url: https://www.hawley.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/HawleyJosh.htm
     address: B40A Dirksen Senate Office Building Washington DC 20510
     office: B40a Dirksen Senate Office Building
     phone: 202-224-6154
@@ -40438,7 +40530,7 @@
     class: 1
     party: Republican
     state_rank: junior
-    url: https://www.romney.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/RomneyMitt.htm
     address: B33 Russell Senate Office Building Washington DC 20510
     office: B33 Russell Senate Office Building
     phone: 202-224-5251
@@ -40496,10 +40588,11 @@
     class: 3
     party: Republican
     state_rank: junior
-    url: https://www.mcsally.senate.gov
+    url: https://www.senate.gov/senators/116thCongress/McSallyMartha.htm
     address: B40D Dirksen Senate Office Building Washington DC 20510
     office: B40d Dirksen Senate Office Building
     phone: 202-224-2235
+    contact_form: mailto:contact@mcsally.senate.gov
 - id:
     bioguide: G000592
     fec:
