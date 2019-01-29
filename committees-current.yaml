@@ -1,7 +1,7 @@
 - type: house
   name: House Committee on Agriculture
   url: https://agriculture.house.gov/
-  minority_url: https://democrats-agriculture.house.gov/
+  minority_url: https://republicans-agriculture.house.gov
   thomas_id: HSAG
   house_committee_id: AG
   subcommittees:
@@ -31,15 +31,13 @@
     phone: (202) 225-2171
   address: 1301 LHOB; Washington, DC 20515-6001
   phone: (202) 225-2171
-  rss_url: https://agriculture.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-agriculture.house.gov/Rss.aspx?GroupID=1
+  rss_url: https://agriculture.house.gov/Rss.aspx?GroupID=1
   jurisdiction: The House Committee on Agriculture has legislative jurisdiction over
     agriculture, food, rural development, and forestry.
-  jurisdiction_source: https://agriculture.house.gov/issuesinfocus/
 - type: house
   name: House Committee on Appropriations
   url: https://appropriations.house.gov/
-  minority_url: https://democrats-appropriations.house.gov
+  minority_url: https://republicans-appropriations.house.gov/
   thomas_id: HSAP
   house_committee_id: AP
   subcommittees:
@@ -94,8 +92,6 @@
     phone: (202) 225-2141
   address: H305 CAPITOL; Washington, DC 20515-6015
   phone: (202) 225-2771
-  rss_url: https://appropriations.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-appropriations.house.gov/rss.xml
   jurisdiction: The House Committee on Appropriations is responsible for legislation
     allocating federal funds prior to expenditure from the treasury. Appropriations
     are generally limited to the levels set by the Budget Resolution drafted by the
@@ -106,7 +102,7 @@
 - type: house
   name: House Committee on Armed Services
   url: https://armedservices.house.gov/
-  minority_url: https://democrats-armedservices.house.gov/
+  minority_url: https://republicans-armedservices.house.gov/
   thomas_id: HSAS
   house_committee_id: AS
   subcommittees:
@@ -118,10 +114,6 @@
     thomas_id: '02'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-7560
-  - name: Oversight and Investigations
-    thomas_id: '06'
-    address: 2119 RHOB; Washington, DC 20515
-    phone: (202) 226-5048
   - name: Readiness
     thomas_id: '03'
     address: 2340 RHOB; Washington, DC 20515
@@ -134,29 +126,27 @@
     thomas_id: '29'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-  - name: Emerging Threats and Capabilities
+  - name: Intelligence, Emerging Threats and Capabilities
     thomas_id: '26'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
   address: 2216 RHOB; Washington, DC 20515-6035
   phone: (202) 225-4151
-  rss_url: https://armedservices.house.gov/index.cfm/rss/feed
-  minority_rss_url: https://democrats-armedservices.house.gov/index.cfm/rss/feed
   jurisdiction: The House Committee on Armed Services has legislative jurisdiction
     over military and defense.
   jurisdiction_source: https://armedservices.house.gov/about
 - type: house
   name: House Committee on Financial Services
   url: https://financialservices.house.gov/
-  minority_url: https://democrats-financialservices.house.gov/
+  minority_url: https://republicans-financialservices.house.gov/
   thomas_id: HSBA
   house_committee_id: BA
   subcommittees:
-  - name: Capital Markets, Securities, and Investment
+  - name: Investor Protection, Entrepreneurship, and Capital Markets
     thomas_id: '16'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-  - name: Financial Institutions and Consumer Credit
+  - name: Consumer Protection and Financial Institutions
     thomas_id: '15'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
@@ -164,7 +154,7 @@
     thomas_id: '04'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
-  - name: Monetary Policy and Trade
+  - name: National Security, International Development and Monetary Policy
     thomas_id: '20'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
@@ -178,8 +168,6 @@
     phone: (202) 225-7502
   address: 2129 RHOB; Washington, DC 20515-6050
   phone: (202) 225-7502
-  rss_url: https://financialservices.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-financialservices.house.gov/news/rss.aspx
   jurisdiction: The House Financial Services Committee has jurisdiction over issues
     pertaining to the economy, the banking system, housing, insurance, and securities
     and exchanges. Additionally, the Committee also has jurisdiction over monetary
