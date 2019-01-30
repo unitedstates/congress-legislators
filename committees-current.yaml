@@ -196,8 +196,8 @@
   jurisdiction_source: https://budget.house.gov/about/
 - type: house
   name: House Committee on Education and Labor
-  url: https://edworkforce.house.gov/
-  minority_url: https://democrats-edworkforce.house.gov/
+  url: https://edlabor.house.gov/
+  minority_url: https://republicans-edlabor.house.gov/
   thomas_id: HSED
   house_committee_id: ED
   subcommittees:
@@ -209,7 +209,7 @@
     thomas_id: '02'
     address: 2176 RHOB; Washington, DC 20515
     phone: (202) 225-4527
-  - name: Higher Education and Workforce Development
+  - name: Higher Education and Workforce Investment
     thomas_id: '13'
     address: 2176 RHOB; Washington, DC 20515
     phone: (202) 225-4527
@@ -219,8 +219,6 @@
     phone: (202) 225-4527
   address: 2176 RHOB; Washington, DC 20515-6100
   phone: (202) 225-4527
-  rss_url: https://edworkforce.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-edworkforce.house.gov/rss.xml
   jurisdiction: The committee has legislative
     jurisdiction over matters related to higher and lower education, workforce development
     and protections, and health, employment, labor, and pensions.
@@ -228,7 +226,7 @@
 - type: house
   name: House Committee on Foreign Affairs
   url: https://foreignaffairs.house.gov/
-  minority_url: https://democrats-foreignaffairs.house.gov/
+  minority_url: https://republicans-foreignaffairs.house.gov/
   thomas_id: HSFA
   house_committee_id: FA
   subcommittees:
@@ -236,29 +234,28 @@
     thomas_id: '16'
     address: 5210 OHOB; Washington, DC 20515
     phone: (202) 226-7812
-  - name: Asia and the Pacific
+  - name: Asia, the Pacific, and Nonproliferation
     thomas_id: '05'
     address: 5190 OHOB; Washington, DC 20515
     phone: (202) 226-7825
-  - name: Europe, Eurasia, and Emerging Threats
+  - name: Europe, Eurasia, Energy, and the Environment
     thomas_id: '14'
     address: 5210 OHOB; Washington, DC 20515
     phone: (202) 226-6434
-  - name: Terrorism, Nonproliferation, and Trade
+  - name: Oversight and Investigations
     thomas_id: '18'
     address: 5100 OHOB; Washington, DC 20515
     phone: (202) 226-1500
-  - name: The Middle East and North Africa
+  - name: Middle East, North Africa, and International Terrorism
     thomas_id: '13'
     address: 5220 OHOB; Washington, DC 20515
     phone: (202) 225-3345
-  - name: The Western Hemisphere
+  - name: Western Hemisphere, Civilian Security, and Trade
     thomas_id: '07'
     address: 5100 OHOB; Washington, DC 20515
     phone: (202) 226-9980
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
-  rss_url: https://foreignaffairs.house.gov/rss.xml
   jurisdiction: The House Committee on Foreign Affairs considers legislation that
     impacts the diplomatic community, which includes the Department of State, the
     Agency for International Development, the Peace Corps, the United Nations, and
@@ -267,38 +264,36 @@
 - type: house
   name: House Committee on Oversight and Reform
   url: https://oversight.house.gov/
-  minority_url: https://democrats-oversight.house.gov/
+  minority_url: https://republicans-oversight.house.gov/
   thomas_id: HSGO
   house_committee_id: GO
   subcommittees:
   - name: Information Technology
     thomas_id: '25'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Government Operations
     thomas_id: '24'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: National Security
     thomas_id: '06'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Healthcare, Benefits, and Administrative Rules
     thomas_id: '27'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  - name: The Interior, Energy and Environment
+  - name: Environment
     thomas_id: '28'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Intergovernmental Affairs
     thomas_id: '29'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
-  address: 2157 RHOB; Washington, DC 20515-6143
-  phone: (202) 225-5074
-  rss_url: https://oversight.house.gov/feed/
-  minority_rss_url: https://democrats-oversight.house.gov/rss.xml
+  address: 2471 RHOB; Washington, DC 20515-6143
+  phone: (202) 225-5051
   jurisdiction: The committee oversees the
     federal government and all of its agencies to ensure efficiency, effectiveness,
     and accountability. The Committee oversees government operations, health care,
