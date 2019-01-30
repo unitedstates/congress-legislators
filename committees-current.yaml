@@ -303,13 +303,11 @@
 - type: house
   name: House Committee on House Administration
   url: https://cha.house.gov/
-  minority_url: https://democrats-cha.house.gov/
+  minority_url: https://republicans-cha.house.gov/
   thomas_id: HSHA
   house_committee_id: HA
-  address: 1309 LHOB; Washington, DC 20515-6157
-  phone: (202) 225-8281
-  rss_url: https://cha.house.gov/rss.xml
-  minority_rss_url: https://democrats-cha.house.gov/rss.xml
+  address: 1316 LHOB; Washington, DC 20515-6157
+  phone: (202) 225-2061
   jurisdiction: The Committee on House Administration has legislative jurisdiction
     over the federal elections and the day-to-day operations of the House. The Committee's
     jurisdiction over federal elections requires it to consider proposals to amend
@@ -321,37 +319,36 @@
 - type: house
   name: House Committee on Homeland Security
   url: https://homeland.house.gov/
-  minority_url: https://democrats-homeland.house.gov/
+  minority_url: https://republicans-homeland.house.gov/
   thomas_id: HSHM
   house_committee_id: HM
   subcommittees:
-  - name: Border and Maritime Security
+  - name: Border Security, Facilitation, and Operations
     thomas_id: '11'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  - name: Emergency Preparedness, Response, and Communications
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  - name: Emergency Preparedness, Response, and Recovery
     thomas_id: '12'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  - name: Cybersecurity and Infrastructure Protection
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  - name: Cybersecurity, Infrastructure Protection, and Innovation
     thomas_id: '08'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  - name: Counterterrorism and Intelligence
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  - name: Intelligence and Counterterrorism
     thomas_id: '05'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  - name: Oversight and Management Efficiency
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  - name: Oversight, Management, and Accountability
     thomas_id: '09'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  - name: Transportation and Protective Security
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  - name: Transportation and Maritime Security
     thomas_id: '07'
-    address: 176 FHOB; Washington, DC 20515
-    phone: (202) 226-8417
-  address: 176 FHOB; Washington, DC 20515-6480
-  phone: (202) 226-8417
-  rss_url: https://homeland.house.gov/rss.xml
+    address: 117 FHOB; Washington, DC 20515
+    phone: (202) 226-2616
+  address: 117 FHOB; Washington, DC 20515-6480
+  phone: (202) 226-2616
   jurisdiction: The House Committee on Homeland Security has jurisdiction over matters
     related to national defense. It has six subcommittees on border and maritime security;
     counterterrorism and intelligence; cybersecurity and infrastructure protection;
@@ -362,11 +359,11 @@
 - type: house
   name: House Committee on Energy and Commerce
   url: https://energycommerce.house.gov/
-  minority_url: https://democrats-energycommerce.house.gov/
+  minority_url: https://republicans-energycommerce.house.gov/
   thomas_id: HSIF
   house_committee_id: IF
   subcommittees:
-  - name: Digital Commerce and Consumer Protection
+  - name: Consumer Protection and Commerce
     thomas_id: '17'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
@@ -386,13 +383,12 @@
     thomas_id: '02'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
-  - name: Environment
+  - name: Environment and Climate Change
     thomas_id: '18'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-2927
   address: 2125 RHOB; Washington, DC 20515-6115
   phone: (202) 225-2927
-  rss_url: https://energycommerce.house.gov/rss.aspx
   jurisdiction: The House Committee on Energy and Commerce has legislative jurisdiction
     on matters related to telecommunications, consumer protection, food and drug safety,
     public health research, environmental quality, energy policy, and interstate and
@@ -405,7 +401,7 @@
 - type: house
   name: House Committee on Natural Resources
   url: https://naturalresources.house.gov/
-  minority_url: https://democrats-naturalresources.house.gov/
+  minority_url: https://republicans-naturalresources.house.gov/
   thomas_id: HSII
   house_committee_id: II
   subcommittees:
