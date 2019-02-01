@@ -409,11 +409,11 @@
     thomas_id: '06'
     address: 1522 LHOB; Washington, DC 20515
     phone: (202) 225-9297
-  - name: Federal Lands
+  - name: National Parks, Forests, and Public Lands
     thomas_id: '10'
     address: 1332 LHOB; Washington, DC 20515
     phone: (202) 226-7736
-  - name: Water, Power and Oceans
+  - name: Water, Oceans, and Wildlife
     thomas_id: '13'
     address: 4120 OHOB; Washington, DC 20515
     phone: (202) 225-8331
@@ -421,7 +421,7 @@
     thomas_id: '22'
     address: 140 CHOB; Washington, DC 20515
     phone: (202) 226-0200
-  - name: Indian, Insular and Alaska Native Affairs
+  - name: Indigenous Peoples of the United States
     thomas_id: '24'
     address: 4450 OHOB; Washington, DC 20515
     phone: (202) 226-9725
@@ -431,8 +431,6 @@
     phone: (202) 225-7107
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
-  rss_url: https://naturalresources.house.gov/news.xml
-  minority_rss_url: https://democrats-naturalresources.house.gov/rss.xml
   jurisdiction: The House Committee on Natural Resources considers legislation about
     American energy production, mineral lands and mining, fisheries and wildlife,
     public lands, oceans, Native Americans, irrigation and reclamation.
@@ -486,11 +484,11 @@
 - type: house
   name: House Committee on the Judiciary
   url: https://judiciary.house.gov/
-  minority_url: https://democrats-judiciary.house.gov/
+  minority_url: https://republicans-judiciary.house.gov/
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
-  - name: The Constitution and Civil Justice
+  - name: Constitution, Civil Rights and Civil Liberties
     thomas_id: '10'
     address: 362 FHOB; Washington, DC 20515
     phone: (202) 225-2825
@@ -498,19 +496,19 @@
     thomas_id: '03'
     address: 6310 OHOB; Washington, DC 20515
     phone: (202) 225-5741
-  - name: Crime, Terrorism, Homeland Security, and Investigations
+  - name: Crime, Terrorism, and Homeland Security
     thomas_id: '08'
     address: 6340 OHOB; Washington, DC 20515
     phone: (202) 225-5727
-  - name: Immigration and Border Security
+  - name: Immigration and Citizenship
     thomas_id: '01'
     address: 6320 OHOB; Washington, DC 20515
     phone: (202) 225-3926
-  - name: Regulatory Reform, Commercial and Antitrust Law
+  - name: Antitrust, Commercial and Administrative Law
     thomas_id: '05'
     address: 6240 OHOB; Washington, DC 20515
     phone: (202) 226-7680
-  address: 2138 RHOB; Washington, DC 20515-6216
+  address: 2141 RHOB; Washington, DC 20515-6216
   phone: (202) 225-3951
   minority_rss_url: https://democrats-judiciary.house.gov/rss.xml
   jurisdiction: The Committee on the Judiciary has jurisdiction over matters relating
