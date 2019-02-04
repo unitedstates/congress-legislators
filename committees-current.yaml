@@ -522,7 +522,7 @@
 - type: house
   name: House Committee on Transportation and Infrastructure
   url: https://transportation.house.gov/
-  minority_url: https://democrats-transportation.house.gov/
+  minority_url: https://republicans-transportation.house.gov/
   thomas_id: HSPW
   house_committee_id: PW
   subcommittees:
@@ -552,8 +552,6 @@
     phone: (202) 225-4360
   address: 2165 RHOB; Washington, DC 20515-6256
   phone: (202) 225-9446
-  rss_url: https://transportation.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-transportation.house.gov/rss.xml
   jurisdiction: 'The Transportation and Infrastructure Committee has jurisdiction
     over all modes of transportation: aviation, maritime and waterborne transportation,
     highways, bridges, mass transit, and railroads. The Committee also has jurisdiction
@@ -566,7 +564,7 @@
 - type: house
   name: House Committee on Rules
   url: https://rules.house.gov/
-  minority_url: https://democrats-rules.house.gov/
+  minority_url: https://republicans-rules.house.gov/
   thomas_id: HSRU
   house_committee_id: RU
   subcommittees:
@@ -580,7 +578,6 @@
     phone: (202) 225-9191
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9191
-  minority_rss_url: https://democrats-rules.house.gov/rss.xml
   jurisdiction: The House Committee on Rules is commonly known as “The Speaker’s Committee”
     because it is the mechanism that the Speaker uses to maintain control of the House
     Floor. Because of the vast power wielded by the Rules Committee, its ratio has
@@ -593,34 +590,32 @@
 - type: house
   name: House Committee on Small Business
   url: https://smallbusiness.house.gov/
-  minority_url: https://democrats-smallbusiness.house.gov/
+  minority_url: https://republicans-smallbusiness.house.gov/
   thomas_id: HSSM
   house_committee_id: SM
   subcommittees:
-  - name: Contracting and Workforce
+  - name: Contracting and Infrastructure
     thomas_id: '23'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
+    address: 2069 RHOB; Washington, DC 20515
+    phone: (202) 225-4038
   - name: Investigations, Oversight and Regulations
     thomas_id: '24'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  - name: Agriculture, Energy and Trade
+    address: 2069 RHOB; Washington, DC 20515
+    phone: (202) 225-4038
+  - name: Rural Development, Agriculture, Trade, and Entrepreneurship
     thomas_id: '25'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
+    address: 2069 RHOB; Washington, DC 20515
+    phone: (202) 225-4038
   - name: Health and Technology
     thomas_id: '26'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
+    address: 2069 RHOB; Washington, DC 20515
+    phone: (202) 225-4038
   - name: Economic Growth, Tax and Capital Access
     thomas_id: '27'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-5821
-  address: 2361 RHOB; Washington, DC 20515-6315
-  phone: (202) 225-5821
-  rss_url: https://smallbusiness.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-smallbusiness.house.gov/rss.xml
+    address: 2069 RHOB; Washington, DC 20515
+    phone: (202) 225-4038
+  address: 2069 RHOB; Washington, DC 20515-6315
+  phone: (202) 225-4038
   jurisdiction: The House Small Business Committee was established to protect and
     assist small businesses.  As such, the Committee has jurisdiction over matters
     related to small business financial aid, regulatory flexibility, and paperwork
@@ -634,7 +629,6 @@
   house_committee_id: SO
   address: 1015 LHOB; Washington, DC 20515-6328
   phone: (202) 225-7103
-  rss_url: https://ethics.house.gov/rss.xml
   jurisdiction: The House Committee on Ethics has the jurisdiction to administer travel,
     gift, financial disclosure, outside income, and other regulations; advise members
     and staff; issue advisory opinions and investigate potential ethics violations.
@@ -646,7 +640,7 @@
 - type: house
   name: House Committee on Science, Space, and Technology
   url: https://science.house.gov/
-  minority_url: https://democrats-science.house.gov/
+  minority_url: https://republicans-science.house.gov/
   thomas_id: HSSY
   house_committee_id: SY
   subcommittees:
@@ -654,7 +648,7 @@
     thomas_id: '20'
     address: 2319 RHOB; Washington, DC 20515
     phone: (202) 225-6371
-  - name: Oversight
+  - name: Investigations and Oversight
     thomas_id: '21'
     address: 2321 RHOB; Washington, DC 20515
     phone: (202) 225-6371
@@ -671,9 +665,7 @@
     address: 4220 OHOB; Washington, DC 20515
     phone: (202) 225-6371
   address: 2321 RHOB; Washington, DC 20515-6301
-  phone: (202) 225-6371
-  rss_url: https://science.house.gov/rss.xml
-  minority_rss_url: https://democrats-science.house.gov/rss.xml
+  phone: (202) 225-6375
   jurisdiction: The Committee on Science, Space, and Technology has a jurisdiction
     over a range of matters related to energy research and development, federally
     owned or operated non-military energy laboratories, astronautical research and
@@ -686,34 +678,32 @@
 - type: house
   name: House Committee on Veterans' Affairs
   url: https://veterans.house.gov/
-  minority_url: https://democrats-veterans.house.gov/
+  minority_url: https://republicans-veterans.house.gov/
   thomas_id: HSVR
   house_committee_id: VR
   subcommittees:
   - name: Disability Assistance and Memorial Affairs
     thomas_id: '09'
-    address: 338 CHOB; Washington, DC 20515
-    phone: (202) 225-9164
+    address: 3460 OHOB; Washington, DC 20515
+    phone: (202) 225-9756
   - name: Economic Opportunity
     thomas_id: '10'
-    address: 335 CHOB; Washington, DC 20515
-    phone: (202) 226-5491
+    address: 3460 OHOB; Washington, DC 20515
+    phone: (202) 225-9756
   - name: Health
     thomas_id: '03'
-    address: 337 CHOB; Washington, DC 20515
-    phone: (202) 225-9154
+    address: 3460 OHOB; Washington, DC 20515
+    phone: (202) 225-9756
   - name: Oversight and Investigations
     thomas_id: '08'
-    address: 337A CHOB; Washington, DC 20515
-    phone: (202) 225-3569
+    address: 3460 OHOB; Washington, DC 20515
+    phone: (202) 225-9756
   - name: Technology Modernization
     thomas_id: '11'
-    address: 337A CHOB; Washington, DC 20515
-    phone: (202) 225-3569
-  address: 335 CHOB; Washington, DC 20515-6335
-  phone: (202) 225-3527
-  rss_url: https://veterans.house.gov/news/rss.aspx
-  minority_rss_url: https://democrats-veterans.house.gov/rss.xml
+    address: 3460 OHOB; Washington, DC 20515
+    phone: (202) 225-9756
+  address: 3460 OHOB; Washington, DC 20515
+  phone: (202) 225-9756
   jurisdiction: The House Committee on Veterans' Affairs is the authorizing committee
     for the Department of Veterans Affairs (VA). The committee is responsible for
     recommending legislation expanding, curtailing, or fine-tuning existing laws relating
@@ -725,7 +715,7 @@
 - type: house
   name: House Committee on Ways and Means
   url: https://waysandmeans.house.gov/
-  minority_url: https://democrats-waysandmeans.house.gov/
+  minority_url: https://gop-waysandmeans.house.gov/
   thomas_id: HSWM
   house_committee_id: WM
   subcommittees:
@@ -733,7 +723,7 @@
     thomas_id: '02'
     address: 1104 LHOB; Washington, DC 20515
     phone: (202) 225-3943
-  - name: Human Resources
+  - name: Worker and Family Support
     thomas_id: '03'
     address: 1129 LHOB; Washington, DC 20515
     phone: (202) 225-1025
@@ -741,7 +731,7 @@
     thomas_id: '06'
     address: 2018 RHOB; Washington, DC 20515
     phone: (202) 225-9263
-  - name: Tax Policy
+  - name: Select Revenue Measures
     thomas_id: '05'
     address: 1136 LHOB; Washington, DC 20515
     phone: (202) 225-5522
@@ -753,9 +743,8 @@
     thomas_id: '04'
     address: 1103 LHOB; Washington, DC 20515
     phone: (202) 225-6649
-  address: 1102 LHOB; Washington, DC 20515-6348
+  address: 1139E LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
-  minority_rss_url: https://democrats-waysandmeans.house.gov/rss.xml
   jurisdiction: The Committee on Ways and Means is the chief tax-writing committee
     in the House of Representatives. The Committee derives a large share of its jurisdiction
     from Article I, Section VII of the U.S. Constitution, which declares, “All Bills

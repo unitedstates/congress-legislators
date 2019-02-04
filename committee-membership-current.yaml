@@ -7557,2144 +7557,2385 @@ HSJU08:
   bioguide: S001214
   start_date: '2019-01-28'
   source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
-- name: Sheila Jackson Lee
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: J000032
-- name: Val Butler Demings
-  party: minority
-  rank: 2
-  bioguide: D000627
 - name: Karen Bass
-  party: minority
-  rank: 3
-  bioguide: B001270
-- name: Cedric L. Richmond
-  party: minority
-  rank: 4
-  bioguide: R000588
-- name: Hakeem S. Jeffries
-  party: minority
-  rank: 5
-  bioguide: J000294
-- name: Ted Lieu
-  party: minority
-  rank: 6
-  bioguide: L000582
-- name: Jamie Raskin
-  party: minority
-  rank: 7
-  bioguide: R000606
-HSJU10:
-- name: Steve King
   party: majority
   rank: 1
   title: Chair
-  bioguide: K000362
-- name: Louie Gohmert
+  bioguide: B001270
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Sheila Jackson Lee
   party: majority
+  rank: 2
+  bioguide: J000032
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Val Butler Demings
+  party: majority
+  rank: 3
+  title: Vice Chair
+  bioguide: D000627
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Lucy McBath
+  party: majority
+  rank: 4
+  bioguide: M001208
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Theodore E. Deutch
+  party: majority
+  rank: 5
+  bioguide: D000610
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Cedric L. Richmond
+  party: majority
+  rank: 6
+  bioguide: R000588
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Hakeem S. Jeffries
+  party: majority
+  rank: 7
+  bioguide: J000294
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: David N. Cicilline
+  party: majority
+  rank: 8
+  bioguide: C001084
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Ted Lieu
+  party: majority
+  rank: 9
+  bioguide: L000582
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Madeleine Dean
+  party: majority
+  rank: 10
+  bioguide: D000631
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Debbie Mucarsel-Powell
+  party: majority
+  rank: 11
+  bioguide: M001207
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Steve Cohen
+  party: majority
+  rank: 12
+  bioguide: C001068
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+HSJU10:
+- name: Mike Johnson
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: J000299
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Louie Gohmert
+  party: minority
   rank: 2
   bioguide: G000552
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Jim Jordan
+  party: minority
+  rank: 3
+  bioguide: J000289
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Guy Reschenthaler
+  party: minority
+  rank: 4
+  bioguide: R000610
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Ben Cline
+  party: minority
+  rank: 5
+  bioguide: C001118
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Kelly Armstrong
+  party: minority
+  rank: 6
+  bioguide: A000377
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
 - name: Steve Cohen
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: C001068
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Jamie Raskin
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: R000606
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Eric Swalwell
+  party: majority
+  rank: 3
+  bioguide: S001193
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Mary Gay Scanlon
+  party: majority
+  rank: 4
+  bioguide: S001205
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Madeleine Dean
+  party: majority
+  rank: 5
+  bioguide: D000631
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Sylvia R. Garcia
+  party: majority
+  rank: 6
+  bioguide: G000587
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Veronica Escobar
+  party: majority
+  rank: 7
+  bioguide: E000299
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+- name: Sheila Jackson Lee
+  party: majority
+  rank: 8
+  bioguide: J000032
+  start_date: '2019-01-28'
+  source: https://judiciary.house.gov/news/press-releases/chairman-nadler-ranking-member-collins-hold-first-judiciary-committee-meeting-0
+HSPW:
+- name: Sam Graves
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: C001068
-- name: Jamie Raskin
-  party: minority
-  rank: 2
-  bioguide: R000606
-- name: Theodore E. Deutch
-  party: minority
-  rank: 3
-  bioguide: D000610
-HSPW:
+  bioguide: G000546
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
 - name: Don Young
-  party: majority
+  party: minority
   rank: 2
   bioguide: Y000033
-- name: Sam Graves
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Eric A. "Rick" Crawford
+  party: minority
+  rank: 3
+  bioguide: C001087
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Bob Gibbs
+  party: minority
+  rank: 4
+  bioguide: G000563
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Daniel Webster
+  party: minority
+  rank: 5
+  bioguide: W000806
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Thomas Massie
+  party: minority
+  rank: 6
+  bioguide: M001184
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Mark Meadows
+  party: minority
+  rank: 7
+  bioguide: M001187
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Scott Perry
+  party: minority
+  rank: 8
+  bioguide: P000605
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Rodney Davis
+  party: minority
+  rank: 9
+  bioguide: D000619
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Rob Woodall
+  party: minority
+  rank: 10
+  bioguide: W000810
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: John Katko
+  party: minority
+  rank: 11
+  bioguide: K000386
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Brian Babin
+  party: minority
+  rank: 12
+  bioguide: B001291
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Garret Graves
+  party: minority
+  rank: 13
+  bioguide: G000577
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: David Rouzer
+  party: minority
+  rank: 14
+  bioguide: R000603
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Mike Bost
+  party: minority
+  rank: 15
+  bioguide: B001295
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 16
+  bioguide: W000814
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Doug LaMalfa
+  party: minority
+  rank: 17
+  bioguide: L000578
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Bruce Westerman
+  party: minority
+  rank: 18
+  bioguide: W000821
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Lloyd Smucker
+  party: minority
+  rank: 19
+  bioguide: S001199
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Paul Mitchell
+  party: minority
+  rank: 20
+  bioguide: M001201
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Brian J. Mast
+  party: minority
+  rank: 21
+  bioguide: M001199
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Mike Gallagher
+  party: minority
+  rank: 22
+  bioguide: G000579
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Gary J. Palmer
+  party: minority
+  rank: 23
+  bioguide: P000609
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Brian K. Fitzpatrick
+  party: minority
+  rank: 24
+  bioguide: F000466
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Jenniffer González-Colón
+  party: minority
+  rank: 25
+  bioguide: G000582
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Troy Balderson
+  party: minority
+  rank: 26
+  bioguide: B001306
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Ross Spano
+  party: minority
+  rank: 27
+  bioguide: S001210
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Pete Stauber
+  party: minority
+  rank: 28
+  bioguide: S001212
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Carol D. Miller
+  party: minority
+  rank: 29
+  bioguide: M001205
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Greg Pence
+  party: minority
+  rank: 30
+  bioguide: P000615
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Peter A. DeFazio
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: D000191
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
+- name: Eleanor Holmes Norton
+  party: majority
+  rank: 2
+  bioguide: N000147
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 3
+  bioguide: J000126
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Elijah E. Cummings
+  party: majority
+  rank: 4
+  bioguide: C000984
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Rick Larsen
   party: majority
   rank: 5
-  bioguide: G000546
-- name: Eric A. "Rick" Crawford
+  bioguide: L000560
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Grace F. Napolitano
   party: majority
   rank: 6
-  bioguide: C001087
-- name: Bob Gibbs
+  bioguide: N000179
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Daniel Lipinski
+  party: majority
+  rank: 7
+  bioguide: L000563
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Steve Cohen
   party: majority
   rank: 8
-  bioguide: G000563
-- name: Daniel Webster
+  bioguide: C001068
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Albio Sires
   party: majority
   rank: 9
-  bioguide: W000806
-- name: Thomas Massie
+  bioguide: S001165
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: John Garamendi
+  party: majority
+  rank: 10
+  bioguide: G000559
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Henry C. "Hank" Johnson, Jr.
   party: majority
   rank: 11
-  bioguide: M001184
-- name: Mark Meadows
+  bioguide: J000288
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: André Carson
   party: majority
   rank: 12
-  bioguide: M001187
-- name: Scott Perry
+  bioguide: C001072
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Dina Titus
   party: majority
   rank: 13
-  bioguide: P000605
-- name: Rodney Davis
+  bioguide: T000468
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Sean Patrick Maloney
   party: majority
   rank: 14
-  bioguide: D000619
-- name: Rob Woodall
+  bioguide: M001185
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Jared Huffman
+  party: majority
+  rank: 15
+  bioguide: H001068
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Julia Brownley
   party: majority
   rank: 16
-  bioguide: W000810
-- name: John Katko
+  bioguide: B001285
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Frederica S. Wilson
+  party: majority
+  rank: 17
+  bioguide: W000808
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Donald M. Payne, Jr.
   party: majority
   rank: 18
-  bioguide: K000386
-- name: Brian Babin
+  bioguide: P000604
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Alan S. Lowenthal
   party: majority
   rank: 19
-  bioguide: B001291
-- name: Garret Graves
+  bioguide: L000579
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Mark DeSaulnier
   party: majority
   rank: 20
-  bioguide: G000577
-- name: David Rouzer
+  bioguide: D000623
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Stacey E. Plaskett
+  party: majority
+  rank: 21
+  bioguide: P000610
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Stephen F. Lynch
   party: majority
   rank: 22
-  bioguide: R000603
-- name: Mike Bost
+  bioguide: L000562
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Salud Carbajal
   party: majority
   rank: 23
-  bioguide: B001295
-- name: Randy K. Weber, Sr.
+  bioguide: C001112
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Anthony G. Brown
   party: majority
   rank: 24
-  bioguide: W000814
-- name: Doug LaMalfa
+  bioguide: B001304
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Adriano Espaillat
   party: majority
   rank: 25
-  bioguide: L000578
-- name: Bruce Westerman
+  bioguide: E000297
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Tom Malinowski
   party: majority
   rank: 26
-  bioguide: W000821
-- name: Lloyd Smucker
+  bioguide: M001203
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Greg Stanton
   party: majority
   rank: 27
-  bioguide: S001199
-- name: Paul Mitchell
+  bioguide: S001211
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Debbie Mucarsel-Powell
   party: majority
   rank: 28
-  bioguide: M001201
-- name: A. Drew Ferguson IV
+  bioguide: M001207
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Lizzie Fletcher
+  party: majority
+  rank: 29
+  bioguide: F000468
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Colin Allred
   party: majority
   rank: 30
-  bioguide: F000465
-- name: Brian J. Mast
+  bioguide: A000376
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Sharice Davids
   party: majority
   rank: 31
-  bioguide: M001199
-- name: Mike Gallagher
+  bioguide: D000629
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Abby Finkenauer
+  party: majority
+  rank: 32
+  bioguide: F000467
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Jesús G. García
   party: majority
   rank: 33
-  bioguide: G000579
-- name: Peter A. DeFazio
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: D000191
-- name: Eleanor Holmes Norton
-  party: minority
-  rank: 2
-  bioguide: N000147
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 3
-  bioguide: J000126
-- name: Elijah E. Cummings
-  party: minority
-  rank: 4
-  bioguide: C000984
-- name: Rick Larsen
-  party: minority
-  rank: 5
-  bioguide: L000560
-- name: Grace F. Napolitano
-  party: minority
-  rank: 7
-  bioguide: N000179
-- name: Daniel Lipinski
-  party: minority
-  rank: 8
-  bioguide: L000563
-- name: Steve Cohen
-  party: minority
-  rank: 9
-  bioguide: C001068
-- name: Albio Sires
-  party: minority
-  rank: 10
-  bioguide: S001165
-- name: John Garamendi
-  party: minority
-  rank: 11
-  bioguide: G000559
-- name: Henry C. "Hank" Johnson, Jr.
-  party: minority
-  rank: 12
-  bioguide: J000288
-- name: André Carson
-  party: minority
-  rank: 13
-  bioguide: C001072
-- name: Dina Titus
-  party: minority
-  rank: 15
-  bioguide: T000468
-- name: Sean Patrick Maloney
-  party: minority
-  rank: 16
-  bioguide: M001185
-- name: Lois Frankel
-  party: minority
-  rank: 18
-  bioguide: F000462
-- name: Cheri Bustos
-  party: minority
-  rank: 19
-  bioguide: B001286
-- name: Jared Huffman
-  party: minority
-  rank: 20
-  bioguide: H001068
-- name: Julia Brownley
-  party: minority
-  rank: 21
-  bioguide: B001285
-- name: Frederica S. Wilson
-  party: minority
-  rank: 22
-  bioguide: W000808
-- name: Donald M. Payne, Jr.
-  party: minority
-  rank: 23
-  bioguide: P000604
-- name: Alan S. Lowenthal
-  party: minority
-  rank: 24
-  bioguide: L000579
-- name: Brenda L. Lawrence
-  party: minority
-  rank: 25
-  bioguide: L000581
-- name: Mark DeSaulnier
-  party: minority
-  rank: 26
-  bioguide: D000623
-- name: Stacey E. Plaskett
-  party: minority
-  rank: 27
-  bioguide: P000610
+  bioguide: G000586
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Antonio Delgado
+  party: majority
+  rank: 34
+  bioguide: D000630
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Chris Pappas
+  party: majority
+  rank: 35
+  bioguide: P000614
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Angie Craig
+  party: majority
+  rank: 36
+  bioguide: C001119
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Harley Rouda
+  party: majority
+  rank: 37
+  bioguide: R000616
+  start_date: '2017-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
 HSPW02:
-- name: Garret Graves
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: G000577
-- name: Eric A. "Rick" Crawford
-  party: majority
-  rank: 2
-  bioguide: C001087
-- name: Bob Gibbs
-  party: majority
-  rank: 3
-  bioguide: G000563
-- name: Daniel Webster
-  party: majority
-  rank: 4
-  bioguide: W000806
-- name: Thomas Massie
-  party: majority
-  rank: 5
-  bioguide: M001184
-- name: Rodney Davis
-  party: majority
-  rank: 6
-  bioguide: D000619
-- name: Rob Woodall
-  party: majority
-  rank: 8
-  bioguide: W000810
-- name: John Katko
-  party: majority
-  rank: 10
-  bioguide: K000386
-- name: Brian Babin
-  party: majority
-  rank: 11
-  bioguide: B001291
-- name: David Rouzer
-  party: majority
-  rank: 12
-  bioguide: R000603
-- name: Mike Bost
-  party: majority
-  rank: 13
-  bioguide: B001295
-- name: Randy K. Weber, Sr.
-  party: majority
-  rank: 14
-  bioguide: W000814
-- name: Doug LaMalfa
-  party: majority
-  rank: 15
-  bioguide: L000578
-- name: A. Drew Ferguson IV
-  party: majority
-  rank: 16
-  bioguide: F000465
-- name: Brian J. Mast
-  party: majority
-  rank: 17
-  bioguide: M001199
-- name: Grace F. Napolitano
+- name: Bruce Westerman
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: W000821
+  date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
+- name: Grace F. Napolitano
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: N000179
-- name: Lois Frankel
-  party: minority
-  rank: 2
-  bioguide: F000462
-- name: Frederica S. Wilson
-  party: minority
-  rank: 3
-  bioguide: W000808
-- name: Jared Huffman
-  party: minority
-  rank: 4
-  bioguide: H001068
-- name: Alan S. Lowenthal
-  party: minority
-  rank: 5
-  bioguide: L000579
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 6
-  bioguide: J000126
-- name: John Garamendi
-  party: minority
-  rank: 7
-  bioguide: G000559
-- name: Dina Titus
-  party: minority
-  rank: 8
-  bioguide: T000468
-- name: Sean Patrick Maloney
-  party: minority
-  rank: 9
-  bioguide: M001185
-- name: Cheri Bustos
-  party: minority
-  rank: 11
-  bioguide: B001286
-- name: Julia Brownley
-  party: minority
-  rank: 12
-  bioguide: B001285
-- name: Brenda L. Lawrence
-  party: minority
-  rank: 13
-  bioguide: L000581
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
 HSPW05:
-- name: Don Young
-  party: majority
-  rank: 2
-  bioguide: Y000033
-- name: Sam Graves
-  party: majority
-  rank: 4
-  bioguide: G000546
-- name: Bob Gibbs
-  party: majority
-  rank: 5
-  bioguide: G000563
-- name: Daniel Webster
-  party: majority
-  rank: 6
-  bioguide: W000806
-- name: Thomas Massie
-  party: majority
-  rank: 8
-  bioguide: M001184
-- name: Mark Meadows
-  party: majority
-  rank: 9
-  bioguide: M001187
-- name: Scott Perry
-  party: majority
-  rank: 10
-  bioguide: P000605
-- name: Rodney Davis
-  party: majority
-  rank: 11
-  bioguide: D000619
-- name: Rob Woodall
-  party: majority
-  rank: 13
-  bioguide: W000810
-- name: Doug LaMalfa
-  party: majority
-  rank: 16
-  bioguide: L000578
-- name: Bruce Westerman
-  party: majority
-  rank: 17
-  bioguide: W000821
-- name: Lloyd Smucker
-  party: majority
-  rank: 18
-  bioguide: S001199
-- name: Paul Mitchell
-  party: majority
-  rank: 19
-  bioguide: M001201
-- name: Rick Larsen
+- name: Garret Graves
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: G000577
+  start_date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
+- name: Rick Larsen
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: L000560
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 2
-  bioguide: J000126
-- name: Daniel Lipinski
-  party: minority
-  rank: 3
-  bioguide: L000563
-- name: André Carson
-  party: minority
-  rank: 4
-  bioguide: C001072
-- name: Cheri Bustos
-  party: minority
-  rank: 5
-  bioguide: B001286
-- name: Eleanor Holmes Norton
-  party: minority
-  rank: 6
-  bioguide: N000147
-- name: Dina Titus
-  party: minority
-  rank: 7
-  bioguide: T000468
-- name: Sean Patrick Maloney
-  party: minority
-  rank: 8
-  bioguide: M001185
-- name: Julia Brownley
-  party: minority
-  rank: 9
-  bioguide: B001285
-- name: Donald M. Payne, Jr.
-  party: minority
-  rank: 10
-  bioguide: P000604
-- name: Brenda L. Lawrence
-  party: minority
-  rank: 11
-  bioguide: L000581
-- name: Grace F. Napolitano
-  party: minority
-  rank: 13
-  bioguide: N000179
-- name: Steve Cohen
-  party: minority
-  rank: 14
-  bioguide: C001068
-- name: Henry C. "Hank" Johnson, Jr.
-  party: minority
-  rank: 15
-  bioguide: J000288
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
 HSPW07:
-- name: Brian J. Mast
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: M001199
-- name: Don Young
-  party: majority
-  rank: 2
-  bioguide: Y000033
-- name: Garret Graves
-  party: majority
-  rank: 4
-  bioguide: G000577
-- name: David Rouzer
-  party: majority
-  rank: 5
-  bioguide: R000603
-- name: Randy K. Weber, Sr.
-  party: majority
-  rank: 6
-  bioguide: W000814
-- name: John Garamendi
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: G000559
-- name: Elijah E. Cummings
-  party: minority
-  rank: 2
-  bioguide: C000984
-- name: Rick Larsen
-  party: minority
-  rank: 3
-  bioguide: L000560
-- name: Jared Huffman
-  party: minority
-  rank: 4
-  bioguide: H001068
-- name: Alan S. Lowenthal
-  party: minority
-  rank: 5
-  bioguide: L000579
-- name: Stacey E. Plaskett
-  party: minority
-  rank: 6
-  bioguide: P000610
-HSPW12:
-- name: Sam Graves
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: G000546
-- name: Don Young
-  party: majority
-  rank: 2
-  bioguide: Y000033
-- name: Eric A. "Rick" Crawford
-  party: majority
-  rank: 5
-  bioguide: C001087
 - name: Bob Gibbs
-  party: majority
-  rank: 7
+  party: minority
+  rank: 1
+  title: Ranking Member
   bioguide: G000563
-- name: Thomas Massie
-  party: majority
-  rank: 9
-  bioguide: M001184
-- name: Mark Meadows
-  party: majority
-  rank: 10
-  bioguide: M001187
-- name: Scott Perry
-  party: majority
-  rank: 11
-  bioguide: P000605
-- name: Rodney Davis
-  party: majority
-  rank: 12
-  bioguide: D000619
-- name: Rob Woodall
-  party: majority
-  rank: 13
-  bioguide: W000810
-- name: John Katko
-  party: majority
-  rank: 14
-  bioguide: K000386
-- name: Brian Babin
-  party: majority
-  rank: 15
-  bioguide: B001291
-- name: Garret Graves
-  party: majority
-  rank: 16
-  bioguide: G000577
-- name: David Rouzer
-  party: majority
-  rank: 18
-  bioguide: R000603
-- name: Mike Bost
-  party: majority
-  rank: 19
-  bioguide: B001295
-- name: Doug LaMalfa
-  party: majority
-  rank: 20
-  bioguide: L000578
-- name: Bruce Westerman
-  party: majority
-  rank: 21
-  bioguide: W000821
-- name: Lloyd Smucker
-  party: majority
-  rank: 22
-  bioguide: S001199
-- name: Paul Mitchell
-  party: majority
-  rank: 23
-  bioguide: M001201
-- name: A. Drew Ferguson IV
-  party: majority
-  rank: 25
-  bioguide: F000465
-- name: Mike Gallagher
-  party: majority
-  rank: 26
-  bioguide: G000579
-- name: Eleanor Holmes Norton
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: N000147
-- name: Steve Cohen
-  party: minority
-  rank: 2
-  bioguide: C001068
-- name: Albio Sires
-  party: minority
-  rank: 3
-  bioguide: S001165
-- name: Dina Titus
-  party: minority
-  rank: 5
-  bioguide: T000468
+  start_date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
 - name: Sean Patrick Maloney
-  party: minority
-  rank: 6
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: M001185
-- name: Jared Huffman
-  party: minority
-  rank: 8
-  bioguide: H001068
-- name: Julia Brownley
-  party: minority
-  rank: 9
-  bioguide: B001285
-- name: Alan S. Lowenthal
-  party: minority
-  rank: 10
-  bioguide: L000579
-- name: Brenda L. Lawrence
-  party: minority
-  rank: 11
-  bioguide: L000581
-- name: Mark DeSaulnier
-  party: minority
-  rank: 12
-  bioguide: D000623
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 13
-  bioguide: J000126
-- name: Grace F. Napolitano
-  party: minority
-  rank: 15
-  bioguide: N000179
-- name: Daniel Lipinski
-  party: minority
-  rank: 16
-  bioguide: L000563
-- name: Henry C. "Hank" Johnson, Jr.
-  party: minority
-  rank: 17
-  bioguide: J000288
-- name: Lois Frankel
-  party: minority
-  rank: 18
-  bioguide: F000462
-- name: Cheri Bustos
-  party: minority
-  rank: 19
-  bioguide: B001286
-- name: Frederica S. Wilson
-  party: minority
-  rank: 20
-  bioguide: W000808
-- name: Donald M. Payne, Jr.
-  party: minority
-  rank: 21
-  bioguide: P000604
-HSPW13:
-- name: Eric A. "Rick" Crawford
-  party: majority
-  rank: 2
-  bioguide: C001087
-- name: Mike Bost
-  party: majority
-  rank: 4
-  bioguide: B001295
-- name: A. Drew Ferguson IV
-  party: majority
-  rank: 6
-  bioguide: F000465
-- name: Brian J. Mast
-  party: majority
-  rank: 7
-  bioguide: M001199
-- name: Mike Gallagher
-  party: majority
-  rank: 8
-  bioguide: G000579
-- name: Dina Titus
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+HSPW12:
+- name: Rodney Davis
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: T000468
-- name: Henry C. "Hank" Johnson, Jr.
-  party: minority
-  rank: 2
-  bioguide: J000288
+  bioguide: D000619
+  start_date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
 - name: Eleanor Holmes Norton
-  party: minority
-  rank: 3
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: N000147
-- name: Albio Sires
-  party: minority
-  rank: 4
-  bioguide: S001165
-- name: Stacey E. Plaskett
-  party: minority
-  rank: 5
-  bioguide: P000610
-HSPW14:
-- name: Sam Graves
-  party: majority
-  rank: 3
-  bioguide: G000546
-- name: Daniel Webster
-  party: majority
-  rank: 5
-  bioguide: W000806
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+HSPW13:
 - name: Mark Meadows
-  party: majority
-  rank: 6
+  party: minority
+  rank: 1
+  title: Ranking Member
   bioguide: M001187
-- name: Scott Perry
+  start_date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
+- name: Dina Titus
   party: majority
-  rank: 7
-  bioguide: P000605
-- name: John Katko
-  party: majority
-  rank: 10
-  bioguide: K000386
-- name: Brian Babin
-  party: majority
-  rank: 11
-  bioguide: B001291
-- name: Randy K. Weber, Sr.
-  party: majority
-  rank: 12
-  bioguide: W000814
-- name: Bruce Westerman
-  party: majority
-  rank: 13
-  bioguide: W000821
-- name: Lloyd Smucker
-  party: majority
-  rank: 14
-  bioguide: S001199
-- name: Paul Mitchell
-  party: majority
-  rank: 15
-  bioguide: M001201
-- name: Mike Gallagher
-  party: majority
-  rank: 18
-  bioguide: G000579
-- name: Donald M. Payne, Jr.
+  rank: 1
+  title: Chair
+  bioguide: T000468
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+HSPW14:
+- name: Eric A. "Rick" Crawford
   party: minority
-  rank: 2
-  bioguide: P000604
-- name: Elijah E. Cummings
-  party: minority
-  rank: 3
-  bioguide: C000984
-- name: Steve Cohen
-  party: minority
-  rank: 4
-  bioguide: C001068
-- name: Albio Sires
-  party: minority
-  rank: 5
-  bioguide: S001165
-- name: John Garamendi
-  party: minority
-  rank: 6
-  bioguide: G000559
-- name: André Carson
-  party: minority
-  rank: 7
-  bioguide: C001072
-- name: Cheri Bustos
-  party: minority
-  rank: 10
-  bioguide: B001286
-- name: Frederica S. Wilson
-  party: minority
-  rank: 11
-  bioguide: W000808
-- name: Mark DeSaulnier
-  party: minority
-  rank: 12
-  bioguide: D000623
+  rank: 1
+  title: Ranking Member
+  bioguide: C001087
+  start_date: '2019-01-17'
+  source: https://republicans-transportation.house.gov/news/documentsingle.aspx?DocumentID=402958
 - name: Daniel Lipinski
-  party: minority
-  rank: 13
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: L000563
-- name: Grace F. Napolitano
-  party: minority
-  rank: 14
-  bioguide: N000179
+  start_date: '2019-01-24'
+  source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
 HSRU:
 - name: James P. McGovern
   party: majority
   rank: 1
   title: Chair
   bioguide: M000312
+  start_date: '2019-01-03'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/7/text
 - name: Alcee L. Hastings
   party: majority
   rank: 2
   bioguide: H000324
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Norma J. Torres
   party: majority
   rank: 3
   bioguide: T000474
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Jamie Raskin
   party: majority
   rank: 4
   bioguide: R000606
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Mary Gay Scanlon
   party: majority
   rank: 5
   bioguide: S001205
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Joe Morelle
   party: majority
   rank: 6
   bioguide: M001206
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Donna Shalala
   party: majority
   rank: 7
   bioguide: S001206
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Doris O. Matsui
   party: majority
   rank: 8
   bioguide: M001163
+  start_date: '2019-01-08'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/26/text
 - name: Ed Perlmutter
   party: majority
   rank: 9
   bioguide: P000593
+  start_date: '2019-01-08'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/26/text
 - name: Tom Cole
   party: minority
   rank: 1
   bioguide: C001053
+  start_date: '2019-01-03'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/8/text
 - name: Rob Woodall
   party: minority
   rank: 2
   bioguide: W000810
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
 - name: Michael C. Burgess
   party: minority
   rank: 3
   bioguide: B001248
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
 - name: Debbie Lesko
   party: minority
   rank: 4
   bioguide: L000589
-HSRU02:
-- name: Rob Woodall
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: W000810
-- name: Michael C. Burgess
-  party: majority
-  rank: 2
-  bioguide: B001248
-- name: Bradley Byrne
-  party: majority
-  rank: 3
-  bioguide: B001289
-- name: Dan Newhouse
-  party: majority
-  rank: 4
-  bioguide: N000189
-- name: Ken Buck
-  party: majority
-  rank: 5
-  bioguide: B001297
-- name: Alcee L. Hastings
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: H000324
-HSRU04:
-- name: Doug Collins
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: C001093
-- name: Bradley Byrne
-  party: majority
-  rank: 2
-  bioguide: B001289
-- name: Dan Newhouse
-  party: majority
-  rank: 3
-  bioguide: N000189
-- name: Liz Cheney
-  party: majority
-  rank: 4
-  bioguide: C001109
-- name: James P. McGovern
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: M000312
-- name: Norma J. Torres
-  party: minority
-  rank: 2
-  bioguide: T000474
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
 HSSM:
 - name: Steve Chabot
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: C000266
-- name: Steve King
-  party: majority
-  rank: 2
-  bioguide: K000362
-- name: Blaine Luetkemeyer
-  party: majority
-  rank: 3
-  bioguide: L000569
-- name: Aumua Amata Coleman Radewagen
-  party: majority
-  rank: 5
-  bioguide: R000600
-- name: Trent Kelly
-  party: majority
-  rank: 7
-  bioguide: K000388
-- name: Jenniffer González-Colón
-  party: majority
-  rank: 9
-  bioguide: G000582
-- name: Brian K. Fitzpatrick
-  party: majority
-  rank: 10
-  bioguide: F000466
-- name: Roger W. Marshall
-  party: majority
-  rank: 11
-  bioguide: M001198
-- name: Ralph Norman
-  party: majority
-  rank: 12
-  bioguide: N000190
-- name: John R. Curtis
-  party: majority
-  rank: 13
-  bioguide: C001114
-- name: Troy Balderson
-  party: majority
-  rank: 14
-  bioguide: B001306
-- name: Nydia M. Velázquez
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: V000081
-- name: Dwight Evans
+  bioguide: C000266
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
+- name: Aumua Amata Coleman Radewagen
   party: minority
   rank: 2
-  bioguide: E000296
-- name: Stephanie N. Murphy
+  bioguide: R000600
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Trent Kelly
   party: minority
   rank: 3
-  bioguide: M001202
-- name: Al Lawson, Jr.
+  bioguide: K000388
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Troy Balderson
   party: minority
   rank: 4
-  bioguide: L000586
-- name: Yvette D. Clarke
+  bioguide: B001306
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Kevin Hern
   party: minority
   rank: 5
-  bioguide: C001067
-- name: Judy Chu
+  bioguide: H001082
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Jim Hagedorn
   party: minority
   rank: 6
-  bioguide: C001080
-- name: Alma S. Adams
+  bioguide: H001088
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Pete Stauber
   party: minority
   rank: 7
-  bioguide: A000370
-- name: Adriano Espaillat
+  bioguide: S001212
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Tim Burchett
   party: minority
   rank: 8
-  bioguide: E000297
-- name: Bradley Scott Schneider
+  bioguide: B001309
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Ross Spano
   party: minority
   rank: 9
-  bioguide: S001190
-HSSM23:
-- name: Steve King
-  party: majority
-  rank: 2
-  bioguide: K000362
-- name: Ralph Norman
-  party: majority
-  rank: 3
-  bioguide: N000190
-- name: Stephanie N. Murphy
+  bioguide: S001210
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: John Joyce
   party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: M001202
-- name: Yvette D. Clarke
-  party: minority
-  rank: 2
-  bioguide: C001067
-- name: Dwight Evans
-  party: minority
-  rank: 3
-  bioguide: E000296
-- name: Al Lawson, Jr.
-  party: minority
-  rank: 4
-  bioguide: L000586
-HSSM24:
-- name: Trent Kelly
+  rank: 10
+  bioguide: J000302
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/74/text
+- name: Nydia M. Velázquez
   party: majority
   rank: 1
   title: Chair
-  bioguide: K000388
-- name: Roger W. Marshall
+  bioguide: V000081
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
+- name: Abby Finkenauer
+  party: majority
+  rank: 2
+  bioguide: F000467
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Jared Golden
   party: majority
   rank: 3
-  bioguide: M001198
-- name: Ralph Norman
+  bioguide: G000592
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Andy Kim
   party: majority
   rank: 4
-  bioguide: N000190
-- name: John R. Curtis
+  bioguide: K000394
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Jason Crow
   party: majority
   rank: 5
-  bioguide: C001114
-- name: Alma S. Adams
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: A000370
-HSSM25:
-- name: Steve King
-  party: majority
-  rank: 2
-  bioguide: K000362
-- name: Blaine Luetkemeyer
-  party: majority
-  rank: 3
-  bioguide: L000569
-- name: Aumua Amata Coleman Radewagen
-  party: majority
-  rank: 4
-  bioguide: R000600
-- name: John R. Curtis
-  party: majority
-  rank: 5
-  bioguide: C001114
-- name: Troy Balderson
+  bioguide: C001121
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Sharice Davids
   party: majority
   rank: 6
-  bioguide: B001306
-- name: Bradley Scott Schneider
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: S001190
-- name: Al Lawson, Jr.
-  party: minority
-  rank: 2
-  bioguide: L000586
-HSSM26:
-- name: Aumua Amata Coleman Radewagen
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: R000600
-- name: Blaine Luetkemeyer
-  party: majority
-  rank: 2
-  bioguide: L000569
-- name: Jenniffer González-Colón
-  party: majority
-  rank: 4
-  bioguide: G000582
-- name: Brian K. Fitzpatrick
-  party: majority
-  rank: 5
-  bioguide: F000466
-- name: Roger W. Marshall
-  party: majority
-  rank: 6
-  bioguide: M001198
-- name: Al Lawson, Jr.
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: L000586
-- name: Adriano Espaillat
-  party: minority
-  rank: 2
-  bioguide: E000297
-HSSM27:
-- name: Trent Kelly
-  party: majority
-  rank: 3
-  bioguide: K000388
-- name: Jenniffer González-Colón
-  party: majority
-  rank: 4
-  bioguide: G000582
-- name: Brian K. Fitzpatrick
-  party: majority
-  rank: 5
-  bioguide: F000466
-- name: Troy Balderson
-  party: majority
-  rank: 6
-  bioguide: B001306
-- name: Dwight Evans
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: E000296
+  bioguide: D000629
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
 - name: Judy Chu
-  party: minority
-  rank: 2
+  party: majority
+  rank: 7
   bioguide: C001080
-- name: Stephanie N. Murphy
-  party: minority
-  rank: 3
-  bioguide: M001202
-- name: Yvette D. Clarke
-  party: minority
-  rank: 4
-  bioguide: C001067
-HSSO:
-- name: Susan W. Brooks
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Marc A. Veasey
   party: majority
-  rank: 1
-  title: Chair
-  bioguide: B001284
-- name: Kenny Marchant
+  rank: 8
+  bioguide: V000131
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Dwight Evans
   party: majority
-  rank: 2
-  bioguide: M001158
-- name: John Ratcliffe
+  rank: 9
+  bioguide: E000296
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Bradley Scott Schneider
   party: majority
-  rank: 5
-  bioguide: R000601
-- name: Theodore E. Deutch
+  rank: 10
+  bioguide: S001190
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Adriano Espaillat
+  party: majority
+  rank: 11
+  bioguide: E000297
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Antonio Delgado
+  party: majority
+  rank: 12
+  bioguide: D000630
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Chrissy Houlahan
+  party: majority
+  rank: 13
+  bioguide: H001085
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+HSSM23:
+- name: Pete Stauber
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: S001212
+  start_date: '2019-02-04'
+  source: https://republicans-smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=401235
+- name: Jared Golden
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: G000592
+  start_date: '2019-01-29'
+  source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+HSSM24:
+- name: Ross Spano
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: S001210
+  start_date: '2019-02-04'
+  source: https://republicans-smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=401235
+- name: Judy Chu
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: C001080
+  start_date: '2019-01-29'
+  source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+HSSM25:
+- name: John Joyce
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: J000302
+  start_date: '2019-02-04'
+  source: https://republicans-smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=401235
+- name: Abby Finkenauer
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: F000467
+  start_date: '2019-01-29'
+  source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+HSSM27:
+- name: Kevin Hern
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H001082
+  start_date: '2019-02-04'
+  source: https://republicans-smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=401235
+- name: Andy Kim
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: K000394
+  start_date: '2019-01-29'
+  source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+HSSO:
+- name: Kenny Marchant
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: M001158
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/32/text
+- name: Theodore E. Deutch
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: D000610
-- name: Yvette D. Clarke
-  party: minority
-  rank: 2
-  bioguide: C001067
-- name: Anthony G. Brown
-  party: minority
-  rank: 4
-  bioguide: B001304
-- name: Steve Cohen
-  party: minority
-  rank: 5
-  bioguide: C001068
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/31/text
 HSSY:
 - name: Frank D. Lucas
+  party: minority
+  rank: 1
+  bioguide: L000491
+  title: Ranking Member
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
+- name: Mo Brooks
+  party: minority
+  rank: 2
+  bioguide: B001274
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Bill Posey
+  party: minority
+  rank: 3
+  bioguide: P000599
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 4
+  bioguide: W000814
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Brian Babin
+  party: minority
+  rank: 5
+  bioguide: B001291
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Andy Biggs
+  party: minority
+  rank: 6
+  bioguide: B001302
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Roger W. Marshall
+  party: minority
+  rank: 7
+  bioguide: M001198
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Neal P. Dunn
+  party: minority
+  rank: 8
+  bioguide: D000628
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Ralph Norman
+  party: minority
+  rank: 9
+  bioguide: N000190
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Michael Cloud
+  party: minority
+  rank: 10
+  bioguide: C001115
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Troy Balderson
+  party: minority
+  rank: 11
+  bioguide: B001306
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Pete Olson
+  party: minority
+  rank: 12
+  bioguide: O000168
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Anthony Gonzalez
+  party: minority
+  rank: 13
+  bioguide: G000588
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Michael Waltz
+  party: minority
+  rank: 14
+  bioguide: W000823
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: James Baird
+  party: minority
+  rank: 15
+  bioguide: B001307
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: J000126
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
+- name: Zoe Lofgren
+  party: majority
+  rank: 2
+  bioguide: L000397
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Daniel Lipinski
   party: majority
   rank: 3
-  bioguide: L000491
-  title: Vice Chair
-- name: Mo Brooks
+  bioguide: L000563
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Suzanne Bonamici
   party: majority
   rank: 4
-  bioguide: B001274
-- name: Bill Posey
+  bioguide: B001278
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Ami Bera
+  party: majority
+  rank: 5
+  title: Vice Chair
+  bioguide: B001287
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Conor Lamb
   party: majority
   rank: 6
-  bioguide: P000599
-- name: Thomas Massie
+  bioguide: L000588
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Lizzie Fletcher
   party: majority
   rank: 7
-  bioguide: M001184
-- name: Randy K. Weber, Sr.
+  bioguide: F000468
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Haley M. Stevens
   party: majority
   rank: 8
-  bioguide: W000814
-- name: Brian Babin
+  bioguide: S001215
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Kendra S. Horn
+  party: majority
+  rank: 9
+  bioguide: H001083
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Mikie Sherrill
   party: majority
   rank: 10
-  bioguide: B001291
-- name: Ralph Lee Abraham
+  bioguide: S001207
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Brad Sherman
+  party: majority
+  rank: 11
+  bioguide: S000344
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Steve Cohen
   party: majority
   rank: 12
-  bioguide: A000374
-- name: Gary J. Palmer
+  bioguide: C001068
+  start_date: '2019-01-24'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Jerry McNerney
   party: majority
   rank: 13
-  bioguide: P000609
-- name: Daniel Webster
+  bioguide: M001166
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Ed Perlmutter
   party: majority
   rank: 14
-  bioguide: W000806
-- name: Andy Biggs
+  bioguide: P000593
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Paul Tonko
   party: majority
   rank: 15
-  bioguide: B001302
-- name: Roger W. Marshall
+  bioguide: T000469
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Bill Foster
   party: majority
   rank: 16
-  bioguide: M001198
-- name: Neal P. Dunn
+  bioguide: F000454
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Donald S. Beyer, Jr.
   party: majority
   rank: 17
-  bioguide: D000628
-- name: Clay Higgins
+  bioguide: B001292
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Charlie Crist
   party: majority
   rank: 18
-  bioguide: H001077
-- name: Ralph Norman
+  bioguide: C001111
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Sean Casten
   party: majority
   rank: 19
-  bioguide: N000190
-- name: Debbie Lesko
+  bioguide: C001117
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Katie Hill
   party: majority
   rank: 20
-  bioguide: L000589
-- name: Michael Cloud
+  bioguide: H001087
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Ben McAdams
   party: majority
   rank: 21
-  bioguide: C001115
-- name: Troy Balderson
+  bioguide: M001209
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Jennifer Wexton
   party: majority
   rank: 22
-  bioguide: B001306
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: J000126
-- name: Zoe Lofgren
-  party: minority
-  rank: 2
-  bioguide: L000397
-- name: Daniel Lipinski
-  party: minority
-  rank: 3
-  bioguide: L000563
-- name: Suzanne Bonamici
-  party: minority
-  rank: 4
-  bioguide: B001278
-- name: Ami Bera
-  party: minority
-  rank: 5
-  bioguide: B001287
-- name: Marc A. Veasey
-  party: minority
-  rank: 7
-  bioguide: V000131
-- name: Donald S. Beyer, Jr.
-  party: minority
-  rank: 8
-  bioguide: B001292
-- name: Jacky Rosen
-  party: minority
-  rank: 9
-  bioguide: R000608
-- name: Conor Lamb
-  party: minority
-  rank: 10
-  bioguide: L000588
-- name: Jerry McNerney
-  party: minority
-  rank: 11
-  bioguide: M001166
-- name: Ed Perlmutter
-  party: minority
-  rank: 12
-  bioguide: P000593
-- name: Paul Tonko
-  party: minority
-  rank: 13
-  bioguide: T000469
-- name: Bill Foster
-  party: minority
-  rank: 14
-  bioguide: F000454
-- name: Mark Takano
-  party: minority
-  rank: 15
-  bioguide: T000472
-- name: Charlie Crist
-  party: minority
-  rank: 17
-  bioguide: C001111
+  bioguide: W000825
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
 HSSY15:
-- name: Frank D. Lucas
-  party: majority
-  rank: 2
-  bioguide: L000491
-- name: Daniel Webster
-  party: majority
-  rank: 5
-  bioguide: W000806
-- name: Roger W. Marshall
-  party: majority
-  rank: 6
-  bioguide: M001198
-  title: Vice Chair
-- name: Debbie Lesko
-  party: majority
-  rank: 7
-  bioguide: L000589
-- name: Michael Cloud
-  party: majority
-  rank: 8
-  bioguide: C001115
-- name: Troy Balderson
-  party: majority
-  rank: 9
-  bioguide: B001306
-- name: Daniel Lipinski
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: L000563
-- name: Jacky Rosen
-  party: minority
-  rank: 3
-  bioguide: R000608
-- name: Suzanne Bonamici
-  party: minority
-  rank: 4
-  bioguide: B001278
-- name: Ami Bera
-  party: minority
-  rank: 5
-  bioguide: B001287
-- name: Donald S. Beyer, Jr.
-  party: minority
-  rank: 6
-  bioguide: B001292
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 7
-  bioguide: J000126
-  title: Ex Officio
-HSSY16:
-- name: Brian Babin
+- name: Haley M. Stevens
   party: majority
   rank: 1
   title: Chair
-  bioguide: B001291
-- name: Frank D. Lucas
-  party: majority
-  rank: 3
-  bioguide: L000491
-- name: Mo Brooks
-  party: majority
-  rank: 4
-  bioguide: B001274
-  title: Vice Chair
-- name: Thomas Massie
-  party: majority
-  rank: 6
-  bioguide: M001184
-- name: Bill Posey
-  party: majority
-  rank: 7
-  bioguide: P000599
-- name: Ralph Lee Abraham
-  party: majority
-  rank: 10
-  bioguide: A000374
-- name: Daniel Webster
-  party: majority
-  rank: 11
-  bioguide: W000806
-- name: Andy Biggs
-  party: majority
-  rank: 12
-  bioguide: B001302
-- name: Neal P. Dunn
-  party: majority
-  rank: 13
-  bioguide: D000628
-- name: Clay Higgins
-  party: majority
-  rank: 14
-  bioguide: H001077
-- name: Ami Bera
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001287
-- name: Zoe Lofgren
-  party: minority
-  rank: 2
-  bioguide: L000397
-- name: Donald S. Beyer, Jr.
-  party: minority
-  rank: 3
-  bioguide: B001292
-- name: Marc A. Veasey
-  party: minority
-  rank: 4
-  bioguide: V000131
+  bioguide: S001215
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
 - name: Daniel Lipinski
-  party: minority
-  rank: 5
-  bioguide: L000563
-- name: Ed Perlmutter
-  party: minority
-  rank: 6
-  bioguide: P000593
-- name: Charlie Crist
-  party: minority
-  rank: 7
-  bioguide: C001111
-- name: Bill Foster
-  party: minority
-  rank: 8
-  bioguide: F000454
-- name: Conor Lamb
-  party: minority
-  rank: 9
-  bioguide: L000588
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 11
-  bioguide: J000126
-  title: Ex Officio
-HSSY18:
-- name: Andy Biggs
   party: majority
-  rank: 1
-  title: Chair
-  bioguide: B001302
-- name: Bill Posey
-  party: majority
-  rank: 3
-  bioguide: P000599
-- name: Mo Brooks
-  party: majority
-  rank: 4
-  bioguide: B001274
-- name: Randy K. Weber, Sr.
-  party: majority
-  rank: 5
-  bioguide: W000814
-- name: Brian Babin
-  party: majority
-  rank: 6
-  bioguide: B001291
-- name: Gary J. Palmer
-  party: majority
-  rank: 7
-  bioguide: P000609
-- name: Clay Higgins
-  party: majority
-  rank: 8
-  bioguide: H001077
-- name: Ralph Norman
-  party: majority
-  rank: 9
-  bioguide: N000190
-  title: Vice Chair
-- name: Debbie Lesko
-  party: majority
-  rank: 10
-  bioguide: L000589
-- name: Suzanne Bonamici
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001278
-- name: Charlie Crist
-  party: minority
-  rank: 3
-  bioguide: C001111
-- name: Conor Lamb
-  party: minority
-  rank: 4
-  bioguide: L000588
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 8
-  bioguide: J000126
-  title: Ex Officio
-HSSY20:
-- name: Randy K. Weber, Sr.
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: W000814
-- name: Frank D. Lucas
-  party: majority
-  rank: 3
-  bioguide: L000491
-- name: Mo Brooks
-  party: majority
-  rank: 4
-  bioguide: B001274
-- name: Gary J. Palmer
-  party: majority
-  rank: 7
-  bioguide: P000609
-- name: Daniel Webster
-  party: majority
-  rank: 8
-  bioguide: W000806
-- name: Neal P. Dunn
-  party: majority
-  rank: 9
-  bioguide: D000628
-- name: Ralph Norman
-  party: majority
-  rank: 10
-  bioguide: N000190
-- name: Michael Cloud
-  party: majority
-  rank: 11
-  bioguide: C001115
-- name: Marc A. Veasey
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: V000131
-- name: Zoe Lofgren
-  party: minority
   rank: 2
-  bioguide: L000397
-- name: Daniel Lipinski
-  party: minority
-  rank: 3
   bioguide: L000563
-- name: Jacky Rosen
-  party: minority
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Mikie Sherrill
+  party: majority
+  rank: 3
+  bioguide: S001207
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Brad Sherman
+  party: majority
   rank: 4
-  bioguide: R000608
-- name: Jerry McNerney
-  party: minority
-  rank: 5
-  bioguide: M001166
+  bioguide: S000344
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
 - name: Paul Tonko
-  party: minority
-  rank: 6
+  party: majority
+  rank: 5
   bioguide: T000469
-- name: Bill Foster
-  party: minority
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Ben McAdams
+  party: majority
+  rank: 6
+  bioguide: M001209
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Steve Cohen
+  party: majority
   rank: 7
-  bioguide: F000454
-- name: Mark Takano
-  party: minority
+  bioguide: C001068
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Bill Foster
+  party: majority
   rank: 8
-  bioguide: T000472
-- name: Eddie Bernice Johnson
-  party: minority
-  rank: 9
-  bioguide: J000126
-  title: Ex Officio
-HSSY21:
-- name: Ralph Lee Abraham
+  bioguide: F000454
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+HSSY16:
+- name: Kendra S. Horn
   party: majority
   rank: 1
   title: Chair
-  bioguide: A000374
-- name: Bill Posey
+  bioguide: H001083
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Zoe Lofgren
   party: majority
   rank: 2
-  bioguide: P000599
-- name: Thomas Massie
+  bioguide: L000397
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Ami Bera
   party: majority
   rank: 3
-  bioguide: M001184
-- name: Roger W. Marshall
+  bioguide: B001287
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Ed Perlmutter
   party: majority
   rank: 4
-  bioguide: M001198
-- name: Clay Higgins
+  bioguide: P000593
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Donald S. Beyer, Jr.
   party: majority
   rank: 5
-  bioguide: H001077
-  title: Vice Chair
-- name: Ralph Norman
+  bioguide: B001292
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Charlie Crist
   party: majority
   rank: 6
-  bioguide: N000190
-- name: Troy Balderson
+  bioguide: C001111
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Katie Hill
   party: majority
   rank: 7
-  bioguide: B001306
-- name: Donald S. Beyer, Jr.
-  party: minority
+  bioguide: H001087
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Jennifer Wexton
+  party: majority
+  rank: 8
+  bioguide: W000825
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+HSSY18:
+- name: Lizzie Fletcher
+  party: majority
   rank: 1
-  title: Ranking Member
-  bioguide: B001292
-- name: Jerry McNerney
-  party: minority
+  title: Chair
+  bioguide: F000468
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Suzanne Bonamici
+  party: majority
   rank: 2
-  bioguide: M001166
-- name: Ed Perlmutter
-  party: minority
+  bioguide: B001278
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Conor Lamb
+  party: majority
   rank: 3
-  bioguide: P000593
-- name: Eddie Bernice Johnson
-  party: minority
+  bioguide: L000588
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Paul Tonko
+  party: majority
+  rank: 4
+  bioguide: T000469
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Charlie Crist
+  party: majority
+  rank: 5
+  bioguide: C001111
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Sean Casten
+  party: majority
   rank: 6
-  bioguide: J000126
-  title: Ex Officio
+  bioguide: C001117
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Ben McAdams
+  party: majority
+  rank: 7
+  bioguide: M001209
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Donald S. Beyer, Jr.
+  party: majority
+  rank: 8
+  bioguide: B001292
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+HSSY20:
+- name: Conor Lamb
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: L000588
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Daniel Lipinski
+  party: majority
+  rank: 2
+  bioguide: L000563
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Lizzie Fletcher
+  party: majority
+  rank: 3
+  bioguide: F000468
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Haley M. Stevens
+  party: majority
+  rank: 4
+  bioguide: S001215
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Kendra S. Horn
+  party: majority
+  rank: 5
+  bioguide: H001083
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Jerry McNerney
+  party: majority
+  rank: 6
+  bioguide: M001166
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Bill Foster
+  party: majority
+  rank: 7
+  bioguide: F000454
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Sean Casten
+  party: majority
+  rank: 8
+  bioguide: C001117
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+HSSY21:
+- name: Mikie Sherrill
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S001207
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Suzanne Bonamici
+  party: majority
+  rank: 2
+  bioguide: B001278
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Steve Cohen
+  party: majority
+  rank: 3
+  bioguide: C001068
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Donald S. Beyer, Jr.
+  party: majority
+  rank: 4
+  bioguide: B001292
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Jennifer Wexton
+  party: majority
+  rank: 5
+  bioguide: W000825
+  start_date: '2019-01-30'
+  source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
 HSVR:
 - name: David P. Roe
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: R000582
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/25/text
+- name: Gus M. Bilirakis
+  party: minority
+  rank: 2
+  bioguide: B001257
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Aumua Amata Coleman Radewagen
+  party: minority
+  rank: 3
+  bioguide: R000600
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Mike Bost
+  party: minority
+  rank: 4
+  bioguide: B001295
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Neal P. Dunn
+  party: minority
+  rank: 5
+  bioguide: D000628
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Jack Bergman
+  party: minority
+  rank: 6
+  bioguide: B001301
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Jim Banks
+  party: minority
+  rank: 7
+  bioguide: B001299
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Andy Barr
+  party: minority
+  rank: 8
+  bioguide: B001282
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Daniel Meuser
+  party: minority
+  rank: 9
+  bioguide: M001204
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Steven C. Watkins
+  party: minority
+  rank: 10
+  bioguide: W000824
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Chip Roy
+  party: minority
+  rank: 11
+  bioguide: R000614
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: W. Gregory Steube
+  party: minority
+  rank: 12
+  bioguide: S001214
+  start_date: '2019-01-23'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
+- name: Mark Takano
   party: majority
   rank: 1
   title: Chair
-  bioguide: R000582
-- name: Gus M. Bilirakis
+  bioguide: T000472
+  start_date: '2019-01-04'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
+- name: Julia Brownley
   party: majority
   rank: 2
-  bioguide: B001257
-- name: Bill Flores
+  bioguide: B001285
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Kathleen M. Rice
+  party: majority
+  rank: 3
+  bioguide: R000602
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Conor Lamb
   party: majority
   rank: 4
-  bioguide: F000461
-- name: Aumua Amata Coleman Radewagen
+  title: Vice Chair
+  bioguide: L000588
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Mike Levin
   party: majority
   rank: 5
-  bioguide: R000600
-- name: Mike Bost
+  bioguide: L000593
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Anthony Brindisi
   party: majority
   rank: 6
-  bioguide: B001295
-- name: Neal P. Dunn
+  bioguide: B001308
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Max Rose
+  party: majority
+  rank: 7
+  bioguide: R000613
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Chris Pappas
   party: majority
   rank: 8
-  bioguide: D000628
-- name: Jodey C. Arrington
+  bioguide: P000614
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Elaine G. Luria
   party: majority
   rank: 9
-  bioguide: A000375
-- name: Clay Higgins
+  bioguide: L000591
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Susie Lee
   party: majority
   rank: 10
-  bioguide: H001077
-- name: Jack Bergman
+  bioguide: L000590
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Joe Cunningham
   party: majority
   rank: 11
-  bioguide: B001301
-- name: Jim Banks
+  bioguide: C001122
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Gil Cisneros
   party: majority
   rank: 12
-  bioguide: B001299
-- name: Jenniffer González-Colón
+  bioguide: C001123
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Collin C. Peterson
   party: majority
   rank: 13
-  bioguide: G000582
-- name: Brian J. Mast
+  bioguide: P000258
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Gregorio Kilili Camacho Sablan
   party: majority
   rank: 14
-  bioguide: M001199
-- name: Mark Takano
-  party: minority
-  rank: 2
-  bioguide: T000472
-- name: Julia Brownley
-  party: minority
-  rank: 3
-  bioguide: B001285
-- name: Ann M. Kuster
-  party: minority
-  rank: 4
-  bioguide: K000382
-- name: Kathleen M. Rice
-  party: minority
-  rank: 6
-  bioguide: R000602
-- name: J. Luis Correa
-  party: minority
-  rank: 7
-  bioguide: C001110
-- name: Conor Lamb
-  party: minority
-  rank: 8
-  bioguide: L000588
-- name: Scott H. Peters
-  party: minority
-  rank: 10
-  bioguide: P000608
+  bioguide: S001177
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Colin Allred
+  party: majority
+  rank: 15
+  bioguide: A000376
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
+- name: Lauren Underwood
+  party: majority
+  rank: 16
+  bioguide: U000040
+  start_date: '2019-01-17'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/57/text
 HSVR03:
 - name: Neal P. Dunn
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: D000628
-- name: Gus M. Bilirakis
-  party: majority
-  rank: 2
-  bioguide: B001257
-- name: Bill Flores
-  party: majority
-  rank: 3
-  bioguide: F000461
-- name: Aumua Amata Coleman Radewagen
-  party: majority
-  rank: 4
-  bioguide: R000600
-- name: Clay Higgins
-  party: majority
-  rank: 5
-  bioguide: H001077
-- name: Jenniffer González-Colón
-  party: majority
-  rank: 6
-  bioguide: G000582
-- name: Brian J. Mast
-  party: majority
-  rank: 7
-  bioguide: M001199
-- name: Julia Brownley
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: D000628
+  start_date: '2019-01-30'
+  source: https://republicans-veterans.house.gov/news/documentsingle.aspx?DocumentID=2330
+- name: Julia Brownley
+  party: majority
+  rank: 1
+  title: Chair
   bioguide: B001285
-- name: Mark Takano
-  party: minority
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Conor Lamb
+  party: majority
   rank: 2
-  bioguide: T000472
-- name: Ann M. Kuster
-  party: minority
-  rank: 3
-  bioguide: K000382
-- name: J. Luis Correa
-  party: minority
+  bioguide: L000588
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Mike Levin
+  party: majority
   rank: 5
-  bioguide: C001110
+  bioguide: L000593
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Anthony Brindisi
+  party: majority
+  rank: 4
+  bioguide: B001308
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Max Rose
+  party: majority
+  rank: 5
+  bioguide: R000613
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Gil Cisneros
+  party: majority
+  rank: 6
+  bioguide: C001123
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Collin C. Peterson
+  party: majority
+  rank: 7
+  bioguide: P000258
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 HSVR08:
 - name: Jack Bergman
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: B001301
-- name: Mike Bost
-  party: majority
-  rank: 2
-  bioguide: B001295
-- name: Neal P. Dunn
-  party: majority
-  rank: 4
-  bioguide: D000628
-- name: Jodey C. Arrington
-  party: majority
-  rank: 5
-  bioguide: A000375
-- name: Jenniffer González-Colón
-  party: majority
-  rank: 6
-  bioguide: G000582
-- name: Ann M. Kuster
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: K000382
+  bioguide: B001301
+  start_date: '2019-01-30'
+  source: https://republicans-veterans.house.gov/news/documentsingle.aspx?DocumentID=2330
+- name: Chris Pappas
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: P000614
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 - name: Kathleen M. Rice
-  party: minority
+  party: majority
   rank: 2
   bioguide: R000602
-- name: Scott H. Peters
-  party: minority
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Max Rose
+  party: majority
   rank: 3
-  bioguide: P000608
-- name: Conor Lamb
-  party: minority
+  bioguide: R000613
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Gil Cisneros
+  party: majority
   rank: 4
-  bioguide: L000588
+  bioguide: C001123
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Collin C. Peterson
+  party: majority
+  rank: 5
+  bioguide: P000258
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 HSVR09:
 - name: Mike Bost
-  party: majority
+  party: minority
   rank: 1
-  title: Chair
+  title: Ranking Member
   bioguide: B001295
-- name: Aumua Amata Coleman Radewagen
-  party: majority
-  rank: 3
-  bioguide: R000600
-- name: Jack Bergman
-  party: majority
-  rank: 4
-  bioguide: B001301
-- name: Jim Banks
-  party: majority
-  rank: 5
-  bioguide: B001299
-- name: Julia Brownley
-  party: minority
-  rank: 2
-  bioguide: B001285
-- name: Conor Lamb
-  party: minority
-  rank: 3
-  bioguide: L000588
-HSVR10:
-- name: Jodey C. Arrington
+  start_date: '2019-01-30'
+  source: https://republicans-veterans.house.gov/news/documentsingle.aspx?DocumentID=2330
+- name: Elaine G. Luria
   party: majority
   rank: 1
   title: Chair
-  bioguide: A000375
-- name: Gus M. Bilirakis
+  bioguide: L000591
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Gil Cisneros
   party: majority
   rank: 2
-  bioguide: B001257
-- name: Bill Flores
+  bioguide: C001123
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Gregorio Kilili Camacho Sablan
   party: majority
   rank: 3
-  bioguide: F000461
-- name: Jim Banks
+  bioguide: S001177
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Colin Allred
   party: majority
   rank: 4
-  bioguide: B001299
-- name: Brian J. Mast
+  bioguide: A000376
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Lauren Underwood
   party: majority
   rank: 5
-  bioguide: M001199
-- name: Mark Takano
+  bioguide: U000040
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+HSVR10:
+- name: Gus M. Bilirakis
   party: minority
-  rank: 2
-  bioguide: T000472
-- name: J. Luis Correa
-  party: minority
-  rank: 3
-  bioguide: C001110
+  rank: 1
+  title: Ranking Member
+  bioguide: B001257
+  start_date: '2019-01-30'
+  source: https://republicans-veterans.house.gov/news/documentsingle.aspx?DocumentID=2330
+- name: Mike Levin
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: L000593
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 - name: Kathleen M. Rice
-  party: minority
-  rank: 4
+  party: majority
+  rank: 2
   bioguide: R000602
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Anthony Brindisi
+  party: majority
+  rank: 3
+  bioguide: B001308
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Chris Pappas
+  party: majority
+  rank: 4
+  bioguide: P000614
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Elaine G. Luria
+  party: majority
+  rank: 5
+  bioguide: L000591
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Susie Lee
+  party: majority
+  rank: 6
+  bioguide: L000590
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Joe Cunningham
+  party: majority
+  rank: 7
+  bioguide: C001122
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 HSVR11:
 - name: Jim Banks
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: B001299
-- name: Jack Bergman
-  party: majority
-  rank: 3
-  bioguide: B001301
-- name: Conor Lamb
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: L000588
-- name: Scott H. Peters
-  party: minority
+  bioguide: B001299
+  start_date: '2019-01-30'
+  source: https://republicans-veterans.house.gov/news/documentsingle.aspx?DocumentID=2330
+- name: Susie Lee
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: L000590
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Julia Brownley
+  party: majority
   rank: 2
-  bioguide: P000608
+  bioguide: B001285
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Conor Lamb
+  party: majority
+  rank: 3
+  bioguide: L000588
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Joe Cunningham
+  party: majority
+  rank: 4
+  bioguide: C001122
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 HSWM:
 - name: Kevin Brady
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: B000755
-- name: Devin Nunes
-  party: majority
-  rank: 3
-  bioguide: N000181
-- name: Vern Buchanan
-  party: majority
-  rank: 6
-  bioguide: B001260
-- name: Adrian Smith
-  party: majority
-  rank: 7
-  bioguide: S001172
-- name: Kenny Marchant
-  party: majority
-  rank: 10
-  bioguide: M001158
-- name: Tom Reed
-  party: majority
-  rank: 12
-  bioguide: R000585
-- name: Mike Kelly
-  party: majority
-  rank: 13
-  bioguide: K000376
-- name: George Holding
-  party: majority
-  rank: 16
-  bioguide: H001065
-- name: Jason Smith
-  party: majority
-  rank: 17
-  bioguide: S001195
-- name: Tom Rice
-  party: majority
-  rank: 18
-  bioguide: R000597
-- name: David Schweikert
-  party: majority
-  rank: 19
-  bioguide: S001183
-- name: Jackie Walorski
-  party: majority
-  rank: 20
-  bioguide: W000813
-- name: Darin LaHood
-  party: majority
-  rank: 23
-  bioguide: L000585
-- name: Brad R. Wenstrup
-  party: majority
-  rank: 24
-  bioguide: W000815
-- name: Richard E. Neal
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: N000015
-- name: John Lewis
+  bioguide: B000755
+  start_date: '2019-01-03'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/8/text
+- name: Devin Nunes
+  party: minority
+  rank: 2
+  bioguide: N000181
+- name: Vern Buchanan
   party: minority
   rank: 3
-  bioguide: L000287
-- name: Lloyd Doggett
+  bioguide: B001260
+- name: Adrian Smith
   party: minority
   rank: 4
-  bioguide: D000399
-- name: Mike Thompson
+  bioguide: S001172
+- name: Kenny Marchant
   party: minority
   rank: 5
-  bioguide: T000460
-- name: John B. Larson
+  bioguide: M001158
+- name: Tom Reed
   party: minority
   rank: 6
-  bioguide: L000557
-- name: Earl Blumenauer
+  bioguide: R000585
+- name: Mike Kelly
   party: minority
   rank: 7
-  bioguide: B000574
-- name: Ron Kind
+  bioguide: K000376
+- name: George Holding
   party: minority
   rank: 8
-  bioguide: K000188
-- name: Bill Pascrell, Jr.
+  bioguide: H001065
+- name: Jason Smith
   party: minority
   rank: 9
-  bioguide: P000096
-- name: Danny K. Davis
+  bioguide: S001195
+- name: Tom Rice
+  party: minority
+  rank: 10
+  bioguide: R000597
+- name: David Schweikert
   party: minority
   rank: 11
-  bioguide: D000096
-- name: Linda T. Sánchez
+  bioguide: S001183
+- name: Jackie Walorski
   party: minority
   rank: 12
-  bioguide: S001156
-- name: Brian Higgins
+  bioguide: W000813
+- name: Darin LaHood
   party: minority
   rank: 13
-  bioguide: H001038
-- name: Terri A. Sewell
+  bioguide: L000585
+- name: Brad R. Wenstrup
   party: minority
   rank: 14
-  bioguide: S001185
-- name: Suzan K. DelBene
+  bioguide: W000815
+- name: Jodey C. Arrington
   party: minority
   rank: 15
-  bioguide: D000617
-- name: Judy Chu
+  bioguide: A000375
+- name: A. Drew Ferguson IV
   party: minority
   rank: 16
-  bioguide: C001080
-HSWM01:
-- name: Vern Buchanan
-  party: majority
-  rank: 3
-  bioguide: B001260
-- name: Mike Kelly
-  party: majority
-  rank: 4
-  bioguide: K000376
-- name: Tom Rice
-  party: majority
-  rank: 5
-  bioguide: R000597
-- name: David Schweikert
-  party: majority
-  rank: 6
-  bioguide: S001183
-- name: Darin LaHood
-  party: majority
-  rank: 7
-  bioguide: L000585
-- name: John B. Larson
+  bioguide: F000465
+- name: Ron Estes
   party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: L000557
-- name: Bill Pascrell, Jr.
-  party: minority
-  rank: 2
-  bioguide: P000096
-- name: Linda T. Sánchez
-  party: minority
-  rank: 4
-  bioguide: S001156
-HSWM02:
-- name: Devin Nunes
-  party: majority
-  rank: 3
-  bioguide: N000181
-- name: Vern Buchanan
-  party: majority
-  rank: 4
-  bioguide: B001260
-- name: Adrian Smith
-  party: majority
-  rank: 5
-  bioguide: S001172
-- name: Kenny Marchant
-  party: majority
-  rank: 7
-  bioguide: M001158
-- name: Tom Reed
-  party: majority
-  rank: 10
-  bioguide: R000585
-- name: Mike Kelly
-  party: majority
-  rank: 11
-  bioguide: K000376
-- name: Mike Thompson
-  party: minority
-  rank: 2
-  bioguide: T000460
-- name: Ron Kind
-  party: minority
-  rank: 3
-  bioguide: K000188
-- name: Earl Blumenauer
-  party: minority
-  rank: 4
-  bioguide: B000574
-- name: Brian Higgins
-  party: minority
-  rank: 5
-  bioguide: H001038
-- name: Terri A. Sewell
-  party: minority
-  rank: 6
-  bioguide: S001185
-- name: Judy Chu
-  party: minority
-  rank: 7
-  bioguide: C001080
-HSWM03:
-- name: Adrian Smith
+  rank: 17
+  bioguide: E000298
+- name: Richard E. Neal
   party: majority
   rank: 1
   title: Chair
-  bioguide: S001172
-- name: Jackie Walorski
+  bioguide: N000015
+  start_date: '2019-01-03'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/7/text
+- name: John Lewis
   party: majority
   rank: 2
-  bioguide: W000813
-- name: David Schweikert
+  bioguide: L000287
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Lloyd Doggett
+  party: majority
+  rank: 3
+  bioguide: D000399
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Mike Thompson
   party: majority
   rank: 4
-  bioguide: S001183
-- name: Darin LaHood
+  bioguide: T000460
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: John B. Larson
   party: majority
   rank: 5
-  bioguide: L000585
-- name: Brad R. Wenstrup
+  bioguide: L000557
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Earl Blumenauer
   party: majority
   rank: 6
-  bioguide: W000815
-- name: Danny K. Davis
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: D000096
-- name: Lloyd Doggett
-  party: minority
-  rank: 2
-  bioguide: D000399
-- name: Terri A. Sewell
-  party: minority
-  rank: 3
-  bioguide: S001185
-- name: Judy Chu
-  party: minority
-  rank: 4
-  bioguide: C001080
-HSWM04:
-- name: Devin Nunes
-  party: majority
-  rank: 2
-  bioguide: N000181
-- name: Mike Kelly
-  party: majority
-  rank: 4
-  bioguide: K000376
-- name: Tom Reed
-  party: majority
-  rank: 5
-  bioguide: R000585
-- name: George Holding
+  bioguide: B000574
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Ron Kind
   party: majority
   rank: 7
-  bioguide: H001065
-- name: Tom Rice
+  bioguide: K000188
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Bill Pascrell, Jr.
   party: majority
   rank: 8
-  bioguide: R000597
-- name: Kenny Marchant
+  bioguide: P000096
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Danny K. Davis
   party: majority
   rank: 9
-  bioguide: M001158
-- name: Jason Smith
+  bioguide: D000096
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Linda T. Sánchez
   party: majority
   rank: 10
-  bioguide: S001195
-- name: Bill Pascrell, Jr.
+  bioguide: S001156
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Brian Higgins
+  party: majority
+  rank: 11
+  bioguide: H001038
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Terri A. Sewell
+  party: majority
+  rank: 12
+  bioguide: S001185
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Suzan K. DelBene
+  party: majority
+  rank: 13
+  bioguide: D000617
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Judy Chu
+  party: majority
+  rank: 14
+  bioguide: C001080
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Gwen Moore
+  party: majority
+  rank: 15
+  bioguide: M001160
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Daniel T. Kildee
+  party: majority
+  rank: 16
+  bioguide: K000380
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Brendan F. Boyle
+  party: majority
+  rank: 17
+  bioguide: B001296
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Donald S. Beyer, Jr.
+  party: majority
+  rank: 18
+  bioguide: B001292
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Dwight Evans
+  party: majority
+  rank: 19
+  bioguide: E000296
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Bradley Scott Schneider
+  party: majority
+  rank: 20
+  bioguide: S001190
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Thomas R. Suozzi
+  party: majority
+  rank: 21
+  bioguide: S001201
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Jimmy Panetta
+  party: majority
+  rank: 22
+  bioguide: P000613
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Stephanie N. Murphy
+  party: majority
+  rank: 23
+  bioguide: M001202
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Jimmy Gomez
+  party: majority
+  rank: 24
+  bioguide: G000585
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+- name: Steven Horsford
+  party: majority
+  rank: 25
+  bioguide: H001066
+  start_date: '2019-01-15'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/42/text
+HSWM01:
+- name: Tom Reed
   party: minority
   rank: 1
   title: Ranking Member
-  bioguide: P000096
-- name: Ron Kind
+  bioguide: R000585
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Jodey C. Arrington
   party: minority
   rank: 2
-  bioguide: K000188
-- name: Lloyd Doggett
+  bioguide: A000375
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: A. Drew Ferguson IV
   party: minority
   rank: 3
-  bioguide: D000399
-- name: Danny K. Davis
+  bioguide: F000465
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Ron Estes
+  party: minority
+  rank: 4
+  bioguide: E000298
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: John B. Larson
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: L000557
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Bill Pascrell, Jr.
+  party: majority
+  rank: 2
+  bioguide: P000096
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Linda T. Sánchez
+  party: majority
+  rank: 3
+  bioguide: S001156
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Brian Higgins
+  party: majority
+  rank: 4
+  bioguide: H001038
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Daniel T. Kildee
+  party: majority
+  rank: 5
+  bioguide: K000380
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Brendan F. Boyle
+  party: majority
+  rank: 6
+  bioguide: B001296
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Bradley Scott Schneider
+  party: majority
+  rank: 7
+  bioguide: S001190
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+HSWM02:
+- name: Devin Nunes
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: N000181
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Vern Buchanan
+  party: minority
+  rank: 2
+  bioguide: B001260
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Adrian Smith
+  party: minority
+  rank: 3
+  bioguide: S001172
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Kenny Marchant
+  party: minority
+  rank: 4
+  bioguide: M001158
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Tom Reed
   party: minority
   rank: 5
-  bioguide: D000096
-- name: Brian Higgins
+  bioguide: R000585
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Mike Kelly
   party: minority
   rank: 6
+  bioguide: K000376
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: George Holding
+  party: minority
+  rank: 7
+  bioguide: H001065
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Lloyd Doggett
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: D000399
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Mike Thompson
+  party: majority
+  rank: 2
+  bioguide: T000460
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Earl Blumenauer
+  party: majority
+  rank: 3
+  bioguide: B000574
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Ron Kind
+  party: majority
+  rank: 4
+  bioguide: K000188
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Brian Higgins
+  party: majority
+  rank: 5
   bioguide: H001038
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Terri A. Sewell
+  party: majority
+  rank: 6
+  bioguide: S001185
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Judy Chu
+  party: majority
+  rank: 7
+  bioguide: C001080
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Dwight Evans
+  party: majority
+  rank: 8
+  bioguide: E000296
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Bradley Scott Schneider
+  party: majority
+  rank: 9
+  bioguide: S001190
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Jimmy Gomez
+  party: majority
+  rank: 10
+  bioguide: G000585
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Steven Horsford
+  party: majority
+  rank: 11
+  bioguide: H001066
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+HSWM03:
+- name: Jackie Walorski
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000813
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Brad R. Wenstrup
+  party: minority
+  rank: 2
+  bioguide: W000815
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Ron Estes
+  party: minority
+  rank: 3
+  bioguide: E000298
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Darin LaHood
+  party: minority
+  rank: 4
+  bioguide: L000585
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Danny K. Davis
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: D000096
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Judy Chu
+  party: majority
+  rank: 2
+  bioguide: C001080
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Terri A. Sewell
+  party: majority
+  rank: 3
+  bioguide: S001185
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Gwen Moore
+  party: majority
+  rank: 4
+  bioguide: M001160
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Dwight Evans
+  party: majority
+  rank: 5
+  bioguide: E000296
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Stephanie N. Murphy
+  party: majority
+  rank: 6
+  bioguide: M001202
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Jimmy Gomez
+  party: majority
+  rank: 7
+  bioguide: G000585
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+HSWM04:
+- name: Vern Buchanan
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001260
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Devin Nunes
+  party: minority
+  rank: 2
+  bioguide: N000181
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: George Holding
+  party: minority
+  rank: 3
+  bioguide: H001065
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Tom Rice
+  party: minority
+  rank: 4
+  bioguide: R000597
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Kenny Marchant
+  party: minority
+  rank: 5
+  bioguide: M001158
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Jason Smith
+  party: minority
+  rank: 6
+  bioguide: S001195
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: David Schweikert
+  party: minority
+  rank: 7
+  bioguide: S001183
+  start_date: '2019-01-16'
+  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
+- name: Earl Blumenauer
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: B000574
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Bill Pascrell, Jr.
+  party: majority
+  rank: 2
+  bioguide: P000096
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Ron Kind
+  party: majority
+  rank: 3
+  bioguide: K000188
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Danny K. Davis
+  party: majority
+  rank: 4
+  bioguide: D000096
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Brian Higgins
+  party: majority
+  rank: 5
+  bioguide: H001038
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Terri A. Sewell
+  party: majority
+  rank: 6
+  bioguide: S001185
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Suzan K. DelBene
+  party: majority
+  rank: 7
+  bioguide: D000617
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Donald S. Beyer, Jr.
+  party: majority
+  rank: 8
+  bioguide: B001292
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Daniel T. Kildee
+  party: majority
+  rank: 9
+  bioguide: K000380
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Jimmy Panetta
+  party: majority
+  rank: 10
+  bioguide: P000613
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Stephanie N. Murphy
+  party: majority
+  rank: 11
+  bioguide: M001202
+  start_date: '2019-01-16'
+  source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 HSWM05:
 - name: Vern Buchanan
   party: majority
