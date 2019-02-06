@@ -32,7 +32,7 @@ def run():
     args = utils.args()
     legislators = load_data(filename)
 
-    if len(args) is not 0:
+    if len(args) != 0:
         bioguides = args
         print("Fetching contact forms for %s..." % ', '.join(bioguides))
     else:
@@ -61,7 +61,7 @@ def run():
 def contact_steps_for(bioguide):
     base_url = "https://raw.githubusercontent.com/unitedstates/contact-congress/master/members/{bioguide}.yaml"
     response = urlopen(base_url.format(bioguide=bioguide))
-    if response.code is 404:
+    if response.code == 404:
         raise LegislatorNotFoundError("%s not found in unitedstates/contact-congress!" % bioguide)
     return yaml.load(response.read())
 
