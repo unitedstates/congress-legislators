@@ -589,6 +589,10 @@
   bio:
     birthday: '1960-05-25'
     gender: F
+  leadership_roles:
+  - title: Senate Democratic Steering Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2007-01-04'
@@ -900,6 +904,10 @@
   bio:
     birthday: '1950-04-29'
     gender: F
+  leadership_roles:
+  - title: Senate Democratic Policy & Communications Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -1109,6 +1117,10 @@
   bio:
     birthday: '1952-07-21'
     gender: M
+  leadership_roles:
+  - title: Senate Republican Conference Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2007-06-25'
@@ -1411,15 +1423,15 @@
     birthday: '1952-02-02'
     gender: M
   leadership_roles:
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
@@ -1492,34 +1504,37 @@
     birthday: '1944-11-21'
     gender: M
   leadership_roles:
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2005-01-04'
     end: '2007-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2007-01-04'
     end: '2009-01-06'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2009-01-06'
     end: '2011-01-05'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Minority Whip
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1879,30 +1894,33 @@
     birthday: '1942-02-20'
     gender: M
   leadership_roles:
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2007-01-04'
     end: '2009-01-06'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2009-01-06'
     end: '2011-01-05'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Majority Leader
+  - title: Senate Majority Leader
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Majority Leader
+  - title: Senate Majority Leader
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -3815,6 +3833,10 @@
   bio:
     birthday: '1950-01-10'
     gender: M
+  leadership_roles:
+  - title: Senate Republican Policy Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -5987,6 +6009,10 @@
   bio:
     birthday: '1940-07-21'
     gender: M
+  leadership_roles:
+  - title: House Majority Whip
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1993-01-05'
@@ -10064,6 +10090,10 @@
     last: Grassley
     nickname: Chuck
     official_full: Chuck Grassley
+  leadership_roles:
+  - title: President Pro Tempore of the Senate
+    chamber: senate
+    start: '2019-01-03'
   bio:
     birthday: '1933-09-17'
     gender: M
@@ -11573,30 +11603,33 @@
     birthday: '1939-06-14'
     gender: M
   leadership_roles:
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2003-01-07'
     end: '2005-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2005-01-04'
     end: '2007-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Majority Leader
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -15502,6 +15535,10 @@
   bio:
     gender: M
     birthday: '1972-06-07'
+  leadership_roles:
+  - title: Assistant Speaker of the House
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2009-01-06'
@@ -16263,26 +16300,29 @@
     birthday: '1965-01-26'
     gender: M
   leadership_roles:
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2013-01-03'
     end: '2014-07-31'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Minority Leader
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2007-01-04'
@@ -17711,6 +17751,10 @@
   bio:
     birthday: '1950-10-11'
     gender: F
+  leadership_roles:
+  - title: Assistant Senate Minority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '1993-01-05'
@@ -19001,22 +19045,25 @@
     birthday: '1940-03-26'
     gender: F
   leadership_roles:
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Speaker of the House
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -21447,18 +21494,21 @@
     birthday: '1965-10-06'
     gender: M
   leadership_roles:
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Minority Whip
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2008-05-07'
@@ -21902,10 +21952,13 @@
     birthday: '1950-11-23'
     gender: M
   leadership_roles:
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Minority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -24767,6 +24820,10 @@
   bio:
     birthday: '1961-01-07'
     gender: M
+  leadership_roles:
+  - title: Assistant Senate Majority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -30630,6 +30687,10 @@
   bio:
     gender: M
     birthday: '1970-08-04'
+  leadership_roles:
+  - title: House Democratic Caucus Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2013-01-03'
@@ -32558,6 +32619,10 @@
   bio:
     gender: M
     birthday: '1954-05-14'
+  leadership_roles:
+  - title: House Republican Policy Committee Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2015-01-06'
@@ -34634,6 +34699,10 @@
   bio:
     gender: F
     birthday: '1970-07-01'
+  leadership_roles:
+  - title: Senate Republican Conference Vice Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2015-01-06'
@@ -37108,6 +37177,10 @@
   bio:
     gender: F
     birthday: '1966-07-28'
+  leadership_roles:
+  - title: House Republican Conference Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2017-01-03'
