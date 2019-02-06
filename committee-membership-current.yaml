@@ -10218,51 +10218,71 @@ JSEC:
   title: Vice Chairman
   bioguide: L000577
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tom Cotton
   party: majority
   rank: 2
   bioguide: C001095
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ben Sasse
   party: majority
   rank: 3
   bioguide: S001197
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rob Portman
   party: majority
   rank: 4
   bioguide: P000449
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ted Cruz
   party: majority
   rank: 5
   bioguide: C001098
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Bill Cassidy
   party: majority
   rank: 6
   bioguide: C001075
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Martin Heinrich
   party: minority
   rank: 1
   bioguide: H001046
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Amy Klobuchar
   party: minority
   rank: 2
   bioguide: K000367
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Gary C. Peters
   party: minority
   rank: 3
   bioguide: P000595
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Margaret Wood Hassan
   party: minority
   rank: 4
   bioguide: H001076
   chamber: senate
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 JSLC:
 - name: Roy Blunt
   party: majority
@@ -10339,255 +10359,370 @@ JSTX:
   bioguide: S000770
   chamber: senate
 SCNC:
-- name: Chuck Grassley
+- name: John Cornyn
   party: majority
   rank: 1
   title: Chairman
-  bioguide: G000386
-- name: John Cornyn
+  bioguide: C001056
+- name: Chuck Grassley
   party: majority
   rank: 2
-  bioguide: C001056
+  bioguide: G000386
 - name: James E. Risch
   party: majority
   rank: 3
   bioguide: R000584
+- name: David Perdue
+  party: majority
+  rank: 4
+  bioguide: P000612
 - name: Dianne Feinstein
   party: minority
   rank: 1
+  title: Vice Chairman
   bioguide: F000062
 - name: Sheldon Whitehouse
   party: minority
   rank: 2
   bioguide: W000802
+- name: Jacky Rosen
+  party: minority
+  rank: 3
+  bioguide: R000608
 SLET:
 - name: Johnny Isakson
   party: majority
   rank: 1
   title: Chairman
   bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Pat Roberts
   party: majority
   rank: 2
   bioguide: R000307
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James E. Risch
   party: majority
   rank: 3
   bioguide: R000584
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Christopher A. Coons
   party: minority
   rank: 1
   title: Vice Chairman
   bioguide: C001088
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Brian Schatz
   party: minority
   rank: 2
   bioguide: S001194
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jeanne Shaheen
   party: minority
   rank: 3
   bioguide: S001181
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SLIA:
 - name: John Hoeven
   party: majority
   rank: 1
   title: Chairman
   bioguide: H001061
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Barrasso
   party: majority
   rank: 2
   bioguide: B001261
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Lisa Murkowski
   party: majority
   rank: 3
   bioguide: M001153
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James Lankford
   party: majority
   rank: 4
   bioguide: L000575
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Steve Daines
   party: majority
   rank: 5
   bioguide: D000618
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Martha McSally
   party: majority
   rank: 6
   bioguide: M001197
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Jerry Moran
   party: majority
   rank: 7
   bioguide: M000934
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tom Udall
   party: minority
   rank: 1
   title: Vice Chairman
   bioguide: U000039
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Maria Cantwell
   party: minority
   rank: 2
   bioguide: C000127
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jon Tester
   party: minority
   rank: 3
   bioguide: T000464
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Brian Schatz
   party: minority
   rank: 4
   bioguide: S001194
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Catherine Cortez Masto
   party: minority
   rank: 6
   bioguide: C001113
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tina Smith
   party: minority
   rank: 7
   bioguide: S001203
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SLIN:
 - name: Richard Burr
   party: majority
   rank: 1
   title: Chairman
   bioguide: B001135
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James E. Risch
   party: majority
   rank: 2
   bioguide: R000584
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Marco Rubio
   party: majority
   rank: 3
   bioguide: R000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Susan M. Collins
   party: majority
   rank: 4
   bioguide: C001035
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Roy Blunt
   party: majority
   rank: 5
   bioguide: B000575
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tom Cotton
   party: majority
   rank: 6
   bioguide: C001095
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Cornyn
   party: majority
   rank: 7
   bioguide: C001056
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ben Sasse
   party: majority
   rank: 8
   bioguide: S001197
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mitch McConnell
   party: majority
   rank: 9
   title: Ex Officio
   bioguide: M000355
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James M. Inhofe
   party: majority
   rank: 10
   title: Ex Officio
   bioguide: I000024
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mark R. Warner
   party: minority
   rank: 1
   title: Vice Chairman
   bioguide: W000805
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Dianne Feinstein
   party: minority
   rank: 2
   bioguide: F000062
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Ron Wyden
   party: minority
   rank: 3
   bioguide: W000779
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Martin Heinrich
   party: minority
   rank: 4
   bioguide: H001046
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Angus S. King, Jr.
   party: minority
   rank: 5
   bioguide: K000383
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kamala D. Harris
   party: minority
   rank: 6
   bioguide: H001075
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Michael F. Bennet
   party: minority
   rank: 7
   bioguide: B001267
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Charles E. Schumer
   party: minority
   rank: 8
   title: Ex Officio
   bioguide: S000148
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jack Reed
   party: minority
   rank: 9
   title: Ex Officio
   bioguide: R000122
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SPAG:
 - name: Susan M. Collins
   party: majority
   rank: 1
   title: Chairman
   bioguide: C001035
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tim Scott
   party: majority
   rank: 2
   bioguide: S001184
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Richard Burr
   party: majority
   rank: 3
   bioguide: B001135
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Martha McSally
   party: majority
   rank: 4
   bioguide: M001197
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Marco Rubio
   party: majority
   rank: 5
   bioguide: R000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Josh Hawley
   party: majority
   rank: 6
   bioguide: H001089
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Braun
   party: majority
   rank: 7
   bioguide: B001310
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rick Scott
   party: majority
   rank: 8
   bioguide: S001217
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C001070
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kirsten E. Gillibrand
   party: minority
   rank: 2
   bioguide: G000555
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Richard Blumenthal
   party: minority
   rank: 3
   bioguide: B001277
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Elizabeth Warren
   party: minority
   rank: 4
   bioguide: W000817
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Doug Jones
   party: minority
   rank: 5
   bioguide: J000300
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kyrsten Sinema
   party: minority
   rank: 6
   bioguide: S001191
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jacky Rosen
   party: minority
   rank: 7
   bioguide: R000608
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSAF:
 - name: Pat Roberts
   party: majority
@@ -14062,1100 +14197,1407 @@ SSEG01:
   rank: 1
   title: Chairman
   bioguide: C001075
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: James E. Risch
   party: majority
   rank: 2
   bioguide: R000584
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Mike Lee
   party: majority
   rank: 3
   bioguide: L000577
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Steve Daines
   party: majority
   rank: 4
   bioguide: D000618
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cory Gardner
   party: majority
   rank: 5
   bioguide: G000562
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cindy Hyde-Smith
   party: majority
   rank: 6
   bioguide: H001079
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martha McSally
   party: majority
   rank: 7
   bioguide: M001197
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lamar Alexander
   party: majority
   rank: 8
   bioguide: A000360
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Hoeven
   party: majority
   rank: 9
   bioguide: H001061
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lisa Murkowski
   party: majority
   rank: 10
   title: Ex Officio
   bioguide: M001153
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martin Heinrich
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: H001046
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Ron Wyden
   party: minority
   rank: 2
   bioguide: W000779
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Maria Cantwell
   party: minority
   rank: 3
   bioguide: C000127
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Bernard Sanders
   party: minority
   rank: 4
   bioguide: S000033
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Debbie Stabenow
   party: minority
   rank: 5
   bioguide: S000770
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Mazie K. Hirono
   party: minority
   rank: 6
   bioguide: H001042
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Angus S. King, Jr.
   party: minority
   rank: 7
   bioguide: K000383
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Catherine Cortez Masto
   party: minority
   rank: 8
   bioguide: C001113
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Joe Manchin, III
   party: minority
   rank: 9
   bioguide: M001183
   title: Ex Officio
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 SSEG03:
 - name: Mike Lee
   party: majority
   rank: 1
   title: Chairman
   bioguide: L000577
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Barrasso
   party: majority
   rank: 2
   bioguide: B001261
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: James E. Risch
   party: majority
   rank: 3
   bioguide: R000584
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Steve Daines
   party: majority
   rank: 5
   bioguide: D000618
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Bill Cassidy
   party: majority
   rank: 6
   bioguide: C001075
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cory Gardner
   party: majority
   rank: 7
   bioguide: G000562
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cindy Hyde-Smith
   party: majority
   rank: 8
   bioguide: H001079
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martha McSally
   party: majority
   rank: 9
   bioguide: M001197
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Hoeven
   party: majority
   rank: 10
   bioguide: H001061
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lisa Murkowski
   party: majority
   rank: 11
   title: Ex Officio
   bioguide: M001153
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Ron Wyden
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: W000779
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Maria Cantwell
   party: minority
   rank: 2
   bioguide: C000127
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Debbie Stabenow
   party: minority
   rank: 3
   bioguide: S000770
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martin Heinrich
   party: minority
   rank: 4
   bioguide: H001046
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Mazie K. Hirono
   party: minority
   rank: 5
   bioguide: H001042
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Angus S. King, Jr.
   party: minority
   rank: 6
   bioguide: K000383
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Catherine Cortez Masto
   party: minority
   rank: 7
   bioguide: C001113
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Joe Manchin, III
   party: minority
   rank: 8
   bioguide: M001183
   title: Ex Officio
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 SSEG04:
 - name: Steve Daines
   party: majority
   rank: 1
   title: Chairman
   bioguide: D000618
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Barrasso
   party: majority
   rank: 2
   bioguide: B001261
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Mike Lee
   party: majority
   rank: 3
   bioguide: L000577
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cory Gardner
   party: majority
   rank: 4
   bioguide: G000562
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cindy Hyde-Smith
   party: majority
   rank: 5
   bioguide: H001079
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lamar Alexander
   party: majority
   rank: 6
   bioguide: A000360
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Hoeven
   party: majority
   rank: 7
   bioguide: H001061
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lisa Murkowski
   party: majority
   rank: 8
   title: Ex Officio
   bioguide: M001153
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Angus S. King, Jr.
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: K000383
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Bernard Sanders
   party: minority
   rank: 2
   bioguide: S000033
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Debbie Stabenow
   party: minority
   rank: 3
   bioguide: S000770
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martin Heinrich
   party: minority
   rank: 4
   bioguide: H001046
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Mazie K. Hirono
   party: minority
   rank: 5
   bioguide: H001042
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Joe Manchin, III
   party: minority
   rank: 6
   bioguide: M001183
   title: Ex Officio
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 SSEG07:
+- name: Martha McSally
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001197
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Barrasso
   party: majority
   rank: 2
   bioguide: B001261
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: James E. Risch
   party: majority
   rank: 3
   bioguide: R000584
-- name: Mike Lee
-  party: majority
-  rank: 4
-  bioguide: L000577
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Bill Cassidy
   party: majority
-  rank: 5
+  rank: 4
   bioguide: C001075
-- name: Rob Portman
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
+- name: Cory Gardner
+  party: majority
+  rank: 5
+  bioguide: G000562
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
+- name: Lamar Alexander
   party: majority
   rank: 6
-  bioguide: P000449
-- name: Shelley Moore Capito
-  party: majority
-  rank: 7
-  bioguide: C001047
+  bioguide: A000360
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lisa Murkowski
   party: majority
-  rank: 8
+  rank: 7
   title: Ex Officio
   bioguide: M001153
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Catherine Cortez Masto
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C001113
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Ron Wyden
   party: minority
   rank: 2
   bioguide: W000779
-- name: Bernard Sanders
-  party: minority
-  rank: 3
-  bioguide: S000033
-- name: Joe Manchin, III
-  party: minority
-  rank: 4
-  bioguide: M001183
-- name: Tammy Duckworth
-  party: minority
-  rank: 5
-  bioguide: D000622
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Maria Cantwell
   party: minority
-  rank: 6
-  title: Ex Officio
+  rank: 3
   bioguide: C000127
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
+- name: Bernard Sanders
+  party: minority
+  rank: 4
+  bioguide: S000033
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
+- name: Joe Manchin, III
+  party: minority
+  rank: 5
+  bioguide: M001183
+  title: Ex Officio
+  start_date: '2019-02-05'
+  source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 SSEV:
 - name: John Barrasso
   party: majority
   rank: 1
   title: Chairman
   bioguide: B001261
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James M. Inhofe
   party: majority
   rank: 2
   bioguide: I000024
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Shelley Moore Capito
   party: majority
   rank: 3
   bioguide: C001047
-- name: John Boozman
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Kevin Cramer
   party: majority
   rank: 4
-  bioguide: B001236
-- name: Roger F. Wicker
+  bioguide: C001096
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mike Braun
   party: majority
   rank: 5
-  bioguide: W000437
-- name: Deb Fischer
-  party: majority
-  rank: 6
-  bioguide: F000463
-- name: Jerry Moran
-  party: majority
-  rank: 7
-  bioguide: M000934
+  bioguide: B001310
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Rounds
   party: majority
-  rank: 8
+  rank: 6
   bioguide: R000605
-- name: Joni Ernst
-  party: majority
-  rank: 9
-  bioguide: E000295
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Dan Sullivan
   party: majority
-  rank: 10
+  rank: 7
   bioguide: S001198
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: John Boozman
+  party: majority
+  rank: 8
+  bioguide: B001236
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Roger F. Wicker
+  party: majority
+  rank: 9
+  bioguide: W000437
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Richard C. Shelby
   party: majority
-  rank: 11
+  rank: 10
   bioguide: S000320
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Joni Ernst
+  party: majority
+  rank: 11
+  bioguide: E000295
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Thomas R. Carper
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C000174
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Benjamin L. Cardin
   party: minority
   rank: 2
   bioguide: C000141
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Bernard Sanders
   party: minority
   rank: 3
   bioguide: S000033
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Sheldon Whitehouse
   party: minority
   rank: 4
   bioguide: W000802
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jeff Merkley
   party: minority
   rank: 5
   bioguide: M001176
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kirsten E. Gillibrand
   party: minority
   rank: 6
   bioguide: G000555
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Cory A. Booker
   party: minority
   rank: 7
   bioguide: B001288
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Edward J. Markey
   party: minority
   rank: 8
   bioguide: M000133
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tammy Duckworth
   party: minority
   rank: 9
   bioguide: D000622
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Chris Van Hollen
   party: minority
   rank: 10
   bioguide: V000128
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSEV08:
-- name: James M. Inhofe
+- name: Shelley Moore Capito
   party: majority
   rank: 1
   title: Chairman
-  bioguide: I000024
-- name: Shelley Moore Capito
-  party: majority
-  rank: 2
   bioguide: C001047
-- name: John Boozman
-  party: majority
-  rank: 3
-  bioguide: B001236
-- name: Roger F. Wicker
-  party: majority
-  rank: 4
-  bioguide: W000437
-- name: Deb Fischer
-  party: majority
-  rank: 5
-  bioguide: F000463
-- name: Jerry Moran
-  party: majority
-  rank: 6
-  bioguide: M000934
-- name: Joni Ernst
-  party: majority
-  rank: 7
-  bioguide: E000295
-- name: Dan Sullivan
-  party: majority
-  rank: 8
-  bioguide: S001198
-- name: Richard C. Shelby
-  party: majority
-  rank: 9
-  bioguide: S000320
-- name: John Barrasso
-  party: majority
-  rank: 10
-  title: Ex Officio
-  bioguide: B001261
-- name: Benjamin L. Cardin
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: C000141
-- name: Bernard Sanders
-  party: minority
-  rank: 2
-  bioguide: S000033
-- name: Sheldon Whitehouse
-  party: minority
-  rank: 3
-  bioguide: W000802
-- name: Jeff Merkley
-  party: minority
-  rank: 4
-  bioguide: M001176
-- name: Kirsten E. Gillibrand
-  party: minority
-  rank: 5
-  bioguide: G000555
-- name: Edward J. Markey
-  party: minority
-  rank: 6
-  bioguide: M000133
-- name: Tammy Duckworth
-  party: minority
-  rank: 7
-  bioguide: D000622
-- name: Cory A. Booker
-  party: minority
-  rank: 8
-  bioguide: B001288
-- name: Thomas R. Carper
-  party: minority
-  rank: 9
-  title: Ex Officio
-  bioguide: C000174
+  start_date: '2019-01-28'
+  source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
 SSEV09:
 - name: Mike Rounds
   party: majority
   rank: 1
   title: Chairman
   bioguide: R000605
-- name: Jerry Moran
-  party: majority
-  rank: 2
-  bioguide: M000934
-- name: Joni Ernst
-  party: majority
-  rank: 3
-  bioguide: E000295
-- name: Dan Sullivan
-  party: majority
-  rank: 4
-  bioguide: S001198
-- name: John Barrasso
-  party: majority
-  rank: 5
-  title: Ex Officio
-  bioguide: B001261
-- name: Cory A. Booker
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001288
-- name: Bernard Sanders
-  party: minority
-  rank: 2
-  bioguide: S000033
-- name: Chris Van Hollen
-  party: minority
-  rank: 3
-  bioguide: V000128
-- name: Thomas R. Carper
-  party: minority
-  rank: 4
-  title: Ex Officio
-  bioguide: C000174
+  start_date: '2019-01-28'
+  source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
 SSEV10:
-- name: Shelley Moore Capito
+- name: Mike Braun
   party: majority
   rank: 1
   title: Chairman
-  bioguide: C001047
-- name: James M. Inhofe
-  party: majority
-  rank: 2
-  bioguide: I000024
-- name: John Boozman
-  party: majority
-  rank: 3
-  bioguide: B001236
-- name: Roger F. Wicker
-  party: majority
-  rank: 4
-  bioguide: W000437
-- name: Deb Fischer
-  party: majority
-  rank: 5
-  bioguide: F000463
-- name: Jerry Moran
-  party: majority
-  rank: 6
-  bioguide: M000934
-- name: Joni Ernst
-  party: majority
-  rank: 7
-  bioguide: E000295
-- name: Richard C. Shelby
-  party: majority
-  rank: 8
-  bioguide: S000320
-- name: John Barrasso
-  party: majority
-  rank: 9
-  title: Ex Officio
-  bioguide: B001261
-- name: Sheldon Whitehouse
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: W000802
-- name: Benjamin L. Cardin
-  party: minority
-  rank: 2
-  bioguide: C000141
-- name: Bernard Sanders
-  party: minority
-  rank: 3
-  bioguide: S000033
-- name: Jeff Merkley
-  party: minority
-  rank: 4
-  bioguide: M001176
-- name: Kirsten E. Gillibrand
-  party: minority
-  rank: 5
-  bioguide: G000555
-- name: Edward J. Markey
-  party: minority
-  rank: 6
-  bioguide: M000133
-- name: Tammy Duckworth
-  party: minority
-  rank: 7
-  bioguide: D000622
-- name: Thomas R. Carper
-  party: minority
-  rank: 8
-  title: Ex Officio
-  bioguide: C000174
+  bioguide: B001310
+  start_date: '2019-01-28'
+  source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
 SSEV15:
-- name: John Boozman
+- name: Kevin Cramer
   party: majority
   rank: 1
   title: Chairman
-  bioguide: B001236
-- name: James M. Inhofe
-  party: majority
-  rank: 2
-  bioguide: I000024
-- name: Shelley Moore Capito
-  party: majority
-  rank: 3
-  bioguide: C001047
-- name: Roger F. Wicker
-  party: majority
-  rank: 4
-  bioguide: W000437
-- name: Deb Fischer
-  party: majority
-  rank: 5
-  bioguide: F000463
-- name: Mike Rounds
-  party: majority
-  rank: 6
-  bioguide: R000605
-- name: Dan Sullivan
-  party: majority
-  rank: 7
-  bioguide: S001198
-- name: Richard C. Shelby
-  party: majority
-  rank: 8
-  bioguide: S000320
-- name: John Barrasso
-  party: majority
-  rank: 9
-  title: Ex Officio
-  bioguide: B001261
-- name: Tammy Duckworth
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: D000622
-- name: Benjamin L. Cardin
-  party: minority
-  rank: 2
-  bioguide: C000141
-- name: Sheldon Whitehouse
-  party: minority
-  rank: 3
-  title: Ranking Member
-  bioguide: W000802
-- name: Jeff Merkley
-  party: minority
-  rank: 4
-  bioguide: M001176
-- name: Kirsten E. Gillibrand
-  party: minority
-  rank: 5
-  bioguide: G000555
-- name: Edward J. Markey
-  party: minority
-  rank: 6
-  bioguide: M000133
-- name: Chris Van Hollen
-  party: minority
-  rank: 7
-  bioguide: V000128
-- name: Thomas R. Carper
-  party: minority
-  rank: 8
-  title: Ex Officio
-  bioguide: C000174
+  bioguide: C001096
+  start_date: '2019-01-28'
+  source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
 SSFI:
 - name: Chuck Grassley
   party: majority
-  rank: 2
+  rank: 1
+  title: Chairman
   bioguide: G000386
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Crapo
   party: majority
-  rank: 3
+  rank: 2
   bioguide: C000880
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Pat Roberts
   party: majority
-  rank: 4
+  rank: 3
   bioguide: R000307
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Michael B. Enzi
   party: majority
-  rank: 5
+  rank: 4
   bioguide: E000285
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Cornyn
   party: majority
-  rank: 6
+  rank: 5
   bioguide: C001056
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Thune
   party: majority
-  rank: 7
+  rank: 6
   bioguide: T000250
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Richard Burr
   party: majority
-  rank: 8
+  rank: 7
   bioguide: B001135
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Johnny Isakson
   party: majority
-  rank: 9
+  rank: 8
   bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rob Portman
   party: majority
-  rank: 10
+  rank: 9
   bioguide: P000449
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Patrick J. Toomey
   party: majority
-  rank: 11
+  rank: 10
   bioguide: T000461
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tim Scott
   party: majority
-  rank: 13
+  rank: 11
   bioguide: S001184
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Bill Cassidy
   party: majority
-  rank: 14
+  rank: 12
   bioguide: C001075
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: James Lankford
+  party: majority
+  rank: 13
+  bioguide: L000575
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Steve Daines
+  party: majority
+  rank: 14
+  bioguide: D000618
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Todd Young
+  party: majority
+  rank: 15
+  bioguide: Y000064
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ron Wyden
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: W000779
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Debbie Stabenow
   party: minority
   rank: 2
   bioguide: S000770
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Maria Cantwell
   party: minority
   rank: 3
   bioguide: C000127
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Robert Menendez
   party: minority
-  rank: 5
+  rank: 4
   bioguide: M000639
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Thomas R. Carper
   party: minority
-  rank: 6
+  rank: 5
   bioguide: C000174
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Benjamin L. Cardin
   party: minority
-  rank: 7
+  rank: 6
   bioguide: C000141
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Sherrod Brown
   party: minority
-  rank: 8
+  rank: 7
   bioguide: B000944
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Michael F. Bennet
   party: minority
-  rank: 9
+  rank: 8
   bioguide: B001267
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Robert P. Casey, Jr.
   party: minority
-  rank: 10
+  rank: 9
   bioguide: C001070
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Mark R. Warner
   party: minority
-  rank: 11
+  rank: 10
   bioguide: W000805
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Sheldon Whitehouse
   party: minority
-  rank: 13
+  rank: 11
   bioguide: W000802
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 12
+  bioguide: H001076
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 13
+  bioguide: C001113
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSFI02:
-- name: Bill Cassidy
+- name: Rob Portman
   party: majority
   rank: 1
   title: Chairman
-  bioguide: C001075
-- name: Rob Portman
+  bioguide: P000449
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Chuck Grassley
   party: majority
   rank: 2
-  bioguide: P000449
-- name: Mike Crapo
+  bioguide: G000386
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Bill Cassidy
   party: majority
   rank: 3
-  bioguide: C000880
-- name: Patrick J. Toomey
+  bioguide: C001075
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: James Lankford
   party: majority
   rank: 4
-  bioguide: T000461
+  bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Todd Young
+  party: majority
+  rank: 5
+  bioguide: Y000064
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Sherrod Brown
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: B000944
-- name: Robert P. Casey, Jr.
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Michael F. Bennet
   party: minority
   rank: 2
-  bioguide: C001070
-- name: Ron Wyden
+  bioguide: B001267
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Robert P. Casey, Jr.
   party: minority
   rank: 3
+  bioguide: C001070
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 4
+  bioguide: C001113
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Ron Wyden
+  party: minority
+  rank: 5
   title: Ex Officio
   bioguide: W000779
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 SSFI10:
 - name: Patrick J. Toomey
   party: majority
   rank: 1
   title: Chairman
   bioguide: T000461
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Chuck Grassley
   party: majority
   rank: 2
   bioguide: G000386
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Pat Roberts
   party: majority
   rank: 3
   bioguide: R000307
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Michael B. Enzi
   party: majority
   rank: 4
   bioguide: E000285
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: John Thune
   party: majority
   rank: 5
   bioguide: T000250
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Richard Burr
   party: majority
   rank: 6
   bioguide: B001135
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Johnny Isakson
   party: majority
   rank: 7
   bioguide: I000055
-- name: Rob Portman
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Tim Scott
   party: majority
   rank: 8
-  bioguide: P000449
+  bioguide: S001184
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Bill Cassidy
   party: majority
-  rank: 10
+  rank: 9
   bioguide: C001075
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: James Lankford
+  party: majority
+  rank: 10
+  bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Steve Daines
+  party: majority
+  rank: 11
+  bioguide: D000618
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Todd Young
+  party: majority
+  rank: 12
+  bioguide: Y000064
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Debbie Stabenow
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: S000770
-- name: Robert Menendez
-  party: minority
-  rank: 2
-  bioguide: M000639
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Maria Cantwell
   party: minority
-  rank: 3
+  rank: 2
   bioguide: C000127
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Robert Menendez
+  party: minority
+  rank: 3
+  bioguide: M000639
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Thomas R. Carper
   party: minority
   rank: 4
   bioguide: C000174
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Benjamin L. Cardin
   party: minority
   rank: 5
   bioguide: C000141
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Sherrod Brown
   party: minority
   rank: 6
   bioguide: B000944
-- name: Mark R. Warner
-  party: minority
-  rank: 7
-  bioguide: W000805
-- name: Ron Wyden
-  party: minority
-  rank: 8
-  bioguide: W000779
-- name: Sheldon Whitehouse
-  party: minority
-  rank: 9
-  bioguide: W000802
-SSFI11:
-- name: Rob Portman
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: P000449
-- name: Mike Crapo
-  party: majority
-  rank: 2
-  bioguide: C000880
-- name: Pat Roberts
-  party: majority
-  rank: 3
-  bioguide: R000307
-- name: Michael B. Enzi
-  party: majority
-  rank: 4
-  bioguide: E000285
-- name: John Cornyn
-  party: majority
-  rank: 5
-  bioguide: C001056
-- name: John Thune
-  party: majority
-  rank: 6
-  bioguide: T000250
-- name: Richard Burr
-  party: majority
-  rank: 7
-  bioguide: B001135
-- name: Johnny Isakson
-  party: majority
-  rank: 8
-  bioguide: I000055
-- name: Patrick J. Toomey
-  party: majority
-  rank: 9
-  bioguide: T000461
-- name: Tim Scott
-  party: majority
-  rank: 10
-  bioguide: S001184
-- name: Mark R. Warner
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: W000805
-- name: Thomas R. Carper
-  party: minority
-  rank: 2
-  bioguide: C000174
-- name: Benjamin L. Cardin
-  party: minority
-  rank: 3
-  bioguide: C000141
-- name: Robert Menendez
-  party: minority
-  rank: 5
-  bioguide: M000639
-- name: Michael F. Bennet
-  party: minority
-  rank: 6
-  bioguide: B001267
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 7
   bioguide: C001070
-- name: Maria Cantwell
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Mark R. Warner
   party: minority
   rank: 8
-  bioguide: C000127
+  bioguide: W000805
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Sheldon Whitehouse
   party: minority
   rank: 9
   bioguide: W000802
-- name: Ron Wyden
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Margaret Wood Hassan
   party: minority
   rank: 10
+  bioguide: H001076
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 11
+  bioguide: C001113
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+SSFI11:
+- name: John Thune
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: T000250
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Mike Crapo
+  party: majority
+  rank: 2
+  bioguide: C000880
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Michael B. Enzi
+  party: majority
+  rank: 3
+  bioguide: E000285
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: John Cornyn
+  party: majority
+  rank: 4
+  bioguide: C001056
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Richard Burr
+  party: majority
+  rank: 5
+  bioguide: B001135
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Johnny Isakson
+  party: majority
+  rank: 6
+  bioguide: I000055
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Rob Portman
+  party: majority
+  rank: 7
+  bioguide: P000449
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Patrick J. Toomey
+  party: majority
+  rank: 8
+  bioguide: T000461
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Mark R. Warner
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000805
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Robert Menendez
+  party: minority
+  rank: 2
+  bioguide: M000639
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Thomas R. Carper
+  party: minority
+  rank: 3
+  bioguide: C000174
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Benjamin L. Cardin
+  party: minority
+  rank: 4
+  bioguide: C000141
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Michael F. Bennet
+  party: minority
+  rank: 5
+  bioguide: B001267
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 6
+  bioguide: W000802
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Ron Wyden
+  party: minority
+  rank: 7
   title: Ex Officio
   bioguide: W000779
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 SSFI12:
+- name: Tim Scott
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: S001184
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Chuck Grassley
   party: majority
   rank: 2
   bioguide: G000386
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Mike Crapo
   party: majority
   rank: 3
   bioguide: C000880
-- name: Michael B. Enzi
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Pat Roberts
   party: majority
   rank: 4
-  bioguide: E000285
-- name: John Cornyn
+  bioguide: R000307
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Michael B. Enzi
   party: majority
   rank: 5
-  bioguide: C001056
-- name: Richard Burr
+  bioguide: E000285
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: John Cornyn
   party: majority
   rank: 6
-  bioguide: B001135
-- name: Tim Scott
+  bioguide: C001056
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Richard Burr
   party: majority
   rank: 7
-  bioguide: S001184
-- name: Bill Cassidy
+  bioguide: B001135
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Steve Daines
   party: majority
   rank: 8
-  bioguide: C001075
+  bioguide: D000618
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Michael F. Bennet
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: B001267
-- name: Maria Cantwell
-  party: minority
-  rank: 2
-  bioguide: C000127
-- name: Robert Menendez
-  party: minority
-  rank: 4
-  bioguide: M000639
-- name: Thomas R. Carper
-  party: minority
-  rank: 5
-  bioguide: C000174
-- name: Mark R. Warner
-  party: minority
-  rank: 6
-  bioguide: W000805
-- name: Sheldon Whitehouse
-  party: minority
-  rank: 7
-  bioguide: W000802
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Ron Wyden
   party: minority
-  rank: 8
-  title: Ex Officio
+  rank: 2
   bioguide: W000779
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Maria Cantwell
+  party: minority
+  rank: 3
+  bioguide: C000127
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Thomas R. Carper
+  party: minority
+  rank: 4
+  bioguide: C000174
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 5
+  bioguide: W000802
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 6
+  bioguide: H001076
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 SSFI13:
 - name: John Cornyn
   party: majority
   rank: 1
   title: Chairman
   bioguide: C001056
-- name: Chuck Grassley
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Mike Crapo
   party: majority
   rank: 2
-  bioguide: G000386
+  bioguide: C000880
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Pat Roberts
   party: majority
   rank: 3
   bioguide: R000307
-- name: Johnny Isakson
-  party: majority
-  rank: 4
-  bioguide: I000055
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: John Thune
   party: majority
-  rank: 5
+  rank: 4
   bioguide: T000250
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Johnny Isakson
+  party: majority
+  rank: 5
+  bioguide: I000055
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Rob Portman
+  party: majority
+  rank: 6
+  bioguide: P000449
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Patrick J. Toomey
+  party: majority
+  rank: 7
+  bioguide: T000461
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Tim Scott
+  party: majority
+  rank: 8
+  bioguide: S001184
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Bill Cassidy
+  party: majority
+  rank: 9
+  bioguide: C001075
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Steve Daines
+  party: majority
+  rank: 10
+  bioguide: D000618
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Todd Young
+  party: majority
+  rank: 11
+  bioguide: Y000064
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C001070
-- name: Debbie Stabenow
-  party: minority
-  rank: 2
-  bioguide: S000770
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Ron Wyden
   party: minority
-  rank: 5
-  title: Ex Officio
+  rank: 2
   bioguide: W000779
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Debbie Stabenow
+  party: minority
+  rank: 3
+  bioguide: S000770
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Maria Cantwell
+  party: minority
+  rank: 4
+  bioguide: C000127
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Robert Menendez
+  party: minority
+  rank: 5
+  bioguide: M000639
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 - name: Benjamin L. Cardin
   party: minority
   rank: 6
   bioguide: C000141
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Sherrod Brown
+  party: minority
+  rank: 7
+  bioguide: B000944
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Mark R. Warner
+  party: minority
+  rank: 8
+  bioguide: W000805
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 9
+  bioguide: C001113
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 SSFI14:
-- name: Tim Scott
+- name: Bill Cassidy
   party: majority
   rank: 1
   title: Chairman
+  bioguide: C001075
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Tim Scott
+  party: majority
+  rank: 2
   bioguide: S001184
-- name: Ron Wyden
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: James Lankford
+  party: majority
+  rank: 3
+  bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Margaret Wood Hassan
   party: minority
   rank: 1
   title: Ranking Member
+  bioguide: H001076
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Ron Wyden
+  party: minority
+  rank: 2
   bioguide: W000779
+  start_date: '2019-01-31'
+  source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
 SSFR:
 - name: James E. Risch
   party: majority
-  rank: 2
+  rank: 1
+  title: Chairman
   bioguide: R000584
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Marco Rubio
   party: majority
-  rank: 3
+  rank: 2
   bioguide: R000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ron Johnson
   party: majority
-  rank: 4
+  rank: 3
   bioguide: J000293
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Cory Gardner
   party: majority
-  rank: 6
+  rank: 4
   bioguide: G000562
-- name: Todd Young
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mitt Romney
+  party: majority
+  rank: 5
+  bioguide: R000615
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Lindsey Graham
+  party: majority
+  rank: 6
+  bioguide: G000359
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Johnny Isakson
   party: majority
   rank: 7
-  bioguide: Y000064
+  bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Barrasso
   party: majority
   rank: 8
   bioguide: B001261
-- name: Johnny Isakson
-  party: majority
-  rank: 9
-  bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rob Portman
   party: majority
-  rank: 10
+  rank: 9
   bioguide: P000449
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rand Paul
   party: majority
-  rank: 11
+  rank: 10
   bioguide: P000603
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Todd Young
+  party: majority
+  rank: 11
+  bioguide: Y000064
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Ted Cruz
+  party: majority
+  rank: 12
+  bioguide: C001098
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Robert Menendez
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: M000639
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Benjamin L. Cardin
   party: minority
   rank: 2
   bioguide: C000141
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jeanne Shaheen
   party: minority
   rank: 3
   bioguide: S001181
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Christopher A. Coons
   party: minority
   rank: 4
   bioguide: C001088
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tom Udall
   party: minority
   rank: 5
   bioguide: U000039
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Christopher Murphy
   party: minority
   rank: 6
   bioguide: M001169
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tim Kaine
   party: minority
   rank: 7
   bioguide: K000384
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Edward J. Markey
   party: minority
   rank: 8
   bioguide: M000133
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jeff Merkley
   party: minority
   rank: 9
   bioguide: M001176
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Cory A. Booker
   party: minority
   rank: 10
   bioguide: B001288
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSFR01:
 - name: Ron Johnson
   party: majority
@@ -15457,530 +15899,807 @@ SSGA:
   rank: 1
   title: Chairman
   bioguide: J000293
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rob Portman
   party: majority
   rank: 2
   bioguide: P000449
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rand Paul
   party: majority
   rank: 3
   bioguide: P000603
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James Lankford
   party: majority
   rank: 4
   bioguide: L000575
-- name: Michael B. Enzi
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mitt Romney
   party: majority
   rank: 5
-  bioguide: E000285
-- name: John Hoeven
+  bioguide: R000615
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Rick Scott
   party: majority
   rank: 6
-  bioguide: H001061
-- name: Steve Daines
+  bioguide: S001217
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Michael B. Enzi
   party: majority
   rank: 7
-  bioguide: D000618
+  bioguide: E000285
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Josh Hawley
+  party: majority
+  rank: 8
+  bioguide: H001089
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Gary C. Peters
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: P000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Thomas R. Carper
   party: minority
   rank: 2
   bioguide: C000174
-- name: Gary C. Peters
-  party: minority
-  rank: 4
-  bioguide: P000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Margaret Wood Hassan
   party: minority
-  rank: 5
+  rank: 3
   bioguide: H001076
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kamala D. Harris
   party: minority
-  rank: 6
+  rank: 4
   bioguide: H001075
-- name: Doug Jones
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Kyrsten Sinema
   party: minority
-  rank: 7
-  bioguide: J000300
+  rank: 5
+  bioguide: S001191
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Jacky Rosen
+  party: minority
+  rank: 6
+  bioguide: R000608
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSGA01:
 - name: Rob Portman
   party: majority
   rank: 1
   title: Chairman
   bioguide: P000449
-- name: James Lankford
-  party: majority
-  rank: 2
-  bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Rand Paul
   party: majority
-  rank: 3
+  rank: 2
   bioguide: P000603
-- name: Steve Daines
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: James Lankford
+  party: majority
+  rank: 3
+  bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Mitt Romney
   party: majority
   rank: 4
-  bioguide: D000618
-- name: Ron Johnson
+  bioguide: R000615
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Josh Hawley
   party: majority
   rank: 5
+  bioguide: H001089
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Ron Johnson
+  party: majority
+  rank: 6
   title: Ex Officio
   bioguide: J000293
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Thomas R. Carper
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C000174
-- name: Gary C. Peters
-  party: minority
-  rank: 3
-  bioguide: P000595
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Margaret Wood Hassan
   party: minority
-  rank: 4
+  rank: 2
   bioguide: H001076
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Kamala D. Harris
+  party: minority
+  rank: 3
+  bioguide: H001075
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Jacky Rosen
+  party: minority
+  rank: 4
+  bioguide: R000608
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Gary C. Peters
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: P000595
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSGA18:
 - name: Rand Paul
   party: majority
   rank: 1
   title: Chairman
   bioguide: P000603
-- name: James Lankford
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Rick Scott
   party: majority
   rank: 2
-  bioguide: L000575
+  bioguide: S001217
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Michael B. Enzi
   party: majority
   rank: 3
   bioguide: E000285
-- name: John Hoeven
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Josh Hawley
   party: majority
   rank: 4
-  bioguide: H001061
+  bioguide: H001089
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Ron Johnson
   party: majority
   rank: 5
   title: Ex Officio
   bioguide: J000293
-- name: Gary C. Peters
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Margaret Wood Hassan
   party: minority
   rank: 1
+  bioguide: H001076
   title: Ranking Member
-  bioguide: P000595
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Kamala D. Harris
   party: minority
   rank: 2
   bioguide: H001075
-- name: Doug Jones
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Kyrsten Sinema
   party: minority
   rank: 3
-  bioguide: J000300
+  bioguide: S001191
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Gary C. Peters
+  party: minority
+  rank: 4
+  title: Ex Officio
+  bioguide: P000595
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSGA19:
 - name: James Lankford
   party: majority
   rank: 1
   title: Chairman
   bioguide: L000575
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Rob Portman
   party: majority
   rank: 2
   bioguide: P000449
-- name: Michael B. Enzi
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Mitt Romney
   party: majority
   rank: 3
-  bioguide: E000285
-- name: Steve Daines
+  bioguide: R000615
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Rick Scott
   party: majority
   rank: 4
-  bioguide: D000618
-- name: Ron Johnson
+  bioguide: S001217
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Michael B. Enzi
   party: majority
   rank: 5
+  bioguide: E000285
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Ron Johnson
+  party: majority
+  rank: 6
   title: Ex Officio
   bioguide: J000293
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Kyrsten Sinema
+  party: minority
+  rank: 1
+  title: Ex Officio
+  bioguide: S001191
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 - name: Thomas R. Carper
   party: minority
   rank: 2
   bioguide: C000174
-- name: Margaret Wood Hassan
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Jacky Rosen
   party: minority
   rank: 3
-  bioguide: H001076
-- name: Kamala D. Harris
+  bioguide: R000608
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
+- name: Gary C. Peters
   party: minority
   rank: 4
-  bioguide: H001075
+  title: Ex Officio
+  bioguide: P000595
+  start_date: '2019-01-31'
+  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSHR:
 - name: Lamar Alexander
   party: majority
   rank: 1
   title: Chairman
   bioguide: A000360
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Michael B. Enzi
   party: majority
   rank: 2
   bioguide: E000285
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Richard Burr
   party: majority
   rank: 3
   bioguide: B001135
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Johnny Isakson
   party: majority
   rank: 4
   bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rand Paul
   party: majority
   rank: 5
   bioguide: P000603
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Susan M. Collins
   party: majority
   rank: 6
   bioguide: C001035
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Bill Cassidy
   party: majority
   rank: 7
   bioguide: C001075
-- name: Todd Young
-  party: majority
-  rank: 8
-  bioguide: Y000064
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Pat Roberts
   party: majority
-  rank: 10
+  rank: 8
   bioguide: R000307
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Lisa Murkowski
   party: majority
-  rank: 11
+  rank: 9
   bioguide: M001153
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tim Scott
   party: majority
-  rank: 12
+  rank: 10
   bioguide: S001184
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mitt Romney
+  party: majority
+  rank: 11
+  bioguide: R000615
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mike Braun
+  party: majority
+  rank: 12
+  bioguide: B001310
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Patty Murray
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: M001111
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Bernard Sanders
   party: minority
   rank: 2
   bioguide: S000033
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 3
   bioguide: C001070
-- name: Michael F. Bennet
-  party: minority
-  rank: 4
-  bioguide: B001267
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tammy Baldwin
   party: minority
-  rank: 5
+  rank: 4
   bioguide: B001230
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Christopher Murphy
   party: minority
-  rank: 6
+  rank: 5
   bioguide: M001169
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Elizabeth Warren
   party: minority
-  rank: 7
+  rank: 6
   bioguide: W000817
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tim Kaine
   party: minority
-  rank: 8
+  rank: 7
   bioguide: K000384
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Margaret Wood Hassan
   party: minority
-  rank: 9
+  rank: 8
   bioguide: H001076
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tina Smith
   party: minority
-  rank: 10
+  rank: 9
   bioguide: S001203
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Doug Jones
   party: minority
-  rank: 11
+  rank: 10
   bioguide: J000300
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Jacky Rosen
+  party: minority
+  rank: 11
+  bioguide: R000608
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSHR09:
 - name: Rand Paul
   party: majority
   rank: 1
   title: Chairman
   bioguide: P000603
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Lisa Murkowski
   party: majority
   rank: 2
   bioguide: M001153
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Richard Burr
   party: majority
   rank: 3
   bioguide: B001135
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Bill Cassidy
   party: majority
   rank: 4
   bioguide: C001075
-- name: Todd Young
-  party: majority
-  rank: 5
-  bioguide: Y000064
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Pat Roberts
   party: majority
-  rank: 7
+  rank: 5
   bioguide: R000307
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
+- name: Tim Scott
+  party: majority
+  rank: 6
+  bioguide: S001184
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
+- name: Mitt Romney
+  party: majority
+  rank: 7
+  bioguide: R000615
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Lamar Alexander
   party: majority
   rank: 8
   title: Ex Officio
   bioguide: A000360
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C001070
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Bernard Sanders
   party: minority
   rank: 2
   bioguide: S000033
-- name: Michael F. Bennet
-  party: minority
-  rank: 3
-  bioguide: B001267
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Tim Kaine
   party: minority
-  rank: 4
+  rank: 3
   bioguide: K000384
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Margaret Wood Hassan
   party: minority
-  rank: 5
+  rank: 4
   bioguide: H001076
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Tina Smith
   party: minority
-  rank: 6
+  rank: 5
   bioguide: S001203
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Patty Murray
   party: minority
-  rank: 7
+  rank: 6
   title: Ex Officio
   bioguide: M001111
+  source: https://www.help.senate.gov/about/subcommittees/children-and-families
 SSHR11:
 - name: Johnny Isakson
   party: majority
   rank: 1
   title: Chairman
   bioguide: I000055
-- name: Pat Roberts
-  party: majority
-  rank: 2
-  bioguide: R000307
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Tim Scott
   party: majority
-  rank: 3
+  rank: 2
   bioguide: S001184
-- name: Richard Burr
-  party: majority
-  rank: 4
-  bioguide: B001135
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Rand Paul
   party: majority
-  rank: 5
+  rank: 3
   bioguide: P000603
-- name: Bill Cassidy
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
+- name: Mitt Romney
+  party: majority
+  rank: 4
+  bioguide: R000615
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
+- name: Mike Braun
+  party: majority
+  rank: 5
+  bioguide: B001310
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
+- name: Richard Burr
   party: majority
   rank: 6
-  bioguide: C001075
-- name: Todd Young
+  bioguide: B001135
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
+- name: Bill Cassidy
   party: majority
   rank: 7
-  bioguide: Y000064
+  bioguide: C001075
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Lamar Alexander
   party: majority
   rank: 8
   title: Ex Officio
   bioguide: A000360
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Tammy Baldwin
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: B001230
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Robert P. Casey, Jr.
   party: minority
   rank: 2
   bioguide: C001070
-- name: Christopher Murphy
-  party: minority
-  rank: 3
-  bioguide: M001169
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Elizabeth Warren
   party: minority
-  rank: 4
+  rank: 3
   bioguide: W000817
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Tina Smith
   party: minority
-  rank: 5
+  rank: 4
   bioguide: S001203
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Doug Jones
   party: minority
-  rank: 6
+  rank: 5
   bioguide: J000300
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
+- name: Jacky Rosen
+  party: minority
+  rank: 6
+  bioguide: R000608
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 - name: Patty Murray
   party: minority
   rank: 7
   title: Ex Officio
   bioguide: M001111
+  source: https://www.help.senate.gov/about/subcommittees/employment-and-workplace-safety
 SSHR12:
 - name: Michael B. Enzi
   party: majority
   rank: 1
   title: Chairman
   bioguide: E000285
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Richard Burr
   party: majority
   rank: 2
   bioguide: B001135
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Susan M. Collins
   party: majority
   rank: 3
   bioguide: C001035
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Bill Cassidy
   party: majority
   rank: 4
   bioguide: C001075
-- name: Todd Young
-  party: majority
-  rank: 5
-  bioguide: Y000064
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Pat Roberts
   party: majority
-  rank: 7
+  rank: 5
   bioguide: R000307
-- name: Tim Scott
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
+- name: Mitt Romney
   party: majority
-  rank: 8
-  bioguide: S001184
+  rank: 6
+  bioguide: R000615
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
+- name: Mike Braun
+  party: majority
+  rank: 7
+  bioguide: B001310
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Lisa Murkowski
   party: majority
-  rank: 9
+  rank: 8
   bioguide: M001153
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
+- name: Tim Scott
+  party: majority
+  rank: 9
+  bioguide: S001184
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Lamar Alexander
   party: majority
   rank: 10
   title: Ex Officio
   bioguide: A000360
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Bernard Sanders
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: S000033
-- name: Michael F. Bennet
-  party: minority
-  rank: 2
-  bioguide: B001267
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Tammy Baldwin
   party: minority
-  rank: 3
+  rank: 2
   bioguide: B001230
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Christopher Murphy
   party: minority
-  rank: 4
+  rank: 3
   bioguide: M001169
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Elizabeth Warren
   party: minority
-  rank: 5
+  rank: 4
   bioguide: W000817
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Tim Kaine
   party: minority
-  rank: 6
+  rank: 5
   bioguide: K000384
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Margaret Wood Hassan
   party: minority
-  rank: 7
+  rank: 6
   bioguide: H001076
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Doug Jones
   party: minority
-  rank: 8
+  rank: 7
   bioguide: J000300
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
+- name: Jacky Rosen
+  party: minority
+  rank: 8
+  bioguide: R000608
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 - name: Patty Murray
   party: minority
   rank: 9
   title: Ex Officio
   bioguide: M001111
+  source: https://www.help.senate.gov/about/subcommittees/primary-health-and-retirement-security
 SSJU:
-- name: Chuck Grassley
+- name: Lindsey Graham
   party: majority
   rank: 1
   title: Chairman
-  bioguide: G000386
-- name: Lindsey Graham
-  party: majority
-  rank: 3
   bioguide: G000359
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Chuck Grassley
+  party: majority
+  rank: 2
+  bioguide: G000386
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Cornyn
   party: majority
-  rank: 4
+  rank: 3
   bioguide: C001056
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Lee
   party: majority
-  rank: 5
+  rank: 4
   bioguide: L000577
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ted Cruz
   party: majority
-  rank: 6
+  rank: 5
   bioguide: C001098
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ben Sasse
   party: majority
-  rank: 7
+  rank: 6
   bioguide: S001197
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Josh Hawley
+  party: majority
+  rank: 7
+  bioguide: H001089
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Thom Tillis
+  party: majority
+  rank: 8
+  bioguide: T000476
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Crapo
   party: majority
   rank: 9
   bioguide: C000880
-- name: Thom Tillis
-  party: majority
-  rank: 10
-  bioguide: T000476
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Kennedy
   party: majority
-  rank: 11
+  rank: 10
   bioguide: K000393
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Marsha Blackburn
+  party: majority
+  rank: 11
+  bioguide: B001243
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Dianne Feinstein
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: F000062
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Patrick J. Leahy
   party: minority
   rank: 2
   bioguide: L000174
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Richard J. Durbin
   party: minority
   rank: 3
   bioguide: D000563
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Sheldon Whitehouse
   party: minority
   rank: 4
   bioguide: W000802
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Amy Klobuchar
   party: minority
   rank: 5
   bioguide: K000367
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Christopher A. Coons
   party: minority
   rank: 6
   bioguide: C001088
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Richard Blumenthal
   party: minority
   rank: 7
   bioguide: B001277
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Mazie K. Hirono
   party: minority
   rank: 8
   bioguide: H001042
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Cory A. Booker
   party: minority
   rank: 9
   bioguide: B001288
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Kamala D. Harris
   party: minority
   rank: 10
   bioguide: H001075
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSJU01:
 - name: Mike Lee
   party: majority
@@ -16280,210 +16999,330 @@ SSRA:
   rank: 1
   title: Chairman
   bioguide: B000575
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mitch McConnell
   party: majority
   rank: 2
   bioguide: M000355
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Lamar Alexander
   party: majority
   rank: 3
   bioguide: A000360
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Pat Roberts
   party: majority
   rank: 4
   bioguide: R000307
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Richard C. Shelby
   party: majority
   rank: 5
   bioguide: S000320
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Ted Cruz
   party: majority
   rank: 6
   bioguide: C001098
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Shelley Moore Capito
   party: majority
   rank: 7
   bioguide: C001047
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Roger F. Wicker
   party: majority
   rank: 8
   bioguide: W000437
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Deb Fischer
   party: majority
   rank: 9
   bioguide: F000463
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Cindy Hyde-Smith
   party: majority
   rank: 10
   bioguide: H001079
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Amy Klobuchar
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: K000367
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Dianne Feinstein
   party: minority
   rank: 2
   bioguide: F000062
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Charles E. Schumer
   party: minority
   rank: 3
   bioguide: S000148
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Richard J. Durbin
   party: minority
   rank: 4
   bioguide: D000563
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tom Udall
   party: minority
   rank: 5
   bioguide: U000039
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Mark R. Warner
   party: minority
   rank: 6
   bioguide: W000805
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Patrick J. Leahy
   party: minority
   rank: 7
   bioguide: L000174
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Angus S. King, Jr.
   party: minority
   rank: 8
   bioguide: K000383
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Catherine Cortez Masto
   party: minority
   rank: 9
   bioguide: C001113
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSSB:
-- name: James E. Risch
+- name: Marco Rubio
   party: majority
   rank: 1
   title: Chairman
-  bioguide: R000584
-- name: Marco Rubio
+  bioguide: R000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: James E. Risch
   party: majority
   rank: 2
-  bioguide: R000595
+  bioguide: R000584
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Rand Paul
   party: majority
   rank: 3
   bioguide: P000603
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Tim Scott
   party: majority
   rank: 4
   bioguide: S001184
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Joni Ernst
   party: majority
   rank: 5
   bioguide: E000295
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James M. Inhofe
   party: majority
   rank: 6
   bioguide: I000024
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Todd Young
   party: majority
   rank: 7
   bioguide: Y000064
-- name: Michael B. Enzi
-  party: majority
-  rank: 8
-  bioguide: E000285
-- name: Mike Rounds
-  party: majority
-  rank: 9
-  bioguide: R000605
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Kennedy
   party: majority
-  rank: 10
+  rank: 8
   bioguide: K000393
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Mitt Romney
+  party: majority
+  rank: 9
+  bioguide: R000615
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Josh Hawley
+  party: majority
+  rank: 10
+  bioguide: H001089
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Benjamin L. Cardin
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: C000141
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Maria Cantwell
   party: minority
   rank: 2
   bioguide: C000127
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Jeanne Shaheen
   party: minority
   rank: 3
   bioguide: S001181
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Edward J. Markey
   party: minority
-  rank: 5
+  rank: 4
   bioguide: M000133
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Cory A. Booker
   party: minority
-  rank: 6
+  rank: 5
   bioguide: B001288
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Christopher A. Coons
   party: minority
-  rank: 7
+  rank: 6
   bioguide: C001088
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Mazie K. Hirono
   party: minority
-  rank: 8
+  rank: 7
   bioguide: H001042
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Tammy Duckworth
   party: minority
-  rank: 9
+  rank: 8
   bioguide: D000622
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Jacky Rosen
+  party: minority
+  rank: 9
+  bioguide: R000608
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SSVA:
 - name: Johnny Isakson
   party: majority
   rank: 1
   title: Chairman
   bioguide: I000055
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Jerry Moran
   party: majority
   rank: 2
   bioguide: M000934
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: John Boozman
   party: majority
   rank: 3
   bioguide: B001236
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Bill Cassidy
   party: majority
-  rank: 5
+  rank: 4
   bioguide: C001075
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Mike Rounds
   party: majority
-  rank: 6
+  rank: 5
   bioguide: R000605
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Thom Tillis
   party: majority
-  rank: 7
+  rank: 6
   bioguide: T000476
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Dan Sullivan
   party: majority
-  rank: 8
+  rank: 7
   bioguide: S001198
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+- name: Kevin Cramer
+  party: majority
+  rank: 8
+  bioguide: C001096
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Jon Tester
   party: minority
   rank: 1
   title: Ranking Member
   bioguide: T000464
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Patty Murray
   party: minority
   rank: 2
   bioguide: M001111
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Bernard Sanders
   party: minority
   rank: 3
   bioguide: S000033
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Sherrod Brown
   party: minority
   rank: 4
   bioguide: B000944
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Richard Blumenthal
   party: minority
   rank: 5
   bioguide: B001277
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Mazie K. Hirono
   party: minority
   rank: 6
   bioguide: H001042
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 - name: Joe Manchin, III
   party: minority
   rank: 7
   bioguide: M001183
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
+- name: Kyrsten Sinema
+  party: minority
+  rank: 8
+  bioguide: S001191
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
