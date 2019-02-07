@@ -62,8 +62,8 @@ class CongressLookup:
     def inclusive_wildcard_match(self,name,pat):
         if any(c in pat for c in '*?[]'):       # a wildcard pattern
             # prepend or append a * for inclusiveness if not already there
-            if pat[0] is not '*': pat = '*' + pat
-            if pat[-1] is not '*': pat = pat + '*'
+            if pat[0] != '*': pat = '*' + pat
+            if pat[-1] != '*': pat = pat + '*'
         else:                                   # not a wildcard
             pat = '*' + pat + '*'
         return fnmatch.fnmatch(name,pat)
