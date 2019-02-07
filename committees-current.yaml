@@ -306,7 +306,10 @@
   minority_url: https://republicans-cha.house.gov/
   thomas_id: HSHA
   house_committee_id: HA
-  address: 1316 LHOB; Washington, DC 20515-6157
+  subcommittees:
+  - name: Elections
+    address: 1309 LHOB; Washington, DC 20515-6157
+  address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-2061
   jurisdiction: The Committee on House Administration has legislative jurisdiction
     over the federal elections and the day-to-day operations of the House. The Committee's

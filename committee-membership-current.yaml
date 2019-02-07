@@ -5234,6 +5234,18 @@ HSHA:
   bioguide: D000619
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/32/text
+- name: Mark Walker
+  party: minority
+  rank: 2
+  bioguide: W000819
+  start_date: '2019-02-06'
+  source: https://republicans-cha.house.gov/press-release/cha-announces-republican-members-116th-congress
+- name: Barry Loudermilk
+  party: minority
+  rank: 3
+  bioguide: L000583
+  start_date: '2019-02-06'
+  source: https://republicans-cha.house.gov/press-release/cha-announces-republican-members-116th-congress
 - name: Zoe Lofgren
   party: majority
   rank: 1
@@ -5244,6 +5256,7 @@ HSHA:
 - name: Jamie Raskin
   party: majority
   rank: 2
+  title: Vice Chair
   bioguide: R000606
   start_date: '2019-01-29'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/85/text
@@ -5271,6 +5284,33 @@ HSHA:
   bioguide: A000371
   start_date: '2019-01-29'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/85/text
+HSHA01:
+- name: Marcia L. Fudge
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: F000455
+  start: '2019-02-07'
+  source: https://docs.house.gov/meetings/HA/HA00/20190207/108886/HMTG-116-HA00-20190207-SD002.pdf
+- name: G. K. Butterfield
+  party: majority
+  rank: 2
+  bioguide: B001251
+  start: '2019-02-07'
+  source: https://docs.house.gov/meetings/HA/HA00/20190207/108886/HMTG-116-HA00-20190207-SD002.pdf
+- name: Pete Aguilar
+  party: majority
+  rank: 3
+  bioguide: A000371
+  start: '2019-02-07'
+  source: https://docs.house.gov/meetings/HA/HA00/20190207/108886/HMTG-116-HA00-20190207-SD002.pdf
+- name: Rodney Davis
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000619
+  start: '2019-02-07'
+  source: https://docs.house.gov/meetings/HA/HA00/20190207/108886/HMTG-116-HA00-20190207-SD002.pdf
 HSHM:
 - name: Mike Rogers
   party: minority
