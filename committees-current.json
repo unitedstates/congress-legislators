@@ -3,7 +3,7 @@
     "type": "house",
     "name": "House Committee on Agriculture",
     "url": "https://agriculture.house.gov/",
-    "minority_url": "https://democrats-agriculture.house.gov/",
+    "minority_url": "https://republicans-agriculture.house.gov",
     "thomas_id": "HSAG",
     "house_committee_id": "AG",
     "subcommittees": [
@@ -46,16 +46,14 @@
     ],
     "address": "1301 LHOB; Washington, DC 20515-6001",
     "phone": "(202) 225-2171",
-    "rss_url": "https://agriculture.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-agriculture.house.gov/Rss.aspx?GroupID=1",
-    "jurisdiction": "The House Committee on Agriculture has legislative jurisdiction over agriculture, food, rural development, and forestry.",
-    "jurisdiction_source": "https://agriculture.house.gov/issuesinfocus/"
+    "rss_url": "https://agriculture.house.gov/Rss.aspx?GroupID=1",
+    "jurisdiction": "The House Committee on Agriculture has legislative jurisdiction over agriculture, food, rural development, and forestry."
   },
   {
     "type": "house",
     "name": "House Committee on Appropriations",
     "url": "https://appropriations.house.gov/",
-    "minority_url": "https://democrats-appropriations.house.gov",
+    "minority_url": "https://republicans-appropriations.house.gov/",
     "thomas_id": "HSAP",
     "house_committee_id": "AP",
     "subcommittees": [
@@ -134,8 +132,6 @@
     ],
     "address": "H305 CAPITOL; Washington, DC 20515-6015",
     "phone": "(202) 225-2771",
-    "rss_url": "https://appropriations.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-appropriations.house.gov/rss.xml",
     "jurisdiction": "The House Committee on Appropriations is responsible for legislation allocating federal funds prior to expenditure from the treasury. Appropriations are generally limited to the levels set by the Budget Resolution drafted by the House Committee on the Budget. The Committee is also responsible for supplemental spending bills, which are sometimes needed in the middle of a fiscal year to compensate for emergency expenses.",
     "jurisdiction_source": "https://appropriations.house.gov/about/"
   },
@@ -143,7 +139,7 @@
     "type": "house",
     "name": "House Committee on Armed Services",
     "url": "https://armedservices.house.gov/",
-    "minority_url": "https://democrats-armedservices.house.gov/",
+    "minority_url": "https://republicans-armedservices.house.gov/",
     "thomas_id": "HSAS",
     "house_committee_id": "AS",
     "subcommittees": [
@@ -158,12 +154,6 @@
         "thomas_id": "02",
         "address": "2340 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7560"
-      },
-      {
-        "name": "Oversight and Investigations",
-        "thomas_id": "06",
-        "address": "2119 RHOB; Washington, DC 20515",
-        "phone": "(202) 226-5048"
       },
       {
         "name": "Readiness",
@@ -184,7 +174,7 @@
         "phone": "(202) 225-1967"
       },
       {
-        "name": "Emerging Threats and Capabilities",
+        "name": "Intelligence, Emerging Threats and Capabilities",
         "thomas_id": "26",
         "address": "2340 RHOB; Washington, DC 20515",
         "phone": "(202) 226-2843"
@@ -192,8 +182,6 @@
     ],
     "address": "2216 RHOB; Washington, DC 20515-6035",
     "phone": "(202) 225-4151",
-    "rss_url": "https://armedservices.house.gov/index.cfm/rss/feed",
-    "minority_rss_url": "https://democrats-armedservices.house.gov/index.cfm/rss/feed",
     "jurisdiction": "The House Committee on Armed Services has legislative jurisdiction over military and defense.",
     "jurisdiction_source": "https://armedservices.house.gov/about"
   },
@@ -201,18 +189,18 @@
     "type": "house",
     "name": "House Committee on Financial Services",
     "url": "https://financialservices.house.gov/",
-    "minority_url": "https://democrats-financialservices.house.gov/",
+    "minority_url": "https://republicans-financialservices.house.gov/",
     "thomas_id": "HSBA",
     "house_committee_id": "BA",
     "subcommittees": [
       {
-        "name": "Capital Markets, Securities, and Investment",
+        "name": "Investor Protection, Entrepreneurship, and Capital Markets",
         "thomas_id": "16",
         "address": "2129 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7502"
       },
       {
-        "name": "Financial Institutions and Consumer Credit",
+        "name": "Consumer Protection and Financial Institutions",
         "thomas_id": "15",
         "address": "2129 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7502"
@@ -224,7 +212,7 @@
         "phone": "(202) 225-7502"
       },
       {
-        "name": "Monetary Policy and Trade",
+        "name": "National Security, International Development and Monetary Policy",
         "thomas_id": "20",
         "address": "2129 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7502"
@@ -244,8 +232,6 @@
     ],
     "address": "2129 RHOB; Washington, DC 20515-6050",
     "phone": "(202) 225-7502",
-    "rss_url": "https://financialservices.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-financialservices.house.gov/news/rss.aspx",
     "jurisdiction": "The House Financial Services Committee has jurisdiction over issues pertaining to the economy, the banking system, housing, insurance, and securities and exchanges. Additionally, the Committee also has jurisdiction over monetary policy, international finance, international monetary organizations, and efforts to combat terrorist financing. The Committee oversees the Nation\u2019s economy through its oversight of the Federal Reserve Board and individual reserve banks, the Treasury, the production and distribution of currency, and the Nation\u2019s capital markets.",
     "jurisdiction_source": "https://financialservices.house.gov/about/"
   },
@@ -266,8 +252,8 @@
   {
     "type": "house",
     "name": "House Committee on Education and Labor",
-    "url": "https://edworkforce.house.gov/",
-    "minority_url": "https://democrats-edworkforce.house.gov/",
+    "url": "https://edlabor.house.gov/",
+    "minority_url": "https://republicans-edlabor.house.gov/",
     "thomas_id": "HSED",
     "house_committee_id": "ED",
     "subcommittees": [
@@ -284,7 +270,7 @@
         "phone": "(202) 225-4527"
       },
       {
-        "name": "Higher Education and Workforce Development",
+        "name": "Higher Education and Workforce Investment",
         "thomas_id": "13",
         "address": "2176 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4527"
@@ -298,8 +284,6 @@
     ],
     "address": "2176 RHOB; Washington, DC 20515-6100",
     "phone": "(202) 225-4527",
-    "rss_url": "https://edworkforce.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-edworkforce.house.gov/rss.xml",
     "jurisdiction": "The committee has legislative jurisdiction over matters related to higher and lower education, workforce development and protections, and health, employment, labor, and pensions.",
     "jurisdiction_source": "https://edworkforce.house.gov/committee/subcommitteesjurisdictions.htm"
   },
@@ -307,7 +291,7 @@
     "type": "house",
     "name": "House Committee on Foreign Affairs",
     "url": "https://foreignaffairs.house.gov/",
-    "minority_url": "https://democrats-foreignaffairs.house.gov/",
+    "minority_url": "https://republicans-foreignaffairs.house.gov/",
     "thomas_id": "HSFA",
     "house_committee_id": "FA",
     "subcommittees": [
@@ -318,31 +302,31 @@
         "phone": "(202) 226-7812"
       },
       {
-        "name": "Asia and the Pacific",
+        "name": "Asia, the Pacific, and Nonproliferation",
         "thomas_id": "05",
         "address": "5190 OHOB; Washington, DC 20515",
         "phone": "(202) 226-7825"
       },
       {
-        "name": "Europe, Eurasia, and Emerging Threats",
+        "name": "Europe, Eurasia, Energy, and the Environment",
         "thomas_id": "14",
         "address": "5210 OHOB; Washington, DC 20515",
         "phone": "(202) 226-6434"
       },
       {
-        "name": "Terrorism, Nonproliferation, and Trade",
+        "name": "Oversight and Investigations",
         "thomas_id": "18",
         "address": "5100 OHOB; Washington, DC 20515",
         "phone": "(202) 226-1500"
       },
       {
-        "name": "The Middle East and North Africa",
+        "name": "Middle East, North Africa, and International Terrorism",
         "thomas_id": "13",
         "address": "5220 OHOB; Washington, DC 20515",
         "phone": "(202) 225-3345"
       },
       {
-        "name": "The Western Hemisphere",
+        "name": "Western Hemisphere, Civilian Security, and Trade",
         "thomas_id": "07",
         "address": "5100 OHOB; Washington, DC 20515",
         "phone": "(202) 226-9980"
@@ -350,7 +334,6 @@
     ],
     "address": "2170 RHOB; Washington, DC 20515-6128",
     "phone": "(202) 225-5021",
-    "rss_url": "https://foreignaffairs.house.gov/rss.xml",
     "jurisdiction": "The House Committee on Foreign Affairs considers legislation that impacts the diplomatic community, which includes the Department of State, the Agency for International Development, the Peace Corps, the United Nations, and the enforcement of the Arms Export Control Act.",
     "jurisdiction_source": "https://foreignaffairs.house.gov/about/"
   },
@@ -358,51 +341,49 @@
     "type": "house",
     "name": "House Committee on Oversight and Reform",
     "url": "https://oversight.house.gov/",
-    "minority_url": "https://democrats-oversight.house.gov/",
+    "minority_url": "https://republicans-oversight.house.gov/",
     "thomas_id": "HSGO",
     "house_committee_id": "GO",
     "subcommittees": [
       {
         "name": "Information Technology",
         "thomas_id": "25",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
         "name": "Government Operations",
         "thomas_id": "24",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
         "name": "National Security",
         "thomas_id": "06",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
         "name": "Healthcare, Benefits, and Administrative Rules",
         "thomas_id": "27",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
-        "name": "The Interior, Energy and Environment",
+        "name": "Environment",
         "thomas_id": "28",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
         "name": "Intergovernmental Affairs",
         "thomas_id": "29",
-        "address": "2157 RHOB; Washington, DC 20515",
+        "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       }
     ],
-    "address": "2157 RHOB; Washington, DC 20515-6143",
-    "phone": "(202) 225-5074",
-    "rss_url": "https://oversight.house.gov/feed/",
-    "minority_rss_url": "https://democrats-oversight.house.gov/rss.xml",
+    "address": "2471 RHOB; Washington, DC 20515-6143",
+    "phone": "(202) 225-5051",
     "jurisdiction": "The committee oversees the federal government and all of its agencies to ensure efficiency, effectiveness, and accountability. The Committee oversees government operations, health care, information technology, interior, energy and environment, national security, and intergovernmental affairs.",
     "jurisdiction_source": "https://oversight.house.gov/about/"
   },
@@ -410,13 +391,18 @@
     "type": "house",
     "name": "House Committee on House Administration",
     "url": "https://cha.house.gov/",
-    "minority_url": "https://democrats-cha.house.gov/",
+    "minority_url": "https://republicans-cha.house.gov/",
     "thomas_id": "HSHA",
     "house_committee_id": "HA",
+    "subcommittees": [
+      {
+        "name": "Elections",
+        "thomas_id": "01",
+        "address": "1309 LHOB; Washington, DC 20515-6157"
+      }
+    ],
     "address": "1309 LHOB; Washington, DC 20515-6157",
-    "phone": "(202) 225-8281",
-    "rss_url": "https://cha.house.gov/rss.xml",
-    "minority_rss_url": "https://democrats-cha.house.gov/rss.xml",
+    "phone": "(202) 225-2061",
     "jurisdiction": "The Committee on House Administration has legislative jurisdiction over the federal elections and the day-to-day operations of the House. The Committee's jurisdiction over federal elections requires it to consider proposals to amend federal election law and to monitor congressional elections across the United States. The Committee also sets budget authorizations for expenses of other House committees and members of Congress. It also oversees several federal organizations such as the Library of Congress and Smithsonian Institution.",
     "jurisdiction_source": "https://cha.house.gov/about"
   },
@@ -424,50 +410,49 @@
     "type": "house",
     "name": "House Committee on Homeland Security",
     "url": "https://homeland.house.gov/",
-    "minority_url": "https://democrats-homeland.house.gov/",
+    "minority_url": "https://republicans-homeland.house.gov/",
     "thomas_id": "HSHM",
     "house_committee_id": "HM",
     "subcommittees": [
       {
-        "name": "Border and Maritime Security",
+        "name": "Border Security, Facilitation, and Operations",
         "thomas_id": "11",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       },
       {
-        "name": "Emergency Preparedness, Response, and Communications",
+        "name": "Emergency Preparedness, Response, and Recovery",
         "thomas_id": "12",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       },
       {
-        "name": "Cybersecurity and Infrastructure Protection",
+        "name": "Cybersecurity, Infrastructure Protection, and Innovation",
         "thomas_id": "08",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       },
       {
-        "name": "Counterterrorism and Intelligence",
+        "name": "Intelligence and Counterterrorism",
         "thomas_id": "05",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       },
       {
-        "name": "Oversight and Management Efficiency",
+        "name": "Oversight, Management, and Accountability",
         "thomas_id": "09",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       },
       {
-        "name": "Transportation and Protective Security",
+        "name": "Transportation and Maritime Security",
         "thomas_id": "07",
-        "address": "176 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-8417"
+        "address": "117 FHOB; Washington, DC 20515",
+        "phone": "(202) 226-2616"
       }
     ],
-    "address": "176 FHOB; Washington, DC 20515-6480",
-    "phone": "(202) 226-8417",
-    "rss_url": "https://homeland.house.gov/rss.xml",
+    "address": "117 FHOB; Washington, DC 20515-6480",
+    "phone": "(202) 226-2616",
     "jurisdiction": "The House Committee on Homeland Security has jurisdiction over matters related to national defense. It has six subcommittees on border and maritime security; counterterrorism and intelligence; cybersecurity and infrastructure protection; emergency preparedness, response, and communications; oversight and management efficiency; and transportation and protective security. The Committee was created in 2002 in the aftermath of the September 11th, 2001 attacks.",
     "jurisdiction_source": "https://homeland.house.gov/subcommittee/full_committee/"
   },
@@ -475,12 +460,12 @@
     "type": "house",
     "name": "House Committee on Energy and Commerce",
     "url": "https://energycommerce.house.gov/",
-    "minority_url": "https://democrats-energycommerce.house.gov/",
+    "minority_url": "https://republicans-energycommerce.house.gov/",
     "thomas_id": "HSIF",
     "house_committee_id": "IF",
     "subcommittees": [
       {
-        "name": "Digital Commerce and Consumer Protection",
+        "name": "Consumer Protection and Commerce",
         "thomas_id": "17",
         "address": "2125 RHOB; Washington, DC 20515",
         "phone": "(202) 225-2927"
@@ -510,7 +495,7 @@
         "phone": "(202) 225-2927"
       },
       {
-        "name": "Environment",
+        "name": "Environment and Climate Change",
         "thomas_id": "18",
         "address": "2125 RHOB; Washington, DC 20515",
         "phone": "(202) 225-2927"
@@ -518,7 +503,6 @@
     ],
     "address": "2125 RHOB; Washington, DC 20515-6115",
     "phone": "(202) 225-2927",
-    "rss_url": "https://energycommerce.house.gov/rss.aspx",
     "jurisdiction": "The House Committee on Energy and Commerce has legislative jurisdiction on matters related to telecommunications, consumer protection, food and drug safety, public health research, environmental quality, energy policy, and interstate and foreign commerce. It oversees multiple cabinet-level Departments and independent agencies, including the Departments of Energy, Health and Human Services, Commerce, and Transportation, as well as the Environmental Protection Agency, the Federal Trade Commission, the Food and Drug Administration, and the Federal Communications Commission.",
     "jurisdiction_source": "https://energycommerce.house.gov/committee-history/"
   },
@@ -526,7 +510,7 @@
     "type": "house",
     "name": "House Committee on Natural Resources",
     "url": "https://naturalresources.house.gov/",
-    "minority_url": "https://democrats-naturalresources.house.gov/",
+    "minority_url": "https://republicans-naturalresources.house.gov/",
     "thomas_id": "HSII",
     "house_committee_id": "II",
     "subcommittees": [
@@ -537,13 +521,13 @@
         "phone": "(202) 225-9297"
       },
       {
-        "name": "Federal Lands",
+        "name": "National Parks, Forests, and Public Lands",
         "thomas_id": "10",
         "address": "1332 LHOB; Washington, DC 20515",
         "phone": "(202) 226-7736"
       },
       {
-        "name": "Water, Power and Oceans",
+        "name": "Water, Oceans, and Wildlife",
         "thomas_id": "13",
         "address": "4120 OHOB; Washington, DC 20515",
         "phone": "(202) 225-8331"
@@ -555,7 +539,7 @@
         "phone": "(202) 226-0200"
       },
       {
-        "name": "Indian, Insular and Alaska Native Affairs",
+        "name": "Indigenous Peoples of the United States",
         "thomas_id": "24",
         "address": "4450 OHOB; Washington, DC 20515",
         "phone": "(202) 226-9725"
@@ -569,8 +553,6 @@
     ],
     "address": "1324 LHOB; Washington, DC 20515-6201",
     "phone": "(202) 225-2761",
-    "rss_url": "https://naturalresources.house.gov/news.xml",
-    "minority_rss_url": "https://democrats-naturalresources.house.gov/rss.xml",
     "jurisdiction": "The House Committee on Natural Resources considers legislation about American energy production, mineral lands and mining, fisheries and wildlife, public lands, oceans, Native Americans, irrigation and reclamation.",
     "jurisdiction_source": "https://naturalresources.house.gov/about/"
   },
@@ -578,7 +560,7 @@
     "type": "house",
     "name": "House Permanent Select Committee on Intelligence",
     "url": "https://intelligence.house.gov/",
-    "minority_url": "https://democrats-intelligence.house.gov/",
+    "minority_url": "https://republicans-intelligence.house.gov/",
     "thomas_id": "HLIG",
     "house_committee_id": "IG",
     "subcommittees": [
@@ -627,8 +609,6 @@
     ],
     "address": "HVC304 CAPITOL; Washington, DC 20515-6415",
     "phone": "(202) 225-4121",
-    "rss_url": "https://intelligence.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-intelligence.house.gov/news/rss.aspx",
     "jurisdiction": "The United States House Permanent Select Committee on Intelligence (HPSCI) is a committee of the United States House of Representatives, currently chaired by Congressman Devin Nunes (California). Created in 1977, HPSCI is charged with oversight of the United States Intelligence Community\u2014which includes the intelligence and intelligence-related activities of the following seventeen elements of the U.S. Government\u2014and the Military Intelligence Program.",
     "jurisdiction_source": "https://intelligence.house.gov/about/history-and-jurisdiction.htm"
   },
@@ -636,12 +616,12 @@
     "type": "house",
     "name": "House Committee on the Judiciary",
     "url": "https://judiciary.house.gov/",
-    "minority_url": "https://democrats-judiciary.house.gov/",
+    "minority_url": "https://republicans-judiciary.house.gov/",
     "thomas_id": "HSJU",
     "house_committee_id": "JU",
     "subcommittees": [
       {
-        "name": "The Constitution and Civil Justice",
+        "name": "Constitution, Civil Rights and Civil Liberties",
         "thomas_id": "10",
         "address": "362 FHOB; Washington, DC 20515",
         "phone": "(202) 225-2825"
@@ -653,25 +633,25 @@
         "phone": "(202) 225-5741"
       },
       {
-        "name": "Crime, Terrorism, Homeland Security, and Investigations",
+        "name": "Crime, Terrorism, and Homeland Security",
         "thomas_id": "08",
         "address": "6340 OHOB; Washington, DC 20515",
         "phone": "(202) 225-5727"
       },
       {
-        "name": "Immigration and Border Security",
+        "name": "Immigration and Citizenship",
         "thomas_id": "01",
         "address": "6320 OHOB; Washington, DC 20515",
         "phone": "(202) 225-3926"
       },
       {
-        "name": "Regulatory Reform, Commercial and Antitrust Law",
+        "name": "Antitrust, Commercial and Administrative Law",
         "thomas_id": "05",
         "address": "6240 OHOB; Washington, DC 20515",
         "phone": "(202) 226-7680"
       }
     ],
-    "address": "2138 RHOB; Washington, DC 20515-6216",
+    "address": "2141 RHOB; Washington, DC 20515-6216",
     "phone": "(202) 225-3951",
     "minority_rss_url": "https://democrats-judiciary.house.gov/rss.xml",
     "jurisdiction": "The Committee on the Judiciary has jurisdiction over matters relating to the administration of justice in federal courts, administrative bodies, and law enforcement agencies. Its role in impeachment proceedings has also brought it much attention.  The committee\u2019s jurisdiction also includes a range of issues such as bankruptcy, espionage, terrorism, the protection of civil liberties, constitutional amendments, and more. The Committee oversees the Departments of Justice and Homeland Security.",
@@ -681,7 +661,7 @@
     "type": "house",
     "name": "House Committee on Transportation and Infrastructure",
     "url": "https://transportation.house.gov/",
-    "minority_url": "https://democrats-transportation.house.gov/",
+    "minority_url": "https://republicans-transportation.house.gov/",
     "thomas_id": "HSPW",
     "house_committee_id": "PW",
     "subcommittees": [
@@ -724,8 +704,6 @@
     ],
     "address": "2165 RHOB; Washington, DC 20515-6256",
     "phone": "(202) 225-9446",
-    "rss_url": "https://transportation.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-transportation.house.gov/rss.xml",
     "jurisdiction": "The Transportation and Infrastructure Committee has jurisdiction over all modes of transportation: aviation, maritime and waterborne transportation, highways, bridges, mass transit, and railroads. The Committee also has jurisdiction over other aspects of our national infrastructure, such as clean water and waste water management, the transport of resources by pipeline, flood damage reduction, the management of federally owned real estate and public buildings, the development of economically depressed rural and urban areas, disaster preparedness and response, and hazardous materials transportation.",
     "jurisdiction_source": "https://transportation.house.gov/about/history.htm"
   },
@@ -733,7 +711,7 @@
     "type": "house",
     "name": "House Committee on Rules",
     "url": "https://rules.house.gov/",
-    "minority_url": "https://democrats-rules.house.gov/",
+    "minority_url": "https://republicans-rules.house.gov/",
     "thomas_id": "HSRU",
     "house_committee_id": "RU",
     "subcommittees": [
@@ -752,7 +730,6 @@
     ],
     "address": "H312 CAPITOL; Washington, DC 20515-6269",
     "phone": "(202) 225-9191",
-    "minority_rss_url": "https://democrats-rules.house.gov/rss.xml",
     "jurisdiction": "The House Committee on Rules is commonly known as \u201cThe Speaker\u2019s Committee\u201d because it is the mechanism that the Speaker uses to maintain control of the House Floor. Because of the vast power wielded by the Rules Committee, its ratio has traditionally been weighted in favor of the majority party. The Committee provides the terms and conditions of debate on any measure or matter through Special Rules. The Committee also considers original jurisdiction measures, which commonly represent changes to the standing rules of the House, or measures that contain special rules, such as the expedited procedures in trade legislation.",
     "jurisdiction_source": "https://rules.house.gov/about"
   },
@@ -760,45 +737,43 @@
     "type": "house",
     "name": "House Committee on Small Business",
     "url": "https://smallbusiness.house.gov/",
-    "minority_url": "https://democrats-smallbusiness.house.gov/",
+    "minority_url": "https://republicans-smallbusiness.house.gov/",
     "thomas_id": "HSSM",
     "house_committee_id": "SM",
     "subcommittees": [
       {
-        "name": "Contracting and Workforce",
+        "name": "Contracting and Infrastructure",
         "thomas_id": "23",
-        "address": "2361 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5821"
+        "address": "2069 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4038"
       },
       {
         "name": "Investigations, Oversight and Regulations",
         "thomas_id": "24",
-        "address": "2361 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5821"
+        "address": "2069 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4038"
       },
       {
-        "name": "Agriculture, Energy and Trade",
+        "name": "Rural Development, Agriculture, Trade, and Entrepreneurship",
         "thomas_id": "25",
-        "address": "2361 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5821"
+        "address": "2069 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4038"
       },
       {
         "name": "Health and Technology",
         "thomas_id": "26",
-        "address": "2361 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5821"
+        "address": "2069 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4038"
       },
       {
         "name": "Economic Growth, Tax and Capital Access",
         "thomas_id": "27",
-        "address": "2361 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5821"
+        "address": "2069 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4038"
       }
     ],
-    "address": "2361 RHOB; Washington, DC 20515-6315",
-    "phone": "(202) 225-5821",
-    "rss_url": "https://smallbusiness.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-smallbusiness.house.gov/rss.xml",
+    "address": "2069 RHOB; Washington, DC 20515-6315",
+    "phone": "(202) 225-4038",
     "jurisdiction": "The House Small Business Committee was established to protect and assist small businesses.  As such, the Committee has jurisdiction over matters related to small business financial aid, regulatory flexibility, and paperwork reduction. Additionally, the House Small Business Committee has  oversight and legislative authority over the Small Business Administration (SBA) and its programs.",
     "jurisdiction_source": "https://smallbusiness.house.gov/about/rulesandjurisdiction.htm"
   },
@@ -810,7 +785,6 @@
     "house_committee_id": "SO",
     "address": "1015 LHOB; Washington, DC 20515-6328",
     "phone": "(202) 225-7103",
-    "rss_url": "https://ethics.house.gov/rss.xml",
     "jurisdiction": "The House Committee on Ethics has the jurisdiction to administer travel, gift, financial disclosure, outside income, and other regulations; advise members and staff; issue advisory opinions and investigate potential ethics violations. The Committee is the only standing committee of the House whose membership is evenly divided between each political party. The Committee includes five members of each party. Also, unlike other committees, the day-to-day work of the Committee on Ethics is conducted by a staff that is nonpartisan by rule.",
     "jurisdiction_source": "https://ethics.house.gov/about/committee-history"
   },
@@ -818,7 +792,7 @@
     "type": "house",
     "name": "House Committee on Science, Space, and Technology",
     "url": "https://science.house.gov/",
-    "minority_url": "https://democrats-science.house.gov/",
+    "minority_url": "https://republicans-science.house.gov/",
     "thomas_id": "HSSY",
     "house_committee_id": "SY",
     "subcommittees": [
@@ -829,7 +803,7 @@
         "phone": "(202) 225-6371"
       },
       {
-        "name": "Oversight",
+        "name": "Investigations and Oversight",
         "thomas_id": "21",
         "address": "2321 RHOB; Washington, DC 20515",
         "phone": "(202) 225-6371"
@@ -854,9 +828,7 @@
       }
     ],
     "address": "2321 RHOB; Washington, DC 20515-6301",
-    "phone": "(202) 225-6371",
-    "rss_url": "https://science.house.gov/rss.xml",
-    "minority_rss_url": "https://democrats-science.house.gov/rss.xml",
+    "phone": "(202) 225-6375",
     "jurisdiction": "The Committee on Science, Space, and Technology has a jurisdiction over a range of matters related to energy research and development, federally owned or operated non-military energy laboratories, astronautical research and development, civil aviation, environmental research and development; marine research, and more. The Committee oversees the National Institute of Standards and Technology, National Aeronautics and Space Administration, National Science Foundation, and National Weather Service. It also reviews laws, programs, and Government activities relating to non-military research and development to report back to the House.",
     "jurisdiction_source": "https://science.house.gov/about/jurisdiction"
   },
@@ -864,45 +836,43 @@
     "type": "house",
     "name": "House Committee on Veterans' Affairs",
     "url": "https://veterans.house.gov/",
-    "minority_url": "https://democrats-veterans.house.gov/",
+    "minority_url": "https://republicans-veterans.house.gov/",
     "thomas_id": "HSVR",
     "house_committee_id": "VR",
     "subcommittees": [
       {
         "name": "Disability Assistance and Memorial Affairs",
         "thomas_id": "09",
-        "address": "338 CHOB; Washington, DC 20515",
-        "phone": "(202) 225-9164"
+        "address": "3460 OHOB; Washington, DC 20515",
+        "phone": "(202) 225-9756"
       },
       {
         "name": "Economic Opportunity",
         "thomas_id": "10",
-        "address": "335 CHOB; Washington, DC 20515",
-        "phone": "(202) 226-5491"
+        "address": "3460 OHOB; Washington, DC 20515",
+        "phone": "(202) 225-9756"
       },
       {
         "name": "Health",
         "thomas_id": "03",
-        "address": "337 CHOB; Washington, DC 20515",
-        "phone": "(202) 225-9154"
+        "address": "3460 OHOB; Washington, DC 20515",
+        "phone": "(202) 225-9756"
       },
       {
         "name": "Oversight and Investigations",
         "thomas_id": "08",
-        "address": "337A CHOB; Washington, DC 20515",
-        "phone": "(202) 225-3569"
+        "address": "3460 OHOB; Washington, DC 20515",
+        "phone": "(202) 225-9756"
       },
       {
         "name": "Technology Modernization",
         "thomas_id": "11",
-        "address": "337A CHOB; Washington, DC 20515",
-        "phone": "(202) 225-3569"
+        "address": "3460 OHOB; Washington, DC 20515",
+        "phone": "(202) 225-9756"
       }
     ],
-    "address": "335 CHOB; Washington, DC 20515-6335",
-    "phone": "(202) 225-3527",
-    "rss_url": "https://veterans.house.gov/news/rss.aspx",
-    "minority_rss_url": "https://democrats-veterans.house.gov/rss.xml",
+    "address": "3460 OHOB; Washington, DC 20515",
+    "phone": "(202) 225-9756",
     "jurisdiction": "The House Committee on Veterans' Affairs is the authorizing committee for the Department of Veterans Affairs (VA). The committee is responsible for recommending legislation expanding, curtailing, or fine-tuning existing laws relating to veterans' benefits. The Committee also has oversight responsibility, which means monitoring and evaluating the operations of the VA. If the Committee finds that VA is not administering laws as Congress intended, then it is addressed through the hearing process and legislation.",
     "jurisdiction_source": "https://veterans.house.gov/about/history.htm"
   },
@@ -910,7 +880,7 @@
     "type": "house",
     "name": "House Committee on Ways and Means",
     "url": "https://waysandmeans.house.gov/",
-    "minority_url": "https://democrats-waysandmeans.house.gov/",
+    "minority_url": "https://gop-waysandmeans.house.gov/",
     "thomas_id": "HSWM",
     "house_committee_id": "WM",
     "subcommittees": [
@@ -921,7 +891,7 @@
         "phone": "(202) 225-3943"
       },
       {
-        "name": "Human Resources",
+        "name": "Worker and Family Support",
         "thomas_id": "03",
         "address": "1129 LHOB; Washington, DC 20515",
         "phone": "(202) 225-1025"
@@ -933,7 +903,7 @@
         "phone": "(202) 225-9263"
       },
       {
-        "name": "Tax Policy",
+        "name": "Select Revenue Measures",
         "thomas_id": "05",
         "address": "1136 LHOB; Washington, DC 20515",
         "phone": "(202) 225-5522"
@@ -951,9 +921,8 @@
         "phone": "(202) 225-6649"
       }
     ],
-    "address": "1102 LHOB; Washington, DC 20515-6348",
+    "address": "1139E LHOB; Washington, DC 20515-6348",
     "phone": "(202) 225-3625",
-    "minority_rss_url": "https://democrats-waysandmeans.house.gov/rss.xml",
     "jurisdiction": "The Committee on Ways and Means is the chief tax-writing committee in the House of Representatives. The Committee derives a large share of its jurisdiction from Article I, Section VII of the U.S. Constitution, which declares, \u201cAll Bills for raising Revenue shall originate in the House of Representatives.\u201d The committee has jurisdiction over revenue and related issues such as tariffs, reciprocal trade agreements, and the bonded debt of the United States. It also oversees revenue-related aspects of the Social Security system, Medicare, and social services programs.",
     "jurisdiction_source": "https://waysandmeans.house.gov/history/"
   },
@@ -1274,12 +1243,12 @@
         "wikipedia": "United States Senate Commerce Subcommittee on Competitiveness, Innovation, and Export Promotion"
       },
       {
-        "name": "Consumer Protection, Product Safety, Insurance, and Data Security",
+        "name": "Manufacturing, Trade, and Consumer Protection",
         "thomas_id": "20",
         "wikipedia": "United States Senate Commerce Subcommittee on Consumer Protection, Product Safety, and Insurance"
       },
       {
-        "name": "Oceans, Atmosphere, Fisheries, and Coast Guard",
+        "name": "Science, Oceans, Fisheries, and Weather",
         "thomas_id": "22",
         "wikipedia": "United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries, and Coast Guard"
       },
@@ -1289,17 +1258,16 @@
         "wikipedia": "United States Senate Commerce Subcommittee on Science and Space"
       },
       {
-        "name": "Surface Transportation and Merchant Marine Infrastructure, Safety and Security",
+        "name": "Transportation and Safety",
         "thomas_id": "25",
         "wikipedia": "United States Senate Commerce Subcommittee on Surface Transportation and Merchant Marine Infrastructure, Safety, and Security"
       },
       {
         "name": "Aviation Operations, Safety, and Security",
         "thomas_id": "01",
-        "wikipedia": "United States Senate Commerce Subcommittee on Aviation Operations, Safety, and Security"
+        "wikipedia": "United States Senate Commerce Subcommittee on Aviation and Space"
       }
     ],
-    "rss_url": "http://www.commerce.senate.gov/public/?a=RSS.Feed",
     "wikipedia": "United States Senate Committee on Commerce, Science and Transportation",
     "jurisdiction": "The Senate Committee on Commerce, Science, and Transportation has legislative jurisdiction on matters related to science and technology, oceans policy, transportation, communications, and consumer affairs.",
     "jurisdiction_source": "https://www.commerce.senate.gov/public/index.cfm/jurisdiction"
@@ -1543,8 +1511,6 @@
         "wikipedia": "United States Senate Health Subcommittee on Children and Families"
       }
     ],
-    "rss_url": "http://www.help.senate.gov/rss/feed/chair/",
-    "minority_rss_url": "http://www.help.senate.gov/rss/feed/ranking/",
     "wikipedia": "United States Senate Committee on Health, Education, Labor, and Pensions",
     "jurisdiction": "The Senate Committee on Health, Education, Labor, and Pensions has jurisdiction over most of the agencies, institutes, and programs of the Department of Health and Human Services, including the Food and Drug Administration, the Centers for Disease Control and Prevention, the National Institutes of Health, the Administration on Aging, the Substance Abuse and Mental Health Services Administration, and the Agency for Healthcare Research and Quality.",
     "jurisdiction_source": "https://www.help.senate.gov/about/issues/"
@@ -1611,7 +1577,6 @@
     "url": "http://www.sbc.senate.gov/",
     "thomas_id": "SSSB",
     "senate_committee_id": "SSSB",
-    "rss_url": "http://www.sbc.senate.gov/public/?a=RSS.Feed",
     "wikipedia": "United States Senate Committee on Small Business and Entrepreneurship",
     "jurisdiction": "The Senate Committee on Small Business and Entrepreneurship has legislative jurisdiction over the Small Business Administration (SBA). The SBA is an independent federal agency meant to assist and protect the interests of small businesses. The Committee is also responsible for studying and problems of American small business enterprises, and reporting back to the Senate.",
     "jurisdiction_source": "https://www.sbc.senate.gov/public/index.cfm/jurisdiction"
