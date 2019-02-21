@@ -3481,6 +3481,24 @@ HSBU:
   bioguide: O000173
   start_date: '2019-01-24'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Albio Sires
+  party: majority
+  rank: 20
+  bioguide: S001165
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
+- name: Scott H. Peters
+  party: majority
+  rank: 21
+  bioguide: P000608
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
+- name: Jim Cooper
+  party: majority
+  rank: 22
+  bioguide: C000754
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
 HSED:
 - name: Virginia Foxx
   party: minority
@@ -7524,6 +7542,12 @@ HSII:
   bioguide: S001204
   start_date: '2019-01-24'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/73/text
+- name: Matt Cartwright
+  party: majority
+  rank: 24
+  bioguide: C001090
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
 HSII06:
 - name: Paul A. Gosar
   party: minority
@@ -9314,42 +9338,42 @@ HSRU:
   bioguide: T000474
   start_date: '2019-01-04'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
-- name: Jamie Raskin
+- name: Ed Perlmutter
   party: majority
   rank: 4
+  bioguide: P000593
+  start_date: '2019-01-08'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
+- name: Jamie Raskin
+  party: majority
+  rank: 5
   bioguide: R000606
   start_date: '2019-01-04'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Mary Gay Scanlon
   party: majority
-  rank: 5
+  rank: 6
   bioguide: S001205
   start_date: '2019-01-04'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Joe Morelle
   party: majority
-  rank: 6
+  rank: 7
   bioguide: M001206
   start_date: '2019-01-04'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
 - name: Donna Shalala
   party: majority
-  rank: 7
+  rank: 8
   bioguide: S001206
   start_date: '2019-01-04'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/24/text
-- name: Doris O. Matsui
-  party: majority
-  rank: 8
-  bioguide: M001163
-  start_date: '2019-01-08'
-  source: https://www.congress.gov/bill/116th-congress/house-resolution/26/text
-- name: Ed Perlmutter
+- name: Mark DeSaulnier
   party: majority
   rank: 9
-  bioguide: P000593
-  start_date: '2019-01-08'
-  source: https://www.congress.gov/bill/116th-congress/house-resolution/26/text
+  bioguide: D000623
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
 - name: Tom Cole
   party: minority
   rank: 1
@@ -9614,6 +9638,24 @@ HSSO:
   bioguide: D000610
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/31/text
+- name: Grace Meng
+  party: majority
+  rank: 2
+  bioguide: M001188
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
+- name: Susan Wild
+  party: majority
+  rank: 3
+  bioguide: W000826
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
+- name: Dean Phillips
+  party: majority
+  rank: 4
+  bioguide: P000616
+  start_date: '2019-02-13'
+  source: https://www.congress.gov/bill/116th-congress/house-resolution/125/text
 HSSY:
 - name: Frank D. Lucas
   party: minority
