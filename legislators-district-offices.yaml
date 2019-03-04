@@ -721,6 +721,8 @@
     city: Chattanooga
     state: TN
     zip: '37402'
+    latitude: 35.0455268
+    longitude: -85.3100155
     phone: 423-541-2939
     fax: 423-541-2944
   - id: B001243-jackson
@@ -5793,6 +5795,7 @@
     zip: 04401-5112
     latitude: 44.8023
     longitude: -68.77015
+    phone: 207-249-7400
   - id: G000592-caribou
     address: 7 Hatch Dr
     suite: Suite 230
@@ -6559,6 +6562,7 @@
     zip: 55902-4286
     latitude: 44.00307
     longitude: -92.48603
+    phone: 507-323-6090
 - id:
     bioguide: H001090
     govtrack: 412754
@@ -6927,6 +6931,8 @@
     zip: 57401-6102
     latitude: 45.45894
     longitude: -98.48235
+    phone: 605-622-1060
+    fax: 605-262-0150
   - id: J000301-rapid_city
     address: 2525 W Main St
     suite: Suite 310
@@ -12783,6 +12789,7 @@
     zip: '63901'
     latitude: 36.7847526
     longitude: -90.4294579
+    phone: 573-609-2996
   - id: S001195-rolla
     address: 830A S. Bishop
     city: Rolla
@@ -12954,6 +12961,8 @@
     city: Hanover
     state: PA
     zip: '17331'
+    latitude: 39.8018282
+    longitude: -76.9852327
     phone: 717-969-6132
   - id: S001199-lancaster
     address: 51 S. Duke St.
@@ -13001,6 +13010,8 @@
     city: Orlando
     state: FL
     zip: 32827-7401
+    latitude: 28.36525
+    longitude: -81.2749461
     phone: 202-322-4476
     hours: Tuesdays 9AM-3PM
   - id: S001200-lake_wales
@@ -13093,6 +13104,8 @@
     city: Hagatna
     state: GU
     zip: 96910-5081
+    latitude: 13.4763888
+    longitude: 144.7455451
 - id:
     bioguide: S001206
     govtrack: 412768
@@ -13250,6 +13263,8 @@
     city: Somers
     state: WI
     zip: '53171'
+    latitude: 42.6381671
+    longitude: -87.9002263
     phone: 262-654-1901
 - id:
     bioguide: S001214
@@ -14015,6 +14030,8 @@
     city: St. Charles
     state: IL
     zip: '60175'
+    latitude: 41.9355581
+    longitude: -88.4006568
 - id:
     bioguide: V000081
     govtrack: 400416
