@@ -3951,6 +3951,12 @@ HSED10:
   bioguide: W000819
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
+- name: Mark DeSaulnier
+  party: minority
+  rank: 3
+  bioguide: D000623
+  start_date: '2019-01-29'
+  source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Ben Cline
   party: minority
   rank: 15
@@ -3974,12 +3980,6 @@ HSED10:
   party: majority
   rank: 2
   bioguide: T000472
-  start_date: '2019-01-29'
-  source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: Mark DeSaulnier
-  party: minority
-  rank: 3
-  bioguide: D000623
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Pramila Jayapal
@@ -4036,6 +4036,12 @@ HSED13:
   party: minority
   rank: 4
   bioguide: S001196
+  start_date: '2019-01-29'
+  source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
+- name: Gregorio Kilili Camacho Sablan
+  party: minority
+  rank: 4
+  bioguide: S001177
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Jim Banks
@@ -4103,12 +4109,6 @@ HSED13:
   party: majority
   rank: 3
   bioguide: C001069
-  start_date: '2019-01-29'
-  source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: Gregorio Kilili Camacho Sablan
-  party: minority
-  rank: 4
-  bioguide: S001177
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Suzanne Bonamici
@@ -4959,12 +4959,6 @@ HSFA16:
   bioguide: S000522
   start_date: '2019-01-29'
   source: https://republicans-foreignaffairs.house.gov/press-release/mccaul-announces-republican-subcommittee-leadership-and-membership-rosters-at-116th-committee-organizational-meeting/
-- name: F. James Sensenbrenner, Jr.
-  party: majority
-  rank: 2
-  bioguide: S000244
-  start_date: '2019-01-29'
-  source: https://republicans-foreignaffairs.house.gov/press-release/mccaul-announces-republican-subcommittee-leadership-and-membership-rosters-at-116th-committee-organizational-meeting/
 - name: Ron Wright
   party: minority
   rank: 3
@@ -4984,6 +4978,12 @@ HSFA16:
   bioguide: B001270
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
+- name: F. James Sensenbrenner, Jr.
+  party: majority
+  rank: 2
+  bioguide: S000244
+  start_date: '2019-01-29'
+  source: https://republicans-foreignaffairs.house.gov/press-release/mccaul-announces-republican-subcommittee-leadership-and-membership-rosters-at-116th-committee-organizational-meeting/
 - name: Susan Wild
   party: majority
   rank: 2
@@ -6853,13 +6853,6 @@ HSIF16:
   bioguide: G000584
   start_date: '2019-01-18'
   source: https://republicans-energycommerce.house.gov/news/walden-announces-energy-and-commerce-republican-subcommittee-rosters/
-- name: Greg Walden
-  party: majority
-  rank: 13
-  bioguide: W000791
-  title: Ex Officio
-  start_date: '2019-01-18'
-  source: https://republicans-energycommerce.house.gov/news/walden-announces-energy-and-commerce-republican-subcommittee-rosters/
 - name: Michael F. Doyle
   party: majority
   rank: 1
@@ -6933,6 +6926,13 @@ HSIF16:
   bioguide: M001163
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+- name: Greg Walden
+  party: majority
+  rank: 13
+  bioguide: W000791
+  title: Ex Officio
+  start_date: '2019-01-18'
+  source: https://republicans-energycommerce.house.gov/news/walden-announces-energy-and-commerce-republican-subcommittee-rosters/
 - name: Peter Welch
   party: majority
   rank: 13
@@ -10307,16 +10307,16 @@ HSVR03:
   bioguide: L000588
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
-- name: Mike Levin
-  party: majority
-  rank: 5
-  bioguide: L000593
-  start_date: '2019-01-31'
-  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 - name: Anthony Brindisi
   party: majority
   rank: 4
   bioguide: B001308
+  start_date: '2019-01-31'
+  source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Mike Levin
+  party: majority
+  rank: 5
+  bioguide: L000593
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 - name: Max Rose
