@@ -25,7 +25,7 @@
     thomas_id: '14'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
-  - name: Nutrition
+  - name: Nutrition, Oversight, and Department Operations
     thomas_id: '03'
     address: 1301 LHOB; Washington, DC 20515
     phone: (202) 225-2171
@@ -76,17 +76,17 @@
     phone: (202) 225-3508
   - name: Legislative Branch
     thomas_id: '24'
-    address: HT2 CAPITOL; Washington, DC 20515
+    address: H306 CAPITOL; Washington, DC 20515
     phone: (202) 226-7252
-  - name: Military Construction, Veterans Affairs and Related Agencies
+  - name: Military Construction, Veterans Affairs, and Related Agencies
     thomas_id: '18'
-    address: HVC227 CAPITOL; Washington, DC 20515
+    address: HT2 CAPITOL; Washington, DC 20515
     phone: (202) 225-3047
   - name: State, Foreign Operations, and Related Programs
     thomas_id: '04'
     address: HT2 CAPITOL; Washington, DC 20515
     phone: (202) 225-2041
-  - name: Transportation, Housing and Urban Development, and Related Agencies
+  - name: Transportation, and Housing and Urban Development, and Related Agencies
     thomas_id: '20'
     address: 2358A RHOB; Washington, DC 20515
     phone: (202) 225-2141
@@ -126,7 +126,7 @@
     thomas_id: '29'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-  - name: Intelligence, Emerging Threats and Capabilities
+  - name: Intelligence and Emerging Threats and Capabilities
     thomas_id: '26'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
@@ -145,15 +145,15 @@
   - name: Investor Protection, Entrepreneurship, and Capital Markets
     thomas_id: '16'
     address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
+    phone: (202) 225-4247
   - name: Consumer Protection and Financial Institutions
     thomas_id: '15'
     address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
-  - name: Housing and Insurance
+    phone: (202) 225-4247
+  - name: Housing, Community Development, and Insurance
     thomas_id: '04'
     address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
+    phone: (202) 225-4247
   - name: National Security, International Development and Monetary Policy
     thomas_id: '20'
     address: 2129 RHOB; Washington, DC 20515
@@ -161,11 +161,11 @@
   - name: Oversight and Investigations
     thomas_id: '09'
     address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
-  - name: Terrorism and Illicit Finance
+    phone: (202) 225-4247
+  - name: National Security, International Development, and Monetary Policy
     thomas_id: '01'
     address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
+    phone: (202) 225-4247
   - name: Diversity and Inclusion
     thomas_id: '13'
     address: 2129 RHOB; Washington, DC 20515
@@ -208,19 +208,19 @@
   - name: Early Childhood, Elementary, and Secondary Education
     thomas_id: '14'
     address: 2176 RHOB; Washington, DC 20515
-    phone: (202) 225-4527
+    phone: (202) 225-3725
   - name: Health, Employment, Labor, and Pensions
     thomas_id: '02'
     address: 2176 RHOB; Washington, DC 20515
-    phone: (202) 225-4527
+    phone: (202) 225-3725
   - name: Higher Education and Workforce Investment
     thomas_id: '13'
     address: 2176 RHOB; Washington, DC 20515
-    phone: (202) 225-4527
+    phone: (202) 225-3725
   - name: Workforce Protections
     thomas_id: '10'
     address: 2176 RHOB; Washington, DC 20515
-    phone: (202) 225-4527
+    phone: (202) 225-3725
   - name: Civil Rights and Human Services
     thomas_id: '07'
     address: 2176 RHOB; Washington, DC 20515
@@ -240,28 +240,28 @@
   subcommittees:
   - name: Africa, Global Health, Global Human Rights, and International Organizations
     thomas_id: '16'
-    address: 5210 OHOB; Washington, DC 20515
-    phone: (202) 226-7812
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   - name: Asia, the Pacific, and Nonproliferation
     thomas_id: '05'
-    address: 5190 OHOB; Washington, DC 20515
-    phone: (202) 226-7825
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   - name: Europe, Eurasia, Energy, and the Environment
     thomas_id: '14'
-    address: 5210 OHOB; Washington, DC 20515
-    phone: (202) 226-6434
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   - name: Oversight and Investigations
     thomas_id: '18'
     address: 5100 OHOB; Washington, DC 20515
     phone: (202) 226-1500
   - name: Middle East, North Africa, and International Terrorism
     thomas_id: '13'
-    address: 5220 OHOB; Washington, DC 20515
-    phone: (202) 225-3345
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   - name: Western Hemisphere, Civilian Security, and Trade
     thomas_id: '07'
-    address: 5100 OHOB; Washington, DC 20515
-    phone: (202) 226-9980
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   - name: Oversight and Investigations
     thomas_id: '17'
     address: 2170 RHOB; Washington, DC 20515
@@ -286,20 +286,20 @@
     phone: (202) 225-5074
   - name: Government Operations
     thomas_id: '24'
-    address: 2471 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5051
   - name: National Security
     thomas_id: '06'
-    address: 2471 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5051
   - name: Healthcare, Benefits, and Administrative Rules
     thomas_id: '27'
     address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Environment
     thomas_id: '28'
-    address: 2471 RHOB; Washington, DC 20515
-    phone: (202) 225-5074
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5051
   - name: Intergovernmental Affairs
     thomas_id: '29'
     address: 2471 RHOB; Washington, DC 20515
@@ -352,27 +352,27 @@
   subcommittees:
   - name: Border Security, Facilitation, and Operations
     thomas_id: '11'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   - name: Emergency Preparedness, Response, and Recovery
     thomas_id: '12'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   - name: Cybersecurity, Infrastructure Protection, and Innovation
     thomas_id: '08'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   - name: Intelligence and Counterterrorism
     thomas_id: '05'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   - name: Oversight, Management, and Accountability
     thomas_id: '09'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   - name: Transportation and Maritime Security
     thomas_id: '07'
-    address: 117 FHOB; Washington, DC 20515
+    address: 176 FHOB; Washington, DC 20515
     phone: (202) 226-2616
   address: 176 FHOB; Washington, DC 20515-6480
   phone: (202) 226-2616
@@ -435,27 +435,27 @@
   - name: Energy and Mineral Resources
     thomas_id: '06'
     address: 1522 LHOB; Washington, DC 20515
-    phone: (202) 225-9297
+    phone: (202) 225-6065
   - name: National Parks, Forests, and Public Lands
     thomas_id: '10'
-    address: 1332 LHOB; Washington, DC 20515
-    phone: (202) 226-7736
+    address: 1328 LHOB; Washington, DC 20515
+    phone: (202) 225-6065
   - name: Water, Oceans, and Wildlife
     thomas_id: '13'
-    address: 4120 OHOB; Washington, DC 20515
-    phone: (202) 225-8331
+    address: 1332 LHOB; Washington, DC 20515
+    phone: (202) 225-6065
   - name: Fisheries, Wildlife, Oceans and Insular Affairs
     thomas_id: '22'
     address: 140 CHOB; Washington, DC 20515
     phone: (202) 226-0200
   - name: Indigenous Peoples of the United States
     thomas_id: '24'
-    address: 4450 OHOB; Washington, DC 20515
-    phone: (202) 226-9725
+    address: 1331 LHOB; Washington, DC 20515
+    phone: (202) 225-6065
   - name: Oversight and Investigations
     thomas_id: '15'
-    address: 4170 OHOB; Washington, DC 20515
-    phone: (202) 225-7107
+    address: 186 FHOB; Washington, DC 20515
+    phone: (202) 225-6065
   address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-6065
   jurisdiction: The House Committee on Natural Resources considers legislation about
@@ -473,14 +473,14 @@
     thomas_id: '09'
     address: HVC304 CAPITOL; Washington, DC 20515
     phone: (202) 225-4121
-  - name: Technical and Tactical Intelligence
+  - name: Counterterrorism, Counterintelligence, and Counterproliferation
     thomas_id: '05'
     address: HVC304 CAPITOL; Washington, DC 20515
-    phone: (202) 225-4121
-  - name: Terrorism, Human Intelligence, Analysis, and Counterintelligence
+    phone: (202) 225-7690
+  - name: Intelligence Modernization and Readiness
     thomas_id: '08'
     address: HVC304 CAPITOL; Washington, DC 20515
-    phone: (202) 225-4121
+    phone: (202) 225-7690
   - name: Central Intelligence Agency
     thomas_id: '01'
     address: HVC304 CAPITOL; Washington, DC 20515-6415
@@ -521,15 +521,15 @@
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
-  - name: Constitution, Civil Rights and Civil Liberties
+  - name: Constitution, Civil Rights, and Civil Justice
     thomas_id: '10'
-    address: 362 FHOB; Washington, DC 20515
-    phone: (202) 225-2825
+    address: 2138 RHOB; Washington, DC 20515
+    phone: (202) 225-3951
   - name: Courts, Intellectual Property, and the Internet
     thomas_id: '03'
     address: 6310 OHOB; Washington, DC 20515
     phone: (202) 225-5741
-  - name: Crime, Terrorism, and Homeland Security
+  - name: Crime, Terrorism and Homeland Security
     thomas_id: '08'
     address: 6340 OHOB; Washington, DC 20515
     phone: (202) 225-5727
@@ -561,28 +561,28 @@
   subcommittees:
   - name: Aviation
     thomas_id: '05'
-    address: 2251 RHOB; Washington, DC 20515
-    phone: (202) 226-3220
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   - name: Coast Guard and Maritime Transportation
     thomas_id: '07'
-    address: 507 FHOB; Washington, DC 20515
-    phone: (202) 226-3552
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   - name: Economic Development, Public Buildings, and Emergency Management
     thomas_id: '13'
-    address: 586 FHOB; Washington, DC 20515
-    phone: (202) 225-3014
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   - name: Highways and Transit
     thomas_id: '12'
-    address: 2251 RHOB; Washington, DC 20515
-    phone: (202) 225-6715
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   - name: Railroads, Pipelines, and Hazardous Materials
     thomas_id: '14'
-    address: 2029 RHOB; Washington, DC 20515
-    phone: (202) 226-0727
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   - name: Water Resources and Environment
     thomas_id: '02'
-    address: 585 FHOB; Washington, DC 20515
-    phone: (202) 225-4360
+    address: 2165 RHOB; Washington, DC 20515
+    phone: (202) 225-4472
   address: 2165 RHOB; Washington, DC 20515-6256
   phone: (202) 225-4472
   jurisdiction: 'The Transportation and Infrastructure Committee has jurisdiction
@@ -604,11 +604,11 @@
   - name: Legislative and Budget Process
     thomas_id: '02'
     address: H312 CAPITOL; Washington, DC 20515
-    phone: (202) 225-9191
+    phone: (202) 225-9091
   - name: Rules and Organization of the House
     thomas_id: '04'
     address: H312 CAPITOL; Washington, DC 20515
-    phone: (202) 225-9191
+    phone: (202) 225-9091
   - name: Expedited Procedures
     thomas_id: '05'
     address: H312 CAPITOL; Washington, DC 20515
@@ -633,23 +633,23 @@
   subcommittees:
   - name: Contracting and Infrastructure
     thomas_id: '23'
-    address: 2069 RHOB; Washington, DC 20515
+    address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
   - name: Investigations, Oversight and Regulations
     thomas_id: '24'
-    address: 2069 RHOB; Washington, DC 20515
+    address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Rural Development, Agriculture, Trade, and Entrepreneurship
+  - name: Rural Development, Agriculture, Trade and Entrepreneurship
     thomas_id: '25'
-    address: 2069 RHOB; Washington, DC 20515
+    address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Health and Technology
+  - name: Innovation and Workforce Development
     thomas_id: '26'
-    address: 2069 RHOB; Washington, DC 20515
+    address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
   - name: Economic Growth, Tax and Capital Access
     thomas_id: '27'
-    address: 2069 RHOB; Washington, DC 20515
+    address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
   address: 2361 RHOB; Washington, DC 20515-6315
   phone: (202) 225-4038
@@ -683,24 +683,24 @@
   subcommittees:
   - name: Energy
     thomas_id: '20'
-    address: 2319 RHOB; Washington, DC 20515
-    phone: (202) 225-6371
+    address: 2321 RHOB; Washington, DC 20515
+    phone: (202) 225-6375
   - name: Investigations and Oversight
     thomas_id: '21'
     address: 2321 RHOB; Washington, DC 20515
-    phone: (202) 225-6371
-  - name: Space
+    phone: (202) 225-6375
+  - name: Space and Aeronautics
     thomas_id: '16'
-    address: 4220 OHOB; Washington, DC 20515
-    phone: (202) 225-6371
+    address: 2321 RHOB; Washington, DC 20515
+    phone: (202) 225-6375
   - name: Environment
     thomas_id: '18'
-    address: 2319 RHOB; Washington, DC 20515
-    phone: (202) 225-6371
+    address: 2321 RHOB; Washington, DC 20515
+    phone: (202) 225-6375
   - name: Research and Technology
     thomas_id: '15'
-    address: 4220 OHOB; Washington, DC 20515
-    phone: (202) 225-6371
+    address: 2321 RHOB; Washington, DC 20515
+    phone: (202) 225-6375
   address: 2321 RHOB; Washington, DC 20515-6301
   phone: (202) 225-6375
   jurisdiction: The Committee on Science, Space, and Technology has a jurisdiction
@@ -721,23 +721,23 @@
   subcommittees:
   - name: Disability Assistance and Memorial Affairs
     thomas_id: '09'
-    address: 3460 OHOB; Washington, DC 20515
+    address: B234 LHOB; Washington, DC 20515
     phone: (202) 225-9756
   - name: Economic Opportunity
     thomas_id: '10'
-    address: 3460 OHOB; Washington, DC 20515
+    address: B234 LHOB; Washington, DC 20515
     phone: (202) 225-9756
   - name: Health
     thomas_id: '03'
-    address: 3460 OHOB; Washington, DC 20515
+    address: B234 LHOB; Washington, DC 20515
     phone: (202) 225-9756
   - name: Oversight and Investigations
     thomas_id: '08'
-    address: 3460 OHOB; Washington, DC 20515
+    address: B234 LHOB; Washington, DC 20515
     phone: (202) 225-9756
   - name: Technology Modernization
     thomas_id: '11'
-    address: 3460 OHOB; Washington, DC 20515
+    address: B234 LHOB; Washington, DC 20515
     phone: (202) 225-9756
   address: B234 LHOB; Washington, DC 20515-6335
   phone: (202) 225-9756
@@ -763,11 +763,11 @@
   - name: Worker and Family Support
     thomas_id: '03'
     address: 1129 LHOB; Washington, DC 20515
-    phone: (202) 225-1025
+    phone: (202) 225-9263
   - name: Oversight
     thomas_id: '06'
     address: 2018 RHOB; Washington, DC 20515
-    phone: (202) 225-9263
+    phone: (202) 225-3625
   - name: Select Revenue Measures
     thomas_id: '05'
     address: 1136 LHOB; Washington, DC 20515

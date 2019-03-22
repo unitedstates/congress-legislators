@@ -460,13 +460,6 @@ HSAG03:
   bioguide: P000613
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 9
-  title: Ex Officio
-  bioguide: P000258
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: Dusty Johnson
   party: minority
   rank: 1
@@ -504,13 +497,6 @@ HSAG03:
   bioguide: H001088
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
-  rank: 7
-  title: Ex Officio
-  bioguide: C001062
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 HSAG14:
 - name: Stacey E. Plaskett
   party: majority
@@ -525,7 +511,7 @@ HSAG14:
   bioguide: D000630
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: T.J. Cox
+- name: TJ Cox
   party: majority
   rank: 3
   bioguide: C001124
@@ -561,7 +547,7 @@ HSAG14:
   bioguide: P000597
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Salud Carbajal
+- name: Salud O. Carbajal
   party: majority
   rank: 9
   bioguide: C001112
@@ -583,13 +569,6 @@ HSAG14:
   party: majority
   rank: 12
   bioguide: L000586
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 13
-  title: Ex Officio
-  bioguide: P000258
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: Neal P. Dunn
@@ -641,21 +620,14 @@ HSAG14:
   bioguide: C001108
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: James Baird
+- name: James R. Baird
   party: minority
   rank: 9
   bioguide: B001307
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
-  rank: 10
-  title: Ex Officio
-  bioguide: C001062
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 HSAG15:
-- name: Abigail Spanberger
+- name: Abigail Davis Spanberger
   party: majority
   rank: 1
   title: Chair
@@ -680,17 +652,10 @@ HSAG15:
   bioguide: P000597
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Cindy Axne
+- name: Cynthia Axne
   party: majority
   rank: 5
   bioguide: A000378
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 6
-  title: Ex Officio
-  bioguide: P000258
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: Doug LaMalfa
@@ -716,13 +681,6 @@ HSAG15:
   party: minority
   rank: 4
   bioguide: K000388
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
-  rank: 5
-  title: Ex Officio
-  bioguide: C001062
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 HSAG16:
@@ -757,13 +715,6 @@ HSAG16:
   bioguide: V000133
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 6
-  title: Ex Officio
-  bioguide: P000258
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: Glenn Thompson
   party: minority
   rank: 1
@@ -795,13 +746,10 @@ HSAG16:
   bioguide: A000374
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
+- name: Salud O. Carbajal
+  party: majority
   rank: 6
-  title: Ex Officio
-  bioguide: C001062
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
+  bioguide: C001112
 HSAG22:
 - name: David Scott
   party: majority
@@ -828,7 +776,7 @@ HSAG22:
   bioguide: P000610
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Abigail Spanberger
+- name: Abigail Davis Spanberger
   party: majority
   rank: 5
   bioguide: S001209
@@ -858,17 +806,10 @@ HSAG22:
   bioguide: K000368
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Cindy Axne
+- name: Cynthia Axne
   party: majority
   rank: 10
   bioguide: A000378
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 11
-  title: Ex Officio
-  bioguide: P000258
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: Austin Scott
@@ -914,17 +855,10 @@ HSAG22:
   bioguide: J000301
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: James Baird
+- name: James R. Baird
   party: minority
   rank: 8
   bioguide: B001307
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
-  rank: 9
-  title: Ex Officio
-  bioguide: C001062
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 HSAG29:
@@ -947,7 +881,7 @@ HSAG29:
   bioguide: H001081
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: T.J. Cox
+- name: TJ Cox
   party: majority
   rank: 4
   bioguide: C001124
@@ -977,7 +911,7 @@ HSAG29:
   bioguide: P000610
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Salud Carbajal
+- name: Salud O. Carbajal
   party: majority
   rank: 9
   bioguide: C001112
@@ -987,13 +921,6 @@ HSAG29:
   party: majority
   rank: 10
   bioguide: B001286
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: Collin C. Peterson
-  party: majority
-  rank: 11
-  title: Ex Officio
-  bioguide: P000258
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
 - name: David Rouzer
@@ -1051,13 +978,10 @@ HSAG29:
   bioguide: H001088
   start_date: '2019-02-06'
   source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
-- name: K. Michael Conaway
-  party: minority
-  rank: 10
-  title: Ex Officio
-  bioguide: C001062
-  start_date: '2019-02-06'
-  source: https://agriculture.house.gov/press/PRArticle.aspx?NewsID=1365
+- name: Jimmy Panetta
+  party: majority
+  rank: 11
+  bioguide: P000613
 HSAP:
 - name: Kay Granger
   party: minority
@@ -1392,6 +1316,7 @@ HSAP01:
   rank: 2
   bioguide: D000216
   source: https://appropriations.house.gov/subcommittees/agriculture-rural-development-food-and-drug-administration-and-related-agencies-116th
+  title: Vice Chair
 - name: Chellie Pingree
   party: majority
   rank: 3
@@ -1452,6 +1377,7 @@ HSAP02:
   party: majority
   rank: 2
   bioguide: M001143
+  title: Vice Chair
 - name: Tim Ryan
   party: majority
   rank: 3
@@ -1541,6 +1467,7 @@ HSAP04:
   party: majority
   rank: 2
   bioguide: L000551
+  title: Vice Chair
 - name: Grace Meng
   party: majority
   rank: 3
@@ -1586,6 +1513,7 @@ HSAP06:
   party: majority
   rank: 2
   bioguide: P000597
+  title: Vice Chair
 - name: Derek Kilmer
   party: majority
   rank: 3
@@ -1641,6 +1569,7 @@ HSAP07:
   party: majority
   rank: 2
   bioguide: R000486
+  title: Vice Chair
 - name: Barbara Lee
   party: majority
   rank: 3
@@ -1706,6 +1635,7 @@ HSAP10:
   party: majority
   rank: 2
   bioguide: V000108
+  title: Vice Chair
 - name: Debbie Wasserman Schultz
   party: majority
   rank: 3
@@ -1761,6 +1691,7 @@ HSAP15:
   party: majority
   rank: 2
   bioguide: C001063
+  title: Vice Chair
 - name: C. A. Dutch Ruppersberger
   party: majority
   rank: 3
@@ -1816,6 +1747,7 @@ HSAP18:
   party: majority
   rank: 2
   bioguide: B000490
+  title: Vice Chair
 - name: Ed Case
   party: majority
   rank: 3
@@ -1871,6 +1803,7 @@ HSAP19:
   party: majority
   rank: 2
   bioguide: C001090
+  title: Vice Chair
 - name: Grace Meng
   party: majority
   rank: 3
@@ -1945,12 +1878,13 @@ HSAP20:
 - name: David E. Price
   party: majority
   rank: 1
-  title: Ranking Member
+  title: Chair
   bioguide: P000523
 - name: Mike Quigley
   party: majority
   rank: 2
   bioguide: Q000023
+  title: Vice Chair
 - name: Katherine M. Clark
   party: majority
   rank: 3
@@ -1981,6 +1915,7 @@ HSAP23:
   party: majority
   rank: 2
   bioguide: S000248
+  title: Vice Chair
 - name: Matt Cartwright
   party: majority
   rank: 3
@@ -2036,6 +1971,7 @@ HSAP24:
   party: majority
   rank: 2
   bioguide: R000576
+  title: Vice Chair
 - name: Katherine M. Clark
   party: majority
   rank: 3
@@ -2430,19 +2366,20 @@ HSAS02:
   bioguide: G000574
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Gil Cisneros
+- name: Gilbert Ray Cisneros, Jr.
   party: majority
   rank: 4
   bioguide: C001123
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
 - name: Veronica Escobar
   party: majority
   rank: 5
   bioguide: E000299
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Deb Haaland
+- name: Debra A. Haaland
   party: majority
   rank: 6
   bioguide: H001080
@@ -2460,6 +2397,26 @@ HSAS02:
   bioguide: L000591
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+- name: Ralph Lee Abraham
+  party: minority
+  rank: 2
+  bioguide: A000374
+- name: Liz Cheney
+  party: minority
+  rank: 3
+  bioguide: C001109
+- name: Paul Mitchell
+  party: minority
+  rank: 4
+  bioguide: M001201
+- name: Jack Bergman
+  party: minority
+  rank: 5
+  bioguide: B001301
+- name: Matt Gaetz
+  party: minority
+  rank: 6
+  bioguide: G000578
 HSAS03:
 - name: Doug Lamborn
   party: minority
@@ -2487,6 +2444,7 @@ HSAS03:
   bioguide: K000394
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
 - name: Kendra S. Horn
   party: majority
   rank: 4
@@ -2523,12 +2481,40 @@ HSAS03:
   bioguide: E000299
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Deb Haaland
+- name: Debra A. Haaland
   party: majority
   rank: 10
   bioguide: H001080
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+- name: Austin Scott
+  party: minority
+  rank: 2
+  bioguide: S001189
+- name: Joe Wilson
+  party: minority
+  rank: 3
+  bioguide: W000795
+- name: Rob Bishop
+  party: minority
+  rank: 4
+  bioguide: B001250
+- name: Mike Rogers
+  party: minority
+  rank: 5
+  bioguide: R000575
+- name: Mo Brooks
+  party: minority
+  rank: 6
+  bioguide: B001274
+- name: Elise M. Stefanik
+  party: minority
+  rank: 7
+  bioguide: S001196
+- name: Jack Bergman
+  party: minority
+  rank: 8
+  bioguide: B001301
 HSAS25:
 - name: Vicky Hartzler
   party: minority
@@ -2586,6 +2572,7 @@ HSAS25:
   bioguide: T000484
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
 - name: Mikie Sherrill
   party: majority
   rank: 9
@@ -2598,12 +2585,44 @@ HSAS25:
   bioguide: H001087
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Jared Golden
+- name: Jared F. Golden
   party: majority
   rank: 11
   bioguide: G000592
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+- name: Paul Cook
+  party: minority
+  rank: 2
+  bioguide: C001094
+- name: Matt Gaetz
+  party: minority
+  rank: 3
+  bioguide: G000578
+- name: Don Bacon
+  party: minority
+  rank: 4
+  bioguide: B001298
+- name: Jim Banks
+  party: minority
+  rank: 5
+  bioguide: B001299
+- name: Paul Mitchell
+  party: minority
+  rank: 6
+  bioguide: M001201
+- name: Michael R. Turner
+  party: minority
+  rank: 7
+  bioguide: T000463
+- name: Doug Lamborn
+  party: minority
+  rank: 8
+  bioguide: L000564
+- name: Robert J. Wittman
+  party: minority
+  rank: 9
+  bioguide: W000804
 HSAS26:
 - name: Elise M. Stefanik
   party: minority
@@ -2673,6 +2692,7 @@ HSAS26:
   bioguide: C001121
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
 - name: Elissa Slotkin
   party: majority
   rank: 11
@@ -2685,6 +2705,42 @@ HSAS26:
   bioguide: T000482
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+- name: Sam Graves
+  party: minority
+  rank: 2
+  bioguide: G000546
+- name: Ralph Lee Abraham
+  party: minority
+  rank: 3
+  bioguide: A000374
+- name: K. Michael Conaway
+  party: minority
+  rank: 4
+  bioguide: C001062
+- name: Austin Scott
+  party: minority
+  rank: 5
+  bioguide: S001189
+- name: Scott DesJarlais
+  party: minority
+  rank: 6
+  bioguide: D000616
+- name: Mike Gallagher
+  party: minority
+  rank: 7
+  bioguide: G000579
+- name: Michael Waltz
+  party: minority
+  rank: 8
+  bioguide: W000823
+- name: Don Bacon
+  party: minority
+  rank: 9
+  bioguide: B001298
+- name: Jim Banks
+  party: minority
+  rank: 10
+  bioguide: B001299
 HSAS28:
 - name: Robert J. Wittman
   party: minority
@@ -2728,7 +2784,7 @@ HSAS28:
   bioguide: V000132
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Gil Cisneros
+- name: Gilbert Ray Cisneros, Jr.
   party: majority
   rank: 7
   bioguide: C001123
@@ -2746,7 +2802,7 @@ HSAS28:
   bioguide: H001087
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
-- name: Jared Golden
+- name: Jared F. Golden
   party: majority
   rank: 10
   bioguide: G000592
@@ -2758,6 +2814,39 @@ HSAS28:
   bioguide: L000591
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
+- name: K. Michael Conaway
+  party: minority
+  rank: 2
+  bioguide: C001062
+- name: Mike Gallagher
+  party: minority
+  rank: 3
+  bioguide: G000579
+- name: Jack Bergman
+  party: minority
+  rank: 4
+  bioguide: B001301
+- name: Michael Waltz
+  party: minority
+  rank: 5
+  bioguide: W000823
+- name: Vicky Hartzler
+  party: minority
+  rank: 6
+  bioguide: H001053
+- name: Paul Cook
+  party: minority
+  rank: 7
+  bioguide: C001094
+- name: Bradley Byrne
+  party: minority
+  rank: 8
+  bioguide: B001289
+- name: Trent Kelly
+  party: minority
+  rank: 9
+  bioguide: K000388
 HSAS29:
 - name: Michael R. Turner
   party: minority
@@ -2827,6 +2916,35 @@ HSAS29:
   bioguide: H001083
   start_date: '2019-01-23'
   source: https://armedservices.house.gov/press-releases?ID=490A6B02-9901-4575-8E4C-5DD946EF5E78
+  title: Vice Chair
+- name: Joe Wilson
+  party: minority
+  rank: 2
+  bioguide: W000795
+- name: Rob Bishop
+  party: minority
+  rank: 3
+  bioguide: B001250
+- name: Mike Rogers
+  party: minority
+  rank: 4
+  bioguide: R000575
+- name: Mo Brooks
+  party: minority
+  rank: 5
+  bioguide: B001274
+- name: Bradley Byrne
+  party: minority
+  rank: 6
+  bioguide: B001289
+- name: Scott DesJarlais
+  party: minority
+  rank: 7
+  bioguide: D000616
+- name: Liz Cheney
+  party: minority
+  rank: 8
+  bioguide: C001109
 HSBA:
 - name: Patrick T. McHenry
   party: minority
@@ -3205,6 +3323,90 @@ HSBA04:
   bioguide: C001049
   start_date: '2019-01-24'
   source: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401732
+- name: Nydia M. Velázquez
+  party: majority
+  rank: 2
+  bioguide: V000081
+- name: Emanuel Cleaver
+  party: majority
+  rank: 3
+  bioguide: C001061
+- name: Brad Sherman
+  party: majority
+  rank: 4
+  bioguide: S000344
+- name: Joyce Beatty
+  party: majority
+  rank: 5
+  bioguide: B001281
+- name: Al Green
+  party: majority
+  rank: 6
+  bioguide: G000553
+- name: Vicente Gonzalez
+  party: majority
+  rank: 7
+  bioguide: G000581
+- name: Carolyn B. Maloney
+  party: majority
+  rank: 8
+  bioguide: M000087
+- name: Denny Heck
+  party: majority
+  rank: 9
+  bioguide: H001064
+- name: Juan Vargas
+  party: majority
+  rank: 10
+  bioguide: V000130
+- name: Al Lawson, Jr.
+  party: majority
+  rank: 11
+  bioguide: L000586
+- name: Rashida Tlaib
+  party: majority
+  rank: 12
+  bioguide: T000481
+- name: Cynthia Axne
+  party: majority
+  rank: 13
+  bioguide: A000378
+- name: Blaine Luetkemeyer
+  party: minority
+  rank: 2
+  bioguide: L000569
+- name: Bill Huizenga
+  party: minority
+  rank: 3
+  bioguide: H001058
+- name: Scott R. Tipton
+  party: minority
+  rank: 4
+  bioguide: T000470
+- name: Lee M. Zeldin
+  party: minority
+  rank: 5
+  bioguide: Z000017
+- name: David Kustoff
+  party: minority
+  rank: 6
+  bioguide: K000392
+- name: Anthony Gonzalez
+  party: minority
+  rank: 7
+  bioguide: G000588
+- name: John W. Rose
+  party: minority
+  rank: 8
+  bioguide: R000612
+- name: Bryan Steil
+  party: minority
+  rank: 9
+  bioguide: S001213
+- name: Lance Gooden
+  party: minority
+  rank: 10
+  bioguide: G000589
 HSBA09:
 - name: Andy Barr
   party: minority
@@ -3220,6 +3422,66 @@ HSBA09:
   bioguide: G000553
   start_date: '2019-01-24'
   source: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401732
+- name: Joyce Beatty
+  party: majority
+  rank: 2
+  bioguide: B001281
+- name: Stephen F. Lynch
+  party: majority
+  rank: 3
+  bioguide: L000562
+- name: Nydia M. Velázquez
+  party: majority
+  rank: 4
+  bioguide: V000081
+- name: Ed Perlmutter
+  party: majority
+  rank: 5
+  bioguide: P000593
+- name: Rashida Tlaib
+  party: majority
+  rank: 6
+  bioguide: T000481
+- name: Sean Casten
+  party: majority
+  rank: 7
+  bioguide: C001117
+- name: Madeleine Dean
+  party: majority
+  rank: 8
+  bioguide: D000631
+- name: Sylvia R. Garcia
+  party: majority
+  rank: 9
+  bioguide: G000587
+- name: Dean Phillips
+  party: majority
+  rank: 10
+  bioguide: P000616
+- name: Bill Posey
+  party: minority
+  rank: 2
+  bioguide: P000599
+- name: Lee M. Zeldin
+  party: minority
+  rank: 3
+  bioguide: Z000017
+- name: Barry Loudermilk
+  party: minority
+  rank: 4
+  bioguide: L000583
+- name: Warren Davidson
+  party: minority
+  rank: 5
+  bioguide: D000626
+- name: John W. Rose
+  party: minority
+  rank: 6
+  bioguide: R000612
+- name: Bryan Steil
+  party: minority
+  rank: 7
+  bioguide: S001213
 HSBA15:
 - name: Blaine Luetkemeyer
   party: minority
@@ -3235,6 +3497,90 @@ HSBA15:
   bioguide: M001137
   start_date: '2019-01-24'
   source: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401732
+- name: David Scott
+  party: majority
+  rank: 2
+  bioguide: S001157
+- name: Nydia M. Velázquez
+  party: majority
+  rank: 3
+  bioguide: V000081
+- name: Wm. Lacy Clay
+  party: majority
+  rank: 4
+  bioguide: C001049
+- name: Denny Heck
+  party: majority
+  rank: 5
+  bioguide: H001064
+- name: Bill Foster
+  party: majority
+  rank: 6
+  bioguide: F000454
+- name: Al Lawson, Jr.
+  party: majority
+  rank: 7
+  bioguide: L000586
+- name: Rashida Tlaib
+  party: majority
+  rank: 8
+  bioguide: T000481
+- name: Katie Porter
+  party: majority
+  rank: 9
+  bioguide: P000618
+- name: Ayanna Pressley
+  party: majority
+  rank: 10
+  bioguide: P000617
+- name: Ben McAdams
+  party: majority
+  rank: 11
+  bioguide: M001209
+- name: Alexandria Ocasio-Cortez
+  party: majority
+  rank: 12
+  bioguide: O000172
+- name: Jennifer Wexton
+  party: majority
+  rank: 13
+  bioguide: W000825
+- name: Frank D. Lucas
+  party: minority
+  rank: 2
+  bioguide: L000491
+- name: Bill Posey
+  party: minority
+  rank: 3
+  bioguide: P000599
+- name: Andy Barr
+  party: minority
+  rank: 4
+  bioguide: B001282
+- name: Scott R. Tipton
+  party: minority
+  rank: 5
+  bioguide: T000470
+- name: Roger Williams
+  party: minority
+  rank: 6
+  bioguide: W000816
+- name: Barry Loudermilk
+  party: minority
+  rank: 7
+  bioguide: L000583
+- name: Ted Budd
+  party: minority
+  rank: 8
+  bioguide: B001305
+- name: David Kustoff
+  party: minority
+  rank: 9
+  bioguide: K000392
+- name: Denver Riggleman
+  party: minority
+  rank: 10
+  bioguide: R000611
 HSBA16:
 - name: Bill Huizenga
   party: minority
@@ -3250,6 +3596,94 @@ HSBA16:
   bioguide: M000087
   start_date: '2019-01-24'
   source: https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401732
+- name: Brad Sherman
+  party: majority
+  rank: 2
+  bioguide: S000344
+- name: David Scott
+  party: majority
+  rank: 3
+  bioguide: S001157
+- name: James A. Himes
+  party: majority
+  rank: 4
+  bioguide: H001047
+- name: Bill Foster
+  party: majority
+  rank: 5
+  bioguide: F000454
+- name: Gregory W. Meeks
+  party: majority
+  rank: 6
+  bioguide: M001137
+- name: Juan Vargas
+  party: majority
+  rank: 7
+  bioguide: V000130
+- name: Josh Gottheimer
+  party: majority
+  rank: 8
+  bioguide: G000583
+- name: Vicente Gonzalez
+  party: majority
+  rank: 9
+  bioguide: G000581
+- name: Michael F. Q. San Nicolas
+  party: majority
+  rank: 10
+  bioguide: S001204
+- name: Katie Porter
+  party: majority
+  rank: 11
+  bioguide: P000618
+- name: Cynthia Axne
+  party: majority
+  rank: 12
+  bioguide: A000378
+- name: Sean Casten
+  party: majority
+  rank: 13
+  bioguide: C001117
+- name: Alexandria Ocasio-Cortez
+  party: majority
+  rank: 14
+  bioguide: O000172
+- name: Peter T. King
+  party: minority
+  rank: 2
+  bioguide: K000210
+- name: Sean P. Duffy
+  party: minority
+  rank: 3
+  bioguide: D000614
+- name: Steve Stivers
+  party: minority
+  rank: 4
+  bioguide: S001187
+- name: Ann Wagner
+  party: minority
+  rank: 5
+  bioguide: W000812
+- name: J. French Hill
+  party: minority
+  rank: 6
+  bioguide: H001072
+- name: Tom Emmer
+  party: minority
+  rank: 7
+  bioguide: E000294
+- name: Alexander X. Mooney
+  party: minority
+  rank: 8
+  bioguide: M001195
+- name: Warren Davidson
+  party: minority
+  rank: 9
+  bioguide: D000626
+- name: Trey Hollingsworth
+  party: minority
+  rank: 10
+  bioguide: H001074
 HSBA20:
 - name: Steve Stivers
   party: minority
@@ -3832,7 +4266,7 @@ HSED02:
   bioguide: T000479
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: Steven C. Watkins
+- name: Steve Watkins
   party: minority
   rank: 8
   bioguide: W000824
@@ -3865,67 +4299,67 @@ HSED02:
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Joe Courtney
   party: majority
-  rank: 2
+  rank: 8
   bioguide: C001069
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Marcia L. Fudge
   party: majority
-  rank: 3
+  rank: 9
   bioguide: F000455
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Donald Norcross
   party: majority
-  rank: 4
+  rank: 2
   bioguide: N000188
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Joseph D. Morelle
   party: majority
-  rank: 5
+  rank: 3
   bioguide: M001206
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Susan Wild
   party: majority
-  rank: 5
+  rank: 4
   bioguide: W000826
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Josh Harder
   party: majority
-  rank: 7
+  rank: 10
   bioguide: H001090
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Lucy McBath
   party: majority
-  rank: 8
+  rank: 5
   bioguide: M001208
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Lauren Underwood
   party: majority
-  rank: 9
+  rank: 6
   bioguide: U000040
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Donna E. Shalala
   party: majority
-  rank: 10
+  rank: 11
   bioguide: S001206
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Andy Levin
   party: majority
-  rank: 11
+  rank: 12
   bioguide: L000592
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Haley M. Stevens
   party: majority
-  rank: 12
+  rank: 7
   bioguide: S001215
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
@@ -3956,20 +4390,20 @@ HSED10:
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Mark DeSaulnier
-  party: minority
-  rank: 3
+  party: majority
+  rank: 2
   bioguide: D000623
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Ben Cline
   party: minority
-  rank: 15
+  rank: 4
   bioguide: C001118
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Ron Wright
   party: minority
-  rank: 19
+  rank: 5
   bioguide: W000827
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
@@ -3982,7 +4416,7 @@ HSED10:
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Mark Takano
   party: majority
-  rank: 2
+  rank: 3
   bioguide: T000472
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
@@ -4043,8 +4477,8 @@ HSED13:
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Gregorio Kilili Camacho Sablan
-  party: minority
-  rank: 4
+  party: majority
+  rank: 13
   bioguide: S001177
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
@@ -4078,7 +4512,7 @@ HSED13:
   bioguide: F000469
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: Steven C. Watkins
+- name: Steve Watkins
   party: minority
   rank: 10
   bioguide: W000824
@@ -4090,7 +4524,7 @@ HSED13:
   bioguide: M001204
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: William Timmons
+- name: William R. Timmons IV
   party: minority
   rank: 12
   bioguide: T000480
@@ -4105,85 +4539,85 @@ HSED13:
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Raúl M. Grijalva
   party: majority
-  rank: 2
+  rank: 12
   bioguide: G000551
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Joe Courtney
   party: majority
-  rank: 3
+  rank: 2
   bioguide: C001069
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Suzanne Bonamici
   party: majority
-  rank: 5
+  rank: 14
   bioguide: B001278
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Mark Takano
   party: majority
-  rank: 6
+  rank: 3
   bioguide: T000472
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Alma S. Adams
   party: majority
-  rank: 7
+  rank: 15
   bioguide: A000370
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Donald Norcross
   party: majority
-  rank: 8
+  rank: 16
   bioguide: N000188
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Pramila Jayapal
   party: majority
-  rank: 9
+  rank: 4
   bioguide: J000298
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Josh Harder
   party: majority
-  rank: 10
+  rank: 5
   bioguide: H001090
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Andy Levin
   party: majority
-  rank: 11
+  rank: 6
   bioguide: L000592
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Ilhan Omar
   party: majority
-  rank: 12
+  rank: 7
   bioguide: O000173
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: David J. Trone
   party: majority
-  rank: 13
+  rank: 8
   bioguide: T000483
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Susie Lee
   party: majority
-  rank: 14
+  rank: 9
   bioguide: L000590
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Joaquin Castro
   party: majority
-  rank: 15
+  rank: 11
   bioguide: C001091
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
 - name: Lori Trahan
   party: majority
-  rank: 16
+  rank: 10
   bioguide: T000482
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
@@ -4213,7 +4647,7 @@ HSED14:
   bioguide: T000479
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
-- name: William Timmons
+- name: William R. Timmons IV
   party: minority
   rank: 5
   bioguide: T000480
@@ -4622,7 +5056,7 @@ HSFA05:
   bioguide: L000592
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
-- name: Abigail Spanberger
+- name: Abigail Davis Spanberger
   party: majority
   rank: 7
   bioguide: S001209
@@ -4759,7 +5193,7 @@ HSFA13:
   bioguide: R000610
   start_date: '2019-01-29'
   source: https://republicans-foreignaffairs.house.gov/press-release/mccaul-announces-republican-subcommittee-leadership-and-membership-rosters-at-116th-committee-organizational-meeting/
-- name: Steven C. Watkins
+- name: Steve Watkins
   party: minority
   rank: 8
   bioguide: W000824
@@ -4790,7 +5224,7 @@ HSFA13:
   bioguide: L000582
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
-- name: Colin Allred
+- name: Colin Z. Allred
   party: majority
   rank: 5
   bioguide: A000376
@@ -4895,7 +5329,7 @@ HSFA14:
   bioguide: K000375
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
-- name: Abigail Spanberger
+- name: Abigail Davis Spanberger
   party: majority
   rank: 2
   bioguide: S001209
@@ -4927,34 +5361,38 @@ HSFA14:
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: Dina Titus
   party: majority
-  rank: 7
+  rank: 8
   bioguide: T000468
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: Susan Wild
   party: majority
-  rank: 8
+  rank: 9
   bioguide: W000826
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: David J. Trone
   party: majority
-  rank: 9
+  rank: 10
   bioguide: T000483
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: Jim Costa
   party: majority
-  rank: 10
+  rank: 11
   bioguide: C001059
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: Vicente Gonzalez
   party: majority
-  rank: 11
+  rank: 12
   bioguide: G000581
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
+- name: Joaquin Castro
+  party: majority
+  rank: 7
+  bioguide: C001091
 HSFA16:
 - name: Christopher H. Smith
   party: minority
@@ -4983,7 +5421,7 @@ HSFA16:
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
 - name: F. James Sensenbrenner, Jr.
-  party: majority
+  party: minority
   rank: 2
   bioguide: S000244
   start_date: '2019-01-29'
@@ -5885,6 +6323,41 @@ HSHM05:
   bioguide: R000613
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Sheila Jackson Lee
+  party: majority
+  rank: 2
+  bioguide: J000032
+- name: James R. Langevin
+  party: majority
+  rank: 3
+  bioguide: L000559
+- name: Elissa Slotkin
+  party: majority
+  rank: 4
+  bioguide: S001208
+- name: Bennie G. Thompson
+  party: majority
+  rank: 5
+  bioguide: T000193
+  title: Ex Officio
+- name: Mark Walker
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000819
+- name: Peter T. King
+  party: minority
+  rank: 2
+  bioguide: K000210
+- name: Mark E. Green
+  party: minority
+  rank: 3
+  bioguide: G000590
+- name: Mike Rogers
+  party: minority
+  rank: 4
+  bioguide: R000575
+  title: Ex Officio
 HSHM07:
 - name: J. Luis Correa
   party: majority
@@ -5893,6 +6366,53 @@ HSHM07:
   bioguide: C001110
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Emanuel Cleaver
+  party: majority
+  rank: 2
+  bioguide: C001061
+- name: Dina Titus
+  party: majority
+  rank: 3
+  bioguide: T000468
+- name: Bonnie Watson Coleman
+  party: majority
+  rank: 4
+  bioguide: W000822
+- name: Nanette Diaz Barragán
+  party: majority
+  rank: 5
+  bioguide: B001300
+- name: Val Butler Demings
+  party: majority
+  rank: 6
+  bioguide: D000627
+- name: Bennie G. Thompson
+  party: majority
+  rank: 7
+  bioguide: T000193
+  title: Ex Officio
+- name: Debbie Lesko
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: L000589
+- name: John Katko
+  party: minority
+  rank: 2
+  bioguide: K000386
+- name: John Ratcliffe
+  party: minority
+  rank: 3
+  bioguide: R000601
+- name: Mark E. Green
+  party: minority
+  rank: 4
+  bioguide: G000590
+- name: Mike Rogers
+  party: minority
+  rank: 5
+  bioguide: R000575
+  title: Ex Officio
 HSHM08:
 - name: Cedric L. Richmond
   party: majority
@@ -5901,6 +6421,53 @@ HSHM08:
   bioguide: R000588
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Sheila Jackson Lee
+  party: majority
+  rank: 2
+  bioguide: J000032
+- name: James R. Langevin
+  party: majority
+  rank: 3
+  bioguide: L000559
+- name: Kathleen M. Rice
+  party: majority
+  rank: 4
+  bioguide: R000602
+- name: Lauren Underwood
+  party: majority
+  rank: 5
+  bioguide: U000040
+- name: Elissa Slotkin
+  party: majority
+  rank: 6
+  bioguide: S001208
+- name: Bennie G. Thompson
+  party: majority
+  rank: 7
+  bioguide: T000193
+  title: Ex Officio
+- name: John Katko
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000386
+- name: John Ratcliffe
+  party: minority
+  rank: 2
+  bioguide: R000601
+- name: Mark Walker
+  party: minority
+  rank: 3
+  bioguide: W000819
+- name: Van Taylor
+  party: minority
+  rank: 4
+  bioguide: T000479
+- name: Mike Rogers
+  party: minority
+  rank: 5
+  bioguide: R000575
+  title: Ex Officio
 HSHM09:
 - name: Xochitl Torres Small
   party: majority
@@ -5909,6 +6476,41 @@ HSHM09:
   bioguide: T000484
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Dina Titus
+  party: majority
+  rank: 2
+  bioguide: T000468
+- name: Bonnie Watson Coleman
+  party: majority
+  rank: 3
+  bioguide: W000822
+- name: Nanette Diaz Barragán
+  party: majority
+  rank: 4
+  bioguide: B001300
+- name: Bennie G. Thompson
+  party: majority
+  rank: 5
+  bioguide: T000193
+  title: Ex Officio
+- name: Dan Crenshaw
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001120
+- name: Clay Higgins
+  party: minority
+  rank: 2
+  bioguide: H001077
+- name: Van Taylor
+  party: minority
+  rank: 3
+  bioguide: T000479
+- name: Mike Rogers
+  party: minority
+  rank: 4
+  bioguide: R000575
+  title: Ex Officio
 HSHM11:
 - name: Kathleen M. Rice
   party: majority
@@ -5917,6 +6519,53 @@ HSHM11:
   bioguide: R000602
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Donald M. Payne, Jr.
+  party: majority
+  rank: 2
+  bioguide: P000604
+- name: J. Luis Correa
+  party: majority
+  rank: 3
+  bioguide: C001110
+- name: Xochitl Torres Small
+  party: majority
+  rank: 4
+  bioguide: T000484
+- name: Al Green
+  party: majority
+  rank: 5
+  bioguide: G000553
+- name: Yvette D. Clarke
+  party: majority
+  rank: 6
+  bioguide: C001067
+- name: Bennie G. Thompson
+  party: majority
+  rank: 7
+  bioguide: T000193
+  title: Ex Officio
+- name: Clay Higgins
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H001077
+- name: Debbie Lesko
+  party: minority
+  rank: 2
+  bioguide: L000589
+- name: John Joyce
+  party: minority
+  rank: 3
+  bioguide: J000302
+- name: Michael Guest
+  party: minority
+  rank: 4
+  bioguide: G000591
+- name: Mike Rogers
+  party: minority
+  rank: 5
+  bioguide: R000575
+  title: Ex Officio
 HSHM12:
 - name: Donald M. Payne, Jr.
   party: majority
@@ -5925,6 +6574,53 @@ HSHM12:
   bioguide: P000604
   start_date: '2019-01-29'
   source: https://homeland.house.gov/news/press-releases/chairman-thompson-announces-homeland-security-subcommittee-chairs
+- name: Cedric L. Richmond
+  party: majority
+  rank: 2
+  bioguide: R000588
+- name: Max Rose
+  party: majority
+  rank: 3
+  bioguide: R000613
+- name: Lauren Underwood
+  party: majority
+  rank: 4
+  bioguide: U000040
+- name: Al Green
+  party: majority
+  rank: 5
+  bioguide: G000553
+- name: Yvette D. Clarke
+  party: majority
+  rank: 6
+  bioguide: C001067
+- name: Bennie G. Thompson
+  party: majority
+  rank: 7
+  bioguide: T000193
+  title: Ex Officio
+- name: Peter T. King
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000210
+- name: John Joyce
+  party: minority
+  rank: 2
+  bioguide: J000302
+- name: Dan Crenshaw
+  party: minority
+  rank: 3
+  bioguide: C001120
+- name: Michael Guest
+  party: minority
+  rank: 4
+  bioguide: G000591
+- name: Mike Rogers
+  party: minority
+  rank: 5
+  bioguide: R000575
+  title: Ex Officio
 HSIF:
 - name: Greg Walden
   party: minority
@@ -6329,6 +7025,7 @@ HSIF02:
   bioguide: K000379
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Raul Ruiz
   party: majority
   rank: 4
@@ -6496,6 +7193,7 @@ HSIF03:
   bioguide: M001166
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Paul Tonko
   party: majority
   rank: 6
@@ -6687,6 +7385,7 @@ HSIF14:
   bioguide: B001251
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Doris O. Matsui
   party: majority
   rank: 4
@@ -6713,7 +7412,7 @@ HSIF14:
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
 - name: Kurt Schrader
   party: majority
-  rank: 8
+  rank: 11
   bioguide: S001180
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
@@ -6731,7 +7430,7 @@ HSIF14:
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
 - name: Peter Welch
   party: majority
-  rank: 11
+  rank: 8
   bioguide: W000800
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
@@ -6931,8 +7630,9 @@ HSIF16:
   bioguide: M001163
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Greg Walden
-  party: majority
+  party: minority
   rank: 13
   bioguide: W000791
   title: Ex Officio
@@ -7081,6 +7781,7 @@ HSIF17:
   bioguide: C001097
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Lisa Blunt Rochester
   party: majority
   rank: 8
@@ -7260,6 +7961,7 @@ HSIF18:
   bioguide: R000599
   start_date: '2019-01-15'
   source: https://energycommerce.house.gov/newsroom/press-releases/pallone-announces-energy-commerce-committee-roster-0
+  title: Vice Chair
 - name: Debbie Dingell
   party: majority
   rank: 13
@@ -7624,11 +8326,20 @@ HSII06:
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Raúl M. Grijalva
   party: majority
-  rank: 8
+  rank: 9
   bioguide: G000551
   title: Ex Officio
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
+- name: Matt Cartwright
+  party: majority
+  rank: 8
+  bioguide: C001090
+- name: Rob Bishop
+  party: minority
+  rank: 7
+  bioguide: B001250
+  title: Ex Officio
 HSII10:
 - name: Don Young
   party: minority
@@ -7692,12 +8403,13 @@ HSII10:
   bioguide: B001250
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: Deb Haaland
+- name: Debra A. Haaland
   party: majority
   rank: 1
   bioguide: H001080
   start_date: '2019-01-29'
   source: https://naturalresources.house.gov/media/press-releases/chair-ral-m-grijalva-announces-natural-resources-committee-democratic-leadership-team
+  title: Chair
 - name: Joe Neguse
   party: majority
   rank: 2
@@ -7748,7 +8460,7 @@ HSII10:
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Raúl M. Grijalva
   party: majority
-  rank: 10
+  rank: 12
   bioguide: G000551
   title: Ex Officio
   start_date: '2019-01-30'
@@ -7877,7 +8589,7 @@ HSII13:
   bioguide: L000579
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: T.J. Cox
+- name: TJ Cox
   party: majority
   rank: 10
   bioguide: C001124
@@ -7918,7 +8630,7 @@ HSII15:
   source: https://republicans-naturalresources.house.gov/newsroom/documentsingle.aspx?DocumentID=405998
 - name: Paul A. Gosar
   party: minority
-  rank: 3
+  rank: 2
   bioguide: G000565
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
@@ -7941,7 +8653,7 @@ HSII15:
   title: Ex Officio
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: T.J. Cox
+- name: TJ Cox
   party: majority
   rank: 1
   title: Chair
@@ -7960,7 +8672,7 @@ HSII15:
   bioguide: M001200
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: Michael San Nicolas
+- name: Michael F. Q. San Nicolas
   party: majority
   rank: 4
   bioguide: S001204
@@ -7968,7 +8680,7 @@ HSII15:
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Raúl M. Grijalva
   party: majority
-  rank: 5
+  rank: 6
   bioguide: G000551
   title: Ex Officio
   start_date: '2019-01-30'
@@ -7987,27 +8699,21 @@ HSII24:
   bioguide: Y000033
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: Robert J. Wittman
-  party: minority
-  rank: 3
-  bioguide: W000804
-  start_date: '2019-01-30'
-  source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Aumua Amata Coleman Radewagen
   party: minority
-  rank: 4
+  rank: 3
   bioguide: R000600
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: John R. Curtis
   party: minority
-  rank: 5
+  rank: 4
   bioguide: C001114
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Kevin Hern
   party: minority
-  rank: 6
+  rank: 5
   bioguide: H001082
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
@@ -8031,25 +8737,33 @@ HSII24:
   bioguide: S001200
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
-- name: Deb Haaland
+- name: Debra A. Haaland
   party: majority
-  rank: 3
+  rank: 4
   bioguide: H001080
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Ed Case
   party: majority
-  rank: 4
+  rank: 5
   bioguide: C001055
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Raúl M. Grijalva
   party: majority
-  rank: 5
+  rank: 9
   bioguide: G000551
   title: Ex Officio
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
+- name: Michael F. Q. San Nicolas
+  party: majority
+  rank: 3
+  bioguide: S001204
+- name: Matt Cartwright
+  party: majority
+  rank: 6
+  bioguide: C001090
 HSJU:
 - name: Doug Collins
   party: minority
@@ -9237,6 +9951,128 @@ HSPW02:
   bioguide: N000179
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: Debbie Mucarsel-Powell
+  party: majority
+  rank: 2
+  bioguide: M001207
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 3
+  bioguide: J000126
+- name: John Garamendi
+  party: majority
+  rank: 4
+  bioguide: G000559
+- name: Jared Huffman
+  party: majority
+  rank: 5
+  bioguide: H001068
+- name: Alan S. Lowenthal
+  party: majority
+  rank: 6
+  bioguide: L000579
+- name: Salud O. Carbajal
+  party: majority
+  rank: 7
+  bioguide: C001112
+- name: Adriano Espaillat
+  party: majority
+  rank: 8
+  bioguide: E000297
+- name: Lizzie Fletcher
+  party: majority
+  rank: 9
+  bioguide: F000468
+- name: Abby Finkenauer
+  party: majority
+  rank: 10
+  bioguide: F000467
+- name: Antonio Delgado
+  party: majority
+  rank: 11
+  bioguide: D000630
+- name: Chris Pappas
+  party: majority
+  rank: 12
+  bioguide: P000614
+- name: Angie Craig
+  party: majority
+  rank: 13
+  bioguide: C001119
+- name: Harley Rouda
+  party: majority
+  rank: 14
+  bioguide: R000616
+- name: Frederica S. Wilson
+  party: majority
+  rank: 15
+  bioguide: W000808
+- name: Stephen F. Lynch
+  party: majority
+  rank: 16
+  bioguide: L000562
+- name: Tom Malinowski
+  party: majority
+  rank: 17
+  bioguide: M001203
+- name: Peter A. DeFazio
+  party: majority
+  rank: 18
+  bioguide: D000191
+  title: Ex Officio
+- name: Daniel Webster
+  party: minority
+  rank: 2
+  bioguide: W000806
+- name: Thomas Massie
+  party: minority
+  rank: 3
+  bioguide: M001184
+- name: Rob Woodall
+  party: minority
+  rank: 4
+  bioguide: W000810
+- name: Brian Babin
+  party: minority
+  rank: 5
+  bioguide: B001291
+- name: Garret Graves
+  party: minority
+  rank: 6
+  bioguide: G000577
+- name: David Rouzer
+  party: minority
+  rank: 7
+  bioguide: R000603
+- name: Mike Bost
+  party: minority
+  rank: 8
+  bioguide: B001295
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 9
+  bioguide: W000814
+- name: Doug LaMalfa
+  party: minority
+  rank: 10
+  bioguide: L000578
+- name: Brian J. Mast
+  party: minority
+  rank: 11
+  bioguide: M001199
+- name: Gary J. Palmer
+  party: minority
+  rank: 12
+  bioguide: P000609
+- name: Jenniffer González-Colón
+  party: minority
+  rank: 13
+  bioguide: G000582
+- name: Sam Graves
+  party: minority
+  rank: 14
+  bioguide: G000546
+  title: Ex Officio
 HSPW05:
 - name: Garret Graves
   party: minority
@@ -9252,6 +10088,156 @@ HSPW05:
   bioguide: L000560
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: André Carson
+  party: majority
+  rank: 2
+  bioguide: C001072
+- name: Stacey E. Plaskett
+  party: majority
+  rank: 3
+  bioguide: P000610
+- name: Stephen F. Lynch
+  party: majority
+  rank: 4
+  bioguide: L000562
+- name: Eleanor Holmes Norton
+  party: majority
+  rank: 5
+  bioguide: N000147
+- name: Daniel Lipinski
+  party: majority
+  rank: 6
+  bioguide: L000563
+- name: Steve Cohen
+  party: majority
+  rank: 7
+  bioguide: C001068
+- name: Henry C. "Hank" Johnson, Jr.
+  party: majority
+  rank: 8
+  bioguide: J000288
+- name: Dina Titus
+  party: majority
+  rank: 9
+  bioguide: T000468
+- name: Julia Brownley
+  party: majority
+  rank: 10
+  bioguide: B001285
+- name: Anthony G. Brown
+  party: majority
+  rank: 11
+  bioguide: B001304
+- name: Greg Stanton
+  party: majority
+  rank: 12
+  bioguide: S001211
+- name: Colin Z. Allred
+  party: majority
+  rank: 13
+  bioguide: A000376
+- name: Jesús G. "Chuy" García
+  party: majority
+  rank: 14
+  bioguide: G000586
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 15
+  bioguide: J000126
+- name: Sean Patrick Maloney
+  party: majority
+  rank: 16
+  bioguide: M001185
+- name: Donald M. Payne, Jr.
+  party: majority
+  rank: 17
+  bioguide: P000604
+- name: Sharice Davids
+  party: majority
+  rank: 18
+  bioguide: D000629
+- name: Angie Craig
+  party: majority
+  rank: 19
+  bioguide: C001119
+- name: Grace F. Napolitano
+  party: majority
+  rank: 20
+  bioguide: N000179
+- name: Salud O. Carbajal
+  party: majority
+  rank: 21
+  bioguide: C001112
+- name: Peter A. DeFazio
+  party: majority
+  rank: 22
+  bioguide: D000191
+  title: Ex Officio
+- name: Don Young
+  party: minority
+  rank: 2
+  bioguide: Y000033
+- name: Daniel Webster
+  party: minority
+  rank: 3
+  bioguide: W000806
+- name: Thomas Massie
+  party: minority
+  rank: 4
+  bioguide: M001184
+- name: Scott Perry
+  party: minority
+  rank: 5
+  bioguide: P000605
+- name: Rob Woodall
+  party: minority
+  rank: 6
+  bioguide: W000810
+- name: John Katko
+  party: minority
+  rank: 7
+  bioguide: K000386
+- name: David Rouzer
+  party: minority
+  rank: 8
+  bioguide: R000603
+- name: Lloyd Smucker
+  party: minority
+  rank: 9
+  bioguide: S001199
+- name: Paul Mitchell
+  party: minority
+  rank: 10
+  bioguide: M001201
+- name: Brian J. Mast
+  party: minority
+  rank: 11
+  bioguide: M001199
+- name: Mike Gallagher
+  party: minority
+  rank: 12
+  bioguide: G000579
+- name: Brian K. Fitzpatrick
+  party: minority
+  rank: 13
+  bioguide: F000466
+- name: Troy Balderson
+  party: minority
+  rank: 14
+  bioguide: B001306
+- name: Ross Spano
+  party: minority
+  rank: 15
+  bioguide: S001210
+- name: Pete Stauber
+  party: minority
+  rank: 16
+  bioguide: S001212
+- name: Sam Graves
+  party: minority
+  rank: 17
+  bioguide: G000546
+  title: Ex Officio
 HSPW07:
 - name: Bob Gibbs
   party: minority
@@ -9267,6 +10253,64 @@ HSPW07:
   bioguide: M001185
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: Elijah E. Cummings
+  party: majority
+  rank: 2
+  bioguide: C000984
+- name: Rick Larsen
+  party: majority
+  rank: 3
+  bioguide: L000560
+- name: Stacey E. Plaskett
+  party: majority
+  rank: 4
+  bioguide: P000610
+- name: John Garamendi
+  party: majority
+  rank: 5
+  bioguide: G000559
+- name: Alan S. Lowenthal
+  party: majority
+  rank: 6
+  bioguide: L000579
+- name: Anthony G. Brown
+  party: majority
+  rank: 7
+  bioguide: B001304
+- name: Chris Pappas
+  party: majority
+  rank: 8
+  bioguide: P000614
+- name: Peter A. DeFazio
+  party: majority
+  rank: 9
+  bioguide: D000191
+  title: Ex Officio
+- name: Don Young
+  party: minority
+  rank: 2
+  bioguide: Y000033
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 3
+  bioguide: W000814
+- name: Brian J. Mast
+  party: minority
+  rank: 4
+  bioguide: M001199
+- name: Mike Gallagher
+  party: minority
+  rank: 5
+  bioguide: G000579
+- name: Carol D. Miller
+  party: minority
+  rank: 6
+  bioguide: M001205
+- name: Sam Graves
+  party: minority
+  rank: 7
+  bioguide: G000546
+  title: Ex Officio
 HSPW12:
 - name: Rodney Davis
   party: minority
@@ -9282,6 +10326,224 @@ HSPW12:
   bioguide: N000147
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 2
+  bioguide: J000126
+- name: Steve Cohen
+  party: majority
+  rank: 3
+  bioguide: C001068
+- name: John Garamendi
+  party: majority
+  rank: 4
+  bioguide: G000559
+- name: Henry C. "Hank" Johnson, Jr.
+  party: majority
+  rank: 5
+  bioguide: J000288
+- name: Jared Huffman
+  party: majority
+  rank: 6
+  bioguide: H001068
+- name: Julia Brownley
+  party: majority
+  rank: 7
+  bioguide: B001285
+- name: Frederica S. Wilson
+  party: majority
+  rank: 8
+  bioguide: W000808
+- name: Alan S. Lowenthal
+  party: majority
+  rank: 9
+  bioguide: L000579
+- name: Mark DeSaulnier
+  party: majority
+  rank: 10
+  bioguide: D000623
+- name: Salud O. Carbajal
+  party: majority
+  rank: 11
+  bioguide: C001112
+- name: Anthony G. Brown
+  party: majority
+  rank: 12
+  bioguide: B001304
+- name: Adriano Espaillat
+  party: majority
+  rank: 13
+  bioguide: E000297
+- name: Tom Malinowski
+  party: majority
+  rank: 14
+  bioguide: M001203
+- name: Greg Stanton
+  party: majority
+  rank: 15
+  bioguide: S001211
+- name: Colin Z. Allred
+  party: majority
+  rank: 16
+  bioguide: A000376
+- name: Sharice Davids
+  party: majority
+  rank: 17
+  bioguide: D000629
+- name: Abby Finkenauer
+  party: majority
+  rank: 18
+  bioguide: F000467
+- name: Jesús G. "Chuy" García
+  party: majority
+  rank: 19
+  bioguide: G000586
+- name: Antonio Delgado
+  party: majority
+  rank: 20
+  bioguide: D000630
+- name: Chris Pappas
+  party: majority
+  rank: 21
+  bioguide: P000614
+- name: Angie Craig
+  party: majority
+  rank: 22
+  bioguide: C001119
+- name: Harley Rouda
+  party: majority
+  rank: 23
+  bioguide: R000616
+- name: Grace F. Napolitano
+  party: majority
+  rank: 24
+  bioguide: N000179
+- name: Albio Sires
+  party: majority
+  rank: 25
+  bioguide: S001165
+- name: Sean Patrick Maloney
+  party: majority
+  rank: 26
+  bioguide: M001185
+- name: Donald M. Payne, Jr.
+  party: majority
+  rank: 27
+  bioguide: P000604
+- name: Daniel Lipinski
+  party: majority
+  rank: 28
+  bioguide: L000563
+- name: Dina Titus
+  party: majority
+  rank: 29
+  bioguide: T000468
+- name: Stacey E. Plaskett
+  party: majority
+  rank: 30
+  bioguide: P000610
+- name: Peter A. DeFazio
+  party: majority
+  rank: 31
+  bioguide: D000191
+  title: Ex Officio
+- name: Don Young
+  party: minority
+  rank: 2
+  bioguide: Y000033
+- name: Eric A. "Rick" Crawford
+  party: minority
+  rank: 3
+  bioguide: C001087
+- name: Bob Gibbs
+  party: minority
+  rank: 4
+  bioguide: G000563
+- name: Daniel Webster
+  party: minority
+  rank: 5
+  bioguide: W000806
+- name: Thomas Massie
+  party: minority
+  rank: 6
+  bioguide: M001184
+- name: Mark Meadows
+  party: minority
+  rank: 7
+  bioguide: M001187
+- name: Rob Woodall
+  party: minority
+  rank: 8
+  bioguide: W000810
+- name: John Katko
+  party: minority
+  rank: 9
+  bioguide: K000386
+- name: Brian Babin
+  party: minority
+  rank: 10
+  bioguide: B001291
+- name: David Rouzer
+  party: minority
+  rank: 11
+  bioguide: R000603
+- name: Mike Bost
+  party: minority
+  rank: 12
+  bioguide: B001295
+- name: Doug LaMalfa
+  party: minority
+  rank: 13
+  bioguide: L000578
+- name: Bruce Westerman
+  party: minority
+  rank: 14
+  bioguide: W000821
+- name: Lloyd Smucker
+  party: minority
+  rank: 15
+  bioguide: S001199
+- name: Paul Mitchell
+  party: minority
+  rank: 16
+  bioguide: M001201
+- name: Mike Gallagher
+  party: minority
+  rank: 17
+  bioguide: G000579
+- name: Gary J. Palmer
+  party: minority
+  rank: 18
+  bioguide: P000609
+- name: Brian K. Fitzpatrick
+  party: minority
+  rank: 19
+  bioguide: F000466
+- name: Troy Balderson
+  party: minority
+  rank: 20
+  bioguide: B001306
+- name: Ross Spano
+  party: minority
+  rank: 21
+  bioguide: S001210
+- name: Pete Stauber
+  party: minority
+  rank: 22
+  bioguide: S001212
+- name: Carol D. Miller
+  party: minority
+  rank: 23
+  bioguide: M001205
+- name: Greg Pence
+  party: minority
+  rank: 24
+  bioguide: P000615
+- name: Sam Graves
+  party: minority
+  rank: 25
+  bioguide: G000546
+  title: Ex Officio
 HSPW13:
 - name: Mark Meadows
   party: minority
@@ -9297,6 +10559,60 @@ HSPW13:
   bioguide: T000468
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: Debbie Mucarsel-Powell
+  party: majority
+  rank: 2
+  bioguide: M001207
+- name: Sharice Davids
+  party: majority
+  rank: 3
+  bioguide: D000629
+- name: Eleanor Holmes Norton
+  party: majority
+  rank: 4
+  bioguide: N000147
+- name: Henry C. "Hank" Johnson, Jr.
+  party: majority
+  rank: 5
+  bioguide: J000288
+- name: John Garamendi
+  party: majority
+  rank: 6
+  bioguide: G000559
+- name: Anthony G. Brown
+  party: majority
+  rank: 7
+  bioguide: B001304
+- name: Lizzie Fletcher
+  party: majority
+  rank: 8
+  bioguide: F000468
+- name: Peter A. DeFazio
+  party: majority
+  rank: 9
+  bioguide: D000191
+  title: Ex Officio
+- name: Gary J. Palmer
+  party: minority
+  rank: 2
+  bioguide: P000609
+- name: Jenniffer González-Colón
+  party: minority
+  rank: 3
+  bioguide: G000582
+- name: Carol D. Miller
+  party: minority
+  rank: 4
+  bioguide: M001205
+- name: Greg Pence
+  party: minority
+  rank: 5
+  bioguide: P000615
+- name: Sam Graves
+  party: minority
+  rank: 6
+  bioguide: G000546
+  title: Ex Officio
 HSPW14:
 - name: Eric A. "Rick" Crawford
   party: minority
@@ -9312,6 +10628,136 @@ HSPW14:
   bioguide: L000563
   start_date: '2019-01-24'
   source: https://transportation.house.gov/news/press-releases/chairman-defazio-announces-subcommittee-chairs-for-the-116th-congress
+- name: Albio Sires
+  party: majority
+  rank: 2
+  bioguide: S001165
+- name: Donald M. Payne, Jr.
+  party: majority
+  rank: 3
+  bioguide: P000604
+- name: Lizzie Fletcher
+  party: majority
+  rank: 4
+  bioguide: F000468
+- name: Elijah E. Cummings
+  party: majority
+  rank: 5
+  bioguide: C000984
+- name: André Carson
+  party: majority
+  rank: 6
+  bioguide: C001072
+- name: Frederica S. Wilson
+  party: majority
+  rank: 7
+  bioguide: W000808
+- name: Mark DeSaulnier
+  party: majority
+  rank: 8
+  bioguide: D000623
+- name: Stephen F. Lynch
+  party: majority
+  rank: 9
+  bioguide: L000562
+- name: Tom Malinowski
+  party: majority
+  rank: 10
+  bioguide: M001203
+- name: Grace F. Napolitano
+  party: majority
+  rank: 11
+  bioguide: N000179
+- name: Steve Cohen
+  party: majority
+  rank: 12
+  bioguide: C001068
+- name: Jesús G. "Chuy" García
+  party: majority
+  rank: 13
+  bioguide: G000586
+- name: Eleanor Holmes Norton
+  party: majority
+  rank: 14
+  bioguide: N000147
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 15
+  bioguide: J000126
+- name: Alan S. Lowenthal
+  party: majority
+  rank: 16
+  bioguide: L000579
+- name: Colin Z. Allred
+  party: majority
+  rank: 17
+  bioguide: A000376
+- name: Angie Craig
+  party: majority
+  rank: 18
+  bioguide: C001119
+- name: Peter A. DeFazio
+  party: majority
+  rank: 19
+  bioguide: D000191
+  title: Ex Officio
+- name: Scott Perry
+  party: minority
+  rank: 2
+  bioguide: P000605
+- name: Rodney Davis
+  party: minority
+  rank: 3
+  bioguide: D000619
+- name: Brian Babin
+  party: minority
+  rank: 4
+  bioguide: B001291
+- name: Mike Bost
+  party: minority
+  rank: 5
+  bioguide: B001295
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 6
+  bioguide: W000814
+- name: Doug LaMalfa
+  party: minority
+  rank: 7
+  bioguide: L000578
+- name: Lloyd Smucker
+  party: minority
+  rank: 8
+  bioguide: S001199
+- name: Paul Mitchell
+  party: minority
+  rank: 9
+  bioguide: M001201
+- name: Brian K. Fitzpatrick
+  party: minority
+  rank: 10
+  bioguide: F000466
+- name: Troy Balderson
+  party: minority
+  rank: 11
+  bioguide: B001306
+- name: Ross Spano
+  party: minority
+  rank: 12
+  bioguide: S001210
+- name: Pete Stauber
+  party: minority
+  rank: 13
+  bioguide: S001212
+- name: Greg Pence
+  party: minority
+  rank: 14
+  bioguide: P000615
+- name: Sam Graves
+  party: minority
+  rank: 15
+  bioguide: G000546
+  title: Ex Officio
 HSRU:
 - name: James P. McGovern
   party: majority
@@ -9548,13 +10994,25 @@ HSSM23:
   bioguide: S001212
   start_date: '2019-02-04'
   source: https://republicans-smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=401235
-- name: Jared Golden
+- name: Jared F. Golden
   party: majority
   rank: 1
   title: Chair
   bioguide: G000592
   start_date: '2019-01-29'
   source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+- name: Marc A. Veasey
+  party: majority
+  rank: 2
+  bioguide: V000131
+- name: Jim Hagedorn
+  party: minority
+  rank: 2
+  bioguide: H001088
+- name: Troy Balderson
+  party: minority
+  rank: 3
+  bioguide: B001306
 HSSM24:
 - name: Ross Spano
   party: minority
@@ -9570,6 +11028,18 @@ HSSM24:
   bioguide: C001080
   start_date: '2019-01-29'
   source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+- name: Dwight Evans
+  party: majority
+  rank: 2
+  bioguide: E000296
+- name: Trent Kelly
+  party: minority
+  rank: 2
+  bioguide: K000388
+- name: Tim Burchett
+  party: minority
+  rank: 3
+  bioguide: B001309
 HSSM25:
 - name: John Joyce
   party: minority
@@ -9585,6 +11055,26 @@ HSSM25:
   bioguide: F000467
   start_date: '2019-01-29'
   source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+- name: Jared F. Golden
+  party: majority
+  rank: 2
+  bioguide: G000592
+- name: Jason Crow
+  party: majority
+  rank: 3
+  bioguide: C001121
+- name: Aumua Amata Coleman Radewagen
+  party: minority
+  rank: 2
+  bioguide: R000600
+- name: Trent Kelly
+  party: minority
+  rank: 3
+  bioguide: K000388
+- name: Jim Hagedorn
+  party: minority
+  rank: 4
+  bioguide: H001088
 HSSM27:
 - name: Kevin Hern
   party: minority
@@ -9600,6 +11090,38 @@ HSSM27:
   bioguide: K000394
   start_date: '2019-01-29'
   source: https://smallbusiness.house.gov/press-release/velazquez-announces-small-business-subcommittee-chairs
+- name: Sharice Davids
+  party: majority
+  rank: 2
+  bioguide: D000629
+- name: Bradley Scott Schneider
+  party: majority
+  rank: 3
+  bioguide: S001190
+- name: Adriano Espaillat
+  party: majority
+  rank: 4
+  bioguide: E000297
+- name: Antonio Delgado
+  party: majority
+  rank: 5
+  bioguide: D000630
+- name: Jason Crow
+  party: majority
+  rank: 6
+  bioguide: C001121
+- name: Ross Spano
+  party: minority
+  rank: 2
+  bioguide: S001210
+- name: Aumua Amata Coleman Radewagen
+  party: minority
+  rank: 3
+  bioguide: R000600
+- name: Pete Stauber
+  party: minority
+  rank: 4
+  bioguide: S001212
 HSSO:
 - name: Kenny Marchant
   party: minority
@@ -9939,6 +11461,37 @@ HSSY15:
   bioguide: F000454
   start_date: '2019-01-30'
   source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 9
+  bioguide: J000126
+  title: Ex Officio
+- name: James R. Baird
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001307
+- name: Roger W. Marshall
+  party: minority
+  rank: 2
+  bioguide: M001198
+- name: Neal P. Dunn
+  party: minority
+  rank: 3
+  bioguide: D000628
+- name: Troy Balderson
+  party: minority
+  rank: 4
+  bioguide: B001306
+- name: Anthony Gonzalez
+  party: minority
+  rank: 5
+  bioguide: G000588
+- name: Frank D. Lucas
+  party: minority
+  rank: 6
+  bioguide: L000491
+  title: Ex Officio
 HSSY16:
 - name: Kendra S. Horn
   party: majority
@@ -9989,6 +11542,37 @@ HSSY16:
   bioguide: W000825
   start_date: '2019-01-30'
   source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 9
+  bioguide: J000126
+  title: Ex Officio
+- name: Brian Babin
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001291
+- name: Mo Brooks
+  party: minority
+  rank: 2
+  bioguide: B001274
+- name: Bill Posey
+  party: minority
+  rank: 3
+  bioguide: P000599
+- name: Pete Olson
+  party: minority
+  rank: 4
+  bioguide: O000168
+- name: Michael Waltz
+  party: minority
+  rank: 5
+  bioguide: W000823
+- name: Frank D. Lucas
+  party: minority
+  rank: 6
+  bioguide: L000491
+  title: Ex Officio
 HSSY18:
 - name: Lizzie Fletcher
   party: majority
@@ -10039,6 +11623,33 @@ HSSY18:
   bioguide: B001292
   start_date: '2019-01-30'
   source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 9
+  bioguide: J000126
+  title: Ex Officio
+- name: Roger W. Marshall
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: M001198
+- name: Brian Babin
+  party: minority
+  rank: 2
+  bioguide: B001291
+- name: Anthony Gonzalez
+  party: minority
+  rank: 3
+  bioguide: G000588
+- name: James R. Baird
+  party: minority
+  rank: 4
+  bioguide: B001307
+- name: Frank D. Lucas
+  party: minority
+  rank: 6
+  bioguide: L000491
+  title: Ex Officio
 HSSY20:
 - name: Conor Lamb
   party: majority
@@ -10089,6 +11700,37 @@ HSSY20:
   bioguide: C001117
   start_date: '2019-01-30'
   source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 9
+  bioguide: J000126
+  title: Ex Officio
+- name: Randy K. Weber, Sr.
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000814
+- name: Andy Biggs
+  party: minority
+  rank: 2
+  bioguide: B001302
+- name: Neal P. Dunn
+  party: minority
+  rank: 3
+  bioguide: D000628
+- name: Ralph Norman
+  party: minority
+  rank: 4
+  bioguide: N000190
+- name: Michael Cloud
+  party: minority
+  rank: 5
+  bioguide: C001115
+- name: Frank D. Lucas
+  party: minority
+  rank: 6
+  bioguide: L000491
+  title: Ex Officio
 HSSY21:
 - name: Mikie Sherrill
   party: majority
@@ -10121,6 +11763,29 @@ HSSY21:
   bioguide: W000825
   start_date: '2019-01-30'
   source: https://science.house.gov/news/press-releases/science-committee-organizes-democratic-caucus-116th-congress
+- name: Eddie Bernice Johnson
+  party: majority
+  rank: 6
+  bioguide: J000126
+  title: Ex Officio
+- name: Ralph Norman
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: N000190
+- name: Andy Biggs
+  party: minority
+  rank: 2
+  bioguide: B001302
+- name: Michael Waltz
+  party: minority
+  rank: 3
+  bioguide: W000823
+- name: Frank D. Lucas
+  party: minority
+  rank: 4
+  bioguide: L000491
+  title: Ex Officio
 HSVR:
 - name: David P. Roe
   party: minority
@@ -10322,7 +11987,7 @@ HSVR03:
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
 - name: Mike Levin
   party: majority
-  rank: 5
+  rank: 3
   bioguide: L000593
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
@@ -10332,7 +11997,7 @@ HSVR03:
   bioguide: R000613
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
-- name: Gil Cisneros
+- name: Gilbert Ray Cisneros, Jr.
   party: majority
   rank: 6
   bioguide: C001123
@@ -10344,6 +12009,22 @@ HSVR03:
   bioguide: P000258
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Aumua Amata Coleman Radewagen
+  party: minority
+  rank: 2
+  bioguide: R000600
+- name: Andy Barr
+  party: minority
+  rank: 3
+  bioguide: B001282
+- name: Daniel Meuser
+  party: minority
+  rank: 4
+  bioguide: M001204
+- name: W. Gregory Steube
+  party: minority
+  rank: 5
+  bioguide: S001214
 HSVR08:
 - name: Jack Bergman
   party: minority
@@ -10371,7 +12052,7 @@ HSVR08:
   bioguide: R000613
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
-- name: Gil Cisneros
+- name: Gilbert Ray Cisneros, Jr.
   party: majority
   rank: 4
   bioguide: C001123
@@ -10383,6 +12064,18 @@ HSVR08:
   bioguide: P000258
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Aumua Amata Coleman Radewagen
+  party: minority
+  rank: 2
+  bioguide: R000600
+- name: Mike Bost
+  party: minority
+  rank: 3
+  bioguide: B001295
+- name: Chip Roy
+  party: minority
+  rank: 4
+  bioguide: R000614
 HSVR09:
 - name: Mike Bost
   party: minority
@@ -10398,7 +12091,7 @@ HSVR09:
   bioguide: L000591
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
-- name: Gil Cisneros
+- name: Gilbert Ray Cisneros, Jr.
   party: majority
   rank: 2
   bioguide: C001123
@@ -10410,7 +12103,7 @@ HSVR09:
   bioguide: S001177
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
-- name: Colin Allred
+- name: Colin Z. Allred
   party: majority
   rank: 4
   bioguide: A000376
@@ -10422,6 +12115,18 @@ HSVR09:
   bioguide: U000040
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Gus M. Bilirakis
+  party: minority
+  rank: 2
+  bioguide: B001257
+- name: Steve Watkins
+  party: minority
+  rank: 3
+  bioguide: W000824
+- name: W. Gregory Steube
+  party: minority
+  rank: 4
+  bioguide: S001214
 HSVR10:
 - name: Gus M. Bilirakis
   party: minority
@@ -10473,6 +12178,22 @@ HSVR10:
   bioguide: C001122
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Jack Bergman
+  party: minority
+  rank: 2
+  bioguide: B001301
+- name: Jim Banks
+  party: minority
+  rank: 3
+  bioguide: B001299
+- name: Andy Barr
+  party: minority
+  rank: 4
+  bioguide: B001282
+- name: Daniel Meuser
+  party: minority
+  rank: 5
+  bioguide: M001204
 HSVR11:
 - name: Jim Banks
   party: minority
@@ -10506,6 +12227,14 @@ HSVR11:
   bioguide: C001122
   start_date: '2019-01-31'
   source: https://veterans.house.gov/news/press-releases/chairman-takano-announces-vice-chair-subcommittee-assignments-116th-congress
+- name: Steve Watkins
+  party: minority
+  rank: 2
+  bioguide: W000824
+- name: Chip Roy
+  party: minority
+  rank: 3
+  bioguide: R000614
 HSWM:
 - name: Kevin Brady
   party: minority
@@ -10776,25 +12505,25 @@ HSWM01:
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Brian Higgins
   party: majority
-  rank: 4
+  rank: 7
   bioguide: H001038
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Daniel T. Kildee
   party: majority
-  rank: 5
+  rank: 4
   bioguide: K000380
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Brendan F. Boyle
   party: majority
-  rank: 6
+  rank: 5
   bioguide: B001296
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Bradley Scott Schneider
   party: majority
-  rank: 7
+  rank: 6
   bioguide: S001190
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
@@ -10857,13 +12586,13 @@ HSWM02:
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Earl Blumenauer
   party: majority
-  rank: 3
+  rank: 4
   bioguide: B000574
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Ron Kind
   party: majority
-  rank: 4
+  rank: 3
   bioguide: K000188
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
@@ -10929,12 +12658,6 @@ HSWM03:
   bioguide: E000298
   start_date: '2019-01-16'
   source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
-- name: Darin LaHood
-  party: minority
-  rank: 4
-  bioguide: L000585
-  start_date: '2019-01-16'
-  source: https://gop-waysandmeans.house.gov/brady-announces-ways-and-means-republican-subcommittee-leaders-for-116th-congress/
 - name: Danny K. Davis
   party: majority
   rank: 1
@@ -10944,13 +12667,13 @@ HSWM03:
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Judy Chu
   party: majority
-  rank: 2
+  rank: 3
   bioguide: C001080
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Terri A. Sewell
   party: majority
-  rank: 3
+  rank: 2
   bioguide: S001185
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
@@ -10978,6 +12701,10 @@ HSWM03:
   bioguide: G000585
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
+- name: Tom Reed
+  party: minority
+  rank: 4
+  bioguide: R000585
 HSWM04:
 - name: Vern Buchanan
   party: minority
@@ -11055,37 +12782,37 @@ HSWM04:
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Terri A. Sewell
   party: majority
-  rank: 6
+  rank: 9
   bioguide: S001185
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Suzan K. DelBene
   party: majority
-  rank: 7
+  rank: 10
   bioguide: D000617
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Donald S. Beyer, Jr.
   party: majority
-  rank: 8
+  rank: 11
   bioguide: B001292
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Daniel T. Kildee
   party: majority
-  rank: 9
+  rank: 6
   bioguide: K000380
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Jimmy Panetta
   party: majority
-  rank: 10
+  rank: 7
   bioguide: P000613
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Stephanie N. Murphy
   party: majority
-  rank: 11
+  rank: 8
   bioguide: M001202
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
@@ -11217,37 +12944,37 @@ HSWM06:
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Linda T. Sánchez
   party: majority
-  rank: 2
+  rank: 3
   bioguide: S001156
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Suzan K. DelBene
   party: majority
-  rank: 3
+  rank: 2
   bioguide: D000617
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Judy Chu
   party: majority
-  rank: 4
+  rank: 5
   bioguide: C001080
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Gwen Moore
   party: majority
-  rank: 5
+  rank: 6
   bioguide: M001160
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Brendan F. Boyle
   party: majority
-  rank: 6
+  rank: 7
   bioguide: B001296
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
 - name: Thomas R. Suozzi
   party: majority
-  rank: 7
+  rank: 4
   bioguide: S001201
   start_date: '2019-01-16'
   source: https://waysandmeans.house.gov/media-center/press-releases/neal-announces-ways-means-subcommittees-members-and-chairs
@@ -11949,27 +13676,22 @@ SSAF13:
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: John Hoeven
   party: majority
-  rank: 2
+  rank: 3
   bioguide: H001061
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Chuck Grassley
   party: majority
-  rank: 3
+  rank: 6
   bioguide: G000386
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
-- name: John Thune
-  party: majority
-  rank: 4
-  bioguide: T000250
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Cindy Hyde-Smith
   party: majority
-  rank: 5
+  rank: 4
   bioguide: H001079
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: David Perdue
   party: majority
-  rank: 6
+  rank: 5
   bioguide: P000612
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Pat Roberts
@@ -12000,16 +13722,18 @@ SSAF13:
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Debbie Stabenow
   party: minority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: S000770
-SSAF14:
 - name: Mitch McConnell
   party: majority
-  rank: 1
-  title: Chairman
+  rank: 2
   bioguide: M000355
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
+- name: Richard J. Durbin
+  party: minority
+  rank: 5
+  bioguide: D000563
+SSAF14:
 - name: John Boozman
   party: majority
   rank: 2
@@ -12017,7 +13741,7 @@ SSAF14:
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Chuck Grassley
   party: majority
-  rank: 3
+  rank: 5
   bioguide: G000386
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: David Perdue
@@ -12027,12 +13751,12 @@ SSAF14:
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Cindy Hyde-Smith
   party: majority
-  rank: 5
+  rank: 3
   bioguide: H001079
   source: https://www.agriculture.senate.gov/about/subcommittees/#risk
 - name: Pat Roberts
   party: majority
-  rank: 6
+  rank: 7
   title: Ex Officio
   bioguide: R000307
 - name: Michael F. Bennet
@@ -12054,35 +13778,40 @@ SSAF14:
   bioguide: C001070
 - name: Debbie Stabenow
   party: minority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: S000770
+- name: Mike Braun
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: B001310
+- name: Richard J. Durbin
+  party: minority
+  rank: 5
+  bioguide: D000563
+- name: John Thune
+  party: majority
+  rank: 6
+  bioguide: T000250
 SSAF15:
 - name: Joni Ernst
   party: majority
   rank: 1
   title: Chairman
   bioguide: E000295
-- name: John Boozman
-  party: majority
-  rank: 2
-  bioguide: B001236
 - name: John Hoeven
   party: majority
   rank: 3
   bioguide: H001061
 - name: John Thune
   party: majority
-  rank: 4
+  rank: 5
   bioguide: T000250
 - name: Deb Fischer
   party: majority
-  rank: 5
-  bioguide: F000463
-- name: Cindy Hyde-Smith
-  party: majority
   rank: 6
-  bioguide: H001079
+  bioguide: F000463
 - name: Pat Roberts
   party: majority
   rank: 7
@@ -12107,15 +13836,22 @@ SSAF15:
   bioguide: B001267
 - name: Debbie Stabenow
   party: minority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: S000770
-SSAF16:
-- name: David Perdue
+- name: Mitch McConnell
   party: majority
-  rank: 1
-  title: Chairman
-  bioguide: P000612
+  rank: 2
+  bioguide: M000355
+- name: Mike Braun
+  party: majority
+  rank: 4
+  bioguide: B001310
+- name: Richard J. Durbin
+  party: minority
+  rank: 5
+  bioguide: D000563
+SSAF16:
 - name: Mitch McConnell
   party: majority
   rank: 2
@@ -12134,8 +13870,9 @@ SSAF16:
   bioguide: E000295
 - name: Deb Fischer
   party: majority
-  rank: 6
+  rank: 1
   bioguide: F000463
+  title: Chairman
 - name: Pat Roberts
   party: majority
   rank: 7
@@ -12156,42 +13893,38 @@ SSAF16:
   bioguide: B000944
 - name: Kirsten E. Gillibrand
   party: minority
-  rank: 4
-  bioguide: G000555
-- name: Tina Smith
-  party: minority
   rank: 5
-  bioguide: S001203
+  bioguide: G000555
 - name: Debbie Stabenow
   party: minority
   rank: 6
   title: Ex Officio
   bioguide: S000770
+- name: Amy Klobuchar
+  party: minority
+  rank: 4
+  bioguide: K000367
+- name: John Thune
+  party: majority
+  rank: 6
+  bioguide: T000250
 SSAF17:
 - name: Deb Fischer
   party: majority
-  rank: 1
+  rank: 6
   title: Chairman
   bioguide: F000463
-- name: Mitch McConnell
-  party: majority
-  rank: 2
-  bioguide: M000355
 - name: Joni Ernst
   party: majority
-  rank: 3
+  rank: 2
   bioguide: E000295
 - name: Chuck Grassley
   party: majority
-  rank: 4
-  bioguide: G000386
-- name: John Thune
-  party: majority
   rank: 5
-  bioguide: T000250
+  bioguide: G000386
 - name: Pat Roberts
   party: majority
-  rank: 6
+  rank: 7
   title: Ex Officio
   bioguide: R000307
 - name: Kirsten E. Gillibrand
@@ -12213,9 +13946,26 @@ SSAF17:
   bioguide: C001070
 - name: Debbie Stabenow
   party: minority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: S000770
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001079
+- name: Mike Braun
+  party: majority
+  rank: 3
+  bioguide: B001310
+- name: David Perdue
+  party: majority
+  rank: 4
+  bioguide: P000612
+- name: Tina Smith
+  party: minority
+  rank: 5
+  bioguide: S001203
 SSAP:
 - name: Richard C. Shelby
   party: majority
@@ -13386,7 +15136,7 @@ SSAS13:
   bioguide: T000476
 - name: James M. Inhofe
   party: majority
-  rank: 6
+  rank: 7
   title: Ex Officio
   bioguide: I000024
 - name: Mazie K. Hirono
@@ -13415,6 +15165,10 @@ SSAS13:
   rank: 6
   title: Ex Officio
   bioguide: R000122
+- name: Josh Hawley
+  party: majority
+  rank: 6
+  bioguide: H001089
 SSAS14:
 - name: Tom Cotton
   party: majority
@@ -13435,19 +15189,19 @@ SSAS14:
   bioguide: S001198
 - name: Kevin Cramer
   party: majority
-  rank: 5
+  rank: 6
   bioguide: C001096
 - name: Martha McSally
   party: majority
-  rank: 6
+  rank: 7
   bioguide: M001197
 - name: Rick Scott
   party: majority
-  rank: 7
+  rank: 8
   bioguide: S001217
 - name: James M. Inhofe
   party: majority
-  rank: 8
+  rank: 5
   title: Ex Officio
   bioguide: I000024
 - name: Angus S. King, Jr.
@@ -13565,7 +15319,7 @@ SSAS16:
   bioguide: H001089
 - name: James M. Inhofe
   party: majority
-  rank: 6
+  rank: 7
   title: Ex Officio
   bioguide: I000024
 - name: Martin Heinrich
@@ -13591,7 +15345,7 @@ SSAS16:
   bioguide: J000300
 - name: Jack Reed
   party: minority
-  rank: 5
+  rank: 6
   title: Ex Officio
   bioguide: R000122
 SSAS17:
@@ -13980,6 +15734,7 @@ SSBK04:
   bioguide: W000805
   start_date: '2019-01-18'
   source: https://www.banking.senate.gov/newsroom/press/chairman-crapo-and-ranking-member-brown-announce-banking-subcommittee-assignments-for-the-116th-congress
+  title: Ranking Member
 - name: Elizabeth Warren
   party: minority
   rank: 6
@@ -14184,7 +15939,7 @@ SSBK08:
   source: https://www.banking.senate.gov/newsroom/press/chairman-crapo-and-ranking-member-brown-announce-banking-subcommittee-assignments-for-the-116th-congress
 - name: Doug Jones
   party: minority
-  rank: 9
+  rank: 8
   bioguide: J000300
   start_date: '2019-01-18'
   source: https://www.banking.senate.gov/newsroom/press/chairman-crapo-and-ranking-member-brown-announce-banking-subcommittee-assignments-for-the-116th-congress
@@ -15031,31 +16786,31 @@ SSCM26:
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Marsha Blackburn
   party: majority
-  rank: 2
+  rank: 8
   bioguide: B001243
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Roy Blunt
   party: majority
-  rank: 3
+  rank: 2
   bioguide: B000575
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Shelley Moore Capito
   party: majority
-  rank: 4
+  rank: 9
   bioguide: C001047
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Ted Cruz
   party: majority
-  rank: 5
+  rank: 3
   bioguide: C001098
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Deb Fischer
   party: majority
-  rank: 6
+  rank: 4
   bioguide: F000463
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
@@ -15067,37 +16822,37 @@ SSCM26:
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Ron Johnson
   party: majority
-  rank: 8
+  rank: 11
   bioguide: J000293
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Mike Lee
   party: majority
-  rank: 9
+  rank: 10
   bioguide: L000577
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Jerry Moran
   party: majority
-  rank: 10
+  rank: 5
   bioguide: M000934
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Rick Scott
   party: majority
-  rank: 11
+  rank: 13
   bioguide: S001217
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Dan Sullivan
   party: majority
-  rank: 12
+  rank: 6
   bioguide: S001198
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Todd Young
   party: majority
-  rank: 13
+  rank: 12
   bioguide: Y000064
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
@@ -15110,7 +16865,7 @@ SSCM26:
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Tammy Baldwin
   party: minority
-  rank: 2
+  rank: 7
   bioguide: B001230
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
@@ -15122,52 +16877,62 @@ SSCM26:
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Tammy Duckworth
   party: minority
-  rank: 4
+  rank: 8
   bioguide: D000622
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Amy Klobuchar
   party: minority
-  rank: 5
+  rank: 2
   bioguide: K000367
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Edward J. Markey
   party: minority
-  rank: 6
+  rank: 4
   bioguide: M000133
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Gary C. Peters
   party: minority
-  rank: 7
+  rank: 6
   bioguide: P000595
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Jacky Rosen
   party: minority
-  rank: 8
+  rank: 11
   bioguide: R000608
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Kyrsten Sinema
   party: minority
-  rank: 9
+  rank: 10
   bioguide: S001191
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Jon Tester
   party: minority
-  rank: 10
+  rank: 9
   bioguide: T000464
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Tom Udall
   party: minority
-  rank: 11
+  rank: 5
   bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Maria Cantwell
+  party: minority
+  rank: 12
+  title: Ex Officio
+  bioguide: C000127
+- name: Roger F. Wicker
+  party: majority
+  rank: 14
+  title: Ex Officio
+  bioguide: W000437
 SSEG:
 - name: Lisa Murkowski
   party: majority
@@ -15432,43 +17197,43 @@ SSEG03:
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Steve Daines
   party: majority
-  rank: 5
+  rank: 4
   bioguide: D000618
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Bill Cassidy
   party: majority
-  rank: 6
+  rank: 5
   bioguide: C001075
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cory Gardner
   party: majority
-  rank: 7
+  rank: 6
   bioguide: G000562
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Cindy Hyde-Smith
   party: majority
-  rank: 8
+  rank: 7
   bioguide: H001079
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Martha McSally
   party: majority
-  rank: 9
+  rank: 8
   bioguide: M001197
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: John Hoeven
   party: majority
-  rank: 10
+  rank: 9
   bioguide: H001061
   start_date: '2019-02-05'
   source: https://www.energy.senate.gov/public/index.cfm/republican-news?ID=C1777A5C-73BB-4A08-A9B3-6ABDFCFA40C3
 - name: Lisa Murkowski
   party: majority
-  rank: 11
+  rank: 10
   title: Ex Officio
   bioguide: M001153
   start_date: '2019-02-05'
@@ -15826,6 +17591,81 @@ SSEV08:
   bioguide: C001047
   start_date: '2019-01-28'
   source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
+- name: Benjamin L. Cardin
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C000141
+- name: James M. Inhofe
+  party: majority
+  rank: 2
+  bioguide: I000024
+- name: Bernard Sanders
+  party: minority
+  rank: 2
+  bioguide: S000033
+- name: Kevin Cramer
+  party: majority
+  rank: 3
+  bioguide: C001096
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 3
+  bioguide: W000802
+- name: Mike Braun
+  party: majority
+  rank: 4
+  bioguide: B001310
+- name: Jeff Merkley
+  party: minority
+  rank: 4
+  bioguide: M001176
+- name: Mike Rounds
+  party: majority
+  rank: 5
+  bioguide: R000605
+- name: Kirsten E. Gillibrand
+  party: minority
+  rank: 5
+  bioguide: G000555
+- name: Cory A. Booker
+  party: minority
+  rank: 6
+  bioguide: B001288
+- name: Dan Sullivan
+  party: majority
+  rank: 6
+  bioguide: S001198
+- name: Edward J. Markey
+  party: minority
+  rank: 7
+  bioguide: M000133
+- name: John Boozman
+  party: majority
+  rank: 7
+  bioguide: B001236
+- name: Roger F. Wicker
+  party: majority
+  rank: 8
+  bioguide: W000437
+- name: Chris Van Hollen
+  party: minority
+  rank: 8
+  bioguide: V000128
+- name: Thomas R. Carper
+  party: minority
+  rank: 9
+  title: Ex Officio
+  bioguide: C000174
+- name: Richard C. Shelby
+  party: majority
+  rank: 9
+  bioguide: S000320
+- name: John Barrasso
+  party: majority
+  rank: 10
+  title: Ex Officio
+  bioguide: B001261
 SSEV09:
 - name: Mike Rounds
   party: majority
@@ -15834,6 +17674,41 @@ SSEV09:
   bioguide: R000605
   start_date: '2019-01-28'
   source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
+- name: Cory A. Booker
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001288
+- name: James M. Inhofe
+  party: majority
+  rank: 2
+  bioguide: I000024
+- name: Kirsten E. Gillibrand
+  party: minority
+  rank: 2
+  bioguide: G000555
+- name: Edward J. Markey
+  party: minority
+  rank: 3
+  bioguide: M000133
+- name: Richard C. Shelby
+  party: majority
+  rank: 3
+  bioguide: S000320
+- name: Joni Ernst
+  party: majority
+  rank: 4
+  bioguide: E000295
+- name: Thomas R. Carper
+  party: minority
+  rank: 4
+  title: Ex Officio
+  bioguide: C000174
+- name: John Barrasso
+  party: majority
+  rank: 5
+  title: Ex Officio
+  bioguide: B001261
 SSEV10:
 - name: Mike Braun
   party: majority
@@ -15842,6 +17717,81 @@ SSEV10:
   bioguide: B001310
   start_date: '2019-01-28'
   source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000802
+- name: Benjamin L. Cardin
+  party: minority
+  rank: 2
+  bioguide: C000141
+- name: James M. Inhofe
+  party: majority
+  rank: 2
+  bioguide: I000024
+- name: Shelley Moore Capito
+  party: majority
+  rank: 3
+  bioguide: C001047
+- name: Bernard Sanders
+  party: minority
+  rank: 3
+  bioguide: S000033
+- name: Kevin Cramer
+  party: majority
+  rank: 4
+  bioguide: C001096
+- name: Jeff Merkley
+  party: minority
+  rank: 4
+  bioguide: M001176
+- name: Mike Rounds
+  party: majority
+  rank: 5
+  bioguide: R000605
+- name: Kirsten E. Gillibrand
+  party: minority
+  rank: 5
+  bioguide: G000555
+- name: Cory A. Booker
+  party: minority
+  rank: 6
+  bioguide: B001288
+- name: Dan Sullivan
+  party: majority
+  rank: 6
+  bioguide: S001198
+- name: Edward J. Markey
+  party: minority
+  rank: 7
+  bioguide: M000133
+- name: John Boozman
+  party: majority
+  rank: 7
+  bioguide: B001236
+- name: Roger F. Wicker
+  party: majority
+  rank: 8
+  bioguide: W000437
+- name: Tammy Duckworth
+  party: minority
+  rank: 8
+  bioguide: D000622
+- name: Joni Ernst
+  party: majority
+  rank: 9
+  bioguide: E000295
+- name: Thomas R. Carper
+  party: minority
+  rank: 9
+  title: Ex Officio
+  bioguide: C000174
+- name: John Barrasso
+  party: majority
+  rank: 10
+  title: Ex Officio
+  bioguide: B001261
 SSEV15:
 - name: Kevin Cramer
   party: majority
@@ -15850,6 +17800,65 @@ SSEV15:
   bioguide: C001096
   start_date: '2019-01-28'
   source: https://www.epw.senate.gov/public/index.cfm/press-releases-republican?ID=86C37177-F7DE-43C3-A215-5112B659E21F
+- name: Tammy Duckworth
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000622
+- name: Shelley Moore Capito
+  party: majority
+  rank: 2
+  bioguide: C001047
+- name: Benjamin L. Cardin
+  party: minority
+  rank: 2
+  bioguide: C000141
+- name: Mike Braun
+  party: majority
+  rank: 3
+  bioguide: B001310
+- name: Bernard Sanders
+  party: minority
+  rank: 3
+  bioguide: S000033
+- name: Dan Sullivan
+  party: majority
+  rank: 4
+  bioguide: S001198
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 4
+  bioguide: W000802
+- name: John Boozman
+  party: majority
+  rank: 5
+  bioguide: B001236
+- name: Jeff Merkley
+  party: minority
+  rank: 5
+  bioguide: M001176
+- name: Roger F. Wicker
+  party: majority
+  rank: 6
+  bioguide: W000437
+- name: Chris Van Hollen
+  party: minority
+  rank: 6
+  bioguide: V000128
+- name: Thomas R. Carper
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: C000174
+- name: Richard C. Shelby
+  party: majority
+  rank: 7
+  bioguide: S000320
+- name: John Barrasso
+  party: majority
+  rank: 8
+  title: Ex Officio
+  bioguide: B001261
 SSFI:
 - name: Chuck Grassley
   party: majority
@@ -16226,6 +18235,11 @@ SSFI10:
   bioguide: C001113
   start_date: '2019-01-31'
   source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Ron Wyden
+  party: minority
+  rank: 12
+  title: Ex Officio
+  bioguide: W000779
 SSFI11:
 - name: John Thune
   party: majority
@@ -16530,6 +18544,11 @@ SSFI13:
   bioguide: C001113
   start_date: '2019-01-31'
   source: https://www.finance.senate.gov/chairmans-news/grassley-wyden-announce-expected-finance-committee-subcommittee-membership
+- name: Chuck Grassley
+  party: majority
+  rank: 12
+  title: Ex Officio
+  bioguide: G000386
 SSFI14:
 - name: Bill Cassidy
   party: majority
@@ -16706,42 +18725,48 @@ SSFR01:
   bioguide: J000293
 - name: James E. Risch
   party: majority
-  rank: 2
+  rank: 6
   bioguide: R000584
+  title: Ex Officio
 - name: John Barrasso
   party: majority
-  rank: 3
+  rank: 2
   bioguide: B001261
 - name: Rob Portman
   party: majority
-  rank: 4
+  rank: 3
   bioguide: P000449
 - name: Rand Paul
   party: majority
-  rank: 5
+  rank: 4
   bioguide: P000603
 - name: Christopher Murphy
   party: minority
-  rank: 1
+  rank: 2
   title: Ranking Member
   bioguide: M001169
-- name: Edward J. Markey
-  party: minority
-  rank: 2
-  bioguide: M000133
 - name: Benjamin L. Cardin
   party: minority
   rank: 3
   bioguide: C000141
 - name: Jeanne Shaheen
   party: minority
-  rank: 4
+  rank: 1
   bioguide: S001181
+  title: Ranking Member
 - name: Robert Menendez
   party: minority
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Christopher A. Coons
+  party: minority
+  rank: 4
+  bioguide: C001088
+- name: Mitt Romney
+  party: majority
+  rank: 5
+  bioguide: R000615
 SSFR02:
 - name: Cory Gardner
   party: majority
@@ -16750,19 +18775,16 @@ SSFR02:
   bioguide: G000562
 - name: James E. Risch
   party: majority
-  rank: 2
+  rank: 6
   bioguide: R000584
+  title: Ex Officio
 - name: Marco Rubio
   party: majority
-  rank: 3
+  rank: 2
   bioguide: R000595
-- name: John Barrasso
-  party: majority
-  rank: 4
-  bioguide: B001261
 - name: Johnny Isakson
   party: majority
-  rank: 5
+  rank: 4
   bioguide: I000055
 - name: Edward J. Markey
   party: minority
@@ -16771,39 +18793,39 @@ SSFR02:
   bioguide: M000133
 - name: Jeff Merkley
   party: minority
-  rank: 2
-  bioguide: M001176
-- name: Christopher Murphy
-  party: minority
   rank: 3
-  bioguide: M001169
-- name: Tim Kaine
-  party: minority
-  rank: 4
-  bioguide: K000384
+  bioguide: M001176
 - name: Robert Menendez
   party: minority
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Christopher A. Coons
+  party: minority
+  rank: 2
+  bioguide: C001088
+- name: Ron Johnson
+  party: majority
+  rank: 3
+  bioguide: J000293
+- name: Tom Udall
+  party: minority
+  rank: 4
+  bioguide: U000039
+- name: Todd Young
+  party: majority
+  rank: 5
+  bioguide: Y000064
 SSFR06:
 - name: Marco Rubio
   party: majority
   rank: 1
   title: Chairman
   bioguide: R000595
-- name: Ron Johnson
-  party: majority
-  rank: 2
-  bioguide: J000293
 - name: Cory Gardner
   party: majority
   rank: 4
   bioguide: G000562
-- name: Johnny Isakson
-  party: majority
-  rank: 5
-  bioguide: I000055
 - name: Benjamin L. Cardin
   party: minority
   rank: 1
@@ -16826,31 +18848,32 @@ SSFR06:
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Rob Portman
+  party: majority
+  rank: 2
+  bioguide: P000449
+- name: Ted Cruz
+  party: majority
+  rank: 3
+  bioguide: C001098
+- name: John Barrasso
+  party: majority
+  rank: 5
+  bioguide: B001261
+- name: James E. Risch
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: R000584
 SSFR07:
 - name: James E. Risch
   party: majority
-  rank: 1
-  title: Chairman
+  rank: 6
+  title: Ex Officio
   bioguide: R000584
-- name: Marco Rubio
-  party: majority
-  rank: 2
-  bioguide: R000595
-- name: Ron Johnson
-  party: majority
-  rank: 3
-  bioguide: J000293
-- name: Todd Young
-  party: majority
-  rank: 4
-  bioguide: Y000064
-- name: Rob Portman
-  party: majority
-  rank: 5
-  bioguide: P000449
 - name: Tim Kaine
   party: minority
-  rank: 1
+  rank: 4
   title: Ranking Member
   bioguide: K000384
 - name: Benjamin L. Cardin
@@ -16859,56 +18882,89 @@ SSFR07:
   bioguide: C000141
 - name: Christopher Murphy
   party: minority
-  rank: 3
+  rank: 1
   bioguide: M001169
-- name: Cory A. Booker
-  party: minority
-  rank: 4
-  bioguide: B001288
+  title: Ranking Member
 - name: Robert Menendez
   party: minority
   rank: 5
   title: Ex Officio
   bioguide: M000639
-SSFR09:
-- name: Todd Young
+- name: Mitt Romney
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: R000615
+- name: Ted Cruz
   party: majority
   rank: 2
-  bioguide: Y000064
-- name: John Barrasso
+  bioguide: C001098
+- name: Lindsey Graham
   party: majority
   rank: 3
-  bioguide: B001261
-- name: Johnny Isakson
+  bioguide: G000359
+- name: Jeanne Shaheen
+  party: minority
+  rank: 3
+  bioguide: S001181
+- name: Cory Gardner
   party: majority
   rank: 4
-  bioguide: I000055
+  bioguide: G000562
 - name: Rand Paul
   party: majority
   rank: 5
   bioguide: P000603
+SSFR09:
+- name: Johnny Isakson
+  party: majority
+  rank: 2
+  bioguide: I000055
 - name: Cory A. Booker
   party: minority
-  rank: 1
+  rank: 3
   title: Ranking Member
   bioguide: B001288
 - name: Christopher A. Coons
   party: minority
   rank: 2
   bioguide: C001088
-- name: Tom Udall
-  party: minority
-  rank: 3
-  bioguide: U000039
-- name: Jeff Merkley
-  party: minority
-  rank: 4
-  bioguide: M001176
 - name: Robert Menendez
   party: minority
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Tim Kaine
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000384
+- name: Lindsey Graham
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: G000359
+- name: Rob Portman
+  party: majority
+  rank: 3
+  bioguide: P000449
+- name: Christopher Murphy
+  party: minority
+  rank: 4
+  bioguide: M001169
+- name: Ron Johnson
+  party: majority
+  rank: 4
+  bioguide: J000293
+- name: Ted Cruz
+  party: majority
+  rank: 5
+  bioguide: C001098
+- name: James E. Risch
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: R000584
 SSFR14:
 - name: Johnny Isakson
   party: majority
@@ -16917,11 +18973,12 @@ SSFR14:
   bioguide: I000055
 - name: James E. Risch
   party: majority
-  rank: 2
+  rank: 6
   bioguide: R000584
+  title: Ex Officio
 - name: Marco Rubio
   party: majority
-  rank: 3
+  rank: 5
   bioguide: R000595
 - name: Rob Portman
   party: majority
@@ -16929,21 +18986,13 @@ SSFR14:
   bioguide: P000449
 - name: Rand Paul
   party: majority
-  rank: 5
+  rank: 3
   bioguide: P000603
-- name: Jeanne Shaheen
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: S001181
-- name: Christopher A. Coons
-  party: minority
-  rank: 2
-  bioguide: C001088
 - name: Cory A. Booker
   party: minority
-  rank: 3
+  rank: 1
   bioguide: B001288
+  title: Ranking Member
 - name: Tom Udall
   party: minority
   rank: 4
@@ -16953,24 +19002,28 @@ SSFR14:
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Todd Young
+  party: majority
+  rank: 2
+  bioguide: Y000064
+- name: Edward J. Markey
+  party: minority
+  rank: 2
+  bioguide: M000133
+- name: Jeff Merkley
+  party: minority
+  rank: 3
+  bioguide: M001176
 SSFR15:
 - name: Todd Young
   party: majority
   rank: 1
   title: Chairman
   bioguide: Y000064
-- name: Cory Gardner
-  party: majority
-  rank: 3
-  bioguide: G000562
 - name: John Barrasso
   party: majority
   rank: 4
   bioguide: B001261
-- name: Rob Portman
-  party: majority
-  rank: 5
-  bioguide: P000449
 - name: Jeff Merkley
   party: minority
   rank: 1
@@ -16980,19 +19033,36 @@ SSFR15:
   party: minority
   rank: 2
   bioguide: U000039
-- name: Christopher A. Coons
-  party: minority
-  rank: 3
-  bioguide: C001088
 - name: Edward J. Markey
   party: minority
-  rank: 4
+  rank: 3
   bioguide: M000133
 - name: Robert Menendez
   party: minority
   rank: 5
   title: Ex Officio
   bioguide: M000639
+- name: Mitt Romney
+  party: majority
+  rank: 2
+  bioguide: R000615
+- name: Rand Paul
+  party: majority
+  rank: 3
+  bioguide: P000603
+- name: Cory A. Booker
+  party: minority
+  rank: 4
+  bioguide: B001288
+- name: Lindsey Graham
+  party: majority
+  rank: 5
+  bioguide: G000359
+- name: James E. Risch
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: R000584
 SSGA:
 - name: Ron Johnson
   party: majority
@@ -17144,13 +19214,6 @@ SSGA01:
   bioguide: R000608
   start_date: '2019-01-31'
   source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
-- name: Gary C. Peters
-  party: minority
-  rank: 5
-  title: Ex Officio
-  bioguide: P000595
-  start_date: '2019-01-31'
-  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSGA18:
 - name: Rand Paul
   party: majority
@@ -17201,13 +19264,6 @@ SSGA18:
   party: minority
   rank: 3
   bioguide: S001191
-  start_date: '2019-01-31'
-  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
-- name: Gary C. Peters
-  party: minority
-  rank: 4
-  title: Ex Officio
-  bioguide: P000595
   start_date: '2019-01-31'
   source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSGA19:
@@ -17266,13 +19322,6 @@ SSGA19:
   party: minority
   rank: 3
   bioguide: R000608
-  start_date: '2019-01-31'
-  source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
-- name: Gary C. Peters
-  party: minority
-  rank: 4
-  title: Ex Officio
-  bioguide: P000595
   start_date: '2019-01-31'
   source: https://www.hsgac.senate.gov/media/majority-media/johnson-peters-announce-homeland-security-and-governmental-affairs-subcommittee-membership
 SSHR:
@@ -17472,25 +19521,29 @@ SSHR09:
   source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Tim Kaine
   party: minority
-  rank: 3
+  rank: 4
   bioguide: K000384
   source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Margaret Wood Hassan
   party: minority
-  rank: 4
+  rank: 5
   bioguide: H001076
   source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Tina Smith
   party: minority
-  rank: 5
+  rank: 6
   bioguide: S001203
   source: https://www.help.senate.gov/about/subcommittees/children-and-families
 - name: Patty Murray
   party: minority
-  rank: 6
+  rank: 7
   title: Ex Officio
   bioguide: M001111
   source: https://www.help.senate.gov/about/subcommittees/children-and-families
+- name: Christopher Murphy
+  party: minority
+  rank: 3
+  bioguide: M001169
 SSHR11:
 - name: Johnny Isakson
   party: majority
@@ -17814,14 +19867,6 @@ SSJU01:
   party: majority
   rank: 2
   bioguide: G000386
-- name: Lindsey Graham
-  party: majority
-  rank: 4
-  bioguide: G000359
-- name: Thom Tillis
-  party: majority
-  rank: 5
-  bioguide: T000476
 - name: Amy Klobuchar
   party: minority
   rank: 1
@@ -17839,6 +19884,18 @@ SSJU01:
   party: minority
   rank: 4
   bioguide: B001288
+- name: Josh Hawley
+  party: majority
+  rank: 3
+  bioguide: H001089
+- name: Mike Crapo
+  party: majority
+  rank: 4
+  bioguide: C000880
+- name: Marsha Blackburn
+  party: majority
+  rank: 5
+  bioguide: B001243
 SSJU04:
 - name: John Cornyn
   party: majority
@@ -17847,27 +19904,23 @@ SSJU04:
   bioguide: C001056
 - name: Thom Tillis
   party: majority
-  rank: 2
+  rank: 7
   bioguide: T000476
 - name: John Kennedy
   party: majority
-  rank: 3
+  rank: 9
   bioguide: K000393
 - name: Chuck Grassley
   party: majority
-  rank: 4
+  rank: 3
   bioguide: G000386
 - name: Ted Cruz
   party: majority
   rank: 5
   bioguide: C001098
-- name: Mike Crapo
-  party: majority
-  rank: 7
-  bioguide: C000880
 - name: Mike Lee
   party: majority
-  rank: 8
+  rank: 4
   bioguide: L000577
 - name: Richard J. Durbin
   party: minority
@@ -17888,16 +19941,32 @@ SSJU04:
   bioguide: K000367
 - name: Richard Blumenthal
   party: minority
-  rank: 5
+  rank: 6
   bioguide: B001277
 - name: Mazie K. Hirono
   party: minority
-  rank: 6
+  rank: 7
   bioguide: H001042
 - name: Cory A. Booker
   party: minority
-  rank: 7
+  rank: 8
   bioguide: B001288
+- name: Lindsey Graham
+  party: majority
+  rank: 2
+  bioguide: G000359
+- name: Christopher A. Coons
+  party: minority
+  rank: 5
+  bioguide: C001088
+- name: Josh Hawley
+  party: majority
+  rank: 6
+  bioguide: H001089
+- name: Joni Ernst
+  party: majority
+  rank: 8
+  bioguide: E000295
 SSJU21:
 - name: Ted Cruz
   party: majority
@@ -17910,20 +19979,12 @@ SSJU21:
   bioguide: C001056
 - name: Mike Crapo
   party: majority
-  rank: 3
+  rank: 5
   bioguide: C000880
 - name: Ben Sasse
   party: majority
   rank: 4
   bioguide: S001197
-- name: Lindsey Graham
-  party: majority
-  rank: 5
-  bioguide: G000359
-- name: John Kennedy
-  party: majority
-  rank: 6
-  bioguide: K000393
 - name: Mazie K. Hirono
   party: minority
   rank: 1
@@ -17945,28 +20006,28 @@ SSJU21:
   party: minority
   rank: 5
   bioguide: H001075
+- name: Mike Lee
+  party: majority
+  rank: 3
+  bioguide: L000577
+- name: Marsha Blackburn
+  party: majority
+  rank: 6
+  bioguide: B001243
 SSJU22:
 - name: Lindsey Graham
   party: majority
-  rank: 1
+  rank: 2
   title: Chairman
   bioguide: G000359
-- name: Chuck Grassley
-  party: majority
-  rank: 2
-  bioguide: G000386
 - name: John Cornyn
   party: majority
-  rank: 4
+  rank: 3
   bioguide: C001056
 - name: Ted Cruz
   party: majority
-  rank: 5
+  rank: 4
   bioguide: C001098
-- name: Ben Sasse
-  party: majority
-  rank: 6
-  bioguide: S001197
 - name: John Kennedy
   party: majority
   rank: 7
@@ -17996,6 +20057,19 @@ SSJU22:
   party: minority
   rank: 6
   bioguide: B001288
+- name: Josh Hawley
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001089
+- name: Thom Tillis
+  party: majority
+  rank: 5
+  bioguide: T000476
+- name: Joni Ernst
+  party: majority
+  rank: 6
+  bioguide: E000295
 SSJU23:
 - name: Mike Lee
   party: majority
@@ -18054,19 +20128,15 @@ SSJU25:
   bioguide: G000386
 - name: Mike Crapo
   party: majority
-  rank: 3
+  rank: 5
   bioguide: C000880
 - name: John Kennedy
   party: majority
-  rank: 4
-  bioguide: K000393
-- name: Mike Lee
-  party: majority
   rank: 6
-  bioguide: L000577
+  bioguide: K000393
 - name: Thom Tillis
   party: majority
-  rank: 8
+  rank: 3
   bioguide: T000476
 - name: Richard Blumenthal
   party: minority
@@ -18085,18 +20155,14 @@ SSJU25:
   party: minority
   rank: 4
   bioguide: K000367
-- name: Christopher A. Coons
-  party: minority
-  rank: 5
-  bioguide: C001088
 - name: Mazie K. Hirono
   party: minority
-  rank: 6
+  rank: 5
   bioguide: H001042
-- name: Kamala D. Harris
-  party: minority
-  rank: 7
-  bioguide: H001075
+- name: Joni Ernst
+  party: majority
+  rank: 4
+  bioguide: E000295
 SSRA:
 - name: Roy Blunt
   party: majority
@@ -19369,3 +21435,225 @@ SSJU26:
   party: minority
   rank: 7
   bioguide: H001075
+HSBA01:
+- name: Emanuel Cleaver
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: C001061
+- name: Ed Perlmutter
+  party: majority
+  rank: 2
+  bioguide: P000593
+- name: James A. Himes
+  party: majority
+  rank: 3
+  bioguide: H001047
+- name: Denny Heck
+  party: majority
+  rank: 4
+  bioguide: H001064
+- name: Brad Sherman
+  party: majority
+  rank: 5
+  bioguide: S000344
+- name: Juan Vargas
+  party: majority
+  rank: 6
+  bioguide: V000130
+- name: Josh Gottheimer
+  party: majority
+  rank: 7
+  bioguide: G000583
+- name: Michael F. Q. San Nicolas
+  party: majority
+  rank: 8
+  bioguide: S001204
+- name: Ben McAdams
+  party: majority
+  rank: 9
+  bioguide: M001209
+- name: Jennifer Wexton
+  party: majority
+  rank: 10
+  bioguide: W000825
+- name: Stephen F. Lynch
+  party: majority
+  rank: 11
+  bioguide: L000562
+- name: Tulsi Gabbard
+  party: majority
+  rank: 12
+  bioguide: G000571
+- name: Jesús G. "Chuy" García
+  party: majority
+  rank: 13
+  bioguide: G000586
+- name: Steve Stivers
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: S001187
+- name: Peter T. King
+  party: minority
+  rank: 2
+  bioguide: K000210
+- name: Frank D. Lucas
+  party: minority
+  rank: 3
+  bioguide: L000491
+- name: Roger Williams
+  party: minority
+  rank: 4
+  bioguide: W000816
+- name: J. French Hill
+  party: minority
+  rank: 5
+  bioguide: H001072
+- name: Tom Emmer
+  party: minority
+  rank: 6
+  bioguide: E000294
+- name: Anthony Gonzalez
+  party: minority
+  rank: 7
+  bioguide: G000588
+- name: John W. Rose
+  party: minority
+  rank: 8
+  bioguide: R000612
+- name: Denver Riggleman
+  party: minority
+  rank: 9
+  bioguide: R000611
+HSRU02: []
+HSRU04: []
+HSSM26:
+- name: Jason Crow
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: C001121
+- name: Marc A. Veasey
+  party: majority
+  rank: 2
+  bioguide: V000131
+- name: Chrissy Houlahan
+  party: majority
+  rank: 3
+  bioguide: H001085
+- name: Abby Finkenauer
+  party: majority
+  rank: 4
+  bioguide: F000467
+- name: Andy Kim
+  party: majority
+  rank: 5
+  bioguide: K000394
+- name: Sharice Davids
+  party: majority
+  rank: 6
+  bioguide: D000629
+- name: Troy Balderson
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001306
+- name: Tim Burchett
+  party: minority
+  rank: 2
+  bioguide: B001309
+- name: Kevin Hern
+  party: minority
+  rank: 3
+  bioguide: H001082
+- name: John Joyce
+  party: minority
+  rank: 4
+  bioguide: J000302
+HLIG05:
+- name: André Carson
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: C001072
+- name: Jackie Speier
+  party: majority
+  rank: 2
+  bioguide: S001175
+- name: Mike Quigley
+  party: majority
+  rank: 3
+  bioguide: Q000023
+- name: Joaquin Castro
+  party: majority
+  rank: 4
+  bioguide: C001091
+- name: Peter Welch
+  party: majority
+  rank: 5
+  bioguide: W000800
+- name: Sean Patrick Maloney
+  party: majority
+  rank: 6
+  bioguide: M001185
+- name: Eric A. "Rick" Crawford
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001087
+- name: K. Michael Conaway
+  party: minority
+  rank: 2
+  bioguide: C001062
+- name: Brad R. Wenstrup
+  party: minority
+  rank: 3
+  bioguide: W000815
+- name: Chris Stewart
+  party: minority
+  rank: 4
+  bioguide: S001192
+HLIG08:
+- name: Eric Swalwell
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S001193
+- name: Terri A. Sewell
+  party: majority
+  rank: 2
+  bioguide: S001185
+- name: Jackie Speier
+  party: majority
+  rank: 3
+  bioguide: S001175
+- name: Joaquin Castro
+  party: majority
+  rank: 4
+  bioguide: C001091
+- name: Val Butler Demings
+  party: majority
+  rank: 5
+  bioguide: D000627
+- name: Raja Krishnamoorthi
+  party: majority
+  rank: 6
+  bioguide: K000391
+- name: Will Hurd
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H001073
+- name: K. Michael Conaway
+  party: minority
+  rank: 2
+  bioguide: C001062
+- name: Elise M. Stefanik
+  party: minority
+  rank: 3
+  bioguide: S001196
+- name: John Ratcliffe
+  party: minority
+  rank: 4
+  bioguide: R000601
