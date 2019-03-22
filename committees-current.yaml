@@ -166,6 +166,10 @@
     thomas_id: '01'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-7502
+  - name: Diversity and Inclusion
+    thomas_id: '13'
+    address: 2129 RHOB; Washington, DC 20515
+    phone: (202) 225-4247
   address: 2129 RHOB; Washington, DC 20515-6050
   phone: (202) 225-4247
   jurisdiction: The House Financial Services Committee has jurisdiction over issues
@@ -217,6 +221,10 @@
     thomas_id: '10'
     address: 2176 RHOB; Washington, DC 20515
     phone: (202) 225-4527
+  - name: Civil Rights and Human Services
+    thomas_id: '07'
+    address: 2176 RHOB; Washington, DC 20515
+    phone: (202) 225-3725
   address: 2176 RHOB; Washington, DC 20515-6100
   phone: (202) 225-3725
   jurisdiction: The committee has legislative jurisdiction over matters related to
@@ -254,6 +262,10 @@
     thomas_id: '07'
     address: 5100 OHOB; Washington, DC 20515
     phone: (202) 226-9980
+  - name: Oversight and Investigations
+    thomas_id: '17'
+    address: 2170 RHOB; Washington, DC 20515
+    phone: (202) 225-5021
   address: 2170 RHOB; Washington, DC 20515-6128
   phone: (202) 225-5021
   jurisdiction: The House Committee on Foreign Affairs considers legislation that
@@ -292,6 +304,14 @@
     thomas_id: '29'
     address: 2471 RHOB; Washington, DC 20515
     phone: (202) 225-5074
+  - name: Civil Rights and Civil Liberties
+    thomas_id: '02'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5051
+  - name: Economic and Consumer Policy
+    thomas_id: '05'
+    address: 2157 RHOB; Washington, DC 20515
+    phone: (202) 225-5051
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5051
   jurisdiction: The committee oversees the federal government and all of its agencies
@@ -309,6 +329,10 @@
   - name: Elections
     thomas_id: '01'
     address: 1309 LHOB; Washington, DC 20515-6157
+  - name: Elections
+    thomas_id: '08'
+    address: 1309 LHOB; Washington, DC 20515
+    phone: (202) 225-2061
   address: 1309 LHOB; Washington, DC 20515-6157
   phone: (202) 225-2061
   jurisdiction: The Committee on House Administration has legislative jurisdiction
@@ -473,6 +497,14 @@
     thomas_id: '04'
     address: HVC304 CAPITOL; Washington, DC 20515-6415
     phone: (202) 225-4121
+  - name: Defense Intelligence and Warfighter Support
+    thomas_id: '06'
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-7690
+  - name: Strategic Technologies and Advanced Research
+    thomas_id: '10'
+    address: HVC304 CAPITOL; Washington, DC 20515
+    phone: (202) 225-7690
   address: HVC304 CAPITOL; Washington, DC 20515-6415
   phone: (202) 225-7690
   jurisdiction: The United States House Permanent Select Committee on Intelligence
@@ -577,6 +609,10 @@
     thomas_id: '04'
     address: H312 CAPITOL; Washington, DC 20515
     phone: (202) 225-9191
+  - name: Expedited Procedures
+    thomas_id: '05'
+    address: H312 CAPITOL; Washington, DC 20515
+    phone: (202) 225-9091
   address: H312 CAPITOL; Washington, DC 20515-6269
   phone: (202) 225-9091
   jurisdiction: The House Committee on Rules is commonly known as “The Speaker’s Committee”
@@ -1068,6 +1104,16 @@
   - name: Aviation and Space
     thomas_id: '01'
     wikipedia: United States Senate Commerce Subcommittee on Aviation and Space
+  - thomas_id: '28'
+    name: Aviation and Space
+  - thomas_id: '29'
+    name: Manufacturing, Trade, and Consumer Protection
+  - thomas_id: '30'
+    name: Science, Oceans, Fisheries, and Weather
+  - thomas_id: '31'
+    name: Security
+  - thomas_id: '32'
+    name: Transportation and Safety
   wikipedia: United States Senate Committee on Commerce, Science and Transportation
   jurisdiction: The Senate Committee on Commerce, Science, and Transportation has
     legislative jurisdiction on matters related to science and technology, oceans
@@ -1315,6 +1361,8 @@
     name: Bankruptcy and the Courts
   - thomas_id: '25'
     name: Oversight, Agency Action, Federal Rights and Federal Courts
+  - thomas_id: '26'
+    name: Intellectual Property
   wikipedia: United States Senate Committee on the Judiciary
   jurisdiction: The Senate Committee on the Judiciary provides oversight of the Department
     of Justice and the agencies under the Department's jurisdiction, including the
