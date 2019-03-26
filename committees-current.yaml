@@ -154,10 +154,6 @@
     thomas_id: '04'
     address: 2129 RHOB; Washington, DC 20515
     phone: (202) 225-4247
-  - name: National Security, International Development and Monetary Policy
-    thomas_id: '20'
-    address: 2129 RHOB; Washington, DC 20515
-    phone: (202) 225-7502
   - name: Oversight and Investigations
     thomas_id: '09'
     address: 2129 RHOB; Washington, DC 20515
@@ -250,10 +246,6 @@
     thomas_id: '14'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 225-5021
-  - name: Oversight and Investigations
-    thomas_id: '18'
-    address: 5100 OHOB; Washington, DC 20515
-    phone: (202) 226-1500
   - name: Middle East, North Africa, and International Terrorism
     thomas_id: '13'
     address: 2170 RHOB; Washington, DC 20515
@@ -1086,26 +1078,12 @@
     thomas_id: '27'
     wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
       and Export Promotion
-  - name: Manufacturing, Trade, and Consumer Protection
-    thomas_id: '20'
-    wikipedia: United States Senate Commerce Subcommittee on Consumer Protection,
-      Product Safety, and Insurance
-  - name: Science, Oceans, Fisheries, and Weather
-    thomas_id: '22'
-    wikipedia: United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries,
-      and Coast Guard
   - name: Space, Science, and Competitiveness
     thomas_id: '24'
     wikipedia: United States Senate Commerce Subcommittee on Science and Space
-  - name: Transportation and Safety
-    thomas_id: '25'
-    wikipedia: United States Senate Commerce Subcommittee on Surface Transportation
-      and Merchant Marine Infrastructure, Safety, and Security
-  - name: Aviation and Space
-    thomas_id: '01'
-    wikipedia: United States Senate Commerce Subcommittee on Aviation and Space
   - thomas_id: '28'
     name: Aviation and Space
+    wikipedia: United States Senate Commerce Subcommittee on Aviation and Space
   - thomas_id: '29'
     name: Manufacturing, Trade, and Consumer Protection
   - thomas_id: '30'

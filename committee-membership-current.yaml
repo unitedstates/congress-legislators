@@ -5450,7 +5450,7 @@ HSFA16:
   bioguide: H001085
   start_date: '2019-01-29'
   source: https://foreignaffairs.house.gov/press-releases?ID=1F0FB8B1-CCA6-4B3A-B360-22907C33D03B
-HSFA18:
+HSFA17:
 - name: Lee M. Zeldin
   party: minority
   rank: 1
@@ -13743,22 +13743,22 @@ SSAF14:
   party: majority
   rank: 2
   bioguide: B001236
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
+  source: https://www.agriculture.senate.gov/about/subcommittees/#conservation
 - name: Cindy Hyde-Smith
   party: majority
   rank: 3
   bioguide: H001079
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
+  source: https://www.agriculture.senate.gov/about/subcommittees/#conservation
 - name: David Perdue
   party: majority
   rank: 4
   bioguide: P000612
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
+  source: https://www.agriculture.senate.gov/about/subcommittees/#conservation
 - name: Chuck Grassley
   party: majority
   rank: 5
   bioguide: G000386
-  source: https://www.agriculture.senate.gov/about/subcommittees/#risk
+  source: https://www.agriculture.senate.gov/about/subcommittees/#conservation
 - name: John Thune
   party: majority
   rank: 6
@@ -16416,7 +16416,7 @@ SSCM:
   bioguide: R000608
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
-SSCM01:
+SSCM28:
 - name: Ted Cruz
   party: majority
   rank: 1
@@ -16515,7 +16515,7 @@ SSCM01:
   bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-SSCM20:
+SSCM29:
 - name: Jerry Moran
   party: majority
   rank: 1
@@ -16620,7 +16620,7 @@ SSCM20:
   bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-SSCM22:
+SSCM30:
 - name: Cory Gardner
   party: majority
   rank: 1
@@ -16677,7 +16677,7 @@ SSCM22:
   bioguide: S001194
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-SSCM25:
+SSCM32:
 - name: Deb Fischer
   party: majority
   rank: 1
@@ -20748,49 +20748,6 @@ HSBA13:
   party: minority
   rank: 9
   bioguide: G000589
-HSFA17:
-- name: Ami Bera
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: B001287
-- name: Ilhan Omar
-  party: majority
-  rank: 2
-  bioguide: O000173
-- name: Adriano Espaillat
-  party: majority
-  rank: 3
-  bioguide: E000297
-- name: Ted Lieu
-  party: majority
-  rank: 4
-  bioguide: L000582
-- name: Tom Malinowski
-  party: majority
-  rank: 5
-  bioguide: M001203
-- name: David N. Cicilline
-  party: majority
-  rank: 6
-  bioguide: C001084
-- name: Lee M. Zeldin
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: Z000017
-- name: Scott Perry
-  party: minority
-  rank: 2
-  bioguide: P000605
-- name: Ken Buck
-  party: minority
-  rank: 3
-  bioguide: B001297
-- name: Guy Reschenthaler
-  party: minority
-  rank: 4
-  bioguide: R000610
 HSHA08:
 - name: Marcia L. Fudge
   party: majority
@@ -21015,209 +20972,6 @@ HLIG10:
   party: minority
   rank: 4
   bioguide: T000463
-SSCM28:
-- name: Ted Cruz
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: C001098
-- name: John Thune
-  party: majority
-  rank: 2
-  bioguide: T000250
-- name: Roy Blunt
-  party: majority
-  rank: 3
-  bioguide: B000575
-- name: Jerry Moran
-  party: majority
-  rank: 4
-  bioguide: M000934
-- name: Cory Gardner
-  party: majority
-  rank: 5
-  bioguide: G000562
-- name: Marsha Blackburn
-  party: majority
-  rank: 6
-  bioguide: B001243
-- name: Shelley Moore Capito
-  party: majority
-  rank: 7
-  bioguide: C001047
-- name: Mike Lee
-  party: majority
-  rank: 8
-  bioguide: L000577
-- name: Roger F. Wicker
-  party: majority
-  rank: 9
-  title: Ex Officio
-  bioguide: W000437
-- name: Kyrsten Sinema
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: S001191
-- name: Brian Schatz
-  party: minority
-  rank: 2
-  bioguide: S001194
-- name: Tom Udall
-  party: minority
-  rank: 3
-  bioguide: U000039
-- name: Gary C. Peters
-  party: minority
-  rank: 4
-  bioguide: P000595
-- name: Tammy Duckworth
-  party: minority
-  rank: 5
-  bioguide: D000622
-- name: Jon Tester
-  party: minority
-  rank: 6
-  bioguide: T000464
-- name: Jacky Rosen
-  party: minority
-  rank: 7
-  bioguide: R000608
-- name: Maria Cantwell
-  party: minority
-  rank: 8
-  title: Ex Officio
-  bioguide: C000127
-SSCM29:
-- name: Jerry Moran
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: M000934
-- name: John Thune
-  party: majority
-  rank: 2
-  bioguide: T000250
-- name: Deb Fischer
-  party: majority
-  rank: 3
-  bioguide: F000463
-- name: Dan Sullivan
-  party: majority
-  rank: 4
-  bioguide: S001198
-- name: Marsha Blackburn
-  party: majority
-  rank: 5
-  bioguide: B001243
-- name: Shelley Moore Capito
-  party: majority
-  rank: 6
-  bioguide: C001047
-- name: Mike Lee
-  party: majority
-  rank: 7
-  bioguide: L000577
-- name: Ron Johnson
-  party: majority
-  rank: 8
-  bioguide: J000293
-- name: Todd Young
-  party: majority
-  rank: 9
-  bioguide: Y000064
-- name: Roger F. Wicker
-  party: majority
-  rank: 10
-  title: Ex Officio
-  bioguide: W000437
-- name: Richard Blumenthal
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001277
-- name: Amy Klobuchar
-  party: minority
-  rank: 2
-  bioguide: K000367
-- name: Brian Schatz
-  party: minority
-  rank: 3
-  bioguide: S001194
-- name: Edward J. Markey
-  party: minority
-  rank: 4
-  bioguide: M000133
-- name: Tom Udall
-  party: minority
-  rank: 5
-  bioguide: U000039
-- name: Tammy Baldwin
-  party: minority
-  rank: 6
-  bioguide: B001230
-- name: Kyrsten Sinema
-  party: minority
-  rank: 7
-  bioguide: S001191
-- name: Jacky Rosen
-  party: minority
-  rank: 8
-  bioguide: R000608
-- name: Maria Cantwell
-  party: minority
-  rank: 9
-  title: Ex Officio
-  bioguide: C000127
-SSCM30:
-- name: Cory Gardner
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: G000562
-- name: Ted Cruz
-  party: majority
-  rank: 2
-  bioguide: C001098
-- name: Dan Sullivan
-  party: majority
-  rank: 3
-  bioguide: S001198
-- name: Ron Johnson
-  party: majority
-  rank: 4
-  bioguide: J000293
-- name: Rick Scott
-  party: majority
-  rank: 5
-  bioguide: S001217
-- name: Roger F. Wicker
-  party: majority
-  rank: 6
-  title: Ex Officio
-  bioguide: W000437
-- name: Tammy Baldwin
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: B001230
-- name: Richard Blumenthal
-  party: minority
-  rank: 2
-  bioguide: B001277
-- name: Brian Schatz
-  party: minority
-  rank: 3
-  bioguide: S001194
-- name: Gary C. Peters
-  party: minority
-  rank: 4
-  bioguide: P000595
-- name: Maria Cantwell
-  party: minority
-  rank: 5
-  title: Ex Officio
-  bioguide: C000127
 SSCM31:
 - name: Dan Sullivan
   party: majority
@@ -21297,79 +21051,6 @@ SSCM31:
 - name: Maria Cantwell
   party: minority
   rank: 9
-  title: Ex Officio
-  bioguide: C000127
-SSCM32:
-- name: Deb Fischer
-  party: majority
-  rank: 1
-  title: Chairman
-  bioguide: F000463
-- name: John Thune
-  party: majority
-  rank: 2
-  bioguide: T000250
-- name: Roy Blunt
-  party: majority
-  rank: 3
-  bioguide: B000575
-- name: Jerry Moran
-  party: majority
-  rank: 4
-  bioguide: M000934
-- name: Cory Gardner
-  party: majority
-  rank: 5
-  bioguide: G000562
-- name: Shelley Moore Capito
-  party: majority
-  rank: 6
-  bioguide: C001047
-- name: Todd Young
-  party: majority
-  rank: 7
-  bioguide: Y000064
-- name: Rick Scott
-  party: majority
-  rank: 8
-  bioguide: S001217
-- name: Roger F. Wicker
-  party: majority
-  rank: 9
-  title: Ex Officio
-  bioguide: W000437
-- name: Tammy Duckworth
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: D000622
-- name: Amy Klobuchar
-  party: minority
-  rank: 2
-  bioguide: K000367
-- name: Richard Blumenthal
-  party: minority
-  rank: 3
-  bioguide: B001277
-- name: Edward J. Markey
-  party: minority
-  rank: 4
-  bioguide: M000133
-- name: Tom Udall
-  party: minority
-  rank: 5
-  bioguide: U000039
-- name: Gary C. Peters
-  party: minority
-  rank: 6
-  bioguide: P000595
-- name: Tammy Baldwin
-  party: minority
-  rank: 7
-  bioguide: B001230
-- name: Maria Cantwell
-  party: minority
-  rank: 8
   title: Ex Officio
   bioguide: C000127
 SSJU26:
