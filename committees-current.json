@@ -38,7 +38,7 @@
         "phone": "(202) 225-2171"
       },
       {
-        "name": "Nutrition",
+        "name": "Nutrition, Oversight, and Department Operations",
         "thomas_id": "03",
         "address": "1301 LHOB; Washington, DC 20515",
         "phone": "(202) 225-2171"
@@ -108,13 +108,13 @@
       {
         "name": "Legislative Branch",
         "thomas_id": "24",
-        "address": "HT2 CAPITOL; Washington, DC 20515",
+        "address": "H306 CAPITOL; Washington, DC 20515",
         "phone": "(202) 226-7252"
       },
       {
-        "name": "Military Construction, Veterans Affairs and Related Agencies",
+        "name": "Military Construction, Veterans Affairs, and Related Agencies",
         "thomas_id": "18",
-        "address": "HVC227 CAPITOL; Washington, DC 20515",
+        "address": "HT2 CAPITOL; Washington, DC 20515",
         "phone": "(202) 225-3047"
       },
       {
@@ -124,13 +124,13 @@
         "phone": "(202) 225-2041"
       },
       {
-        "name": "Transportation, Housing and Urban Development, and Related Agencies",
+        "name": "Transportation, and Housing and Urban Development, and Related Agencies",
         "thomas_id": "20",
         "address": "2358A RHOB; Washington, DC 20515",
         "phone": "(202) 225-2141"
       }
     ],
-    "address": "H305 CAPITOL; Washington, DC 20515-6015",
+    "address": "H307 CAPITOL; Washington, DC 20515-6015",
     "phone": "(202) 225-2771",
     "jurisdiction": "The House Committee on Appropriations is responsible for legislation allocating federal funds prior to expenditure from the treasury. Appropriations are generally limited to the levels set by the Budget Resolution drafted by the House Committee on the Budget. The Committee is also responsible for supplemental spending bills, which are sometimes needed in the middle of a fiscal year to compensate for emergency expenses.",
     "jurisdiction_source": "https://appropriations.house.gov/about/"
@@ -174,7 +174,7 @@
         "phone": "(202) 225-1967"
       },
       {
-        "name": "Intelligence, Emerging Threats and Capabilities",
+        "name": "Intelligence and Emerging Threats and Capabilities",
         "thomas_id": "26",
         "address": "2340 RHOB; Washington, DC 20515",
         "phone": "(202) 226-2843"
@@ -197,41 +197,41 @@
         "name": "Investor Protection, Entrepreneurship, and Capital Markets",
         "thomas_id": "16",
         "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
+        "phone": "(202) 225-4247"
       },
       {
         "name": "Consumer Protection and Financial Institutions",
         "thomas_id": "15",
         "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
+        "phone": "(202) 225-4247"
       },
       {
-        "name": "Housing and Insurance",
+        "name": "Housing, Community Development, and Insurance",
         "thomas_id": "04",
         "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
-      },
-      {
-        "name": "National Security, International Development and Monetary Policy",
-        "thomas_id": "20",
-        "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
+        "phone": "(202) 225-4247"
       },
       {
         "name": "Oversight and Investigations",
         "thomas_id": "09",
         "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
+        "phone": "(202) 225-4247"
       },
       {
-        "name": "Terrorism and Illicit Finance",
+        "name": "National Security, International Development, and Monetary Policy",
         "thomas_id": "01",
         "address": "2129 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-7502"
+        "phone": "(202) 225-4247"
+      },
+      {
+        "name": "Diversity and Inclusion",
+        "thomas_id": "13",
+        "address": "2129 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4247"
       }
     ],
     "address": "2129 RHOB; Washington, DC 20515-6050",
-    "phone": "(202) 225-7502",
+    "phone": "(202) 225-4247",
     "jurisdiction": "The House Financial Services Committee has jurisdiction over issues pertaining to the economy, the banking system, housing, insurance, and securities and exchanges. Additionally, the Committee also has jurisdiction over monetary policy, international finance, international monetary organizations, and efforts to combat terrorist financing. The Committee oversees the Nation\u2019s economy through its oversight of the Federal Reserve Board and individual reserve banks, the Treasury, the production and distribution of currency, and the Nation\u2019s capital markets.",
     "jurisdiction_source": "https://financialservices.house.gov/about/"
   },
@@ -242,8 +242,8 @@
     "minority_url": "https://democrats-budget.house.gov/",
     "thomas_id": "HSBU",
     "house_committee_id": "BU",
-    "address": "B234 LHOB; Washington, DC 20515-6065",
-    "phone": "(202) 226-7270",
+    "address": "204E CHOB; Washington, DC 20515-6065",
+    "phone": "(202) 226-7200",
     "rss_url": "https://budget.house.gov/news/rss.aspx",
     "minority_rss_url": "https://democrats-budget.house.gov/rss.xml",
     "jurisdiction": "The House Committee on the Budget is responsible for drafting a concurrent resolution on the budget for congressional action on spending, revenue, and debt-limit legislation. The Budget Resolution must be jointly agreed to by both the House and the Senate, but does not need to be signed by the President. The Committee is also responsible for enforcing the Budget Resolution by informing representatives of violations to the budget, and by working with other committees, such as the Committee on Appropriations, to prevent potential violations.",
@@ -261,29 +261,35 @@
         "name": "Early Childhood, Elementary, and Secondary Education",
         "thomas_id": "14",
         "address": "2176 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-4527"
+        "phone": "(202) 225-3725"
       },
       {
         "name": "Health, Employment, Labor, and Pensions",
         "thomas_id": "02",
         "address": "2176 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-4527"
+        "phone": "(202) 225-3725"
       },
       {
         "name": "Higher Education and Workforce Investment",
         "thomas_id": "13",
         "address": "2176 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-4527"
+        "phone": "(202) 225-3725"
       },
       {
         "name": "Workforce Protections",
         "thomas_id": "10",
         "address": "2176 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-4527"
+        "phone": "(202) 225-3725"
+      },
+      {
+        "name": "Civil Rights and Human Services",
+        "thomas_id": "07",
+        "address": "2176 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-3725"
       }
     ],
     "address": "2176 RHOB; Washington, DC 20515-6100",
-    "phone": "(202) 225-4527",
+    "phone": "(202) 225-3725",
     "jurisdiction": "The committee has legislative jurisdiction over matters related to higher and lower education, workforce development and protections, and health, employment, labor, and pensions.",
     "jurisdiction_source": "https://edworkforce.house.gov/committee/subcommitteesjurisdictions.htm"
   },
@@ -298,38 +304,38 @@
       {
         "name": "Africa, Global Health, Global Human Rights, and International Organizations",
         "thomas_id": "16",
-        "address": "5210 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-7812"
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
       },
       {
         "name": "Asia, the Pacific, and Nonproliferation",
         "thomas_id": "05",
-        "address": "5190 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-7825"
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
       },
       {
         "name": "Europe, Eurasia, Energy, and the Environment",
         "thomas_id": "14",
-        "address": "5210 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-6434"
-      },
-      {
-        "name": "Oversight and Investigations",
-        "thomas_id": "18",
-        "address": "5100 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-1500"
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
       },
       {
         "name": "Middle East, North Africa, and International Terrorism",
         "thomas_id": "13",
-        "address": "5220 OHOB; Washington, DC 20515",
-        "phone": "(202) 225-3345"
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
       },
       {
         "name": "Western Hemisphere, Civilian Security, and Trade",
         "thomas_id": "07",
-        "address": "5100 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-9980"
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
+      },
+      {
+        "name": "Oversight and Investigations",
+        "thomas_id": "17",
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5021"
       }
     ],
     "address": "2170 RHOB; Washington, DC 20515-6128",
@@ -354,14 +360,14 @@
       {
         "name": "Government Operations",
         "thomas_id": "24",
-        "address": "2471 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5074"
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5051"
       },
       {
         "name": "National Security",
         "thomas_id": "06",
-        "address": "2471 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5074"
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5051"
       },
       {
         "name": "Healthcare, Benefits, and Administrative Rules",
@@ -372,17 +378,29 @@
       {
         "name": "Environment",
         "thomas_id": "28",
-        "address": "2471 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-5074"
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5051"
       },
       {
         "name": "Intergovernmental Affairs",
         "thomas_id": "29",
         "address": "2471 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
+      },
+      {
+        "name": "Civil Rights and Civil Liberties",
+        "thomas_id": "02",
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5051"
+      },
+      {
+        "name": "Economic and Consumer Policy",
+        "thomas_id": "05",
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5051"
       }
     ],
-    "address": "2471 RHOB; Washington, DC 20515-6143",
+    "address": "2157 RHOB; Washington, DC 20515-6143",
     "phone": "(202) 225-5051",
     "jurisdiction": "The committee oversees the federal government and all of its agencies to ensure efficiency, effectiveness, and accountability. The Committee oversees government operations, health care, information technology, interior, energy and environment, national security, and intergovernmental affairs.",
     "jurisdiction_source": "https://oversight.house.gov/about/"
@@ -399,6 +417,12 @@
         "name": "Elections",
         "thomas_id": "01",
         "address": "1309 LHOB; Washington, DC 20515-6157"
+      },
+      {
+        "name": "Elections",
+        "thomas_id": "08",
+        "address": "1309 LHOB; Washington, DC 20515",
+        "phone": "(202) 225-2061"
       }
     ],
     "address": "1309 LHOB; Washington, DC 20515-6157",
@@ -417,41 +441,41 @@
       {
         "name": "Border Security, Facilitation, and Operations",
         "thomas_id": "11",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       },
       {
         "name": "Emergency Preparedness, Response, and Recovery",
         "thomas_id": "12",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       },
       {
         "name": "Cybersecurity, Infrastructure Protection, and Innovation",
         "thomas_id": "08",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       },
       {
         "name": "Intelligence and Counterterrorism",
         "thomas_id": "05",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       },
       {
         "name": "Oversight, Management, and Accountability",
         "thomas_id": "09",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       },
       {
         "name": "Transportation and Maritime Security",
         "thomas_id": "07",
-        "address": "117 FHOB; Washington, DC 20515",
+        "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-2616"
       }
     ],
-    "address": "117 FHOB; Washington, DC 20515-6480",
+    "address": "176 FHOB; Washington, DC 20515-6480",
     "phone": "(202) 226-2616",
     "jurisdiction": "The House Committee on Homeland Security has jurisdiction over matters related to national defense. It has six subcommittees on border and maritime security; counterterrorism and intelligence; cybersecurity and infrastructure protection; emergency preparedness, response, and communications; oversight and management efficiency; and transportation and protective security. The Committee was created in 2002 in the aftermath of the September 11th, 2001 attacks.",
     "jurisdiction_source": "https://homeland.house.gov/subcommittee/full_committee/"
@@ -518,19 +542,19 @@
         "name": "Energy and Mineral Resources",
         "thomas_id": "06",
         "address": "1522 LHOB; Washington, DC 20515",
-        "phone": "(202) 225-9297"
+        "phone": "(202) 225-6065"
       },
       {
         "name": "National Parks, Forests, and Public Lands",
         "thomas_id": "10",
-        "address": "1332 LHOB; Washington, DC 20515",
-        "phone": "(202) 226-7736"
+        "address": "1328 LHOB; Washington, DC 20515",
+        "phone": "(202) 225-6065"
       },
       {
         "name": "Water, Oceans, and Wildlife",
         "thomas_id": "13",
-        "address": "4120 OHOB; Washington, DC 20515",
-        "phone": "(202) 225-8331"
+        "address": "1332 LHOB; Washington, DC 20515",
+        "phone": "(202) 225-6065"
       },
       {
         "name": "Fisheries, Wildlife, Oceans and Insular Affairs",
@@ -541,18 +565,18 @@
       {
         "name": "Indigenous Peoples of the United States",
         "thomas_id": "24",
-        "address": "4450 OHOB; Washington, DC 20515",
-        "phone": "(202) 226-9725"
+        "address": "1331 LHOB; Washington, DC 20515",
+        "phone": "(202) 225-6065"
       },
       {
         "name": "Oversight and Investigations",
         "thomas_id": "15",
-        "address": "4170 OHOB; Washington, DC 20515",
-        "phone": "(202) 225-7107"
+        "address": "186 FHOB; Washington, DC 20515",
+        "phone": "(202) 225-6065"
       }
     ],
     "address": "1324 LHOB; Washington, DC 20515-6201",
-    "phone": "(202) 225-2761",
+    "phone": "(202) 225-6065",
     "jurisdiction": "The House Committee on Natural Resources considers legislation about American energy production, mineral lands and mining, fisheries and wildlife, public lands, oceans, Native Americans, irrigation and reclamation.",
     "jurisdiction_source": "https://naturalresources.house.gov/about/"
   },
@@ -571,16 +595,16 @@
         "phone": "(202) 225-4121"
       },
       {
-        "name": "Technical and Tactical Intelligence",
+        "name": "Counterterrorism, Counterintelligence, and Counterproliferation",
         "thomas_id": "05",
         "address": "HVC304 CAPITOL; Washington, DC 20515",
-        "phone": "(202) 225-4121"
+        "phone": "(202) 225-7690"
       },
       {
-        "name": "Terrorism, Human Intelligence, Analysis, and Counterintelligence",
+        "name": "Intelligence Modernization and Readiness",
         "thomas_id": "08",
         "address": "HVC304 CAPITOL; Washington, DC 20515",
-        "phone": "(202) 225-4121"
+        "phone": "(202) 225-7690"
       },
       {
         "name": "Central Intelligence Agency",
@@ -605,10 +629,22 @@
         "thomas_id": "04",
         "address": "HVC304 CAPITOL; Washington, DC 20515-6415",
         "phone": "(202) 225-4121"
+      },
+      {
+        "name": "Defense Intelligence and Warfighter Support",
+        "thomas_id": "06",
+        "address": "HVC304 CAPITOL; Washington, DC 20515",
+        "phone": "(202) 225-7690"
+      },
+      {
+        "name": "Strategic Technologies and Advanced Research",
+        "thomas_id": "10",
+        "address": "HVC304 CAPITOL; Washington, DC 20515",
+        "phone": "(202) 225-7690"
       }
     ],
     "address": "HVC304 CAPITOL; Washington, DC 20515-6415",
-    "phone": "(202) 225-4121",
+    "phone": "(202) 225-7690",
     "jurisdiction": "The United States House Permanent Select Committee on Intelligence (HPSCI) is a committee of the United States House of Representatives, currently chaired by Congressman Devin Nunes (California). Created in 1977, HPSCI is charged with oversight of the United States Intelligence Community\u2014which includes the intelligence and intelligence-related activities of the following seventeen elements of the U.S. Government\u2014and the Military Intelligence Program.",
     "jurisdiction_source": "https://intelligence.house.gov/about/history-and-jurisdiction.htm"
   },
@@ -621,10 +657,10 @@
     "house_committee_id": "JU",
     "subcommittees": [
       {
-        "name": "Constitution, Civil Rights and Civil Liberties",
+        "name": "Constitution, Civil Rights, and Civil Justice",
         "thomas_id": "10",
-        "address": "362 FHOB; Washington, DC 20515",
-        "phone": "(202) 225-2825"
+        "address": "2138 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-3951"
       },
       {
         "name": "Courts, Intellectual Property, and the Internet",
@@ -633,7 +669,7 @@
         "phone": "(202) 225-5741"
       },
       {
-        "name": "Crime, Terrorism, and Homeland Security",
+        "name": "Crime, Terrorism and Homeland Security",
         "thomas_id": "08",
         "address": "6340 OHOB; Washington, DC 20515",
         "phone": "(202) 225-5727"
@@ -651,7 +687,7 @@
         "phone": "(202) 226-7680"
       }
     ],
-    "address": "2141 RHOB; Washington, DC 20515-6216",
+    "address": "2138 RHOB; Washington, DC 20515-6216",
     "phone": "(202) 225-3951",
     "minority_rss_url": "https://democrats-judiciary.house.gov/rss.xml",
     "jurisdiction": "The Committee on the Judiciary has jurisdiction over matters relating to the administration of justice in federal courts, administrative bodies, and law enforcement agencies. Its role in impeachment proceedings has also brought it much attention.  The committee\u2019s jurisdiction also includes a range of issues such as bankruptcy, espionage, terrorism, the protection of civil liberties, constitutional amendments, and more. The Committee oversees the Departments of Justice and Homeland Security.",
@@ -668,42 +704,42 @@
       {
         "name": "Aviation",
         "thomas_id": "05",
-        "address": "2251 RHOB; Washington, DC 20515",
-        "phone": "(202) 226-3220"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       },
       {
         "name": "Coast Guard and Maritime Transportation",
         "thomas_id": "07",
-        "address": "507 FHOB; Washington, DC 20515",
-        "phone": "(202) 226-3552"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       },
       {
         "name": "Economic Development, Public Buildings, and Emergency Management",
         "thomas_id": "13",
-        "address": "586 FHOB; Washington, DC 20515",
-        "phone": "(202) 225-3014"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       },
       {
         "name": "Highways and Transit",
         "thomas_id": "12",
-        "address": "2251 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-6715"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       },
       {
         "name": "Railroads, Pipelines, and Hazardous Materials",
         "thomas_id": "14",
-        "address": "2029 RHOB; Washington, DC 20515",
-        "phone": "(202) 226-0727"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       },
       {
         "name": "Water Resources and Environment",
         "thomas_id": "02",
-        "address": "585 FHOB; Washington, DC 20515",
-        "phone": "(202) 225-4360"
+        "address": "2165 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-4472"
       }
     ],
     "address": "2165 RHOB; Washington, DC 20515-6256",
-    "phone": "(202) 225-9446",
+    "phone": "(202) 225-4472",
     "jurisdiction": "The Transportation and Infrastructure Committee has jurisdiction over all modes of transportation: aviation, maritime and waterborne transportation, highways, bridges, mass transit, and railroads. The Committee also has jurisdiction over other aspects of our national infrastructure, such as clean water and waste water management, the transport of resources by pipeline, flood damage reduction, the management of federally owned real estate and public buildings, the development of economically depressed rural and urban areas, disaster preparedness and response, and hazardous materials transportation.",
     "jurisdiction_source": "https://transportation.house.gov/about/history.htm"
   },
@@ -719,17 +755,23 @@
         "name": "Legislative and Budget Process",
         "thomas_id": "02",
         "address": "H312 CAPITOL; Washington, DC 20515",
-        "phone": "(202) 225-9191"
+        "phone": "(202) 225-9091"
       },
       {
         "name": "Rules and Organization of the House",
         "thomas_id": "04",
         "address": "H312 CAPITOL; Washington, DC 20515",
-        "phone": "(202) 225-9191"
+        "phone": "(202) 225-9091"
+      },
+      {
+        "name": "Expedited Procedures",
+        "thomas_id": "05",
+        "address": "H312 CAPITOL; Washington, DC 20515",
+        "phone": "(202) 225-9091"
       }
     ],
     "address": "H312 CAPITOL; Washington, DC 20515-6269",
-    "phone": "(202) 225-9191",
+    "phone": "(202) 225-9091",
     "jurisdiction": "The House Committee on Rules is commonly known as \u201cThe Speaker\u2019s Committee\u201d because it is the mechanism that the Speaker uses to maintain control of the House Floor. Because of the vast power wielded by the Rules Committee, its ratio has traditionally been weighted in favor of the majority party. The Committee provides the terms and conditions of debate on any measure or matter through Special Rules. The Committee also considers original jurisdiction measures, which commonly represent changes to the standing rules of the House, or measures that contain special rules, such as the expedited procedures in trade legislation.",
     "jurisdiction_source": "https://rules.house.gov/about"
   },
@@ -744,35 +786,35 @@
       {
         "name": "Contracting and Infrastructure",
         "thomas_id": "23",
-        "address": "2069 RHOB; Washington, DC 20515",
+        "address": "2361 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4038"
       },
       {
         "name": "Investigations, Oversight and Regulations",
         "thomas_id": "24",
-        "address": "2069 RHOB; Washington, DC 20515",
+        "address": "2361 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4038"
       },
       {
-        "name": "Rural Development, Agriculture, Trade, and Entrepreneurship",
+        "name": "Rural Development, Agriculture, Trade and Entrepreneurship",
         "thomas_id": "25",
-        "address": "2069 RHOB; Washington, DC 20515",
+        "address": "2361 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4038"
       },
       {
-        "name": "Health and Technology",
+        "name": "Innovation and Workforce Development",
         "thomas_id": "26",
-        "address": "2069 RHOB; Washington, DC 20515",
+        "address": "2361 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4038"
       },
       {
         "name": "Economic Growth, Tax and Capital Access",
         "thomas_id": "27",
-        "address": "2069 RHOB; Washington, DC 20515",
+        "address": "2361 RHOB; Washington, DC 20515",
         "phone": "(202) 225-4038"
       }
     ],
-    "address": "2069 RHOB; Washington, DC 20515-6315",
+    "address": "2361 RHOB; Washington, DC 20515-6315",
     "phone": "(202) 225-4038",
     "jurisdiction": "The House Small Business Committee was established to protect and assist small businesses.  As such, the Committee has jurisdiction over matters related to small business financial aid, regulatory flexibility, and paperwork reduction. Additionally, the House Small Business Committee has  oversight and legislative authority over the Small Business Administration (SBA) and its programs.",
     "jurisdiction_source": "https://smallbusiness.house.gov/about/rulesandjurisdiction.htm"
@@ -799,32 +841,32 @@
       {
         "name": "Energy",
         "thomas_id": "20",
-        "address": "2319 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-6371"
+        "address": "2321 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-6375"
       },
       {
         "name": "Investigations and Oversight",
         "thomas_id": "21",
         "address": "2321 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-6371"
+        "phone": "(202) 225-6375"
       },
       {
-        "name": "Space",
+        "name": "Space and Aeronautics",
         "thomas_id": "16",
-        "address": "4220 OHOB; Washington, DC 20515",
-        "phone": "(202) 225-6371"
+        "address": "2321 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-6375"
       },
       {
         "name": "Environment",
         "thomas_id": "18",
-        "address": "2319 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-6371"
+        "address": "2321 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-6375"
       },
       {
         "name": "Research and Technology",
         "thomas_id": "15",
-        "address": "4220 OHOB; Washington, DC 20515",
-        "phone": "(202) 225-6371"
+        "address": "2321 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-6375"
       }
     ],
     "address": "2321 RHOB; Washington, DC 20515-6301",
@@ -843,35 +885,35 @@
       {
         "name": "Disability Assistance and Memorial Affairs",
         "thomas_id": "09",
-        "address": "3460 OHOB; Washington, DC 20515",
+        "address": "B234 LHOB; Washington, DC 20515",
         "phone": "(202) 225-9756"
       },
       {
         "name": "Economic Opportunity",
         "thomas_id": "10",
-        "address": "3460 OHOB; Washington, DC 20515",
+        "address": "B234 LHOB; Washington, DC 20515",
         "phone": "(202) 225-9756"
       },
       {
         "name": "Health",
         "thomas_id": "03",
-        "address": "3460 OHOB; Washington, DC 20515",
+        "address": "B234 LHOB; Washington, DC 20515",
         "phone": "(202) 225-9756"
       },
       {
         "name": "Oversight and Investigations",
         "thomas_id": "08",
-        "address": "3460 OHOB; Washington, DC 20515",
+        "address": "B234 LHOB; Washington, DC 20515",
         "phone": "(202) 225-9756"
       },
       {
         "name": "Technology Modernization",
         "thomas_id": "11",
-        "address": "3460 OHOB; Washington, DC 20515",
+        "address": "B234 LHOB; Washington, DC 20515",
         "phone": "(202) 225-9756"
       }
     ],
-    "address": "3460 OHOB; Washington, DC 20515",
+    "address": "B234 LHOB; Washington, DC 20515-6335",
     "phone": "(202) 225-9756",
     "jurisdiction": "The House Committee on Veterans' Affairs is the authorizing committee for the Department of Veterans Affairs (VA). The committee is responsible for recommending legislation expanding, curtailing, or fine-tuning existing laws relating to veterans' benefits. The Committee also has oversight responsibility, which means monitoring and evaluating the operations of the VA. If the Committee finds that VA is not administering laws as Congress intended, then it is addressed through the hearing process and legislation.",
     "jurisdiction_source": "https://veterans.house.gov/about/history.htm"
@@ -894,13 +936,13 @@
         "name": "Worker and Family Support",
         "thomas_id": "03",
         "address": "1129 LHOB; Washington, DC 20515",
-        "phone": "(202) 225-1025"
+        "phone": "(202) 225-9263"
       },
       {
         "name": "Oversight",
         "thomas_id": "06",
         "address": "2018 RHOB; Washington, DC 20515",
-        "phone": "(202) 225-9263"
+        "phone": "(202) 225-3625"
       },
       {
         "name": "Select Revenue Measures",
@@ -921,10 +963,23 @@
         "phone": "(202) 225-6649"
       }
     ],
-    "address": "1139E LHOB; Washington, DC 20515-6348",
+    "address": "1102 LHOB; Washington, DC 20515-6348",
     "phone": "(202) 225-3625",
     "jurisdiction": "The Committee on Ways and Means is the chief tax-writing committee in the House of Representatives. The Committee derives a large share of its jurisdiction from Article I, Section VII of the U.S. Constitution, which declares, \u201cAll Bills for raising Revenue shall originate in the House of Representatives.\u201d The committee has jurisdiction over revenue and related issues such as tariffs, reciprocal trade agreements, and the bonded debt of the United States. It also oversees revenue-related aspects of the Social Security system, Medicare, and social services programs.",
     "jurisdiction_source": "https://waysandmeans.house.gov/history/"
+  },
+  {
+    "type": "house",
+    "name": "House Select Committee on the Climate Crisis",
+    "thomas_id": "HSCN",
+    "house_committee_id": "CN"
+  },
+  {
+    "type": "house",
+    "name": "House Select Committee on the Modernization of Congress",
+    "url": "https://modernizecongress.house.gov/",
+    "thomas_id": "HSMH",
+    "house_committee_id": "MH"
   },
   {
     "type": "joint",
@@ -1243,29 +1298,25 @@
         "wikipedia": "United States Senate Commerce Subcommittee on Competitiveness, Innovation, and Export Promotion"
       },
       {
-        "name": "Manufacturing, Trade, and Consumer Protection",
-        "thomas_id": "20",
-        "wikipedia": "United States Senate Commerce Subcommittee on Consumer Protection, Product Safety, and Insurance"
-      },
-      {
-        "name": "Science, Oceans, Fisheries, and Weather",
-        "thomas_id": "22",
-        "wikipedia": "United States Senate Commerce Subcommittee on Oceans, Atmosphere, Fisheries, and Coast Guard"
-      },
-      {
-        "name": "Space, Science, and Competitiveness",
-        "thomas_id": "24",
-        "wikipedia": "United States Senate Commerce Subcommittee on Science and Space"
-      },
-      {
-        "name": "Transportation and Safety",
-        "thomas_id": "25",
-        "wikipedia": "United States Senate Commerce Subcommittee on Surface Transportation and Merchant Marine Infrastructure, Safety, and Security"
-      },
-      {
+        "thomas_id": "28",
         "name": "Aviation and Space",
-        "thomas_id": "01",
         "wikipedia": "United States Senate Commerce Subcommittee on Aviation and Space"
+      },
+      {
+        "thomas_id": "29",
+        "name": "Manufacturing, Trade, and Consumer Protection"
+      },
+      {
+        "thomas_id": "30",
+        "name": "Science, Oceans, Fisheries, and Weather"
+      },
+      {
+        "thomas_id": "31",
+        "name": "Security"
+      },
+      {
+        "thomas_id": "32",
+        "name": "Transportation and Safety"
       }
     ],
     "wikipedia": "United States Senate Committee on Commerce, Science and Transportation",
@@ -1533,11 +1584,6 @@
         "wikipedia": "United States Senate Judiciary Subcommittee on Crime and Terrorism"
       },
       {
-        "name": "Privacy, Technology and the Law",
-        "thomas_id": "23",
-        "wikipedia": "United States Senate Judiciary Subcommittee on Privacy, Technology and the Law"
-      },
-      {
         "name": "Antitrust, Competition Policy and Consumer Rights",
         "thomas_id": "01",
         "wikipedia": "United States Senate Judiciary Subcommittee on Antitrust, Competition Policy and Consumer Rights"
@@ -1548,12 +1594,12 @@
         "wikipedia": "United States Senate Judiciary Subcommittee on Immigration, Refugees and Border Security"
       },
       {
-        "thomas_id": "24",
-        "name": "Bankruptcy and the Courts"
-      },
-      {
         "thomas_id": "25",
         "name": "Oversight, Agency Action, Federal Rights and Federal Courts"
+      },
+      {
+        "thomas_id": "26",
+        "name": "Intellectual Property"
       }
     ],
     "wikipedia": "United States Senate Committee on the Judiciary",
