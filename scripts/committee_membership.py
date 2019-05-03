@@ -141,7 +141,7 @@ def run():
         if m.group(2):
           # Chairman, Vice Chair, etc. (all but Ex Officio) started appearing on subcommittees around Feb 2014.
           # For the chair, this should overwrite the implicit title given for the rank 0 majority party member.
-          if m.group(2) in ("Chair", "Chairman", "Chairwoman"):
+          if m.group(2) in ("Chair", "Chairman", "Chairwoman", "Chairperson"):
             entry["title"] = "Chair"
           elif m.group(2) in ("Vice Chair", "Vice Chairman"):
             entry["title"] = "Vice Chair"
