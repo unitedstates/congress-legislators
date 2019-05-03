@@ -237,11 +237,11 @@
   - name: Africa, Global Health, Global Human Rights, and International Organizations
     thomas_id: '16'
     address: 2170 RHOB; Washington, DC 20515
-    phone: (202) 225-5021
+    phone: (202) 226-1500
   - name: Asia, the Pacific, and Nonproliferation
     thomas_id: '05'
     address: 2170 RHOB; Washington, DC 20515
-    phone: (202) 225-5021
+    phone: (202) 226-6434
   - name: Europe, Eurasia, Energy, and the Environment
     thomas_id: '14'
     address: 2170 RHOB; Washington, DC 20515
@@ -249,11 +249,11 @@
   - name: Middle East, North Africa, and International Terrorism
     thomas_id: '13'
     address: 2170 RHOB; Washington, DC 20515
-    phone: (202) 225-5021
+    phone: (202) 226-7812
   - name: Western Hemisphere, Civilian Security, and Trade
     thomas_id: '07'
     address: 2170 RHOB; Washington, DC 20515
-    phone: (202) 225-5021
+    phone: (202) 225-3345
   - name: Oversight and Investigations
     thomas_id: '17'
     address: 2170 RHOB; Washington, DC 20515
@@ -278,11 +278,11 @@
     phone: (202) 225-5074
   - name: Government Operations
     thomas_id: '24'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 6460 OHOB; Washington, DC 20515
     phone: (202) 225-5051
   - name: National Security
     thomas_id: '06'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 6470 OHOB; Washington, DC 20515
     phone: (202) 225-5051
   - name: Healthcare, Benefits, and Administrative Rules
     thomas_id: '27'
@@ -290,7 +290,7 @@
     phone: (202) 225-5074
   - name: Environment
     thomas_id: '28'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 6440 OHOB; Washington, DC 20515
     phone: (202) 225-5051
   - name: Intergovernmental Affairs
     thomas_id: '29'
@@ -298,11 +298,11 @@
     phone: (202) 225-5074
   - name: Civil Rights and Civil Liberties
     thomas_id: '02'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 6440 OHOB; Washington, DC 20515
     phone: (202) 225-5051
   - name: Economic and Consumer Policy
     thomas_id: '05'
-    address: 2157 RHOB; Washington, DC 20515
+    address: 6430 OHOB; Washington, DC 20515
     phone: (202) 225-5051
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5051
@@ -513,7 +513,7 @@
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
-  - name: Constitution, Civil Rights, and Civil Justice
+  - name: Constitution, Civil Rights, and Civil Liberties
     thomas_id: '10'
     address: 2138 RHOB; Washington, DC 20515
     phone: (202) 225-3951
@@ -786,11 +786,15 @@
   name: House Select Committee on the Climate Crisis
   thomas_id: HSCN # since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
   house_committee_id: CN
+  address: 359 FHOB; Washington, DC 20515
+  phone: (202) 225-1106
 - type: house
   name: House Select Committee on the Modernization of Congress
   url: https://modernizecongress.house.gov/
   thomas_id: HSMH # since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
   house_committee_id: MH
+  address: '1410'
+  phone: (202) 225-1530
 - type: joint
   name: Commission on Security and Cooperation in Europe
   url: http://www.csce.gov/
