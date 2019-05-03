@@ -4369,6 +4369,10 @@ HSED02:
   bioguide: T000482
   start_date: '2019-01-29'
   source: https://edlabor.house.gov/imo/media/doc/2019-01-29%20Committee%20Roster.pdf
+- name: Robert C. "Bobby" Scott
+  party: majority
+  rank: 14
+  bioguide: S000185
 HSED10:
 - name: Bradley Byrne
   party: minority
@@ -8465,6 +8469,10 @@ HSII10:
   title: Ex Officio
   start_date: '2019-01-30'
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
+- name: Paul Tonko
+  party: majority
+  rank: 10
+  bioguide: T000469
 HSII13:
 - name: Tom McClintock
   party: minority
@@ -8680,7 +8688,7 @@ HSII15:
   source: https://naturalresources.house.gov/imo/media/doc/NRC%20Full%20and%20Sub%20Mbrs_116th%20Congress%20woimage_01.30.20191.docx
 - name: Raúl M. Grijalva
   party: majority
-  rank: 6
+  rank: 5
   bioguide: G000551
   title: Ex Officio
   start_date: '2019-01-30'
@@ -11013,6 +11021,10 @@ HSSM23:
   party: minority
   rank: 3
   bioguide: B001306
+- name: Judy Chu
+  party: majority
+  rank: 3
+  bioguide: C001080
 HSSM24:
 - name: Ross Spano
   party: minority
@@ -11229,51 +11241,45 @@ HSSY:
   bioguide: M001198
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
-- name: Neal P. Dunn
-  party: minority
-  rank: 8
-  bioguide: D000628
-  start_date: '2019-01-23'
-  source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Ralph Norman
   party: minority
-  rank: 9
+  rank: 8
   bioguide: N000190
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Michael Cloud
   party: minority
-  rank: 10
+  rank: 9
   bioguide: C001115
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Troy Balderson
   party: minority
-  rank: 11
+  rank: 10
   bioguide: B001306
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Pete Olson
   party: minority
-  rank: 12
+  rank: 11
   bioguide: O000168
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Anthony Gonzalez
   party: minority
-  rank: 13
+  rank: 12
   bioguide: G000588
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: Michael Waltz
   party: minority
-  rank: 14
+  rank: 13
   bioguide: W000823
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
 - name: James R. Baird
   party: minority
-  rank: 15
+  rank: 14
   bioguide: B001307
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/68/text
@@ -11411,6 +11417,14 @@ HSSY:
   bioguide: W000825
   start_date: '2019-01-23'
   source: https://www.congress.gov/bill/116th-congress/house-resolution/67/text
+- name: Jaime Herrera Beutler
+  party: minority
+  rank: 15
+  bioguide: H001056
+- name: Jenniffer González-Colón
+  party: minority
+  rank: 16
+  bioguide: G000582
 HSSY15:
 - name: Haley M. Stevens
   party: majority
@@ -11475,17 +11489,13 @@ HSSY15:
   party: minority
   rank: 2
   bioguide: M001198
-- name: Neal P. Dunn
-  party: minority
-  rank: 3
-  bioguide: D000628
 - name: Troy Balderson
   party: minority
-  rank: 4
+  rank: 3
   bioguide: B001306
 - name: Anthony Gonzalez
   party: minority
-  rank: 5
+  rank: 4
   bioguide: G000588
 - name: Frank D. Lucas
   party: minority
@@ -11714,17 +11724,13 @@ HSSY20:
   party: minority
   rank: 2
   bioguide: B001302
-- name: Neal P. Dunn
-  party: minority
-  rank: 3
-  bioguide: D000628
 - name: Ralph Norman
   party: minority
-  rank: 4
+  rank: 3
   bioguide: N000190
 - name: Michael Cloud
   party: minority
-  rank: 5
+  rank: 4
   bioguide: C001115
 - name: Frank D. Lucas
   party: minority
@@ -12990,20 +12996,20 @@ JCSE:
   rank: 2
   bioguide: B001236
   chamber: senate
-- name: Marco Rubio
+- name: Cory Gardner
   party: majority
   rank: 3
+  bioguide: G000562
+  chamber: senate
+- name: Marco Rubio
+  party: majority
+  rank: 4
   bioguide: R000595
   chamber: senate
 - name: Thom Tillis
   party: majority
-  rank: 4
-  bioguide: T000476
-  chamber: senate
-- name: Cory Gardner
-  party: majority
   rank: 5
-  bioguide: G000562
+  bioguide: T000476
   chamber: senate
 - name: Benjamin L. Cardin
   party: minority
@@ -15425,14 +15431,14 @@ SSAS20:
   party: minority
   rank: 2
   bioguide: S001181
-- name: Martin Heinrich
-  party: minority
-  rank: 3
-  bioguide: H001046
 - name: Mazie K. Hirono
   party: minority
-  rank: 4
+  rank: 3
   bioguide: H001042
+- name: Martin Heinrich
+  party: minority
+  rank: 4
+  bioguide: H001046
 - name: Jack Reed
   party: minority
   rank: 5
@@ -16424,10 +16430,10 @@ SSCM28:
   bioguide: C001098
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Marsha Blackburn
+- name: John Thune
   party: majority
   rank: 2
-  bioguide: B001243
+  bioguide: T000250
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Roy Blunt
@@ -16436,10 +16442,10 @@ SSCM28:
   bioguide: B000575
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Shelley Moore Capito
+- name: Jerry Moran
   party: majority
   rank: 4
-  bioguide: C001047
+  bioguide: M000934
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Cory Gardner
@@ -16448,24 +16454,29 @@ SSCM28:
   bioguide: G000562
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Mike Lee
+- name: Marsha Blackburn
   party: majority
   rank: 6
+  bioguide: B001243
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Shelley Moore Capito
+  party: majority
+  rank: 7
+  bioguide: C001047
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Mike Lee
+  party: majority
+  rank: 8
   bioguide: L000577
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Jerry Moran
+- name: Roger F. Wicker
   party: majority
-  rank: 7
-  bioguide: M000934
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: John Thune
-  party: majority
-  rank: 8
-  bioguide: T000250
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+  rank: 9
+  title: Ex Officio
+  bioguide: W000437
 - name: Kyrsten Sinema
   party: minority
   rank: 1
@@ -16473,16 +16484,16 @@ SSCM28:
   bioguide: S001191
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tammy Duckworth
+- name: Brian Schatz
   party: minority
   rank: 2
-  bioguide: D000622
+  bioguide: S001194
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Amy Klobuchar
+- name: Tom Udall
   party: minority
   rank: 3
-  bioguide: K000367
+  bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Gary C. Peters
@@ -16491,30 +16502,29 @@ SSCM28:
   bioguide: P000595
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Jacky Rosen
+- name: Tammy Duckworth
   party: minority
   rank: 5
-  bioguide: R000608
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Brian Schatz
-  party: minority
-  rank: 6
-  bioguide: S001194
+  bioguide: D000622
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Jon Tester
   party: minority
-  rank: 7
+  rank: 6
   bioguide: T000464
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tom Udall
+- name: Jacky Rosen
   party: minority
-  rank: 8
-  bioguide: U000039
+  rank: 7
+  bioguide: R000608
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Maria Cantwell
+  party: minority
+  rank: 8
+  title: Ex Officio
+  bioguide: C000127
 SSCM29:
 - name: Jerry Moran
   party: majority
@@ -16523,46 +16533,46 @@ SSCM29:
   bioguide: M000934
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Marsha Blackburn
+- name: John Thune
   party: majority
   rank: 2
+  bioguide: T000250
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Deb Fischer
+  party: majority
+  rank: 3
+  bioguide: F000463
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Dan Sullivan
+  party: majority
+  rank: 4
+  bioguide: S001198
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Marsha Blackburn
+  party: majority
+  rank: 5
   bioguide: B001243
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Shelley Moore Capito
   party: majority
-  rank: 3
+  rank: 6
   bioguide: C001047
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Deb Fischer
-  party: majority
-  rank: 4
-  bioguide: F000463
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Ron Johnson
-  party: majority
-  rank: 5
-  bioguide: J000293
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Mike Lee
   party: majority
-  rank: 6
+  rank: 7
   bioguide: L000577
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Dan Sullivan
-  party: majority
-  rank: 7
-  bioguide: S001198
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: John Thune
+- name: Ron Johnson
   party: majority
   rank: 8
-  bioguide: T000250
+  bioguide: J000293
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Todd Young
@@ -16571,6 +16581,11 @@ SSCM29:
   bioguide: Y000064
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Roger F. Wicker
+  party: majority
+  rank: 10
+  title: Ex Officio
+  bioguide: W000437
 - name: Richard Blumenthal
   party: minority
   rank: 1
@@ -16578,16 +16593,16 @@ SSCM29:
   bioguide: B001277
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tammy Baldwin
-  party: minority
-  rank: 2
-  bioguide: B001230
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Amy Klobuchar
   party: minority
-  rank: 3
+  rank: 2
   bioguide: K000367
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Brian Schatz
+  party: minority
+  rank: 3
+  bioguide: S001194
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Edward J. Markey
@@ -16596,16 +16611,16 @@ SSCM29:
   bioguide: M000133
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Jacky Rosen
+- name: Tom Udall
   party: minority
   rank: 5
-  bioguide: R000608
+  bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Brian Schatz
+- name: Tammy Baldwin
   party: minority
   rank: 6
-  bioguide: S001194
+  bioguide: B001230
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Kyrsten Sinema
@@ -16614,12 +16629,17 @@ SSCM29:
   bioguide: S001191
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tom Udall
+- name: Jacky Rosen
   party: minority
   rank: 8
-  bioguide: U000039
+  bioguide: R000608
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Maria Cantwell
+  party: minority
+  rank: 9
+  title: Ex Officio
+  bioguide: C000127
 SSCM30:
 - name: Cory Gardner
   party: majority
@@ -16634,24 +16654,29 @@ SSCM30:
   bioguide: C001098
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Ron Johnson
+- name: Dan Sullivan
   party: majority
   rank: 3
+  bioguide: S001198
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Ron Johnson
+  party: majority
+  rank: 4
   bioguide: J000293
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Rick Scott
   party: majority
-  rank: 4
+  rank: 5
   bioguide: S001217
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Dan Sullivan
+- name: Roger F. Wicker
   party: majority
-  rank: 5
-  bioguide: S001198
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+  rank: 6
+  title: Ex Officio
+  bioguide: W000437
 - name: Tammy Baldwin
   party: minority
   rank: 1
@@ -16665,18 +16690,23 @@ SSCM30:
   bioguide: B001277
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Gary C. Peters
-  party: minority
-  rank: 3
-  bioguide: P000595
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Brian Schatz
   party: minority
-  rank: 4
+  rank: 3
   bioguide: S001194
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Gary C. Peters
+  party: minority
+  rank: 4
+  bioguide: P000595
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Maria Cantwell
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: C000127
 SSCM32:
 - name: Deb Fischer
   party: majority
@@ -16685,48 +16715,53 @@ SSCM32:
   bioguide: F000463
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Roy Blunt
+- name: John Thune
   party: majority
   rank: 2
-  bioguide: B000575
+  bioguide: T000250
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Shelley Moore Capito
+- name: Roy Blunt
   party: majority
   rank: 3
-  bioguide: C001047
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Cory Gardner
-  party: majority
-  rank: 4
-  bioguide: G000562
+  bioguide: B000575
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Jerry Moran
   party: majority
-  rank: 5
+  rank: 4
   bioguide: M000934
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Rick Scott
+- name: Cory Gardner
   party: majority
-  rank: 6
-  bioguide: S001217
+  rank: 5
+  bioguide: G000562
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: John Thune
+- name: Shelley Moore Capito
   party: majority
-  rank: 7
-  bioguide: T000250
+  rank: 6
+  bioguide: C001047
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Todd Young
   party: majority
-  rank: 8
+  rank: 7
   bioguide: Y000064
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Rick Scott
+  party: majority
+  rank: 8
+  bioguide: S001217
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Roger F. Wicker
+  party: majority
+  rank: 9
+  title: Ex Officio
+  bioguide: W000437
 - name: Tammy Duckworth
   party: minority
   rank: 1
@@ -16734,10 +16769,10 @@ SSCM32:
   bioguide: D000622
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tammy Baldwin
+- name: Amy Klobuchar
   party: minority
   rank: 2
-  bioguide: B001230
+  bioguide: K000367
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Richard Blumenthal
@@ -16746,16 +16781,16 @@ SSCM32:
   bioguide: B001277
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Amy Klobuchar
-  party: minority
-  rank: 4
-  bioguide: K000367
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Edward J. Markey
   party: minority
-  rank: 5
+  rank: 4
   bioguide: M000133
+  start_date: '2019-01-24'
+  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+- name: Tom Udall
+  party: minority
+  rank: 5
+  bioguide: U000039
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
 - name: Gary C. Peters
@@ -16764,18 +16799,17 @@ SSCM32:
   bioguide: P000595
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Kyrsten Sinema
+- name: Tammy Baldwin
   party: minority
   rank: 7
-  bioguide: S001191
+  bioguide: B001230
   start_date: '2019-01-24'
   source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
-- name: Tom Udall
+- name: Maria Cantwell
   party: minority
   rank: 8
-  bioguide: U000039
-  start_date: '2019-01-24'
-  source: https://www.commerce.senate.gov/public/index.cfm/pressreleases?ID=928E144C-B9C8-478A-92B7-29C5B270ECA5
+  title: Ex Officio
+  bioguide: C000127
 SSCM26:
 - name: John Thune
   party: majority
