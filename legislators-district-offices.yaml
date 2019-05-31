@@ -14025,13 +14025,15 @@
     bioguide: U000040
     govtrack: 412776
   offices:
-  - id: U000040-st__charles
-    address: 40 W310 LaFox Road
-    city: St. Charles
+  - id: U000040-west_chicago
+    address: 490 East Roosevelt Road
+    suite: Suite 202
+    city: West Chicago
     state: IL
-    zip: '60175'
-    latitude: 41.9355581
-    longitude: -88.4006568
+    zip: '60185'
+    latitude: 41.8620585
+    longitude: -88.2002888
+    phone: 630-549-2190
 - id:
     bioguide: V000081
     govtrack: 400416
