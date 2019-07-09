@@ -3595,7 +3595,19 @@
         "end": "2021-01-03",
         "state": "MI",
         "district": 3,
-        "party": "Republican",
+        "party": "Independent",
+        "party_affiliations": [
+          {
+            "start": "2019-01-03",
+            "end": "2019-07-07",
+            "party": "Republican"
+          },
+          {
+            "start": "2019-07-08",
+            "end": "2021-01-03",
+            "party": "Independent"
+          }
+        ],
         "phone": "202-225-3831",
         "address": "106 Cannon House Office Building; Washington DC 20515-2203",
         "office": "106 Cannon House Office Building",
