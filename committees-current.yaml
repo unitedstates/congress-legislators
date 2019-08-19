@@ -784,14 +784,16 @@
   jurisdiction_source: https://waysandmeans.house.gov/history/
 - type: house
   name: House Select Committee on the Climate Crisis
-  thomas_id: HSCN # since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
+  thomas_id: HSCN
+  thomas_id_comment: since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
   house_committee_id: CN
   address: 359 FHOB; Washington, DC 20515
   phone: (202) 225-1106
 - type: house
   name: House Select Committee on the Modernization of Congress
   url: https://modernizecongress.house.gov/
-  thomas_id: HSMH # since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
+  thomas_id: HSMH
+  thomas_id_comment: since it's not on Congress.gov, it doesn't have an ID, but GovTrack needs it
   house_committee_id: MH
   address: '1410'
   phone: (202) 225-1530
