@@ -10,7 +10,8 @@
 import lxml.html, io, urllib.request, urllib.error, urllib.parse
 import re
 import utils
-from utils import load_data, save_data
+from utils import load_data, save_data, states as state_names
+
 
 def run():
 
@@ -31,9 +32,6 @@ def run():
       by_district[full_district] = m
 
       if not state in states:
-        # house lists AS (American Samoa) as AQ, awesome
-        if state == "AS":
-          state = "AQ"
         states.append(state)
 
   destination = "legislators/house.html"
@@ -55,21 +53,25 @@ def run():
   #   go through every row after the first, pick the district to isolate the member
   #   pluck out the URL, update that member's last term's URL
   count = 0
-  for state in states:
-    rows = dom.cssselect("h2#state_%s+table tr" % state.lower())
+  for state in sorted(states):
+    state_name = state_names[state].lower().replace(' ', '-')
+    table = dom.cssselect("table.table caption#state-%s" % state_name)[0].getparent()
+    rows = table.cssselect("tbody tr")
 
     for row in rows:
       cells = row.cssselect("td")
       if not cells:
         continue
 
-      district = str(cells[0].text_content())
+      district = str(cells[0].text_content()).strip()
       if (
         (district == "At Large")
         or (district == "Delegate")
         or (district == "Resident Commissioner")
       ):
         district = 0
+      else:
+        district = int(re.sub(r'[^\d]', '', district))
 
       url = cells[1].cssselect("a")[0].get("href")
 
