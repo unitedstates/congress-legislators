@@ -279,9 +279,9 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
     if term.get("party") not in ("Republican", "Democrat", "Independent"):
       error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
 
-    # Check caucus of Independent members.
+    # Check caucus of Independent members -- it's optional, so warn.
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      error(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
+      print(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " when party is Independent.")
 
     # Check website -- it's optional, so warn.
     if not term.get("url"):
