@@ -20771,5 +20771,216 @@
         "phone": "610-333-1170"
       }
     ]
+  },
+  {
+    "id": {
+      "bioguide": "M001208",
+      "govtrack": 412769
+    },
+    "offices": [
+      {
+        "id": "M001208-atlanta",
+        "address": "5775 Glenridge Dr.",
+        "building": "Building B, Suite 380",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30328-5380",
+        "phone": "470-773-6330",
+        "latitude": 33.91263,
+        "longitude": -84.35953
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "A000376",
+      "govtrack": 412828
+    },
+    "offices": [
+      {
+        "id": "A000376-richardson",
+        "address": "100 North Central Expressway",
+        "suite": "Suite 602",
+        "city": "Richardson",
+        "state": "TX",
+        "zip": "75080-5332",
+        "phone": "972-972-7949",
+        "fax": "888-671-0539",
+        "latitude": 32.95034,
+        "longitude": -96.73449
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "H001089",
+      "govtrack": 412840
+    },
+    "offices": [
+      {
+        "id": "H001089-cape_girardeau",
+        "address": "555 Independence Street",
+        "suite": "#1600",
+        "city": "Cape Girardeau",
+        "state": "MO",
+        "zip": "63703-6235",
+        "phone": "573-334-5995",
+        "fax": "573-334-5947",
+        "latitude": 37.3039,
+        "longitude": -89.52491
+      },
+      {
+        "id": "H001089-columbia",
+        "address": "1123 Wilkes Blvd",
+        "suite": "Suite 220",
+        "city": "Columbia",
+        "state": "MO",
+        "zip": "65201-4774",
+        "phone": "202-860-5207",
+        "latitude": 38.96012,
+        "longitude": -92.32279
+      },
+      {
+        "id": "H001089-kansas_city",
+        "address": "4141 Pennsylvania Ave",
+        "suite": "Suite 101",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64111-3051",
+        "phone": "816-960-4694",
+        "fax": "816-960-4815",
+        "latitude": 39.05193,
+        "longitude": -94.5903
+      },
+      {
+        "id": "H001089-springfield",
+        "address": "324 Park Central West",
+        "suite": "Suite 101",
+        "city": "Springfield",
+        "state": "MO",
+        "zip": "65806-1245",
+        "phone": "417-869-4433",
+        "fax": "417-869-4411",
+        "latitude": 37.2088,
+        "longitude": -93.29409
+      },
+      {
+        "id": "H001089-st__louis",
+        "address": "111 South 10th Street",
+        "suite": "Suite 23.366",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63102-1125",
+        "phone": "314-354-7060",
+        "fax": "314-436-8534",
+        "latitude": 38.62588,
+        "longitude": -90.196
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "W000827",
+      "govtrack": 412823
+    },
+    "offices": [
+      {
+        "id": "W000827-arlington",
+        "address": "5840 West Ronald Reagan Memorial Highway",
+        "suite": "Suite 115",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76017-1098",
+        "phone": "817-775-0370",
+        "latitude": 32.67343,
+        "longitude": -97.19691
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "T000484",
+      "govtrack": 412801
+    },
+    "offices": [
+      {
+        "id": "T000484-belen",
+        "address": "719 S. Main St.",
+        "suite": "Room 1",
+        "city": "Belen",
+        "state": "NM",
+        "zip": "87002-3309",
+        "phone": "575-323-6384",
+        "hours": "By Appointment Only",
+        "latitude": 34.65434,
+        "longitude": -106.77972
+      },
+      {
+        "id": "T000484-carlsbad",
+        "address": "101 N. Halagueno",
+        "city": "Carlsbad",
+        "state": "NM",
+        "zip": "88220-4943",
+        "hours": "By Appointment Only",
+        "latitude": 32.42093,
+        "longitude": -104.23066
+      },
+      {
+        "id": "T000484-las_cruces",
+        "address": "240 S. Water Street",
+        "city": "Las Cruces",
+        "state": "NM",
+        "zip": "88001-1230",
+        "phone": "575-323-6384",
+        "latitude": 32.30857,
+        "longitude": -106.77931
+      },
+      {
+        "id": "T000484-roswell",
+        "address": "1717 W 2nd Street",
+        "suite": "Suite 215",
+        "city": "Roswell",
+        "state": "NM",
+        "zip": "88201-2000",
+        "phone": "575-578-6120",
+        "latitude": 33.39445,
+        "longitude": -104.5491
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "K000395",
+      "govtrack": 412843
+    },
+    "offices": [
+      {
+        "id": "K000395-selinsgrove",
+        "address": "713 Bridge Street",
+        "suite": "Room 29",
+        "city": "Selinsgrove",
+        "state": "PA",
+        "zip": "17870",
+        "phone": "570-374-9469"
+      },
+      {
+        "id": "K000395-tunkhannock",
+        "address": "181 West Tioga Street",
+        "suite": "Suite 2",
+        "city": "Tunkhannock",
+        "state": "PA",
+        "zip": "18658",
+        "phone": "570-996-6550"
+      },
+      {
+        "id": "K000395-williamsport",
+        "address": "1020 Commerce Park Drive",
+        "suite": "Suite 1A",
+        "city": "Williamsport",
+        "state": "PA",
+        "zip": "17701",
+        "phone": "570-322-3961"
+      }
+    ]
   }
 ]
