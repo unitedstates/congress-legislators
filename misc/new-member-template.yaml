@@ -16,7 +16,7 @@
     lis: S999              # not assigned until there is a Senate roll call vote
     fec:                   # http://fec.gov/finance/disclosure/candcmte_info.shtml
     - H1XX99999            #   (you're looking for a Candidate ID)
-    govtrack: 456789       # you may assign the next available integer
+    govtrack: 456789       # you may assign the next available integer (try: `(echo -n "1+"; git grep -h govtrack: *.yaml | sort | tail -1 | sed "s/ *govtrack: //") | bc`)
     opensecrets: N00099999 # http://www.opensecrets.org/
     votesmart: 159999      # http://votesmart.org/
     icpsr: 99999           # not knowable until voteview.org publishes roll call raw data
