@@ -96,6 +96,13 @@ def run():
                 content_as_file = StringIO(read_file_content)
                 content_parsed = csv.reader(content_as_file, delimiter=',')
 
+                # loop through congress members in read file, see if one matches the current legislator
+                for icpsr_member in content_parsed:
+                    # ensure unique match bassed of bioguide id
+                    if bioguide == icpsr_member[10]:
+                        num_matches += 1
+                        write_id = int(icpsr_member[2])
+
 
             #     # # this can't run unless we've already collected a bioguide for this person
             #     bioguide = legislator["id"].get("bioguide", None)
