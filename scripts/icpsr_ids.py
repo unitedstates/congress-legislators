@@ -66,62 +66,62 @@ def run():
             for legislator in data_file[0]:
                 num_matches = 0
                 write_id = ""
-                # # this can't run unless we've already collected a bioguide for this person
-                bioguide = legislator["id"].get("bioguide", None)
-                # if we've limited this to just one bioguide, skip over everyone else
-                if only_bioguide and (bioguide != only_bioguide):
-                    continue
-                #if not in currently read chamber, skip
-                chamber = legislator['terms'][len(legislator['terms'])-1]['type']
-                if chamber != read_file[1]:
-                    continue
-
-                #only run for selected congress
-                latest_congress = utils.congress_from_legislative_year(utils.legislative_year(parse_date(legislator['terms'][len(legislator['terms'])-1]['start'])))
-                if chamber == "sen":
-                    congresses = [latest_congress,latest_congress+1,latest_congress+2]
-                else:
-                    congresses =[latest_congress]
-
-                if int(congress) not in congresses:
-                    continue
-
-                # pull data to match from yaml
-
-                last_name_unicode = legislator['name']['last'].upper().strip().replace('\'','')
-                last_name = unicodedata.normalize('NFD', str(last_name_unicode)).encode('ascii', 'ignore')
-                state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
-                # select icpsr source data based on more recent chamber
-
-                lines = read_file[0].split('\n')
-                for line in lines:
-                    # parse source data
-                    icpsr_state = line[12:20].strip()
-                    icpsr_name = line[21:].strip().strip(string.digits).strip()
-                    icpsr_id = line[3:8].strip()
-
-                    #ensure unique match
-                    if icpsr_name[:8] == last_name[:8] and state == icpsr_state:
-                        num_matches += 1
-                        write_id = icpsr_id
-                #skip if icpsr id is currently in data
-                if "icpsr" in legislator["id"]:
-                    if write_id == legislator["id"]["icpsr"] or write_id == "":
-                        continue
-                    elif write_id != legislator["id"]["icpsr"] and write_id != "":
-                        error_log.writerow(["Incorrect_ID","NA",last_name[:8],state,"NA",legislator["id"]["icpsr"],write_id])
-                        print("ID updated for %s" % last_name)
-                if num_matches == 1:
-                    legislator['id']['icpsr'] = int(write_id)
-                else:
-                    if state == 'GUAM' or state == 'PUERTO' or state == "VIRGIN" or state == "DISTRIC" or state == "AMERICA" or state == "NORTHER" or state == "PHILIPP":
-                        error_log.writerow(["Non_1_match_number",str(num_matches),last_name[:8],state,"Y","NA","NA"])
-                    else:
-                        print(str(num_matches) + " matches found for "+ last_name[:8] + ", " + state + " in congress " + str(congress))
-                        error_log.writerow(["Non_1_match_number",str(num_matches),last_name,state,"N","NA","NA"])
-
-
-            save_data(data_file[0], data_file[1])
+            #     # # this can't run unless we've already collected a bioguide for this person
+            #     bioguide = legislator["id"].get("bioguide", None)
+            #     # if we've limited this to just one bioguide, skip over everyone else
+            #     if only_bioguide and (bioguide != only_bioguide):
+            #         continue
+            #     #if not in currently read chamber, skip
+            #     chamber = legislator['terms'][len(legislator['terms'])-1]['type']
+            #     if chamber != read_file[1]:
+            #         continue
+            #
+            #     #only run for selected congress
+            #     latest_congress = utils.congress_from_legislative_year(utils.legislative_year(parse_date(legislator['terms'][len(legislator['terms'])-1]['start'])))
+            #     if chamber == "sen":
+            #         congresses = [latest_congress,latest_congress+1,latest_congress+2]
+            #     else:
+            #         congresses =[latest_congress]
+            #
+            #     if int(congress) not in congresses:
+            #         continue
+            #
+            #     # pull data to match from yaml
+            #
+            #     last_name_unicode = legislator['name']['last'].upper().strip().replace('\'','')
+            #     last_name = unicodedata.normalize('NFD', str(last_name_unicode)).encode('ascii', 'ignore')
+            #     state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
+            #     # select icpsr source data based on more recent chamber
+            #
+            #     lines = read_file[0].split('\n')
+            #     for line in lines:
+            #         # parse source data
+            #         icpsr_state = line[12:20].strip()
+            #         icpsr_name = line[21:].strip().strip(string.digits).strip()
+            #         icpsr_id = line[3:8].strip()
+            #
+            #         #ensure unique match
+            #         if icpsr_name[:8] == last_name[:8] and state == icpsr_state:
+            #             num_matches += 1
+            #             write_id = icpsr_id
+            #     #skip if icpsr id is currently in data
+            #     if "icpsr" in legislator["id"]:
+            #         if write_id == legislator["id"]["icpsr"] or write_id == "":
+            #             continue
+            #         elif write_id != legislator["id"]["icpsr"] and write_id != "":
+            #             error_log.writerow(["Incorrect_ID","NA",last_name[:8],state,"NA",legislator["id"]["icpsr"],write_id])
+            #             print("ID updated for %s" % last_name)
+            #     if num_matches == 1:
+            #         legislator['id']['icpsr'] = int(write_id)
+            #     else:
+            #         if state == 'GUAM' or state == 'PUERTO' or state == "VIRGIN" or state == "DISTRIC" or state == "AMERICA" or state == "NORTHER" or state == "PHILIPP":
+            #             error_log.writerow(["Non_1_match_number",str(num_matches),last_name[:8],state,"Y","NA","NA"])
+            #         else:
+            #             print(str(num_matches) + " matches found for "+ last_name[:8] + ", " + state + " in congress " + str(congress))
+            #             error_log.writerow(["Non_1_match_number",str(num_matches),last_name,state,"N","NA","NA"])
+            #
+            #
+            # save_data(data_file[0], data_file[1])
 
     ## the following three lines can be run as a separate script to update icpsr id's for all historical congresses
     # import os
