@@ -61,11 +61,36 @@ def run():
 
     read_files = [("sen",senate_data),("rep",house_data)]
     print("Running for congress " + congress)
-    for read_file in read_files:
+    for read_file_chamber,read_file_content in read_files:
         for data_file in data_files:
             for legislator in data_file[0]:
                 num_matches = 0
                 write_id = ""
+                # this can't run unless we've already collected a bioguide for this person
+                bioguide = legislator["id"].get("bioguide", None)
+                # if we've limited this to just one bioguide, skip over everyone else
+                if only_bioguide and (bioguide != only_bioguide):
+                    continue
+                #if not in currently read chamber, skip
+                chamber = legislator['terms'][len(legislator['terms'])-1]['type']
+                if chamber != read_file_chamber:
+                    continue
+
+                #only run for selected congress
+                latest_congress = utils.congress_from_legislative_year(utils.legislative_year(parse_date(legislator['terms'][len(legislator['terms'])-1]['start'])))
+                if chamber == "sen":
+                    congresses = [latest_congress,latest_congress+1,latest_congress+2]
+                else:
+                    congresses =[latest_congress]
+
+                if int(congress) not in congresses:
+                    continue
+
+                # pull data to match from yaml
+
+                last_name = legislator['name']['last'].upper()
+                state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
+
             #     # # this can't run unless we've already collected a bioguide for this person
             #     bioguide = legislator["id"].get("bioguide", None)
             #     # if we've limited this to just one bioguide, skip over everyone else
