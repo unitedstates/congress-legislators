@@ -59,12 +59,13 @@ def run():
 
 
 
-    read_files = [(senate_data,"sen"),(house_data,"rep")]
+    read_files = [("sen",senate_data),("rep",house_data)]
     print("Running for congress " + congress)
     for read_file in read_files:
         for data_file in data_files:
             for legislator in data_file[0]:
                 num_matches = 0
+                write_id = ""
                 # # this can't run unless we've already collected a bioguide for this person
                 bioguide = legislator["id"].get("bioguide", None)
                 # if we've limited this to just one bioguide, skip over everyone else
@@ -92,7 +93,6 @@ def run():
                 state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
                 # select icpsr source data based on more recent chamber
 
-                write_id = ""
                 lines = read_file[0].split('\n')
                 for line in lines:
                     # parse source data
