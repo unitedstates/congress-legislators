@@ -12,6 +12,7 @@ from utils import load_data, save_data, parse_date
 import string
 import csv
 import unicodedata
+from io import StringIO
 
 def run():
 
@@ -90,6 +91,11 @@ def run():
 
                 last_name = legislator['name']['last'].upper()
                 state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
+
+                # convert read_file_content str to file object, then parse as csv file
+                content_as_file = StringIO(read_file_content)
+                content_parsed = csv.reader(content_as_file, delimiter=',')
+
 
             #     # # this can't run unless we've already collected a bioguide for this person
             #     bioguide = legislator["id"].get("bioguide", None)
