@@ -33,18 +33,18 @@ def run():
     legislators = load_data("legislators-historical.yaml")
     data_files.append((legislators,"legislators-historical.yaml"))
 
-    #load roll call data. Will need to be updated (possibly) for 114th+ congresses, since it is unclear what the URl format will be
+    # load member data from vote view
     if congress == None:
         raise Exception("the --congress flag is required")
-    elif congress == "113":
-        url_senate = "http://amypond.sscnet.ucla.edu/rollcall/static/S113.ord"
-        url_house = "http://amypond.sscnet.ucla.edu/rollcall/static/H113.ord"
-    elif int(congress) <10 and int(congress) >0:
-        url_senate = "ftp://voteview.com/dtaord/sen0%skh.ord" % congress
-        url_house = "ftp://voteview.com/dtaord/hou0%skh.ord" % congress
-    elif int(congress) < 113 and int(congress) >= 10:
-        url_senate = "ftp://voteview.com/dtaord/sen%skh.ord" % congress
-        url_house = "ftp://voteview.com/dtaord/hou%skh.ord" % congress
+    elif int(congress) < 10 and int(congress) > 0:
+        url_senate = "https://voteview.com/static/data/out/members/S00%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H00%s_members.csv" % congress
+    elif int(congress) < 100 and int(congress) >= 10:
+        url_senate = "https://voteview.com/static/data/out/members/S0%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H0%s_members.csv" % congress
+    elif int(congress) >= 100:
+        url_senate = "https://voteview.com/static/data/out/members/S%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H%s_members.csv" % congress
     else:
         raise Exception("no data for congress " + congress)
 
