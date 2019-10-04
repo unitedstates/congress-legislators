@@ -54,7 +54,7 @@ def run():
     house_destination = "icpsr/source/house_rollcall%s.txt" % congress
     house_data = utils.download(url_house, house_destination, force)
 
-    error_log = csv.writer(open("cache/errors/mismatch/mismatch_%s.csv" % congress, "wb"))
+    error_log = csv.writer(open("cache/errors/mismatch/mismatch_%s.csv" % congress, "w"))
     error_log.writerow(["error_type","matches","icpsr_name","icpsr_state","is_territory","old_id","new_id"])
 
 
