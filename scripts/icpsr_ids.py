@@ -9,9 +9,8 @@
 
 import utils
 from utils import load_data, save_data, parse_date
-import string
 import csv
-import unicodedata
+from io import StringIO
 
 def run():
 
@@ -33,18 +32,18 @@ def run():
     legislators = load_data("legislators-historical.yaml")
     data_files.append((legislators,"legislators-historical.yaml"))
 
-    #load roll call data. Will need to be updated (possibly) for 114th+ congresses, since it is unclear what the URl format will be
+    # load member data from vote view
     if congress == None:
         raise Exception("the --congress flag is required")
-    elif congress == "113":
-        url_senate = "http://amypond.sscnet.ucla.edu/rollcall/static/S113.ord"
-        url_house = "http://amypond.sscnet.ucla.edu/rollcall/static/H113.ord"
-    elif int(congress) <10 and int(congress) >0:
-        url_senate = "ftp://voteview.com/dtaord/sen0%skh.ord" % congress
-        url_house = "ftp://voteview.com/dtaord/hou0%skh.ord" % congress
-    elif int(congress) < 113 and int(congress) >= 10:
-        url_senate = "ftp://voteview.com/dtaord/sen%skh.ord" % congress
-        url_house = "ftp://voteview.com/dtaord/hou%skh.ord" % congress
+    elif int(congress) < 10 and int(congress) > 0:
+        url_senate = "https://voteview.com/static/data/out/members/S00%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H00%s_members.csv" % congress
+    elif int(congress) < 100 and int(congress) >= 10:
+        url_senate = "https://voteview.com/static/data/out/members/S0%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H0%s_members.csv" % congress
+    elif int(congress) >= 100:
+        url_senate = "https://voteview.com/static/data/out/members/S%s_members.csv" % congress
+        url_house = "https://voteview.com/static/data/out/members/H%s_members.csv" % congress
     else:
         raise Exception("no data for congress " + congress)
 
@@ -54,25 +53,26 @@ def run():
     house_destination = "icpsr/source/house_rollcall%s.txt" % congress
     house_data = utils.download(url_house, house_destination, force)
 
-    error_log = csv.writer(open("cache/errors/mismatch/mismatch_%s.csv" % congress, "wb"))
+    error_log = csv.writer(open("cache/errors/mismatch/mismatch_%s.csv" % congress, "w"))
     error_log.writerow(["error_type","matches","icpsr_name","icpsr_state","is_territory","old_id","new_id"])
 
 
 
-    read_files = [(senate_data,"sen"),(house_data,"rep")]
+    read_files = [("sen",senate_data),("rep",house_data)]
     print("Running for congress " + congress)
-    for read_file in read_files:
+    for read_file_chamber,read_file_content in read_files:
         for data_file in data_files:
             for legislator in data_file[0]:
                 num_matches = 0
-                # # this can't run unless we've already collected a bioguide for this person
+                write_id = ""
+                # this can't run unless we've already collected a bioguide for this person
                 bioguide = legislator["id"].get("bioguide", None)
                 # if we've limited this to just one bioguide, skip over everyone else
                 if only_bioguide and (bioguide != only_bioguide):
                     continue
                 #if not in currently read chamber, skip
                 chamber = legislator['terms'][len(legislator['terms'])-1]['type']
-                if chamber != read_file[1]:
+                if chamber != read_file_chamber:
                     continue
 
                 #only run for selected congress
@@ -87,39 +87,37 @@ def run():
 
                 # pull data to match from yaml
 
-                last_name_unicode = legislator['name']['last'].upper().strip().replace('\'','')
-                last_name = unicodedata.normalize('NFD', str(last_name_unicode)).encode('ascii', 'ignore')
+                last_name = legislator['name']['last'].upper()
                 state = utils.states[legislator['terms'][len(legislator['terms'])-1]['state']].upper()[:7].strip()
-                # select icpsr source data based on more recent chamber
 
-                write_id = ""
-                lines = read_file[0].split('\n')
-                for line in lines:
-                    # parse source data
-                    icpsr_state = line[12:20].strip()
-                    icpsr_name = line[21:].strip().strip(string.digits).strip()
-                    icpsr_id = line[3:8].strip()
+                # convert read_file_content str to file object, then parse as csv file
+                content_as_file = StringIO(read_file_content)
+                content_parsed = csv.reader(content_as_file, delimiter=',')
 
-                    #ensure unique match
-                    if icpsr_name[:8] == last_name[:8] and state == icpsr_state:
+                # loop through congress members in read file, see if one matches the current legislator
+                for icpsr_member in content_parsed:
+                    # ensure unique match bassed of bioguide id
+                    if bioguide == icpsr_member[10]:
                         num_matches += 1
-                        write_id = icpsr_id
-                #skip if icpsr id is currently in data
+                        write_id = int(icpsr_member[2])
+
+                # skip if icpsr id is currently in data
                 if "icpsr" in legislator["id"]:
                     if write_id == legislator["id"]["icpsr"] or write_id == "":
                         continue
                     elif write_id != legislator["id"]["icpsr"] and write_id != "":
                         error_log.writerow(["Incorrect_ID","NA",last_name[:8],state,"NA",legislator["id"]["icpsr"],write_id])
                         print("ID updated for %s" % last_name)
+
                 if num_matches == 1:
                     legislator['id']['icpsr'] = int(write_id)
                 else:
                     if state == 'GUAM' or state == 'PUERTO' or state == "VIRGIN" or state == "DISTRIC" or state == "AMERICA" or state == "NORTHER" or state == "PHILIPP":
+                        print('error: non 1 match')
                         error_log.writerow(["Non_1_match_number",str(num_matches),last_name[:8],state,"Y","NA","NA"])
                     else:
                         print(str(num_matches) + " matches found for "+ last_name[:8] + ", " + state + " in congress " + str(congress))
                         error_log.writerow(["Non_1_match_number",str(num_matches),last_name,state,"N","NA","NA"])
-
 
             save_data(data_file[0], data_file[1])
 
