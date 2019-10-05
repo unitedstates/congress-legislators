@@ -9,9 +9,7 @@
 
 import utils
 from utils import load_data, save_data, parse_date
-import string
 import csv
-import unicodedata
 from io import StringIO
 
 def run():
