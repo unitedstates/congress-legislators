@@ -15934,3 +15934,31 @@
     state: PA
     zip: '17701'
     phone: 570-322-3961
+- id:
+    bioguide: B001311
+    govtrack: 412844
+  offices:
+  - id: B001311-monroe
+    address: 300 N Main Street
+    city: Monroe
+    state: NC
+    zip: '28112'
+    phone: 740-218-5300
+    fax: 844-273-1255
+- id:
+    bioguide: M001210
+    govtrack: 412845
+  offices:
+  - id: M001210-greenville
+    address: 1105 Corporate Drive
+    suite: Suite C
+    city: Greenville
+    state: NC
+    zip: '27858'
+    phone: 252-931-1003
+  - id: M001210-jacksonville
+    address: 234 Northwest Corridor Blvd.
+    city: Jacksonville
+    state: NC
+    zip: '28540'
+    phone: 910-937-6929
