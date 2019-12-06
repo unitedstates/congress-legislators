@@ -2060,43 +2060,6 @@
     fax: 208-733-0414
     phone: 208-734-2515
 - id:
-    bioguide: C000984
-    govtrack: 400090
-    thomas: '00256'
-  offices:
-  - id: C000984-baltimore
-    address: 1010 Park Ave.
-    suite: Suite 105
-    city: Baltimore
-    state: MD
-    zip: '21201'
-    latitude: 39.3030641
-    longitude: -76.6191075
-    fax: 410-685-9399
-    hours: M-F 8AM-5PM EST
-    phone: 410-685-9199
-  - id: C000984-catonsville
-    address: 754 Frederick Rd.
-    city: Catonsville
-    state: MD
-    zip: '21228'
-    latitude: 39.2717668
-    longitude: -76.73274339999999
-    fax: 410-455-0110
-    hours: Mon-Fri 8AM-5PM EST
-    phone: 410-719-8777
-  - id: C000984-ellicott_city
-    address: 8267 Main St.
-    suite: Room 102
-    city: Ellicott City
-    state: MD
-    zip: '21043'
-    latitude: 39.2675157
-    longitude: -76.7991703
-    fax: 410-465-8740
-    hours: M-F 8:30AM to 5PM
-    phone: 410-465-8259
-- id:
     bioguide: C001035
     govtrack: 300025
     thomas: '01541'
@@ -2966,32 +2929,6 @@
     hours: Monday-Friday, 9:00 am- 6:00 pm CT
     phone: 210-348-8216
 - id:
-    bioguide: C001092
-    govtrack: 412563
-    thomas: '02151'
-  offices:
-  - id: C001092-geneseo
-    address: 128 Main St.
-    city: Geneseo
-    state: NY
-    zip: '14454'
-    latitude: 42.794794
-    longitude: -77.817404
-    fax: 585-519-4009
-    hours: M 9-6, T-F 9-5
-    phone: 585-519-4002
-  - id: C001092-williamsville
-    address: 8203 Main St
-    suite: Suite 2
-    city: Williamsville
-    state: NY
-    zip: 14221-6050
-    latitude: 42.96282
-    longitude: -78.68888
-    fax: 716-631-7610
-    hours: M-F 9:00-5:00
-    phone: 716-634-2324
-- id:
     bioguide: C001093
     govtrack: 412531
     thomas: '02121'
@@ -3768,42 +3705,6 @@
     longitude: -80.2050177
     phone: 954-972-6454
     hours: By appointment only.
-- id:
-    bioguide: D000614
-    govtrack: 412488
-    thomas: '02072'
-  offices:
-  - id: D000614-hayward
-    address: 15569 Railroad St.
-    suite: Suite 302
-    city: Hayward
-    state: WI
-    zip: '54843'
-    latitude: 46.0165948
-    longitude: -91.4772284
-    hours: By appointment only
-    phone: 715-392-3984
-  - id: D000614-hudson
-    address: 502 2nd St.
-    suite: Suite 202
-    city: Hudson
-    state: WI
-    zip: '54016'
-    latitude: 44.9750352
-    longitude: -92.7566503
-    fax: 715-808-8167
-    hours: By appointment only
-    phone: 715-808-8160
-  - id: D000614-wausau
-    address: 208 Grand Ave.
-    city: Wausau
-    state: WI
-    zip: '54403'
-    latitude: 44.955171
-    longitude: -89.624724
-    fax: 715-298-9348
-    hours: Monday-Friday 8:00AM-5:00PM
-    phone: 715-298-9344
 - id:
     bioguide: D000615
     govtrack: 412472
@@ -6520,27 +6421,6 @@
     latitude: 40.33695
     longitude: -75.92123
     phone: 610-295-0815
-- id:
-    bioguide: H001087
-    govtrack: 412756
-  offices:
-  - id: H001087-palmdale
-    address: 1008 W Avenue M14
-    suite: E
-    city: Palmdale
-    state: CA
-    zip: 93551-1441
-    latitude: 34.63294
-    longitude: -118.14866
-    phone: 661-839-0539
-  - id: H001087-simi_valley
-    address: 1445 E Los Angeles Ave
-    suite: Suite 206
-    city: Simi Valley
-    state: CA
-    zip: 93065-2817
-    latitude: 34.27247
-    longitude: -118.77161
 - id:
     bioguide: H001088
     govtrack: 412788
@@ -15897,3 +15777,188 @@
     latitude: 40.69081
     longitude: -75.21124
     phone: 610-333-1170
+- id:
+    bioguide: M001208
+    govtrack: 412769
+  offices:
+  - id: M001208-atlanta
+    address: 5775 Glenridge Dr.
+    building: Building B, Suite 380
+    city: Atlanta
+    state: GA
+    zip: 30328-5380
+    phone: 470-773-6330
+    latitude: 33.91263
+    longitude: -84.35953
+- id:
+    bioguide: A000376
+    govtrack: 412828
+  offices:
+  - id: A000376-richardson
+    address: 100 North Central Expressway
+    suite: Suite 602
+    city: Richardson
+    state: TX
+    zip: 75080-5332
+    phone: 972-972-7949
+    fax: 888-671-0539
+    latitude: 32.95034
+    longitude: -96.73449
+- id:
+    bioguide: H001089
+    govtrack: 412840
+  offices:
+  - id: H001089-cape_girardeau
+    address: 555 Independence Street
+    suite: '#1600'
+    city: Cape Girardeau
+    state: MO
+    zip: 63703-6235
+    phone: 573-334-5995
+    fax: 573-334-5947
+    latitude: 37.3039
+    longitude: -89.52491
+  - id: H001089-columbia
+    address: 1123 Wilkes Blvd
+    suite: Suite 220
+    city: Columbia
+    state: MO
+    zip: 65201-4774
+    phone: 202-860-5207
+    latitude: 38.96012
+    longitude: -92.32279
+  - id: H001089-kansas_city
+    address: 4141 Pennsylvania Ave
+    suite: Suite 101
+    city: Kansas City
+    state: MO
+    zip: 64111-3051
+    phone: 816-960-4694
+    fax: 816-960-4815
+    latitude: 39.05193
+    longitude: -94.5903
+  - id: H001089-springfield
+    address: 324 Park Central West
+    suite: Suite 101
+    city: Springfield
+    state: MO
+    zip: 65806-1245
+    phone: 417-869-4433
+    fax: 417-869-4411
+    latitude: 37.2088
+    longitude: -93.29409
+  - id: H001089-st__louis
+    address: 111 South 10th Street
+    suite: Suite 23.366
+    city: St. Louis
+    state: MO
+    zip: 63102-1125
+    phone: 314-354-7060
+    fax: 314-436-8534
+    latitude: 38.62588
+    longitude: -90.196
+- id:
+    bioguide: W000827
+    govtrack: 412823
+  offices:
+  - id: W000827-arlington
+    address: 5840 West Ronald Reagan Memorial Highway
+    suite: Suite 115
+    city: Arlington
+    state: TX
+    zip: 76017-1098
+    phone: 817-775-0370
+    latitude: 32.67343
+    longitude: -97.19691
+- id:
+    bioguide: T000484
+    govtrack: 412801
+  offices:
+  - id: T000484-belen
+    address: 719 S. Main St.
+    suite: Room 1
+    city: Belen
+    state: NM
+    zip: 87002-3309
+    phone: 575-323-6384
+    hours: By Appointment Only
+    latitude: 34.65434
+    longitude: -106.77972
+  - id: T000484-carlsbad
+    address: 101 N. Halagueno
+    city: Carlsbad
+    state: NM
+    zip: 88220-4943
+    hours: By Appointment Only
+    latitude: 32.42093
+    longitude: -104.23066
+  - id: T000484-las_cruces
+    address: 240 S. Water Street
+    city: Las Cruces
+    state: NM
+    zip: 88001-1230
+    phone: 575-323-6384
+    latitude: 32.30857
+    longitude: -106.77931
+  - id: T000484-roswell
+    address: 1717 W 2nd Street
+    suite: Suite 215
+    city: Roswell
+    state: NM
+    zip: 88201-2000
+    phone: 575-578-6120
+    latitude: 33.39445
+    longitude: -104.5491
+- id:
+    bioguide: K000395
+    govtrack: 412843
+  offices:
+  - id: K000395-selinsgrove
+    address: 713 Bridge Street
+    suite: Room 29
+    city: Selinsgrove
+    state: PA
+    zip: '17870'
+    phone: 570-374-9469
+  - id: K000395-tunkhannock
+    address: 181 West Tioga Street
+    suite: Suite 2
+    city: Tunkhannock
+    state: PA
+    zip: '18658'
+    phone: 570-996-6550
+  - id: K000395-williamsport
+    address: 1020 Commerce Park Drive
+    suite: Suite 1A
+    city: Williamsport
+    state: PA
+    zip: '17701'
+    phone: 570-322-3961
+- id:
+    bioguide: B001311
+    govtrack: 412844
+  offices:
+  - id: B001311-monroe
+    address: 300 N Main Street
+    city: Monroe
+    state: NC
+    zip: '28112'
+    phone: 740-218-5300
+    fax: 844-273-1255
+- id:
+    bioguide: M001210
+    govtrack: 412845
+  offices:
+  - id: M001210-greenville
+    address: 1105 Corporate Drive
+    suite: Suite C
+    city: Greenville
+    state: NC
+    zip: '27858'
+    phone: 252-931-1003
+  - id: M001210-jacksonville
+    address: 234 Northwest Corridor Blvd.
+    city: Jacksonville
+    state: NC
+    zip: '28540'
+    phone: 910-937-6929

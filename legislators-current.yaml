@@ -3519,6 +3519,7 @@
     votesmart: 25186
     fec:
     - H2TN06030
+    - S8TN00337
     cspan: 31226
     wikipedia: Marsha Blackburn
     house_history: 10385
@@ -7180,144 +7181,6 @@
     url: https://cuellar.house.gov
     rss_url: http://cuellar.house.gov/news/rss.aspx
 - id:
-    bioguide: C000984
-    thomas: '00256'
-    govtrack: 400090
-    opensecrets: N00001971
-    votesmart: 345
-    fec:
-    - H6MD07160
-    cspan: 43300
-    wikipedia: Elijah Cummings
-    house_history: 11684
-    ballotpedia: Elijah Cummings
-    maplight: 204
-    icpsr: 29587
-    wikidata: Q934898
-    google_entity_id: kg:/m/025k9h
-  name:
-    first: Elijah
-    middle: E.
-    last: Cummings
-    official_full: Elijah E. Cummings
-  bio:
-    birthday: '1951-01-18'
-    gender: M
-  terms:
-  - type: rep
-    start: '1996-04-16'
-    end: '1997-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2005-01-04'
-    end: '2007-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2009-01-06'
-    end: '2011-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-    address: 2235 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://forms.house.gov/wyr/welcome.shtml
-    office: 2235 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: MD
-    party: Democrat
-    district: 7
-    url: http://cummings.house.gov
-    address: 2235 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://cummings.house.gov/contact-me/email-me
-    office: 2235 Rayburn House Office Building
-    rss_url: http://cummings.house.gov/rss.xml
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: MD
-    party: Democrat
-    district: 7
-    url: http://cummings.house.gov
-    address: 2230 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://cummings.house.gov/contact-me/email-me
-    office: 2230 Rayburn House Office Building
-    rss_url: http://cummings.house.gov/rss.xml
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    phone: 202-225-4741
-    url: https://cummings.house.gov
-    rss_url: http://cummings.house.gov/rss.xml
-    address: 2163 Rayburn House Office Building; Washington DC 20515-2007
-    office: 2163 Rayburn House Office Building
-    fax: 202-225-3178
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    phone: 202-225-4741
-    address: 2163 Rayburn House Office Building; Washington DC 20515-2007
-    office: 2163 Rayburn House Office Building
-    url: https://cummings.house.gov
-    rss_url: http://cummings.house.gov/rss.xml
-- id:
     bioguide: D000096
     thomas: '01477'
     govtrack: 400093
@@ -8576,90 +8439,6 @@
     url: https://doyle.house.gov
     rss_url: http://doyle.house.gov/rss.xml
 - id:
-    bioguide: D000614
-    thomas: '02072'
-    govtrack: 412488
-    opensecrets: N00030967
-    votesmart: 126238
-    fec:
-    - H0WI07051
-    cspan: 623570
-    wikipedia: Sean Duffy
-    house_history: 12601
-    ballotpedia: Sean Duffy
-    maplight: 1493
-    icpsr: 21189
-    wikidata: Q1729888
-    google_entity_id: kg:/m/026m6hd
-  name:
-    first: Sean
-    last: Duffy
-    official_full: Sean P. Duffy
-    middle: P.
-  bio:
-    birthday: '1971-10-03'
-    gender: M
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    url: http://duffy.house.gov/
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: WI
-    party: Republican
-    district: 7
-    url: http://duffy.house.gov
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-    rss_url: http://duffy.house.gov/rss.xml
-    contact_form: http://duffy.house.gov/contact
-    fax: 202-225-3240
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: WI
-    party: Republican
-    district: 7
-    url: https://duffy.house.gov
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-    rss_url: http://duffy.house.gov/rss.xml
-    contact_form: http://duffy.house.gov/contact
-    fax: 202-225-3240
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    phone: 202-225-3365
-    url: https://duffy.house.gov
-    rss_url: http://duffy.house.gov/rss.xml
-    address: 2330 Rayburn House Office Building; Washington DC 20515-4907
-    office: 2330 Rayburn House Office Building
-    fax: 202-225-3240
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    phone: 202-225-3365
-    address: 1714 Longworth House Office Building; Washington DC 20515-4907
-    office: 1714 Longworth House Office Building
-    url: https://duffy.house.gov
-    rss_url: http://duffy.house.gov/rss.xml
-- id:
     bioguide: D000615
     thomas: '02057'
     govtrack: 412472
@@ -9035,7 +8814,7 @@
     phone: 202-225-8104
     address: 202 Cannon House Office Building; Washington DC 20515-0518
     office: 202 Cannon House Office Building
-    url: http://eshoo.house.gov
+    url: https://eshoo.house.gov
     rss_url: http://eshoo.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: F000459
@@ -16136,7 +15915,7 @@
     phone: 202-225-7163
     address: 2311 Rayburn House Office Building; Washington DC 20515-0506
     office: 2311 Rayburn House Office Building
-    url: http://matsui.house.gov
+    url: https://matsui.house.gov
     rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
   family:
   - name: Robert Matsui
@@ -28024,6 +27803,7 @@
     wikipedia: Kyrsten Sinema
     fec:
     - H2AZ09019
+    - S8AZ00197
     ballotpedia: Kyrsten Sinema
     maplight: 1733
     icpsr: 21300
@@ -30268,6 +30048,7 @@
     fec:
     - H0ND01026
     - H6ND00074
+    - S8ND00120
     opensecrets: N00004614
     ballotpedia: Kevin Cramer
     maplight: 1779
@@ -30677,77 +30458,6 @@
     office: 2331 Rayburn House Office Building
     url: https://seanmaloney.house.gov
     rss_url: http://seanmaloney.house.gov/rss.xml
-- id:
-    govtrack: 412563
-    bioguide: C001092
-    thomas: '02151'
-    cspan: 94144
-    fec:
-    - H8NY29032
-    votesmart: 139770
-    wikipedia: Chris Collins (American politician)
-    opensecrets: N00001285
-    ballotpedia: Chris Collins
-    maplight: 1787
-    icpsr: 21345
-    wikidata: Q5106218
-    google_entity_id: kg:/m/03cv81x
-  name:
-    first: Chris
-    last: Collins
-    official_full: Chris Collins
-  bio:
-    gender: M
-    birthday: '1950-05-20'
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: NY
-    party: Republican
-    district: 27
-    office: 1117 Longworth House Office Building
-    address: 1117 Longworth HOB; Washington DC 20515-3227
-    phone: 202-225-5265
-    url: http://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    contact_form: https://chriscollins.house.gov/contact/email-me
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: NY
-    party: Republican
-    district: 27
-    office: 1117 Longworth House Office Building
-    address: 1117 Longworth HOB; Washington DC 20515-3227
-    phone: 202-225-5265
-    url: http://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    contact_form: https://chriscollins.house.gov/contact/email-me
-    fax: 202-225-5910
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: NY
-    district: 27
-    party: Republican
-    phone: 202-225-5265
-    url: https://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    address: 1117 Longworth House Office Building; Washington DC 20515-3227
-    office: 1117 Longworth House Office Building
-    fax: 202-225-5910
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: NY
-    district: 27
-    party: Republican
-    phone: 202-225-5265
-    address: 2243 Rayburn House Office Building; Washington DC 20515-3227
-    office: 2243 Rayburn House Office Building
-    url: https://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
 - id:
     govtrack: 412564
     bioguide: W000815
@@ -35751,7 +35461,7 @@
     phone: 202-225-4035
     address: 1710 Longworth House Office Building; Washington DC 20515-0907
     office: 1710 Longworth House Office Building
-    url: https://stephaniemurphy.house.gov
+    url: https://murphy.house.gov
 - id:
     bioguide: S001200
     govtrack: 412695
@@ -36547,6 +36257,7 @@
     votesmart: 169471
     fec:
     - H6NV03139
+    - S8NV00156
     opensecrets: N00038734
     maplight: 2227
     google_entity_id: kg:/g/11cntnvwkg
@@ -37084,6 +36795,7 @@
     maplight: 2246
     google_entity_id: kg:/m/0gfgsrm
     opensecrets: N00040712
+    icpsr: 21750
   name:
     first: Ron
     last: Estes
@@ -37127,6 +36839,7 @@
     google_entity_id: kg:/m/030pb5p
     house_history: 15032448990
     maplight: 2247
+    icpsr: 21751
   name:
     first: Greg
     last: Gianforte
@@ -37170,6 +36883,7 @@
     google_entity_id: kg:/m/0f9kbx
     house_history: 15032448994
     maplight: 2248
+    icpsr: 21753
   name:
     first: Ralph
     last: Norman
@@ -37214,6 +36928,7 @@
     cspan: 108883
     house_history: 15032449022
     maplight: 2250
+    icpsr: 21754
   name:
     first: Jimmy
     last: Gomez
@@ -37254,6 +36969,7 @@
     ballotpedia: John Curtis (Utah)
     google_entity_id: kg:/m/0bmdhtb
     maplight: 2251
+    icpsr: 21755
   name:
     first: John
     last: Curtis
@@ -37366,7 +37082,7 @@
     office: 720 Hart Senate Office Building
     phone: 202-224-5641
     url: https://www.smith.senate.gov
-    contact_form: https://www.smith.senate.gov/content/contact-senator
+    contact_form: https://www.smith.senate.gov/contact-tina
 - id:
     bioguide: H001079
     lis: S395
@@ -37426,6 +37142,7 @@
     ballotpedia: Conor Lamb
     google_entity_id: kg:/g/11gdj36kt1
     votesmart: 177656
+    icpsr: 21756
   name:
     first: Conor
     last: Lamb
@@ -37453,7 +37170,7 @@
     phone: 202-225-2301
     address: 1224 Longworth House Office Building; Washington DC 20515-3817
     office: 1224 Longworth House Office Building
-    url: https://lamb.house.gov/
+    url: https://lamb.house.gov
 - id:
     bioguide: L000589
     fec:
@@ -37465,6 +37182,7 @@
     ballotpedia: Debbie Lesko
     google_entity_id: kg:/m/0zwmkgq
     votesmart: 106483
+    icpsr: 21757
   name:
     first: Debbie
     last: Lesko
@@ -37492,7 +37210,7 @@
     phone: 202-225-4576
     address: 1113 Longworth House Office Building; Washington DC 20515-0308
     office: 1113 Longworth House Office Building
-    url: https://lesko.house.gov/
+    url: https://lesko.house.gov
 - id:
     bioguide: C001115
     fec:
@@ -37504,6 +37222,7 @@
     ballotpedia: Michael Cloud (Texas)
     opensecrets: N00041882
     votesmart: 177350
+    icpsr: 21758
   name:
     first: Michael
     last: Cloud
@@ -37531,7 +37250,7 @@
     phone: 202-225-7742
     address: 1314 Longworth House Office Building; Washington DC 20515-4327
     office: 1314 Longworth House Office Building
-    url: https://cloud.house.gov/
+    url: https://cloud.house.gov
 - id:
     bioguide: B001306
     fec:
@@ -37543,6 +37262,7 @@
     ballotpedia: Troy Balderson
     google_entity_id: kg:/m/09ry4tm
     votesmart: 102781
+    icpsr: 21759
   name:
     first: Troy
     last: Balderson
@@ -37570,7 +37290,7 @@
     phone: 202-225-5355
     address: 1221 Longworth House Office Building; Washington DC 20515-3512
     office: 1221 Longworth House Office Building
-    url: https://balderson.house.gov/
+    url: https://balderson.house.gov
 - id:
     bioguide: H001082
     fec:
@@ -37581,6 +37301,7 @@
     opensecrets: N00040829
     ballotpedia: Kevin Hern
     votesmart: 180004
+    icpsr: 21760
   name:
     first: Kevin
     middle: R.
@@ -37621,6 +37342,7 @@
     ballotpedia: Joseph Morelle
     google_entity_id: kg:/m/03d820m
     votesmart: 4362
+    icpsr: 21761
   name:
     first: Joseph
     middle: D.
@@ -37660,6 +37382,7 @@
     opensecrets: N00042706
     ballotpedia: Mary Gay Scanlon
     votesmart: 178890
+    icpsr: 21762
   name:
     first: Mary
     middle: Gay
@@ -37699,6 +37422,7 @@
     opensecrets: N00041997
     ballotpedia: Susan Wild
     votesmart: 178895
+    icpsr: 21763
   name:
     first: Susan
     middle: Ellis
@@ -37817,7 +37541,7 @@
     phone: 202-225-9894
     address: 1330 Longworth House Office Building; Washington DC 20515-2804
     office: 1330 Longworth House Office Building
-    url: http://horsford.house.gov
+    url: https://horsford.house.gov
     rss_url: http://horsford.house.gov/rss.xml
 - id:
     bioguide: K000368
@@ -37885,7 +37609,7 @@
     phone: 202-225-2542
     address: 309 Cannon House Office Building; Washington DC 20515-0302
     office: 309 Cannon House Office Building
-    url: http://kirkpatrick.house.gov
+    url: https://kirkpatrick.house.gov
     rss_url: http://kirkpatrick.house.gov/rss.xml
 - id:
     bioguide: S001211
@@ -37897,6 +37621,7 @@
     opensecrets: N00041750
     google_entity_id: kg:/m/0hgrxqb
     votesmart: 72030
+    icpsr: 21968
   name:
     first: Greg
     last: Stanton
@@ -37914,7 +37639,7 @@
     phone: 202-225-9888
     address: 128 Cannon House Office Building; Washington DC 20515-0309
     office: 128 Cannon House Office Building
-    url: https://stanton.house.gov/
+    url: https://stanton.house.gov
 - id:
     bioguide: H001090
     fec:
@@ -37925,6 +37650,7 @@
     opensecrets: N00040853
     votesmart: 179326
     ballotpedia: Josh Harder
+    icpsr: 21930
   name:
     first: Josh
     last: Harder
@@ -37942,7 +37668,7 @@
     phone: 202-225-4540
     address: 131 Cannon House Office Building; Washington DC 20515-0510
     office: 131 Cannon House Office Building
-    url: https://harder.house.gov/
+    url: https://harder.house.gov
 - id:
     bioguide: C001124
     fec:
@@ -37954,6 +37680,7 @@
     wikidata: Q59306065
     votesmart: 57197
     ballotpedia: TJ Cox
+    icpsr: 21909
   name:
     first: TJ
     last: Cox
@@ -37971,34 +37698,7 @@
     phone: 202-225-4695
     address: 1728 Longworth House Office Building; Washington DC 20515-0521
     office: 1728 Longworth House Office Building
-    url: https://cox.house.gov/
-- id:
-    bioguide: H001087
-    fec:
-    - H8CA25074
-    govtrack: 412756
-    wikipedia: Katie Hill (politician)
-    wikidata: Q58416634
-    opensecrets: N00040644
-    votesmart: 179354
-  name:
-    first: Katie
-    last: Hill
-    official_full: Katie Hill
-  bio:
-    gender: F
-    birthday: '1987-08-25'
-  terms:
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: CA
-    district: 25
-    party: Democrat
-    phone: 202-225-1956
-    address: 1130 Longworth House Office Building; Washington DC 20515-0525
-    office: 1130 Longworth House Office Building
-    url: https://katiehill.house.gov/
+    url: https://cox.house.gov
 - id:
     bioguide: C001123
     fec:
@@ -38008,6 +37708,7 @@
     wikipedia: Gil Cisneros
     wikidata: Q54958760
     votesmart: 179370
+    icpsr: 21907
   name:
     first: Gilbert
     middle: Ray
@@ -38026,7 +37727,7 @@
     phone: 202-225-4111
     address: 431 Cannon House Office Building; Washington DC 20515-0539
     office: 431 Cannon House Office Building
-    url: https://cisneros.house.gov/
+    url: https://cisneros.house.gov
 - id:
     bioguide: P000618
     fec:
@@ -38036,6 +37737,7 @@
     wikidata: Q58754391
     opensecrets: N00040865
     votesmart: 179393
+    icpsr: 21954
   name:
     first: Katie
     last: Porter
@@ -38053,7 +37755,7 @@
     phone: 202-225-5611
     address: 1117 Longworth House Office Building; Washington DC 20515-0545
     office: 1117 Longworth House Office Building
-    url: https://porter.house.gov/
+    url: https://porter.house.gov
 - id:
     bioguide: R000616
     fec:
@@ -38063,6 +37765,7 @@
     wikidata: Q58333597
     opensecrets: N00040666
     votesmart: 179404
+    icpsr: 21960
   name:
     first: Harley
     last: Rouda
@@ -38080,7 +37783,7 @@
     phone: 202-225-2415
     address: 2300 Rayburn House Office Building; Washington DC 20515-0548
     office: 2300 Rayburn House Office Building
-    url: https://rouda.house.gov/
+    url: https://rouda.house.gov
 - id:
     bioguide: L000593
     fec:
@@ -38090,6 +37793,7 @@
     wikidata: Q55424854
     opensecrets: N00040667
     votesmart: 179416
+    icpsr: 21939
   name:
     first: Mike
     last: Levin
@@ -38107,7 +37811,7 @@
     phone: 202-225-3906
     address: 1626 Longworth House Office Building; Washington DC 20515-0549
     office: 1626 Longworth House Office Building
-    url: https://mikelevin.house.gov/
+    url: https://mikelevin.house.gov
 - id:
     bioguide: N000191
     fec:
@@ -38117,6 +37821,7 @@
     wikidata: Q57242006
     opensecrets: N00041080
     votesmart: 151075
+    icpsr: 21948
   name:
     first: Joe
     last: Neguse
@@ -38134,7 +37839,7 @@
     phone: 202-225-2161
     address: 1419 Longworth House Office Building; Washington DC 20515-0602
     office: 1419 Longworth House Office Building
-    url: https://neguse.house.gov/
+    url: https://neguse.house.gov
 - id:
     bioguide: C001121
     fec:
@@ -38144,6 +37849,7 @@
     opensecrets: N00040876
     wikidata: Q58323071
     votesmart: 180218
+    icpsr: 21912
   name:
     first: Jason
     last: Crow
@@ -38161,7 +37867,7 @@
     phone: 202-225-7882
     address: 1229 Longworth House Office Building; Washington DC 20515-0606
     office: 1229 Longworth House Office Building
-    url: https://crow.house.gov/
+    url: https://crow.house.gov
 - id:
     bioguide: H001081
     fec:
@@ -38171,6 +37877,7 @@
     wikidata: Q24951316
     opensecrets: N00043421
     votesmart: 181744
+    icpsr: 21931
   name:
     first: Jahana
     last: Hayes
@@ -38188,7 +37895,7 @@
     phone: 202-225-4476
     address: 1415 Longworth House Office Building; Washington DC 20515-0705
     office: 1415 Longworth House Office Building
-    url: https://hayes.house.gov/
+    url: https://hayes.house.gov
 - id:
     bioguide: W000823
     fec:
@@ -38197,6 +37904,7 @@
     wikipedia: Michael Waltz
     wikidata: Q55386653
     opensecrets: N00042403
+    icpsr: 21981
   name:
     first: Michael
     last: Waltz
@@ -38214,7 +37922,7 @@
     phone: 202-225-2706
     address: 216 Cannon House Office Building; Washington DC 20515-0906
     office: 216 Cannon House Office Building
-    url: https://waltz.house.gov/
+    url: https://waltz.house.gov
 - id:
     bioguide: S001210
     fec:
@@ -38225,6 +37933,7 @@
     opensecrets: N00043319
     google_entity_id: kg:/m/0v3c060
     votesmart: 142164
+    icpsr: 21967
   name:
     first: Ross
     last: Spano
@@ -38242,7 +37951,7 @@
     phone: 202-225-1252
     address: 224 Cannon House Office Building; Washington DC 20515-0915
     office: 224 Cannon House Office Building
-    url: https://spano.house.gov/
+    url: https://spano.house.gov
 - id:
     bioguide: S001214
     fec:
@@ -38253,6 +37962,7 @@
     opensecrets: N00042808
     google_entity_id: kg:/m/0k3lrh0
     votesmart: 117248
+    icpsr: 21971
   name:
     first: W.
     middle: Gregory
@@ -38271,7 +37981,7 @@
     phone: 202-225-5792
     address: 521 Cannon House Office Building; Washington DC 20515-0917
     office: 521 Cannon House Office Building
-    url: https://steube.house.gov/
+    url: https://steube.house.gov
 - id:
     bioguide: M001207
     fec:
@@ -38282,6 +37992,7 @@
     opensecrets: N00041561
     votesmart: 173449
     ballotpedia: Debbie Mucarsel-Powell
+    icpsr: 21947
   name:
     first: Debbie
     last: Mucarsel-Powell
@@ -38299,7 +38010,7 @@
     phone: 202-225-2778
     address: 114 Cannon House Office Building; Washington DC 20515-0926
     office: 114 Cannon House Office Building
-    url: https://mucarsel-powell.house.gov/
+    url: https://mucarsel-powell.house.gov
 - id:
     bioguide: S001206
     fec:
@@ -38310,6 +38021,7 @@
     opensecrets: N00042811
     google_entity_id: kg:/m/01v3vb
     votesmart: 182301
+    icpsr: 21963
   name:
     first: Donna
     middle: E.
@@ -38328,7 +38040,7 @@
     phone: 202-225-3931
     address: 1320 Longworth House Office Building; Washington DC 20515-0927
     office: 1320 Longworth House Office Building
-    url: https://shalala.house.gov/
+    url: https://shalala.house.gov
 - id:
     bioguide: M001208
     fec:
@@ -38339,6 +38051,7 @@
     opensecrets: N00042813
     google_entity_id: kg:/g/11f647_0gj
     votesmart: 178538
+    icpsr: 21944
   name:
     first: Lucy
     last: McBath
@@ -38356,7 +38069,7 @@
     phone: 202-225-4501
     address: 1513 Longworth House Office Building; Washington DC 20515-1006
     office: 1513 Longworth House Office Building
-    url: https://mcbath.house.gov/
+    url: https://mcbath.house.gov
 - id:
     bioguide: S001204
     fec:
@@ -38384,7 +38097,7 @@
     phone: 202-225-1188
     address: 1632 Longworth House Office Building; Washington DC 20515-5301
     office: 1632 Longworth House Office Building
-    url: https://sannicolas.house.gov/
+    url: https://sannicolas.house.gov
 - id:
     bioguide: F000467
     fec:
@@ -38395,6 +38108,7 @@
     votesmart: 151127
     opensecrets: N00040888
     ballotpedia: Abby Finkenauer
+    icpsr: 21918
   name:
     first: Abby
     last: Finkenauer
@@ -38412,7 +38126,7 @@
     phone: 202-225-2911
     address: 124 Cannon House Office Building; Washington DC 20515-1501
     office: 124 Cannon House Office Building
-    url: https://finkenauer.house.gov/
+    url: https://finkenauer.house.gov
 - id:
     bioguide: A000378
     fec:
@@ -38423,6 +38137,7 @@
     wikidata: Q58324150
     votesmart: 179226
     ballotpedia: Cindy Axne
+    icpsr: 21902
   name:
     first: Cynthia
     last: Axne
@@ -38440,7 +38155,7 @@
     phone: 202-225-5476
     address: 330 Cannon House Office Building; Washington DC 20515-1503
     office: 330 Cannon House Office Building
-    url: https://axne.house.gov/
+    url: https://axne.house.gov
 - id:
     bioguide: F000469
     fec:
@@ -38451,6 +38166,7 @@
     google_entity_id: kg:/m/05h4vgh
     opensecrets: N00041335
     votesmart: 33091
+    icpsr: 21920
   name:
     first: Russ
     last: Fulcher
@@ -38468,7 +38184,7 @@
     phone: 202-225-6611
     address: 1520 Longworth House Office Building; Washington DC 20515-1201
     office: 1520 Longworth House Office Building
-    url: https://fulcher.house.gov/
+    url: https://fulcher.house.gov
 - id:
     bioguide: G000586
     fec:
@@ -38479,6 +38195,7 @@
     opensecrets: N00042114
     google_entity_id: kg:/m/012c8r5x
     votesmart: 6261
+    icpsr: 21921
   name:
     first: Jesús
     middle: G.
@@ -38497,7 +38214,7 @@
     phone: 202-225-8203
     address: 530 Cannon House Office Building; Washington DC 20515-1304
     office: 530 Cannon House Office Building
-    url: https://chuygarcia.house.gov/
+    url: https://chuygarcia.house.gov
 - id:
     bioguide: C001117
     fec:
@@ -38506,6 +38223,7 @@
     opensecrets: N00041338
     wikipedia: Sean Casten
     wikidata: Q55386655
+    icpsr: 21906
   name:
     first: Sean
     last: Casten
@@ -38523,7 +38241,7 @@
     phone: 202-225-4561
     address: 429 Cannon House Office Building; Washington DC 20515-1306
     office: 429 Cannon House Office Building
-    url: https://casten.house.gov/
+    url: https://casten.house.gov
 - id:
     bioguide: U000040
     fec:
@@ -38533,6 +38251,7 @@
     wikidata: Q48471874
     opensecrets: N00041569
     votesmart: 177001
+    icpsr: 21979
   name:
     first: Lauren
     last: Underwood
@@ -38550,7 +38269,7 @@
     phone: 202-225-2976
     address: 1118 Longworth House Office Building; Washington DC 20515-1314
     office: 1118 Longworth House Office Building
-    url: https://underwood.house.gov/
+    url: https://underwood.house.gov
 - id:
     bioguide: B001307
     fec:
@@ -38560,6 +38279,7 @@
     wikipedia: Jim Baird (American politician)
     wikidata: Q48813213
     votesmart: 86013
+    icpsr: 21903
   name:
     first: James
     middle: R.
@@ -38578,7 +38298,7 @@
     phone: 202-225-5037
     address: 532 Cannon House Office Building; Washington DC 20515-1404
     office: 532 Cannon House Office Building
-    url: https://baird.house.gov/
+    url: https://baird.house.gov
 - id:
     bioguide: P000615
     fec:
@@ -38588,6 +38308,7 @@
     wikidata: Q52151577
     opensecrets: N00041956
     votesmart: 177876
+    icpsr: 21952
   name:
     first: Greg
     last: Pence
@@ -38605,7 +38326,7 @@
     phone: 202-225-3021
     address: 222 Cannon House Office Building; Washington DC 20515-1406
     office: 222 Cannon House Office Building
-    url: https://pence.house.gov/
+    url: https://pence.house.gov
 - id:
     bioguide: W000824
     fec:
@@ -38614,6 +38335,7 @@
     wikipedia: Steve Watkins (politician)
     wikidata: Q60428824
     opensecrets: N00042126
+    icpsr: 21982
   name:
     first: Steven
     middle: C.
@@ -38632,7 +38354,7 @@
     phone: 202-225-6601
     address: 1205 Longworth House Office Building; Washington DC 20515-1602
     office: 1205 Longworth House Office Building
-    url: https://watkins.house.gov/
+    url: https://watkins.house.gov
 - id:
     bioguide: D000629
     fec:
@@ -38643,6 +38365,7 @@
     wikidata: Q58322868
     votesmart: 181201
     ballotpedia: Sharice Davids
+    icpsr: 21914
   name:
     first: Sharice
     last: Davids
@@ -38660,7 +38383,7 @@
     phone: 202-225-2865
     address: 1541 Longworth House Office Building; Washington DC 20515-1603
     office: 1541 Longworth House Office Building
-    url: https://davids.house.gov/
+    url: https://davids.house.gov
 - id:
     bioguide: T000482
     fec:
@@ -38670,6 +38393,7 @@
     wikidata: Q56486676
     opensecrets: N00041808
     votesmart: 182310
+    icpsr: 21977
   name:
     first: Lori
     last: Trahan
@@ -38687,7 +38411,7 @@
     phone: 202-225-3411
     address: 1616 Longworth House Office Building; Washington DC 20515-2103
     office: 1616 Longworth House Office Building
-    url: https://trahan.house.gov/
+    url: https://trahan.house.gov
 - id:
     bioguide: P000617
     fec:
@@ -38698,6 +38422,7 @@
     opensecrets: N00042581
     google_entity_id: kg:/m/0bmh9vc
     votesmart: 122700
+    icpsr: 21955
   name:
     first: Ayanna
     last: Pressley
@@ -38715,7 +38440,7 @@
     phone: 202-225-5111
     address: 1108 Longworth House Office Building; Washington DC 20515-2107
     office: 1108 Longworth House Office Building
-    url: https://pressley.house.gov/
+    url: https://pressley.house.gov
 - id:
     bioguide: T000483
     fec:
@@ -38725,6 +38450,7 @@
     wikipedia: David Trone
     wikidata: Q29446408
     votesmart: 167336
+    icpsr: 21978
   name:
     first: David
     middle: J.
@@ -38743,7 +38469,7 @@
     phone: 202-225-2721
     address: 1213 Longworth House Office Building; Washington DC 20515-2006
     office: 1213 Longworth House Office Building
-    url: https://trone.house.gov/
+    url: https://trone.house.gov
 - id:
     bioguide: S001208
     fec:
@@ -38754,6 +38480,7 @@
     opensecrets: N00041357
     votesmart: 181080
     ballotpedia: Elissa Slotkin
+    icpsr: 21965
   name:
     first: Elissa
     last: Slotkin
@@ -38771,7 +38498,7 @@
     phone: 202-225-4872
     address: 1531 Longworth House Office Building; Washington DC 20515-2208
     office: 1531 Longworth House Office Building
-    url: https://slotkin.house.gov/
+    url: https://slotkin.house.gov
 - id:
     bioguide: L000592
     fec:
@@ -38781,6 +38508,7 @@
     wikidata: Q4760938
     opensecrets: N00042149
     votesmart: 66287
+    icpsr: 21940
   name:
     first: Andy
     last: Levin
@@ -38798,7 +38526,7 @@
     phone: 202-225-4961
     address: 228 Cannon House Office Building; Washington DC 20515-2209
     office: 228 Cannon House Office Building
-    url: https://andylevin.house.gov/
+    url: https://andylevin.house.gov
 - id:
     bioguide: S001215
     fec:
@@ -38809,6 +38537,7 @@
     opensecrets: N00040915
     votesmart: 181092
     ballotpedia: Haley Stevens
+    icpsr: 21972
   name:
     first: Haley
     middle: M.
@@ -38827,7 +38556,7 @@
     phone: 202-225-8171
     address: 227 Cannon House Office Building; Washington DC 20515-2211
     office: 227 Cannon House Office Building
-    url: https://stevens.house.gov/
+    url: https://stevens.house.gov
 - id:
     bioguide: T000481
     fec:
@@ -38838,6 +38567,7 @@
     opensecrets: N00042649
     google_entity_id: kg:/m/059_x6c
     votesmart: 105368
+    icpsr: 21975
   name:
     first: Rashida
     last: Tlaib
@@ -38855,7 +38585,7 @@
     phone: 202-225-5126
     address: 1628 Longworth House Office Building; Washington DC 20515-2213
     office: 1628 Longworth House Office Building
-    url: https://tlaib.house.gov/
+    url: https://tlaib.house.gov
 - id:
     bioguide: H001088
     fec:
@@ -38865,6 +38595,7 @@
     wikidata: Q58494532
     opensecrets: N00031390
     votesmart: 146027
+    icpsr: 21929
   name:
     first: Jim
     last: Hagedorn
@@ -38882,7 +38613,7 @@
     phone: 202-225-2472
     address: 325 Cannon House Office Building; Washington DC 20515-2301
     office: 325 Cannon House Office Building
-    url: https://hagedorn.house.gov/
+    url: https://hagedorn.house.gov
 - id:
     bioguide: C001119
     fec:
@@ -38893,6 +38624,7 @@
     wikidata: Q58324174
     votesmart: 166261
     ballotpedia: Angie Craig
+    icpsr: 21910
   name:
     first: Angie
     last: Craig
@@ -38910,7 +38642,7 @@
     phone: 202-225-2271
     address: 1523 Longworth House Office Building; Washington DC 20515-2302
     office: 1523 Longworth House Office Building
-    url: https://craig.house.gov/
+    url: https://craig.house.gov
 - id:
     bioguide: P000616
     fec:
@@ -38920,6 +38652,7 @@
     wikidata: Q58323131
     opensecrets: N00041134
     votesmart: 181357
+    icpsr: 21953
   name:
     first: Dean
     last: Phillips
@@ -38937,7 +38670,7 @@
     phone: 202-225-2871
     address: 1305 Longworth House Office Building; Washington DC 20515-2303
     office: 1305 Longworth House Office Building
-    url: https://phillips.house.gov/
+    url: https://phillips.house.gov
 - id:
     bioguide: O000173
     fec:
@@ -38947,6 +38680,7 @@
     wikidata: Q26436159
     opensecrets: N00043581
     votesmart: 171628
+    icpsr: 21950
   name:
     first: Ilhan
     last: Omar
@@ -38964,7 +38698,7 @@
     phone: 202-225-4755
     address: 1517 Longworth House Office Building; Washington DC 20515-2305
     office: 1517 Longworth House Office Building
-    url: https://omar.house.gov/
+    url: https://omar.house.gov
 - id:
     bioguide: S001212
     fec:
@@ -38974,6 +38708,7 @@
     wikidata: Q55955746
     opensecrets: N00041511
     votesmart: 159954
+    icpsr: 21969
   name:
     first: Pete
     last: Stauber
@@ -38991,7 +38726,7 @@
     phone: 202-225-6211
     address: 126 Cannon House Office Building; Washington DC 20515-2308
     office: 126 Cannon House Office Building
-    url: https://stauber.house.gov/
+    url: https://stauber.house.gov
 - id:
     bioguide: G000591
     fec:
@@ -39000,6 +38735,7 @@
     wikipedia: Michael Guest (politician)
     wikidata: Q60428645
     opensecrets: N00042458
+    icpsr: 21927
   name:
     first: Michael
     last: Guest
@@ -39017,7 +38753,7 @@
     phone: 202-225-5031
     address: 230 Cannon House Office Building; Washington DC 20515-2403
     office: 230 Cannon House Office Building
-    url: https://guest.house.gov/
+    url: https://guest.house.gov
 - id:
     bioguide: A000377
     fec:
@@ -39027,6 +38763,7 @@
     wikipedia: Kelly Armstrong
     wikidata: Q50362353
     votesmart: 139338
+    icpsr: 21901
   name:
     first: Kelly
     last: Armstrong
@@ -39044,7 +38781,7 @@
     phone: 202-225-2611
     address: 1004 Longworth House Office Building; Washington DC 20515-3400
     office: 1004 Longworth House Office Building
-    url: https://armstrong.house.gov/
+    url: https://armstrong.house.gov
 - id:
     bioguide: P000614
     fec:
@@ -39054,6 +38791,7 @@
     wikidata: Q5107684
     opensecrets: N00042161
     google_entity_id: kg:/m/0nd3t8z
+    icpsr: 21951
   name:
     first: Chris
     last: Pappas
@@ -39071,7 +38809,7 @@
     phone: 202-225-5456
     address: 323 Cannon House Office Building; Washington DC 20515-2901
     office: 323 Cannon House Office Building
-    url: https://pappas.house.gov/
+    url: https://pappas.house.gov
 - id:
     bioguide: V000133
     fec:
@@ -39082,6 +38820,7 @@
     opensecrets: N00042164
     google_entity_id: kg:/m/08h3sl
     votesmart: 24685
+    icpsr: 21980
   name:
     first: Jefferson
     last: Van Drew
@@ -39099,7 +38838,7 @@
     phone: 202-225-6572
     address: 331 Cannon House Office Building; Washington DC 20515-3002
     office: 331 Cannon House Office Building
-    url: https://vandrew.house.gov/
+    url: https://vandrew.house.gov
 - id:
     bioguide: K000394
     fec:
@@ -39108,6 +38847,7 @@
     wikipedia: Andy Kim (politician)
     wikidata: Q55639180
     opensecrets: N00041370
+    icpsr: 21937
   name:
     first: Andy
     last: Kim
@@ -39125,7 +38865,7 @@
     phone: 202-225-4765
     address: 1516 Longworth House Office Building; Washington DC 20515-3003
     office: 1516 Longworth House Office Building
-    url: https://kim.house.gov/
+    url: https://kim.house.gov
 - id:
     bioguide: M001203
     fec:
@@ -39137,6 +38877,7 @@
     google_entity_id: kg:/g/11cmhw_v1s
     votesmart: 179645
     ballotpedia: Tom Malinowski
+    icpsr: 21942
   name:
     first: Tom
     last: Malinowski
@@ -39154,7 +38895,7 @@
     phone: 202-225-5361
     address: 426 Cannon House Office Building; Washington DC 20515-3007
     office: 426 Cannon House Office Building
-    url: https://malinowski.house.gov/
+    url: https://malinowski.house.gov
 - id:
     bioguide: S001207
     fec:
@@ -39165,6 +38906,7 @@
     opensecrets: N00041154
     votesmart: 179651
     ballotpedia: Mikie Sherrill
+    icpsr: 21964
   name:
     first: Mikie
     last: Sherrill
@@ -39182,7 +38924,7 @@
     phone: 202-225-5034
     address: 1208 Longworth House Office Building; Washington DC 20515-3011
     office: 1208 Longworth House Office Building
-    url: https://sherrill.house.gov/
+    url: https://sherrill.house.gov
 - id:
     bioguide: H001080
     fec:
@@ -39192,6 +38934,7 @@
     wikidata: Q54860790
     opensecrets: N00040933
     votesmart: 149368
+    icpsr: 21928
   name:
     first: Debra
     middle: A.
@@ -39210,7 +38953,7 @@
     phone: 202-225-6316
     address: 1237 Longworth House Office Building; Washington DC 20515-3101
     office: 1237 Longworth House Office Building
-    url: https://haaland.house.gov/
+    url: https://haaland.house.gov
 - id:
     bioguide: T000484
     fec:
@@ -39220,6 +38963,7 @@
     wikipedia: Xochitl Torres Small
     wikidata: Q58399761
     votesmart: 177978
+    icpsr: 21976
   name:
     first: Xochitl
     last: Torres Small
@@ -39237,16 +38981,17 @@
     phone: 202-225-2365
     address: 430 Cannon House Office Building; Washington DC 20515-3102
     office: 430 Cannon House Office Building
-    url: http://torressmall.house.gov
+    url: https://torressmall.house.gov
 - id:
     bioguide: L000590
     fec:
-    - H8NV03200
+    - H6NV04020
     govtrack: 412802
     opensecrets: N00037247
     wikipedia: Susie Lee
     wikidata: Q58333611
     votesmart: 169344
+    icpsr: 21938
   name:
     first: Susie
     last: Lee
@@ -39264,7 +39009,7 @@
     phone: 202-225-3252
     address: 522 Cannon House Office Building; Washington DC 20515-2803
     office: 522 Cannon House Office Building
-    url: https://susielee.house.gov/
+    url: https://susielee.house.gov
 - id:
     bioguide: R000613
     fec:
@@ -39273,6 +39018,7 @@
     wikipedia: Max Rose (politician)
     wikidata: Q56046860
     opensecrets: N00041588
+    icpsr: 21958
   name:
     first: Max
     last: Rose
@@ -39290,7 +39036,7 @@
     phone: 202-225-3371
     address: 1529 Longworth House Office Building; Washington DC 20515-3211
     office: 1529 Longworth House Office Building
-    url: https://maxrose.house.gov/
+    url: https://maxrose.house.gov
 - id:
     bioguide: O000172
     fec:
@@ -39301,6 +39047,7 @@
     opensecrets: N00041162
     votesmart: 180416
     ballotpedia: Alexandria Ocasio-Cortez
+    icpsr: 21949
   name:
     first: Alexandria
     last: Ocasio-Cortez
@@ -39318,7 +39065,7 @@
     phone: 202-225-3965
     address: 229 Cannon House Office Building; Washington DC 20515-3214
     office: 229 Cannon House Office Building
-    url: https://ocasio-cortez.house.gov/
+    url: https://ocasio-cortez.house.gov
 - id:
     bioguide: D000630
     fec:
@@ -39327,6 +39074,7 @@
     wikipedia: Antonio Delgado (politician)
     wikidata: Q60428696
     opensecrets: N00040741
+    icpsr: 21916
   name:
     first: Antonio
     last: Delgado
@@ -39344,7 +39092,7 @@
     phone: 202-225-5614
     address: 1007 Longworth House Office Building; Washington DC 20515-3219
     office: 1007 Longworth House Office Building
-    url: https://delgado.house.gov/
+    url: https://delgado.house.gov
 - id:
     bioguide: B001308
     fec:
@@ -39356,6 +39104,7 @@
     google_entity_id: kg:/m/0hhqfyc
     votesmart: 135258
     ballotpedia: Anthony Brindisi
+    icpsr: 21904
   name:
     first: Anthony
     last: Brindisi
@@ -39373,7 +39122,7 @@
     phone: 202-225-3665
     address: 329 Cannon House Office Building; Washington DC 20515-3222
     office: 329 Cannon House Office Building
-    url: https://brindisi.house.gov/
+    url: https://brindisi.house.gov
 - id:
     bioguide: G000588
     fec:
@@ -39383,6 +39132,7 @@
     wikidata: Q3487172
     opensecrets: N00041690
     google_entity_id: kg:/m/0gznlq
+    icpsr: 21924
   name:
     first: Anthony
     last: Gonzalez
@@ -39400,7 +39150,7 @@
     phone: 202-225-3876
     address: 1023 Longworth House Office Building; Washington DC 20515-3516
     office: 1023 Longworth House Office Building
-    url: https://anthonygonzalez.house.gov/
+    url: https://anthonygonzalez.house.gov
 - id:
     bioguide: H001083
     fec:
@@ -39410,6 +39160,7 @@
     wikidata: Q58323559
     opensecrets: N00041394
     votesmart: 180018
+    icpsr: 21933
   name:
     first: Kendra
     middle: S.
@@ -39428,7 +39179,7 @@
     phone: 202-225-2132
     address: 415 Cannon House Office Building; Washington DC 20515-3605
     office: 415 Cannon House Office Building
-    url: https://horn.house.gov/
+    url: https://horn.house.gov
 - id:
     bioguide: D000631
     fec:
@@ -39439,6 +39190,7 @@
     opensecrets: N00042894
     google_entity_id: kg:/m/0nfwmy_
     votesmart: 136484
+    icpsr: 21915
   name:
     first: Madeleine
     last: Dean
@@ -39456,7 +39208,7 @@
     phone: 202-225-4731
     address: 129 Cannon House Office Building; Washington DC 20515-3804
     office: 129 Cannon House Office Building
-    url: https://dean.house.gov/
+    url: https://dean.house.gov
 - id:
     bioguide: H001085
     fec:
@@ -39467,6 +39219,7 @@
     opensecrets: N00040949
     votesmart: 178893
     ballotpedia: Chrissy Houlahan
+    icpsr: 21934
   name:
     first: Chrissy
     last: Houlahan
@@ -39484,7 +39237,7 @@
     phone: 202-225-4315
     address: 1218 Longworth House Office Building; Washington DC 20515-3806
     office: 1218 Longworth House Office Building
-    url: https://houlahan.house.gov/
+    url: https://houlahan.house.gov
 - id:
     bioguide: M001204
     fec:
@@ -39495,6 +39248,7 @@
     opensecrets: N00029416
     google_entity_id: kg:/m/03wf1q3
     votesmart: 102438
+    icpsr: 21945
   name:
     first: Daniel
     last: Meuser
@@ -39512,7 +39266,7 @@
     phone: 202-225-6511
     address: 326 Cannon House Office Building; Washington DC 20515-3809
     office: 326 Cannon House Office Building
-    url: https://meuser.house.gov/
+    url: https://meuser.house.gov
 - id:
     bioguide: J000302
     fec:
@@ -39521,6 +39275,7 @@
     wikipedia: John Joyce (American politician)
     wikidata: Q60428839
     opensecrets: N00043242
+    icpsr: 21936
   name:
     first: John
     last: Joyce
@@ -39538,7 +39293,7 @@
     phone: 202-225-2431
     address: 1337 Longworth House Office Building; Washington DC 20515-3813
     office: 1337 Longworth House Office Building
-    url: https://johnjoyce.house.gov/
+    url: https://johnjoyce.house.gov
 - id:
     bioguide: R000610
     fec:
@@ -39549,6 +39304,7 @@
     opensecrets: N00041871
     google_entity_id: kg:/g/11bwn3bsvm
     votesmart: 166004
+    icpsr: 21956
   name:
     first: Guy
     last: Reschenthaler
@@ -39566,7 +39322,7 @@
     phone: 202-225-2065
     address: 531 Cannon House Office Building; Washington DC 20515-3814
     office: 531 Cannon House Office Building
-    url: https://reschenthaler.house.gov/
+    url: https://reschenthaler.house.gov
 - id:
     bioguide: C001122
     fec:
@@ -39576,6 +39332,7 @@
     wikidata: Q58993183
     opensecrets: N00041400
     votesmart: 179601
+    icpsr: 21913
   name:
     first: Joe
     last: Cunningham
@@ -39593,7 +39350,7 @@
     phone: 202-225-3176
     address: 423 Cannon House Office Building; Washington DC 20515-4001
     office: 423 Cannon House Office Building
-    url: https://cunningham.house.gov/
+    url: https://cunningham.house.gov
 - id:
     bioguide: T000480
     fec:
@@ -39604,6 +39361,7 @@
     opensecrets: N00042715
     google_entity_id: kg:/g/11g6ns21_f
     votesmart: 168923
+    icpsr: 21974
   name:
     first: William
     middle: R.
@@ -39622,7 +39380,7 @@
     phone: 202-225-6030
     address: 313 Cannon House Office Building; Washington DC 20515-4004
     office: 313 Cannon House Office Building
-    url: https://timmons.house.gov/
+    url: https://timmons.house.gov
 - id:
     bioguide: J000301
     fec:
@@ -39632,6 +39390,7 @@
     wikidata: Q30015838
     opensecrets: N00040559
     votesmart: 48307
+    icpsr: 21935
   name:
     first: Dusty
     last: Johnson
@@ -39649,7 +39408,7 @@
     phone: 202-225-2801
     address: 1508 Longworth House Office Building; Washington DC 20515-4100
     office: 1508 Longworth House Office Building
-    url: https://dustyjohnson.house.gov/
+    url: https://dustyjohnson.house.gov
 - id:
     bioguide: B001309
     fec:
@@ -39660,6 +39419,7 @@
     wikidata: Q7803244
     google_entity_id: kg:/m/03yt07
     votesmart: 24379
+    icpsr: 21905
   name:
     first: Tim
     last: Burchett
@@ -39677,7 +39437,7 @@
     phone: 202-225-5435
     address: 1122 Longworth House Office Building; Washington DC 20515-4202
     office: 1122 Longworth House Office Building
-    url: https://burchett.house.gov/
+    url: https://burchett.house.gov
 - id:
     bioguide: R000612
     fec:
@@ -39687,6 +39447,7 @@
     wikidata: Q33044040
     opensecrets: N00041599
     votesmart: 180452
+    icpsr: 21959
   name:
     first: John
     middle: W.
@@ -39705,7 +39466,7 @@
     phone: 202-225-4231
     address: 1232 Longworth House Office Building; Washington DC 20515-4206
     office: 1232 Longworth House Office Building
-    url: https://johnrose.house.gov/
+    url: https://johnrose.house.gov
 - id:
     bioguide: G000590
     fec:
@@ -39716,6 +39477,7 @@
     opensecrets: N00041873
     google_entity_id: kg:/m/09rx6jq
     votesmart: 139030
+    icpsr: 21926
   name:
     first: Mark
     middle: E.
@@ -39745,6 +39507,7 @@
     opensecrets: N00042224
     google_entity_id: kg:/g/11fk40sjyz
     votesmart: 177270
+    icpsr: 21911
   name:
     first: Dan
     last: Crenshaw
@@ -39762,7 +39525,7 @@
     phone: 202-225-6565
     address: 413 Cannon House Office Building; Washington DC 20515-4302
     office: 413 Cannon House Office Building
-    url: https://crenshaw.house.gov/
+    url: https://crenshaw.house.gov
 - id:
     bioguide: T000479
     fec:
@@ -39772,6 +39535,7 @@
     wikidata: Q7913689
     opensecrets: N00027709
     google_entity_id: kg:/m/0f9kk3
+    icpsr: 21973
   name:
     first: Van
     last: Taylor
@@ -39789,7 +39553,7 @@
     phone: 202-225-4201
     address: 1404 Longworth House Office Building; Washington DC 20515-4303
     office: 1404 Longworth House Office Building
-    url: https://vantaylor.house.gov/
+    url: https://vantaylor.house.gov
 - id:
     bioguide: G000589
     fec:
@@ -39800,6 +39564,7 @@
     opensecrets: N00042237
     google_entity_id: kg:/m/0jkx4bp
     votesmart: 177282
+    icpsr: 21925
   name:
     first: Lance
     last: Gooden
@@ -39817,7 +39582,7 @@
     phone: 202-225-3484
     address: 425 Cannon House Office Building; Washington DC 20515-4305
     office: 425 Cannon House Office Building
-    url: https://gooden.house.gov/
+    url: https://gooden.house.gov
 - id:
     bioguide: W000827
     fec:
@@ -39826,6 +39591,7 @@
     wikipedia: Ron Wright (politician)
     wikidata: Q60428775
     opensecrets: N00042240
+    icpsr: 21984
   name:
     first: Ron
     last: Wright
@@ -39843,7 +39609,7 @@
     phone: 202-225-2002
     address: 428 Cannon House Office Building; Washington DC 20515-4306
     office: 428 Cannon House Office Building
-    url: https://wright.house.gov/
+    url: https://wright.house.gov
 - id:
     bioguide: F000468
     fec:
@@ -39854,6 +39620,7 @@
     votesmart: 177031
     opensecrets: N00041194
     ballotpedia: Lizzie Pannill Fletcher
+    icpsr: 21919
   name:
     first: Lizzie
     last: Fletcher
@@ -39871,7 +39638,7 @@
     phone: 202-225-2571
     address: 1429 Longworth House Office Building; Washington DC 20515-4307
     office: 1429 Longworth House Office Building
-    url: https://fletcher.house.gov/
+    url: https://fletcher.house.gov
 - id:
     bioguide: E000299
     fec:
@@ -39881,6 +39648,7 @@
     wikidata: Q52274267
     votesmart: 99345
     opensecrets: N00041702
+    icpsr: 21917
   name:
     first: Veronica
     last: Escobar
@@ -39898,7 +39666,7 @@
     phone: 202-225-4831
     address: 1505 Longworth House Office Building; Washington DC 20515-4316
     office: 1505 Longworth House Office Building
-    url: https://escobar.house.gov/
+    url: https://escobar.house.gov
 - id:
     bioguide: R000614
     fec:
@@ -39908,6 +39676,7 @@
     wikidata: Q58333615
     opensecrets: N00042268
     votesmart: 177319
+    icpsr: 21961
   name:
     first: Chip
     last: Roy
@@ -39925,7 +39694,7 @@
     phone: 202-225-4236
     address: 1319 Longworth House Office Building; Washington DC 20515-4321
     office: 1319 Longworth House Office Building
-    url: https://roy.house.gov/
+    url: https://roy.house.gov
 - id:
     bioguide: G000587
     fec:
@@ -39936,6 +39705,7 @@
     opensecrets: N00042282
     google_entity_id: kg:/m/0ryt4bt
     votesmart: 49734
+    icpsr: 21922
   name:
     first: Sylvia
     middle: R.
@@ -39954,7 +39724,7 @@
     phone: 202-225-1688
     address: 1620 Longworth House Office Building; Washington DC 20515-4329
     office: 1620 Longworth House Office Building
-    url: https://sylviagarcia.house.gov/
+    url: https://sylviagarcia.house.gov
 - id:
     bioguide: A000376
     fec:
@@ -39964,6 +39734,7 @@
     wikipedia: Colin Allred
     wikidata: Q5144845
     votesmart: 177357
+    icpsr: 21900
   name:
     first: Colin
     middle: Z.
@@ -39982,7 +39753,7 @@
     phone: 202-225-2231
     address: 328 Cannon House Office Building; Washington DC 20515-4332
     office: 328 Cannon House Office Building
-    url: https://allred.house.gov/
+    url: https://allred.house.gov
 - id:
     bioguide: M001209
     fec:
@@ -39993,6 +39764,7 @@
     opensecrets: N00042013
     google_entity_id: kg:/m/0bbv3kw
     votesmart: 117512
+    icpsr: 21943
   name:
     first: Ben
     last: McAdams
@@ -40010,7 +39782,7 @@
     phone: 202-225-3011
     address: 130 Cannon House Office Building; Washington DC 20515-4404
     office: 130 Cannon House Office Building
-    url: https://mcadams.house.gov/
+    url: https://mcadams.house.gov
 - id:
     bioguide: L000591
     fec:
@@ -40021,6 +39793,7 @@
     votesmart: 179677
     opensecrets: N00042293
     ballotpedia: Elaine Luria
+    icpsr: 21941
   name:
     first: Elaine
     middle: G.
@@ -40039,7 +39812,7 @@
     phone: 202-225-4215
     address: 534 Cannon House Office Building; Washington DC 20515-4602
     office: 534 Cannon House Office Building
-    url: https://luria.house.gov/
+    url: https://luria.house.gov
 - id:
     bioguide: R000611
     fec:
@@ -40049,6 +39822,7 @@
     wikidata: Q28086149
     opensecrets: N00043541
     votesmart: 181445
+    icpsr: 21957
   name:
     first: Denver
     last: Riggleman
@@ -40066,7 +39840,7 @@
     phone: 202-225-4711
     address: 1022 Longworth House Office Building; Washington DC 20515-4605
     office: 1022 Longworth House Office Building
-    url: https://riggleman.house.gov/
+    url: https://riggleman.house.gov
 - id:
     bioguide: C001118
     fec:
@@ -40077,6 +39851,7 @@
     wikidata: Q4885439
     google_entity_id: kg:/m/04yf6mk
     votesmart: 50959
+    icpsr: 21908
   name:
     first: Ben
     last: Cline
@@ -40094,7 +39869,7 @@
     phone: 202-225-5431
     address: 1009 Longworth House Office Building; Washington DC 20515-4606
     office: 1009 Longworth House Office Building
-    url: https://cline.house.gov/
+    url: https://cline.house.gov
 - id:
     bioguide: S001209
     fec:
@@ -40104,6 +39879,7 @@
     wikidata: Q55603085
     opensecrets: N00041418
     votesmart: 179682
+    icpsr: 21966
   name:
     first: Abigail
     middle: Davis
@@ -40122,7 +39898,7 @@
     phone: 202-225-2815
     address: 1239 Longworth House Office Building; Washington DC 20515-4607
     office: 1239 Longworth House Office Building
-    url: https://spanberger.house.gov/
+    url: https://spanberger.house.gov
 - id:
     bioguide: W000825
     fec:
@@ -40133,6 +39909,7 @@
     opensecrets: N00041002
     google_entity_id: kg:/m/0_flt0x
     votesmart: 147013
+    icpsr: 21983
   name:
     first: Jennifer
     last: Wexton
@@ -40150,7 +39927,7 @@
     phone: 202-225-5136
     address: 1217 Longworth House Office Building; Washington DC 20515-4610
     office: 1217 Longworth House Office Building
-    url: https://wexton.house.gov/
+    url: https://wexton.house.gov
 - id:
     bioguide: S001216
     fec:
@@ -40160,6 +39937,7 @@
     wikidata: Q58333616
     opensecrets: N00041606
     votesmart: 181124
+    icpsr: 21962
   name:
     first: Kim
     last: Schrier
@@ -40177,7 +39955,7 @@
     phone: 202-225-7761
     address: 1123 Longworth House Office Building; Washington DC 20515-4708
     office: 1123 Longworth House Office Building
-    url: https://schrier.house.gov/
+    url: https://schrier.house.gov
 - id:
     bioguide: S001213
     fec:
@@ -40186,6 +39964,7 @@
     wikipedia: Bryan Steil
     wikidata: Q58494431
     opensecrets: N00043379
+    icpsr: 21970
   name:
     first: Bryan
     last: Steil
@@ -40203,7 +39982,7 @@
     phone: 202-225-3031
     address: 1408 Longworth House Office Building; Washington DC 20515-4901
     office: 1408 Longworth House Office Building
-    url: https://steil.house.gov/
+    url: https://steil.house.gov
 - id:
     bioguide: M001205
     fec:
@@ -40214,6 +39993,7 @@
     opensecrets: N00041542
     google_entity_id: kg:/m/0102fnyn
     votesmart: 52123
+    icpsr: 21946
   name:
     first: Carol
     middle: D.
@@ -40232,7 +40012,7 @@
     phone: 202-225-3452
     address: 1605 Longworth House Office Building; Washington DC 20515-4803
     office: 1605 Longworth House Office Building
-    url: https://miller.house.gov/
+    url: https://miller.house.gov
 - id:
     bioguide: S001217
     lis: S404
@@ -40245,6 +40025,7 @@
     ballotpedia: Rick Scott
     google_entity_id: kg:/m/0btx2g
     votesmart: 124204
+    icpsr: 41903
   name:
     first: Rick
     last: Scott
@@ -40277,6 +40058,7 @@
     lis: S397
     google_entity_id: kg:/g/11f2ckdwty
     votesmart: 148564
+    icpsr: 41900
   name:
     first: Mike
     last: Braun
@@ -40309,6 +40091,7 @@
     lis: S399
     google_entity_id: kg:/g/11bwy_95zy
     votesmart: 169716
+    icpsr: 41901
   name:
     first: Joshua
     last: Hawley
@@ -40342,6 +40125,7 @@
     lis: S401
     google_entity_id: kg:/m/0271_s
     votesmart: 21942
+    icpsr: 41902
   name:
     first: Mitt
     last: Romney
@@ -40417,8 +40201,8 @@
     party: Republican
     state_rank: junior
     url: https://www.mcsally.senate.gov
-    address: B40D Dirksen Senate Office Building Washington DC 20510
-    office: B40d Dirksen Senate Office Building
+    address: 404 Russell Senate Office Building Washington DC 20510
+    office: 404 Russell Senate Office Building
     phone: 202-224-2235
     contact_form: https://www.mcsally.senate.gov/contact_martha
 - id:
@@ -40430,6 +40214,7 @@
     wikidata: Q41694157
     opensecrets: N00041668
     votesmart: 151420
+    icpsr: 21923
   name:
     first: Jared
     middle: Forrest
@@ -40458,6 +40243,7 @@
     wikidata: Q5495642
     opensecrets: N00044065
     votesmart: 119553
+    icpsr: 21985
   name:
     first: Fred
     last: Keller
@@ -40472,3 +40258,66 @@
     state: PA
     district: 12
     party: Republican
+    url: https://keller.house.gov
+    address: 1717 Longworth House Office Building; Washington DC 20515-3812
+    office: 1717 Longworth House Office Building
+    phone: 202-225-3731
+- id:
+    bioguide: B001311
+    fec:
+    - H0NC09187
+    govtrack: 412844
+    opensecrets: N00044335
+    wikipedia: Dan Bishop
+    wikidata: Q20090301
+    ballotpedia: Dan Bishop
+    icpsr: 21986
+  name:
+    first: Dan
+    last: Bishop
+    official_full: Dan Bishop
+  bio:
+    gender: M
+    birthday: '1964-07-01'
+  terms:
+  - type: rep
+    start: '2019-09-17'
+    end: '2021-01-03'
+    state: NC
+    district: 9
+    party: Republican
+    url: https://danbishop.house.gov/
+    contact_form: https://danbishop.house.gov/contact/email
+    address: 132 Cannon House Office Building; Washington DC 20515-3309
+    office: 132 Cannon House Office Building
+    phone: 202-225-1976
+- id:
+    bioguide: M001210
+    fec:
+    - H0NC03172
+    govtrack: 412845
+    opensecrets: N00044027
+    wikipedia: Greg Murphy (politician)
+    wikidata: Q23074266
+    ballotpedia: Gregory Murphy
+    icpsr: 21987
+  name:
+    first: Gregory
+    middle: Francis
+    last: Murphy
+    official_full: Gregory F. Murphy
+  bio:
+    gender: M
+    birthday: '1963-03-05'
+  terms:
+  - type: rep
+    start: '2019-09-17'
+    end: '2021-01-03'
+    state: NC
+    district: 3
+    party: Republican
+    url: https://gregmurphy.house.gov/
+    contact_form: https://gregmurphy.house.gov/contact/email
+    address: 2333 Rayburn House Office Building; Washington DC 20515-3303
+    office: 2333 Rayburn House Office Building
+    phone: 202-225-3415

@@ -140,11 +140,14 @@ def run():
         m = re.match(r", [A-Z][A-Z](,\s*)?(.*\S)?", lnk[0].tail)
         if m.group(2):
           # Chairman, Vice Chair, etc. (all but Ex Officio) started appearing on subcommittees around Feb 2014.
-          # For the chair, this should overwrite the implicit title given for the rank 0 majority party member.
+          # Ranking Member began appearing on committee pages in Sept 2019. For the chair and ranking member,
+          # this should overwrite the implicit titles given for the rank 0 majority/minority party member.
           if m.group(2) in ("Chair", "Chairman", "Chairwoman", "Chairperson"):
             entry["title"] = "Chair"
-          elif m.group(2) in ("Vice Chair", "Vice Chairman"):
+          elif m.group(2) in ("Vice Chair", "Vice Chairman", "Vice Chairperson"):
             entry["title"] = "Vice Chair"
+          elif m.group(2) in ("Ranking Member",):
+          	entry["title"] = "Ranking Member"
 
           elif m.group(2) == "Ex Officio":
             entry["title"] = m.group(2)
