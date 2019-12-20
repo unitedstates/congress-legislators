@@ -38834,7 +38834,14 @@
     end: '2021-01-03'
     state: NJ
     district: 2
-    party: Democrat
+    party: Republican
+    party_affiliations:
+    - start: '2019-01-03'
+      end: '2019-12-18'
+      party: Democrat
+    - start: '2019-12-19'
+      end: '2021-01-03'
+      party: Republican
     phone: 202-225-6572
     address: 331 Cannon House Office Building; Washington DC 20515-3002
     office: 331 Cannon House Office Building
