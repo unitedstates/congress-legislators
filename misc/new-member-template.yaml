@@ -52,6 +52,9 @@
   - type: sen
     start: '2015-01-03'    # date of swearing in
     end: '2021-01-03'      # always a future Jan 3, until a death/resignation
+    how: appointment       # for senators appointed by the governor only
+    end-type: special-election # when "how: appointment" is used, prior to the special election,
+                               # set the "end" date to the special election date and set this flag
     state: FL              # USPS state abbreviation
     class: 1               # copy from the senator this person is succeeding
     party:                 # Republican, Democrat, Independent
