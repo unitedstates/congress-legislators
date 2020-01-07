@@ -42031,7 +42031,7 @@
         "end": "2021-01-03",
         "state": "GA",
         "class": 2,
-        "state_rank": "junior",
+        "state_rank": "senior",
         "party": "Republican",
         "url": "https://www.perdue.senate.gov",
         "address": "455 Russell Senate Office Building Washington DC 20510",
@@ -49834,6 +49834,45 @@
         "address": "2333 Rayburn House Office Building; Washington DC 20515-3303",
         "office": "2333 Rayburn House Office Building",
         "phone": "202-225-3415"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "L000594",
+      "lis": "S405",
+      "fec": [
+        "S0GA00526"
+      ],
+      "govtrack": 456790,
+      "wikipedia": "Kelly Loeffler",
+      "wikidata": "Q76570207",
+      "ballotpedia": "Kelly Loeffler"
+    },
+    "name": {
+      "first": "Kelly",
+      "last": "Loeffler",
+      "official_full": "Kelly Loeffler"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1970-11-27"
+    },
+    "terms": [
+      {
+        "type": "sen",
+        "start": "2020-01-06",
+        "end": "2020-11-03",
+        "how": "appointment",
+        "end-type": "special-election",
+        "state": "GA",
+        "class": 3,
+        "party": "Republican",
+        "state_rank": "junior",
+        "url": "https://www.senate.gov/senators/116thCongress/LoefflerKelly.htm",
+        "address": "131 Russell Senate Office Building Washington DC 20510",
+        "office": "131 Russell Senate Office Building",
+        "phone": "202-224-3643"
       }
     ]
   }
