@@ -23,7 +23,6 @@
   bio:
     birthday: '1952-11-09'
     gender: M
-    religion: Lutheran
   terms:
   - type: rep
     start: '1993-01-05'
@@ -105,8 +104,8 @@
     url: https://www.brown.senate.gov
     rss_url: http://www.brown.senate.gov/rss/feeds/?type=all&amp;
     contact_form: http://www.brown.senate.gov/contact/
-    address: 713 Hart Senate Office Building Washington DC 20510
-    office: 713 Hart Senate Office Building
+    address: 503 Hart Senate Office Building Washington DC 20510
+    office: 503 Hart Senate Office Building
     phone: 202-224-2315
 - id:
     bioguide: C000127
@@ -133,7 +132,6 @@
   bio:
     birthday: '1958-10-13'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -213,7 +211,6 @@
   bio:
     birthday: '1943-10-05'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1987-01-06'
@@ -341,7 +338,6 @@
   bio:
     birthday: '1947-01-23'
     gender: M
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1983-01-03'
@@ -509,7 +505,6 @@
   bio:
     birthday: '1933-06-22'
     gender: F
-    religion: Jewish
   terms:
   - type: sen
     start: '1992-11-10'
@@ -594,6 +589,10 @@
   bio:
     birthday: '1960-05-25'
     gender: F
+  leadership_roles:
+  - title: Senate Democratic Steering Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2007-01-04'
@@ -629,8 +628,8 @@
     state_rank: senior
     url: https://www.klobuchar.senate.gov
     contact_form: http://www.klobuchar.senate.gov/public/index.cfm/contact
-    address: 302 Hart Senate Office Building Washington DC 20510
-    office: 302 Hart Senate Office Building
+    address: 425 Dirksen Senate Office Building Washington DC 20510
+    office: 425 Dirksen Senate Office Building
     phone: 202-224-3244
 - id:
     bioguide: M000639
@@ -652,7 +651,7 @@
     google_entity_id: kg:/m/033d3p
   name:
     first: Robert
-    last: Menéndez
+    last: Menendez
     nickname: Bob
     official_full: Robert Menendez
   other_names:
@@ -660,7 +659,6 @@
   bio:
     birthday: '1954-01-01'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -779,7 +777,6 @@
   bio:
     birthday: '1941-09-08'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1991-01-03'
@@ -907,7 +904,10 @@
   bio:
     birthday: '1950-04-29'
     gender: F
-    religion: United Methodist
+  leadership_roles:
+  - title: Senate Democratic Policy & Communications Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -1117,6 +1117,10 @@
   bio:
     birthday: '1952-07-21'
     gender: M
+  leadership_roles:
+  - title: Senate Republican Conference Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2007-06-25'
@@ -1184,7 +1188,6 @@
   bio:
     birthday: '1951-07-05'
     gender: M
-    religion: Southern Baptist
   terms:
   - type: rep
     start: '1995-01-04'
@@ -1293,7 +1296,6 @@
   bio:
     birthday: '1940-07-03'
     gender: M
-    religion: Presbyterian
   terms:
   - type: sen
     start: '2003-01-07'
@@ -1355,7 +1357,6 @@
   bio:
     birthday: '1952-12-07'
     gender: F
-    religion: Catholic
   terms:
   - type: sen
     start: '1997-01-07'
@@ -1421,17 +1422,16 @@
   bio:
     birthday: '1952-02-02'
     gender: M
-    religion: Church of Christ
   leadership_roles:
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
@@ -1503,36 +1503,38 @@
   bio:
     birthday: '1944-11-21'
     gender: M
-    religion: Roman Catholic
   leadership_roles:
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2005-01-04'
     end: '2007-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2007-01-04'
     end: '2009-01-06'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2009-01-06'
     end: '2011-01-05'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Majority Whip
+  - title: Senate Majority Whip
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Minority Whip
+  - title: Senate Minority Whip
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Minority Whip
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1641,7 +1643,6 @@
   bio:
     birthday: '1944-02-01'
     gender: M
-    religion: Presbyterian
   terms:
   - type: sen
     start: '1997-01-07'
@@ -1710,7 +1711,6 @@
   bio:
     birthday: '1955-07-09'
     gender: M
-    religion: Southern Baptist
   terms:
   - type: rep
     start: '1995-01-04'
@@ -1798,7 +1798,6 @@
   bio:
     birthday: '1934-11-17'
     gender: M
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1987-01-06'
@@ -1894,32 +1893,34 @@
   bio:
     birthday: '1942-02-20'
     gender: M
-    religion: Baptist
   leadership_roles:
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2007-01-04'
     end: '2009-01-06'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2009-01-06'
     end: '2011-01-05'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Majority Leader
+  - title: Senate Majority Leader
     chamber: senate
     start: '2015-01-03'
     end: '2017-01-03'
-  - title: Majority Leader
+  - title: Senate Majority Leader
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -2053,7 +2054,6 @@
   bio:
     birthday: '1949-11-12'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1991-01-03'
@@ -2189,7 +2189,6 @@
   bio:
     birthday: '1936-04-20'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1981-01-05'
@@ -2359,7 +2358,6 @@
   bio:
     birthday: '1948-05-18'
     gender: M
-    religion: Latter Day Saints
   terms:
   - type: rep
     start: '1999-01-06'
@@ -2611,10 +2609,10 @@
     class: 2
     party: Democrat
     url: https://www.coons.senate.gov
-    address: 127A Russell Senate Office Building Washington DC 20510
+    address: 218 Russell Senate Office Building Washington DC 20510
     phone: 202-224-5042
     contact_form: https://www.coons.senate.gov/contact
-    office: 127a Russell Senate Office Building
+    office: 218 Russell Senate Office Building
     state_rank: junior
     rss_url: http://www.coons.senate.gov/rss/feeds/?type=all
     fax: 202-228-3075
@@ -2705,7 +2703,6 @@
   bio:
     birthday: '1965-07-22'
     gender: M
-    religion: Protestant
   terms:
   - type: rep
     start: '1997-01-07'
@@ -2892,7 +2889,14 @@
     end: '2021-01-03'
     state: MI
     district: 3
-    party: Republican
+    party: Independent
+    party_affiliations:
+    - start: '2019-01-03'
+      end: '2019-07-07'
+      party: Republican
+    - start: '2019-07-08'
+      end: '2021-01-03'
+      party: Independent
     phone: 202-225-3831
     address: 106 Cannon House Office Building; Washington DC 20515-2203
     office: 106 Cannon House Office Building
@@ -3273,7 +3277,6 @@
   bio:
     birthday: '1951-07-13'
     gender: M
-    religion: Latter Day Saints
   terms:
   - type: rep
     start: '2003-01-07'
@@ -3388,7 +3391,6 @@
   bio:
     birthday: '1947-02-04'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1993-01-05'
@@ -3517,6 +3519,7 @@
     votesmart: 25186
     fec:
     - H2TN06030
+    - S8TN00337
     cspan: 31226
     wikipedia: Marsha Blackburn
     house_history: 10385
@@ -3534,7 +3537,6 @@
   bio:
     birthday: '1952-06-06'
     gender: F
-    religion: Presbyterian
   terms:
   - type: rep
     start: '2003-01-07'
@@ -3622,9 +3624,10 @@
     party: Republican
     state_rank: junior
     url: https://www.blackburn.senate.gov
-    address: B40B Dirksen Senate Office Building Washington DC 20510
-    office: B40b Dirksen Senate Office Building
+    address: 357 Dirksen Senate Office Building Washington DC 20510
+    office: 357 Dirksen Senate Office Building
     phone: 202-224-3344
+    contact_form: https://www.blackburn.senate.gov/contact_marsha
 - id:
     bioguide: B000574
     thomas: '00099'
@@ -3839,7 +3842,10 @@
   bio:
     birthday: '1950-01-10'
     gender: M
-    religion: Baptist
+  leadership_roles:
+  - title: Senate Republican Policy Committee Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -4026,7 +4032,6 @@
   bio:
     birthday: '1955-04-11'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1997-01-07'
@@ -4425,7 +4430,6 @@
   bio:
     birthday: '1950-12-23'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '2003-01-07'
@@ -4542,7 +4546,6 @@
   bio:
     birthday: '1955-11-30'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1995-01-04'
@@ -4636,7 +4639,6 @@
   bio:
     birthday: '1947-04-27'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '2004-07-21'
@@ -4749,7 +4751,6 @@
   bio:
     birthday: '1953-06-08'
     gender: M
-    religion: Protestant
   terms:
   - type: rep
     start: '1993-01-05'
@@ -4896,7 +4897,6 @@
   bio:
     birthday: '1953-11-26'
     gender: F
-    religion: Presbyterian
   terms:
   - type: rep
     start: '2001-01-03'
@@ -5099,7 +5099,6 @@
   bio:
     birthday: '1941-11-06'
     gender: M
-    religion: Christian
   terms:
   - type: rep
     start: '2003-01-07'
@@ -5385,7 +5384,6 @@
   bio:
     birthday: '1953-01-22'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1995-01-04'
@@ -5795,7 +5793,6 @@
   bio:
     birthday: '1956-07-27'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2001-01-03'
@@ -6021,7 +6018,10 @@
   bio:
     birthday: '1940-07-21'
     gender: M
-    religion: African Methodist Episcopal
+  leadership_roles:
+  - title: House Majority Whip
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1993-01-05'
@@ -6266,7 +6266,6 @@
   bio:
     birthday: '1949-04-28'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '2003-01-07'
@@ -6382,7 +6381,6 @@
   bio:
     birthday: '1948-06-11'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '2005-01-04'
@@ -6578,7 +6576,6 @@
   bio:
     birthday: '1954-06-19'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1983-01-03'
@@ -6934,7 +6931,6 @@
   bio:
     birthday: '1951-05-20'
     gender: M
-    religion: Latter Day Saints
   terms:
   - type: rep
     start: '1993-01-05'
@@ -7102,7 +7098,6 @@
   bio:
     birthday: '1955-09-19'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '2005-01-04'
@@ -7186,145 +7181,6 @@
     url: https://cuellar.house.gov
     rss_url: http://cuellar.house.gov/news/rss.aspx
 - id:
-    bioguide: C000984
-    thomas: '00256'
-    govtrack: 400090
-    opensecrets: N00001971
-    votesmart: 345
-    fec:
-    - H6MD07160
-    cspan: 43300
-    wikipedia: Elijah Cummings
-    house_history: 11684
-    ballotpedia: Elijah Cummings
-    maplight: 204
-    icpsr: 29587
-    wikidata: Q934898
-    google_entity_id: kg:/m/025k9h
-  name:
-    first: Elijah
-    middle: E.
-    last: Cummings
-    official_full: Elijah E. Cummings
-  bio:
-    birthday: '1951-01-18'
-    gender: M
-    religion: Baptist
-  terms:
-  - type: rep
-    start: '1996-04-16'
-    end: '1997-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2005-01-04'
-    end: '2007-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2009-01-06'
-    end: '2011-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    url: http://www.house.gov/cummings
-    address: 2235 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://forms.house.gov/wyr/welcome.shtml
-    office: 2235 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: MD
-    party: Democrat
-    district: 7
-    url: http://cummings.house.gov
-    address: 2235 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://cummings.house.gov/contact-me/email-me
-    office: 2235 Rayburn House Office Building
-    rss_url: http://cummings.house.gov/rss.xml
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: MD
-    party: Democrat
-    district: 7
-    url: http://cummings.house.gov
-    address: 2230 Rayburn HOB; Washington DC 20515-2007
-    phone: 202-225-4741
-    fax: 202-225-3178
-    contact_form: https://cummings.house.gov/contact-me/email-me
-    office: 2230 Rayburn House Office Building
-    rss_url: http://cummings.house.gov/rss.xml
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    phone: 202-225-4741
-    url: https://cummings.house.gov
-    rss_url: http://cummings.house.gov/rss.xml
-    address: 2163 Rayburn House Office Building; Washington DC 20515-2007
-    office: 2163 Rayburn House Office Building
-    fax: 202-225-3178
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: MD
-    district: 7
-    party: Democrat
-    phone: 202-225-4741
-    address: 2163 Rayburn House Office Building; Washington DC 20515-2007
-    office: 2163 Rayburn House Office Building
-    url: https://cummings.house.gov
-    rss_url: http://cummings.house.gov/rss.xml
-- id:
     bioguide: D000096
     thomas: '01477'
     govtrack: 400093
@@ -7348,7 +7204,6 @@
   bio:
     birthday: '1941-09-06'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1997-01-07'
@@ -7480,7 +7335,6 @@
   bio:
     birthday: '1944-04-13'
     gender: F
-    religion: Jewish
   terms:
   - type: rep
     start: '2001-01-03'
@@ -7598,7 +7452,6 @@
   bio:
     birthday: '1947-05-27'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1987-01-06'
@@ -7758,7 +7611,6 @@
   bio:
     birthday: '1957-07-29'
     gender: F
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1997-01-07'
@@ -7891,7 +7743,6 @@
   bio:
     birthday: '1943-03-02'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1991-01-03'
@@ -8217,7 +8068,6 @@
   bio:
     birthday: '1961-09-25'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -8334,7 +8184,6 @@
   bio:
     birthday: '1946-10-06'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1995-01-04'
@@ -8475,7 +8324,6 @@
   bio:
     birthday: '1953-08-05'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1995-01-04'
@@ -8591,90 +8439,6 @@
     url: https://doyle.house.gov
     rss_url: http://doyle.house.gov/rss.xml
 - id:
-    bioguide: D000614
-    thomas: '02072'
-    govtrack: 412488
-    opensecrets: N00030967
-    votesmart: 126238
-    fec:
-    - H0WI07051
-    cspan: 623570
-    wikipedia: Sean Duffy
-    house_history: 12601
-    ballotpedia: Sean Duffy
-    maplight: 1493
-    icpsr: 21189
-    wikidata: Q1729888
-    google_entity_id: kg:/m/026m6hd
-  name:
-    first: Sean
-    last: Duffy
-    official_full: Sean P. Duffy
-    middle: P.
-  bio:
-    birthday: '1971-10-03'
-    gender: M
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    url: http://duffy.house.gov/
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: WI
-    party: Republican
-    district: 7
-    url: http://duffy.house.gov
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-    rss_url: http://duffy.house.gov/rss.xml
-    contact_form: http://duffy.house.gov/contact
-    fax: 202-225-3240
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: WI
-    party: Republican
-    district: 7
-    url: https://duffy.house.gov
-    address: 1208 Longworth HOB; Washington DC 20515-4907
-    phone: 202-225-3365
-    office: 1208 Longworth House Office Building
-    rss_url: http://duffy.house.gov/rss.xml
-    contact_form: http://duffy.house.gov/contact
-    fax: 202-225-3240
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    phone: 202-225-3365
-    url: https://duffy.house.gov
-    rss_url: http://duffy.house.gov/rss.xml
-    address: 2330 Rayburn House Office Building; Washington DC 20515-4907
-    office: 2330 Rayburn House Office Building
-    fax: 202-225-3240
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: WI
-    district: 7
-    party: Republican
-    phone: 202-225-3365
-    address: 1714 Longworth House Office Building; Washington DC 20515-4907
-    office: 1714 Longworth House Office Building
-    url: https://duffy.house.gov
-    rss_url: http://duffy.house.gov/rss.xml
-- id:
     bioguide: D000615
     thomas: '02057'
     govtrack: 412472
@@ -8781,7 +8545,6 @@
   bio:
     birthday: '1947-02-18'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1989-01-03'
@@ -8933,7 +8696,6 @@
   bio:
     birthday: '1942-12-13'
     gender: F
-    religion: Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -9052,7 +8814,7 @@
     phone: 202-225-8104
     address: 202 Cannon House Office Building; Washington DC 20515-0518
     office: 202 Cannon House Office Building
-    url: http://eshoo.house.gov
+    url: https://eshoo.house.gov
     rss_url: http://eshoo.house.gov/index.php?format=feed&amp;type=rss
 - id:
     bioguide: F000459
@@ -9351,7 +9113,6 @@
   bio:
     birthday: '1943-06-29'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2005-01-04'
@@ -9796,7 +9557,6 @@
   bio:
     birthday: '1953-08-18'
     gender: M
-    religion: Unknown
   terms:
   - type: rep
     start: '2005-01-04'
@@ -9986,7 +9746,6 @@
   bio:
     birthday: '1943-01-18'
     gender: F
-    religion: Methodist
   terms:
   - type: rep
     start: '1997-01-07'
@@ -10118,10 +9877,13 @@
     last: Grassley
     nickname: Chuck
     official_full: Chuck Grassley
+  leadership_roles:
+  - title: President Pro Tempore of the Senate
+    chamber: senate
+    start: '2019-01-03'
   bio:
     birthday: '1933-09-17'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1975-01-14'
@@ -10224,7 +9986,6 @@
   bio:
     birthday: '1963-11-07'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '2001-01-03'
@@ -10436,7 +10197,6 @@
   bio:
     birthday: '1947-09-01'
     gender: M
-    religion: Unknown
   terms:
   - type: rep
     start: '2005-01-04'
@@ -10628,7 +10388,6 @@
   bio:
     birthday: '1948-02-19'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -11002,7 +10761,6 @@
   bio:
     birthday: '1936-09-05'
     gender: M
-    religion: African Methodist Episcopal
   terms:
   - type: rep
     start: '1993-01-05'
@@ -11552,8 +11310,8 @@
     url: https://www.hirono.senate.gov
     rss_url: http://www.hirono.senate.gov/rss/feeds/?type=all
     contact_form: https://www.hirono.senate.gov/contact
-    address: 730 Hart Senate Office Building Washington DC 20510
-    office: 730 Hart Senate Office Building
+    address: 713 Hart Senate Office Building Washington DC 20510
+    office: 713 Hart Senate Office Building
     phone: 202-224-6361
 - id:
     bioguide: H001061
@@ -11631,32 +11389,34 @@
   bio:
     birthday: '1939-06-14'
     gender: M
-    religion: Baptist
   leadership_roles:
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2003-01-07'
     end: '2005-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2005-01-04'
     end: '2007-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Minority Whip
+  - title: House Minority Whip
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Majority Leader
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -11993,89 +11753,6 @@
   - name: Duncan Lee Hunter
     relation: son
 - id:
-    bioguide: I000055
-    thomas: '01608'
-    lis: S305
-    govtrack: 400194
-    opensecrets: N00002593
-    votesmart: 1721
-    fec:
-    - S6GA00119
-    - H8GA06146
-    cspan: 59135
-    wikipedia: Johnny Isakson
-    house_history: 15687
-    ballotpedia: Johnny Isakson
-    maplight: 298
-    icpsr: 29909
-    wikidata: Q130024
-    google_entity_id: kg:/m/02556q
-  name:
-    first: John
-    middle: H.
-    last: Isakson
-    nickname: Johnny
-    official_full: Johnny Isakson
-  bio:
-    birthday: '1944-12-28'
-    gender: M
-    religion: Methodist
-  terms:
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: GA
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: GA
-    district: 6
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: GA
-    district: 6
-    party: Republican
-    url: http://isakson.house.gov
-  - type: sen
-    start: '2005-01-04'
-    end: '2011-01-03'
-    state: GA
-    class: 3
-    party: Republican
-    url: http://isakson.senate.gov
-  - type: sen
-    start: '2011-01-05'
-    end: '2017-01-03'
-    state: GA
-    class: 3
-    party: Republican
-    url: http://www.isakson.senate.gov
-    address: 131 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-3643
-    fax: 202-228-0724
-    contact_form: http://www.isakson.senate.gov/public/index.cfm/email-me
-    office: 131 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
-  - type: sen
-    start: '2017-01-03'
-    end: '2023-01-03'
-    state: GA
-    class: 3
-    state_rank: senior
-    party: Republican
-    url: https://www.isakson.senate.gov
-    rss_url: http://www.isakson.senate.gov/public/?a=RSS.Feed
-    address: 131 Russell Senate Office Building Washington DC 20510
-    office: 131 Russell Senate Office Building
-    phone: 202-224-3643
-    contact_form: https://www.isakson.senate.gov/public/index.cfm/email-me
-    fax: 202-228-0724
-- id:
     bioguide: J000032
     thomas: '00588'
     govtrack: 400199
@@ -12097,7 +11774,6 @@
   bio:
     birthday: '1950-01-12'
     gender: F
-    religion: Seventh Day Adventist
   terms:
   - type: rep
     start: '1995-01-04'
@@ -12319,7 +11995,6 @@
   bio:
     birthday: '1935-12-03'
     gender: F
-    religion: Baptist
   terms:
   - type: rep
     start: '1993-01-05'
@@ -12552,7 +12227,7 @@
     fec:
     - S0WI00197
     cspan: 62835
-    wikipedia: Ron Johnson (American politician)
+    wikipedia: Ron Johnson (Wisconsin politician)
     ballotpedia: Ron Johnson (Wisconsin)
     maplight: 1501
     icpsr: 41111
@@ -12594,149 +12269,6 @@
     phone: 202-224-5323
     contact_form: https://www.ronjohnson.senate.gov/public/index.cfm/email-the-senator
     fax: 920-230-7262
-- id:
-    bioguide: J000255
-    thomas: '00612'
-    govtrack: 400209
-    opensecrets: N00002299
-    votesmart: 21785
-    fec:
-    - H2NC01081
-    cspan: 36693
-    wikipedia: Walter B. Jones Jr.
-    house_history: 16015
-    ballotpedia: Walter B. Jones
-    maplight: 309
-    icpsr: 29546
-    wikidata: Q512537
-    google_entity_id: kg:/m/03g_r5
-  name:
-    first: Walter
-    middle: B.
-    last: Jones
-    suffix: Jr.
-    official_full: Walter B. Jones
-  bio:
-    birthday: '1943-02-10'
-    gender: M
-    religion: Catholic
-  terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1997-01-03'
-    state: NC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: NC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: NC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: NC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    url: http://jones.house.gov
-  - type: rep
-    start: '2005-01-04'
-    end: '2007-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    url: http://jones.house.gov
-  - type: rep
-    start: '2007-01-04'
-    end: '2009-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    url: http://jones.house.gov
-  - type: rep
-    start: '2009-01-06'
-    end: '2011-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    url: http://jones.house.gov
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    url: http://jones.house.gov
-    address: 2333 Rayburn HOB; Washington DC 20515-3303
-    phone: 202-225-3415
-    fax: 202-225-3286
-    contact_form: http://jones.house.gov/contact_form_email.cfm
-    office: 2333 Rayburn House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: NC
-    party: Republican
-    district: 3
-    url: http://jones.house.gov
-    address: 2333 Rayburn HOB; Washington DC 20515-3303
-    phone: 202-225-3415
-    fax: 202-225-3286
-    contact_form: https://jones.house.gov/contact-me/email-me
-    office: 2333 Rayburn House Office Building
-    rss_url: http://jones.house.gov/rss.xml
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: NC
-    party: Republican
-    district: 3
-    url: http://jones.house.gov
-    address: 2333 Rayburn HOB; Washington DC 20515-3303
-    phone: 202-225-3415
-    fax: 202-225-3286
-    contact_form: https://jones.house.gov/contact-me/email-me
-    office: 2333 Rayburn House Office Building
-    rss_url: http://jones.house.gov/rss.xml
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    phone: 202-225-3415
-    url: https://jones.house.gov
-    rss_url: http://jones.house.gov/rss.xml
-    address: 2333 Rayburn House Office Building; Washington DC 20515-3303
-    office: 2333 Rayburn House Office Building
-    fax: 202-225-3286
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: NC
-    district: 3
-    party: Republican
-    phone: 202-225-3415
-    address: 2333 Rayburn House Office Building; Washington DC 20515-3303
-    office: 2333 Rayburn House Office Building
-    url: https://jones.house.gov
-    rss_url: http://jones.house.gov/rss.xml
-  family:
-  - name: Walter Beaman Jones Sr.
-    relation: son
 - id:
     bioguide: J000289
     thomas: '01868'
@@ -12858,7 +12390,6 @@
   bio:
     birthday: '1946-06-17'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1983-01-03'
@@ -13201,7 +12732,6 @@
   bio:
     birthday: '1963-03-16'
     gender: M
-    religion: Lutheran
   terms:
   - type: rep
     start: '1997-01-07'
@@ -13335,7 +12865,6 @@
   bio:
     birthday: '1944-04-05'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -13480,7 +13009,6 @@
   bio:
     birthday: '1949-05-28'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -14319,7 +13847,6 @@
   bio:
     birthday: '1940-03-31'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: sen
     start: '1975-01-14'
@@ -14409,7 +13936,6 @@
   bio:
     birthday: '1946-07-16'
     gender: F
-    religion: Baptist
   terms:
   - type: rep
     start: '1998-04-07'
@@ -14592,7 +14118,6 @@
   bio:
     birthday: '1940-02-21'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1987-01-06'
@@ -14962,7 +14487,6 @@
   bio:
     birthday: '1947-12-21'
     gender: F
-    religion: Lutheran
   terms:
   - type: rep
     start: '1995-01-04'
@@ -15184,7 +14708,6 @@
   bio:
     birthday: '1937-07-05'
     gender: F
-    religion: Jewish
   terms:
   - type: rep
     start: '1989-01-03'
@@ -15341,7 +14864,6 @@
   bio:
     birthday: '1960-01-06'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1993-05-10'
@@ -15576,6 +15098,10 @@
   bio:
     gender: M
     birthday: '1972-06-07'
+  leadership_roles:
+  - title: Assistant Speaker of the House
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2009-01-06'
@@ -15790,7 +15316,6 @@
   bio:
     birthday: '1946-02-19'
     gender: F
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1993-01-05'
@@ -15934,7 +15459,6 @@
   bio:
     birthday: '1951-02-23'
     gender: M
-    religion: Nazarene
   terms:
   - type: rep
     start: '2005-01-04'
@@ -16018,90 +15542,6 @@
     url: https://marchant.house.gov
     rss_url: http://marchant.house.gov/news/rss.aspx
 - id:
-    bioguide: M001179
-    thomas: '02053'
-    govtrack: 412468
-    opensecrets: N00031777
-    votesmart: 119478
-    fec:
-    - H0PA10078
-    cspan: 95129
-    wikipedia: Tom Marino
-    house_history: 18828
-    ballotpedia: Tom Marino
-    maplight: 1473
-    icpsr: 21170
-    wikidata: Q2439864
-    google_entity_id: kg:/m/02qv_mf
-  name:
-    first: Tom
-    last: Marino
-    official_full: Tom Marino
-  bio:
-    birthday: '1952-08-15'
-    gender: M
-  terms:
-  - type: rep
-    start: '2011-01-05'
-    end: '2013-01-03'
-    state: PA
-    district: 10
-    party: Republican
-    url: http://marino.house.gov/
-    address: 410 Cannon HOB; Washington DC 20515-3810
-    phone: 202-225-3731
-    fax: 202-225-9594
-    office: 410 Cannon House Office Building
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: PA
-    party: Republican
-    district: 10
-    url: http://marino.house.gov
-    address: 410 Cannon HOB; Washington DC 20515-3810
-    phone: 202-225-3731
-    fax: 202-225-9594
-    office: 410 Cannon House Office Building
-    rss_url: http://marino.house.gov/rss.xml
-    contact_form: https://marino.house.gov/contact-me/email-me
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: PA
-    party: Republican
-    district: 10
-    url: http://marino.house.gov
-    address: 410 Cannon HOB; Washington DC 20515-3810
-    phone: 202-225-3731
-    fax: 202-225-9594
-    office: 410 Cannon House Office Building
-    rss_url: http://marino.house.gov/rss.xml
-    contact_form: https://marino.house.gov/contact-me/email-me
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: PA
-    district: 10
-    party: Republican
-    phone: 202-225-3731
-    url: https://marino.house.gov
-    rss_url: http://marino.house.gov/rss.xml
-    address: 2242 Rayburn House Office Building; Washington DC 20515-3810
-    office: 2242 Rayburn House Office Building
-    fax: 202-225-9594
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: PA
-    district: 12
-    party: Republican
-    phone: 202-225-3731
-    address: 1717 Longworth House Office Building; Washington DC 20515-3812
-    office: 1717 Longworth House Office Building
-    url: https://marino.house.gov
-    rss_url: http://marino.house.gov/rss.xml
-- id:
     bioguide: M000133
     thomas: '00735'
     lis: S369
@@ -16128,7 +15568,6 @@
   bio:
     birthday: '1946-07-11'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1975-01-14'
@@ -16394,7 +15833,7 @@
     phone: 202-225-7163
     address: 2311 Rayburn House Office Building; Washington DC 20515-0506
     office: 2311 Rayburn House Office Building
-    url: http://matsui.house.gov
+    url: https://matsui.house.gov
     rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
   family:
   - name: Robert Matsui
@@ -16424,26 +15863,29 @@
     birthday: '1965-01-26'
     gender: M
   leadership_roles:
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2013-01-03'
     end: '2014-07-31'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Majority Leader
+  - title: House Majority Leader
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Minority Leader
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2007-01-04'
@@ -16544,7 +15986,6 @@
   bio:
     birthday: '1962-01-14'
     gender: M
-    religion: Unknown
   terms:
   - type: rep
     start: '2005-01-04'
@@ -16739,7 +16180,6 @@
   bio:
     birthday: '1954-07-12'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2001-01-03'
@@ -16860,7 +16300,6 @@
   bio:
     birthday: '1959-11-20'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1997-01-07'
@@ -17386,7 +16825,6 @@
   bio:
     birthday: '1953-09-25'
     gender: M
-    religion: African Methodist Episcopal
   terms:
   - type: rep
     start: '1997-01-07'
@@ -17518,7 +16956,6 @@
   bio:
     birthday: '1951-04-18'
     gender: F
-    religion: Unknown
   terms:
   - type: rep
     start: '2005-01-04'
@@ -17626,7 +17063,6 @@
   bio:
     birthday: '1954-05-29'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1997-01-07'
@@ -17727,7 +17163,6 @@
   bio:
     birthday: '1957-05-22'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: sen
     start: '2003-01-07'
@@ -17879,7 +17314,10 @@
   bio:
     birthday: '1950-10-11'
     gender: F
-    religion: Roman Catholic
+  leadership_roles:
+  - title: Assistant Senate Minority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '1993-01-05'
@@ -17952,7 +17390,6 @@
   bio:
     birthday: '1947-06-13'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1992-11-03'
@@ -18102,7 +17539,6 @@
   bio:
     birthday: '1936-12-04'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1999-01-06'
@@ -18228,7 +17664,6 @@
   bio:
     birthday: '1949-02-14'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1989-01-03'
@@ -18383,7 +17818,6 @@
   bio:
     birthday: '1937-06-13'
     gender: F
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1991-01-03'
@@ -18534,7 +17968,6 @@
   bio:
     birthday: '1973-10-01'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -18826,7 +18259,6 @@
   bio:
     birthday: '1951-10-30'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1987-01-06'
@@ -18989,7 +18421,6 @@
   bio:
     birthday: '1937-01-25'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1997-01-07'
@@ -19176,24 +18607,26 @@
   bio:
     birthday: '1940-03-26'
     gender: F
-    religion: Roman Catholic
   leadership_roles:
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2011-01-05'
     end: '2013-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2013-01-03'
     end: '2015-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Minority Leader
+  - title: House Minority Leader
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Speaker of the House
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -19530,7 +18963,6 @@
   bio:
     birthday: '1944-06-29'
     gender: M
-    religion: Lutheran
   terms:
   - type: rep
     start: '1991-01-03'
@@ -19777,7 +19209,6 @@
   bio:
     birthday: '1955-12-19'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1993-05-04'
@@ -19966,7 +19397,6 @@
   bio:
     birthday: '1940-08-17'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1987-01-06'
@@ -20564,7 +19994,6 @@
   bio:
     birthday: '1937-12-31'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '1981-01-05'
@@ -20856,7 +20285,6 @@
   bio:
     birthday: '1941-06-12'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -21055,7 +20483,6 @@
   bio:
     birthday: '1946-01-31'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '2003-01-07'
@@ -21170,7 +20597,6 @@
   bio:
     birthday: '1946-11-23'
     gender: M
-    religion: Protestant
   terms:
   - type: rep
     start: '1993-01-05'
@@ -21315,7 +20741,6 @@
   bio:
     birthday: '1973-07-16'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -21632,18 +21057,21 @@
     birthday: '1965-10-06'
     gender: M
   leadership_roles:
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2014-08-01'
     end: '2015-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2015-01-06'
     end: '2017-01-03'
-  - title: Majority Whip
+  - title: House Majority Whip
     chamber: house
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: House Minority Whip
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2008-05-07'
@@ -21745,7 +21173,6 @@
   bio:
     birthday: '1944-05-26'
     gender: F
-    religion: Jewish
   terms:
   - type: rep
     start: '1999-01-06'
@@ -22087,12 +21514,14 @@
   bio:
     birthday: '1950-11-23'
     gender: M
-    religion: Jewish
   leadership_roles:
-  - title: Minority Leader
+  - title: Senate Minority Leader
     chamber: senate
     start: '2017-01-03'
     end: '2019-01-03'
+  - title: Senate Minority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -22379,7 +21808,6 @@
   bio:
     birthday: '1945-06-27'
     gender: M
-    religion: Baptist
   terms:
   - type: rep
     start: '2003-01-07'
@@ -22495,7 +21923,6 @@
   bio:
     birthday: '1947-04-30'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1993-01-05'
@@ -22691,8 +22118,8 @@
     party: Republican
     url: https://www.scott.senate.gov
     rss_url: http://www.scott.senate.gov/rss.xml
-    address: 717 Hart Senate Office Building Washington DC 20510
-    office: 717 Hart Senate Office Building
+    address: 104 Hart Senate Office Building Washington DC 20510
+    office: 104 Hart Senate Office Building
     phone: 202-224-6121
     contact_form: https://www.scott.senate.gov/contact/email-me
     fax: 202-225-3407
@@ -22721,7 +22148,6 @@
   bio:
     birthday: '1943-06-14'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1979-01-15'
@@ -22908,7 +22334,6 @@
   bio:
     birthday: '1943-10-24'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1989-01-03'
@@ -23151,7 +22576,6 @@
   bio:
     birthday: '1934-05-06'
     gender: M
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1979-01-15'
@@ -23261,7 +22685,6 @@
   bio:
     birthday: '1954-10-24'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1997-01-07'
@@ -23394,7 +22817,6 @@
   bio:
     birthday: '1958-02-21'
     gender: M
-    religion: Lutheran
   terms:
   - type: rep
     start: '1997-01-07'
@@ -23528,7 +22950,6 @@
   bio:
     birthday: '1950-09-08'
     gender: M
-    religion: Latter Day Saints
   terms:
   - type: rep
     start: '1999-01-06'
@@ -23759,7 +23180,6 @@
   bio:
     birthday: '1965-06-15'
     gender: M
-    religion: Christian
   terms:
   - type: rep
     start: '1997-01-07'
@@ -23991,7 +23411,6 @@
   bio:
     birthday: '1953-03-04'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1981-01-05'
@@ -24353,7 +23772,6 @@
   bio:
     birthday: '1969-01-28'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '2003-01-07'
@@ -24470,7 +23888,6 @@
   bio:
     birthday: '1948-01-28'
     gender: M
-    religion: Methodist
   terms:
   - type: rep
     start: '1993-04-13'
@@ -24614,7 +24031,6 @@
   bio:
     birthday: '1951-01-24'
     gender: M
-    religion: Catholic
   terms:
   - type: rep
     start: '1999-01-06'
@@ -24832,7 +24248,6 @@
   bio:
     birthday: '1958-07-15'
     gender: M
-    religion: Presbyterian
   terms:
   - type: rep
     start: '1995-01-04'
@@ -24968,6 +24383,10 @@
   bio:
     birthday: '1961-01-07'
     gender: M
+  leadership_roles:
+  - title: Assistant Senate Majority Leader
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -25412,7 +24831,6 @@
   bio:
     birthday: '1953-04-23'
     gender: M
-    religion: Protestant
   terms:
   - type: rep
     start: '1987-01-06'
@@ -25576,7 +24994,6 @@
   bio:
     birthday: '1959-01-10'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '2003-01-07'
@@ -25680,7 +25097,6 @@
   bio:
     birthday: '1953-03-28'
     gender: F
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1993-01-05'
@@ -25821,7 +25237,6 @@
   bio:
     birthday: '1949-08-13'
     gender: M
-    religion: Roman Catholic
   terms:
   - type: rep
     start: '1985-01-03'
@@ -26081,7 +25496,6 @@
   bio:
     birthday: '1957-01-10'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1999-01-06'
@@ -26207,7 +25621,6 @@
   bio:
     birthday: '1966-09-27'
     gender: F
-    religion: Jewish
   terms:
   - type: rep
     start: '2005-01-04'
@@ -26313,7 +25726,6 @@
   bio:
     birthday: '1938-08-15'
     gender: F
-    religion: Christian
   terms:
   - type: rep
     start: '1991-01-03'
@@ -26649,7 +26061,6 @@
   bio:
     birthday: '1947-07-31'
     gender: M
-    religion: Presbyterian
   terms:
   - type: rep
     start: '2001-12-18'
@@ -26855,7 +26266,6 @@
   bio:
     birthday: '1959-02-03'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '2007-12-13'
@@ -27124,7 +26534,6 @@
   bio:
     birthday: '1949-05-03'
     gender: M
-    religion: Jewish
   terms:
   - type: rep
     start: '1981-01-05'
@@ -27342,7 +26751,6 @@
   bio:
     birthday: '1933-06-09'
     gender: M
-    religion: Episcopalian
   terms:
   - type: rep
     start: '1973-03-06'
@@ -27594,8 +27002,8 @@
     class: 3
     state_rank: senior
     party: Republican
-    address: 400 Russell Senate Office Building Washington DC 20510
-    office: 400 Russell Senate Office Building
+    address: 185 Dirksen Senate Office Building Washington DC 20510
+    office: 185 Dirksen Senate Office Building
     phone: 202-224-5623
     url: https://www.young.senate.gov
     contact_form: https://www.young.senate.gov/contact
@@ -28299,8 +27707,8 @@
     state_rank: junior
     party: Republican
     url: https://www.cotton.senate.gov
-    address: 124 Russell Senate Office Building Washington DC 20510
-    office: 124 Russell Senate Office Building
+    address: 326 Russell Senate Office Building Washington DC 20510
+    office: 326 Russell Senate Office Building
     phone: 202-224-2353
     contact_form: http://www.cotton.senate.gov/?p=contact
 - id:
@@ -28313,6 +27721,7 @@
     wikipedia: Kyrsten Sinema
     fec:
     - H2AZ09019
+    - S8AZ00197
     ballotpedia: Kyrsten Sinema
     maplight: 1733
     icpsr: 21300
@@ -28374,9 +27783,10 @@
     party: Democrat
     state_rank: senior
     url: https://www.sinema.senate.gov
-    address: 825B&C Hart Senate Office Building Washington DC 20510
-    office: 825b&c Hart Senate Office Building
+    address: 317 Hart Senate Office Building Washington DC 20510
+    office: 317 Hart Senate Office Building
     phone: 202-224-4521
+    contact_form: https://www.sinema.senate.gov/contact-kyrsten
 - id:
     govtrack: 412510
     bioguide: L000578
@@ -29994,8 +29404,8 @@
     url: https://www.warren.senate.gov
     rss_url: http://www.warren.senate.gov/rss/?p=hot_topic
     contact_form: https://www.warren.senate.gov/?p=email_senator
-    address: 317 Hart Senate Office Building Washington DC 20510
-    office: 317 Hart Senate Office Building
+    address: 309 Hart Senate Office Building Washington DC 20510
+    office: 309 Hart Senate Office Building
     phone: 202-224-4543
 - id:
     govtrack: 412543
@@ -30556,6 +29966,7 @@
     fec:
     - H0ND01026
     - H6ND00074
+    - S8ND00120
     opensecrets: N00004614
     ballotpedia: Kevin Cramer
     maplight: 1779
@@ -30617,9 +30028,10 @@
     party: Republican
     state_rank: junior
     url: https://www.cramer.senate.gov
-    address: B40C Dirksen Senate Office Building Washington DC 20510
-    office: B40c Dirksen Senate Office Building
+    address: 400 Russell Senate Office Building Washington DC 20510
+    office: 400 Russell Senate Office Building
     phone: 202-224-2043
+    contact_form: https://www.cramer.senate.gov/contact_kevin
 - id:
     bioguide: F000463
     thomas: '02179'
@@ -30841,6 +30253,10 @@
   bio:
     gender: M
     birthday: '1970-08-04'
+  leadership_roles:
+  - title: House Democratic Caucus Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2013-01-03'
@@ -30960,77 +30376,6 @@
     office: 2331 Rayburn House Office Building
     url: https://seanmaloney.house.gov
     rss_url: http://seanmaloney.house.gov/rss.xml
-- id:
-    govtrack: 412563
-    bioguide: C001092
-    thomas: '02151'
-    cspan: 94144
-    fec:
-    - H8NY29032
-    votesmart: 139770
-    wikipedia: Chris Collins (American politician)
-    opensecrets: N00001285
-    ballotpedia: Chris Collins
-    maplight: 1787
-    icpsr: 21345
-    wikidata: Q5106218
-    google_entity_id: kg:/m/03cv81x
-  name:
-    first: Chris
-    last: Collins
-    official_full: Chris Collins
-  bio:
-    gender: M
-    birthday: '1950-05-20'
-  terms:
-  - type: rep
-    start: '2013-01-03'
-    end: '2015-01-03'
-    state: NY
-    party: Republican
-    district: 27
-    office: 1117 Longworth House Office Building
-    address: 1117 Longworth HOB; Washington DC 20515-3227
-    phone: 202-225-5265
-    url: http://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    contact_form: https://chriscollins.house.gov/contact/email-me
-  - type: rep
-    start: '2015-01-06'
-    end: '2017-01-03'
-    state: NY
-    party: Republican
-    district: 27
-    office: 1117 Longworth House Office Building
-    address: 1117 Longworth HOB; Washington DC 20515-3227
-    phone: 202-225-5265
-    url: http://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    contact_form: https://chriscollins.house.gov/contact/email-me
-    fax: 202-225-5910
-  - type: rep
-    start: '2017-01-03'
-    end: '2019-01-03'
-    state: NY
-    district: 27
-    party: Republican
-    phone: 202-225-5265
-    url: https://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
-    address: 1117 Longworth House Office Building; Washington DC 20515-3227
-    office: 1117 Longworth House Office Building
-    fax: 202-225-5910
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: NY
-    district: 27
-    party: Republican
-    phone: 202-225-5265
-    address: 2243 Rayburn House Office Building; Washington DC 20515-3227
-    office: 2243 Rayburn House Office Building
-    url: https://chriscollins.house.gov
-    rss_url: http://chriscollins.house.gov/rss.xml
 - id:
     govtrack: 412564
     bioguide: W000815
@@ -31577,8 +30922,8 @@
     state_rank: junior
     url: https://www.cruz.senate.gov
     contact_form: https://www.cruz.senate.gov/?p=form&id=16
-    address: 404 Russell Senate Office Building Washington DC 20510
-    office: 404 Russell Senate Office Building
+    address: 127A Russell Senate Office Building Washington DC 20510
+    office: 127a Russell Senate Office Building
     phone: 202-224-5922
 - id:
     govtrack: 412574
@@ -32032,6 +31377,7 @@
     google_entity_id: kg:/m/053f8h
   name:
     first: Timothy
+    nickname: Tim
     last: Kaine
     official_full: Tim Kaine
   bio:
@@ -32141,7 +31487,7 @@
     cspan: 9269006
     opensecrets: N00031557
     votesmart: 126058
-    wikipedia: Dennis Heck
+    wikipedia: Denny Heck
     fec:
     - H0WA03161
     ballotpedia: Denny Heck
@@ -32470,8 +31816,8 @@
     state_rank: junior
     url: https://www.booker.senate.gov
     phone: 202-224-3224
-    address: 359 Dirksen Senate Office Building Washington DC 20510
-    office: 359 Dirksen Senate Office Building
+    address: 717 Hart Senate Office Building Washington DC 20510
+    office: 717 Hart Senate Office Building
     contact_form: https://www.booker.senate.gov/?p=contact
     fax: 202-224-8378
 - id:
@@ -32768,6 +32114,10 @@
   bio:
     gender: M
     birthday: '1954-05-14'
+  leadership_roles:
+  - title: House Republican Policy Committee Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2015-01-06'
@@ -34494,6 +33844,7 @@
     wikipedia: Stacey Plaskett
     google_entity_id: kg:/m/012844_c
     cspan: 79090
+    votesmart: 155929
   name:
     first: Stacey
     last: Plaskett
@@ -34709,6 +34060,7 @@
     wikipedia: Amata Coleman Radewagen
     google_entity_id: kg:/m/012964p3
     cspan: 5188
+    votesmart: 128380
   name:
     first: Aumua
     last: Amata
@@ -34759,7 +34111,7 @@
     lis: S383
     maplight: 2121
     wikidata: Q5218668
-    wikipedia: Dan Sullivan (American senator)
+    wikipedia: Dan Sullivan (U.S. senator)
     google_entity_id: kg:/m/07s4r4q
     votesmart: 114964
     cspan: 1023262
@@ -34780,8 +34132,8 @@
     state_rank: junior
     party: Republican
     url: https://www.sullivan.senate.gov
-    address: 702 Hart Senate Office Building Washington DC 20510
-    office: 702 Hart Senate Office Building
+    address: 302 Hart Senate Office Building Washington DC 20510
+    office: 302 Hart Senate Office Building
     phone: 202-224-3004
     contact_form: https://www.sullivan.senate.gov/contact/email
 - id:
@@ -34812,7 +34164,7 @@
     end: '2021-01-03'
     state: GA
     class: 2
-    state_rank: junior
+    state_rank: senior
     party: Republican
     url: https://www.perdue.senate.gov
     address: 455 Russell Senate Office Building Washington DC 20510
@@ -34842,6 +34194,10 @@
   bio:
     gender: F
     birthday: '1970-07-01'
+  leadership_roles:
+  - title: Senate Republican Conference Vice Chair
+    chamber: senate
+    start: '2019-01-03'
   terms:
   - type: sen
     start: '2015-01-06'
@@ -34851,8 +34207,8 @@
     state_rank: junior
     party: Republican
     url: https://www.ernst.senate.gov/public
-    address: 111 Russell Senate Office Building Washington DC 20510
-    office: 111 Russell Senate Office Building
+    address: 730 Hart Senate Office Building Washington DC 20510
+    office: 730 Hart Senate Office Building
     phone: 202-224-3254
     contact_form: https://www.ernst.senate.gov/public/index.cfm/contact
 - id:
@@ -34885,9 +34241,9 @@
     class: 2
     state_rank: junior
     party: Republican
-    url: https://www.tillis.senate.gov/public
-    address: 185 Dirksen Senate Office Building Washington DC 20510
-    office: 185 Dirksen Senate Office Building
+    url: https://www.tillis.senate.gov
+    address: 113 Dirksen Senate Office Building Washington DC 20510
+    office: 113 Dirksen Senate Office Building
     phone: 202-224-6342
     contact_form: https://www.tillis.senate.gov/public/index.cfm/email-me
 - id:
@@ -35011,8 +34367,8 @@
     state_rank: junior
     party: Republican
     url: https://www.sasse.senate.gov/public
-    address: 136 Russell Senate Office Building Washington DC 20510
-    office: 136 Russell Senate Office Building
+    address: 107 Russell Senate Office Building Washington DC 20510
+    office: 107 Russell Senate Office Building
     phone: 202-224-4224
     contact_form: http://www.sasse.senate.gov/public/index.cfm/email-ben
 - id:
@@ -35354,8 +34710,8 @@
     class: 3
     state_rank: junior
     party: Republican
-    address: 383 Russell Senate Office Building Washington DC 20510
-    office: 383 Russell Senate Office Building
+    address: 416 Russell Senate Office Building Washington DC 20510
+    office: 416 Russell Senate Office Building
     phone: 202-224-4623
     url: https://www.kennedy.senate.gov/public
     contact_form: https://www.kennedy.senate.gov/public/email-me
@@ -35391,8 +34747,8 @@
     class: 3
     state_rank: junior
     party: Democrat
-    address: 330 Hart Senate Office Building Washington DC 20510
-    office: 330 Hart Senate Office Building
+    address: 324 Hart Senate Office Building Washington DC 20510
+    office: 324 Hart Senate Office Building
     phone: 202-224-3324
     url: https://www.hassan.senate.gov
     contact_form: https://www.hassan.senate.gov/content/contact-senator
@@ -35426,8 +34782,8 @@
     class: 3
     state_rank: senior
     party: Democrat
-    address: 204 Russell Senate Office Building Washington DC 20510
-    office: 204 Russell Senate Office Building
+    address: 516 Hart Senate Office Building Washington DC 20510
+    office: 516 Hart Senate Office Building
     phone: 202-224-3542
     url: https://www.cortezmasto.senate.gov
     contact_form: https://www.cortezmasto.senate.gov/contact
@@ -36023,7 +35379,7 @@
     phone: 202-225-4035
     address: 1710 Longworth House Office Building; Washington DC 20515-0907
     office: 1710 Longworth House Office Building
-    url: https://stephaniemurphy.house.gov
+    url: https://murphy.house.gov
 - id:
     bioguide: S001200
     govtrack: 412695
@@ -36819,6 +36175,7 @@
     votesmart: 169471
     fec:
     - H6NV03139
+    - S8NV00156
     opensecrets: N00038734
     maplight: 2227
     google_entity_id: kg:/g/11cntnvwkg
@@ -36851,9 +36208,10 @@
     party: Democrat
     state_rank: junior
     url: https://www.rosen.senate.gov
-    address: G12 Dirksen Senate Office Building Washington DC 20510
-    office: G12 Dirksen Senate Office Building
+    address: 144 Russell Senate Office Building Washington DC 20510
+    office: 144 Russell Senate Office Building
     phone: 202-224-6244
+    contact_form: https://www.rosen.senate.gov/contact_jacky
 - id:
     bioguide: S001201
     govtrack: 412717
@@ -37093,7 +36451,7 @@
 - id:
     bioguide: G000581
     govtrack: 412725
-    wikipedia: Vicente González (politician)
+    wikipedia: Vicente Gonzalez (politician)
     wikidata: Q27924921
     votesmart: 166483
     fec:
@@ -37302,7 +36660,7 @@
     wikipedia: Liz Cheney
     wikidata: Q5362573
     google_entity_id: kg:/m/04slt0
-    votesmart: 145932
+    votesmart: 171319
     fec:
     - H6WY00159
     opensecrets: N00035504
@@ -37316,6 +36674,10 @@
   bio:
     gender: F
     birthday: '1966-07-28'
+  leadership_roles:
+  - title: House Republican Conference Chair
+    chamber: house
+    start: '2019-01-03'
   terms:
   - type: rep
     start: '2017-01-03'
@@ -37351,6 +36713,7 @@
     maplight: 2246
     google_entity_id: kg:/m/0gfgsrm
     opensecrets: N00040712
+    icpsr: 21750
   name:
     first: Ron
     last: Estes
@@ -37394,6 +36757,7 @@
     google_entity_id: kg:/m/030pb5p
     house_history: 15032448990
     maplight: 2247
+    icpsr: 21751
   name:
     first: Greg
     last: Gianforte
@@ -37437,6 +36801,7 @@
     google_entity_id: kg:/m/0f9kbx
     house_history: 15032448994
     maplight: 2248
+    icpsr: 21753
   name:
     first: Ralph
     last: Norman
@@ -37481,6 +36846,7 @@
     cspan: 108883
     house_history: 15032449022
     maplight: 2250
+    icpsr: 21754
   name:
     first: Jimmy
     last: Gomez
@@ -37521,6 +36887,7 @@
     ballotpedia: John Curtis (Utah)
     google_entity_id: kg:/m/0bmdhtb
     maplight: 2251
+    icpsr: 21755
   name:
     first: John
     last: Curtis
@@ -37579,8 +36946,8 @@
     class: 2
     party: Democrat
     state_rank: junior
-    address: 326 Russell Senate Office Building Washington DC 20510
-    office: 326 Russell Senate Office Building
+    address: 330 Hart Senate Office Building Washington DC 20510
+    office: 330 Hart Senate Office Building
     phone: 202-224-4124
     url: https://www.jones.senate.gov
     contact_form: https://www.jones.senate.gov/content/contact-senator
@@ -37629,11 +36996,11 @@
     class: 2
     party: Democrat
     state_rank: junior
-    address: 309 Hart Senate Office Building Washington DC 20510
-    office: 309 Hart Senate Office Building
+    address: 720 Hart Senate Office Building Washington DC 20510
+    office: 720 Hart Senate Office Building
     phone: 202-224-5641
     url: https://www.smith.senate.gov
-    contact_form: https://www.smith.senate.gov/content/contact-senator
+    contact_form: https://www.smith.senate.gov/contact-tina
 - id:
     bioguide: H001079
     lis: S395
@@ -37679,8 +37046,8 @@
     state_rank: junior
     url: https://www.hydesmith.senate.gov
     contact_form: https://www.hydesmith.senate.gov/content/contact-senator
-    address: G12 Dirksen Senate Office Building Washington DC 20510
-    office: G12 Dirksen Senate Office Building
+    address: 702 Hart Senate Office Building Washington DC 20510
+    office: 702 Hart Senate Office Building
     phone: 202-224-5054
 - id:
     bioguide: L000588
@@ -37693,6 +37060,7 @@
     ballotpedia: Conor Lamb
     google_entity_id: kg:/g/11gdj36kt1
     votesmart: 177656
+    icpsr: 21756
   name:
     first: Conor
     last: Lamb
@@ -37720,7 +37088,7 @@
     phone: 202-225-2301
     address: 1224 Longworth House Office Building; Washington DC 20515-3817
     office: 1224 Longworth House Office Building
-    url: https://lamb.house.gov/
+    url: https://lamb.house.gov
 - id:
     bioguide: L000589
     fec:
@@ -37732,6 +37100,7 @@
     ballotpedia: Debbie Lesko
     google_entity_id: kg:/m/0zwmkgq
     votesmart: 106483
+    icpsr: 21757
   name:
     first: Debbie
     last: Lesko
@@ -37759,7 +37128,7 @@
     phone: 202-225-4576
     address: 1113 Longworth House Office Building; Washington DC 20515-0308
     office: 1113 Longworth House Office Building
-    url: https://lesko.house.gov/
+    url: https://lesko.house.gov
 - id:
     bioguide: C001115
     fec:
@@ -37771,6 +37140,7 @@
     ballotpedia: Michael Cloud (Texas)
     opensecrets: N00041882
     votesmart: 177350
+    icpsr: 21758
   name:
     first: Michael
     last: Cloud
@@ -37798,7 +37168,7 @@
     phone: 202-225-7742
     address: 1314 Longworth House Office Building; Washington DC 20515-4327
     office: 1314 Longworth House Office Building
-    url: https://cloud.house.gov/
+    url: https://cloud.house.gov
 - id:
     bioguide: B001306
     fec:
@@ -37808,6 +37178,9 @@
     wikipedia: Troy Balderson
     wikidata: Q16194422
     ballotpedia: Troy Balderson
+    google_entity_id: kg:/m/09ry4tm
+    votesmart: 102781
+    icpsr: 21759
   name:
     first: Troy
     last: Balderson
@@ -37835,7 +37208,7 @@
     phone: 202-225-5355
     address: 1221 Longworth House Office Building; Washington DC 20515-3512
     office: 1221 Longworth House Office Building
-    url: https://balderson.house.gov/
+    url: https://balderson.house.gov
 - id:
     bioguide: H001082
     fec:
@@ -37843,7 +37216,10 @@
     govtrack: 412748
     wikipedia: Kevin Hern
     wikidata: Q58333614
+    opensecrets: N00040829
     ballotpedia: Kevin Hern
+    votesmart: 180004
+    icpsr: 21760
   name:
     first: Kevin
     middle: R.
@@ -37878,9 +37254,13 @@
     fec:
     - H8NY25105
     govtrack: 412749
-    wikipedia: Joseph D. Morelle
+    wikipedia: Joseph Morelle
     wikidata: Q6285623
+    opensecrets: N00043207
     ballotpedia: Joseph Morelle
+    google_entity_id: kg:/m/03d820m
+    votesmart: 4362
+    icpsr: 21761
   name:
     first: Joseph
     middle: D.
@@ -37917,7 +37297,10 @@
     govtrack: 412750
     wikipedia: Mary Gay Scanlon
     wikidata: Q54611716
+    opensecrets: N00042706
     ballotpedia: Mary Gay Scanlon
+    votesmart: 178890
+    icpsr: 21762
   name:
     first: Mary
     middle: Gay
@@ -37954,7 +37337,10 @@
     govtrack: 412751
     wikipedia: Susan Wild
     wikidata: Q58323072
+    opensecrets: N00041997
     ballotpedia: Susan Wild
+    votesmart: 178895
+    icpsr: 21763
   name:
     first: Susan
     middle: Ellis
@@ -37999,10 +37385,10 @@
   name:
     first: Ed
     last: Case
+    official_full: Ed Case
   bio:
     birthday: '1952-09-27'
     gender: M
-    religion: Protestant
   terms:
   - type: rep
     start: '2003-01-07'
@@ -38047,7 +37433,7 @@
     first: Steven
     last: Horsford
     middle: A.
-    official_full: Steven A. Horsford
+    official_full: Steven Horsford
   bio:
     gender: M
     birthday: '1973-04-29'
@@ -38073,7 +37459,7 @@
     phone: 202-225-9894
     address: 1330 Longworth House Office Building; Washington DC 20515-2804
     office: 1330 Longworth House Office Building
-    url: http://horsford.house.gov
+    url: https://horsford.house.gov
     rss_url: http://horsford.house.gov/rss.xml
 - id:
     bioguide: K000368
@@ -38141,7 +37527,7 @@
     phone: 202-225-2542
     address: 309 Cannon House Office Building; Washington DC 20515-0302
     office: 309 Cannon House Office Building
-    url: http://kirkpatrick.house.gov
+    url: https://kirkpatrick.house.gov
     rss_url: http://kirkpatrick.house.gov/rss.xml
 - id:
     bioguide: S001211
@@ -38149,9 +37535,15 @@
     - H8AZ09040
     govtrack: 412753
     wikipedia: Greg Stanton
+    wikidata: Q5606289
+    opensecrets: N00041750
+    google_entity_id: kg:/m/0hgrxqb
+    votesmart: 72030
+    icpsr: 21968
   name:
     first: Greg
     last: Stanton
+    official_full: Greg Stanton
   bio:
     gender: M
     birthday: '1970-03-08'
@@ -38165,16 +37557,22 @@
     phone: 202-225-9888
     address: 128 Cannon House Office Building; Washington DC 20515-0309
     office: 128 Cannon House Office Building
-    url: https://stanton.house.gov/
+    url: https://stanton.house.gov
 - id:
     bioguide: H001090
     fec:
     - H8CA10126
     govtrack: 412754
     wikipedia: Josh Harder
+    wikidata: Q58494468
+    opensecrets: N00040853
+    votesmart: 179326
+    ballotpedia: Josh Harder
+    icpsr: 21930
   name:
     first: Josh
     last: Harder
+    official_full: Josh Harder
   bio:
     gender: M
     birthday: '1986-08-01'
@@ -38188,16 +37586,23 @@
     phone: 202-225-4540
     address: 131 Cannon House Office Building; Washington DC 20515-0510
     office: 131 Cannon House Office Building
-    url: https://harder.house.gov/
+    url: https://harder.house.gov
 - id:
     bioguide: C001124
     fec:
     - H8CA10167
     govtrack: 412755
     wikipedia: TJ Cox
+    opensecrets: N00028122
+    google_entity_id: kg:/g/11fj7r9gm5
+    wikidata: Q59306065
+    votesmart: 57197
+    ballotpedia: TJ Cox
+    icpsr: 21909
   name:
     first: TJ
     last: Cox
+    official_full: TJ Cox
   bio:
     gender: M
     birthday: '1963-07-18'
@@ -38211,40 +37616,22 @@
     phone: 202-225-4695
     address: 1728 Longworth House Office Building; Washington DC 20515-0521
     office: 1728 Longworth House Office Building
-    url: https://cox.house.gov/
-- id:
-    bioguide: H001087
-    fec:
-    - H8CA25074
-    govtrack: 412756
-    wikipedia: Katie Hill (politician)
-  name:
-    first: Katie
-    last: Hill
-  bio:
-    gender: F
-    birthday: '1987-08-25'
-  terms:
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: CA
-    district: 25
-    party: Democrat
-    phone: 202-225-1956
-    address: 1130 Longworth House Office Building; Washington DC 20515-0525
-    office: 1130 Longworth House Office Building
-    url: https://katiehill.house.gov/
+    url: https://cox.house.gov
 - id:
     bioguide: C001123
     fec:
     - H8CA39174
     govtrack: 412757
+    opensecrets: N00041464
     wikipedia: Gil Cisneros
+    wikidata: Q54958760
+    votesmart: 179370
+    icpsr: 21907
   name:
     first: Gilbert
     middle: Ray
     last: Cisneros
+    official_full: Gilbert Ray Cisneros, Jr.
   bio:
     gender: M
     birthday: '1971-02-12'
@@ -38258,16 +37645,21 @@
     phone: 202-225-4111
     address: 431 Cannon House Office Building; Washington DC 20515-0539
     office: 431 Cannon House Office Building
-    url: https://cisneros.house.gov/
+    url: https://cisneros.house.gov
 - id:
     bioguide: P000618
     fec:
     - H8CA45130
     govtrack: 412758
     wikipedia: Katie Porter
+    wikidata: Q58754391
+    opensecrets: N00040865
+    votesmart: 179393
+    icpsr: 21954
   name:
     first: Katie
     last: Porter
+    official_full: Katie Porter
   bio:
     gender: F
     birthday: '1974-01-03'
@@ -38281,16 +37673,21 @@
     phone: 202-225-5611
     address: 1117 Longworth House Office Building; Washington DC 20515-0545
     office: 1117 Longworth House Office Building
-    url: https://porter.house.gov/
+    url: https://porter.house.gov
 - id:
     bioguide: R000616
     fec:
     - H8CA48035
     govtrack: 412759
     wikipedia: Harley Rouda
+    wikidata: Q58333597
+    opensecrets: N00040666
+    votesmart: 179404
+    icpsr: 21960
   name:
     first: Harley
     last: Rouda
+    official_full: Harley Rouda
   bio:
     gender: M
     birthday: '1961-12-10'
@@ -38304,16 +37701,21 @@
     phone: 202-225-2415
     address: 2300 Rayburn House Office Building; Washington DC 20515-0548
     office: 2300 Rayburn House Office Building
-    url: https://rouda.house.gov/
+    url: https://rouda.house.gov
 - id:
     bioguide: L000593
     fec:
     - H8CA49058
     govtrack: 412760
     wikipedia: Mike Levin
+    wikidata: Q55424854
+    opensecrets: N00040667
+    votesmart: 179416
+    icpsr: 21939
   name:
     first: Mike
     last: Levin
+    official_full: Mike Levin
   bio:
     gender: M
     birthday: '1978-10-28'
@@ -38327,16 +37729,21 @@
     phone: 202-225-3906
     address: 1626 Longworth House Office Building; Washington DC 20515-0549
     office: 1626 Longworth House Office Building
-    url: https://mikelevin.house.gov/
+    url: https://mikelevin.house.gov
 - id:
     bioguide: N000191
     fec:
-    - H8CO02178
+    - H8CO02160
     govtrack: 412761
     wikipedia: Joe Neguse
+    wikidata: Q57242006
+    opensecrets: N00041080
+    votesmart: 151075
+    icpsr: 21948
   name:
     first: Joe
     last: Neguse
+    official_full: Joe Neguse
   bio:
     gender: M
     birthday: '1984-05-13'
@@ -38350,16 +37757,21 @@
     phone: 202-225-2161
     address: 1419 Longworth House Office Building; Washington DC 20515-0602
     office: 1419 Longworth House Office Building
-    url: https://neguse.house.gov/
+    url: https://neguse.house.gov
 - id:
     bioguide: C001121
     fec:
     - H8CO06229
     govtrack: 412762
     wikipedia: Jason Crow
+    opensecrets: N00040876
+    wikidata: Q58323071
+    votesmart: 180218
+    icpsr: 21912
   name:
     first: Jason
     last: Crow
+    official_full: Jason Crow
   bio:
     gender: M
     birthday: '1979-03-15'
@@ -38373,16 +37785,21 @@
     phone: 202-225-7882
     address: 1229 Longworth House Office Building; Washington DC 20515-0606
     office: 1229 Longworth House Office Building
-    url: https://crow.house.gov/
+    url: https://crow.house.gov
 - id:
     bioguide: H001081
     fec:
     - H8CT05245
     govtrack: 412763
     wikipedia: Jahana Hayes
+    wikidata: Q24951316
+    opensecrets: N00043421
+    votesmart: 181744
+    icpsr: 21931
   name:
     first: Jahana
     last: Hayes
+    official_full: Jahana Hayes
   bio:
     gender: F
     birthday: '1973-03-08'
@@ -38396,16 +37813,20 @@
     phone: 202-225-4476
     address: 1415 Longworth House Office Building; Washington DC 20515-0705
     office: 1415 Longworth House Office Building
-    url: https://hayes.house.gov/
+    url: https://hayes.house.gov
 - id:
     bioguide: W000823
     fec:
     - H8FL06148
     govtrack: 412764
     wikipedia: Michael Waltz
+    wikidata: Q55386653
+    opensecrets: N00042403
+    icpsr: 21981
   name:
     first: Michael
     last: Waltz
+    official_full: Michael Waltz
   bio:
     gender: M
     birthday: '1974-01-31'
@@ -38419,16 +37840,22 @@
     phone: 202-225-2706
     address: 216 Cannon House Office Building; Washington DC 20515-0906
     office: 216 Cannon House Office Building
-    url: https://waltz.house.gov/
+    url: https://waltz.house.gov
 - id:
     bioguide: S001210
     fec:
     - H8FL15230
     govtrack: 412765
     wikipedia: Ross Spano
+    wikidata: Q16196710
+    opensecrets: N00043319
+    google_entity_id: kg:/m/0v3c060
+    votesmart: 142164
+    icpsr: 21967
   name:
     first: Ross
     last: Spano
+    official_full: Ross Spano
   bio:
     gender: M
     birthday: '1966-07-16'
@@ -38442,17 +37869,23 @@
     phone: 202-225-1252
     address: 224 Cannon House Office Building; Washington DC 20515-0915
     office: 224 Cannon House Office Building
-    url: https://spano.house.gov/
+    url: https://spano.house.gov
 - id:
     bioguide: S001214
     fec:
     - H8FL17053
     govtrack: 412766
     wikipedia: Greg Steube
+    wikidata: Q5606295
+    opensecrets: N00042808
+    google_entity_id: kg:/m/0k3lrh0
+    votesmart: 117248
+    icpsr: 21971
   name:
     first: W.
     middle: Gregory
     last: Steube
+    official_full: W. Gregory Steube
   bio:
     gender: M
     birthday: '1978-05-19'
@@ -38466,16 +37899,22 @@
     phone: 202-225-5792
     address: 521 Cannon House Office Building; Washington DC 20515-0917
     office: 521 Cannon House Office Building
-    url: https://steube.house.gov/
+    url: https://steube.house.gov
 - id:
     bioguide: M001207
     fec:
     - H8FL26039
     govtrack: 412767
     wikipedia: Debbie Mucarsel-Powell
+    wikidata: Q58323616
+    opensecrets: N00041561
+    votesmart: 173449
+    ballotpedia: Debbie Mucarsel-Powell
+    icpsr: 21947
   name:
     first: Debbie
     last: Mucarsel-Powell
+    official_full: Debbie Mucarsel-Powell
   bio:
     gender: F
     birthday: '1971-01-18'
@@ -38489,17 +37928,23 @@
     phone: 202-225-2778
     address: 114 Cannon House Office Building; Washington DC 20515-0926
     office: 114 Cannon House Office Building
-    url: https://mucarsel-powell.house.gov/
+    url: https://mucarsel-powell.house.gov
 - id:
     bioguide: S001206
     fec:
     - H8FL27193
     govtrack: 412768
     wikipedia: Donna Shalala
+    wikidata: Q292569
+    opensecrets: N00042811
+    google_entity_id: kg:/m/01v3vb
+    votesmart: 182301
+    icpsr: 21963
   name:
     first: Donna
     middle: E.
     last: Shalala
+    official_full: Donna E. Shalala
   bio:
     gender: F
     birthday: '1941-02-14'
@@ -38513,16 +37958,22 @@
     phone: 202-225-3931
     address: 1320 Longworth House Office Building; Washington DC 20515-0927
     office: 1320 Longworth House Office Building
-    url: https://shalala.house.gov/
+    url: https://shalala.house.gov
 - id:
     bioguide: M001208
     fec:
     - H8GA06393
     govtrack: 412769
     wikipedia: Lucy McBath
+    wikidata: Q54358424
+    opensecrets: N00042813
+    google_entity_id: kg:/g/11f647_0gj
+    votesmart: 178538
+    icpsr: 21944
   name:
     first: Lucy
     last: McBath
+    official_full: Lucy McBath
   bio:
     gender: F
     birthday: '1960-06-01'
@@ -38536,17 +37987,21 @@
     phone: 202-225-4501
     address: 1513 Longworth House Office Building; Washington DC 20515-1006
     office: 1513 Longworth House Office Building
-    url: https://mcbath.house.gov/
+    url: https://mcbath.house.gov
 - id:
     bioguide: S001204
     fec:
     - H8GU01020
     govtrack: 412770
+    opensecrets: N00042619
     wikipedia: Michael San Nicolas
+    wikidata: Q16221559
+    google_entity_id: kg:/m/0wy0mjt
   name:
     first: Michael
     middle: F. Q.
     last: San Nicolas
+    official_full: Michael F. Q. San Nicolas
   bio:
     gender: M
     birthday: '1981-01-30'
@@ -38560,16 +38015,22 @@
     phone: 202-225-1188
     address: 1632 Longworth House Office Building; Washington DC 20515-5301
     office: 1632 Longworth House Office Building
-    url: https://sannicolas.house.gov/
+    url: https://sannicolas.house.gov
 - id:
     bioguide: F000467
     fec:
     - H8IA01094
     govtrack: 412771
     wikipedia: Abby Finkenauer
+    wikidata: Q24435337
+    votesmart: 151127
+    opensecrets: N00040888
+    ballotpedia: Abby Finkenauer
+    icpsr: 21918
   name:
     first: Abby
     last: Finkenauer
+    official_full: Abby Finkenauer
   bio:
     gender: F
     birthday: '1988-12-27'
@@ -38583,16 +38044,22 @@
     phone: 202-225-2911
     address: 124 Cannon House Office Building; Washington DC 20515-1501
     office: 124 Cannon House Office Building
-    url: https://finkenauer.house.gov/
+    url: https://finkenauer.house.gov
 - id:
     bioguide: A000378
     fec:
     - H8IA03124
     govtrack: 412772
+    opensecrets: N00041104
     wikipedia: Cindy Axne
+    wikidata: Q58324150
+    votesmart: 179226
+    ballotpedia: Cindy Axne
+    icpsr: 21902
   name:
     first: Cynthia
     last: Axne
+    official_full: Cynthia Axne
   bio:
     gender: F
     birthday: '1965-04-20'
@@ -38606,16 +38073,22 @@
     phone: 202-225-5476
     address: 330 Cannon House Office Building; Washington DC 20515-1503
     office: 330 Cannon House Office Building
-    url: https://axne.house.gov/
+    url: https://axne.house.gov
 - id:
     bioguide: F000469
     fec:
     - H8ID01124
     govtrack: 412773
     wikipedia: Russ Fulcher
+    wikidata: Q7381134
+    google_entity_id: kg:/m/05h4vgh
+    opensecrets: N00041335
+    votesmart: 33091
+    icpsr: 21920
   name:
     first: Russ
     last: Fulcher
+    official_full: Russ Fulcher
   bio:
     gender: M
     birthday: '1973-07-19'
@@ -38629,17 +38102,23 @@
     phone: 202-225-6611
     address: 1520 Longworth House Office Building; Washington DC 20515-1201
     office: 1520 Longworth House Office Building
-    url: https://fulcher.house.gov/
+    url: https://fulcher.house.gov
 - id:
     bioguide: G000586
     fec:
     - H8IL04134
     govtrack: 412774
     wikipedia: Jesús "Chuy" García
+    wikidata: Q18631698
+    opensecrets: N00042114
+    google_entity_id: kg:/m/012c8r5x
+    votesmart: 6261
+    icpsr: 21921
   name:
     first: Jesús
     middle: G.
     last: García
+    official_full: Jesús G. "Chuy" García
   bio:
     gender: M
     birthday: '1956-04-12'
@@ -38653,16 +38132,20 @@
     phone: 202-225-8203
     address: 530 Cannon House Office Building; Washington DC 20515-1304
     office: 530 Cannon House Office Building
-    url: https://jesusgarcia.house.gov/
+    url: https://chuygarcia.house.gov
 - id:
     bioguide: C001117
     fec:
     - H8IL06139
     govtrack: 412775
+    opensecrets: N00041338
     wikipedia: Sean Casten
+    wikidata: Q55386655
+    icpsr: 21906
   name:
     first: Sean
     last: Casten
+    official_full: Sean Casten
   bio:
     gender: M
     birthday: '1971-11-23'
@@ -38676,16 +38159,21 @@
     phone: 202-225-4561
     address: 429 Cannon House Office Building; Washington DC 20515-1306
     office: 429 Cannon House Office Building
-    url: https://casten.house.gov/
+    url: https://casten.house.gov
 - id:
     bioguide: U000040
     fec:
     - H8IL14174
     govtrack: 412776
     wikipedia: Lauren Underwood
+    wikidata: Q48471874
+    opensecrets: N00041569
+    votesmart: 177001
+    icpsr: 21979
   name:
     first: Lauren
     last: Underwood
+    official_full: Lauren Underwood
   bio:
     gender: F
     birthday: '1986-10-04'
@@ -38699,17 +38187,22 @@
     phone: 202-225-2976
     address: 1118 Longworth House Office Building; Washington DC 20515-1314
     office: 1118 Longworth House Office Building
-    url: https://underwood.house.gov/
+    url: https://underwood.house.gov
 - id:
     bioguide: B001307
     fec:
     - H8IN04199
     govtrack: 412777
+    opensecrets: N00041954
     wikipedia: Jim Baird (American politician)
+    wikidata: Q48813213
+    votesmart: 86013
+    icpsr: 21903
   name:
     first: James
     middle: R.
     last: Baird
+    official_full: James R. Baird
   bio:
     gender: M
     birthday: '1945-06-04'
@@ -38723,16 +38216,21 @@
     phone: 202-225-5037
     address: 532 Cannon House Office Building; Washington DC 20515-1404
     office: 532 Cannon House Office Building
-    url: https://baird.house.gov/
+    url: https://baird.house.gov
 - id:
     bioguide: P000615
     fec:
     - H8IN06129
     govtrack: 412778
     wikipedia: Greg Pence
+    wikidata: Q52151577
+    opensecrets: N00041956
+    votesmart: 177876
+    icpsr: 21952
   name:
     first: Greg
     last: Pence
+    official_full: Greg Pence
   bio:
     gender: M
     birthday: '1956-11-14'
@@ -38746,17 +38244,21 @@
     phone: 202-225-3021
     address: 222 Cannon House Office Building; Washington DC 20515-1406
     office: 222 Cannon House Office Building
-    url: https://pence.house.gov/
+    url: https://pence.house.gov
 - id:
     bioguide: W000824
     fec:
     - H8KS02199
     govtrack: 412779
     wikipedia: Steve Watkins (politician)
+    wikidata: Q60428824
+    opensecrets: N00042126
+    icpsr: 21982
   name:
     first: Steven
     middle: C.
     last: Watkins
+    official_full: Steve Watkins
   bio:
     gender: M
     birthday: '1976-09-18'
@@ -38770,16 +38272,22 @@
     phone: 202-225-6601
     address: 1205 Longworth House Office Building; Washington DC 20515-1602
     office: 1205 Longworth House Office Building
-    url: https://watkins.house.gov/
+    url: https://watkins.house.gov
 - id:
     bioguide: D000629
     fec:
     - H8KS03155
     govtrack: 412780
+    opensecrets: N00042626
     wikipedia: Sharice Davids
+    wikidata: Q58322868
+    votesmart: 181201
+    ballotpedia: Sharice Davids
+    icpsr: 21914
   name:
     first: Sharice
     last: Davids
+    official_full: Sharice Davids
   bio:
     gender: F
     birthday: '1980-05-22'
@@ -38793,16 +38301,21 @@
     phone: 202-225-2865
     address: 1541 Longworth House Office Building; Washington DC 20515-1603
     office: 1541 Longworth House Office Building
-    url: https://davids.house.gov/
+    url: https://davids.house.gov
 - id:
     bioguide: T000482
     fec:
     - H8MA03106
     govtrack: 412781
     wikipedia: Lori Trahan
+    wikidata: Q56486676
+    opensecrets: N00041808
+    votesmart: 182310
+    icpsr: 21977
   name:
     first: Lori
     last: Trahan
+    official_full: Lori Trahan
   bio:
     gender: F
     birthday: '1973-10-27'
@@ -38816,16 +38329,22 @@
     phone: 202-225-3411
     address: 1616 Longworth House Office Building; Washington DC 20515-2103
     office: 1616 Longworth House Office Building
-    url: https://trahan.house.gov/
+    url: https://trahan.house.gov
 - id:
     bioguide: P000617
     fec:
     - H8MA07032
     govtrack: 412782
     wikipedia: Ayanna Pressley
+    wikidata: Q13562359
+    opensecrets: N00042581
+    google_entity_id: kg:/m/0bmh9vc
+    votesmart: 122700
+    icpsr: 21955
   name:
     first: Ayanna
     last: Pressley
+    official_full: Ayanna Pressley
   bio:
     gender: F
     birthday: '1974-02-03'
@@ -38839,17 +38358,22 @@
     phone: 202-225-5111
     address: 1108 Longworth House Office Building; Washington DC 20515-2107
     office: 1108 Longworth House Office Building
-    url: https://pressley.house.gov/
+    url: https://pressley.house.gov
 - id:
     bioguide: T000483
     fec:
-    - H8MD06168
+    - H6MD08549
     govtrack: 412783
+    opensecrets: N00039122
     wikipedia: David Trone
+    wikidata: Q29446408
+    votesmart: 167336
+    icpsr: 21978
   name:
     first: David
     middle: J.
     last: Trone
+    official_full: David J. Trone
   bio:
     gender: M
     birthday: '1955-09-21'
@@ -38863,16 +38387,22 @@
     phone: 202-225-2721
     address: 1213 Longworth House Office Building; Washington DC 20515-2006
     office: 1213 Longworth House Office Building
-    url: https://trone.house.gov/
+    url: https://trone.house.gov
 - id:
     bioguide: S001208
     fec:
     - H8MI08102
     govtrack: 412784
     wikipedia: Elissa Slotkin
+    wikidata: Q30323721
+    opensecrets: N00041357
+    votesmart: 181080
+    ballotpedia: Elissa Slotkin
+    icpsr: 21965
   name:
     first: Elissa
     last: Slotkin
+    official_full: Elissa Slotkin
   bio:
     gender: F
     birthday: '1976-07-10'
@@ -38886,16 +38416,21 @@
     phone: 202-225-4872
     address: 1531 Longworth House Office Building; Washington DC 20515-2208
     office: 1531 Longworth House Office Building
-    url: https://slotkin.house.gov/
+    url: https://slotkin.house.gov
 - id:
     bioguide: L000592
     fec:
     - H8MI09118
     govtrack: 412785
     wikipedia: Andy Levin
+    wikidata: Q4760938
+    opensecrets: N00042149
+    votesmart: 66287
+    icpsr: 21940
   name:
     first: Andy
     last: Levin
+    official_full: Andy Levin
   bio:
     gender: M
     birthday: '1960-08-01'
@@ -38909,20 +38444,26 @@
     phone: 202-225-4961
     address: 228 Cannon House Office Building; Washington DC 20515-2209
     office: 228 Cannon House Office Building
-    url: https://andylevin.house.gov/
+    url: https://andylevin.house.gov
 - id:
     bioguide: S001215
     fec:
     - H8MI11254
     govtrack: 412786
     wikipedia: Haley Stevens
+    wikidata: Q58322563
+    opensecrets: N00040915
+    votesmart: 181092
+    ballotpedia: Haley Stevens
+    icpsr: 21972
   name:
     first: Haley
     middle: M.
     last: Stevens
+    official_full: Haley M. Stevens
   bio:
     gender: F
-    birthday: '1983-06-01'
+    birthday: '1983-06-24'
   terms:
   - type: rep
     start: '2019-01-03'
@@ -38933,16 +38474,22 @@
     phone: 202-225-8171
     address: 227 Cannon House Office Building; Washington DC 20515-2211
     office: 227 Cannon House Office Building
-    url: https://stevens.house.gov/
+    url: https://stevens.house.gov
 - id:
     bioguide: T000481
     fec:
     - H8MI13250
     govtrack: 412787
     wikipedia: Rashida Tlaib
+    wikidata: Q7294939
+    opensecrets: N00042649
+    google_entity_id: kg:/m/059_x6c
+    votesmart: 105368
+    icpsr: 21975
   name:
     first: Rashida
     last: Tlaib
+    official_full: Rashida Tlaib
   bio:
     gender: F
     birthday: '1976-07-24'
@@ -38956,16 +38503,21 @@
     phone: 202-225-5126
     address: 1628 Longworth House Office Building; Washington DC 20515-2213
     office: 1628 Longworth House Office Building
-    url: https://tlaib.house.gov/
+    url: https://tlaib.house.gov
 - id:
     bioguide: H001088
     fec:
     - H0MN01045
     govtrack: 412788
     wikipedia: Jim Hagedorn
+    wikidata: Q58494532
+    opensecrets: N00031390
+    votesmart: 146027
+    icpsr: 21929
   name:
     first: Jim
     last: Hagedorn
+    official_full: Jim Hagedorn
   bio:
     gender: M
     birthday: '1962-08-04'
@@ -38979,16 +38531,22 @@
     phone: 202-225-2472
     address: 325 Cannon House Office Building; Washington DC 20515-2301
     office: 325 Cannon House Office Building
-    url: https://hagedorn.house.gov/
+    url: https://hagedorn.house.gov
 - id:
     bioguide: C001119
     fec:
     - H6MN02131
     govtrack: 412789
+    opensecrets: N00037039
     wikipedia: Angie Craig
+    wikidata: Q58324174
+    votesmart: 166261
+    ballotpedia: Angie Craig
+    icpsr: 21910
   name:
     first: Angie
     last: Craig
+    official_full: Angie Craig
   bio:
     gender: F
     birthday: '1972-02-14'
@@ -39002,16 +38560,21 @@
     phone: 202-225-2271
     address: 1523 Longworth House Office Building; Washington DC 20515-2302
     office: 1523 Longworth House Office Building
-    url: https://craig.house.gov/
+    url: https://craig.house.gov
 - id:
     bioguide: P000616
     fec:
     - H8MN03143
     govtrack: 412790
     wikipedia: Dean Phillips
+    wikidata: Q58323131
+    opensecrets: N00041134
+    votesmart: 181357
+    icpsr: 21953
   name:
     first: Dean
     last: Phillips
+    official_full: Dean Phillips
   bio:
     gender: M
     birthday: '1969-01-20'
@@ -39025,16 +38588,21 @@
     phone: 202-225-2871
     address: 1305 Longworth House Office Building; Washington DC 20515-2303
     office: 1305 Longworth House Office Building
-    url: https://phillips.house.gov/
+    url: https://phillips.house.gov
 - id:
     bioguide: O000173
     fec:
     - H8MN05239
     govtrack: 412791
     wikipedia: Ilhan Omar
+    wikidata: Q26436159
+    opensecrets: N00043581
+    votesmart: 171628
+    icpsr: 21950
   name:
     first: Ilhan
     last: Omar
+    official_full: Ilhan Omar
   bio:
     gender: F
     birthday: '1981-10-04'
@@ -39048,16 +38616,21 @@
     phone: 202-225-4755
     address: 1517 Longworth House Office Building; Washington DC 20515-2305
     office: 1517 Longworth House Office Building
-    url: https://omar.house.gov/
+    url: https://omar.house.gov
 - id:
     bioguide: S001212
     fec:
     - H8MN08043
     govtrack: 412792
     wikipedia: Pete Stauber
+    wikidata: Q55955746
+    opensecrets: N00041511
+    votesmart: 159954
+    icpsr: 21969
   name:
     first: Pete
     last: Stauber
+    official_full: Pete Stauber
   bio:
     gender: M
     birthday: '1966-05-10'
@@ -39071,16 +38644,20 @@
     phone: 202-225-6211
     address: 126 Cannon House Office Building; Washington DC 20515-2308
     office: 126 Cannon House Office Building
-    url: https://stauber.house.gov/
+    url: https://stauber.house.gov
 - id:
     bioguide: G000591
     fec:
     - H8MS03125
     govtrack: 412793
     wikipedia: Michael Guest (politician)
+    wikidata: Q60428645
+    opensecrets: N00042458
+    icpsr: 21927
   name:
     first: Michael
     last: Guest
+    official_full: Michael Guest
   bio:
     gender: M
     birthday: '1970-02-04'
@@ -39094,16 +38671,21 @@
     phone: 202-225-5031
     address: 230 Cannon House Office Building; Washington DC 20515-2403
     office: 230 Cannon House Office Building
-    url: https://guest.house.gov/
+    url: https://guest.house.gov
 - id:
     bioguide: A000377
     fec:
     - H8ND00096
     govtrack: 412794
+    opensecrets: N00042868
     wikipedia: Kelly Armstrong
+    wikidata: Q50362353
+    votesmart: 139338
+    icpsr: 21901
   name:
     first: Kelly
     last: Armstrong
+    official_full: Kelly Armstrong
   bio:
     gender: M
     birthday: '1976-10-08'
@@ -39117,16 +38699,21 @@
     phone: 202-225-2611
     address: 1004 Longworth House Office Building; Washington DC 20515-3400
     office: 1004 Longworth House Office Building
-    url: https://armstrong.house.gov/
+    url: https://armstrong.house.gov
 - id:
     bioguide: P000614
     fec:
     - H8NH01210
     govtrack: 412795
     wikipedia: Chris Pappas (politician)
+    wikidata: Q5107684
+    opensecrets: N00042161
+    google_entity_id: kg:/m/0nd3t8z
+    icpsr: 21951
   name:
     first: Chris
     last: Pappas
+    official_full: Chris Pappas
   bio:
     gender: M
     birthday: '1980-06-04'
@@ -39140,16 +38727,22 @@
     phone: 202-225-5456
     address: 323 Cannon House Office Building; Washington DC 20515-2901
     office: 323 Cannon House Office Building
-    url: https://pappas.house.gov/
+    url: https://pappas.house.gov
 - id:
     bioguide: V000133
     fec:
     - H8NJ02166
     govtrack: 412796
     wikipedia: Jeff Van Drew
+    wikidata: Q6175202
+    opensecrets: N00042164
+    google_entity_id: kg:/m/08h3sl
+    votesmart: 24685
+    icpsr: 21980
   name:
     first: Jefferson
     last: Van Drew
+    official_full: Jefferson Van Drew
   bio:
     gender: M
     birthday: '1953-02-23'
@@ -39159,20 +38752,31 @@
     end: '2021-01-03'
     state: NJ
     district: 2
-    party: Democrat
+    party: Republican
+    party_affiliations:
+    - start: '2019-01-03'
+      end: '2019-12-18'
+      party: Democrat
+    - start: '2019-12-19'
+      end: '2021-01-03'
+      party: Republican
     phone: 202-225-6572
     address: 331 Cannon House Office Building; Washington DC 20515-3002
     office: 331 Cannon House Office Building
-    url: https://vandrew.house.gov/
+    url: https://vandrew.house.gov
 - id:
     bioguide: K000394
     fec:
     - H8NJ03206
     govtrack: 412797
     wikipedia: Andy Kim (politician)
+    wikidata: Q55639180
+    opensecrets: N00041370
+    icpsr: 21937
   name:
     first: Andy
     last: Kim
+    official_full: Andy Kim
   bio:
     gender: M
     birthday: '1982-07-12'
@@ -39186,16 +38790,23 @@
     phone: 202-225-4765
     address: 1516 Longworth House Office Building; Washington DC 20515-3003
     office: 1516 Longworth House Office Building
-    url: https://kim.house.gov/
+    url: https://kim.house.gov
 - id:
     bioguide: M001203
     fec:
     - H8NJ07223
     govtrack: 412798
     wikipedia: Tom Malinowski
+    wikidata: Q23772336
+    opensecrets: N00041843
+    google_entity_id: kg:/g/11cmhw_v1s
+    votesmart: 179645
+    ballotpedia: Tom Malinowski
+    icpsr: 21942
   name:
     first: Tom
     last: Malinowski
+    official_full: Tom Malinowski
   bio:
     gender: M
     birthday: '1965-09-23'
@@ -39209,16 +38820,22 @@
     phone: 202-225-5361
     address: 426 Cannon House Office Building; Washington DC 20515-3007
     office: 426 Cannon House Office Building
-    url: https://malinowski.house.gov/
+    url: https://malinowski.house.gov
 - id:
     bioguide: S001207
     fec:
     - H8NJ11142
     govtrack: 412799
     wikipedia: Mikie Sherrill
+    wikidata: Q47087146
+    opensecrets: N00041154
+    votesmart: 179651
+    ballotpedia: Mikie Sherrill
+    icpsr: 21964
   name:
     first: Mikie
     last: Sherrill
+    official_full: Mikie Sherrill
   bio:
     gender: F
     birthday: '1972-01-19'
@@ -39232,17 +38849,22 @@
     phone: 202-225-5034
     address: 1208 Longworth House Office Building; Washington DC 20515-3011
     office: 1208 Longworth House Office Building
-    url: https://sherrill.house.gov/
+    url: https://sherrill.house.gov
 - id:
     bioguide: H001080
     fec:
     - H8NM01331
     govtrack: 412800
     wikipedia: Deb Haaland
+    wikidata: Q54860790
+    opensecrets: N00040933
+    votesmart: 149368
+    icpsr: 21928
   name:
     first: Debra
     middle: A.
     last: Haaland
+    official_full: Debra A. Haaland
   bio:
     gender: F
     birthday: '1960-12-02'
@@ -39256,16 +38878,21 @@
     phone: 202-225-6316
     address: 1237 Longworth House Office Building; Washington DC 20515-3101
     office: 1237 Longworth House Office Building
-    url: https://haaland.house.gov/
+    url: https://haaland.house.gov
 - id:
     bioguide: T000484
     fec:
     - H8NM02248
     govtrack: 412801
+    opensecrets: N00042467
     wikipedia: Xochitl Torres Small
+    wikidata: Q58399761
+    votesmart: 177978
+    icpsr: 21976
   name:
     first: Xochitl
     last: Torres Small
+    official_full: Xochitl Torres Small
   bio:
     gender: F
     birthday: '1984-11-15'
@@ -39279,16 +38906,21 @@
     phone: 202-225-2365
     address: 430 Cannon House Office Building; Washington DC 20515-3102
     office: 430 Cannon House Office Building
-    url: http://torressmall.house.gov
+    url: https://torressmall.house.gov
 - id:
     bioguide: L000590
     fec:
-    - H8NV03200
+    - H6NV04020
     govtrack: 412802
+    opensecrets: N00037247
     wikipedia: Susie Lee
+    wikidata: Q58333611
+    votesmart: 169344
+    icpsr: 21938
   name:
     first: Susie
     last: Lee
+    official_full: Susie Lee
   bio:
     gender: F
     birthday: '1966-11-07'
@@ -39302,16 +38934,20 @@
     phone: 202-225-3252
     address: 522 Cannon House Office Building; Washington DC 20515-2803
     office: 522 Cannon House Office Building
-    url: https://susielee.house.gov/
+    url: https://susielee.house.gov
 - id:
     bioguide: R000613
     fec:
     - H8NY11113
     govtrack: 412803
     wikipedia: Max Rose (politician)
+    wikidata: Q56046860
+    opensecrets: N00041588
+    icpsr: 21958
   name:
     first: Max
     last: Rose
+    official_full: Max Rose
   bio:
     gender: M
     birthday: '1986-11-28'
@@ -39325,16 +38961,22 @@
     phone: 202-225-3371
     address: 1529 Longworth House Office Building; Washington DC 20515-3211
     office: 1529 Longworth House Office Building
-    url: https://maxrose.house.gov/
+    url: https://maxrose.house.gov
 - id:
     bioguide: O000172
     fec:
     - H8NY15148
     govtrack: 412804
     wikipedia: Alexandria Ocasio-Cortez
+    wikidata: Q55223040
+    opensecrets: N00041162
+    votesmart: 180416
+    ballotpedia: Alexandria Ocasio-Cortez
+    icpsr: 21949
   name:
     first: Alexandria
     last: Ocasio-Cortez
+    official_full: Alexandria Ocasio-Cortez
   bio:
     gender: F
     birthday: '1989-10-13'
@@ -39348,16 +38990,20 @@
     phone: 202-225-3965
     address: 229 Cannon House Office Building; Washington DC 20515-3214
     office: 229 Cannon House Office Building
-    url: https://ocasio-cortez.house.gov/
+    url: https://ocasio-cortez.house.gov
 - id:
     bioguide: D000630
     fec:
     - H8NY19181
     govtrack: 412805
     wikipedia: Antonio Delgado (politician)
+    wikidata: Q60428696
+    opensecrets: N00040741
+    icpsr: 21916
   name:
     first: Antonio
     last: Delgado
+    official_full: Antonio Delgado
   bio:
     gender: M
     birthday: '1977-01-19'
@@ -39371,16 +39017,23 @@
     phone: 202-225-5614
     address: 1007 Longworth House Office Building; Washington DC 20515-3219
     office: 1007 Longworth House Office Building
-    url: https://delgado.house.gov/
+    url: https://delgado.house.gov
 - id:
     bioguide: B001308
     fec:
     - H8NY22151
     govtrack: 412806
+    opensecrets: N00041385
     wikipedia: Anthony Brindisi
+    wikidata: Q4772153
+    google_entity_id: kg:/m/0hhqfyc
+    votesmart: 135258
+    ballotpedia: Anthony Brindisi
+    icpsr: 21904
   name:
     first: Anthony
     last: Brindisi
+    official_full: Anthony Brindisi
   bio:
     gender: M
     birthday: '1978-11-22'
@@ -39394,15 +39047,21 @@
     phone: 202-225-3665
     address: 329 Cannon House Office Building; Washington DC 20515-3222
     office: 329 Cannon House Office Building
-    url: https://brindisi.house.gov/
+    url: https://brindisi.house.gov
 - id:
     bioguide: G000588
     fec:
     - H8OH16124
     govtrack: 412807
+    wikipedia: Anthony Gonzalez
+    wikidata: Q3487172
+    opensecrets: N00041690
+    google_entity_id: kg:/m/0gznlq
+    icpsr: 21924
   name:
     first: Anthony
     last: Gonzalez
+    official_full: Anthony Gonzalez
   bio:
     gender: M
     birthday: '1984-09-19'
@@ -39416,17 +39075,22 @@
     phone: 202-225-3876
     address: 1023 Longworth House Office Building; Washington DC 20515-3516
     office: 1023 Longworth House Office Building
-    url: https://anthonygonzalez.house.gov/
+    url: https://anthonygonzalez.house.gov
 - id:
     bioguide: H001083
     fec:
     - H8OK05109
     govtrack: 412808
     wikipedia: Kendra Horn
+    wikidata: Q58323559
+    opensecrets: N00041394
+    votesmart: 180018
+    icpsr: 21933
   name:
     first: Kendra
     middle: S.
     last: Horn
+    official_full: Kendra S. Horn
   bio:
     gender: F
     birthday: '1976-06-09'
@@ -39440,16 +39104,22 @@
     phone: 202-225-2132
     address: 415 Cannon House Office Building; Washington DC 20515-3605
     office: 415 Cannon House Office Building
-    url: https://horn.house.gov/
+    url: https://horn.house.gov
 - id:
     bioguide: D000631
     fec:
     - H8PA04116
     govtrack: 412809
     wikipedia: Madeleine Dean
+    wikidata: Q6726900
+    opensecrets: N00042894
+    google_entity_id: kg:/m/0nfwmy_
+    votesmart: 136484
+    icpsr: 21915
   name:
     first: Madeleine
     last: Dean
+    official_full: Madeleine Dean
   bio:
     gender: F
     birthday: '1959-06-06'
@@ -39463,16 +39133,22 @@
     phone: 202-225-4731
     address: 129 Cannon House Office Building; Washington DC 20515-3804
     office: 129 Cannon House Office Building
-    url: https://dean.house.gov/
+    url: https://dean.house.gov
 - id:
     bioguide: H001085
     fec:
     - H8PA06087
     govtrack: 412810
     wikipedia: Chrissy Houlahan
+    wikidata: Q56274180
+    opensecrets: N00040949
+    votesmart: 178893
+    ballotpedia: Chrissy Houlahan
+    icpsr: 21934
   name:
     first: Chrissy
     last: Houlahan
+    official_full: Chrissy Houlahan
   bio:
     gender: F
     birthday: '1967-06-05'
@@ -39486,16 +39162,22 @@
     phone: 202-225-4315
     address: 1218 Longworth House Office Building; Washington DC 20515-3806
     office: 1218 Longworth House Office Building
-    url: https://houlahan.house.gov/
+    url: https://houlahan.house.gov
 - id:
     bioguide: M001204
     fec:
     - H8PA10147
     govtrack: 412811
     wikipedia: Dan Meuser
+    wikidata: Q5214012
+    opensecrets: N00029416
+    google_entity_id: kg:/m/03wf1q3
+    votesmart: 102438
+    icpsr: 21945
   name:
     first: Daniel
     last: Meuser
+    official_full: Daniel Meuser
   bio:
     gender: M
     birthday: '1964-02-10'
@@ -39509,16 +39191,20 @@
     phone: 202-225-6511
     address: 326 Cannon House Office Building; Washington DC 20515-3809
     office: 326 Cannon House Office Building
-    url: https://meuser.house.gov/
+    url: https://meuser.house.gov
 - id:
     bioguide: J000302
     fec:
     - H8PA13125
     govtrack: 412812
     wikipedia: John Joyce (American politician)
+    wikidata: Q60428839
+    opensecrets: N00043242
+    icpsr: 21936
   name:
     first: John
     last: Joyce
+    official_full: John Joyce
   bio:
     gender: M
     birthday: '1957-02-08'
@@ -39532,16 +39218,22 @@
     phone: 202-225-2431
     address: 1337 Longworth House Office Building; Washington DC 20515-3813
     office: 1337 Longworth House Office Building
-    url: https://johnjoyce.house.gov/
+    url: https://johnjoyce.house.gov
 - id:
     bioguide: R000610
     fec:
     - H8PA18199
     govtrack: 412813
     wikipedia: Guy Reschenthaler
+    wikidata: Q22096097
+    opensecrets: N00041871
+    google_entity_id: kg:/g/11bwn3bsvm
+    votesmart: 166004
+    icpsr: 21956
   name:
     first: Guy
     last: Reschenthaler
+    official_full: Guy Reschenthaler
   bio:
     gender: M
     birthday: '1983-04-17'
@@ -39555,16 +39247,21 @@
     phone: 202-225-2065
     address: 531 Cannon House Office Building; Washington DC 20515-3814
     office: 531 Cannon House Office Building
-    url: https://reschenthaler.house.gov/
+    url: https://reschenthaler.house.gov
 - id:
     bioguide: C001122
     fec:
     - H8SC01116
     govtrack: 412814
     wikipedia: Joe Cunningham (American politician)
+    wikidata: Q58993183
+    opensecrets: N00041400
+    votesmart: 179601
+    icpsr: 21913
   name:
     first: Joe
     last: Cunningham
+    official_full: Joe Cunningham
   bio:
     gender: M
     birthday: '1982-05-26'
@@ -39578,17 +39275,23 @@
     phone: 202-225-3176
     address: 423 Cannon House Office Building; Washington DC 20515-4001
     office: 423 Cannon House Office Building
-    url: https://cunningham.house.gov/
+    url: https://cunningham.house.gov
 - id:
     bioguide: T000480
     fec:
     - H8SC04250
     govtrack: 412815
     wikipedia: William Timmons (politician)
+    wikidata: Q28837296
+    opensecrets: N00042715
+    google_entity_id: kg:/g/11g6ns21_f
+    votesmart: 168923
+    icpsr: 21974
   name:
     first: William
     middle: R.
     last: Timmons
+    official_full: William R. Timmons IV
   bio:
     gender: M
     birthday: '1984-04-30'
@@ -39602,16 +39305,21 @@
     phone: 202-225-6030
     address: 313 Cannon House Office Building; Washington DC 20515-4004
     office: 313 Cannon House Office Building
-    url: https://timmons.house.gov/
+    url: https://timmons.house.gov
 - id:
     bioguide: J000301
     fec:
     - H8SD01055
     govtrack: 412816
     wikipedia: Dusty Johnson
+    wikidata: Q30015838
+    opensecrets: N00040559
+    votesmart: 48307
+    icpsr: 21935
   name:
     first: Dusty
     last: Johnson
+    official_full: Dusty Johnson
   bio:
     gender: M
     birthday: '1976-09-30'
@@ -39625,16 +39333,22 @@
     phone: 202-225-2801
     address: 1508 Longworth House Office Building; Washington DC 20515-4100
     office: 1508 Longworth House Office Building
-    url: https://dustyjohnson.house.gov/
+    url: https://dustyjohnson.house.gov
 - id:
     bioguide: B001309
     fec:
     - H8TN02119
     govtrack: 412817
+    opensecrets: N00041594
     wikipedia: Tim Burchett
+    wikidata: Q7803244
+    google_entity_id: kg:/m/03yt07
+    votesmart: 24379
+    icpsr: 21905
   name:
     first: Tim
     last: Burchett
+    official_full: Tim Burchett
   bio:
     gender: M
     birthday: '1964-08-25'
@@ -39648,17 +39362,22 @@
     phone: 202-225-5435
     address: 1122 Longworth House Office Building; Washington DC 20515-4202
     office: 1122 Longworth House Office Building
-    url: https://burchett.house.gov/
+    url: https://burchett.house.gov
 - id:
     bioguide: R000612
     fec:
     - H8TN06094
     govtrack: 412818
     wikipedia: John Rose (Tennessee politician)
+    wikidata: Q33044040
+    opensecrets: N00041599
+    votesmart: 180452
+    icpsr: 21959
   name:
     first: John
     middle: W.
     last: Rose
+    official_full: John W. Rose
   bio:
     gender: M
     birthday: '1965-02-23'
@@ -39672,17 +39391,23 @@
     phone: 202-225-4231
     address: 1232 Longworth House Office Building; Washington DC 20515-4206
     office: 1232 Longworth House Office Building
-    url: https://johnrose.house.gov/
+    url: https://johnrose.house.gov
 - id:
     bioguide: G000590
     fec:
     - H8TN07076
     govtrack: 412819
     wikipedia: Mark E. Green
+    wikidata: Q16224587
+    opensecrets: N00041873
+    google_entity_id: kg:/m/09rx6jq
+    votesmart: 139030
+    icpsr: 21926
   name:
     first: Mark
     middle: E.
     last: Green
+    official_full: Mark E. Green
   bio:
     gender: M
     birthday: '1964-11-08'
@@ -39703,9 +39428,15 @@
     - H8TX02166
     govtrack: 412820
     wikipedia: Dan Crenshaw
+    wikidata: Q58301995
+    opensecrets: N00042224
+    google_entity_id: kg:/g/11fk40sjyz
+    votesmart: 177270
+    icpsr: 21911
   name:
     first: Dan
     last: Crenshaw
+    official_full: Dan Crenshaw
   bio:
     gender: M
     birthday: '1984-03-14'
@@ -39719,16 +39450,21 @@
     phone: 202-225-6565
     address: 413 Cannon House Office Building; Washington DC 20515-4302
     office: 413 Cannon House Office Building
-    url: https://crenshaw.house.gov/
+    url: https://crenshaw.house.gov
 - id:
     bioguide: T000479
     fec:
     - H8TX03123
     govtrack: 412821
     wikipedia: Van Taylor
+    wikidata: Q7913689
+    opensecrets: N00027709
+    google_entity_id: kg:/m/0f9kk3
+    icpsr: 21973
   name:
     first: Van
     last: Taylor
+    official_full: Van Taylor
   bio:
     gender: M
     birthday: '1972-08-01'
@@ -39742,16 +39478,22 @@
     phone: 202-225-4201
     address: 1404 Longworth House Office Building; Washington DC 20515-4303
     office: 1404 Longworth House Office Building
-    url: https://vantaylor.house.gov/
+    url: https://vantaylor.house.gov
 - id:
     bioguide: G000589
     fec:
     - H8TX05144
     govtrack: 412822
     wikipedia: Lance Gooden
+    wikidata: Q6483406
+    opensecrets: N00042237
+    google_entity_id: kg:/m/0jkx4bp
+    votesmart: 177282
+    icpsr: 21925
   name:
     first: Lance
     last: Gooden
+    official_full: Lance Gooden
   bio:
     gender: M
     birthday: '1982-12-01'
@@ -39765,16 +39507,20 @@
     phone: 202-225-3484
     address: 425 Cannon House Office Building; Washington DC 20515-4305
     office: 425 Cannon House Office Building
-    url: https://gooden.house.gov/
+    url: https://gooden.house.gov
 - id:
     bioguide: W000827
     fec:
     - H8TX06233
     govtrack: 412823
     wikipedia: Ron Wright (politician)
+    wikidata: Q60428775
+    opensecrets: N00042240
+    icpsr: 21984
   name:
     first: Ron
     last: Wright
+    official_full: Ron Wright
   bio:
     gender: M
     birthday: '1953-04-08'
@@ -39788,16 +39534,22 @@
     phone: 202-225-2002
     address: 428 Cannon House Office Building; Washington DC 20515-4306
     office: 428 Cannon House Office Building
-    url: https://wright.house.gov/
+    url: https://wright.house.gov
 - id:
     bioguide: F000468
     fec:
     - H8TX07140
     govtrack: 412824
     wikipedia: Lizzie Pannill Fletcher
+    wikidata: Q58324313
+    votesmart: 177031
+    opensecrets: N00041194
+    ballotpedia: Lizzie Pannill Fletcher
+    icpsr: 21919
   name:
     first: Lizzie
     last: Fletcher
+    official_full: Lizzie Fletcher
   bio:
     gender: F
     birthday: '1975-02-13'
@@ -39811,16 +39563,21 @@
     phone: 202-225-2571
     address: 1429 Longworth House Office Building; Washington DC 20515-4307
     office: 1429 Longworth House Office Building
-    url: https://fletcher.house.gov/
+    url: https://fletcher.house.gov
 - id:
     bioguide: E000299
     fec:
     - H8TX16109
     govtrack: 412825
     wikipedia: Veronica Escobar
+    wikidata: Q52274267
+    votesmart: 99345
+    opensecrets: N00041702
+    icpsr: 21917
   name:
     first: Veronica
     last: Escobar
+    official_full: Veronica Escobar
   bio:
     gender: F
     birthday: '1969-09-15'
@@ -39834,16 +39591,21 @@
     phone: 202-225-4831
     address: 1505 Longworth House Office Building; Washington DC 20515-4316
     office: 1505 Longworth House Office Building
-    url: https://escobar.house.gov/
+    url: https://escobar.house.gov
 - id:
     bioguide: R000614
     fec:
     - H8TX21307
     govtrack: 412826
     wikipedia: Chip Roy
+    wikidata: Q58333615
+    opensecrets: N00042268
+    votesmart: 177319
+    icpsr: 21961
   name:
     first: Chip
     last: Roy
+    official_full: Chip Roy
   bio:
     gender: M
     birthday: '1972-08-07'
@@ -39857,17 +39619,23 @@
     phone: 202-225-4236
     address: 1319 Longworth House Office Building; Washington DC 20515-4321
     office: 1319 Longworth House Office Building
-    url: https://roy.house.gov/
+    url: https://roy.house.gov
 - id:
     bioguide: G000587
     fec:
     - H8TX29052
     govtrack: 412827
     wikipedia: Sylvia Garcia
+    wikidata: Q13562489
+    opensecrets: N00042282
+    google_entity_id: kg:/m/0ryt4bt
+    votesmart: 49734
+    icpsr: 21922
   name:
     first: Sylvia
     middle: R.
     last: Garcia
+    official_full: Sylvia R. Garcia
   bio:
     gender: F
     birthday: '1950-09-06'
@@ -39881,17 +39649,22 @@
     phone: 202-225-1688
     address: 1620 Longworth House Office Building; Washington DC 20515-4329
     office: 1620 Longworth House Office Building
-    url: https://sylviagarcia.house.gov/
+    url: https://sylviagarcia.house.gov
 - id:
     bioguide: A000376
     fec:
     - H8TX32098
     govtrack: 412828
+    opensecrets: N00040989
     wikipedia: Colin Allred
+    wikidata: Q5144845
+    votesmart: 177357
+    icpsr: 21900
   name:
     first: Colin
     middle: Z.
     last: Allred
+    official_full: Colin Z. Allred
   bio:
     gender: M
     birthday: '1983-04-15'
@@ -39905,16 +39678,22 @@
     phone: 202-225-2231
     address: 328 Cannon House Office Building; Washington DC 20515-4332
     office: 328 Cannon House Office Building
-    url: https://allred.house.gov/
+    url: https://allred.house.gov
 - id:
     bioguide: M001209
     fec:
     - H8UT04053
     govtrack: 412829
     wikipedia: Ben McAdams
+    wikidata: Q4886138
+    opensecrets: N00042013
+    google_entity_id: kg:/m/0bbv3kw
+    votesmart: 117512
+    icpsr: 21943
   name:
     first: Ben
     last: McAdams
+    official_full: Ben McAdams
   bio:
     gender: M
     birthday: '1974-12-05'
@@ -39928,17 +39707,23 @@
     phone: 202-225-3011
     address: 130 Cannon House Office Building; Washington DC 20515-4404
     office: 130 Cannon House Office Building
-    url: https://mcadams.house.gov/
+    url: https://mcadams.house.gov
 - id:
     bioguide: L000591
     fec:
     - H8VA02111
     govtrack: 412830
     wikipedia: Elaine Luria
+    wikidata: Q58323073
+    votesmart: 179677
+    opensecrets: N00042293
+    ballotpedia: Elaine Luria
+    icpsr: 21941
   name:
     first: Elaine
     middle: G.
     last: Luria
+    official_full: Elaine G. Luria
   bio:
     gender: F
     birthday: '1975-08-15'
@@ -39952,16 +39737,21 @@
     phone: 202-225-4215
     address: 534 Cannon House Office Building; Washington DC 20515-4602
     office: 534 Cannon House Office Building
-    url: https://luria.house.gov/
+    url: https://luria.house.gov
 - id:
     bioguide: R000611
     fec:
     - H8VA05171
     govtrack: 412831
     wikipedia: Denver Riggleman
+    wikidata: Q28086149
+    opensecrets: N00043541
+    votesmart: 181445
+    icpsr: 21957
   name:
     first: Denver
     last: Riggleman
+    official_full: Denver Riggleman
   bio:
     gender: M
     birthday: '1970-03-01'
@@ -39975,16 +39765,22 @@
     phone: 202-225-4711
     address: 1022 Longworth House Office Building; Washington DC 20515-4605
     office: 1022 Longworth House Office Building
-    url: https://riggleman.house.gov/
+    url: https://riggleman.house.gov
 - id:
     bioguide: C001118
     fec:
     - H8VA06104
     govtrack: 412832
+    opensecrets: N00042296
     wikipedia: Ben Cline
+    wikidata: Q4885439
+    google_entity_id: kg:/m/04yf6mk
+    votesmart: 50959
+    icpsr: 21908
   name:
     first: Ben
     last: Cline
+    official_full: Ben Cline
   bio:
     gender: M
     birthday: '1972-02-29'
@@ -39998,17 +39794,22 @@
     phone: 202-225-5431
     address: 1009 Longworth House Office Building; Washington DC 20515-4606
     office: 1009 Longworth House Office Building
-    url: https://cline.house.gov/
+    url: https://cline.house.gov
 - id:
     bioguide: S001209
     fec:
     - H8VA07094
     govtrack: 412833
     wikipedia: Abigail Spanberger
+    wikidata: Q55603085
+    opensecrets: N00041418
+    votesmart: 179682
+    icpsr: 21966
   name:
     first: Abigail
     middle: Davis
     last: Spanberger
+    official_full: Abigail Davis Spanberger
   bio:
     gender: F
     birthday: '1979-08-07'
@@ -40022,16 +39823,22 @@
     phone: 202-225-2815
     address: 1239 Longworth House Office Building; Washington DC 20515-4607
     office: 1239 Longworth House Office Building
-    url: https://spanberger.house.gov/
+    url: https://spanberger.house.gov
 - id:
     bioguide: W000825
     fec:
     - H8VA10106
     govtrack: 412834
     wikipedia: Jennifer Wexton
+    wikidata: Q16206735
+    opensecrets: N00041002
+    google_entity_id: kg:/m/0_flt0x
+    votesmart: 147013
+    icpsr: 21983
   name:
     first: Jennifer
     last: Wexton
+    official_full: Jennifer Wexton
   bio:
     gender: F
     birthday: '1968-05-27'
@@ -40045,16 +39852,21 @@
     phone: 202-225-5136
     address: 1217 Longworth House Office Building; Washington DC 20515-4610
     office: 1217 Longworth House Office Building
-    url: https://wexton.house.gov/
+    url: https://wexton.house.gov
 - id:
     bioguide: S001216
     fec:
     - H8WA08189
     govtrack: 412835
     wikipedia: Kim Schrier
+    wikidata: Q58333616
+    opensecrets: N00041606
+    votesmart: 181124
+    icpsr: 21962
   name:
     first: Kim
     last: Schrier
+    official_full: Kim Schrier
   bio:
     gender: F
     birthday: '1968-08-23'
@@ -40068,16 +39880,20 @@
     phone: 202-225-7761
     address: 1123 Longworth House Office Building; Washington DC 20515-4708
     office: 1123 Longworth House Office Building
-    url: https://schrier.house.gov/
+    url: https://schrier.house.gov
 - id:
     bioguide: S001213
     fec:
     - H8WI01156
     govtrack: 412836
     wikipedia: Bryan Steil
+    wikidata: Q58494431
+    opensecrets: N00043379
+    icpsr: 21970
   name:
     first: Bryan
     last: Steil
+    official_full: Bryan Steil
   bio:
     gender: M
     birthday: '1981-03-30'
@@ -40091,17 +39907,23 @@
     phone: 202-225-3031
     address: 1408 Longworth House Office Building; Washington DC 20515-4901
     office: 1408 Longworth House Office Building
-    url: https://steil.house.gov/
+    url: https://steil.house.gov
 - id:
     bioguide: M001205
     fec:
     - H8WV03097
     govtrack: 412837
     wikipedia: Carol Miller (politician)
+    wikidata: Q16145531
+    opensecrets: N00041542
+    google_entity_id: kg:/m/0102fnyn
+    votesmart: 52123
+    icpsr: 21946
   name:
     first: Carol
     middle: D.
     last: Miller
+    official_full: Carol D. Miller
   bio:
     gender: F
     birthday: '1950-11-04'
@@ -40115,38 +39937,53 @@
     phone: 202-225-3452
     address: 1605 Longworth House Office Building; Washington DC 20515-4803
     office: 1605 Longworth House Office Building
-    url: https://miller.house.gov/
+    url: https://miller.house.gov
 - id:
     bioguide: S001217
+    lis: S404
     fec:
     - S8FL00273
     govtrack: 412838
+    opensecrets: N00043290
     wikipedia: Rick Scott
     wikidata: Q439729
     ballotpedia: Rick Scott
+    google_entity_id: kg:/m/0btx2g
+    votesmart: 124204
+    icpsr: 41903
   name:
     first: Rick
     last: Scott
+    official_full: Rick Scott
   bio:
     gender: M
     birthday: '1952-12-01'
   terms:
   - type: sen
-    start: '2019-01-03'
+    start: '2019-01-08'
     end: '2025-01-03'
     state: FL
     class: 1
     party: Republican
     state_rank: junior
+    url: https://www.rickscott.senate.gov
+    address: 716 Hart Senate Office Building Washington DC 20510
+    office: 716 Hart Senate Office Building
+    phone: 202-224-5274
+    contact_form: https://www.rickscott.senate.gov/contact_rick
 - id:
     bioguide: B001310
     fec:
     - S8IN00171
     govtrack: 412839
+    opensecrets: N00041731
     wikipedia: Mike Braun
     wikidata: Q42804470
     ballotpedia: Mike Braun
     lis: S397
+    google_entity_id: kg:/g/11f2ckdwty
+    votesmart: 148564
+    icpsr: 41900
   name:
     first: Mike
     last: Braun
@@ -40163,18 +40000,23 @@
     party: Republican
     state_rank: junior
     url: https://www.braun.senate.gov
-    address: B85 Russell Senate Office Building Washington DC 20510
-    office: B85 Russell Senate Office Building
+    address: 374 Russell Senate Office Building Washington DC 20510
+    office: 374 Russell Senate Office Building
     phone: 202-224-4814
+    contact_form: http://www.braun.senate.gov/contact-mike
 - id:
     bioguide: H001089
     fec:
     - S8MO00160
     govtrack: 412840
+    opensecrets: N00041620
     wikipedia: Josh Hawley
     wikidata: Q23020745
     ballotpedia: Josh Hawley
     lis: S399
+    google_entity_id: kg:/g/11bwy_95zy
+    votesmart: 169716
+    icpsr: 41901
   name:
     first: Joshua
     last: Hawley
@@ -40191,18 +40033,24 @@
     party: Republican
     state_rank: junior
     url: https://www.hawley.senate.gov
-    address: B40A Dirksen Senate Office Building Washington DC 20510
-    office: B40a Dirksen Senate Office Building
+    address: 212 Russell Senate Office Building Washington DC 20510
+    office: 212 Russell Senate Office Building
     phone: 202-224-6154
+    contact_form: https://www.hawley.senate.gov/contact-senator-hawley
 - id:
     bioguide: R000615
     fec:
+    - S8UT00176
     - S4MA00143
     govtrack: 412841
-    wikipedia: MItt Romney
+    opensecrets: N00000286
+    wikipedia: Mitt Romney
     wikidata: Q4496
     ballotpedia: Mitt Romney
     lis: S401
+    google_entity_id: kg:/m/0271_s
+    votesmart: 21942
+    icpsr: 41902
   name:
     first: Mitt
     last: Romney
@@ -40219,9 +40067,10 @@
     party: Republican
     state_rank: junior
     url: https://www.romney.senate.gov
-    address: B33 Russell Senate Office Building Washington DC 20510
-    office: B33 Russell Senate Office Building
+    address: 124 Russell Senate Office Building Washington DC 20510
+    office: 124 Russell Senate Office Building
     phone: 202-224-5251
+    contact_form: https://www.romney.senate.gov/contact-senator-romney
 - id:
     bioguide: M001197
     fec:
@@ -40277,19 +40126,25 @@
     party: Republican
     state_rank: junior
     url: https://www.mcsally.senate.gov
-    address: B40D Dirksen Senate Office Building Washington DC 20510
-    office: B40d Dirksen Senate Office Building
+    address: 404 Russell Senate Office Building Washington DC 20510
+    office: 404 Russell Senate Office Building
     phone: 202-224-2235
+    contact_form: https://www.mcsally.senate.gov/contact_martha
 - id:
     bioguide: G000592
     fec:
     - H8ME02185
     govtrack: 412842
     wikipedia: Jared Golden
+    wikidata: Q41694157
+    opensecrets: N00041668
+    votesmart: 151420
+    icpsr: 21923
   name:
     first: Jared
     middle: Forrest
     last: Golden
+    official_full: Jared F. Golden
   bio:
     gender: M
     birthday: '1982-07-25'
@@ -40304,3 +40159,120 @@
     office: 1223 Longworth House Office Building
     phone: 202-225-6306
     url: https://golden.house.gov
+- id:
+    bioguide: K000395
+    fec:
+    - H0PA12181
+    govtrack: 412843
+    wikipedia: Fred Keller (politician)
+    wikidata: Q5495642
+    opensecrets: N00044065
+    votesmart: 119553
+    icpsr: 21985
+  name:
+    first: Fred
+    last: Keller
+    official_full: Fred Keller
+  bio:
+    gender: M
+    birthday: '1965-10-23'
+  terms:
+  - type: rep
+    start: '2019-06-03'
+    end: '2021-01-03'
+    state: PA
+    district: 12
+    party: Republican
+    url: https://keller.house.gov
+    address: 1717 Longworth House Office Building; Washington DC 20515-3812
+    office: 1717 Longworth House Office Building
+    phone: 202-225-3731
+- id:
+    bioguide: B001311
+    fec:
+    - H0NC09187
+    govtrack: 412844
+    opensecrets: N00044335
+    wikipedia: Dan Bishop
+    wikidata: Q20090301
+    ballotpedia: Dan Bishop
+    icpsr: 21986
+  name:
+    first: Dan
+    last: Bishop
+    official_full: Dan Bishop
+  bio:
+    gender: M
+    birthday: '1964-07-01'
+  terms:
+  - type: rep
+    start: '2019-09-17'
+    end: '2021-01-03'
+    state: NC
+    district: 9
+    party: Republican
+    url: https://danbishop.house.gov/
+    contact_form: https://danbishop.house.gov/contact/email
+    address: 132 Cannon House Office Building; Washington DC 20515-3309
+    office: 132 Cannon House Office Building
+    phone: 202-225-1976
+- id:
+    bioguide: M001210
+    fec:
+    - H0NC03172
+    govtrack: 412845
+    opensecrets: N00044027
+    wikipedia: Greg Murphy (politician)
+    wikidata: Q23074266
+    ballotpedia: Gregory Murphy
+    icpsr: 21987
+  name:
+    first: Gregory
+    middle: Francis
+    last: Murphy
+    official_full: Gregory F. Murphy
+  bio:
+    gender: M
+    birthday: '1963-03-05'
+  terms:
+  - type: rep
+    start: '2019-09-17'
+    end: '2021-01-03'
+    state: NC
+    district: 3
+    party: Republican
+    url: https://gregmurphy.house.gov/
+    contact_form: https://gregmurphy.house.gov/contact/email
+    address: 2333 Rayburn House Office Building; Washington DC 20515-3303
+    office: 2333 Rayburn House Office Building
+    phone: 202-225-3415
+- id:
+    bioguide: L000594
+    lis: S405
+    fec:
+    - S0GA00526
+    govtrack: 456790
+    wikipedia: Kelly Loeffler
+    wikidata: Q76570207
+    ballotpedia: Kelly Loeffler
+  name:
+    first: Kelly
+    last: Loeffler
+    official_full: Kelly Loeffler
+  bio:
+    gender: F
+    birthday: '1970-11-27'
+  terms:
+  - type: sen
+    start: '2020-01-06'
+    end: '2020-11-03'
+    how: appointment
+    end-type: special-election
+    state: GA
+    class: 3
+    party: Republican
+    state_rank: junior
+    url: https://www.senate.gov/senators/116thCongress/LoefflerKelly.htm
+    address: 131 Russell Senate Office Building Washington DC 20510
+    office: 131 Russell Senate Office Building
+    phone: 202-224-3643

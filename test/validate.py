@@ -61,7 +61,6 @@ name_keys = { "first", "middle", "nickname", "last", "suffix", "official_full" }
 
 # bio keys
 bio_keys = { "gender", "birthday" }
-old_allowed_other_bio_keys = { "religion" }
 
 # get today as a date instance
 def now():
@@ -198,7 +197,7 @@ def check_name(name, context, is_other_names=False):
 
 def check_bio(bio, is_current_legislator, context):
   for key, value in bio.items():
-    if key not in (bio_keys | old_allowed_other_bio_keys):
+    if key not in bio_keys:
       error(context, "%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
       error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
@@ -280,9 +279,9 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
     if term.get("party") not in ("Republican", "Democrat", "Independent"):
       error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
 
-    # Check caucus of Independent members.
+    # Check caucus of Independent members -- it's optional, so warn.
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      error(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " is invalid when party is Independent.")
+      print(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " when party is Independent.")
 
     # Check website -- it's optional, so warn.
     if not term.get("url"):
