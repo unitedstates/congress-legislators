@@ -222,9 +222,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
     if end < start:
       error(context, "Term has end before start.")
 
-    # TODO: Remove 'and end > "2000-"'. I'm just adding it because
-    # lots of historical data fails this test.
-    if prev_term and end > date(2000,1,1):
+    if prev_term:
       prev_end = check_date(prev_term.get("end"), context)
       if prev_end:
         if start < prev_end:
@@ -234,6 +232,40 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
       error(context, "Term has an end date in the future but is a past term.")
     if current and (end < now):
       error(context, "Term has an end date in the past but is a most recent term in the current file.")
+
+    # Get the congress number of the start and end dates of the term.
+    congress_start = utils.get_congress_from_date(utils.parse_date(term["start"]), "start")
+    congress_end = utils.get_congress_from_date(utils.parse_date(term["end"]), "end")
+    if congress_start is None:
+      raise ValueError("Invalid date:" + term["start"])
+    if congress_end is None:
+      raise ValueError("Invalid date:" + term["end"])
+
+    # Check that the date range makes sense.
+    if term["type"] == "sen":
+      # Senate terms can't span more than 3 congresses.
+      if congress_end - congress_start > 2:
+        error(context, "Term date range is too long: {} to {}".format(term["start"], term["end"]))
+      elif term.get("class") in (1, 2, 3): # don't crash if missing, is checked below
+        # Sanity-check that the term doesn't cross a year where the senators from that class
+        # would face election. Class 1 senators face election after Congress numbers 1, 4, ...
+        # Class 2 senators after Congress numbers 2, 5, ... And Class 3 after Congress numbers
+        # 3, 6, ... A term cannot include an ending Congress number and the subsequent Congress.
+        for c in range(congress_start, congress_end):
+          # Congresses 'c' and 'c+1' are in the range. If 'c' is an ending Congress for this
+          # term's class, it's an error.
+          if ((c - 1789) % 3) == (term["class"] - 1):
+            error(context, "Term date range doesn't match senate class: {} to {}".format(term["start"], term["end"]))
+
+    elif term["type"] == "rep" and term["state"] == "PR":
+      # Puerto Rico's resident commissioners' terms can't span more than 2 congresses.
+      if congress_end - congress_start > 1:
+        error(context, "Term date range is too long for: {} to {}".format(term["start"], term["end"]))
+
+    elif term["type"] == "rep":
+      # House terms can't span more than 1 congress.
+      if congress_end - congress_start > 0:
+        error(context, "Term date range is too long: {} to {}".format(term["start"], term["end"]))
 
   # Check how.
   if term.get("how") not in (None, "appointment",):

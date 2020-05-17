@@ -70,7 +70,7 @@ import os, errno, sys, traceback
 import re, html.entities
 import pprint
 import rtyaml
-from datetime import datetime
+from datetime import datetime, date
 import time
 import json
 
@@ -115,7 +115,10 @@ def legislative_year(date=None):
     return date.year
 
 def congress_start_end_dates(congress):
-  from datetime import date
+  # Get the start date and end date of the given Congress (i.g. 1 for the 1st Congress).
+  # Sadly, the date of the end of one Congress is identical with the date of the start
+  # of the next because the switchover time is at noon (at least since 1935).
+  # Also see get_congress_from_date.
   start_year = 1789 + (congress-1)*2
   end_year = start_year + 2
   if congress < 73:
@@ -139,9 +142,58 @@ def congress_start_end_dates(congress):
     return (date(start_year, 3, 4), date(end_year, 1, 3))
   else:
     # Starting with the 74th Congress, Congresses begin and end on January
-    # 3rds at noon. So, sadly, the date of the end of one Congress is
-    # identical with the date of the start of the next.
+    # 3rds at noon.
     return (date(start_year, 1, 3), date(end_year, 1, 3))
+
+def get_congress_from_date(d, range_type=None):
+  # This is the inverse of congress_start_end_dates.
+  #
+  # Return the Congress number that the date 'd' occurs in by first computing
+  # the 'legislative year' it occurs in, and then using some simple arithmetic
+  # counting back to 1789 (the first legislative year) and dividing by two
+  # (since Congresses are two years).
+  #
+  # Since Congresses start and end on the same date at noon (at least since
+  # 1935, but we treat it similarly for prior years), those dates are ambiguous.
+  # The caller passes range_type='start' to exclude the possibility that
+  # if the date is on a transition date that it is in the subsequent Congress,
+  # and vice versa for range_type='end'.
+  if (d.year % 2) == 0:
+    # Even years occur entirely within a Congress.
+    y = d.year
+  else:
+    # In odd-numbered years, the period before the transition date, and if
+    # range_type == 'end' the transition date itself, is assigned to the
+    # previous legislative year
+
+    # Get the transition date of this year.
+    if d.year < 1935:
+      # Through 1933, the transition date was March 4. Although most
+      # Congresses adjourned on March 3 or earlier probably to not
+      # have to deal with the question of what time the first session
+      # began.
+      td = date(d.year, 3, 4)
+    else:
+      # Since 1935, the transition date is Jan 3.
+      td = date(d.year, 1, 3)
+
+    # Check if d is before, after, or on the transition date.
+    if d < td:
+      y = d.year - 1
+    elif d > td:
+      y = d.year
+    else:
+      if range_type == "end":
+      	# Assign this date to the previous Congress.
+        y = d.year - 1
+      elif range_type == "start":
+      	# Assign this date to the next Congress.
+        y = d.year
+      else:
+        raise ValueError("Date {} is ambiguous; must pass range_type='start' or 'end'.".format(d))
+
+  # Now do some simple integer math to compute the Congress number.
+  return ((y + 1) // 2) - 894
 
 def parse_date(date):
   return datetime.strptime(date, "%Y-%m-%d").date()
