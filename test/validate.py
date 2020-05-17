@@ -222,9 +222,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
     if end < start:
       error(context, "Term has end before start.")
 
-    # TODO: Remove 'and end > "2000-"'. I'm just adding it because
-    # lots of historical data fails this test.
-    if prev_term and end > date(2000,1,1):
+    if prev_term:
       prev_end = check_date(prev_term.get("end"), context)
       if prev_end:
         if start < prev_end:
@@ -248,7 +246,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
       # Senate terms can't span more than 3 congresses.
       if congress_end - congress_start > 2:
         error(context, "Term date range is too long: {} to {}".format(term["start"], term["end"]))
-      else:
+      elif term.get("class") in (1, 2, 3): # don't crash if missing, is checked below
         # Sanity-check that the term doesn't cross a year where the senators from that class
         # would face election. Class 1 senators face election after Congress numbers 1, 4, ...
         # Class 2 senators after Congress numbers 2, 5, ... And Class 3 after Congress numbers
