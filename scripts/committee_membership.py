@@ -181,7 +181,10 @@ def run():
     # scan for subcommittees
     for subcom in dom.cssselect("#subcom_list li a"):
       m = re.search("subcomcode=(..(\d\d))", subcom.get('href'))
-      if not m: raise ValueError("Failed to parse subcommittee link.")
+      if not m:
+        print("Failed to parse subcommittee link {} on {}.".format(
+          subcom.get('href'), url))
+        continue
 
       for sx in cx['subcommittees']:
         if sx["thomas_id"] == m.group(2):
