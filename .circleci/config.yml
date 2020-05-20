@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.5-browsers
+      - image: circleci/python:3.8
     steps:
       # Set up.
       - checkout
@@ -19,7 +19,7 @@ jobs:
   # on the repo, which is not CircleCI's default.
   deploy:
     docker:
-      - image: circleci/python:3.5-browsers
+      - image: circleci/python:3.8
     steps:
       - checkout
       - run: sudo pip install -r scripts/requirements.txt
