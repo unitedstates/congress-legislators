@@ -49753,5 +49753,74 @@
         "phone": "202-225-4741"
       }
     ]
+  },
+  {
+    "id": {
+      "bioguide": "T000165",
+      "fec": [
+        "H0WI07101"
+      ],
+      "govtrack": 456791,
+      "opensecrets": "N00045307",
+      "wikipedia": "Tom Tiffany",
+      "wikidata": "Q7817838",
+      "ballotpedia": "Tom Tiffany"
+    },
+    "name": {
+      "first": "Thomas",
+      "middle": "P.",
+      "last": "Tiffany"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1957-12-30"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2020-05-19",
+        "end": "2021-01-03",
+        "state": "WI",
+        "district": 7,
+        "party": "Republican",
+        "address": "1714 Longworth House Office Building; Washington DC 20515-4907",
+        "office": "1714 Longworth House Office Building",
+        "phone": "202-225-3365"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "G000061",
+      "fec": [
+        "H0CA25105"
+      ],
+      "govtrack": 456792,
+      "opensecrets": "N00044298",
+      "wikipedia": "Mike Garcia (politician)",
+      "wikidata": "Q94236068",
+      "ballotpedia": "Mike Garcia"
+    },
+    "name": {
+      "first": "Mike",
+      "last": "Garcia"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1976-04-24"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2020-05-19",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 25,
+        "party": "Republican",
+        "address": "1130 Longworth House Office Building; Washington DC 20515-0525",
+        "office": "1130 Longworth House Office Building",
+        "phone": "202-225-1956"
+      }
+    ]
   }
 ]
