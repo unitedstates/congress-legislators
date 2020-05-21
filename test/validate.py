@@ -308,7 +308,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
       current_mocs.add(office)
 
     # Check party of current members (historical is too difficult).
-    if term.get("party") not in ("Republican", "Democrat", "Independent"):
+    if term.get("party") not in ("Republican", "Democrat", "Independent", "Libertarian"):
       error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
 
     # Check caucus of Independent members -- it's optional, so warn.
