@@ -13264,23 +13264,24 @@ SLIA:
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/senate-resolution/13/text
 SLIN:
-- name: Richard Burr
+- name: Marco Rubio
   party: majority
   rank: 1
+  bioguide: R000595
+  start_date: '2019-01-09'
+  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
+  title: Chairman
+- name: Richard Burr
+  party: majority
+  rank: 2
   title: Chairman
   bioguide: B001135
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: James E. Risch
   party: majority
-  rank: 2
-  bioguide: R000584
-  start_date: '2019-01-09'
-  source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
-- name: Marco Rubio
-  party: majority
   rank: 3
-  bioguide: R000595
+  bioguide: R000584
   start_date: '2019-01-09'
   source: https://www.congress.gov/bill/116th-congress/senate-resolution/12/text
 - name: Susan M. Collins
