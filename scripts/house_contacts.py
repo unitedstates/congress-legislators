@@ -70,7 +70,7 @@ def run():
 		office_zip_suffix = mi.find('office-zip-suffix').text
 
 		office = "{} {}".format(office_room, office_building_full)
-		address = "{} {}; Washington DC {}-{}".format(office_room, office_building_full, office_zip, office_zip_suffix)
+		address = "{} {} Washington DC {}-{}".format(office_room, office_building_full, office_zip, office_zip_suffix)
 
 		phone = mi.find('phone').text
 		phone_parsed = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
