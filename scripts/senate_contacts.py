@@ -155,7 +155,7 @@ def run():
 				member = by_name[member_full]
 			else:
 				print("Bioguide ID '%s' and synthesized official name '%s' not recognized." % (bioguide_id, member_full))
-				exit(0)
+				continue # exit(0)
 
 		try:
 			term = member["terms"][-1]
