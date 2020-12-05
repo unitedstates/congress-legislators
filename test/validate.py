@@ -268,7 +268,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
         error(context, "Term date range is too long: {} to {}".format(term["start"], term["end"]))
 
   # Check how.
-  if term.get("how") not in (None, "appointment",):
+  if term.get("how") not in (None, "appointment", "special-election"):
     error(context, "Term has invalid 'how'.")
 
   # Check end-type.
