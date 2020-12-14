@@ -35499,7 +35499,14 @@
     end: '2021-01-03'
     state: MI
     district: 10
-    party: Republican
+    party: Independent
+    party_affiliations:
+    - start: '2019-01-03'
+      end: '2020-12-13'
+      party: Republican
+    - start: '2020-12-14'
+      end: '2021-01-03'
+      party: Independent
     phone: 202-225-2106
     address: 211 Cannon House Office Building Washington DC 20515-2210
     office: 211 Cannon House Office Building
