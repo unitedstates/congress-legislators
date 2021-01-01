@@ -127,7 +127,7 @@ def check_leadership_roles(roles, current, context):
     # All of these fields must be strings.
     for key, value in role.items():
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     # Check required fields.
     if "title" not in role:
@@ -151,11 +151,11 @@ def check_id_types(legislator, seen_ids, is_legislator, context):
   for key, value in legislator["id"].items():
     # Check that the id key is one we know about.
     if key not in id_types:
-      error(context, rtyaml.dump({ key: value }) + " is not a valid id.")
+      error(context, rtyaml.dump({ key: value }).strip() + " is not a valid id.")
 
     # Check that the data type is correct.
     elif not isinstance(value, id_types[key]):
-      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     else:
       # Check that the ID isn't duplicated across legislators.
@@ -177,7 +177,7 @@ def check_name(name, context, is_other_names=False):
   for key, value in name.items():
     if key in ("start", "end") and is_other_names:
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
       continue
     elif key not in name_keys:
       error(context, "%s is not a valid key in name." % key)
@@ -186,12 +186,12 @@ def check_name(name, context, is_other_names=False):
     if key in ("first", "last"):
       # These are required.
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
     else:
       # These can be set explicitly to None, but maybe we should just remove
       # those keys then.
       if not isinstance(value, (str, type(None))):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     if isinstance(value, str) and value != value.strip():
       error(context, rtyaml.dump({ key: value }).strip() + " has leading or trailing spaces.")
@@ -206,7 +206,7 @@ def check_bio(bio, is_current_legislator, context):
     if key not in bio_keys:
       error(context, "%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
-      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
   if is_current_legislator:
     # These keys are required only for current legislators.
     # We don't always have the information for historical members of Congress or presidents.
@@ -315,11 +315,11 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
 
     # Check party of current members (historical is too difficult).
     if term.get("party") not in ("Republican", "Democrat", "Independent", "Libertarian"):
-      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
 
     # Check caucus of Independent members -- it's optional, so warn.
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      print(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " when party is Independent.")
+      print(context, rtyaml.dump({ "caucus": term.get("caucus") }).strip() + " when party is Independent.")
 
     # Check website -- it's optional, so warn.
     if not term.get("url"):
@@ -402,7 +402,7 @@ def check_executive_term(term, context):
   if end.year > 2000:
     # Check party of current members (historical is too difficult and even recent ones incorrectly have Democratic instead of Democrat, which is inconsistent with the legislators files).
     if term.get("party") not in ("Republican", "Democrat"):
-      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
 
 
 def check_date(d, context):
