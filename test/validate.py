@@ -30,7 +30,7 @@ state_apportionment = {
   }
 
 # id types that must be present on every legislator record
-id_required = ['bioguide', 'govtrack']
+id_required = ['govtrack']
 
 # data types expected for each sort of ID
 id_types = {
@@ -88,7 +88,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
       check_id_types(legislator, seen_ids, True, context)
 
     # Create a string for error messages to tell us where problems are ocurring.
-    context = "{}:{}".format(fn, legislator['id']['bioguide'])
+    context = "{}:{}".format(fn, legislator['id']['govtrack'])
 
     # Check the name.
     if "name" not in legislator:
@@ -234,8 +234,8 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
         if start < prev_end:
           error(context, "Term has start before previous term's end.")
 
-    if not current and (end > now):
-      error(context, "Term has an end date in the future but is a past term.")
+    #if not current and (end > now):
+    #  error(context, "Term has an end date in the future but is a past term.")
     if current and (end < now):
       error(context, "Term has an end date in the past but is a most recent term in the current file.")
 
@@ -323,7 +323,7 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
 
     # Check website -- it's optional, so warn.
     if not term.get("url"):
-      print(context, "Term is missing a website url.")
+      pass # print(context, "Term is missing a website url.")
 
     # TODO: Check party_affiliations and office information.
 
@@ -419,7 +419,7 @@ def check_id_uniqueness(seen_ids):
   for (id_type, id_value), occurrences in seen_ids.items():
     if len(occurrences) > 1:
       error("", "%s %s is duplicated: %s" % (id_type, id_value,
-        " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
+        " ".join(str(legislator['id']['govtrack']) for legislator in occurrences)))
 
 def check_district_offices():
     has_errors = validate_offices(skip_warnings=True)
@@ -436,7 +436,7 @@ if __name__ == "__main__":
   check_legislators_file("legislators-historical.yaml", seen_ids, current=False)
   check_executive_file("executive.yaml")
   check_id_uniqueness(seen_ids)
-  check_district_offices()
+  #check_district_offices()
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
