@@ -178,9 +178,12 @@ def check_name(name, context, is_other_names=False):
     if key in ("start", "end") and is_other_names:
       if not isinstance(value, str):
         error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+      continue
     elif key not in name_keys:
       error(context, "%s is not a valid key in name." % key)
-    elif key in ("first", "last"):
+      continue
+
+    if key in ("first", "last"):
       # These are required.
       if not isinstance(value, str):
         error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
@@ -189,6 +192,9 @@ def check_name(name, context, is_other_names=False):
       # those keys then.
       if not isinstance(value, (str, type(None))):
         error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+
+    if isinstance(value, str) and value != value.strip():
+      error(context, rtyaml.dump({ key: value }).strip() + " has leading or trailing spaces.")
 
   # If a person as a first initial only, they should also have a middle name.
   # (GovTrack relies on this to generate name strings.)
