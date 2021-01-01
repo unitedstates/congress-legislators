@@ -46,6 +46,46 @@ def get_ids_from_wikidata(legislators):
             p["id"].update(mapping[p["id"]["bioguide"]])
 
 
+def get_ids_from_wikidata_without_bioguide(legislators):
+    # The SQPARL server doesn't seem to suppor VALUES or FILTER(?subject IN (...))
+    # so in order to fill in values for legislators without bioguide IDs but with
+    # wikidata IDs, we can just query them one by one. This probably is only useful
+    # at the start of a new Congress when bioguide IDs are not yet available.
+    for p in legislators:
+        if not ("bioguide" not in p["id"] and "wikidata" in p["id"]): continue
+
+        table = run_query("""
+          PREFIX wd: <http://www.wikidata.org/entity/>
+          PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+          PREFIX schema: <http://schema.org/>
+
+          SELECT ?wikipedia ?google_entity_id ?opensecrets ?votesmart ?ballotpedia
+          WHERE {
+            OPTIONAL {
+                ?subject wdt:P2671 ?google_entity_id
+            }
+            OPTIONAL {
+                ?subject wdt:P2686 ?opensecrets
+            }
+            OPTIONAL {
+                ?subject wdt:P3344 ?votesmart
+            }
+            OPTIONAL {
+                ?subject wdt:P2390 ?ballotpedia
+            }
+            OPTIONAL {
+                ?wikipedia schema:about ?subject .
+                ?wikipedia schema:inLanguage "en" .
+                ?wikipedia schema:isPartOf <https://en.wikipedia.org/> .
+            }
+          }
+        """.replace("?subject", "wd:" + p["id"]["wikidata"]))
+
+    
+        print(table)
+        p["id"].update(table[0])
+
+
 def run_query(query):
     print(query)
     sparql_endpoint = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
@@ -93,6 +133,7 @@ def run():
   p1 = load_data("legislators-current.yaml")
   p2 = load_data("legislators-historical.yaml")
   get_ids_from_wikidata(p1+p2)
+  get_ids_from_wikidata_without_bioguide(p1+p2)
   save_data(p1, "legislators-current.yaml")
   save_data(p2, "legislators-historical.yaml")
 
