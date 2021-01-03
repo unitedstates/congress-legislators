@@ -30,7 +30,7 @@ state_apportionment = {
   }
 
 # id types that must be present on every legislator record
-id_required = ['bioguide', 'govtrack']
+id_required = ['govtrack']
 
 # data types expected for each sort of ID
 id_types = {
@@ -88,7 +88,7 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
       check_id_types(legislator, seen_ids, True, context)
 
     # Create a string for error messages to tell us where problems are ocurring.
-    context = "{}:{}".format(fn, legislator['id']['bioguide'])
+    context = "{}:{}".format(fn, legislator['id']['govtrack'])
 
     # Check the name.
     if "name" not in legislator:
@@ -127,7 +127,7 @@ def check_leadership_roles(roles, current, context):
     # All of these fields must be strings.
     for key, value in role.items():
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     # Check required fields.
     if "title" not in role:
@@ -151,11 +151,11 @@ def check_id_types(legislator, seen_ids, is_legislator, context):
   for key, value in legislator["id"].items():
     # Check that the id key is one we know about.
     if key not in id_types:
-      error(context, rtyaml.dump({ key: value }) + " is not a valid id.")
+      error(context, rtyaml.dump({ key: value }).strip() + " is not a valid id.")
 
     # Check that the data type is correct.
     elif not isinstance(value, id_types[key]):
-      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     else:
       # Check that the ID isn't duplicated across legislators.
@@ -177,18 +177,24 @@ def check_name(name, context, is_other_names=False):
   for key, value in name.items():
     if key in ("start", "end") and is_other_names:
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
+      continue
     elif key not in name_keys:
       error(context, "%s is not a valid key in name." % key)
-    elif key in ("first", "last"):
+      continue
+
+    if key in ("first", "last"):
       # These are required.
       if not isinstance(value, str):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
     else:
       # These can be set explicitly to None, but maybe we should just remove
       # those keys then.
       if not isinstance(value, (str, type(None))):
-        error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+        error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
+
+    if isinstance(value, str) and value != value.strip():
+      error(context, rtyaml.dump({ key: value }).strip() + " has leading or trailing spaces.")
 
   # If a person as a first initial only, they should also have a middle name.
   # (GovTrack relies on this to generate name strings.)
@@ -200,7 +206,7 @@ def check_bio(bio, is_current_legislator, context):
     if key not in bio_keys:
       error(context, "%s is not a valid key in bio." % key)
     elif not isinstance(value, str):
-      error(context, rtyaml.dump({ key: value }) + " has an invalid data type.")
+      error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
   if is_current_legislator:
     # These keys are required only for current legislators.
     # We don't always have the information for historical members of Congress or presidents.
@@ -228,8 +234,8 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
         if start < prev_end:
           error(context, "Term has start before previous term's end.")
 
-    if not current and (end > now):
-      error(context, "Term has an end date in the future but is a past term.")
+    #if not current and (end > now):
+    #  error(context, "Term has an end date in the future but is a past term.")
     if current and (end < now):
       error(context, "Term has an end date in the past but is a most recent term in the current file.")
 
@@ -309,15 +315,15 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
 
     # Check party of current members (historical is too difficult).
     if term.get("party") not in ("Republican", "Democrat", "Independent", "Libertarian"):
-      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
 
     # Check caucus of Independent members -- it's optional, so warn.
     if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      print(context, rtyaml.dump({ "caucus": term.get("caucus") }) + " when party is Independent.")
+      print(context, rtyaml.dump({ "caucus": term.get("caucus") }).strip() + " when party is Independent.")
 
     # Check website -- it's optional, so warn.
     if not term.get("url"):
-      print(context, "Term is missing a website url.")
+      pass # print(context, "Term is missing a website url.")
 
     # TODO: Check party_affiliations and office information.
 
@@ -396,7 +402,7 @@ def check_executive_term(term, context):
   if end.year > 2000:
     # Check party of current members (historical is too difficult and even recent ones incorrectly have Democratic instead of Democrat, which is inconsistent with the legislators files).
     if term.get("party") not in ("Republican", "Democrat"):
-      error(context, rtyaml.dump({ "party": term.get("party") }) + " is invalid.")
+      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
 
 
 def check_date(d, context):
@@ -413,7 +419,7 @@ def check_id_uniqueness(seen_ids):
   for (id_type, id_value), occurrences in seen_ids.items():
     if len(occurrences) > 1:
       error("", "%s %s is duplicated: %s" % (id_type, id_value,
-        " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
+        " ".join(str(legislator['id']['govtrack']) for legislator in occurrences)))
 
 def check_district_offices():
     has_errors = validate_offices(skip_warnings=True)
@@ -430,7 +436,7 @@ if __name__ == "__main__":
   check_legislators_file("legislators-historical.yaml", seen_ids, current=False)
   check_executive_file("executive.yaml")
   check_id_uniqueness(seen_ids)
-  check_district_offices()
+  #check_district_offices()
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
