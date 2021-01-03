@@ -31,8 +31,6 @@ def run():
 			print("Member's last listed term is not current", moc, term["start"])
 			continue
 
-		if "class" in term: del term["class"]
-
 		ssdd = "%s%02d" % (term["state"], term["district"])
 
 		query_str = "./members/member/[statedistrict='%s']" % ssdd
