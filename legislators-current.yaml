@@ -14078,6 +14078,7 @@
 - id:
     bioguide: L000570
     thomas: '01939'
+    lis: S409
     govtrack: 412293
     opensecrets: N00029562
     votesmart: 102842
@@ -34376,6 +34377,7 @@
     phone: 202-225-5315
 - id:
     bioguide: M001198
+    lis: S411
     govtrack: 412704
     wikipedia: Roger Marshall (politician)
     wikidata: Q27923290
@@ -39539,7 +39541,7 @@
   terms:
   - type: sen
     start: '2020-01-06'
-    end: '2021-01-05'
+    end: '2021-01-15'
     how: appointment
     end-type: special-election
     state: GA
