@@ -9569,43 +9569,6 @@
     fax: 716-806-1069
     phone: 716-379-8434
 - id:
-    bioguide: R000588
-    govtrack: 412432
-    thomas: '02023'
-  offices:
-  - id: R000588-baton_rouge
-    address: 1520 Thomas H Delpit Dr.
-    suite: Suite 126
-    city: Baton Rouge
-    state: LA
-    zip: '70802'
-    latitude: 30.4340407
-    longitude: -91.17866599999999
-    fax: 225-636-5680
-    hours: Mon-Fri 8:30am-5pm
-    phone: 225-636-5600
-  - id: R000588-gretna
-    address: 200 Derbigny St.
-    suite: Suite 3200
-    city: Gretna
-    state: LA
-    zip: '70053'
-    latitude: 29.9160227
-    longitude: -90.06773629999999
-    hours: Monday-Friday 8:30AM-5:00PM
-    phone: 504-365-0390
-  - id: R000588-new_orleans
-    address: 2021 Lakeshore Dr.
-    suite: Suite 309
-    city: New Orleans
-    state: LA
-    zip: '70122'
-    latitude: 30.0318171
-    longitude: -90.06439449999999
-    fax: 504-288-4090
-    hours: Monday-Friday 8:30AM-5:00PM
-    phone: 504-288-3777
-- id:
     bioguide: R000595
     govtrack: 412491
     thomas: '02084'
@@ -12936,62 +12899,6 @@
     longitude: -73.0138358
     fax: 631-289-1268
     phone: 631-289-1097
-- id:
-    bioguide: H001075
-    govtrack: 412678
-    thomas: ''
-  offices:
-  - id: H001075-sacramento
-    address: 501 I Street
-    suite: Suite 7-600
-    city: Sacramento
-    state: CA
-    zip: '95814'
-    latitude: 38.583455
-    longitude: -121.4987519
-    fax: 202-228-3865
-    hours: Monday - Friday, 8:30am - 5:30pm
-    phone: 916-448-2787
-  - id: H001075-fresno
-    address: 2500 Tulare Street
-    suite: Suite 5290
-    city: Fresno
-    state: CA
-    zip: '93721'
-    latitude: 36.7374775
-    longitude: -119.7836709
-    fax: 202-228-3864
-    phone: 559-497-5109
-  - id: H001075-los_angeles
-    address: 11845 W Olympic Blvd
-    suite: 1250W
-    city: Los Angeles
-    state: CA
-    zip: 90064-1149
-    latitude: 34.03309
-    longitude: -118.45041
-    fax: 202-224-0357
-    phone: 310-231-4494
-  - id: H001075-san_francisco
-    address: 333 Bush St
-    suite: Suite 3225
-    city: San Francisco
-    state: CA
-    zip: 94104-2806
-    latitude: 37.79078
-    longitude: -122.40308
-    fax: 202-224-0454
-    phone: 415-981-9369
-  - id: H001075-san_diego
-    address: 600 B Street
-    suite: Suite 2240
-    city: San Diego
-    state: CA
-    zip: '92101'
-    latitude: 32.7182014
-    longitude: -117.1587103
-    fax: 202-228-3863
-    phone: 619-239-3884
 - id:
     bioguide: Y000064
     thomas: '02019'
