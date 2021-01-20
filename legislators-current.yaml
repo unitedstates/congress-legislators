@@ -2130,6 +2130,7 @@
     google_entity_id: kg:/m/06y9p0
   name:
     first: James
+    middle: E.
     last: Risch
     official_full: James E. Risch
   bio:
@@ -2259,6 +2260,7 @@
     google_entity_id: kg:/m/024mm1
   name:
     first: Mark
+    middle: R.
     last: Warner
     official_full: Mark R. Warner
   bio:
@@ -2404,7 +2406,7 @@
     wikidata: Q923242
     google_entity_id: kg:/m/082d3d
   name:
-    first: Chris
+    first: Christopher
     middle: Andrew
     last: Coons
     official_full: Christopher A. Coons
@@ -6677,6 +6679,7 @@
   name:
     first: Michael
     middle: D.
+    nickname: Mike
     last: Crapo
     official_full: Mike Crapo
   bio:
@@ -8068,8 +8071,6 @@
     first: Michael
     middle: F.
     last: Doyle
-    suffix: Jr.
-    nickname: Mike
     official_full: Michael F. Doyle
   bio:
     birthday: '1953-08-05'
@@ -15656,7 +15657,8 @@
     google_entity_id: kg:/m/03dlf3
   name:
     first: Cathy
-    last: McMorris Rodgers
+    middle: McMorris
+    last: Rodgers
     official_full: Cathy McMorris Rodgers
   bio:
     birthday: '1969-05-22'
@@ -18190,8 +18192,8 @@
   name:
     first: Robert
     middle: J.
-    last: Portman
     nickname: Rob
+    last: Portman
     official_full: Rob Portman
   bio:
     birthday: '1955-12-19'
@@ -18661,7 +18663,6 @@
     first: Tom
     middle: W.
     last: Reed
-    suffix: II
     official_full: Tom Reed
   bio:
     birthday: '1971-11-18'
@@ -23445,7 +23446,6 @@
   name:
     first: Chris
     last: Van Hollen
-    suffix: Jr.
     official_full: Chris Van Hollen
   bio:
     birthday: '1959-01-10'
@@ -25161,9 +25161,9 @@
     lis: S391
   name:
     first: Todd
+    middle: C.
     last: Young
     official_full: Todd Young
-    middle: C.
   bio:
     birthday: '1972-08-24'
     gender: M
@@ -27542,7 +27542,9 @@
     google_entity_id: kg:/m/02hfx0
   name:
     first: Angus
+    middle: S.
     last: King
+    suffix: Jr.
     official_full: Angus S. King, Jr.
   bio:
     gender: M
@@ -28790,8 +28792,9 @@
     google_entity_id: kg:/m/0j_6b9d
   name:
     first: Matthew
-    last: Cartwright
     middle: A.
+    nickname: Matt
+    last: Cartwright
     official_full: Matt Cartwright
   bio:
     gender: M
@@ -29006,6 +29009,7 @@
     first: Randy
     last: Weber
     middle: K.
+    suffix: Sr.
     official_full: Randy K. Weber, Sr.
   bio:
     gender: M
@@ -29720,6 +29724,7 @@
     google_entity_id: kg:/m/0g8l32
   name:
     first: Robin
+    middle: L.
     last: Kelly
     official_full: Robin L. Kelly
   bio:
@@ -30112,6 +30117,7 @@
     icpsr: 21545
   name:
     first: Alma
+    middle: S.
     last: Adams
     official_full: Alma S. Adams
   bio:
@@ -30189,6 +30195,7 @@
     ballotpedia: Gary Palmer
   name:
     first: Gary
+    middle: J.
     last: Palmer
     official_full: Gary J. Palmer
   bio:
@@ -30261,7 +30268,8 @@
     icpsr: 21503
     ballotpedia: French Hill
   name:
-    first: French
+    first: J.
+    middle: French
     last: Hill
     official_full: J. Hill
   bio:
@@ -30653,6 +30661,7 @@
     ballotpedia: Norma Torres
   name:
     first: Norma
+    middle: J.
     last: Torres
     official_full: Norma J. Torres
   bio:
@@ -30783,7 +30792,9 @@
     icpsr: 21513
     ballotpedia: Earl "Buddy" Carter
   name:
-    first: Buddy
+    first: Earl
+    middle: L.
+    nickname: Buddy
     last: Carter
     official_full: Earl L. "Buddy" Carter
   bio:
@@ -30849,6 +30860,7 @@
     ballotpedia: Jody Hice
   name:
     first: Jody
+    middle: B.
     last: Hice
     official_full: Jody B. Hice
   bio:
@@ -30979,6 +30991,7 @@
     ballotpedia: Rick Allen
   name:
     first: Rick
+    middle: W.
     last: Allen
     official_full: Rick W. Allen
   bio:
@@ -31239,6 +31252,7 @@
     ballotpedia: John Moolenaar
   name:
     first: John
+    middle: R.
     last: Moolenaar
     official_full: John R. Moolenaar
   bio:
@@ -31371,6 +31385,7 @@
     ballotpedia: Brenda Lawrence (Michigan)
   name:
     first: Brenda
+    middle: L.
     last: Lawrence
     official_full: Brenda L. Lawrence
   bio:
@@ -31631,6 +31646,7 @@
     ballotpedia: Lee Zeldin
   name:
     first: Lee
+    middle: M.
     last: Zeldin
     official_full: Lee M. Zeldin
   bio:
@@ -31697,6 +31713,7 @@
     ballotpedia: Kathleen Rice
   name:
     first: Kathleen
+    middle: M.
     last: Rice
     official_full: Kathleen M. Rice
   bio:
@@ -31763,6 +31780,7 @@
     ballotpedia: Elise Stefanik
   name:
     first: Elise
+    middle: M.
     last: Stefanik
     official_full: Elise M. Stefanik
   bio:
@@ -31893,6 +31911,7 @@
     ballotpedia: Brendan Boyle
   name:
     first: Brendan
+    middle: F.
     last: Boyle
     official_full: Brendan F. Boyle
   bio:
@@ -32023,7 +32042,9 @@
     ballotpedia: Don Beyer
   name:
     first: Donald
+    middle: S.
     last: Beyer
+    suffix: Jr.
     official_full: Donald S. Beyer, Jr.
   bio:
     gender: M
@@ -32087,6 +32108,7 @@
     votesmart: 155929
   name:
     first: Stacey
+    middle: E.
     last: Plaskett
     official_full: Stacey E. Plaskett
   bio:
@@ -32281,7 +32303,8 @@
     votesmart: 145943
     ballotpedia: Alexander Mooney
   name:
-    first: Alex
+    first: Alexander
+    middle: X.
     last: Mooney
     official_full: Alexander Mooney
   bio:
@@ -32346,8 +32369,9 @@
     votesmart: 128380
     ballotpedia: Amata Radewagen
   name:
-    first: Aumua
-    last: Amata
+    first: Aumua Amata
+    last: Radewagen
+    middle: Coleman
     official_full: Aumua Amata Coleman Radewagen
   bio:
     gender: F
@@ -32615,6 +32639,7 @@
   name:
     first: Benjamin
     middle: Eric
+    nickname: Ben
     last: Sasse
     official_full: Ben Sasse
   bio:
@@ -33096,7 +33121,7 @@
   name:
     first: Bradley
     last: Schneider
-    middle: S.
+    middle: Scott
     official_full: Bradley Scott Schneider
     nickname: Brad
   bio:
@@ -33373,6 +33398,7 @@
     ballotpedia: Salud Carbajal
   name:
     first: Salud
+    middle: O.
     last: Carbajal
     official_full: Salud O. Carbajal
   bio:
@@ -33425,6 +33451,7 @@
     ballotpedia: Nanette Barragán
   name:
     first: Nanette
+    middle: Diaz
     last: Barragán
     official_full: Nanette Diaz Barragán
   bio:
@@ -33634,6 +33661,7 @@
     ballotpedia: Neal Dunn
   name:
     first: Neal
+    middle: P.
     last: Dunn
     official_full: Neal P. Dunn
   bio:
@@ -33686,6 +33714,7 @@
     ballotpedia: John Rutherford (Florida)
   name:
     first: John
+    middle: H.
     last: Rutherford
     official_full: John H. Rutherford
   bio:
@@ -33739,6 +33768,7 @@
   name:
     first: Al
     last: Lawson
+    suffix: Jr.
     official_full: Al Lawson, Jr.
   bio:
     gender: M
@@ -33790,6 +33820,7 @@
     ballotpedia: Stephanie Murphy
   name:
     first: Stephanie
+    middle: N.
     last: Murphy
     official_full: Stephanie N. Murphy
   bio:
@@ -33894,6 +33925,7 @@
     ballotpedia: Val Demings
   name:
     first: Val
+    middle: Butler
     last: Demings
     official_full: Val Butler Demings
   bio:
@@ -33998,6 +34030,7 @@
     icpsr: 21735
   name:
     first: Brian
+    middle: J.
     last: Mast
     official_full: Brian J. Mast
   bio:
@@ -34424,6 +34457,7 @@
     ballotpedia: Anthony Brown (Maryland)
   name:
     first: Anthony
+    middle: G.
     last: Brown
     official_full: Anthony Brown
   bio:
@@ -34781,6 +34815,7 @@
     ballotpedia: Tom Suozzi
   name:
     first: Thomas
+    middle: R.
     last: Suozzi
     official_full: Thomas R. Suozzi
   bio:
@@ -34887,6 +34922,7 @@
     ballotpedia: Brian Fitzpatrick
   name:
     first: Brian
+    middle: K.
     last: Fitzpatrick
     official_full: Brian K. Fitzpatrick
   bio:
@@ -35134,6 +35170,7 @@
     ballotpedia: Jodey Arrington
   name:
     first: Jodey
+    middle: C.
     last: Arrington
     official_full: Jodey C. Arrington
   bio:
@@ -35459,7 +35496,6 @@
   name:
     first: Ralph
     last: Norman
-    suffix: Jr.
     official_full: Ralph Norman
   bio:
     birthday: '1953-06-20'
@@ -35564,6 +35600,7 @@
     icpsr: 21755
   name:
     first: John
+    middle: R.
     last: Curtis
     official_full: John R. Curtis
   bio:
@@ -36852,6 +36889,7 @@
   name:
     first: Jesús
     middle: G.
+    nickname: Chuy
     last: García
     official_full: Jesús G. "Chuy" García
   bio:
@@ -39175,6 +39213,7 @@
     icpsr: 41901
   name:
     first: Joshua
+    nickname: Josh
     last: Hawley
     official_full: Josh Hawley
   bio:
@@ -40086,7 +40125,6 @@
     first: John
     middle: Wright
     last: Hickenlooper
-    suffix: Jr.
     official_full: John W. Hickenlooper
   bio:
     gender: M
@@ -40119,7 +40157,6 @@
     first: Bill
     middle: Francis
     last: Hagerty
-    suffix: IV
     official_full: Bill Hagerty
   bio:
     gender: M
@@ -40173,8 +40210,7 @@
     wikipedia: Barry Moore (Alabama politician)
     google_entity_id: kg:/g/11fkw7vjdf
   name:
-    first: Felix
-    middle: Barry
+    first: Barry
     last: Moore
     official_full: Barry Moore
   bio:
@@ -40332,6 +40368,7 @@
     google_entity_id: kg:/g/11fsp_lppx
   name:
     first: Katherine
+    nickname: Kat
     last: Cammack
     official_full: Kat Cammack
   bio:
@@ -40356,7 +40393,8 @@
     wikipedia: Scott Franklin (politician)
     google_entity_id: kg:/g/11ft5hszwx
   name:
-    first: Scott
+    first: C.
+    middle: Scott
     last: Franklin
     official_full: C. Scott Franklin
   bio:
@@ -40411,7 +40449,7 @@
   name:
     first: Carlos
     middle: A.
-    last: Giménez
+    last: Gimenez
     official_full: Carlos A. Gimenez
   bio:
     gender: M
@@ -40516,6 +40554,7 @@
     google_entity_id: kg:/g/11j32tm4v4
   name:
     first: Andrew
+    middle: S.
     last: Clyde
     official_full: Andrew S. Clyde
   bio:
@@ -40701,6 +40740,7 @@
     google_entity_id: kg:/g/11fsd5mh_l
   name:
     first: Mary
+    middle: E.
     last: Miller
     official_full: Mary E. Miller
   bio:
@@ -40803,6 +40843,7 @@
     google_entity_id: kg:/m/0w32xrn
   name:
     first: Jacob
+    nickname: Jake
     last: LaTurner
     official_full: Jake LaTurner
   bio:
@@ -40881,6 +40922,7 @@
     ballotpedia: Lisa McClain
   name:
     first: Lisa
+    middle: C.
     last: McClain
     official_full: Lisa C. McClain
   bio:
@@ -41042,7 +41084,7 @@
     ballotpedia: Madison Cawthorn
   name:
     first: David
-    middle: Madison
+    nickname: Madison
     last: Cawthorn
     official_full: Madison Cawthorn
   bio:
@@ -41069,8 +41111,7 @@
     votesmart: 121681
     ballotpedia: Yvette Herrell
   name:
-    first: Stella
-    middle: Yvette
+    first: Yvette
     last: Herrell
     official_full: Yvette Herrell
   bio:
@@ -41096,8 +41137,7 @@
     google_entity_id: kg:/g/11h_x7n8f5
   name:
     first: Teresa
-    middle: Leger
-    last: Fernandez
+    last: Leger Fernandez
     official_full: Teresa Leger Fernandez
   bio:
     gender: F
@@ -41122,6 +41162,7 @@
     google_entity_id: kg:/g/11bw8f4j8q
   name:
     first: Andrew
+    middle: R.
     last: Garbarino
     official_full: Andrew R. Garbarino
   bio:
@@ -41252,6 +41293,7 @@
     ballotpedia: Stephanie Bice
   name:
     first: Stephanie
+    middle: I.
     last: Bice
     official_full: Stephanie I. Bice
   bio:
@@ -41356,6 +41398,7 @@
   name:
     first: Patrick
     middle: Edward
+    nickname: Pat
     last: Fallon
     official_full: Pat Fallon
   bio:
@@ -41463,8 +41506,8 @@
   name:
     first: Ernest
     middle: Anthony
+    nickname: Tony
     last: Gonzales
-    suffix: II
     official_full: Tony Gonzales
   bio:
     gender: M
@@ -41544,7 +41587,7 @@
     ballotpedia: Burgess Owens
   name:
     first: Clarence
-    middle: Burgess
+    nickname: Burgess
     last: Owens
     official_full: Burgess Owens
   bio:
@@ -41571,6 +41614,7 @@
   name:
     first: Robert
     middle: G.
+    nickname: Bob
     last: Good
     official_full: Bob Good
   bio:

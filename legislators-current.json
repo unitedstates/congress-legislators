@@ -2657,6 +2657,7 @@
     },
     "name": {
       "first": "James",
+      "middle": "E.",
       "last": "Risch",
       "official_full": "James E. Risch"
     },
@@ -2812,6 +2813,7 @@
     },
     "name": {
       "first": "Mark",
+      "middle": "R.",
       "last": "Warner",
       "official_full": "Mark R. Warner"
     },
@@ -2987,7 +2989,7 @@
       "google_entity_id": "kg:/m/082d3d"
     },
     "name": {
-      "first": "Chris",
+      "first": "Christopher",
       "middle": "Andrew",
       "last": "Coons",
       "official_full": "Christopher A. Coons"
@@ -8217,6 +8219,7 @@
     "name": {
       "first": "Michael",
       "middle": "D.",
+      "nickname": "Mike",
       "last": "Crapo",
       "official_full": "Mike Crapo"
     },
@@ -9926,8 +9929,6 @@
       "first": "Michael",
       "middle": "F.",
       "last": "Doyle",
-      "suffix": "Jr.",
-      "nickname": "Mike",
       "official_full": "Michael F. Doyle"
     },
     "bio": {
@@ -19213,7 +19214,8 @@
     },
     "name": {
       "first": "Cathy",
-      "last": "McMorris Rodgers",
+      "middle": "McMorris",
+      "last": "Rodgers",
       "official_full": "Cathy McMorris Rodgers"
     },
     "bio": {
@@ -22339,8 +22341,8 @@
     "name": {
       "first": "Robert",
       "middle": "J.",
-      "last": "Portman",
       "nickname": "Rob",
+      "last": "Portman",
       "official_full": "Rob Portman"
     },
     "bio": {
@@ -22918,7 +22920,6 @@
       "first": "Tom",
       "middle": "W.",
       "last": "Reed",
-      "suffix": "II",
       "official_full": "Tom Reed"
     },
     "bio": {
@@ -28803,7 +28804,6 @@
     "name": {
       "first": "Chris",
       "last": "Van Hollen",
-      "suffix": "Jr.",
       "official_full": "Chris Van Hollen"
     },
     "bio": {
@@ -30909,9 +30909,9 @@
     },
     "name": {
       "first": "Todd",
+      "middle": "C.",
       "last": "Young",
-      "official_full": "Todd Young",
-      "middle": "C."
+      "official_full": "Todd Young"
     },
     "bio": {
       "birthday": "1972-08-24",
@@ -33780,7 +33780,9 @@
     },
     "name": {
       "first": "Angus",
+      "middle": "S.",
       "last": "King",
+      "suffix": "Jr.",
       "official_full": "Angus S. King, Jr."
     },
     "bio": {
@@ -35293,8 +35295,9 @@
     },
     "name": {
       "first": "Matthew",
-      "last": "Cartwright",
       "middle": "A.",
+      "nickname": "Matt",
+      "last": "Cartwright",
       "official_full": "Matt Cartwright"
     },
     "bio": {
@@ -35554,6 +35557,7 @@
       "first": "Randy",
       "last": "Weber",
       "middle": "K.",
+      "suffix": "Sr.",
       "official_full": "Randy K. Weber, Sr."
     },
     "bio": {
@@ -36415,6 +36419,7 @@
     },
     "name": {
       "first": "Robin",
+      "middle": "L.",
       "last": "Kelly",
       "official_full": "Robin L. Kelly"
     },
@@ -36891,6 +36896,7 @@
     },
     "name": {
       "first": "Alma",
+      "middle": "S.",
       "last": "Adams",
       "official_full": "Alma S. Adams"
     },
@@ -36985,6 +36991,7 @@
     },
     "name": {
       "first": "Gary",
+      "middle": "J.",
       "last": "Palmer",
       "official_full": "Gary J. Palmer"
     },
@@ -37077,7 +37084,8 @@
       "ballotpedia": "French Hill"
     },
     "name": {
-      "first": "French",
+      "first": "J.",
+      "middle": "French",
       "last": "Hill",
       "official_full": "J. Hill"
     },
@@ -37562,6 +37570,7 @@
     },
     "name": {
       "first": "Norma",
+      "middle": "J.",
       "last": "Torres",
       "official_full": "Norma J. Torres"
     },
@@ -37722,7 +37731,9 @@
       "ballotpedia": "Earl \"Buddy\" Carter"
     },
     "name": {
-      "first": "Buddy",
+      "first": "Earl",
+      "middle": "L.",
+      "nickname": "Buddy",
       "last": "Carter",
       "official_full": "Earl L. \"Buddy\" Carter"
     },
@@ -37803,6 +37814,7 @@
     },
     "name": {
       "first": "Jody",
+      "middle": "B.",
       "last": "Hice",
       "official_full": "Jody B. Hice"
     },
@@ -37963,6 +37975,7 @@
     },
     "name": {
       "first": "Rick",
+      "middle": "W.",
       "last": "Allen",
       "official_full": "Rick W. Allen"
     },
@@ -38283,6 +38296,7 @@
     },
     "name": {
       "first": "John",
+      "middle": "R.",
       "last": "Moolenaar",
       "official_full": "John R. Moolenaar"
     },
@@ -38445,6 +38459,7 @@
     },
     "name": {
       "first": "Brenda",
+      "middle": "L.",
       "last": "Lawrence",
       "official_full": "Brenda L. Lawrence"
     },
@@ -38765,6 +38780,7 @@
     },
     "name": {
       "first": "Lee",
+      "middle": "M.",
       "last": "Zeldin",
       "official_full": "Lee M. Zeldin"
     },
@@ -38846,6 +38862,7 @@
     },
     "name": {
       "first": "Kathleen",
+      "middle": "M.",
       "last": "Rice",
       "official_full": "Kathleen M. Rice"
     },
@@ -38927,6 +38944,7 @@
     },
     "name": {
       "first": "Elise",
+      "middle": "M.",
       "last": "Stefanik",
       "official_full": "Elise M. Stefanik"
     },
@@ -39087,6 +39105,7 @@
     },
     "name": {
       "first": "Brendan",
+      "middle": "F.",
       "last": "Boyle",
       "official_full": "Brendan F. Boyle"
     },
@@ -39247,7 +39266,9 @@
     },
     "name": {
       "first": "Donald",
+      "middle": "S.",
       "last": "Beyer",
+      "suffix": "Jr.",
       "official_full": "Donald S. Beyer, Jr."
     },
     "bio": {
@@ -39326,6 +39347,7 @@
     },
     "name": {
       "first": "Stacey",
+      "middle": "E.",
       "last": "Plaskett",
       "official_full": "Stacey E. Plaskett"
     },
@@ -39565,7 +39587,8 @@
       "ballotpedia": "Alexander Mooney"
     },
     "name": {
-      "first": "Alex",
+      "first": "Alexander",
+      "middle": "X.",
       "last": "Mooney",
       "official_full": "Alexander Mooney"
     },
@@ -39645,8 +39668,9 @@
       "ballotpedia": "Amata Radewagen"
     },
     "name": {
-      "first": "Aumua",
-      "last": "Amata",
+      "first": "Aumua Amata",
+      "last": "Radewagen",
+      "middle": "Coleman",
       "official_full": "Aumua Amata Coleman Radewagen"
     },
     "bio": {
@@ -39978,6 +40002,7 @@
     "name": {
       "first": "Benjamin",
       "middle": "Eric",
+      "nickname": "Ben",
       "last": "Sasse",
       "official_full": "Ben Sasse"
     },
@@ -40572,7 +40597,7 @@
     "name": {
       "first": "Bradley",
       "last": "Schneider",
-      "middle": "S.",
+      "middle": "Scott",
       "official_full": "Bradley Scott Schneider",
       "nickname": "Brad"
     },
@@ -40916,6 +40941,7 @@
     },
     "name": {
       "first": "Salud",
+      "middle": "O.",
       "last": "Carbajal",
       "official_full": "Salud O. Carbajal"
     },
@@ -40981,6 +41007,7 @@
     },
     "name": {
       "first": "Nanette",
+      "middle": "Diaz",
       "last": "Barrag\u00e1n",
       "official_full": "Nanette Diaz Barrag\u00e1n"
     },
@@ -41242,6 +41269,7 @@
     },
     "name": {
       "first": "Neal",
+      "middle": "P.",
       "last": "Dunn",
       "official_full": "Neal P. Dunn"
     },
@@ -41307,6 +41335,7 @@
     },
     "name": {
       "first": "John",
+      "middle": "H.",
       "last": "Rutherford",
       "official_full": "John H. Rutherford"
     },
@@ -41373,6 +41402,7 @@
     "name": {
       "first": "Al",
       "last": "Lawson",
+      "suffix": "Jr.",
       "official_full": "Al Lawson, Jr."
     },
     "bio": {
@@ -41437,6 +41467,7 @@
     },
     "name": {
       "first": "Stephanie",
+      "middle": "N.",
       "last": "Murphy",
       "official_full": "Stephanie N. Murphy"
     },
@@ -41567,6 +41598,7 @@
     },
     "name": {
       "first": "Val",
+      "middle": "Butler",
       "last": "Demings",
       "official_full": "Val Butler Demings"
     },
@@ -41697,6 +41729,7 @@
     },
     "name": {
       "first": "Brian",
+      "middle": "J.",
       "last": "Mast",
       "official_full": "Brian J. Mast"
     },
@@ -42230,6 +42263,7 @@
     },
     "name": {
       "first": "Anthony",
+      "middle": "G.",
       "last": "Brown",
       "official_full": "Anthony Brown"
     },
@@ -42676,6 +42710,7 @@
     },
     "name": {
       "first": "Thomas",
+      "middle": "R.",
       "last": "Suozzi",
       "official_full": "Thomas R. Suozzi"
     },
@@ -42808,6 +42843,7 @@
     },
     "name": {
       "first": "Brian",
+      "middle": "K.",
       "last": "Fitzpatrick",
       "official_full": "Brian K. Fitzpatrick"
     },
@@ -43118,6 +43154,7 @@
     },
     "name": {
       "first": "Jodey",
+      "middle": "C.",
       "last": "Arrington",
       "official_full": "Jodey C. Arrington"
     },
@@ -43526,7 +43563,6 @@
     "name": {
       "first": "Ralph",
       "last": "Norman",
-      "suffix": "Jr.",
       "official_full": "Ralph Norman"
     },
     "bio": {
@@ -43657,6 +43693,7 @@
     },
     "name": {
       "first": "John",
+      "middle": "R.",
       "last": "Curtis",
       "official_full": "John R. Curtis"
     },
@@ -45276,6 +45313,7 @@
     "name": {
       "first": "Jes\u00fas",
       "middle": "G.",
+      "nickname": "Chuy",
       "last": "Garc\u00eda",
       "official_full": "Jes\u00fas G. \"Chuy\" Garc\u00eda"
     },
@@ -48238,6 +48276,7 @@
     },
     "name": {
       "first": "Joshua",
+      "nickname": "Josh",
       "last": "Hawley",
       "official_full": "Josh Hawley"
     },
@@ -49382,7 +49421,6 @@
       "first": "John",
       "middle": "Wright",
       "last": "Hickenlooper",
-      "suffix": "Jr.",
       "official_full": "John W. Hickenlooper"
     },
     "bio": {
@@ -49424,7 +49462,6 @@
       "first": "Bill",
       "middle": "Francis",
       "last": "Hagerty",
-      "suffix": "IV",
       "official_full": "Bill Hagerty"
     },
     "bio": {
@@ -49496,8 +49533,7 @@
       "google_entity_id": "kg:/g/11fkw7vjdf"
     },
     "name": {
-      "first": "Felix",
-      "middle": "Barry",
+      "first": "Barry",
       "last": "Moore",
       "official_full": "Barry Moore"
     },
@@ -49709,6 +49745,7 @@
     },
     "name": {
       "first": "Katherine",
+      "nickname": "Kat",
       "last": "Cammack",
       "official_full": "Kat Cammack"
     },
@@ -49742,7 +49779,8 @@
       "google_entity_id": "kg:/g/11ft5hszwx"
     },
     "name": {
-      "first": "Scott",
+      "first": "C.",
+      "middle": "Scott",
       "last": "Franklin",
       "official_full": "C. Scott Franklin"
     },
@@ -49815,7 +49853,7 @@
     "name": {
       "first": "Carlos",
       "middle": "A.",
-      "last": "Gim\u00e9nez",
+      "last": "Gimenez",
       "official_full": "Carlos A. Gimenez"
     },
     "bio": {
@@ -49956,6 +49994,7 @@
     },
     "name": {
       "first": "Andrew",
+      "middle": "S.",
       "last": "Clyde",
       "official_full": "Andrew S. Clyde"
     },
@@ -50204,6 +50243,7 @@
     },
     "name": {
       "first": "Mary",
+      "middle": "E.",
       "last": "Miller",
       "official_full": "Mary E. Miller"
     },
@@ -50342,6 +50382,7 @@
     },
     "name": {
       "first": "Jacob",
+      "nickname": "Jake",
       "last": "LaTurner",
       "official_full": "Jake LaTurner"
     },
@@ -50447,6 +50488,7 @@
     },
     "name": {
       "first": "Lisa",
+      "middle": "C.",
       "last": "McClain",
       "official_full": "Lisa C. McClain"
     },
@@ -50662,7 +50704,7 @@
     },
     "name": {
       "first": "David",
-      "middle": "Madison",
+      "nickname": "Madison",
       "last": "Cawthorn",
       "official_full": "Madison Cawthorn"
     },
@@ -50698,8 +50740,7 @@
       "ballotpedia": "Yvette Herrell"
     },
     "name": {
-      "first": "Stella",
-      "middle": "Yvette",
+      "first": "Yvette",
       "last": "Herrell",
       "official_full": "Yvette Herrell"
     },
@@ -50734,8 +50775,7 @@
     },
     "name": {
       "first": "Teresa",
-      "middle": "Leger",
-      "last": "Fernandez",
+      "last": "Leger Fernandez",
       "official_full": "Teresa Leger Fernandez"
     },
     "bio": {
@@ -50769,6 +50809,7 @@
     },
     "name": {
       "first": "Andrew",
+      "middle": "R.",
       "last": "Garbarino",
       "official_full": "Andrew R. Garbarino"
     },
@@ -50944,6 +50985,7 @@
     },
     "name": {
       "first": "Stephanie",
+      "middle": "I.",
       "last": "Bice",
       "official_full": "Stephanie I. Bice"
     },
@@ -51084,6 +51126,7 @@
     "name": {
       "first": "Patrick",
       "middle": "Edward",
+      "nickname": "Pat",
       "last": "Fallon",
       "official_full": "Pat Fallon"
     },
@@ -51227,8 +51270,8 @@
     "name": {
       "first": "Ernest",
       "middle": "Anthony",
+      "nickname": "Tony",
       "last": "Gonzales",
-      "suffix": "II",
       "official_full": "Tony Gonzales"
     },
     "bio": {
@@ -51335,7 +51378,7 @@
     },
     "name": {
       "first": "Clarence",
-      "middle": "Burgess",
+      "nickname": "Burgess",
       "last": "Owens",
       "official_full": "Burgess Owens"
     },
@@ -51371,6 +51414,7 @@
     "name": {
       "first": "Robert",
       "middle": "G.",
+      "nickname": "Bob",
       "last": "Good",
       "official_full": "Bob Good"
     },
