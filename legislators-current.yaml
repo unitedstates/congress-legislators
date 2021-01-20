@@ -1517,6 +1517,10 @@
   - title: Senate Minority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1880,6 +1884,10 @@
   - title: Senate Majority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -9476,6 +9484,7 @@
   - title: President Pro Tempore of the Senate
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
   bio:
     birthday: '1933-09-17'
     gender: M
@@ -13316,6 +13325,10 @@
   bio:
     birthday: '1940-03-31'
     gender: M
+  leadership_roles:
+  - title: President Pro Tempore of the Senate
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1975-01-14'
@@ -16409,6 +16422,10 @@
   - title: Assistant Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Assistant Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1993-01-05'
@@ -20440,6 +20457,10 @@
   - title: Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -22894,6 +22915,10 @@
   - title: Senate Majority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1997-01-07'
