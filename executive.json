@@ -2306,5 +2306,81 @@
         "how": "election"
       }
     ]
+  },
+  {
+    "id": {
+      "bioguide": "B000444",
+      "thomas": "01284",
+      "lis": "S010",
+      "govtrack": 300008,
+      "opensecrets": "N00001669",
+      "votesmart": 53279,
+      "icpsr": 14101,
+      "fec": [
+        "S8DE00012"
+      ],
+      "cspan": 34,
+      "wikipedia": "Joe Biden",
+      "wikidata": "Q6279",
+      "google_entity_id": "kg:/m/012gx2",
+      "ballotpedia": "Joe Biden"
+    },
+    "name": {
+      "first": "Joseph",
+      "middle": "R.",
+      "last": "Biden",
+      "suffix": "Jr."
+    },
+    "bio": {
+      "birthday": "1942-11-20",
+      "gender": "M"
+    },
+    "terms": [
+      {
+        "type": "prez",
+        "start": "2021-01-20",
+        "end": "2025-01-20",
+        "party": "Democrat",
+        "how": "election"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "H001075",
+      "fec": [
+        "S6CA00584"
+      ],
+      "govtrack": 412678,
+      "votesmart": 120012,
+      "wikipedia": "Kamala Harris",
+      "ballotpedia": "Kamala Harris",
+      "lis": "S387",
+      "wikidata": "Q10853588",
+      "google_entity_id": "kg:/m/08sry2",
+      "opensecrets": "N00036915",
+      "maplight": 2190,
+      "cspan": 1018696,
+      "icpsr": 41701
+    },
+    "name": {
+      "first": "Kamala",
+      "middle": "D.",
+      "last": "Harris",
+      "official_full": "Kamala D. Harris"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1964-10-20"
+    },
+    "terms": [
+      {
+        "type": "viceprez",
+        "start": "2021-01-20",
+        "end": "2025-01-20",
+        "party": "Democrat",
+        "how": "election"
+      }
+    ]
   }
 ]
