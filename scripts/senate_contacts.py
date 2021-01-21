@@ -113,7 +113,8 @@ def run():
 
 		#contact forms aren't heavily used, copy from XML without checks
 		contact_form = str(node.xpath("string(email)")).strip()
-		term['contact_form'] = contact_form
+		if contact_form:
+			term['contact_form'] = contact_form
 
 		term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
 		term["office"] = string.capwords(term["address"].upper().split(" WASHINGTON ")[0])

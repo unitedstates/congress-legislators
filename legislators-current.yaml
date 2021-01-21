@@ -1517,6 +1517,10 @@
   - title: Senate Minority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1880,6 +1884,10 @@
   - title: Senate Majority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -9476,6 +9484,7 @@
   - title: President Pro Tempore of the Senate
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
   bio:
     birthday: '1933-09-17'
     gender: M
@@ -13316,6 +13325,10 @@
   bio:
     birthday: '1940-03-31'
     gender: M
+  leadership_roles:
+  - title: President Pro Tempore of the Senate
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1975-01-14'
@@ -16409,6 +16422,10 @@
   - title: Assistant Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Assistant Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1993-01-05'
@@ -20440,6 +20457,10 @@
   - title: Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -22894,6 +22915,10 @@
   - title: Senate Majority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -39428,40 +39453,6 @@
     office: 313 Cannon House Office Building
     phone: 202-225-3415
 - id:
-    bioguide: L000594
-    lis: S405
-    fec:
-    - S0GA00526
-    govtrack: 456790
-    wikipedia: Kelly Loeffler
-    wikidata: Q76570207
-    ballotpedia: Kelly Loeffler
-    opensecrets: N00046125
-    google_entity_id: kg:/g/11j3kgpjlx
-    votesmart: 188718
-  name:
-    first: Kelly
-    last: Loeffler
-    official_full: Kelly Loeffler
-  bio:
-    gender: F
-    birthday: '1970-11-27'
-  terms:
-  - type: sen
-    start: '2020-01-06'
-    end: '2021-01-31'
-    how: appointment
-    end-type: special-election
-    state: GA
-    class: 3
-    party: Republican
-    state_rank: junior
-    url: https://www.loeffler.senate.gov
-    address: 131 Russell Senate Office Building Washington DC 20510
-    office: 131 Russell Senate Office Building
-    phone: 202-224-3643
-    contact_form: https://www.loeffler.senate.gov/connect/email-kelly
-- id:
     bioguide: M000687
     thomas: '00798'
     fec:
@@ -41682,3 +41673,87 @@
     address: 1507 Longworth House Office Building Washington DC 20515-4905
     office: 1507 Longworth House Office Building
     phone: 202-225-5101
+- id:
+    bioguide: P000145
+    lis: S413
+    govtrack: 456856
+    wikipedia: Alex Padilla
+    wikidata: Q4717593
+    ballotpedia: Alex Padilla
+  name:
+    first: Alejandro
+    nickname: Alex
+    last: Padilla
+    official_full: Alex Padilla
+  bio:
+    gender: M
+    birthday: '1973-03-22'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2023-01-03'
+    how: appointment
+    state: CA
+    class: 3
+    party: Democrat
+    state_rank: junior
+    address: B03 Russell Senate Office Building Washington DC 20510
+    office: B03 Russell Senate Office Building
+    phone: 202-224-3553
+- id:
+    bioguide: O000174
+    lis: S414
+    fec:
+    - H8GA06195
+    - S8GA00180
+    govtrack: 456857
+    wikipedia: Jon Ossoff
+    wikidata: Q28839536
+    ballotpedia: Jon Ossoff
+  name:
+    first: Jon
+    last: Ossoff
+    official_full: Jon Ossoff
+  bio:
+    gender: M
+    birthday: '1987-02-16'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2027-01-03'
+    state: GA
+    class: 2
+    party: Democrat
+    state_rank: senior
+    address: 825 B&C Hart Senate Office Building Washington DC 20510
+    office: 825 B&c Hart Senate Office Building
+    phone: 202-224-3521
+- id:
+    bioguide: W000790
+    lis: S415
+    fec:
+    - S0GA00559
+    govtrack: 456858
+    wikipedia: Raphael Warnock
+    wikidata: Q84146599
+    ballotpedia: Raphael Warnock
+  name:
+    first: Raphael
+    middle: Gamaliel
+    last: Warnock
+    official_full: Raphael G. Warnock
+  bio:
+    gender: M
+    birthday: '1969-07-23'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2023-01-03'
+    how: special-election
+    state: GA
+    class: 3
+    party: Democrat
+    state_rank: junior
+    address: B40D Dirksen Senate Office Building Washington DC 20510
+    office: B40d Dirksen Senate Office Building
+    phone: 202-224-3643
