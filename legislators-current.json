@@ -2519,8 +2519,8 @@
         "url": "https://www.merkley.senate.gov",
         "rss_url": "http://www.merkley.senate.gov/rss/",
         "contact_form": "http://www.merkley.senate.gov/contact/",
-        "address": "313 Hart Senate Office Building Washington DC 20510",
-        "office": "313 Hart Senate Office Building",
+        "address": "531 Hart Senate Office Building Washington DC 20510",
+        "office": "531 Hart Senate Office Building",
         "phone": "202-224-3753"
       }
     ]
@@ -13427,8 +13427,8 @@
         "url": "https://www.hirono.senate.gov",
         "rss_url": "http://www.hirono.senate.gov/rss/feeds/?type=all",
         "contact_form": "https://www.hirono.senate.gov/contact",
-        "address": "713 Hart Senate Office Building Washington DC 20510",
-        "office": "713 Hart Senate Office Building",
+        "address": "109 Hart Senate Office Building Washington DC 20510",
+        "office": "109 Hart Senate Office Building",
         "phone": "202-224-6361"
       }
     ]
@@ -28446,8 +28446,8 @@
         "party": "Republican",
         "url": "https://www.toomey.senate.gov",
         "rss_url": "http://toomey.senate.gov/rss/?p=hot_topic",
-        "address": "248 Russell Senate Office Building Washington DC 20510",
-        "office": "248 Russell Senate Office Building",
+        "address": "455 Dirksen Senate Office Building Washington DC 20510",
+        "office": "455 Dirksen Senate Office Building",
         "phone": "202-224-4254",
         "contact_form": "https://www.toomey.senate.gov/?p=contact",
         "fax": "202-228-0284"
@@ -50558,8 +50558,8 @@
         "state": "MO",
         "district": 1,
         "party": "Democrat",
-        "address": "1016 Longworth House Office Building Washington DC 20515-2501",
-        "office": "1016 Longworth House Office Building",
+        "address": "563 Cannon House Office Building Washington DC 20515-2501",
+        "office": "563 Cannon House Office Building",
         "phone": "202-225-2406",
         "url": "https://bush.house.gov"
       }
@@ -51547,7 +51547,9 @@
         "state_rank": "junior",
         "address": "B03 Russell Senate Office Building Washington DC 20510",
         "office": "B03 Russell Senate Office Building",
-        "phone": "202-224-3553"
+        "phone": "202-224-3553",
+        "url": "https://www.padilla.senate.gov",
+        "contact_form": "http://www.padilla.senate.gov"
       }
     ]
   },
@@ -51584,7 +51586,9 @@
         "state_rank": "senior",
         "address": "825 B&C Hart Senate Office Building Washington DC 20510",
         "office": "825 B&c Hart Senate Office Building",
-        "phone": "202-224-3521"
+        "phone": "202-224-3521",
+        "url": "https://www.ossoff.senate.gov",
+        "contact_form": "https://www.ossoff.senate.gov"
       }
     ]
   },
@@ -51622,7 +51626,62 @@
         "state_rank": "junior",
         "address": "B40D Dirksen Senate Office Building Washington DC 20510",
         "office": "B40d Dirksen Senate Office Building",
-        "phone": "202-224-3643"
+        "phone": "202-224-3643",
+        "url": "https://www.warnock.senate.gov",
+        "contact_form": "https://www.warnock.senate.gov"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "T000478",
+      "fec": [
+        "H4NY22051"
+      ],
+      "govtrack": 412720,
+      "opensecrets": "N00036351",
+      "wikipedia": "Claudia Tenney",
+      "wikidata": "Q5129263",
+      "google_entity_id": "kg:/m/0g5s72n",
+      "votesmart": 127668,
+      "maplight": 2232,
+      "cspan": 103481,
+      "icpsr": 21749,
+      "ballotpedia": "Claudia Tenney"
+    },
+    "name": {
+      "first": "Claudia",
+      "last": "Tenney",
+      "official_full": "Claudia Tenney"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1961-02-04"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 22,
+        "party": "Republican",
+        "phone": "202-225-3665",
+        "address": "512 Cannon House Office Building; Washington DC 20515-3222",
+        "office": "512 Cannon House Office Building",
+        "url": "https://tenney.house.gov"
+      },
+      {
+        "type": "rep",
+        "start": "2021-02-11",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 22,
+        "party": "Republican",
+        "address": "1410 Longworth House Office Building Washington DC 20515-3222",
+        "office": "1410 Longworth House Office Building",
+        "phone": "202-225-3665",
+        "url": "https://clerk.house.gov"
       }
     ]
   }
