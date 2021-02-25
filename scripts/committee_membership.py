@@ -147,7 +147,7 @@ def run():
           elif m.group(2) in ("Vice Chair", "Vice Chairman", "Vice Chairperson"):
             entry["title"] = "Vice Chair"
           elif m.group(2) in ("Ranking Member",):
-          	entry["title"] = "Ranking Member"
+            entry["title"] = "Ranking Member"
 
           elif m.group(2) == "Ex Officio":
             entry["title"] = m.group(2)
@@ -155,15 +155,15 @@ def run():
           else:
             raise ValueError("Unrecognized title information '%s' in %s." % (m.group(2), url))
 
-        # Look for an existing entry for this member and update it
-        # if it exists, so we don't disturb start_date and source.
+        # Look for an existing entry for this member and take
+        # start_date and source from it, if set.
         for item in members:
           if item["bioguide"] == entry["bioguide"]:
-            item.update(entry)
-            break
-        else:
-          # We didn't find one, so append the entry.
-          members.append(entry)
+            for key in ("start_date", "source"):
+                if key in item:
+                    entry[key] = item[key]
+
+        members.append(entry)
 
         committee_member_ids.add(entry["bioguide"])
 
@@ -294,6 +294,7 @@ def run():
     if title == "Ranking": title = "Ranking Member"
 
     # look up senator by state and last name
+    if (state, last_name) == ("NM", "Lujan"): last_name = "Luján"
     if (state, last_name) not in senators:
       print("\t[%s] Unknown member: %s" % (state, last_name))
       return None
@@ -312,15 +313,15 @@ def run():
     entry.update(ids_from(moc["id"]))
     if is_joint: entry["chamber"] = "senate"
 
-    # Look for an existing entry for this member and update it
-    # if it exists, so we don't disturb start_date and source.
+    # Look for an existing entry for this member and take
+    # start_date and source from it, if set.
     for item in output_list:
       if item["bioguide"] == entry["bioguide"]:
-        item.update(entry)
-        break
-    else:
-      # We didn't find one, so append the entry.
-      output_list.append(entry)
+        for key in ("start_date", "source"):
+            if key in item:
+                entry[key] = item[key]
+
+    output_list.append(entry)
 
     # Return bioguide ID of member added.
     return entry["bioguide"]
