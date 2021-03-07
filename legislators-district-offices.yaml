@@ -6364,15 +6364,14 @@
     latitude: 46.6766073
     longitude: -67.9956649
     phone: 207-764-5124
-  - id: K000383-scarborough
-    address: 383 Route 1
-    suite: Suite 1C
-    city: Scarborough
+  - id: K000383-biddeford
+    address: 227 Main Street
+    city: Biddeford
     state: ME
-    zip: '04074'
-    latitude: 43.5854463
-    longitude: -70.3582263
-    phone: 207-883-1588
+    zip: '04005'
+    latitude: 43.493662
+    longitude: -70.457006
+    phone: 207-352-5216
 - id:
     bioguide: K000384
     govtrack: 412582
@@ -7531,6 +7530,31 @@
     longitude: -74.1657213
     fax: 973-645-0502
     phone: 973-645-3030
+- id:
+    bioguide: M000687
+    govtrack: 407672
+    thomas: '00798'
+  offices:
+  - id: M000687-baltimore
+    address: 1010 Park Avenue
+    suite: Suite 105
+    city: Baltimore
+    state: MD
+    zip: '21201'
+    phone: 410-685-9199
+  - id: M000687-catonsville
+    address: 754 Frederick Road
+    city: Catonsville
+    state: MD
+    zip: '21228'
+    phone: 410-818-2120
+  - id: M000687-ellicot
+    address: 8267 Main Street
+    suite: Room 102
+    city: Ellicot
+    state: MD
+    zip: '21043'
+    phone: 443-364-5413
 - id:
     bioguide: M000934
     govtrack: 400284
@@ -13649,19 +13673,6 @@
     fax: 314-436-8534
     latitude: 38.62588
     longitude: -90.196
-- id:
-    bioguide: W000827
-    govtrack: 412823
-  offices:
-  - id: W000827-arlington
-    address: 5840 West Ronald Reagan Memorial Highway
-    suite: Suite 115
-    city: Arlington
-    state: TX
-    zip: 76017-1098
-    phone: 817-775-0370
-    latitude: 32.67343
-    longitude: -97.19691
 - id:
     bioguide: K000395
     govtrack: 412843

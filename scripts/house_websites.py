@@ -74,6 +74,7 @@ def run():
         district = int(re.sub(r'[^\d]', '', district))
 
       url = cells[1].cssselect("a")[0].get("href")
+      original_url = url
 
       # The House uses subdomains now, and occasionally the directory
       # uses URLs with some trailing redirected-to page, like /home.
@@ -94,7 +95,7 @@ def run():
         state = "AS"
       full_district = "%s%02d" % (state, int(district))
       if full_district in by_district:
-        print("[%s] %s" % (full_district, url))
+        print("[%s] %s %s" % (full_district, url, "" if url == original_url.rstrip("/") else (" <= " + original_url)))
         by_district[full_district]['terms'][-1]['url'] = url
       else:
         print("[%s] No current legislator" % full_district)

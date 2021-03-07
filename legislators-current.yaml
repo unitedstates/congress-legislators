@@ -1517,6 +1517,10 @@
   - title: Senate Minority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1880,6 +1884,10 @@
   - title: Senate Majority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -2009,8 +2017,8 @@
     url: https://www.merkley.senate.gov
     rss_url: http://www.merkley.senate.gov/rss/
     contact_form: http://www.merkley.senate.gov/contact/
-    address: 313 Hart Senate Office Building Washington DC 20510
-    office: 313 Hart Senate Office Building
+    address: 531 Hart Senate Office Building Washington DC 20510
+    office: 531 Hart Senate Office Building
     phone: 202-224-3753
 - id:
     bioguide: R000122
@@ -2130,6 +2138,7 @@
     google_entity_id: kg:/m/06y9p0
   name:
     first: James
+    middle: E.
     last: Risch
     official_full: James E. Risch
   bio:
@@ -2259,6 +2268,7 @@
     google_entity_id: kg:/m/024mm1
   name:
     first: Mark
+    middle: R.
     last: Warner
     official_full: Mark R. Warner
   bio:
@@ -2404,7 +2414,7 @@
     wikidata: Q923242
     google_entity_id: kg:/m/082d3d
   name:
-    first: Chris
+    first: Christopher
     middle: Andrew
     last: Coons
     official_full: Christopher A. Coons
@@ -6677,6 +6687,7 @@
   name:
     first: Michael
     middle: D.
+    nickname: Mike
     last: Crapo
     official_full: Mike Crapo
   bio:
@@ -8068,8 +8079,6 @@
     first: Michael
     middle: F.
     last: Doyle
-    suffix: Jr.
-    nickname: Mike
     official_full: Michael F. Doyle
   bio:
     birthday: '1953-08-05'
@@ -9475,6 +9484,7 @@
   - title: President Pro Tempore of the Senate
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
   bio:
     birthday: '1933-09-17'
     gender: M
@@ -10633,7 +10643,7 @@
     state: WA
     district: 3
     party: Republican
-    url: https://herrerabeutler.house.gov
+    url: https://jhb.house.gov
     rss_url: http://herrerabeutler.house.gov/news/rss.aspx
     address: 2352 Rayburn House Office Building Washington DC 20515-4703
     office: 2352 Rayburn House Office Building
@@ -10936,8 +10946,8 @@
     url: https://www.hirono.senate.gov
     rss_url: http://www.hirono.senate.gov/rss/feeds/?type=all
     contact_form: https://www.hirono.senate.gov/contact
-    address: 713 Hart Senate Office Building Washington DC 20510
-    office: 713 Hart Senate Office Building
+    address: 109 Hart Senate Office Building Washington DC 20510
+    office: 109 Hart Senate Office Building
     phone: 202-224-6361
 - id:
     bioguide: H001061
@@ -13315,6 +13325,10 @@
   bio:
     birthday: '1940-03-31'
     gender: M
+  leadership_roles:
+  - title: President Pro Tempore of the Senate
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1975-01-14'
@@ -15656,7 +15670,8 @@
     google_entity_id: kg:/m/03dlf3
   name:
     first: Cathy
-    last: McMorris Rodgers
+    middle: McMorris
+    last: Rodgers
     official_full: Cathy McMorris Rodgers
   bio:
     birthday: '1969-05-22'
@@ -16407,6 +16422,10 @@
   - title: Assistant Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Assistant Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: sen
     start: '1993-01-05'
@@ -17719,6 +17738,9 @@
     chamber: house
     start: '2019-01-03'
     end: '2021-01-03'
+  - title: Speaker of the House
+    chamber: house
+    start: '2021-01-03'
   terms:
   - type: rep
     start: '1987-01-06'
@@ -18190,8 +18212,8 @@
   name:
     first: Robert
     middle: J.
-    last: Portman
     nickname: Rob
+    last: Portman
     official_full: Rob Portman
   bio:
     birthday: '1955-12-19'
@@ -18661,7 +18683,6 @@
     first: Tom
     middle: W.
     last: Reed
-    suffix: II
     official_full: Tom Reed
   bio:
     birthday: '1971-11-18'
@@ -20439,6 +20460,10 @@
   - title: Senate Minority Leader
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1981-01-05'
@@ -22893,6 +22918,10 @@
   - title: Senate Majority Whip
     chamber: senate
     start: '2021-01-03'
+    end: '2021-01-20'
+  - title: Senate Minority Whip
+    chamber: senate
+    start: '2021-01-20'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -23120,8 +23149,8 @@
     party: Republican
     url: https://www.toomey.senate.gov
     rss_url: http://toomey.senate.gov/rss/?p=hot_topic
-    address: 248 Russell Senate Office Building Washington DC 20510
-    office: 248 Russell Senate Office Building
+    address: 455 Dirksen Senate Office Building Washington DC 20510
+    office: 455 Dirksen Senate Office Building
     phone: 202-224-4254
     contact_form: https://www.toomey.senate.gov/?p=contact
     fax: 202-228-0284
@@ -23445,7 +23474,6 @@
   name:
     first: Chris
     last: Van Hollen
-    suffix: Jr.
     official_full: Chris Van Hollen
   bio:
     birthday: '1959-01-10'
@@ -25161,9 +25189,9 @@
     lis: S391
   name:
     first: Todd
+    middle: C.
     last: Young
     official_full: Todd Young
-    middle: C.
   bio:
     birthday: '1972-08-24'
     gender: M
@@ -27542,7 +27570,9 @@
     google_entity_id: kg:/m/02hfx0
   name:
     first: Angus
+    middle: S.
     last: King
+    suffix: Jr.
     official_full: Angus S. King, Jr.
   bio:
     gender: M
@@ -28790,8 +28820,9 @@
     google_entity_id: kg:/m/0j_6b9d
   name:
     first: Matthew
-    last: Cartwright
     middle: A.
+    nickname: Matt
+    last: Cartwright
     official_full: Matt Cartwright
   bio:
     gender: M
@@ -29006,6 +29037,7 @@
     first: Randy
     last: Weber
     middle: K.
+    suffix: Sr.
     official_full: Randy K. Weber, Sr.
   bio:
     gender: M
@@ -29720,6 +29752,7 @@
     google_entity_id: kg:/m/0g8l32
   name:
     first: Robin
+    middle: L.
     last: Kelly
     official_full: Robin L. Kelly
   bio:
@@ -30112,6 +30145,7 @@
     icpsr: 21545
   name:
     first: Alma
+    middle: S.
     last: Adams
     official_full: Alma S. Adams
   bio:
@@ -30189,6 +30223,7 @@
     ballotpedia: Gary Palmer
   name:
     first: Gary
+    middle: J.
     last: Palmer
     official_full: Gary J. Palmer
   bio:
@@ -30261,7 +30296,8 @@
     icpsr: 21503
     ballotpedia: French Hill
   name:
-    first: French
+    first: J.
+    middle: French
     last: Hill
     official_full: J. Hill
   bio:
@@ -30653,6 +30689,7 @@
     ballotpedia: Norma Torres
   name:
     first: Norma
+    middle: J.
     last: Torres
     official_full: Norma J. Torres
   bio:
@@ -30783,7 +30820,9 @@
     icpsr: 21513
     ballotpedia: Earl "Buddy" Carter
   name:
-    first: Buddy
+    first: Earl
+    middle: L.
+    nickname: Buddy
     last: Carter
     official_full: Earl L. "Buddy" Carter
   bio:
@@ -30849,6 +30888,7 @@
     ballotpedia: Jody Hice
   name:
     first: Jody
+    middle: B.
     last: Hice
     official_full: Jody B. Hice
   bio:
@@ -30979,6 +31019,7 @@
     ballotpedia: Rick Allen
   name:
     first: Rick
+    middle: W.
     last: Allen
     official_full: Rick W. Allen
   bio:
@@ -31239,6 +31280,7 @@
     ballotpedia: John Moolenaar
   name:
     first: John
+    middle: R.
     last: Moolenaar
     official_full: John R. Moolenaar
   bio:
@@ -31371,6 +31413,7 @@
     ballotpedia: Brenda Lawrence (Michigan)
   name:
     first: Brenda
+    middle: L.
     last: Lawrence
     official_full: Brenda L. Lawrence
   bio:
@@ -31631,6 +31674,7 @@
     ballotpedia: Lee Zeldin
   name:
     first: Lee
+    middle: M.
     last: Zeldin
     official_full: Lee M. Zeldin
   bio:
@@ -31697,6 +31741,7 @@
     ballotpedia: Kathleen Rice
   name:
     first: Kathleen
+    middle: M.
     last: Rice
     official_full: Kathleen M. Rice
   bio:
@@ -31763,6 +31808,7 @@
     ballotpedia: Elise Stefanik
   name:
     first: Elise
+    middle: M.
     last: Stefanik
     official_full: Elise M. Stefanik
   bio:
@@ -31893,6 +31939,7 @@
     ballotpedia: Brendan Boyle
   name:
     first: Brendan
+    middle: F.
     last: Boyle
     official_full: Brendan F. Boyle
   bio:
@@ -32023,7 +32070,9 @@
     ballotpedia: Don Beyer
   name:
     first: Donald
+    middle: S.
     last: Beyer
+    suffix: Jr.
     official_full: Donald S. Beyer, Jr.
   bio:
     gender: M
@@ -32087,6 +32136,7 @@
     votesmart: 155929
   name:
     first: Stacey
+    middle: E.
     last: Plaskett
     official_full: Stacey E. Plaskett
   bio:
@@ -32281,7 +32331,8 @@
     votesmart: 145943
     ballotpedia: Alexander Mooney
   name:
-    first: Alex
+    first: Alexander
+    middle: X.
     last: Mooney
     official_full: Alexander Mooney
   bio:
@@ -32346,8 +32397,9 @@
     votesmart: 128380
     ballotpedia: Amata Radewagen
   name:
-    first: Aumua
-    last: Amata
+    first: Aumua Amata
+    last: Radewagen
+    middle: Coleman
     official_full: Aumua Amata Coleman Radewagen
   bio:
     gender: F
@@ -32615,6 +32667,7 @@
   name:
     first: Benjamin
     middle: Eric
+    nickname: Ben
     last: Sasse
     official_full: Ben Sasse
   bio:
@@ -33096,7 +33149,7 @@
   name:
     first: Bradley
     last: Schneider
-    middle: S.
+    middle: Scott
     official_full: Bradley Scott Schneider
     nickname: Brad
   bio:
@@ -33373,6 +33426,7 @@
     ballotpedia: Salud Carbajal
   name:
     first: Salud
+    middle: O.
     last: Carbajal
     official_full: Salud O. Carbajal
   bio:
@@ -33425,6 +33479,7 @@
     ballotpedia: Nanette Barragán
   name:
     first: Nanette
+    middle: Diaz
     last: Barragán
     official_full: Nanette Diaz Barragán
   bio:
@@ -33634,6 +33689,7 @@
     ballotpedia: Neal Dunn
   name:
     first: Neal
+    middle: P.
     last: Dunn
     official_full: Neal P. Dunn
   bio:
@@ -33686,6 +33742,7 @@
     ballotpedia: John Rutherford (Florida)
   name:
     first: John
+    middle: H.
     last: Rutherford
     official_full: John H. Rutherford
   bio:
@@ -33739,6 +33796,7 @@
   name:
     first: Al
     last: Lawson
+    suffix: Jr.
     official_full: Al Lawson, Jr.
   bio:
     gender: M
@@ -33790,6 +33848,7 @@
     ballotpedia: Stephanie Murphy
   name:
     first: Stephanie
+    middle: N.
     last: Murphy
     official_full: Stephanie N. Murphy
   bio:
@@ -33894,6 +33953,7 @@
     ballotpedia: Val Demings
   name:
     first: Val
+    middle: Butler
     last: Demings
     official_full: Val Butler Demings
   bio:
@@ -33998,6 +34058,7 @@
     icpsr: 21735
   name:
     first: Brian
+    middle: J.
     last: Mast
     official_full: Brian J. Mast
   bio:
@@ -34424,6 +34485,7 @@
     ballotpedia: Anthony Brown (Maryland)
   name:
     first: Anthony
+    middle: G.
     last: Brown
     official_full: Anthony Brown
   bio:
@@ -34781,6 +34843,7 @@
     ballotpedia: Tom Suozzi
   name:
     first: Thomas
+    middle: R.
     last: Suozzi
     official_full: Thomas R. Suozzi
   bio:
@@ -34887,6 +34950,7 @@
     ballotpedia: Brian Fitzpatrick
   name:
     first: Brian
+    middle: K.
     last: Fitzpatrick
     official_full: Brian K. Fitzpatrick
   bio:
@@ -35134,6 +35198,7 @@
     ballotpedia: Jodey Arrington
   name:
     first: Jodey
+    middle: C.
     last: Arrington
     official_full: Jodey C. Arrington
   bio:
@@ -35459,7 +35524,6 @@
   name:
     first: Ralph
     last: Norman
-    suffix: Jr.
     official_full: Ralph Norman
   bio:
     birthday: '1953-06-20'
@@ -35564,6 +35628,7 @@
     icpsr: 21755
   name:
     first: John
+    middle: R.
     last: Curtis
     official_full: John R. Curtis
   bio:
@@ -36852,6 +36917,7 @@
   name:
     first: Jesús
     middle: G.
+    nickname: Chuy
     last: García
     official_full: Jesús G. "Chuy" García
   bio:
@@ -38571,46 +38637,6 @@
     office: 1722 Longworth House Office Building
     phone: 202-225-3484
 - id:
-    bioguide: W000827
-    fec:
-    - H8TX06233
-    govtrack: 412823
-    wikipedia: Ron Wright (politician)
-    wikidata: Q60428775
-    opensecrets: N00042240
-    icpsr: 21984
-    google_entity_id: kg:/g/11fgkl82tl
-    ballotpedia: Ronald Wright
-    votesmart: 78666
-  name:
-    first: Ron
-    last: Wright
-    official_full: Ron Wright
-  bio:
-    gender: M
-    birthday: '1953-04-08'
-  terms:
-  - type: rep
-    start: '2019-01-03'
-    end: '2021-01-03'
-    state: TX
-    district: 6
-    party: Republican
-    phone: 202-225-2002
-    address: 428 Cannon House Office Building Washington DC 20515-4306
-    office: 428 Cannon House Office Building
-    url: https://wright.house.gov
-  - type: rep
-    start: '2021-01-03'
-    end: '2023-01-03'
-    state: TX
-    district: 6
-    party: Republican
-    url: https://wright.house.gov
-    address: 1725 Longworth House Office Building Washington DC 20515-4306
-    office: 1725 Longworth House Office Building
-    phone: 202-225-2002
-- id:
     bioguide: F000468
     fec:
     - H8TX07140
@@ -39175,6 +39201,7 @@
     icpsr: 41901
   name:
     first: Joshua
+    nickname: Josh
     last: Hawley
     official_full: Josh Hawley
   bio:
@@ -39342,7 +39369,7 @@
     state: NC
     district: 9
     party: Republican
-    url: https://danbishop.house.gov/
+    url: https://danbishop.house.gov
     address: 1207 Longworth House Office Building Washington DC 20515-3309
     office: 1207 Longworth House Office Building
     phone: 202-225-1976
@@ -39384,44 +39411,10 @@
     state: NC
     district: 3
     party: Republican
-    url: https://gregmurphy.house.gov/
+    url: https://gregmurphy.house.gov
     address: 313 Cannon House Office Building Washington DC 20515-3303
     office: 313 Cannon House Office Building
     phone: 202-225-3415
-- id:
-    bioguide: L000594
-    lis: S405
-    fec:
-    - S0GA00526
-    govtrack: 456790
-    wikipedia: Kelly Loeffler
-    wikidata: Q76570207
-    ballotpedia: Kelly Loeffler
-    opensecrets: N00046125
-    google_entity_id: kg:/g/11j3kgpjlx
-    votesmart: 188718
-  name:
-    first: Kelly
-    last: Loeffler
-    official_full: Kelly Loeffler
-  bio:
-    gender: F
-    birthday: '1970-11-27'
-  terms:
-  - type: sen
-    start: '2020-01-06'
-    end: '2021-01-31'
-    how: appointment
-    end-type: special-election
-    state: GA
-    class: 3
-    party: Republican
-    state_rank: junior
-    url: https://www.loeffler.senate.gov
-    address: 131 Russell Senate Office Building Washington DC 20510
-    office: 131 Russell Senate Office Building
-    phone: 202-224-3643
-    contact_form: https://www.loeffler.senate.gov/connect/email-kelly
 - id:
     bioguide: M000687
     thomas: '00798'
@@ -39492,6 +39485,7 @@
     address: 2263 Rayburn House Office Building Washington DC 20515-2007
     office: 2263 Rayburn House Office Building
     phone: 202-225-4741
+    url: https://mfume.house.gov
 - id:
     bioguide: T000165
     fec:
@@ -39528,6 +39522,7 @@
     address: 1719 Longworth House Office Building Washington DC 20515-4907
     office: 1719 Longworth House Office Building
     phone: 202-225-3365
+    url: https://tiffany.house.gov
 - id:
     bioguide: G000061
     fec:
@@ -39564,6 +39559,7 @@
     address: 1535 Longworth House Office Building Washington DC 20515-0525
     office: 1535 Longworth House Office Building
     phone: 202-225-1956
+    url: https://mikegarcia.house.gov
 - id:
     bioguide: J000020
     fec:
@@ -39599,6 +39595,7 @@
     address: 214 Cannon House Office Building Washington DC 20515-3227
     office: 214 Cannon House Office Building
     phone: 202-225-5265
+    url: https://jacobs.house.gov
 - id:
     bioguide: K000377
     lis: S406
@@ -40086,7 +40083,6 @@
     first: John
     middle: Wright
     last: Hickenlooper
-    suffix: Jr.
     official_full: John W. Hickenlooper
   bio:
     gender: M
@@ -40119,7 +40115,6 @@
     first: Bill
     middle: Francis
     last: Hagerty
-    suffix: IV
     official_full: Bill Hagerty
   bio:
     gender: M
@@ -40164,6 +40159,7 @@
     address: 1330 Longworth House Office Building Washington DC 20515-0101
     office: 1330 Longworth House Office Building
     phone: 202-225-4931
+    url: https://carl.house.gov
 - id:
     bioguide: M001212
     fec:
@@ -40173,8 +40169,7 @@
     wikipedia: Barry Moore (Alabama politician)
     google_entity_id: kg:/g/11fkw7vjdf
   name:
-    first: Felix
-    middle: Barry
+    first: Barry
     last: Moore
     official_full: Barry Moore
   bio:
@@ -40190,6 +40185,7 @@
     address: 1504 Longworth House Office Building Washington DC 20515-0102
     office: 1504 Longworth House Office Building
     phone: 202-225-2901
+    url: https://barrymoore.house.gov
 - id:
     bioguide: O000019
     fec:
@@ -40217,6 +40213,7 @@
     address: 1029 Longworth House Office Building Washington DC 20515-0508
     office: 1029 Longworth House Office Building
     phone: 202-225-5861
+    url: https://obernolte.house.gov
 - id:
     bioguide: K000397
     fec:
@@ -40297,6 +40294,7 @@
     address: 1232 Longworth House Office Building Washington DC 20515-0553
     office: 1232 Longworth House Office Building
     phone: 202-225-2040
+    url: https://sarajacobs.house.gov
 - id:
     bioguide: B000825
     fec:
@@ -40324,6 +40322,7 @@
     address: 1609 Longworth House Office Building Washington DC 20515-0603
     office: 1609 Longworth House Office Building
     phone: 202-225-4761
+    url: https://boebert.house.gov
 - id:
     bioguide: C001039
     fec:
@@ -40334,6 +40333,7 @@
     google_entity_id: kg:/g/11fsp_lppx
   name:
     first: Katherine
+    nickname: Kat
     last: Cammack
     official_full: Kat Cammack
   bio:
@@ -40349,6 +40349,7 @@
     address: 1626 Longworth House Office Building Washington DC 20515-0903
     office: 1626 Longworth House Office Building
     phone: 202-225-5744
+    url: https://cammack.house.gov
 - id:
     bioguide: F000472
     fec:
@@ -40358,7 +40359,8 @@
     wikipedia: Scott Franklin (politician)
     google_entity_id: kg:/g/11ft5hszwx
   name:
-    first: Scott
+    first: C.
+    middle: Scott
     last: Franklin
     official_full: C. Scott Franklin
   bio:
@@ -40401,6 +40403,7 @@
     address: 523 Cannon House Office Building Washington DC 20515-0919
     office: 523 Cannon House Office Building
     phone: 202-225-2536
+    url: https://donalds.house.gov
 - id:
     bioguide: G000593
     fec:
@@ -40414,7 +40417,7 @@
   name:
     first: Carlos
     middle: A.
-    last: Giménez
+    last: Gimenez
     official_full: Carlos A. Gimenez
   bio:
     gender: M
@@ -40429,6 +40432,7 @@
     address: 419 Cannon House Office Building Washington DC 20515-0926
     office: 419 Cannon House Office Building
     phone: 202-225-2778
+    url: https://gimenez.house.gov
 - id:
     bioguide: S000168
     fec:
@@ -40456,6 +40460,7 @@
     address: 1616 Longworth House Office Building Washington DC 20515-0927
     office: 1616 Longworth House Office Building
     phone: 202-225-3931
+    url: https://salazar.house.gov
 - id:
     bioguide: W000788
     fec:
@@ -40483,6 +40488,7 @@
     address: 1406 Longworth House Office Building Washington DC 20515-1005
     office: 1406 Longworth House Office Building
     phone: 202-225-3801
+    url: https://nikemawilliams.house.gov
 - id:
     bioguide: B001312
     fec:
@@ -40509,6 +40515,7 @@
     address: 1319 Longworth House Office Building Washington DC 20515-1007
     office: 1319 Longworth House Office Building
     phone: 202-225-4272
+    url: https://bourdeaux.house.gov
 - id:
     bioguide: C001116
     fec:
@@ -40519,6 +40526,7 @@
     google_entity_id: kg:/g/11j32tm4v4
   name:
     first: Andrew
+    middle: S.
     last: Clyde
     official_full: Andrew S. Clyde
   bio:
@@ -40534,6 +40542,7 @@
     address: 521 Cannon House Office Building Washington DC 20515-1009
     office: 521 Cannon House Office Building
     phone: 202-225-9893
+    url: https://clyde.house.gov
 - id:
     bioguide: G000596
     fec:
@@ -40561,6 +40570,7 @@
     address: 1023 Longworth House Office Building Washington DC 20515-1014
     office: 1023 Longworth House Office Building
     phone: 202-225-5211
+    url: https://greene.house.gov
 - id:
     bioguide: K000396
     fec:
@@ -40586,6 +40596,7 @@
     address: 1205 Longworth House Office Building Washington DC 20515-1102
     office: 1205 Longworth House Office Building
     phone: 202-225-4906
+    url: https://kahele.house.gov
 - id:
     bioguide: H001091
     fec:
@@ -40614,6 +40625,7 @@
     address: 1429 Longworth House Office Building Washington DC 20515-1501
     office: 1429 Longworth House Office Building
     phone: 202-225-2911
+    url: https://hinson.house.gov
 - id:
     bioguide: M001215
     fec:
@@ -40642,6 +40654,7 @@
     address: 1716 Longworth House Office Building Washington DC 20515-1502
     office: 1716 Longworth House Office Building
     phone: 202-225-6576
+    url: https://millermeeks.house.gov
 - id:
     bioguide: F000446
     fec:
@@ -40670,6 +40683,7 @@
     address: 1440 Longworth House Office Building Washington DC 20515-1504
     office: 1440 Longworth House Office Building
     phone: 202-225-4426
+    url: https://feenstra.house.gov
 - id:
     bioguide: N000192
     fec:
@@ -40695,6 +40709,7 @@
     address: 1022 Longworth House Office Building Washington DC 20515-1303
     office: 1022 Longworth House Office Building
     phone: 202-225-5701
+    url: https://newman.house.gov
 - id:
     bioguide: M001211
     fec:
@@ -40705,6 +40720,7 @@
     google_entity_id: kg:/g/11fsd5mh_l
   name:
     first: Mary
+    middle: E.
     last: Miller
     official_full: Mary E. Miller
   bio:
@@ -40720,6 +40736,7 @@
     address: 1529 Longworth House Office Building Washington DC 20515-1315
     office: 1529 Longworth House Office Building
     phone: 202-225-5271
+    url: https://marymiller.house.gov
 - id:
     bioguide: M001214
     fec:
@@ -40746,6 +40763,7 @@
     address: 1607 Longworth House Office Building Washington DC 20515-1401
     office: 1607 Longworth House Office Building
     phone: 202-225-2461
+    url: https://mrvan.house.gov
 - id:
     bioguide: S000929
     fec:
@@ -40771,6 +40789,7 @@
     address: 1523 Longworth House Office Building Washington DC 20515-1405
     office: 1523 Longworth House Office Building
     phone: 202-225-2276
+    url: https://spartz.house.gov
 - id:
     bioguide: M000871
     fec:
@@ -40797,6 +40816,7 @@
     address: 522 Cannon House Office Building Washington DC 20515-1601
     office: 522 Cannon House Office Building
     phone: 202-225-2715
+    url: https://mann.house.gov
 - id:
     bioguide: L000266
     fec:
@@ -40807,6 +40827,7 @@
     google_entity_id: kg:/m/0w32xrn
   name:
     first: Jacob
+    nickname: Jake
     last: LaTurner
     official_full: Jake LaTurner
   bio:
@@ -40876,6 +40897,7 @@
     address: 1508 Longworth House Office Building Washington DC 20515-2203
     office: 1508 Longworth House Office Building
     phone: 202-225-3831
+    url: https://meijer.house.gov
 - id:
     bioguide: M001136
     fec:
@@ -40887,6 +40909,7 @@
     ballotpedia: Lisa McClain
   name:
     first: Lisa
+    middle: C.
     last: McClain
     official_full: Lisa C. McClain
   bio:
@@ -40902,6 +40925,7 @@
     address: 218 Cannon House Office Building Washington DC 20515-2210
     office: 218 Cannon House Office Building
     phone: 202-225-2106
+    url: https://mcclain.house.gov
 - id:
     bioguide: F000470
     fec:
@@ -40929,6 +40953,7 @@
     address: 1237 Longworth House Office Building Washington DC 20515-2307
     office: 1237 Longworth House Office Building
     phone: 202-225-2165
+    url: https://fischbach.house.gov
 - id:
     bioguide: B001224
     fec:
@@ -40952,9 +40977,10 @@
     state: MO
     district: 1
     party: Democrat
-    address: 1016 Longworth House Office Building Washington DC 20515-2501
-    office: 1016 Longworth House Office Building
+    address: 563 Cannon House Office Building Washington DC 20515-2501
+    office: 563 Cannon House Office Building
     phone: 202-225-2406
+    url: https://bush.house.gov
 - id:
     bioguide: R000103
     fec:
@@ -40984,6 +41010,7 @@
     address: 1037 Longworth House Office Building Washington DC 20515-2600
     office: 1037 Longworth House Office Building
     phone: 202-225-3211
+    url: https://rosendale.house.gov
 - id:
     bioguide: R000305
     fec:
@@ -41011,6 +41038,7 @@
     address: 1208 Longworth House Office Building Washington DC 20515-3302
     office: 1208 Longworth House Office Building
     phone: 202-225-3032
+    url: https://ross.house.gov
 - id:
     bioguide: M001135
     fec:
@@ -41037,6 +41065,7 @@
     address: 415 Cannon House Office Building Washington DC 20515-3306
     office: 415 Cannon House Office Building
     phone: 202-225-3065
+    url: https://manning.house.gov
 - id:
     bioguide: C001104
     fec:
@@ -41048,7 +41077,7 @@
     ballotpedia: Madison Cawthorn
   name:
     first: David
-    middle: Madison
+    nickname: Madison
     last: Cawthorn
     official_full: Madison Cawthorn
   bio:
@@ -41064,6 +41093,7 @@
     address: 102 Cannon House Office Building Washington DC 20515-3311
     office: 102 Cannon House Office Building
     phone: 202-225-6401
+    url: https://cawthorn.house.gov
 - id:
     bioguide: H001084
     fec:
@@ -41075,8 +41105,7 @@
     votesmart: 121681
     ballotpedia: Yvette Herrell
   name:
-    first: Stella
-    middle: Yvette
+    first: Yvette
     last: Herrell
     official_full: Yvette Herrell
   bio:
@@ -41092,6 +41121,7 @@
     address: 1305 Longworth House Office Building Washington DC 20515-3102
     office: 1305 Longworth House Office Building
     phone: 202-225-2365
+    url: https://herrell.house.gov
 - id:
     bioguide: L000273
     fec:
@@ -41102,8 +41132,7 @@
     google_entity_id: kg:/g/11h_x7n8f5
   name:
     first: Teresa
-    middle: Leger
-    last: Fernandez
+    last: Leger Fernandez
     official_full: Teresa Leger Fernandez
   bio:
     gender: F
@@ -41129,6 +41158,7 @@
     google_entity_id: kg:/g/11bw8f4j8q
   name:
     first: Andrew
+    middle: R.
     last: Garbarino
     official_full: Andrew R. Garbarino
   bio:
@@ -41144,6 +41174,7 @@
     address: 1516 Longworth House Office Building Washington DC 20515-3202
     office: 1516 Longworth House Office Building
     phone: 202-225-7896
+    url: https://garbarino.house.gov
 - id:
     bioguide: M000317
     fec:
@@ -41169,6 +41200,7 @@
     address: 417 Cannon House Office Building Washington DC 20515-3211
     office: 417 Cannon House Office Building
     phone: 202-225-3371
+    url: https://malliotakis.house.gov
 - id:
     bioguide: T000486
     fec:
@@ -41196,6 +41228,7 @@
     address: 317 Cannon House Office Building Washington DC 20515-3215
     office: 317 Cannon House Office Building
     phone: 202-225-4361
+    url: https://ritchietorres.house.gov
 - id:
     bioguide: B001223
     fec:
@@ -41222,6 +41255,7 @@
     address: 1605 Longworth House Office Building Washington DC 20515-3216
     office: 1605 Longworth House Office Building
     phone: 202-225-2464
+    url: https://bowman.house.gov
 - id:
     bioguide: J000306
     fec:
@@ -41249,6 +41283,7 @@
     address: 1017 Longworth House Office Building Washington DC 20515-3217
     office: 1017 Longworth House Office Building
     phone: 202-225-6506
+    url: https://jones.house.gov
 - id:
     bioguide: B000740
     fec:
@@ -41260,6 +41295,7 @@
     ballotpedia: Stephanie Bice
   name:
     first: Stephanie
+    middle: I.
     last: Bice
     official_full: Stephanie I. Bice
   bio:
@@ -41275,6 +41311,7 @@
     address: 1223 Longworth House Office Building Washington DC 20515-3605
     office: 1223 Longworth House Office Building
     phone: 202-225-2132
+    url: https://bice.house.gov
 - id:
     bioguide: B000668
     fec:
@@ -41329,6 +41366,7 @@
     address: 212 Cannon House Office Building Washington DC 20515-4001
     office: 212 Cannon House Office Building
     phone: 202-225-3176
+    url: https://mace.house.gov
 - id:
     bioguide: H001086
     fec:
@@ -41354,6 +41392,7 @@
     address: 167 Cannon House Office Building Washington DC 20515-4201
     office: 167 Cannon House Office Building
     phone: 202-225-6356
+    url: https://harshbarger.house.gov
 - id:
     bioguide: F000246
     fec:
@@ -41365,6 +41404,7 @@
   name:
     first: Patrick
     middle: Edward
+    nickname: Pat
     last: Fallon
     official_full: Pat Fallon
   bio:
@@ -41380,6 +41420,7 @@
     address: 1118 Longworth House Office Building Washington DC 20515-4304
     office: 1118 Longworth House Office Building
     phone: 202-225-6673
+    url: https://fallon.house.gov
 - id:
     bioguide: P000048
     fec:
@@ -41407,6 +41448,7 @@
     address: 1531 Longworth House Office Building Washington DC 20515-4311
     office: 1531 Longworth House Office Building
     phone: 202-225-3605
+    url: https://pfluger.house.gov
 - id:
     bioguide: J000304
     fec:
@@ -41463,6 +41505,7 @@
     address: 1104 Longworth House Office Building Washington DC 20515-4322
     office: 1104 Longworth House Office Building
     phone: 202-225-5951
+    url: https://nehls.house.gov
 - id:
     bioguide: G000594
     fec:
@@ -41473,8 +41516,8 @@
   name:
     first: Ernest
     middle: Anthony
+    nickname: Tony
     last: Gonzales
-    suffix: II
     official_full: Tony Gonzales
   bio:
     gender: M
@@ -41489,6 +41532,7 @@
     address: 1009 Longworth House Office Building Washington DC 20515-4323
     office: 1009 Longworth House Office Building
     phone: 202-225-4511
+    url: https://gonzales.house.gov
 - id:
     bioguide: V000134
     fec:
@@ -41544,6 +41588,7 @@
     address: 1320 Longworth House Office Building Washington DC 20515-4401
     office: 1320 Longworth House Office Building
     phone: 202-225-0453
+    url: https://blakemoore.house.gov
 - id:
     bioguide: O000086
     fec:
@@ -41555,7 +41600,7 @@
     ballotpedia: Burgess Owens
   name:
     first: Clarence
-    middle: Burgess
+    nickname: Burgess
     last: Owens
     official_full: Burgess Owens
   bio:
@@ -41571,6 +41616,7 @@
     address: 1039 Longworth House Office Building Washington DC 20515-4404
     office: 1039 Longworth House Office Building
     phone: 202-225-3011
+    url: https://owens.house.gov
 - id:
     bioguide: G000595
     fec:
@@ -41582,6 +41628,7 @@
   name:
     first: Robert
     middle: G.
+    nickname: Bob
     last: Good
     official_full: Bob Good
   bio:
@@ -41597,6 +41644,7 @@
     address: 1213 Longworth House Office Building Washington DC 20515-4605
     office: 1213 Longworth House Office Building
     phone: 202-225-4711
+    url: https://good.house.gov
 - id:
     bioguide: S001159
     fec:
@@ -41622,6 +41670,7 @@
     address: 1004 Longworth House Office Building Washington DC 20515-4710
     office: 1004 Longworth House Office Building
     phone: 202-225-9740
+    url: https://strickland.house.gov
 - id:
     bioguide: F000471
     fec:
@@ -41649,3 +41698,136 @@
     address: 1507 Longworth House Office Building Washington DC 20515-4905
     office: 1507 Longworth House Office Building
     phone: 202-225-5101
+    url: https://fitzgerald.house.gov
+- id:
+    bioguide: P000145
+    lis: S413
+    govtrack: 456856
+    wikipedia: Alex Padilla
+    wikidata: Q4717593
+    ballotpedia: Alex Padilla
+  name:
+    first: Alejandro
+    nickname: Alex
+    last: Padilla
+    official_full: Alex Padilla
+  bio:
+    gender: M
+    birthday: '1973-03-22'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2023-01-03'
+    how: appointment
+    state: CA
+    class: 3
+    party: Democrat
+    state_rank: junior
+    address: 112 Hart Senate Office Building Washington DC 20510
+    office: 112 Hart Senate Office Building
+    phone: 202-224-3553
+    url: https://www.padilla.senate.gov
+    contact_form: http://www.padilla.senate.gov
+- id:
+    bioguide: O000174
+    lis: S414
+    fec:
+    - H8GA06195
+    - S8GA00180
+    govtrack: 456857
+    wikipedia: Jon Ossoff
+    wikidata: Q28839536
+    ballotpedia: Jon Ossoff
+  name:
+    first: Jon
+    last: Ossoff
+    official_full: Jon Ossoff
+  bio:
+    gender: M
+    birthday: '1987-02-16'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2027-01-03'
+    state: GA
+    class: 2
+    party: Democrat
+    state_rank: senior
+    address: 825 B&C Hart Senate Office Building Washington DC 20510
+    office: 825 B&c Hart Senate Office Building
+    phone: 202-224-3521
+    url: https://www.ossoff.senate.gov
+    contact_form: https://www.ossoff.senate.gov
+- id:
+    bioguide: W000790
+    lis: S415
+    fec:
+    - S0GA00559
+    govtrack: 456858
+    wikipedia: Raphael Warnock
+    wikidata: Q84146599
+    ballotpedia: Raphael Warnock
+  name:
+    first: Raphael
+    middle: Gamaliel
+    last: Warnock
+    official_full: Raphael G. Warnock
+  bio:
+    gender: M
+    birthday: '1969-07-23'
+  terms:
+  - type: sen
+    start: '2021-01-20'
+    end: '2023-01-03'
+    how: special-election
+    state: GA
+    class: 3
+    party: Democrat
+    state_rank: junior
+    address: B40D Dirksen Senate Office Building Washington DC 20510
+    office: B40d Dirksen Senate Office Building
+    phone: 202-224-3643
+    url: https://www.warnock.senate.gov
+    contact_form: https://www.warnock.senate.gov
+- id:
+    bioguide: T000478
+    fec:
+    - H4NY22051
+    govtrack: 412720
+    opensecrets: N00036351
+    wikipedia: Claudia Tenney
+    wikidata: Q5129263
+    google_entity_id: kg:/m/0g5s72n
+    votesmart: 127668
+    maplight: 2232
+    cspan: 103481
+    icpsr: 21749
+    ballotpedia: Claudia Tenney
+  name:
+    first: Claudia
+    last: Tenney
+    official_full: Claudia Tenney
+  bio:
+    gender: F
+    birthday: '1961-02-04'
+  terms:
+  - type: rep
+    start: '2017-01-03'
+    end: '2019-01-03'
+    state: NY
+    district: 22
+    party: Republican
+    phone: 202-225-3665
+    address: 512 Cannon House Office Building; Washington DC 20515-3222
+    office: 512 Cannon House Office Building
+    url: https://tenney.house.gov
+  - type: rep
+    start: '2021-02-11'
+    end: '2023-01-03'
+    state: NY
+    district: 22
+    party: Republican
+    address: 1410 Longworth House Office Building Washington DC 20515-3222
+    office: 1410 Longworth House Office Building
+    phone: 202-225-3665
+    url: https://tenney.house.gov
