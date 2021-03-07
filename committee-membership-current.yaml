@@ -4965,7 +4965,17 @@ HSIF:
   party: majority
   rank: 32
   bioguide: F000468
-HSIG: []
+HLIG:
+- name: Adam B. Schiff
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S001150
+- name: Devin Nunes
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: N000181
 HSII:
 - name: Raúl M. Grijalva
   party: majority
@@ -6336,14 +6346,3 @@ HSWM:
   party: majority
   rank: 25
   bioguide: P000610
-HLIG:
-- name: Adam B. Schiff
-  party: majority
-  rank: 1
-  title: Chair
-  bioguide: S001150
-- name: Devin Nunes
-  party: minority
-  rank: 1
-  title: Ranking Member
-  bioguide: N000181
