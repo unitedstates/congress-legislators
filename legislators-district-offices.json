@@ -9822,6 +9822,41 @@
   },
   {
     "id": {
+      "bioguide": "M000687",
+      "govtrack": 407672,
+      "thomas": "00798"
+    },
+    "offices": [
+      {
+        "id": "M000687-baltimore",
+        "address": "1010 Park Avenue",
+        "suite": "Suite 105",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21201",
+        "phone": "410-685-9199"
+      },
+      {
+        "id": "M000687-catonsville",
+        "address": "754 Frederick Road",
+        "city": "Catonsville",
+        "state": "MD",
+        "zip": "21228",
+        "phone": "410-818-2120"
+      },
+      {
+        "id": "M000687-ellicot",
+        "address": "8267 Main Street",
+        "suite": "Room 102",
+        "city": "Ellicot",
+        "state": "MD",
+        "zip": "21043",
+        "phone": "443-364-5413"
+      }
+    ]
+  },
+  {
+    "id": {
       "bioguide": "M000934",
       "govtrack": 400284,
       "thomas": "01507"
