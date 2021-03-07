@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Validate that the YAML files have sane data.
 
 import os, sys
@@ -426,6 +427,30 @@ def check_district_offices():
     if has_errors:
         pass # error("", "District offices have errors")
 
+def check_committee_assignments():
+    # Check that committee IDs in the committee membership file
+    # correspond to committees in committees-current.yaml and
+    # warn about committees missing membership info.
+
+    with open("committees-current.yaml") as f:
+        committees = rtyaml.load(f)
+    with open("committee-membership-current.yaml") as f:
+        membership = rtyaml.load(f)
+
+    committee_ids = [c["thomas_id"] for c in committees]
+    committee_ids += sum(
+        [
+            [c["thomas_id"] + s["thomas_id"] for s in c.get("subcommittees", [])]
+            for c in committees],
+        [])
+
+    for c in membership.keys():
+        if c not in committee_ids:
+            error("committee-membership-current.yaml", "Invalid committee ID: " + c)
+
+    for c in committee_ids:
+        if c not in membership:
+            print("committees-current.yaml", "No membership information for: " + c)
 
 if __name__ == "__main__":
   # Check the legislators files.
@@ -437,6 +462,7 @@ if __name__ == "__main__":
   check_executive_file("executive.yaml")
   check_id_uniqueness(seen_ids)
   check_district_offices()
+  check_committee_assignments()
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
