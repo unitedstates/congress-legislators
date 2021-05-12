@@ -100,6 +100,8 @@ def run():
 
     # scan the membership, which is listed by party
     members = committee_membership.setdefault(output_code, [])
+    existing_members_data = list(members) # clone it
+    members.clear()
     committee_member_ids = set()
     for i, party, nodename in ((1, 'majority', 'primary'), (2, 'minority', 'secondary')):
       ctr = 0
@@ -157,7 +159,7 @@ def run():
 
         # Look for an existing entry for this member and take
         # start_date and source from it, if set.
-        for item in members:
+        for item in existing_members_data:
           if item["bioguide"] == entry["bioguide"]:
             for key in ("start_date", "source"):
                 if key in item:
@@ -268,11 +270,15 @@ def run():
           majority_party, is_joint)
 
   def scrape_senate_members(members, output_list, majority_party, is_joint):
+    # Keep a copy of the previous membership.
+    existing_members_data = list(output_list) # clone
+    output_list.clear()
+
     # Update members.
     ids = set()
     count_by_party = { "majority": 0, "minority": 0 }
     for node in members:
-      ids.add(scrape_senate_member(output_list, node, majority_party, is_joint, count_by_party))
+      ids.add(scrape_senate_member(output_list, node, majority_party, is_joint, count_by_party, existing_members_data))
 
     # Purge non-members. Ignore House members of joint committees.
     i = 0
@@ -285,7 +291,7 @@ def run():
     # sort by party, then by rank, since we get the nodes in the XML in a rough seniority order that ignores party
     output_list.sort(key = lambda e : (e["party"] != "majority", e["rank"]))
 
-  def scrape_senate_member(output_list, membernode, majority_party, is_joint, count_by_party):
+  def scrape_senate_member(output_list, membernode, majority_party, is_joint, count_by_party, existing_members_data):
     last_name = membernode.xpath("name/last")[0].text
     state = membernode.xpath("state")[0].text
     party = "majority" if membernode.xpath("party")[0].text == majority_party else "minority"
@@ -315,7 +321,7 @@ def run():
 
     # Look for an existing entry for this member and take
     # start_date and source from it, if set.
-    for item in output_list:
+    for item in existing_members_data:
       if item["bioguide"] == entry["bioguide"]:
         for key in ("start_date", "source"):
             if key in item:
