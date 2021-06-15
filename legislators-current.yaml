@@ -32285,8 +32285,8 @@
     party: Republican
     url: https://www.rounds.senate.gov
     contact_form: https://www.rounds.senate.gov/contact/email-mike
-    address: 502 Hart Senate Office Building Washington DC 20510
-    office: 502 Hart Senate Office Building
+    address: 716 Hart Senate Office Building Washington DC 20510
+    office: 716 Hart Senate Office Building
     phone: 202-224-5842
 - id:
     bioguide: S001197
@@ -33153,8 +33153,8 @@
     district: 44
     party: Democrat
     url: https://barragan.house.gov
-    address: 2246 Longworth House Office Building Washington DC 20515-0544
-    office: 2246 Longworth House Office Building
+    address: 2246 Rayburn House Office Building Washington DC 20515-0544
+    office: 2246 Rayburn House Office Building
     phone: 202-225-8220
 - id:
     bioguide: C001110
@@ -33998,8 +33998,8 @@
     party: Republican
     url: https://www.marshall.senate.gov
     contact_form: https://www.marshall.senate.gov
-    address: B33 Russell Senate Office Building Washington DC 20510
-    office: B33 Russell Senate Office Building
+    address: 479A Russell Senate Office Building Washington DC 20510
+    office: 479a Russell Senate Office Building
     phone: 202-224-4774
 - id:
     bioguide: H001077
@@ -38748,8 +38748,8 @@
     party: Republican
     state_rank: junior
     url: https://www.rickscott.senate.gov
-    address: B11 Russell Senate Office Building Washington DC 20510
-    office: B11 Russell Senate Office Building
+    address: 502 Hart Senate Office Building Washington DC 20510
+    office: 502 Hart Senate Office Building
     phone: 202-224-5274
     contact_form: https://www.rickscott.senate.gov/contact_rick
 - id:
@@ -38815,8 +38815,8 @@
     party: Republican
     state_rank: junior
     url: https://www.hawley.senate.gov
-    address: 212 Russell Senate Office Building Washington DC 20510
-    office: 212 Russell Senate Office Building
+    address: 115 Russell Senate Office Building Washington DC 20510
+    office: 115 Russell Senate Office Building
     phone: 202-224-6154
     contact_form: https://www.hawley.senate.gov/contact-senator-hawley
 - id:
@@ -41381,8 +41381,8 @@
     class: 3
     party: Democrat
     state_rank: junior
-    address: B40D Dirksen Senate Office Building Washington DC 20510
-    office: B40d Dirksen Senate Office Building
+    address: 388 Russell Senate Office Building Washington DC 20510
+    office: 388 Russell Senate Office Building
     phone: 202-224-3643
     url: https://www.warnock.senate.gov
     contact_form: https://www.warnock.senate.gov
@@ -41466,7 +41466,7 @@
     first: Troy
     middle: Anthony
     last: Carter
-    official_full: Troy Carter
+    official_full: Troy A. Carter
   bio:
     gender: M
     birthday: '1963-10-26'
@@ -41480,3 +41480,30 @@
     address: 506 Cannon House Office Building Washington DC 20515-1802
     office: 506 Cannon House Office Building
     phone: 202-225-6636
+    url: https://troycarter.house.gov
+- id:
+    bioguide: S001218
+    fec:
+    - H2NM01144
+    govtrack: 456861
+    wikipedia: Melanie Stansbury
+    wikidata: Q96184996
+    ballotpedia: Melanie Ann Stansbury
+  name:
+    first: Melanie
+    middle: Ann
+    last: Stansbury
+  bio:
+    gender: F
+    birthday: '1979-01-31'
+  terms:
+  - type: rep
+    start: '2021-06-14'
+    end: '2023-01-03'
+    state: NM
+    district: 1
+    party: Democrat
+    url: https://stansbury.house.gov
+    address: 1421 Longworth House Office Building Washington DC 20515-3101
+    office: 1421 Longworth House Office Building
+    phone: 202-225-6316
