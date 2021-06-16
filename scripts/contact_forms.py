@@ -59,7 +59,7 @@ def run():
 
 
 def contact_steps_for(bioguide):
-    base_url = "https://raw.githubusercontent.com/unitedstates/contact-congress/master/members/{bioguide}.yaml"
+    base_url = "https://raw.githubusercontent.com/unitedstates/contact-congress/main/members/{bioguide}.yaml"
     response = urlopen(base_url.format(bioguide=bioguide))
     if response.code == 404:
         raise LegislatorNotFoundError("%s not found in unitedstates/contact-congress!" % bioguide)

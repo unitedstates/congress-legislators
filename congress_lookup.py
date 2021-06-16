@@ -121,7 +121,7 @@ class CongressLookup:
     def database_access(self,filename):
         if self.args.download:
             if self.args.repo[-1] != '/': self.args.repo += '/'
-            url_base = urlparse.urljoin(urlparse.urlunparse(urlparse.urlparse(self.args.repo)._replace(netloc='raw.githubusercontent.com')),'master/')
+            url_base = urlparse.urljoin(urlparse.urlunparse(urlparse.urlparse(self.args.repo)._replace(netloc='raw.githubusercontent.com')),'main/')
             # contextlib required for urlopen in with ... as for v < 3.3
             res = contextlib.closing(urlopen( urlparse.urljoin(url_base,filename) ))
         else:

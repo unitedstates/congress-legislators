@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Current commit hash on the source branch.
-SRC_BRANCH=master
+SRC_BRANCH=main
 
 # Switch to gh-pages branch.
 git checkout gh-pages
