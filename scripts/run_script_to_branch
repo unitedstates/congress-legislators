@@ -39,16 +39,16 @@ fi
 # Create a branch with the name of the script, the date, and a random string to prevent accidental collisions.
 BRANCH_NAME=$1_`date +%Y%m%d`_$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 6 | head -n 1)
 git fetch
-git checkout -b $BRANCH_NAME master
+git checkout -b $BRANCH_NAME main
 
 # Run the script.
 echo Running $@...
 ./$@
 
-# If there were no changes. Return to the master branch and then delete our temporary branch.
+# If there were no changes. Return to the main branch and then delete our temporary branch.
 if git diff-files --quiet --ignore-submodules; then
 	echo No changes.;
-	git checkout master;
+	git checkout main;
 	git branch -d $BRANCH_NAME;
 	exit;
 fi
@@ -63,7 +63,7 @@ if [ $PUSH -gt 0 ]; then
 		if hub pull-request -m "[auto] $CMD run at `date "+%FT%T"`"; then
 			# Success, so we can delete our local copy. Use -D to force delete
 			# even though it's not merged.
-			git checkout master;
+			git checkout main;
 			git branch -D $BRANCH_NAME;
 		fi
 	fi
