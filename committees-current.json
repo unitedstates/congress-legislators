@@ -1092,7 +1092,7 @@
         "wikipedia": "United States Senate Agriculture Subcommittee on Commodities, Markets, Trade and Risk Management"
       },
       {
-        "name": "Conservation, Forestry, and Natural Resources",
+        "name": "Conservation, Climate, Forestry, and Natural Resources",
         "thomas_id": "14",
         "wikipedia": "United States Senate Agriculture Subcommittee on Conservation, Forestry and Natural Resources"
       },
@@ -1102,12 +1102,12 @@
         "wikipedia": "United States Senate Agriculture Subcommittee on Jobs, Rural Economic Growth and Energy Innovation"
       },
       {
-        "name": "Nutrition, Agricultural Research, and Specialty Crops",
+        "name": "Food and Nutrition, Specialty Crops, Organics, and Research",
         "thomas_id": "16",
         "wikipedia": "United States Senate Agriculture Subcommittee on Nutrition, Specialty Crops, Food and Agricultural Research"
       },
       {
-        "name": "Livestock, Marketing, and Agriculture Security",
+        "name": "Livestock, Dairy, Poultry, Local Food Systems, and Food Safety and Security",
         "thomas_id": "17",
         "wikipedia": "United States Senate Agriculture Subcommittee on Livestock, Dairy, Poultry, Marketing and Agriculture Security"
       }
@@ -1141,17 +1141,17 @@
         "wikipedia": "United States Senate Appropriations Subcommittee on Financial Services and General Government"
       },
       {
-        "name": "Department of Homeland Security",
+        "name": "Homeland Security",
         "thomas_id": "14",
         "wikipedia": "United States Senate Appropriations Subcommittee on Homeland Security"
       },
       {
-        "name": "Department of the Interior, Environment, and Related Agencies",
+        "name": "Interior, Environment, and Related Agencies",
         "thomas_id": "17",
         "wikipedia": "United States Senate Appropriations Subcommittee on Interior, Environment, and Related Agencies"
       },
       {
-        "name": "Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+        "name": "Labor, Health and Human Services, and Education, and Related Agencies",
         "thomas_id": "18",
         "wikipedia": "United States Senate Appropriations Subcommittee on Labor, Health and Human Services, Education, and Related Agencies"
       },
@@ -1176,7 +1176,7 @@
         "wikipedia": "United States Senate Appropriations Subcommittee on Agriculture, Rural Development, Food and Drug Administration, and Related Agencies"
       },
       {
-        "name": "Department of Defense",
+        "name": "Defense",
         "thomas_id": "02",
         "wikipedia": "United States Senate Appropriations Subcommittee on Defense"
       },
@@ -1323,6 +1323,34 @@
       {
         "thomas_id": "32",
         "name": "Transportation and Safety"
+      },
+      {
+        "thomas_id": "33",
+        "name": "Aviation Safety, Operations, and Innovation"
+      },
+      {
+        "thomas_id": "34",
+        "name": "Communication, Media, and Broadband"
+      },
+      {
+        "thomas_id": "35",
+        "name": "Consumer Protection, Product Safety, and Data Security"
+      },
+      {
+        "thomas_id": "36",
+        "name": "Oceans, Fisheries, Climate Change, and Manufacturing"
+      },
+      {
+        "thomas_id": "37",
+        "name": "Space and Science"
+      },
+      {
+        "thomas_id": "38",
+        "name": "Surface Transportation, Maritime, Freight, and Ports"
+      },
+      {
+        "thomas_id": "39",
+        "name": "Tourism, Trade, and Export Promotion"
       }
     ],
     "wikipedia": "United States Senate Committee on Commerce, Science and Transportation",
@@ -1371,12 +1399,12 @@
     "senate_committee_id": "SSEV",
     "subcommittees": [
       {
-        "name": "Clean Air and Nuclear Safety",
+        "name": "Clean Air, Climate, and Nuclear Safety",
         "thomas_id": "10",
         "wikipedia": "United States Senate Environment and Public Works Subcommittee on Clean Air and Nuclear Safety"
       },
       {
-        "name": "Superfund, Waste Management, and Regulatory Oversight",
+        "name": "Chemical Safety, Waste Management, Environmental Justice, and Regulatory Oversight",
         "thomas_id": "09",
         "wikipedia": "United States Senate Environment and Public Works Subcommittee on Superfund, Toxics and Environmental Health"
       },
@@ -1397,7 +1425,7 @@
       },
       {
         "thomas_id": "15",
-        "name": "Fisheries, Water, and Wildlife",
+        "name": "Fisheries, Wildlife, and Water",
         "wikipedia": "United States Senate Environment and Public Works Subcommittee on Water and Wildlife"
       }
     ],
@@ -1546,7 +1574,7 @@
       },
       {
         "thomas_id": "22",
-        "name": "Governmental Operations and Border Management"
+        "name": "Government Operations and Border Management"
       }
     ],
     "wikipedia": "United States Senate Committee on Homeland Security and Governmental Affairs",
@@ -1593,27 +1621,35 @@
         "wikipedia": "United States Senate Judiciary Subcommittee on the Constitution, Civil Rights and Human Rights"
       },
       {
-        "name": "Crime and Terrorism",
+        "name": "Criminal Justice and Counterterrorism",
         "thomas_id": "22",
         "wikipedia": "United States Senate Judiciary Subcommittee on Crime and Terrorism"
       },
       {
-        "name": "Antitrust, Competition Policy and Consumer Rights",
+        "name": "Competition Policy, Antitrust, and Consumer Rights",
         "thomas_id": "01",
         "wikipedia": "United States Senate Judiciary Subcommittee on Antitrust, Competition Policy and Consumer Rights"
       },
       {
-        "name": "Border Security and Immigration",
+        "name": "Immigration, Citizenship, and Border Safety",
         "thomas_id": "04",
         "wikipedia": "United States Senate Judiciary Subcommittee on Immigration, Refugees and Border Security"
       },
       {
         "thomas_id": "25",
-        "name": "Oversight, Agency Action, Federal Rights and Federal Courts"
+        "name": "Federal Courts, Oversight, Agency Action, and Federal Rights"
       },
       {
         "thomas_id": "26",
         "name": "Intellectual Property"
+      },
+      {
+        "thomas_id": "27",
+        "name": "Human Rights and the Law"
+      },
+      {
+        "thomas_id": "28",
+        "name": "Privacy, Technology, and the Law"
       }
     ],
     "wikipedia": "United States Senate Committee on the Judiciary",
