@@ -276,6 +276,7 @@ Additional fields are present on current committee entries (that is, in `committ
 * phone: The phone number of the committee.
 * rss_url: The URL for the committee's RSS feed.
 * minority_rss_url: The URL for the committee's minority party website's RSS feed.
+* youtube_id: The YouTube channel ID of the committee (if it exists)
 
 Two additional fields are present on committees and subcommmittees in the `committees-historical.yaml` file:
 
