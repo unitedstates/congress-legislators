@@ -15,11 +15,10 @@
 #     For Senate committees, updates name and url
 
 
-import requests
-import re, lxml.html, lxml.etree, datetime
+import re, lxml.html, lxml.etree
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import download, load_data, save_data
 
 
 def run():
@@ -42,81 +41,105 @@ def run():
       senate_ref[cx["senate_committee_id"]] = cx
 
 
-  # map state/district to current representatives and state/lastname to current senators
-  # since the House/Senate pages do not provide IDs for Members of Congress
-  today = datetime.datetime.now().date()
+  # map state/district to current senators because the Senate committee
+  # membership data does not contain IDs for senators, and map to bioguide
+  # IDs so we can copy forward the official_full name for House members
   legislators_current = load_data("legislators-current.yaml")
-  congressmen_by_bioguide = {}
   senators = { }
   for moc in legislators_current:
     term = moc["terms"][-1]
-    if today < parse_date(term["start"]) or today > parse_date(term["end"]):
-      raise ValueError("Member's last listed term is not current: " + repr(moc) + " / " + term["start"])
-    if term["type"] == "rep":
-      congressmen_by_bioguide[moc["id"]["bioguide"]] = moc
-    elif term["type"] == "sen":
+    if term["type"] == "sen":
       for n in [moc["name"]] + moc.get("other_names", []):
         senators[(term["state"], n["last"])] = moc
+  legislators_current = { moc["id"]["bioguide"]: moc for moc in legislators_current }
 
 
   # Scrape clerk.house.gov...
   def scrape_house():
-    # r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml")
-    # dom = lxml.etree.fromstring(r.encode("utf8")) # must be bytes to parse if there is an encoding declaration inside the string
-    
-    #for some reason using the download method creates encoding issues?
-    r = requests.get("http://clerk.house.gov/xml/lists/MemberData.xml")
-    dom = lxml.etree.fromstring(r.content)
+    # clear out all of the existing House members of committees (i.e. all House committee membership
+    # and the House part of Joint committee membership)
+    for committee, members in committee_membership.items():
+      for m in list(members): # must clone before editing list
+        if committee[0] == "H" or m.get("chamber") == "house":
+          members.remove(m)
 
-    committees = dom.xpath("/MemberData/committees")[0]
-    for xml_cx in committees.findall("committee"):
-      house_committee_id = xml_cx.attrib["comcode"][:2]
-      #if this throws an error, make sure house_committee_id is set in committees-current.yaml for the committee
-      cx = house_ref[house_committee_id]
-      cx["name"] = "House " + xml_cx.find("committee-fullname").text
+    r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml")
+    dom = lxml.etree.fromstring(r.encode("latin-1")) # must be bytes to parse if there is an encoding declaration inside the string
+
+    # Update committee metadata.
+    def update_house_committee_metadata(xml_cx, cx, parentdict, is_subcommittee):
+      sub_prefix = "sub" if is_subcommittee else ""
+
+      if cx is None:
+        # New committee.
+        if not is_subcommittee:
+          cx = {
+            "type": "house",
+            "thomas_id": "H" + xml_cx.attrib["type"][0].upper() + xml_cx.attrib["comcode"][0:2],
+            "house_committee_id": xml_cx.attrib["comcode"][0:2]
+          }
+          house_ref[cx["house_committee_id"]] = cx
+        else:
+          cx = {
+            "name": None, # placeholder so order is right
+            "thomas_id": xml_cx.attrib["subcomcode"][2:]
+          }
+        parentdict.append(cx)
+
+      cx["name"] = xml_cx.find(sub_prefix + "committee-fullname").text
+      if not is_subcommittee and not cx["name"].startswith("Joint "): cx["name"] = "House " + cx["name"]
       
-      building = xml_cx.attrib["com-building-code"]
+      building = xml_cx.attrib[sub_prefix + "com-building-code"]
       if building == "C":
         building = "CAPITOL"
       #address format: 1301 LHOB; Washington, DC 20515-6001
-      cx["address"] = xml_cx.attrib["com-room"] + " " + building \
-         + "; Washington, DC " + xml_cx.attrib["com-zip"] + "-" + xml_cx.attrib["com-zip-suffix"]
-      cx["phone"] = "(202) " + xml_cx.attrib["com-phone"]
+      cx["address"] = xml_cx.attrib[sub_prefix + "com-room"] + " " + building \
+         + "; Washington, DC " + xml_cx.attrib[sub_prefix + "com-zip"] \
+         + (("-" + xml_cx.attrib[sub_prefix + "com-zip-suffix"]) if xml_cx.attrib[sub_prefix + "com-zip-suffix"] != "0" else "")
+      cx["phone"] = "(202) " + xml_cx.attrib[sub_prefix + "com-phone"]
+
+      if not is_subcommittee:
+        for xml_sx in xml_cx.findall("subcommittee"):
+          sxx = [s for s in cx["subcommittees"] if s["thomas_id"] == xml_sx.attrib["subcomcode"][2:]]
+          update_house_committee_metadata(xml_sx, sxx[0] if len(sxx) > 0 else None, cx["subcommittees"], True)
     
-    members = dom.xpath("/MemberData/members")[0]
-    for xml_member in members.findall("member"):
+    committees = dom.xpath("/MemberData/committees")[0]
+    for xml_cx in committees.findall("committee"):
+      house_committee_id = xml_cx.attrib["comcode"][0:2]
+      update_house_committee_metadata(xml_cx, house_ref.get(house_committee_id), committees_current, False)
+
+    # Determine which party is in the majority. Only the majority
+    # party holds chair positions. At least one should have the
+    # position Chair.
+    house_majority_caucus = dom.xpath("string(/MemberData/members/member[committee-assignments/committee[@leadership='Chair']]/member-info/caucus)")
+
+    for xml_member in dom.xpath("/MemberData/members/member"):
       bioguide_id = xml_member.xpath("member-info/bioguideID")[0].text
       if not bioguide_id: #sometimes the xml has vacancies as blanks
         continue
 
-      official_name = xml_member.xpath("member-info/official-name")[0].text
-      if bioguide_id not in congressmen_by_bioguide:
-        print("{} ({}) was skiped because not found in current".format(official_name, bioguide_id))
-        continue
+      # Although there is a name in the XML data, for consistency use the one we
+      # have in legislators-current.yaml, if one is set.
+      try:
+        official_name = legislators_current[bioguide_id]["name"]["official_full"]
+      except KeyError:
+        official_name = xml_member.xpath("member-info/official-name")[0].text
       
       #is using caucus better than using party?
       caucus = xml_member.xpath("member-info/caucus")[0].text
-      party = "majority"
-      if caucus != "R":
-        party = "minority"
+      party = "majority" if caucus == house_majority_caucus else "minority"
             
       #for each committee or subcommittee membership
       for cm in xml_member.xpath("committee-assignments/committee|committee-assignments/subcommittee"):
         if "comcode" in cm.attrib:
-          type = "committee"
-        elif "subcomcode" in cm.attrib:
-          type = "subcommittee"
-        else:
-          continue #some are blank?
-        if type == "committee":
           house_committee_id = cm.attrib["comcode"][:2]
-        else:
-          house_committee_id = cm.attrib["subcomcode"][:2]
-
-        if type == "committee":
+          if house_committee_id == "HL": continue # this doesn't appear to be a committee and seems like a data error
           thomas_committee_id = house_ref[house_committee_id]["thomas_id"]
-        else:
+        elif "subcomcode" in cm.attrib:
+          house_committee_id = cm.attrib["subcomcode"][:2]
           thomas_committee_id = house_ref[house_committee_id]["thomas_id"] + cm.attrib["subcomcode"][2:]
+        else:
+          continue # some nodes are invalid
 
         membership = OrderedDict()
         membership["name"] = official_name
@@ -124,8 +147,7 @@ def run():
         membership["rank"] = int(cm.attrib["rank"])
 
         if "leadership" in cm.attrib:
-          #gender neutral
-          membership["title"] = cm.attrib["leadership"].replace("woman", "").replace("man", "")
+          membership["title"] = cm.attrib["leadership"] # TODO .replace("woman", "").replace("man", "")
         elif membership["rank"] == 1:
           #xml doesn't contain ranking member titles
           if membership["party"] == "majority":
@@ -133,6 +155,7 @@ def run():
           else:
             membership["title"] = "Ranking Member"
         membership["bioguide"] = bioguide_id
+
         if house_ref[house_committee_id]["type"] == "joint":
           membership["chamber"] = "house"
 
@@ -209,9 +232,15 @@ def run():
           majority_party, is_joint)
 
   def scrape_senate_members(members, output_list, majority_party, is_joint):
-    # Keep a copy of the previous membership.
+    # Keep a copy of the previous membership, and then clear the Senate members
+    # of the committee.
     existing_members_data = list(output_list) # clone
-    output_list.clear()
+    if not is_joint:
+      output_list.clear()
+    else:
+      for m in list(output_list): # must clone before editing list
+        if m.get("chamber") == "senate":
+          output_list.remove(m)
 
     # Update members.
     ids = set()
@@ -286,14 +315,20 @@ def run():
   scrape_house()
   scrape_senate()
 
-  sorted_committee_membership=OrderedDict()
-  for comm in sorted(committee_membership.keys()):
-    if (comm[:1] == "J"): #only joint committees have thomas ids starting with J
-      sorted_committee_membership[comm] = sorted(committee_membership[comm], key=lambda entry: (entry["chamber"], entry["party"], entry["rank"]))
-    else:
-      sorted_committee_membership[comm] = sorted(committee_membership[comm], key=lambda entry: (entry["party"], entry["rank"]))
+  # ensure each committee has members in a stable, sorted order
+  for comm, mbrs in committee_membership.items():
+    # joint committees also have to sort by chamber
+    if comm[0] == "J":
+      mbrs.sort(key=lambda entry: (entry["party"] == "minority", entry["rank"], entry["chamber"] != "senate"))
 
-  save_data(sorted_committee_membership, "committee-membership-current.yaml")
+    # Senate and House committees have different sort orders to match
+    # earlier data, but there's no particular reason for this
+    elif comm[0] == "S":
+      mbrs.sort(key=lambda entry: (entry["party"] == "minority", entry["rank"]))
+    else:
+      mbrs.sort(key=lambda entry: (entry["rank"], entry["party"] == "minority"))
+
+  save_data(committee_membership, "committee-membership-current.yaml")
   save_data(committees_current, "committees-current.yaml")
 
 if __name__ == '__main__':
