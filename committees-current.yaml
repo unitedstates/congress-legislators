@@ -111,7 +111,7 @@
   - name: Tactical Air and Land Forces
     thomas_id: '25'
     address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 225-4440
+    phone: (202) 226-2843
   - name: Military Personnel
     thomas_id: '02'
     address: 2340 RHOB; Washington, DC 20515
@@ -123,13 +123,17 @@
   - name: Seapower and Projection Forces
     thomas_id: '28'
     address: 2340 RHOB; Washington, DC 20515
-    phone: (202) 226-2211
+    phone: (202) 226-8979
   - name: Strategic Forces
     thomas_id: '29'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 225-1967
-  - name: Intelligence and Emerging Threats and Capabilities
+  - name: Intelligence and Special Operations
     thomas_id: '26'
+    address: 2340 RHOB; Washington, DC 20515
+    phone: (202) 225-1967
+  - name: Cyber, Innovative Technologies, and Information Systems
+    thomas_id: '35'
     address: 2340 RHOB; Washington, DC 20515
     phone: (202) 226-2843
   address: 2216 RHOB; Washington, DC 20515-6035
@@ -240,27 +244,29 @@
   thomas_id: HSFA
   house_committee_id: FA
   subcommittees:
-  - name: Africa, Global Health, Global Human Rights, and International Organizations
+  - name: Africa, Global Health, and Global Human Rights
     thomas_id: '16'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 226-1500
-  - name: Asia, the Pacific, and Nonproliferation
+  - name: Asia, the Pacific, Central Asia, and Nonproliferation
     thomas_id: '05'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 226-6434
-  - name: Europe, Eurasia, Energy, and the Environment
+  - name: Europe, Energy, the Environment, and Cyber
     thomas_id: '14'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 225-5021
-  - name: Middle East, North Africa, and International Terrorism
+  - name: Middle East, North Africa, and Global Counterterrorism
     thomas_id: '13'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 226-7812
-  - name: Western Hemisphere, Civilian Security, and Trade
+  - name: Western Hemisphere, Civilian Security, Migration, and International Economic
+      Policy
     thomas_id: '07'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 225-3345
-  - name: Oversight and Investigations
+  - name: International Development, International Organizations, and Global Corporate
+      Social Impact
     thomas_id: '17'
     address: 2170 RHOB; Washington, DC 20515
     phone: (202) 225-5021
@@ -528,7 +534,7 @@
   subcommittees:
   - name: The Constitution, Civil Rights, and Civil Liberties
     thomas_id: '10'
-    address: 2138 RHOB; Washington, DC 20515
+    address: 6220 OHOB; Washington, DC 20515
     phone: (202) 225-3951
   - name: Courts, Intellectual Property, and the Internet
     thomas_id: '03'
@@ -643,19 +649,19 @@
     thomas_id: '23'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Investigations, Oversight and Regulations
+  - name: Oversight, Investigations, and Regulations
     thomas_id: '24'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Rural Development, Agriculture, Trade and Entrepreneurship
+  - name: Underserved, Agricultural, and Rural Business Development
     thomas_id: '25'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Innovation and Workforce Development
+  - name: Innovation, Entrepreneurship, and Workforce Development
     thomas_id: '26'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
-  - name: Economic Growth, Tax and Capital Access
+  - name: Economic Growth, Tax, and Capital Access
     thomas_id: '27'
     address: 2361 RHOB; Washington, DC 20515
     phone: (202) 225-4038
@@ -770,7 +776,7 @@
   subcommittees:
   - name: Health
     thomas_id: '02'
-    address: 1104 LHOB; Washington, DC 20515
+    address: 1036A LHOB; Washington, DC 20515
     phone: (202) 225-3943
   - name: Worker and Family Support
     thomas_id: '03'
@@ -819,7 +825,7 @@
   thomas_id_comment: since it's not on Congress.gov, it doesn't have an ID, but GovTrack
     needs it
   house_committee_id: MH
-  address: 226 CHOB; Washington, DC 20515
+  address: 164 CHOB; Washington, DC 20515
   phone: (202) 225-1530
   youtube_id: UCECZaLBqABxBqN7VdtZ5sCA
 - type: joint
@@ -839,6 +845,8 @@
   minority_rss_url: http://www.jec.senate.gov/public/?a=RSS.Feed
   wikipedia: Joint Economic Committee
   youtube_id: UCbNWSrKyYBP5iIZKT35LSGA
+  address: SD-G01 DSOB; Washington, DC 20510-6432
+  phone: (202) 224-5171
 - type: joint
   name: Joint Committee on the Library
   url: https://cha.house.gov/jointcommittees/joint-committee-library
@@ -846,6 +854,8 @@
   house_committee_id: JL
   senate_committee_id: JSLC
   wikipedia: Joint Committee on the Library
+  address: SR-305 RSOB; Washington, DC 20515-6157
+  phone: (202) 224-6352
 - type: joint
   name: Joint Committee on Printing
   url: https://cha.house.gov/jointcommittees/joint-committee-on-printing
@@ -853,6 +863,8 @@
   senate_committee_id: JSPR
   house_committee_id: JP
   wikipedia: Joint Committee on Printing
+  address: 1309 LHOB; Washington, DC 20515-6446
+  phone: (202) 225-2061
 - type: joint
   name: Joint Committee on Taxation
   url: https://www.jct.gov
@@ -860,6 +872,8 @@
   house_committee_id: IT
   senate_committee_id: JSTX
   wikipedia: United States Congress Joint Committee on Taxation
+  address: 502 FHOB; Washington, DC 20515-6453
+  phone: (202) 225-3621
 - type: senate
   name: United States Senate Caucus on International Narcotics Control
   url: http://www.drugcaucus.senate.gov/
@@ -991,7 +1005,7 @@
     thomas_id: '18'
     wikipedia: United States Senate Appropriations Subcommittee on Labor, Health and
       Human Services, Education, and Related Agencies
-  - name: Military Construction and Veterans Affairs, and Related Agencies
+  - name: Military Construction, Veterans Affairs, and Related Agencies
     thomas_id: '19'
     wikipedia: United States Senate Appropriations Subcommittee on Military Construction,
       Veterans Affairs, and Related Agencies
@@ -1042,7 +1056,7 @@
     thomas_id: '15'
     wikipedia: United States Senate Armed Services Subcommittee on Readiness and Management
       Support
-  - name: SeaPower
+  - name: Seapower
     thomas_id: '13'
     wikipedia: United States Senate Armed Services Subcommittee on Seapower
   - name: Strategic Forces
@@ -1130,7 +1144,7 @@
   - thomas_id: '33'
     name: Aviation Safety, Operations, and Innovation
   - thomas_id: '34'
-    name: Communication, Media, and Broadband
+    name: Communications, Media, and Broadband
   - thomas_id: '35'
     name: Consumer Protection, Product Safety, and Data Security
   - thomas_id: '36'
@@ -1448,3 +1462,9 @@
     civil relief, and civilian readjustment of veterans.
   jurisdiction_source: https://www.veterans.senate.gov/about
   youtube_id: UCKJISmkvK8tn0kFiCaIzUwQ
+- type: house
+  thomas_id: HSVC
+  house_committee_id: VC
+  name: House Select Subcommittee on the Coronavirus Crisis
+  address: B234 RHOB; Washington, DC 20515
+  phone: (202) 225-4400
