@@ -16342,7 +16342,7 @@
         "class": 3,
         "state_rank": "senior",
         "party": "Republican",
-        "url": "https://www.lee.senate.gov/public",
+        "url": "https://www.lee.senate.gov",
         "rss_url": "http://www.lee.senate.gov/public/index.cfm/rss/feed",
         "address": "361A Russell Senate Office Building Washington DC 20510",
         "office": "361a Russell Senate Office Building",
@@ -51348,7 +51348,8 @@
     "name": {
       "first": "Melanie",
       "middle": "Ann",
-      "last": "Stansbury"
+      "last": "Stansbury",
+      "official_full": "Melanie A. Stansbury"
     },
     "bio": {
       "gender": "F",
@@ -51366,6 +51367,36 @@
         "address": "1421 Longworth House Office Building Washington DC 20515-3101",
         "office": "1421 Longworth House Office Building",
         "phone": "202-225-6316"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "E000071",
+      "fec": [
+        "H8TX06266"
+      ],
+      "govtrack": 456862,
+      "wikipedia": "Jake Ellzey",
+      "wikidata": "Q105061782",
+      "ballotpedia": "Jake Ellzey"
+    },
+    "name": {
+      "first": "Jake",
+      "last": "Ellzey"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1970-01-24"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-07-30",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 6,
+        "party": "Republican"
       }
     ]
   }
