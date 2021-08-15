@@ -1,13 +1,24 @@
 #!/usr/bin/env python
 
-# Scrape house.gov and senate.gov for current committee membership,
-# and updates the committees-current.yaml file with metadata including
-# name, url, address, and phone number.
+# Data Sources:
+#   House:
+#     http://clerk.house.gov/xml/lists/MemberData.xml
+#   Senate:
+#     https://www.senate.gov/general/committee_membership/committee_memberships_{thomas_id}.xml
 
-import re, lxml.html, lxml.etree, io, datetime
+# Data Files Updated:
+#   committee-membership-current.yaml:
+#     All entries are overwritten except for house members of joint committees
+#     which have to be manually entered since there is no source of this data
+#   committees-current.yaml:
+#     Fro House committees, updates name, address, and phone
+#     For Senate committees, updates name and url
+
+
+import re, lxml.html, lxml.etree
 from collections import OrderedDict
 import utils
-from utils import download, load_data, save_data, parse_date
+from utils import download, load_data, save_data
 
 
 def run():
@@ -30,174 +41,125 @@ def run():
       senate_ref[cx["senate_committee_id"]] = cx
 
 
-  # map state/district to current representatives and state/lastname to current senators
-  # since the House/Senate pages do not provide IDs for Members of Congress
-  today = datetime.datetime.now().date()
+  # map state/district to current senators because the Senate committee
+  # membership data does not contain IDs for senators, and map to bioguide
+  # IDs so we can copy forward the official_full name for House members
   legislators_current = load_data("legislators-current.yaml")
-  congressmen = { }
   senators = { }
   for moc in legislators_current:
     term = moc["terms"][-1]
-    if today < parse_date(term["start"]) or today > parse_date(term["end"]):
-      raise ValueError("Member's last listed term is not current: " + repr(moc) + " / " + term["start"])
-    if term["type"] == "rep":
-      congressmen["%s%02d" % (term["state"], term["district"])] = moc
-    elif term["type"] == "sen":
+    if term["type"] == "sen":
       for n in [moc["name"]] + moc.get("other_names", []):
         senators[(term["state"], n["last"])] = moc
+  legislators_current = { moc["id"]["bioguide"]: moc for moc in legislators_current }
 
 
   # Scrape clerk.house.gov...
-
-  def scrape_house_alt():
-    for id, cx in list(house_ref.items()):
-      scrape_house_committee(cx, cx["thomas_id"], id + "00")
-
   def scrape_house():
-    """The old way of scraping House committees was to start with the committee list
-    at the URL below, but this page no longer has links to the committee info pages
-    even though those pages exist. Preserving this function in case we need it later."""
-    url = "http://clerk.house.gov/committee_info/index.aspx"
-    body = download(url, "committees/membership/house.html", force)
-    for id, name in re.findall(r'<a href="/committee_info/index.aspx\?comcode=(..)00">(.*)</a>', body, re.I):
-      if id not in house_ref:
-        print("Unrecognized committee:", id, name)
+    # clear out all of the existing House members of committees (i.e. all House committee membership
+    # and the House part of Joint committee membership)
+    for committee, members in committee_membership.items():
+      for m in list(members): # must clone before editing list
+        if committee[0] == "H" or m.get("chamber") == "house":
+          members.remove(m)
+
+    r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml")
+    dom = lxml.etree.fromstring(r.encode("latin-1")) # must be bytes to parse if there is an encoding declaration inside the string
+
+    # Update committee metadata.
+    def update_house_committee_metadata(xml_cx, cx, parentdict, is_subcommittee):
+      sub_prefix = "sub" if is_subcommittee else ""
+
+      if cx is None:
+        # New committee.
+        if not is_subcommittee:
+          cx = {
+            "type": "house",
+            "thomas_id": "H" + xml_cx.attrib["type"][0].upper() + xml_cx.attrib["comcode"][0:2],
+            "house_committee_id": xml_cx.attrib["comcode"][0:2]
+          }
+          house_ref[cx["house_committee_id"]] = cx
+        else:
+          cx = {
+            "name": None, # placeholder so order is right
+            "thomas_id": xml_cx.attrib["subcomcode"][2:]
+          }
+        parentdict.append(cx)
+
+      cx["name"] = xml_cx.find(sub_prefix + "committee-fullname").text
+      if not is_subcommittee and not cx["name"].startswith("Joint "): cx["name"] = "House " + cx["name"]
+      
+      building = xml_cx.attrib[sub_prefix + "com-building-code"]
+      if building == "C":
+        building = "CAPITOL"
+      #address format: 1301 LHOB; Washington, DC 20515-6001
+      cx["address"] = xml_cx.attrib[sub_prefix + "com-room"] + " " + building \
+         + "; Washington, DC " + xml_cx.attrib[sub_prefix + "com-zip"] \
+         + (("-" + xml_cx.attrib[sub_prefix + "com-zip-suffix"]) if xml_cx.attrib[sub_prefix + "com-zip-suffix"] != "0" else "")
+      cx["phone"] = "(202) " + xml_cx.attrib[sub_prefix + "com-phone"]
+
+      if not is_subcommittee:
+        for xml_sx in xml_cx.findall("subcommittee"):
+          sxx = [s for s in cx["subcommittees"] if s["thomas_id"] == xml_sx.attrib["subcomcode"][2:]]
+          update_house_committee_metadata(xml_sx, sxx[0] if len(sxx) > 0 else None, cx["subcommittees"], True)
+    
+    committees = dom.xpath("/MemberData/committees")[0]
+    for xml_cx in committees.findall("committee"):
+      house_committee_id = xml_cx.attrib["comcode"][0:2]
+      update_house_committee_metadata(xml_cx, house_ref.get(house_committee_id), committees_current, False)
+
+    # Determine which party is in the majority. Only the majority
+    # party holds chair positions. At least one should have the
+    # position Chair.
+    house_majority_caucus = dom.xpath("string(/MemberData/members/member[committee-assignments/committee[@leadership='Chair']]/member-info/caucus)")
+
+    for xml_member in dom.xpath("/MemberData/members/member"):
+      bioguide_id = xml_member.xpath("member-info/bioguideID")[0].text
+      if not bioguide_id: #sometimes the xml has vacancies as blanks
         continue
-      cx = house_ref[id]
-      scrape_house_committee(cx, cx["thomas_id"], id + "00")
 
-  def scrape_house_committee(cx, output_code, house_code):
-    # load the House Clerk's committee membership page for the committee
-    # (it is encoded in utf-8 even though the page indicates otherwise, and
-    # while we don't really care, it helps our sanity check that compares
-    # names)
-    url = "http://clerk.house.gov/committee_info/index.aspx?%s=%s" % ('comcode' if house_code[-2:] == '00' else 'subcomcode', house_code)
-    body = download(url, "committees/membership/house/%s.html" % house_code, force)
-    dom = lxml.html.parse(io.StringIO(body)).getroot()
+      # Although there is a name in the XML data, for consistency use the one we
+      # have in legislators-current.yaml, if one is set.
+      try:
+        official_name = legislators_current[bioguide_id]["name"]["official_full"]
+      except KeyError:
+        official_name = xml_member.xpath("member-info/official-name")[0].text
+      
+      #is using caucus better than using party?
+      caucus = xml_member.xpath("member-info/caucus")[0].text
+      party = "majority" if caucus == house_majority_caucus else "minority"
+            
+      #for each committee or subcommittee membership
+      for cm in xml_member.xpath("committee-assignments/committee|committee-assignments/subcommittee"):
+        if "comcode" in cm.attrib:
+          house_committee_id = cm.attrib["comcode"][:2]
+          if house_committee_id == "HL": continue # this doesn't appear to be a committee and seems like a data error
+          thomas_committee_id = house_ref[house_committee_id]["thomas_id"]
+        elif "subcomcode" in cm.attrib:
+          house_committee_id = cm.attrib["subcomcode"][:2]
+          thomas_committee_id = house_ref[house_committee_id]["thomas_id"] + cm.attrib["subcomcode"][2:]
+        else:
+          continue # some nodes are invalid
 
-    # update official name metadata
-    if house_code[-2:] == "00":
-      cx["name"] = "House " + str(dom.cssselect("#com_display h3")[0].text_content())
-    else:
-      cx["name"] = str(dom.cssselect("#subcom_title h4")[0].text_content())
+        membership = OrderedDict()
+        membership["name"] = official_name
+        membership["party"] = party
+        membership["rank"] = int(cm.attrib["rank"])
 
-    # update address/phone metadata
-    address_info = re.search(r"""Mailing Address:\s*(.*\S)\s*Telephone:\s*(\(202\) .*\S)""", dom.cssselect("#address")[0].text_content(), re.I | re.S)
-    if not address_info:
-      print("Failed to parse address info in %s." % house_code)
-    else:
-      cx["address"] = address_info.group(1)
-      cx["address"] = re.sub(r"\s+", " ", cx["address"])
-      cx["address"] = re.sub(r"(.*\S)(Washington, DC \d+)\s*(-\d+)?", lambda m : m.group(1) + "; " + m.group(2) + (m.group(3) if m.group(3) else ""), cx["address"])
-      cx["phone"] = address_info.group(2)
-
-    # get the ratio line to use in a sanity check later
-    ratio = dom.cssselect("#ratio")
-    if len(ratio): # some committees are missing
-      ratio = re.search(r"Ratio (\d+)/(\d+)", ratio[0].text_content())
-    else:
-      ratio = None
-
-    # scan the membership, which is listed by party
-    members = committee_membership.setdefault(output_code, [])
-    existing_members_data = list(members) # clone it
-    members.clear()
-    committee_member_ids = set()
-    for i, party, nodename in ((1, 'majority', 'primary'), (2, 'minority', 'secondary')):
-      ctr = 0
-      for rank, node in enumerate(dom.cssselect("#%s_group li" % nodename)):
-        ctr += 1
-        lnk = node.cssselect('a')
-        if len(lnk) == 0:
-          if node.text_content() == "Vacancy": continue
-          raise ValueError("Failed to parse a <li> node.")
-        moc = lnk[0].get('href')
-        m = re.search(r"statdis=([A-Z][A-Z]\d\d)", moc)
-        if not m: raise ValueError("Failed to parse member link: " + moc)
-        if not m.group(1) in congressmen:
-          print("Vacancy discrepancy? " + m.group(1))
-          continue
-
-        moc = congressmen[m.group(1)]
-
-        # Sanity check that the name matches the name in our data.
-        found_name = node.cssselect('a')[0].text_content()
-        found_name = re.sub(r"[\s,]+", " ", found_name) # fix whitespace, normalize commas to spaces so we suppress spurrious warnings
-        found_name = found_name.replace("'", "’") # fix smart apos
-        if moc['name'].get("official_full", None) is None:
-          print("No official_full field for %s" % found_name)
-          continue
-        if found_name != re.sub(r"[\s,]+", " ", moc['name']['official_full']): # normalize as above
-          print("Name mismatch: %s (in our file) vs %s (on the Clerk page)" % (moc['name']['official_full'], found_name))
-
-        entry = OrderedDict()
-        entry["name"] = moc['name']['official_full']
-        entry["party"] = party
-        entry["rank"] = rank+1
-        if rank == 0:
-          entry["title"] = "Chair" if entry["party"] == "majority" else "Ranking Member" # not explicit, frown
-        entry.update(ids_from(moc["id"]))
-
-        # the .tail attribute has the text to the right of the link
-        m = re.match(r", [A-Z][A-Z](,\s*)?(.*\S)?", lnk[0].tail)
-        if m.group(2):
-          # Chairman, Vice Chair, etc. (all but Ex Officio) started appearing on subcommittees around Feb 2014.
-          # Ranking Member began appearing on committee pages in Sept 2019. For the chair and ranking member,
-          # this should overwrite the implicit titles given for the rank 0 majority/minority party member.
-          if m.group(2) in ("Chair", "Chairman", "Chairwoman", "Chairperson"):
-            entry["title"] = "Chair"
-          elif m.group(2) in ("Vice Chair", "Vice Chairman", "Vice Chairperson"):
-            entry["title"] = "Vice Chair"
-          elif m.group(2) in ("Ranking Member",):
-            entry["title"] = "Ranking Member"
-
-          elif m.group(2) == "Ex Officio":
-            entry["title"] = m.group(2)
-
+        if "leadership" in cm.attrib:
+          membership["title"] = cm.attrib["leadership"] # TODO .replace("woman", "").replace("man", "")
+        elif membership["rank"] == 1:
+          #xml doesn't contain ranking member titles
+          if membership["party"] == "majority":
+            membership["title"] = "Chair"
           else:
-            raise ValueError("Unrecognized title information '%s' in %s." % (m.group(2), url))
+            membership["title"] = "Ranking Member"
+        membership["bioguide"] = bioguide_id
 
-        # Look for an existing entry for this member and take
-        # start_date and source from it, if set.
-        for item in existing_members_data:
-          if item["bioguide"] == entry["bioguide"]:
-            for key in ("start_date", "source"):
-                if key in item:
-                    entry[key] = item[key]
+        if house_ref[house_committee_id]["type"] == "joint":
+          membership["chamber"] = "house"
 
-        members.append(entry)
-
-        committee_member_ids.add(entry["bioguide"])
-
-      # sanity check we got the right number of nodes
-      if ratio and ctr != int(ratio.group(i)): raise ValueError("Parsing didn't get the right count of members.")
-
-    # Purge non-members.
-    i = 0
-    while i < len(members):
-      if members[i]['bioguide'] not in committee_member_ids:
-        members[i:i+1] = []
-      else:
-        i += 1
-
-    # scan for subcommittees
-    for subcom in dom.cssselect("#subcom_list li a"):
-      m = re.search("subcomcode=(..(\d\d))", subcom.get('href'))
-      if not m:
-        print("Failed to parse subcommittee link {} on {}.".format(
-          subcom.get('href'), url))
-        continue
-
-      for sx in cx['subcommittees']:
-        if sx["thomas_id"] == m.group(2):
-          break
-      else:
-        print("Subcommittee not found, creating it", output_code, m.group(1))
-        sx = OrderedDict()
-        sx['name'] = "[not initialized]" # will be set inside of scrape_house_committee
-        sx['thomas_id'] = m.group(2)
-        cx['subcommittees'].append(sx)
-      scrape_house_committee(sx, cx["thomas_id"] + sx["thomas_id"], m.group(1))
+        committee_membership.setdefault(thomas_committee_id, []).append(membership)
 
   # Scrape senate.gov....
   def scrape_senate():
@@ -270,9 +232,15 @@ def run():
           majority_party, is_joint)
 
   def scrape_senate_members(members, output_list, majority_party, is_joint):
-    # Keep a copy of the previous membership.
+    # Keep a copy of the previous membership, and then clear the Senate members
+    # of the committee.
     existing_members_data = list(output_list) # clone
-    output_list.clear()
+    if not is_joint:
+      output_list.clear()
+    else:
+      for m in list(output_list): # must clone before editing list
+        if m.get("chamber") == "senate":
+          output_list.remove(m)
 
     # Update members.
     ids = set()
@@ -336,18 +304,29 @@ def run():
   # this limits the IDs from going out of control in this file, while
   # preserving us flexibility to be inclusive of IDs in the main leg files
   def ids_from(moc):
-    ids = OrderedDict()
-    for id in ["bioguide"]:
-      if id in moc:
-        ids[id] = moc[id]
+    ids = {}
+    if "bioguide" in moc:
+      ids["bioguide"] = moc["bioguide"]
     if len(ids) == 0:
       raise ValueError("Missing an official ID for this legislator, won't be able to link back")
     return ids
 
   # MAIN
-
   scrape_house()
   scrape_senate()
+
+  # ensure each committee has members in a stable, sorted order
+  for comm, mbrs in committee_membership.items():
+    # joint committees also have to sort by chamber
+    if comm[0] == "J":
+      mbrs.sort(key=lambda entry: (entry["party"] == "minority", entry["rank"], entry["chamber"] != "senate"))
+
+    # Senate and House committees have different sort orders to match
+    # earlier data, but there's no particular reason for this
+    elif comm[0] == "S":
+      mbrs.sort(key=lambda entry: (entry["party"] == "minority", entry["rank"]))
+    else:
+      mbrs.sort(key=lambda entry: (entry["rank"], entry["party"] == "minority"))
 
   save_data(committee_membership, "committee-membership-current.yaml")
   save_data(committees_current, "committees-current.yaml")
