@@ -41601,3 +41601,44 @@
     address: 1725 Longworth House Office Building Washington DC 20515-4306
     office: 1725 Longworth House Office Building
     phone: 202-225-2002
+- id:
+    bioguide: B001313
+    fec:
+    - H2OH11169
+    govtrack: 456863
+    wikipedia: Shontel Brown
+    wikidata: Q107863952
+  name:
+    first: Shontel
+    middle: M.
+    last: Brown
+  bio:
+    gender: F
+    birthday: '1975-06-24'
+  terms:
+  - type: rep
+    start: '2021-11-04'
+    end: '2023-01-03'
+    state: OH
+    district: 11
+    party: Democrat
+- id:
+    bioguide: C001126
+    fec:
+    - H2OH15228
+    govtrack: 456864
+    wikipedia: Mike Carey (politician)
+    wikidata: Q108010312
+  name:
+    first: Mike
+    last: Carey
+  bio:
+    gender: M
+    birthday: '1971-03-13'
+  terms:
+  - type: rep
+    start: '2021-11-04'
+    end: '2023-01-03'
+    state: OH
+    district: 15
+    party: Republican
