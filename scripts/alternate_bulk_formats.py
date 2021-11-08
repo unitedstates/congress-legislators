@@ -70,7 +70,7 @@ def generate_csv():
 	social = utils.load_data(yaml_social)
 
 	for filename in yamls:
-		print("Converting %s to YAML..." % filename)
+		print("Converting %s to CSV..." % filename)
 
 		legislators = utils.load_data(filename)
 
