@@ -5763,7 +5763,9 @@
         "state": "NY",
         "zip": "13367",
         "fax": "315-376-6118",
-        "phone": "315-376-6118"
+        "phone": "315-376-6118",
+        "latitude": 43.7880969,
+        "longitude": -75.4938177
       },
       {
         "id": "G000555-new_york",
@@ -5822,7 +5824,9 @@
         "state": "NY",
         "zip": "10710-0749",
         "phone": "845-875-4585",
-        "fax": "845-875-9099"
+        "fax": "845-875-9099",
+        "latitude": 40.9188505,
+        "longitude": -73.8596689
       }
     ]
   },
@@ -9751,7 +9755,9 @@
         "city": "Baltimore",
         "state": "MD",
         "zip": "21201",
-        "phone": "410-685-9199"
+        "phone": "410-685-9199",
+        "latitude": 39.3030877,
+        "longitude": -76.6191032
       },
       {
         "id": "M000687-catonsville",
@@ -9759,7 +9765,9 @@
         "city": "Catonsville",
         "state": "MD",
         "zip": "21228",
-        "phone": "410-818-2120"
+        "phone": "410-818-2120",
+        "latitude": 39.2719068,
+        "longitude": -76.7336972
       },
       {
         "id": "M000687-ellicot",
@@ -11178,7 +11186,9 @@
         "city": "Twisp",
         "state": "WA",
         "zip": "98856-0823",
-        "phone": "509-433-7760"
+        "phone": "509-433-7760",
+        "latitude": 48.3634784,
+        "longitude": -120.122303
       },
       {
         "id": "N000189-yakima",
@@ -14836,6 +14846,92 @@
         "latitude": 30.44252,
         "longitude": -84.2819,
         "phone": "850-942-8415"
+      },
+      {
+        "id": "S001217-pensacola",
+        "address": "221 Palafox Place",
+        "suite": "Suite 420",
+        "city": "Pensacola",
+        "state": "FL",
+        "zip": 32502,
+        "phone": "850-760-5151",
+        "latitude": 30.4096575,
+        "longitude": -87.2155533
+      },
+      {
+        "id": "S001217-jacksonville",
+        "address": "400 West Bay Street",
+        "suite": "Suite 289",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": 32202,
+        "phone": "904-479-7227",
+        "latitude": 30.3269484,
+        "longitude": -81.6637337
+      },
+      {
+        "id": "S001217-orlando",
+        "address": "225 East Robinson Street",
+        "suite": "Suite 410",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": 32801,
+        "phone": "407-872-7161",
+        "latitude": 28.5460289,
+        "longitude": -81.3745694
+      },
+      {
+        "id": "S001217-tampa",
+        "address": "801 North Florida Avenue",
+        "suite": "Suite 421",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": 33602,
+        "phone": "813-225-7040",
+        "latitude": 27.95168,
+        "longitude": -82.4580549
+      },
+      {
+        "id": "S001217-kissimmee",
+        "address": "1 Courthouse Square",
+        "suite": "Suite 300",
+        "city": "Kissimmee",
+        "state": "FL",
+        "zip": 34741,
+        "phone": "407-586-7879",
+        "latitude": 28.2912612,
+        "longitude": -81.4108061
+      },
+      {
+        "id": "S001217-west_palm_beach",
+        "address": "415 Clematis Street",
+        "suite": "Suite 201",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": 33401,
+        "phone": "561-514-0189",
+        "latitude": 26.7134899,
+        "longitude": -80.0544948
+      },
+      {
+        "id": "S001217-naples",
+        "address": "3299 Tamiami Trail East",
+        "suite": "Building F, Suite 106",
+        "city": "Naples",
+        "state": "FL",
+        "zip": 34112,
+        "phone": "239-231-7890",
+        "latitude": 26.1275317,
+        "longitude": -81.7654572
+      },
+      {
+        "id": "S001217-miami",
+        "address": "901 Ponce de Leon Boulevard",
+        "suite": "Suite 505",
+        "city": "Miami",
+        "state": "FL",
+        "zip": 33134,
+        "phone": "786-501-7141"
       }
     ]
   },
@@ -17778,7 +17874,9 @@
         "city": "Selinsgrove",
         "state": "PA",
         "zip": "17870",
-        "phone": "570-374-9469"
+        "phone": "570-374-9469",
+        "latitude": 40.8116177,
+        "longitude": -76.8629974
       },
       {
         "id": "K000395-tunkhannock",
@@ -17787,7 +17885,9 @@
         "city": "Tunkhannock",
         "state": "PA",
         "zip": "18658",
-        "phone": "570-996-6550"
+        "phone": "570-996-6550",
+        "latitude": 41.54412,
+        "longitude": -75.9636732
       },
       {
         "id": "K000395-williamsport",
@@ -17796,7 +17896,9 @@
         "city": "Williamsport",
         "state": "PA",
         "zip": "17701",
-        "phone": "570-322-3961"
+        "phone": "570-322-3961",
+        "latitude": 41.2472344,
+        "longitude": -76.9834777
       }
     ]
   },
@@ -17813,7 +17915,9 @@
         "state": "NC",
         "zip": "28112",
         "phone": "740-218-5300",
-        "fax": "844-273-1255"
+        "fax": "844-273-1255",
+        "latitude": 34.982986,
+        "longitude": -80.5499099
       }
     ]
   },
@@ -17830,7 +17934,9 @@
         "city": "Greenville",
         "state": "NC",
         "zip": "27858",
-        "phone": "252-931-1003"
+        "phone": "252-931-1003",
+        "latitude": 35.5806764,
+        "longitude": -77.35680359999999
       },
       {
         "id": "M001210-jacksonville",
@@ -17838,7 +17944,77 @@
         "city": "Jacksonville",
         "state": "NC",
         "zip": "28540",
-        "phone": "910-937-6929"
+        "phone": "910-937-6929",
+        "latitude": 34.7798159,
+        "longitude": -77.48408909999999
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "P000145",
+      "govtrack": 456856
+    },
+    "offices": [
+      {
+        "id": "P000145-fresno",
+        "address": "2500 Tulare Street",
+        "suite": "Suite 5290",
+        "city": "Fresno",
+        "state": "CA",
+        "zip": "93721",
+        "phone": "559-497\u20135109",
+        "fax": "202-228-3864",
+        "latitude": 36.7373445,
+        "longitude": -119.7837236
+      },
+      {
+        "id": "P000145-san_francisco",
+        "address": "333 Bush Street",
+        "suite": "Suite 3225",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94104",
+        "phone": "415-981\u20139369",
+        "fax": "202-224-0454",
+        "latitude": 37.7906431,
+        "longitude": -122.4030566
+      },
+      {
+        "id": "P000145-sacramento",
+        "address": "501 I Street",
+        "suite": "Suite 7-800",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "95814",
+        "phone": "916-448\u20132787",
+        "fax": "202-228-3865",
+        "latitude": 38.5836017,
+        "longitude": -121.4987695
+      },
+      {
+        "id": "P000145-los_angeles",
+        "address": "11845 West Olympic Blvd",
+        "suite": "Suite 1250W",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90064",
+        "phone": "310-231\u20134494",
+        "fax": "202-224-0357",
+        "latitude": 34.0333756,
+        "longitude": -118.4519795
+      },
+      {
+        "id": "P000145-san_diego",
+        "address": "600 B Street",
+        "suite": "Suite 2240",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "phone": "619-239\u20133884",
+        "fax": "202-228-3863",
+        "latitude": 32.718147,
+        "longitude": -117.1585979
       }
     ]
   }
