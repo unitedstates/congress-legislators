@@ -70,7 +70,7 @@ def generate_csv():
 	social = utils.load_data(yaml_social)
 
 	for filename in yamls:
-		print("Converting %s to YAML..." % filename)
+		print("Converting %s to CSV..." % filename)
 
 		legislators = utils.load_data(filename)
 
@@ -142,6 +142,7 @@ def generate_csv():
 
 def generate_district_office_csv():
 	filename = "legislators-district-offices.yaml"
+	print("Converting %s to CSV..." % filename)
 	legislators_offices = utils.load_data(filename)
 	fields = [
 		"bioguide", "thomas", "govtrack", "id", "address", "building",
