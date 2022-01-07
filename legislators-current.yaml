@@ -14552,7 +14552,6 @@
     votesmart: 28918
     fec:
     - H6CA22125
-    - H2CA23148
     cspan: 85231
     house_history: 18801
     wikipedia: Kevin McCarthy (California politician)
@@ -31329,6 +31328,10 @@
   bio:
     gender: F
     birthday: '1984-07-02'
+  leadership_roles:
+  - title: House Republican Conference Chair
+    chamber: house
+    start: '2021-05-14'
   terms:
   - type: rep
     start: '2015-01-06'
@@ -34936,6 +34939,7 @@
   - title: House Republican Conference Chair
     chamber: house
     start: '2021-01-03'
+    end: '2021-05-14'
   terms:
   - type: rep
     start: '2017-01-03'
