@@ -41521,3 +41521,23 @@
     state: OH
     district: 15
     party: Republican
+- id:
+    bioguide: C001127
+    fec:
+    - H8FL20032
+    govtrack:
+    wikipedia: Sheila Cherfilus-McCormick
+    wikidata: Q109560948
+  name:
+    first: Sheila
+    last: Cherfilus-McCormick
+  bio:
+    gender: F
+    birthday: '1979-01-25'
+  terms:
+  - type: rep
+    start: '2022-01-18'
+    end: '2023-01-03'
+    state: FL
+    district: 20
+    party: Democrat
