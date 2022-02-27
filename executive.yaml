@@ -1491,6 +1491,11 @@
     icpsr: 14101
     fec:
     - S8DE00012
+    cspan: 34
+    wikipedia: Joe Biden
+    wikidata: Q6279
+    google_entity_id: kg:/m/012gx2
+    ballotpedia: Joe Biden
   name:
     first: Joseph
     middle: Robinette
@@ -1509,6 +1514,11 @@
   - type: viceprez
     start: '2013-01-20'
     end: '2017-01-20'
+    party: Democrat
+    how: election
+  - type: prez
+    start: '2021-01-20'
+    end: '2025-01-20'
     party: Democrat
     how: election
 - id:
@@ -1580,35 +1590,6 @@
     start: '2017-01-20'
     end: '2021-01-20'
     party: Republican
-    how: election
-- id:
-    bioguide: B000444
-    thomas: '01284'
-    lis: S010
-    govtrack: 300008
-    opensecrets: N00001669
-    votesmart: 53279
-    icpsr: 14101
-    fec:
-    - S8DE00012
-    cspan: 34
-    wikipedia: Joe Biden
-    wikidata: Q6279
-    google_entity_id: kg:/m/012gx2
-    ballotpedia: Joe Biden
-  name:
-    first: Joseph
-    middle: R.
-    last: Biden
-    suffix: Jr.
-  bio:
-    birthday: '1942-11-20'
-    gender: M
-  terms:
-  - type: prez
-    start: '2021-01-20'
-    end: '2025-01-20'
-    party: Democrat
     how: election
 - id:
     bioguide: H001075
