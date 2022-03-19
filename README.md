@@ -3,7 +3,7 @@ congress-legislators
 
 Members of the United States Congress (1789-Present), congressional committees (1973-Present), committee membership (current only), and presidents and vice presidents of the United States in YAML, JSON, and CSV format.
 
-[![Build Status](https://secure.travis-ci.org/unitedstates/congress-legislators.png)](http://travis-ci.org/unitedstates/congress-legislators)
+[![Build Status](https://circleci.com/gh/unitedstates/congress-legislators.svg?style=shield)](https://circleci.com/gh/unitedstates/congress-legislators)
 
 Overview
 --------
