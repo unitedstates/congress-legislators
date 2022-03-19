@@ -7210,36 +7210,6 @@
   },
   {
     "id": {
-      "bioguide": "H001088",
-      "govtrack": 412788
-    },
-    "offices": [
-      {
-        "id": "H001088-mankato",
-        "address": "11 Civic Center Plz",
-        "suite": "Suite 301",
-        "city": "Mankato",
-        "state": "MN",
-        "zip": "56001-7710",
-        "latitude": 44.19115,
-        "longitude": -93.94899,
-        "phone": "507-323-6090"
-      },
-      {
-        "id": "H001088-rochester",
-        "address": "1530 Greenview Dr SW",
-        "suite": "Ste. 207",
-        "city": "Rochester",
-        "state": "MN",
-        "zip": "55902-4286",
-        "latitude": 44.00307,
-        "longitude": -92.48603,
-        "phone": "507-323-6090"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "H001090",
       "govtrack": 412754
     },
@@ -16732,40 +16702,6 @@
         "latitude": 39.02961,
         "longitude": -77.40825,
         "phone": "703-234-3800"
-      }
-    ]
-  },
-  {
-    "id": {
-      "bioguide": "Y000033",
-      "govtrack": 400440,
-      "thomas": "01256"
-    },
-    "offices": [
-      {
-        "id": "Y000033-anchorage",
-        "address": "471 W. 36th Avenue",
-        "suite": "Suite 201",
-        "city": "Anchorage",
-        "state": "AK",
-        "zip": "99503",
-        "latitude": 61.1884605,
-        "longitude": -149.8942221,
-        "fax": "907-271-5950",
-        "phone": "907-271-5978"
-      },
-      {
-        "id": "Y000033-fairbanks",
-        "address": "100 Cushman St.",
-        "building": "Key Bank Building",
-        "suite": "Suite 307",
-        "city": "Fairbanks",
-        "state": "AK",
-        "zip": "99707",
-        "latitude": 64.84351649999999,
-        "longitude": -147.7220032,
-        "fax": "907-456-0279",
-        "phone": "907-456-0210"
       }
     ]
   },
