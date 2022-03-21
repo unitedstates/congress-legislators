@@ -472,17 +472,17 @@ def check_social_media():
 
         # Check that if the 'twitter' field is given that 'twitter_id' is also given,
         # and vice versa.
-        if bool(entry["social"].get("twitter")) != bool(entry["social"].get("twitter_id")):
+        if ("twitter" in entry["social"]) != ("twitter_id" in entry["social"]):
             error("legislators-social-media.yaml", "Entry has 'twitter' but not 'twitter_id' or vice versa: " + entry["id"]["bioguide"])
 
     if "TWITTER_API_BEARER_TOKEN" in os.environ:
         import tweepy
         twitter = tweepy.Client(os.environ["TWITTER_API_BEARER_TOKEN"])
 
-        # Check that twitter user names matche twitter IDs.
+        # Check that twitter user names matches twitter IDs.
         twitter_matches = [(entry["social"]["twitter"], entry["social"]["twitter_id"])
                            for entry in social_media
-                           if entry["social"].get("twitter") and entry["social"].get("twitter_id")]
+                           if "twitter" in entry["social"] and "twitter_id" in entry["social"]]
         while twitter_matches:
             tm = twitter_matches[0:100]
             twitter_matches = twitter_matches[100:]
