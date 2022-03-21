@@ -121,6 +121,10 @@ def check_legislator_offices(legislator_offices, legislator):
         if state and office_state and office_state != state:
             errors.append("Office %s is in '%s', legislator is from '%s'" % (office_id, office_state, state))
 
+        office_zip = office.get('zip')
+        if office_zip is not None and not isinstance(office_zip, str):
+            errors.append("Office %s has non-string zip: %s" % (office_id, office_zip))
+
         phone = office.get('phone')
         fax = office.get('fax')
 

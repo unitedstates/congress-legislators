@@ -11316,7 +11316,7 @@
     suite: Suite 420
     city: Pensacola
     state: FL
-    zip: 32502
+    zip: '32502'
     phone: 850-760-5151
     latitude: 30.4096575
     longitude: -87.2155533
@@ -11325,7 +11325,7 @@
     suite: Suite 289
     city: Jacksonville
     state: FL
-    zip: 32202
+    zip: '32202'
     phone: 904-479-7227
     latitude: 30.3269484
     longitude: -81.6637337
@@ -11334,7 +11334,7 @@
     suite: Suite 410
     city: Orlando
     state: FL
-    zip: 32801
+    zip: '32801'
     phone: 407-872-7161
     latitude: 28.5460289
     longitude: -81.3745694
@@ -11343,7 +11343,7 @@
     suite: Suite 421
     city: Tampa
     state: FL
-    zip: 33602
+    zip: '33602'
     phone: 813-225-7040
     latitude: 27.95168
     longitude: -82.4580549
@@ -11352,7 +11352,7 @@
     suite: Suite 300
     city: Kissimmee
     state: FL
-    zip: 34741
+    zip: '34741'
     phone: 407-586-7879
     latitude: 28.2912612
     longitude: -81.4108061
@@ -11361,7 +11361,7 @@
     suite: Suite 201
     city: West Palm Beach
     state: FL
-    zip: 33401
+    zip: '33401'
     phone: 561-514-0189
     latitude: 26.7134899
     longitude: -80.0544948
@@ -11370,7 +11370,7 @@
     suite: Building F, Suite 106
     city: Naples
     state: FL
-    zip: 34112
+    zip: '34112'
     phone: 239-231-7890
     latitude: 26.1275317
     longitude: -81.7654572
@@ -11379,7 +11379,7 @@
     suite: Suite 505
     city: Miami
     state: FL
-    zip: 33134
+    zip: '33134'
     phone: 786-501-7141
 - id:
     bioguide: T000193
@@ -13662,7 +13662,7 @@
     city: Fresno
     state: CA
     zip: '93721'
-    phone: 559-497–5109
+    phone: 559-497-5109
     fax: 202-228-3864
     latitude: 36.7373445
     longitude: -119.7837236
@@ -13672,7 +13672,7 @@
     city: San Francisco
     state: CA
     zip: '94104'
-    phone: 415-981–9369
+    phone: 415-981-9369
     fax: 202-224-0454
     latitude: 37.7906431
     longitude: -122.4030566
@@ -13682,7 +13682,7 @@
     city: Sacramento
     state: CA
     zip: '95814'
-    phone: 916-448–2787
+    phone: 916-448-2787
     fax: 202-228-3865
     latitude: 38.5836017
     longitude: -121.4987695
@@ -13692,7 +13692,7 @@
     city: Los Angeles
     state: CA
     zip: '90064'
-    phone: 310-231–4494
+    phone: 310-231-4494
     fax: 202-224-0357
     latitude: 34.0333756
     longitude: -118.4519795
@@ -13702,7 +13702,7 @@
     city: San Diego
     state: CA
     zip: '92101'
-    phone: 619-239–3884
+    phone: 619-239-3884
     fax: 202-228-3863
     latitude: 32.718147
     longitude: -117.1585979
