@@ -452,6 +452,52 @@ def check_committee_assignments():
         if c not in membership:
             print("committees-current.yaml", "No membership information for: " + c)
 
+def check_social_media():
+    # Check the social media file.
+
+    with open("legislators-social-media.yaml") as f:
+        social_media = rtyaml.load(f)
+
+    # Get currently serving legislators.
+    with open("legislators-current.yaml") as f:
+        legislators_current = rtyaml.load(f)
+        legislators_current = { p["id"]["bioguide"]: p for p in legislators_current }
+
+    for entry in social_media:
+        # Check that the entry is for a currently serving legislator.
+        p = legislators_current.get(entry["id"]["bioguide"])
+        if not p:
+            error("legislators-social-media.yaml", "Entry for non-current legislator: " + entry["id"]["bioguide"])
+            continue
+
+        # Check that if the 'twitter' field is given that 'twitter_id' is also given,
+        # and vice versa.
+        if ("twitter" in entry["social"]) != ("twitter_id" in entry["social"]):
+            error("legislators-social-media.yaml", "Entry has 'twitter' but not 'twitter_id' or vice versa: " + entry["id"]["bioguide"])
+
+    if "TWITTER_API_BEARER_TOKEN" in os.environ:
+        import tweepy
+        twitter = tweepy.Client(os.environ["TWITTER_API_BEARER_TOKEN"])
+
+        # Check that twitter user names matches twitter IDs.
+        twitter_matches = [(entry["social"]["twitter"], entry["social"]["twitter_id"])
+                           for entry in social_media
+                           if "twitter" in entry["social"] and "twitter_id" in entry["social"]]
+        while twitter_matches:
+            tm = twitter_matches[0:100]
+            twitter_matches = twitter_matches[100:]
+            users_by_username = twitter.get_users(usernames=",".join(tmm[0] for tmm in tm))
+            users_by_username = { user.username.lower(): user.id for user in users_by_username.data }
+            users_by_id = twitter.get_users(ids=",".join(str(tmm[1]) for tmm in tm))
+            users_by_id = { user.id: user.username for user in users_by_id.data }
+            for username, uid in tm:
+                if uid not in users_by_id or users_by_id[uid].lower() != username.lower():
+                    error("legislators-social-media.yaml", "Mismatch between Twitter username {} (ID={}) and ID {} (username={}).".format(
+                        username, users_by_username.get(username.lower(), "<invalid username>"), uid, users_by_id.get(uid, "<invalid ID>")))
+                elif users_by_id[uid] != username and users_by_id[uid] != users_by_id[uid].lower():
+                    # Don't push to use the canonical case if the canonical case is all lowercase.
+                    error("legislators-social-media.yaml", "Non-canonical case for Twitter username {} (should be {}).".format(username, users_by_id[uid]))
+
 if __name__ == "__main__":
   # Check the legislators files.
   seen_ids = { }
@@ -463,6 +509,7 @@ if __name__ == "__main__":
   check_id_uniqueness(seen_ids)
   check_district_offices()
   check_committee_assignments()
+  check_social_media()
 
   # Exit with exit status.
   sys.exit(0 if ok else 1)
