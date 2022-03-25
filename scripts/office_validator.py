@@ -45,7 +45,7 @@ FIELD_ORDER = """
     address suite building
     city state zip
     latitude longitude
-    fax hours phone
+    phone fax hours
 
 """.split()
 
@@ -201,7 +201,7 @@ def run(skip_warnings=False):
 
         print_issues(legislator or bioguide_id, errors, warnings)
 
-    for bioguide_id in set(legislators) - set(legislators_offices):
+    for bioguide_id in sorted(legislators.keys() - legislators_offices.keys()):
         # Only report an error for a missing office if the
         # legislator has been in office for at least 60 days.
         start_date = legislators[bioguide_id]['terms'][-1]['start']
