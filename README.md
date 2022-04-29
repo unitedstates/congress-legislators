@@ -31,7 +31,7 @@ This database is maintained through a combination of manual edits by volunteers 
 * The Congressional Biographical Directory (http://bioguide.congress.gov).
 * Congressional Committees, Historical Standing Committees data set by Garrison Nelson and Charles Stewart (http://web.mit.edu/17.251/www/data_page.html).
 * Martis’s “The Historical Atlas of Political Parties in the United States Congress”, via Rosenthal, Howard L., and Keith T. Poole. United States Congressional Roll Call Voting Records, 1789-1990 (http://voteview.com/dwnl.htm).
-* The Sunlight Labs Congress API (http://sunlightlabs.github.com/congress/).
+* The Sunlight Labs Congress API (http://sunlightlabs.github.io/congress/).
 * The Library of Congress's THOMAS website (http://thomas.loc.gov).
 * C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
 
