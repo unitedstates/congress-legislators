@@ -38675,7 +38675,7 @@
         "class": 2,
         "state_rank": "junior",
         "party": "Republican",
-        "url": "https://www.ernst.senate.gov/public",
+        "url": "https://www.ernst.senate.gov",
         "contact_form": "https://www.ernst.senate.gov/public/index.cfm/contact",
         "address": "730 Hart Senate Office Building Washington DC 20510",
         "office": "730 Hart Senate Office Building",
@@ -50621,6 +50621,73 @@
         "address": "2365 Rayburn House Office Building Washington DC 20515-0920",
         "office": "2365 Rayburn House Office Building",
         "phone": "202-225-1313"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "C001128",
+      "fec": [
+        "H2CA22231"
+      ],
+      "govtrack": 456866,
+      "wikipedia": "Connie Conway",
+      "wikidata": "Q5161840",
+      "ballotpedia": "Connie Conway"
+    },
+    "name": {
+      "first": "Connie",
+      "last": "Conway",
+      "official_full": "Connie Conway"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1950-09-25"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-06-07",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 22,
+        "party": "Republican",
+        "address": "1013 Longworth House Office Building Washington DC 20515-0522",
+        "office": "1013 Longworth House Office Building",
+        "phone": "202-225-2523"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "F000473",
+      "fec": [
+        "H2TX34113"
+      ],
+      "govtrack": 456867,
+      "wikipedia": "Mayra Flores",
+      "wikidata": "Q112577890"
+    },
+    "name": {
+      "first": "Mayra",
+      "last": "Flores",
+      "official_full": "Mayra Flores"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1986-01-01"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-06-21",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 34,
+        "party": "Republican",
+        "address": "307 Cannon House Office Building Washington DC 20515-4334",
+        "office": "307 Cannon House Office Building",
+        "phone": "202-225-9901"
       }
     ]
   }
