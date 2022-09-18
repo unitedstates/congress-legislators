@@ -16202,8 +16202,8 @@
         "party": "Republican",
         "url": "https://www.lee.senate.gov",
         "rss_url": "http://www.lee.senate.gov/public/index.cfm/rss/feed",
-        "address": "361A Russell Senate Office Building Washington DC 20510",
-        "office": "361a Russell Senate Office Building",
+        "address": "363 Russell Senate Office Building Washington DC 20510",
+        "office": "363 Russell Senate Office Building",
         "phone": "202-224-5444",
         "contact_form": "https://www.lee.senate.gov/public/index.cfm/contact"
       }
@@ -50538,7 +50538,8 @@
     },
     "name": {
       "first": "Mike",
-      "last": "Flood"
+      "last": "Flood",
+      "official_full": "Mike Flood"
     },
     "bio": {
       "gender": "M",
@@ -50571,7 +50572,8 @@
     },
     "name": {
       "first": "Brad",
-      "last": "Finstad"
+      "last": "Finstad",
+      "official_full": "Brad Finstad"
     },
     "bio": {
       "gender": "M",
@@ -50585,7 +50587,113 @@
         "state": "MN",
         "district": 1,
         "party": "Republican",
-        "phone": "202-225-2472"
+        "phone": "202-225-2472",
+        "address": "1433 Longworth House Office Building Washington DC 20515-2301",
+        "office": "1433 Longworth House Office Building"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "P000619",
+      "fec": [
+        "H2AK01158"
+      ],
+      "govtrack": 456870,
+      "wikipedia": "Mary Peltola",
+      "wikidata": "Q13562231",
+      "ballotpedia": "Mary Peltola"
+    },
+    "name": {
+      "first": "Mary",
+      "middle": "Sattler",
+      "last": "Peltola",
+      "official_full": "Mary Sattler Peltola"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1973-08-31"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-09-13",
+        "end": "2023-01-03",
+        "state": "AK",
+        "district": 0,
+        "party": "Democrat",
+        "url": "https://peltola.house.gov",
+        "address": "2314 Rayburn House Office Building Washington DC 20515-0200",
+        "office": "2314 Rayburn House Office Building",
+        "phone": "202-225-5765"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "R000579",
+      "fec": [
+        "H8NY19223"
+      ],
+      "govtrack": 456871,
+      "wikipedia": "Pat Ryan (politician)",
+      "wikidata": "Q113587887",
+      "ballotpedia": "Pat Ryan (New York)"
+    },
+    "name": {
+      "first": "Patrick",
+      "last": "Ryan",
+      "official_full": "Patrick Ryan"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1982-03-28"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-09-13",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 19,
+        "party": "Democrat",
+        "address": "1007 Longworth House Office Building Washington DC 20515-3219",
+        "office": "1007 Longworth House Office Building",
+        "phone": "202-225-5614"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "S001219",
+      "fec": [
+        "H2NY23137"
+      ],
+      "govtrack": 456872,
+      "wikipedia": "Joe Sempolinski",
+      "wikidata": "Q113588013",
+      "ballotpedia": "Joe Sempolinski"
+    },
+    "name": {
+      "first": "Joseph",
+      "last": "Sempolinski",
+      "official_full": "Joseph Sempolinski"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1982-02-10"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-09-13",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 23,
+        "party": "Republican",
+        "address": "1203 Longworth House Office Building Washington DC 20515-3223",
+        "office": "1203 Longworth House Office Building",
+        "phone": "202-225-3161"
       }
     ]
   }
