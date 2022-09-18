@@ -2,6 +2,7 @@
 # Validate that the YAML files have sane data.
 
 import os, sys
+import re
 from datetime import date, datetime
 
 import rtyaml
@@ -159,11 +160,19 @@ def check_id_types(legislator, seen_ids, is_legislator, context):
       error(context, rtyaml.dump({ key: value }).strip() + " has an invalid data type.")
 
     else:
-      # Check that the ID isn't duplicated across legislators.
       # Since some values are lists of IDs, check the elements.
+      # Make a single-item list for non-list IDs.
+      if not isinstance(value, list): value = [value]
+
+      # Check ID syntax.
+      if key == "fec":
+        for v in value:
+          if not re.match(r"([HS]\d[A-Z]{2}|P\d00)\d{5}$", v):
+            error(context, rtyaml.dump({ key: v }).strip() + " has invalid format.")
+
+      # Check that the ID isn't duplicated across legislators.
       # Just make a list of ID occurrences here -- we'll check
       # uniqueness at the end.
-      if not isinstance(value, list): value = [value]
       for v in value:
         seen_ids.setdefault((key, v), []).append(legislator)
 
