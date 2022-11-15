@@ -49935,23 +49935,8 @@
       {
         "type": "sen",
         "start": "2021-01-20",
-        "end": "2022-11-08",
-        "how": "appointment",
-        "state": "CA",
-        "class": 3,
-        "party": "Democrat",
-        "state_rank": "junior",
-        "address": "112 Hart Senate Office Building Washington DC 20510",
-        "office": "112 Hart Senate Office Building",
-        "phone": "202-224-3553",
-        "url": "https://www.padilla.senate.gov",
-        "contact_form": "https://www.padilla.senate.gov/contact/"
-      },
-      {
-        "type": "sen",
-        "start": "2022-11-09",
         "end": "2023-01-03",
-        "how": "special-election",
+        "how": "appointment",
         "state": "CA",
         "class": 3,
         "party": "Democrat",
@@ -50593,38 +50578,6 @@
         "address": "1203 Longworth House Office Building Washington DC 20515-3223",
         "office": "1203 Longworth House Office Building",
         "phone": "202-225-3161"
-      }
-    ]
-  },
-  {
-    "id": {
-      "bioguide": "Y000067",
-      "fec": [
-        "H2IN02295"
-      ],
-      "govtrack": 456873,
-      "votesmart": 210545,
-      "wikipedia": "Rudy Yakym",
-      "wikidata": "Q115137719",
-      "ballotpedia": "Rudy Yakym"
-    },
-    "name": {
-      "first": "Rudy",
-      "last": "Yakym"
-    },
-    "bio": {
-      "gender": "M",
-      "birthday": "1984-02-24"
-    },
-    "terms": [
-      {
-        "type": "rep",
-        "start": "2022-11-14",
-        "end": "2023-01-03",
-        "state": "IN",
-        "district": 2,
-        "party": "Republican",
-        "how": "special-election"
       }
     ]
   }
