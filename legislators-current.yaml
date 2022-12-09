@@ -25083,7 +25083,14 @@
     end: '2025-01-03'
     state: AZ
     class: 1
-    party: Democrat
+    party: Independent
+    caucus: Democrat
+    party_affiliations:
+    - end: '2022-12-08'
+      party: Democrat
+    - start: '2022-12-09'
+      party: Independent
+      caucus: Democrat
     state_rank: senior
     url: https://www.sinema.senate.gov
     address: 317 Hart Senate Office Building Washington DC 20510
