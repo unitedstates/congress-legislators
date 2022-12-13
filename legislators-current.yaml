@@ -20557,7 +20557,7 @@
       end: '1994-11-09'
       party: Democrat
     - start: '1994-11-09'
-      end: '2005-01-03'
+      end: '1999-01-03'
       party: Republican
   - type: sen
     start: '1999-01-06'
@@ -25086,9 +25086,11 @@
     party: Independent
     caucus: Democrat
     party_affiliations:
-    - end: '2022-12-08'
+    - start: '2019-01-03'
+      end: '2022-12-08'
       party: Democrat
     - start: '2022-12-09'
+      end: '2025-01-03'
       party: Independent
       caucus: Democrat
     state_rank: senior

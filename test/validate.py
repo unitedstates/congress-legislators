@@ -307,6 +307,42 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
     elif current and term.get("state_rank") is None:
       error(context, "Term is missing senator state_rank.")
 
+  # Party & party affiliatons.
+  if start.year > 1950:
+    if not isinstance(term.get("party"), str):
+        error(context, "Term is missing party.")
+  if start.year > 2006:
+    # Check party (missing or odd values in some of the historical data).
+    if term.get("party") not in ("Republican", "Democrat", "Independent", "Libertarian"):
+      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
+
+    # Check caucus of Independent members -- it's optional, so warn.
+    if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
+      print(context, "[warning] " + repr(rtyaml.dump({ "caucus": term.get("caucus") }).strip()) + " when party is Independent.")
+  if term.get("party_affiliations"):
+    if not isinstance(term["party_affiliations"], list):
+        error(context, "party_affiliations has incorrect type.")
+    else:
+      if len(term["party_affiliations"]) < 2:
+        error(context, "party_affiliations has fewer than two entries.")
+      for i, pa in enumerate(term["party_affiliations"]):
+        if not pa.get('start') or not pa.get('end'):
+          error(context, "party_affiliation is missing start/end date.")
+        else:
+          pa_start = check_date(pa.get('start'), context)
+          pa_end = check_date(pa.get('end'), context)
+          if pa_start < start or pa_end > end:
+            error(context, "party_affiliation start/end date is out of the range of the term's dates.")
+          if not isinstance(pa.get("party"), str):
+              error(context, "party_affiliation is missing party.")
+          else:
+            if i == 0 and pa_start != start:
+              error(context, "first party_affiliation's start date must match term start date.")
+            if i == len(term["party_affiliations"]) - 1 and pa_end != end:
+              error(context, "last party_affiliation's end date must match term end date.")
+            if i == len(term["party_affiliations"]) - 1 and pa["party"] != term.get("party"):
+              error(context, "last party_affiliation's party must match term party.")
+
   if current:
     # Check uniqueness of office for current members.
 
@@ -323,19 +359,9 @@ def check_term(term, prev_term, context, current=None, current_mocs=None):
         error(context, "Term duplicates state_rank in a state.")
       current_mocs.add(office)
 
-    # Check party of current members (historical is too difficult).
-    if term.get("party") not in ("Republican", "Democrat", "Independent", "Libertarian"):
-      error(context, rtyaml.dump({ "party": term.get("party") }).strip() + " is invalid.")
-
-    # Check caucus of Independent members -- it's optional, so warn.
-    if term.get("party") == "Independent" and term.get("caucus") not in ("Republican", "Democrat"):
-      print(context, rtyaml.dump({ "caucus": term.get("caucus") }).strip() + " when party is Independent.")
-
     # Check website -- it's optional, so warn.
     if not term.get("url"):
       print(context, "Term is missing a website url.")
-
-    # TODO: Check party_affiliations and office information.
 
 def report_vacancies(current_mocs):
   for state, apportionment in state_apportionment.items():
