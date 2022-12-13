@@ -25271,7 +25271,7 @@
           },
           {
             "start": "1994-11-09",
-            "end": "2005-01-03",
+            "end": "1999-01-03",
             "party": "Republican"
           }
         ]
@@ -30808,11 +30808,13 @@
         "caucus": "Democrat",
         "party_affiliations": [
           {
+            "start": "2019-01-03",
             "end": "2022-12-08",
             "party": "Democrat"
           },
           {
             "start": "2022-12-09",
+            "end": "2025-01-03",
             "party": "Independent",
             "caucus": "Democrat"
           }
@@ -50570,7 +50572,8 @@
         "state": "IN",
         "district": 2,
         "party": "Republican",
-        "how": "special-election"
+        "how": "special-election",
+        "phone": "202-225\u20133915"
       }
     ]
   }
