@@ -509,9 +509,9 @@
         "class": 1,
         "party": "Democrat",
         "state_rank": "senior",
-        "url": "https://www.carper.senate.gov/public",
+        "url": "https://www.carper.senate.gov",
         "rss_url": "http://www.carper.senate.gov/public/index.cfm/rss/feed",
-        "contact_form": "https://www.carper.senate.gov/public/index.cfm/email-senator-carper",
+        "contact_form": "https://www.carper.senate.gov/contact/",
         "address": "513 Hart Senate Office Building Washington DC 20510",
         "office": "513 Hart Senate Office Building",
         "phone": "202-224-2441"
@@ -12898,7 +12898,7 @@
         "address": "338 Russell Senate Office Building Washington DC 20510",
         "office": "338 Russell Senate Office Building",
         "phone": "202-224-2551",
-        "contact_form": "https://www.hoeven.senate.gov/contact/email-the-senator/form",
+        "contact_form": "https://www.hoeven.senate.gov/public/index.cfm/email-the-senator",
         "fax": "202-224-7999"
       }
     ]
@@ -50558,7 +50558,8 @@
     },
     "name": {
       "first": "Rudy",
-      "last": "Yakym"
+      "last": "Yakym",
+      "official_full": "Rudy Yakym, III"
     },
     "bio": {
       "gender": "M",
@@ -50573,7 +50574,9 @@
         "district": 2,
         "party": "Republican",
         "how": "special-election",
-        "phone": "202-225\u20133915"
+        "phone": "202-225-3915",
+        "address": "466 Cannon House Office Building Washington DC 20515-1402",
+        "office": "466 Cannon House Office Building"
       }
     ]
   }
