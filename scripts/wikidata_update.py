@@ -82,12 +82,10 @@ def get_ids_from_wikidata_without_bioguide(legislators):
         """.replace("?subject", "wd:" + p["id"]["wikidata"]))
 
     
-        print(table)
         p["id"].update(table[0])
 
 
 def run_query(query):
-    print(query)
     sparql_endpoint = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
     s = SPARQLWrapper(sparql_endpoint)
 
