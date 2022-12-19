@@ -199,6 +199,7 @@ Each record has two sections: `id` and `social`. The `id` section identifies the
 * instagram: The current official Instagram handle of the legislator.
 * instagram_id: The numeric ID of the current official Instagram handle of the legislator.
 * facebook: The username of the current official Facebook presence of the legislator.
+* mastodon: The current Mastodon handle (@username@instance) of the legislator.
 
 Several legislators do not have an assigned YouTube username.  In these cases, only the youtube_id field is populated.
 

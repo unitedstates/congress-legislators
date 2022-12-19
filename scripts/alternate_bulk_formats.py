@@ -60,9 +60,11 @@ def generate_csv():
 	#pulled from legislators-social-media.yaml
 	social_media_fields = [
 	("twitter", "twitter"),
+	("twitter_id", "twitter_id"),
 	("facebook", "facebook"),
 	("youtube", "youtube"),
-	("youtube_id", "youtube_id")
+	("youtube_id", "youtube_id"),
+	("mastodon", "mastodon")
 	]
 
 
