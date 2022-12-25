@@ -152,7 +152,8 @@ def check_legislator_offices(legislator_offices, legislator):
 def load_to_dict(path):
     # load to an OrderedDict keyed by bioguide id
     d = yaml.load(open(relfile(path)))
-    return OrderedDict((l['id']['bioguide'], l) for l in d)
+    return OrderedDict((l['id']['bioguide'], l) for l in d
+        if 'bioguide' in l['id'])
 
 
 def print_issues(legislator, errors, warnings):

@@ -90,7 +90,10 @@ def check_legislators_file(fn, seen_ids, current=None, current_mocs=None):
       check_id_types(legislator, seen_ids, True, context)
 
     # Create a string for error messages to tell us where problems are ocurring.
-    context = "{}:{}".format(fn, legislator['id']['bioguide'])
+    # Use the bioguide ID as a key but fall back to GovTrack IDs when it is
+    # missing which happens when adding new legislators before they have bioguide
+    # IDs.
+    context = "{}:{}".format(fn, legislator['id'].get('bioguide', legislator['id']['govtrack']))
 
     # Check the name.
     if "name" not in legislator:
@@ -455,7 +458,7 @@ def check_id_uniqueness(seen_ids):
   for (id_type, id_value), occurrences in seen_ids.items():
     if len(occurrences) > 1:
       error("", "%s %s is duplicated: %s" % (id_type, id_value,
-        " ".join(legislator['id']['bioguide'] for legislator in occurrences)))
+        " ".join(legislator['id'].get('bioguide', str(legislator['id']['govtrack'])) for legislator in occurrences)))
 
 def check_district_offices():
     has_errors = validate_offices(skip_warnings=True)
@@ -496,7 +499,8 @@ def check_social_media():
     # Get currently serving legislators.
     with open("legislators-current.yaml") as f:
         legislators_current = rtyaml.load(f)
-        legislators_current = { p["id"]["bioguide"]: p for p in legislators_current }
+        legislators_current = { p["id"]["bioguide"]: p for p in legislators_current
+                                if "bioguide" in p["id"] }
 
     for entry in social_media:
         # Check that the entry is for a currently serving legislator.
