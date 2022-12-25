@@ -5949,7 +5949,7 @@
     fec:
     - H6TN09068
     cspan: 1022876
-    wikipedia: Steve Cohen
+    wikipedia: Steve Cohen (politician)
     house_history: 11800
     maplight: 721
     icpsr: 20748
@@ -6974,7 +6974,7 @@
     fec:
     - H4IL07037
     cspan: 44325
-    wikipedia: Danny K. Davis
+    wikipedia: Danny Davis (Illinois politician)
     house_history: 11949
     ballotpedia: Danny K. Davis
     maplight: 209
@@ -9588,7 +9588,7 @@
     cspan: 1003551
     wikipedia: Raúl Grijalva
     house_history: 14261
-    ballotpedia: Raul M. Grijalva
+    ballotpedia: Raul Grijalva
     maplight: 268
     icpsr: 20305
     wikidata: Q946606
@@ -13061,7 +13061,7 @@
     fec:
     - S0UT00165
     cspan: 9267977
-    wikipedia: Mike Lee (American politician)
+    wikipedia: Mike Lee
     ballotpedia: Mike Lee
     maplight: 1500
     icpsr: 41110
@@ -13724,7 +13724,7 @@
     - H2MA09072
     - S0MA00083
     cspan: 1000222
-    wikipedia: Stephen F. Lynch
+    wikipedia: Stephen Lynch (politician)
     house_history: 17301
     ballotpedia: Stephen Lynch
     maplight: 348
@@ -14332,7 +14332,7 @@
     - H6CA22125
     cspan: 85231
     house_history: 18801
-    wikipedia: Kevin McCarthy (California politician)
+    wikipedia: Kevin McCarthy
     ballotpedia: Kevin McCarthy (California)
     maplight: 677
     icpsr: 20703
@@ -21007,7 +21007,7 @@
     fec:
     - H6WA09025
     cspan: 44329
-    wikipedia: Adam Smith (politician)
+    wikipedia: Adam Smith (Washington politician)
     ballotpedia: Adam Smith
     maplight: 471
     icpsr: 29768
@@ -26959,7 +26959,7 @@
     cspan: 62650
     opensecrets: N00030875
     votesmart: 122256
-    wikipedia: Ann McLane Kuster
+    wikipedia: Annie Kuster
     fec:
     - H0NH02181
     ballotpedia: Annie Kuster
@@ -28095,7 +28095,7 @@
     - H2TX33040
     - S2TX00270
     votesmart: 50112
-    wikipedia: Roger Williams (American politician)
+    wikipedia: Roger Williams (Texas politician)
     opensecrets: N00030602
     ballotpedia: Roger Williams
     maplight: 1802
@@ -28180,7 +28180,7 @@
     votesmart: 49671
     wikipedia: Marc Veasey
     opensecrets: N00033839
-    ballotpedia: Mark Veasey
+    ballotpedia: Marc Veasey
     maplight: 1803
     icpsr: 21365
     wikidata: Q4068811
@@ -29828,7 +29828,7 @@
     thomas: '02239'
     maplight: 2081
     wikidata: Q18683976
-    wikipedia: Rick W. Allen
+    wikipedia: Rick Allen (politician)
     google_entity_id: kg:/m/0127y9dk
     votesmart: 136062
     cspan: 62545
@@ -33241,7 +33241,7 @@
 - id:
     bioguide: B001304
     govtrack: 412707
-    wikipedia: Anthony G. Brown
+    wikipedia: Anthony Brown (Maryland politician)
     wikidata: Q4772558
     votesmart: 19344
     fec:
@@ -33450,7 +33450,7 @@
 - id:
     bioguide: B001298
     govtrack: 412713
-    wikipedia: Don Bacon (politician)
+    wikipedia: Don Bacon
     wikidata: Q19757583
     votesmart: 166299
     fec:
@@ -35624,7 +35624,7 @@
     fec:
     - H8IL04134
     govtrack: 412774
-    wikipedia: Jesús "Chuy" García
+    wikipedia: Chuy García
     wikidata: Q18631698
     opensecrets: N00042114
     google_entity_id: kg:/m/012c8r5x
@@ -36674,7 +36674,7 @@
     fec:
     - H8OH16124
     govtrack: 412807
-    wikipedia: Anthony Gonzalez
+    wikipedia: Anthony Gonzalez (politician)
     wikidata: Q3487172
     opensecrets: N00041690
     google_entity_id: kg:/m/0gznlq
@@ -38129,6 +38129,7 @@
     wikidata: Q94236068
     ballotpedia: Mike Garcia
     google_entity_id: kg:/g/11j2j3x1pl
+    votesmart: 188664
   name:
     first: Mike
     last: Garcia
@@ -38202,6 +38203,7 @@
     wikipedia: Mark Kelly
     wikidata: Q357510
     ballotpedia: Mark Kelly
+    votesmart: 190594
   name:
     first: Mark
     last: Kelly
@@ -38706,7 +38708,7 @@
     opensecrets: N00045369
     govtrack: 456798
     wikidata: Q27734214
-    wikipedia: Bill Hagerty (politician)
+    wikipedia: Bill Hagerty
     google_entity_id: kg:/g/11c1xp6h9v
     votesmart: 128466
     ballotpedia: Bill Hagerty
@@ -39050,7 +39052,7 @@
     opensecrets: N00042810
     govtrack: 456810
     wikidata: Q6003715
-    wikipedia: Maria Elvira Salazar
+    wikipedia: María Elvira Salazar
     google_entity_id: kg:/g/1hb_g7r18
     votesmart: 182300
   name:
@@ -39167,6 +39169,7 @@
     wikipedia: Marjorie Taylor Greene
     google_entity_id: kg:/g/11fscs046n
     ballotpedia: Marjorie Taylor Greene
+    votesmart: 189785
   name:
     first: Marjorie
     middle: Taylor
@@ -39708,6 +39711,7 @@
     wikipedia: Madison Cawthorn
     google_entity_id: kg:/g/11jcrrfg9t
     ballotpedia: Madison Cawthorn
+    votesmart: 188527
   name:
     first: Madison
     last: Cawthorn
@@ -40158,8 +40162,9 @@
     - H0TX35015
     opensecrets: N00044592
     govtrack: 456849
-    wikidata: ''
+    wikidata: Q104648170
     google_entity_id: kg:/g/11fs52clcr
+    wikipedia: Tony Gonzales
   name:
     first: Ernest
     middle: Anthony
@@ -40362,6 +40367,7 @@
     wikipedia: Alex Padilla
     wikidata: Q4717593
     ballotpedia: Alex Padilla
+    votesmart: 59742
   name:
     first: Alejandro
     nickname: Alex
@@ -40408,6 +40414,8 @@
     wikipedia: Jon Ossoff
     wikidata: Q28839536
     ballotpedia: Jon Ossoff
+    votesmart: 176134
+    google_entity_id: kg:/g/11g6njlbw2
   name:
     first: Jon
     last: Ossoff
@@ -40438,6 +40446,8 @@
     wikipedia: Raphael Warnock
     wikidata: Q84146599
     ballotpedia: Raphael Warnock
+    votesmart: 189794
+    google_entity_id: kg:/g/11b5lw9q73
   name:
     first: Raphael
     middle: Gamaliel
@@ -40511,6 +40521,8 @@
     wikipedia: Julia Letlow
     wikidata: Q106089241
     ballotpedia: Julia Letlow
+    google_entity_id: kg:/g/11qq9ggdyw
+    votesmart: 195745
   name:
     first: Julia
     last: Letlow
@@ -40566,6 +40578,8 @@
     wikipedia: Melanie Stansbury
     wikidata: Q96184996
     ballotpedia: Melanie Ann Stansbury
+    votesmart: 180789
+    google_entity_id: kg:/g/11f_jwp_yr
   name:
     first: Melanie
     middle: Ann
@@ -40594,6 +40608,7 @@
     wikipedia: Jake Ellzey
     wikidata: Q105061782
     ballotpedia: Jake Ellzey
+    google_entity_id: kg:/g/11lsr970tb
   name:
     first: Jake
     last: Ellzey
@@ -40831,6 +40846,8 @@
     wikipedia: Pat Ryan (politician)
     wikidata: Q113587887
     ballotpedia: Pat Ryan (New York)
+    google_entity_id: kg:/g/11f892sjry
+    votesmart: 180314
   name:
     first: Patrick
     last: Ryan
@@ -40857,6 +40874,8 @@
     wikipedia: Joe Sempolinski
     wikidata: Q113588013
     ballotpedia: Joe Sempolinski
+    google_entity_id: kg:/g/11rrs737s7
+    votesmart: 208849
   name:
     first: Joseph
     last: Sempolinski
