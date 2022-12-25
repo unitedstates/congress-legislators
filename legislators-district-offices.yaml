@@ -191,35 +191,6 @@
     longitude: -96.83182
     phone: 701-353-6665
 - id:
-    bioguide: A000378
-    govtrack: 412772
-  offices:
-  - id: A000378-council_bluffs
-    address: 501 5th Ave
-    city: Council Bluffs
-    state: IA
-    zip: 51503-0902
-    latitude: 41.25685
-    longitude: -95.85104
-    phone: 712-890-3117
-  - id: A000378-creston
-    address: 208 W Taylor St
-    city: Creston
-    state: IA
-    zip: 50801-3766
-    latitude: 41.04909
-    longitude: -94.36326
-    phone: 202-225-5476
-  - id: A000378-des_moines
-    address: 400 E Court Ave
-    suite: Suite 346
-    city: Des Moines
-    state: IA
-    zip: 50309-2017
-    latitude: 41.58781
-    longitude: -93.6113
-    phone: 202-225-5476
-- id:
     bioguide: B000490
     govtrack: 400030
     thomas: '00091'
@@ -273,81 +244,6 @@
     fax: 503-230-5413
     phone: 503-231-2300
 - id:
-    bioguide: B000575
-    govtrack: 400034
-    thomas: '01464'
-  offices:
-  - id: B000575-cape_girardeau
-    address: 338 Broadway
-    suite: Suite 303
-    city: Cape Girardeau
-    state: MO
-    zip: '63701'
-    latitude: 37.3064303
-    longitude: -89.5241403
-    phone: 573-334-7044
-  - id: B000575-columbia
-    address: 1123 Wilkes Blvd
-    suite: Suite 320
-    city: Columbia
-    state: MO
-    zip: '65201'
-    latitude: 38.9606243
-    longitude: -92.3229127
-    phone: 573-442-8151
-  - id: B000575-kansas_city
-    address: 1000 Walnut St.
-    suite: Suite 1560
-    city: Kansas City
-    state: MO
-    zip: '64106'
-    latitude: 39.1021449
-    longitude: -94.5825038
-    phone: 816-471-7141
-  - id: B000575-saint_louis
-    address: 111 S 10th St
-    suite: '23.305'
-    building: Thomas F. Eagleton U.S. Courthouse
-    city: Saint Louis
-    state: MO
-    zip: 63102-1125
-    latitude: 38.62588
-    longitude: -90.196
-    phone: 314-725-4484
-  - id: B000575-springfield
-    address: 2740 B E. Sunshine
-    city: Springfield
-    state: MO
-    zip: '65804'
-    latitude: 37.180415
-    longitude: -93.240439
-    phone: 417-877-7814
-- id:
-    bioguide: B000755
-    govtrack: 400046
-    thomas: '01468'
-  offices:
-  - id: B000755-conroe
-    address: 200 River Pt.
-    suite: Suite 304
-    city: Conroe
-    state: TX
-    zip: '77304'
-    latitude: 30.2844625
-    longitude: -95.4613914
-    fax: 936-441-5757
-    phone: 936-441-5700
-  - id: B000755-huntsville
-    address: 1300 11th St.
-    suite: Suite 400
-    city: Huntsville
-    state: TX
-    zip: '77340'
-    latitude: 30.7240052
-    longitude: -95.5535049
-    fax: 936-439-9546
-    phone: 936-439-9532
-- id:
     bioguide: B000944
     govtrack: 400050
     thomas: '00136'
@@ -392,54 +288,6 @@
     longitude: -82.1792684
     fax: 440-242-4108
     phone: 440-242-4100
-- id:
-    bioguide: B001135
-    govtrack: 400054
-    thomas: '00153'
-  offices:
-  - id: B001135-asheville
-    address: 151 Patton Ave.
-    suite: Suite 204
-    building: Federal Building
-    city: Asheville
-    state: NC
-    zip: '28801'
-    latitude: 35.594066
-    longitude: -82.55792
-    fax: 828-350-2439
-    hours: By appointment only
-    phone: 828-350-2437
-  - id: B001135-rocky_mount
-    address: 100 Coast Line St.
-    suite: Room 210
-    city: Rocky Mount
-    state: NC
-    zip: '27804'
-    latitude: 35.9379802
-    longitude: -77.7977748
-    fax: 252-977-7902
-    phone: 252-977-9522
-    hours: By appointment only.
-  - id: B001135-wilmington
-    address: 201 N. Front St.
-    suite: Suite 809
-    city: Wilmington
-    state: NC
-    zip: '28401'
-    latitude: 34.2376985
-    longitude: -77.9492582
-    fax: 910-251-7975
-    phone: 888-848-1833
-  - id: B001135-winston_salem
-    address: 2000 W. First St.
-    suite: Suite 508
-    city: Winston-Salem
-    state: NC
-    zip: '27104'
-    latitude: 36.0960116
-    longitude: -80.27480249999999
-    fax: 336-725-4493
-    phone: 336-631-5125
 - id:
     bioguide: B001230
     govtrack: 400013
@@ -659,32 +507,6 @@
     fax: 940-497-5067
     phone: 940-497-5031
 - id:
-    bioguide: B001251
-    govtrack: 400616
-    thomas: '01761'
-  offices:
-  - id: B001251-durham
-    address: 2741 Campus Walk Ave.
-    suite: Suite 300
-    building: Bldg. 400
-    city: Durham
-    state: NC
-    zip: '27705'
-    latitude: 36.0098844
-    longitude: -78.9533296
-    fax: 919-908-0169
-    phone: 919-908-0164
-  - id: B001251-wilson
-    address: 216 NE Nash St.
-    suite: Suite B
-    city: Wilson
-    state: NC
-    zip: '27893'
-    latitude: 35.728383
-    longitude: -77.9131079
-    fax: 252-291-0356
-    phone: 252-237-9816
-- id:
     bioguide: B001257
     govtrack: 412250
     thomas: '01838'
@@ -855,56 +677,6 @@
     longitude: -104.508253
     phone: 719-542-7550
 - id:
-    bioguide: B001270
-    govtrack: 412404
-    thomas: '01996'
-  offices:
-  - id: B001270-los_angeles
-    address: 4929 Wilshire Blvd.
-    suite: Suite 650
-    city: Los Angeles
-    state: CA
-    zip: '90010'
-    latitude: 34.06264360000001
-    longitude: -118.3381029
-    fax: 323-965-1113
-    phone: 323-965-1422
-- id:
-    bioguide: B001274
-    govtrack: 412395
-    thomas: '01987'
-  offices:
-  - id: B001274-decatur
-    address: 302 Lee St.
-    suite: Room 86
-    city: Decatur
-    state: AL
-    zip: '35601'
-    latitude: 34.6069984
-    longitude: -86.9849204
-    fax: 256-355-9406
-    phone: 256-355-9400
-  - id: B001274-florence
-    address: 102 S. Court St.
-    suite: Suite 310
-    city: Florence
-    state: AL
-    zip: '35630'
-    latitude: 34.8002305
-    longitude: -87.6771285
-    fax: 256-718-5156
-    phone: 256-718-5155
-  - id: B001274-huntsville
-    address: 2101 W. Clinton Ave.
-    suite: Suite 302
-    city: Huntsville
-    state: AL
-    zip: '35805'
-    latitude: 34.7252133
-    longitude: -86.5977423
-    fax: 256-551-0194
-    phone: 256-551-0190
-- id:
     bioguide: B001275
     govtrack: 412427
     thomas: '02018'
@@ -1046,37 +818,6 @@
     fax: 805-379-1799
     hours: Monday-Thursday 9:00am-5:30pm PT,Friday 9:00am-5:00pm PT
     phone: 805-379-1779
-- id:
-    bioguide: B001286
-    govtrack: 412537
-    thomas: '02127'
-  offices:
-  - id: B001286-peoria
-    address: 820 SW Adams St
-    city: Peoria
-    state: IL
-    zip: '61602'
-    latitude: 40.6855433
-    longitude: -89.5987706
-    phone: 309-966-1813
-  - id: B001286-rock_island
-    address: 2401 4th Ave.
-    city: Rock Island
-    state: IL
-    zip: '61201'
-    latitude: 41.5089919
-    longitude: -90.5662359
-    fax: 309-786-3720
-    phone: 309-786-3406
-  - id: B001286-rockford
-    address: 119 N. Church St.
-    suite: Suite 207 & 208
-    city: Rockford
-    state: IL
-    zip: '61101'
-    latitude: 42.2720192
-    longitude: -89.0952944
-    phone: 815-968-8011
 - id:
     bioguide: B001287
     govtrack: 412512
@@ -1390,29 +1131,6 @@
     longitude: -75.3887458
     phone: 302-858-4773
 - id:
-    bioguide: B001304
-    govtrack: 412707
-  offices:
-  - id: B001304-annapolis
-    address: 2666 Riva Rd
-    suite: Suite 120
-    city: Annapolis
-    state: MD
-    zip: '21401'
-    latitude: 38.9746861
-    longitude: -76.5612782
-    phone: 410-266-3249
-    hours: Tuesday and Thursday, 9 a.m. - 1 p.m., or by appointment
-  - id: B001304-largo
-    address: 9701 Apollo Dr.
-    suite: Suite 103
-    city: Largo
-    state: MD
-    zip: '20774'
-    latitude: 38.9044794
-    longitude: -76.8406561
-    phone: 301-458-2600
-- id:
     bioguide: B001305
     govtrack: 412712
   offices:
@@ -1682,32 +1400,6 @@
     phone: 302-573-6291
     hours: M-F 8:30 a.m. to 5:30 p.m.
 - id:
-    bioguide: C000266
-    govtrack: 400071
-    thomas: '00186'
-  offices:
-  - id: C000266-cincinnati
-    address: 441 Vine St.
-    suite: Rm. 3003
-    city: Cincinnati
-    state: OH
-    zip: '45202'
-    latitude: 39.100836
-    longitude: -84.513238
-    fax: 513-421-8722
-    hours: 9 a.m. - 5 p.m.
-    phone: 513-684-2723
-  - id: C000266-lebanon
-    address: 11 S. Broadway
-    city: Lebanon
-    state: OH
-    zip: '45036'
-    latitude: 39.4341674
-    longitude: -84.2086104
-    fax: 513-421-8722
-    hours: 9am-5pm
-    phone: 513-421-8704
-- id:
     bioguide: C000537
     govtrack: 400075
     thomas: '00208'
@@ -1743,21 +1435,6 @@
     fax: 803-854-4900
     hours: Mon-Fri 9:00AM-5:00PM
     phone: 803-854-4700
-- id:
-    bioguide: C000754
-    govtrack: 400081
-    thomas: '00231'
-  offices:
-  - id: C000754-nashville
-    address: 605 Church St.
-    city: Nashville
-    state: TN
-    zip: '37219'
-    latitude: 36.1623269
-    longitude: -86.7817797
-    fax: 615-736-7479
-    phone: 615-736-5295
-    hours: M-F 8am - 5pm
 - id:
     bioguide: C000880
     govtrack: 300030
@@ -2844,50 +2521,6 @@
     phone: 270-487-9509
     hours: Call to schedule appointment
 - id:
-    bioguide: C001109
-    govtrack: 412732
-  offices:
-  - id: C001109-casper
-    address: 100 East B Street
-    suite: Room 4003
-    city: Casper
-    state: WY
-    zip: '82602'
-    latitude: 42.8524124
-    longitude: -106.3248373
-    phone: 307-261-6595
-    fax: 307-261-6597
-  - id: C001109-cheyenne
-    address: 2120 Capitol Ave.
-    suite: Suite 8005
-    city: Cheyenne
-    state: WY
-    zip: '82001'
-    latitude: 41.1374591
-    longitude: -104.8189674
-    phone: 307-772-2595
-    fax: 307-772-2597
-  - id: C001109-gillette
-    address: 300 S. Gillette Ave.
-    suite: Suite 2001
-    city: Gillette
-    state: WY
-    zip: '82716'
-    latitude: 44.2920649
-    longitude: -105.5066014
-    phone: 307-414-1677
-    fax: 307-414-1711
-  - id: C001109-sheridan
-    address: 45 E. Loucks St.
-    suite: Suite 300 F
-    city: Sheridan
-    state: WY
-    zip: '82801'
-    latitude: 44.7974845
-    longitude: -106.9548869
-    phone: 307-673-4608
-    fax: 307-261-6597
-- id:
     bioguide: C001112
     govtrack: 412686
   offices:
@@ -3028,44 +2661,6 @@
     fax: 773-533-7530
     phone: 773-533-7520
 - id:
-    bioguide: D000191
-    govtrack: 400100
-    thomas: '00279'
-  offices:
-  - id: D000191-coos_bay
-    address: 125 Central Ave.
-    suite: Suite 350
-    city: Coos Bay
-    state: OR
-    zip: '97420'
-    latitude: 43.367748
-    longitude: -124.213429
-    fax: 541-269-5760
-    hours: M-F 8:00am-5:00pm
-    phone: 541-269-2609
-  - id: D000191-eugene
-    address: 405 E. 8th Ave.
-    suite: '#2030'
-    city: Eugene
-    state: OR
-    zip: '97401'
-    latitude: 44.0516985
-    longitude: -123.0857882
-    fax: 541-465-6458
-    hours: M-F 8:00am-5:00pm
-    phone: 541-465-6732
-  - id: D000191-roseburg
-    address: 612 SE. Jackson St.
-    suite: Room 9
-    city: Roseburg
-    state: OR
-    zip: '97470'
-    latitude: 43.2087597
-    longitude: -123.3445182
-    hours: M-F 8:00am-5:00pm
-    phone: 541-440-3523
-    fax: 541-465-6458
-- id:
     bioguide: D000197
     govtrack: 400101
     thomas: '01479'
@@ -3117,40 +2712,6 @@
     latitude: 29.427604
     longitude: -98.4951151
     phone: 210-704-1080
-- id:
-    bioguide: D000482
-    govtrack: 400114
-    thomas: '00316'
-  offices:
-  - id: D000482-bethel_park
-    address: 4705 Library Rd
-    city: Bethel Park
-    state: PA
-    zip: 15102-2969
-    latitude: 40.34915
-    longitude: -80.02294
-    phone: 412-283-4451
-    fax: 412-283-4465
-  - id: D000482-mckeesport
-    address: 627 Lysle Blvd.
-    city: McKeesport
-    state: PA
-    zip: '15132'
-    latitude: 40.352477
-    longitude: -79.858547
-    fax: 412-664-4053
-    hours: 8:30 AM to 5:30 PM
-    phone: 412-664-4049
-  - id: D000482-pittsburgh
-    address: 2637 E. Carson St.
-    city: Pittsburgh
-    state: PA
-    zip: '15203'
-    latitude: 40.4273525
-    longitude: -79.9675163
-    fax: 412-390-2118
-    hours: 8:30 AM to 5:30 PM
-    phone: 412-390-1499
 - id:
     bioguide: D000563
     govtrack: 300038
@@ -3405,71 +2966,6 @@
     longitude: -104.1606344
     phone: 406-482-9010
 - id:
-    bioguide: D000619
-    govtrack: 412536
-    thomas: '02126'
-  offices:
-  - id: D000619-champaign
-    address: 2004 Fox Dr.
-    city: Champaign
-    state: IL
-    zip: '61280'
-    latitude: 40.090932
-    longitude: -88.25012439999999
-    fax: 217-403-4691
-    hours: Monday - Friday, 8:30am - 5:00pm
-    phone: 217-403-4690
-  - id: D000619-decatur
-    address: 243 S. Water St.
-    suite: Suite 100
-    city: Decatur
-    state: IL
-    zip: '62523'
-    latitude: 39.8396384
-    longitude: -88.954852
-    fax: 217-791-6168
-    hours: Mon-Fri 8:30am-5pm
-    phone: 217-791-6224
-  - id: D000619-maryville
-    address: 15 Professional Park Dr.
-    city: Maryville
-    state: IL
-    zip: '62062'
-    latitude: 38.737077
-    longitude: -89.95489859999999
-    fax: 618-205-8662
-    hours: Monday-Friday, 8:30am-5:00pm
-    phone: 618-205-8660
-  - id: D000619-normal
-    address: 104 W. North St.
-    city: Normal
-    state: IL
-    zip: '61761'
-    latitude: 40.5094581
-    longitude: -88.9846312
-    phone: 309-252-8834
-    hours: By appointment only
-  - id: D000619-springfield
-    address: 2833 S Grand Ave. East
-    city: Springfield
-    state: IL
-    zip: '62703'
-    latitude: 39.7888553
-    longitude: -89.6124109
-    fax: 217-791-6166
-    hours: By appointment only
-    phone: 217-791-6224
-  - id: D000619-taylorville
-    address: 108 W. Market St.
-    city: Taylorville
-    state: IL
-    zip: '62568'
-    latitude: 39.5480891
-    longitude: -89.29549949999999
-    fax: 217-824-5121
-    hours: Monday - Friday, 8:30am - 5:00pm
-    phone: 217-824-5117
-- id:
     bioguide: D000623
     govtrack: 412613
     thomas: '02227'
@@ -3549,19 +3045,6 @@
     latitude: 39.33175850000001
     longitude: -84.4066223
     phone: 513-779-5400
-- id:
-    bioguide: D000627
-    govtrack: 412696
-  offices:
-  - id: D000627-orlando
-    address: 2295 S. Hiawassee Rd.
-    suite: Suite 301
-    city: Orlando
-    state: FL
-    zip: '32835'
-    latitude: 28.517804
-    longitude: -81.48186439999999
-    phone: 321-388-9808
 - id:
     bioguide: D000628
     govtrack: 412691
@@ -4229,60 +3712,6 @@
     fax: 520-622-0198
     phone: 520-622-6788
 - id:
-    bioguide: G000552
-    govtrack: 400651
-    thomas: '01801'
-  offices:
-  - id: G000552-longview
-    address: 101 E. Methvin
-    suite: Suite 302
-    city: Longview
-    state: TX
-    zip: '75601'
-    latitude: 32.4970151
-    longitude: -94.73894650000001
-    fax: 903-561-7110
-    phone: 903-236-8597
-  - id: G000552-lufkin
-    address: 300 E. Shepherd
-    suite: Suite 210
-    city: Lufkin
-    state: TX
-    zip: '75901'
-    latitude: 31.3368848
-    longitude: -94.7268845
-    fax: 903-561-7110
-    phone: 936-632-3180
-  - id: G000552-marshall
-    address: 102 W. Houston St.
-    city: Marshall
-    state: TX
-    zip: '75670'
-    latitude: 32.5447093
-    longitude: -94.36734899999999
-    fax: 903-561-7110
-    phone: 903-938-8386
-  - id: G000552-nacogdoches
-    address: 101 W. Main
-    suite: Suite 160
-    city: Nacogdoches
-    state: TX
-    zip: '75961'
-    latitude: 31.6036806
-    longitude: -94.6565524
-    fax: 903-561-7110
-    phone: 936-715-9514
-  - id: G000552-tyler
-    address: 1121 ESE Loop 323
-    suite: Suite 206
-    city: Tyler
-    state: TX
-    zip: '75701'
-    latitude: 32.3031236
-    longitude: -95.28684349999999
-    fax: 903-561-7110
-    phone: 903-561-6349
-- id:
     bioguide: G000553
     govtrack: 400653
     thomas: '01803'
@@ -4440,30 +3869,6 @@
     fax: 707-438-0523
     hours: M-F 9AM-5PM PT
     phone: 707-438-1822
-- id:
-    bioguide: G000563
-    govtrack: 412463
-    thomas: '02049'
-  offices:
-  - id: G000563-ashland
-    address: 110 Cottage St.
-    city: Ashland
-    state: OH
-    zip: '44805'
-    latitude: 40.86905120000001
-    longitude: -82.31826099999999
-    fax: 419-207-0655
-    hours: Monday to Friday  9AM to 5PM
-    phone: 419-207-0650
-  - id: G000563-canton
-    address: 110 Central Plaza South
-    city: Canton
-    state: OH
-    zip: '44702'
-    latitude: 40.797956
-    longitude: -81.37428899999999
-    hours: Monday to Friday  By Appointment Only
-    phone: 330-737-1631
 - id:
     bioguide: G000565
     govtrack: 412397
@@ -4777,28 +4182,6 @@
     longitude: -95.22857
     phone: 832-325-3150
 - id:
-    bioguide: G000588
-    govtrack: 412807
-  offices:
-  - id: G000588-canton
-    address: 4150 Belden Village St NW
-    suite: Suite 607
-    city: Canton
-    state: OH
-    zip: 44718-2595
-    latitude: 40.85516
-    longitude: -81.42644
-    phone: 330-599-7037
-  - id: G000588-strongsville
-    address: 13477 Prospect Rd
-    suite: Suite 212
-    city: Strongsville
-    state: OH
-    zip: 44149-3867
-    latitude: 41.31615
-    longitude: -81.85719
-    phone: 440-783-3696
-- id:
     bioguide: G000589
     govtrack: 412822
   offices:
@@ -5086,64 +4469,6 @@
     hours: By appointment only
     phone: 443-944-8624
 - id:
-    bioguide: H001053
-    govtrack: 412444
-    thomas: '02032'
-  offices:
-  - id: H001053-columbia
-    address: 2415 Carter Ln.
-    suite: Suite 4
-    city: Columbia
-    state: MO
-    zip: '65201'
-    latitude: 38.9230515
-    longitude: -92.3365352
-    fax: 573-442-9309
-    phone: 573-442-9311
-  - id: H001053-harrisonville
-    address: 1909 N. Commercial St.
-    city: Harrisonville
-    state: MO
-    zip: '64701'
-    latitude: 38.6630256
-    longitude: -94.36446319999999
-    fax: 816-884-3163
-    phone: 816-884-3411
-  - id: H001053-lebanon
-    address: 219 N. Adams St.
-    city: Lebanon
-    state: MO
-    zip: '65536'
-    latitude: 37.6821821
-    longitude: -92.6645922
-    fax: 417-532-3886
-    phone: 417-532-5582
-- id:
-    bioguide: H001056
-    govtrack: 412486
-    thomas: '02071'
-  offices:
-  - id: H001056-chehalis
-    address: 350 N. Market Blvd.
-    building: Chehalis City Hall Building
-    city: Chehalis
-    state: WA
-    zip: '98532'
-    latitude: 46.6639928
-    longitude: -122.9672327
-    hours: Tuesdays from 11:30am - 1:00pm
-  - id: H001056-vancouver
-    address: 750 Anderson St.
-    suite: Suite B
-    building: O.O. Howard House (Officers' Row)
-    city: Vancouver
-    state: WA
-    zip: '98661'
-    latitude: 45.6281298
-    longitude: -122.6643142
-    fax: 360-695-6197
-    phone: 360-695-6292
-- id:
     bioguide: H001058
     govtrack: 412437
     thomas: '02028'
@@ -5324,41 +4649,6 @@
     fax: 707-671-7449
     phone: 707-962-0905
 - id:
-    bioguide: H001071
-    govtrack: 412623
-    thomas: '02237'
-  offices:
-  - id: H001071-milledgeville
-    address: 3015 Heritage Rd.
-    suite: Suite 6
-    city: Milledgeville
-    state: GA
-    zip: '31061'
-    latitude: 33.1204264
-    longitude: -83.2592841
-    fax: 478-451-2911
-    phone: 478-457-0007
-  - id: H001071-monroe
-    address: 100 Court St.
-    city: Monroe
-    state: GA
-    zip: '30655'
-    latitude: 33.7942004
-    longitude: -83.71309769999999
-    fax: 770-266-6751
-    phone: 770-207-1776
-  - id: H001071-thomson
-    address: 210 Railroad St.
-    suite: Room 2401
-    building: City-County Administration
-    city: Thomson
-    state: GA
-    zip: '30824'
-    latitude: 33.4671424
-    longitude: -82.4986906
-    phone: 770-207-1776
-    fax: 770-266-6751
-- id:
     bioguide: H001072
     govtrack: 412609
     thomas: '02223'
@@ -5383,26 +4673,6 @@
     longitude: -92.3397715
     fax: 501-324-6029
     phone: 501-324-5941
-- id:
-    bioguide: H001074
-    govtrack: 412703
-  offices:
-  - id: H001074-jeffersonville
-    address: 321 Quartermaster Ct.
-    city: Jeffersonville
-    state: IN
-    zip: '47130'
-    latitude: 38.2842586
-    longitude: -85.7435028
-    phone: 812-288-3999
-  - id: H001074-franklin
-    address: 100 E Jefferson St
-    city: Franklin
-    state: IN
-    zip: 46131-2323
-    latitude: 39.48083
-    longitude: -86.05373
-    phone: 317-851-8710
 - id:
     bioguide: H001081
     govtrack: 412763
@@ -5486,22 +4756,6 @@
     longitude: -95.4038
     hours: M-F 9-5:30pm
     phone: 713-861-4070
-- id:
-    bioguide: J000126
-    govtrack: 400204
-    thomas: '00599'
-  offices:
-  - id: J000126-dallas
-    address: 1825 Market Center Blvd.
-    suite: Suite 440
-    city: Dallas
-    state: TX
-    zip: '75207'
-    latitude: 32.7946832
-    longitude: -96.8263983
-    fax: 214-922-7028
-    hours: M-F 9-6pm
-    phone: 214-922-8885
 - id:
     bioguide: J000288
     govtrack: 412199
@@ -5820,31 +5074,6 @@
     fax: 419-255-9623
     phone: 419-259-7500
 - id:
-    bioguide: K000188
-    govtrack: 400218
-    thomas: '01498'
-  offices:
-  - id: K000188-eau_claire
-    address: 131 S. Barstow St.
-    suite: Suite 301
-    city: Eau Claire
-    state: WI
-    zip: '54701'
-    latitude: 44.8120136
-    longitude: -91.500022
-    fax: 715-831-9272
-    phone: 715-831-9214
-  - id: K000188-la_crosse
-    address: 205 Fifth Ave. S.
-    suite: Suite 400
-    city: La Crosse
-    state: WI
-    zip: '54601'
-    latitude: 43.8109182
-    longitude: -91.24976400000001
-    fax: 608-782-4588
-    phone: 608-782-2558
-- id:
     bioguide: K000367
     govtrack: 412242
     thomas: '01826'
@@ -5889,27 +5118,6 @@
     longitude: -92.5465059
     fax: 218-741-3692
     phone: 218-741-9690
-- id:
-    bioguide: K000368
-    govtrack: 412286
-    thomas: '01907'
-  offices:
-  - id: K000368-sierra_vista
-    address: 77 Calle Portal
-    suite: B160
-    city: Sierra Vista
-    state: AZ
-    zip: 85635-2967
-    latitude: 31.55364
-    longitude: -110.26691
-  - id: K000368-tucson
-    address: 1636 N Swan Rd
-    suite: Suite 200
-    city: Tucson
-    state: AZ
-    zip: 85712-4067
-    latitude: 32.24289
-    longitude: -110.89202
 - id:
     bioguide: K000375
     govtrack: 412435
@@ -5981,41 +5189,6 @@
     fax: 724-342-7242
     hours: Monday through Friday, 9 a.m. to 5 p.m.
     phone: 724-342-7170
-- id:
-    bioguide: K000378
-    govtrack: 412421
-    thomas: '02014'
-  offices:
-  - id: K000378-ottawa
-    address: 628 Columbus St.
-    suite: Suite 507
-    city: Ottawa
-    state: IL
-    zip: '61350'
-    latitude: 41.346247
-    longitude: -88.841051
-    fax: 815-431-9383
-    hours: 8:30 AM - 5:00 PM
-    phone: 815-431-9271
-  - id: K000378-rockford
-    address: 725 N. Lyford Rd.
-    suite: Suite 3
-    city: Rockford
-    state: IL
-    zip: '61107'
-    latitude: 42.2743104
-    longitude: -88.96018389999999
-    hours: Meetings by appointment only.
-    phone: 815-708-8032
-  - id: K000378-watseka
-    address: 342 W. Walnut
-    city: Watseka
-    state: IL
-    zip: '60970'
-    latitude: 40.7762446
-    longitude: -87.7383019
-    hours: Meetings by appointment.
-    phone: 815-432-0580
 - id:
     bioguide: K000380
     govtrack: 412546
@@ -6242,49 +5415,6 @@
     hours: 9:00am-5:00pm
     phone: 708-679-0078
 - id:
-    bioguide: K000386
-    govtrack: 412649
-    thomas: '02264'
-  offices:
-  - id: K000386-auburn
-    address: 71 Genesee St.
-    city: Auburn
-    state: NY
-    zip: '13021'
-    latitude: 42.9318995
-    longitude: -76.5664577
-    fax: 315-253-2435
-    phone: 315-253-4068
-  - id: K000386-lyons
-    address: 7376 State Route 31
-    city: Lyons
-    state: NY
-    zip: '14489'
-    latitude: 43.072187
-    longitude: -77.03685779999999
-    phone: 315-253-4068
-    hours: Please call to make an appointment
-  - id: K000386-oswego
-    address: 13 W. Oneida St.
-    suite: 2nd Floor
-    city: Oswego
-    state: NY
-    zip: '13126'
-    latitude: 43.4554199
-    longitude: -76.511258
-    phone: 315-423-5657
-    hours: Please call to make an appointment
-  - id: K000386-syracuse
-    address: 440 S. Warren St.
-    suite: 7th Floor, Suite 711
-    city: Syracuse
-    state: NY
-    zip: '13202'
-    latitude: 43.04611939999999
-    longitude: -76.15161669999999
-    fax: 315-423-5604
-    phone: 315-423-5657
-- id:
     bioguide: K000388
     govtrack: 412673
     thomas: '02294'
@@ -6413,30 +5543,6 @@
     latitude: 39.95223
     longitude: -74.19681
 - id:
-    bioguide: L000174
-    govtrack: 300065
-    thomas: '01383'
-  offices:
-  - id: L000174-burlington
-    address: 199 Main St
-    suite: 4th Floor
-    city: Burlington
-    state: VT
-    zip: '05401'
-    latitude: 44.47553140000001
-    longitude: -73.21128259999999
-    fax: 800-642-3193
-    phone: 802-863-2525
-  - id: L000174-montpelier
-    address: 87 State St.
-    suite: Room 338
-    city: Montpelier
-    state: VT
-    zip: '05602'
-    latitude: 44.260997
-    longitude: -72.5775843
-    phone: 802-229-0569
-- id:
     bioguide: L000397
     govtrack: 400245
     thomas: '00701'
@@ -6531,22 +5637,6 @@
     longitude: -72.6757241
     fax: 860-278-2111
     phone: 860-278-8888
-- id:
-    bioguide: L000559
-    govtrack: 400230
-    thomas: '01668'
-  offices:
-  - id: L000559-warwick
-    address: 300 Centerville Rd.
-    suite: Suite 200 South
-    city: Warwick
-    state: RI
-    zip: '02886'
-    latitude: 41.6944274
-    longitude: -71.4705546
-    fax: 401-737-2982
-    hours: Mon-Fri 8AM-5PM
-    phone: 401-732-9400
 - id:
     bioguide: L000560
     govtrack: 400232
@@ -6785,30 +5875,6 @@
     longitude: -95.992873
     phone: 918-581-7651
 - id:
-    bioguide: L000576
-    govtrack: 412445
-    thomas: '02033'
-  offices:
-  - id: L000576-joplin
-    address: 2727 E. 32nd St.
-    suite: Suite 2
-    city: Joplin
-    state: MO
-    zip: '64804'
-    latitude: 37.0555214
-    longitude: -94.4831701
-    fax: 417-781-2832
-    phone: 417-781-1041
-  - id: L000576-springfield
-    address: 3232 E. Ridgeview St.
-    city: Springfield
-    state: MO
-    zip: '65804'
-    latitude: 37.1590571
-    longitude: -93.22940179999999
-    fax: 417-889-4915
-    phone: 417-889-1800
-- id:
     bioguide: L000577
     govtrack: 412495
     thomas: '02080'
@@ -6875,49 +5941,6 @@
     latitude: 40.565758
     longitude: -122.351892
     phone: 530-223-5898
-- id:
-    bioguide: L000579
-    govtrack: 412521
-    thomas: '02111'
-  offices:
-  - id: L000579-long_beach
-    address: 100 W. Broadway
-    suite: Suite 600
-    building: West Tower
-    city: Long Beach
-    state: CA
-    zip: '90802'
-    latitude: 33.7689325
-    longitude: -118.1930229
-    fax: 562-437-6434
-    phone: 562-436-3828
-    hours: M-F 9AM-5PM
-  - id: L000579-garden_grove
-    address: 12865 Main St.
-    suite: Suite 200
-    city: Garden Grove
-    state: CA
-    zip: '92840'
-    latitude: 33.775733
-    longitude: -117.941206
-    fax: 562-437-6434
-    phone: 714-243-4088
-    hours: M-F 9AM-5PM
-- id:
-    bioguide: L000581
-    govtrack: 412638
-    thomas: '02252'
-  offices:
-  - id: L000581-southfield
-    address: 26700 Lahser Road
-    suite: Suite 330
-    city: Southfield
-    state: MI
-    zip: '48033'
-    latitude: 42.483811
-    longitude: -83.25988629999999
-    fax: 248-356-4532
-    phone: 248-356-2052
 - id:
     bioguide: L000582
     govtrack: 412616
@@ -7020,29 +6043,6 @@
     fax: 217-670-1806
     phone: 217-670-1653
 - id:
-    bioguide: L000586
-    govtrack: 412693
-  offices:
-  - id: L000586-tallahassee
-    address: 435 N. Macomb St.
-    city: Tallahassee
-    state: FL
-    zip: '32301'
-    latitude: 30.4463425
-    longitude: -84.28819759999999
-    fax: 850-577-0633
-    phone: 850-558-9450
-  - id: L000586-jacksonville
-    address: 1010 N. Davis St.
-    suite: Suite 206
-    city: Jacksonville
-    state: FL
-    zip: '32209'
-    latitude: 30.336823
-    longitude: -81.667581
-    fax: 904-379-0309
-    phone: 904-354-1652
-- id:
     bioguide: L000590
     govtrack: 412802
   offices:
@@ -7055,34 +6055,6 @@
     latitude: 36.02796
     longitude: -115.11836
     phone: 702-963-9336
-- id:
-    bioguide: L000591
-    govtrack: 412830
-  offices:
-  - id: L000591-virginia_beach
-    address: 283 Constitution Dr
-    suite: Suite 900
-    building: One Columbus Center
-    city: Virginia Beach
-    state: VA
-    zip: 23462-6722
-    latitude: 36.84256
-    longitude: -76.13213
-    phone: 757-364-7650
-    fax: 757-687-8298
-- id:
-    bioguide: L000592
-    govtrack: 412785
-  offices:
-  - id: L000592-warren
-    address: 30500 Van Dyke Ave
-    suite: Suite 306
-    city: Warren
-    state: MI
-    zip: 48093-2195
-    latitude: 42.51766
-    longitude: -83.0287
-    phone: 586-498-7122
 - id:
     bioguide: L000593
     govtrack: 412760
@@ -7105,43 +6077,6 @@
     latitude: 33.18403
     longitude: -117.32722
     phone: 760-599-5000
-- id:
-    bioguide: M000087
-    govtrack: 400251
-    thomas: '00729'
-  offices:
-  - id: M000087-astoria
-    address: 31-19 Newtown Ave.
-    city: Astoria
-    state: NY
-    zip: 11102-1391
-    latitude: 40.7672194
-    longitude: -73.9223996
-    fax: 718-932-1805
-    hours: Monday 9:30am – 2:00pm; Tuesday – Thursday 9:30am – 5:00pm; Friday 10:00am
-      – 4:00pm
-    phone: 718-932-1804
-  - id: M000087-brooklyn
-    address: 619 Lorimer St.
-    city: Brooklyn
-    state: NY
-    zip: 11211-2228
-    latitude: 40.7155784
-    longitude: -73.94987139999999
-    fax: 718-349-5973
-    hours: Tuesday 9:00am – 5:00pm
-    phone: 718-349-5972
-  - id: M000087-new_york
-    address: 1651 3rd Ave.
-    suite: Suite 311
-    city: New York
-    state: NY
-    zip: 10128-3679
-    latitude: 40.7828262
-    longitude: -73.95068410000002
-    fax: 212-860-0704
-    hours: Monday – Friday 9:00am – 6:00pm
-    phone: 212-860-0606
 - id:
     bioguide: M000133
     govtrack: 400253
@@ -7723,31 +6658,6 @@
     hours: M-F 8:30am - 5:00pm
     phone: 661-327-3611
 - id:
-    bioguide: M001166
-    govtrack: 412189
-    thomas: '01832'
-  offices:
-  - id: M001166-antioch
-    address: 4703 Lone Tree Way
-    building: Antioch Community Center
-    city: Antioch
-    state: CA
-    zip: '94531'
-    latitude: 37.9662464
-    longitude: -121.7741565
-    fax: 925-754-0728
-    phone: 925-754-0716
-  - id: M001166-stockton
-    address: 2222 Grand Canal Blvd.
-    suite: '#7'
-    city: Stockton
-    state: CA
-    zip: '95207'
-    latitude: 37.9845267
-    longitude: -121.3334181
-    fax: 209-476-8587
-    phone: 209-476-8552
-- id:
     bioguide: M001169
     govtrack: 412194
     thomas: '01837'
@@ -7839,43 +6749,6 @@
     fax: 916-786-6364
     phone: 916-786-5560
 - id:
-    bioguide: M001180
-    govtrack: 412487
-    thomas: '02074'
-  offices:
-  - id: M001180-morgantown
-    address: 709 Beechurst Ave.
-    suite: Suite 29
-    city: Morgantown
-    state: WV
-    zip: '26505'
-    latitude: 39.6414678
-    longitude: -79.962809
-    hours: 'M-F: 9:00 a.m. to 5:00 p.m'
-    phone: 304-284-8506
-    fax: 304-284-8505
-  - id: M001180-parkersburg
-    address: 408 Market St.
-    city: Parkersburg
-    state: WV
-    zip: '26101'
-    latitude: 39.2653465
-    longitude: -81.56126309999999
-    phone: 304-422-5972
-    fax: 304-422-5974
-  - id: M001180-wheeling
-    address: 1100 Main St.
-    suite: Suite 101
-    building: Horne Building
-    city: Wheeling
-    state: WV
-    zip: '26003'
-    latitude: 40.068749
-    longitude: -80.723545
-    fax: 304-232-3813
-    hours: Mon- friday 9.00 am to 5.00 pm
-    phone: 304-232-3801
-- id:
     bioguide: M001183
     govtrack: 412391
     thomas: '01983'
@@ -7945,21 +6818,6 @@
     longitude: -85.37938489999999
     phone: 502-265-9119
     hours: Call for an appointment
-- id:
-    bioguide: M001185
-    govtrack: 412562
-    thomas: '02150'
-  offices:
-  - id: M001185-newburgh
-    address: 123 Grand St.
-    suite: 2nd Floor
-    city: Newburgh
-    state: NY
-    zip: '12550'
-    latitude: 41.5036879
-    longitude: -74.010127
-    fax: 845-561-2890
-    phone: 845-561-1259
 - id:
     bioguide: M001188
     govtrack: 412560
@@ -8146,41 +7004,6 @@
     longitude: -80.10731
     phone: 561-530-7778
     hours: Mondays 10 a.m. - 2 p.m.
-- id:
-    bioguide: M001202
-    govtrack: 412694
-  offices:
-  - id: M001202-orlando
-    address: 225 E. Robinson
-    suite: Suite 525
-    city: Orlando
-    state: FL
-    zip: '32801'
-    latitude: 28.546165
-    longitude: -81.3744028
-    phone: 888-205-5421
-  - id: M001202-sanford
-    address: 110 W. First Street
-    suite: Suite 210
-    city: Sanford
-    state: FL
-    zip: '32771'
-    latitude: 28.8121096
-    longitude: -81.26861149999999
-    phone: 888-205-5421
-- id:
-    bioguide: M001203
-    govtrack: 412798
-  offices:
-  - id: M001203-somerville
-    address: 58 E Main St
-    suite: 1st Floor
-    city: Somerville
-    state: NJ
-    zip: 08876-2312
-    latitude: 40.5674
-    longitude: -74.61027
-    phone: 908-547-3307
 - id:
     bioguide: M001204
     govtrack: 412811
@@ -8391,37 +7214,6 @@
     longitude: -105.07662
     phone: 970-372-3971
 - id:
-    bioguide: O000171
-    govtrack: 412682
-  offices:
-  - id: O000171-casa_grande
-    address: 211 N. Florence St.
-    suite: Suite 1
-    city: Casa Grande
-    state: AZ
-    zip: '85122'
-    latitude: 32.8770219
-    longitude: -111.7541607
-    phone: 520-316-0839
-  - id: O000171-flagstaff
-    address: 405 N. Beaver St.
-    suite: Suite 6
-    city: Flagstaff
-    state: AZ
-    zip: '86001'
-    latitude: 35.2019797
-    longitude: -111.6486132
-    phone: 928-286-5338
-  - id: O000171-tucson
-    address: 3037 W. Ina Rd
-    suite: Suite 101
-    city: Tucson
-    state: AZ
-    zip: '85741'
-    latitude: 32.3363922
-    longitude: -111.0318291
-    phone: 928-304-0131
-- id:
     bioguide: O000172
     govtrack: 412804
   offices:
@@ -8529,87 +7321,6 @@
     longitude: -122.4121784
     hours: M-F 9-5:30pm
     phone: 415-556-4862
-- id:
-    bioguide: P000449
-    govtrack: 400325
-    thomas: '00924'
-  offices:
-  - id: P000449-cincinnati
-    address: 312 Walnut St.
-    suite: Suite 3425
-    city: Cincinnati
-    state: OH
-    zip: '45202'
-    latitude: 39.0993058
-    longitude: -84.5103687
-    phone: 513-684-3265
-  - id: P000449-cleveland
-    address: 1240 E. 9th St.
-    suite: Room 3061
-    city: Cleveland
-    state: OH
-    zip: '44199'
-    latitude: 41.50477110000001
-    longitude: -81.69179849999999
-    phone: 216-522-7095
-  - id: P000449-columbus
-    address: 37 W. Broad St.
-    suite: Room 300
-    city: Columbus
-    state: OH
-    zip: '43215'
-    latitude: 39.9617817
-    longitude: -83.00202759999999
-    phone: 614-469-6774
-  - id: P000449-toledo
-    address: 420 Madison Ave.
-    suite: Room 1210
-    city: Toledo
-    state: OH
-    zip: '43604'
-    latitude: 41.6518781
-    longitude: -83.53530549999999
-    phone: 419-259-3895
-- id:
-    bioguide: P000523
-    govtrack: 400326
-    thomas: '00930'
-  offices:
-  - id: P000523-chapel_hill
-    address: 1777 Fordham Blvd.
-    suite: Suite 204
-    city: Chapel Hill
-    state: NC
-    zip: '27514'
-    latitude: 35.9455529
-    longitude: -79.0136236
-    fax: 919-967-8324
-    phone: 919-967-7924
-  - id: P000523-raleigh
-    address: 436 N. Harrington St.
-    suite: Suite 100
-    city: Raleigh
-    state: NC
-    zip: '27603'
-    latitude: 35.7866594
-    longitude: -78.6442275
-    fax: 919-859-5998
-    phone: 919-859-5999
-- id:
-    bioguide: P000593
-    govtrack: 412192
-    thomas: '01835'
-  offices:
-  - id: P000593-lakewood
-    address: 12600 West Colfax Avenue
-    suite: Suite B-400
-    city: Lakewood
-    state: CO
-    zip: '80215'
-    latitude: 39.7390492
-    longitude: -105.1404146
-    fax: 303-274-6455
-    phone: 303-274-7944
 - id:
     bioguide: P000595
     govtrack: 412305
@@ -8719,40 +7430,6 @@
     longitude: -80.736905
     fax: 321-639-8595
     phone: 321-632-1776
-- id:
-    bioguide: P000601
-    govtrack: 412443
-    thomas: '02035'
-  offices:
-  - id: P000601-gulfport
-    address: 84 48th St
-    city: Gulfport
-    state: MS
-    zip: 39507-4052
-    latitude: 30.40959
-    longitude: -89.05056
-    phone: 228-864-7670
-    fax: 228-864-3099
-  - id: P000601-hattiesburg
-    address: 641 Main St.
-    suite: Suite 142
-    city: Hattiesburg
-    state: MS
-    zip: '39401'
-    latitude: 31.32792959999999
-    longitude: -89.2911006
-    phone: 601-582-3246
-    fax: 601-582-3452
-  - id: P000601-pascagoula
-    address: 3118 Pascagoula St.
-    suite: Suite 181
-    city: Pascagoula
-    state: MS
-    zip: '39567'
-    latitude: 30.3652731
-    longitude: -88.5554872
-    fax: 228-202-8105
-    phone: 228-202-8104
 - id:
     bioguide: P000603
     govtrack: 412492
@@ -9102,36 +7779,6 @@
     fax: 606-678-4856
     phone: 800-632-8588
 - id:
-    bioguide: R000486
-    govtrack: 400347
-    thomas: '00997'
-  offices:
-  - id: R000486-commerce
-    address: 500 Citadel Dr.
-    suite: Suite 320
-    city: Commerce
-    state: CA
-    zip: '90040'
-    latitude: 34.0062357
-    longitude: -118.1519972
-    fax: 323-721-8789
-    phone: 323-721-8790
-- id:
-    bioguide: R000515
-    govtrack: 400350
-    thomas: '01003'
-  offices:
-  - id: R000515-chicago
-    address: 11750 S. Western Ave.
-    city: Chicago
-    state: IL
-    zip: 60643-4732
-    latitude: 41.6793889
-    longitude: -87.6811963
-    fax: 773-779-2401
-    hours: Monday – Friday, 9 a.m. – 6 p.m., Central
-    phone: 773-779-2400
-- id:
     bioguide: R000575
     govtrack: 400341
     thomas: '01704'
@@ -9175,41 +7822,6 @@
     longitude: -76.640205
     fax: 410-628-2708
     phone: 410-628-2701
-- id:
-    bioguide: R000577
-    govtrack: 400352
-    thomas: '01756'
-  offices:
-  - id: R000577-akron
-    address: 1030 Tallmadge Ave.
-    city: Akron
-    state: OH
-    zip: '44310'
-    latitude: 41.099949
-    longitude: -81.478217
-    fax: 330-630-7314
-    hours: M-F 9AM-5PM EST
-    phone: 330-630-7311
-  - id: R000577-warren
-    address: 197 W. Market St.
-    city: Warren
-    state: OH
-    zip: '44481'
-    latitude: 41.235888
-    longitude: -80.819818
-    fax: 330-373-0098
-    hours: M-F 9AM-5PM EST
-    phone: 800-856-4152
-  - id: R000577-youngstown
-    address: 241 W. Federal St.
-    city: Youngstown
-    state: OH
-    zip: '44503'
-    latitude: 41.1012396
-    longitude: -80.6529585
-    fax: 330-740-0182
-    hours: M-F 9AM-5PM EST
-    phone: 330-740-0193
 - id:
     bioguide: R000584
     govtrack: 412322
@@ -9357,31 +7969,6 @@
     longitude: -82.459228
     phone: 813-947-6288
 - id:
-    bioguide: R000597
-    govtrack: 412572
-    thomas: '02160'
-  offices:
-  - id: R000597-florence
-    address: 1831 W. Evans St.
-    suite: Suite 300
-    city: Florence
-    state: SC
-    zip: '29501'
-    latitude: 34.1959092
-    longitude: -79.8017864
-    fax: 843-679-9783
-    phone: 843-679-9781
-  - id: R000597-myrtle_beach
-    address: 2411 N. Oak St.
-    suite: Suite 405
-    city: Myrtle Beach
-    state: SC
-    zip: '29577'
-    latitude: 33.7081253
-    longitude: -78.87212720000001
-    fax: 843-445-6418
-    phone: 843-445-6459
-- id:
     bioguide: R000599
     govtrack: 412519
     thomas: '02109'
@@ -9421,21 +8008,6 @@
     longitude: -170.6899787
     fax: 684-633-3607
     phone: 684-633-3601
-- id:
-    bioguide: R000602
-    govtrack: 412647
-    thomas: '02262'
-  offices:
-  - id: R000602-garden_city
-    address: 229 7th St.
-    suite: Suite 300
-    city: Garden City
-    state: NY
-    zip: '11530'
-    latitude: 40.7258629
-    longitude: -73.63281649999999
-    fax: 516-739-2973
-    phone: 516-739-3008
 - id:
     bioguide: R000603
     govtrack: 412641
@@ -9755,63 +8327,6 @@
     hours: Mon-Fri 8:30am-5:30pm
     phone: 757-380-1000
 - id:
-    bioguide: S000320
-    govtrack: 300089
-    thomas: '01049'
-  offices:
-  - id: S000320-birmingham
-    address: 1800 5th Avenue North
-    suite: '321'
-    building: Robert S. Vance Federal Building
-    city: Birmingham
-    state: AL
-    zip: '35203'
-    latitude: 33.517386
-    longitude: -86.810488
-    phone: 205-731-1384
-    fax: 205-731-1386
-  - id: S000320-huntsville
-    address: 1000 Glenn Hearn Blvd.
-    suite: '#20127'
-    city: Huntsville
-    state: AL
-    zip: '35824'
-    latitude: 34.6471339
-    longitude: -86.77460219999999
-    phone: 256-772-0460
-    fax: 256-772-8387
-  - id: S000320-mobile
-    address: 113 St Joseph St.
-    suite: '445'
-    building: U.S. Federal Courthouse
-    city: Mobile
-    state: AL
-    zip: '36602'
-    latitude: 30.6938886
-    longitude: -88.0431615
-    phone: 251-694-4164
-    fax: 251-694-4166
-  - id: S000320-montgomery
-    address: 15 Lee St.
-    suite: Suite 208
-    building: FMJ Federal Courthouse
-    city: Montgomery
-    state: AL
-    zip: '36104'
-    latitude: 32.3752753
-    longitude: -86.3089916
-    phone: 334-223-7303
-    fax: 334-223-7317
-  - id: S000320-tuscaloosa
-    address: 2005 University Blvd.
-    suite: Suite 2100
-    city: Tuscaloosa
-    state: AL
-    zip: '35401'
-    latitude: 33.21019640000001
-    longitude: -87.5631689
-    phone: 205-759-5047
-- id:
     bioguide: S000344
     govtrack: 400371
     thomas: '01526'
@@ -10067,43 +8582,6 @@
     fax: 770-432-5813
     phone: 770-432-5405
 - id:
-    bioguide: S001165
-    govtrack: 412186
-    thomas: '01818'
-  offices:
-  - id: S001165-elizabeth
-    address: 800 Anna St.
-    city: Elizabeth
-    state: NJ
-    zip: '07201'
-    latitude: 40.6662148
-    longitude: -74.1968162
-    fax: 908-820-0694
-    hours: Mon-Fri 8:00am-4:00pm
-    phone: 908-820-0692
-  - id: S001165-jersey_city
-    address: 257 Cornelison Ave.
-    suite: Suite 4408
-    city: Jersey City
-    state: NJ
-    zip: '07302'
-    latitude: 40.7248331
-    longitude: -74.0607631
-    fax: 201-309-0384
-    hours: M-F 9-6:00pm
-    phone: 201-309-0301
-  - id: S001165-west_new_york
-    address: 5500 Palisade Ave.
-    suite: Suite A
-    city: West New York
-    state: NJ
-    zip: '07093'
-    latitude: 40.7850274
-    longitude: -74.0161301
-    fax: 201-617-2809
-    hours: Mon-Fri 9-6:00pm
-    phone: 201-558-0800
-- id:
     bioguide: S001168
     govtrack: 412212
     thomas: '01854'
@@ -10166,21 +8644,6 @@
     longitude: -103.6569419
     fax: 308-633-6335
     phone: 308-633-6333
-- id:
-    bioguide: S001175
-    govtrack: 412259
-    thomas: '01890'
-  offices:
-  - id: S001175-san_mateo
-    address: 155 Bovet Rd.
-    suite: Suite 780
-    city: San Mateo
-    state: CA
-    zip: '94402'
-    latitude: 37.5496382
-    longitude: -122.3167359
-    fax: 650-375-8270
-    phone: 650-342-0300
 - id:
     bioguide: S001176
     govtrack: 412261
@@ -10248,30 +8711,6 @@
     zip: '96952'
     fax: 670-433-2648
     phone: 670-433-2647
-- id:
-    bioguide: S001180
-    govtrack: 412315
-    thomas: '01950'
-  offices:
-  - id: S001180-oregon_city
-    address: 621 High St.
-    city: Oregon City
-    state: OR
-    zip: '97045'
-    latitude: 45.3571432
-    longitude: -122.6070483
-    fax: 503-557-1981
-    phone: 503-557-1324
-  - id: S001180-salem
-    address: 530 Center St. NE
-    suite: Suite 415
-    city: Salem
-    state: OR
-    zip: '97301'
-    latitude: 44.94254830000001
-    longitude: -123.0352226
-    fax: 503-588-5517
-    phone: 503-588-9100
 - id:
     bioguide: S001181
     govtrack: 412323
@@ -10830,27 +9269,6 @@
     phone: 202-600-0843
     hours: Open Thursday and Friday 9AM-5PM
 - id:
-    bioguide: S001201
-    govtrack: 412717
-  offices:
-  - id: S001201-huntington
-    address: 478A Park Avenue
-    city: Huntington
-    state: NY
-    zip: '11743'
-    latitude: 40.873976
-    longitude: -73.41131899999999
-    phone: 631-923-4100
-  - id: S001201-little_neck
-    address: 250-02 Northern Boulevard
-    city: Little Neck
-    state: NY
-    zip: '11362'
-    latitude: 40.7683191
-    longitude: -73.7394598
-    phone: 718-631-0400
-    hours: Mon, Tue, and Thurs 9:00AM - 5:30PM by appointment
-- id:
     bioguide: S001203
     govtrack: 412742
   offices:
@@ -10890,18 +9308,6 @@
     phone: 507-288-2003
     latitude: 44.0524692
     longitude: -92.47637809999999
-- id:
-    bioguide: S001204
-    govtrack: 412770
-  offices:
-  - id: S001204-hagatna
-    address: 330 Hernan Cortez Ave
-    suite: Fl 3
-    city: Hagatna
-    state: GU
-    zip: 96910-5081
-    latitude: 13.4763888
-    longitude: 144.7455451
 - id:
     bioguide: S001207
     govtrack: 412799
@@ -11288,85 +9694,6 @@
     hours: Mon-Fri 9am-5.30pm
     phone: 707-645-1888
 - id:
-    bioguide: T000461
-    govtrack: 400408
-    thomas: '02085'
-  offices:
-  - id: T000461-allentown
-    address: 1150 S. Cedar Crest Blvd
-    suite: Suite 101
-    city: Allentown
-    state: PA
-    zip: '18103'
-    latitude: 40.569891
-    longitude: -75.519529
-    fax: 202-228-2727
-    phone: 610-434-1444
-  - id: T000461-erie
-    address: 17 S. Park Row.
-    suite: Suite B-120
-    building: United States Federal Building
-    city: Erie
-    state: PA
-    zip: '16501'
-    latitude: 42.1289745
-    longitude: -80.08406889999999
-    fax: 814-455-9925
-    phone: 814-453-3010
-  - id: T000461-harrisburg
-    address: 228 Walnut St.
-    suite: Suite 1104
-    building: United States Federal Building
-    city: Harrisburg
-    state: PA
-    zip: '17101'
-    latitude: 40.261919
-    longitude: -76.882739
-    fax: 717-782-4920
-    phone: 717-782-3951
-  - id: T000461-philadelphia
-    address: 200 Chestnut Street
-    suite: Suite 600
-    building: US Custom House
-    city: Philadelphia
-    state: PA
-    zip: '19106'
-    latitude: 39.94829
-    longitude: -75.1441
-    fax: 215-241-1095
-    phone: 215-241-1090
-  - id: T000461-pittsburgh
-    address: 310 Grant St.
-    suite: Suite 1440
-    city: Pittsburgh
-    state: PA
-    zip: '15219'
-    latitude: 40.4376735
-    longitude: -79.9996749
-    fax: 412-803-3504
-    phone: 412-803-3501
-  - id: T000461-wilkes_barre
-    address: 7 North Wilkes-Barre Boulevard
-    suite: Suite 406
-    city: Wilkes-Barre
-    state: PA
-    zip: '18702'
-    latitude: 41.2419893
-    longitude: -75.8773626
-    fax: 570-820-6442
-    phone: 570-820-4088
-  - id: T000461-johnstown
-    address: 1397 Eisenhower Blvd
-    suite: Suite 302
-    building: Richland Square III
-    city: Johnstown
-    state: PA
-    zip: '15904'
-    latitude: 40.273143
-    longitude: -78.848055
-    fax: 814-266-5973
-    phone: 814-266-5970
-- id:
     bioguide: T000463
     govtrack: 400411
     thomas: '01741'
@@ -11631,19 +9958,6 @@
     fax: 919-856-4053
     phone: 919-856-4630
 - id:
-    bioguide: T000479
-    govtrack: 412821
-  offices:
-  - id: T000479-plano
-    address: 5600 Tennyson Pkwy
-    suite: Suite 275
-    city: Plano
-    state: TX
-    zip: 75024-3818
-    latitude: 33.07129
-    longitude: -96.81871
-    phone: 972-202-4150
-- id:
     bioguide: T000480
     govtrack: 412815
   offices:
@@ -11712,30 +10026,6 @@
     latitude: 39.11684
     longitude: -77.20114
     phone: 301-926-0300
-- id:
-    bioguide: U000031
-    govtrack: 400414
-    thomas: '01177'
-  offices:
-  - id: U000031-kalamazoo
-    address: 350 E. Michigan Ave.
-    suite: Suite 130
-    city: Kalamazoo
-    state: MI
-    zip: '49007'
-    latitude: 42.2926475
-    longitude: -85.57910969999999
-    fax: 269-385-2888
-    phone: 269-385-0039
-  - id: U000031-st__joseph
-    address: 720 Main St.
-    city: St. Joseph
-    state: MI
-    zip: '49085'
-    latitude: 42.105351
-    longitude: -86.48403499999999
-    fax: 269-982-0237
-    phone: 269-982-1986
 - id:
     bioguide: U000040
     govtrack: 412776
@@ -12500,57 +10790,6 @@
     longitude: -77.40825
     phone: 703-234-3800
 - id:
-    bioguide: Y000062
-    govtrack: 412211
-    thomas: '01853'
-  offices:
-  - id: Y000062-louisville
-    address: 600 Martin Luther King Jr Pl.
-    suite: Suite 216
-    building: Romano Mazzoli Federal Building
-    city: Louisville
-    state: KY
-    zip: '40202'
-    latitude: 38.2486082
-    longitude: -85.7622452
-    fax: 502-582-5897
-    phone: 502-582-5129
-  - id: Y000062-louisville-1
-    address: 7219 Dixie Highway
-    building: Southwest Government Center
-    city: Louisville
-    state: KY
-    zip: '40258'
-    latitude: 38.1458873
-    longitude: -85.8399034
-    fax: 502-933-5863
-    phone: 502-935-6934
-- id:
-    bioguide: Z000017
-    govtrack: 412646
-    thomas: '02261'
-  offices:
-  - id: Z000017-riverhead
-    address: 30 W. Main St.
-    suite: Suite 201
-    city: Riverhead
-    state: NY
-    zip: '11901'
-    latitude: 40.9172285
-    longitude: -72.6627645
-    hours: Tues, Wed, Thurs, 10am - 2pm. By appointment only.
-    phone: 631-209-4235
-  - id: Z000017-patchogue
-    address: 31 Oak St.
-    suite: Suite 20
-    city: Patchogue
-    state: NY
-    zip: '11772'
-    latitude: 40.7671697
-    longitude: -73.0138358
-    fax: 631-289-1268
-    phone: 631-289-1097
-- id:
     bioguide: Y000064
     thomas: '02019'
     govtrack: 412428
@@ -13058,26 +11297,6 @@
     fax: 228-867-9789
     phone: 228-867-9710
 - id:
-    bioguide: L000588
-    govtrack: 412744
-  offices:
-  - id: L000588-monaca
-    address: 3468 Brodhead Rd
-    city: Monaca
-    state: PA
-    zip: 15061-3149
-    latitude: 40.65095
-    longitude: -80.3124
-    phone: 724-206-4860
-  - id: L000588-pittsburgh
-    address: 504 Washington Rd
-    city: Pittsburgh
-    state: PA
-    zip: 15228-2817
-    latitude: 40.38423
-    longitude: -80.04388
-    phone: 412-344-5583
-- id:
     bioguide: L000589
     govtrack: 412745
   offices:
@@ -13268,37 +11487,6 @@
     fax: 314-436-8534
     latitude: 38.62588
     longitude: -90.196
-- id:
-    bioguide: K000395
-    govtrack: 412843
-  offices:
-  - id: K000395-selinsgrove
-    address: 713 Bridge Street
-    suite: Room 29
-    city: Selinsgrove
-    state: PA
-    zip: '17870'
-    phone: 570-374-9469
-    latitude: 40.8116177
-    longitude: -76.8629974
-  - id: K000395-tunkhannock
-    address: 181 West Tioga Street
-    suite: Suite 2
-    city: Tunkhannock
-    state: PA
-    zip: '18658'
-    phone: 570-996-6550
-    latitude: 41.54412
-    longitude: -75.9636732
-  - id: K000395-williamsport
-    address: 1020 Commerce Park Drive
-    suite: Suite 1A
-    city: Williamsport
-    state: PA
-    zip: '17701'
-    phone: 570-322-3961
-    latitude: 41.2472344
-    longitude: -76.9834777
 - id:
     bioguide: B001311
     govtrack: 412844
