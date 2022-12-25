@@ -1722,118 +1722,6 @@
     office: 290 Russell Senate Office Building
     phone: 202-224-5972
 - id:
-    bioguide: I000024
-    thomas: '00583'
-    lis: S236
-    govtrack: 300055
-    opensecrets: N00005582
-    votesmart: 27027
-    icpsr: 15424
-    fec:
-    - S4OK00083
-    - H6OK01102
-    cspan: 5619
-    wikipedia: Jim Inhofe
-    house_history: 15645
-    ballotpedia: Jim Inhofe
-    maplight: 576
-    wikidata: Q723134
-    google_entity_id: kg:/m/021kpl
-  name:
-    first: James
-    middle: M.
-    last: Inhofe
-    nickname: Jim
-    official_full: James M. Inhofe
-  bio:
-    birthday: '1934-11-17'
-    gender: M
-  terms:
-  - type: rep
-    start: '1987-01-06'
-    end: '1989-01-03'
-    state: OK
-    district: 1
-    party: Republican
-  - type: rep
-    start: '1989-01-03'
-    end: '1991-01-03'
-    state: OK
-    district: 1
-    party: Republican
-  - type: rep
-    start: '1991-01-03'
-    end: '1993-01-03'
-    state: OK
-    district: 1
-    party: Republican
-  - type: rep
-    start: '1993-01-05'
-    end: '1994-11-15'
-    state: OK
-    district: 1
-    party: Republican
-  - type: sen
-    start: '1994-11-17'
-    end: '1997-01-03'
-    state: OK
-    class: 2
-    party: Republican
-  - type: sen
-    start: '1997-01-07'
-    end: '2003-01-03'
-    state: OK
-    class: 2
-    party: Republican
-  - type: sen
-    start: '2003-01-07'
-    end: '2009-01-03'
-    state: OK
-    class: 2
-    party: Republican
-    url: http://inhofe.senate.gov/
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: OK
-    class: 2
-    party: Republican
-    url: http://www.inhofe.senate.gov
-    address: 205 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4721
-    fax: 202-228-0380
-    contact_form: http://www.inhofe.senate.gov/contact
-    office: 205 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.inhofe.senate.gov/rss/feeds/?type=all&amp;cachebuster=eea6c4d7%2d939c%2d5c1e%2db6c7aa3b8b291208
-  - type: sen
-    start: '2015-01-06'
-    end: '2021-01-03'
-    state: OK
-    class: 2
-    party: Republican
-    url: https://www.inhofe.senate.gov
-    address: 205 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-4721
-    fax: 202-228-0380
-    contact_form: https://www.inhofe.senate.gov/contact
-    office: 205 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.inhofe.senate.gov/rss/feeds/?type=all&amp;cachebuster=eea6c4d7%2d939c%2d5c1e%2db6c7aa3b8b291208
-  - type: sen
-    start: '2021-01-03'
-    end: '2027-01-03'
-    state: OK
-    class: 2
-    state_rank: senior
-    party: Republican
-    url: https://www.inhofe.senate.gov
-    rss_url: http://www.inhofe.senate.gov/rss/feeds/?type=all&amp;cachebuster=eea6c4d7%2d939c%2d5c1e%2db6c7aa3b8b291208
-    contact_form: https://www.inhofe.senate.gov/contact
-    address: 205 Russell Senate Office Building Washington DC 20510
-    office: 205 Russell Senate Office Building
-    phone: 202-224-4721
-- id:
     bioguide: M000355
     thomas: '01395'
     lis: S174
@@ -10729,7 +10617,7 @@
     end: '2029-01-03'
     state: OK
     class: 3
-    state_rank: junior
+    state_rank: senior
     party: Republican
     url: https://www.lankford.senate.gov
 - id:
@@ -24093,6 +23981,96 @@
     party: Republican
     url: https://joyce.house.gov
     rss_url: http://joyce.house.gov/rss/press-releases.xml
+- id:
+    govtrack: 412568
+    bioguide: M001190
+    thomas: '02156'
+    cspan: 1034045
+    votesmart: 135898
+    wikipedia: Markwayne Mullin
+    fec:
+    - H2OK02083
+    opensecrets: N00033410
+    ballotpedia: Markwayne Mullin
+    maplight: 1792
+    icpsr: 21355
+    wikidata: Q3448772
+    google_entity_id: kg:/m/0lq78pn
+  name:
+    first: Markwayne
+    last: Mullin
+    official_full: Markwayne Mullin
+  bio:
+    gender: M
+    birthday: '1977-07-26'
+  terms:
+  - type: rep
+    start: '2013-01-03'
+    end: '2015-01-03'
+    state: OK
+    party: Republican
+    district: 2
+    office: 1113 Longworth House Office Building
+    address: 1113 Longworth HOB; Washington DC 20515-3602
+    phone: 202-225-2701
+    url: http://mullin.house.gov
+    rss_url: http://mullin.house.gov/rss.xml
+    contact_form: https://mullin.house.gov/contact/email-me
+    fax: 202-225-3038
+  - type: rep
+    start: '2015-01-06'
+    end: '2017-01-03'
+    state: OK
+    party: Republican
+    district: 2
+    office: 1113 Longworth House Office Building
+    address: 1113 Longworth HOB; Washington DC 20515-3602
+    phone: 202-225-2701
+    url: http://mullin.house.gov
+    rss_url: http://mullin.house.gov/rss.xml
+    contact_form: https://mullin.house.gov/contact/email-me
+    fax: 202-225-3038
+  - type: rep
+    start: '2017-01-03'
+    end: '2019-01-03'
+    state: OK
+    district: 2
+    party: Republican
+    phone: 202-225-2701
+    url: https://mullin.house.gov
+    rss_url: http://mullin.house.gov/news/rss.aspx
+    address: 1113 Longworth House Office Building; Washington DC 20515-3602
+    office: 1113 Longworth House Office Building
+    fax: 202-225-3038
+  - type: rep
+    start: '2019-01-03'
+    end: '2021-01-03'
+    state: OK
+    district: 2
+    party: Republican
+    phone: 202-225-2701
+    address: 2421 Rayburn House Office Building Washington DC 20515-3602
+    office: 2421 Rayburn House Office Building
+    url: https://mullin.house.gov
+    rss_url: http://mullin.house.gov/news/rss.aspx
+  - type: rep
+    start: '2021-01-03'
+    end: '2023-01-03'
+    state: OK
+    district: 2
+    party: Republican
+    url: https://mullin.house.gov
+    rss_url: http://mullin.house.gov/news/rss.aspx
+    address: 2421 Rayburn House Office Building Washington DC 20515-3602
+    office: 2421 Rayburn House Office Building
+    phone: 202-225-2701
+  - type: sen
+    start: '2023-01-03'
+    end: '2027-01-03'
+    state: OK
+    class: 2
+    state_rank: junior
+    party: Republican
 - id:
     govtrack: 412569
     bioguide: P000605
