@@ -225,7 +225,7 @@ def check_bio(bio, is_current_legislator, context):
     # We don't always have the information for historical members of Congress or presidents.
     for key in bio_keys:
       if key not in bio:
-        error(context, "Missing bio->{}.".format(key))
+        print('[warning] ' + context + ": Missing bio->{}.".format(key))
 
 def check_term(term, prev_term, context, current=None, current_mocs=None):
   # Check type.
