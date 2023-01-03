@@ -16,6 +16,7 @@ def run():
 
 	# TODO use download util?
 	xml = requests.get("http://clerk.house.gov/xml/lists/MemberData.xml")
+	#xml = requests.get("https://clerk.house.gov/xml/lists/unofficial-118-member-elect-data.xml")
 	root=lxml.etree.fromstring(xml.content)
 
 	for moc in y:
@@ -34,23 +35,33 @@ def run():
 		ssdd = "%s%02d" % (term["state"], term["district"])
 
 		query_str = "./members/member/[statedistrict='%s']" % ssdd
-		# TODO: Follow up
+
+		# Odd state abbreviation.
 		query_str = query_str.replace("AS00", "AQ00")
-		#print(query_str)
 
 		mi = root.findall(query_str)[0].find('member-info')
 
-		if (mi.find('bioguideID').text != moc['id'].get('bioguide')):
+		# Check that the bioguide ID matches.
+		bioguideid = mi.find('bioguideID').text
+		if moc['id'].get('bioguide') is not None and \
+		      bioguideid != moc['id']['bioguide']:
 			print("Warning: Bioguide ID did not match for %s%02d (%s != %s)" % (
 				term["state"], term["district"],
-				mi.find('bioguideID').text, moc['id']['bioguide']))
+				bioguideid, moc['id']['bioguide']))
+		elif moc['id'].get('bioguide') is None:
+			# At the start of a Congress, we can import the Bioguide ID from
+			# the official data since we matched on state & district.
+
+			# To keep the field order nice, insert it at the start of the
+			# IDs list.
+			moc['id'] = dict([("bioguide", bioguideid)]
+				           + list(moc['id'].items()))
 
 		# for now, no automatic name updates since there is disagremeent on how to handle
 		# firstname = mi.find('firstname').text
 		# middlename = mi.find('middlename').text #could be empty
 		# lastname = mi.find('lastname').text
 
-		#TODO: follow up, why no official name?
 		if mi.find('official-name') is None or mi.find('official-name').text is None:
 			print("Warning: No official-name tag for %s" % ssdd)
 			officialname = None

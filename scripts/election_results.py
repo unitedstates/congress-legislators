@@ -1,12 +1,12 @@
-# Update the data files according to the results of
+# Updates the data files according to the results of
 # a general election using a spreadsheet of election
 # results and prepares for a new Congress. This script
 # does the following:
 #
 # * Adds end dates to all current leadership roles since
 #   leadership resets in both chambers each Congress.
-# * Brings senators not up for relection and the Puerto
-#   Rico resident commissioner in off-years forward
+# * Brings senators not up for reelection, and Puerto
+#   Rico's resident commissioner in off-years, forward
 #   unchanged.
 # * Creates new legislator entries for new people in
 #   the election results spreadsheet. The next available
@@ -21,17 +21,27 @@
 #   no longer serving.
 #
 # Usage:
+# * Use the same column headers as in the last spreadsheet (see
+#   the previous .csv file in the archive directory).
 # * Save the spreadsheet to archive/election_results_{year}.csv.
 # * Edit the ELECTION_YEAR constant below.
 # * Make sure the legislators-{current,historical}.yaml files are 
-#   clean -- i.e. if you've run this script, reset these files
-#   before running it again.
+#   clean -- i.e. if you've run this script, revert any changes
+#   before running this script again with e.g.:
+#   git checkout origin/main ../*.yaml
 # * Run this script.
+# * Make other changes manually for special elections.
+# * Run sweep.py to clear out social media info for now-not-serving legislators.
+# * Run wikidata_update.py to fill in some other missing fields.
+# * Run `NOW=2023-01-03 test/validate.py` to check for errors.
+
+import traceback
+from types import SimpleNamespace as SN
 
 import collections, csv, re
 from utils import load_data, save_data
 
-ELECTION_YEAR = 2020
+ELECTION_YEAR = 2022
 
 def run():
 	# Compute helper constants.
@@ -57,30 +67,32 @@ def run():
 		if p["terms"][-1]["state"] == "PR" and (ELECTION_YEAR % 4 == 0):
 			current.append(p["id"]["govtrack"])
 
-	# Map govtrack IDs to exiting legislators.
+	# Map govtrack IDs to existing legislators.
 	govtrack_id_map = { }
 	for entry in legislators_historical + legislators_current:
 		govtrack_id_map[entry['id']['govtrack']] = entry
 
 	# Get highest existing GovTrack ID to know where to start for assigning new IDs.
-	next_govtrack_id = max(p['id']['govtrack'] for p in (legislators_historical+legislators_current))
+	# Store it in a mutable data structure so that the inner function can increment it.
+	max_govtrack_id = SN(
+		value=max(p['id']['govtrack'] for p in (legislators_historical+legislators_current)))
 
 	# Load spreadsheet of Senate election results.
 	print("Applying election results...")
-	election_results = csv.DictReader(open("archive/election_results_{year}.csv".format(year=ELECTION_YEAR)))
-	for row in election_results:
-		if row['Race'] == "": break # end of spreadsheet
 
+	def process_row(row):
 		# Get state and district from race code. An empty
 		# district means a senate race.
 		state, district = re.match(r"^([A-Z]{2})(\d*)$", row["Race"]).groups()
 
 		if row['GovTrack ID'] != "":
 			# Use the GovTrack ID to get the legislator who won, which might be
-			# the incumbent or a representative elected to the senate, or a
+			# the incumbent or a representative elected to the senate, or
 			# someone who used to serve in Congress, etc.
 			p = govtrack_id_map[int(row['GovTrack ID'])]
 		elif row['Incumbent Win? Y/N'] == 'Y':
+			raise ValueError("Incumbent should have a GovTrack ID.")
+
 			# Use the race code to get the legislator who won.
 			incumbent = [p for p in legislators_current
 			             if  p["terms"][-1]["type"] == ("sen" if district == "" else "rep")
@@ -88,17 +100,21 @@ def run():
 			             and ((p["terms"][-1]["district"] == int(district)) if district != ""
 		             	 else (p["terms"][-1]["class"] == SENATE_CLASS))
 			            ]
-			if len(incumbent) != 1:
+			if len(incumbent) < 1:
 				raise ValueError("Could not find incumbent.")
+			if len(incumbent) > 1:
+				raise ValueError("Matched on more than one incumbent.")
 			p = incumbent[0]
+			#if row['GovTrack ID'] != "" and int(row['GovTrack ID']) != p["id"]["govtrack"]:
+			#	raise ValueError("GovTrack ID doesn't match incumbent.")
 		elif row['Incumbent Win? Y/N'] == 'N':
 			# Make a new legislator entry.
-			next_govtrack_id += 1
+			max_govtrack_id.value += 1
 			p = collections.OrderedDict([
 				("id", collections.OrderedDict([
 					#("bioguide", row['Bioguide ID']),
 					("fec", [row['FEC.gov ID']]),
-					("govtrack", next_govtrack_id),
+					("govtrack", max_govtrack_id.value),
 					#("opensecrets", None), # don't know yet
 					#("votesmart", int(row['votesmart'])), # not doing this anymore
 					#("wikipedia", row['Wikipedia Page Name']), # will convert from Wikidata
@@ -119,10 +135,12 @@ def run():
 				("terms", []),
 			])
 
-			# Delete name keys that were filled with Nones.
-			for k in list(p["name"]): # clone key list before modifying dict
-				if not p["name"][k]:
-					del p["name"][k]
+			# Delete keys that were filled with Nones or empty strings
+			# because we don't have the data yet.
+			for section in ("id", "name", "bio"):
+				for k in list(p[section]): # clone key list before modifying dict
+					if not p[section][k]:
+						del p[section][k]
 
 			new_legislators.append(p)
 		else:
@@ -131,7 +149,7 @@ def run():
 			# be moved to the historical file, and no person will
 			# be added for this race.
 			print("No election result for", row["Race"], row["Incumbent Win? Y/N"])
-			continue
+			return
 
 		# Add to array marking this legislator as currently serving.
 		current.append(p['id']['govtrack'])
@@ -171,6 +189,16 @@ def run():
 			for k in ('party', 'url', 'rss_url'):
 				if k in p['terms'][-2] and not term.get(k):
 					term[k] = p['terms'][-2][k]
+
+	election_results = csv.DictReader(open("archive/election_results_{year}.csv".format(year=ELECTION_YEAR)))
+	for row in election_results:
+		if row['Race'] == "": return # end of spreadsheet
+		try:
+			process_row(row)
+		except:
+			print(row)
+			traceback.print_exc()
+			print()
 
 	# End any current leadership roles.
 	for p in legislators_current:
@@ -242,11 +270,11 @@ def run():
 
 	# Run the sweep script to clear out data that needs to be cleared out
 	# for legislators that are gone.
-	import sweep
-	sweep.run()
+	#import sweep
+	#sweep.run()
 
 	# Clears committee membership.
-	save_data([], "committee-membership-current.yaml")
+	save_data({}, "committee-membership-current.yaml")
 
 if __name__ == "__main__":
 	run()
