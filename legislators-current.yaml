@@ -32538,55 +32538,43 @@
     office: 502 Hart Senate Office Building
     phone: 202-224-5842
 - id:
-    bioguide: S001197
-    thomas: '02289'
+    bioguide: R000618
+    thomas: ''
     fec:
-    - S4NE00090
-    govtrack: 412671
-    opensecrets: N00035544
-    lis: S382
-    maplight: 2127
-    wikidata: Q16192221
-    wikipedia: Ben Sasse
-    google_entity_id: kg:/m/0j5wk_6
-    votesmart: 150182
-    cspan: 77429
-    icpsr: 41503
-    ballotpedia: Ben Sasse
+    - S6NE00129
+    govtrack: 
+    opensecrets: 
+    lis: 
+    maplight: 
+    wikidata: Q6106781
+    wikipedia: Pete Ricketts
+    google_entity_id:
+    votesmart: 57777
+    cspan: 61233
+    icpsr: 
+    ballotpedia: Pete Ricketts
   name:
-    first: Benjamin
-    middle: Eric
-    nickname: Ben
-    last: Sasse
-    official_full: Ben Sasse
+    first: John
+    middle: Peter
+    nickname: Pete
+    last: Ricketts
+    official_full: Pete Ricketts
   bio:
     gender: M
-    birthday: '1972-02-22'
+    birthday: '1964-08-19'
   terms:
   - type: sen
-    start: '2015-01-06'
-    end: '2021-01-03'
+    start: '2023-01-23'
+    end: '2025-01-03'
     state: NE
     class: 2
     state_rank: junior
     party: Republican
-    url: https://www.sasse.senate.gov/public
-    address: 107 Russell Senate Office Building Washington DC 20510
-    office: 107 Russell Senate Office Building
+    url: https://www.ricketts.senate.gov
+    address: 40D Dirksen Senate Office Building Washington DC 20510
+    office: 40D Dirksen Senate Office Building
     phone: 202-224-4224
-    contact_form: http://www.sasse.senate.gov/public/index.cfm/email-ben
-  - type: sen
-    start: '2021-01-03'
-    end: '2027-01-03'
-    state: NE
-    class: 2
-    state_rank: junior
-    party: Republican
-    url: https://www.sasse.senate.gov/public
-    contact_form: http://www.sasse.senate.gov/public/index.cfm/email-ben
-    address: 107 Russell Senate Office Building Washington DC 20510
-    office: 107 Russell Senate Office Building
-    phone: 202-224-4224
+    contact_form: https://www.ricketts.senate.gov
 - id:
     bioguide: K000388
     thomas: '02294'
