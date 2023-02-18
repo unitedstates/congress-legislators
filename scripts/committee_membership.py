@@ -63,7 +63,7 @@ def run():
         if committee[0] == "H" or m.get("chamber") == "house":
           members.remove(m)
 
-    r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml")
+    r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml", force)
     dom = lxml.etree.fromstring(r.encode("latin-1")) # must be bytes to parse if there is an encoding declaration inside the string
 
     # Update committee metadata.
