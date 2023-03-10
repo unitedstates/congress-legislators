@@ -598,6 +598,9 @@
     chamber: senate
     start: '2021-01-03'
     end: '2023-01-03'
+  - title: Senate Democratic Steering Committee Chair
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: sen
     start: '2007-01-04'
@@ -918,6 +921,9 @@
     chamber: senate
     start: '2021-01-03'
     end: '2023-01-03'
+  - title: Senate Democratic Policy & Communications Committee Chair
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: rep
     start: '1997-01-07'
@@ -1136,6 +1142,9 @@
     chamber: senate
     start: '2021-01-03'
     end: '2023-01-03'
+  - title: Senate Republican Conference Chair
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: sen
     start: '2007-06-25'
@@ -1525,6 +1534,9 @@
     chamber: senate
     start: '2021-01-20'
     end: '2023-01-03'
+  - title: Senate Majority Whip
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: rep
     start: '1983-01-03'
@@ -1781,6 +1793,9 @@
     chamber: senate
     start: '2021-01-20'
     end: '2023-01-03'
+  - title: Senate Majority Leader
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: sen
     start: '1985-01-03'
@@ -2380,6 +2395,10 @@
   bio:
     birthday: '1947-08-24'
     gender: M
+  leadership_roles:
+  - title: Senate Democratic Policy & Communications Committee Vice Chair
+    chamber: senate
+    start: '2023-01-03'
   terms:
   - type: sen
     start: '2010-11-15'
@@ -4045,6 +4064,10 @@
   bio:
     birthday: '1953-11-26'
     gender: F
+  leadership_roles:
+  - title: Senate Republican Conference Vice Chair
+    chamber: sentate
+    start: '2023-01-03'
   terms:
   - type: rep
     start: '2001-01-03'
@@ -5104,6 +5127,9 @@
     chamber: house
     start: '2021-01-03'
     end: '2023-01-03'
+  - title: Assistant House Minority Leader
+    chamber: house
+    start: '2021-01-03'
   terms:
   - type: rep
     start: '1993-01-05'
