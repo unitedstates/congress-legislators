@@ -301,15 +301,15 @@
     phone: (202) 225-5074
   - name: Government Operations and the Federal Workforce
     thomas_id: '24'
-    address: 6460 OHOB; Washington, DC 20515
+    address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: National Security, the Border, and Foreign Affairs
     thomas_id: '06'
-    address: 6470 OHOB; Washington, DC 20515
+    address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Health Care and Financial Services
     thomas_id: '27'
-    address: 6440 OHOB; Washington, DC 20515
+    address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Environment
     thomas_id: '28'
@@ -325,11 +325,11 @@
     phone: (202) 225-5051
   - name: Economic Growth, Energy Policy, and Regulatory Affairs
     thomas_id: '05'
-    address: 6430 OHOB; Washington, DC 20515
+    address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   - name: Cybersecurity, Information Technology, and Government Innovation
     thomas_id: '12'
-    address: 6440 OHOB; Washington, DC 20515
+    address: 2157 RHOB; Washington, DC 20515
     phone: (202) 225-5074
   address: 2157 RHOB; Washington, DC 20515-6143
   phone: (202) 225-5074
@@ -440,7 +440,7 @@
     thomas_id: '02'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-3641
-  - name: Environment, Manufacturing, and Critical Minerals
+  - name: Environment, Manufacturing, and Critical Materials
     thomas_id: '18'
     address: 2125 RHOB; Washington, DC 20515
     phone: (202) 225-3641
@@ -465,29 +465,29 @@
   subcommittees:
   - name: Energy and Mineral Resources
     thomas_id: '06'
-    address: 1522 LHOB; Washington, DC 20515
-    phone: (202) 225-2761
+    address: 1333 LHOB; Washington, DC 20515
+    phone: (202) 225-9297
   - name: Federal Lands
     thomas_id: '10'
-    address: 1328 LHOB; Washington, DC 20515
-    phone: (202) 225-2761
+    address: 1329 LHOB; Washington, DC 20515
+    phone: (202) 226-7736
   - name: Water, Wildlife and Fisheries
     thomas_id: '13'
-    address: 1332 LHOB; Washington, DC 20515
-    phone: (202) 225-2761
+    address: 1522 LHOB; Washington, DC 20515
+    phone: (202) 225-8331
   - name: Fisheries, Wildlife, Oceans and Insular Affairs
     thomas_id: '22'
     address: 140 CHOB; Washington, DC 20515
     phone: (202) 226-0200
   - name: Indian and Insular Affairs
     thomas_id: '24'
-    address: 1331 LHOB; Washington, DC 20515
-    phone: (202) 225-2761
+    address: 1328 LHOB; Washington, DC 20515
+    phone: (202) 226-9725
   - name: Oversight and Investigations
     thomas_id: '15'
-    address: 186 FHOB; Washington, DC 20515
+    address: 4170 OHOB; Washington, DC 20515
     phone: (202) 225-2761
-  address: 1324A LHOB; Washington, DC 20515-6201
+  address: 1324 LHOB; Washington, DC 20515-6201
   phone: (202) 225-2761
   jurisdiction: The House Committee on Natural Resources considers legislation about
     American energy production, mineral lands and mining, fisheries and wildlife,
@@ -554,7 +554,7 @@
   thomas_id: HSJU
   house_committee_id: JU
   subcommittees:
-  - name: Constitution and Limited Government
+  - name: The Constitution and Limited Government
     thomas_id: '10'
     address: 2138 RHOB; Washington, DC 20515
     phone: (202) 225-6906
@@ -570,14 +570,14 @@
     thomas_id: '01'
     address: 2138 RHOB; Washington, DC 20515
     phone: (202) 225-6906
-  - name: Administrative State, Regulatory Reform, and Antitrust
+  - name: The Administrative State, Regulatory Reform, and Antitrust
     thomas_id: '05'
     address: 2138 RHOB; Washington, DC 20515
     phone: (202) 225-6906
   - name: Responsiveness and Accountability to Oversight
     thomas_id: '13'
     address: 2138 RHOB; Washington, DC 20515
-    phone: (202) 225-6909
+    phone: (202) 225-6906
   address: 2138 RHOB; Washington, DC 20515-6216
   phone: (202) 225-6906
   minority_rss_url: https://democrats-judiciary.house.gov/rss.xml
@@ -810,27 +810,27 @@
   subcommittees:
   - name: Health
     thomas_id: '02'
-    address: 1102 LHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-3943
   - name: Work and Welfare
     thomas_id: '03'
-    address: 1129 LHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-9263
   - name: Oversight
     thomas_id: '06'
-    address: 2018 RHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-3625
   - name: Tax
     thomas_id: '05'
-    address: 1136 LHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-5522
   - name: Social Security
     thomas_id: '01'
-    address: 2018 RHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-9263
   - name: Trade
     thomas_id: '04'
-    address: 1103 LHOB; Washington, DC 20515
+    address: 1139 LHOB; Washington, DC 20515
     phone: (202) 225-6649
   address: 1139 LHOB; Washington, DC 20515-6348
   phone: (202) 225-3625
@@ -1230,7 +1230,7 @@
     wikipedia: United States Senate Environment and Public Works Subcommittee on Transportation
       and Infrastructure
   - thomas_id: '15'
-    name: Fisheries, Wildlife, and Water
+    name: Fisheries, Water, and Wildlife
     wikipedia: United States Senate Environment and Public Works Subcommittee on Water
       and Wildlife
   rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
@@ -1481,18 +1481,18 @@
   thomas_id: HSVC
   house_committee_id: VC
   name: House Select Subcommittee on the Coronavirus Pandemic
-  address: TBD RHOB; Washington, DC 20515
-  phone: (202) 225-4400
+  address: 2157 RHOB; Washington, DC 20515
+  phone: (202) 225-5074
 - type: house
   thomas_id: HSFD
   house_committee_id: FD
   name: House Select Subcommittee on the Weaponization of the Federal Government
-  address: TBD TBD; Washington, DC 20515
-  phone: (202) 000-0000
+  address: 2138 RHOB; Washington, DC 20515
+  phone: (202) 225-6906
 - type: house
   thomas_id: HSZS
   house_committee_id: ZS
   name: House Select Committee on the Strategic Competition Between the United States
     and the Chinese Communist Party
-  address: TBD TBD; Washington, DC 20515
-  phone: (202) 000-0000
+  address: 548 CHOB; Washington, DC 20515
+  phone: (202) 226-9678
