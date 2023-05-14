@@ -86,7 +86,7 @@ def run():
           }
         parentdict.append(cx)
 
-      cx["name"] = xml_cx.find(sub_prefix + "committee-fullname").text
+      cx["name"] = normalize_text(xml_cx.find(sub_prefix + "committee-fullname").text)
       if not is_subcommittee and not cx["name"].startswith("Joint "): cx["name"] = "House " + cx["name"]
       
       building = xml_cx.attrib[sub_prefix + "com-building-code"]
@@ -196,7 +196,7 @@ def run():
       body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
       dom = lxml.etree.fromstring(body3.encode("utf8")) # must be bytes to parse if there is an encoding declaration inside the string
 
-      cx["name"] = dom.xpath("committees/committee_name")[0].text
+      cx["name"] = normalize_text(dom.xpath("committees/committee_name")[0].text)
       if id[0] != "J" and id[0:2] != 'SC':
         cx["name"] = "Senate " + cx["name"]
 
@@ -222,7 +222,7 @@ def run():
 
         # update metadata
         name = subcom.xpath("subcommittee_name")[0].text
-        sx["name"] = name.strip()
+        sx["name"] = normalize_text(name)
         sx["name"] = re.sub(r"^\s*Subcommittee on\s*", "", sx["name"])
         sx["name"] = re.sub(r"\s+", " ", sx["name"])
 
@@ -330,6 +330,17 @@ def run():
 
   save_data(committee_membership, "committee-membership-current.yaml")
   save_data(committees_current, "committees-current.yaml")
+
+
+def normalize_text(text):
+  # Remove leading and trailing whitespace (coul also use .strip()).
+  text = re.sub(r"^\s+|\s+$", "", text)
+
+  # Remove double spaces and turn all internal whitespace into spaces.
+  text = re.sub(r"\s+", " ", text)
+
+  return text
+
 
 if __name__ == '__main__':
   run()
