@@ -81,7 +81,7 @@ def get_ids_from_wikidata_without_bioguide(legislators):
           }
         """.replace("?subject", "wd:" + p["id"]["wikidata"]))
 
-    
+
         p["id"].update(table[0])
 
 
@@ -115,8 +115,11 @@ def run_query(query):
 
         # clean up the votesmart id
         if "votesmart" in row:
-            row["votesmart"]["value"] = int(row["votesmart"]["value"])
-
+            try:
+                row["votesmart"]["value"] = int(row["votesmart"]["value"])
+            except ValueError:
+                print("invalid value", row["votesmart"]["value"])
+                continue
     # return a simple list of dicts of results
     return [
         {
