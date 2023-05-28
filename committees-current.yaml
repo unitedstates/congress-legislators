@@ -682,10 +682,10 @@
   #  thomas_id: '25'
   #  address: 2361 RHOB; Washington, DC 20515
   #  phone: (202) 225-4038
-  - name: Innovation, Entrepreneurship, and Workforce Development
-    thomas_id: '26'
-    address: 2361 RHOB; Washington, DC 20515
-    phone: (202) 225-4038
+  #- name: Innovation, Entrepreneurship, and Workforce Development
+  #  thomas_id: '26'
+  #  address: 2361 RHOB; Washington, DC 20515
+  #  phone: (202) 225-4038
   - name: Economic Growth, Tax, and Capital Access
     thomas_id: '27'
     address: 2361 RHOB; Washington, DC 20515
@@ -1136,25 +1136,25 @@
   thomas_id: SSCM
   senate_committee_id: SSCM
   subcommittees:
-  - name: Communications, Technology, Innovation, and the Internet
-    thomas_id: '26'
-    wikipedia: United States Senate Commerce Subcommittee on Communications, Technology,
-      and the Internet
-  - name: Tourism, Competitiveness, and Innovation
-    thomas_id: '27'
-    wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
-      and Export Promotion
-  - thomas_id: '28'
-    name: Aviation and Space
-    wikipedia: United States Senate Commerce Subcommittee on Aviation and Space
-  - thomas_id: '29'
-    name: Manufacturing, Trade, and Consumer Protection
-  - thomas_id: '30'
-    name: Science, Oceans, Fisheries, and Weather
-  - thomas_id: '31'
-    name: Security
-  - thomas_id: '32'
-    name: Transportation and Safety
+  #- name: Communications, Technology, Innovation, and the Internet
+  #  thomas_id: '26'
+  #  wikipedia: United States Senate Commerce Subcommittee on Communications, Technology,
+  #    and the Internet
+  #- name: Tourism, Competitiveness, and Innovation
+  #  thomas_id: '27'
+  #  wikipedia: United States Senate Commerce Subcommittee on Competitiveness, Innovation,
+  #    and Export Promotion
+  #- thomas_id: '28'
+  #  name: Aviation and Space
+  #  wikipedia: United States Senate Commerce Subcommittee on Aviation and Space
+  #- thomas_id: '29'
+  #  name: Manufacturing, Trade, and Consumer Protection
+  #- thomas_id: '30'
+  #  name: Science, Oceans, Fisheries, and Weather
+  #- thomas_id: '31'
+  #  name: Security
+  #- thomas_id: '32'
+  #  name: Transportation and Safety
   - thomas_id: '33'
     name: Aviation Safety, Operations, and Innovation
   - thomas_id: '34'
@@ -1217,13 +1217,13 @@
     thomas_id: '09'
     wikipedia: United States Senate Environment and Public Works Subcommittee on Superfund,
       Toxics and Environmental Health
-  - thomas_id: '16'
-    name: Green Jobs and the New Economy
-    wikipedia: United States Senate Environment and Public Works Subcommittee on Green
-      Jobs and the New Economy
-  - thomas_id: '18'
-    name: Oversight
-    wikipedia: United States Senate Environment and Public Works Subcommittee on Oversight
+  #- thomas_id: '16'
+  #  name: Green Jobs and the New Economy
+  #  wikipedia: United States Senate Environment and Public Works Subcommittee on Green
+  #    Jobs and the New Economy
+  #- thomas_id: '18'
+  #  name: Oversight
+  #  wikipedia: United States Senate Environment and Public Works Subcommittee on Oversight
   - thomas_id: '08'
     name: Transportation and Infrastructure
     wikipedia: United States Senate Environment and Public Works Subcommittee on Transportation
@@ -1284,17 +1284,17 @@
   thomas_id: SSFR
   senate_committee_id: SSFR
   subcommittees:
-  - name: International Development and Foreign Assistance, Economic Affairs, International
-      Environmental Protection, and Peace Corps
-    thomas_id: '12'
-    wikipedia: United States Senate Foreign Relations Subcommittee on International
-      Development and Foreign Assistance, Economic Affairs and International Environmental
-      Protection, and Peace Corps
-  - name: International Operations and Organizations, Human Rights, Democracy, and
-      Global Women's Issues
-    thomas_id: '13'
-    wikipedia: United States Senate Foreign Relations Subcommittee on International
-      Operations and Organizations, Human Rights, Democracy and Global Women's Issues
+  #- name: International Development and Foreign Assistance, Economic Affairs, International
+  #    Environmental Protection, and Peace Corps
+  #  thomas_id: '12'
+  #  wikipedia: United States Senate Foreign Relations Subcommittee on International
+  #    Development and Foreign Assistance, Economic Affairs and International Environmental
+  #    Protection, and Peace Corps
+  #- name: International Operations and Organizations, Human Rights, Democracy, and
+  #    Global Women's Issues
+  #  thomas_id: '13'
+  #  wikipedia: United States Senate Foreign Relations Subcommittee on International
+  #    Operations and Organizations, Human Rights, Democracy and Global Women's Issues
   - name: Europe and Regional Security Cooperation
     thomas_id: '01'
     wikipedia: United States Senate Foreign Relations Subcommittee on European Affairs
@@ -1345,16 +1345,16 @@
   - thomas_id: '01'
     name: Permanent Subcommittee on Investigations
     wikipedia: United States Senate Homeland Security Permanent Subcommittee on Investigations
-  - thomas_id: '17'
-    name: Emergency Management, Intergovernmental Relations, and the District of Columbia
-  - thomas_id: '15'
-    name: Financial and Contracting Oversight
-  - thomas_id: '16'
-    name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
-  - thomas_id: '18'
-    name: Federal Spending Oversight and Emergency Management
-  - thomas_id: '19'
-    name: Regulatory Affairs and Federal Management
+  #- thomas_id: '17'
+  #  name: Emergency Management, Intergovernmental Relations, and the District of Columbia
+  #- thomas_id: '15'
+  #  name: Financial and Contracting Oversight
+  #- thomas_id: '16'
+  #  name: the Efficiency and Effectiveness of Federal Programs and the Federal Workforce
+  #- thomas_id: '18'
+  #  name: Federal Spending Oversight and Emergency Management
+  #- thomas_id: '19'
+  #  name: Regulatory Affairs and Federal Management
   - thomas_id: '20'
     name: Emerging Threats and Spending Oversight
   - thomas_id: '22'
