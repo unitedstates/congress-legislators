@@ -21,14 +21,16 @@ def error(context, message):
 # are any vacancies in legislators-current. Each state is mapped to an
 # integer (>= 1) giving its number of House seats. Additionally the
 # territories that send delegates are mapped to the string "T".
+# This is current as of the 118th Congress (2023-). See:
+# https://github.com/govtrack/govtrack.us-web/blob/main/us.py#L5
 state_apportionment = {
-  'AL': 7, 'AK': 1, 'AS': 'T', 'AZ': 9, 'AR': 4, 'CA': 53, 'CO': 7, 'CT': 5,
-  'DE': 1, 'DC': 'T', 'FL': 27, 'GA': 14, 'GU': 'T', 'HI': 2, 'ID': 2, 'IL': 18,
-  'IN': 9, 'IA': 4, 'KS': 4, 'KY': 6, 'LA': 6, 'ME': 2, 'MD': 8, 'MA': 9, 'MI': 14,
-  'MN': 8, 'MS': 4, 'MO': 8, 'MT': 1, 'NE': 3, 'NV': 4, 'NH': 2, 'NJ': 12,
-  'NM': 3, 'NY': 27, 'NC': 13, 'ND': 1, 'MP': 'T', 'OH': 16, 'OK': 5, 'OR': 5,
-  'PA': 18, 'PR': 'T', 'RI': 2, 'SC': 7, 'SD': 1, 'TN': 9, 'TX': 36, 'UT': 4,
-  'VT': 1, 'VI': 'T', 'VA': 11, 'WA': 10, 'WV': 3, 'WI': 8, 'WY': 1
+  'AL': 7, 'AK': 1, 'AS': 'T', 'AZ': 9, 'AR': 4, 'CA': 52, 'CO': 8, 'CT': 5,
+  'DE': 1, 'DC': 'T', 'FL': 28, 'GA': 14, 'GU': 'T', 'HI': 2, 'ID': 2, 'IL': 17,
+  'IN': 9, 'IA': 4, 'KS': 4, 'KY': 6, 'LA': 6, 'ME': 2, 'MD': 8, 'MA': 9, 'MI': 13,
+  'MN': 8, 'MS': 4, 'MO': 8, 'MT': 2, 'NE': 3, 'NV': 4, 'NH': 2, 'NJ': 12,
+  'NM': 3, 'NY': 26, 'NC': 14, 'ND': 1, 'MP': 'T', 'OH': 15, 'OK': 5, 'OR': 6,
+  'PA': 17, 'PR': 'T', 'RI': 2, 'SC': 7, 'SD': 1, 'TN': 9, 'TX': 38, 'UT': 4,
+  'VT': 1, 'VI': 'T', 'VA': 11, 'WA': 10, 'WV': 2, 'WI': 8, 'WY': 1
   }
 
 # id types that must be present on every legislator record
