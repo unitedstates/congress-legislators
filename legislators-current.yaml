@@ -38007,7 +38007,7 @@
     end: '2029-01-03'
     state: CA
     class: 3
-    state_rank: junior
+    state_rank: senior
     party: Democrat
     url: https://www.padilla.senate.gov
     contact_form: https://www.padilla.senate.gov/contact/
@@ -40866,3 +40866,26 @@
     address: 2417 Rayburn House Office Building Washington DC 20515-4604
     office: 2417 Rayburn House Office Building
     phone: 202-225-6365
+- id:
+    bioguide: B001320
+    lis: S424
+    govtrack: 456954
+    wikipedia: Laphonza Butler
+    wikidata: Q121337973
+    ballotpedia: Laphonza Butler
+  name:
+    first: Laphonza
+    middle: Romanique
+    last: Butler
+  bio:
+    gender: F
+    birthday: '1979-05-11'
+  terms:
+  - type: sen
+    start: '2023-10-03'
+    end: '2025-01-03'
+    how: appointment
+    state: CA
+    class: 1
+    party: Democrat
+    state_rank: junior
