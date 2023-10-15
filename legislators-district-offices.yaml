@@ -2143,22 +2143,6 @@
     fax: 626-304-0132
     phone: 626-304-0110
 - id:
-    bioguide: C001084
-    govtrack: 412470
-    thomas: '02055'
-  offices:
-  - id: C001084-pawtucket
-    address: 1070 Main St.
-    suite: Suite 300
-    city: Pawtucket
-    state: RI
-    zip: '02860'
-    latitude: 41.8610791
-    longitude: -71.3986461
-    fax: 401-729-5608
-    hours: Mon-Fri 8:30am-5:30pm
-    phone: 401-729-5600
-- id:
     bioguide: C001087
     govtrack: 412400
     thomas: '01989'
@@ -8889,31 +8873,6 @@
     latitude: 33.50965
     longitude: -112.03408
     phone: 602-598-7327
-- id:
-    bioguide: S001192
-    govtrack: 412581
-    thomas: '02168'
-  offices:
-  - id: S001192-salt_lake_city
-    address: 420 East South Temple
-    suite: '#390'
-    city: Salt Lake City
-    state: UT
-    zip: '84111'
-    latitude: 40.7686249
-    longitude: -111.8789585
-    fax: 801-364-5551
-    phone: 801-364-5550
-  - id: S001192-st__george
-    address: 253 W. St George Blvd.
-    suite: Suite 100
-    city: St. George
-    state: UT
-    zip: '84770'
-    latitude: 37.10961350000001
-    longitude: -113.5887467
-    fax: 435-627-1911
-    phone: 435-627-1500
 - id:
     bioguide: S001193
     govtrack: 412514
