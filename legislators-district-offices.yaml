@@ -11443,3 +11443,43 @@
     fax: 202-228-3863
     latitude: 32.718147
     longitude: -117.1585979
+- id:
+    bioguide: B001320
+    govtrack: 456954
+  offices:
+  - id: B001320-fresno
+    address: 2500 Tulare St.
+    suite: Suite 4290
+    city: Fresno
+    state: CA
+    zip: '93721'
+    latitude: 36.7374775
+    longitude: -119.7836709
+    phone: 559-485-7430
+  - id: B001320-los_angeles
+    address: 11111 Santa Monica Blvd.
+    suite: Suite 915
+    city: Los Angeles
+    state: CA
+    zip: '90025'
+    latitude: 34.0476223
+    longitude: -118.444656
+    phone: 310-914-7300
+  - id: B001320-san_diego
+    address: 880 Front St.
+    suite: Suite 4236
+    city: San Diego
+    state: CA
+    zip: '92101'
+    latitude: 32.7143481
+    longitude: -117.1647085
+    phone: 619-231-9712
+  - id: B001320-san_francisco
+    address: One Post Street
+    suite: Suite 2450
+    city: San Francisco
+    state: CA
+    zip: '94104'
+    latitude: 37.7887748
+    longitude: -122.4026656
+    phone: 415-393-0707
