@@ -36,8 +36,8 @@ def run():
 	print("Fetching general Senate information from senators_cfm.xml...")
 
 	url = "https://www.senate.gov/general/contact_information/senators_cfm.xml"
-	body = download(url, "legislators/senate.xml", force)
-	dom = lxml.etree.parse(io.BytesIO(body.encode("utf8"))) # file has an <?xml declaration and so must be parsed as a bytes array
+	body = download(url, "legislators/senate.xml", force, { "binary": True })
+	dom = lxml.etree.parse(io.BytesIO(body)) # file has an <?xml declaration and so must be parsed as a bytes array
 	for node in dom.xpath("member"):
 		bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 		member_full = node.xpath("string(member_full)")
