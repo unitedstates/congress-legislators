@@ -278,10 +278,15 @@ def download(url, destination=None, force=False, options=None):
 
       if options.get('urllib', False):
         response = urllib.request.urlopen(url)
-        body = response.read().decode("utf-8") # guessing encoding
+        body = response.read()
+        if not options.get('binary', False):
+          body = body.decode("utf-8") # guessing encoding
       else:
-        response = scraper.urlopen(url)
-        body = str(response) # ensure is unicode not bytes
+        response = scraper.get(url)
+        if not options.get('binary', False):
+          body = response.text
+        else:
+          body = response.content
     except scrapelib.HTTPError:
       log("Error downloading %s" % url)
       return None
@@ -331,7 +336,7 @@ def format_datetime(obj):
 def write(content, destination):
   # content must be a str instance (not bytes), will be written in utf-8 per open()'s default
   mkdir_p(os.path.dirname(destination))
-  f = open(destination, 'w')
+  f = open(destination, 'w' + ('' if isinstance(content, str) else 'b'))
   f.write(content)
   f.close()
 
