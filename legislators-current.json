@@ -50385,7 +50385,8 @@
     },
     "name": {
       "first": "Gabe",
-      "last": "Amo"
+      "last": "Amo",
+      "official_full": "Gabe Amo"
     },
     "bio": {
       "gender": "M",
@@ -50402,6 +50403,39 @@
         "address": "2233 Rayburn House Office Building Washington DC 20515-3901",
         "office": "2233 Rayburn House Office Building",
         "phone": "202-225-4911"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "M001228",
+      "fec": [
+        "H4UT02296"
+      ],
+      "govtrack": 456956,
+      "wikipedia": "Celeste Maloy",
+      "wikidata": "Q119578731",
+      "ballotpedia": "Celeste Maloy"
+    },
+    "name": {
+      "first": "Celeste",
+      "last": "Maloy"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1981-05-22"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-11-21",
+        "end": "2025-01-03",
+        "state": "UT",
+        "district": 2,
+        "party": "Republican",
+        "address": "166 Cannon House Office Building Washington DC 20515-4402",
+        "office": "166 Cannon House Office Building",
+        "phone": "202-225-9730"
       }
     ]
   }
