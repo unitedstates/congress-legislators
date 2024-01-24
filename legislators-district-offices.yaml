@@ -10841,14 +10841,13 @@
     govtrack: 412718
   offices:
   - id: E000297-bronx
-    address: 2530 Grand Concourse Avenue
-    suite: Ground Floor
+    address: 3107 Kingsbridge Avenue
     city: Bronx
     state: NY
-    zip: '10458'
-    latitude: 40.863512
-    longitude: -73.895791
-    phone: 718-450-8241
+    zip: '10463'
+    latitude: 40.880168,
+    longitude: -73.909055,
+    phone: 646-740-3632
   - id: E000297-new_york
     address: 163 West 125th Street
     suite: '#507'
@@ -10859,6 +10858,15 @@
     latitude: 40.8092343
     longitude: -73.9474317
     phone: 212-663-3900
+  - id: E000297-new_york2
+    address: 720 West 181st Street
+    suite: Suite 2
+    city: New York
+    state: NY
+    zip: '10033'
+    latitude: 40.850293
+    longitude: -73.939404
+    phone: 212-497-5959
 - id:
     bioguide: H001077
     govtrack: 412705
