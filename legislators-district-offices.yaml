@@ -5729,64 +5729,56 @@
     govtrack: 412293
     thomas: '01939'
   offices:
-  - id: L000570-farmington
-    address: 800 Municipal Dr.
-    city: Farmington
+  - id: L000570-albuquerque
+    address: 500 Marquette Ave NW
+    suite: Suite 1460
+    city: Albuquerque
     state: NM
-    zip: '87401'
-    latitude: 36.7378735
-    longitude: -108.2167002
-    fax: 505-324-1026
-    phone: 505-324-1005
-  - id: L000570-gallup
-    address: 110 W. Aztec Ave.
-    city: Gallup
+    zip: '87102'
+    phone: 505-337-7023
+    fax: 833-907-0886
+    latitude: 35.0880954
+    longitude: -106.6528481
+  - id: L000570-las_cruces
+    address: 201 North Church Street
+    suite: Suite 201B
+    city: Las Cruces
     state: NM
-    zip: '87301'
-    latitude: 35.5265052
-    longitude: -108.7413892
-    fax: 505-863-0678
-    phone: 505-863-0582
+    zip: '88001'
+    phone: 575-288-4644
+    fax: 833-907-0887
+    latitude: 32.311032
+    longitude: -106.778664
   - id: L000570-las_vegas
-    address: 1103 National Ave
-    suite: Suite 210
-    building: NMHU Hewett Hall
+    address: 1103 National Avenue
+    suite: Room 210
     city: Las Vegas
     state: NM
-    zip: 87701-4024
-    latitude: 35.59437
-    longitude: -105.22224
-    fax: 505-454-3265
-    phone: 505-454-3038
-  - id: L000570-rio_rancho
-    address: 3200 Civic Center NE
-    suite: Suite 330
-    city: Rio Rancho
+    zip: '87701'
+    phone: 505-398-9465
+    fax: 833-907-0888
+    latitude: 35.5942854
+    longitude: -105.2220929
+  - id: L000570-portales
+    address: 100 South Ave A
+    suite: Suite 113
+    city: Portales
     state: NM
-    zip: '87144'
-    latitude: 35.3109178
-    longitude: -106.6851151
-    fax: 505-994-0550
-    phone: 505-994-0499
+    zip: '88130'
+    phone: 575-252-6188
+    fax: 833-702-2620
+    latitude: 34.185802
+    longitude: -103.3381387
   - id: L000570-santa_fe
-    address: 1611 Calle Lorca
-    suite: Suite A
+    address: 120 South Federal Place
+    suite: Suite 302
     city: Santa Fe
     state: NM
-    zip: '87505'
-    latitude: 35.6605914
-    longitude: -105.9630964
-    fax: 505-986-5047
-    phone: 505-984-8950
-  - id: L000570-tucumcari
-    address: 404 W. Route 66 Blvd.
-    city: Tucumcari
-    state: NM
-    zip: '88401'
-    latitude: 35.1718132
-    longitude: -103.7221881
-    fax: 575-461-3192
-    phone: 575-461-3029
+    zip: '87501'
+    phone: 505-230-7040
+    fax: 833-702-2621
+    latitude: 35.6913401
+    longitude: -105.9386216
 - id:
     bioguide: L000575
     govtrack: 412464
