@@ -5525,40 +5525,6 @@
   },
   {
     "id": {
-      "bioguide": "H001038",
-      "govtrack": 400641,
-      "thomas": "01794"
-    },
-    "offices": [
-      {
-        "id": "H001038-buffalo",
-        "address": "726 Exchange St.",
-        "suite": "Suite 601",
-        "building": "Larkin at Exchange",
-        "city": "Buffalo",
-        "state": "NY",
-        "zip": "14210",
-        "latitude": 42.8747911,
-        "longitude": -78.851165,
-        "fax": "716-852-3929",
-        "phone": "716-852-3501"
-      },
-      {
-        "id": "H001038-niagara_falls",
-        "address": "800 Main St.",
-        "suite": "Suite 3C",
-        "city": "Niagara Falls",
-        "state": "NY",
-        "zip": "14301",
-        "latitude": 43.09677019999999,
-        "longitude": -79.0554227,
-        "fax": "716-282-2479",
-        "phone": "716-282-1274"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "H001042",
       "govtrack": 412200,
       "thomas": "01844"
@@ -6173,60 +6139,6 @@
         "fax": "419-668-3015",
         "phone": "419-663-1426",
         "hours": "M-F 8:30AM-5PM"
-      }
-    ]
-  },
-  {
-    "id": {
-      "bioguide": "J000292",
-      "govtrack": 412460,
-      "thomas": "02046"
-    },
-    "offices": [
-      {
-        "id": "J000292-cambridge",
-        "address": "116 Southgate Pkwy.",
-        "city": "Cambridge",
-        "state": "OH",
-        "zip": "43725",
-        "latitude": 40.0243891,
-        "longitude": -81.5899869,
-        "fax": "740-432-2587",
-        "phone": "740-432-2366"
-      },
-      {
-        "id": "J000292-ironton",
-        "address": "202 Park Ave.",
-        "suite": "Suite C",
-        "city": "Ironton",
-        "state": "OH",
-        "zip": "45638",
-        "latitude": 38.5344281,
-        "longitude": -82.68547079999999,
-        "fax": "740-534-9482",
-        "phone": "740-534-9431"
-      },
-      {
-        "id": "J000292-marietta",
-        "address": "246 Front St.",
-        "city": "Marietta",
-        "state": "OH",
-        "zip": "45750",
-        "latitude": 39.413511,
-        "longitude": -81.45460899999999,
-        "fax": "740-376-0886",
-        "phone": "740-376-0868"
-      },
-      {
-        "id": "J000292-salem",
-        "address": "192 E. State St.",
-        "city": "Salem",
-        "state": "OH",
-        "zip": "44460",
-        "latitude": 40.9010799,
-        "longitude": -80.8561222,
-        "fax": "330-337-7125",
-        "phone": "330-337-6951"
       }
     ]
   },
