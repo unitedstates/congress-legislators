@@ -48,7 +48,7 @@ def run():
 
 				# load the XML
 				print("Getting %s pages (%d...)" % (template, len(page_titles)))
-				dom = lxml.etree.fromstring(utils.download(url, None, True)) # can't cache eicontinue probably
+				dom = lxml.etree.fromstring(utils.download(url, None, True), parser=lxml.etree.XMLParser(resolve_entities=False)) # can't cache eicontinue probably
 
 				for pgname in dom.xpath("query/embeddedin/ei/@title"):
 					page_titles.add(pgname)
@@ -85,7 +85,7 @@ def run():
 		# and then use XPath to get the raw page text.
 		url = "http://en.wikipedia.org/w/api.php?action=query&titles=" + urllib.parse.quote(p.encode("utf8")) + "&export&exportnowrap"
 		cache_path = "legislators/wikipedia/pages/" + p
-		dom = lxml.etree.fromstring(utils.download(url, cache_path, not cache))
+		dom = lxml.etree.fromstring(utils.download(url, cache_path, not cache), parser=lxml.etree.XMLParser(resolve_entities=False))
 		page_content = dom.xpath("string(mw:page/mw:revision/mw:text)", namespaces={ "mw": "http://www.mediawiki.org/xml/export-0.8/" })
 
 		# Build a dict for the IDs that we want to insert into our files.

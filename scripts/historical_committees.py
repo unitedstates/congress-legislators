@@ -58,7 +58,7 @@ def run():
         for name in z.namelist():
           if name.startswith('BILLSTATUS'):
             with z.open(name) as xml_file:
-              bill_status = lxml.etree.parse(xml_file)
+              bill_status = lxml.etree.parse(xml_file, parser=lxml.etree.XMLParser(resolve_entities=False))
               committees =  bill_status.xpath('//billCommittees/item')
               for committee in committees:
                 code = str(committee.xpath('./systemCode/text()')[0])
