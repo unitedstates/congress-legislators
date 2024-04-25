@@ -63,7 +63,7 @@ def contact_steps_for(bioguide):
     response = urlopen(base_url.format(bioguide=bioguide))
     if response.code == 404:
         raise LegislatorNotFoundError("%s not found in unitedstates/contact-congress!" % bioguide)
-    return yaml.load(response.read())
+    return yaml.load(response.read(), Loader=yaml.SafeLoader)
 
 
 class LegislatorNotFoundError(Exception):
