@@ -88,7 +88,7 @@ def run():
 
       cx["name"] = normalize_text(xml_cx.find(sub_prefix + "committee-fullname").text)
       if not is_subcommittee and not cx["name"].startswith("Joint "): cx["name"] = "House " + cx["name"]
-      
+
       building = xml_cx.attrib[sub_prefix + "com-building-code"]
       if building == "C":
         building = "CAPITOL"
@@ -102,7 +102,7 @@ def run():
         for xml_sx in xml_cx.findall("subcommittee"):
           sxx = [s for s in cx["subcommittees"] if s["thomas_id"] == xml_sx.attrib["subcomcode"][2:]]
           update_house_committee_metadata(xml_sx, sxx[0] if len(sxx) > 0 else None, cx["subcommittees"], True)
-    
+
     committees = dom.xpath("/MemberData/committees")[0]
     for xml_cx in committees.findall("committee"):
       house_committee_id = xml_cx.attrib["comcode"][0:2]
@@ -124,11 +124,11 @@ def run():
         official_name = legislators_current[bioguide_id]["name"]["official_full"]
       except KeyError:
         official_name = xml_member.xpath("member-info/official-name")[0].text
-      
+
       #is using caucus better than using party?
       caucus = xml_member.xpath("member-info/caucus")[0].text
       party = "majority" if caucus == house_majority_caucus else "minority"
-            
+
       #for each committee or subcommittee membership
       for cm in xml_member.xpath("committee-assignments/committee|committee-assignments/subcommittee"):
         if "comcode" in cm.attrib:
@@ -255,7 +255,7 @@ def run():
         output_list[i:i+1] = []
       else:
         i += 1
-    
+
     # sort by party, then by rank, since we get the nodes in the XML in a rough seniority order that ignores party
     output_list.sort(key = lambda e : (e["party"] != "majority", e["rank"]))
 
