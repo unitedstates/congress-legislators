@@ -2935,7 +2935,21 @@
         "end": "2025-01-03",
         "state": "WV",
         "class": 1,
-        "party": "Democrat",
+        "party": "Independent",
+        "caucus": "Democrat",
+        "party_affiliations": [
+          {
+            "start": "2019-01-03",
+            "end": "2024-05-31",
+            "party": "Democrat"
+          },
+          {
+            "start": "2024-05-31",
+            "end": "2025-01-03",
+            "party": "Independent",
+            "caucus": "Democrat"
+          }
+        ],
         "state_rank": "senior",
         "url": "https://www.manchin.senate.gov",
         "rss_url": "http://www.manchin.senate.gov/public/index.cfm/rss/feed",
