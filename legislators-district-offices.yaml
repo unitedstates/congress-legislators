@@ -1002,30 +1002,6 @@
     hours: 8:30am-4:30pm, M-F
     phone: 215-426-4616
 - id:
-    bioguide: B001297
-    govtrack: 412619
-    thomas: '02233'
-  offices:
-  - id: B001297-castle_rock
-    address: 900 Castleton Rd.
-    suite: Suite 112
-    city: Castle Rock
-    state: CO
-    zip: '80109'
-    latitude: 39.4092665
-    longitude: -104.8684125
-    phone: 720-639-9165
-  - id: B001297-greeley
-    address: 1023 39th Ave.
-    suite: Unit B
-    city: Greeley
-    state: CO
-    zip: '80634'
-    latitude: 40.4205693
-    longitude: -104.7446355
-    fax: 970-702-2951
-    phone: 970-702-2136
-- id:
     bioguide: B001298
     govtrack: 412713
   offices:
@@ -3958,19 +3934,6 @@
     longitude: -87.2032093
     phone: 850-479-1183
     hours: 9am-4pm
-- id:
-    bioguide: G000579
-    govtrack: 412731
-  offices:
-  - id: G000579-de_pere
-    address: 1702 Scheuring Rd
-    suite: B
-    city: De Pere
-    state: WI
-    zip: 54115-9567
-    latitude: 44.43087
-    longitude: -88.1046
-    phone: 920-301-4500
 - id:
     bioguide: G000581
     govtrack: 412725
