@@ -1946,8 +1946,8 @@
     url: https://www.reed.senate.gov
     rss_url: https://www.reed.senate.gov//rss/feeds/?type=all
     contact_form: https://www.reed.senate.gov/contact/
-    address: 728 Hart Senate Office Building Washington DC 20510
-    office: 728 Hart Senate Office Building
+    address: B40D Dirksen Senate Office Building Washington DC 20510
+    office: B40d Dirksen Senate Office Building
     phone: 202-224-4642
 - id:
     bioguide: R000584
@@ -9008,7 +9008,7 @@
     party: Republican
     url: https://www.hoeven.senate.gov
     rss_url: http://www.hoeven.senate.gov/public/index.cfm/rss/feed
-    contact_form: https://www.hoeven.senate.gov/public/index.cfm/email-the-senator
+    contact_form: https://www.hoeven.senate.gov/contact/contact-the-senator
     address: 338 Russell Senate Office Building Washington DC 20510
     office: 338 Russell Senate Office Building
     phone: 202-224-2551
@@ -19968,7 +19968,7 @@
     state_rank: junior
     party: Democrat
     url: https://www.welch.senate.gov
-    contact_form: https://www.welch.senate.gov/
+    contact_form: https://www.welch.senate.gov/email-peter/
     address: 124 Russell Senate Office Building Washington DC 20510
     office: 124 Russell Senate Office Building
     phone: 202-224-4242
@@ -23988,7 +23988,7 @@
     state_rank: junior
     party: Republican
     url: https://www.mullin.senate.gov
-    contact_form: https://www.mullin.senate.gov/
+    contact_form: https://www.mullin.senate.gov/contact/
     address: 330 Hart Senate Office Building Washington DC 20510
     office: 330 Hart Senate Office Building
     phone: 202-224-4721
@@ -29647,7 +29647,7 @@
     state_rank: junior
     party: Republican
     url: https://www.budd.senate.gov
-    contact_form: https://www.budd.senate.gov/
+    contact_form: https://www.budd.senate.gov/contact/
     address: 304 Russell Senate Office Building Washington DC 20510
     office: 304 Russell Senate Office Building
     phone: 202-224-3154
@@ -30677,7 +30677,7 @@
     state_rank: junior
     party: Republican
     url: https://www.hydesmith.senate.gov
-    contact_form: https://www.hydesmith.senate.gov/content/contact-senator
+    contact_form: https://www.hydesmith.senate.gov/contact-senator
     address: 702 Hart Senate Office Building Washington DC 20510
     office: 702 Hart Senate Office Building
     phone: 202-224-5054
@@ -34659,7 +34659,7 @@
     state_rank: junior
     party: Democrat
     url: https://www.kelly.senate.gov
-    contact_form: https://www.kelly.senate.gov
+    contact_form: https://www.kelly.senate.gov/contact/contact-form/
     address: 516 Hart Senate Office Building Washington DC 20510
     office: 516 Hart Senate Office Building
     phone: 202-224-2235
@@ -37854,7 +37854,7 @@
     state_rank: junior
     party: Republican
     url: https://www.britt.senate.gov
-    contact_form: https://www.britt.senate.gov/
+    contact_form: https://www.britt.senate.gov/contact/
     address: 502 Hart Senate Office Building Washington DC 20510
     office: 502 Hart Senate Office Building
     phone: 202-224-5744
@@ -37886,7 +37886,7 @@
     state_rank: junior
     party: Republican
     url: https://www.schmitt.senate.gov
-    contact_form: https://www.schmitt.senate.gov/
+    contact_form: https://www.schmitt.senate.gov/contact/
     address: 387 Russell Senate Office Building Washington DC 20510
     office: 387 Russell Senate Office Building
     phone: 202-224-5721
@@ -37918,7 +37918,7 @@
     state_rank: junior
     party: Republican
     url: https://www.vance.senate.gov
-    contact_form: https://www.vance.senate.gov/
+    contact_form: https://www.vance.senate.gov/contact/
     address: 288 Russell Senate Office Building Washington DC 20510
     office: 288 Russell Senate Office Building
     phone: 202-224-3353
@@ -37950,7 +37950,7 @@
     state_rank: junior
     party: Democrat
     url: https://www.fetterman.senate.gov
-    contact_form: https://www.fetterman.senate.gov/
+    contact_form: https://www.fetterman.senate.gov/contact/
     address: 142 Russell Senate Office Building Washington DC 20510
     office: 142 Russell Senate Office Building
     phone: 202-224-4254
@@ -40068,6 +40068,7 @@
     address: 139 Russell Senate Office Building Washington DC 20510
     office: 139 Russell Senate Office Building
     phone: 202-224-4224
+    contact_form: https://www.ricketts.senate.gov/contact/
 - id:
     bioguide: M001227
     fec:
@@ -40120,7 +40121,7 @@
     party: Democrat
     state_rank: junior
     url: https://www.butler.senate.gov
-    contact_form: https://www.butler.senate.gov/
+    contact_form: https://www.butler.senate.gov/share-your-opinion/
     address: 112 Hart Senate Office Building Washington DC 20510
     office: 112 Hart Senate Office Building
     phone: 202-224-3841
@@ -40253,7 +40254,7 @@
   name:
     first: Timothy
     last: Kennedy
-    official_full: Timothy Kennedy
+    official_full: Timothy M. Kennedy
   bio:
     gender: M
     birthday: '1976-10-20'
@@ -40265,6 +40266,31 @@
     district: 26
     party: Democrat
     phone: 202-225-3306
-    address: 2269 Rayburn House Office Building; Washington DC 20004
+    address: 2269 Rayburn House Office Building Washington DC 20515-3226
     office: 2269 Rayburn House Office Building
     url: https://kennedy.house.gov/
+- id:
+    bioguide: F000480
+    fec:
+    - H4CA20181
+    govtrack: 456958
+    wikipedia: Vince Fong
+    wikidata: Q27916201
+    ballotpedia: Vince Fong
+  name:
+    first: Vince
+    last: Fong
+    official_full: Vince Fong
+  bio:
+    gender: M
+    birthday: '1979-10-24'
+  terms:
+  - type: rep
+    start: '2024-06-03'
+    end: '2025-01-03'
+    state: CA
+    district: 20
+    party: Republican
+    address: 2468 Rayburn House Office Building Washington DC 20515-0520
+    office: 2468 Rayburn House Office Building
+    phone: 202-225-2915
