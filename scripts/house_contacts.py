@@ -82,7 +82,7 @@ def run():
 		address = "{} {} Washington DC {}-{}".format(office_room, office_building_full, office_zip, office_zip_suffix)
 
 		phone = mi.find('phone').text
-		phone_parsed = re.sub("^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
+		phone_parsed = re.sub(r"^\((\d\d\d)\) ", lambda m : m.group(1) + "-", phone) # replace (XXX) area code with XXX- for compatibility w/ existing format
 
 		#for now, no automatic name updates since there is disagremeent on how to handle
 		# moc["name"]["first"] = firstname
