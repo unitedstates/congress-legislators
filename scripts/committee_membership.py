@@ -64,7 +64,7 @@ def run():
           members.remove(m)
 
     r = download("http://clerk.house.gov/xml/lists/MemberData.xml", "clerk_xml", force)
-    dom = lxml.etree.fromstring(r.encode("latin-1")) # must be bytes to parse if there is an encoding declaration inside the string
+    dom = lxml.etree.fromstring(r.encode("latin-1"), parser=lxml.etree.XMLParser(resolve_entities=False)) # must be bytes to parse if there is an encoding declaration inside the string
 
     # Update committee metadata.
     def update_house_committee_metadata(xml_cx, cx, parentdict, is_subcommittee):
@@ -194,7 +194,7 @@ def run():
       committee_url = "https://www.senate.gov/general/committee_membership/committee_memberships_%s.xml" % id
 
       body3 = download(committee_url, "committees/membership/senate/%s.xml" % id, force)
-      dom = lxml.etree.fromstring(body3.encode("utf8")) # must be bytes to parse if there is an encoding declaration inside the string
+      dom = lxml.etree.fromstring(body3.encode("utf8"), parser=lxml.etree.XMLParser(resolve_entities=False)) # must be bytes to parse if there is an encoding declaration inside the string
 
       cx["name"] = normalize_text(dom.xpath("committees/committee_name")[0].text)
       if id[0] != "J" and id[0:2] != 'SC':
