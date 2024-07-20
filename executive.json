@@ -2113,7 +2113,10 @@
       "bioguide": "C000344",
       "thomas": "00193",
       "govtrack": 402484,
-      "icpsr": 14611
+      "icpsr": 14611,
+      "wikidata": "Q48259",
+      "wikipedia": "Dick Cheney",
+      "cspan": 9801
     },
     "name": {
       "first": "Richard",
@@ -2144,7 +2147,9 @@
   },
   {
     "id": {
-      "govtrack": 412375
+      "govtrack": 412375,
+      "wikipedia": "George W. Bush",
+      "wikidata": "Q207"
     },
     "name": {
       "first": "George",
@@ -2232,7 +2237,12 @@
       "lis": "S298",
       "govtrack": 400629,
       "opensecrets": "N00009638",
-      "votesmart": 9490
+      "votesmart": 9490,
+      "wikidata": "Q76",
+      "wikipedia": "Barack Obama",
+      "google_entity_id": "kg:/m/02mjmr",
+      "ballotpedia": "Barack Obama",
+      "cspan": 55625
     },
     "name": {
       "first": "Barack",
@@ -2274,7 +2284,9 @@
       "house_history": 20013,
       "icpsr": 20117,
       "wikidata": "Q24313",
-      "google_entity_id": "kg:/m/022r9r"
+      "google_entity_id": "kg:/m/022r9r",
+      "ballotpedia": "Mike Pence",
+      "cspan": 85219
     },
     "name": {
       "first": "Mike",
@@ -2302,7 +2314,11 @@
       "fec": [
         "P80001571"
       ],
-      "wikipedia": "Donald Trump"
+      "wikipedia": "Donald Trump",
+      "wikidata": "Q22686",
+      "google_entity_id": "kg:/m/0cqt90",
+      "ballotpedia": "Donald Trump",
+      "cspan": 20967
     },
     "name": {
       "first": "Donald",
