@@ -109,6 +109,7 @@ The following fields are available in `legislators-current.yaml` and `legislator
 	* maplight : The numeric ID for this legislator on maplight.org (stored as an integer).
 	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
 	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
+	* pictorial: The numeric ID for this legislator on https://pictorial.gpo.gov/member-search/ (stored as an integer).
 
 * name
 	* first: The legislator's _recognizable_ first name. Many people go by a different name than their legal first name, often their legal middle name, and our approach is to ensure that our first + last name fields combine to a recognizable name of the legislator. Normally we'll follow the name as it appears on House.gov or Senate.gov (and bioguide.congress.gov), which follows the legislator's own preference for how they want to be named in official places. However, in some cases the legislator goes by a first name that is merely a common short or informal form of their legal first name (e.g. Chris vs Christopher), and while they may prefer the informal name, we may use their longer legal first name because they would be recognizable by their legal name. If they sign official documents (e.g. letters to agencies, FEC filings) using their longer legal first name, we would use their legal first name and put their preferred shorter name in the `nickname` field. When legislators go by a first initial and middle name, we set the `first` name field to the initial (one character plus a period).
@@ -483,6 +484,10 @@ The following script takes one required command line argument
 * `icpsr_ids.py`: Updates ICPSR ID's for all members of the House and Senate in a given congress, based on roll call vote data files stored by Voteview.com. The script takes one command line argument:
 --congress=congress_number
 where congress_number is the number of the Congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
+
+* `pictorial_ids.py`: Updates [Pictorial](https://pictorial.gpo.gov/member-search/) ID's for all members of the House and Senate in a given congress, using on [Pictorial's API](https://pictorialapi.gpo.gov/api/). The script takes one command line argument:
+--congress=congress_number
+where congress_number is the number of the Congress to be updated.
 
 The following script is run to create alternately formatted data files for the `gh-pages` branch. It takes no command-line arguments.
 
