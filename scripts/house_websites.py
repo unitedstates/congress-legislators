@@ -11,7 +11,7 @@ import lxml.html, io, urllib.request, urllib.error, urllib.parse
 import re
 import utils
 from utils import load_data, save_data, states as state_names
-
+from feedfinder2 import find_feeds
 
 def run():
 
@@ -75,6 +75,7 @@ def run():
 
       url = cells[1].cssselect("a")[0].get("href")
       original_url = url
+      print(url)
 
       # The House uses subdomains now, and occasionally the directory
       # uses URLs with some trailing redirected-to page, like /home.
@@ -91,12 +92,18 @@ def run():
       # kill everything after the domain
       url = re.sub(".gov/.*$", ".gov", url)
 
+      # find rss feed
+      feeds = find_feeds(url)
+
       if state == "AQ":
         state = "AS"
       full_district = "%s%02d" % (state, int(district))
       if full_district in by_district:
         print("[%s] %s %s" % (full_district, url, "" if url == original_url.rstrip("/") else (" <= " + original_url)))
         by_district[full_district]['terms'][-1]['url'] = url
+        if len(feeds) > 0:
+          rss_url = feeds[0]
+          by_district[full_district]['terms'][-1]['rss_url'] = rss_url
       else:
         print("[%s] No current legislator" % full_district)
 
