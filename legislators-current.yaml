@@ -24663,7 +24663,7 @@
     end: '2027-01-03'
     state: NJ
     class: 2
-    state_rank: junior
+    state_rank: senior
     party: Democrat
     url: https://www.booker.senate.gov
     contact_form: https://www.booker.senate.gov/?p=contact
@@ -39922,3 +39922,26 @@
     office: 2455 Rayburn House Office Building
     phone: 202-225-4676
     url: https://lopez.house.gov
+- id:
+    bioguide: H001097
+    lis: S425
+    govtrack: 456961
+    wikipedia: George Helmy
+    wikidata: Q129127964
+    ballotpedia: George Helmy
+  name:
+    first: George
+    middle: S.
+    last: Helmy
+  bio:
+    gender: M
+    birthday: '1979-10-27'
+  terms:
+  - type: sen
+    start: '2024-09-09'
+    end: '2025-01-03'
+    how: appointment
+    state: NJ
+    class: 1
+    party: Democrat
+    state_rank: junior
