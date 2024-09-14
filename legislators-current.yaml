@@ -557,126 +557,6 @@
     office: 425 Dirksen Senate Office Building
     phone: 202-224-3244
 - id:
-    bioguide: M000639
-    thomas: '00791'
-    lis: S306
-    govtrack: 400272
-    opensecrets: N00000699
-    votesmart: 26961
-    fec:
-    - H2NJ13075
-    - S6NJ00289
-    cspan: 29608
-    house_history: 18124
-    wikipedia: Bob Menendez
-    ballotpedia: Bob Menendez
-    maplight: 368
-    icpsr: 29373
-    wikidata: Q888132
-    google_entity_id: kg:/m/033d3p
-  name:
-    first: Robert
-    last: Menendez
-    nickname: Bob
-    official_full: Robert Menendez
-  other_names:
-  - last: Menendez
-  bio:
-    birthday: '1954-01-01'
-    gender: M
-  terms:
-  - type: rep
-    start: '1993-01-05'
-    end: '1995-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-  - type: rep
-    start: '1995-01-04'
-    end: '1997-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-  - type: rep
-    start: '2003-01-07'
-    end: '2005-01-03'
-    state: NJ
-    district: 13
-    party: Democrat
-    url: http://menendez.house.gov
-  - type: rep
-    start: '2005-01-04'
-    end: '2006-01-16'
-    state: NJ
-    district: 13
-    party: Democrat
-    url: http://menendez.house.gov
-  - type: sen
-    start: '2006-01-18'
-    end: '2007-01-03'
-    state: NJ
-    class: 1
-    party: Democrat
-    url: http://menendez.senate.gov/
-    how: appointment
-  - type: sen
-    start: '2007-01-04'
-    end: '2013-01-03'
-    state: NJ
-    class: 1
-    party: Democrat
-    url: http://menendez.senate.gov/
-    address: 528 HART SENATE OFFICE BUILDING WASHINGTON DC 20510
-    phone: 202-224-4744
-    fax: 202-228-2197
-    contact_form: http://menendez.senate.gov/contact/
-    office: 528 Hart Senate Office Building
-  - type: sen
-    start: '2013-01-03'
-    end: '2019-01-03'
-    state: NJ
-    party: Democrat
-    class: 1
-    url: https://www.menendez.senate.gov
-    address: 528 Hart Senate Office Building Washington DC 20510
-    phone: 202-224-4744
-    fax: 202-228-2197
-    contact_form: https://www.menendez.senate.gov/contact
-    office: 528 Hart Senate Office Building
-    state_rank: senior
-    rss_url: http://www.menendez.senate.gov/rss/feeds/index.cfm?type=news
-  - type: sen
-    start: '2019-01-03'
-    end: '2025-01-03'
-    state: NJ
-    class: 1
-    party: Democrat
-    state_rank: senior
-    url: https://www.menendez.senate.gov
-    rss_url: http://www.menendez.senate.gov/rss/feeds/index.cfm?type=news
-    contact_form: https://www.menendez.senate.gov/contact
-    address: 528 Hart Senate Office Building Washington DC 20510
-    office: 528 Hart Senate Office Building
-    phone: 202-224-4744
-- id:
     bioguide: S000033
     thomas: '01010'
     lis: S313
@@ -24783,7 +24663,7 @@
     end: '2027-01-03'
     state: NJ
     class: 2
-    state_rank: junior
+    state_rank: senior
     party: Democrat
     url: https://www.booker.senate.gov
     contact_form: https://www.booker.senate.gov/?p=contact
@@ -40038,7 +39918,35 @@
     state: CO
     district: 4
     party: Republican
-    address: 2455 Rayburn House Office Building Washington DC 20515-3506
+    address: 2455 Rayburn House Office Building Washington DC 20515-0604
     office: 2455 Rayburn House Office Building
     phone: 202-225-4676
     url: https://lopez.house.gov
+- id:
+    bioguide: H001097
+    lis: S425
+    govtrack: 456961
+    wikipedia: George Helmy
+    wikidata: Q129127964
+    ballotpedia: George Helmy
+  name:
+    first: George
+    middle: S.
+    last: Helmy
+    official_full: George S. Helmy
+  bio:
+    gender: M
+    birthday: '1979-10-27'
+  terms:
+  - type: sen
+    start: '2024-09-09'
+    end: '2025-01-03'
+    how: appointment
+    state: NJ
+    class: 1
+    party: Democrat
+    state_rank: junior
+    url: https://www.helmy.senate.gov
+    address: 528 Hart Senate Office Building Washington DC 20510
+    office: 528 Hart Senate Office Building
+    phone: 202-224-4744
