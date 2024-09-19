@@ -37,7 +37,7 @@ def run():
 
 	url = "https://www.senate.gov/general/contact_information/senators_cfm.xml"
 	body = download(url, "legislators/senate.xml", force, { "binary": True })
-	dom = lxml.etree.parse(io.BytesIO(body)) # file has an <?xml declaration and so must be parsed as a bytes array
+	dom = lxml.etree.parse(io.BytesIO(body), parser=lxml.etree.XMLParser(resolve_entities=False)) # file has an <?xml declaration and so must be parsed as a bytes array
 	for node in dom.xpath("member"):
 		bioguide_id = str(node.xpath("string(bioguide_id)")).strip()
 		member_full = node.xpath("string(member_full)")
@@ -128,7 +128,7 @@ def run():
 
 	url = "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
 	body = download(url, "legislators/senate_cvc.xml", force)
-	dom = lxml.etree.parse(io.StringIO(body))
+	dom = lxml.etree.parse(io.StringIO(body), parser=lxml.etree.XMLParser(resolve_entities=False))
 	for node in dom.getroot():
 		if node.tag == "lastUpdate":
 			date, time = node.getchildren()
