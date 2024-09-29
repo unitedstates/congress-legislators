@@ -1,5 +1,7 @@
 # Helpful functions for finding data about members and committees
 
+import yaml
+
 CURRENT_CONGRESS = 115
 states = {
         'AK': 'Alaska',
@@ -86,7 +88,7 @@ from email.mime.text import MIMEText
 # returns None if it's not there, and this should always be handled gracefully
 path = "email/config.yml"
 if os.path.exists(path):
-  email_settings = yaml.load(open(path, 'r')).get('email', None)
+  email_settings = yaml.load(open(path, 'r'), Loader=yaml.SafeLoader).get('email', None)
 else:
   email_settings = None
 
