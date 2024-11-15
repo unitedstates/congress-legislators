@@ -34688,83 +34688,6 @@
   },
   {
     "id": {
-      "bioguide": "G000578",
-      "govtrack": 412690,
-      "wikipedia": "Matt Gaetz",
-      "wikidata": "Q16221742",
-      "google_entity_id": "kg:/m/0s8w2_s",
-      "votesmart": 117101,
-      "fec": [
-        "H6FL01119"
-      ],
-      "opensecrets": "N00039503",
-      "maplight": 2202,
-      "cspan": 104528,
-      "icpsr": 21719,
-      "ballotpedia": "Matt Gaetz"
-    },
-    "name": {
-      "first": "Matt",
-      "last": "Gaetz",
-      "official_full": "Matt Gaetz"
-    },
-    "bio": {
-      "gender": "M",
-      "birthday": "1982-05-07"
-    },
-    "terms": [
-      {
-        "type": "rep",
-        "start": "2017-01-03",
-        "end": "2019-01-03",
-        "state": "FL",
-        "district": 1,
-        "party": "Republican",
-        "phone": "202-225-4136",
-        "address": "507 Cannon House Office Building; Washington DC 20515-0901",
-        "office": "507 Cannon House Office Building",
-        "url": "https://gaetz.house.gov"
-      },
-      {
-        "type": "rep",
-        "start": "2019-01-03",
-        "end": "2021-01-03",
-        "state": "FL",
-        "district": 1,
-        "party": "Republican",
-        "phone": "202-225-4136",
-        "address": "1721 Longworth House Office Building Washington DC 20515-0901",
-        "office": "1721 Longworth House Office Building",
-        "url": "https://gaetz.house.gov"
-      },
-      {
-        "type": "rep",
-        "start": "2021-01-03",
-        "end": "2023-01-03",
-        "state": "FL",
-        "district": 1,
-        "party": "Republican",
-        "url": "https://gaetz.house.gov",
-        "address": "1721 Longworth House Office Building Washington DC 20515-0901",
-        "office": "1721 Longworth House Office Building",
-        "phone": "202-225-4136"
-      },
-      {
-        "type": "rep",
-        "start": "2023-01-03",
-        "end": "2025-01-03",
-        "state": "FL",
-        "district": 1,
-        "party": "Republican",
-        "url": "https://gaetz.house.gov",
-        "address": "2021 Rayburn House Office Building Washington DC 20515-0901",
-        "office": "2021 Rayburn House Office Building",
-        "phone": "202-225-4136"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "D000628",
       "govtrack": 412691,
       "wikipedia": "Neal Dunn",
@@ -49041,6 +48964,21 @@
         "office": "139 Russell Senate Office Building",
         "phone": "202-224-4224",
         "contact_form": "https://www.ricketts.senate.gov/contact/"
+      },
+      {
+        "type": "sen",
+        "start": "2024-11-05",
+        "end": "2027-01-03",
+        "how": "special-election",
+        "state": "NE",
+        "class": 2,
+        "state_rank": "junior",
+        "party": "Republican",
+        "url": "https://www.ricketts.senate.gov",
+        "address": "139 Russell Senate Office Building Washington DC 20510",
+        "office": "139 Russell Senate Office Building",
+        "phone": "202-224-4224",
+        "contact_form": "https://www.ricketts.senate.gov/contact/"
       }
     ]
   },
@@ -49478,6 +49416,68 @@
         "address": "106 Cannon House Office Building Washington DC 20515-3010",
         "office": "106 Cannon House Office Building",
         "phone": "202-225-3436"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "W000829",
+      "fec": [
+        "H4WI08119"
+      ],
+      "govtrack": 456963,
+      "wikipedia": "Tony Wied",
+      "wikidata": "Q131033476",
+      "ballotpedia": "Tony Wied"
+    },
+    "name": {
+      "first": "Tony",
+      "last": "Wied"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1976-05-03"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2024-11-05",
+        "end": "2025-01-03",
+        "how": "special-election",
+        "state": "WI",
+        "district": 8,
+        "party": "Republican"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "L000605",
+      "fec": [
+        "H4TX18245"
+      ],
+      "govtrack": 456964,
+      "wikipedia": "Erica Lee Carter",
+      "wikidata": "Q130982422",
+      "ballotpedia": "Erica Lee Carter"
+    },
+    "name": {
+      "first": "Erica",
+      "last": "Lee Carter"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1980-02-02"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2024-11-05",
+        "end": "2025-01-03",
+        "how": "special-election",
+        "state": "TX",
+        "district": 18,
+        "party": "Democrat"
       }
     ]
   }
