@@ -55,6 +55,7 @@ id_types = {
   "house_history_alternate": int,
   "wikidata": str,
   "google_entity_id": str,
+  "pictorial": int,
 
   # deprecated/to be removed
   "thomas": str,
