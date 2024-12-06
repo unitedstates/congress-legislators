@@ -32646,6 +32646,7 @@
     phone: 202-225-6572
 - id:
     bioguide: K000394
+    lis: S426
     fec:
     - H8NJ03206
     govtrack: 412797
@@ -32687,7 +32688,7 @@
     phone: 202-225-4765
   - type: rep
     start: '2023-01-03'
-    end: '2025-01-03'
+    end: '2024-12-08'
     state: NJ
     district: 3
     party: Democrat
@@ -32695,6 +32696,13 @@
     address: 2444 Rayburn House Office Building Washington DC 20515-3003
     office: 2444 Rayburn House Office Building
     phone: 202-225-4765
+  - type: sen
+    start: '2024-12-09'
+    end: '2025-01-03'
+    state: NJ
+    class: 1
+    state_rank: junior
+    party: Democrat
 - id:
     bioguide: S001207
     fec:
@@ -40377,34 +40385,6 @@
     office: 2455 Rayburn House Office Building
     phone: 202-225-4676
     url: https://lopez.house.gov
-- id:
-    bioguide: H001097
-    lis: S425
-    govtrack: 456961
-    wikipedia: George Helmy
-    wikidata: Q129127964
-    ballotpedia: George Helmy
-  name:
-    first: George
-    middle: S.
-    last: Helmy
-    official_full: George S. Helmy
-  bio:
-    gender: M
-    birthday: '1979-10-27'
-  terms:
-  - type: sen
-    start: '2024-09-09'
-    end: '2025-01-03'
-    how: appointment
-    state: NJ
-    class: 1
-    party: Democrat
-    state_rank: junior
-    url: https://www.helmy.senate.gov
-    address: 528 Hart Senate Office Building Washington DC 20510
-    office: 528 Hart Senate Office Building
-    phone: 202-224-4744
 - id:
     bioguide: M001229
     fec:
