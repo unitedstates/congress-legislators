@@ -16033,6 +16033,7 @@
     phone: 202-225-2111
 - id:
     bioguide: S001150
+    lis: S427
     thomas: '01635'
     govtrack: 400361
     opensecrets: N00009585
@@ -16165,7 +16166,7 @@
     phone: 202-225-4176
   - type: rep
     start: '2023-01-03'
-    end: '2025-01-03'
+    end: '2024-12-08'
     state: CA
     district: 30
     party: Democrat
@@ -16174,6 +16175,14 @@
     address: 2309 Rayburn House Office Building Washington DC 20515-0530
     office: 2309 Rayburn House Office Building
     phone: 202-225-4176
+  - type: sen
+    start: '2024-12-09'
+    end: '2025-01-03'
+    how: special-election
+    state: CA
+    party: Democrat
+    class: 1
+    state_rank: junior
 - id:
     bioguide: S000148
     thomas: '01036'
@@ -32637,6 +32646,7 @@
     phone: 202-225-6572
 - id:
     bioguide: K000394
+    lis: S426
     fec:
     - H8NJ03206
     govtrack: 412797
@@ -32678,7 +32688,7 @@
     phone: 202-225-4765
   - type: rep
     start: '2023-01-03'
-    end: '2025-01-03'
+    end: '2024-12-08'
     state: NJ
     district: 3
     party: Democrat
@@ -32686,6 +32696,13 @@
     address: 2444 Rayburn House Office Building Washington DC 20515-3003
     office: 2444 Rayburn House Office Building
     phone: 202-225-4765
+  - type: sen
+    start: '2024-12-09'
+    end: '2025-01-03'
+    state: NJ
+    class: 1
+    state_rank: junior
+    party: Democrat
 - id:
     bioguide: S001207
     fec:
@@ -40143,36 +40160,6 @@
     phone: 202-225-6365
     url: https://mcclellan.house.gov
 - id:
-    bioguide: B001320
-    lis: S424
-    govtrack: 456954
-    wikipedia: Laphonza Butler
-    wikidata: Q121337973
-    ballotpedia: Laphonza Butler
-    pictorial: 13436
-  name:
-    first: Laphonza
-    middle: Romanique
-    last: Butler
-    official_full: Laphonza R. Butler
-  bio:
-    gender: F
-    birthday: '1979-05-11'
-  terms:
-  - type: sen
-    start: '2023-10-03'
-    end: '2025-01-03'
-    how: appointment
-    state: CA
-    class: 1
-    party: Democrat
-    state_rank: junior
-    url: https://www.butler.senate.gov
-    contact_form: https://www.butler.senate.gov/share-your-opinion/
-    address: 112 Hart Senate Office Building Washington DC 20510
-    office: 112 Hart Senate Office Building
-    phone: 202-224-3841
-- id:
     bioguide: A000380
     fec:
     - H4RI01265
@@ -40398,34 +40385,6 @@
     office: 2455 Rayburn House Office Building
     phone: 202-225-4676
     url: https://lopez.house.gov
-- id:
-    bioguide: H001097
-    lis: S425
-    govtrack: 456961
-    wikipedia: George Helmy
-    wikidata: Q129127964
-    ballotpedia: George Helmy
-  name:
-    first: George
-    middle: S.
-    last: Helmy
-    official_full: George S. Helmy
-  bio:
-    gender: M
-    birthday: '1979-10-27'
-  terms:
-  - type: sen
-    start: '2024-09-09'
-    end: '2025-01-03'
-    how: appointment
-    state: NJ
-    class: 1
-    party: Democrat
-    state_rank: junior
-    url: https://www.helmy.senate.gov
-    address: 528 Hart Senate Office Building Washington DC 20510
-    office: 528 Hart Senate Office Building
-    phone: 202-224-4744
 - id:
     bioguide: M001229
     fec:

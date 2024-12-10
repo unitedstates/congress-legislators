@@ -2232,58 +2232,6 @@
   },
   {
     "id": {
-      "bioguide": "B001320",
-      "govtrack": 456954
-    },
-    "offices": [
-      {
-        "id": "B001320-fresno",
-        "address": "2500 Tulare St.",
-        "suite": "Suite 4290",
-        "city": "Fresno",
-        "state": "CA",
-        "zip": "93721",
-        "latitude": 36.7374775,
-        "longitude": -119.7836709,
-        "phone": "559-485-7430"
-      },
-      {
-        "id": "B001320-los_angeles",
-        "address": "11111 Santa Monica Blvd.",
-        "suite": "Suite 915",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90025",
-        "latitude": 34.0476223,
-        "longitude": -118.444656,
-        "phone": "310-914-7300"
-      },
-      {
-        "id": "B001320-san_diego",
-        "address": "880 Front St.",
-        "suite": "Suite 4236",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "92101",
-        "latitude": 32.7143481,
-        "longitude": -117.1647085,
-        "phone": "619-231-9712"
-      },
-      {
-        "id": "B001320-san_francisco",
-        "address": "One Post Street",
-        "suite": "Suite 2450",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94104",
-        "latitude": 37.7887748,
-        "longitude": -122.4026656,
-        "phone": "415-393-0707"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "C000059",
       "govtrack": 400057,
       "thomas": "00165"
@@ -10140,44 +10088,6 @@
   },
   {
     "id": {
-      "bioguide": "K000394",
-      "govtrack": 412797
-    },
-    "offices": [
-      {
-        "id": "K000394-freehold",
-        "address": "30 Mechanic Street",
-        "city": "Freehold",
-        "state": "NJ",
-        "zip": "07728",
-        "latitude": 40.2587661,
-        "longitude": -74.2724423,
-        "phone": "732-504-0490"
-      },
-      {
-        "id": "K000394-willingboro",
-        "address": "429 John F. Kennedy Way",
-        "suite": "Box 9",
-        "city": "Willingboro",
-        "state": "NJ",
-        "zip": "08046",
-        "latitude": 40.0314697,
-        "longitude": -74.8824206,
-        "fax": "856-369-8988",
-        "phone": "856-703-2700"
-      },
-      {
-        "id": "K000394-hamilton",
-        "address": "4573 S. Broad Street",
-        "city": "Hamilton",
-        "state": "NJ",
-        "zip": "08620",
-        "phone": "609-438-6290"
-      }
-    ]
-  },
-  {
-    "id": {
       "bioguide": "K000397",
       "govtrack": 456802
     },
@@ -16132,27 +16042,6 @@
         "latitude": 43.4880553,
         "longitude": -112.049243,
         "phone": "208-523-6701"
-      }
-    ]
-  },
-  {
-    "id": {
-      "bioguide": "S001150",
-      "govtrack": 400361,
-      "thomas": "01635"
-    },
-    "offices": [
-      {
-        "id": "S001150-burbank",
-        "address": "245 E. Olive Ave.",
-        "suite": "#200",
-        "city": "Burbank",
-        "state": "CA",
-        "zip": "91502",
-        "latitude": 34.1815906,
-        "longitude": -118.3083786,
-        "fax": "818-450-2928",
-        "phone": "818-450-2900"
       }
     ]
   },
