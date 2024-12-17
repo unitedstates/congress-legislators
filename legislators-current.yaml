@@ -40447,6 +40447,7 @@
   name:
     first: LaMonica
     last: McIver
+    official_full: LaMonica McIver
   bio:
     gender: F
     birthday: '1986-06-20'
@@ -40474,6 +40475,7 @@
   name:
     first: Tony
     last: Wied
+    official_full: Tony Wied
   bio:
     gender: M
     birthday: '1976-05-03'
@@ -40485,6 +40487,9 @@
     state: WI
     district: 8
     party: Republican
+    address: 1211 Longworth House Office Building Washington DC 20515-4908
+    office: 1211 Longworth House Office Building
+    phone: 202-225-5665
 - id:
     bioguide: L000605
     fec:
@@ -40496,6 +40501,7 @@
   name:
     first: Erica
     last: Lee Carter
+    official_full: Erica Lee Carter
   bio:
     gender: F
     birthday: '1980-02-02'
@@ -40507,3 +40513,6 @@
     state: TX
     district: 18
     party: Democrat
+    address: 2314 Rayburn House Office Building Washington DC 20515-4318
+    office: 2314 Rayburn House Office Building
+    phone: 202-225-3816
