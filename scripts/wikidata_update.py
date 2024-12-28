@@ -1,9 +1,22 @@
 #!/usr/bin/python
 
 import re
-from urllib.parse import unquote
+import urllib.request
+import json
+from urllib.parse import quote, unquote
 from utils import load_data, save_data
 from SPARQLWrapper import SPARQLWrapper, JSON
+
+def get_wikidata_ids(legislators):
+    # Look up wikidata IDs for legislators with English Wikipedia IDs.
+    for p in legislators:
+        if not p["id"].get("wikidata") and p["id"].get("wikipedia"):
+            w = quote(p["id"]["wikipedia"].replace(" ", "_"))
+            query_url = f"https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&titles={w}&format=json"
+            response = json.load(urllib.request.urlopen(query_url))
+            wikidata_id = list(response["query"]["pages"].values())[0]["pageprops"]["wikibase_item"]
+            p["id"]["wikidata"] = wikidata_id
+
 
 def get_ids_from_wikidata(legislators):
     # Query to fetch information for entities that have a bioguide ID.
@@ -133,6 +146,7 @@ def run_query(query):
 def run():
   p1 = load_data("legislators-current.yaml")
   p2 = load_data("legislators-historical.yaml")
+  get_wikidata_ids(p1+p2)
   get_ids_from_wikidata(p1+p2)
   get_ids_from_wikidata_without_bioguide(p1+p2)
   save_data(p1, "legislators-current.yaml")
