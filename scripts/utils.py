@@ -390,7 +390,7 @@ def unescape(text, encoding=None):
         pass
     return text # leave as is
 
-  text = re.sub("&#?\w+;", fixup, text)
+  text = re.sub(r"&#?\w+;", fixup, text)
   text = remove_unicode_control(text)
   return text
 

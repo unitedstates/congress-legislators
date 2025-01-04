@@ -31,8 +31,7 @@
 #   git checkout origin/main ../*.yaml
 # * Run this script.
 # * Make other changes manually for special elections.
-# * Run sweep.py to clear out social media info for now-not-serving legislators.
-# * Run wikidata_update.py to fill in some other missing fields.
+# * Run wikidata_update.py to fill in some other fields.
 # * Run `NOW=2023-01-03 test/validate.py` to check for errors.
 
 import traceback
@@ -41,7 +40,7 @@ from types import SimpleNamespace as SN
 import collections, csv, re
 from utils import load_data, save_data
 
-ELECTION_YEAR = 2022
+ELECTION_YEAR = 2024
 
 def run():
 	# Compute helper constants.
@@ -64,13 +63,14 @@ def run():
 	for p in legislators_current:
 		if p["terms"][-1]["type"] == "sen" and p["terms"][-1]["class"] != SENATE_CLASS:
 			current.append(p["id"]["govtrack"])
-		if p["terms"][-1]["state"] == "PR" and (ELECTION_YEAR % 4 == 0):
+		if p["terms"][-1]["state"] == "PR" and (ELECTION_YEAR % 4 != 0):
 			current.append(p["id"]["govtrack"])
 
-	# Map govtrack IDs to existing legislators.
-	govtrack_id_map = { }
+	# Map bioguide IDs to existing legislators to read the Bioguide ID
+	# column of the CSV file.
+	bioguide_id_map = { }
 	for entry in legislators_historical + legislators_current:
-		govtrack_id_map[entry['id']['govtrack']] = entry
+		bioguide_id_map[entry['id']['bioguide']] = entry
 
 	# Get highest existing GovTrack ID to know where to start for assigning new IDs.
 	# Store it in a mutable data structure so that the inner function can increment it.
@@ -85,40 +85,25 @@ def run():
 		# district means a senate race.
 		state, district = re.match(r"^([A-Z]{2})(\d*)$", row["Race"]).groups()
 
-		if row['GovTrack ID'] != "":
-			# Use the GovTrack ID to get the legislator who won, which might be
+		if row['Bioguide ID'] in bioguide_id_map:
+			# Use the Bioguide ID to get the legislator who won, which might be
 			# the incumbent or a representative elected to the senate, or
-			# someone who used to serve in Congress, etc.
-			p = govtrack_id_map[int(row['GovTrack ID'])]
-		elif row['Incumbent Win? Y/N'] == 'Y':
-			raise ValueError("Incumbent should have a GovTrack ID.")
-
-			# Use the race code to get the legislator who won.
-			incumbent = [p for p in legislators_current
-			             if  p["terms"][-1]["type"] == ("sen" if district == "" else "rep")
-			             and p["terms"][-1]["state"] == state
-			             and ((p["terms"][-1]["district"] == int(district)) if district != ""
-		             	 else (p["terms"][-1]["class"] == SENATE_CLASS))
-			            ]
-			if len(incumbent) < 1:
-				raise ValueError("Could not find incumbent.")
-			if len(incumbent) > 1:
-				raise ValueError("Matched on more than one incumbent.")
-			p = incumbent[0]
-			#if row['GovTrack ID'] != "" and int(row['GovTrack ID']) != p["id"]["govtrack"]:
-			#	raise ValueError("GovTrack ID doesn't match incumbent.")
-		elif row['Incumbent Win? Y/N'] == 'N':
+			# someone who previously served in Congress, etc. The House provides
+			# draft IDs for new members, so the ID in the spreadsheet may not
+			# match an existing person.
+			p = bioguide_id_map[row['Bioguide ID']]
+		else:
 			# Make a new legislator entry.
 			max_govtrack_id.value += 1
 			p = collections.OrderedDict([
 				("id", collections.OrderedDict([
-					#("bioguide", row['Bioguide ID']),
+					("bioguide", row['Bioguide ID'] if row['Bioguide ID'] != "(not assigned)" else None),
 					("fec", [row['FEC.gov ID']]),
 					("govtrack", max_govtrack_id.value),
 					#("opensecrets", None), # don't know yet
 					#("votesmart", int(row['votesmart'])), # not doing this anymore
-					#("wikipedia", row['Wikipedia Page Name']), # will convert from Wikidata
-					("wikidata", row['Wikidata ID']),
+					("wikipedia", row['Wikipedia URL'].replace("https://en.wikipedia.org/wiki/", "").replace("_", " ")),
+					#("wikidata", row['Wikidata ID']), # will convert from wikipedia
 					#("ballotpedia", row['Ballotpedia Page Name']),
 				])),
 				("name", collections.OrderedDict([
@@ -126,7 +111,7 @@ def run():
 					("middle", row['Middle Name']),
 					("last", row['Last Name']),
 					("suffix", row['Suffix']),
-					#("official_full", mi.find('official-name').text), #not available yet
+					("official_full", row['Name']), # best guess
 				])),
 				("bio", collections.OrderedDict([
 				 	("gender", row['Gender (M/F)']),
@@ -136,20 +121,14 @@ def run():
 			])
 
 			# Delete keys that were filled with Nones or empty strings
-			# because we don't have the data yet.
+			# because we don't have the data yet, other than Bioguide ID
+			# because we'll need that to be filled in manually anyway.
 			for section in ("id", "name", "bio"):
 				for k in list(p[section]): # clone key list before modifying dict
-					if not p[section][k]:
+					if not p[section][k] and not (section == "id" and k == "bioguide"):
 						del p[section][k]
 
 			new_legislators.append(p)
-		else:
-			# There is no winner in this election. The incumbent
-			# will not be marked as still serving, so they'll
-			# be moved to the historical file, and no person will
-			# be added for this race.
-			print("No election result for", row["Race"], row["Incumbent Win? Y/N"])
-			return
 
 		# Add to array marking this legislator as currently serving.
 		current.append(p['id']['govtrack'])
@@ -172,21 +151,27 @@ def run():
 				("state", state),
 				("district", int(district)),
 			])
+
 		# If party is given in the table (for some incumbents and
 		# all new winners), use it. Otherwise just make a field so
 		# it's in the right order.
 		term.update(collections.OrderedDict([
-			("party", party_map[row['Party']] if row['Party'] else None),
+			("party", party_map[row['Party (D/R/I)']] if row['Party (D/R/I)'] else None),
 		]))
 		p['terms'].append(term)
 		if term['party'] == "Independent":
 			term["caucus"] = row['Caucus']
 
-		if len(p['terms']) > 1 and p["terms"][-2]["type"] == term["type"]:
-			# This is an incumbent (or at least served in the same chamber previously).
+		if len(p['terms']) > 1:
+			# This is an incumbent or at least served previously.
 			# Copy some fields forward that are likely to remain the same, if we
 			# haven't already set them.
-			for k in ('party', 'url', 'rss_url'):
+			for k in ('party', 'caucus'):
+				if k in p['terms'][-2] and not term.get(k):
+					term[k] = p['terms'][-2][k]
+		if len(p['terms']) > 1 and p["terms"][-2]["type"] == term["type"]:
+			# Copy some more fields if the last term was in the same chamber.
+			for k in ('url', 'rss_url'):
 				if k in p['terms'][-2] and not term.get(k):
 					term[k] = p['terms'][-2][k]
 
@@ -270,8 +255,8 @@ def run():
 
 	# Run the sweep script to clear out data that needs to be cleared out
 	# for legislators that are gone.
-	#import sweep
-	#sweep.run()
+	import sweep
+	sweep.run()
 
 	# Clears committee membership.
 	save_data({}, "committee-membership-current.yaml")
