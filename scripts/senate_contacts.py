@@ -111,9 +111,9 @@ def run():
 
 			term["url"] = url
 
-		#contact forms aren't heavily used, copy from XML without checks
+		#contact forms are sometimes listed as the base url, ignore if such case
 		contact_form = str(node.xpath("string(email)")).strip()
-		if contact_form:
+		if contact_form and contact_form.rstrip("/") != term['url']:
 			term['contact_form'] = contact_form
 
 		term["address"] = str(node.xpath("string(address)")).strip().replace("\n      ", " ")
