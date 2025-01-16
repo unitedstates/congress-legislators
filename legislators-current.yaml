@@ -23656,6 +23656,7 @@
     phone: 202-225-3772
 - id:
     bioguide: G000574
+    lis: S432
     fec:
     - H4AZ07043
     govtrack: 412612
@@ -23670,7 +23671,6 @@
     votesmart: 123732
     ballotpedia: Ruben Gallego
     pictorial: 12908
-    lis: S432
   name:
     first: Ruben
     last: Gallego
@@ -27002,6 +27002,7 @@
     phone: 202-225-2965
 - id:
     bioguide: B001303
+    lis: S430
     govtrack: 412689
     wikipedia: Lisa Blunt Rochester
     wikidata: Q26899141
@@ -27015,7 +27016,6 @@
     icpsr: 21706
     ballotpedia: Lisa Blunt Rochester
     pictorial: 12981
-    lis: S430
   name:
     first: Lisa
     last: Blunt Rochester
@@ -27445,6 +27445,7 @@
     phone: 202-225-3711
 - id:
     bioguide: B001299
+    lis: S429
     govtrack: 412702
     wikipedia: Jim Banks
     wikidata: Q16146788
@@ -27458,7 +27459,6 @@
     cspan: 89806
     icpsr: 21702
     pictorial: 13052
-    lis: S429
   name:
     first: Jim
     last: Banks
@@ -28886,6 +28886,7 @@
     phone: 202-225-6235
 - id:
     bioguide: C001114
+    lis: S431
     fec:
     - H8UT03238
     govtrack: 412740
@@ -28898,7 +28899,6 @@
     maplight: 2251
     icpsr: 21755
     pictorial: 13298
-    lis: S431
   name:
     first: John
     middle: R.
@@ -30641,6 +30641,7 @@
     phone: 202-225-5111
 - id:
     bioguide: S001208
+    lis: S436
     fec:
     - H8MI08102
     govtrack: 412784
@@ -30652,7 +30653,6 @@
     icpsr: 21965
     google_entity_id: kg:/g/11dfr3z7r1
     pictorial: 13100
-    lis: S436
   name:
     first: Elissa
     last: Slotkin
@@ -39891,12 +39891,12 @@
     phone: 202-225-5256
 - id:
     bioguide: A000382
+    lis: S428
     fec:
     - S4MD00327
     govtrack: 456965
     wikipedia: Angela Alsobrooks
     wikidata: Q58755148
-    lis: S428
   name:
     first: Angela
     middle: Deneece
@@ -39920,12 +39920,12 @@
     phone: 202-224-4524
 - id:
     bioguide: S001232
+    lis: S435
     fec:
     - S4MT00183
     govtrack: 456966
     wikipedia: Tim Sheehy (American politician)
     wikidata: Q124433916
-    lis: S435
   name:
     first: Tim
     middle: Patrick
@@ -39948,12 +39948,12 @@
     phone: 202-224-2644
 - id:
     bioguide: M001242
+    lis: S434
     fec:
     - S4OH00192
     govtrack: 456967
     wikipedia: Bernie Moreno
     wikidata: Q124858476
-    lis: S434
   name:
     first: Bernie
     last: Moreno
@@ -39975,12 +39975,12 @@
     phone: 202-224-2315
 - id:
     bioguide: M001243
+    lis: S433
     fec:
     - S2PA00661
     govtrack: 456968
     wikipedia: Dave McCormick
     wikidata: Q5234544
-    lis: S433
   name:
     first: Dave
     middle: Harold
@@ -41611,3 +41611,28 @@
     office: 1337 Longworth House Office Building
     phone: 202-225-2711
     url: https://rileymoore.house.gov
+- id:
+    bioguide: J000312
+    lis: S437
+    fec:
+    - S4WV00332
+    govtrack: 456969
+    wikipedia: Jim Justice
+    wikidata: Q20684288
+  name:
+    first: Jim
+    middle: Conley
+    last: Justice
+    suffix: II
+    official_full: Jim Justice
+  bio:
+    gender: M
+    birthday: '1951-04-27'
+  terms:
+  - type: sen
+    start: '2025-01-14'
+    end: '2031-01-03'
+    state: WV
+    class: 1
+    state_rank: junior
+    party: Republican
