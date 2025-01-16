@@ -28816,6 +28816,7 @@
   {
     "id": {
       "bioguide": "G000574",
+      "lis": "S432",
       "fec": [
         "H4AZ07043"
       ],
@@ -28830,8 +28831,7 @@
       "icpsr": 21502,
       "votesmart": 123732,
       "ballotpedia": "Ruben Gallego",
-      "pictorial": 12908,
-      "lis": "S432"
+      "pictorial": 12908
     },
     "name": {
       "first": "Ruben",
@@ -32915,6 +32915,7 @@
   {
     "id": {
       "bioguide": "B001303",
+      "lis": "S430",
       "govtrack": 412689,
       "wikipedia": "Lisa Blunt Rochester",
       "wikidata": "Q26899141",
@@ -32928,8 +32929,7 @@
       "cspan": 104772,
       "icpsr": 21706,
       "ballotpedia": "Lisa Blunt Rochester",
-      "pictorial": 12981,
-      "lis": "S430"
+      "pictorial": 12981
     },
     "name": {
       "first": "Lisa",
@@ -33460,6 +33460,7 @@
   {
     "id": {
       "bioguide": "B001299",
+      "lis": "S429",
       "govtrack": 412702,
       "wikipedia": "Jim Banks",
       "wikidata": "Q16146788",
@@ -33473,8 +33474,7 @@
       "ballotpedia": "Jim Banks",
       "cspan": 89806,
       "icpsr": 21702,
-      "pictorial": 13052,
-      "lis": "S429"
+      "pictorial": 13052
     },
     "name": {
       "first": "Jim",
@@ -35236,6 +35236,7 @@
   {
     "id": {
       "bioguide": "C001114",
+      "lis": "S431",
       "fec": [
         "H8UT03238"
       ],
@@ -35248,8 +35249,7 @@
       "google_entity_id": "kg:/m/0bmdhtb",
       "maplight": 2251,
       "icpsr": 21755,
-      "pictorial": 13298,
-      "lis": "S431"
+      "pictorial": 13298
     },
     "name": {
       "first": "John",
@@ -37410,6 +37410,7 @@
   {
     "id": {
       "bioguide": "S001208",
+      "lis": "S436",
       "fec": [
         "H8MI08102"
       ],
@@ -37421,8 +37422,7 @@
       "ballotpedia": "Elissa Slotkin",
       "icpsr": 21965,
       "google_entity_id": "kg:/g/11dfr3z7r1",
-      "pictorial": 13100,
-      "lis": "S436"
+      "pictorial": 13100
     },
     "name": {
       "first": "Elissa",
@@ -49044,13 +49044,13 @@
   {
     "id": {
       "bioguide": "A000382",
+      "lis": "S428",
       "fec": [
         "S4MD00327"
       ],
       "govtrack": 456965,
       "wikipedia": "Angela Alsobrooks",
-      "wikidata": "Q58755148",
-      "lis": "S428"
+      "wikidata": "Q58755148"
     },
     "name": {
       "first": "Angela",
@@ -49082,13 +49082,13 @@
   {
     "id": {
       "bioguide": "S001232",
+      "lis": "S435",
       "fec": [
         "S4MT00183"
       ],
       "govtrack": 456966,
       "wikipedia": "Tim Sheehy (American politician)",
-      "wikidata": "Q124433916",
-      "lis": "S435"
+      "wikidata": "Q124433916"
     },
     "name": {
       "first": "Tim",
@@ -49119,13 +49119,13 @@
   {
     "id": {
       "bioguide": "M001242",
+      "lis": "S434",
       "fec": [
         "S4OH00192"
       ],
       "govtrack": 456967,
       "wikipedia": "Bernie Moreno",
-      "wikidata": "Q124858476",
-      "lis": "S434"
+      "wikidata": "Q124858476"
     },
     "name": {
       "first": "Bernie",
@@ -49155,13 +49155,13 @@
   {
     "id": {
       "bioguide": "M001243",
+      "lis": "S433",
       "fec": [
         "S2PA00661"
       ],
       "govtrack": 456968,
       "wikipedia": "Dave McCormick",
-      "wikidata": "Q5234544",
-      "lis": "S433"
+      "wikidata": "Q5234544"
     },
     "name": {
       "first": "Dave",
@@ -51354,6 +51354,40 @@
         "office": "1337 Longworth House Office Building",
         "phone": "202-225-2711",
         "url": "https://rileymoore.house.gov"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "J000312",
+      "lis": "S437",
+      "fec": [
+        "S4WV00332"
+      ],
+      "govtrack": 456969,
+      "wikipedia": "Jim Justice",
+      "wikidata": "Q20684288"
+    },
+    "name": {
+      "first": "Jim",
+      "middle": "Conley",
+      "last": "Justice",
+      "suffix": "II",
+      "official_full": "Jim Justice"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1951-04-27"
+    },
+    "terms": [
+      {
+        "type": "sen",
+        "start": "2025-01-14",
+        "end": "2031-01-03",
+        "state": "WV",
+        "class": 1,
+        "state_rank": "junior",
+        "party": "Republican"
       }
     ]
   }
