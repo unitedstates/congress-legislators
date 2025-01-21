@@ -2336,6 +2336,13 @@
         "end": "2021-01-20",
         "party": "Republican",
         "how": "election"
+      },
+      {
+        "type": "prez",
+        "start": "2025-01-20",
+        "end": "2029-01-20",
+        "party": "Republican",
+        "how": "election"
       }
     ]
   },
@@ -2373,6 +2380,42 @@
         "start": "2021-01-20",
         "end": "2025-01-20",
         "party": "Democrat",
+        "how": "election"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "V000137",
+      "lis": "S421",
+      "fec": [
+        "S2OH00436"
+      ],
+      "govtrack": 456876,
+      "opensecrets": "N00048832",
+      "wikidata": "Q28935729",
+      "wikipedia": "JD Vance",
+      "google_entity_id": "kg:/g/11c6v_wj1r",
+      "ballotpedia": "J.D. Vance",
+      "pictorial": 13348,
+      "votesmart": 201794
+    },
+    "name": {
+      "first": "James David",
+      "nickname": "J.D.",
+      "last": "Vance",
+      "official_full": "J.D. Vance"
+    },
+    "bio": {
+      "gender": "M",
+      "birthday": "1984-08-02"
+    },
+    "terms": [
+      {
+        "type": "viceprez",
+        "start": "2025-01-20",
+        "end": "2029-01-20",
+        "party": "Republican",
         "how": "election"
       }
     ]
