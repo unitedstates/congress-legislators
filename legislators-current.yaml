@@ -14254,8 +14254,8 @@
     state_rank: junior
     party: Democrat
     url: https://www.schiff.senate.gov
-    address: B40B Dirksen Senate Office Building Washington DC 20510
-    office: B40b Dirksen Senate Office Building
+    address: 112 Hart Senate Office Building Washington DC 20510
+    office: 112 Hart Senate Office Building
     phone: 202-224-3841
 - id:
     bioguide: S000148
@@ -29956,7 +29956,7 @@
     state: FL
     district: 6
     party: Republican
-    url: https://waltz.house.gov
+    url: https://clerk.house.gov
     address: 244 Cannon House Office Building Washington DC 20515-0906
     office: 244 Cannon House Office Building
     phone: 202-225-2706
@@ -39777,7 +39777,7 @@
     state: IN
     district: 3
     party: Republican
-    url: http://stutzman.house.gov
+    url: https://stutzman.house.gov
     rss_url: http://stutzman.house.gov/press_releases.rss
     address: 404 Cannon House Office Building Washington DC 20515-1403
     office: 404 Cannon House Office Building
@@ -40039,7 +40039,7 @@
     address: 1722 Longworth House Office Building Washington DC 20515-0308
     office: 1722 Longworth House Office Building
     phone: 202-225-4576
-    url: https://hamadeh.house.gov/
+    url: https://hamadeh.house.gov
 - id:
     bioguide: S001231
     fec:
@@ -40661,7 +40661,7 @@
     party: Democrat
     address: 1429 Longworth House Office Building Washington DC 20515-2501
     office: 1429 Longworth House Office Building
-    phone: 202-225-4206
+    phone: 202-225-2406
     url: https://bell.house.gov
 - id:
     bioguide: O000177
@@ -41258,7 +41258,7 @@
     party: Republican
     address: 1530 Longworth House Office Building Washington DC 20515-4003
     office: 1530 Longworth House Office Building
-    phone: 202-225-5307
+    phone: 202-225-5301
     url: https://sheribiggs.house.gov
 - id:
     bioguide: G000601
@@ -41558,7 +41558,7 @@
     middle: Conley
     last: Justice
     suffix: II
-    official_full: Jim Justice
+    official_full: James C. Justice
   bio:
     gender: M
     birthday: '1951-04-27'
@@ -41570,6 +41570,10 @@
     class: 1
     state_rank: junior
     party: Republican
+    url: https://www.justice.senate.gov
+    address: G12 Dirksen Senate Office Building Washington DC 20510
+    office: G12 Dirksen Senate Office Building
+    phone: 202-224-3954
 - id:
     bioguide: H001104
     lis: S438
@@ -41580,6 +41584,7 @@
     first: Jon
     middle: Allen
     last: Husted
+    official_full: Jon Husted
   bio:
     gender: M
     birthday: '1967-08-25'
@@ -41593,6 +41598,10 @@
     class: 3
     party: Republican
     state_rank: junior
+    url: https://www.husted.senate.gov
+    address: 198 Russell Senate Office Building Washington DC 20510
+    office: 198 Russell Senate Office Building
+    phone: 202-224-3353
 - id:
     bioguide: M001244
     lis: S439
@@ -41603,6 +41612,7 @@
     first: Ashley
     middle: Brooke
     last: Moody
+    official_full: Ashley Moody
   bio:
     gender: F
     birthday: '1975-03-28'
@@ -41616,3 +41626,7 @@
     class: 3
     party: Republican
     state_rank: junior
+    url: https://www.moody.senate.gov
+    address: B40B Dirksen Senate Office Building Washington DC 20510
+    office: B40b Dirksen Senate Office Building
+    phone: 202-224-3041
