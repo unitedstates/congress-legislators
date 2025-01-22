@@ -32653,7 +32653,7 @@
     end: '2031-01-03'
     state: FL
     class: 1
-    state_rank: junior
+    state_rank: senior
     party: Republican
     url: https://www.rickscott.senate.gov
     contact_form: https://www.rickscott.senate.gov/contact/contact
@@ -39901,7 +39901,7 @@
     end: '2031-01-03'
     state: OH
     class: 1
-    state_rank: junior
+    state_rank: senior
     party: Republican
     url: https://www.moreno.senate.gov
     address: B33 Russell Senate Office Building Washington DC 20510
@@ -41570,3 +41570,49 @@
     class: 1
     state_rank: junior
     party: Republican
+- id:
+    bioguide: H001104
+    lis: S438
+    govtrack: 457032
+    wikipedia: Jon Husted
+    wikidata: Q6270269
+  name:
+    first: Jon
+    middle: Allen
+    last: Husted
+  bio:
+    gender: M
+    birthday: '1967-08-25'
+  terms:
+  - type: sen
+    start: '2025-01-21'
+    end: '2029-01-03'
+    how: appointment
+    end-type: special-election
+    state: OH
+    class: 3
+    party: Republican
+    state_rank: junior
+- id:
+    bioguide: M001244
+    lis: S439
+    govtrack: 457033
+    wikipedia: Ashley Moody
+    wikidata: Q58333626
+  name:
+    first: Ashley
+    middle: Brooke
+    last: Moody
+  bio:
+    gender: F
+    birthday: '1975-03-28'
+  terms:
+  - type: sen
+    start: '2025-01-21'
+    end: '2029-01-03'
+    how: appointment
+    end-type: special-election
+    state: FL
+    class: 3
+    party: Republican
+    state_rank: junior
