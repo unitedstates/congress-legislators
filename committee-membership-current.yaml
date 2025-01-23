@@ -2389,6 +2389,17 @@ HSPW:
   party: majority
   rank: 35
   bioguide: O000177
+HSPW12:
+- name: David Rouzer
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: R000603
+- name: Eleanor Norton
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: N000147
 HSSY:
 - name: Brian Babin
   party: majority
@@ -3952,6 +3963,102 @@ HSIF:
 - name: Julie Fedorchak
   party: majority
   rank: 30
+  bioguide: F000482
+HSIF18:
+- name: Gary Palmer
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: P000609
+- name: Paul Tonko
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: T000469
+- name: Dan Crenshaw
+  party: majority
+  rank: 2
+  title: Vice Chairman
+  bioguide: C001120
+- name: Janice Schakowsky
+  party: minority
+  rank: 2
+  bioguide: S001145
+- name: Robert Latta
+  party: majority
+  rank: 3
+  bioguide: L000566
+- name: Raul Ruiz
+  party: minority
+  rank: 3
+  bioguide: R000599
+- name: Earl Carter
+  party: majority
+  rank: 4
+  bioguide: C001103
+- name: Scott Peters
+  party: minority
+  rank: 4
+  bioguide: P000608
+- name: Gary Palmer
+  party: majority
+  rank: 5
+  bioguide: P000609
+- name: Darren Soto
+  party: minority
+  rank: 5
+  bioguide: S001200
+- name: John Joyce
+  party: majority
+  rank: 6
+  bioguide: J000302
+- name: Jake Auchincloss
+  party: minority
+  rank: 6
+  bioguide: A000148
+- name: Randy Weber
+  party: majority
+  rank: 7
+  bioguide: W000814
+- name: Troy Carter
+  party: minority
+  rank: 7
+  bioguide: C001125
+- name: August Pfluger
+  party: majority
+  rank: 8
+  bioguide: P000048
+- name: Robert Menendez
+  party: minority
+  rank: 8
+  bioguide: M001226
+- name: Mariannette Miller-Meeks
+  party: majority
+  rank: 9
+  bioguide: M001215
+- name: Greg Landsman
+  party: minority
+  rank: 9
+  bioguide: L000601
+- name: Laurel Lee
+  party: majority
+  rank: 10
+  bioguide: L000597
+- name: Frank Pallone
+  party: minority
+  rank: 10
+  bioguide: P000034
+- name: Nicholas Langworthy
+  party: majority
+  rank: 11
+  bioguide: L000600
+- name: Gabe Evans
+  party: majority
+  rank: 12
+  bioguide: E000300
+- name: Julie Fedorchak
+  party: majority
+  rank: 13
   bioguide: F000482
 HSWM:
 - name: Jason Smith
