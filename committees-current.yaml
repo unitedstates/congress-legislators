@@ -949,14 +949,15 @@
     thomas_id: '23'
     wikipedia: United States Senate Appropriations Subcommittee on Financial Services
       and General Government
-  - name: Homeland Security
+  - name: Department of Homeland Security
     thomas_id: '14'
     wikipedia: United States Senate Appropriations Subcommittee on Homeland Security
-  - name: Interior, Environment, and Related Agencies
+  - name: Department of Interior, Environment, and Related Agencies
     thomas_id: '17'
     wikipedia: United States Senate Appropriations Subcommittee on Interior, Environment,
       and Related Agencies
-  - name: Labor, Health and Human Services, and Education, and Related Agencies
+  - name: Departments of Labor, Health and Human Services, and Education, and Related
+      Agencies
     thomas_id: '18'
     wikipedia: United States Senate Appropriations Subcommittee on Labor, Health and
       Human Services, Education, and Related Agencies
@@ -977,7 +978,7 @@
     thomas_id: '01'
     wikipedia: United States Senate Appropriations Subcommittee on Agriculture, Rural
       Development, Food and Drug Administration, and Related Agencies
-  - name: Defense
+  - name: Department of Defense
     thomas_id: '02'
     wikipedia: United States Senate Appropriations Subcommittee on Defense
   - name: Legislative Branch
@@ -1132,7 +1133,7 @@
   thomas_id: SSEV
   senate_committee_id: SSEV
   subcommittees:
-  - name: Clean Air, Climate, and Nuclear Safety
+  - name: Clean Air, Climate, and Nuclear Innovation and Safety
     thomas_id: '10'
     wikipedia: United States Senate Environment and Public Works Subcommittee on Clean
       Air and Nuclear Safety
@@ -1146,7 +1147,7 @@
     wikipedia: United States Senate Environment and Public Works Subcommittee on Transportation
       and Infrastructure
   - thomas_id: '15'
-    name: Fisheries, Water, and Wildlife
+    name: Fisheries, Wildlife, and Water
     wikipedia: United States Senate Environment and Public Works Subcommittee on Water
       and Wildlife
   rss_url: http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority
