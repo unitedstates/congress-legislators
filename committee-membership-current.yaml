@@ -5296,6 +5296,61 @@ HSWM:
   party: majority
   rank: 26
   bioguide: M001224
+HSWM03:
+- name: "Darin LaHood"
+  party: "majority"
+  rank: 1
+  title: "Chairman"
+  bioguide: "L000585"
+- name: "Mike Carey"
+  party: "majority"
+  rank: 2
+  bioguide: "C001126"
+- name: "Rudy Yakym"
+  party: "majority"
+  rank: 3
+  bioguide: "Y000067"
+- name: "Max Miller"
+  party: "majority"
+  rank: 4
+  bioguide: "M001222"
+- name: "Aaron Bean"
+  party: "majority"
+  rank: 5
+  bioguide: "B001314"
+- name: "Nathaniel Moran"
+  party: "majority"
+  rank: 6
+  bioguide: "M001224"
+- name: "Beth Van Duyne"
+  party: "majority"
+  rank: 7
+  bioguide: "V000134"
+- name: "Randy Feenstra"
+  party: "majority"
+  rank: 8
+  bioguide: "F000446"
+- name: "Danny Davis"
+  party: "minority"
+  rank: 1
+  title: "Ranking Member"
+  bioguide: "D000096"
+- name: "Judy Chu"
+  party: "minority"
+  rank: 2
+  bioguide: "C001080"
+- name: "Gwen Moore"
+  party: "minority"
+  rank: 3
+  bioguide: "M001160"
+- name: "Dwight Evans"
+  party: "minority"
+  rank: 4
+  bioguide: "E000296"
+- name: "Jimmy Gomez"
+  party: "minority"
+  rank: 5
+  bioguide: "G000585"
 HLIG:
 - name: Eric A. "Rick" Crawford
   party: majority
@@ -5614,6 +5669,58 @@ HSBA:
   party: majority
   rank: 30
   bioguide: M001236
+HSBA09:
+- name: "Dan Meuser"
+  party: "majority"
+  rank: 1
+  title: "Chairman"
+  bioguide: "M001204"
+- name: "Tim Moore"
+  party: "majority"
+  rank: 2
+  title: "Vice Chairman"
+  bioguide: "M001236"
+- name: "Ann Wagner"
+  party: "majority"
+  rank: 3
+  bioguide: "W000812"
+- name: "Barry Loudermilk"
+  party: "majority"
+  rank: 4
+  bioguide: "L000583"
+- name: "Andrew Garbarino"
+  party: "majority"
+  rank: 5
+  bioguide: "G000597"
+- name: "Andy Ogles"
+  party: "majority"
+  rank: 6
+  bioguide: "O000175"
+- name: "Mike Haridopolos"
+  party: "majority"
+  rank: 7
+  bioguide: "H001099"
+- name: "Al Green"
+  party: "minority"
+  rank: 1
+  title: "Ranking Member"
+  bioguide: "G000553"
+- name: "Rashida Tlaib"
+  party: "minority"
+  rank: 2
+  bioguide: "T000481"
+- name: "Nikema Williams"
+  party: "minority"
+  rank: 3
+  bioguide: "W000788"
+- name: "Cleo Fields"
+  party: "minority"
+  rank: 4
+  bioguide: "F000110"
+- name: "Sam Liccardo"
+  party: "minority"
+  rank: 5
+  bioguide: "L000607"
 HSFA:
 - name: Brian J. Mast
   party: majority
