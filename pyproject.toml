@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 100
+target-version = "py37"
+indent-width = 2
+
+[tool.ruff.lint]
+select = [
+    "E", # pycodestyle errors
+    "F", # pyflakes
+    "I", # isort
+]
+
+[tool.ruff.format]
+indent-style = "space"
