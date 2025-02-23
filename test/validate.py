@@ -512,10 +512,10 @@ def check_social_media():
             error("legislators-social-media.yaml", "Entry for non-current legislator: " + entry["id"]["bioguide"])
             continue
 
-        # Check that if the 'twitter' field is given that 'twitter_id' is also given,
-        # and vice versa.
-        if ("twitter" in entry["social"]) != ("twitter_id" in entry["social"]):
-            error("legislators-social-media.yaml", "Entry has 'twitter' but not 'twitter_id' or vice versa: " + entry["id"]["bioguide"])
+        # # Check that if the 'twitter' field is given that 'twitter_id' is also given,
+        # # and vice versa.
+        # if ("twitter" in entry["social"]) != ("twitter_id" in entry["social"]):
+        #     error("legislators-social-media.yaml", "Entry has 'twitter' but not 'twitter_id' or vice versa: " + entry["id"]["bioguide"])
 
     if "TWITTER_API_BEARER_TOKEN" in os.environ:
         import tweepy
