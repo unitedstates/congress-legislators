@@ -8,7 +8,7 @@
     "house_committee_id": "AG",
     "subcommittees": [
       {
-        "name": "Forestry",
+        "name": "Forestry and Horticulture",
         "thomas_id": "15",
         "address": "1301 LHOB; Washington, DC 20515",
         "phone": "(202) 225-2171"
@@ -38,7 +38,7 @@
         "phone": "(202) 225-2171"
       },
       {
-        "name": "Nutrition, Foreign Agriculture, and Horticulture",
+        "name": "Nutrition and Foreign Agriculture",
         "thomas_id": "03",
         "address": "1301 LHOB; Washington, DC 20515",
         "phone": "(202) 225-2171"
@@ -77,7 +77,7 @@
         "phone": "(202) 225-2847"
       },
       {
-        "name": "Energy and Water Development, and Related Agencies",
+        "name": "Energy and Water Development and Related Agencies",
         "thomas_id": "10",
         "address": "2362B RHOB; Washington, DC 20515",
         "phone": "(202) 225-3421"
@@ -119,7 +119,7 @@
         "phone": "(202) 225-3047"
       },
       {
-        "name": "State, Foreign Operations, and Related Programs",
+        "name": "National Security, Department of State, and Related Programs",
         "thomas_id": "04",
         "address": "HT2 CAPITOL; Washington, DC 20515",
         "phone": "(202) 225-2041"
@@ -227,13 +227,13 @@
         "phone": "(202) 225-7502"
       },
       {
-        "name": "Financial Institutions and Monetary Policy",
+        "name": "Financial Institutions",
         "thomas_id": "20",
         "address": "2129 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7502"
       },
       {
-        "name": "Digital Assets, Financial Technology and Inclusion",
+        "name": "Digital Assets, Financial Technology, and Artificial Intelligence",
         "thomas_id": "21",
         "address": "2129 RHOB; Washington, DC 20515",
         "phone": "(202) 225-7502"
@@ -320,10 +320,10 @@
         "phone": "(202) 226-8467"
       },
       {
-        "name": "Indo-Pacific",
+        "name": "East Asia and Pacific",
         "thomas_id": "05",
         "address": "2170 RHOB; Washington, DC 20515",
-        "phone": "(202) 000-0000"
+        "phone": "(202) 226-8467"
       },
       {
         "name": "Europe",
@@ -332,7 +332,7 @@
         "phone": "(202) 226-8467"
       },
       {
-        "name": "Middle East, North Africa, and Central Asia",
+        "name": "Middle East and North Africa",
         "thomas_id": "13",
         "address": "2170 RHOB; Washington, DC 20515",
         "phone": "(202) 226-8467"
@@ -344,7 +344,7 @@
         "phone": "(202) 226-8467"
       },
       {
-        "name": "Oversight and Accountability",
+        "name": "Oversight and Intelligence",
         "thomas_id": "17",
         "address": "2170 RHOB; Washington, DC 20515",
         "phone": "(202) 226-8467"
@@ -352,6 +352,12 @@
       {
         "name": "Global Health, Global Human Rights, and International Organizations",
         "thomas_id": "06",
+        "address": "2170 RHOB; Washington, DC 20515",
+        "phone": "(202) 226-8467"
+      },
+      {
+        "name": "South and Central Asia",
+        "thomas_id": "19",
         "address": "2170 RHOB; Washington, DC 20515",
         "phone": "(202) 226-8467"
       }
@@ -371,13 +377,13 @@
     "house_committee_id": "GO",
     "subcommittees": [
       {
-        "name": "Government Operations and the Federal Workforce",
+        "name": "Government Operations",
         "thomas_id": "24",
         "address": "2157 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       },
       {
-        "name": "National Security, the Border, and Foreign Affairs",
+        "name": "Military and Foreign Affairs",
         "thomas_id": "06",
         "address": "2157 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
@@ -397,6 +403,18 @@
       {
         "name": "Cybersecurity, Information Technology, and Government Innovation",
         "thomas_id": "12",
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5074"
+      },
+      {
+        "name": "Delivering on Government Efficiency",
+        "thomas_id": "16",
+        "address": "2157 RHOB; Washington, DC 20515",
+        "phone": "(202) 225-5074"
+      },
+      {
+        "name": "Federal Law Enforcement",
+        "thomas_id": "33",
         "address": "2157 RHOB; Washington, DC 20515",
         "phone": "(202) 225-5074"
       }
@@ -428,7 +446,7 @@
         "phone": "(202) 225-8281"
       },
       {
-        "name": "Modernization",
+        "name": "Modernization and Innovation",
         "thomas_id": "27",
         "address": "1309 LHOB; Washington, DC 20515",
         "phone": "(202) 225-8281"
@@ -467,7 +485,7 @@
         "phone": "(202) 226-8417"
       },
       {
-        "name": "Counterterrorism, Law Enforcement, and Intelligence",
+        "name": "Counterterrorism and Intelligence",
         "thomas_id": "05",
         "address": "176 FHOB; Washington, DC 20515",
         "phone": "(202) 226-8417"
@@ -500,7 +518,7 @@
     "house_committee_id": "IF",
     "subcommittees": [
       {
-        "name": "Innovation, Data, and Commerce",
+        "name": "Commerce, Manufacturing, and Trade",
         "thomas_id": "17",
         "address": "2125 RHOB; Washington, DC 20515",
         "phone": "(202) 225-3641"
@@ -512,7 +530,7 @@
         "phone": "(202) 225-3641"
       },
       {
-        "name": "Energy, Climate, and Grid Security",
+        "name": "Energy",
         "thomas_id": "03",
         "address": "2125 RHOB; Washington, DC 20515",
         "phone": "(202) 225-3641"
@@ -530,7 +548,7 @@
         "phone": "(202) 225-3641"
       },
       {
-        "name": "Environment, Manufacturing, and Critical Materials",
+        "name": "Environment",
         "thomas_id": "18",
         "address": "2125 RHOB; Washington, DC 20515",
         "phone": "(202) 225-3641"
@@ -624,6 +642,12 @@
         "thomas_id": "06",
         "address": "HVC304 CAPITOL; Washington, DC 20515",
         "phone": "(202) 225-4121"
+      },
+      {
+        "name": "Open Source Intelligence",
+        "thomas_id": "11",
+        "address": "HVC304 CAPITOL; Washington, DC 20515",
+        "phone": "(202) 225-4121"
       }
     ],
     "address": "HVC304 CAPITOL; Washington, DC 20515-6415",
@@ -647,7 +671,7 @@
         "phone": "(202) 225-6906"
       },
       {
-        "name": "Courts, Intellectual Property, and the Internet",
+        "name": "Courts, Intellectual Property, Artificial Intelligence, and the Internet",
         "thomas_id": "03",
         "address": "2138 RHOB; Washington, DC 20515",
         "phone": "(202) 225-6906"
@@ -671,7 +695,7 @@
         "phone": "(202) 225-6906"
       },
       {
-        "name": "Responsiveness and Accountability to Oversight",
+        "name": "Oversight",
         "thomas_id": "13",
         "address": "2138 RHOB; Washington, DC 20515",
         "phone": "(202) 225-6906"
@@ -1076,17 +1100,17 @@
     "senate_committee_id": "SSAF",
     "subcommittees": [
       {
-        "name": "Commodities, Risk Management, and Trade",
+        "name": "Commodities, Derivatives, Risk Management, and Trade",
         "thomas_id": "13",
         "wikipedia": "United States Senate Agriculture Subcommittee on Commodities, Markets, Trade and Risk Management"
       },
       {
-        "name": "Conservation, Climate, Forestry, and Natural Resources",
+        "name": "Conservation, Forestry, Natural Resources, and Biotechnology",
         "thomas_id": "14",
         "wikipedia": "United States Senate Agriculture Subcommittee on Conservation, Forestry and Natural Resources"
       },
       {
-        "name": "Rural Development and Energy",
+        "name": "Rural Development, Energy, and Credit",
         "thomas_id": "15",
         "wikipedia": "United States Senate Agriculture Subcommittee on Jobs, Rural Economic Growth and Energy Innovation"
       },
@@ -1096,7 +1120,7 @@
         "wikipedia": "United States Senate Agriculture Subcommittee on Nutrition, Specialty Crops, Food and Agricultural Research"
       },
       {
-        "name": "Livestock, Dairy, Poultry, Local Food Systems, and Food Safety and Security",
+        "name": "Livestock, Dairy, Poultry, and Food Safety",
         "thomas_id": "17",
         "wikipedia": "United States Senate Agriculture Subcommittee on Livestock, Dairy, Poultry, Marketing and Agriculture Security"
       }
@@ -1288,27 +1312,27 @@
     "subcommittees": [
       {
         "thomas_id": "33",
-        "name": "Aviation Safety, Operations, and Innovation"
+        "name": "Aviation, Space, and Innovation"
       },
       {
         "thomas_id": "34",
-        "name": "Communications, Media, and Broadband"
+        "name": "Telecommunications and Media"
       },
       {
         "thomas_id": "35",
-        "name": "Consumer Protection, Product Safety, and Data Security"
+        "name": "Consumer Protection, Technology, and Data Privacy"
       },
       {
         "thomas_id": "36",
-        "name": "Oceans, Fisheries, Climate Change, and Manufacturing"
+        "name": "Coast Gaurd, Maritime, and Fisheries"
       },
       {
         "thomas_id": "37",
-        "name": "Space and Science"
+        "name": "Science, Manufacturing, and Competitiveness"
       },
       {
         "thomas_id": "38",
-        "name": "Surface Transportation, Maritime, Freight, and Ports"
+        "name": "Surface Transportation, Freight, Pipelines, and Safety"
       },
       {
         "thomas_id": "39",
@@ -1495,11 +1519,11 @@
       },
       {
         "thomas_id": "20",
-        "name": "Emerging Threats and Spending Oversight"
+        "name": "Disaster Management, District of Columbia, and Census"
       },
       {
         "thomas_id": "22",
-        "name": "Government Operations and Border Management"
+        "name": "Border Management, Federal Workforce, and Regulatory Affairs"
       }
     ],
     "wikipedia": "United States Senate Committee on Homeland Security and Governmental Affairs",
@@ -1525,7 +1549,7 @@
         "wikipedia": "United States Senate Health Subcommittee on Primary Health and Aging"
       },
       {
-        "name": "Children and Families",
+        "name": "Education and the American Family",
         "thomas_id": "09",
         "wikipedia": "United States Senate Health Subcommittee on Children and Families"
       }
@@ -1547,17 +1571,17 @@
         "wikipedia": "United States Senate Judiciary Subcommittee on the Constitution, Civil Rights and Human Rights"
       },
       {
-        "name": "Criminal Justice and Counterterrorism",
+        "name": "Crime and Counterterrorism",
         "thomas_id": "22",
         "wikipedia": "United States Senate Judiciary Subcommittee on Crime and Terrorism"
       },
       {
-        "name": "Competition Policy, Antitrust, and Consumer Rights",
+        "name": "Antitrust, Competition Policy, and Consumer Rights",
         "thomas_id": "01",
         "wikipedia": "United States Senate Judiciary Subcommittee on Antitrust, Competition Policy and Consumer Rights"
       },
       {
-        "name": "Immigration, Citizenship, and Border Safety",
+        "name": "Border Security and Immigration",
         "thomas_id": "04",
         "wikipedia": "United States Senate Judiciary Subcommittee on Immigration, Refugees and Border Security"
       },
