@@ -93,11 +93,291 @@ SSAF:
   party: minority
   rank: 11
   bioguide: S001208
-SSAF13: []
-SSAF14: []
-SSAF16: []
-SSAF17: []
-SSAF15: []
+SSAF13:
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001079
+- name: Chuck Grassley
+  party: majority
+  rank: 2
+  bioguide: G000386
+- name: Jerry Moran
+  party: majority
+  rank: 3
+  bioguide: M000934
+- name: Mitch McConnell
+  party: majority
+  rank: 4
+  bioguide: M000355
+- name: Tommy Tuberville
+  party: majority
+  rank: 5
+  bioguide: T000278
+- name: John Thune
+  party: majority
+  rank: 6
+  bioguide: T000250
+- name: John Boozman
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B001236
+- name: Cory A. Booker
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001288
+- name: Richard J. Durbin
+  party: minority
+  rank: 2
+  bioguide: D000563
+- name: Adam B. Schiff
+  party: minority
+  rank: 3
+  bioguide: S001150
+- name: John Fetterman
+  party: minority
+  rank: 4
+  bioguide: F000479
+- name: Elissa Slotkin
+  party: minority
+  rank: 5
+  bioguide: S001208
+- name: Amy Klobuchar
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: K000367
+SSAF14:
+- name: Roger Marshall
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001198
+- name: James C. Justice
+  party: majority
+  rank: 2
+  bioguide: J000312
+- name: John Hoeven
+  party: majority
+  rank: 3
+  bioguide: H001061
+- name: John Thune
+  party: majority
+  rank: 4
+  bioguide: T000250
+- name: Joni Ernst
+  party: majority
+  rank: 5
+  bioguide: E000295
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 6
+  bioguide: H001079
+- name: John Boozman
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B001236
+- name: Michael F. Bennet
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001267
+- name: Ben Ray Luján
+  party: minority
+  rank: 2
+  bioguide: L000570
+- name: Raphael G. Warnock
+  party: minority
+  rank: 3
+  bioguide: W000790
+- name: Peter Welch
+  party: minority
+  rank: 4
+  bioguide: W000800
+- name: Adam B. Schiff
+  party: minority
+  rank: 5
+  bioguide: S001150
+- name: Amy Klobuchar
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: K000367
+SSAF16:
+- name: Mitch McConnell
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M000355
+- name: Roger Marshall
+  party: majority
+  rank: 2
+  bioguide: M001198
+- name: John Hoeven
+  party: majority
+  rank: 3
+  bioguide: H001061
+- name: Tommy Tuberville
+  party: majority
+  rank: 4
+  bioguide: T000278
+- name: James C. Justice
+  party: majority
+  rank: 5
+  bioguide: J000312
+- name: Chuck Grassley
+  party: majority
+  rank: 6
+  bioguide: G000386
+- name: John Boozman
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B001236
+- name: Ben Ray Luján
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: L000570
+- name: Raphael G. Warnock
+  party: minority
+  rank: 2
+  bioguide: W000790
+- name: John Fetterman
+  party: minority
+  rank: 3
+  bioguide: F000479
+- name: Tina Smith
+  party: minority
+  rank: 4
+  bioguide: S001203
+- name: Cory A. Booker
+  party: minority
+  rank: 5
+  bioguide: B001288
+- name: Amy Klobuchar
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: K000367
+SSAF17:
+- name: John Hoeven
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001061
+- name: John Thune
+  party: majority
+  rank: 2
+  bioguide: T000250
+- name: Deb Fischer
+  party: majority
+  rank: 3
+  bioguide: F000463
+- name: Joni Ernst
+  party: majority
+  rank: 4
+  bioguide: E000295
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 5
+  bioguide: H001079
+- name: James C. Justice
+  party: majority
+  rank: 6
+  bioguide: J000312
+- name: John Boozman
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B001236
+- name: Elissa Slotkin
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: S001208
+- name: Peter Welch
+  party: minority
+  rank: 2
+  bioguide: W000800
+- name: Tina Smith
+  party: minority
+  rank: 3
+  bioguide: S001203
+- name: Richard J. Durbin
+  party: minority
+  rank: 4
+  bioguide: D000563
+- name: Cory A. Booker
+  party: minority
+  rank: 5
+  bioguide: B001288
+- name: Amy Klobuchar
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: K000367
+SSAF15:
+- name: Joni Ernst
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: E000295
+- name: Tommy Tuberville
+  party: majority
+  rank: 2
+  bioguide: T000278
+- name: Chuck Grassley
+  party: majority
+  rank: 3
+  bioguide: G000386
+- name: Deb Fischer
+  party: majority
+  rank: 4
+  bioguide: F000463
+- name: Jerry Moran
+  party: majority
+  rank: 5
+  bioguide: M000934
+- name: Mitch McConnell
+  party: majority
+  rank: 6
+  bioguide: M000355
+- name: John Boozman
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: B001236
+- name: Peter Welch
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000800
+- name: Tina Smith
+  party: minority
+  rank: 2
+  bioguide: S001203
+- name: Michael F. Bennet
+  party: minority
+  rank: 3
+  bioguide: B001267
+- name: Raphael G. Warnock
+  party: minority
+  rank: 4
+  bioguide: W000790
+- name: Ben Ray Luján
+  party: minority
+  rank: 5
+  bioguide: L000570
+- name: Amy Klobuchar
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: K000367
 SSAP:
 - name: Susan M. Collins
   party: majority
@@ -1344,10 +1624,242 @@ SSEG:
   party: minority
   rank: 9
   bioguide: G000574
-SSEG01: []
-SSEG04: []
-SSEG03: []
-SSEG07: []
+SSEG01:
+- name: David McCormick
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001243
+- name: John Barrasso
+  party: majority
+  rank: 2
+  bioguide: B001261
+- name: James E. Risch
+  party: majority
+  rank: 3
+  bioguide: R000584
+- name: Tom Cotton
+  party: majority
+  rank: 4
+  bioguide: C001095
+- name: James C. Justice
+  party: majority
+  rank: 5
+  bioguide: J000312
+- name: Bill Cassidy
+  party: majority
+  rank: 6
+  bioguide: C001075
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 7
+  bioguide: H001079
+- name: John Hoeven
+  party: majority
+  rank: 8
+  bioguide: H001061
+- name: Mike Lee
+  party: majority
+  rank: 9
+  title: Ex Officio
+  bioguide: L000577
+- name: Ruben Gallego
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: G000574
+- name: Ron Wyden
+  party: minority
+  rank: 2
+  bioguide: W000779
+- name: Mazie K. Hirono
+  party: minority
+  rank: 3
+  bioguide: H001042
+- name: Angus S. King, Jr.
+  party: minority
+  rank: 4
+  bioguide: K000383
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 5
+  bioguide: C001113
+- name: John W. Hickenlooper
+  party: minority
+  rank: 6
+  bioguide: H000273
+- name: Alex Padilla
+  party: minority
+  rank: 7
+  bioguide: P000145
+- name: Martin Heinrich
+  party: minority
+  rank: 8
+  title: Ex Officio
+  bioguide: H001046
+SSEG04:
+- name: Steve Daines
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: D000618
+- name: John Barrasso
+  party: majority
+  rank: 2
+  bioguide: B001261
+- name: Bill Cassidy
+  party: majority
+  rank: 3
+  bioguide: C001075
+- name: Lisa Murkowski
+  party: majority
+  rank: 4
+  bioguide: M001153
+- name: Mike Lee
+  party: majority
+  rank: 5
+  title: Ex Officio
+  bioguide: L000577
+- name: Angus S. King, Jr.
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000383
+- name: Mazie K. Hirono
+  party: minority
+  rank: 2
+  bioguide: H001042
+- name: Ruben Gallego
+  party: minority
+  rank: 3
+  bioguide: G000574
+- name: Martin Heinrich
+  party: minority
+  rank: 4
+  title: Ex Officio
+  bioguide: H001046
+SSEG03:
+- name: John Barrasso
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: B001261
+- name: James E. Risch
+  party: majority
+  rank: 2
+  bioguide: R000584
+- name: Steve Daines
+  party: majority
+  rank: 3
+  bioguide: D000618
+- name: Tom Cotton
+  party: majority
+  rank: 4
+  bioguide: C001095
+- name: James C. Justice
+  party: majority
+  rank: 5
+  bioguide: J000312
+- name: Cindy Hyde-Smith
+  party: majority
+  rank: 6
+  bioguide: H001079
+- name: Lisa Murkowski
+  party: majority
+  rank: 7
+  bioguide: M001153
+- name: Mike Lee
+  party: majority
+  rank: 8
+  title: Ex Officio
+  bioguide: L000577
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001113
+- name: Ron Wyden
+  party: minority
+  rank: 2
+  bioguide: W000779
+- name: Mazie K. Hirono
+  party: minority
+  rank: 3
+  bioguide: H001042
+- name: Angus S. King, Jr.
+  party: minority
+  rank: 4
+  bioguide: K000383
+- name: John W. Hickenlooper
+  party: minority
+  rank: 5
+  bioguide: H000273
+- name: Alex Padilla
+  party: minority
+  rank: 6
+  bioguide: P000145
+- name: Martin Heinrich
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: H001046
+SSEG07:
+- name: John Hoeven
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001061
+- name: James E. Risch
+  party: majority
+  rank: 2
+  bioguide: R000584
+- name: Steve Daines
+  party: majority
+  rank: 3
+  bioguide: D000618
+- name: David McCormick
+  party: majority
+  rank: 4
+  bioguide: M001243
+- name: James C. Justice
+  party: majority
+  rank: 5
+  bioguide: J000312
+- name: Bill Cassidy
+  party: majority
+  rank: 6
+  bioguide: C001075
+- name: Mike Lee
+  party: majority
+  rank: 7
+  title: Ex Officio
+  bioguide: L000577
+- name: Ron Wyden
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000779
+- name: Catherine Cortez Masto
+  party: minority
+  rank: 2
+  bioguide: C001113
+- name: John W. Hickenlooper
+  party: minority
+  rank: 3
+  bioguide: H000273
+- name: Alex Padilla
+  party: minority
+  rank: 4
+  bioguide: P000145
+- name: Ruben Gallego
+  party: minority
+  rank: 5
+  bioguide: G000574
+- name: Martin Heinrich
+  party: minority
+  rank: 6
+  title: Ex Officio
+  bioguide: H001046
 SSEV:
 - name: Shelley Moore Capito
   party: majority
@@ -1741,9 +2253,217 @@ SSHR:
   party: minority
   rank: 11
   bioguide: A000382
-SSHR09: []
-SSHR11: []
-SSHR12: []
+SSHR09:
+- name: Tommy Tuberville
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: T000278
+- name: Rand Paul
+  party: majority
+  rank: 2
+  bioguide: P000603
+- name: Lisa Murkowski
+  party: majority
+  rank: 3
+  bioguide: M001153
+- name: Tim Scott
+  party: majority
+  rank: 4
+  bioguide: S001184
+- name: Jim Banks
+  party: majority
+  rank: 5
+  bioguide: B001299
+- name: Jon Husted
+  party: majority
+  rank: 6
+  bioguide: H001104
+- name: Ashley Moody
+  party: majority
+  rank: 7
+  bioguide: M001244
+- name: Bill Cassidy
+  party: majority
+  rank: 8
+  title: Ex Officio
+  bioguide: C001075
+- name: Lisa Blunt Rochester
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001303
+- name: Patty Murray
+  party: minority
+  rank: 2
+  bioguide: M001111
+- name: Tim Kaine
+  party: minority
+  rank: 3
+  bioguide: K000384
+- name: Edward J. Markey
+  party: minority
+  rank: 4
+  bioguide: M000133
+- name: Andy Kim
+  party: minority
+  rank: 5
+  bioguide: K000394
+- name: Angela D. Alsobrooks
+  party: minority
+  rank: 6
+  bioguide: A000382
+- name: Bernard Sanders
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: S000033
+SSHR11:
+- name: Markwayne Mullin
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001190
+- name: Roger Marshall
+  party: majority
+  rank: 2
+  bioguide: M001198
+- name: Tim Scott
+  party: majority
+  rank: 3
+  bioguide: S001184
+- name: Josh Hawley
+  party: majority
+  rank: 4
+  bioguide: H001089
+- name: Tommy Tuberville
+  party: majority
+  rank: 5
+  bioguide: T000278
+- name: Jim Banks
+  party: majority
+  rank: 6
+  bioguide: B001299
+- name: Jon Husted
+  party: majority
+  rank: 7
+  bioguide: H001104
+- name: Bill Cassidy
+  party: majority
+  rank: 8
+  title: Ex Officio
+  bioguide: C001075
+- name: John W. Hickenlooper
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H000273
+- name: Tammy Baldwin
+  party: minority
+  rank: 2
+  bioguide: B001230
+- name: Christopher Murphy
+  party: minority
+  rank: 3
+  bioguide: M001169
+- name: Tim Kaine
+  party: minority
+  rank: 4
+  bioguide: K000384
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 5
+  bioguide: H001076
+- name: Angela D. Alsobrooks
+  party: minority
+  rank: 6
+  bioguide: A000382
+- name: Bernard Sanders
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: S000033
+SSHR12:
+- name: Roger Marshall
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001198
+- name: Rand Paul
+  party: majority
+  rank: 2
+  bioguide: P000603
+- name: Susan M. Collins
+  party: majority
+  rank: 3
+  bioguide: C001035
+- name: Lisa Murkowski
+  party: majority
+  rank: 4
+  bioguide: M001153
+- name: Markwayne Mullin
+  party: majority
+  rank: 5
+  bioguide: M001190
+- name: Josh Hawley
+  party: majority
+  rank: 6
+  bioguide: H001089
+- name: Jim Banks
+  party: majority
+  rank: 7
+  bioguide: B001299
+- name: Jon Husted
+  party: majority
+  rank: 8
+  bioguide: H001104
+- name: Ashley Moody
+  party: majority
+  rank: 9
+  bioguide: M001244
+- name: Bill Cassidy
+  party: majority
+  rank: 10
+  title: Ex Officio
+  bioguide: C001075
+- name: Edward J. Markey
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: M000133
+- name: Patty Murray
+  party: minority
+  rank: 2
+  bioguide: M001111
+- name: Tammy Baldwin
+  party: minority
+  rank: 3
+  bioguide: B001230
+- name: Christopher Murphy
+  party: minority
+  rank: 4
+  bioguide: M001169
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 5
+  bioguide: H001076
+- name: John W. Hickenlooper
+  party: minority
+  rank: 6
+  bioguide: H000273
+- name: Andy Kim
+  party: minority
+  rank: 7
+  bioguide: K000394
+- name: Lisa Blunt Rochester
+  party: minority
+  rank: 8
+  bioguide: B001303
+- name: Bernard Sanders
+  party: minority
+  rank: 9
+  title: Ex Officio
+  bioguide: S000033
 SSGA:
 - name: Rand Paul
   party: majority
@@ -1807,9 +2527,145 @@ SSGA:
   party: minority
   rank: 7
   bioguide: S001208
-SSGA01: []
-SSGA20: []
-SSGA22: []
+SSGA01:
+- name: Ron Johnson
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: J000293
+- name: James Lankford
+  party: majority
+  rank: 2
+  bioguide: L000575
+- name: Rick Scott
+  party: majority
+  rank: 3
+  bioguide: S001217
+- name: Josh Hawley
+  party: majority
+  rank: 4
+  bioguide: H001089
+- name: Bernie Moreno
+  party: majority
+  rank: 5
+  bioguide: M001242
+- name: Rand Paul
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: P000603
+- name: Richard Blumenthal
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: B001277
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 2
+  bioguide: H001076
+- name: John Fetterman
+  party: minority
+  rank: 3
+  bioguide: F000479
+- name: Andy Kim
+  party: minority
+  rank: 4
+  bioguide: K000394
+- name: Gary C. Peters
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: P000595
+SSGA20:
+- name: Josh Hawley
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: H001089
+- name: Rick Scott
+  party: majority
+  rank: 2
+  bioguide: S001217
+- name: Joni Ernst
+  party: majority
+  rank: 3
+  bioguide: E000295
+- name: Ashley Moody
+  party: majority
+  rank: 4
+  bioguide: M001244
+- name: Rand Paul
+  party: majority
+  rank: 5
+  title: Ex Officio
+  bioguide: P000603
+- name: Andy Kim
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000394
+- name: Richard Blumenthal
+  party: minority
+  rank: 2
+  bioguide: B001277
+- name: Elissa Slotkin
+  party: minority
+  rank: 3
+  bioguide: S001208
+- name: Gary C. Peters
+  party: minority
+  rank: 4
+  title: Ex Officio
+  bioguide: P000595
+SSGA22:
+- name: James Lankford
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: L000575
+- name: Ron Johnson
+  party: majority
+  rank: 2
+  bioguide: J000293
+- name: Bernie Moreno
+  party: majority
+  rank: 3
+  bioguide: M001242
+- name: Joni Ernst
+  party: majority
+  rank: 4
+  bioguide: E000295
+- name: Ashley Moody
+  party: majority
+  rank: 5
+  bioguide: M001244
+- name: Rand Paul
+  party: majority
+  rank: 6
+  title: Ex Officio
+  bioguide: P000603
+- name: John Fetterman
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: F000479
+- name: Margaret Wood Hassan
+  party: minority
+  rank: 2
+  bioguide: H001076
+- name: Ruben Gallego
+  party: minority
+  rank: 3
+  bioguide: G000574
+- name: Elissa Slotkin
+  party: minority
+  rank: 4
+  bioguide: S001208
+- name: Gary C. Peters
+  party: minority
+  rank: 5
+  title: Ex Officio
+  bioguide: P000595
 SLIA:
 - name: Lisa Murkowski
   party: majority
@@ -2303,17 +3159,38 @@ JSTX:
 - name: Mike Crapo
   party: majority
   rank: 1
+  title: Vice Chairman
   bioguide: C000880
   chamber: senate
+- name: Jason Smith
+  party: majority
+  rank: 1
+  title: Vice Chairman
+  bioguide: S001195
+  chamber: house
 - name: Chuck Grassley
   party: majority
   rank: 2
   bioguide: G000386
   chamber: senate
+- name: Vern Buchanan
+  party: majority
+  rank: 2
+  bioguide: B001260
+  chamber: house
+- name: John Cornyn
+  party: majority
+  rank: 3
+  bioguide: C001056
+  chamber: senate
+- name: Adrian Smith
+  party: majority
+  rank: 3
+  bioguide: S001172
+  chamber: house
 - name: Ron Wyden
   party: minority
   rank: 1
-  title: Chairman
   bioguide: W000779
   chamber: senate
 - name: Maria Cantwell
@@ -2321,6 +3198,16 @@ JSTX:
   rank: 2
   bioguide: C000127
   chamber: senate
+- name: Richard E. Neal
+  party: minority
+  rank: 4
+  bioguide: N000015
+  chamber: house
+- name: Lloyd Doggett
+  party: minority
+  rank: 5
+  bioguide: D000399
+  chamber: house
 JSLC:
 - name: Deb Fischer
   party: majority
@@ -2612,13 +3499,9 @@ SCNC:
   party: minority
   rank: 2
   bioguide: B001277
-- name: Margaret Wood Hassan
-  party: minority
-  rank: 3
-  bioguide: H001076
 - name: Ben Ray Luján
   party: minority
-  rank: 4
+  rank: 3
   bioguide: L000570
 JCSE:
 - name: Roger F. Wicker
@@ -2676,6 +3559,7 @@ HSII:
 - name: Robert J. Wittman
   party: majority
   rank: 2
+  title: Vice Chair
   bioguide: W000804
 - name: Raúl M. Grijalva
   party: minority
@@ -4922,38 +5806,42 @@ HLIG:
   party: majority
   rank: 7
   bioguide: C001120
-- name: Josh Gottheimer
+- name: Stacey E. Plaskett
   party: minority
   rank: 7
-  bioguide: G000583
+  bioguide: P000610
 - name: Ronny Jackson
   party: majority
   rank: 8
   bioguide: J000304
-- name: Jimmy Gomez
+- name: Josh Gottheimer
   party: minority
   rank: 8
-  bioguide: G000585
+  bioguide: G000583
 - name: Scott Perry
   party: majority
   rank: 9
   bioguide: P000605
-- name: Chrissy Houlahan
+- name: Jimmy Gomez
   party: minority
   rank: 9
-  bioguide: H001085
+  bioguide: G000585
 - name: Ann Wagner
   party: majority
   rank: 10
   bioguide: W000812
-- name: Mike Quigley
+- name: Chrissy Houlahan
   party: minority
   rank: 10
-  bioguide: Q000023
+  bioguide: H001085
 - name: Ben Cline
   party: majority
   rank: 11
   bioguide: C001118
+- name: Mike Quigley
+  party: minority
+  rank: 11
+  bioguide: Q000023
 - name: W. Gregory Steube
   party: majority
   rank: 12
@@ -5236,157 +6124,153 @@ HSFA:
   party: minority
   rank: 6
   bioguide: C001091
-- name: Ann Wagner
+- name: Tim Burchett
   party: majority
   rank: 7
-  bioguide: W000812
+  bioguide: B001309
 - name: Dina Titus
   party: minority
   rank: 7
   bioguide: T000468
-- name: Tim Burchett
+- name: Mark E. Green
   party: majority
   rank: 8
-  bioguide: B001309
+  bioguide: G000590
 - name: Ted Lieu
   party: minority
   rank: 8
   bioguide: L000582
-- name: Mark E. Green
+- name: Andy Barr
   party: majority
   rank: 9
-  bioguide: G000590
+  bioguide: B001282
 - name: Sara Jacobs
   party: minority
   rank: 9
   bioguide: J000305
-- name: Andy Barr
+- name: Ronny Jackson
   party: majority
   rank: 10
-  bioguide: B001282
+  bioguide: J000304
 - name: Sheila Cherfilus-McCormick
   party: minority
   rank: 10
   bioguide: C001127
-- name: Ronny Jackson
+- name: Young Kim
   party: majority
   rank: 11
-  bioguide: J000304
+  bioguide: K000397
 - name: Greg Stanton
   party: minority
   rank: 11
   bioguide: S001211
-- name: Young Kim
+- name: Maria Elvira Salazar
   party: majority
   rank: 12
-  bioguide: K000397
+  bioguide: S000168
 - name: Jared Moskowitz
   party: minority
   rank: 12
   bioguide: M001217
-- name: Maria Elvira Salazar
+- name: Bill Huizenga
   party: majority
   rank: 13
-  bioguide: S000168
+  bioguide: H001058
 - name: Jonathan L. Jackson
   party: minority
   rank: 13
   bioguide: J000309
-- name: Bill Huizenga
+- name: Aumua Amata Coleman Radewagen
   party: majority
   rank: 14
-  bioguide: H001058
+  bioguide: R000600
 - name: Sydney Kamlager-Dove
   party: minority
   rank: 14
   bioguide: K000400
-- name: Aumua Amata Coleman Radewagen
+- name: Warren Davidson
   party: majority
   rank: 15
-  bioguide: R000600
+  bioguide: D000626
 - name: Jim Costa
   party: minority
   rank: 15
   bioguide: C001059
-- name: Warren Davidson
+- name: James R. Baird
   party: majority
   rank: 16
-  bioguide: D000626
+  bioguide: B001307
 - name: Gabe Amo
   party: minority
   rank: 16
   bioguide: A000380
-- name: James R. Baird
+- name: Thomas H. Kean, Jr.
   party: majority
   rank: 17
-  bioguide: B001307
+  bioguide: K000398
 - name: Kweisi Mfume
   party: minority
   rank: 17
   bioguide: M000687
-- name: Thomas H. Kean, Jr.
+- name: Michael Lawler
   party: majority
   rank: 18
-  bioguide: K000398
+  bioguide: L000599
 - name: Pramila Jayapal
   party: minority
   rank: 18
   bioguide: J000298
-- name: Michael Lawler
+- name: Cory Mills
   party: majority
   rank: 19
-  bioguide: L000599
+  bioguide: M001216
 - name: George Latimer
   party: minority
   rank: 19
   bioguide: L000606
-- name: Cory Mills
+- name: Keith Self
   party: majority
   rank: 20
-  bioguide: M001216
+  bioguide: S001224
 - name: Johnny Olszewski, Jr.
   party: minority
   rank: 20
   bioguide: O000176
-- name: Keith Self
+- name: Ryan K. Zinke
   party: majority
   rank: 21
-  bioguide: S001224
+  bioguide: Z000018
 - name: Julie Johnson
   party: minority
   rank: 21
   bioguide: J000310
-- name: Ryan K. Zinke
+- name: James C. Moylan
   party: majority
   rank: 22
-  bioguide: Z000018
+  bioguide: M001219
 - name: Sarah McBride
   party: minority
   rank: 22
   bioguide: M001238
-- name: James C. Moylan
-  party: majority
-  rank: 23
-  bioguide: M001219
 - name: Anna Paulina Luna
   party: majority
-  rank: 24
+  rank: 23
   bioguide: L000596
 - name: Jefferson Shreve
   party: majority
-  rank: 25
+  rank: 24
   bioguide: S001229
 - name: Sheri Biggs
   party: majority
-  rank: 26
+  rank: 25
   bioguide: B001325
 - name: Michael Baumgartner
   party: majority
-  rank: 27
+  rank: 26
   bioguide: B001322
 - name: Ryan Mackenzie
   party: majority
-  rank: 28
+  rank: 27
   bioguide: M001230
 HSVR:
 - name: Mike Bost
@@ -5614,29 +6498,33 @@ HSED:
   party: minority
   rank: 15
   bioguide: L000602
-- name: Robert F. Onder, Jr.
+- name: James C. Moylan
   party: majority
   rank: 16
-  bioguide: O000177
+  bioguide: M001219
 - name: John W. Mannion
   party: minority
   rank: 16
   bioguide: M001231
-- name: Ryan Mackenzie
+- name: Robert F. Onder, Jr.
   party: majority
   rank: 17
+  bioguide: O000177
+- name: Ryan Mackenzie
+  party: majority
+  rank: 18
   bioguide: M001230
 - name: Michael Baumgartner
   party: majority
-  rank: 18
+  rank: 19
   bioguide: B001322
 - name: Mark Harris
   party: majority
-  rank: 19
+  rank: 20
   bioguide: H001102
 - name: Mark B. Messmer
   party: majority
-  rank: 20
+  rank: 21
   bioguide: M001233
 HSSM:
 - name: Roger Williams
@@ -5903,30 +6791,34 @@ HSBU:
   party: majority
   rank: 13
   bioguide: B001317
-- name: Paul Tonko
+- name: Judy Chu
   party: minority
   rank: 13
-  bioguide: T000469
+  bioguide: C001080
 - name: Jay Obernolte
   party: majority
   rank: 14
   bioguide: O000019
-- name: Morgan McGarvey
+- name: Paul Tonko
   party: minority
   rank: 14
-  bioguide: M001220
+  bioguide: T000469
 - name: Mike Carey
   party: majority
   rank: 15
   bioguide: C001126
-- name: Gabe Amo
+- name: Morgan McGarvey
   party: minority
   rank: 15
-  bioguide: A000380
+  bioguide: M001220
 - name: Chuck Edwards
   party: majority
   rank: 16
   bioguide: E000246
+- name: Gabe Amo
+  party: minority
+  rank: 16
+  bioguide: A000380
 - name: Andrew S. Clyde
   party: majority
   rank: 17
@@ -6047,3 +6939,1046 @@ HSHA:
   party: majority
   rank: 8
   bioguide: M001211
+HSII06:
+- name: Pete Stauber
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S001212
+- name: Yassamin Ansari
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: A000381
+- name: Robert J. Wittman
+  party: majority
+  rank: 2
+  bioguide: W000804
+- name: Seth Magaziner
+  party: minority
+  rank: 2
+  bioguide: M001223
+- name: Paul A. Gosar
+  party: majority
+  rank: 3
+  bioguide: G000565
+- name: Dave Min
+  party: minority
+  rank: 3
+  bioguide: M001241
+- name: Daniel Webster
+  party: majority
+  rank: 4
+  bioguide: W000806
+- name: Sarah Elfreth
+  party: minority
+  rank: 4
+  bioguide: E000301
+- name: Russ Fulcher
+  party: majority
+  rank: 5
+  bioguide: F000469
+- name: Luz M. Rivas
+  party: minority
+  rank: 5
+  bioguide: R000620
+- name: Thomas P. Tiffany
+  party: majority
+  rank: 6
+  bioguide: T000165
+- name: Debbie Dingell
+  party: minority
+  rank: 6
+  bioguide: D000624
+- name: Jennifer A. Kiggans
+  party: majority
+  rank: 7
+  bioguide: K000399
+- name: Jared Huffman
+  party: minority
+  rank: 7
+  bioguide: H001068
+- name: Wesley Hunt
+  party: majority
+  rank: 8
+  bioguide: H001095
+- name: Jared F. Golden
+  party: minority
+  rank: 8
+  bioguide: G000592
+- name: Mike Collins
+  party: majority
+  rank: 9
+  bioguide: C001129
+- name: Nydia M. Velázquez
+  party: minority
+  rank: 9
+  bioguide: V000081
+- name: Harriet M. Hageman
+  party: majority
+  rank: 10
+  bioguide: H001096
+- name: Mike Ezell
+  party: majority
+  rank: 11
+  bioguide: E000235
+- name: Jeff Crank
+  party: majority
+  rank: 12
+  bioguide: C001137
+- name: Nicholas J. Begich III
+  party: majority
+  rank: 13
+  title: Vice Chair
+  bioguide: B001323
+- name: Jeff Hurd
+  party: majority
+  rank: 14
+  bioguide: H001100
+HSII15:
+- name: Paul A. Gosar
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: G000565
+- name: Maxine Dexter
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000635
+- name: Lauren Boebert
+  party: majority
+  rank: 2
+  bioguide: B000825
+- name: Yassamin Ansari
+  party: minority
+  rank: 2
+  bioguide: A000381
+- name: Mike Collins
+  party: majority
+  rank: 3
+  bioguide: C001129
+- name: Pablo José Hernández
+  party: minority
+  rank: 3
+  bioguide: H001103
+- name: Mark E. Amodei
+  party: majority
+  rank: 4
+  bioguide: A000369
+- name: Adam Gray
+  party: minority
+  rank: 4
+  bioguide: G000605
+- name: Nicholas J. Begich III
+  party: majority
+  rank: 5
+  bioguide: B001323
+HSAG15:
+- name: Doug LaMalfa
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: L000578
+- name: Andrea Salinas
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: S001226
+- name: Barry Moore
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: M001212
+- name: Jim Costa
+  party: minority
+  rank: 2
+  bioguide: C001059
+- name: David Rouzer
+  party: majority
+  rank: 3
+  bioguide: R000603
+- name: Gabe Vasquez
+  party: minority
+  rank: 3
+  bioguide: V000136
+- name: Trent Kelly
+  party: majority
+  rank: 4
+  bioguide: K000388
+- name: Adam Gray
+  party: minority
+  rank: 4
+  bioguide: G000605
+- name: James R. Baird
+  party: majority
+  rank: 5
+  bioguide: B001307
+- name: Josh Riley
+  party: minority
+  rank: 5
+  bioguide: R000622
+- name: Dan Newhouse
+  party: majority
+  rank: 6
+  bioguide: N000189
+- name: Tony Wied
+  party: majority
+  rank: 7
+  bioguide: W000829
+HSAG16:
+- name: Austin Scott
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: S001189
+- name: Sharice Davids
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000629
+- name: David Rouzer
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: R000603
+- name: Shontel M. Brown
+  party: minority
+  rank: 2
+  bioguide: B001313
+- name: Eric A. "Rick" Crawford
+  party: majority
+  rank: 3
+  bioguide: C001087
+- name: Donald G. Davis
+  party: minority
+  rank: 3
+  bioguide: D000230
+- name: Doug LaMalfa
+  party: majority
+  rank: 4
+  bioguide: L000578
+- name: Nikki Budzinski
+  party: minority
+  rank: 4
+  bioguide: B001315
+- name: Mike Bost
+  party: majority
+  rank: 5
+  bioguide: B001295
+- name: Eric Sorensen
+  party: minority
+  rank: 5
+  bioguide: S001225
+- name: Dusty Johnson
+  party: majority
+  rank: 6
+  bioguide: J000301
+- name: Kristen McDonald Rivet
+  party: minority
+  rank: 6
+  bioguide: M001237
+- name: Mary E. Miller
+  party: majority
+  rank: 7
+  bioguide: M001211
+- name: Barry Moore
+  party: majority
+  rank: 8
+  bioguide: M001212
+- name: Brad Finstad
+  party: majority
+  rank: 9
+  bioguide: F000475
+- name: John W. Rose
+  party: majority
+  rank: 10
+  bioguide: R000612
+- name: Monica De La Cruz
+  party: majority
+  rank: 11
+  bioguide: D000594
+- name: Zachary Nunn
+  party: majority
+  rank: 12
+  bioguide: N000193
+- name: Mark Harris
+  party: majority
+  rank: 13
+  bioguide: H001102
+- name: David J. Taylor
+  party: majority
+  rank: 14
+  bioguide: T000490
+HSAG29:
+- name: Tracey Mann
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M000871
+- name: Jim Costa
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001059
+- name: Derrick Van Orden
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: V000135
+- name: Jahana Hayes
+  party: minority
+  rank: 2
+  bioguide: H001081
+- name: Scott DesJarlais
+  party: majority
+  rank: 3
+  bioguide: D000616
+- name: Donald G. Davis
+  party: minority
+  rank: 3
+  bioguide: D000230
+- name: Trent Kelly
+  party: majority
+  rank: 4
+  bioguide: K000388
+- name: Adam Gray
+  party: minority
+  rank: 4
+  bioguide: G000605
+- name: Don Bacon
+  party: majority
+  rank: 5
+  bioguide: B001298
+- name: Josh Riley
+  party: minority
+  rank: 5
+  bioguide: R000622
+- name: James R. Baird
+  party: majority
+  rank: 6
+  bioguide: B001307
+- name: Randy Feenstra
+  party: majority
+  rank: 7
+  bioguide: F000446
+- name: Mary E. Miller
+  party: majority
+  rank: 8
+  bioguide: M001211
+- name: Barry Moore
+  party: majority
+  rank: 9
+  bioguide: M001212
+- name: Brad Finstad
+  party: majority
+  rank: 10
+  bioguide: F000475
+- name: Ronny Jackson
+  party: majority
+  rank: 11
+  bioguide: J000304
+- name: Tony Wied
+  party: majority
+  rank: 12
+  bioguide: W000829
+- name: Mark B. Messmer
+  party: majority
+  rank: 13
+  bioguide: M001233
+- name: Mark Harris
+  party: majority
+  rank: 14
+  bioguide: H001102
+HSAG03:
+- name: Brad Finstad
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: F000475
+- name: Jahana Hayes
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H001081
+- name: Monica De La Cruz
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: D000594
+- name: James P. McGovern
+  party: minority
+  rank: 2
+  bioguide: M000312
+- name: Frank D. Lucas
+  party: majority
+  rank: 3
+  bioguide: L000491
+- name: Alma S. Adams
+  party: minority
+  rank: 3
+  bioguide: A000370
+- name: Austin Scott
+  party: majority
+  rank: 4
+  bioguide: S001189
+- name: Shontel M. Brown
+  party: minority
+  rank: 4
+  bioguide: B001313
+- name: Scott DesJarlais
+  party: majority
+  rank: 5
+  bioguide: D000616
+- name: Andrea Salinas
+  party: minority
+  rank: 5
+  bioguide: S001226
+- name: James R. Baird
+  party: majority
+  rank: 6
+  bioguide: B001307
+- name: Jill N. Tokuda
+  party: minority
+  rank: 6
+  bioguide: T000487
+- name: Tracey Mann
+  party: majority
+  rank: 7
+  bioguide: M000871
+- name: Jonathan L. Jackson
+  party: minority
+  rank: 7
+  bioguide: J000309
+- name: Mary E. Miller
+  party: majority
+  rank: 8
+  bioguide: M001211
+- name: Shomari Figures
+  party: minority
+  rank: 8
+  bioguide: F000481
+- name: Derrick Van Orden
+  party: majority
+  rank: 9
+  bioguide: V000135
+- name: Tony Wied
+  party: majority
+  rank: 10
+  bioguide: W000829
+- name: Mark Harris
+  party: majority
+  rank: 11
+  bioguide: H001102
+HSAG22:
+- name: Dusty Johnson
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: J000301
+- name: Donald G. Davis
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000230
+- name: John W. Rose
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: R000612
+- name: David Scott
+  party: minority
+  rank: 2
+  bioguide: S001157
+- name: Frank D. Lucas
+  party: majority
+  rank: 3
+  bioguide: L000491
+- name: Nikki Budzinski
+  party: minority
+  rank: 3
+  bioguide: B001315
+- name: Austin Scott
+  party: majority
+  rank: 4
+  bioguide: S001189
+- name: Jonathan L. Jackson
+  party: minority
+  rank: 4
+  bioguide: J000309
+- name: David Rouzer
+  party: majority
+  rank: 5
+  bioguide: R000603
+- name: Shri Thanedar
+  party: minority
+  rank: 5
+  bioguide: T000488
+- name: Tracey Mann
+  party: majority
+  rank: 6
+  bioguide: M000871
+- name: Adam Gray
+  party: minority
+  rank: 6
+  bioguide: G000605
+- name: Kat Cammack
+  party: majority
+  rank: 7
+  bioguide: C001039
+- name: Kristen McDonald Rivet
+  party: minority
+  rank: 7
+  bioguide: M001237
+- name: Brad Finstad
+  party: majority
+  rank: 8
+  bioguide: F000475
+- name: Shomari Figures
+  party: minority
+  rank: 8
+  bioguide: F000481
+- name: Zachary Nunn
+  party: majority
+  rank: 9
+  bioguide: N000193
+- name: Eugene Simon Vindman
+  party: minority
+  rank: 9
+  bioguide: V000138
+- name: Robert P. Bresnahan, Jr.
+  party: majority
+  rank: 10
+  bioguide: B001327
+- name: John W. Mannion
+  party: minority
+  rank: 10
+  bioguide: M001231
+- name: Mark B. Messmer
+  party: majority
+  rank: 11
+  bioguide: M001233
+- name: April McClain Delaney
+  party: minority
+  rank: 11
+  bioguide: M001232
+- name: David J. Taylor
+  party: majority
+  rank: 12
+  bioguide: T000490
+HSII13:
+- name: Harriet M. Hageman
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: H001096
+- name: Val T. Hoyle
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: H001094
+- name: Robert J. Wittman
+  party: majority
+  rank: 2
+  bioguide: W000804
+- name: Seth Magaziner
+  party: minority
+  rank: 2
+  bioguide: M001223
+- name: Tom McClintock
+  party: majority
+  rank: 3
+  bioguide: M001177
+- name: Debbie Dingell
+  party: minority
+  rank: 3
+  bioguide: D000624
+- name: Aumua Amata Coleman Radewagen
+  party: majority
+  rank: 4
+  bioguide: R000600
+- name: Melanie A. Stansbury
+  party: minority
+  rank: 4
+  bioguide: S001218
+- name: Doug LaMalfa
+  party: majority
+  rank: 5
+  bioguide: L000578
+- name: Jared F. Golden
+  party: minority
+  rank: 5
+  bioguide: G000592
+- name: Daniel Webster
+  party: majority
+  rank: 6
+  bioguide: W000806
+- name: Dave Min
+  party: minority
+  rank: 6
+  bioguide: M001241
+- name: Lauren Boebert
+  party: majority
+  rank: 7
+  bioguide: B000825
+- name: Sarah Elfreth
+  party: minority
+  rank: 7
+  bioguide: E000301
+- name: Cliff Bentz
+  party: majority
+  rank: 8
+  bioguide: B000668
+- name: Adam Gray
+  party: minority
+  rank: 8
+  bioguide: G000605
+- name: Jennifer A. Kiggans
+  party: majority
+  rank: 9
+  bioguide: K000399
+- name: Luz M. Rivas
+  party: minority
+  rank: 9
+  bioguide: R000620
+- name: Tim Walberg
+  party: majority
+  rank: 10
+  bioguide: W000798
+- name: Darren Soto
+  party: minority
+  rank: 10
+  bioguide: S001200
+- name: Mike Ezell
+  party: majority
+  rank: 11
+  title: Vice Chair
+  bioguide: E000235
+- name: Julia Brownley
+  party: minority
+  rank: 11
+  bioguide: B001285
+- name: Celeste Maloy
+  party: majority
+  rank: 12
+  bioguide: M001228
+- name: Joe Neguse
+  party: minority
+  rank: 12
+  bioguide: N000191
+- name: Addison P. McDowell
+  party: majority
+  rank: 13
+  bioguide: M001240
+- name: Jeff Crank
+  party: majority
+  rank: 14
+  bioguide: C001137
+HSII24:
+- name: Jeff Hurd
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: H001100
+- name: Teresa Leger Fernandez
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: L000273
+- name: Aumua Amata Coleman Radewagen
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: R000600
+- name: Nydia M. Velázquez
+  party: minority
+  rank: 2
+  bioguide: V000081
+- name: Doug LaMalfa
+  party: majority
+  rank: 3
+  bioguide: L000578
+- name: Val T. Hoyle
+  party: minority
+  rank: 3
+  bioguide: H001094
+- name: Tim Walberg
+  party: majority
+  rank: 4
+  bioguide: W000798
+- name: Pablo José Hernández
+  party: minority
+  rank: 4
+  bioguide: H001103
+- name: Addison P. McDowell
+  party: majority
+  rank: 5
+  bioguide: M001240
+- name: Emily Randall
+  party: minority
+  rank: 5
+  bioguide: R000621
+- name: Mike Kennedy
+  party: majority
+  rank: 6
+  bioguide: K000403
+HSZS:
+- name: John R. Moolenaar
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: M001194
+- name: Raja Krishnamoorthi
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: K000391
+- name: Robert J. Wittman
+  party: majority
+  rank: 2
+  bioguide: W000804
+- name: Kathy Castor
+  party: minority
+  rank: 2
+  bioguide: C001066
+- name: Andy Barr
+  party: majority
+  rank: 3
+  bioguide: B001282
+- name: André Carson
+  party: minority
+  rank: 3
+  bioguide: C001072
+- name: Dan Newhouse
+  party: majority
+  rank: 4
+  bioguide: N000189
+- name: Seth Moulton
+  party: minority
+  rank: 4
+  bioguide: M001196
+- name: Darin LaHood
+  party: majority
+  rank: 5
+  bioguide: L000585
+- name: Ro Khanna
+  party: minority
+  rank: 5
+  bioguide: K000389
+- name: Neal P. Dunn
+  party: majority
+  rank: 6
+  bioguide: D000628
+- name: Mikie Sherrill
+  party: minority
+  rank: 6
+  bioguide: S001207
+- name: Dusty Johnson
+  party: majority
+  rank: 7
+  bioguide: J000301
+- name: Haley M. Stevens
+  party: minority
+  rank: 7
+  bioguide: S001215
+- name: Ashley Hinson
+  party: majority
+  rank: 8
+  bioguide: H001091
+- name: Ritchie Torres
+  party: minority
+  rank: 8
+  bioguide: T000486
+- name: Carlos A. Gimenez
+  party: majority
+  rank: 9
+  bioguide: G000593
+- name: Shontel M. Brown
+  party: minority
+  rank: 9
+  bioguide: B001313
+- name: Gus M. Bilirakis
+  party: majority
+  rank: 10
+  bioguide: B001257
+- name: Greg Stanton
+  party: minority
+  rank: 10
+  bioguide: S001211
+- name: Young Kim
+  party: majority
+  rank: 11
+  bioguide: K000397
+- name: Jill N. Tokuda
+  party: minority
+  rank: 11
+  bioguide: T000487
+- name: Nathaniel Moran
+  party: majority
+  rank: 12
+  bioguide: M001224
+- name: Zachary Nunn
+  party: majority
+  rank: 13
+  bioguide: N000193
+HSII10:
+- name: Thomas P. Tiffany
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: T000165
+- name: Joe Neguse
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: N000191
+- name: Tom McClintock
+  party: majority
+  rank: 2
+  bioguide: M001177
+- name: Raúl M. Grijalva
+  party: minority
+  rank: 2
+  bioguide: G000551
+- name: Russ Fulcher
+  party: majority
+  rank: 3
+  bioguide: F000469
+- name: Teresa Leger Fernandez
+  party: minority
+  rank: 3
+  bioguide: L000273
+- name: Pete Stauber
+  party: majority
+  rank: 4
+  bioguide: S001212
+- name: Melanie A. Stansbury
+  party: minority
+  rank: 4
+  bioguide: S001218
+- name: Cliff Bentz
+  party: majority
+  rank: 5
+  bioguide: B000668
+- name: Jared F. Golden
+  party: minority
+  rank: 5
+  bioguide: G000592
+- name: Wesley Hunt
+  party: majority
+  rank: 6
+  bioguide: H001095
+- name: Maxine Dexter
+  party: minority
+  rank: 6
+  bioguide: D000635
+- name: Mark E. Amodei
+  party: majority
+  rank: 7
+  bioguide: A000369
+- name: Emily Randall
+  party: minority
+  rank: 7
+  bioguide: R000621
+- name: Celeste Maloy
+  party: majority
+  rank: 8
+  bioguide: M001228
+- name: Mike Kennedy
+  party: majority
+  rank: 9
+  title: Vice Chair
+  bioguide: K000403
+HSSO:
+- name: Michael Guest
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: G000591
+- name: Mark DeSaulnier
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: D000623
+HSSM22:
+- name: Brian Jack
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: J000311
+- name: Tony Wied
+  party: majority
+  rank: 2
+  bioguide: W000829
+- name: Robert P. Bresnahan, Jr.
+  party: majority
+  rank: 3
+  bioguide: B001327
+- name: Troy Downing
+  party: majority
+  rank: 4
+  bioguide: D000634
+- name: Derek Schmidt
+  party: majority
+  rank: 5
+  bioguide: S001228
+HSSM23:
+- name: Nick LaLota
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: L000598
+- name: Daniel Meuser
+  party: majority
+  rank: 2
+  bioguide: M001204
+- name: Brian Jack
+  party: majority
+  rank: 3
+  bioguide: J000311
+- name: Kimberlyn King-Hinds
+  party: majority
+  rank: 4
+  bioguide: K000404
+HSAG14:
+- name: Frank D. Lucas
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: L000491
+- name: Jill N. Tokuda
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: T000487
+- name: James R. Baird
+  party: majority
+  rank: 2
+  title: Vice Chair
+  bioguide: B001307
+- name: Alma S. Adams
+  party: minority
+  rank: 2
+  bioguide: A000370
+- name: Don Bacon
+  party: majority
+  rank: 3
+  bioguide: B001298
+- name: Sharice Davids
+  party: minority
+  rank: 3
+  bioguide: D000629
+- name: Randy Feenstra
+  party: majority
+  rank: 4
+  bioguide: F000446
+- name: Nikki Budzinski
+  party: minority
+  rank: 4
+  bioguide: B001315
+- name: Mary E. Miller
+  party: majority
+  rank: 5
+  bioguide: M001211
+- name: Eric Sorensen
+  party: minority
+  rank: 5
+  bioguide: S001225
+- name: John W. Rose
+  party: majority
+  rank: 6
+  bioguide: R000612
+- name: Gabe Vasquez
+  party: minority
+  rank: 6
+  bioguide: V000136
+- name: Ronny Jackson
+  party: majority
+  rank: 7
+  bioguide: J000304
+- name: Eugene Simon Vindman
+  party: minority
+  rank: 7
+  bioguide: V000138
+- name: Dan Newhouse
+  party: majority
+  rank: 8
+  bioguide: N000189
+- name: John W. Mannion
+  party: minority
+  rank: 8
+  bioguide: M001231
+- name: Robert P. Bresnahan, Jr.
+  party: majority
+  rank: 9
+  bioguide: B001327
+- name: April McClain Delaney
+  party: minority
+  rank: 9
+  bioguide: M001232
+- name: Mark B. Messmer
+  party: majority
+  rank: 10
+  bioguide: M001233
+HSSM21:
+- name: Jake Ellzey
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: E000071
+- name: Pete Stauber
+  party: majority
+  rank: 2
+  bioguide: S001212
+- name: Brad Finstad
+  party: majority
+  rank: 3
+  bioguide: F000475
+- name: Tony Wied
+  party: majority
+  rank: 4
+  bioguide: W000829
+- name: Derek Schmidt
+  party: majority
+  rank: 5
+  bioguide: S001228
+HSSM24:
+- name: Mark Alford
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: A000379
+- name: Pete Stauber
+  party: majority
+  rank: 2
+  bioguide: S001212
+- name: Brad Finstad
+  party: majority
+  rank: 3
+  bioguide: F000475
+- name: Troy Downing
+  party: majority
+  rank: 4
+  bioguide: D000634
+HSSM27:
+- name: Beth Van Duyne
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: V000134
+- name: Daniel Meuser
+  party: majority
+  rank: 2
+  bioguide: M001204
+- name: Nick LaLota
+  party: majority
+  rank: 3
+  bioguide: L000598
+- name: Robert P. Bresnahan, Jr.
+  party: majority
+  rank: 4
+  bioguide: B001327
+- name: Kimberlyn King-Hinds
+  party: majority
+  rank: 5
+  bioguide: K000404
