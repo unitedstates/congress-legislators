@@ -1616,7 +1616,7 @@
     longitude: -114.47751
     fax: 208-733-0414
     phone: 208-734-2515
-  - id: C000880-coeur_d'_alene
+  - id: C000880-coeur_d__alene
     address: 610 Hubbard Ave
     suite: Suite 209
     city: Coeur d' Alene
@@ -3989,10 +3989,10 @@
     longitude: -116.3929
     fax: 208-888-0894
     phone: 208-888-3188
-  - id: F000469-coeur_d’alene
+  - id: F000469-coeur_d_alene
     address: 1250 West Ironwood Drive
     suite: Suite 200
-    city: Coeur d’Alene
+    city: Coeur d'Alene
     state: ID
     zip: '83814'
     fax: 208-667-0310
@@ -4178,7 +4178,7 @@
     latitude: 40.2614659
     longitude: -76.8804167
     phone: 717-782-3951
-  - id: F000479-wilkes-barre
+  - id: F000479-wilkes_barre
     address: 7 North Wilkes-Barre Boulevard
     suite: Suite 406
     city: Wilkes-Barre
@@ -4657,7 +4657,7 @@
     latitude: 33.5096288
     longitude: -112.0115488
     phone: 480-697-3600
-  - id: G000574-tuscon
+  - id: G000574-tucson
     address: 20 East Ochoa Street
     city: Tucson
     state: AZ
@@ -5171,7 +5171,7 @@
     zip: '81601'
     latitude: 39.5389107
     longitude: -107.3247097
-    hour: By appointment only
+    hours: By appointment only
     phone: 970-989-7075
 - id:
     bioguide: H000601
@@ -6686,7 +6686,7 @@
     latitude: 34.2570023
     longitude: -88.70811259999999
     phone: 662-841-8808
-  - id: K000388-farmington
+  - id: K000388-corinth
     address: 4135 County Road 200
     city: Corinth
     state: MS
@@ -6983,7 +6983,7 @@
     latitude: 38.8044598
     longitude: -121.2969999
     hours: Mon–Fri 9:00am–5:00pm
-    phone: 916-724-2575; 1-888-406-3855 (Toll Free)
+    phone: 916-724-2575
 - id:
     bioguide: K000402
     govtrack: 456957
@@ -9678,7 +9678,6 @@
     zip: '42103'
     latitude: 36.967389
     longitude: -86.408322
-    fax: N/A
     phone: 270-782-8303
 - id:
     bioguide: P000605
@@ -11618,7 +11617,7 @@
     bioguide: S001215
     govtrack: 412786
   offices:
-  - id: S001215-farmington-hills
+  - id: S001215-farmington_hills
     address: 30500 Northwestern Highway
     suite: Suite 525
     city: Farmington Hills
@@ -11923,7 +11922,7 @@
   - id: S001227-cape_girardeau
     address: 555 Independence St.
     suite: Suite 1500
-    city: Cape Girardeau,
+    city: Cape Girardeau
     state: MO
     zip: '63703'
     latitude: 37.3034239
@@ -13518,7 +13517,7 @@
     latitude: 46.014661
     longitude: -112.538169
     phone: 406-782-2048
-  - id: S001232-kalispell
+  - id: S001232-east_kalispell
     address: 8-3rd Street
     city: East Kalispell
     state: MT
@@ -14255,7 +14254,7 @@
     bioguide: R000622
     govtrack: 457012
   offices:
-  - id: R000622-binghampton
+  - id: R000622-binghamton
     address: 49 Court St
     suite: Suite 210
     city: Binghamton
