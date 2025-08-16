@@ -14142,7 +14142,17 @@
 - id:
     bioguide: K000405
     govtrack: 457004
-  offices: []
+  offices:
+  - id: K000405-garner
+    address: 12450 Cleveland Road
+    suite: '203'
+    city: Garner
+    state: NC
+    zip: '27529'
+    latitude: 35.6025316
+    longitude: -78.5694802
+    phone: 984-275-6150
+    fax: 984-275-6150
 - id:
     bioguide: M001236
     govtrack: 457005
