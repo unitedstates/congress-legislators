@@ -14105,7 +14105,15 @@
 - id:
     bioguide: M001240
     govtrack: 457001
-  offices: []
+  offices:
+  - id: M001240-lexington
+    address: 30 E. 1st Ave
+    city: Lexington
+    state: NC
+    zip: '27292'
+    latitude: 35.8230105
+    longitude: -80.25303939999999
+    phone: 336-333-5005
 - id:
     bioguide: H001102
     govtrack: 457002
