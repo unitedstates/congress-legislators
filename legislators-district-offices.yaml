@@ -2967,7 +2967,33 @@
 - id:
     bioguide: D000230
     govtrack: 456912
-  offices: []
+  offices:
+  - id: D000230-elizabeth_city
+    address: 306 E. Colonial Ave
+    city: Elizabeth City
+    state: NC
+    zip: '27809'
+    latitude: 36.30107979977425
+    longitude: -76.22130776002555
+    phone: 252-999-7600
+  - id: D000230-rocky_mount
+    address: 1151 Falls Road
+    suite: 2002
+    city: Rocky Mount
+    state: NC
+    zip: '27804'
+    latitude: 35.959351372292204
+    longitude: -77.80114151564116
+    phone: 252-999-7600
+  - id: D000230-goldsboro
+    address: 2803 Cashwell Drive
+    suite: B
+    city: Goldsboro
+    state: NC
+    zip: '27534'
+    latitude: 35.376925620996445
+    longitude: -77.94742613044136
+    phone: 252-999-7600
 - id:
     bioguide: D000399
     govtrack: 400111
