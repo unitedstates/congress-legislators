@@ -13653,7 +13653,16 @@
 - id:
     bioguide: A000381
     govtrack: 456972
-  offices: []
+  offices:
+  - id: A000381-phoenix
+  address: 3770 N 7th St
+  suite: 100b
+  city: Phoenix
+  state: AZ
+  zip: 85014
+  latitude: 33.491056939891365
+  longitude: -112.06524607862144
+  phone: 602-956-2285
 - id:
     bioguide: H001098
     govtrack: 456973
