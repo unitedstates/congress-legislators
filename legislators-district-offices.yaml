@@ -14678,3 +14678,24 @@
     latitude: 18.235596158558387
     longitude: -66.0364996227024
     phone: 787-230-7959
+- id:
+    bioguide: P000622
+    govtrack: 457034
+  offices:
+  - id: P000622-crestview
+    address: 805 E. James Lee Blvd.
+    city: Crestview
+    state: FL
+    zip: '32539'
+    latitude: 30.7619635
+    longitude: -86.56192159999999
+    phone: 850-603-6690
+  - id: P000622-pensacola
+    address: 1000 College Boulevard
+    suite: Building 20, Room 2030
+    city: Pensacola
+    state: FL
+    zip: '32504'
+    latitude: 30.47862319999999
+    longitude: -87.2024593
+    phone: 850-479-1183
