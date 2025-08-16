@@ -14223,7 +14223,15 @@
 - id:
     bioguide: C001136
     govtrack: 457008
-  offices: []
+  offices:
+  - id: C001136-trenton
+    address: 4573 S Broad Street
+    city: Trenton
+    state: NJ
+    zip: '08620'
+    latitude: 40.17897719245051
+    longitude: -74.67150589475895
+    phone: 609-438-6290
 - id:
     bioguide: P000621
     govtrack: 457009
