@@ -13318,7 +13318,7 @@
     suite: Suite 2450
     city: San Francisco
     state: CA
-    zip: 94104
+    zip: '94104'
     latitude: 37.788973993979155
     longitude: -122.40264950109052
     phone: 415-393-0707
@@ -13327,17 +13327,16 @@
     suite: Suite 4290
     city: Fresno
     state: CA
-    zip: 93721
+    zip: '93721'
     latitude: 36.73764940448596
     longitude: -119.78374599676975
     phone: 559-485-7430
-    fax: 
   - id: S001150-san_diego
     address: 880 Front Street
     suite: Suite 4236
     city: San Diego
     state: CA
-    zip: 92101
+    zip: '92101'
     latitude: 32.71445658682798
     longitude: -117.16484326622106
     phone: 619-231-9712
@@ -13659,14 +13658,14 @@
     govtrack: 456972
   offices:
   - id: A000381-phoenix
-  address: 3770 N 7th St
-  suite: 100b
-  city: Phoenix
-  state: AZ
-  zip: 85014
-  latitude: 33.491056939891365
-  longitude: -112.06524607862144
-  phone: 602-956-2285
+    address: 3770 N 7th St
+    suite: 100b
+    city: Phoenix
+    state: AZ
+    zip: '85014'
+    latitude: 33.491056939891365
+    longitude: -112.06524607862144
+    phone: 602-956-2285
 - id:
     bioguide: H001098
     govtrack: 456973
@@ -14047,7 +14046,7 @@
     zip: '55441'
     latitude: 45.0153361
     longitude: -93.4546105
-    phone: (952) 656-5176
+    phone: 952-656-5176
 - id:
     bioguide: B001324
     govtrack: 456997
