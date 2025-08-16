@@ -14571,4 +14571,40 @@
 - id:
     bioguide: H001104
     govtrack: 457032
-  offices: []
+  offices:
+  - id: H001104-toledo
+    address: 420 Madison Avenue
+    suite: Suite 1210
+    city: Toledo
+    state: OH
+    zip: '43604'
+    latitude: 41.6518666
+    longitude: -83.5353165
+    phone: 567-304-3777
+  - id: H001104-columbus
+    address: John W. Bricker Federal Building, 200 North High Street
+    suite: Suite 600
+    city: Columbus
+    state: OH
+    zip: '43215'
+    latitude: 39.9666883
+    longitude: -83.000974
+    phone: 614-369-4925
+  - id: H001104-middletown
+    address: 300 North Main Street
+    suite: Suite 200
+    city: Middletown
+    state: OH
+    zip: '45042'
+    latitude: 39.5201724
+    longitude: -84.4027772
+    phone: 513-318-1100
+  - id: H001104-cleveland
+    address: 1240 East 9th Street
+    suite: 3061
+    city: Cleveland
+    state: OH
+    zip: '44199'
+    latitude: 41.5046806
+    longitude: -81.69175469999999
+    phone: 216-539-7877
