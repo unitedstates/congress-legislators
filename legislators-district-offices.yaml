@@ -14038,7 +14038,16 @@
 - id:
     bioguide: M001234
     govtrack: 456996
-  offices: []
+  offices:
+  - id: M001234-plymouth
+    address: 3033 Campus Dr.
+    suite: W105
+    city: Plymouth
+    state: MN
+    zip: '55441'
+    latitude: 45.0153361
+    longitude: -93.4546105
+    phone: (952) 656-5176
 - id:
     bioguide: B001324
     govtrack: 456997
