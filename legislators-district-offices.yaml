@@ -14722,3 +14722,28 @@
     longitude: -81.30618919999999
     phone: 386-279-0707
     fax: 386-279-0874
+- id:
+    bioguide: K000404
+    govtrack: 456999
+  offices:
+  - id: K000404-saipan
+    address: P.O. Box 504879
+    city: Saipan
+    state: MP
+    zip: '96950'
+    phone: 670-323-2647
+    fax: 670-323-2649
+  - id: K000404-tinian
+    address: P.O. Box 520394
+    city: Tinian
+    state: MP
+    zip: '96952'
+    phone: 670-433-2647
+    fax: 670-433-2648
+  - id: K000404-rota
+    address: P.O. Box 1361
+    city: Rota
+    state: MP
+    zip: '96951'
+    phone: 670-532-2647
+    fax: 670-532-2649
