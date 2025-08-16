@@ -13763,7 +13763,16 @@
 - id:
     bioguide: T000491
     govtrack: 456980
-  offices: []
+  offices:
+  - id: T000491-cypress
+    address: 6803 International Ave.
+    suite: 100
+    city: Cypress
+    state: CA
+    zip: '90630'
+    latitude: 33.8049611
+    longitude: -118.0145416
+    phone: 714-960-6483
 - id:
     bioguide: M001241
     govtrack: 456981
