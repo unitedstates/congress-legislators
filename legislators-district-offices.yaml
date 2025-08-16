@@ -13308,7 +13308,35 @@
     bioguide: S001150
     govtrack: 400361
     thomas: '01635'
-  offices: []
+  offices:
+  - id: S001150-san_francisco
+    address: 1 Post St
+    suite: Suite 2450
+    city: San Francisco
+    state: CA
+    zip: 94104
+    latitude: 37.788973993979155
+    longitude: -122.40264950109052
+    phone: 415-393-0707
+  - id: S001150-fresno
+    address: 2500 Tulare Street
+    suite: Suite 4290
+    city: Fresno
+    state: CA
+    zip: 93721
+    latitude: 36.73764940448596
+    longitude: -119.78374599676975
+    phone: 559-485-7430
+    fax: 
+  - id: S001150-san_diego
+    address: 880 Front Street
+    suite: Suite 4236
+    city: San Diego
+    state: CA
+    zip: 92101
+    latitude: 32.71445658682798
+    longitude: -117.16484326622106
+    phone: 619-231-9712
 - id:
     bioguide: K000394
     govtrack: 412797
