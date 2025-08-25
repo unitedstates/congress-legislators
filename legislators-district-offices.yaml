@@ -2967,7 +2967,33 @@
 - id:
     bioguide: D000230
     govtrack: 456912
-  offices: []
+  offices:
+  - id: D000230-elizabeth_city
+    address: 306 E. Colonial Ave
+    city: Elizabeth City
+    state: NC
+    zip: '27809'
+    latitude: 36.30107979977425
+    longitude: -76.22130776002555
+    phone: 252-999-7600
+  - id: D000230-rocky_mount
+    address: 1151 Falls Road
+    suite: 2002
+    city: Rocky Mount
+    state: NC
+    zip: '27804'
+    latitude: 35.959351372292204
+    longitude: -77.80114151564116
+    phone: 252-999-7600
+  - id: D000230-goldsboro
+    address: 2803 Cashwell Drive
+    suite: B
+    city: Goldsboro
+    state: NC
+    zip: '27534'
+    latitude: 35.376925620996445
+    longitude: -77.94742613044136
+    phone: 252-999-7600
 - id:
     bioguide: D000399
     govtrack: 400111
@@ -3982,6 +4008,8 @@
     zip: '83814'
     fax: 208-667-0310
     phone: 208-667-0127
+    latitude: 47.6967907
+    longitude: -116.8040665
 - id:
     bioguide: F000470
     govtrack: 456828
@@ -4792,37 +4820,6 @@
     latitude: 32.737428
     longitude: -96.27866560000001
     phone: 903-502-5300
-- id:
-    bioguide: G000590
-    govtrack: 412819
-  offices:
-  - id: G000590-clarksville
-    address: 128 N 2nd St
-    suite: Suite 104
-    city: Clarksville
-    state: TN
-    zip: 37040-6458
-    latitude: 36.52823
-    longitude: -87.35903
-    phone: 202-225-2811
-  - id: G000590-franklin
-    address: 305 Public Sq
-    suite: Suite 212
-    city: Franklin
-    state: TN
-    zip: 37064-2580
-    latitude: 35.92501
-    longitude: -86.86902
-    phone: 629-223-6050
-  - id: G000590-nashville
-    address: 801 Broadway
-    suite: Suite C 507
-    city: Nashville
-    state: TN
-    zip: '37203'
-    latitude: 36.15826
-    longitude: -86.7825982
-    phone: 629-999-4950
 - id:
     bioguide: G000591
     govtrack: 412793
@@ -6251,6 +6248,10 @@
   - id: J000305-san_diego
     latitude: 32.8324882
     longitude: -117.1234039
+    address: 3465 Camino del Rio S
+    suite: 350
+    city: San Diego
+    state: CA
     hours: By appointment only
     fax: 619-280-5311
     phone: 619-280-5353
@@ -6642,6 +6643,8 @@
     state: MS
     zip: '38844'
     phone: 662-687-1525
+    latitude: 34.9311171
+    longitude: -88.4576292
 - id:
     bioguide: K000389
     govtrack: 412684
@@ -8309,6 +8312,8 @@
     state: CA
     zip: '95762'
     phone: 916-786-5560
+    latitude: 38.6511457
+    longitude: -121.0659062
 - id:
     bioguide: M001184
     govtrack: 412503
@@ -11672,6 +11677,8 @@
     city: Miami
     state: FL
     zip: '33134'
+    latitude: 25.763512363689713
+    longitude: -80.25889450921065
     phone: 786-501-7141
   - id: S001217-tallahassee
     address: 111 N. Adams St.
@@ -13313,7 +13320,34 @@
     bioguide: S001150
     govtrack: 400361
     thomas: '01635'
-  offices: []
+  offices:
+  - id: S001150-san_francisco
+    address: 1 Post St
+    suite: Suite 2450
+    city: San Francisco
+    state: CA
+    zip: '94104'
+    latitude: 37.788973993979155
+    longitude: -122.40264950109052
+    phone: 415-393-0707
+  - id: S001150-fresno
+    address: 2500 Tulare Street
+    suite: Suite 4290
+    city: Fresno
+    state: CA
+    zip: '93721'
+    latitude: 36.73764940448596
+    longitude: -119.78374599676975
+    phone: 559-485-7430
+  - id: S001150-san_diego
+    address: 880 Front Street
+    suite: Suite 4236
+    city: San Diego
+    state: CA
+    zip: '92101'
+    latitude: 32.71445658682798
+    longitude: -117.16484326622106
+    phone: 619-231-9712
 - id:
     bioguide: K000394
     govtrack: 412797
@@ -13630,7 +13664,16 @@
 - id:
     bioguide: A000381
     govtrack: 456972
-  offices: []
+  offices:
+  - id: A000381-phoenix
+    address: 3770 N 7th St
+    suite: 100b
+    city: Phoenix
+    state: AZ
+    zip: '85014'
+    latitude: 33.491056939891365
+    longitude: -112.06524607862144
+    phone: 602-956-2285
 - id:
     bioguide: H001098
     govtrack: 456973
@@ -13727,7 +13770,16 @@
 - id:
     bioguide: T000491
     govtrack: 456980
-  offices: []
+  offices:
+  - id: T000491-cypress
+    address: 6803 International Ave.
+    suite: 100
+    city: Cypress
+    state: CA
+    zip: '90630'
+    latitude: 33.8049611
+    longitude: -118.0145416
+    phone: 714-960-6483
 - id:
     bioguide: M001241
     govtrack: 456981
@@ -13993,7 +14045,16 @@
 - id:
     bioguide: M001234
     govtrack: 456996
-  offices: []
+  offices:
+  - id: M001234-plymouth
+    address: 3033 Campus Dr.
+    suite: W105
+    city: Plymouth
+    state: MN
+    zip: '55441'
+    latitude: 45.0153361
+    longitude: -93.4546105
+    phone: 952-656-5176
 - id:
     bioguide: B001324
     govtrack: 456997
@@ -14051,7 +14112,15 @@
 - id:
     bioguide: M001240
     govtrack: 457001
-  offices: []
+  offices:
+  - id: M001240-lexington
+    address: 30 E. 1st Ave
+    city: Lexington
+    state: NC
+    zip: '27292'
+    latitude: 35.8230105
+    longitude: -80.25303939999999
+    phone: 336-333-5005
 - id:
     bioguide: H001102
     govtrack: 457002
@@ -14080,7 +14149,17 @@
 - id:
     bioguide: K000405
     govtrack: 457004
-  offices: []
+  offices:
+  - id: K000405-garner
+    address: 12450 Cleveland Road
+    suite: '203'
+    city: Garner
+    state: NC
+    zip: '27529'
+    latitude: 35.6025316
+    longitude: -78.5694802
+    phone: 984-275-6150
+    fax: 984-275-6150
 - id:
     bioguide: M001236
     govtrack: 457005
@@ -14151,7 +14230,15 @@
 - id:
     bioguide: C001136
     govtrack: 457008
-  offices: []
+  offices:
+  - id: C001136-trenton
+    address: 4573 S Broad Street
+    city: Trenton
+    state: NJ
+    zip: '08620'
+    latitude: 40.17897719245051
+    longitude: -74.67150589475895
+    phone: 609-438-6290
 - id:
     bioguide: P000621
     govtrack: 457009
@@ -14535,4 +14622,179 @@
 - id:
     bioguide: H001104
     govtrack: 457032
-  offices: []
+  offices:
+  - id: H001104-toledo
+    address: 420 Madison Avenue
+    suite: Suite 1210
+    city: Toledo
+    state: OH
+    zip: '43604'
+    latitude: 41.6518666
+    longitude: -83.5353165
+    phone: 567-304-3777
+  - id: H001104-columbus
+    address: John W. Bricker Federal Building, 200 North High Street
+    suite: Suite 600
+    city: Columbus
+    state: OH
+    zip: '43215'
+    latitude: 39.9666883
+    longitude: -83.000974
+    phone: 614-369-4925
+  - id: H001104-middletown
+    address: 300 North Main Street
+    suite: Suite 200
+    city: Middletown
+    state: OH
+    zip: '45042'
+    latitude: 39.5201724
+    longitude: -84.4027772
+    phone: 513-318-1100
+  - id: H001104-cleveland
+    address: 1240 East 9th Street
+    suite: 3061
+    city: Cleveland
+    state: OH
+    zip: '44199'
+    latitude: 41.5046806
+    longitude: -81.69175469999999
+    phone: 216-539-7877
+- id:
+    bioguide: M001244
+    govtrack: 457033
+  offices:
+  - id: M001244-tallahassee
+    address: 402 S. Monroe St.
+    suite: Suite 2105
+    city: Tallahassee
+    state: FL
+    zip: 32399-6526
+    latitude: 30.4381132
+    longitude: -84.2813144
+    phone: 850-599-9100
+  - id: M001244-palm_beach_gardens
+    address: 4822 Northlake Boulevard
+    suite: Suite B-1
+    city: Palm Beach Gardens
+    state: FL
+    zip: 33418-3920
+    latitude: 26.8085681
+    longitude: -80.1113367
+    phone: 561-775-3360
+  - id: M001244-jacksonville
+    address: 300 North Hogan Street
+    suite: Suite 8-111
+    city: Jacksonville
+    state: FL
+    zip: '32202'
+    latitude: 30.329682
+    longitude: -81.6606134
+    phone: 904-354-4300
+  - id: M001244-miami
+    address: 9130 S Dadeland Blvd.
+    suite: 1510
+    city: Miami
+    state: FL
+    zip: 33156-7850
+    latitude: 25.6852013
+    longitude: -80.3141728
+    phone: 305-596-4224
+  - id: M001244-orlando
+    address: 201 S Orange Av.
+    suite: Suite 350
+    city: Orlando
+    state: FL
+    zip: 32801-3499
+    latitude: 28.5401009
+    longitude: -81.37816029999999
+    phone: 407-254-2573
+  - id: M001244-fort_myers
+    address: 2120 Main Street
+    suite: Suite 200
+    city: Fort Myers
+    state: FL
+    zip: '33901'
+    latitude: 26.6423574
+    longitude: -81.8702443
+    phone: 239-318-6464
+- id:
+    bioguide: H001103
+    govtrack: 457019
+  offices:
+  - id: H001103-caguas
+    address: Centro de Bellas Artes, Calle Padial, esquina Calle Ruiz Belvis
+    city: Caguas
+    state: PR
+    zip: '00725'
+    latitude: 18.235596158558387
+    longitude: -66.0364996227024
+    phone: 787-230-7959
+- id:
+    bioguide: P000622
+    govtrack: 457034
+  offices:
+  - id: P000622-crestview
+    address: 805 E. James Lee Blvd.
+    city: Crestview
+    state: FL
+    zip: '32539'
+    latitude: 30.7619635
+    longitude: -86.56192159999999
+    phone: 850-603-6690
+  - id: P000622-pensacola
+    address: 1000 College Boulevard
+    suite: Building 20, Room 2030
+    city: Pensacola
+    state: FL
+    zip: '32504'
+    latitude: 30.47862319999999
+    longitude: -87.2024593
+    phone: 850-479-1183
+- id:
+    bioguide: F000484
+    govtrack: 457035
+  offices:
+  - id: F000484-palm_coast
+    address: 31 Lupi Court
+    suite: Suite 130
+    city: Palm Coast
+    state: FL
+    zip: 32137-4761
+    latitude: 29.5549017
+    longitude: -81.2341902
+    phone: 386-302-0442
+    fax: 386-283-5164
+  - id: F000484-deland
+    address: 120 S. Florida Ave.
+    city: Deland
+    state: FL
+    zip: 32720-5422
+    latitude: 29.0278849
+    longitude: -81.30618919999999
+    phone: 386-279-0707
+    fax: 386-279-0874
+- id:
+    bioguide: K000404
+    govtrack: 456999
+  offices:
+  - id: K000404-saipan
+    address: P.O. Box 504879
+    city: Saipan
+    state: MP
+    zip: '96950'
+    phone: 670-323-2647
+    fax: 670-323-2649
+  - id: K000404-tinian
+    address: P.O. Box 520394
+    city: Tinian
+    state: MP
+    zip: '96952'
+    phone: 670-433-2647
+    fax: 670-433-2648
+  - id: K000404-rota
+    address: P.O. Box 1361
+    city: Rota
+    state: MP
+    zip: '96951'
+    phone: 670-532-2647
+    fax: 670-532-2649
