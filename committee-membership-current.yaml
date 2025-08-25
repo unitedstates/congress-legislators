@@ -9600,6 +9600,10 @@ HSII06:
   party: majority
   rank: 10
   bioguide: H001096
+- name: Susie Lee
+  party: minority
+  rank: 10
+  bioguide: L000590
 - name: Mike Ezell
   party: majority
   rank: 11
@@ -10355,6 +10359,10 @@ HSII10:
   party: majority
   rank: 7
   bioguide: A000369
+- name: Susie Lee
+  party: minority
+  rank: 7
+  bioguide: L000590
 - name: Celeste Maloy
   party: majority
   rank: 8
@@ -10450,6 +10458,10 @@ HSSM22:
   party: minority
   rank: 5
   bioguide: M001229
+- name: Jimmy Patronis
+  party: majority
+  rank: 6
+  bioguide: P000622
 HSSM23:
 - name: Nick LaLota
   party: majority
@@ -10608,6 +10620,10 @@ HSSM21:
   party: majority
   rank: 5
   bioguide: S001228
+- name: Jimmy Patronis
+  party: majority
+  rank: 6
+  bioguide: P000622
 HSSM24:
 - name: Mark Alford
   party: majority
@@ -10643,6 +10659,10 @@ HSSM24:
   party: minority
   rank: 4
   bioguide: S001231
+- name: Jimmy Patronis
+  party: majority
+  rank: 5
+  bioguide: P000622
 - name: Maggie Goodlander
   party: minority
   rank: 5
@@ -13808,26 +13828,26 @@ HSED13:
   party: minority
   rank: 3
   bioguide: T000472
-- name: Virginia Foxx
+- name: Glenn Thompson
   party: majority
   rank: 4
-  bioguide: F000450
+  bioguide: T000467
 - name: Lucy McBath
   party: minority
   rank: 4
   bioguide: M001208
-- name: Glenn Thompson
+- name: Glenn Grothman
   party: majority
   rank: 5
-  bioguide: T000467
+  bioguide: G000576
 - name: Donald Norcross
   party: minority
   rank: 5
   bioguide: N000188
-- name: Glenn Grothman
+- name: Elise M. Stefanik
   party: majority
   rank: 6
-  bioguide: G000576
+  bioguide: S001196
 - name: Joe Courtney
   party: minority
   rank: 6
@@ -13848,22 +13868,26 @@ HSED13:
   party: minority
   rank: 8
   bioguide: D000623
+- name: James C. Moylan
+  party: majority
+  rank: 9
+  bioguide: M001219
 - name: Ilhan Omar
   party: minority
   rank: 9
   bioguide: O000173
-- name: James C. Moylan
-  party: majority
-  rank: 10
-  bioguide: M001219
 - name: Robert F. Onder, Jr.
   party: majority
-  rank: 11
+  rank: 10
   bioguide: O000177
 - name: Mark Harris
   party: majority
-  rank: 12
+  rank: 11
   bioguide: H001102
+- name: Randy Fine
+  party: majority
+  rank: 12
+  bioguide: F000484
 HSED14:
 - name: Kevin Kiley
   party: majority
@@ -14505,26 +14529,30 @@ HSED02:
   party: minority
   rank: 7
   bioguide: L000602
+- name: Michael A. Rulli
+  party: majority
+  rank: 8
+  bioguide: R000619
 - name: John W. Mannion
   party: minority
   rank: 8
   bioguide: M001231
-- name: Michael A. Rulli
+- name: Ryan Mackenzie
   party: majority
   rank: 9
-  bioguide: R000619
+  bioguide: M001230
 - name: Mark Takano
   party: minority
   rank: 9
   bioguide: T000472
-- name: Ryan Mackenzie
-  party: majority
-  rank: 10
-  bioguide: M001230
 - name: Michael Baumgartner
   party: majority
-  rank: 11
+  rank: 10
   bioguide: B001322
+- name: Randy Fine
+  party: majority
+  rank: 11
+  bioguide: F000484
 HSHM08:
 - name: Andrew R. Garbarino
   party: majority
@@ -15845,10 +15873,10 @@ HSED10:
   party: majority
   rank: 5
   bioguide: M001211
-- name: James C. Moylan
+- name: Randy Fine
   party: majority
   rank: 6
-  bioguide: M001219
+  bioguide: F000484
 HSAP10:
 - name: Charles J. "Chuck" Fleischmann
   party: majority
