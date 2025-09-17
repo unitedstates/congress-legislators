@@ -1,0 +1,7 @@
+# Adding missing subcommittee to House Committee on Financial Services
+# https://financialservices.house.gov/subcommittees/subcommittee/?IssueID=99491
+- type: house
+  thomas_id: HSBA
+  subcommittees:
+  - name: Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity
+    thomas_id: '98'
