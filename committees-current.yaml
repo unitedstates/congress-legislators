@@ -819,7 +819,7 @@
   address: SD-G01 DSOB; Washington, DC 20510-6432
   phone: (202) 224-5171
 - type: joint
-  name: Joint Committee on the Library
+  name: Joint Committee of Congress on the Library
   url: https://cha.house.gov/jointcommittees/joint-committee-library
   thomas_id: JSLC
   house_committee_id: JL
@@ -1414,3 +1414,10 @@
   name: House Task Force on the Attempted Assassination of Donald J. Trump
   address: 4440 OHOB; Washington, DC 20515
   phone: (202) (771) 245-4408
+- type: house
+  thomas_id: HSQJ
+  house_committee_id: QJ
+  name: House Select Subcommittee to Investigate the Remaining Questions Surrounding
+    January 6, 2021
+  address: TBD TBD; Washington, DC 20515
+  phone: (202) 225-7800
