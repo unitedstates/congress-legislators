@@ -13859,6 +13859,7 @@
     votesmart: 9489
     fec:
     - H0CA27085
+    - S4CA00555
     cspan: 90167
     wikipedia: Adam Schiff
     ballotpedia: Adam Schiff
@@ -17666,6 +17667,7 @@
     fec:
     - H6VT00160
     - H8VT00034
+    - S2VT00235
     cspan: 1019990
     wikipedia: Peter Welch
     ballotpedia: Peter Welch
@@ -21658,6 +21660,7 @@
     wikipedia: Markwayne Mullin
     fec:
     - H2OK02083
+    - S2OK00186
     opensecrets: N00033410
     ballotpedia: Markwayne Mullin
     maplight: 1792
@@ -23386,6 +23389,7 @@
     lis: S432
     fec:
     - H4AZ07043
+    - S4AZ00139
     govtrack: 412612
     opensecrets: N00036097
     thomas: '02226'
@@ -26750,6 +26754,7 @@
     votesmart: 173249
     fec:
     - H6DE00206
+    - S4DE00060
     opensecrets: N00038414
     maplight: 2201
     google_entity_id: kg:/g/11c3yvwbvn
@@ -27193,6 +27198,7 @@
     votesmart: 116801
     fec:
     - H6IN03229
+    - S4IN00196
     opensecrets: N00037185
     maplight: 2214
     google_entity_id: kg:/m/0j621nj
@@ -27628,6 +27634,7 @@
     votesmart: 171489
     fec:
     - H6NC13129
+    - S2NC00505
     opensecrets: N00039551
     maplight: 2224
     google_entity_id: kg:/g/11c2nmnsj0
@@ -28633,6 +28640,7 @@
     lis: S431
     fec:
     - H8UT03238
+    - S4UT00282
     govtrack: 412740
     opensecrets: N00041221
     votesmart: 123390
@@ -30339,6 +30347,7 @@
     lis: S436
     fec:
     - H8MI08102
+    - S4MI00470
     govtrack: 412784
     wikipedia: Elissa Slotkin
     wikidata: Q30323721
@@ -30897,6 +30906,7 @@
     lis: S426
     fec:
     - H8NJ03206
+    - S4NJ00466
     govtrack: 412797
     wikipedia: Andy Kim (politician)
     wikidata: Q55639180
@@ -39381,6 +39391,8 @@
     thomas: '00379'
     govtrack: 404067
     opensecrets: N00005398
+    fec:
+    - H4LA06211
     wikipedia: Cleo Fields
     house_history: 13112
     icpsr: 29354
@@ -39501,6 +39513,7 @@
     bioguide: C001123
     fec:
     - H8CA39174
+    - H4CA31170
     govtrack: 412757
     opensecrets: N00041464
     wikipedia: Gil Cisneros
@@ -40414,6 +40427,7 @@
     bioguide: O000177
     fec:
     - H8MO09146
+    - H4MO03221
     govtrack: 456998
     opensecrets: N00030025
     wikipedia: Bob Onder
@@ -40522,6 +40536,7 @@
     bioguide: H001102
     fec:
     - H6NC09200
+    - H4NC08066
     govtrack: 457002
     opensecrets: N00035491
     wikipedia: Mark Harris (North Carolina politician)
@@ -41141,7 +41156,8 @@
 - id:
     bioguide: M001239
     fec:
-    - H4VA05071
+    - H2VA07196
+    - H0VA07133
     govtrack: 457026
     opensecrets: N00045930
     wikipedia: John McGuire (Virginia politician)
@@ -41334,6 +41350,8 @@
     bioguide: H001104
     lis: S438
     govtrack: 457032
+    fec:
+    - S6OH00304
     wikipedia: Jon Husted
     wikidata: Q6270269
   name:
@@ -41362,6 +41380,8 @@
     bioguide: M001244
     lis: S439
     govtrack: 457033
+    fec:
+    - S6FL00640
     wikipedia: Ashley Moody
     wikidata: Q58333626
   name:
