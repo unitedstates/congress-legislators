@@ -1,9 +1,7 @@
 from feedfinder2 import find_feeds
-import json
 import pathlib
 import requests
 import feedparser
-import sys
 from datetime import datetime, timedelta, timezone
 from utils import load_data, save_data, states as state_names
 
@@ -87,7 +85,9 @@ for item in current:
     #     sys.exit()
 
     term = item['terms'][-1]
-    print(f"Checking for RSS for {item['name']['official_full']}")
+
+    if 'official_full' in item['name']:
+        print(f"Checking for RSS for {item['id']['bioguide']} {item['name'].get('official_full', '')}")
 
     # skip senate republicans drupal sites, none have valid feeds
     if term['type'] == 'sen' and term['party'] == 'Republican':
@@ -99,7 +99,7 @@ for item in current:
             if not check_feed(term['rss_url'], days_to_check):
                 print(f"Removing defunct url {term['rss_url']}")
                 del term['rss_url']    
-        except requests.exceptions.ConnectionError as e:
+        except Exception as e:
             print(f"Connection Error {e} on {term['url']} check url veracity")
 
     if not 'rss_url' in term and 'url' in term:

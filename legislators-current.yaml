@@ -85,7 +85,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.cantwell.senate.gov
-    rss_url: http://www.cantwell.senate.gov/public/index.cfm/rss/feed
     contact_form: https://www.cantwell.senate.gov/public/index.cfm/email-maria
     address: 511 Hart Senate Office Building Washington DC 20510
     office: 511 Hart Senate Office Building
@@ -404,7 +403,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.whitehouse.senate.gov
-    rss_url: http://www.whitehouse.senate.gov/rss/feeds/?type=all&amp;cachebuster=1
     contact_form: https://www.whitehouse.senate.gov/contact/email-sheldon
     address: 530 Hart Senate Office Building Washington DC 20510
     office: 530 Hart Senate Office Building
@@ -966,7 +964,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.durbin.senate.gov
-    rss_url: http://durbin.senate.gov/public/index.cfm/rss/feed
     contact_form: https://www.durbin.senate.gov/contact/
     address: 711 Hart Senate Office Building Washington DC 20510
     office: 711 Hart Senate Office Building
@@ -1365,7 +1362,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.reed.senate.gov
-    rss_url: https://www.reed.senate.gov//rss/feeds/?type=all
     contact_form: https://www.reed.senate.gov/contact/
     address: 728 Hart Senate Office Building Washington DC 20510
     office: 728 Hart Senate Office Building
@@ -1496,7 +1492,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.shaheen.senate.gov
-    rss_url: http://www.shaheen.senate.gov/rss/
     contact_form: https://www.shaheen.senate.gov/contact/contact-jeanne
     address: 506 Hart Senate Office Building Washington DC 20510
     office: 506 Hart Senate Office Building
@@ -1572,7 +1567,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.warner.senate.gov
-    rss_url: http://www.warner.senate.gov/public/?a=rss.feed
     contact_form: https://www.warner.senate.gov/public/index.cfm?p=Contact
     address: 703 Hart Senate Office Building Washington DC 20510
     office: 703 Hart Senate Office Building
@@ -1734,7 +1728,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.coons.senate.gov
-    rss_url: http://www.coons.senate.gov/rss/feeds/?type=all
     contact_form: https://www.coons.senate.gov/contact
     address: 218 Russell Senate Office Building Washington DC 20510
     office: 218 Russell Senate Office Building
@@ -1901,7 +1894,6 @@
     district: 4
     party: Republican
     url: https://aderholt.house.gov
-    rss_url: http://aderholt.house.gov/common/rss//index.cfm?rss=20
     address: 272 Cannon House Office Building Washington DC 20515-0104
     office: 272 Cannon House Office Building
     phone: 202-225-4876
@@ -2031,7 +2023,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.baldwin.senate.gov
-    rss_url: http://www.baldwin.senate.gov/rss/feeds/?type=all
     contact_form: https://www.baldwin.senate.gov/feedback
     address: 141 Hart Senate Office Building Washington DC 20510
     office: 141 Hart Senate Office Building
@@ -2106,11 +2097,11 @@
     state_rank: senior
     party: Democrat
     url: https://www.bennet.senate.gov
-    rss_url: http://www.bennet.senate.gov/rss/feeds/?type=news
     contact_form: https://www.bennet.senate.gov/public/index.cfm/contact
     address: 261 Russell Senate Office Building Washington DC 20510
     office: 261 Russell Senate Office Building
     phone: 202-224-5852
+    rss_url: https://www.bennet.senate.gov/feed/
 - id:
     bioguide: B001257
     thomas: '01838'
@@ -2241,10 +2232,10 @@
     district: 12
     party: Republican
     url: https://bilirakis.house.gov
-    rss_url: http://bilirakis.house.gov/index.php?format=feed&amp;type=rss
     address: 2306 Rayburn House Office Building Washington DC 20515-0912
     office: 2306 Rayburn House Office Building
     phone: 202-225-5755
+    rss_url: https://bilirakis.house.gov/rss.xml
   family:
   - name: Michael Bilirakis
     relation: son
@@ -2618,7 +2609,6 @@
     state_rank: senior
     party: Democrat
     url: https://www.blumenthal.senate.gov
-    rss_url: http://www.blumenthal.senate.gov/rss/feeds/?type=all
     contact_form: https://www.blumenthal.senate.gov/contact/
     address: 503 Hart Senate Office Building Washington DC 20510
     office: 503 Hart Senate Office Building
@@ -2854,7 +2844,6 @@
     district: 16
     party: Republican
     url: https://buchanan.house.gov
-    rss_url: http://buchanan.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=2
     address: 2409 Rayburn House Office Building Washington DC 20515-0916
     office: 2409 Rayburn House Office Building
     phone: 202-225-5015
@@ -3032,7 +3021,6 @@
     district: 41
     party: Republican
     url: https://calvert.house.gov
-    rss_url: http://calvert.house.gov/news/rss.aspx
     address: 2205 Rayburn House Office Building Washington DC 20515-0541
     office: 2205 Rayburn House Office Building
     phone: 202-225-1986
@@ -3287,10 +3275,10 @@
     district: 7
     party: Democrat
     url: https://carson.house.gov
-    rss_url: http://carson.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
     address: 2135 Rayburn House Office Building Washington DC 20515-1407
     office: 2135 Rayburn House Office Building
     phone: 202-225-4011
+    rss_url: https://carson.house.gov/rss.xml
   family:
   - name: Julia Carson
     relation: grandson
@@ -3438,10 +3426,10 @@
     district: 31
     party: Republican
     url: https://carter.house.gov
-    rss_url: http://carter.house.gov/common/rss/?rss=40
     address: 2208 Rayburn House Office Building Washington DC 20515-4331
     office: 2208 Rayburn House Office Building
     phone: 202-225-3864
+    rss_url: https://carter.house.gov/news/rss.aspx
 - id:
     bioguide: C001075
     thomas: '01925'
@@ -3782,7 +3770,6 @@
     district: 28
     party: Democrat
     url: https://chu.house.gov
-    rss_url: http://chu.house.gov/rss.xml
     address: 2423 Rayburn House Office Building Washington DC 20515-0528
     office: 2423 Rayburn House Office Building
     phone: 202-225-5464
@@ -3916,10 +3903,10 @@
     district: 9
     party: Democrat
     url: https://clarke.house.gov
-    rss_url: http://clarke.house.gov/news/rss.aspx
     address: 2058 Rayburn House Office Building Washington DC 20515-3209
     office: 2058 Rayburn House Office Building
     phone: 202-225-6231
+    rss_url: https://clarke.house.gov/feed/
 - id:
     bioguide: C001061
     thomas: '01790'
@@ -4056,7 +4043,6 @@
     district: 5
     party: Democrat
     url: https://cleaver.house.gov
-    rss_url: http://cleaver.house.gov/rss.xml
     address: 2217 Rayburn House Office Building Washington DC 20515-2505
     office: 2217 Rayburn House Office Building
     phone: 202-225-4535
@@ -4248,10 +4234,10 @@
     district: 6
     party: Democrat
     url: https://clyburn.house.gov
-    rss_url: http://clyburn.house.gov/rss.xml
     address: 274 Cannon House Office Building Washington DC 20515-4006
     office: 274 Cannon House Office Building
     phone: 202-225-3315
+    rss_url: https://clyburn.house.gov/feed/
   family:
   - name: George Washington Murray
     relation: relative
@@ -4670,7 +4656,6 @@
     district: 21
     party: Democrat
     url: https://costa.house.gov
-    rss_url: http://costa.house.gov/index.php?format=feed&amp;type=rss
     address: 2081 Rayburn House Office Building Washington DC 20515-0521
     office: 2081 Rayburn House Office Building
     phone: 202-225-3341
@@ -4803,7 +4788,6 @@
     district: 2
     party: Democrat
     url: https://courtney.house.gov
-    rss_url: http://courtney.house.gov/index.php?format=feed&amp;type=rss
     address: 2449 Rayburn House Office Building Washington DC 20515-0702
     office: 2449 Rayburn House Office Building
     phone: 202-225-2076
@@ -5022,7 +5006,6 @@
     district: 1
     party: Republican
     url: https://crawford.house.gov
-    rss_url: http://crawford.house.gov/news/rss.aspx
     address: 2422 Rayburn House Office Building Washington DC 20515-0401
     office: 2422 Rayburn House Office Building
     phone: 202-225-4076
@@ -5327,10 +5310,10 @@
     district: 7
     party: Democrat
     url: https://davis.house.gov
-    rss_url: http://davis.house.gov/index.php?format=feed&type=rss
     address: 2159 Rayburn House Office Building Washington DC 20515-1307
     office: 2159 Rayburn House Office Building
     phone: 202-225-5006
+    rss_url: https://davis.house.gov/rss.xml
 - id:
     bioguide: D000197
     thomas: '01479'
@@ -5493,7 +5476,6 @@
     district: 1
     party: Democrat
     url: https://degette.house.gov
-    rss_url: http://degette.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
     address: 2111 Rayburn House Office Building Washington DC 20515-0601
     office: 2111 Rayburn House Office Building
     phone: 202-225-4431
@@ -5677,10 +5659,10 @@
     district: 3
     party: Democrat
     url: https://delauro.house.gov
-    rss_url: http://delauro.house.gov/index.php?format=feed&amp;type=rss
     address: 2413 Rayburn House Office Building Washington DC 20515-0703
     office: 2413 Rayburn House Office Building
     phone: 202-225-3661
+    rss_url: https://delauro.house.gov/rss.xml
 - id:
     bioguide: D000616
     thomas: '02062'
@@ -5795,7 +5777,6 @@
     district: 4
     party: Republican
     url: https://desjarlais.house.gov
-    rss_url: http://desjarlais.house.gov/news/rss.aspx
     address: 2304 Rayburn House Office Building Washington DC 20515-4204
     office: 2304 Rayburn House Office Building
     phone: 202-225-6831
@@ -5942,7 +5923,6 @@
     district: 26
     party: Republican
     url: https://mariodiazbalart.house.gov
-    rss_url: http://mariodiazbalart.house.gov/rss.xml
     address: 374 Cannon House Office Building Washington DC 20515-0926
     office: 374 Cannon House Office Building
     phone: 202-225-4211
@@ -6117,7 +6097,6 @@
     district: 37
     party: Democrat
     url: https://doggett.house.gov
-    rss_url: http://doggett.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
     address: 2307 Rayburn House Office Building Washington DC 20515-0001
     office: 2307 Rayburn House Office Building
     phone: 202-225-4865
@@ -6237,7 +6216,6 @@
     district: 3
     party: Republican
     url: https://fleischmann.house.gov
-    rss_url: http://fleischmann.house.gov/rss.xml
     address: 2187 Rayburn House Office Building Washington DC 20515-4203
     office: 2187 Rayburn House Office Building
     phone: 202-225-3271
@@ -6376,10 +6354,10 @@
     district: 5
     party: Republican
     url: https://foxx.house.gov
-    rss_url: http://foxx.house.gov/common/rss/?rss=55
     address: 2462 Rayburn House Office Building Washington DC 20515-3305
     office: 2462 Rayburn House Office Building
     phone: 202-225-2071
+    rss_url: https://foxx.house.gov/news/rss.aspx
 - id:
     bioguide: G000559
     thomas: '01973'
@@ -6502,7 +6480,6 @@
     district: 8
     party: Democrat
     url: https://garamendi.house.gov
-    rss_url: http://garamendi.house.gov/rss.xml
     address: 2428 Rayburn House Office Building Washington DC 20515-0508
     office: 2428 Rayburn House Office Building
     phone: 202-225-1880
@@ -6621,10 +6598,10 @@
     district: 9
     party: Republican
     url: https://gosar.house.gov
-    rss_url: http://gosar.house.gov/rss.xml
     address: 2057 Rayburn House Office Building Washington DC 20515-0309
     office: 2057 Rayburn House Office Building
     phone: 202-225-2315
+    rss_url: https://gosar.house.gov/news/rss.aspx
 - id:
     bioguide: G000386
     thomas: '00457'
@@ -6906,10 +6883,10 @@
     district: 6
     party: Republican
     url: https://graves.house.gov
-    rss_url: http://graves.house.gov/common/rss/index.cfm?rss=25
     address: 1135 Longworth House Office Building Washington DC 20515-2506
     office: 1135 Longworth House Office Building
     phone: 202-225-7041
+    rss_url: https://graves.house.gov/rss.xml
 - id:
     bioguide: G000553
     thomas: '01803'
@@ -7045,7 +7022,6 @@
     district: 9
     party: Democrat
     url: https://algreen.house.gov
-    rss_url: http://algreen.house.gov/rss.xml
     address: 2347 Rayburn House Office Building Washington DC 20515-4309
     office: 2347 Rayburn House Office Building
     phone: 202-225-7508
@@ -7290,10 +7266,10 @@
     district: 2
     party: Republican
     url: https://guthrie.house.gov
-    rss_url: http://guthrie.house.gov/common/rss/?rss=24
     address: 2161 Rayburn House Office Building Washington DC 20515-1702
     office: 2161 Rayburn House Office Building
     phone: 202-225-3501
+    rss_url: https://guthrie.house.gov/news/rss.aspx
 - id:
     bioguide: H001052
     thomas: '02026'
@@ -7408,7 +7384,6 @@
     district: 1
     party: Republican
     url: https://harris.house.gov
-    rss_url: http://harris.house.gov/rss.xml
     address: 1536 Longworth House Office Building Washington DC 20515-2001
     office: 1536 Longworth House Office Building
     phone: 202-225-5311
@@ -7619,7 +7594,6 @@
     district: 4
     party: Democrat
     url: https://himes.house.gov
-    rss_url: http://himes.house.gov/rss.xml
     address: 2137 Rayburn House Office Building Washington DC 20515-0704
     office: 2137 Rayburn House Office Building
     phone: 202-225-5541
@@ -7712,7 +7686,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.hirono.senate.gov
-    rss_url: http://www.hirono.senate.gov/rss/feeds/?type=all
     contact_form: https://www.hirono.senate.gov/contact
     address: 109 Hart Senate Office Building Washington DC 20510
     office: 109 Hart Senate Office Building
@@ -8026,7 +7999,6 @@
     district: 5
     party: Democrat
     url: https://hoyer.house.gov
-    rss_url: http://hoyer.house.gov/index.php?format=feed&amp;type=rss
     address: 1705 Longworth House Office Building Washington DC 20515-2005
     office: 1705 Longworth House Office Building
     phone: 202-225-4131
@@ -8280,7 +8252,6 @@
     district: 4
     party: Democrat
     url: https://hankjohnson.house.gov
-    rss_url: http://hankjohnson.house.gov/rss.xml
     address: 2240 Rayburn House Office Building Washington DC 20515-1004
     office: 2240 Rayburn House Office Building
     phone: 202-225-1605
@@ -8479,7 +8450,6 @@
     district: 4
     party: Republican
     url: https://jordan.house.gov
-    rss_url: http://jordan.house.gov/news/rss.aspx
     address: 2056 Rayburn House Office Building Washington DC 20515-3504
     office: 2056 Rayburn House Office Building
     phone: 202-225-2676
@@ -8686,7 +8656,6 @@
     district: 9
     party: Democrat
     url: https://kaptur.house.gov
-    rss_url: http://kaptur.house.gov/index.php?format=feed&amp;type=rss
     address: 2314 Rayburn House Office Building Washington DC 20515-3509
     office: 2314 Rayburn House Office Building
     phone: 202-225-4146
@@ -8805,7 +8774,6 @@
     district: 9
     party: Democrat
     url: https://keating.house.gov
-    rss_url: http://keating.house.gov/index.php?format=feed&amp;type=rss
     address: 2372 Rayburn House Office Building Washington DC 20515-2109
     office: 2372 Rayburn House Office Building
     phone: 202-225-3111
@@ -9166,10 +9134,10 @@
     district: 2
     party: Democrat
     url: https://larsen.house.gov
-    rss_url: http://larsen.house.gov/rss.xml
     address: 2163 Rayburn House Office Building Washington DC 20515-4702
     office: 2163 Rayburn House Office Building
     phone: 202-225-2605
+    rss_url: https://larsen.house.gov/news/rss.aspx
 - id:
     bioguide: L000557
     thomas: '01583'
@@ -9698,7 +9666,6 @@
     district: 18
     party: Democrat
     url: https://lofgren.house.gov
-    rss_url: http://lofgren.house.gov/index.php?format=feed&amp;type=rss
     address: 1401 Longworth House Office Building Washington DC 20515-0518
     office: 1401 Longworth House Office Building
     phone: 202-225-3072
@@ -9876,7 +9843,6 @@
     district: 3
     party: Republican
     url: https://lucas.house.gov
-    rss_url: http://lucas.house.gov/rss.xml
     address: 2405 Rayburn House Office Building Washington DC 20515-3603
     office: 2405 Rayburn House Office Building
     phone: 202-225-5565
@@ -10143,7 +10109,6 @@
     district: 8
     party: Democrat
     url: https://lynch.house.gov
-    rss_url: http://lynch.house.gov/rss.xml
     address: 2109 Rayburn House Office Building Washington DC 20515-2108
     office: 2109 Rayburn House Office Building
     phone: 202-225-8273
@@ -10486,7 +10451,6 @@
     district: 7
     party: Democrat
     url: https://matsui.house.gov
-    rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
     address: 2206 Rayburn House Office Building Washington DC 20515-0507
     office: 2206 Rayburn House Office Building
     phone: 202-225-7163
@@ -10749,10 +10713,10 @@
     district: 5
     party: Republican
     url: https://mcclintock.house.gov
-    rss_url: http://mcclintock.house.gov/atom.xml
     address: 2256 Rayburn House Office Building Washington DC 20515-0505
     office: 2256 Rayburn House Office Building
     phone: 202-225-2511
+    rss_url: https://mcclintock.house.gov/rss.xml
 - id:
     bioguide: M001143
     thomas: '01653'
@@ -11070,7 +11034,6 @@
     district: 2
     party: Democrat
     url: https://mcgovern.house.gov
-    rss_url: http://mcgovern.house.gov/common/rss/?rss=15
     address: 370 Cannon House Office Building Washington DC 20515-2102
     office: 370 Cannon House Office Building
     phone: 202-225-6101
@@ -11236,7 +11199,6 @@
     district: 5
     party: Democrat
     url: https://meeks.house.gov
-    rss_url: http://meeks.house.gov/rss.xml
     address: 2310 Rayburn House Office Building Washington DC 20515-3205
     office: 2310 Rayburn House Office Building
     phone: 202-225-3461
@@ -11375,10 +11337,10 @@
     district: 4
     party: Democrat
     url: https://gwenmoore.house.gov
-    rss_url: http://gwenmoore.house.gov/common/rss/index.cfm?rss=49
     address: 2252 Rayburn House Office Building Washington DC 20515-4904
     office: 2252 Rayburn House Office Building
     phone: 202-225-4572
+    rss_url: https://gwenmoore.house.gov/news/rss.aspx
 - id:
     bioguide: M000934
     thomas: '01507'
@@ -11672,7 +11634,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.murphy.senate.gov
-    rss_url: http://www.theday.com/article/20121216/nws12/312169935/1069/rss
     contact_form: https://www.murphy.senate.gov/contact
     address: 136 Hart Senate Office Building Washington DC 20510
     office: 136 Hart Senate Office Building
@@ -11776,11 +11737,11 @@
     state_rank: senior
     party: Democrat
     url: https://www.murray.senate.gov
-    rss_url: http://www.murray.senate.gov/public/?a=rss.feed
     contact_form: https://www.murray.senate.gov/write-to-patty/
     address: 154 Russell Senate Office Building Washington DC 20510
     office: 154 Russell Senate Office Building
     phone: 202-224-2621
+    rss_url: https://www.murray.senate.gov/feed/
 - id:
     bioguide: N000002
     thomas: '00850'
@@ -11961,10 +11922,10 @@
     district: 12
     party: Democrat
     url: https://nadler.house.gov
-    rss_url: http://nadler.house.gov/rss.xml
     address: 2132 Rayburn House Office Building Washington DC 20515-3212
     office: 2132 Rayburn House Office Building
     phone: 202-225-5635
+    rss_url: https://nadler.house.gov/news/rss.aspx
 - id:
     bioguide: N000015
     thomas: '00854'
@@ -12151,10 +12112,10 @@
     district: 1
     party: Democrat
     url: https://neal.house.gov
-    rss_url: http://neal.house.gov/index.php?format=feed&amp;type=rss
     address: 372 Cannon House Office Building Washington DC 20515-2101
     office: 372 Cannon House Office Building
     phone: 202-225-5601
+    rss_url: https://neal.house.gov/feed/
 - id:
     bioguide: N000147
     thomas: '00868'
@@ -12334,7 +12295,6 @@
     district: 0
     party: Democrat
     url: https://norton.house.gov
-    rss_url: http://norton.house.gov/index.php?format=feed&amp;type=rss
     address: 2136 Rayburn House Office Building Washington DC 20515-5101
     office: 2136 Rayburn House Office Building
     phone: 202-225-8050
@@ -12821,7 +12781,6 @@
     district: 11
     party: Democrat
     url: https://pelosi.house.gov
-    rss_url: http://pelosi.house.gov/atom.xml
     address: 1236 Longworth House Office Building Washington DC 20515-0511
     office: 1236 Longworth House Office Building
     phone: 202-225-4965
@@ -13036,10 +12995,10 @@
     district: 1
     party: Democrat
     url: https://pingree.house.gov
-    rss_url: http://pingree.house.gov/index.php?format=feed&amp;type=rss
     address: 2354 Rayburn House Office Building Washington DC 20515-1901
     office: 2354 Rayburn House Office Building
     phone: 202-225-6116
+    rss_url: https://pingree.house.gov/news/rss.aspx
 - id:
     bioguide: Q000023
     thomas: '01967'
@@ -13162,10 +13121,10 @@
     district: 5
     party: Democrat
     url: https://quigley.house.gov
-    rss_url: http://quigley.house.gov/index.php?format=feed&amp;type=rss
     address: 2083 Rayburn House Office Building Washington DC 20515-1305
     office: 2083 Rayburn House Office Building
     phone: 202-225-4061
+    rss_url: https://quigley.house.gov/rss.xml
 - id:
     bioguide: R000395
     thomas: '00977'
@@ -13376,7 +13335,6 @@
     district: 5
     party: Republican
     url: https://halrogers.house.gov
-    rss_url: http://halrogers.house.gov/news/rss.aspx
     address: 2406 Rayburn House Office Building Washington DC 20515-1705
     office: 2406 Rayburn House Office Building
     phone: 202-225-4601
@@ -13523,10 +13481,10 @@
     district: 3
     party: Republican
     url: https://mikerogers.house.gov
-    rss_url: http://mikerogers.house.gov/rss.xml
     address: 2469 Rayburn House Office Building Washington DC 20515-0103
     office: 2469 Rayburn House Office Building
     phone: 202-225-3261
+    rss_url: https://mikerogers.house.gov/news/rss.aspx
 - id:
     bioguide: S001176
     thomas: '01892'
@@ -13685,7 +13643,6 @@
     district: 1
     party: Republican
     url: https://scalise.house.gov
-    rss_url: http://scalise.house.gov/rss.xml
     address: 266 Cannon House Office Building Washington DC 20515-1801
     office: 266 Cannon House Office Building
     phone: 202-225-3015
@@ -13846,7 +13803,6 @@
     district: 9
     party: Democrat
     url: https://schakowsky.house.gov
-    rss_url: http://schakowsky.house.gov/index.php?format=feed&amp;type=rss
     address: 2408 Rayburn House Office Building Washington DC 20515-1309
     office: 2408 Rayburn House Office Building
     phone: 202-225-2111
@@ -14293,10 +14249,10 @@
     district: 1
     party: Republican
     url: https://schweikert.house.gov
-    rss_url: http://schweikert.house.gov/rss/press-releases.xml
     address: 166 Cannon House Office Building Washington DC 20515-0301
     office: 166 Cannon House Office Building
     phone: 202-225-2190
+    rss_url: https://schweikert.house.gov/feed/
 - id:
     bioguide: S001189
     thomas: '02009'
@@ -14411,7 +14367,6 @@
     district: 8
     party: Republican
     url: https://austinscott.house.gov
-    rss_url: http://austinscott.house.gov/index.php?format=feed&amp;type=rss
     address: 2185 Rayburn House Office Building Washington DC 20515-1008
     office: 2185 Rayburn House Office Building
     phone: 202-225-6531
@@ -14737,7 +14692,6 @@
     district: 3
     party: Democrat
     url: https://bobbyscott.house.gov
-    rss_url: http://www.house.gov/index.php?format=feed&amp;type=rss
     address: 2328 Rayburn House Office Building Washington DC 20515-4603
     office: 2328 Rayburn House Office Building
     phone: 202-225-8351
@@ -14954,7 +14908,6 @@
     district: 7
     party: Democrat
     url: https://sewell.house.gov
-    rss_url: http://sewell.house.gov/rss.xml
     address: 1035 Longworth House Office Building Washington DC 20515-0107
     office: 1035 Longworth House Office Building
     phone: 202-225-2665
@@ -15120,10 +15073,10 @@
     district: 32
     party: Democrat
     url: https://sherman.house.gov
-    rss_url: http://bradsherman.house.gov/press-releases-and-columns/rss.shtml
     address: 2365 Rayburn House Office Building Washington DC 20515-0532
     office: 2365 Rayburn House Office Building
     phone: 202-225-5911
+    rss_url: https://sherman.house.gov/rss.xml
 - id:
     bioguide: S001148
     thomas: '01590'
@@ -15446,10 +15399,10 @@
     district: 9
     party: Democrat
     url: https://adamsmith.house.gov
-    rss_url: http://www.house.gov/news/rss.aspx
     address: 2264 Rayburn House Office Building Washington DC 20515-4709
     office: 2264 Rayburn House Office Building
     phone: 202-225-8901
+    rss_url: https://adamsmith.house.gov/rss.xml
 - id:
     bioguide: S001172
     thomas: '01860'
@@ -15943,7 +15896,6 @@
     district: 38
     party: Democrat
     url: https://lindasanchez.house.gov
-    rss_url: http://lindasanchez.house.gov/index.php?format=feed&amp;type=rss
     address: 2309 Rayburn House Office Building Washington DC 20515-0538
     office: 2309 Rayburn House Office Building
     phone: 202-225-6676
@@ -16124,10 +16076,10 @@
     district: 2
     party: Democrat
     url: https://benniethompson.house.gov
-    rss_url: http://benniethompson.house.gov/index.php?format=feed&amp;type=rss
     address: 2466 Rayburn House Office Building Washington DC 20515-2402
     office: 2466 Rayburn House Office Building
     phone: 202-225-5876
+    rss_url: https://benniethompson.house.gov/rss.xml
 - id:
     bioguide: T000460
     thomas: '01593'
@@ -16284,7 +16236,6 @@
     district: 4
     party: Democrat
     url: https://mikethompson.house.gov
-    rss_url: http://mikethompson.house.gov/news/rss.aspx
     address: 268 Cannon House Office Building Washington DC 20515-0504
     office: 268 Cannon House Office Building
     phone: 202-225-3311
@@ -16649,10 +16600,10 @@
     district: 20
     party: Democrat
     url: https://tonko.house.gov
-    rss_url: http://tonko.house.gov/rss/press-releases.xml
     address: 2269 Rayburn House Office Building Washington DC 20515-3220
     office: 2269 Rayburn House Office Building
     phone: 202-225-5076
+    rss_url: https://tonko.house.gov/news/rss.aspx
 - id:
     bioguide: T000463
     thomas: '01741'
@@ -16798,7 +16749,6 @@
     district: 10
     party: Republican
     url: https://turner.house.gov
-    rss_url: http://turner.house.gov/news/rss.aspx
     address: 2183 Rayburn House Office Building Washington DC 20515-3510
     office: 2183 Rayburn House Office Building
     phone: 202-225-6465
@@ -17091,6 +17041,7 @@
     address: 2302 Rayburn House Office Building Washington DC 20515-3207
     office: 2302 Rayburn House Office Building
     phone: 202-225-2361
+    rss_url: https://velazquez.house.gov/rss.xml
 - id:
     bioguide: W000798
     thomas: '01855'
@@ -17212,10 +17163,10 @@
     district: 5
     party: Republican
     url: https://walberg.house.gov
-    rss_url: http://walberg.house.gov/news/rss.aspx
     address: 2266 Rayburn House Office Building Washington DC 20515-2205
     office: 2266 Rayburn House Office Building
     phone: 202-225-6276
+    rss_url: https://walberg.house.gov/rss.xml
 - id:
     bioguide: W000797
     thomas: '01777'
@@ -17351,10 +17302,10 @@
     district: 25
     party: Democrat
     url: https://wassermanschultz.house.gov
-    rss_url: http://wassermanschultz.house.gov/atom.xml
     address: 270 Cannon House Office Building Washington DC 20515-0925
     office: 270 Cannon House Office Building
     phone: 202-225-7931
+    rss_url: https://wassermanschultz.house.gov/news/rss.aspx
 - id:
     bioguide: W000187
     thomas: '01205'
@@ -17534,7 +17485,6 @@
     district: 43
     party: Democrat
     url: https://waters.house.gov
-    rss_url: http://waters.house.gov/news/rss.aspx
     address: 2221 Rayburn House Office Building Washington DC 20515-0543
     office: 2221 Rayburn House Office Building
     phone: 202-225-2201
@@ -17653,7 +17603,6 @@
     district: 11
     party: Republican
     url: https://webster.house.gov
-    rss_url: http://webster.house.gov/news/rss.aspx
     address: 2184 Rayburn House Office Building Washington DC 20515-0911
     office: 2184 Rayburn House Office Building
     phone: 202-225-1002
@@ -17783,6 +17732,7 @@
     address: 115 Russell Senate Office Building Washington DC 20510
     office: 115 Russell Senate Office Building
     phone: 202-224-4242
+    rss_url: https://www.welch.senate.gov/feed/
 - id:
     bioguide: W000795
     thomas: '01688'
@@ -17933,7 +17883,6 @@
     district: 2
     party: Republican
     url: https://joewilson.house.gov
-    rss_url: http://joewilson.house.gov/news/rss.aspx
     address: 1436 Longworth House Office Building Washington DC 20515-4002
     office: 1436 Longworth House Office Building
     phone: 202-225-2452
@@ -18052,7 +18001,6 @@
     district: 24
     party: Democrat
     url: https://wilson.house.gov
-    rss_url: http://wilson.house.gov/common/rss//index.cfm?rss=49
     address: 2080 Rayburn House Office Building Washington DC 20515-0924
     office: 2080 Rayburn House Office Building
     phone: 202-225-4506
@@ -18652,7 +18600,6 @@
     district: 2
     party: Republican
     url: https://amodei.house.gov
-    rss_url: http://amodei.house.gov/common/rss//?rss=49
     address: 104 Cannon House Office Building Washington DC 20515-2802
     office: 104 Cannon House Office Building
     phone: 202-225-6155
@@ -18888,10 +18835,10 @@
     district: 1
     party: Democrat
     url: https://delbene.house.gov
-    rss_url: http://delbene.house.gov/rss.xml
     address: 2311 Rayburn House Office Building Washington DC 20515-4701
     office: 2311 Rayburn House Office Building
     phone: 202-225-6311
+    rss_url: https://delbene.house.gov/news/rss.aspx
 - id:
     bioguide: M001184
     govtrack: 412503
@@ -19004,10 +18951,10 @@
     district: 4
     party: Republican
     url: https://massie.house.gov
-    rss_url: http://massie.house.gov/rss.xml
     address: 2371 Rayburn House Office Building Washington DC 20515-1704
     office: 2371 Rayburn House Office Building
     phone: 202-225-3465
+    rss_url: https://massie.house.gov/news/rss.aspx
 - id:
     lis: S353
     thomas: '02173'
@@ -19213,7 +19160,6 @@
     district: 11
     party: Democrat
     url: https://foster.house.gov
-    rss_url: http://foster.house.gov/rss.xml
     address: 2366 Rayburn House Office Building Washington DC 20515-1311
     office: 2366 Rayburn House Office Building
     phone: 202-225-3515
@@ -19325,10 +19271,10 @@
     district: 1
     party: Democrat
     url: https://titus.house.gov
-    rss_url: http://titus.house.gov/rss.xml
     address: 2370 Rayburn House Office Building Washington DC 20515-2801
     office: 2370 Rayburn House Office Building
     phone: 202-225-5965
+    rss_url: https://titus.house.gov/news/rss.aspx
 - id:
     govtrack: 412508
     bioguide: C001095
@@ -19498,7 +19444,6 @@
     district: 1
     party: Republican
     url: https://lamalfa.house.gov
-    rss_url: http://lamalfa.house.gov/rss.xml
     address: 408 Cannon House Office Building Washington DC 20515-0501
     office: 408 Cannon House Office Building
     phone: 202-225-3076
@@ -19604,10 +19549,10 @@
     district: 2
     party: Democrat
     url: https://huffman.house.gov
-    rss_url: http://huffman.house.gov/rss.xml
     address: 2330 Rayburn House Office Building Washington DC 20515-0502
     office: 2330 Rayburn House Office Building
     phone: 202-225-5161
+    rss_url: https://huffman.house.gov/rss/feeds/
 - id:
     govtrack: 412512
     bioguide: B001287
@@ -19913,10 +19858,10 @@
     district: 26
     party: Democrat
     url: https://juliabrownley.house.gov
-    rss_url: http://juliabrownley.house.gov/rss.xml
     address: 2262 Rayburn House Office Building Washington DC 20515-0526
     office: 2262 Rayburn House Office Building
     phone: 202-225-5811
+    rss_url: https://juliabrownley.house.gov/feed/
 - id:
     govtrack: 412519
     bioguide: R000599
@@ -20018,7 +19963,6 @@
     district: 25
     party: Democrat
     url: https://ruiz.house.gov
-    rss_url: http://ruiz.house.gov/rss.xml
     address: 2342 Rayburn House Office Building Washington DC 20515-0525
     office: 2342 Rayburn House Office Building
     phone: 202-225-5330
@@ -20123,10 +20067,10 @@
     district: 39
     party: Democrat
     url: https://takano.house.gov
-    rss_url: http://takano.house.gov/rss.xml
     address: 2078 Rayburn House Office Building Washington DC 20515-0539
     office: 2078 Rayburn House Office Building
     phone: 202-225-2305
+    rss_url: https://takano.house.gov/rss/feeds/
 - id:
     govtrack: 412522
     bioguide: V000130
@@ -20229,7 +20173,6 @@
     district: 52
     party: Democrat
     url: https://vargas.house.gov
-    rss_url: http://vargas.house.gov/rss.xml
     address: 2467 Rayburn House Office Building Washington DC 20515-0552
     office: 2467 Rayburn House Office Building
     phone: 202-225-8045
@@ -20336,7 +20279,6 @@
     district: 50
     party: Democrat
     url: https://scottpeters.house.gov
-    rss_url: http://scottpeters.house.gov/rss.xml
     address: 2369 Rayburn House Office Building Washington DC 20515-0550
     office: 2369 Rayburn House Office Building
     phone: 202-225-0508
@@ -20444,10 +20386,10 @@
     district: 22
     party: Democrat
     url: https://frankel.house.gov
-    rss_url: http://frankel.house.gov/rss.xml
     address: 2305 Rayburn House Office Building Washington DC 20515-0922
     office: 2305 Rayburn House Office Building
     phone: 202-225-9890
+    rss_url: https://frankel.house.gov/news/rss.aspx
 - id:
     govtrack: 412533
     bioguide: D000622
@@ -20623,7 +20565,6 @@
     district: 6
     party: Republican
     url: https://barr.house.gov
-    rss_url: http://barr.house.gov/rss.xml
     address: 2430 Rayburn House Office Building Washington DC 20515-1706
     office: 2430 Rayburn House Office Building
     phone: 202-225-4706
@@ -20872,7 +20813,6 @@
     district: 2
     party: Republican
     url: https://wagner.house.gov
-    rss_url: http://wagner.house.gov/rss.xml
     address: 2350 Rayburn House Office Building Washington DC 20515-2502
     office: 2350 Rayburn House Office Building
     phone: 202-225-1621
@@ -21051,7 +20991,6 @@
     district: 9
     party: Republican
     url: https://hudson.house.gov
-    rss_url: http://hudson.house.gov/rss.xml
     address: 2112 Rayburn House Office Building Washington DC 20515-3309
     office: 2112 Rayburn House Office Building
     phone: 202-225-3715
@@ -21313,7 +21252,6 @@
     district: 6
     party: Democrat
     url: https://meng.house.gov
-    rss_url: http://meng.house.gov/rss.xml
     address: 2468 Rayburn House Office Building Washington DC 20515-3206
     office: 2468 Rayburn House Office Building
     phone: 202-225-2601
@@ -21433,10 +21371,10 @@
     district: 8
     party: Democrat
     url: https://jeffries.house.gov
-    rss_url: http://jeffries.house.gov/rss.xml
     address: 2267 Rayburn House Office Building Washington DC 20515-3208
     office: 2267 Rayburn House Office Building
     phone: 202-225-5936
+    rss_url: https://jeffries.house.gov/feed/
 - id:
     govtrack: 412565
     bioguide: B001281
@@ -21539,7 +21477,6 @@
     district: 3
     party: Democrat
     url: https://beatty.house.gov
-    rss_url: http://beatty.house.gov/rss.xml
     address: 2079 Rayburn House Office Building Washington DC 20515-3503
     office: 2079 Rayburn House Office Building
     phone: 202-225-4324
@@ -21646,7 +21583,6 @@
     district: 14
     party: Republican
     url: https://joyce.house.gov
-    rss_url: http://joyce.house.gov/rss/press-releases.xml
     address: 2065 Rayburn House Office Building Washington DC 20515-3514
     office: 2065 Rayburn House Office Building
     phone: 202-225-5731
@@ -21850,10 +21786,10 @@
     district: 10
     party: Republican
     url: https://perry.house.gov
-    rss_url: http://perry.house.gov/rss.xml
     address: 2160 Rayburn House Office Building Washington DC 20515-3810
     office: 2160 Rayburn House Office Building
     phone: 202-225-5836
+    rss_url: https://perry.house.gov/news/rss.aspx
 - id:
     bioguide: C001098
     thomas: '02175'
@@ -22020,10 +21956,10 @@
     district: 14
     party: Republican
     url: https://weber.house.gov
-    rss_url: http://weber.house.gov/rss.xml
     address: 107 Cannon House Office Building Washington DC 20515-4314
     office: 107 Cannon House Office Building
     phone: 202-225-2831
+    rss_url: https://weber.house.gov/news/rss.aspx
 - id:
     govtrack: 412576
     bioguide: C001091
@@ -22126,10 +22062,10 @@
     district: 20
     party: Democrat
     url: https://castro.house.gov
-    rss_url: http://castro.house.gov/rss.xml
     address: 2241 Rayburn House Office Building Washington DC 20515-4320
     office: 2241 Rayburn House Office Building
     phone: 202-225-3236
+    rss_url: https://castro.house.gov/rss/feeds/
 - id:
     govtrack: 412578
     bioguide: W000816
@@ -22233,7 +22169,6 @@
     district: 25
     party: Republican
     url: https://williams.house.gov
-    rss_url: http://williams.house.gov/rss.xml
     address: 2336 Rayburn House Office Building Washington DC 20515-4325
     office: 2336 Rayburn House Office Building
     phone: 202-225-9896
@@ -22339,7 +22274,6 @@
     district: 33
     party: Democrat
     url: https://veasey.house.gov
-    rss_url: http://veasey.house.gov/rss.xml
     address: 2186 Rayburn House Office Building Washington DC 20515-4333
     office: 2186 Rayburn House Office Building
     phone: 202-225-9897
@@ -22404,7 +22338,6 @@
     state_rank: junior
     party: Democrat
     url: https://www.kaine.senate.gov
-    rss_url: http://www.kaine.senate.gov/rss/feeds/?type=all
     contact_form: https://www.kaine.senate.gov/contact
     address: 231 Russell Senate Office Building Washington DC 20510
     office: 231 Russell Senate Office Building
@@ -22726,10 +22659,10 @@
     district: 8
     party: Republican
     url: https://jasonsmith.house.gov
-    rss_url: http://jasonsmith.house.gov/rss.xml
     address: 1011 Longworth House Office Building Washington DC 20515-2508
     office: 1011 Longworth House Office Building
     phone: 202-225-4404
+    rss_url: https://jasonsmith.house.gov/feed/
 - id:
     bioguide: B001288
     lis: S370
@@ -23113,6 +23046,7 @@
     address: 2436 Rayburn House Office Building Washington DC 20515-3312
     office: 2436 Rayburn House Office Building
     phone: 202-225-1510
+    rss_url: https://adams.house.gov/rss.xml
 - id:
     bioguide: P000609
     fec:
@@ -23300,6 +23234,7 @@
     address: 1533 Longworth House Office Building Washington DC 20515-0402
     office: 1533 Longworth House Office Building
     phone: 202-225-2506
+    rss_url: https://hill.house.gov/news/rss.aspx
 - id:
     bioguide: W000821
     fec:
@@ -23384,6 +23319,7 @@
     address: 202 Cannon House Office Building Washington DC 20515-0404
     office: 202 Cannon House Office Building
     phone: 202-225-3772
+    rss_url: https://westerman.house.gov/rss.xml
 - id:
     bioguide: G000574
     lis: S432
@@ -23557,6 +23493,7 @@
     address: 2134 Rayburn House Office Building Washington DC 20515-0510
     office: 2134 Rayburn House Office Building
     phone: 202-225-2095
+    rss_url: https://desaulnier.house.gov/rss.xml
 - id:
     bioguide: A000371
     fec:
@@ -23655,6 +23592,7 @@
     address: 108 Cannon House Office Building Washington DC 20515-0533
     office: 108 Cannon House Office Building
     phone: 202-225-3201
+    rss_url: https://aguilar.house.gov/feed/
 - id:
     bioguide: L000582
     fec:
@@ -23833,6 +23771,7 @@
     address: 2227 Rayburn House Office Building Washington DC 20515-0535
     office: 2227 Rayburn House Office Building
     phone: 202-225-6161
+    rss_url: https://torres.house.gov/rss/feeds/
 - id:
     bioguide: C001103
     fec:
@@ -23921,6 +23860,7 @@
     address: 2432 Rayburn House Office Building Washington DC 20515-1001
     office: 2432 Rayburn House Office Building
     phone: 202-225-5831
+    rss_url: https://buddycarter.house.gov/news/rss.aspx
 - id:
     bioguide: L000583
     fec:
@@ -24094,6 +24034,7 @@
     address: 462 Cannon House Office Building Washington DC 20515-1012
     office: 462 Cannon House Office Building
     phone: 202-225-2823
+    rss_url: https://allen.house.gov/news/rss.aspx
 - id:
     bioguide: B001295
     fec:
@@ -24440,6 +24381,7 @@
     address: 102 Cannon House Office Building Washington DC 20515-2206
     office: 102 Cannon House Office Building
     phone: 202-225-4071
+    rss_url: https://debbiedingell.house.gov/news/rss.aspx
 - id:
     bioguide: E000294
     fec:
@@ -24620,6 +24562,7 @@
     address: 2333 Rayburn House Office Building Washington DC 20515-3307
     office: 2333 Rayburn House Office Building
     phone: 202-225-2731
+    rss_url: https://rouzer.house.gov/news/rss.aspx
 - id:
     bioguide: W000822
     fec:
@@ -24706,6 +24649,7 @@
     address: 168 Cannon House Office Building Washington DC 20515-3012
     office: 168 Cannon House Office Building
     phone: 202-225-5801
+    rss_url: https://watsoncoleman.house.gov/rss/feeds/
 - id:
     bioguide: S001196
     fec:
@@ -24890,6 +24834,7 @@
     address: 1502 Longworth House Office Building Washington DC 20515-3802
     office: 1502 Longworth House Office Building
     phone: 202-225-6111
+    rss_url: https://boyle.house.gov/rss.xml
 - id:
     bioguide: B001291
     fec:
@@ -24976,6 +24921,7 @@
     address: 2236 Rayburn House Office Building Washington DC 20515-4336
     office: 2236 Rayburn House Office Building
     phone: 202-225-1555
+    rss_url: https://babin.house.gov/news/rss.aspx
 - id:
     bioguide: B001292
     fec:
@@ -25064,6 +25010,7 @@
     address: 1226 Longworth House Office Building Washington DC 20515-4608
     office: 1226 Longworth House Office Building
     phone: 202-225-4376
+    rss_url: https://beyer.house.gov/news/rss.aspx
 - id:
     bioguide: P000610
     fec:
@@ -25151,6 +25098,7 @@
     address: 2059 Rayburn House Office Building Washington DC 20515-5500
     office: 2059 Rayburn House Office Building
     phone: 202-225-1790
+    rss_url: https://plaskett.house.gov/news/rss.aspx
 - id:
     bioguide: N000189
     fec:
@@ -25237,6 +25185,7 @@
     address: 460 Cannon House Office Building Washington DC 20515-4704
     office: 460 Cannon House Office Building
     phone: 202-225-5816
+    rss_url: https://newhouse.house.gov/rss.xml
 - id:
     bioguide: G000576
     fec:
@@ -25323,6 +25272,7 @@
     address: 1211 Longworth House Office Building Washington DC 20515-4906
     office: 1211 Longworth House Office Building
     phone: 202-225-2476
+    rss_url: https://grothman.house.gov/news/rss.aspx
 - id:
     bioguide: R000600
     fec:
@@ -25961,7 +25911,6 @@
     district: 1
     party: Republican
     url: https://comer.house.gov
-    rss_url: https://comer.house.gov/rss.xml
     address: 2410 Rayburn House Office Building Washington DC 20515-1701
     office: 2410 Rayburn House Office Building
     phone: 202-225-3115
@@ -26377,6 +26326,7 @@
     address: 464 Cannon House Office Building Washington DC 20515-0305
     office: 464 Cannon House Office Building
     phone: 202-225-2635
+    rss_url: https://biggs.house.gov/rss.xml
 - id:
     bioguide: K000389
     govtrack: 412684
@@ -26597,6 +26547,7 @@
     address: 2331 Rayburn House Office Building Washington DC 20515-0524
     office: 2331 Rayburn House Office Building
     phone: 202-225-3601
+    rss_url: https://carbajal.house.gov/news/rss.aspx
 - id:
     bioguide: B001300
     govtrack: 412687
@@ -26671,6 +26622,7 @@
     address: 2312 Rayburn House Office Building Washington DC 20515-0544
     office: 2312 Rayburn House Office Building
     phone: 202-225-8220
+    rss_url: https://barragan.house.gov/feed/
 - id:
     bioguide: C001110
     govtrack: 412688
@@ -26745,6 +26697,7 @@
     address: 2082 Rayburn House Office Building Washington DC 20515-0546
     office: 2082 Rayburn House Office Building
     phone: 202-225-2965
+    rss_url: https://correa.house.gov/rss/feeds/
 - id:
     bioguide: B001303
     lis: S430
@@ -27042,6 +26995,7 @@
     address: 2353 Rayburn House Office Building Washington DC 20515-0909
     office: 2353 Rayburn House Office Building
     phone: 202-225-9889
+    rss_url: https://soto.house.gov/rss.xml
 - id:
     bioguide: M001199
     govtrack: 412698
@@ -27394,6 +27348,7 @@
     address: 572 Cannon House Office Building Washington DC 20515-1803
     office: 572 Cannon House Office Building
     phone: 202-225-2031
+    rss_url: https://clayhiggins.house.gov/feed/
 - id:
     bioguide: J000299
     govtrack: 412706
@@ -27479,6 +27434,7 @@
     address: 521 Cannon House Office Building Washington DC 20515-1804
     office: 521 Cannon House Office Building
     phone: 202-225-2777
+    rss_url: https://mikejohnson.house.gov/news/rss.aspx
 - id:
     bioguide: R000606
     govtrack: 412708
@@ -27625,6 +27581,7 @@
     address: 566 Cannon House Office Building Washington DC 20515-2201
     office: 566 Cannon House Office Building
     phone: 202-225-4735
+    rss_url: https://bergman.house.gov/news/rss.aspx
 - id:
     bioguide: B001305
     lis: S417
@@ -27765,6 +27722,7 @@
     address: 2104 Rayburn House Office Building Washington DC 20515-2702
     office: 2104 Rayburn House Office Building
     phone: 202-225-4155
+    rss_url: https://bacon.house.gov/news/rss.aspx
 - id:
     bioguide: G000583
     govtrack: 412714
@@ -27897,6 +27855,7 @@
     address: 713 Hart Senate Office Building Washington DC 20510
     office: 713 Hart Senate Office Building
     phone: 202-224-6244
+    rss_url: https://www.rosen.senate.gov/feed/
 - id:
     bioguide: E000297
     govtrack: 412718
@@ -28118,6 +28077,7 @@
     address: 302 Cannon House Office Building Washington DC 20515-3811
     office: 302 Cannon House Office Building
     phone: 202-225-2411
+    rss_url: https://smucker.house.gov/rss.xml
 - id:
     bioguide: K000392
     govtrack: 412724
@@ -28264,6 +28224,7 @@
     address: 1201 Longworth House Office Building Washington DC 20515-4334
     office: 1201 Longworth House Office Building
     phone: 202-225-2531
+    rss_url: https://gonzalez.house.gov/rss.xml
 - id:
     bioguide: A000375
     govtrack: 412726
@@ -28338,6 +28299,7 @@
     address: 1111 Longworth House Office Building Washington DC 20515-4319
     office: 1111 Longworth House Office Building
     phone: 202-225-4005
+    rss_url: https://arrington.house.gov/news/rss.aspx
 - id:
     bioguide: J000298
     govtrack: 412730
@@ -28411,6 +28373,7 @@
     address: 2346 Rayburn House Office Building Washington DC 20515-4707
     office: 2346 Rayburn House Office Building
     phone: 202-225-3106
+    rss_url: https://jayapal.house.gov/feed/
 - id:
     bioguide: E000298
     fec:
@@ -28486,6 +28449,7 @@
     address: 2234 Rayburn House Office Building Washington DC 20515-1604
     office: 2234 Rayburn House Office Building
     phone: 202-225-6216
+    rss_url: https://estes.house.gov/news/rss.aspx
 - id:
     bioguide: N000190
     fec:
@@ -28561,6 +28525,7 @@
     address: 569 Cannon House Office Building Washington DC 20515-4005
     office: 569 Cannon House Office Building
     phone: 202-225-5501
+    rss_url: https://norman.house.gov/news/rss.aspx
 - id:
     bioguide: G000585
     fec:
@@ -28635,6 +28600,7 @@
     address: 506 Cannon House Office Building Washington DC 20515-0534
     office: 506 Cannon House Office Building
     phone: 202-225-6235
+    rss_url: https://gomez.house.gov/news/rss.aspx
 - id:
     bioguide: C001114
     lis: S431
@@ -28774,6 +28740,7 @@
     address: 720 Hart Senate Office Building Washington DC 20510
     office: 720 Hart Senate Office Building
     phone: 202-224-5641
+    rss_url: https://www.smith.senate.gov/feed/
 - id:
     bioguide: H001079
     lis: S395
@@ -29054,6 +29021,7 @@
     address: 171 Cannon House Office Building Washington DC 20515-3601
     office: 171 Cannon House Office Building
     phone: 202-225-2211
+    rss_url: https://hern.house.gov/news/rss.aspx
 - id:
     bioguide: M001206
     fec:
@@ -29198,6 +29166,7 @@
     address: 1214 Longworth House Office Building Washington DC 20515-3805
     office: 1214 Longworth House Office Building
     phone: 202-225-2011
+    rss_url: https://scanlon.house.gov/news/rss.aspx
 - id:
     bioguide: C001055
     fec:
@@ -29275,6 +29244,7 @@
     address: 2210 Rayburn House Office Building Washington DC 20515-1101
     office: 2210 Rayburn House Office Building
     phone: 202-225-2726
+    rss_url: https://case.house.gov/news/rss.aspx
 - id:
     govtrack: 412559
     bioguide: H001066
@@ -29352,7 +29322,6 @@
     district: 4
     party: Democrat
     url: https://horsford.house.gov
-    rss_url: http://horsford.house.gov/rss.xml
     address: 406 Cannon House Office Building Washington DC 20515-2804
     office: 406 Cannon House Office Building
     phone: 202-225-9894
@@ -29538,6 +29507,7 @@
     address: 2352 Rayburn House Office Building Washington DC 20515-0549
     office: 2352 Rayburn House Office Building
     phone: 202-225-3906
+    rss_url: https://levin.house.gov/rss/feeds/
 - id:
     bioguide: N000191
     fec:
@@ -29791,6 +29761,7 @@
     address: 2457 Rayburn House Office Building Washington DC 20515-0917
     office: 2457 Rayburn House Office Building
     phone: 202-225-5792
+    rss_url: https://steube.house.gov/feed/
 - id:
     bioguide: M001208
     fec:
@@ -29976,6 +29947,7 @@
     address: 2334 Rayburn House Office Building Washington DC 20515-1304
     office: 2334 Rayburn House Office Building
     phone: 202-225-8203
+    rss_url: https://chuygarcia.house.gov/rss.xml
 - id:
     bioguide: C001117
     fec:
@@ -30037,6 +30009,7 @@
     address: 2440 Rayburn House Office Building Washington DC 20515-1306
     office: 2440 Rayburn House Office Building
     phone: 202-225-4561
+    rss_url: https://casten.house.gov/rss/feeds/
 - id:
     bioguide: U000040
     fec:
@@ -30097,6 +30070,7 @@
     address: 2228 Rayburn House Office Building Washington DC 20515-1314
     office: 2228 Rayburn House Office Building
     phone: 202-225-2976
+    rss_url: https://underwood.house.gov/rss.xml
 - id:
     bioguide: B001307
     fec:
@@ -30159,6 +30133,7 @@
     address: 2303 Rayburn House Office Building Washington DC 20515-1404
     office: 2303 Rayburn House Office Building
     phone: 202-225-5037
+    rss_url: https://baird.house.gov/news/rss.aspx
 - id:
     bioguide: D000629
     fec:
@@ -30281,6 +30256,7 @@
     address: 2233 Rayburn House Office Building Washington DC 20515-2103
     office: 2233 Rayburn House Office Building
     phone: 202-225-3411
+    rss_url: https://trahan.house.gov/news/rss.aspx
 - id:
     bioguide: P000617
     fec:
@@ -30342,6 +30318,7 @@
     address: 402 Cannon House Office Building Washington DC 20515-2107
     office: 402 Cannon House Office Building
     phone: 202-225-5111
+    rss_url: https://pressley.house.gov/feed/
 - id:
     bioguide: S001208
     lis: S436
@@ -30406,6 +30383,7 @@
     address: 291 Russell Senate Office Building Washington DC 20510
     office: 291 Russell Senate Office Building
     phone: 202-224-4822
+    rss_url: https://www.slotkin.senate.gov/feed/
 - id:
     bioguide: S001215
     fec:
@@ -30901,6 +30879,7 @@
     address: 2447 Rayburn House Office Building Washington DC 20515-3002
     office: 2447 Rayburn House Office Building
     phone: 202-225-6572
+    rss_url: https://vandrew.house.gov/news/rss.aspx
 - id:
     bioguide: K000394
     lis: S426
@@ -30977,6 +30956,7 @@
     address: 520 Hart Senate Office Building Washington DC 20510
     office: 520 Hart Senate Office Building
     phone: 202-224-4744
+    rss_url: https://www.kim.senate.gov/feed/
 - id:
     bioguide: S001207
     fec:
@@ -31038,6 +31018,7 @@
     address: 1427 Longworth House Office Building Washington DC 20515-3011
     office: 1427 Longworth House Office Building
     phone: 202-225-5034
+    rss_url: https://sherrill.house.gov/rss.xml
 - id:
     bioguide: L000590
     fec:
@@ -31160,6 +31141,7 @@
     address: 250 Cannon House Office Building Washington DC 20515-3214
     office: 250 Cannon House Office Building
     phone: 202-225-3965
+    rss_url: https://ocasio-cortez.house.gov/rss.xml
 - id:
     bioguide: D000631
     fec:
@@ -31282,6 +31264,7 @@
     address: 1727 Longworth House Office Building Washington DC 20515-3806
     office: 1727 Longworth House Office Building
     phone: 202-225-4315
+    rss_url: https://houlahan.house.gov/news/rss.aspx
 - id:
     bioguide: M001204
     fec:
@@ -31465,6 +31448,7 @@
     address: 2209 Rayburn House Office Building Washington DC 20515-3814
     office: 2209 Rayburn House Office Building
     phone: 202-225-2065
+    rss_url: https://reschenthaler.house.gov/rss/feeds/
 - id:
     bioguide: T000480
     fec:
@@ -31527,6 +31511,7 @@
     address: 267 Cannon House Office Building Washington DC 20515-4004
     office: 267 Cannon House Office Building
     phone: 202-225-6030
+    rss_url: https://timmons.house.gov/news/rss.aspx
 - id:
     bioguide: J000301
     fec:
@@ -31588,6 +31573,7 @@
     address: 1714 Longworth House Office Building Washington DC 20515-4100
     office: 1714 Longworth House Office Building
     phone: 202-225-2801
+    rss_url: https://dustyjohnson.house.gov/rss.xml
 - id:
     bioguide: B001309
     fec:
@@ -31894,6 +31880,7 @@
     address: 2004 Rayburn House Office Building Washington DC 20515-4307
     office: 2004 Rayburn House Office Building
     phone: 202-225-2571
+    rss_url: https://fletcher.house.gov/news/rss.aspx
 - id:
     bioguide: E000299
     fec:
@@ -31955,6 +31942,7 @@
     address: 2448 Rayburn House Office Building Washington DC 20515-4316
     office: 2448 Rayburn House Office Building
     phone: 202-225-4831
+    rss_url: https://escobar.house.gov/news/rss.aspx
 - id:
     bioguide: R000614
     fec:
@@ -32078,6 +32066,7 @@
     address: 2419 Rayburn House Office Building Washington DC 20515-4329
     office: 2419 Rayburn House Office Building
     phone: 202-225-1688
+    rss_url: https://sylviagarcia.house.gov/rss.xml
 - id:
     bioguide: C001118
     fec:
@@ -32139,6 +32128,7 @@
     address: 2443 Rayburn House Office Building Washington DC 20515-4606
     office: 2443 Rayburn House Office Building
     phone: 202-225-5431
+    rss_url: https://cline.house.gov/news/rss.aspx
 - id:
     bioguide: S001216
     fec:
@@ -32261,6 +32251,7 @@
     address: 1526 Longworth House Office Building Washington DC 20515-4901
     office: 1526 Longworth House Office Building
     phone: 202-225-3031
+    rss_url: https://steil.house.gov/rss.xml
 - id:
     bioguide: M001205
     fec:
@@ -32636,6 +32627,7 @@
     address: 2263 Rayburn House Office Building Washington DC 20515-2007
     office: 2263 Rayburn House Office Building
     phone: 202-225-4741
+    rss_url: https://mfume.house.gov/rss.xml
 - id:
     bioguide: T000165
     fec:
@@ -32694,6 +32686,7 @@
     address: 451 Cannon House Office Building Washington DC 20515-4907
     office: 451 Cannon House Office Building
     phone: 202-225-3365
+    rss_url: https://tiffany.house.gov/rss.xml
 - id:
     bioguide: K000377
     lis: S406
@@ -32964,7 +32957,6 @@
     district: 48
     party: Republican
     url: https://issa.house.gov
-    rss_url: http://issa.house.gov/feed/
     address: 2108 Rayburn House Office Building Washington DC 20515-0548
     office: 2108 Rayburn House Office Building
     phone: 202-225-5672
@@ -33119,7 +33111,6 @@
     district: 17
     party: Republican
     url: https://sessions.house.gov
-    rss_url: http://sessions.house.gov/?a=rss.feed
     address: 2204 Rayburn House Office Building Washington DC 20515-4317
     office: 2204 Rayburn House Office Building
     phone: 202-225-6105
@@ -33215,10 +33206,10 @@
     district: 22
     party: Republican
     url: https://valadao.house.gov
-    rss_url: http://valadao.house.gov/rss.xml
     address: 2465 Rayburn House Office Building Washington DC 20515-0522
     office: 2465 Rayburn House Office Building
     phone: 202-225-4695
+    rss_url: https://valadao.house.gov/news/rss.aspx
 - id:
     bioguide: T000278
     lis: S412
@@ -33474,6 +33465,7 @@
     address: 2439 Rayburn House Office Building Washington DC 20515-0540
     office: 2439 Rayburn House Office Building
     phone: 202-225-4111
+    rss_url: https://youngkim.house.gov/feed/
 - id:
     bioguide: J000305
     fec:
@@ -33524,6 +33516,7 @@
     address: 2348 Rayburn House Office Building Washington DC 20515-0551
     office: 2348 Rayburn House Office Building
     phone: 202-225-2040
+    rss_url: https://sarajacobs.house.gov/rss/feeds/
 - id:
     bioguide: B000825
     fec:
@@ -33575,6 +33568,7 @@
     address: 1713 Longworth House Office Building Washington DC 20515-0604
     office: 1713 Longworth House Office Building
     phone: 202-225-4761
+    rss_url: https://boebert.house.gov/rss.xml
 - id:
     bioguide: C001039
     fec:
@@ -33675,6 +33669,7 @@
     address: 2301 Rayburn House Office Building Washington DC 20515-0918
     office: 2301 Rayburn House Office Building
     phone: 202-225-1252
+    rss_url: https://franklin.house.gov/news/rss.aspx
 - id:
     bioguide: D000032
     fec:
@@ -33726,6 +33721,7 @@
     address: 1710 Longworth House Office Building Washington DC 20515-0919
     office: 1710 Longworth House Office Building
     phone: 202-225-2536
+    rss_url: https://donalds.house.gov/news/rss.aspx
 - id:
     bioguide: G000593
     fec:
@@ -33926,6 +33922,7 @@
     address: 445 Cannon House Office Building Washington DC 20515-1009
     office: 445 Cannon House Office Building
     phone: 202-225-9893
+    rss_url: https://clyde.house.gov/news/rss.aspx
 - id:
     bioguide: G000596
     fec:
@@ -34078,6 +34075,7 @@
     address: 504 Cannon House Office Building Washington DC 20515-1501
     office: 504 Cannon House Office Building
     phone: 202-225-6576
+    rss_url: https://millermeeks.house.gov/rss.xml
 - id:
     bioguide: F000446
     fec:
@@ -34129,6 +34127,7 @@
     address: 2434 Rayburn House Office Building Washington DC 20515-1504
     office: 2434 Rayburn House Office Building
     phone: 202-225-4426
+    rss_url: https://feenstra.house.gov/rss.xml
 - id:
     bioguide: M001211
     fec:
@@ -34377,6 +34376,7 @@
     address: 1524 Longworth House Office Building Washington DC 20515-2104
     office: 1524 Longworth House Office Building
     phone: 202-225-5931
+    rss_url: https://auchincloss.house.gov/rss/feeds/
 - id:
     bioguide: M001136
     fec:
@@ -34581,6 +34581,7 @@
     address: 2417 Rayburn House Office Building Washington DC 20515-3103
     office: 2417 Rayburn House Office Building
     phone: 202-225-6190
+    rss_url: https://fernandez.house.gov/news/rss.aspx
 - id:
     bioguide: G000597
     fec:
@@ -34630,6 +34631,7 @@
     address: 2344 Rayburn House Office Building Washington DC 20515-3202
     office: 2344 Rayburn House Office Building
     phone: 202-225-7896
+    rss_url: https://garbarino.house.gov/rss.xml
 - id:
     bioguide: M000317
     fec:
@@ -34678,6 +34680,7 @@
     address: 1124 Longworth House Office Building Washington DC 20515-3211
     office: 1124 Longworth House Office Building
     phone: 202-225-3371
+    rss_url: https://malliotakis.house.gov/rss.xml
 - id:
     bioguide: T000486
     fec:
@@ -34779,6 +34782,7 @@
     address: 2402 Rayburn House Office Building Washington DC 20515-3605
     office: 2402 Rayburn House Office Building
     phone: 202-225-2132
+    rss_url: https://bice.house.gov/rss.xml
 - id:
     bioguide: B000668
     fec:
@@ -34880,6 +34884,7 @@
     address: 1728 Longworth House Office Building Washington DC 20515-4001
     office: 1728 Longworth House Office Building
     phone: 202-225-3176
+    rss_url: https://mace.house.gov/rss.xml
 - id:
     bioguide: H001086
     fec:
@@ -34980,6 +34985,7 @@
     address: 2416 Rayburn House Office Building Washington DC 20515-4304
     office: 2416 Rayburn House Office Building
     phone: 202-225-6673
+    rss_url: https://fallon.house.gov/news/rss.aspx
 - id:
     bioguide: P000048
     fec:
@@ -35030,6 +35036,7 @@
     address: 2202 Rayburn House Office Building Washington DC 20515-4311
     office: 2202 Rayburn House Office Building
     phone: 202-225-3605
+    rss_url: https://pfluger.house.gov/news/rss.aspx
 - id:
     bioguide: J000304
     fec:
@@ -35081,6 +35088,7 @@
     address: 125 Cannon House Office Building Washington DC 20515-4313
     office: 125 Cannon House Office Building
     phone: 202-225-3706
+    rss_url: https://jackson.house.gov/news/rss.aspx
 - id:
     bioguide: N000026
     fec:
@@ -35282,6 +35290,7 @@
     address: 1131 Longworth House Office Building Washington DC 20515-4401
     office: 1131 Longworth House Office Building
     phone: 202-225-0453
+    rss_url: https://blakemoore.house.gov/rss/feeds/
 - id:
     bioguide: O000086
     fec:
@@ -35381,6 +35390,7 @@
     address: 1724 Longworth House Office Building Washington DC 20515-4710
     office: 1724 Longworth House Office Building
     phone: 202-225-9740
+    rss_url: https://strickland.house.gov/feed/
 - id:
     bioguide: F000471
     fec:
@@ -35490,6 +35500,7 @@
     address: 331 Hart Senate Office Building Washington DC 20510
     office: 331 Hart Senate Office Building
     phone: 202-224-3553
+    rss_url: https://www.padilla.senate.gov/feed/
 - id:
     bioguide: O000174
     lis: S414
@@ -35735,6 +35746,7 @@
     address: 442 Cannon House Office Building Washington DC 20515-1802
     office: 442 Cannon House Office Building
     phone: 202-225-6636
+    rss_url: https://troycarter.house.gov/rss.xml
 - id:
     bioguide: S001218
     fec:
@@ -35786,6 +35798,7 @@
     address: 1421 Longworth House Office Building Washington DC 20515-3101
     office: 1421 Longworth House Office Building
     phone: 202-225-6316
+    rss_url: https://stansbury.house.gov/rss.xml
 - id:
     bioguide: E000071
     fec:
@@ -35884,6 +35897,7 @@
     address: 2455 Rayburn House Office Building Washington DC 20515-3511
     office: 2455 Rayburn House Office Building
     phone: 202-225-7032
+    rss_url: https://shontelbrown.house.gov/rss.xml
 - id:
     bioguide: C001126
     fec:
@@ -35933,6 +35947,7 @@
     address: 1433 Longworth House Office Building Washington DC 20515-3515
     office: 1433 Longworth House Office Building
     phone: 202-225-2015
+    rss_url: https://carey.house.gov/feed/
 - id:
     bioguide: C001127
     fec:
@@ -36029,6 +36044,7 @@
     address: 343 Cannon House Office Building Washington DC 20515-2701
     office: 343 Cannon House Office Building
     phone: 202-225-4806
+    rss_url: https://flood.house.gov/rss.xml
 - id:
     bioguide: F000475
     fec:
@@ -36342,6 +36358,7 @@
     address: 142 Russell Senate Office Building Washington DC 20510
     office: 142 Russell Senate Office Building
     phone: 202-224-4254
+    rss_url: https://www.fetterman.senate.gov/feed/
 - id:
     bioguide: S001220
     fec:
@@ -36422,6 +36439,7 @@
     address: 307 Cannon House Office Building Washington DC 20515-0302
     office: 307 Cannon House Office Building
     phone: 202-225-3361
+    rss_url: https://crane.house.gov/feed/
 - id:
     bioguide: C001133
     fec:
@@ -36543,6 +36561,7 @@
     address: 1404 Longworth House Office Building Washington DC 20515-0515
     office: 1404 Longworth House Office Building
     phone: 202-225-3531
+    rss_url: https://kevinmullin.house.gov/feed/
 - id:
     bioguide: K000400
     fec:
@@ -36662,6 +36681,7 @@
     address: 348 Cannon House Office Building Washington DC 20515-0607
     office: 348 Cannon House Office Building
     phone: 202-225-2645
+    rss_url: https://pettersen.house.gov/news/rss.aspx
 - id:
     bioguide: B001314
     fec:
@@ -36702,6 +36722,7 @@
     address: 2459 Rayburn House Office Building Washington DC 20515-0904
     office: 2459 Rayburn House Office Building
     phone: 202-225-0123
+    rss_url: https://bean.house.gov/rss.xml
 - id:
     bioguide: M001216
     fec:
@@ -36781,6 +36802,7 @@
     address: 1224 Longworth House Office Building Washington DC 20515-0910
     office: 1224 Longworth House Office Building
     phone: 202-225-2176
+    rss_url: https://frost.house.gov/rss/feeds/
 - id:
     bioguide: L000596
     fec:
@@ -37022,6 +37044,7 @@
     address: 228 Cannon House Office Building Washington DC 20515-5301
     office: 228 Cannon House Office Building
     phone: 202-225-1188
+    rss_url: https://moylan.house.gov/rss.xml
 - id:
     bioguide: T000487
     fec:
@@ -37062,6 +37085,7 @@
     address: 1027 Longworth House Office Building Washington DC 20515-1102
     office: 1027 Longworth House Office Building
     phone: 202-225-4906
+    rss_url: https://tokuda.house.gov/rss/feeds/
 - id:
     bioguide: N000193
     fec:
@@ -37103,6 +37127,7 @@
     address: 1410 Longworth House Office Building Washington DC 20515-1503
     office: 1410 Longworth House Office Building
     phone: 202-225-5476
+    rss_url: https://nunn.house.gov/feed/
 - id:
     bioguide: J000309
     fec:
@@ -37263,6 +37288,7 @@
     address: 1314 Longworth House Office Building Washington DC 20515-1317
     office: 1314 Longworth House Office Building
     phone: 202-225-5905
+    rss_url: https://sorensen.house.gov/rss.xml
 - id:
     bioguide: H001093
     fec:
@@ -37341,6 +37367,7 @@
     address: 1527 Longworth House Office Building Washington DC 20515-1703
     office: 1527 Longworth House Office Building
     phone: 202-225-5401
+    rss_url: https://mcgarvey.house.gov/rss/feeds/
 - id:
     bioguide: I000058
     fec:
@@ -37381,6 +37408,7 @@
     address: 1610 Longworth House Office Building Washington DC 20515-2004
     office: 1610 Longworth House Office Building
     phone: 202-225-8699
+    rss_url: https://ivey.house.gov/rss.xml
 - id:
     bioguide: S001221
     fec:
@@ -37421,6 +37449,7 @@
     address: 1317 Longworth House Office Building Washington DC 20515-2203
     office: 1317 Longworth House Office Building
     phone: 202-225-3831
+    rss_url: https://scholten.house.gov/rss.xml
 - id:
     bioguide: J000307
     fec:
@@ -37462,6 +37491,7 @@
     address: 1519 Longworth House Office Building Washington DC 20515-2210
     office: 1519 Longworth House Office Building
     phone: 202-225-4961
+    rss_url: https://james.house.gov/news/rss.aspx
 - id:
     bioguide: T000488
     fec:
@@ -37501,6 +37531,7 @@
     address: 154 Cannon House Office Building Washington DC 20515-2213
     office: 154 Cannon House Office Building
     phone: 202-225-5802
+    rss_url: https://thanedar.house.gov/rss/feeds/
 - id:
     bioguide: A000379
     fec:
@@ -37540,6 +37571,7 @@
     address: 328 Cannon House Office Building Washington DC 20515-2504
     office: 328 Cannon House Office Building
     phone: 202-225-2876
+    rss_url: https://alford.house.gov/news/rss.aspx
 - id:
     bioguide: B001316
     fec:
@@ -37580,6 +37612,7 @@
     address: 1108 Longworth House Office Building Washington DC 20515-2507
     office: 1108 Longworth House Office Building
     phone: 202-225-6536
+    rss_url: https://burlison.house.gov/rss.xml
 - id:
     bioguide: E000235
     fec:
@@ -37619,6 +37652,7 @@
     address: 443 Cannon House Office Building Washington DC 20515-2404
     office: 443 Cannon House Office Building
     phone: 202-225-5772
+    rss_url: https://ezell.house.gov/news/rss.aspx
 - id:
     bioguide: D000230
     fec:
@@ -37698,6 +37732,7 @@
     address: 2452 Rayburn House Office Building Washington DC 20515-3304
     office: 2452 Rayburn House Office Building
     phone: 202-225-1784
+    rss_url: https://foushee.house.gov/rss/feeds/
 - id:
     bioguide: E000246
     fec:
@@ -37900,6 +37935,7 @@
     address: 122 Cannon House Office Building Washington DC 20515-3201
     office: 122 Cannon House Office Building
     phone: 202-225-3826
+    rss_url: https://lalota.house.gov/rss.xml
 - id:
     bioguide: G000599
     fec:
@@ -37941,6 +37977,7 @@
     address: 245 Cannon House Office Building Washington DC 20515-3210
     office: 245 Cannon House Office Building
     phone: 202-225-7944
+    rss_url: https://goldman.house.gov/rss.xml
 - id:
     bioguide: L000599
     fec:
@@ -37981,6 +38018,7 @@
     address: 324 Cannon House Office Building Washington DC 20515-3217
     office: 324 Cannon House Office Building
     phone: 202-225-6506
+    rss_url: https://lawler.house.gov/news/rss.aspx
 - id:
     bioguide: L000600
     fec:
@@ -38140,6 +38178,7 @@
     address: 1217 Longworth House Office Building Washington DC 20515-3513
     office: 1217 Longworth House Office Building
     phone: 202-225-6265
+    rss_url: https://sykes.house.gov/rss/feeds/
 - id:
     bioguide: B001317
     fec:
@@ -38180,6 +38219,7 @@
     address: 351 Cannon House Office Building Washington DC 20515-3602
     office: 351 Cannon House Office Building
     phone: 202-225-2701
+    rss_url: https://brecheen.house.gov/news/rss.aspx
 - id:
     bioguide: H001094
     fec:
@@ -38221,6 +38261,7 @@
     address: 1620 Longworth House Office Building Washington DC 20515-3704
     office: 1620 Longworth House Office Building
     phone: 202-225-6416
+    rss_url: https://hoyle.house.gov/rss/feeds/
 - id:
     bioguide: S001226
     fec:
@@ -38423,6 +38464,7 @@
     address: 345 Cannon House Office Building Washington DC 20515-4007
     office: 345 Cannon House Office Building
     phone: 202-225-9895
+    rss_url: https://fry.house.gov/news/rss.aspx
 - id:
     bioguide: O000175
     fec:
@@ -38505,6 +38547,7 @@
     address: 1605 Longworth House Office Building Washington DC 20515-4301
     office: 1605 Longworth House Office Building
     phone: 202-225-3035
+    rss_url: https://moran.house.gov/news/rss.aspx
 - id:
     bioguide: S001224
     fec:
@@ -38626,6 +38669,7 @@
     address: 1415 Longworth House Office Building Washington DC 20515-4315
     office: 1415 Longworth House Office Building
     phone: 202-225-9901
+    rss_url: https://delacruz.house.gov/news/rss.aspx
 - id:
     bioguide: C001130
     fec:
@@ -38666,6 +38710,7 @@
     address: 1616 Longworth House Office Building Washington DC 20515-4330
     office: 1616 Longworth House Office Building
     phone: 202-225-8885
+    rss_url: https://crockett.house.gov/rss.xml
 - id:
     bioguide: C001131
     fec:
@@ -38706,6 +38751,7 @@
     address: 446 Cannon House Office Building Washington DC 20515-4335
     office: 446 Cannon House Office Building
     phone: 202-225-5645
+    rss_url: https://casar.house.gov/rss.xml
 - id:
     bioguide: H001095
     fec:
@@ -38828,6 +38874,7 @@
     address: 1510 Longworth House Office Building Washington DC 20515-4500
     office: 1510 Longworth House Office Building
     phone: 202-225-4115
+    rss_url: https://balint.house.gov/news/rss.aspx
 - id:
     bioguide: G000600
     fec:
@@ -38950,6 +38997,7 @@
     address: 1227 Longworth House Office Building Washington DC 20515-5000
     office: 1227 Longworth House Office Building
     phone: 202-225-2311
+    rss_url: https://hageman.house.gov/rss.xml
 - id:
     bioguide: R000618
     lis: S423
@@ -39037,6 +39085,7 @@
     address: 1628 Longworth House Office Building Washington DC 20515-4604
     office: 1628 Longworth House Office Building
     phone: 202-225-6365
+    rss_url: https://mcclellan.house.gov/rss.xml
 - id:
     bioguide: A000380
     fec:
@@ -39115,6 +39164,7 @@
     address: 249 Cannon House Office Building Washington DC 20515-4402
     office: 249 Cannon House Office Building
     phone: 202-225-9730
+    rss_url: https://maloy.house.gov/news/rss.aspx
 - id:
     bioguide: S001201
     govtrack: 412717
@@ -39189,6 +39239,7 @@
     address: 203 Cannon House Office Building Washington DC 20515-3203
     office: 203 Cannon House Office Building
     phone: 202-225-3335
+    rss_url: https://suozzi.house.gov/rss.xml
 - id:
     bioguide: K000402
     govtrack: 456957
@@ -39229,6 +39280,7 @@
     address: 423 Cannon House Office Building Washington DC 20515-3226
     office: 423 Cannon House Office Building
     phone: 202-225-3306
+    rss_url: https://kennedy.house.gov/news/rss.aspx
 - id:
     bioguide: F000480
     fec:
@@ -39268,6 +39320,7 @@
     address: 243 Cannon House Office Building Washington DC 20515-0520
     office: 243 Cannon House Office Building
     phone: 202-225-2915
+    rss_url: https://fong.house.gov/rss.xml
 - id:
     bioguide: R000619
     fec:
@@ -39308,6 +39361,7 @@
     address: 421 Cannon House Office Building Washington DC 20515-3506
     office: 421 Cannon House Office Building
     phone: 202-225-5705
+    rss_url: https://rulli.house.gov/feed/
 - id:
     bioguide: M001229
     fec:
@@ -39348,6 +39402,7 @@
     address: 426 Cannon House Office Building Washington DC 20515-3010
     office: 426 Cannon House Office Building
     phone: 202-225-3436
+    rss_url: https://mciver.house.gov/rss/feeds/
 - id:
     bioguide: W000829
     fec:
@@ -39505,7 +39560,6 @@
     district: 3
     party: Republican
     url: https://stutzman.house.gov
-    rss_url: http://stutzman.house.gov/press_releases.rss
     address: 404 Cannon House Office Building Washington DC 20515-1403
     office: 404 Cannon House Office Building
     phone: 202-225-4436
@@ -39696,6 +39750,7 @@
     office: 153 Cannon House Office Building
     phone: 202-225-5765
     url: https://begich.house.gov
+    rss_url: https://begich.house.gov/rss.xml
 - id:
     bioguide: F000481
     fec:
@@ -39723,6 +39778,7 @@
     office: 225 Cannon House Office Building
     phone: 202-225-4931
     url: https://figures.house.gov
+    rss_url: https://figures.house.gov/rss.xml
 - id:
     bioguide: A000381
     fec:
@@ -39749,6 +39805,7 @@
     office: 1432 Longworth House Office Building
     phone: 202-225-4065
     url: https://ansari.house.gov
+    rss_url: https://ansari.house.gov/rss/feeds/
 - id:
     bioguide: H001098
     fec:
@@ -39803,6 +39860,7 @@
     office: 1023 Longworth House Office Building
     phone: 202-225-2661
     url: https://simon.house.gov
+    rss_url: https://simon.house.gov/rss.xml
 - id:
     bioguide: G000605
     fec:
@@ -39830,6 +39888,7 @@
     office: 1230 Longworth House Office Building
     phone: 202-225-1947
     url: https://gray.house.gov
+    rss_url: https://gray.house.gov/rss.xml
 - id:
     bioguide: L000607
     fec:
@@ -39857,6 +39916,7 @@
     office: 1117 Longworth House Office Building
     phone: 202-225-8104
     url: https://liccardo.house.gov
+    rss_url: https://liccardo.house.gov/rss.xml
 - id:
     bioguide: W000830
     fec:
@@ -39965,6 +40025,7 @@
     office: 1127 Longworth House Office Building
     phone: 202-225-2415
     url: https://tran.house.gov
+    rss_url: https://tran.house.gov/rss.xml
 - id:
     bioguide: M001241
     fec:
@@ -40019,6 +40080,7 @@
     office: 1641 Longworth House Office Building
     phone: 202-225-4676
     url: https://hurd.house.gov
+    rss_url: https://hurd.house.gov/rss.xml
 - id:
     bioguide: C001137
     fec:
@@ -40099,6 +40161,7 @@
     office: 1306 Longworth House Office Building
     phone: 202-225-4165
     url: https://mcbride.house.gov
+    rss_url: https://mcbride.house.gov/rss.xml
 - id:
     bioguide: H001099
     fec:
@@ -40126,6 +40189,7 @@
     office: 1039 Longworth House Office Building
     phone: 202-225-3671
     url: https://haridopolos.house.gov
+    rss_url: https://haridopolos.house.gov/rss.xml
 - id:
     bioguide: J000311
     fec:
@@ -40206,6 +40270,7 @@
     office: 1208 Longworth House Office Building
     phone: 202-225-4636
     url: https://messmer.house.gov
+    rss_url: https://messmer.house.gov/news/rss.aspx
 - id:
     bioguide: S001228
     fec:
@@ -40233,6 +40298,7 @@
     office: 1223 Longworth House Office Building
     phone: 202-225-6601
     url: https://schmidt.house.gov
+    rss_url: https://schmidt.house.gov/rss.xml
 - id:
     bioguide: O000176
     fec:
@@ -40261,6 +40327,7 @@
     office: 1339 Longworth House Office Building
     phone: 202-225-3061
     url: https://olszewski.house.gov
+    rss_url: https://olszewski.house.gov/rss.xml
 - id:
     bioguide: E000301
     fec:
@@ -40315,6 +40382,7 @@
     office: 1130 Longworth House Office Building
     phone: 202-225-2721
     url: https://mcclaindelaney.house.gov
+    rss_url: https://mcclaindelaney.house.gov/rss.xml
 - id:
     bioguide: B001321
     fec:
@@ -40342,6 +40410,7 @@
     office: 1232 Longworth House Office Building
     phone: 202-225-4872
     url: https://barrett.house.gov
+    rss_url: https://barrett.house.gov/rss.xml
 - id:
     bioguide: M001237
     fec:
@@ -40369,6 +40438,7 @@
     office: 1408 Longworth House Office Building
     phone: 202-225-3611
     url: https://mcdonaldrivet.house.gov
+    rss_url: https://mcdonaldrivet.house.gov/rss.xml
 - id:
     bioguide: M001234
     fec:
@@ -40396,6 +40466,7 @@
     office: 1205 Longworth House Office Building
     phone: 202-225-2871
     url: https://morrison.house.gov
+    rss_url: https://morrison.house.gov/rss.xml
 - id:
     bioguide: B001324
     fec:
@@ -40423,6 +40494,7 @@
     office: 1429 Longworth House Office Building
     phone: 202-225-2406
     url: https://bell.house.gov
+    rss_url: https://bell.house.gov/rss.xml
 - id:
     bioguide: O000177
     fec:
@@ -40478,6 +40550,7 @@
     office: 425 Cannon House Office Building
     phone: 202-225-2646
     url: https://king-hinds.house.gov
+    rss_url: https://king-hinds.house.gov/rss.xml
 - id:
     bioguide: D000634
     fec:
@@ -40505,6 +40578,7 @@
     office: 1529 Longworth House Office Building
     phone: 202-225-3211
     url: https://downing.house.gov
+    rss_url: https://downing.house.gov/rss.xml
 - id:
     bioguide: M001240
     fec:
@@ -40612,6 +40686,7 @@
     office: 1239 Longworth House Office Building
     phone: 202-225-4531
     url: https://knott.house.gov
+    rss_url: https://knott.house.gov/rss.xml
 - id:
     bioguide: M001236
     fec:
@@ -40666,6 +40741,7 @@
     office: 1607 Longworth House Office Building
     phone: 202-225-2611
     url: https://fedorchak.house.gov
+    rss_url: https://fedorchak.house.gov/rss.xml
 - id:
     bioguide: G000604
     fec:
@@ -40693,6 +40769,7 @@
     office: 223 Cannon House Office Building
     phone: 202-225-5206
     url: https://goodlander.house.gov
+    rss_url: https://goodlander.house.gov/feed/
 - id:
     bioguide: C001136
     fec:
@@ -40748,6 +40825,7 @@
     office: 1007 Longworth House Office Building
     phone: 202-225-5751
     url: https://pou.house.gov
+    rss_url: https://pou.house.gov/rss.xml
 - id:
     bioguide: G000602
     fec:
@@ -41045,6 +41123,7 @@
     office: 1530 Longworth House Office Building
     phone: 202-225-5301
     url: https://sheribiggs.house.gov
+    rss_url: https://sheribiggs.house.gov/rss.xml
 - id:
     bioguide: G000601
     fec:
@@ -41209,6 +41288,7 @@
     office: 1005 Longworth House Office Building
     phone: 202-225-2815
     url: https://vindman.house.gov
+    rss_url: https://vindman.house.gov/feed/
 - id:
     bioguide: S001230
     fec:
@@ -41316,6 +41396,7 @@
     office: 1337 Longworth House Office Building
     phone: 202-225-2711
     url: https://rileymoore.house.gov
+    rss_url: https://rileymoore.house.gov/rss.xml
 - id:
     bioguide: J000312
     lis: S437
@@ -41471,6 +41552,7 @@
     address: 244 Cannon House Office Building Washington DC 20515-0906
     office: 244 Cannon House Office Building
     phone: 202-225-2706
+    rss_url: https://fine.house.gov/news/rss.aspx
 - id:
     bioguide: W000831
     fec:
