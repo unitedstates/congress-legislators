@@ -2,7 +2,7 @@ import pathlib
 import requests
 import feedparser
 from datetime import datetime, timedelta, timezone
-from utils import load_data, save_data, states as state_names
+from utils import load_data, save_data
 from feedfinder2 import find_feeds
 
 
