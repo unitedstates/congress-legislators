@@ -1,9 +1,10 @@
-from feedfinder2 import find_feeds
 import pathlib
 import requests
 import feedparser
 from datetime import datetime, timedelta, timezone
 from utils import load_data, save_data, states as state_names
+from feedfinder2 import find_feeds
+
 
 def check_feed(url: str, days: int) -> bool:
     """
@@ -49,7 +50,6 @@ def check_feed(url: str, days: int) -> bool:
         print(f"HTTP Error on {e} on {url}")
         return False
 
-
     # Parse the feed
     feed = feedparser.parse(response.text)
 
@@ -68,6 +68,7 @@ def check_feed(url: str, days: int) -> bool:
 
     return False
 
+
 script_path = pathlib.Path(__file__).parent.resolve()
 
 current = load_data(f"{script_path}/../legislators-current.yaml")
@@ -77,34 +78,36 @@ days_to_check = 60
 counter = 0
 for item in current:
 
-    counter += 1 
+    counter += 1
 
     # For testing saving
     # if counter > 30:
     #     save_data(current, f"{script_path}/../legislators-current.yaml")
     #     sys.exit()
 
-    term = item['terms'][-1]
+    term = item["terms"][-1]
 
-    if 'official_full' in item['name']:
-        print(f"Checking for RSS for {item['id']['bioguide']} {item['name'].get('official_full', '')}")
+    if "official_full" in item["name"]:
+        print(
+            f"Checking for RSS for {item['id']['bioguide']} {item['name'].get('official_full', '')}"
+        )
 
     # skip senate republicans drupal sites, none have valid feeds
-    if term['type'] == 'sen' and term['party'] == 'Republican':
+    if term["type"] == "sen" and term["party"] == "Republican":
         print(f"Skipping {item['id']['bioguide']}, republican senator\n")
         continue
 
-    if 'url' in term and 'rss_url' in term:
+    if "url" in term and "rss_url" in term:
         try:
-            if not check_feed(term['rss_url'], days_to_check):
+            if not check_feed(term["rss_url"], days_to_check):
                 print(f"Removing defunct url {term['rss_url']}")
-                del term['rss_url']    
+                del term["rss_url"]
         except Exception as e:
             print(f"Connection Error {e} on {term['url']} check url veracity")
 
-    if not 'rss_url' in term and 'url' in term:
+    if not "rss_url" in term and "url" in term:
         print(f"Checking for feeds in {term['url']}")
-        feeds = find_feeds(term['url'])
+        feeds = find_feeds(term["url"])
         good_feeds = []
         for feed in feeds:
             if check_feed(feed, days_to_check):
@@ -113,7 +116,7 @@ for item in current:
         if len(good_feeds):
             print("Found 1 or more good feeds.")
             print(good_feeds)
-            term['rss_url'] = good_feeds[0]
+            term["rss_url"] = good_feeds[0]
 
     print("\n")
 
