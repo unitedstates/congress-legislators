@@ -51235,7 +51235,8 @@
     "name": {
       "first": "James",
       "middle": "R.",
-      "last": "Walkinshaw"
+      "last": "Walkinshaw",
+      "official_full": "James R. Walkinshaw"
     },
     "bio": {
       "gender": "M",
@@ -51252,6 +51253,43 @@
         "address": "2265 Rayburn House Office Building Washington DC 20515-4611",
         "office": "2265 Rayburn House Office Building",
         "phone": "202-225-1492"
+      }
+    ]
+  },
+  {
+    "id": {
+      "bioguide": "G000606",
+      "fec": [
+        "H6AZ07121"
+      ],
+      "govtrack": 457037,
+      "wikipedia": "Adelita Grijalva",
+      "wikidata": "Q134612342",
+      "ballotpedia": "Adelita Grijalva",
+      "house_history": 36507227802
+    },
+    "name": {
+      "first": "Adelita",
+      "middle": "S.",
+      "last": "Grijalva",
+      "official_full": "Adelita S. Grijalva"
+    },
+    "bio": {
+      "gender": "F",
+      "birthday": "1970-10-30"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-11-12",
+        "end": "2027-01-03",
+        "state": "AZ",
+        "district": 7,
+        "party": "Democrat",
+        "url": "https://grijalva.house.gov/",
+        "address": "1203 Longworth House Office Building Washington DC 20515-0307",
+        "office": "1203 Longworth House Office Building",
+        "phone": "202-225-2435"
       }
     ]
   }
