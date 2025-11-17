@@ -6,7 +6,7 @@ import os
 import utils
 
 
-def generate_csv():
+def generate_legislator_csv():
 
 	#yaml filenames
 	yamls = ["legislators-current.yaml","legislators-historical.yaml"]
@@ -139,8 +139,6 @@ def generate_csv():
 
 			csv_output.writerow(legislator_row)
 
-	generate_district_office_csv()
-
 
 def generate_district_office_csv():
 	filename = "legislators-district-offices.yaml"
@@ -162,8 +160,7 @@ def generate_district_office_csv():
 			csv_output.writerow(office)
 
 
-def generate_json():
-
+def generate_legislator_json():
 	#yaml filenames
     yamls = list(map(os.path.basename, glob.glob("../*.yaml")))
 
@@ -184,7 +181,43 @@ def generate_json():
             json.dumps(data, default=utils.format_datetime, indent=2),
             "../" + filename.replace(".yaml", ".json"))
 
-if __name__ == '__main__':
-	generate_csv()
-	generate_json()
 
+def generate_committee_membership_csv():
+	filename = "committee-membership-current.yaml"
+	print("Converting %s to CSV..." % filename)
+	committee_membership = utils.load_data(filename)
+	fields = [
+		"bioguide", "name",
+		"committee_id", "committee_type", "committee_name", "committee_subcommittee_name",
+		"party", "title", "rank", "chamber",
+		]
+
+	committes = utils.load_data("committees-current.yaml")
+	committes = { committee["thomas_id"]: committee
+	              for committee in committes }
+	for committee in list(committes.values()):
+		committee["id"] = committee["thomas_id"]
+		for subcommittee in committee.get("subcommittees", []):
+			subcommittee["id"] = committee["thomas_id"] + subcommittee["thomas_id"]
+			subcommittee["type"] = committee["type"] + " subcommittee"
+			subcommittee["subcommittee_name"] = subcommittee["name"]
+			subcommittee["name"] = committee["name"]
+			committes[subcommittee["id"]] = subcommittee
+	committee_keys = ["id", "type", "name", "subcommittee_name"]
+
+	f = open("../" + filename.replace(".yaml", ".csv"), "w")
+	csv_output = csv.DictWriter(f, fieldnames=fields)
+	csv_output.writeheader()
+
+	for committee_id, members in committee_membership.items():
+		for member in members:
+			for key in committee_keys:
+				member["committee_" + key] = committes[committee_id].get(key, "")
+			csv_output.writerow(member)
+
+
+if __name__ == '__main__':
+	generate_legislator_csv()
+	generate_district_office_csv()
+	generate_legislator_json()
+	generate_committee_membership_csv()
