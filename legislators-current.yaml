@@ -41124,8 +41124,8 @@
     state_rank: junior
     party: Republican
     url: https://www.justice.senate.gov
-    address: G12 Dirksen Senate Office Building Washington DC 20510
-    office: G12 Dirksen Senate Office Building
+    address: 509 Hart Senate Office Building Washington DC 20510
+    office: 509 Hart Senate Office Building
     phone: 202-224-3954
 - id:
     bioguide: H001104
@@ -41333,3 +41333,30 @@
     address: 2446 Rayburn House Office Building Washington DC 20515-4207
     office: 2446 Rayburn House Office Building
     phone: 202-225-2811
+- id:
+    bioguide: M001245
+    fec:
+    - H6TX18232
+    govtrack: 457039
+    wikipedia: Christian Menefee
+    wikidata: Q114397549
+    ballotpedia: Christian Menefee
+    house_history: 36507228199
+  name:
+    first: Christian
+    middle: Dashaun
+    last: Menefee
+  bio:
+    gender: M
+    birthday: '1988-04-18'
+  terms:
+  - type: rep
+    start: '2026-02-02'
+    end: '2027-01-03'
+    state: TX
+    district: 18
+    party: Democrat
+    url: https://menefee.house.gov/
+    address: 1318 Longworth House Office Building Washington DC 20515-4318
+    office: 1318 Longworth House Office Building
+    phone: 202-225-3816
