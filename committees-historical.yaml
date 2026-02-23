@@ -1,4 +1,23 @@
 - type: house
+  name: House Select Subcommittee on the Coronavirus Pandemic
+  thomas_id: HSVC
+  house_committee_id: VC
+  congresses:
+  - 117
+  - 118
+- type: house
+  name: House Select Subcommittee on the Weaponization of the Federal Government
+  thomas_id: HSFD
+  house_committee_id: FD
+  congresses:
+  - 118
+- type: house
+  name: House Task Force on the Attempted Assassination of Donald J. Trump
+  thomas_id: HSZT
+  house_committee_id: ZT
+  congresses:
+  - 118
+- type: house
   name: House Committee on Energy (Ad Hoc)
   thomas_id: HHAH
   house_committee_id: AH
