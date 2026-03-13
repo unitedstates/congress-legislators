@@ -14741,3 +14741,76 @@
     zip: '96951'
     phone: 670-532-2647
     fax: 670-532-2649
+- id:
+    bioguide: W000831
+    govtrack: 457036
+  offices:
+  - id: W000831-fairfax
+    address: 10680 Main Street District
+    suite: Suite 140
+    city: Fairfax
+    state: VA
+    zip: '22030'
+    phone: 703-256-3071
+- id:
+    bioguide: G000606
+    govtrack: 457037
+  offices:
+  - id: G000606-tucson
+    address: 101 W. Irvington Road
+    building: Building 4
+    city: Tucson
+    state: AZ
+    zip: '85714'
+    fax: 520-622-0198
+    phone: 520-622-6788
+- id:
+    bioguide: V000139
+    govtrack: 457038
+  offices:
+  - id: V000139-clarksville
+    address: 128 N Second St
+    suite: Suite 104
+    city: Clarksville
+    state: TN
+    zip: '37040'
+    hours: By appointment only
+    phone: 931-266-4483
+  - id: V000139-franklin
+    address: 305 Public Square
+    suite: Suite 212
+    city: Franklin
+    state: TN
+    zip: '37064'
+    hours: By appointment only
+    phone: 629-223-6050
+  - id: V000139-nashville
+    address: 801 Broadway
+    suite: Suite C 507
+    city: Nashville
+    state: TN
+    zip: '37203'
+    phone: 629-999-4950
+- id:
+    bioguide: M001245
+    govtrack: 457039
+  offices:
+  - id: M001245-houston
+    address: 15651 North Freeway
+    city: Houston
+    state: TX
+    zip: '77090'
+    phone: 281-891-4899
+  - id: M001245-houston-1
+    address: 2020 Solo Street
+    city: Houston
+    state: TX
+    zip: '77020'
+    phone: 713-227-7740
+  - id: M001245-houston-2
+    address: 1919 Smith Street
+    suite: Suite 1180
+    city: Houston
+    state: TX
+    zip: '77002'
+    phone: 713-655-0050
