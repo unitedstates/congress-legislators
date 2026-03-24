@@ -36280,7 +36280,16 @@
     end: '2027-01-03'
     state: CA
     district: 3
-    party: Republican
+    party: Independent
+    caucus: Republican
+    party_affiliations:
+      - start: 2025-01-03
+        end: 2026-03-08
+        party: Republican
+      - start: 2026-03-09
+        end:  2027-01-03
+        party: Independent
+        caucus: Republican
     url: https://kiley.house.gov
     address: 2445 Rayburn House Office Building Washington DC 20515-0503
     office: 2445 Rayburn House Office Building
