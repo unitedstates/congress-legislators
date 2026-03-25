@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cimg/python:3.11
+      - image: cimg/python:3.14
     steps:
       # Set up.
       - checkout
@@ -19,7 +19,7 @@ jobs:
   # on the repo, which is not CircleCI's default.
   deploy:
     docker:
-      - image: cimg/python:3.8
+      - image: cimg/python:3.14
     steps:
       - checkout
       - run: pip install -r scripts/requirements.txt
