@@ -34720,56 +34720,6 @@
     office: 1104 Longworth House Office Building
     phone: 202-225-5951
 - id:
-    bioguide: G000594
-    fec:
-    - H0TX35015
-    opensecrets: N00044592
-    govtrack: 456849
-    wikidata: Q104648170
-    google_entity_id: kg:/g/11fs52clcr
-    wikipedia: Tony Gonzales
-    pictorial: 13280
-  name:
-    first: Ernest
-    middle: Anthony
-    nickname: Tony
-    last: Gonzales
-    official_full: Tony Gonzales
-  bio:
-    gender: M
-    birthday: '1980-10-10'
-  terms:
-  - type: rep
-    start: '2021-01-03'
-    end: '2023-01-03'
-    state: TX
-    district: 23
-    party: Republican
-    address: 1009 Longworth House Office Building Washington DC 20515-4323
-    office: 1009 Longworth House Office Building
-    phone: 202-225-4511
-    url: https://gonzales.house.gov
-  - type: rep
-    start: '2023-01-03'
-    end: '2025-01-03'
-    state: TX
-    district: 23
-    party: Republican
-    url: https://gonzales.house.gov
-    address: 2244 Rayburn House Office Building Washington DC 20515-4323
-    office: 2244 Rayburn House Office Building
-    phone: 202-225-4511
-  - type: rep
-    start: '2025-01-03'
-    end: '2027-01-03'
-    state: TX
-    district: 23
-    party: Republican
-    url: https://gonzales.house.gov
-    address: 2239 Rayburn House Office Building Washington DC 20515-4323
-    office: 2239 Rayburn House Office Building
-    phone: 202-225-4511
-- id:
     bioguide: V000134
     fec:
     - H0TX24209
@@ -41204,3 +41154,26 @@
     address: G12 Dirksen Senate Office Building Washington DC 20510
     office: G12 Dirksen Senate Office Building
     phone: 202-224-4721
+- id:
+    bioguide: F000485
+    fec:
+    - H0GA14030
+    govtrack: 457041
+    wikipedia: Clay Fuller
+    wikidata: Q138355765
+  name:
+    first: Clay
+    last: Fuller
+  bio:
+    gender: M
+    birthday: '1981-04-09'
+  terms:
+  - type: rep
+    start: '2026-04-14'
+    end: '2027-01-03'
+    state: GA
+    district: 14
+    party: Republican
+    address: 2201 Rayburn House Office Building Washington DC 20515-1014
+    office: 2201 Rayburn House Office Building
+    phone: 202-225-5211
