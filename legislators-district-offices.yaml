@@ -4910,57 +4910,6 @@
     longitude: -80.42425399999999
     phone: 305-222-0160
 - id:
-    bioguide: G000594
-    govtrack: 456849
-  offices:
-  - id: G000594-san_antonio
-    address: 4372 N. Loop 1604 W
-    suite: Suite 205
-    city: San Antonio
-    state: TX
-    zip: '78249'
-    latitude: 29.5959788
-    longitude: -98.572084
-    hours: By appointment only
-    fax: 210-927-4903
-    phone: 210-806-9920
-  - id: G000594-uvalde
-    address: 2401 Garner Field Rd
-    building: Building Q
-    city: Uvalde
-    state: TX
-    zip: '78801'
-    latitude: 29.21959
-    longitude: -99.74042569999999
-    hours: By appointment only
-    phone: 830-333-7410
-  - id: G000594-del_rio
-    address: 712 East Gibbs St.
-    city: Del Rio
-    state: TX
-    zip: '78840'
-    latitude: 29.36716509999999
-    longitude: -100.8947025
-    phone: 830-308-6200
-  - id: G000594-fort_stockton
-    address: 103 West Callaghan
-    city: Fort Stockton
-    state: TX
-    zip: '79735'
-    latitude: 30.88280039999999
-    longitude: -102.8797441
-    phone: 432-299-6200
-  - id: G000594-socorro
-    address: 10167 Socorro Rd.
-    building: Casa Ortiz
-    city: Socorro
-    state: TX
-    zip: '79927'
-    latitude: 31.6547697
-    longitude: -106.303233
-    hours: By appointment only
-    phone: 915-990-1500
-- id:
     bioguide: G000597
     govtrack: 456836
   offices:
@@ -8319,29 +8268,6 @@
     longitude: -73.83085919999999
     hours: By appointment only
 - id:
-    bioguide: M001190
-    govtrack: 412568
-    thomas: '02156'
-  offices:
-  - id: M001190-oklahoma_city
-    address: 3817 NW Expressway
-    suite: '#780'
-    city: Oklahoma City
-    state: OK
-    zip: '73112'
-    latitude: 35.5361791
-    longitude: -97.58577269999999
-    phone: 405-246-0025
-  - id: M001190-tulsa
-    address: 15 W 6th St.
-    suite: 'Suite #2100'
-    city: Tulsa
-    state: OK
-    zip: '74119'
-    latitude: 36.1509086
-    longitude: -95.99073519999999
-    phone: 918-921-8520
-- id:
     bioguide: M001194
     govtrack: 412634
     thomas: '02248'
@@ -11019,19 +10945,6 @@
     hours: By appointment only
     fax: 847-793-0677
     phone: 847-383-4870
-- id:
-    bioguide: S001193
-    govtrack: 412514
-    thomas: '02104'
-  offices:
-  - id: S001193-castro_valley
-    address: 20990 Redwood Road
-    city: Castro Valley
-    state: CA
-    zip: '94546'
-    latitude: 37.693352
-    longitude: -122.072426
-    phone: 510-370-3322
 - id:
     bioguide: S001194
     govtrack: 412507
