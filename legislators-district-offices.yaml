@@ -2795,28 +2795,6 @@
     longitude: -82.99609939999999
     phone: 614-927-6902
 - id:
-    bioguide: C001127
-    govtrack: 456865
-  offices:
-  - id: C001127-tamarac
-    address: 5701 NW 88th Avenue
-    suite: Suite 200
-    city: Tamarac
-    state: FL
-    zip: '33321'
-    latitude: 26.1953246
-    longitude: -80.26880729999999
-    phone: 954-733-2800
-  - id: C001127-west_palm_beach
-    address: 5725 Corporate Way
-    suite: Suite 208
-    city: West Palm Beach
-    state: FL
-    zip: '33407'
-    latitude: 26.7622223
-    longitude: -80.0913358
-    phone: 561-461-6767
-- id:
     bioguide: C001129
     govtrack: 456895
   offices:
@@ -10629,21 +10607,6 @@
     longitude: -118.0049307
     fax: 771-200-5828
     phone: 562-860-5050
-- id:
-    bioguide: S001157
-    govtrack: 400363
-    thomas: '01722'
-  offices:
-  - id: S001157-stockbridge
-    address: 5 Gresham Landing
-    suite: Suite A
-    city: Stockbridge
-    state: GA
-    zip: '30281'
-    latitude: 33.5078517
-    longitude: -84.2185254
-    fax: 770-991-9797
-    phone: 770-210-5073
 - id:
     bioguide: S001159
     govtrack: 456854
