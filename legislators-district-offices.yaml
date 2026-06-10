@@ -14628,6 +14628,8 @@
     state: VA
     zip: '22030'
     phone: 703-256-3071
+    latitude: 38.8492741
+    longitude: -77.3142244
 - id:
     bioguide: G000606
     govtrack: 457037
@@ -14640,6 +14642,8 @@
     zip: '85714'
     fax: 520-622-0198
     phone: 520-622-6788
+    latitude: 32.160536
+    longitude: -110.9694903
 - id:
     bioguide: V000139
     govtrack: 457038
@@ -14652,6 +14656,8 @@
     zip: '37040'
     hours: By appointment only
     phone: 931-266-4483
+    latitude: 36.5285985
+    longitude: -87.3594237
   - id: V000139-franklin
     address: 305 Public Square
     suite: Suite 212
@@ -14660,6 +14666,8 @@
     zip: '37064'
     hours: By appointment only
     phone: 629-223-6050
+    latitude: 35.9247753
+    longitude: -86.86896159999999
   - id: V000139-nashville
     address: 801 Broadway
     suite: Suite C 507
@@ -14667,6 +14675,8 @@
     state: TN
     zip: '37203'
     phone: 629-999-4950
+    latitude: 36.15826
+    longitude: -86.7825982
 - id:
     bioguide: M001245
     govtrack: 457039
@@ -14677,12 +14687,16 @@
     state: TX
     zip: '77090'
     phone: 281-891-4899
+    latitude: 29.9944134
+    longitude: -95.4261625
   - id: M001245-houston-1
     address: 2020 Solo Street
     city: Houston
     state: TX
     zip: '77020'
     phone: 713-227-7740
+    latitude: 29.7794665
+    longitude: -95.3203801
   - id: M001245-houston-2
     address: 1919 Smith Street
     suite: Suite 1180
@@ -14690,6 +14704,8 @@
     state: TX
     zip: '77002'
     phone: 713-655-0050
+    latitude: 29.7518958
+    longitude: -95.3736327
 - id:
     bioguide: A000383
     govtrack: 457040
