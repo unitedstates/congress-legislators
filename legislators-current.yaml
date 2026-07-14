@@ -972,106 +972,6 @@
     office: 711 Hart Senate Office Building
     phone: 202-224-2152
 - id:
-    bioguide: G000359
-    thomas: '00452'
-    lis: S293
-    govtrack: 300047
-    opensecrets: N00009975
-    votesmart: 21992
-    fec:
-    - S0SC00149
-    - H4SC03087
-    cspan: 36782
-    wikipedia: Lindsey Graham
-    house_history: 14015
-    ballotpedia: Lindsey Graham
-    maplight: 569
-    icpsr: 29566
-    wikidata: Q22212
-    google_entity_id: kg:/m/01_pdg
-    pictorial: 13440
-  name:
-    first: Lindsey
-    middle: O.
-    last: Graham
-    official_full: Lindsey Graham
-  bio:
-    birthday: '1955-07-09'
-    gender: M
-  terms:
-  - type: rep
-    start: '1995-01-04'
-    end: '1997-01-03'
-    state: SC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '1997-01-07'
-    end: '1999-01-03'
-    state: SC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '1999-01-06'
-    end: '2001-01-03'
-    state: SC
-    district: 3
-    party: Republican
-  - type: rep
-    start: '2001-01-03'
-    end: '2003-01-03'
-    state: SC
-    district: 3
-    party: Republican
-  - type: sen
-    start: '2003-01-07'
-    end: '2009-01-03'
-    state: SC
-    class: 2
-    party: Republican
-    url: http://lgraham.senate.gov/
-  - type: sen
-    start: '2009-01-06'
-    end: '2015-01-03'
-    state: SC
-    class: 2
-    party: Republican
-    url: http://www.lgraham.senate.gov
-    address: 290 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-5972
-    fax: 202-224-3808
-    contact_form: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Contact.EmailSenatorGraham
-    office: 290 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed
-  - type: sen
-    start: '2015-01-06'
-    end: '2021-01-03'
-    state: SC
-    class: 2
-    party: Republican
-    url: https://www.lgraham.senate.gov/public
-    address: 290 Russell Senate Office Building Washington DC 20510
-    phone: 202-224-5972
-    fax: 202-224-3808
-    contact_form: https://www.lgraham.senate.gov/public/index.cfm/e-mail-senator-graham
-    office: 290 Russell Senate Office Building
-    state_rank: senior
-    rss_url: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed
-  - type: sen
-    start: '2021-01-03'
-    end: '2027-01-03'
-    state: SC
-    class: 2
-    state_rank: senior
-    party: Republican
-    url: https://www.lgraham.senate.gov/public
-    rss_url: http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed
-    contact_form: https://www.lgraham.senate.gov/public/index.cfm/e-mail-senator-graham
-    address: 211 Russell Senate Office Building Washington DC 20510
-    office: 211 Russell Senate Office Building
-    phone: 202-224-5972
-- id:
     bioguide: M000355
     thomas: '01395'
     lis: S174
@@ -29425,7 +29325,7 @@
     official_full: Russ Fulcher
   bio:
     gender: M
-    birthday: '1973-07-19'
+    birthday: '1962-03-09'
   terms:
   - type: rep
     start: '2019-01-03'
@@ -41188,6 +41088,7 @@
     address: G12 Dirksen Senate Office Building Washington DC 20510
     office: G12 Dirksen Senate Office Building
     phone: 202-224-4721
+    fax: 202-228-0380
 - id:
     bioguide: F000485
     fec:
@@ -41239,4 +41140,23 @@
     address: 1427 Longworth House Office Building Washington DC 20515-3011
     office: 1427 Longworth House Office Building
     phone: 202-225-5034
+    fax: 202-225-3186
     url: https://mejia.house.gov
+- id:
+    bioguide: G000607
+    fec:
+    - H6CA01285
+    govtrack: 457043
+  name:
+    first: James
+    last: Gallagher
+  bio:
+    gender: M
+    birthday: '1981-03-07'
+  terms:
+  - type: rep
+    start: '2026-06-10'
+    end: '2027-01-03'
+    state: CA
+    district: 1
+    party: Republican

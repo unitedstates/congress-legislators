@@ -1619,7 +1619,7 @@
   - id: C000880-coeur_d__alene
     address: 610 Hubbard Ave
     suite: Suite 209
-    city: Coeur d' Alene
+    city: Coeur d'Alene
     state: ID
     zip: '83814'
     fax: 208-664-0889
@@ -4209,72 +4209,6 @@
     latitude: 36.838698
     longitude: -119.6756338
     phone: 559-701-2530
-- id:
-    bioguide: G000359
-    govtrack: 300047
-    thomas: '00452'
-  offices:
-  - id: G000359-florence
-    address: 401 W. Evans St.
-    suite: Suite 111
-    building: McMillan Federal Building
-    city: Florence
-    state: SC
-    zip: '29501'
-    latitude: 34.1974074
-    longitude: -79.7733804
-    fax: 843-669-9015
-    phone: 843-669-1505
-  - id: G000359-pendleton
-    address: 124 Exchange St.
-    suite: Suite A
-    city: Pendleton
-    state: SC
-    zip: '29670'
-    latitude: 34.65072
-    longitude: -82.782997
-    fax: 864-646-8609
-    phone: 864-646-4090
-  - id: G000359-rock_hill
-    address: 235 E. Main St.
-    suite: Suite 100
-    city: Rock Hill
-    state: SC
-    zip: '29730'
-    latitude: 34.9245162
-    longitude: -81.0247705
-    fax: 803-366-5353
-    phone: 803-366-2828
-  - id: G000359-columbia
-    address: 2142 Boyce Street
-    suite: Suite 404
-    city: Columbia
-    state: SC
-    zip: '29201'
-    latitude: 34.017483
-    longitude: -81.03179639999999
-    fax: 803-933-0957
-    phone: 803-933-0112
-  - id: G000359-charleston
-    address: 4 Carriage Lane
-    suite: Suite 401
-    city: Charleston
-    state: SC
-    zip: '29407'
-    latitude: 32.7976069
-    longitude: -79.99641199999999
-    fax: 843-971-3669
-    phone: 843-849-3887
-  - id: G000359-greenville
-    address: 2 West Washington Street
-    suite: Suite 808
-    city: Greenville
-    state: SC
-    zip: '29601'
-    latitude: 34.851023
-    longitude: -82.39930629999999
-    fax: 864-250-4322
-    phone: 864-250-1417
 - id:
     bioguide: G000386
     govtrack: 300048
@@ -14628,6 +14562,8 @@
     state: VA
     zip: '22030'
     phone: 703-256-3071
+    latitude: 38.8492741
+    longitude: -77.3142244
 - id:
     bioguide: G000606
     govtrack: 457037
@@ -14640,6 +14576,8 @@
     zip: '85714'
     fax: 520-622-0198
     phone: 520-622-6788
+    latitude: 32.160536
+    longitude: -110.9694903
 - id:
     bioguide: V000139
     govtrack: 457038
@@ -14652,6 +14590,8 @@
     zip: '37040'
     hours: By appointment only
     phone: 931-266-4483
+    latitude: 36.5285985
+    longitude: -87.3594237
   - id: V000139-franklin
     address: 305 Public Square
     suite: Suite 212
@@ -14660,6 +14600,8 @@
     zip: '37064'
     hours: By appointment only
     phone: 629-223-6050
+    latitude: 35.9247753
+    longitude: -86.86896159999999
   - id: V000139-nashville
     address: 801 Broadway
     suite: Suite C 507
@@ -14667,6 +14609,8 @@
     state: TN
     zip: '37203'
     phone: 629-999-4950
+    latitude: 36.15826
+    longitude: -86.7825982
 - id:
     bioguide: M001245
     govtrack: 457039
@@ -14677,12 +14621,16 @@
     state: TX
     zip: '77090'
     phone: 281-891-4899
+    latitude: 29.9944134
+    longitude: -95.4261625
   - id: M001245-houston-1
     address: 2020 Solo Street
     city: Houston
     state: TX
     zip: '77020'
     phone: 713-227-7740
+    latitude: 29.7794665
+    longitude: -95.3203801
   - id: M001245-houston-2
     address: 1919 Smith Street
     suite: Suite 1180
@@ -14690,3 +14638,44 @@
     state: TX
     zip: '77002'
     phone: 713-655-0050
+    latitude: 29.7518958
+    longitude: -95.3736327
+- id:
+    bioguide: A000383
+    govtrack: 457040
+  offices:
+  - id: A000383-oklahoma_city
+    address: 3817 NW Expressway
+    suite: '#780'
+    city: Oklahoma City
+    state: OK
+    zip: '73112'
+    phone: 405-246-0025
+    fax: 405-604-0917
+    latitude: 35.5359239
+    longitude: -97.5858215
+- id:
+    bioguide: F000485
+    govtrack: 457041
+  offices:
+  - id: F000485-dalton
+    address: P.O. Box 829
+    city: Dalton
+    state: GA
+    zip: '30722'
+    phone: 706-226-5320
+    latitude: 34.7698021
+    longitude: -84.9702228
+- id:
+    bioguide: M001246
+    govtrack: 457042
+  offices:
+  - id: M001246-livingston
+    address: 357 S. Livingston Avenue
+    suite: Suite 201
+    city: Livingston
+    state: NJ
+    zip: '07039'
+    phone: 973-526-5668
+    latitude: 40.7824091
+    longitude: -74.3146206
