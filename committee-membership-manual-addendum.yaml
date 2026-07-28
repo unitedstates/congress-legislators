@@ -1,10 +1,12 @@
 # JCSE (Commission on Security and Cooperation in Europe / Helsinki Commission) is a
 # bicameral joint commission. Upstream's committee-membership-current.yaml only tracks
 # the Senate side and has the chair title backwards (Wicker tagged Cochairman when he
-# is Chairman this Congress). Full 119th Congress roster below per csce.gov and
-# https://en.wikipedia.org/wiki/Commission_on_Security_and_Cooperation_in_Europe
-# (verified 2026-07-28). This replaces the primary JCSE entry wholesale (addendum
-# merge is a full per-key override, not a per-member merge).
+# is Chairman this Congress). Full current roster below per
+# https://www.csce.gov/commissioners/ (verified 2026-07-28). Ruben Gallego replaced
+# Tina Smith on 2025-12-08:
+# https://www.congress.gov/congressional-record/volume-171/issue-205/senate-section/article/S8522-6
+# This replaces the primary JCSE entry wholesale (addendum merge is a full per-key
+# override, not a per-member merge).
 JCSE:
 - name: Roger F. Wicker
   party: majority
@@ -43,25 +45,20 @@ JCSE:
   rank: 2
   bioguide: S001181
   chamber: senate
-- name: Tina Smith
-  party: minority
-  rank: 3
-  bioguide: S001203
-  chamber: senate
 - name: John Fetterman
   party: minority
-  rank: 4
+  rank: 3
   bioguide: F000479
   chamber: senate
 - name: Ruben Gallego
   party: minority
-  rank: 5
+  rank: 4
   bioguide: G000574
   chamber: senate
 - name: Joe Wilson
   party: majority
   rank: 1
-  title: Cochairman
+  title: Co-Chairman
   bioguide: W000795
   chamber: house
 - name: Robert B. Aderholt
