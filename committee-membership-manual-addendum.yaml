@@ -1,3 +1,110 @@
+# JCSE (Commission on Security and Cooperation in Europe / Helsinki Commission) is a
+# bicameral joint commission. Upstream's committee-membership-current.yaml only tracks
+# the Senate side and has the chair title backwards (Wicker tagged Cochairman when he
+# is Chairman this Congress). Full 119th Congress roster below per csce.gov and
+# https://en.wikipedia.org/wiki/Commission_on_Security_and_Cooperation_in_Europe
+# (verified 2026-07-28). This replaces the primary JCSE entry wholesale (addendum
+# merge is a full per-key override, not a per-member merge).
+JCSE:
+- name: Roger F. Wicker
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: W000437
+  chamber: senate
+- name: John Boozman
+  party: majority
+  rank: 2
+  bioguide: B001236
+  chamber: senate
+- name: Thom Tillis
+  party: majority
+  rank: 3
+  bioguide: T000476
+  chamber: senate
+- name: Katie Boyd Britt
+  party: majority
+  rank: 4
+  bioguide: B001319
+  chamber: senate
+- name: Mike Rounds
+  party: majority
+  rank: 5
+  bioguide: R000605
+  chamber: senate
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000802
+  chamber: senate
+- name: Jeanne Shaheen
+  party: minority
+  rank: 2
+  bioguide: S001181
+  chamber: senate
+- name: Tina Smith
+  party: minority
+  rank: 3
+  bioguide: S001203
+  chamber: senate
+- name: John Fetterman
+  party: minority
+  rank: 4
+  bioguide: F000479
+  chamber: senate
+- name: Ruben Gallego
+  party: minority
+  rank: 5
+  bioguide: G000574
+  chamber: senate
+- name: Joe Wilson
+  party: majority
+  rank: 1
+  title: Cochairman
+  bioguide: W000795
+  chamber: house
+- name: Robert B. Aderholt
+  party: majority
+  rank: 2
+  bioguide: A000055
+  chamber: house
+- name: Richard Hudson
+  party: majority
+  rank: 3
+  bioguide: H001067
+  chamber: house
+- name: Gregory F. Murphy
+  party: majority
+  rank: 4
+  bioguide: M001210
+  chamber: house
+- name: Jake Ellzey
+  party: majority
+  rank: 5
+  bioguide: E000071
+  chamber: house
+- name: Steve Cohen
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001068
+  chamber: house
+- name: Emanuel Cleaver
+  party: minority
+  rank: 2
+  bioguide: C001061
+  chamber: house
+- name: Marc A. Veasey
+  party: minority
+  rank: 3
+  bioguide: V000131
+  chamber: house
+- name: Lloyd Doggett
+  party: minority
+  rank: 4
+  bioguide: D000399
+  chamber: house
 HSBA98:
 - name: Frank D. Lucas
   party: majority
