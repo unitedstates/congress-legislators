@@ -254,3 +254,80 @@ SSBU:
   party: minority
   rank: 10
   bioguide: P000145
+
+# SSAP20 (Senate Appropriations, Subcommittee on State, Foreign Operations, and
+# Related Programs). Sen. Lindsey Graham (R-SC) chaired this subcommittee until his
+# term ended 2026-07-11. Upstream's 2026-07-15 run removed him and left the
+# subcommittee with no chair designation at all.
+# Full-committee Chair Susan M. Collins (R-ME) has stepped in as chair per
+# https://www.appropriations.senate.gov/subcommittees/state-foreign-operations-and-related-programs
+# (verified 2026-08-04), where she is labeled "Chair (Interim)". Sen. Brian Schatz
+# (D-HI) remains Ranking Member.
+# We record her as `Chairman` rather than the site's literal "Chair (Interim)"
+# because that is the string this file uses for every other SSAP subcommittee chair
+# regardless of gender, and it is the value consumers rank on; an unrecognized title
+# sorts to the bottom of the roster instead of the top. Her prior `Ex Officio` tag is
+# replaced accordingly, since she is now actually chairing rather than sitting
+# ex officio. Revisit if a permanent chair is named.
+# Membership below is upstream's 2026-07-15 roster reproduced verbatim; the ONLY
+# change is Collins's title. Addendum merge is a full per-key override.
+SSAP20:
+- name: Mitch McConnell
+  party: majority
+  rank: 1
+  bioguide: M000355
+- name: John Boozman
+  party: majority
+  rank: 2
+  bioguide: B001236
+- name: Jerry Moran
+  party: majority
+  rank: 3
+  bioguide: M000934
+- name: Bill Hagerty
+  party: majority
+  rank: 4
+  bioguide: H000601
+- name: Katie Boyd Britt
+  party: majority
+  rank: 5
+  bioguide: B001319
+- name: Jon Husted
+  party: majority
+  rank: 6
+  bioguide: H001104
+- name: Susan M. Collins
+  party: majority
+  rank: 7
+  title: Chairman
+  bioguide: C001035
+- name: Brian Schatz
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: S001194
+- name: Richard J. Durbin
+  party: minority
+  rank: 2
+  bioguide: D000563
+- name: Jeanne Shaheen
+  party: minority
+  rank: 3
+  bioguide: S001181
+- name: Christopher A. Coons
+  party: minority
+  rank: 4
+  bioguide: C001088
+- name: Jeff Merkley
+  party: minority
+  rank: 5
+  bioguide: M001176
+- name: Christopher Murphy
+  party: minority
+  rank: 6
+  bioguide: M001169
+- name: Patty Murray
+  party: minority
+  rank: 7
+  title: Ex Officio
+  bioguide: M001111
