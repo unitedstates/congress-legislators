@@ -7,6 +7,9 @@
 # https://www.congress.gov/congressional-record/volume-171/issue-205/senate-section/article/S8522-6
 # This replaces the primary JCSE entry wholesale (addendum merge is a full per-key
 # override, not a per-member merge).
+# Note: the majority ranks for Britt (4) and Rounds (5) are intentionally swapped
+# relative to upstream, which has Rounds 4 / Britt 5. csce.gov lists Britt ahead of
+# Rounds; do not "correct" this back when re-syncing with upstream.
 JCSE:
 - name: Roger F. Wicker
   party: majority
