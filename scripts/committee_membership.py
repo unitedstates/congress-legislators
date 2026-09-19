@@ -269,6 +269,7 @@ def run():
 
     # look up senator by state and last name
     if (state, last_name) == ("NM", "Lujan"): last_name = "Luján"
+    if (state, last_name) == ("SC", "Graham"): last_name = "Graham Nordone"
     if (state, last_name) not in senators:
       print("\t[%s] Unknown member: %s" % (state, last_name))
       return None
