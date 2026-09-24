@@ -1,0 +1,428 @@
+# JCSE (Commission on Security and Cooperation in Europe / Helsinki Commission) is a
+# bicameral joint commission. Upstream's committee-membership-current.yaml only tracks
+# the Senate side and has the chair title backwards (Wicker tagged Cochairman when he
+# is Chairman this Congress). Full current roster below per
+# https://www.csce.gov/commissioners/ (verified 2026-07-28). Ruben Gallego replaced
+# Tina Smith on 2025-12-08:
+# https://www.congress.gov/congressional-record/volume-171/issue-205/senate-section/article/S8522-6
+# This replaces the primary JCSE entry wholesale (addendum merge is a full per-key
+# override, not a per-member merge).
+# Note: the majority ranks for Britt (4) and Rounds (5) are intentionally swapped
+# relative to upstream, which has Rounds 4 / Britt 5. csce.gov lists Britt ahead of
+# Rounds; do not "correct" this back when re-syncing with upstream.
+JCSE:
+- name: Roger F. Wicker
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: W000437
+  chamber: senate
+- name: John Boozman
+  party: majority
+  rank: 2
+  bioguide: B001236
+  chamber: senate
+- name: Thom Tillis
+  party: majority
+  rank: 3
+  bioguide: T000476
+  chamber: senate
+- name: Katie Boyd Britt
+  party: majority
+  rank: 4
+  bioguide: B001319
+  chamber: senate
+- name: Mike Rounds
+  party: majority
+  rank: 5
+  bioguide: R000605
+  chamber: senate
+- name: Sheldon Whitehouse
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: W000802
+  chamber: senate
+- name: Jeanne Shaheen
+  party: minority
+  rank: 2
+  bioguide: S001181
+  chamber: senate
+- name: John Fetterman
+  party: minority
+  rank: 3
+  bioguide: F000479
+  chamber: senate
+- name: Ruben Gallego
+  party: minority
+  rank: 4
+  bioguide: G000574
+  chamber: senate
+- name: Joe Wilson
+  party: majority
+  rank: 1
+  title: Co-Chairman
+  bioguide: W000795
+  chamber: house
+- name: Robert B. Aderholt
+  party: majority
+  rank: 2
+  bioguide: A000055
+  chamber: house
+- name: Richard Hudson
+  party: majority
+  rank: 3
+  bioguide: H001067
+  chamber: house
+- name: Gregory F. Murphy
+  party: majority
+  rank: 4
+  bioguide: M001210
+  chamber: house
+- name: Jake Ellzey
+  party: majority
+  rank: 5
+  bioguide: E000071
+  chamber: house
+- name: Steve Cohen
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001068
+  chamber: house
+- name: Emanuel Cleaver
+  party: minority
+  rank: 2
+  bioguide: C001061
+  chamber: house
+- name: Marc A. Veasey
+  party: minority
+  rank: 3
+  bioguide: V000131
+  chamber: house
+- name: Lloyd Doggett
+  party: minority
+  rank: 4
+  bioguide: D000399
+  chamber: house
+HSBA98:
+- name: Frank D. Lucas
+  party: majority
+  rank: 1
+  title: Chairman
+  bioguide: L000491
+- name: Juan Vargas
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: V000130
+- name: Bill Huizenga
+  party: majority
+  rank: 2
+  bioguide: H001058
+- name: Brad Sherman
+  party: minority
+  rank: 2
+  bioguide: S000344
+- name: Andy Barr
+  party: majority
+  rank: 3
+  bioguide: B001282
+- name: Josh Gottheimer
+  party: minority
+  rank: 3
+  bioguide: G000583
+- name: Marlin A. Stutzman
+  party: majority
+  rank: 4
+  bioguide: S001188
+- name: Sean Casten
+  party: minority
+  rank: 4
+  bioguide: C001117
+- name: Scott Fitzgerald
+  party: majority
+  rank: 5
+  bioguide: F000471
+- name: Cleo Fields
+  party: minority
+  rank: 5
+  bioguide: F000110
+- name: Mike Flood
+  party: majority
+  rank: 6
+  bioguide: F000474
+- name: Janelle S. Bynum
+  party: minority
+  rank: 6
+  bioguide: B001326
+- name: Monica De La Cruz
+  party: majority
+  rank: 7
+  bioguide: D000594
+- name: Troy Downing
+  party: majority
+  rank: 8
+  bioguide: D000634
+
+# --- House Foreign Affairs (HFAC) subcommittee changes announced 2026-08-25 ---
+# Ranking Member Gregory W. Meeks announced three new Democratic members of the full
+# committee and two subcommittee Ranking Member changes:
+# https://democrats-foreignaffairs.house.gov/2026/8/meeks-welcomes-new-members-to-hfac
+# (verified 2026-09-02). Per that release:
+#   - Jared Moskowitz (M001217) becomes Ranking Member of Middle East and North
+#     Africa (HSFA13), succeeding Brad Sherman, who had been Acting Ranking Member.
+#   - Jonathan L. Jackson (J000309) becomes Ranking Member of Oversight and
+#     Intelligence (HSFA17), succeeding Moskowitz.
+#   - Debbie Wasserman Schultz (W000797) assigned to Oversight and Intelligence.
+#   - Mark Pocan (P000607) assigned to Africa (HSFA16).
+#   - Wesley Bell (B001324) assigned to Western Hemisphere (HSFA07).
+# clerk.house.gov's MemberData.xml already reflects the three full-committee
+# additions but none of the subcommittee assignments or either Ranking Member
+# change, and both committee websites are still showing the pre-announcement
+# rosters (democrats-foreignaffairs.house.gov still lists Sherman as "Acting
+# Ranking Member" of HSFA13). Hence these overrides.
+#
+# ASSUMPTION: the release does not say whether Sherman and Moskowitz keep their
+# seats on the subcommittees they no longer lead. Members are not normally dropped
+# from a panel when its leadership rotates, so both are retained here, ranked
+# immediately below the new Ranking Member per full-committee seniority. Majority
+# rosters and all other minority members are upstream's verbatim. Drop these keys
+# once clerk.house.gov catches up.
+
+# HSFA13 (HFAC, Middle East and North Africa). Only minority side changes:
+# Moskowitz inserted at rank 1 as Ranking Member, everyone below shifted down one.
+HSFA13:
+- name: Michael Lawler
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: L000599
+- name: Joe Wilson
+  party: majority
+  rank: 2
+  bioguide: W000795
+- name: Darrell Issa
+  party: majority
+  rank: 3
+  bioguide: I000056
+- name: Tim Burchett
+  party: majority
+  rank: 4
+  bioguide: B001309
+- name: Ronny Jackson
+  party: majority
+  rank: 5
+  bioguide: J000304
+- name: Thomas H. Kean, Jr.
+  party: majority
+  rank: 6
+  bioguide: K000398
+- name: Ryan K. Zinke
+  party: majority
+  rank: 7
+  bioguide: Z000018
+- name: Michael Baumgartner
+  party: majority
+  rank: 8
+  bioguide: B001322
+- name: Jared Moskowitz
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: M001217
+- name: Brad Sherman
+  party: minority
+  rank: 2
+  bioguide: S000344
+- name: William R. Keating
+  party: minority
+  rank: 3
+  bioguide: K000375
+- name: Kweisi Mfume
+  party: minority
+  rank: 4
+  bioguide: M000687
+- name: George Latimer
+  party: minority
+  rank: 5
+  bioguide: L000606
+
+# HSFA17 (HFAC, Oversight and Intelligence). Minority side: Jonathan L. Jackson
+# added at rank 1 as Ranking Member (he was not previously on this subcommittee),
+# Moskowitz drops to rank 2 without a title, and Wasserman Schultz is appended.
+HSFA17:
+- name: Cory Mills
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: M001216
+- name: Scott Perry
+  party: majority
+  rank: 2
+  bioguide: P000605
+- name: Darrell Issa
+  party: majority
+  rank: 3
+  bioguide: I000056
+- name: Ronny Jackson
+  party: majority
+  rank: 4
+  bioguide: J000304
+- name: Warren Davidson
+  party: majority
+  rank: 5
+  bioguide: D000626
+- name: James R. Baird
+  party: majority
+  rank: 6
+  bioguide: B001307
+- name: Anna Paulina Luna
+  party: majority
+  rank: 7
+  bioguide: L000596
+- name: Max L. Miller
+  party: majority
+  rank: 8
+  bioguide: M001222
+- name: Jonathan L. Jackson
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: J000309
+- name: Jared Moskowitz
+  party: minority
+  rank: 2
+  bioguide: M001217
+- name: Sarah McBride
+  party: minority
+  rank: 3
+  bioguide: M001238
+- name: Bradley Scott Schneider
+  party: minority
+  rank: 4
+  bioguide: S001190
+- name: Madeleine Dean
+  party: minority
+  rank: 5
+  bioguide: D000631
+- name: Debbie Wasserman Schultz
+  party: minority
+  rank: 6
+  bioguide: W000797
+
+# HSFA16 (HFAC, Africa). Only change is appending Mark Pocan, who is junior to
+# every sitting minority member of this subcommittee on the full committee.
+HSFA16:
+- name: Christopher H. Smith
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S000522
+- name: Ronny Jackson
+  party: majority
+  rank: 2
+  bioguide: J000304
+- name: Maria Elvira Salazar
+  party: majority
+  rank: 3
+  bioguide: S000168
+- name: Bill Huizenga
+  party: majority
+  rank: 4
+  bioguide: H001058
+- name: Aumua Amata Coleman Radewagen
+  party: majority
+  rank: 5
+  bioguide: R000600
+- name: James R. Baird
+  party: majority
+  rank: 6
+  bioguide: B001307
+- name: Max L. Miller
+  party: majority
+  rank: 7
+  bioguide: M001222
+- name: Sara Jacobs
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: J000305
+- name: Jonathan L. Jackson
+  party: minority
+  rank: 2
+  bioguide: J000309
+- name: Pramila Jayapal
+  party: minority
+  rank: 3
+  bioguide: J000298
+- name: Johnny Olszewski, Jr.
+  party: minority
+  rank: 4
+  bioguide: O000176
+- name: Mark Pocan
+  party: minority
+  rank: 5
+  bioguide: P000607
+
+# HSFA07 (HFAC, Western Hemisphere). Only change is appending Wesley Bell, who is
+# junior to every sitting minority member of this subcommittee on the full committee.
+HSFA07:
+- name: Maria Elvira Salazar
+  party: majority
+  rank: 1
+  title: Chair
+  bioguide: S000168
+- name: Christopher H. Smith
+  party: majority
+  rank: 2
+  bioguide: S000522
+- name: Michael Lawler
+  party: majority
+  rank: 3
+  bioguide: L000599
+- name: Cory Mills
+  party: majority
+  rank: 4
+  bioguide: M001216
+- name: Ryan Mackenzie
+  party: majority
+  rank: 5
+  bioguide: M001230
+- name: Sheri Biggs
+  party: majority
+  rank: 6
+  bioguide: B001325
+- name: Randy Fine
+  party: majority
+  rank: 7
+  bioguide: F000484
+- name: Joaquin Castro
+  party: minority
+  rank: 1
+  title: Ranking Member
+  bioguide: C001091
+- name: Dina Titus
+  party: minority
+  rank: 2
+  bioguide: T000468
+- name: Sara Jacobs
+  party: minority
+  rank: 3
+  bioguide: J000305
+- name: Greg Stanton
+  party: minority
+  rank: 4
+  bioguide: S001211
+- name: Jonathan L. Jackson
+  party: minority
+  rank: 5
+  bioguide: J000309
+- name: Sydney Kamlager-Dove
+  party: minority
+  rank: 6
+  bioguide: K000400
+- name: Wesley Bell
+  party: minority
+  rank: 7
+  bioguide: B001324

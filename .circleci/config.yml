@@ -10,6 +10,7 @@ jobs:
 
       # Run tests.
       - run: python test/workout.py
+      - run: python -m unittest discover -s test -p 'test_*.py'
       - run: pyflakes .
       - run: python test/are_files_linted.py
       - run: python test/validate.py
