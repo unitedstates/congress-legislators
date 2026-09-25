@@ -524,19 +524,13 @@ The `ballotpedia` field has been created using code from James Michael DuPont, u
 Ongoing projects making use of this data:
 
 * [GovTrack.us](https://www.govtrack.us)
-* [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
-* [ProPublica Congress API](https://propublica.github.io/congress-api-docs/)
-* [Represent](https://projects.propublica.org/represent/)
-* [EveryPolitician.org](http://everypolitician.org)
+* [Library of Congress congress.gov API](https://api.congress.gov/)
 
-Stories written with this data:
-
-* http://swampland.time.com/2013/11/15/meet-the-39-democrats-who-voted-with-the-house-on-obamacare/
-* http://swampland.time.com/2013/10/28/liz-cheney-and-the-family-business-a-chart-of-all-congressional-dynasties/
+Discontinued projects that previously used this data: ProPublica's Congress API and Represent (both retired by ProPublica), the Sunlight Foundation Congress API (org shut down 2020), and EveryPolitician.org (dormant since 2019).
 
 Other projects:
 
-* Margie Roswell's [committee map](http://mroswell.github.io/congressional-committee-maps/index.html)
+* Margie Roswell's [committee map](https://mroswell.github.io/congressional-committee-maps/)
 
 ## Public domain
 
