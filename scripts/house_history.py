@@ -59,7 +59,7 @@ def get_bioguide_for_house_history_id(id):
         try:
             bioguide_link = dom.cssselect("a.view-in-bioguide")[0].get('href')
             return bioguide_link.split('=')[1]
-        except:
+        except IndexError:
             return None
     else:
         return None
