@@ -21,6 +21,16 @@ import utils
 from utils import download, load_data, save_data
 
 
+def build_senator_lookup(legislators):
+  senators = {}
+  for moc in legislators:
+    term = moc["terms"][-1]
+    if term["type"] == "sen":
+      for name in [moc["name"]] + moc.get("other_names", []):
+        senators[(term["state"], name["last"])] = moc
+  return senators
+
+
 def run():
   committee_membership = load_data("committee-membership-current.yaml")
   committees_current = load_data("committees-current.yaml")
@@ -45,12 +55,7 @@ def run():
   # membership data does not contain IDs for senators, and map to bioguide
   # IDs so we can copy forward the official_full name for House members
   legislators_current = load_data("legislators-current.yaml")
-  senators = { }
-  for moc in legislators_current:
-    term = moc["terms"][-1]
-    if term["type"] == "sen":
-      for n in [moc["name"]] + moc.get("other_names", []):
-        senators[(term["state"], n["last"])] = moc
+  senators = build_senator_lookup(legislators_current)
   legislators_current = { moc["id"]["bioguide"]: moc for moc in legislators_current }
 
 
