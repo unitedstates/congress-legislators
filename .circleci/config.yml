@@ -6,6 +6,8 @@ jobs:
     steps:
       # Set up.
       - checkout
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ca-certificates
+      - run: python scripts/bootstrap_pip.py
       - run: pip install -r scripts/requirements.txt
 
       # Run tests.
@@ -23,6 +25,8 @@ jobs:
       - image: cimg/python:3.14
     steps:
       - checkout
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ca-certificates
+      - run: python scripts/bootstrap_pip.py
       - run: pip install -r scripts/requirements.txt
       - run: scripts/update_gh_pages.sh
 
