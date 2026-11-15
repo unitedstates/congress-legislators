@@ -525,8 +525,6 @@ Ongoing projects making use of this data:
 
 * [GovTrack.us](https://www.govtrack.us)
 * [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
-* [ProPublica Congress API](https://propublica.github.io/congress-api-docs/)
-* [Represent](https://projects.propublica.org/represent/)
 * [EveryPolitician.org](http://everypolitician.org)
 
 Stories written with this data:
