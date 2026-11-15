@@ -40859,7 +40859,7 @@
   terms:
   - type: sen
     start: '2025-01-21'
-    end: '2026-11-03'
+    end: '2026-12-15'
     how: appointment
     end-type: special-election
     state: OH
@@ -40895,6 +40895,18 @@
     end: '2026-11-03'
     how: appointment
     end-type: special-election
+    state: FL
+    class: 3
+    party: Republican
+    state_rank: junior
+    url: https://www.moody.senate.gov
+    address: 387 Russell Senate Office Building Washington DC 20510
+    office: 387 Russell Senate Office Building
+    phone: 202-224-3041
+  - type: sen
+    start: '2026-11-04'
+    end: '2029-01-03'
+    how: special-election
     state: FL
     class: 3
     party: Republican
