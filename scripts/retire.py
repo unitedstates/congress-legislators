@@ -18,7 +18,7 @@ def run():
 
 	try:
 		utils.parse_date(sys.argv[2])
-	except:
+	except ValueError:
 		print("Invalid date: ", sys.argv[2])
 		sys.exit()
 
