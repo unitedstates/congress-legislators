@@ -310,3 +310,231 @@ HSFA17:
   party: minority
   rank: 6
   bioguide: W000797
+# HXHR (Tom Lantos Human Rights Commission) is a LegAide-assigned code; see
+# committees-current-manual-addendum.yaml. Roster from the commission's official pages,
+# read 2026-11-16: co-chairs https://humanrightscommission.house.gov/about/co-chairs,
+# executive committee https://humanrightscommission.house.gov/about/executive-committee
+# (it names four Democratic members and no Republican members), and members
+# https://humanrightscommission.house.gov/about/members. Membership is open to any House
+# member who enrolls. The site lists members alphabetically with no seniority, so ranks
+# here are list order: co-chair, executive committee, then the members page. The members
+# page shows Gabe Amo as RI 02; he represents RI-01 (A000380).
+HXHR:
+- name: Christopher H. Smith
+  party: majority
+  rank: 1
+  title: Co-Chair
+  bioguide: S000522
+- name: Gus M. Bilirakis
+  party: majority
+  rank: 2
+  bioguide: B001257
+- name: James P. McGovern
+  party: minority
+  rank: 1
+  title: Co-Chair
+  bioguide: M000312
+- name: Ilhan Omar
+  party: minority
+  rank: 2
+  title: Executive Committee Member
+  bioguide: O000173
+- name: Jamie Raskin
+  party: minority
+  rank: 3
+  title: Executive Committee Member
+  bioguide: R000606
+- name: Norma J. Torres
+  party: minority
+  rank: 4
+  title: Executive Committee Member
+  bioguide: T000474
+- name: Derek Tran
+  party: minority
+  rank: 5
+  title: Executive Committee Member
+  bioguide: T000491
+- name: Gabe Amo
+  party: minority
+  rank: 6
+  bioguide: A000380
+- name: Suzanne Bonamici
+  party: minority
+  rank: 7
+  bioguide: B001278
+- name: André Carson
+  party: minority
+  rank: 8
+  bioguide: C001072
+- name: Steve Cohen
+  party: minority
+  rank: 9
+  bioguide: C001068
+- name: J. Luis Correa
+  party: minority
+  rank: 10
+  bioguide: C001110
+- name: Jim Costa
+  party: minority
+  rank: 11
+  bioguide: C001059
+- name: Jason Crow
+  party: minority
+  rank: 12
+  bioguide: C001121
+- name: Suzan K. DelBene
+  party: minority
+  rank: 13
+  bioguide: D000617
+- name: Lloyd Doggett
+  party: minority
+  rank: 14
+  bioguide: D000399
+- name: John Garamendi
+  party: minority
+  rank: 15
+  bioguide: G000559
+- name: James A. Himes
+  party: minority
+  rank: 16
+  bioguide: H001047
+- name: Chrissy Houlahan
+  party: minority
+  rank: 17
+  bioguide: H001085
+- name: Henry C. "Hank" Johnson, Jr.
+  party: minority
+  rank: 18
+  bioguide: J000288
+- name: Sydney Kamlager-Dove
+  party: minority
+  rank: 19
+  bioguide: K000400
+- name: Marcy Kaptur
+  party: minority
+  rank: 20
+  bioguide: K000009
+- name: Ro Khanna
+  party: minority
+  rank: 21
+  bioguide: K000389
+- name: George Latimer
+  party: minority
+  rank: 22
+  bioguide: L000606
+- name: Summer L. Lee
+  party: minority
+  rank: 23
+  bioguide: L000602
+- name: Mike Levin
+  party: minority
+  rank: 24
+  bioguide: L000593
+- name: Ted Lieu
+  party: minority
+  rank: 25
+  bioguide: L000582
+- name: Zoe Lofgren
+  party: minority
+  rank: 26
+  bioguide: L000397
+- name: Stephen F. Lynch
+  party: minority
+  rank: 27
+  bioguide: L000562
+- name: Seth Magaziner
+  party: minority
+  rank: 28
+  bioguide: M001223
+- name: Sarah McBride
+  party: minority
+  rank: 29
+  bioguide: M001238
+- name: Betty McCollum
+  party: minority
+  rank: 30
+  bioguide: M001143
+- name: Gwen Moore
+  party: minority
+  rank: 31
+  bioguide: M001160
+- name: Seth Moulton
+  party: minority
+  rank: 32
+  bioguide: M001196
+- name: Kevin Mullin
+  party: minority
+  rank: 33
+  bioguide: M001225
+- name: Jerrold Nadler
+  party: minority
+  rank: 34
+  bioguide: N000002
+- name: Eleanor Holmes Norton
+  party: minority
+  rank: 35
+  bioguide: N000147
+- name: Johnny Olszewski, Jr.
+  party: minority
+  rank: 36
+  bioguide: O000176
+- name: Chris Pappas
+  party: minority
+  rank: 37
+  bioguide: P000614
+- name: Chellie Pingree
+  party: minority
+  rank: 38
+  bioguide: P000597
+- name: Mark Pocan
+  party: minority
+  rank: 39
+  bioguide: P000607
+- name: Delia C. Ramirez
+  party: minority
+  rank: 40
+  bioguide: R000617
+- name: Deborah K. Ross
+  party: minority
+  rank: 41
+  bioguide: R000305
+- name: Mary Gay Scanlon
+  party: minority
+  rank: 42
+  bioguide: S001205
+- name: Janice D. Schakowsky
+  party: minority
+  rank: 43
+  bioguide: S001145
+- name: Adam Smith
+  party: minority
+  rank: 44
+  bioguide: S000510
+- name: Suhas Subramanyam
+  party: minority
+  rank: 45
+  bioguide: S001230
+- name: Thomas R. Suozzi
+  party: minority
+  rank: 46
+  bioguide: S001201
+- name: Mark Takano
+  party: minority
+  rank: 47
+  bioguide: T000472
+- name: Dina Titus
+  party: minority
+  rank: 48
+  bioguide: T000468
+- name: Jill N. Tokuda
+  party: minority
+  rank: 49
+  bioguide: T000487
+- name: Juan Vargas
+  party: minority
+  rank: 50
+  bioguide: V000130
+- name: Debbie Wasserman Schultz
+  party: minority
+  rank: 51
+  bioguide: W000797

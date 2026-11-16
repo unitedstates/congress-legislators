@@ -1,3 +1,9 @@
+# Adding the Tom Lantos Human Rights Commission (HXHR). The House created it with
+# H. Res. 1451 (110th Congress) and it holds hearings like a House committee. Upstream
+# has no entry and congress.gov assigns it no committee code
+# (https://www.congress.gov/committees links out to tlhrc.house.gov), so HXHR is a
+# LegAide-assigned code. No official code starts with HX. Its membership is in
+# committee-membership-manual-addendum.yaml.
 # Adding missing subcommittee to House Committee on Financial Services
 # https://financialservices.house.gov/subcommittees/subcommittee/?IssueID=99491
 - type: house
@@ -6,3 +12,9 @@
   - name: Task Force on Monetary Policy, Treasury Market Resilience, and Economic
       Prosperity
     thomas_id: '98'
+- type: house
+  name: Tom Lantos Human Rights Commission
+  thomas_id: HXHR
+  url: https://humanrightscommission.house.gov
+  address: 4150 O'Neill House Office Building; Washington, DC 20515
+  phone: (202) 225-3599
