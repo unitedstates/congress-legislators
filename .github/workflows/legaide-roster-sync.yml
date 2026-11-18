@@ -23,13 +23,14 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      GH_TOKEN: ${{ github.token }}
     steps:
+      # Upstream's scraper runs before anyone reviews it, so no write
+      # credential is reachable until the final step.
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+          persist-credentials: false
 
       - uses: astral-sh/setup-uv@v6
         with:
@@ -62,9 +63,11 @@ jobs:
       - name: Open or update the sync pull request
         if: steps.sync.outputs.changed == 'true'
         env:
+          GH_TOKEN: ${{ github.token }}
           BRANCH: legaide/roster-sync-${{ steps.sync.outputs.date }}
           TITLE: Sync congress-legislators with upstream (${{ steps.sync.outputs.date }})
         run: |
+          gh auth setup-git
           git add -u
           git diff --cached --quiet || git commit --quiet -m "$TITLE"
           git push --force origin "HEAD:refs/heads/$BRANCH"

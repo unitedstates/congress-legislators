@@ -194,17 +194,23 @@ def survey(repo: Path) -> dict[str, list[dict[str, str]]]:
 
 
 def _owned_ranges(lines: list[str], starts: list[int], limit: int) -> list[tuple[int, int]]:
-    """Give each item from its own comment block through the line before the next item's."""
-    firsts = []
-    for start in starts:
+    """Give each item its directly attached comments, its key, and its body.
+
+    A comment block separated from the next item by a blank line is a section
+    note, not part of the previous item, so a range ends at its last content line.
+    """
+    def is_content(line: str) -> bool:
+        return bool(line.strip()) and not line.lstrip().startswith("#")
+
+    ranges = []
+    for n, start in enumerate(starts):
         first = start
         while first > 0 and lines[first - 1].lstrip().startswith("#"):
             first -= 1
-        firsts.append(first)
-    return [
-        (first, firsts[n + 1] if n + 1 < len(firsts) else limit)
-        for n, first in enumerate(firsts)
-    ]
+        stop = starts[n + 1] if n + 1 < len(starts) else limit
+        end = max(i for i in range(start, stop) if is_content(lines[i])) + 1
+        ranges.append((first, end))
+    return ranges
 
 
 def remove_membership_keys(text: str, keys: set[str]) -> str:
@@ -266,10 +272,19 @@ def apply_removals(repo: Path, redundant: list[dict[str, str]], findings: dict[s
             raise SyncError("removing membership addendum keys changed other data")
     if committee_keys:
         path = repo / COMMITTEES_ADDENDUM
+        before = load_yaml(path)
         path.write_text(remove_committee_subcommittees(path.read_text(), committee_keys))
-        remaining = {item["key"] for item in committee_addendum_status(repo)}
-        if remaining & committee_keys:
-            raise SyncError("committee addendum subcommittees were not removed cleanly")
+        expected = []
+        for committee in before:
+            subs = committee.get("subcommittees") or []
+            kept = [s for s in subs if f"{committee['thomas_id']}{s.get('thomas_id')}" not in committee_keys]
+            if subs and not kept and set(committee) <= {"type", "thomas_id", "subcommittees"}:
+                continue
+            if len(kept) != len(subs):
+                committee = {**committee, "subcommittees": kept or None}
+            expected.append(committee)
+        if load_yaml(path) != expected:
+            raise SyncError("removing committee addendum subcommittees changed other data")
 
 
 def membership_changes(repo: Path, base: str) -> list[str]:

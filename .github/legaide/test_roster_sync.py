@@ -62,6 +62,9 @@ SSBU:
 - name: B
   rank: 1
   bioguide: B000001
+
+# Section note about the HSFA keys below, after a blank line. It stays.
+
 # About HSFA13, which stays.
 HSFA13:
 - name: C
@@ -75,10 +78,13 @@ def test_removing_a_membership_key_takes_only_its_own_block() -> None:
     assert "SSBU" not in result
     assert "# About JCSE, which stays.\nJCSE:" in result
     assert "# About HSFA13, which stays.\nHSFA13:" in result
+    assert "# Section note about the HSFA keys below" in result
     assert set(yaml.safe_load(result)) == {"JCSE", "HSFA13"}
 
 
 COMMITTEES = """\
+# File header about HXHR, separated by a blank line. It stays.
+
 # HSBA gap.
 - type: house
   thomas_id: HSBA
@@ -103,6 +109,7 @@ COMMITTEES = """\
 def test_removing_the_only_subcommittee_drops_a_bare_parent() -> None:
     result = module.remove_committee_subcommittees(COMMITTEES, {"HSBA98"})
     assert "HSBA" not in result and "# HSBA gap." not in result
+    assert result.startswith("# File header about HXHR")
     assert [c["thomas_id"] for c in yaml.safe_load(result)] == ["HSFA", "HXHR"]
 
 
@@ -178,13 +185,25 @@ def test_quiet_day_proposes_nothing(tmp_path, monkeypatch) -> None:
     assert module.run(repo)["changed"] is False
 
 
-def test_upstream_conflict_fails_closed(tmp_path, monkeypatch) -> None:
-    monkeypatch.setattr(module, "merge_upstream", lambda repo: (_ for _ in ()).throw(
-        module.SyncError("upstream merge conflicted and was aborted; a person must merge by hand")))
-    repo = tmp_path / "r"
-    repo.mkdir()
-    git(repo, "init", "-q")
-    git(repo, "commit", "-q", "--allow-empty", "-m", "x", "--author", "t <t@example.com>")
+def test_upstream_conflict_aborts_and_fails_closed(tmp_path) -> None:
+    upstream = tmp_path / "upstream"
+    upstream.mkdir()
+    git(upstream, "init", "-q", "-b", "main")
+    (upstream / "legislators-current.yaml").write_text("a: 1\n")
+    git(upstream, "add", ".")
+    git(upstream, "commit", "-qm", "base")
+    fork = tmp_path / "fork"
+    git(tmp_path, "clone", "-q", str(upstream), str(fork))
+    (fork / "legislators-current.yaml").write_text("a: 2\n")
+    git(fork, "commit", "-qam", "fork edit")
+    (upstream / "legislators-current.yaml").write_text("a: 3\n")
+    git(upstream, "commit", "-qam", "upstream edit")
+    git(fork, "remote", "add", "upstream", str(upstream))
+    git(fork, "fetch", "-q", "upstream")
+    head = git(fork, "rev-parse", "HEAD")
     body = tmp_path / "body.md"
-    assert module.main(["--repo", str(repo), "--body-file", str(body)]) == 1
+
+    assert module.main(["--repo", str(fork), "--body-file", str(body)]) == 1
     assert not body.exists()
+    assert git(fork, "rev-parse", "HEAD") == head
+    assert git(fork, "status", "--porcelain") == ""
