@@ -1,0 +1,80 @@
+# Daily LegAide roster sync. Replaces Bot Chief's congress-legislators-sync
+# routine with no model in the loop: merge upstream, run the committee scraper,
+# drop addendum keys upstream has caught up on, and propose the result as a pull
+# request. LegAide production reads main live and unpinned, so this workflow
+# never pushes to main and never merges; the LegAide Catalog Space reviews the PR.
+name: legaide-roster-sync
+
+on:
+  schedule:
+    # 14:00 UTC is 9:00 a.m. New York standard time (10:00 a.m. in daylight time).
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: legaide-roster-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.14"
+
+      - name: Test the sync script
+        run: uv run --no-project --with pytest --with pyyaml pytest -q -p no:cacheprovider .github/legaide
+        env:
+          GIT_AUTHOR_NAME: test
+          GIT_AUTHOR_EMAIL: test@example.com
+          GIT_COMMITTER_NAME: test
+          GIT_COMMITTER_EMAIL: test@example.com
+
+      - name: Merge upstream, scrape committees, and prune the addendum
+        id: sync
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/unitedstates/congress-legislators.git
+          git fetch --quiet upstream main
+          uv run --no-project --with pyyaml python .github/legaide/roster_sync.py \
+            --body-file "$RUNNER_TEMP/body.md" > "$RUNNER_TEMP/report.json"
+          echo "changed=$(jq -r .changed "$RUNNER_TEMP/report.json")" >> "$GITHUB_OUTPUT"
+          echo "date=$(TZ=America/New_York date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Report a quiet day
+        if: steps.sync.outputs.changed == 'false'
+        run: echo "Nothing needed changing. Upstream, the scraper, and the addendum are all current; no pull request opened." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update the sync pull request
+        if: steps.sync.outputs.changed == 'true'
+        env:
+          BRANCH: legaide/roster-sync-${{ steps.sync.outputs.date }}
+          TITLE: Sync congress-legislators with upstream (${{ steps.sync.outputs.date }})
+        run: |
+          git add -u
+          git diff --cached --quiet || git commit --quiet -m "$TITLE"
+          git push --force origin "HEAD:refs/heads/$BRANCH"
+          existing=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --title "$TITLE" --body-file "$RUNNER_TEMP/body.md"
+            url=$(gh pr view "$existing" --json url --jq .url)
+          elif ! url=$(gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$RUNNER_TEMP/body.md" 2>"$RUNNER_TEMP/pr.err"); then
+            cat "$RUNNER_TEMP/pr.err"
+            echo "::error::Could not open the pull request. Branch $BRANCH is pushed: https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH"
+            exit 1
+          fi
+          echo "Sync pull request: $url" >> "$GITHUB_STEP_SUMMARY"
