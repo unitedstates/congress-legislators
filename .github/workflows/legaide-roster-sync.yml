@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      # Upstream's scraper runs before anyone reviews it, so no write
-      # credential is reachable until the final step.
+      # Upstream's scraper runs before anyone reviews it. Keep the token out of
+      # its environment and out of .git/config; only the final step gets it.
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -69,8 +69,8 @@ jobs:
         run: |
           gh auth setup-git
           git add -u
-          git diff --cached --quiet || git commit --quiet -m "$TITLE"
-          git push --force origin "HEAD:refs/heads/$BRANCH"
+          git diff --cached --quiet || git -c core.hooksPath=/dev/null commit --quiet -m "$TITLE"
+          git -c core.hooksPath=/dev/null push --force origin "HEAD:refs/heads/$BRANCH"
           existing=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number // empty')
           if [ -n "$existing" ]; then
             gh pr edit "$existing" --title "$TITLE" --body-file "$RUNNER_TEMP/body.md"
