@@ -23,7 +23,8 @@
 
 
 # other options:
-#  --service (required): "twitter", "youtube", "facebook", or "instagram"
+#  --service (required): "twitter", "youtube", "facebook", "instagram", "bluesky", "mastodon",
+#      "flickr", "threads", "tiktok", "substack", "linkedin", "medium", "rumble", or "truthsocial"
 #  --bioguide: limit to only one particular member
 #  --email:
 #      in conjunction with --sweep, send an email if there are any new leads, using
@@ -55,7 +56,55 @@ def main():
     ],
     "instagram": [
       "instagram.com/(\w{3,})"
+    ],
+    "bluesky": [
+      "(?:https?:)?//bsky.app/profile/([^\\s\"/\\?#'<>&]+)"
+    ],
+    "mastodon": [
+      "(?:https?:)?//(?:mastodon.(?:social|online|world)|mstdn.social|mas.to|universeodon.com|fosstodon.org)/(@[^\\s\"/\\?#'<>&]+)"
+    ],
+    "flickr": [
+      "(?:https?:)?//(?:www\\.)?flickr.com/photos/([^\\s\"/\\?#'<>&]+)"
+    ],
+    "threads": [
+      "(?:https?:)?//(?:www\\.)?threads.(?:net|com)/@([^\\s\"/\\?#'<>&]+)"
+    ],
+    "tiktok": [
+      "(?:https?:)?//(?:www\\.)?tiktok.com/@([^\\s\"/\\?#'<>&]+)"
+    ],
+    "substack": [
+      "(?:https?:)?//(?:www\\.)?substack.com/@([^\\s\"/\\?#'<>&]+)"
+    ],
+    "linkedin": [
+      "(?:https?:)?//(?:www\\.)?linkedin.com/in/([^\\s\"/\\?#'<>&]+)"
+    ],
+    "medium": [
+      "(?:https?:)?//(?:www\\.)?medium.com/@([^\\s\"/\\?#'<>&]+)"
+    ],
+    "rumble": [
+      "(?:https?:)?//(?:www\\.)?rumble.com/user/([^\\s\"/\\?#'<>&]+)"
+    ],
+    "truthsocial": [
+      "(?:https?:)?//(?:www\\.)?truthsocial.com/@([^\\s\"/\\?#'<>&]+)"
     ]
+  }
+
+  # candidate URL stems for websites (note: may be wrong for Mastodon)
+  url_stems = {
+      "youtube": "https://www.youtube.com/channel/",
+      "facebook": "https://www.facebook.com/",
+      "twitter": "https://www.twitter.com/",
+      "instagram": "https://www.instagram.com/",
+      "bluesky": "https://bsky.app/profile/",
+      "mastodon": "https://mastodon.social/",
+      "flickr": "https://www.flickr.com/photos/",
+      "threads": "https://www.threads.com/@",
+      "tiktok": "https://www.tiktok.com/@",
+      "substack": "https://www.substack.com/@",
+      "linkedin": "https://www.linkedin.com/in/",
+      "medium": "https://www.medium.com/@",
+      "rumble": "https://www.rumble.com/user/",
+      "truthsocial": "https://www.truthsocial.com/@"
   }
 
   email_enabled = utils.flags().get('email', False)
@@ -80,8 +129,9 @@ def main():
     service = "twitter"
   else:
     service = utils.flags().get('service', None)
-  if service not in ["twitter", "youtube", "facebook", "instagram"]:
-    print("--service must be one of twitter, youtube, facebook, or instagram")
+  if service not in ["twitter", "youtube", "facebook", "instagram", "bluesky", "mastodon", "flickr",
+      "threads", "tiktok", "substack", "linkedin", "medium", "rumble", "truthsocial"]:
+    print("--service must be one of twitter, youtube, facebook, instagram, bluesky, mastodon, flickr, threads, tiktok, substack, linkedin, medium, rumble, or truthsocial")
     exit(0)
 
   # load in members, orient by bioguide ID
@@ -95,14 +145,16 @@ def main():
 
   print("Loading blacklist...")
   blacklist = {
-    'twitter': [], 'facebook': [], 'youtube': [], 'instagram': []
+    'twitter': [], 'facebook': [], 'youtube': [], 'instagram': [], 'bluesky': [],  'mastodon': [],  'flickr': [],
+    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': [],  'truthsocial': []
   }
   for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
     blacklist[rec["service"]].append(rec["pattern"])
 
   print("Loading whitelist...")
   whitelist = {
-    'twitter': [], 'facebook': [], 'youtube': []
+    'twitter': [], 'facebook': [], 'youtube': [], 'instagram': [], 'bluesky': [],  'mastodon': [],  'flickr': [],
+    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': [],  'truthsocial': []
   }
   for rec in csv.DictReader(open("data/social_media_whitelist.csv")):
     whitelist[rec["service"]].append(rec["account"].lower())
@@ -357,8 +409,11 @@ def main():
         candidate = candidate_for(bioguide)
         if candidate:
           url = current_bioguide[bioguide]["terms"][-1].get("url", None)
-          candidate_url = "https://%s.com/%s" % (service, candidate)
-          row = [bioguide, current_bioguide[bioguide]['name']['official_full'].encode('utf-8'), url, service, candidate, candidate_url]
+          candidate_url = url_stems[service] + candidate
+          # ensuring full_name in case does not exist
+          name_info = current_bioguide[bioguide].get('name', {})
+          full_name = name_info.get('official_full') or f"{name_info.get('first', '')} {name_info.get('last', '')}".strip()
+          row = [bioguide, full_name.encode('utf-8'), url, service, candidate, candidate_url]
           writer.writerow(row)
           print("\tWrote: %s" % candidate)
           rows_found.append(row)
