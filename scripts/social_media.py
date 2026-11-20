@@ -24,7 +24,7 @@
 
 # other options:
 #  --service (required): "twitter", "youtube", "facebook", "instagram", "bluesky", "mastodon",
-#      "flickr", "threads", "tiktok", "substack", "linkedin", "medium", "rumble", or "truthsocial"
+#      "flickr", "threads", "tiktok", "substack", "linkedin", "medium", or "rumble"
 #  --bioguide: limit to only one particular member
 #  --email:
 #      in conjunction with --sweep, send an email if there are any new leads, using
@@ -83,9 +83,6 @@ def main():
     ],
     "rumble": [
       "(?:https?:)?//(?:www\\.)?rumble.com/user/([^\\s\"/\\?#'<>&]+)"
-    ],
-    "truthsocial": [
-      "(?:https?:)?//(?:www\\.)?truthsocial.com/@([^\\s\"/\\?#'<>&]+)"
     ]
   }
 
@@ -103,8 +100,7 @@ def main():
       "substack": "https://www.substack.com/@",
       "linkedin": "https://www.linkedin.com/in/",
       "medium": "https://www.medium.com/@",
-      "rumble": "https://www.rumble.com/user/",
-      "truthsocial": "https://www.truthsocial.com/@"
+      "rumble": "https://www.rumble.com/user/"
   }
 
   email_enabled = utils.flags().get('email', False)
@@ -130,8 +126,8 @@ def main():
   else:
     service = utils.flags().get('service', None)
   if service not in ["twitter", "youtube", "facebook", "instagram", "bluesky", "mastodon", "flickr",
-      "threads", "tiktok", "substack", "linkedin", "medium", "rumble", "truthsocial"]:
-    print("--service must be one of twitter, youtube, facebook, instagram, bluesky, mastodon, flickr, threads, tiktok, substack, linkedin, medium, rumble, or truthsocial")
+      "threads", "tiktok", "substack", "linkedin", "medium", "rumble"]:
+    print("--service must be one of twitter, youtube, facebook, instagram, bluesky, mastodon, flickr, threads, tiktok, substack, linkedin, medium, or rumble")
     exit(0)
 
   # load in members, orient by bioguide ID
@@ -146,7 +142,7 @@ def main():
   print("Loading blacklist...")
   blacklist = {
     'twitter': [], 'facebook': [], 'youtube': [], 'instagram': [], 'bluesky': [],  'mastodon': [],  'flickr': [],
-    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': [],  'truthsocial': []
+    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': []
   }
   for rec in csv.DictReader(open("data/social_media_blacklist.csv")):
     blacklist[rec["service"]].append(rec["pattern"])
@@ -154,7 +150,7 @@ def main():
   print("Loading whitelist...")
   whitelist = {
     'twitter': [], 'facebook': [], 'youtube': [], 'instagram': [], 'bluesky': [],  'mastodon': [],  'flickr': [],
-    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': [],  'truthsocial': []
+    'threads': [],  'tiktok': [],  'substack': [],  'linkedin': [],  'medium': [],  'rumble': []
   }
   for rec in csv.DictReader(open("data/social_media_whitelist.csv")):
     whitelist[rec["service"]].append(rec["account"].lower())
