@@ -2,7 +2,9 @@
 # routine with no model in the loop: merge upstream, run the committee scraper,
 # drop addendum keys upstream has caught up on, and propose the result as a pull
 # request. LegAide production reads main live and unpinned, so this workflow
-# never pushes to main and never merges; the LegAide Catalog Space reviews the PR.
+# never pushes to main. It merges the pull request only when the sync is
+# upstream-only (roster_sync.py merge_blockers is empty) and the pull request is
+# exactly the commit it pushed; anything else waits for the LegAide Catalog Space.
 name: legaide-roster-sync
 
 on:
@@ -61,6 +63,7 @@ jobs:
         run: echo "Nothing needed changing. Upstream, the scraper, and the addendum are all current; no pull request opened." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Open or update the sync pull request
+        id: pr
         if: steps.sync.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -81,3 +84,34 @@ jobs:
             exit 1
           fi
           echo "Sync pull request: $url" >> "$GITHUB_STEP_SUMMARY"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # The same checks Bot Chief's verifier made before it merged: open PR on
+      # main, exact branch and head commit, expected file scope. A merge commit
+      # keeps upstream's history, so tomorrow's upstream merge stays clean.
+      - name: Merge an upstream-only sync pull request
+        if: steps.sync.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URL: ${{ steps.pr.outputs.url }}
+          HEAD: ${{ steps.pr.outputs.head }}
+          BRANCH: legaide/roster-sync-${{ steps.sync.outputs.date }}
+        run: |
+          blockers=$(jq -r '.merge_blockers | length' "$RUNNER_TEMP/report.json")
+          if [ "$blockers" != "0" ]; then
+            jq -r '.merge_blockers[]' "$RUNNER_TEMP/report.json"
+            echo "Not upstream-only, so the pull request waits for review: $URL" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          pr=$(gh pr view "$URL" --json state,baseRefName,headRefName,headRefOid,files)
+          expected=$(git diff --name-only origin/main HEAD | sort | jq -R . | jq -sc .)
+          actual=$(jq -c '[.files[].path] | sort' <<<"$pr")
+          check() { [ "$2" = "$3" ] || { echo "::error::$1 is $2, expected $3; not merging $URL"; exit 1; }; }
+          check state "$(jq -r .state <<<"$pr")" OPEN
+          check base "$(jq -r .baseRefName <<<"$pr")" main
+          check branch "$(jq -r .headRefName <<<"$pr")" "$BRANCH"
+          check "head commit" "$(jq -r .headRefOid <<<"$pr")" "$HEAD"
+          check "changed files" "$actual" "$expected"
+          gh pr merge "$URL" --merge --match-head-commit "$HEAD"
+          echo "Merged the upstream-only sync: $URL" >> "$GITHUB_STEP_SUMMARY"
