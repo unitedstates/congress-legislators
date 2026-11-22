@@ -5,7 +5,9 @@ This replaces Bot Chief's ``bot-chief-congress-legislators-sync`` routine.  It
 runs inside a GitHub Actions checkout of the fork's ``main`` with an
 ``upstream`` remote already fetched, and it leaves every change uncommitted for
 the workflow to commit on a branch and propose as a pull request.  LegAide
-production reads ``main`` live and unpinned, so nothing here pushes to it.
+production reads ``main`` live and unpinned, so nothing here pushes to it.  The
+workflow merges the pull request only when ``merge_blockers`` is empty: every
+changed file came from the upstream merge, the scraper, or an addendum removal.
 
 The steps match the routine:
 
@@ -312,7 +314,7 @@ def render_body(report: dict[str, Any]) -> str:
     removed = [f"`{item['key']}`: {item['why']}" for item in report["redundant_keys"]]
     roster = report["scraper_committees"]
     return f"""## Summary
-Daily sync of the LegAide fork with `unitedstates/congress-legislators` `main` (upstream head `{report['upstream_head'][:7]}`). Opened by the `legaide-roster-sync` GitHub Actions workflow. It is not merged automatically, because LegAide production reads this repository's `main` live and unpinned.
+Daily sync of the LegAide fork with `unitedstates/congress-legislators` `main` (upstream head `{report['upstream_head'][:7]}`). Opened by the `legaide-roster-sync` GitHub Actions workflow. LegAide production reads this repository's `main` live and unpinned.
 
 ## Upstream changes
 {bullet(upstream, "- None. Upstream had no new commits.")}
@@ -332,8 +334,31 @@ Downstream applies the membership addendum as a full per-key override, so a key 
 Addendum keys kept: {", ".join(kept) or "none"}.
 
 ## Merge decision
-A reviewer should read the upstream and scraper diffs above, confirm each removed addendum key is now correct upstream, and decide whether this data should go live in production. Merging is a person's or the LegAide Catalog review's decision; this workflow never merges.
+{merge_decision(report["merge_blockers"])}
 """
+
+
+def merge_decision(blockers: list[str]) -> str:
+    if not blockers:
+        return ("Upstream-only: every changed file came from the upstream merge, the committee scraper or an "
+                "addendum removal, and the sync tests passed. The workflow merges this pull request at its "
+                "verified head commit.")
+    return ("Not merged automatically, because the sync is not upstream-only:\n" + bullet(blockers, "")
+            + "\n\nA person should review these files and decide whether the data should go live.")
+
+
+def merge_blockers(final_files: list[str], merge_files: list[str], scraper_files: list[str]) -> list[str]:
+    """Reasons the sync is not upstream-only, so a person must review it before it goes live.
+
+    An upstream-only sync changes only what the upstream merge, the committee
+    scraper, and addendum removals produced, and never this repository's
+    workflow or LegAide sync code.
+    """
+    allowed = set(merge_files) | set(scraper_files) | {MEMBERSHIP_ADDENDUM, COMMITTEES_ADDENDUM}
+    blockers = [f"`{f}` changed outside the upstream merge, the scraper and the addendum"
+                for f in final_files if f not in allowed]
+    blockers += [f"`{f}` is workflow or LegAide sync code" for f in final_files if f.startswith(".github/")]
+    return blockers
 
 
 def run(repo: Path) -> dict[str, Any]:
@@ -357,6 +382,7 @@ def run(repo: Path) -> dict[str, Any]:
         raise SyncError("the sync left untracked files")
     final_files = [f for f in git(repo, "diff", "--name-only", base).splitlines() if f]
     return {
+        "merge_blockers": merge_blockers(final_files, merge_files, scraper_files),
         # A quiet day is the common case: upstream added nothing, the scrape
         # moved nothing, and every addendum key still earns its place.
         "changed": bool(merged or final_files or redundant),

@@ -164,6 +164,20 @@ def test_end_to_end_merges_upstream_and_drops_a_redundant_key(tmp_path, monkeypa
     body = module.render_body(report)
     assert "`SSBU`: the scraped data supplies every title" in body
     assert "Senate publishes the SSBU chair" in body
+    assert report["merge_blockers"] == []
+    assert "The workflow merges this pull request" in body
+
+
+def test_a_change_outside_the_upstream_merge_blocks_the_merge() -> None:
+    # An upstream merge that touches workflow code, or any file the merge, scraper and addendum
+    # removals did not produce, is not upstream-only and needs a person.
+    assert module.merge_blockers(
+        [module.MEMBERSHIP_PRIMARY, module.MEMBERSHIP_ADDENDUM], [module.MEMBERSHIP_PRIMARY], []) == []
+    blockers = module.merge_blockers(
+        [".github/workflows/x.yml", "legislators-current.yaml"], [".github/workflows/x.yml"], [])
+    assert blockers == ["`legislators-current.yaml` changed outside the upstream merge, the scraper and the addendum",
+                        "`.github/workflows/x.yml` is workflow or LegAide sync code"]
+    assert "Not merged automatically" in module.merge_decision(blockers)
 
 
 def test_quiet_day_proposes_nothing(tmp_path, monkeypatch) -> None:
